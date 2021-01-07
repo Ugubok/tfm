@@ -1,0 +1,14 @@
+package
+{
+   public class §\b\x07\x02\x07\x04\x02\x05\x01\x01\x04\x06\b§
+   {
+      
+      public static const §\x04\x03\x03\x02\x06\x02\x07\x04\x07\x04\x01\x06§:int = 633 + -632;
+       
+      
+      public function §\b\x07\x02\x07\x04\x02\x05\x01\x01\x04\x06\b§()
+      {
+         super();
+      }
+   }
+}

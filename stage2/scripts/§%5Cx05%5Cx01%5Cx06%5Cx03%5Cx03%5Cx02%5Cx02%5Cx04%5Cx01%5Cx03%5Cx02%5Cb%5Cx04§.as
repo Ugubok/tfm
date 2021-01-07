@@ -1,0 +1,61 @@
+package
+{
+   public class §\x05\x01\x06\x03\x03\x02\x02\x04\x01\x03\x02\b\x04§
+   {
+      
+      public static const §\x05\x03\x06\x03\x02\x06\b\x07\x04\x07\x03\x01\x03§:int = 65535;
+      
+      public static const §\x01\x05\x03\x01\x01\x03\x07\x02\x03\x04\x04\x07§:Number = Math.PI;
+      
+      public static const §\x04\b\x01\x03\x06\x05\x02\x03\x07\x01\x01\b\x02§:int = 6423 + -6421;
+      
+      public static const §\x01\x07\x06\x06\x07\x03\x04\x06\x03\x05\b§:int = 38 + -30;
+      
+      public static var §\x03\x01\x05\x07\x01\x03\x06\x04\x05\b\x07§:int = 2560 + -2048;
+      
+      public static var §\x02\x02\x07\x01\x03\b\x04\b\x07\x02\x01§:int = 8213 + -4117;
+      
+      public static const §\x06\x02\x02\x05\x03\x06\x06\x02\x06\x04\x02\x06§:Number = (822 + -817) / (1693 + -693) + Math.random() * ((2308 + -2307) / (3043 + 996957));
+      
+      public static const §\x05\x01\x04\x03\x03\b\x07\x01\x07\x04\b\x01§:Number = (8741 + -8721) / (4265 + -4255) / ((1474 + 326) / (9515 + -9505)) * §\x05\x01\x06\x03\x03\x02\x02\x04\x01\x03\x02\b\x04§.§\x01\x05\x03\x01\x01\x03\x07\x02\x03\x04\x04\x07§ + Math.random() * ((184 + -183) / (793 + 999207));
+      
+      public static const §\x06\x06\b\x07\x05\x01\x01\x06\x05\x01\x05\x06§:Number = (4585 + -4505) / (2626 + -2616) * §\x05\x01\x06\x03\x03\x02\x02\x04\x01\x03\x02\b\x04§.§\x06\x02\x02\x05\x03\x06\x06\x02\x06\x04\x02\x06§ + Math.random() * ((1981 + -1980) / (3692 + 996308));
+      
+      public static const §\x05\x03\x07\x05\x04\x01\x07\x01\x07\x04\b\x01§:int = 770 + -766;
+      
+      public static const §\x04\x02\x02\x06\x06\x01\x02\x07\x06\x03\x06\x06§:Number = (3099 + -3089) / (2447 + -2437) + Math.random() * ((853 + -852) / (6800 + 993200));
+      
+      public static const §\x02\x05\x07\x06\x02\x03\x04\x01\x03\x07\x05\x06§:Number = (5768 + -5766) / (8967 + -8957) + Math.random() * ((8382 + -8381) / (2989 + 997011));
+      
+      public static const §\x05\x03\x06\x06\x04\x02\x01\x01\x03\b\x06§:Number = (1159 + -1079) / (7532 + -7522) / ((4568 + -2768) / (9795 + -9785)) * §\x05\x01\x06\x03\x03\x02\x02\x04\x01\x03\x02\b\x04§.§\x01\x05\x03\x01\x01\x03\x07\x02\x03\x04\x04\x07§ + Math.random() * ((9431 + -9430) / (8022 + 991978));
+      
+      public static const §\b\b\b\x06\x07\x07\x04\x02\x07\x07\b§:Number = (4681 + -2681) / (3442 + -3432) + Math.random() * ((7080 + -7079) / (2305 + 997695));
+      
+      public static const §\x07\x03\x05\x05\b\b\x02\x05\x02\x03\x06\x02\x07§:Number = §\x05\x01\x06\x03\x03\x02\x02\x04\x01\x03\x02\b\x04§.§\b\b\b\x06\x07\x07\x04\x02\x07\x07\b§ * §\x05\x01\x06\x03\x03\x02\x02\x04\x01\x03\x02\b\x04§.§\b\b\b\x06\x07\x07\x04\x02\x07\x07\b§;
+      
+      public static const §\x03\x03\x07\b\x01\x02\x05\x02\x05\x02\x07\x03§:Number = (1880 + 620) / (8599 + -8589) + Math.random() * ((9428 + -9427) / (9868 + 990132));
+      
+      public static const §\x05\x06\x01\x07\x03\x05\x05\x03\x03\x03\x07\x06\x07§:Number = §\x05\x01\x06\x03\x03\x02\x02\x04\x01\x03\x02\b\x04§.§\x03\x03\x07\b\x01\x02\x05\x02\x05\x02\x07\x03§ * §\x05\x01\x06\x03\x03\x02\x02\x04\x01\x03\x02\b\x04§.§\x03\x03\x07\b\x01\x02\x05\x02\x05\x02\x07\x03§;
+      
+      public static const §\x07\b\x02\x07\b\x03\x07\x05\x04\x04\x05\x06§:Number = (1854 + -1849) / (2331 + -2321) + Math.random() * ((1026 + -1025) / (9939 + 990061));
+      
+      public static const §\x03\x05\x06\x06\x03\x07\b\b\x06\x02\b§:Number = (7115 + -7114) / (5111 + -5011) + Math.random() * ((432 + -431) / (4656 + 995344));
+      
+      public static const §\x02\x03\x07\b\x02\x01\x02\x07\x03\x06\x07\x03\x01§:Number = (1796 + -1776) / (1829 + -1819) / ((3449 + -1649) / (9467 + -9457)) + Math.random() * ((4455 + -4454) / (8872 + 991128));
+       
+      
+      public function §\x05\x01\x06\x03\x03\x02\x02\x04\x01\x03\x02\b\x04§()
+      {
+         super();
+      }
+      
+      public static function §\b\b\x06\x01\x06\x02\b\b\x05\x01\x01§(param1:Boolean) : void
+      {
+         var _loc2_:§\x02\x05\x06\x03\x06\x05\x03\x02\b\x06\x05§ = null;
+         if(!param1)
+         {
+            _loc2_.§\x05\x06\x03\x05\x01\x02\x03\x06\b\x05§++;
+         }
+      }
+   }
+}

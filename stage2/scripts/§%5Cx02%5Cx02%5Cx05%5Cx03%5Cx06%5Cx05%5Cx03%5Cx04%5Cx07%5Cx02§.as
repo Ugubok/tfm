@@ -1,0 +1,20 @@
+package
+{
+   import flash.utils.ByteArray;
+   
+   public class §\x02\x02\x05\x03\x06\x05\x03\x04\x07\x02§ extends §\x01\x02\x07\x07\x01\x01\x06\x01\x05\x01\x01§
+   {
+       
+      
+      public var §\x06\b\x05\x01\x02\x03\x06\x01\b\x06§:String;
+      
+      public var §\b\x06\x04\x06\b\b\x04\x05\x06\b\x06\x01\x06§:String;
+      
+      public function §\x02\x02\x05\x03\x06\x05\x03\x04\x07\x02§(param1:ByteArray)
+      {
+         super(param1);
+         this.§\x06\b\x05\x01\x02\x03\x06\x01\b\x06§ = param1.readUTF();
+         this.§\b\x06\x04\x06\b\b\x04\x05\x06\b\x06\x01\x06§ = param1.readUTF();
+      }
+   }
+}

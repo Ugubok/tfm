@@ -1,0 +1,15 @@
+package
+{
+   public interface §\x02\x03\b\x06\x03\x07\x06\x06\x06\x06\x01\x01\x03§
+   {
+       
+      
+      function get version() : String;
+      
+      function creePaquetEntrant(param1:§\x05\x06\b\x02\x01\x04\x07\x05\x01\x03\x07§, param2:int) : §\x06\x07\x02\x06\x07\x05\x02\x07\b\x01\b\x07§;
+      
+      function traiterPaquetEntrant(param1:int, param2:§\x06\x07\x02\x06\x07\x05\x02\x07\b\x01\b\x07§) : void;
+      
+      function getIdPaquet(param1:§\x07\x04\x05\x03\x03\x07\x06\x02\x06\x03\x04§) : int;
+   }
+}

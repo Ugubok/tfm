@@ -1,0 +1,14 @@
+package
+{
+   public class §\x06\x03\x06\x05\b\x03\x06\x07\x07\x07\x02\x04§
+   {
+      
+      public static var §\b\x03\x02\x01\x02\x07\x04\x05\x05\x01\x07§:Boolean = false;
+       
+      
+      public function §\x06\x03\x06\x05\b\x03\x06\x07\x07\x07\x02\x04§()
+      {
+         super();
+      }
+   }
+}

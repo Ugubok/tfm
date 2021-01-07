@@ -1,0 +1,7 @@
+package
+{
+   public interface §\x06\x02\x04\x04\x04\x03\x02\x03\x06\x05\b§
+   {
+       
+   }
+}

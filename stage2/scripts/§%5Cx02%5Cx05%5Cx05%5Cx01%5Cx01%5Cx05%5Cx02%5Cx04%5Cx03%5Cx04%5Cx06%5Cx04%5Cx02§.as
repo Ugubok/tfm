@@ -1,0 +1,20 @@
+package
+{
+   public class §\x02\x05\x05\x01\x01\x05\x02\x04\x03\x04\x06\x04\x02§
+   {
+       
+      
+      public function §\x02\x05\x05\x01\x01\x05\x02\x04\x03\x04\x06\x04\x02§()
+      {
+         super();
+      }
+      
+      public function §\x04\x05\x07\x07\x02\x03\x04\x05\x01\b\b\x02\x07§() : void
+      {
+      }
+      
+      public function §\x02\b\x06\x05\x06\b\x03\x07\x02\x05\x04\x03§(param1:int) : void
+      {
+      }
+   }
+}
