@@ -17,6 +17,7 @@ report_step() {
 
 die() {
     echo -e "\e[1;31;1m=>\e[0m \e[1m$1\e[0m"
+    exit 1
 }
 
 pushd $DIR > /dev/null
@@ -71,3 +72,7 @@ ffdec -export all stage2/ stage2/stage2.swf \
     || die "Error while exporting stage2"
 
 popd > /dev/null
+
+report_step "Demangling to stage3"
+rm -rf stage3
+utils/demangle.py stage2/scripts stage3
