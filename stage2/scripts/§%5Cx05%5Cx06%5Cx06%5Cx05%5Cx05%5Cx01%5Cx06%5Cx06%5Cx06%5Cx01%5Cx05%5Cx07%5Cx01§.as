@@ -1,7 +1,0 @@
-package
-{
-   public interface §\x05\x06\x06\x05\x05\x01\x06\x06\x06\x01\x05\x07\x01§
-   {
-       
-   }
-}
