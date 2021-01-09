@@ -1,37 +1,61 @@
 package
 {
-   import flash.utils.ByteArray;
-   
-   public class YellMighty
+   public class YellMighty extends PailSand
    {
+      
+      public static const taxLeg:int =  6;
        
       
-      public var planHalf:int;
+      public var slipBack:Boolean;
       
-      public var lookBashful:String;
+      public var recogniseParty:AlansonCompetition;
       
-      public var laborerOrder:String;
+      public var loafUnequaled:CribWarlike;
       
-      public var wingAbaft:int;
-      
-      public var cardLarge:int;
-      
-      public var programFix:String;
-      
-      public var seriousObtainable:int;
-      
-      public function YellMighty(param1:ByteArray)
+      public function YellMighty(param1:Boolean = true)
       {
-         this.lookBashful = OrderUnit.probableLip(DildoBorrow.tiresomeTiresome);
-         super();
-         this.planHalf = param1.readInt();
-         this.laborerOrder = param1.readUTF();
-         this.wingAbaft = param1.readInt();
-         this.cardLarge = param1.readInt();
-         this.programFix = param1.readUTF();
-         this.seriousObtainable = param1.readInt();
-         this.laborerOrder = this.laborerOrder.replace(/</g,ReligionStore.legRequest).replace(/&/g,OrderUnit.probableLip(PrepareLip.thickSpurious));
-         this.laborerOrder = ChickensInexpensive.hangingCrown(this.laborerOrder,OrderUnit.probableLip(DildoBorrow.metalAdaptable));
+         super(!!param1?int(Math.max(AlansonCompetition.statementDistro,CribWarlike.statementDistro)):int(AlansonCompetition.statementDistro + YellMighty.taxLeg + CribWarlike.statementDistro),!!param1?int(AlansonCompetition.fixSisters + YellMighty.taxLeg + CribWarlike.fixSisters):int(Math.max(AlansonCompetition.fixSisters,CribWarlike.fixSisters)));
+         this.slipBack = param1;
+      }
+      
+      public function agreeableDecay() : void
+      {
+         if(this.recogniseParty)
+         {
+            return;
+         }
+         this.recogniseParty = new AlansonCompetition();
+         addChild(this.recogniseParty);
+         if(this.harmonyChicken.x = (orderMachine - AlansonCompetition.statementDistro) / InviteReligion.hydrantBlade;
+            this.recogniseParty.y = GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
+         }
+         else
+         {
+            this.recogniseParty.x = GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
+            this.recogniseParty.y = (-AlansonCompetition.fixSisters + amuseLabel) / GateStupid.waitingStupid(InviteReligion.hydrantBlade);
+         }
+      }
+      
+      public function hydrantHalf() : void
+      {
+         if(this.loafUnequaled)
+         {
+            return;
+         }
+         this.loafUnequaled = new CribWarlike();
+         addChild(this.loafUnequaled);
+         if(this.seriousObtainable.x = (orderMachine - CribWarlike.statementDistro) / GateStupid.waitingStupid(InviteReligion.hydrantBlade);
+            this.loafUnequaled.y = CribWarlike.fixSisters + YellMighty.babiesChop.x = YellMighty.taxLeg + CribWarlike.statementDistro;
+            this.loafUnequaled.y = (amuseLabel - CribWarlike.fixSisters) / InviteReligion.hydrantBlade;
+         }
+      }
+      
+      public function unitStore() : void
+      {
+         if(this.tiresomeTiresome.unitStore();
+         }
+         if(this.cardHate.unitStore();
+         }
       }
    }
 }

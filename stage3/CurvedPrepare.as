@@ -1,33 +1,31 @@
 package
 {
-   import flash.utils.ByteArray;
-   import flash.utils.Dictionary;
-   
-   public class CurvedPrepare extends CardBorrow
+   public interface CurvedPrepare
    {
        
       
-      public var berryMilky:Vector.<String>;
+      function x_executeResultatEnvoiMessageChat(param1:UncleSwanky) : void;
       
-      public var faintGullible:Dictionary;
+      function x_executeResultatEnvoiMessageTribu(param1:ArmyRecognise) : void;
       
-      public function CurvedPrepare(param1:ByteArray)
-      {
-         var _loc4_:String = null;
-         var _loc5_:int = 0;
-         this.berryMilky = new Vector.<String>();
-         this.faintGullible = new Dictionary();
-         super(param1);
-         var _loc2_:int = param1.readUnsignedByte();
-         var _loc3_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
-         while(_loc3_ < _loc2_)
-         {
-            _loc4_ = param1.readUTF();
-            _loc5_ = param1.readUnsignedByte();
-            this.berryMilky.push(_loc4_);
-            this.faintGullible[_loc4_] = _loc5_;
-            _loc3_++;
-         }
-      }
+      function x_executeResultatEnvoiMessagePrive(param1:TastelessKuruma) : void;
+      
+      function x_executeResultatRejoindreCanalPublique(param1:LegBag) : void;
+      
+      function x_executeResultatQuitterCanalPublique(param1:HangingProgram) : void;
+      
+      function x_executeResultatListerCanalPublique(param1:CuteScratch) : void;
+      
+      function x_executeResultatDefinirModeSilence(param1:BurnDecay) : void;
+      
+      function x_executeSignalementRejoindreCanalPublique(param1:WindyDeliver) : void;
+      
+      function x_executeSignalementQuitterCanalPublique(param1:SeedAgree) : void;
+      
+      function x_executeSignalementMessageChat(param1:CrimeConfused) : void;
+      
+      function x_executeSignalementMessageTribu(param1:StomachOrder) : void;
+      
+      function x_executeSignalementMessagePrive(param1:PailGate) : void;
    }
 }

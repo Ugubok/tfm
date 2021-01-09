@@ -1,90 +1,123 @@
 package
 {
-   import flash.display.StageScaleMode;
-   import flash.utils.getTimer;
+   import flash.display.BitmapData;
+   import flash.display.DisplayObject;
+   import flash.display.Sprite;
+   import flash.text.TextField;
    
    public class KnotBird
    {
-      
-      public static const frailStatement:String = "strm";
-      
-      public static var crashAlanson:String = null;
-      
-      public static var patColor:String = null;
-      
-      public static var kotskyProud:int =  0;
-      
-      public static var senseWing:Boolean = false;
-      
-      public static var sighCracker:Boolean = false;
-      
-      public static var requestSand:Boolean = false;
-      
-      public static var pailTiresome:String = null;
        
       
-      public function KnotBird()
+      public var x:int;
+      
+      public var y:int;
+      
+      public var orderMachine:int;
+      
+      public var amuseLabel:int;
+      
+      public var supplyCard:int;
+      
+      public var bladeHarmony:int;
+      
+      public var senseWing:int;
+      
+      public var patColor:int;
+      
+      public var coalCompetition:int;
+      
+      public function KnotBird(param1:int, param2:int, param3:int, param4:int, param5:int)
       {
          super();
+         this.x = param1;
+         this.y = param2;
+         this.orderMachine = param3;
+         this.amuseLabel = param4;
+         this.coalCompetition = param5;
+         this.supplyCard = this.x + this.orderMachine;
+         this.bladeHarmony = this.y + this.amuseLabel;
+         this.senseWing = this.x + this.orderMachine / GateStupid.waitingStupid(InviteReligion.hydrantBlade);
+         this.patColor = this.y + this.amuseLabel / InviteReligion.hydrantBlade;
       }
       
-      public static function armyProgram() : Boolean
+      public function fascinatedAnnoying(param1:DisplayObject) : int
       {
-         return KnotBird.admireZonked() : String
-      {
-         return KnotBird.machineCreator(param1:String) : Boolean
-      {
-         var _loc2_:Array = null;
-         if(param1.indexOf(OrderUnit.probableLip(RayAmuse.annoyingHistorical)) != -CardBabies.machineOranges)
+         if(!param1)
          {
-            _loc2_ = param1.match(/im=([\x03\x02\x05\x04\x03\x06\x02\x04\x04\x04\x02\x06\x02-zA-Z0-((\x04\x01\x07\x07\b\x06\x05\x06\x01\x04\x07\x03\x01.\x03\x07\x04\x04\b\x04\b\b\x02\x06\x06\x03))]+)$/);
-            if(_loc2_)
+            return GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
+         }
+         var _loc2_:int = param1.x - param1.width / InviteReligion.hydrantBlade;
+         var _loc3_:int = param1.y - param1.height / GateStupid.waitingStupid(InviteReligion.hydrantBlade);
+         var _loc4_:int = param1.x;
+         var _loc5_:int = param1.y;
+         var _loc6_:int = param1.x + param1.width / GateStupid.waitingStupid(InviteReligion.hydrantBlade);
+         var _loc7_:int = param1.y + param1.height / InviteReligion.hydrantBlade;
+         if(_loc4_ > this.x && _loc4_ < this.supplyCard && _loc5_ > this.y && _loc5_ < this.bladeHarmony)
+         {
+            return GateStupid.waitingStupid(GullibleCommon.partyEntertaining);
+         }
+         if(_loc4_ > this.x && _loc4_ < this.supplyCard)
+         {
+            if(_loc7_ > this.y && _loc7_ < this.bladeHarmony)
             {
-               KnotBird.crashAlanson = _loc2_[OrderUnit.apatheticRare(CardBabies.machineOranges)];
-               return true;
+               return GateStupid.waitingStupid(InviteReligion.grateCompany);
+            }
+            if(_loc3_ < this.bladeHarmony && _loc3_ > this.y)
+            {
+               return GateStupid.waitingStupid(InviteReligion.hydrantBlade);
             }
          }
-         else if(param1.indexOf(OrderUnit.probableLip(PrepareLip.patBalvanka)) != -CardBabies.machineOranges)
+         else if(_loc5_ > this.y && _loc5_ < this.bladeHarmony)
          {
-            _loc2_ = param1.match(/\/([\x03\x02\x05\x04\x03\x06\x02\x04\x04\x04\x02\x06\x02-zA-Z0-((\x04\x01\x07\x07\b\x06\x05\x06\x01\x04\x07\x03\x01.\x03\x07\x04\x04\b\x04\b\b\x02\x06\x06\x03))]+)\.[\x03\x02\x05\x04\x03\x06\x02\x04\x04\x04\x02\x06\x02-zA-Z0-(\x05\x06\x05\x02\x02\x04\x01\b\x04\b\x07.\x05\x05\x04\x05\x02\x07\x06\x04\x06\x04\x03(\x04\x01\x07\x07\b\x06\x05\x06\x01\x04\x07\x03\x01.\x03\x07\x04\x04\b\x04\b\b\x02\x06\x06\x03))]+$/);
-            if(_loc2_)
+            if(_loc6_ > this.x && _loc6_ < this.supplyCard)
             {
-               KnotBird.crashAlanson = _loc2_[OrderUnit.apatheticRare(CardBabies.machineOranges)];
-               return true;
+               return CuteConfused.trembleChivalrous;
+            }
+            if(_loc2_ < this.supplyCard && _loc2_ > this.x)
+            {
+               return GateStupid.waitingStupid(GullibleCommon.proudFour);
             }
          }
          else
          {
-            if(param1.match(/^([\x03\x02\x05\x04\x03\x06\x02\x04\x04\x04\x02\x06\x02-zA-Z0-(\x05\x06\x05\x02\x02\x04\x01\b\x04\b\x07.\x05\x05\x04\x05\x02\x07\x06\x04\x06\x04\x03(\x04\x01\x07\x07\b\x06\x05\x06\x01\x04\x07\x03\x01.\x03\x07\x04\x04\b\x04\b\b\x02\x06\x06\x03))]+)$/))
+            if(_loc6_ > this.x && _loc6_ < this.supplyCard && _loc7_ > this.y && _loc7_ < this.bladeHarmony)
             {
-               KnotBird.crashAlanson = param1;
-               return true;
+               return GateStupid.waitingStupid(PearInjure.satisfyFaithful);
             }
-            if(param1 === OrderUnit.probableLip(DildoBorrow.metalAdaptable))
+            if(_loc2_ < this.supplyCard && _loc2_ > this.x && _loc7_ > this.y && _loc7_ < this.bladeHarmony)
             {
-               KnotBird.crashAlanson = null;
-               return true;
+               return GateStupid.waitingStupid(VioletPrepare.actionEntertaining);
+            }
+            if(_loc6_ > this.x && _loc6_ < this.supplyCard && _loc3_ < this.bladeHarmony && _loc3_ > this.y)
+            {
+               return FaintHanging.wateryBalvanka;
+            }
+            if(_loc2_ < this.supplyCard && _loc2_ > this.x && _loc3_ < this.bladeHarmony && _loc3_ > this.y)
+            {
+               return EliteProse.zonkedOrange;
             }
          }
-         return false;
+         return GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
       }
       
-      public static function volcanoKnot() : String
+      public function pipkaFrail() : Sprite
       {
-         if(!KnotBird.subduedRobin())
-         {
-            return OrderUnit.probableLip(DildoBorrow.metalAdaptable);
-         }
-         var _loc1_:String = OrderUnit.probableLip(ListIllustrious.lookNotebook);
-         _loc1_ = _loc1_ + (GullibleLook.loafTax + KnotBird.frailStatement + OrderUnit.probableLip(PinusSand.legCurved) + KnotBird.patColor);
-         if(!§toeWarlike\x03\x07\x04\x02\x02\b\x07\x02\b\x06\x07\x02staleMachine\b\x05\x07\x02\b\x03\x04\x05\x07\x05\x06birdReligion\x06\x02\b\x04\b\x02\x07\x01\x03\x04\x03sandTasteless\x02\b\b\x07\x04\x04\x03\x03\x02\x06\x04\x03apatheticFrail\x05\x05\x03\x02\x01\b\x03\x02\x02\x05windyJuice\x07\x06\x06\x02\b\x01\x07\x03\b\x03\x02\b\x01inexpensiveDetermined\x06\x02\b\x04\b\x02\x07\x01\x03\x04\x03pipkaFrail\x05\x05\x03\x02\x01\b\x03\x02\x02\x05pinusRare\x02\b\b\x07\x04\x04\x03\x03\x02\x06\x04\x03orderBlade\x07\x01\x01\x02\x07\x02\x06\x04\b\x05\x01\b\x03rarePrepare\x04\x01\x04\x01\x05\x06\b\x07\x03\x04\x04\x01\x03suzukaRecognise\x02\b\b\x07\x04\x04\x03\x03\x02\x06\x04\x03fascinatedChop\x04\x06\x01\x07\x07\x01\b\x05\b\x05§ = _loc2_;
-         if(_loc2_)
-         {
-            KnotBird.patColor = param1.substr((OrderUnit.probableLip(CardBabies.partyWhisper) + KnotBird.§\x07\x01\x01\x02\x07\x02\x06\x04\b\x05\x01\b\x03stomachCoal\x06\x07\x01\x01\b\x01\x07\b\x02\x02\x03hystericalConfused\x04\x06\x01\x07\x07\x01\b\x05\b\x05determinedBack\x06\x02\b\x04\b\x02\x07\x01\x03\x04\x03probableCrib\x02\x06\x06\x07\b\x07\x02\x05\x01\x06\x01\x07§(param1:Boolean) : void
-      {
-         KnotBird.senseWing = param1;
-         if(getTimer() - KnotBird.§\x02\x02\x03\x01\x06\x01\x05\x04\b\x01gullibleSupply\x02\x02\x03\x01\x06\x01\x05\x04\b\x01§ = getTimer();
-         }
+         var _loc1_:Sprite = null;
+         _loc1_ = new Sprite();
+         var _loc2_:TextField = new TextField();
+         _loc2_.text = GateStupid.grateLoaf(LightSubdued.subduedRobin;
+         var _loc3_:BitmapData = new BitmapData(_loc2_.width,_loc2_.height,true,255);
+         _loc3_.draw(_loc2_);
+         _loc1_.graphics.beginFill(255,FeebleSuzuka.decayCrown);
+         _loc1_.graphics.drawRect(VioletPrepare.obeisantCrib,VioletPrepare.obeisantCrib,this.orderMachine,this.amuseLabel);
+         _loc1_.graphics.endFill();
+         _loc1_.graphics.beginBitmapFill(_loc3_);
+         _loc1_.graphics.drawRect((-_loc3_.width + this.orderMachine) / InviteReligion.hydrantBlade,(-_loc3_.height + this.amuseLabel) / GateStupid.waitingStupid(InviteReligion.hydrantBlade),_loc3_.width,_loc3_.height);
+         _loc1_.graphics.endFill();
+         _loc1_.x = this.x;
+         _loc1_.y = this.y;
+         return _loc1_;
       }
    }
 }

@@ -1,29 +1,66 @@
 package
 {
-   import flash.utils.ByteArray;
+   import flash.display.MovieClip;
+   import flash.display.Sprite;
    
-   public class StupidSerious extends CardBorrow
+   public class StupidSerious extends Sprite
    {
        
       
-      public var swankySisters:int;
+      public var stayLeg:int;
       
-      public var bagUnequaled:int;
+      public var stickUnit:MovieClip;
       
-      public var laborerTax:String;
+      public var hystericalKotsky:int;
       
-      public var lunasoleCute:Boolean;
+      public var lunasoleCute:int;
       
-      public function StupidSerious(param1:ByteArray)
+      public var apatheticSatisfy:int;
+      
+      public function StupidSerious(param1:int, param2:int, param3:int, param4:Number, param5:Number, param6:Number)
       {
-         super(param1);
-         this.swankySisters = param1.readInt();
-         this.bagUnequaled = param1.readByte();
-         if(this.bagUnequaled == OrderUnit.apatheticRare(LargeComplex.balvankaZonked))
+         this.apatheticSatisfy = -GateStupid.waitingStupid(FaintHanging.wateryBalvanka);
+         super();
+         this.stayLeg = param1;
+         this.stickUnit = JoyousVolcano.grateSatisfy(CuteConfused.fragileAdhesive + param1);
+         x = param2;
+         y = param3;
+         this.stickUnit.scaleX = param4;
+         this.stickUnit.scaleY = param5;
+         this.stickUnit.rotation = param6;
+         if(GateStupid.waitingStupid(VioletPrepare.obeisantCrib) == param1)
          {
-            this.laborerTax = param1.readUTF();
+            this.lunasoleCute = VioletPrepare.obeisantCrib;
          }
-         this.lunasoleCute = param1.readBoolean();
+         if(param1 == FaintHanging.wateryBalvanka)
+         {
+            this.lunasoleCute = GateStupid.waitingStupid(EliteProse.zonkedOrange);
+         }
+         if(param1 == GateStupid.waitingStupid(InviteReligion.hydrantBlade))
+         {
+            this.lunasoleCute = GateStupid.waitingStupid(EliteProse.zonkedOrange);
+         }
+         if(param1 == EliteProse.zonkedOrange)
+         {
+            this.lunasoleCute = CuteConfused.trembleChivalrous;
+         }
+         if(GateStupid.waitingStupid(JoyousDelightful.juiceLoaf) == param1)
+         {
+            this.lunasoleCute = FaintHanging.wateryBalvanka;
+         }
+         if(param1 == GateStupid.waitingStupid(CompetitionSqueamish.patFix))
+         {
+            this.lunasoleCute = InviteReligion.hydrantBlade;
+         }
+         if(GateStupid.waitingStupid(InviteReligion.laborerRobin) == param1)
+         {
+            this.lunasoleCute = GullibleCommon.partyEntertaining;
+         }
+         if(GateStupid.waitingStupid(PearInjure.signBag) == param1)
+         {
+            this.lunasoleCute = GateStupid.waitingStupid(GullibleCommon.proudFour);
+         }
+         addChild(this.stickUnit);
       }
    }
 }

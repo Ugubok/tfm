@@ -1,17 +1,28 @@
 package
 {
-   public class LipOranges extends LoafSwanky
+   import flash.utils.ByteArray;
+   import flash.utils.Dictionary;
+   
+   public class LipOranges extends PlanKotsky
    {
        
       
-      public function LipOranges(param1:int, param2:int, param3:int, param4:int, param5:int)
+      public var instructBalvanka:Dictionary;
+      
+      public var noiselessAgreeable:Boolean;
+      
+      public function LipOranges(param1:ByteArray)
       {
-         super(OrderUnit.apatheticRare(GullibleLook.unequaledJumbled),WanderingDecay.illustriousGate);
-         lamentableSpurious.writeByte(param1);
-         lamentableSpurious.writeByte(param2);
-         lamentableSpurious.writeShort(param3);
-         lamentableSpurious.writeShort(param4);
-         lamentableSpurious.writeShort(param5);
+         this.instructBalvanka = new Dictionary();
+         super(param1);
+         var _loc2_:int = param1.readByte();
+         var _loc3_:int = VioletPrepare.obeisantCrib;
+         while(_loc3_ < _loc2_)
+         {
+            this.instructBalvanka[param1.readByte()] = param1.readByte();
+            _loc3_++;
+         }
+         this.noiselessAgreeable = param1.readBoolean();
       }
    }
 }

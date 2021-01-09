@@ -58,7 +58,9 @@ class ClassInfo:
 
     name: str = ""
     is_mangled: bool = False
+
     demangled_identifiers: List[str] = field(default_factory=list)
+    func_arguments: List[str] = field(default_factory=list)
 
     @staticmethod
     def _is_mangled(name):
@@ -80,10 +82,10 @@ class ClassInfo:
                 self.imports_clean += 1
 
         defs = re.findall(
-            r"(public|private) ?(.*) (var|function|const) ([^:=\s\(]+)", self.contents
+            r"(public|private) ?(.*) (var|function|const) ([^:=\s\(]+)(?:\(([^)]*)\))?", self.contents
         )
 
-        for scope, static, def_, name in defs:
+        for scope, static, def_, name, args in defs:
             scope = "pub" if scope == "public" else "priv"
             static = "_s" if static else ""
             def_ = def_[0]
@@ -92,6 +94,31 @@ class ClassInfo:
 
             value = getattr(self, attr)
             setattr(self, attr, value + 1)
+
+            if def_ == "f":
+                arg_types = ""
+
+                for arg in args.split(", "):
+                    if not arg:
+                        arg_types += "-"
+                        continue
+
+                    if arg.startswith("..."):
+                        arg_types += "+"
+                        continue
+
+                    _, type_name = arg.split(":", 1)
+                    default = ""
+
+                    if "=" in type_name:
+                        type_name, default = type_name.split(" = ", 1)
+
+                    if self._is_mangled(type_name):
+                        type_name = "!"
+
+                    arg_types += type_name[:4] + (f"={default[0]}" if default else "")
+
+                self.func_arguments.append(arg_types)
 
             if not self._is_mangled(name):
                 self.demangled_identifiers.append(name)
@@ -117,6 +144,8 @@ class ClassInfo:
             ("xref_count", self.xref_count, 5, 3),
             ("imports_clean", self.imports_clean, 5, 2),
             ("imports_mangled", self.imports_mangled, 5, 2),
+            ("demangled_identifiers", self.demangled_identifiers, 5, 2),
+            ("func_arguments", self.func_arguments, 5, 3),
         )
 
     def get_eq_coefficient(self, other) -> (float, List[tuple]):
@@ -141,7 +170,14 @@ class ClassInfo:
                 result_stat.append((key, a_value, b_value, step * weight))
                 continue
 
-            diff = abs(a_value - b_value)
+            if type(a_value) is int:
+                diff = abs(a_value - b_value)
+            else:
+                diff = abs(len(a_value) - len(b_value))
+
+                for a_item, b_item in zip(a_value, b_value):
+                    if a_item != b_item:
+                        diff += 1
 
             if diff > tolerance:
                 result_stat.append((key, a_value, b_value, 0.0))
@@ -203,6 +239,7 @@ class ClassInfoDB(object):
         f_priv_s: int
 
         demangled_identifiers: List[str]
+        func_arguments: List[str]
 
     def __init__(self, db_path):
         self.db_path = db_path
@@ -417,6 +454,12 @@ def count_xrefs(file_map):
 def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
     pb = ProgressBar(total=len(file_map), length=80)
 
+    just_populate = False
+
+    if db.count() == 0:
+        print("  ! DB is empty. Repopulate without associating anything")
+        just_populate = True
+
     for _, cls in file_map.items():
         pb.tick()
 
@@ -424,6 +467,10 @@ def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
             continue
 
         cls.name = get_demangled_name(cls.name)
+
+        if just_populate:
+            db.store(cls)
+            continue
 
         if db.get_by_name(cls.name):
             other = db.get_by_name(cls.name)
@@ -452,10 +499,6 @@ def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
         for entry in report:
             logging.info(f"    {entry[0]:24s}" + "\t".join(map(str, entry[1:])))
 
-        logging.info("    cls demangled_id" + ",".join(cls.demangled_identifiers))
-        logging.info("    dst demangled_id" + ",".join(similar.demangled_identifiers))
-        logging.info(f"    cls path {cls.file_path}")
-        logging.info(f"    dst path {similar.file_path}")
     pb.done()
 
 
