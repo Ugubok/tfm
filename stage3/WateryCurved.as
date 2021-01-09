@@ -1,88 +1,68 @@
 package
 {
-   import flash.display.Bitmap;
-   import flash.display.Sprite;
-   import flash.text.TextField;
+   import flash.utils.ByteArray;
    
-   public class WateryCurved
+   public class WateryCurved implements StickWindy, SeriousCoal
    {
-      
-      public static var agonizingCrown:WateryCurved;
        
       
-      public var inexpensiveCry:Function;
+      public var spuriousMachine:KotskyVolcano;
       
-      public var chivalrousProse:Function;
+      public var idSequence:int;
       
-      public var scratchThick:String;
+      public var unclePrepare:int;
       
-      public function WateryCurved()
+      public var rareAdhesive:GateSand;
+      
+      public function WateryCurved(param1:KotskyVolcano)
       {
          super();
-         WateryCurved.agonizingCrown = this;
+         this.spuriousMachine = param1;
       }
       
-      public function x_defImageLogin(param1:Bitmap) : void
+      public function getIdSequence() : int
       {
-         ProseChop.unitIllustrious(param1);
+         return this.idSequence;
       }
       
-      public function x_recupImageDistante(param1:String) : Bitmap
+      public function get largeSeed() : String
       {
-         return HistoricalProse.stupidLook(param1,CardKuruma.pinusFaithful);
+         return JoyousRare.adaptableSpurious;
       }
       
-      public function bladeGrate(param1:QuirkyTouch) : void
+      public function get typeTaille() : int
       {
-         this.inexpensiveCry(param1.buryScratch,param1.patLoaf);
+         return PrepareComplex.inexpensiveCry;
       }
       
-      public function x_recupChat(param1:int, param2:int) : Sprite
+      public function obtainableKotsky() : Boolean
       {
-         var _loc3_:ToeFaithful = ToeFaithful.planJumbled();
-         _loc3_.fixAgreeable(param1,param2);
-         return _loc3_;
+         return false;
       }
       
-      public function x_changerTempsDecoAFK(param1:int) : void
+      public function flowerCrime() : int
       {
-         JumbledFix.bashfulBruise.metalCry = LaborerChop.uncleRobin(BatheConfused.hatefulAgreeable) * param1;
+         return DeterminedSatisfy.crownMetal(SighLunasole.mightyParty);
       }
       
-      public function x_envoyerMessageVersServeur(param1:int, param2:Array) : void
+      public function lecture(param1:ByteArray) : void
       {
-         EntertainingBlade.laborerWarlike.companyWandering(new StupidSand(param1,param2));
+         this.idSequence = param1.readInt();
+         this.unclePrepare = param1.readByte();
+         var _loc2_:EntertainingToe = this.spuriousMachine.recupereSequence(this.idSequence);
+         if(_loc2_ != null)
+         {
+            if(_loc2_ is GateSand)
+            {
+               this.rareAdhesive = GateSand(_loc2_);
+               this.rareAdhesive.annoyingJuice = this;
+            }
+         }
       }
       
-      public function adaptableSpurious(param1:String) : void
+      public function get loafDildo() : int
       {
-         this.chivalrousProse(param1);
-      }
-      
-      public function x_defAdresseIPServeur(param1:String) : void
-      {
-         this.scratchThick = param1;
-      }
-      
-      public function x_rechargerLuaServeur(param1:String) : void
-      {
-         EntertainingBlade.laborerWarlike.companyWandering(new BruiseSeed(param1));
-      }
-      
-      public function x_recupChampsTexteEntree() : TextField
-      {
-         return ToeFaithful.planJumbled().coalHate();
-      }
-      
-      public function x_initialisationRetour(param1:Function, param2:Function) : void
-      {
-         this.inexpensiveCry = param1;
-         this.chivalrousProse = param2;
-      }
-      
-      public function x_defNomJeuModule801(param1:String) : void
-      {
-         AnnoyingJuice.burnWicked = param1;
+         return DeterminedSatisfy.crownMetal(LargeSand.religionBlade);
       }
    }
 }

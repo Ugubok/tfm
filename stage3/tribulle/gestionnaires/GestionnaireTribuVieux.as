@@ -63,7 +63,7 @@ package tribulle.gestionnaires
       
       private var ignorerInvitationsTribu:Boolean;
       
-      public function GestionnaireTribuVieux(param1:PrivateClass#91)
+      public function GestionnaireTribuVieux(param1:PrivateClass#37)
       {
          super();
          VieuxCategorieTribu.ResultatInformationsTribu.add(this.onResultatInformationsTribu);
@@ -96,7 +96,7 @@ package tribulle.gestionnaires
       {
          if(_singleton == null)
          {
-            _singleton = new GestionnaireTribuVieux(new PrivateClass#91());
+            _singleton = new GestionnaireTribuVieux(new PrivateClass#37());
          }
          return _singleton;
       }
@@ -673,11 +673,11 @@ package tribulle.gestionnaires
    }
 }
 
-class PrivateClass#91
+class PrivateClass#37
 {
     
    
-   function PrivateClass#91()
+   function PrivateClass#37()
    {
       super();
    }

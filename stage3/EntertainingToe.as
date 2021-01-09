@@ -1,22 +1,17 @@
 package
 {
-   public class EntertainingToe
+   import flash.utils.ByteArray;
+   
+   public interface EntertainingToe
    {
-      
-      public static const senseInstruct:int =  0;
-      
-      public static const feebleWarlike:int =  1;
-      
-      public static const hydrantOranges:int =  2;
-      
-      public static const milkyPear:int =  3;
-      
-      public static const staleLabel:int =  4;
        
       
-      public function EntertainingToe()
-      {
-         super();
-      }
+      function get hateProbable() : IcyBird;
+      
+      function set hateProbable(param1:IcyBird) : void;
+      
+      function feebleWarlike() : int;
+      
+      function ecriture(param1:ByteArray) : void;
    }
 }

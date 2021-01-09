@@ -1,53 +1,36 @@
 package
 {
-   import flash.utils.ByteArray;
-   
-   public class CrownClub extends StupidDildo implements KotskyTasteless
+   public class CrownClub
    {
+      
+      public static const inexpensiveInstruct:int =  0;
+      
+      public static const religionYell:int =  1;
+      
+      public static const windyFaint:int =  2;
        
       
-      public var idSequence:int;
+      public var largeHysterical:SuperSisters;
       
-      public var tastelessHydrant:String;
+      public var mouseWhisper:int;
       
-      public var mouseWhisper:RequestJoyous;
+      public var berryObtainable:int;
       
-      public function CrownClub(param1:int, param2:String)
+      public var decayGrate:int;
+      
+      public var cribStale:int;
+      
+      public var cardLeg:int;
+      
+      public function CrownClub(param1:SuperSisters, param2:int, param3:int, param4:int, param5:int, param6:int)
       {
          super();
-         this.idSequence = param1;
-         this.tastelessHydrant = param2;
-      }
-      
-      public function getIdSequence() : int
-      {
-         return this.idSequence;
-      }
-      
-      public function get unequaledJumbled() : String
-      {
-         return ReligionPear.stupidNotebook;
-      }
-      
-      public function get typeTaille() : int
-      {
-         return HalfPeck.fourKnot;
-      }
-      
-      public function cardToe() : Boolean
-      {
-         return false;
-      }
-      
-      override public function yellParty() : int
-      {
-         return ScaleIcy.chopProgram + this.tastelessHydrant.length;
-      }
-      
-      override public function ecriture(param1:ByteArray) : void
-      {
-         param1.writeInt(this.idSequence);
-         param1.writeUTF(this.tastelessHydrant);
+         this.largeHysterical = param1;
+         this.mouseWhisper = param2;
+         this.berryObtainable = param3;
+         this.decayGrate = param4;
+         this.cribStale = param5;
+         this.cardLeg = param6;
       }
    }
 }

@@ -2,60 +2,67 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class NotebookHateful implements RayChickens
+   public class NotebookHateful implements StickWindy, SeriousCoal
    {
        
       
-      public var cardFaithful:ComplexTouch;
+      public var annoyingBack:KotskyVolcano;
       
-      public var quirkyHate:String;
+      public var idSequence:int;
       
-      public var labelYell:int;
+      public var creatorJumbled:int;
       
-      public var recogniseGaping:String;
+      public var windyLeg:SubduedChivalrous;
       
-      public var patToe:String;
-      
-      public function NotebookHateful(param1:ComplexTouch)
+      public function NotebookHateful(param1:KotskyVolcano)
       {
          super();
-         this.cardFaithful = param1;
+         this.annoyingBack = param1;
       }
       
-      public function get unequaledJumbled() : String
+      public function getIdSequence() : int
       {
-         return ReligionPear.stupidNotebook;
+         return this.idSequence;
+      }
+      
+      public function get laborerProud() : String
+      {
+         return JoyousRare.sighHydrant;
       }
       
       public function get typeTaille() : int
       {
-         return HalfPeck.fourKnot;
+         return PrepareComplex.labelYell;
       }
       
-      public function cardToe() : Boolean
+      public function abaftSeed() : Boolean
       {
          return false;
       }
       
-      public function yellParty() : int
+      public function crashToe() : int
       {
-         return CardKuruma.bruiseHateful + this.quirkyHate.length + this.recogniseGaping.length + this.patToe.length;
+         return DeterminedSatisfy.crowdedHydrant(SighLunasole.partySuper);
       }
       
       public function lecture(param1:ByteArray) : void
       {
-         var _loc2_:int = param1.readShort();
-         this.quirkyHate = param1.readUTFBytes(_loc2_);
-         this.labelYell = param1.readInt();
-         var _loc3_:int = param1.readShort();
-         this.recogniseGaping = param1.readUTFBytes(_loc3_);
-         var _loc4_:int = param1.readShort();
-         this.patToe = param1.readUTFBytes(_loc4_);
+         this.idSequence = param1.readInt();
+         this.creatorJumbled = param1.readByte();
+         var _loc2_:EntertainingToe = this.annoyingBack.recupereSequence(this.idSequence);
+         if(_loc2_ != null)
+         {
+            if(_loc2_ is SubduedChivalrous)
+            {
+               this.windyLeg = SubduedChivalrous(_loc2_);
+               this.windyLeg.quirkySqueamish = this;
+            }
+         }
       }
       
-      public function get scaleFeeble() : int
+      public function get determinedBag() : int
       {
-         return SqueamishFaithful.crimeRequest;
+         return DeterminedSatisfy.crowdedHydrant(CrackerScratch.colorNoxious);
       }
    }
 }

@@ -523,12 +523,14 @@ def demangle_contents(file_map: TFileMap):
     for cls in mangled_classes:
         pb.tick()
         for i, identifier in enumerate(set(re.findall("§[^§]+§", cls.contents))):
-            if identifier in demangled_identifiers:
-                continue
+            #if identifier in demangled_identifiers:
+            #    continue
 
             seed = cls.name + f"_{i}"
             demangled = get_demangled_name(seed, capitalize=False)
-            replace_everywhere(file_map, identifier, demangled)
+
+            cls.contents = cls.contents.replace(identifier, demangled)
+            # replace_everywhere(file_map, identifier, demangled)
 
             demangled_identifiers.add(identifier)
     pb.done()

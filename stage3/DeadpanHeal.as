@@ -2,57 +2,43 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class DeadpanHeal implements RayChickens
+   public class DeadpanHeal extends NotebookAdvise
    {
        
       
-      public var cardFaithful:ComplexTouch;
+      public var bruiseDeliver:int;
       
-      public var gapingNoiseless:String;
+      public var seedGround:int;
       
-      public var unitKuruma:String;
+      public var thickBurn:int;
       
-      public var hatefulApathetic:String;
+      public var whistleStale:String;
       
-      public function DeadpanHeal(param1:ComplexTouch)
+      public var chopBlade:String;
+      
+      public var faintPipka:int;
+      
+      public var fixGrate:Boolean;
+      
+      public function DeadpanHeal(param1:ByteArray)
       {
-         super();
-         this.cardFaithful = param1;
-      }
-      
-      public function get unequaledJumbled() : String
-      {
-         return ReligionPear.stupidNotebook;
-      }
-      
-      public function get typeTaille() : int
-      {
-         return HalfPeck.fourKnot;
-      }
-      
-      public function cardToe() : Boolean
-      {
-         return false;
-      }
-      
-      public function yellParty() : int
-      {
-         return ScaleIcy.chopProgram + this.gapingNoiseless.length + this.unitKuruma.length + this.hatefulApathetic.length;
-      }
-      
-      public function lecture(param1:ByteArray) : void
-      {
-         var _loc2_:int = param1.readShort();
-         this.gapingNoiseless = param1.readUTFBytes(_loc2_);
-         var _loc3_:int = param1.readShort();
-         this.unitKuruma = param1.readUTFBytes(_loc3_);
-         var _loc4_:int = param1.readShort();
-         this.hatefulApathetic = param1.readUTFBytes(_loc4_);
-      }
-      
-      public function get scaleFeeble() : int
-      {
-         return DelightfulAdmire.agonizingBalvanka;
+         super(param1);
+         this.bruiseDeliver = param1.readInt();
+         this.seedGround = param1.readShort();
+         this.thickBurn = param1.readByte();
+         this.whistleStale = proseWindy();
+         this.chopBlade = param1.readUTF();
+         this.faintPipka = param1.readByte();
+         this.fixGrate = param1.readBoolean();
+         if(this.whistleStale == SighLunasole.decaySuzuka)
+         {
+            this.whistleStale = null;
+         }
+         if(param1.bytesAvailable)
+         {
+            this.chopBlade = SighLunasole.decaySuzuka;
+            this.faintPipka = LargeSand.faithfulSigh;
+         }
       }
    }
 }

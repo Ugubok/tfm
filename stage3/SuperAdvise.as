@@ -2,38 +2,27 @@ package
 {
    public class SuperAdvise
    {
-      
-      public static var actionAir:String = LaborerChop.stickScratch("");
        
+      
+      public var rayHate:uint = 1;
+      
+      public var statementDelightful:uint = 65535;
+      
+      public var agonizingFour:int;
       
       public function SuperAdvise()
       {
+         this.agonizingFour = LargeSand.agonizingAdaptable;
          super();
       }
       
-      public static function agonizingFour(param1:String) : void
+      public function stomachQuirky() : SuperAdvise
       {
-         SuperAdvise.actionAir = param1;
-      }
-      
-      public static function rayHate() : String
-      {
-         var _loc1_:String = SuperAdvise.actionAir;
-         SuperAdvise.stomachQuirky();
+         var _loc1_:SuperAdvise = new SuperAdvise();
+         _loc1_.rayHate = this.rayHate;
+         _loc1_.statementDelightful = this.statementDelightful;
+         _loc1_.agonizingFour = this.agonizingFour;
          return _loc1_;
-      }
-      
-      public static function stomachQuirky() : void
-      {
-         if(BagFaithful.tastelessWarlike && !BagFaithful.babiesCoal)
-         {
-            EntertainingBlade.laborerWarlike.companyWandering(new PipkaAgree());
-         }
-      }
-      
-      public static function chickensSand() : Boolean
-      {
-         return SuperAdvise.actionAir && SuperAdvise.actionAir.length > LaborerChop.uncleRobin(ScaleIcy.wanderingCrowded);
       }
    }
 }
