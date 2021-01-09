@@ -322,7 +322,7 @@ class ClassInfoDB(object):
     def get_all(self) -> tuple[ClassInfo]:
         return tuple(self._store.values())
 
-    def find_similar(self, cls: ClassInfo, threshold: float = 0.98):
+    def find_similar(self, cls: ClassInfo, threshold: float = 0.90):
         k2c = {}  # {coefficient: cls}
 
         for _, c in self._store.items():
