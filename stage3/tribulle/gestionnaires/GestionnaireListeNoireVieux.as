@@ -25,7 +25,7 @@ package tribulle.gestionnaires
       
       private var _composant:ComposantAmis;
       
-      public function GestionnaireListeNoireVieux(param1:PrivateClass#20)
+      public function GestionnaireListeNoireVieux(param1:PrivateClass#84)
       {
          this._indexJoueursIgnores = new Dictionary();
          super();
@@ -41,7 +41,7 @@ package tribulle.gestionnaires
       {
          if(_singleton == null)
          {
-            _singleton = new GestionnaireListeNoireVieux(new PrivateClass#20());
+            _singleton = new GestionnaireListeNoireVieux(new PrivateClass#84());
          }
          return _singleton;
       }
@@ -135,11 +135,11 @@ package tribulle.gestionnaires
    }
 }
 
-class PrivateClass#20
+class PrivateClass#84
 {
     
    
-   function PrivateClass#20()
+   function PrivateClass#84()
    {
       super();
    }

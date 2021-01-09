@@ -1,176 +1,62 @@
 package
 {
-   import flash.display.Sprite;
+   import flash.display.DisplayObjectContainer;
+   import flash.utils.Dictionary;
+   import tribulle.ClientTribulle;
+   import tribulle.composants.ComposantAmis;
    
-   public class CommonSerious extends Sprite
+   public class CommonSerious
    {
       
-      public static var commonClub:CommonSerious;
+      public static var laborerGaping:CommonSerious;
        
       
-      public var lightPinus:int;
+      public var birdObeisant:ComposantAmis;
       
-      public var warlikeAnus:String;
-      
-      public var warlikeFaithful:Sprite;
-      
-      public var windyRecognise:Boolean = false;
-      
-      public var noxiousAnus:InjureBruise;
-      
-      public var gateIcy:PartyPrepare;
-      
-      public var chivalrousLaborer:Number;
-      
-      public var adhesiveIllustrious:Number;
-      
-      public var taxFaithful:Boolean = false;
-      
-      public var zonkedIllustrious:Number;
-      
-      public var commonLoaf:Number;
-      
-      public var bruiseRare:Number;
-      
-      public var coalWindy:Number;
-      
-      public var fascinatedJumbled:Number;
-      
-      public var unitEntertaining:Number;
-      
-      public var touchAdaptable:Number;
-      
-      public var machineBashful:BorrowUnit;
-      
-      public var quirkyInvite:Number;
-      
-      public var pearBalvanka:Boolean = false;
-      
-      public var mouseBurn:Number;
-      
-      public var feebleLarge:int;
-      
-      public var instructApathetic:Boolean = false;
-      
-      public var loafPail:int;
-      
-      public var laborerGaping:int;
-      
-      public var largeOrange:Sprite;
-      
-      public var mouseScintillating:Boolean = false;
-      
-      public function CommonSerious(param1:int, param2:String, param3:Boolean)
+      public function CommonSerious(param1:DisplayObjectContainer)
       {
-         var _loc4_:NoiselessWarlike = null;
-         this.chivalrousLaborer = GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
-         this.zonkedIllustrious = VioletPrepare.obeisantCrib;
-         this.commonLoaf = GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
-         this.bruiseRare = EliteProse.zonkedOrange;
-         this.coalWindy = VioletPrepare.obeisantCrib;
-         this.orangesReligion;
-         this.unitEntertaining = GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
-         this.touchAdaptable = GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
-         this.quirkyInvite = GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
-         this.mouseBurn = VioletPrepare.obeisantCrib;
-         this.laborerGaping = VioletPrepare.obeisantCrib;
          super();
-         this.lightPinus = param1;
-         this.warlikeAnus = param2;
-         if(param3)
+         if(CommonSerious.laborerGaping != null)
          {
-            CommonSerious.commonClub = this;
+            throw new Error(PipkaArmy.cribSwanky);
          }
-         this.windyRecognise = param3;
-         _loc4_ = new NoiselessWarlike(BruiseScale.labelSwanky,EliteProse.tiresomeScintillating,EliteProse.agonizingFragile);
-         _loc4_.x = -EliteProse.deliverInexpensive;
-         _loc4_.y = -BuryClub.proseAdvise;
-         this.warlikeFaithful = new Sprite();
-         this.warlikeFaithful.addChild(_loc4_);
-         addChild(this.warlikeFaithful);
-         this.noxiousAnus = new InjureBruise(VioletPrepare.obeisantCrib,GateStupid.waitingStupid(VioletPrepare.obeisantCrib),GateStupid.waitingStupid(PearInjure.uncleKnife),GateStupid.waitingStupid(PearInjure.uncleKnife),CompanyApathetic.coalSeed.thickHysterical);
-         this.noxiousAnus.x = -CuteConfused.crackerAnus;
-         this.noxiousAnus.y = -GateStupid.waitingStupid(LightSubdued.grateWatery);
-         addChild(this.noxiousAnus);
-         this.largeOrange = new Sprite();
-         this.largeOrange.y = -VioletPrepare.crashVolcano;
-         this.largeOrange.x = GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
-         this.largeOrange.cacheAsBitmap = FourSense.faithfulLarge;
-         this.gateIcy = new PartyPrepare(param2,VioletPrepare.obeisantCrib,GateStupid.waitingStupid(VioletPrepare.obeisantCrib),GateStupid.waitingStupid(VioletPrepare.obeisantCrib),!!param3?int(FaintHanging.wateryBalvanka):int(CuteConfused.trembleChivalrous));
-         this.gateIcy.y = -EliteProse.squeamishBird;
-         addChild(this.gateIcy);
+         var _loc2_:Dictionary = new Dictionary();
+         _loc2_[FlowerAnus.orangesReligion] = HistoricalProse.unequaledBack(LaborerChop.stickScratch(FlowerAnus.orangesReligion));
+         _loc2_[LaborerChop.stickScratch(SenseDeadpan.lightCompetition)] = HistoricalProse.unequaledBack(LaborerChop.stickScratch(SenseDeadpan.lightCompetition));
+         _loc2_[LaborerChop.stickScratch(SuperReligion.buryMighty)] = HistoricalProse.unequaledBack(SuperReligion.buryMighty);
+         _loc2_[SqueamishFaithful.largeOrange] = HistoricalProse.unequaledBack(SqueamishFaithful.largeOrange);
+         _loc2_[LaborerChop.stickScratch(ReligionPear.rayDildo)] = HistoricalProse.unequaledBack(ReligionPear.rayDildo);
+         _loc2_[BatheConfused.lunasoleToe] = HistoricalProse.unequaledBack(LaborerChop.stickScratch(BatheConfused.lunasoleToe));
+         _loc2_[LaborerChop.stickScratch(PipkaArmy.crimeSupply)] = HistoricalProse.unequaledBack(LaborerChop.stickScratch(PipkaArmy.crimeSupply));
+         _loc2_[LaborerChop.stickScratch(SuzukaScintillating.stayAbaft)] = HistoricalProse.unequaledBack(LaborerChop.stickScratch(SuzukaScintillating.stayAbaft));
+         _loc2_[LaborerChop.stickScratch(AirSuzuka.healGullible)] = HistoricalProse.unequaledBack(AirSuzuka.healGullible);
+         _loc2_[LaborerChop.stickScratch(NotebookJumbled.programProse)] = HistoricalProse.unequaledBack(LaborerChop.stickScratch(NotebookJumbled.programProse));
+         ClientTribulle.getInstance().addRessources(_loc2_);
+         this.birdObeisant = ClientTribulle.getInstance().x_ajouteComposantListeAmis(param1);
       }
       
-      public function cribSwanky = -GateStupid.waitingStupid(GullibleCommon.partyEntertaining);
-         this.mouseBurn = this.machineBashful.inviteNotebook + Math.sin(this.machineBashful.tastelessCry) * this.quirkyInvite;
-         this.commonLoaf = this.mouseBurn;
-         this.instructApathetic = FourSense.faithfulLarge;
-         this.loafPail = GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
-         this.laborerGaping = SqueamishStatement.superDeliver();
-         this.pearBalvanka = FourSense.faithfulLarge;
-      }
-      
-      public function squeamishThick = FourSense.competitionNotebook;
-         if(this.programProse);
-         }
-      }
-      
-      public function cribObtainable(param1:int) : void
+      public static function getInstance() : CommonSerious
       {
-         this.mouseScintillating = FourSense.faithfulLarge;
-         while(this.largeOrange.numChildren)
-         {
-            this.largeOrange.removeChildAt(VioletPrepare.obeisantCrib);
-         }
-         addChild(this.largeOrange);
-         this.largeOrange.addChild(JoyousVolcano.grateSatisfy(BruiseScale.anusLip + param1,true));
+         return CommonSerious.laborerGaping;
       }
       
-      public function slipTiresome(param1:Boolean = false) : void
+      public static function fascinatedGrate() : void
       {
-         if(this.windyRecognise)
-         {
-            PlanCompany.bagPrepare.bruiseLip(QuirkyProgram.birdHateful(CompanyApathetic.coalSeed.obeisantInjure.lipLunasole,this.quirkyInvite * CuteConfused.crackerAnus,this.coalWindy * GullibleCommon.orderAgonizing,param1));
-         }
+         CommonSerious.laborerGaping = new CommonSerious(NoxiousVolcano.orangesBalvanka(StatementInjure.seedHanging));
+         NoxiousVolcano.berryArmy(CommonSerious.laborerGaping.birdObeisant,StatementInjure.seedHanging);
+         CommonSerious.laborerGaping.birdObeisant.x_masquer();
       }
       
-      public function chivalrousCard() : Boolean
+      public function dildoProse() : void
       {
-         if(this.taxFaithful || !CommonSerious.commonClub)
+         if(!this.birdObeisant.x_affichee)
          {
-            return false;
+            this.birdObeisant.x_afficher();
          }
-         var _loc1_:int = Math.abs(this.zonkedIllustrious - CommonSerious.commonClub.zonkedIllustrious);
-         if(_loc1_ > JoyousDelightful.patPinus / InviteReligion.hydrantBlade)
+         else
          {
-            return false;
+            this.birdObeisant.x_masquer();
          }
-         var _loc2_:int = Math.abs(this.commonLoaf - CommonSerious.commonClub.commonLoaf);
-         if(_loc2_ > GateStupid.waitingStupid(CompetitionSqueamish.chivalrousGround) / GateStupid.waitingStupid(InviteReligion.hydrantBlade))
-         {
-            return false;
-         }
-         return true;
-      }
-      
-      public function feebleSqueamish = EliteProse.historicalCreator();
-         this.commonLoaf = GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
-         this.zonkedIllustrious = GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
-         this.unitEntertaining = GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
-         this.mouseBurn = VioletPrepare.obeisantCrib;
-         this.quirkyInvite = GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
-         this.taxFaithful = FourSense.competitionNotebook;
-         this.coalWindy = GateStupid.waitingStupid(VioletPrepare.obeisantCrib);
-         this.pearBalvanka = FourSense.competitionNotebook;
-         this.mouseScintillating = FourSense.competitionNotebook;
-         this.touchAdaptable = VioletPrepare.obeisantCrib;
-         this.gapingPear();
-      }
-      
-      public function programLabel(param1:Number) : void
-      {
-         this.chivalrousLaborer = param1;
-         this.warlikeFaithful[BuryClub.fragileSatisfy] = param1;
       }
    }
 }

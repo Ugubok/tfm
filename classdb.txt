@@ -2,942 +2,942 @@
 # You can edit this to rename a class
 
 # name lines_count xref_count imports_clean imports_mangled v_pub v_pub_s v_priv v_priv_s c_pub c_pub_s c_priv c_priv_s f_pub f_pub_s f_priv f_priv_s demangled_identifiers func_arguments
-CreatorBalvanka 166 24 0 0 0 4 0 0 0 0 0 0 1 8 0 0  -,NumbNumbNumb,NumbNumb,-,NumbNumb,Numb,Numb,NumbNumb,Numb
-BruiseAdmire 108 4 1 0 11 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-CompetitionSqueamish 441 1002 0 0 0 187 0 0 0 0 0 0 1 11 0 0  -,-,-,-,-,-,-,-,-,-,-,-
-SeriousStatement 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-DecayDelightful 14 2 0 0 0 0 0 0 0 1 0 0 1 0 0 0  -
-AgonizingReligion 101 35 1 0 4 1 0 0 0 22 0 0 1 1 0 0  intStriintStri,int
-AnusSwanky 58 1 4 0 1 1 0 0 0 0 0 0 2 2 0 0  -,-,Obje,Even
-CuteScratch 87 5 1 0 5 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-HateAnnoying 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-ScintillatingWing 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-DelightfulMouse 184 19 9 0 0 4 0 0 0 0 0 0 1 5 0 0  -,DispStriint=-int=0int=0,Even,Even,Even,Disp
-LabelUncle 17 4 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintintintStri
-EliteBabies 15 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intBoolBool
-AgonizingKnot 61 56 4 0 0 0 0 0 0 3 0 0 1 3 0 0  -,Mous,SpriBool=tBool=t,Mous
-BalvankaNoxious 21 2 0 0 0 0 0 0 0 0 0 0 3 0 0 0  -,-,!
-BabiesBack 57 3 0 0 2 0 0 0 0 0 0 0 2 0 0 0  -,Arra!!Numb
-ListSisters 891 24 9 0 0 32 0 0 0 9 0 0 1 39 0 0  -,Bool,-,Bool,Stri,Obje,-,StriBool,Stri,!,Stri,-,!,-,StriStri,BoolMovi,!,-,int,-,!,-,Stri,Stri,Even,int,int,-,-,!,-,-,Stri=nBool=t,Bool!=n,!,!,StriStri,int!,StriStriStri,StriStri
-BirdDistro 838 102 7 0 0 14 0 0 0 6 0 0 1 17 0 0 Initialisation -,int,Keyb,-,int,int,intBoolBool,int,int,Mous,int,int,-,-,int,Bool,Keyb,Obje
-RobinCry 178 1 7 0 1 1 0 0 0 0 0 0 4 1 0 0  -,-,!,-,-
-AdviseComplex 270 194 3 0 0 0 0 0 0 32 0 0 1 5 0 0  -,NumbNumbNumb,intNumb,intNumb=0Numb=1Numb=1,Numb,NumbNumbNumb
-ScintillatingLamentable 247 81 5 0 18 1 0 0 0 0 0 0 13 0 0 0 Active,Bloqué,Texte intintStriFunc*=nint=0Bool=t,Bool,-,-,Even,Even,uint,Even,Stri,Even,-,*,Bool
-WhisperSand 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-RayArmy 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStri,-,-,-,-,-,Byte
-WhistleBack 29 20 0 0 0 1 0 0 0 0 0 0 1 2 0 0  -,int,-
-UnitAdmire 15 77 1 0 0 0 0 0 0 0 0 0 0 0 0 0  
-BerryDeadpan 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStri
-MightyIllustrious 157 19 6 0 8 2 0 0 0 2 0 0 6 0 0 0  intint,Bool,Mous,-,-,Mous
-CutePat 490 27 0 0 7 3 0 0 0 0 0 0 16 2 0 0  !,!!int,Arraint,-,-,!,-,-,!Arra!!Numb,!!,!,!!,-,!!!,-,!,!NumbNumb,!
-BruiseLoaf 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-ActionOranges 83 1 0 0 2 0 0 0 0 1 0 0 3 0 0 0  !,!,!
-StickUnequaled 351 41 3 0 12 1 0 0 0 9 0 0 2 0 0 0  intStriStriint=-Stri=nStri=nStri=n,-
-BackChickens 54 4 1 0 3 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-PlanKotsky 111 92 1 0 3 0 0 0 0 0 0 0 3 3 0 0  Byte,Byte,Byte,Byte,-,-
-ActionList 496 8 0 0 23 0 0 0 0 1 0 0 13 0 0 0  !,-,-,-,-,!,-,-,-,-,!,-,-
-MarkKnot 56 1 0 0 0 0 0 0 0 0 0 0 6 0 0 0 x_executeResultatChangementAvatar,x_executeResultatChangementGenre,x_executeSignaleChangementAvatar,x_executeSignaleChangementGenre,x_executeSignaleInformationsConnexion -,!,!,!,!,!
-TiresomeKnot 15 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintint
-WingUnit 48 7 0 0 12 0 0 0 0 0 0 0 1 0 0 0  intintint=0int=0int=0int=0int=0int=0Bool=fBool=fBool=f
-JoyousHalf 302 20 7 0 9 0 0 0 0 0 0 0 15 0 0 0  intint,Bool=t+,Striint=0,Bool,-,-,Mous,Bool=f,Even,-,Even,intint,Even,Func=n,-
-SighMark 104 9 1 0 0 0 0 0 0 2 0 0 1 4 0 0 version -,Byte,Stri,Stri,Stri
-SistersWatery 59 2 2 0 10 0 0 0 0 0 0 0 1 0 0 0  Byte
-PinusCrown 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-RareDeliver 41 78 0 0 2 0 0 0 0 0 0 0 4 0 0 0 R,position !=n!=n,!,-,!!
-FaithfulRequest 90 8 6 0 6 0 0 0 0 0 0 0 4 0 0 0  Func=nObje=n,Even,-,Bool
-ChivalrousNotebook 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-FaintHanging 453 3431 0 0 0 188 0 0 0 0 0 0 1 13 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-
-OrderLamentable 28 9 0 0 3 0 0 0 0 0 0 0 2 0 0 0  -,-
-SistersPail 23 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-LegSlip 54 18 0 0 10 0 0 0 0 0 0 0 2 0 0 0  -,!!!!
-GapingNoxious 32 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intStriintObjeStriStriStriStriStriintintStri
-ScintillatingBorrow 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStri,-,-,-,-,-,Byte
-ClubScintillating 441 1030 13 0 0 15 0 0 0 6 0 0 1 13 0 0  -,-,StriBool,StriFunc=nObje=n,BoolStri+,!intStri+,Stri+,!,Bool,FuncStriBoolBoolStri+,Even,FuncStriBoolStri+,Even,StriBool=fBool=tStri="
-UnequaledLip 18 8 0 0 0 3 0 0 0 0 0 0 1 0 0 0  -
-ArmyBalvanka 44 26 1 0 3 0 0 0 0 0 0 0 4 0 0 0  Byte,int,int,int
-ComplexLoaf 71 15 5 0 4 0 0 0 0 0 0 0 1 0 0 0  StriStriintNumb
-JoyousDelightful 418 1237 0 0 0 173 0 0 0 0 0 0 1 12 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-
-CompanySubdued 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-TiresomeWaiting 209 10 5 0 12 0 0 0 0 0 0 0 9 0 0 0 DécalageBarreY,Rendu_Ascenseur,Texte Textint=1uint=2uint=3,Even,Mous,Even,Mous,int,Func,-,int=0
-BorrowAdhesive 77 3 1 0 21 0 0 0 0 0 0 0 1 0 0 0 couleur,rotation Byte
-PartyTrail 110 5 1 0 4 1 0 0 0 0 0 0 4 3 0 0  -,Stri=n,-,-,-,-,-
-TaxMachine 36 7 0 0 8 0 0 0 0 0 0 0 1 0 0 0 normal -
-TrailBurn 189 2 1 0 6 1 0 0 0 0 0 0 17 0 0 0  -,StriBool,Stri,-,!,!,-,-,-,!,Stri,-,int,!,Stri,Stri,-
-KnotProbable 58 2 1 0 2 0 0 0 0 0 0 0 2 0 0 0  !,int
-CribThick 15 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintint
-SuzukaRare 61 1 2 0 1 0 0 0 0 0 0 0 2 0 0 0  !,!
-MarkScratch 49 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-TastelessPear 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-InexpensiveDistro 102 112 0 0 0 0 0 0 0 45 0 0 1 0 0 0  -
-CoalFlower 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Bool
-PatSerious 7 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
-QuirkyWicked 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-OrangesAdmire 77 2 0 0 1 1 0 0 0 0 0 0 9 0 0 0  -,Stri,Vect,Stri,Stri,-,-,Stri,Stri
-AgreeNotebook 65 8 0 0 9 0 0 0 0 0 0 0 2 0 0 0  -,!!!!!!Numb
-EntertainingCompany 769 291 0 0 48 13 0 0 0 0 0 0 50 0 0 0  !!,-,!,Bool,!,-,!,-,!,-,-,!,-,Numb,-,-,-,-,!,!!,!,-,-,-,*,Numb,!Numb,-,-,Numb,!,-,Bool,-,-,-,-,-,-,!,Numb,-,-,-,-,!,!!,Bool,-,!
-LegApathetic 34 3 1 0 4 0 0 0 0 0 0 0 1 0 0 0  Byte
-ProudAgreeable 41 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
-DildoSwanky 24 37 0 0 6 0 0 0 0 0 0 0 1 0 0 0  -
-TiresomeWandering 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-GapingDistro 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-FourLarge 166 1 0 0 11 0 0 0 0 0 0 0 9 0 0 0 K !,-,!,!,-,!,-,-,-
-PearOrder 33 4 2 0 6 0 0 0 0 0 0 0 1 0 0 0  Dispint=5int=1Func=n
-BladeParty 1942 433 12 0 101 5 0 0 0 3 0 0 57 1 0 0 Initialisation,transformice,x_finAnimConfetti,x_finAnimNeige StriStri="Bool=fBool=fint=-int=-Bool=f,-,-,int,Bool,-,-,DispBool=t,intintStri=nStri=nint=1,-,Bool,-,Bool,Stri,Bool,intStri=nBool=f,int,Boolint=0,Bool,int,int,-,Even,Numb=1,Striint=0int=0int=1,Bool,-,Bool,Bool,Bool,Boolint=0,-,Bool,-,int,Even,Bool,Bool,intint,Bool,Obje=n,-,-,Bool,-,Even,-,-,Bool,Bool,Even,int,-,-,Bool,BoolBool=f,-,-
-KotskyLip 254 1 2 0 0 10 0 0 0 0 0 0 1 8 0 0  -,Stri,-,Stri,Even=n,Stri,Stri,-,-
-SignPlan 336 96 7 0 14 0 0 0 0 0 0 0 21 0 0 0  int=1int=2Bool=t,Even,-,Keyb,-,int,!,Even,-,intint=2,Bool,Even=n,FuncObje=nBool=t,Stri,Even,Stri,-,intNumb=1,StriBool=tBool=t,FuncObje=nBool=f,Spri
-BabiesBury 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-DistroFeeble 542 14 0 0 22 0 0 0 0 0 0 0 21 0 0 0  !,!,-,-,-,!,-,-,-,-,-,-,Numb,-,-,Numb,-,NumbNumb,Bool,Bool,-
-DelightfulAction 1161 29 11 0 35 9 0 0 0 7 0 0 35 12 0 0  -,Stri="int=0int=2,-,-,StriStri,Disp,Stri,-,StriVectDict,Stri,-,-,Stri,StriStriBool,-,Byte,-,StriVect,Bool,VectDict,!,!VectDict,-,-,int,StriStri,-,StriStriintStri,!!,Stri!Bool,-,StriStriintStri,Even,-,Bool,-,!,StriBool=f,Keyb,-,Stri,Stri,Bool,!,!!,Stri,!
-AlansonCompetition 56 8 0 0 1 0 0 0 0 5 0 0 2 1 0 0  -,-,-
-ClubOrder 245 41 3 0 0 5 0 0 0 1 0 0 1 17 0 0  -,-,intBool=f,int,intintintBoolBoolBoolBool,intBool=fBool=f,intint,int,intStri=n,int,-,-,Stri,int,-,int,intint,!!
-LipLarge 237 427 1 0 0 0 0 0 0 93 0 0 1 1 0 0  -,-
-CurvedHydrant 170 5 4 0 0 9 0 0 0 0 0 0 1 4 0 0  -,Bool,-,Even=n,Even
-QuirkyLarge 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-BuryThick 14 5 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-StupidSerious 66 6 2 0 5 0 0 0 0 0 0 0 1 0 0 0  intintintNumbNumbNumb
-FlowerTasteless 19 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
-ProbableSpurious 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-ScintillatingAdmire 18 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Vect
-NotebookObeisant 69 1 1 0 0 3 0 0 0 0 0 0 1 4 0 0  -,Obje,Obje,Arra,Obje
-GapingGate 38 2 1 0 8 0 0 0 0 0 0 0 1 0 0 0  Byte
-FeebleRequest 578 1 4 0 14 0 0 0 0 13 0 0 14 0 0 0  !,intBoolint,intBool,!,int,!,!intBoolint,Bool,int,int,-,int,intint,Bool
-BruiseScale 369 648 0 0 0 146 0 0 0 0 0 0 1 13 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-
-HateLoaf 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-MachineWindy 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-SlipSigh 99 29 0 0 22 0 0 0 0 4 0 0 1 2 0 0 alpha,couleur,type int,StriBoolint=8,StriBool
-AgonizingBird 399 510 0 0 0 156 0 0 0 0 0 0 1 15 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
-PinusKuruma 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-AnnoyingAnnoying 317 2 5 0 6 1 0 0 2 0 0 0 11 3 0 0  -,-,Bool=t,-,Keyb,-,intint=1,Stri,Keyb,-,Even,!=n,!!,!!
-BurnScale 66 12 1 0 2 1 0 0 0 0 0 0 1 1 0 0 x_codeTitre intint,intintint=0
-KnifeCompetition 149 11 2 0 0 7 0 0 0 1 0 0 1 11 0 0  -,-,Bool,-,-,Stri=n,-,Stri,Stri,-,Stri,-
-PanoramicWindy 79 16 2 0 0 2 0 0 0 2 0 0 1 4 0 0  -,-,-,intStri,int
-WickedFour 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intBool
-DelightfulSqueamish 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intBool,-,-,-,-,-,Byte
-CrackerCreator 133 1 2 0 0 1 0 0 0 0 0 0 1 1 0 0  -,Byteint
-DelightfulOrange 17 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintintintint
-FeeblePlan 368 3 1 0 15 1 0 0 0 2 0 0 39 0 0 0  -,-,!Bool,Stri,-,Stri,-,!intintint,Stri,Bool,Stri,-,-,Stri,!,!!,Stri,int,-,-,!Stri,Striint,int,!,Stri,-,Bool,!!Bool,Stri,Stri,Stri,int,Stri,intStriStriint,!,-,StriBool,Stri,-
-ObtainableCrib 20 5 3 0 0 0 0 0 0 0 0 0 1 0 0 0  Bitmintint
-AgreeRay 69 8 2 0 0 1 0 0 0 0 0 0 1 5 0 0  -,-,intByte,Stri,intFunc,-
-KnotSuzuka 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-DecayStick 40 2 1 0 4 0 0 0 0 0 0 0 1 0 0 0  Byte
-TouchFaithful 49 5 1 0 2 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence int,-,-,-,-,-,Byte
-AbaftChivalrous 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-CurvedInstruct 89 32 1 0 0 3 0 0 0 0 0 0 1 5 0 0  -,Stri,-,StriBool=tBool=tBool=fint=0,Stri,StriBool
-EntertainingStale 49 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-SqueamishCard 15 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
-AgreeableTasteless 30 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intArra
-MarkHistorical 56 2 4 0 0 2 0 0 0 0 0 0 1 1 0 0  -,Stri
-PailGate 61 4 1 0 5 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-AmuseFix 104 1 0 0 0 4 0 0 0 0 0 0 1 1 0 0  -,!!!!
-LamentableGaping 36 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-ChopWindy 17 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintintintint
-PeckList 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-SighCrime 209 15 6 0 16 0 0 0 0 0 0 0 9 0 0 0  intintint=4,-,int,int,Numb,Stri,Text,Even,Numbint=0
-CompetitionBury 133 32 4 0 0 6 0 0 0 4 0 0 1 11 0 0  -,Striint,-,-,-,-,-,StriFunc,Load,-,Obje,Even
-BladeAdmire 331 1 1 0 4 0 0 0 0 22 0 0 10 0 0 0  !,!,!,int,int,int,!,!,int,Dict
-CrashSense 53 10 1 0 2 1 0 0 0 8 0 0 1 1 0 0  intStri,int
-AlansonFour 1143 124 6 0 0 26 0 0 0 7 0 0 1 19 0 0  -,Bool,-,intintBool=f,Bool,-,!Numb,Disp,!Stri,intint,int,-,int,intintint,Bool=fBool=f,intBool=f,-,!Numb,-,Disp
-SignHeal 1080 12 0 0 23 8 0 0 0 1 0 0 32 0 0 0  !!Bool,!Arraint,!,!,-,-,-,-,-,!,!,!!!Bool,-,-,Bool,!,Numb,!,-,Bool,Bool,-,-,-,!,!,!,!,!,!,!,!
-SeedRecognise 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-WhisperCompany 402 18 5 0 0 7 0 0 0 0 0 0 1 14 0 0  -,int,Dispint,-,-,intintintintintBool=tNumb=0,!,int,Bool,-,-,-,!,-,intint
-AgreePat 12 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-LegRare 260 1 0 0 15 0 0 0 0 0 0 0 9 0 0 0  !,!,-,!,-,-,-,-,-
-InexpensiveDelightful 32 1 0 0 0 0 0 0 0 1 0 0 3 0 0 0  !,!,!
-SqueamishConfused 94 4 1 0 7 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-BruiseHeal 113 5 7 0 5 0 0 0 0 0 0 0 7 0 0 0  intintFunc=nObje=n,Even,Even,Stri,-,Moviint=0int=0,Stri
-HealWarlike 66 2 0 0 5 0 0 0 0 0 0 0 9 0 0 0 get,get,get,get,set,set,set,set -,-,-,-,-,-,-,-,-
-AirStupid 121 1 5 0 1 0 0 0 0 1 0 0 5 0 0 0  !,Stri=nint=0,!,!,!
-NotebookProgram 15 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStri
-PailSeed 91 5 2 0 0 0 0 0 0 1 0 0 1 6 0 0 distance -,!NumbNumbPoin=nMovi=nPoin=n!=n,PoinPoin,Poin,PoinPoin,PoinPoin,PoinPoin
-LookLabel 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-ConfusedGullible 21 44 0 0 3 0 0 0 0 0 0 0 1 0 0 0  -
-StupidVolcano 228 9 7 0 8 1 0 0 0 0 0 0 4 2 0 0  int,Bool,-,Mous,-,-
-InjureBlade 188 30 1 0 24 1 0 0 0 0 0 0 8 2 0 0 categorie intintintStriStriStriVectint,int,intintintStriStriStriVectint,StriintStriintint,StriintStri,-,StriintStri,Vect,StriBool,Stri
-ListStomach 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-WingBlade 28 11 0 0 0 0 0 0 0 0 0 0 5 0 0 0  -,!,!,!,!
-IllustriousAmuse 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-StatementNoiseless 18 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriStriStriStri
-ReligionNoiseless 23 22 1 0 0 0 0 0 0 2 0 0 2 0 0 0  !,-
-CommonBalvanka 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-CrashStatement 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-AbaftInvite 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0 x,y Byte
-UnequaledArmy 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStri,-,-,-,-,-,Byte
-ThickQuirky 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-IllustriousRobin 139 1 3 0 5 0 0 0 0 10 0 0 3 1 0 0  -,Stri=nint=0Stri=n,Disp,Striint=0
-HangingAnus 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-WhistleNoxious 16 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintintint
-InjureLarge 29 7 1 0 4 0 0 0 0 0 0 0 1 0 0 0  -
-SpuriousClub 410 5 7 0 14 5 0 0 0 2 0 0 16 2 0 0  -,!Dict,Bool,!,Vect,-,-,!,!,-,-,Vect,!,Mous=n,!,!Bool,-,-
-RobinQuirky 19 6 0 0 0 3 0 0 0 0 0 0 1 0 0 0  -
-StickSerious 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-PipkaBag 628 48 10 0 14 11 0 0 0 4 0 0 13 0 0 0  -,-,intintint,-,!,intint,!,StriStri,intintintintintintint,-,Even,!Bool,!
-LamentableOrange 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStri
-SenseSand 60 46 0 0 11 0 0 0 0 0 0 0 1 0 0 0 position,userData; Bool
-NotebookKnife 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-HystericalNoiseless 47 1 2 0 0 1 0 0 0 0 0 0 1 2 0 0  -,Even,Bool
-FragileScintillating 68 13 0 0 0 0 0 0 0 28 0 0 1 0 0 0  -
-CompetitionKotsky 49 5 1 0 2 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence int,-,-,-,-,-,Byte
-WingAnus 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0 x,y Byte
-EliteJuice 41 8 0 0 12 0 0 0 0 0 0 0 1 0 0 0  -
-DeadpanPlan 141 27 1 0 7 8 0 0 0 0 0 0 12 0 0 0  -,-,!!!,!Numb!,uint,!,!Numb!!,!,uint,Arraint!,Arraint!,uint
-ChickensMighty 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-StickAlluring 30 2 1 0 3 0 0 0 0 0 0 0 1 0 0 0  Byte
-KurumaPail 177 4 5 0 1 1 0 0 0 0 0 0 14 1 0 0  -,Bool,Even,Even,Even,StriFunc,Even,Even=n,Even=n,Even=n,Even,StriStriFunc,Even=n,Even,Even
-LookKotsky 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-UnitQuirky 47 1 0 0 0 0 0 0 0 4 0 0 3 0 0 0  -,-,int
-JuiceWing 492 882 0 0 0 195 0 0 0 0 0 0 1 18 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
-StaleFaithful 16 2 0 0 0 0 0 0 0 2 0 0 1 0 0 0  -
-PearIllustrious 154 12 1 0 0 6 0 0 0 6 0 0 1 10 0 0  -,Stri,Stri,Func,-,Func,-,-,-,Func,-
-CrackerPeck 85 2 0 0 3 1 0 0 0 0 0 0 10 0 0 0  -,intStri=",StriStri,Stri,Stri,StriBool,StriStri,-,Stri,Stri
-BruiseGaping 70 1 1 0 7 0 0 0 0 0 0 0 4 1 0 0 ecriture,lecture int=0Stri=nint=0int=0int=0int=0!=n,Byte,-,Byte,Byte
-InstructSigh 268 8 1 0 8 0 0 0 0 13 0 0 5 7 0 0  intStriFunc=n,-,!StriStri,StriBool=f,Stri,intVect,-,intStriStri="Bool=fBool=fArra=n,!Bool=fBool=f,Func,Stri,Stri
-CoalThick 51 21 0 0 3 0 0 0 0 0 0 0 3 0 0 0 normal -,-,!
-YellScale 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStri,-,-,-,-,-,Byte
-ProudBird 69 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
-BashfulLamentable 432 1 11 0 9 1 0 0 0 6 0 0 15 0 0 0  !,Dict,int,-,!,int,int,!,!,Even,intintintint,!,int,-,-
-SuzukaArmy 417 15 1 0 30 0 0 0 0 2 0 0 6 32 0 0  DispintFunc=nint=0Func=nObje=n,NumbNumbNumbNumb,NumbNumbNumbNumbNumb=uNumb=u,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumbNumb=1,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumbNumb=1,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumbNumb=uNumb=u,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumbNumb=1,NumbNumbNumbNumb,NumbNumbNumbNumbNumb=uNumb=u,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,Numb=1Numb=0,intint,NumbNumbNumbNumbNumbNumb,Func,intint
-UnequaledJuice 124 19 4 0 4 4 0 0 0 1 0 0 5 0 0 0  -,-,int,-,-
-ObeisantHateful 70 1 0 0 1 0 0 0 0 20 0 0 1 1 0 0  Stri,Stri
-PearBack 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStriBool,-,-,-,-,-,Byte
-LoafPail 47 5 1 0 5 0 0 0 0 0 0 0 1 0 0 0  Byte
-ArmyWicked 2595 56 23 0 0 56 0 0 0 9 0 0 1 70 0 0  -,Even,intintStri,Mous,Arra,-,!,Disp,intint,!!,Arra,Arra,Even,!Bool=t,!,-,-,-,!!!MoviRectNumbintint,MoviStriArra,Striint,intintDictintint,!,intStri,!,intint,Arra,!,!intintFuncint=-int=-,Even,!intintFunc,Striint,-,!,Even,!,!,Even,intint,!,Bool,-,-,-,BoolMovi,int,-,Even,!,-,Bool,!!,-,!,-,Vect,-,intintBool=f,int,-,!,int,-,!,intStriintint,!,intBool,!,Even,-,!!
-DeterminedDeliver 16 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriStri
-SenseWaiting 254 8 5 0 8 0 0 0 0 0 0 0 9 0 0 0  Bool,Even,Even,NumbBool=f,-,intBool=fStri=n,-,-,Even
-MarkObtainable 233 1 1 0 0 0 0 0 0 0 0 0 13 0 0 0 x_executeResultatDefinirModeSilence,x_executeResultatEnvoiMessageChat,x_executeResultatEnvoiMessagePrive,x_executeResultatEnvoiMessageTribu,x_executeResultatListerCanalPublique,x_executeResultatQuitterCanalPublique,x_executeResultatRejoindreCanalPublique,x_executeSignalementMessageChat,x_executeSignalementMessagePrive,x_executeSignalementMessageTribu,x_executeSignalementQuitterCanalPublique,x_executeSignalementRejoindreCanalPublique -,!,!,!,!,!,!,!,!,!,!,!,!
-ZonkedChivalrous 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-MetalStore 96 50 1 0 4 0 0 0 0 0 0 0 10 1 0 0 toString int=0Stri=nint=0int=0Bool=fBool=f!=nNumb=0,Byte,int,-,-,-,-,-,-,-,-
-CrownConfused 166 11 0 0 0 2 0 0 0 0 0 0 1 2 0 0  -,-,!intNumb=1Bool=t
-MetalFragile 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intint,-,-,-,-,-,Byte
-ToeCompany 65 4 0 0 6 0 0 0 0 1 0 0 3 0 0 0  -,Numb,!Numb
-WanderingZonked 21 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-InjureArmy 17 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  int_IPa
-PanoramicPipka 36 8 1 0 2 0 0 0 0 0 0 0 1 0 0 0  StriStri
-ClubMouse 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStriStri,-,-,-,-,-,Byte
-DildoThick 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStri,-,-,-,-,-,Byte
-HealJumbled 31 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-StayAlluring 31 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-OrangesUncle 220 15 0 0 10 0 0 0 0 0 0 0 8 0 0 0  !,-,-,-,!,!,-,-
-MousePear 16 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriBool=fBool=tBool=t
-QuirkyDeliver 144 54 3 0 5 1 0 0 0 0 0 0 1 2 0 0  Movi=nBool=fint=0Bool=f,Movi,Even
-CrimeRay 27 2 1 0 3 0 0 0 0 0 0 0 1 0 0 0  Byte
-AirStatement 49 9 0 0 3 0 0 0 0 6 0 0 1 1 0 0 url intintStri,int
-SeriousInjure 211 6 6 0 7 1 0 0 0 0 0 0 9 1 0 0  !,-,Mous,!,intint,Stri,!,Mous,MoviBool,!
-FeebleBack 150 1 2 0 8 0 0 0 0 1 0 0 4 0 0 0  !,!,int,!
-ComplexHarmony 41 1 1 0 0 0 0 0 0 1 0 0 4 0 0 0  !,Dict,!,!
-ActionFascinated 385 15 6 0 17 1 0 0 0 0 0 0 10 1 0 0  -,Bool,Even=n,-,!,Even,-,Even,Vect,!,!!
-DildoNotebook 79 10 1 0 1 0 0 0 0 9 0 0 1 2 0 0  int,int,Vect
-KnotBird 123 18 4 0 9 0 0 0 0 0 0 0 3 0 0 0 x,y intintintintint,Disp,-
-ApatheticProbable 152 2 4 0 3 0 0 0 0 9 0 0 2 0 0 0  intObje,-
-LoafWhisper 26 27 0 0 3 0 0 0 0 0 0 0 2 0 0 0  intStri,Stri
-MarkChop 168 89 0 0 11 0 0 0 0 11 0 0 15 2 0 0  !,!*,!*,-,-,-,*,-,!,-,-,-,-,-,-,-,!
-NoiselessWarlike 260 173 3 0 16 0 0 0 0 0 0 0 16 0 0 0  Stri=nint=0int=0int=0int=0,-,int=0Numb=1,int=0int=0,Even,intint,NumbNumb=0,-,BitmNumb=NNumb=N,Even,-,FuncObje=n,-,intint,-,Stri
-StomachObtainable 320 1 5 0 13 0 0 0 0 7 0 0 12 0 0 0  !,!Bool,Dict,int,!int,int,!,StriStri,!,!int,!,int
-TastelessGaping 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-CurvedQuirky 54 9 1 0 8 0 0 0 0 0 0 0 1 0 0 0  StriintintintintintintintBool=f
-InjureBruise 314 47 6 0 17 1 0 0 1 0 0 0 8 0 0 0  intintintintFunc=nint=3,-,-,Bool,-,intintintint,!,intint
-AgreeableScratch 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-SqueamishBlade 133 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0  intArra,Obje
-FragileThick 494 51 3 0 5 0 0 0 0 4 0 0 24 2 0 0 couleur !=n,StriDict=nBool=tBool=tBool=f,int,-,int,-,-,StriDict=nBool=tBool=tBool=f,-,-,int,Dict=nBool=tBool=tBool=f,-,!Bool=f,-,int=1Bool=fNumb=1int=1,int=0,intint,Bool=tBool=fBool=fBool=f,-,!,-,-,int,-,!
-AmuseHanging 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStri,-,-,-,-,-,Byte
-StickBury 142 5 2 0 0 7 0 0 0 6 0 0 1 1 0 0  -,int
-WhisperChop 434 1 3 0 8 0 0 0 1 8 0 0 10 0 0 0  !,!intint,!,-,intBool,int,int,int!,!,int
-OrangeSisters 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-UnequaledPat 19 24 0 0 2 0 0 0 0 0 0 0 1 0 0 0  -
-HatefulOranges 54 16 0 0 10 0 0 0 0 6 0 0 1 0 0 0  intintintintintintintintStriStri
-BruiseMilky 84 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-ChivalrousConfused 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intint,-,-,-,-,-,Byte
-BuryHistorical 18 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Vect
-LaborerRobin 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-ChickenJuice 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-KnifeSuzuka 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intStri
-BorrowUnit 49 9 1 0 17 0 0 0 0 0 0 0 1 0 0 0  int
-FaithfulLip 2198 59 20 0 49 5 0 0 0 6 0 0 71 5 0 0 x_ajouterMessage,x_fonctionRetourMessage801,x_supprimerFondTexteEntree intintint,Stri,-,VectStriStri,StriFuncObje=n,Stri,StriStri=nBool=fStri=nStri=nStri=n,!Stri=nStri=n,StriVect,Even,-,intStriVectVect,StriBool,Even=n,Even,-,StriStriintint,Stri,Bool,StriBool,StriStri=n,Even,-,Text,-,Even,intStriStriint=-,int,!,int,Even,!,Even,StriText,!Stri,-,StriStriint,Even,Even,-,Stri,int,Stri,-,Even,Stri,!StriStri=nint=-int=1Stri=nStri=nStri=n,intVectVect,-,!,!!Bool=f,Even,int,Bool,Striint,!Bool=fBool=f,Stri,!!,Bool,Mous,Even,Even,Even,-,intint,Bool,Even,Even,Bool,Stri,Even,Even,Even,-,Stri,StriStriStriint=-
-ListSlip 24 1 0 0 0 0 0 0 0 1 0 0 2 0 0 0  !,!
-WateryElite 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intintStri,-,-,-,-,-,Byte
-AlansonFrail 15 140 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
-CryZonked 72 119 0 0 0 30 0 0 0 0 0 0 1 0 0 0  -
-InjureDistro 167 8 5 0 12 1 0 0 0 0 0 0 11 0 0 0 get,get,recupereSequence,set,set,traitePaquetSortant Stri=nuint=0,-,!,-,Prog,-,int!,-,-,int,-
-AdmireSense 49 4 0 0 3 0 0 0 0 6 0 0 1 1 0 0  intStriStri,int
-VioletObtainable 105 45 2 0 2 0 0 0 0 0 0 0 19 0 0 0  !,!,int+,!,int,Numbint,Dict,-,-,!,!,!!Numb,-,!int,int,int,!,!,-
-TrembleRay 58 3 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-AdviseLarge 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStriint,-,-,-,-,-,Byte
-BorrowAir 14 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriBool=f
-FeebleVolcano 222 43 0 0 11 6 0 0 0 0 0 0 9 4 0 0  !=n!=n,FuncFuncintint,!!*,!*,-,-,-,!,-,-,!,-,-
-PipkaZonked 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-ChopStatement 74 13 1 0 0 2 0 0 0 0 0 0 3 1 0 0  intintint=0Bool=fint=0int=1int=1,!,-,-
-GroundKnife 17 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-SeedChicken 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintint=0
-CurvedSlip 354 42 2 0 1 5 0 0 0 7 0 0 4 9 0 0  -,int,Bool,Mous,intintBool,-,-,int,Boolint=0Vect=nFunc=n,int,-,-,!
-CrimeIcy 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intintint,-,-,-,-,-,Byte
-CuteQuirky 54 78 1 0 1 0 0 0 0 2 0 0 6 0 0 0  !,Bool,-,Vect,-,-
-GroundWindy 53 4 5 0 2 1 0 0 0 0 0 0 3 0 0 0  -,StriStri,Even
-LabelPipka 78 3 2 0 2 0 0 0 0 0 0 0 3 0 0 0  !,Bool,-
-MarkTax 218 3 5 0 9 2 0 0 0 0 0 0 13 1 0 0  Bool=t,Disp,-,-,-,Stri,-,-,Bool,Stri,int,-,-,intStri
-SlipNoiseless 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-HydrantInexpensive 12 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-VioletLaborer 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-VolcanoAlanson 482 155 9 0 26 0 0 0 0 2 0 0 29 0 0 0  intint,Bool=t+,Func=nObje=nFunc=nObje=n,DispBool=fBool=f,Even=n,Even,Mous,-,-,FuncObje,FuncObje=nBool=t,Even,-,intintBool=f,Even,Stri,Mous,Even,Even,Even,-,Numb=0Numb=0Bool=f,Func=nObje=nBool=t,Even,BoolNumb=0Bool=f,Mous,intNumb=1,Mous,-
-LoafUnit 12 3 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-CuteStomach 225 2 8 0 15 1 0 0 0 5 0 0 7 0 0 0 NORMAL intintStriintintintBool,-,Stri,Keyb,-,-,-
-BatheReligion 475 8 14 0 9 2 0 0 0 1 0 0 17 6 0 0  -,Bool,-,Arra,-,Striint,-,-,Text,-,!,-,Mous,Boolint,Stri,Disp,-,Even,-,Arra,Focu,-,Bool
-HystericalWindy 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intStri
-DeterminedBerry 152 35 1 0 9 6 0 0 0 0 0 0 6 2 0 0  intStriFunc=nFunc=n,int,-,FuncBoolint,int,int,-,Func
-HatePipka 132 2 5 0 2 3 0 0 0 0 0 0 2 2 0 0  -,Bool,-,-
-LipTrail 37 16 1 0 6 1 0 0 0 0 0 0 1 0 0 0  Striintint
-CrownList 41 7 1 0 9 0 0 0 0 0 0 0 1 0 0 0  Byte
-LoafBury 198 2 3 0 1 1 0 0 0 0 0 0 3 3 0 0  -,-,!,int,!,!!
-HarmonyLip 18 2 0 0 2 0 0 0 0 0 0 0 1 0 0 0  intStri
-KurumaDistro 63 1 2 0 0 0 0 0 0 0 0 0 1 1 0 0  -,intint
-JoyousChicken 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStriBool,-,-,-,-,-,Byte
-BirdReligion 22 6 0 0 5 0 0 0 0 0 0 0 1 0 0 0  -
-AbaftRobin 18 3 0 0 3 0 0 0 0 0 0 0 1 0 0 0  -
-CrimeConfused 61 4 1 0 5 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-CrackerAnnoying 99 1 8 0 7 0 0 0 0 0 0 0 4 0 0 0  intint,Keyb,Stri,Even
-BagLaborer 111 12 0 0 3 0 0 0 0 0 0 0 8 0 0 0  int=0int=0,-,intBool=t,-,!Bool=t,!Bool=t,ObjeBool=t,Func
-ColorCrib 105 1 2 0 0 2 0 0 0 0 0 0 1 7 0 0 tribulle -,StriStri,StriStri,Arra,StriStriStri,-,Stri,Stri
-VioletList 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-DeterminedFragile 81 34 1 0 4 0 0 0 0 0 0 0 9 1 0 0  int=0Stri=nint=0int=0Numb=0int=0!=n,Byte,int,-,-,-,-,-,-,-
-CurvedPrepare 31 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
-SandOranges 223 8 3 0 9 0 0 0 0 2 0 0 4 0 0 0  intintintDateintBool!=n!=n,!,!,intint
-EliteGround 160 1 2 0 2 0 0 0 0 7 0 0 4 0 0 0  -,-,int,-
-HistoricalSense 201 3 0 0 24 0 0 0 0 0 0 0 28 0 0 0  -,Bool=fBool=t,!,Obje=n,-,-,ObjeBool=f,Stri=n,!Stri,-,-,StriVect,-,!,-,-,Obje,-,Stri,-,-,-,!,-,StriStriBool,intint,-,-
-BurnDecay 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-GroundDeliver 65 1 6 0 0 3 0 0 0 0 0 0 1 2 0 0  -,-,Stri
-CrimeTax 16 4 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intBoolintint
-CrashPlan 9 79 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
-CurvedTax 39 9 1 0 3 0 0 0 0 0 0 0 1 0 0 0  DispFunc=nObje=n
-BatheLight 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-OrangeAgonizing 30 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-LegParty 58 2 1 0 3 0 0 0 0 0 0 0 1 0 0 0  Byte
-MightyDetermined 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intStri
-LightRare 18 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint=-Stri=n
-PartyPeck 41 2 1 0 9 0 0 0 0 0 0 0 1 0 0 0  Byte
-ZonkedNoiseless 199 7 3 0 10 2 0 0 0 1 0 0 7 3 0 0  intFuncFunc=nBool=fBool=fStri=nStri=nBool=f,intFuncFunc=nBool=fBool=fStri=nStri=nBool=f,Stri,Stri,Vect,Stri,int,-,Vect,-
-DeterminedSuper 195 5 4 0 17 0 0 0 0 0 0 0 3 0 0 0  -,XMLNBool=f,Even
-MarkHateful 136 36 4 0 0 8 0 0 0 1 0 0 1 5 0 0  -,Stri,StriintStriStriStri=n,-,Striint=4,StriBool=t
-HateCoal 51 2 2 0 2 0 0 0 0 0 0 0 3 0 0 0  -,-,DispBool
-AlluringPear 216 3 10 0 8 1 0 0 0 2 0 0 8 3 0 0  -,Func,Func,Bool=tStri=n,Even=n,-,-,Time,Keyb,-,Even
-AgreeMark 891 11 13 0 36 0 0 0 0 0 0 0 39 1 0 0  -,!Bool,-,-,Even=n,Bool,Even,Even,Even,-,Stri,int,-,Stri,Mous,Stri,-,Stri,Even,Keyb,Even,-,Mous,-,Stri,Even,Stri,intStri,-,-,Even,Even,Even,Even,-,Stri,Stri,Disp,Even,Even
-BabiesComplex 17 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-CurvedAnnoying 104 3 7 0 0 1 0 0 0 0 0 0 1 6 0 0  -,Stri,Stri,intint,Stri,-,-
-PanoramicUncle 41 3 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-FourElite 93 4 8 0 8 0 0 0 0 0 0 0 3 0 0 0  intintNumbNumbNumbNumbint=3int=4int=-,Time,Time
-BackStatement 121 13 1 0 0 6 0 0 0 4 0 0 1 8 0 0  -,Func,StriStri,-,-,-,Func,-,-
-GullibleGrate 79 1 2 0 0 2 0 0 0 0 0 0 5 1 0 0  -,BoolStri=n,Keyb,-,-,-
-AirSeed 79 2 1 0 6 0 0 0 0 0 0 0 1 0 0 0  Byte
-GapingCrowded 29 6 0 0 6 0 0 0 0 0 0 0 1 0 0 0  StriintStriintint
-GroundGaping 25 10 2 0 0 0 0 0 0 0 0 0 2 0 0 0  int=0int=0,-
-AmuseSlip 109 10 4 0 12 3 0 0 0 0 0 0 3 0 0 0  Bool=f,Bool=f,Movi
-GapingYell 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStri,-,-,-,-,-,Byte
-FeebleEntertaining 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-FeebleSuzuka 430 760 0 0 0 179 0 0 0 0 0 0 1 12 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-
-AdviseSand 33 2 0 0 1 1 0 0 0 0 0 0 4 0 0 0  -,!,-,int
-GateStupid 59 13247 1 0 0 0 0 0 0 0 0 0 1 9 0 0  -,Stri,int,!,Arra,Func,Disp,!,Bool,Numb
-LightSubdued 389 595 0 0 0 156 0 0 0 0 0 0 1 13 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-
-OrangesSlip 722 89 16 0 13 4 0 0 0 14 0 0 31 6 0 0  intint,int,-,Stri,ArraFuncObjeFunc,-,!StriFunc,Stri,-,Even,Stri,Even,Bool,Stri,-,Bool,Even,-,int,StriStri!,StriBool=t,Stri,intStriStri,-,MoviBool,Even=n,StriStri,-,Even,Stri,-,intStri,!,-,-,-,-
-CardReligion 50 9 1 0 3 0 0 0 0 0 0 0 4 1 0 0 ecriture,lecture,type int=0int=0Stri=n,Byte,-,Byte,Byte
-BruiseFascinated 49 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-LipOranges 28 2 2 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-BashfulStale 112 13 4 0 0 1 0 0 0 0 0 0 1 3 0 0  -,int,!,!
-SuzukaPat 20 8 0 0 4 0 0 0 0 0 0 0 1 0 0 0 couleur -
-ChickensSlip 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStri
-StupidWaiting 23 6 0 0 4 0 0 0 0 0 0 0 1 0 0 0  !int
-StickComplex 70 1 0 0 0 0 0 0 0 0 0 0 1 3 0 0  -,Obje,int=0int=0,int=0int=0
-SignBathe 14 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-SeriousAction 14 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-WateryProgram 14 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-JoyousVolcano 434 451 16 0 0 16 0 0 0 9 0 0 1 21 0 0 x_Ressources_Class,x_TransformiceFLA,x_pouf -,-,Appl,StriBool=f,Even,Even,Stri,-,-,Stri,StriStri=",int,Even,StriStri=",Stri,Even,Stri,-,IOEr,StriFunc=nObje=n,-,Even
-SighWandering 48 2 0 0 2 0 0 0 0 4 0 0 2 0 0 0  intint,-
-FeebleZonked 207 116 0 0 23 0 0 0 0 19 0 0 2 0 0 0 couleur,rotation,x,y intintintintint,-
-AdmireOrange 18 20 0 0 0 3 0 0 0 0 0 0 1 0 0 0  -
-NoiselessList 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-CrimeParty 332 3 4 0 14 0 0 0 0 7 0 0 15 0 0 0  ObjeSpriStriStriStriStriStriStriStriStriStriStri=",-,*,-,Numb,Dispint=-,intint,-,-,StriintStri,-,Bool,-,-,Numb
-SeriousLabel 115 25 5 0 2 4 0 0 0 0 0 0 2 3 0 0  -,Stri,Stri,Bool,-
-SighWarlike 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-DeliverJuice 142 16 1 0 10 4 0 0 0 0 0 0 4 0 0 0 toString intintintStri,-,-,Bool
-FixSwanky 75 1 1 0 8 0 0 0 0 0 0 0 4 1 0 0 ecriture,lecture int=0Stri=nint=0int=0Bool=fBool=f!=nint=0,Byte,-,Byte,Byte
-BladeSign 51 18 0 0 3 0 0 0 0 0 0 0 6 0 0 0 get,set,set,set NumbNumbNumb,-,-,-,NumbNumbNumb,-
-InstructRecognise 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-MouseBag 16 5 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intBoolStriBool
-HateParty 244 105 1 0 14 3 0 0 0 4 0 0 22 2 0 0  !,!*,!*,!Arra!!Numb,-,!!!,-,-,!,!!,!,!,-,-,!,-,-,*,!!,!!,-,-,!!!,!!
-CompanyAbaft 23 2 1 0 3 0 0 0 0 0 0 0 1 0 0 0  Byte
-ReligionBerry 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-SubduedBurn 24 4 0 0 4 0 0 0 0 0 0 0 1 0 0 0  intintintint
-RecogniseHate 562 25 9 0 13 12 0 0 0 8 0 0 11 14 0 0  -,Bool,Stri,Mous,Disp,Striint,Stri,-,Stri,Stri,Stri,!,-,Stri,Striint,int,-,Bool=t,-,Even,Boolintint,!,BoolBool,-,Boolintint
-RobinAgreeable 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Bool
-RobinStupid 354 90 8 0 0 34 0 0 0 2 0 0 1 11 0 0  -,-,-,-,StriBool=tint=0,-,int,-,Even,intintintint,Even=n,Stri
-WickedVolcano 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-AmuseKotsky 241 7 1 0 5 2 0 0 0 9 0 0 9 3 0 0  -,Boolint=0Stri=",int=0,Bool,-,-,-,Bool=f,-,intStri=",-,-
-PinusInstruct 395 6 5 0 8 1 0 0 0 0 0 0 23 0 0 0  -,Even=n,Bool,-,int,Even,-,Even,int,Even,Even=n,Even,Even,Even=n,Bool,Even,Even,-,Bool,Arra,Even,Even,Even
-ChickensDecay 55 4 1 0 0 2 0 0 0 4 0 0 1 3 0 0  -,NumbBool=t,Numb,Numb
-BerryFour 23 2 1 0 3 0 0 0 0 0 0 0 1 0 0 0  Byte
-SqueamishKuruma 14 16 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int=0
-SignProgram 601 45 10 0 19 9 0 0 0 0 0 0 14 8 0 0  -,Numb,Bool,Even,Numb,-,Bool=f,Even,Stri,Even,-,int,Even,Even,intStriint,!,-,!,intBool,Even,!,-
-WateryDistro 347 7 9 0 15 4 0 0 1 0 0 0 8 5 0 0  -,-,Even,Bool,-,-,-,-,-,int,-,-,-
-BashfulKuruma 45 1 1 0 2 0 0 0 0 0 0 0 4 1 0 0 ecriture,lecture Stri=nint=0,Byte,-,Byte,Byte
-PatFragile 171 2 5 0 0 5 0 0 0 0 0 0 7 0 0 0  Movi,Bool=f,Text,-,Even,-,-
-BabiesHalf 44 13 3 0 6 0 0 0 0 0 0 0 2 0 0 0  intintintintint,Even
-ScratchLamentable 220 1 0 0 1 0 0 0 0 0 0 0 20 0 0 0 x_executeResultatAjoutAmi,x_executeResultatDemandeDivorce,x_executeResultatDemandeEnMariage,x_executeResultatDemandeFermetureListeAmis,x_executeResultatDemandeOuvertureListeAmis,x_executeResultatReponseDemandeEnMariage,x_executeResultatSuppressionAmi,x_executeSignalementAjoutAmi,x_executeSignalementConnexionAmi,x_executeSignalementDeconnexionAmi,x_executeSignalementDemandeEnMariage,x_executeSignalementDivorce,x_executeSignalementListeAmis,x_executeSignalementMariage,x_executeSignalementModificationAmi,x_executeSignalementRefusMariage,x_executeSignalementSuppressionAmi -,!,!,Stri,!,!,!,Stri,!,!,!,!,!,!,!,!,!,!,!,!
-KnifeFragile 101 6 1 0 8 0 0 0 0 0 0 0 3 0 0 0  intintintintintint,intintintintintint,-
-CompetitionHysterical 99 13 4 0 3 1 0 0 0 0 0 0 6 0 0 0  -,Time,-,Bool=t,Stri,!
-WarlikeRecognise 181 12 1 0 0 1 0 0 0 0 0 0 1 6 0 0  -,intintintNumbNumbNumbNumb,NumbNumb,intint,NumbNumb,!,-
-ProbableNoxious 133 31 5 0 7 0 0 0 0 0 0 0 6 0 0 0  ObjeStri="int=0Disp=n,intint,Bool,Bool,Even=n,!Bool=t
-WarlikeBag 32 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0  -,!
-CrimeJoyous 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-HangingAnnoying 83 15 2 0 8 0 0 0 0 0 0 0 5 0 0 0  StriintintBool=fBool=f,intint,int,Numb=0Numb=0,NumbNumbBool=f
-KnifeLunasole 14 5 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriBool=f
-StoreCompetition 15 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintint
-HangingProgram 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-KurumaSuper 45 3 2 0 0 0 0 0 0 0 0 0 2 1 0 0  StriStri,StriStri=",-
-InstructJoyous 16 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriStri
-SandSeed 238 29 7 0 0 24 0 0 0 0 0 0 1 5 0 0  -,int,-,Bool,-,DispBool
-AdhesiveEntertaining 34 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-WarlikeWandering 326 4 1 0 0 12 0 0 0 0 0 0 1 11 0 0  -,-,Obje,-,-,-,-,-,!int,Numb,NumbNumbNumb,-
-CrownStupid 310 12 6 0 5 1 0 0 0 0 0 0 8 0 0 0  intStri,-,-,-,-,-,Even,-
-ConfusedIcy 32 2 1 0 6 0 0 0 0 0 0 0 1 0 0 0  Byte
-LunasoleCreator 90 10 3 0 0 0 0 0 0 0 0 0 7 2 0 0  -,-,-,-,Even=n,Even,-,-,Mous
-ProgramLight 24 26 0 0 6 0 0 0 0 0 0 0 1 0 0 0  -
-SenseCrib 637 36 3 0 30 10 0 0 0 13 0 0 9 8 0 0  StriintintVectBool=fNumb=1,StriintintVect,intStriintintStriVectBool=fBool=f,-,-,-,-,-,StriintintVectBool=fNumb=1int=1,-,Bool,Bool,intStri,StriBoolBool=f,Bool=f,Bool,Bool
-GapingCrash 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-FaintFeeble 155 25 5 0 0 3 0 0 0 0 0 0 1 10 0 0  -,Even,Even,Even,Even,-,Even,Even,Even,Obje,-
-HangingSign 22 2 0 0 3 0 0 0 0 0 0 0 1 0 0 0  -
-WickedBag 265 11 7 0 5 4 0 0 0 0 0 0 7 5 0 0  -,-,int,-,-,int,DispStriFuncObje=n,Mous,-,-,Mous,int
-BagCompetition 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intint,-,-,-,-,-,Byte
-TrembleScintillating 45 8 3 0 0 0 0 0 0 1 0 0 1 3 0 0  -,Stri,Stri,Stri
-PlanCompany 451 331 10 0 15 6 0 0 0 0 0 0 14 0 0 0 reset StriBool!=n,Prog=nBool=f,Byte,Even,-,Stri,Stri=nBool=f,Even,-,Stri=n,Even,Secu,Even,!
-NoiselessScale 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-WingInvite 16 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriStri
-JoyousUnit 79 3 6 0 0 1 0 0 0 0 0 0 3 1 0 0  Striintint,Striintint,Dispint=0int=0int=-,Dispint=0int=0int=-
-MarkHanging 120 15 4 0 8 0 0 0 0 1 0 0 7 0 0 0  Stri="int=0,Disp,-,Func=nObje=nBool=f,Bool,Bool=tBool=t,Even=n
-GullibleYell 152 3 1 0 9 0 0 0 0 0 0 0 1 0 0 0  Byte
-GullibleCrib 274 3 0 0 19 0 0 0 7 0 0 0 3 0 0 0  intintint,Numb,Bool=fBool=f
-KotskyQuirky 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Bool
-ChopBathe 195 9 2 0 2 1 0 0 0 0 0 0 5 1 0 0  -,Bool=t,-,Boolint,intBool,-
-PatSupply 30 8 0 0 6 0 0 0 0 0 0 0 1 0 0 0 alpha,couleur !intintNumbBoolint
-StickSense 504 1 0 0 1 0 0 0 0 0 0 0 34 0 0 0 x_executeResultatAffecterRang,x_executeResultatAjoutRang,x_executeResultatChangementDroitsRang,x_executeResultatChangementLogoTribu,x_executeResultatChangementNomRang,x_executeResultatChangerCodeMaisonTFM,x_executeResultatChangerMessageJour,x_executeResultatDemandeCreerTribu,x_executeResultatDemandeDissoudreTribu,x_executeResultatDemandeQuitterTribu,x_executeResultatDesignerChef,x_executeResultatExclureMembre,x_executeResultatFermetureInterfaceTribu,x_executeResultatHistoriqueTribu,x_executeResultatInverserRang,x_executeResultatInvitationTribu,x_executeResultatOuvertureInterfaceTribu,x_executeResultatRepondsInvitationTribu,x_executeResultatSupprimeRang,x_executeSignaleChangementMessageJour,x_executeSignaleChangementParametresMembre,x_executeSignaleChangementParametresTribu,x_executeSignaleChangementRang,x_executeSignaleConnexionMembre,x_executeSignaleDeconnexionMembre,x_executeSignaleDepartMembre,x_executeSignaleExclusionMembre,x_executeSignaleInformationsMembreTribu,x_executeSignaleInvitationTribu,x_executeSignaleNouveauMembre,x_executeSignaleReponseInvitationTribu -,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,Stri,Stri,!,!,!,!,!,!,!,!
-QuirkyAlanson 21 5 0 0 3 0 0 0 0 0 0 0 1 0 0 0  intintint
-GullibleCommon 457 1357 0 0 0 185 0 0 0 0 0 0 1 15 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
-NoxiousCommon 187 43 7 0 4 3 0 0 0 2 0 0 4 3 0 0  intintint=0,int,int,intintBoolint=0,int,-,Numb
-AdhesiveDeliver 530 1 4 0 0 0 0 0 0 0 0 0 1 1 0 0  -,Byteint
-GateSuzuka 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-SqueamishDeadpan 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStri,-,-,-,-,-,Byte
-ApatheticProse 168 2 2 0 5 0 0 0 0 0 0 0 8 0 0 0  -,Keyb,Stri,-,-,-,-,intStri
-DeterminedWandering 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-SuperStatement 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-EliteBashful 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Bool
-NoiselessRare 53 4 1 0 3 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-ZonkedChicken 54 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-WingLeg 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-DecayBalvanka 76 1 1 0 0 1 0 0 0 0 0 0 4 1 0 0  -,-,int,-,Even
-CreatorWhistle 109 300 0 0 0 38 0 0 0 0 0 0 1 3 0 0  -,!,Stri,-
-ZonkedBruise 273 11 2 0 0 1 0 0 0 17 0 0 1 10 0 0  -,intFunc,Bool,intint,-,-,-,int,intByte,intint,StriStri
-LoafBorrow 42 2 0 0 2 0 0 0 0 1 0 0 4 0 0 0  Bool,-,Bool,-
-LipChicken 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-AgreeSeed 29 2 0 0 3 0 0 0 0 0 0 0 3 0 0 0  intObje,-,!
-IllustriousYell 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-BashfulAbaft 2120 231 13 0 0 33 0 0 0 0 0 0 1 23 0 0  -,intint,-,-,intint,Even,-,Stri,intBool=fint=0Bool=f,Even,-,intintintint=0Numb=0Numb=0Bool=tint=-Bool=tMovi=n!=nint=0Arra=n,-,int,Mous,-,Even,Mous,Even,intintintint=0Numb=0Numb=0Bool=t,-,-,Mous,Even=n
-HangingYell 146 3 1 0 0 1 0 0 2 0 0 0 13 0 0 0  -,Stri,StriStri=",StriBool=f,ObjeFuncBool=f,Stri,-,-,Stri=",Stri,-,-,-
-BuryAdvise 28 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intBoolBoolintintintintBoolintintNumb=Nint=0Bool=t
-ColorAbaft 79 22 1 0 0 2 0 0 0 0 0 0 1 6 0 0  -,-,Obje=n,ObjeBool=tBool=t,Obje,Bool,-
-MightyCrown 49 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-HateDildo 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-JoyousCoal 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-JuiceProbable 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-EntertainingBag 58 4 6 0 1 0 0 0 0 1 0 0 1 1 0 0  !,!
-BerryAdmire 65 1 0 0 0 0 0 0 0 0 0 0 4 0 0 0 x_executeResultatAjoutListeNoire,x_executeResultatConsultationListeNoire,x_executeResultatSuppressionListeNoire -,!,!,!
-BashfulLeg 616 11 11 0 8 0 0 0 0 7 0 0 18 0 0 0  !Bool,Mous,Func,Mous,Mous,-,Mous,Mous,Striint=0,Mous,Stri,Mous,Striintint!=n,Mous,Func,-,Func,int=0
-QuirkyBorrow 115 3 4 0 3 3 0 0 0 0 0 0 2 3 0 0  -,Func=n,-,-,Even
-ZonkedWhisper 194 28 7 0 0 10 0 0 0 6 0 0 1 17 0 0  -,IOEr,-,Obje,-,-,-,-,-,-,-,Even,StriFunc,-,-,Obje,-,-
-PailAnnoying 23 2 1 0 3 0 0 0 0 0 0 0 1 0 0 0  Byte
-PlanCute 45 3 1 0 6 0 0 0 0 0 0 0 1 0 0 0  Byte
-BladeList 110 2 4 0 0 5 0 0 0 0 0 0 1 5 0 0  -,Even,int,-,-,Stri
-CoalWhistle 59 1 2 0 1 0 0 0 0 1 0 0 4 0 0 0  !,int,-,Even
-OrangesTiresome 41 4 5 0 3 0 0 0 0 0 0 0 2 0 0 0  Disp,-
-WickedCracker 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-ListBlade 47 18 0 0 6 0 0 0 0 0 0 0 3 0 0 0  -,!,-
-PatYell 89 6 2 0 7 0 0 0 0 0 0 0 2 0 0 0  int!Bool,-
-CreatorAdaptable 26 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  BoolVect=n
-WindyDeliver 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-PeckBorrow 225 4 2 0 3 0 0 0 0 0 0 0 10 0 0 0  int!,-,-,-,-,-,-,!,!!,-
-YellDeadpan 74 38 3 0 0 0 0 0 0 0 0 0 1 3 0 0  -,Stri,StriBool=fBool=f,-
-ChickenAmuse 152 52 1 0 2 0 0 0 0 41 0 0 1 2 0 0  intBool=f,int,int
-PanoramicZonked 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-TrailChop 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-BerryConfused 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStriStri,-,-,-,-,-,Byte
-PartyPrepare 293 4 7 0 10 0 0 0 0 2 0 0 7 0 0 0  Striintintintint=0int=0int=1,int,-,-,int,int,Bool=t
-ProudProud 18 17 0 0 2 0 0 0 0 0 0 0 1 0 0 0 shape !!
-ObeisantLook 149 7 1 0 0 5 0 0 0 1 0 0 1 3 0 0  -,Stri,StriStri=n,int
-DeterminedParty 26 2 1 0 4 0 0 0 0 0 0 0 1 0 0 0 x,y Byte
-DildoPanoramic 143 2 10 0 9 3 0 0 0 0 0 0 4 0 0 0  intintintint=0,-,Even,Even
-SuzukaCrash 7 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
-VioletTax 20 7 0 0 4 0 0 0 0 0 0 0 1 0 0 0  -
-ScratchJuice 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-MachineKnot 641 16 14 0 28 1 0 0 0 5 0 0 21 6 0 0 couleurEnCours int=0!=n,int,int,int,-,int=0!=n,-,-,-,-,-,!,Even,-,-,Even,!,Even,Spri,Even,-,Spri,-,-,-,Even,Disp
-WhistleAgonizing 41 1 7 0 1 1 0 0 0 0 0 0 2 1 0 0  Disp,-,Mous
-UnequaledCute 54 4 1 0 3 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-VolcanoSlip 67 3 4 0 3 1 0 0 0 0 0 0 5 0 0 0 get,recupereSequence,set,traitePaquetSortant -,-,int,_IPa,-
-ActionInjure 61 1 2 0 0 0 0 0 0 0 0 0 2 1 0 0  Byte,Byte,Stri
-LipUnequaled 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-UnequaledStomach 34 7 0 0 9 0 0 0 0 0 0 0 1 0 0 0 rotation intintint
-StickCrown 39 15 0 0 4 0 0 0 0 0 0 0 1 0 0 0  NumbNumbBool
-LargeTax 740 6 9 0 28 9 0 0 0 0 0 0 16 8 0 0  -,int,!,int,!,-,!,!,Bool,-,!,-,!,Even=n,-,!,Text,!,!,-,-,Disp,!,Text
-ColorAmuse 242 4 4 0 1 0 0 0 0 0 0 0 8 0 0 0  int!,-,-,-,-,-,!,Even=n
-BalvankaTiresome 225 1 3 0 0 0 0 0 1 0 0 0 19 0 0 0  -,-,-,Stri,Stri=nStri=n,-,int,Stri=nBool=f,Stri=nStri=n,-,-,-,-,-,StriStri=nStri=n,Stri=n,-,!,-
-CompetitionChop 64 176 0 0 0 0 0 0 0 6 0 0 1 1 0 0  -,Objeint
-ProudYell 85 85 0 0 2 1 0 0 0 0 0 0 5 0 0 0  -,NumbNumbNumbNumb,Vect,NumbNumb,NumbNumb!=nNumb=0Numb=0Numb=0
-CompanyWing 392 1 3 0 1 1 0 0 1 8 0 0 8 0 0 0  !,intintintint,Mous,int,int,!,!,-
-StatementClub 14 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-WhisperOrder 14 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-SqueamishMighty 14 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-HarmonySeed 569 35 11 0 6 4 0 0 0 5 0 0 4 8 0 0 x_B_1,x_IndianaMouse,x_squeletteChat Func,intintArra=nBool=f,intint=0,intint=0Arra=nBool=f,int,intAppl,int,intintintStriStriVectBool=f,!,Even,-,-
-InjureUnequaled 128 106 0 0 2 0 0 0 0 0 0 0 12 0 0 0  Numb=0!=n!=n,!,-,-,!,!NumbNumb,-,!,-,!!,Numb,-
-TouchBag 27 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-SandIllustrious 115 3 3 0 4 1 0 0 0 0 0 0 6 2 0 0  -,StriBool=f,Stri,Stri,-,Even,-,-
-MachineBashful 27 2 0 0 0 0 0 0 0 0 0 0 1 1 0 0  -,intintintBool=t
-CryWindy 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-CrackerStomach 161 340 4 0 0 0 0 0 0 0 0 0 14 0 0 0  Stri="int=0int=2Text=nBool=f,Stri,Text,int,intint,-,Styl,Stri,-,Bool=t,Bool=t,int,-,int
-SandJuice 7 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
-VolcanoRare 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStri,-,-,-,-,-,Byte
-StomachProgram 48 2 1 0 9 0 0 0 0 0 0 0 1 0 0 0  Byte
-CompanyApathetic 943 13 7 0 29 1 0 0 0 0 0 0 14 0 0 0 tempsPartieZero -,Keyb,Byte,!,int=5int=1,!,intintintintint!=n,StriStri,int,Even,int,!,Even=n,Keyb
-SpuriousAir 74 2 3 0 0 2 0 0 0 0 0 0 1 5 0 0  -,Even,Stri,Even=n,Stri,-
-HarmonyIllustrious 27 40 0 0 2 0 0 0 0 0 0 0 2 0 0 0  -,-
-PartyList 433 2 4 0 17 1 0 0 0 2 0 0 13 0 0 0  !,Stri,-,-,StriFuncObjeStri=",StriText,Stri,Stri,-,Bool=f,Text,Stri,Stri
-LunasoleAir 3231 638 19 0 62 14 0 0 0 26 0 0 42 12 0 0  !int=0int=0,Mous,Even,intintintBool=fint=-Bool=f,-,-,-,Bitm!int,ArraMovi,Bitm!intintint=0int=0,Bitm!intint!!!!,-,intint=-,int,intint,Arra,intintintintintint,-,!,intint=0,int=5int=1,-,!,ArraBool=fMovi=n,Dispint=5int=1Func=n,int,!!,!,intint,Even,int!,DispBool=f,int,!,Even,-,int!!,-,-,!Bool=t,Stri,!,-,!,intintint,int,!,!!=n,int,int,Mous,intintint,NumbNumb,!!!!Bool=fint=0
-WickedZonked 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-ColorCrowded 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-InjureFour 58 4 1 0 4 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-SignSuzuka 41 3 1 0 1 1 0 0 0 0 0 0 1 1 0 0  -,Boolint=0
-MilkyRobin 28 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-FascinatedGrate 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-ChickenBashful 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-BuryAlluring 37 1 1 0 0 0 0 0 0 3 0 0 1 2 0 0  -,-,Stri
-AdmireHate 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-VioletMilky 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-FascinatedLight 130 5 1 0 0 0 0 0 0 2 0 0 1 2 0 0  -,!,!
-SighWhisper 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-StomachTax 205 23 1 0 0 11 0 0 0 4 0 0 8 3 0 0 x_initialisation -,Bool,-,-,-,Stri,Obje,-,-,Stri,-
-MightyChicken 39 7 1 0 10 0 0 0 0 0 0 0 1 0 0 0  intint
-HydrantPat 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-HangingCrib 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-CrashFragile 18 19 0 0 0 0 0 0 0 3 0 0 1 0 0 0 NORMAL -
-CuteLight 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-LargeMilky 73 10 0 0 0 3 0 0 0 0 0 0 1 5 0 0  -,Bool,-,Bool,Bool,-
-LipFaint 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  !
-LookAction 51 30 0 0 9 0 0 0 0 0 0 0 2 0 0 0  -,!!!
-SeedAgree 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-SpuriousRequest 242 7 2 0 10 1 0 0 0 0 0 0 6 1 0 0  -,-,intBool=fStri=n,-,!intintintintStriBool,int,-
-PinusStomach 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intint,-,-,-,-,-,Byte
-SuperHateful 52 39 1 0 1 0 0 0 0 8 0 0 1 1 0 0 NORMAL int,int
-ClubFragile 136 116 2 0 3 1 0 0 0 0 0 0 1 6 0 0  -,int,-,-,-,Dispint=1Bool=f,-
-OrderSuzuka 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-SpuriousUncle 89 53 0 0 6 0 0 0 0 0 0 0 5 0 0 0  !,-,Vect,-,Bool
-JoyousHarmony 50 15 3 0 6 0 0 0 0 0 0 0 3 0 0 0  SounNumb=1,Even,Numb
-BuryClub 437 829 0 0 0 175 0 0 0 0 0 0 1 15 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
-BruiseWarlike 95 22 2 0 0 0 0 0 0 0 0 0 1 10 0 0  -,-,-,-,-,-,-,-,-,-,-
-VioletProgram 23 1 0 0 0 1 0 0 0 2 0 0 1 0 0 0  intStri
-CardPeck 160 3 3 0 0 1 0 0 0 0 0 0 1 3 0 0  -,-,intStriintintintint,int
-ToeAction 65 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-ChopMark 139 2 0 0 3 0 0 0 0 1 0 0 3 2 0 0  !!,!!*,!*,!,-
-StayBathe 21 5 0 0 3 0 0 0 0 0 0 0 1 0 0 0 R -
-HistoricalBag 14 2 0 0 0 1 0 0 0 0 0 0 1 0 0 0  -
-MarkZonked 456 609 0 0 0 187 0 0 0 0 0 0 1 14 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-
-HarmonyCrime 26 1 0 0 0 0 0 0 0 1 0 0 3 0 0 0  !,!,!
-ClubScratch 399 2 4 0 14 0 0 0 0 0 0 0 16 1 0 0  !,Stri,-,-,Even=n,Stri,-,-,-,!,-,Even,Stri,-,-,-,-
-ComplexCreator 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-SeriousCrime 229 81 0 0 0 2 0 0 0 0 0 0 1 18 0 0  -,int,-,intBool=t,int,intint=0,int,intintBool=t,intBool=t,int,intBool=t,-,intint=0,int,intArra,intint=0,intint=0,Arra,int
-SuzukaAmuse 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-AgreeKotsky 75 1 2 0 1 1 0 0 0 0 0 0 3 1 0 0  -,Stri=n,-,-
-GapingCommon 125 2 4 0 2 3 0 0 0 0 0 0 5 2 0 0  -,intint,!,Even,!,-,!
-AnusWarlike 17 54 1 0 0 0 0 0 0 0 0 0 0 0 0 0  
-CrimePail 18 5 0 0 2 0 0 0 0 0 0 0 1 0 0 0  -
-BashfulRare 50 2 2 0 6 0 0 0 0 0 0 0 1 0 0 0  Byte
-HistoricalMachine 110 17 1 0 0 0 0 0 0 0 0 0 1 14 0 0  -,intBool,StriintBoolBoolBool,Bool,int,intint+,-,-,Stri,VectVect,StriintByteByte,Bool,Stri,int,intintintint
-ClubBorrow 85 5 1 0 5 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-DecayStomach 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-BatheSisters 49 5 1 0 2 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence int,-,-,-,-,-,Byte
-WhistleDeadpan 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-ChickenMilky 106 5 2 0 38 0 0 0 0 0 0 0 1 0 0 0  -
-RequestInexpensive 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStri,-,-,-,-,-,Byte
-YellWarlike 78 1 2 0 0 1 0 0 0 0 0 0 3 1 0 0  -,Bool,-,Mous
-SignTiresome 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStri,-,-,-,-,-,Byte
-ObtainableGate 878 13 9 0 0 12 0 0 0 1 0 0 1 14 0 0  -,Even=n,EvenMovi=nBool=f,int,StriObjeBool=f,Even,Bool,-,-,Bool,-,Even,XMLNMovi,Bool=t,Mous
-StoreRare 32 14 0 0 6 0 0 0 0 4 0 0 1 0 0 0  -
-NotebookRare 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  !Stri
-BackWing 26 2 1 0 4 0 0 0 0 0 0 0 1 0 0 0 x,y Byte
-QuirkyCreator 109 37 2 0 0 13 0 0 0 0 0 0 1 3 0 0  -,StriDispStriintNumb=1,-,-
-ColorLabel 15 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintint
-MilkyFix 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-BatheSqueamish 17 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintintint
-WarlikeChivalrous 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-RareHateful 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStri,-,-,-,-,-,Byte
-BatheWhistle 327 6 4 0 8 1 0 0 0 0 0 0 12 5 0 0  -,Bool,-,!,!Bool,-,-,-,int,-,-,-,-,-,-,Stri,Stri
-CardDecay 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-LargeDelightful 226 20 9 0 5 1 0 0 0 0 0 0 12 1 0 0  -,-,Even,!,int,-,Mous,Mous,-,Even=n,StriFunc=nObje=nBool=fBool=t,int,StriFunc=nObje=nBool=fBool=t
-AdviseSense 103 4 1 0 10 0 0 0 0 0 0 0 2 0 0 0  intint!,intint
-GapingReligion 398 5 7 0 0 3 0 0 0 1 0 0 1 8 0 0  -,Spri,!intBool,!intint,-,!int,StriBool=f,!int,!SpriStriint
-StoreHarmony 137 1 1 0 2 0 0 0 0 1 0 0 7 0 0 0  !,!,!,-,-,!,!
-WanderingCrime 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-UnequaledMark 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-ColorSigh 88 4 1 0 11 0 0 0 0 0 0 0 1 0 0 0  Byte
-DeterminedCute 64 1 0 0 1 1 0 0 0 0 0 0 3 1 0 0  -,Boolint=0,int,-
-GullibleAmuse 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-ApatheticBruise 55 17 0 0 3 0 0 0 0 0 0 0 5 0 0 0  StriBool=t,!,-,!,!
-AmuseInexpensive 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-TastelessKuruma 72 5 1 0 5 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-AdhesiveNoxious 249 23 2 0 9 0 0 0 0 7 0 0 5 0 0 0  intintintNumb=0int=0Bool=t,-,-,!,intintintintintBool=tNumb=0
-NoiselessIcy 60 28 1 0 0 0 0 0 0 0 0 0 7 2 0 0 delta Numb=0Numb=0,!,Poin,Poin,Numb=0Numb=0,-,Numb=0,-,-
-ReligionIcy 14 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriBool
-QuirkyStale 15 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriBool
-WickedPat 113 20 0 0 2 0 0 0 0 0 0 0 9 0 0 0  !,!!,!Arra!!Numb,!,-,!,!!,!!!,-
-GullibleThick 12 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-JuiceMachine 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-CoalEntertaining 241 7 8 0 0 12 0 0 0 0 0 0 1 10 0 0  -,Stri=nint=0,int=0int=8int=-,Mous,Boolint=1,Mous,Even,-,int,Stri,!
-MetalLarge 36 2 3 0 0 0 0 0 0 0 0 0 1 1 0 0  -,DispNumbNumbBool
-DecayTouch 224 137 2 0 42 0 0 0 0 0 0 0 7 0 0 0  !Bool=t,-,intFuncObje=n,!Bool=t,int,Numb,intint=-Func=nObje=n
-KnifeComplex 18 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintintintint
-ChopFascinated 110 50 1 0 2 0 0 0 0 28 0 0 1 1 0 0  intClas,int
-BagBruise 14 3 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intStri
-ChivalrousAlluring 29 2 1 0 5 0 0 0 0 0 0 0 1 0 0 0  Byte
-HystericalHalf 43 2 1 0 6 0 0 0 0 0 0 0 1 0 0 0  Byte
-GrateObeisant 30 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-InexpensiveChickens 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-InexpensiveCrown 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-ClubFaint 63 4 1 0 6 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-CryScratch 77 3 1 0 2 0 0 0 0 3 0 0 2 1 0 0  intObje=n,Byte,!
-PatGround 110 10 1 0 7 0 0 0 0 0 0 0 2 0 0 0  Byte,int=-
-LightCrib 124 19 2 0 0 0 0 0 0 0 0 0 9 1 0 0  int=0Stri=n,Byte,-,-,-,-,-,-,-,-
-CompanyInjure 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-InjureAdmire 56 72 0 0 0 0 0 0 0 22 0 0 1 0 0 0  -
-HateGaping 12 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-HateSlip 35 8 1 0 9 0 0 0 0 0 0 0 1 0 0 0  intint
-EliteQuirky 403 454 0 0 0 163 0 0 0 0 0 0 1 13 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-
-PanoramicRay 22 3 0 0 0 0 0 0 0 5 0 0 1 0 0 0  -
-CribCrime 218 6 5 0 0 3 0 0 0 8 0 0 1 6 0 0  -,Mous,!,Even,-,Mous,Mous
-ZonkedCrime 24 2 0 0 4 0 0 0 0 0 0 0 1 0 0 0  intintArra
-AdhesiveElite 79 1 2 0 2 0 0 0 0 1 0 0 5 0 0 0  !,Even,!,!,int
-SistersSuper 62 197 0 0 5 0 0 0 0 2 0 0 4 1 0 0  !int=2int=0,+,-,int,Vect
-PlanAgreeable 433 656 0 0 0 178 0 0 0 0 0 0 1 13 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-
-InexpensiveBathe 28 2 0 0 5 0 0 0 0 0 0 0 1 0 0 0 target -
-PrepareAction 338 3 6 0 12 1 0 0 0 5 0 0 24 3 0 0 lecture -,-,-,Stri,-,Numb,Bool,Even,Bool,-,Striint,-,Even,Bool,-,-,Obje=n,Numb,Striint=0Func=n,-,-,Obje,-,Obje,-,-,Even
-CompanyHydrant 35 38 1 0 1 0 0 0 0 0 0 0 5 0 0 0 ecriture,get,set -,-,Byte,-,-
-BladeClub 49 5 1 0 2 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence int,-,-,-,-,-,Byte
-KurumaOrange 234 28 0 0 14 11 0 0 0 0 0 0 9 18 0 0  Striintint=-,!Stri,Stri,-,Stri,-,Stri,-,-,Stri,-,Stri,Stri,-,-,-,-,-,Stri,Bool,Bool,FuncFunc=n,Bool=t,StriBool=f,Func,Bool,Stri
-CompetitionBurn 20 2 0 0 0 0 0 0 0 0 0 0 3 0 0 0  -,!,!
-ScintillatingPrepare 140 16 1 0 8 1 0 0 0 31 0 0 1 1 0 0  intStriStriStriintintStriStri,int
-WickedSatisfy 50 6 1 0 2 0 0 0 0 1 0 0 2 0 0 0  intObjeintBool,-
-DeadpanLamentable 138 7 6 0 11 1 0 0 0 0 0 0 3 0 0 0  intStriintintintintintintNumbBool,Text,Stri
-SighRay 30 7 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintintintintintintintBoolBoolint=0
-PartyVolcano 40 4 2 0 3 0 0 0 0 0 0 0 1 0 0 0  Byte
-FaintMark 68 77 0 0 0 0 0 0 0 16 0 0 1 0 0 0  -
-ActionBack 268 2 8 0 3 3 0 0 0 0 0 0 7 5 0 0  -,Mous,Bool,Arra,Bool,Bool,-,-,-,-,-,Keyb
-DelightfulToe 195 183 3 0 1 16 0 0 0 40 0 0 3 0 0 0 lecture -,StriObje,Stri
-FaithfulHarmony 14 5 0 0 0 1 0 0 0 0 0 0 1 0 0 0  -
-ColorAgree 31 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-AdviseAdhesive 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-PailHistorical 75 14 1 0 17 0 0 0 0 0 0 0 1 0 0 0  Byte=n
-ThickToe 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-JuiceLight 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-SeriousSerious 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-InjureBird 31 3 1 0 0 1 0 0 0 0 0 0 1 2 0 0  -,-,Byte
-StaleLight 118 238 1 0 2 0 0 0 0 0 0 0 9 0 0 0  intint=-,int,int,int,int,ByteStri,Bool,Byte,Stri
-PartyFascinated 15 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriintStri
-SwankyGaping 452 7 12 0 14 2 0 0 1 0 0 0 20 0 0 0 couleur,couleurEnCours int=-,Mous,-,-,intBool=tBool=f,Mous=n,-,-,Keyb,Mous,intBool=t,Mous,Mous,intBool=t,int=-Bool=t,Func=n,Mous=n,Func=n,-,-
-BurnMachine 154 3 1 0 5 0 0 0 0 6 0 0 8 0 0 0  !,!,!,!,!!Numb,!,!int,!
-RayUnit 93 5 4 0 3 1 0 0 0 0 0 0 2 2 0 0  -,DispintintNumbBool=t,Bool,Mous
-RobinAdvise 191 1 3 0 2 0 0 0 0 7 0 0 6 0 0 0  !,!,int,-,int,!
-CoalTiresome 124 45 0 0 0 1 0 0 0 0 0 0 1 7 0 0  -,!=n,-,!,!,!,VectBoolBool,!
-StupidThick 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-PailViolet 25 3 0 0 1 0 0 0 0 0 0 0 3 0 0 0  -,!,!NumbNumb
-StaleBathe 26 3 0 0 0 1 0 0 0 0 0 0 2 0 0 0  -,!!
-DistroSense 88 2 3 0 3 1 0 0 0 0 0 0 13 0 0 0 x_changerTempsDecoAFK,x_defAdresseIPServeur,x_defImageLogin,x_defNomJeuModule801,x_envoyerMessageVersServeur,x_initialisationRetour,x_rechargerLuaServeur,x_recupChampsTexteEntree,x_recupChat,x_recupImageDistante -,intint,Bitm,FuncFunc,Stri,Stri,-,!,intArra,Stri,Stri,int,Stri
-PanoramicFeeble 76 40 0 0 5 7 0 0 0 0 0 0 9 0 0 0 userData -,-,-,-,-,-,-,-,-
-ComplexAnus 32 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-TiresomeColor 1716 7 1 0 0 12 0 0 0 1 0 0 1 11 0 0 init -,-,int,-,-,-,int!,-,-,-,int!int,-
-StickStatement 26 216 0 0 0 0 0 0 0 7 0 0 1 0 0 0  -
-GullibleAlluring 109 1 6 0 2 3 0 0 0 0 0 0 3 1 0 0  -,Boolint=0int=0,-,int=0int=0
-IcyBathe 206 20 1 0 4 0 0 0 0 4 0 0 7 13 0 0  StriBoolBool=f,Stri,Stri,Stri,StriFuncObje,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,StriStriFunc=nObje=nBool=f,StriStri,StriStriFunc=nObje=nBool=f,StriStri,-,Stri!Bool
-FaithfulTax 74 28 0 0 0 0 0 0 0 31 0 0 1 0 0 0  -
-FixFeeble 30 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intArra
-StaySisters 17 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-StaleStupid 65 23 1 0 4 1 0 0 0 10 0 0 1 1 0 0  intStriStriStri,int
-PatWhistle 425 1183 0 0 0 179 0 0 0 0 0 0 1 11 0 0  -,-,-,-,-,-,-,-,-,-,-,-
-PatBury 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-UncleInjure 49 5 1 0 2 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence int,-,-,-,-,-,Byte
-HangingWandering 33 2 2 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-PearPat 23 9 0 0 3 0 0 0 0 0 0 0 1 1 0 0  -,!!
-ChopChickens 176 4 6 0 0 8 0 0 0 3 0 0 1 8 0 0 couleurEnCours -,Even,Even,intint,Stri,Even,-,!intintintintint,Stri
-ProseStore 493 1 4 0 14 0 0 0 0 11 0 0 12 0 0 0  !,!,-,Bool=f,!!Bool,int,int,NumbNumb,!,int,int,Dict
-PipkaBurn 221 15 8 0 5 2 0 0 0 1 0 0 3 4 0 0  -,BoolBool=f,-,Stri,Stri,-,-
-StickClub 17 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
-LamentableCoal 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStri,-,-,-,-,-,Byte
-CreatorCreator 36 34 0 0 1 1 0 0 0 0 0 0 2 0 0 0  Numb=0,Numb
-InviteTax 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStri,-,-,-,-,-,Byte
-MilkyArmy 23 5 1 0 1 0 0 0 0 0 0 0 1 0 0 0  int
-QuirkyScale 46 18 0 0 11 0 0 0 0 0 0 0 1 0 0 0  StriStriStriint=0int=0Bool=f
-ChopCrown 121 5 2 0 0 2 0 0 0 0 0 0 1 2 0 0  -,Bitm,ByteintByte
-BerryBalvanka 369 4 0 0 12 4 0 0 0 0 0 0 8 0 0 0  intintint*!,-,!!BoolBool,!,!,!,Arra,!
-ChickensConfused 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-PrepareProgram 121 37 0 0 4 0 0 0 0 29 0 0 1 1 0 0  intStriStri=nBool=f,int
-NoiselessBathe 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intintStri,-,-,-,-,-,Byte
-SistersUnequaled 16 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriintintStri
-AdaptableHysterical 29 1 0 0 0 0 0 0 0 1 0 0 3 0 0 0  !,!,!
-AlansonGrate 49 1 1 0 0 0 0 0 1 0 0 0 4 0 0 0  !,Dict,!,int
-ThickSlip 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  !
-FlowerBury 35 7 1 0 7 0 0 0 0 0 0 0 1 0 0 0  Byte
-CrimeHalf 402 2 2 0 2 0 0 0 0 0 0 0 19 1 0 0  -,Stri,-,-,-,StriVect,-,intint,!Stri,-,Stri=n,-,Stri,-,!,!,-,Obje=n,Obje,Bool=fBool=t
-LargeGate 211 99 0 0 0 0 0 0 0 3 0 0 1 31 0 0  -,!!,-,NumbNumb,!!,NumbNumb,!!,Numb!,ArraArra,Numb!,!!,!,!!,uint,!!,!!,!!,!!,uint,NumbNumbNumb,!!!,!!,!,!!,!!,NumbNumb,!!,Numb,!Numb,!!,Numb,!!
-UnequaledStupid 63 9 5 0 0 0 0 0 0 3 0 0 1 2 0 0  -,int,-
-HatefulWarlike 13 4 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-HystericalNoxious 20 109 0 0 0 0 0 0 0 4 0 0 1 0 0 0  -
-FlowerCompany 26 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-KnifeDelightful 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-WarlikeFix 19 7 0 0 3 0 0 0 0 0 0 0 1 0 0 0  int
-CrackerStupid 14 2 0 0 0 1 0 0 0 0 0 0 1 0 0 0  -
-HistoricalBurn 158 4 4 0 1 3 0 0 0 0 0 0 4 6 0 0  -,Byte,-,-,Byte,Even,-,Byte,!,!
-AdviseStay 120 10 0 0 0 0 0 0 0 0 0 0 1 3 0 0  -,!intStriBool=f,intStri=n,intintBool
-PatAdhesive 31 8 0 0 7 0 0 0 0 0 0 0 1 0 0 0 userData -
-ProudSeed 44 2 1 0 7 0 0 0 0 0 0 0 1 0 0 0  Byte
-LamentablePlan 139 21 3 0 17 4 0 0 0 0 0 0 8 0 0 0 url StriNumb=0Numb=0Bool=f,-,Bool,Numb=0Numb=0Bool=f,Stri,Bool,-,NumbNumbBool=f
-CoalChivalrous 166 11 8 0 3 5 0 0 0 0 0 0 6 0 0 0  Bool,intintintStriStri,-,-,intint,Even
-RareSqueamish 15 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int!
-LoafAgree 26 1 0 0 0 0 0 0 0 1 0 0 3 0 0 0  !,!,!
-DeliverAdhesive 215 8 6 0 6 3 0 0 4 0 0 0 6 3 0 0  -,StriBool=fint=7,Striintint=7,Dispint=2int=3int=1int=6,Even,Mous,Stri,Even,Even
-JumbledReligion 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-StoreLunasole 26 2 1 0 4 0 0 0 0 0 0 0 1 0 0 0  Byte
-AdaptableBorrow 12 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-DildoStick 594 50 7 0 0 15 0 0 0 8 0 0 1 11 0 0  -,intintintintint,int,int=-,!,int,int,Even=nBool=t,int,!,int,-
-EliteProse 471 2215 0 0 0 202 0 0 0 0 0 0 1 11 0 0  -,-,-,-,-,-,-,-,-,-,-,-
-TouchMachine 832 13 0 0 10 1 0 0 0 2 0 0 15 1 0 0  !!,Arraintint,!,!!,-,!*int,!!,int,!*,ArraArraintintArraintint,-,-,int!,int,int,ArraArra!
-ClubInjure 202 2 0 0 3 0 0 0 0 1 0 0 5 0 0 0  -,***,-,**,!
-WarlikeProse 34 16 0 0 9 0 0 0 0 0 0 0 1 0 0 0 normal,position,velocity -
-AdviseHysterical 1207 26 8 0 38 8 0 0 0 7 0 0 37 15 0 0  -,-,-,-,-,-,Stri,-,int=-Bool=f,-,-,Bool,Disp=n,-,-,-,-,!,-,!,!,Even,-,Stri,-,Bool,BoolBoolBoolBool,-,!!,Even=n,-,int,!!Bool,!,-,-,-,-,!,!!,-,StriStriFunc!,!,BoolBool,!,-,-,-,Boolint,!,Stri,-
-ProseBurn 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-RareMighty 77 1 6 0 1 3 0 0 0 0 0 0 2 1 0 0  -,Boolint=0,-
-ZonkedKnot 31 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Arra
-AlansonPrepare 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-JoyousTrail 16 6 0 0 2 0 0 0 0 0 0 0 1 0 0 0  -
-TouchWing 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-ScratchConfused 24 7 0 0 4 0 0 0 0 0 0 0 1 0 0 0  intStriStriStri="
-LabelBurn 589 119 2 0 44 1 0 0 5 0 0 0 2 1 0 0  -,-,intint
-DeterminedStomach 97 1 2 0 1 1 0 0 0 0 0 0 3 1 0 0  -,Stri=",-,Stri
-CompanyWicked 99 4 2 0 14 0 0 0 0 7 0 0 4 0 0 0  intint!,-,Bool,!
-HatefulRobin 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-AlansonSisters 22 5 1 0 3 0 0 0 0 0 0 0 1 0 0 0  !
-PeckCrib 29 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-SandBashful 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-BabiesKnife 45 1 1 0 2 0 0 0 0 0 0 0 4 1 0 0 ecriture,lecture int=0Stri=n,Byte,-,Byte,Byte
-LabelDetermined 519 5 0 0 4 1 0 0 0 3 0 0 5 0 0 0  !Arraint*,!,-,-,-
-StatementOrange 322 47 0 0 29 3 0 0 0 0 0 0 10 1 0 0  StriStriint,!!,!!,intStri,-,-,!,BoolBool=f,intStriStriint!=nStri=nStri=nStri=n,int,intStriStri
-BladeKuruma 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intStri
-HealCrib 49 5 1 0 2 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence int,-,-,-,-,-,Byte
-CuteConfused 405 1994 0 0 0 164 0 0 0 0 0 0 1 13 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-
-UncleSwanky 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-ChickensMilky 35 2 0 0 0 0 0 0 0 0 0 0 2 0 0 0  int,intintint=0int=0int=0int=0int=0int=0Bool=fBool=f
-RobinComplex 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Striint
-BorrowPanoramic 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-CommonEntertaining 313 33 4 0 0 17 0 0 0 0 0 0 1 14 0 0  -,int=0int=8int=-,BoolNumb=0Bool=f,-,-,!,-,BoolNumb=1,-,BoolNumb=1Numb=1,-,-,-,Func=n,!
-JumbledBerry 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-BabiesWindy 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-SeedLabel 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-ScratchYell 120 141 4 0 7 3 0 0 0 0 0 0 2 0 0 0  intBoolStriintint=5int=0,-
-InviteReligion 484 2444 0 0 0 181 0 0 0 0 0 0 1 22 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
-GroundFrail 351 4 6 0 10 2 0 0 0 1 0 0 17 1 0 0  -,int,Func,!Func,Vect,Even,Vect,-,int=-!=n,Func,intint=-,-,Func,Mous,Even,-,!Func,int
-UncleScintillating 344 6 5 0 7 1 0 0 0 0 0 0 14 5 0 0  -,!Bool,-,-,!,Bool,int,-,-,-,-,-,Stri,-,-,-,Even,-,Stri
-DistroAbaft 18 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  !Bool
-TastelessRequest 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-HatefulJumbled 100 1 4 0 1 0 0 0 0 2 0 0 4 0 0 0  !,-,Even,int
-DistroLamentable 77 37 1 0 1 2 0 0 0 0 0 0 3 1 0 0  intintint=0Bool=fint=0int=1int=1int=0,!,-,-
-CuteLoaf 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStri
-CompetitionBabies 30 3 1 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriStriStri!Stri
-PipkaDeadpan 344 61 10 0 0 2 0 0 0 2 0 0 1 12 0 0  -,DispintFunc=nint=0Func=nObje=n,Dispint,Dispint=-Numb=-Numb=-,intintintintDispint=-Stri=",BitmNumbNumb=0,Even,Inte,Mous,Disp,Mous,!Func,SpriBool=t
-SeriousRay 7 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
-AdmireHeal 49 5 1 0 2 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence int,-,-,-,-,-,Byte
-CrashMouse 43 6 0 0 4 0 0 0 0 0 0 0 4 0 0 0  -,-,!Numb!Numb,!Numb!Numb
-DecayTasteless 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-TrembleStick 97 57 1 0 7 0 0 0 0 0 0 0 2 5 0 0  intBool=fBool=fBool=f,!!,!,int,!!,!!,-
-LegKnife 44 2 2 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-ArmyRecognise 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-CuteInvite 1265 26 7 0 62 3 0 0 0 1 0 0 1 2 0 0  -,XMLNStriintBoolint=0Bool=f,MoviBool=f
-EliteSuzuka 217 3 10 0 10 0 0 0 0 0 0 0 7 0 0 0  intint!,Stri,Even=n,Even,Even,-,-
-DeadpanTrail 22 19 0 0 0 0 0 0 0 5 0 0 1 0 0 0  -
-DeadpanFaint 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-TouchGround 295 2 0 0 8 0 0 0 0 0 0 0 11 3 0 0  -,!uintuint,!!,uintuint,!!,uintuint,intint,uintuint,-,-,-,uintuint,intint,uintuintuint
-CompetitionCrowded 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-VolcanoKnot 51 2 1 0 13 0 0 0 0 0 0 0 1 0 0 0  Byte
-ProudOrange 17 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-AnusInstruct 1933 49 7 0 0 48 0 0 0 12 0 0 1 2 0 0  -,Bool,Even
-StoreRobin 117 15 2 0 2 0 0 0 0 0 0 0 6 0 0 0  intStri="Bool=f,Bool=t,Func,Stri,Keyb,Even
-FlowerUnit 724 24 9 0 16 6 0 0 0 4 0 0 24 10 0 0  -,-,Bool,-,Stri,Bool=t,Stri,Bool,-,Stri,Disp=n,int,-,-,!!,Even,Keyb,Bool,Keyb,!!,Even=n,int,!,-,int,!,-,Stri,-,-,-,-,-,!
-HateOrder 580 3 0 0 0 1 0 0 0 1 0 0 1 8 0 0  -,!!,Arra!!!!,!!!!!,Arra!!int!!,ArraArra!Numb,!!!!!,!!!!!,!!int!!
-ColorVolcano 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-ProgramMark 39 7 0 0 0 1 0 0 0 0 0 0 1 4 0 0  -,Stri,-,-,-
-StayOrange 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Bool
-AmuseProud 36 24 0 0 6 0 0 0 0 3 0 0 1 0 0 0  !intintintintint
-PipkaBathe 37 5 1 0 7 0 0 0 0 0 0 0 1 0 0 0  Byte
-CrimeKnot 27 9 0 0 5 0 0 0 0 0 0 0 1 0 0 0 type,userData; -
-HarmonyPail 192 35 5 0 6 4 0 0 0 2 0 0 4 1 0 0  intint=0Bool=f,intint=-Bool=fBool=f,Numb,Bool,intBool=f
-GapingNoiseless 148 4 3 0 0 4 0 0 0 0 0 0 1 2 0 0  -,Even,Bool
-LegBag 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-MarkCrash 146 68 0 0 0 0 0 0 0 67 0 0 1 0 0 0  -
-RobinSisters 172 34 3 0 6 0 0 0 0 0 0 0 10 0 0 0  intStri="Bool=f,-,Bool=t,Keyb,StriFunc=nObje=n,-,-,StriFunc=nObje=n,Bool=t,Bool=t
-CommonWicked 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-FascinatedCute 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-LaborerSense 264 11 9 0 11 2 0 0 0 0 0 0 7 4 0 0  StriBool,Even,Stri,Striint=0int=0Bool=t,-,Dispint=0int=0int=0,-,-,intint,Stri,intintint=0
-JumbledWatery 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-IcyBack 33 9 0 0 7 0 0 0 0 0 0 0 1 0 0 0  intStriStriintintStriBool
-HatefulStick 35 2 1 0 7 0 0 0 0 0 0 0 1 0 0 0  Byte
-HarmonyTremble 278 2 6 0 8 3 0 0 0 0 0 0 4 2 0 0  -,-,Obje,Stri,Keyb,Obje
-SighFlower 105 12 1 0 0 6 0 0 0 1 0 0 1 7 0 0  -,-,-,-,-,-,FuncFunc,-
-CompanyDetermined 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-VolcanoSatisfy 38 8 1 0 1 0 0 0 0 1 0 0 2 0 0 0  intObjeint,-
-PailSand 1255 528 9 0 49 0 0 0 0 0 0 0 44 0 0 0  int=0int=0,Even,!int=2,Mous,-,Boolint=6Bool=f,Even,Disp,Numb=0,int,intintFunc,-,Bool=t+,-,Bool=tint=0,Even,Even,intNumb=1,intint,Even,DispBool,-,Bool=f,Bool=t,-,-,Disp+,int,Even,int,Disp,Even=n,int,!int=0int=0int=0int=0,-,intintBoolintint=0int=0,StriFunc=nint=1,-,-,-,Bool=t,Bool=tint=0Bool=fRect=n,Even,-
-RequestStomach 18 10 0 0 2 0 0 0 0 0 0 0 1 0 0 0 v -
-ScintillatingParty 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-PartyCurved 30 2 0 0 1 0 0 0 0 0 0 0 2 0 0 0  intStri,-
-PipkaAction 161 2 0 0 13 0 0 0 0 0 0 0 6 0 0 0  !,int,-,int,int,int
-ApatheticDeliver 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-LunasoleJoyous 54 4 1 0 3 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-CommonSerious 184 31 1 0 26 1 0 0 0 0 0 0 8 0 0 0  intStriBool,-,-,int,Bool=f,-,-,Numb
-BorrowNotebook 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-StomachOrder 54 4 1 0 3 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-PearInjure 438 1360 0 0 0 183 0 0 0 0 0 0 1 12 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-
-OrangeCompany 40 34 0 0 0 0 0 0 0 14 0 0 1 0 0 0  -
-TastelessLight 60 21 1 0 6 0 0 0 0 9 0 0 1 0 0 0 url Byte
-FlowerScintillating 38 7 0 0 0 0 0 0 0 0 0 0 1 4 0 0  -,Date,Date,Date,int
-TaxObeisant 13 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
-FaithfulLight 614 18 5 0 0 7 0 0 0 0 0 0 1 1 0 0  -,Stri
-FragileCompetition 15 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintint
-CrowdedDildo 36 22 1 0 5 1 0 0 0 0 0 0 2 0 0 0  !,-
-SqueamishStatement 4753 2011 39 0 166 28 0 0 8 13 0 0 109 10 0 0 Fx,Fy,Initialisation,_I,tempsPartieZero,x_UTILISATEUR_DEBUG,x_moletteTransformice,x_nombreBonusDefilante,x_proxyModule801,x_proxySteam,x_recupTitreInterface -,-,-,Numb,-,+,-,-,Obje,Obje,-,Bool=f,Movi,Even,-,int,!Boolintintint,-,Mous,Mous,Mous,-,Even,Stri,Mous,-,Mous,Even,Stri,-,Mous,!,!int=0,intint=0int=0Bool=fBool=t,Striint,-,-,intintintintBool=fint=0,Mous,StriStri=nBool=fStri=nStri=nStri=n,-,-,-,-,-,-,ObjeStriint=0int=0int=0int=0,Stri,!int,Mous,-,intintint!=nBool=fNumb=0Numb=0,Func,StriStri=n,-,XMLNMovi,intintintintBool=fBool=tint=0,-,Even,!,-,StriStriStriStri,Mous,Even,int,-,!,StriStriint,Even=n,intintint,Mous,!,-,Mous,EvenStri=nBool=f,Disp,!,Bool,Stri,int,Mous,-,Movi,Even,Mous,-,Stri,-,-,Boolintint,Even=nBool=fint=0,Even=n,Time=n,!,-,Stri=n,!Bool=fBool=f,intintintintintBool=tNumb=0!=n,Stri=n,Even,intintintBool=fint=-,Even=n,Stri,intFuncint=0int=0,-,!Stri=nStri=nint=0int=0Bool=f,Arra,intint!int,int,intintNumbNumbNumbintNumbNumbNumbNumb=0Numb=0,Stri,Bool,Stri,-,+,int,Even,-,intint
-SenseAgreeable 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-VolcanoBury 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-LargeHistorical 300 163 1 0 0 0 0 0 0 93 0 0 1 1 0 0  -,int
-SubduedLight 29 4 0 0 7 0 0 0 0 0 0 0 1 0 0 0 normal,position -
-ScaleStatement 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-DeadpanBack 159 1 6 0 12 0 0 0 0 0 0 0 10 0 0 0 lecture,pauseVideo StriBool=tNumb=1Func=n,Even,Even,Even,-,Even,Stri,Even=n,Even,Bool
-ProbableTiresome 16 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriStri
-IcyEntertaining 61 5 1 0 5 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intintintBool,-,-,-,-,-,Byte
-SatisfySuzuka 65 31 1 0 10 1 0 0 0 3 0 0 3 1 0 0  intintintBoolBoolBoolBool,int,Bool=fBool=f,Bool=f
-DildoAdhesive 367 3 8 0 18 2 0 0 0 1 0 0 11 4 0 0  -,Even=n,!,Bool!=n,-,Mous,Bool,!,Stri=n,Even,int=0,-,intBool,int,int
-CoalComplex 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-PlanScintillating 27 3 0 0 0 0 0 0 0 0 0 0 1 3 0 0  -,Stri,!StriStri,Stri
-RequestScale 185 4 3 0 8 1 0 0 0 5 0 0 3 4 0 0  -,StriStriintintint!,-,Bool=tStri=",-,int,-
-KotskyStupid 143 2 0 0 3 0 0 0 0 1 0 0 3 2 0 0  !!,!*,!!*,-,!
-OrangesParty 49 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-WhistleRare 40 1 1 0 0 1 0 0 0 0 0 0 1 2 0 0  -,-,Stri
-CreatorFour 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-PanoramicSuzuka 380 2 0 0 0 5 0 0 0 0 0 0 1 7 0 0  -,!!!!!!,!!ArraArraArra,!!ArraArraArra,!Arraint,!!!!!!,!!*!*!,!!!!!!
-TiresomeCry 149 678 0 0 2 0 0 0 0 0 0 0 20 1 0 0  Numb=0Numb=0,NumbNumb,!,!,!,-,!,-,Numb,-,!,-,-,-,Numb,-,-,Numb,Numb=0Numb=0,!,!
-ChivalrousStatement 20 11 0 0 4 0 0 0 0 0 0 0 1 0 0 0  -
-StoreBruise 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-AdhesiveIcy 13 5 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-IllustriousSupply 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-ProgramWhisper 17 10 0 0 2 0 0 0 0 0 0 0 1 0 0 0  -
-VioletPrepare 393 4753 0 0 0 158 0 0 0 0 0 0 1 13 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-
-PeckChicken 63 3 0 0 2 1 0 0 0 0 0 0 6 1 0 0  -,int,-,int,int,int,int
-StupidApathetic 78 1 1 0 2 0 0 0 0 0 0 0 2 0 0 0  Byte,Byte
-MarkSubdued 57 4 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intintint,-,-,-,-,-,Byte
-UnitLook 422 469 0 0 0 190 0 0 0 0 0 0 1 6 0 0  -,-,-,-,-,-,-
-StupidChickens 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-BuryPat 185 5 6 0 0 9 0 0 0 0 0 0 1 8 0 0  -,int,-,-,-,intint,intintint,int,int
-ChivalrousBabies 99 55 5 0 0 1 0 0 0 0 0 0 1 6 0 0  -,StriBool=t,-,StriBool=t,Stri="int=0int=2,-,StriintBool
-LipApathetic 20 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0  !,!int
-TaxSqueamish 116 86 0 0 2 0 0 0 0 49 0 0 1 0 0 0  int
-CribVolcano 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intStriBool,-,-,-,-,-,Byte
-SenseVolcano 66 4 1 0 3 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-ListRecognise 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-ObeisantAgreeable 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-WhisperSeed 27 2 1 0 4 0 0 0 0 0 0 0 1 0 0 0  Byte
-JumbledRecognise 71 19 1 0 0 0 0 0 0 0 0 0 1 3 0 0  -,ObjeObjeBool=f,Stri,FuncObje
-WhistleCrime 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-ChivalrousSqueamish 29 2 1 0 4 0 0 0 0 0 0 0 1 0 0 0  Byte
-AgreeRequest 124 1 6 0 2 1 0 0 0 0 0 0 3 1 0 0 type int=0int=0int=0int=0,Boolint=0int=0int=0int=0Bool=f,-,-
-InviteYell 27 3 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-EntertainingFascinated 214 40 7 0 8 0 0 0 0 1 0 0 12 0 0 0  intStri="Bool=f,-,Focu,Even,int=0int=0int=0int=0,StriFunc=nObje=n,-,Keyb,Bool=t,-,InteStriFunc=nObje=n,StriBool=f
-InviteHanging 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-CribWarlike 55 10 0 0 1 0 0 0 0 5 0 0 2 1 0 0  -,-,-
-ClubFlower 64 2 1 0 3 1 0 0 0 0 0 0 5 0 0 0 get,recupereSequence,set,traitePaquetSortant -,int,-,!,-
-HalfCompany 20 3 0 0 0 0 0 0 0 0 0 0 3 0 0 0  -,-,int
-AnnoyingGaping 32 15 1 0 6 0 0 0 0 0 0 0 1 0 0 0  Byte
-DildoFeeble 23 2 5 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-SpuriousBird 15 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintBool
-ArmyAir 63 29 1 0 13 0 0 0 0 9 0 0 1 0 0 0 rotation Striintint
-StickAnus 66 14 0 0 0 0 0 0 0 5 0 0 1 1 0 0  intStriFunc=nFunc=n,int
-WhistleLook 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-CompetitionDelightful 150 82 1 0 0 1 0 0 0 0 0 0 1 17 0 0  -,Numb,NumbNumb,-,NumbNumbNumbNumbNumbNumbNumbNumb,intintintint,-,Stri,Numb,intint=4,intintintint,NumbNumbNumbNumb,NumbNumbNumbNumb,intintintint,Numb,NumbNumbNumb,Numb,int=4
-RequestEntertaining 21 4 0 0 0 0 0 0 0 0 0 0 3 0 0 0  -,**,***
-ChickenSlip 61 2 1 0 14 0 0 0 0 0 0 0 1 0 0 0  Byte
-DeadpanAdmire 3449 40 13 0 0 8 0 0 0 1 0 0 1 4 0 0  -,Even,Byte,-,Byte
-BackIcy 61 123 0 0 0 2 0 0 0 18 0 0 1 1 0 0  -,Bool
-CardHanging 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-AbaftFaint 443 16 5 0 29 0 0 0 0 0 0 0 17 0 0 0 Ascenseur,DécalageBarreY,Rendu_Ascenseur intintint=0Bool=tint=0,Stri=nint=0Func=n,Even,Striint=0,int,Even,-,int=8uint=2uint=3,int=0,Even,Mous,MoviBool=f,Mous,-,int=0int=0Bool=t,Movi,-
-SandGaping 19 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriStriStriStriStri
-TrembleMilky 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-YellMighty 73 2 0 0 3 0 0 0 0 1 0 0 4 0 0 0  Bool=t,-,-,-
-CrashGrate 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Numb
-SpuriousList 54 4 3 0 4 0 0 0 0 1 0 0 1 0 0 0  Spriint=0int=0int=0
-HangingLight 220 4 1 0 9 1 0 0 0 0 0 0 8 0 0 0  Byte=n,int,-,-,-,-,int,Vect
-ChickensStore 436 13 0 0 20 1 0 0 0 0 0 0 21 0 0 0 K !,-,-,Numb,Numb,NumbNumb,-,-,-,!,-,-,-,Bool,-,-,!,-,Bool,-,-
-WanderingChicken 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-AlansonWhisper 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
-ZonkedHalf 32 8 0 0 2 0 0 0 0 0 0 0 2 0 0 0 toString intStriNumbStriintStri,-
-MetalSwanky 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-QuirkyProgram 42 6 0 0 0 0 0 0 0 0 0 0 1 6 0 0  -,intintintintBool,intint,int,int,intint,int
-CurvedCoal 154 13 9 0 9 4 0 0 0 0 0 0 4 1 0 0  -,Boolint=0,Even,int,int
-SupplyChop 63 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  !
-GrateLaborer 422 1 3 0 13 0 0 0 0 12 0 0 13 0 0 0  !,-,!,-,Dict,int,-,!,int,!,int,-,-
-AmuseLunasole 112 2 0 0 3 0 0 0 0 1 0 0 3 2 0 0  !!,!*,!!*,!,-
-WhisperWandering 37 2 2 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-AirStore 58 68 0 0 3 0 0 0 0 18 0 0 1 0 0 0  Striint=-
-AlansonPear 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
-OrangeAgree 53 4 1 0 3 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-SlipAdhesive 412 11 3 0 6 1 0 0 0 2 0 0 9 7 0 0  -,!!!=n,Stri,!Bool,-,!,-,!,!!Bool=fBool=f,!!!=nBool=fBool=fBool=f,!intBool=fBool=f,!int,!,!,!!=n,!
-TouchScintillating 339 53 5 0 3 17 0 0 0 4 0 0 6 6 0 0  -,Stri,StriStriintint,Bool,StriStri,Bool=f,Stri,Striint,-,Stri,-,BoolStriStri
-StoreCrown 683 1 0 0 9 0 0 0 0 0 0 0 5 0 0 0 creePaquetEntrant,get,getIdPaquet,traiterPaquetEntrant -,!int,int!,!,-
-TouchArmy 13 8 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-UncleUncle 16 2 0 0 0 0 0 0 0 0 0 0 2 0 0 0  -,!
-TrembleKnife 145 2 2 0 5 0 0 0 0 0 0 0 10 0 0 0  -,Stri,Stri,Func,-,-,Bool,Func,-,-
-AirLunasole 173 331 0 0 0 8 0 0 0 0 0 0 1 12 0 0 traiterPaquetEntrant -,!,Stri,Bool,!,-,Stri,-,int,-,intint,int!,-
-AdaptableGrate 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-HalfWaiting 15 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintint
-LabelLight 260 19 2 0 6 6 0 0 0 0 0 0 10 8 0 0  -,int,-,-,Bool,int,-,Bool,int,!,-,-,int,-,-,-,intStriStri,!int
-BashfulSign 1138 1 164 0 10 0 0 0 0 0 0 0 5 0 0 0 creePaquetEntrant,get,getIdPaquet,traiterPaquetEntrant -,_ICoint,int_IPa,_IPa,-
-OrangeSense 104 44 1 0 12 0 0 0 0 0 0 0 6 1 0 0 toString Stri=nint=0,Byte,int,!,-,-,-
-OrangeDeliver 79 2 1 0 0 1 0 0 0 0 0 0 1 2 0 0  -,Stri,VectStri
-CommonObtainable 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,Byte,-
-BorrowLarge 83 13 1 0 0 3 0 0 0 0 0 0 1 3 0 0  -,!,int,!
-ActionAmuse 49 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-ProudElite 75 30 0 0 14 0 0 0 0 0 0 0 4 0 0 0  intintintBoolintintint,!,-,-
-MilkyBathe 57 6 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence intintint,-,-,-,-,-,Byte
-WickedCoal 231 4 6 0 6 0 0 0 0 0 0 0 7 0 0 0  int!Bool=f,Bool,-,Bool,-,-,Bool=f
-FourSense 66 2280 4 0 1 3 0 0 0 0 0 0 2 2 0 0 getInstance Disp,-,-,-
-SupplyCommon 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
-GateNotebook 82 3 1 0 0 2 0 0 0 2 0 0 1 4 0 0  -,StriStriBool,Stri,Stri,-
-QuirkyReligion 44 9 0 0 2 0 0 0 0 0 0 0 5 0 0 0 get,set -,-,-,-,!
-SwankyLarge 115 9 7 0 8 0 0 0 0 0 0 0 5 0 0 0  intint,Even,intStriStri,-,-
-PatMachine 78 4 5 0 2 2 0 0 0 0 0 0 2 0 0 0  int,Bool
-BackProgram 39 29 0 0 5 0 0 0 0 0 0 0 4 0 0 0 userData -,uint,-,-
-RayWicked 32 5 1 0 6 0 0 0 0 0 0 0 1 0 0 0  intintintintintint
-SpuriousSlip 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,Byte,-
-HealChivalrous 14 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriBool
-PlanCrib 34 8 0 0 2 1 0 0 0 0 0 0 3 0 0 0  Numb=0Numb=0,NumbNumb,NumbNumb
-LightHydrant 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-DeterminedJumbled 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intBool
-StoreThick 122 1 1 0 14 3 0 0 0 0 0 0 4 1 0 0  -,Stri="Stri="Stri="int=0Stri="int=0Stri=",Disp,int,StriStriStriintStriintStri
-CrowdedPrepare 281 201 8 0 7 0 0 0 0 2 0 0 14 0 0 0 couleurEnCours Striint=0Func=nObje=nint=0Numb=1,Func=nObje=n,Mous,Bool,StriBool=t,Bool,Even,int,Mous,Stri,-,DispBool=t,intint=0,-
-BuryHate 21 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
-AlluringDistro 20 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Bool
-LoafHydrant 105 2 3 0 0 0 0 0 0 0 0 0 1 2 0 0  -,StriintBoolBoolStri,intintintStriStri
-StupidInjure 593 1 6 0 27 0 0 0 1 1 0 0 19 0 0 0  !,Even,Bool,-,int,Vectint,Numbint,Mous,!,!,-,Vectint,Stri,VectintBool=t,Bool,Bool,int,int,!!Numb
-SandMark 77 1 3 0 0 7 0 0 0 0 0 0 1 1 0 0  -,intint
-AirPat 571 57 9 0 0 16 0 0 0 4 0 0 1 26 0 0  -,-,-,int,Stri,Even,-,Stri,StriBool,-,Bool,Stri,Even,Bool,Even,Numb,Bool,StriStriBool=fBool=fBool=fBool=fNumb=1,int,StriNumb=1Bool=fBool=fBool=f,int,Numb,Stri,Bool,StriStri,-,StriNumb
-KnotAlluring 133 105 0 0 0 0 0 0 0 0 0 0 1 9 0 0  -,Stri,StriBool=tint=1Bool=tint=0,Stri,Stri,Stri,StriStriBool=f,StriVect,StriBool=f,Stri=n
-DelightfulElite 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
-MightyGrate 36 2 0 0 0 1 0 0 0 0 0 0 1 1 0 0  -,Bool
-KnotSerious 41 24 0 0 3 0 0 0 0 0 0 0 4 0 0 0  -,-,-,!
-BladeIcy 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
-AmuseAir 41 10 0 0 5 0 0 0 0 0 0 0 2 0 0 0 length -,!!!!
-LoafFascinated 328 6 5 0 16 1 0 0 0 0 0 0 17 2 0 0  -,-,-,Even,Even,-,!Bool=f,Even=n,Even=n,-,!,-,Mous,Mous,Mous,Mous,Mous,Mous,Mous
-AnusOrange 188 14 1 0 0 6 0 0 0 0 0 0 1 7 0 0  -,Text!=n,Stri,!,int=1,Bool=f,!!,-
-BerryRecognise 33 2 1 0 5 0 0 0 0 0 0 0 1 0 0 0  Byte
+ObeisantYell 14 5 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriBool=f
+ChivalrousSign 1138 1 164 0 10 0 0 0 0 0 0 0 5 0 0 0 creePaquetEntrant,get,getIdPaquet,traiterPaquetEntrant -,-,_ICoint,_IPa,int_IPa
+SupplyEntertaining 99 55 5 0 0 1 0 0 0 0 0 0 1 6 0 0  -,-,-,Stri="int=0int=2,StriBool=t,StriBool=t,StriintBool
+LunasoleAgonizing 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intBool
+SwankyRobin 16 5 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intBoolStriBool
+DeterminedTax 133 32 4 0 0 6 0 0 0 4 0 0 1 11 0 0  -,-,-,-,-,-,-,Even,Load,Obje,StriFunc,Striint
+KnifeSpurious 399 2 4 0 14 0 0 0 0 0 0 0 16 1 0 0  !,!,-,-,-,-,-,-,-,-,-,-,Even,Even=n,Stri,Stri,Stri
+TastelessBruise 332 3 4 0 14 0 0 0 0 7 0 0 15 0 0 0  *,-,-,-,-,-,-,-,Bool,Dispint=-,Numb,Numb,ObjeSpriStriStriStriStriStriStriStriStriStriStri=",StriintStri,intint
+TrembleSwanky 40 2 1 0 4 0 0 0 0 0 0 0 1 0 0 0  Byte
+BabiesLarge 26 3 0 0 0 1 0 0 0 0 0 0 2 0 0 0  !!,-
+ChopAnus 79 1 2 0 0 2 0 0 0 0 0 0 5 1 0 0  -,-,-,-,BoolStri=n,Keyb
+GullibleSigh 44 9 0 0 2 0 0 0 0 0 0 0 5 0 0 0 get,set !,-,-,-,-
+JoyousMark 628 48 10 0 14 11 0 0 0 4 0 0 13 0 0 0  !,!,!,!Bool,-,-,-,-,Even,StriStri,intint,intintint,intintintintintintint
+EntertainingTouch 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+FaithfulBashful 139 2 0 0 3 0 0 0 0 1 0 0 3 2 0 0  !,!!,!!*,!*,-
+CrimeCard 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+KnotScintillating 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+DildoSqueamish 23 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+SpuriousScintillating 58 1 4 0 1 1 0 0 0 0 0 0 2 2 0 0  -,-,Even,Obje
+BurnBorrow 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+AmuseHysterical 77 3 1 0 2 0 0 0 0 3 0 0 2 1 0 0  !,Byte,intObje=n
+SuperReligion 394 1525 0 0 0 166 0 0 0 0 0 0 1 10 0 0  -,-,-,-,-,-,-,-,-,-,-
+SupplyDistro 58 68 0 0 3 0 0 0 0 18 0 0 1 0 0 0  Striint=-
+LaborerSupply 85 5 1 0 5 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+CrackerMachine 48 2 1 0 9 0 0 0 0 0 0 0 1 0 0 0  Byte
+GateColor 721 89 16 0 13 4 0 0 0 14 0 0 31 6 0 0  !,!StriFunc,-,-,-,-,-,-,-,-,-,-,-,-,ArraFuncObjeFunc,Bool,Bool,Even,Even,Even,Even,Even=n,MoviBool,Stri,Stri,Stri,Stri,Stri,Stri,StriBool=t,StriStri,StriStri!,int,int,intStri,intStriStri,intint
+FrailLaborer 54 4 1 0 3 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+RequestSign 150 1 2 0 8 0 0 0 0 1 0 0 4 0 0 0  !,!,!,int
+ChopHydrant 140 16 1 0 8 1 0 0 0 31 0 0 1 1 0 0  int,intStriStriStriintintStriStri
+JuicePeck 642 16 14 0 28 1 0 0 0 5 0 0 21 6 0 0 couleurEnCours !,!,-,-,-,-,-,-,-,-,-,-,-,-,Disp,Even,Even,Even,Even,Even,Spri,Spri,int,int,int,int=0!=n,int=0!=n
+CrimeHarmony 76 40 0 0 5 7 0 0 0 0 0 0 9 0 0 0 userData -,-,-,-,-,-,-,-,-
+ActionStomach 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+ReligionStore 35 2 0 0 0 0 0 0 0 0 0 0 2 0 0 0  int,intintint=0int=0int=0int=0int=0int=0Bool=fBool=f
+BabiesClub 7 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+InstructWhisper 56 1 0 0 0 0 0 0 0 0 0 0 6 0 0 0 x_executeResultatChangementAvatar,x_executeResultatChangementGenre,x_executeSignaleChangementAvatar,x_executeSignaleChangementGenre,x_executeSignaleInformationsConnexion !,!,!,!,!,-
+PeckAmuse 33 2 2 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+HydrantSqueamish 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+ThickInstruct 35 2 1 0 7 0 0 0 0 0 0 0 1 0 0 0  Byte
+SeedWindy 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+MetalMachine 15 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+IcyNoxious 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+SignAmuse 144 54 3 0 5 1 0 0 0 0 0 0 1 2 0 0  Even,Movi,Movi=nBool=fint=0Bool=f
+AirSuzuka 484 854 0 0 0 181 0 0 0 0 0 0 1 22 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+UnitReligion 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+RayFaithful 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+SuperAdvise 39 7 0 0 0 1 0 0 0 0 0 0 1 4 0 0  -,-,-,-,Stri
+ReligionHalf 107 2 3 0 0 0 0 0 0 0 0 0 1 2 0 0  -,StriintBoolBoolStri,intintintStriStri
+CommonApathetic 21 5 0 0 3 0 0 0 0 0 0 0 1 0 0 0 R -
+BackParty 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Numb
+SenseSqueamish 109 10 4 0 12 3 0 0 0 0 0 0 3 0 0 0  Bool=f,Bool=f,Movi
+AmuseHanging 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+SuzukaScintillating 446 1280 0 0 0 192 0 0 0 0 0 0 1 10 0 0  -,-,-,-,-,-,-,-,-,-,-
+TrailAlanson 93 4 8 0 8 0 0 0 0 0 0 0 3 0 0 0  Time,Time,intintNumbNumbNumbNumbint=3int=4int=-
+PrepareProse 580 3 0 0 0 1 0 0 0 1 0 0 1 8 0 0  !!,!!!!!,!!!!!,!!!!!,!!int!!,-,Arra!!!!,Arra!!int!!,ArraArra!Numb
+GapingDistro 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intint
+FaintChicken 22 5 1 0 3 0 0 0 0 0 0 0 1 0 0 0  !
+WaitingWatery 69 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+TrailLoaf 367 3 8 0 18 2 0 0 0 1 0 0 11 4 0 0  !,!,-,-,-,Bool,Bool!=n,Even,Even=n,Mous,Stri=n,int,int,int=0,intBool
+ProbableKnife 73 10 0 0 0 3 0 0 0 0 0 0 1 5 0 0  -,-,-,Bool,Bool,Bool
+BorrowDeliver 88 4 1 0 11 0 0 0 0 0 0 0 1 0 0 0  Byte
+PinusLeg 385 15 6 0 17 1 0 0 0 0 0 0 10 1 0 0  !,!,!!,-,-,-,Bool,Even,Even,Even=n,Vect
+SupplyTiresome 105 45 2 0 2 0 0 0 0 0 0 0 19 0 0 0  !,!,!,!,!,!,!,!!Numb,!int,-,-,-,-,Dict,Numbint,int,int,int,int+
+CrownDeliver 132 2 5 0 2 3 0 0 0 0 0 0 2 2 0 0  -,-,-,Bool
+CompetitionApathetic 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+InviteCrib 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intStri
+GrateHeal 18 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  !Bool
+StupidSand 133 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0  Obje,intArra
+TouchSwanky 16 2 0 0 0 0 0 0 0 2 0 0 1 0 0 0  -
+AgreeableFeeble 117 15 2 0 2 0 0 0 0 0 0 0 6 0 0 0  Bool=t,Even,Func,Keyb,Stri,intStri="Bool=f
+AlansonGrate 27 40 0 0 2 0 0 0 0 0 0 0 2 0 0 0  -,-
+SlipToe 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+ScratchDeliver 115 25 5 0 2 4 0 0 0 0 0 0 2 3 0 0  -,-,Bool,Stri,Stri
+ComplexRare 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+GrateDildo 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intBool
+PlanDelightful 143 2 0 0 3 0 0 0 0 1 0 0 3 2 0 0  !,!!,!!*,!*,-
+PailRobin 66 2 0 0 5 0 0 0 0 0 0 0 9 0 0 0 get,get,get,get,set,set,set,set -,-,-,-,-,-,-,-,-
+ListHateful 244 105 1 0 14 3 0 0 0 4 0 0 22 2 0 0  !,!,!,!,!,!!,!!,!!,!!,!!!,!!!,!*,!*,!Arra!!Numb,*,-,-,-,-,-,-,-,-,-
+AmuseCard 44 13 3 0 6 0 0 0 0 0 0 0 2 0 0 0  Even,intintintintint
+StatementInjure 426 3714 0 0 0 172 0 0 0 0 0 0 1 14 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+HystericalPat 16 2 0 0 0 0 0 0 0 0 0 0 2 0 0 0  !,-
+ProgramFrail 49 5 1 0 2 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,int
+KotskyCurved 38 7 0 0 0 0 0 0 0 0 0 0 1 4 0 0  -,Date,Date,Date,int
+ProseChop 218 3 5 0 9 2 0 0 0 0 0 0 13 1 0 0  -,-,-,-,-,-,-,Bool,Bool=t,Disp,Stri,Stri,int,intStri
+NoiselessLoaf 34 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+CrimeAgreeable 54 4 1 0 3 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+ObtainableArmy 57 4 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intintint
+AdviseSign 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+RequestSupply 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+StatementBorrow 594 50 7 0 0 15 0 0 0 8 0 0 1 11 0 0  !,!,-,-,Even=nBool=t,int,int,int,int,int,int=-,intintintintint
+CommonSerious 62 3 4 0 1 1 0 0 0 0 0 0 2 2 0 0 getInstance -,-,-,Disp
+HateLeg 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStri
+LaborerWatery 67 3 4 0 3 1 0 0 0 0 0 0 5 0 0 0 get,recupereSequence,set,traitePaquetSortant -,-,-,_IPa,int
+HangingCreator 60 21 1 0 6 0 0 0 0 9 0 0 1 0 0 0 url Byte
+ScaleAbaft 30 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+CuteBury 26 2 1 0 4 0 0 0 0 0 0 0 1 0 0 0  Byte
+ApatheticUnit 354 42 2 0 1 5 0 0 0 7 0 0 4 9 0 0  !,-,-,-,-,-,Bool,Boolint=0Vect=nFunc=n,Mous,int,int,int,intintBool
+ChickensPeck 53 4 1 0 3 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+ReligionPear 450 3077 0 0 0 184 0 0 0 0 0 0 1 14 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+RobinKnife 23 2 1 0 3 0 0 0 0 0 0 0 1 0 0 0  Byte
+SuzukaComplex 139 1 3 0 5 0 0 0 0 10 0 0 3 1 0 0  -,Disp,Stri=nint=0Stri=n,Striint=0
+AdhesiveAnnoying 30 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+CompetitionRobin 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+WateryNoiseless 65 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+SeriousBerry 40 4 2 0 3 0 0 0 0 0 0 0 1 0 0 0  Byte
+PinusDildo 133 105 0 0 0 0 0 0 0 0 0 0 1 9 0 0  -,Stri,Stri,Stri,Stri,Stri=n,StriBool=f,StriBool=tint=1Bool=tint=0,StriStriBool=f,StriVect
+AlansonAir 13 4 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+BorrowKuruma 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+IcyTasteless 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStri
+BalvankaAlluring 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+CrownLoaf 18 3 0 0 3 0 0 0 0 0 0 0 1 0 0 0  -
+HealStale 150 82 1 0 0 1 0 0 0 0 0 0 1 17 0 0  -,-,-,Numb,Numb,Numb,Numb,NumbNumb,NumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumbNumbNumbNumbNumb,Stri,int=4,intint=4,intintintint,intintintint,intintintint
+PartyStatement 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intStri
+DelightfulProse 49 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+PailGrate 40 1 1 0 0 1 0 0 0 0 0 0 1 2 0 0  -,-,Stri
+ProsePinus 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+ToeCrash 188 30 1 0 24 1 0 0 0 0 0 0 8 2 0 0 categorie -,Stri,StriBool,StriintStri,StriintStri,StriintStriintint,Vect,int,intintintStriStriStriVectint,intintintStriStriStriVectint
+MightySwanky 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+ListChop 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+CrownBalvanka 142 5 2 0 0 7 0 0 0 6 0 0 1 1 0 0  -,int
+SlipClub 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+InexpensivePanoramic 45 3 1 0 6 0 0 0 0 0 0 0 1 0 0 0  Byte
+VioletAir 41 3 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+KnotAlluring 36 7 0 0 8 0 0 0 0 0 0 0 1 0 0 0 normal -
+BirdAdaptable 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Striint
+VioletOrder 66 6 2 0 5 0 0 0 0 0 0 0 1 0 0 0  intintintNumbNumbNumb
+LabelLight 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+ColorScale 51 30 0 0 9 0 0 0 0 0 0 0 2 0 0 0  !!!,-
+CrimeClub 18 19 0 0 0 0 0 0 0 3 0 0 1 0 0 0 NORMAL -
+DistroRequest 44 26 1 0 3 0 0 0 0 0 0 0 4 0 0 0  Byte,int,int,int
+OrderAnus 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+ProbableVolcano 392 1 3 0 1 1 0 0 1 8 0 0 8 0 0 0  !,!,!,-,Mous,int,int,intintintint
+SenseWhistle 55 17 0 0 3 0 0 0 0 0 0 0 5 0 0 0  !,!,!,-,StriBool=t
+HalfProse 23 6 0 0 4 0 0 0 0 0 0 0 1 0 0 0  !int
+MouseSupply 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+IllustriousGaping 281 201 8 0 7 0 0 0 0 2 0 0 14 0 0 0 couleurEnCours -,-,Bool,Bool,DispBool=t,Even,Func=nObje=n,Mous,Mous,Stri,StriBool=t,Striint=0Func=nObje=nint=0Numb=1,int,intint=0
+SubduedKnot 95 22 2 0 0 0 0 0 0 0 0 0 1 10 0 0  -,-,-,-,-,-,-,-,-,-,-
+BerryLip 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+ClubAgreeable 83 1 0 0 2 0 0 0 0 1 0 0 3 0 0 0  !,!,!
+GrateSupply 166 11 8 0 3 5 0 0 0 0 0 0 6 0 0 0  -,-,Bool,Even,intint,intintintStriStri
+StatementUncle 89 6 2 0 7 0 0 0 0 0 0 0 2 0 0 0  -,int!Bool
+AgonizingHalf 195 9 2 0 2 1 0 0 0 0 0 0 5 1 0 0  -,-,-,Bool=t,Boolint,intBool
+PeckStay 1163 29 11 0 35 9 0 0 0 7 0 0 35 12 0 0  !,!,!,!,!!,!!,!VectDict,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Bool,Bool,Bool,Byte,Disp,Even,Keyb,Stri,Stri,Stri,Stri,Stri,Stri,Stri!Bool,Stri="int=0int=2,StriBool=f,StriStri,StriStri,StriStriBool,StriStriintStri,StriStriintStri,StriVect,StriVectDict,VectDict,int
+ProbableCry 601 45 10 0 19 9 0 0 0 0 0 0 14 8 0 0  !,!,!,-,-,-,-,-,Bool,Bool=f,Even,Even,Even,Even,Even,Even,Numb,Numb,Stri,int,intBool,intStriint
+NoiselessInexpensive 61 2 1 0 14 0 0 0 0 0 0 0 1 0 0 0  Byte
+AbaftYell 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+WaitingProgram 41 8 0 0 12 0 0 0 0 0 0 0 1 0 0 0  -
+ObeisantPat 112 2 0 0 3 0 0 0 0 1 0 0 3 2 0 0  !,!!,!!*,!*,-
+LunasoleNotebook 225 1 3 0 0 0 0 0 1 0 0 0 19 0 0 0  !,-,-,-,-,-,-,-,-,-,-,-,Stri,Stri=n,Stri=nBool=f,Stri=nStri=n,Stri=nStri=n,StriStri=nStri=n,int
+WanderingAction 133 1 2 0 0 1 0 0 0 0 0 0 1 1 0 0  -,Byteint
+CrimeCoal 223 8 3 0 9 0 0 0 0 2 0 0 4 0 0 0  !,!,intint,intintintDateintBool!=n!=n
+ArmyAlluring 81 34 1 0 4 0 0 0 0 0 0 0 9 1 0 0  -,-,-,-,-,-,-,Byte,int,int=0Stri=nint=0int=0Numb=0int=0!=n
+VolcanoToe 18 8 0 0 0 3 0 0 0 0 0 0 1 0 0 0  -
+WingCrash 683 1 0 0 9 0 0 0 0 0 0 0 5 0 0 0 creePaquetEntrant,get,getIdPaquet,traiterPaquetEntrant !,!int,-,-,int!
+ChopPipka 1710 7 1 0 0 12 0 0 0 1 0 0 1 11 0 0 init -,-,-,-,-,-,-,-,-,int,int!,int!int
+HydrantFour 417 15 1 0 30 0 0 0 0 2 0 0 6 32 0 0  DispintFunc=nint=0Func=nObje=n,Func,Numb=1Numb=0,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumb,NumbNumbNumbNumbNumb=1,NumbNumbNumbNumbNumb=1,NumbNumbNumbNumbNumb=1,NumbNumbNumbNumbNumb=uNumb=u,NumbNumbNumbNumbNumb=uNumb=u,NumbNumbNumbNumbNumb=uNumb=u,NumbNumbNumbNumbNumbNumb,intint,intint
+KnotLight 68 13 0 0 0 0 0 0 0 28 0 0 1 0 0 0  -
+PailCreator 206 20 1 0 4 0 0 0 0 4 0 0 7 13 0 0  -,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri!Bool,StriBoolBool=f,StriFuncObje,StriStri,StriStri,StriStriFunc=nObje=nBool=f,StriStriFunc=nObje=nBool=f
+MouseAnnoying 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+TastelessCute 168 89 0 0 11 0 0 0 0 11 0 0 15 2 0 0  !,!,!,!*,!*,*,-,-,-,-,-,-,-,-,-,-,-
+EntertainingToe 22 3 0 0 0 0 0 0 0 5 0 0 1 0 0 0  -
+SignJuice 185 19 9 0 0 4 0 0 0 0 0 0 1 5 0 0  -,Disp,DispStriint=-int=0int=0,Even,Even,Even
+TrembleElite 314 47 6 0 17 1 0 0 1 0 0 0 8 0 0 0  !,-,-,-,Bool,intint,intintintint,intintintintFunc=nint=3
+GateAnus 55 4 1 0 0 2 0 0 0 4 0 0 1 3 0 0  -,Numb,Numb,NumbBool=t
+GullibleJumbled 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStri
+CompanyFour 79 2 1 0 0 1 0 0 0 0 0 0 1 2 0 0  -,Stri,VectStri
+WickedFix 25 3 0 0 1 0 0 0 0 0 0 0 3 0 0 0  !,!NumbNumb,-
+SpuriousNoiseless 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+AdhesiveDildo 90 8 6 0 6 0 0 0 0 0 0 0 4 0 0 0  -,Bool,Even,Func=nObje=n
+UnitSatisfy 161 340 4 0 0 0 0 0 0 0 0 0 14 0 0 0  -,-,-,Bool=t,Bool=t,Stri,Stri,Stri="int=0int=2Text=nBool=f,Styl,Text,int,int,int,intint
+ApatheticComplex 60 28 1 0 0 0 0 0 0 0 0 0 7 2 0 0 delta !,-,-,-,Numb=0,Numb=0Numb=0,Numb=0Numb=0,Poin,Poin
+ScaleCrib 191 35 5 0 6 4 0 0 0 2 0 0 4 1 0 0  Bool,Numb,intBool=f,intint=-Bool=fBool=f,intint=0Bool=f
+StomachAdhesive 14 3 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intStri
+OrangesKnot 75 1 2 0 1 1 0 0 0 0 0 0 3 1 0 0  -,-,-,Stri=n
+PatSign 146 68 0 0 0 0 0 0 0 67 0 0 1 0 0 0  -
+CrackerFix 110 50 1 0 2 0 0 0 0 28 0 0 1 1 0 0  int,intClas
+KotskyTasteless 9 79 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+FascinatedCompetition 459 1248 0 0 0 176 0 0 0 0 0 0 1 19 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+GrateLook 3231 638 19 0 62 14 0 0 0 26 0 0 42 12 0 0  !,!,!,!,!,!,!,!!,!!!!Bool=fint=0,!!=n,!Bool=t,!int=0int=0,-,-,-,-,-,-,-,-,-,-,Arra,ArraBool=fMovi=n,ArraMovi,Bitm!int,Bitm!intint!!!!,Bitm!intintint=0int=0,DispBool=f,Dispint=5int=1Func=n,Even,Even,Even,Mous,Mous,NumbNumb,Stri,int,int,int,int,int,int,int!,int!!,int=5int=1,intint,intint,intint=-,intint=0,intintint,intintint,intintintBool=fint=-Bool=f,intintintintintint
+NoiselessCrime 115 3 4 0 3 3 0 0 0 0 0 0 2 3 0 0  -,-,-,Even,Func=n
+SeriousYell 79 1 2 0 2 0 0 0 0 1 0 0 5 0 0 0  !,!,!,Even,int
+AlluringPinus 102 112 0 0 0 0 0 0 0 45 0 0 1 0 0 0  -
+WarlikeScintillating 769 291 0 0 48 13 0 0 0 0 0 0 50 0 0 0  !,!,!,!,!,!,!,!,!,!,!,!!,!!,!!,!Numb,*,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Bool,Bool,Bool,Numb,Numb,Numb,Numb
+MachineSign 245 427 1 0 0 0 0 0 0 93 0 0 1 1 0 0  -,-
+MetalYell 33 4 2 0 6 0 0 0 0 0 0 0 1 0 0 0  Dispint=5int=1Func=n
+DildoConfused 49 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+MilkySigh 17 54 1 0 0 0 0 0 0 0 0 0 0 0 0 0  
+IcyDildo 49 5 1 0 2 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,int
+StickRobin 29 7 1 0 4 0 0 0 0 0 0 0 1 0 0 0  -
+RobinProud 891 24 9 0 0 32 0 0 0 9 0 0 1 39 0 0  !,!,!,!,!,!,!,-,-,-,-,-,-,-,-,-,-,-,-,Bool,Bool,Bool!=n,BoolMovi,Even,Obje,Stri,Stri,Stri,Stri,Stri,Stri=nBool=t,StriBool,StriStri,StriStri,StriStri,StriStriStri,int,int,int,int!
+AdhesiveHalf 39 29 0 0 5 0 0 0 0 0 0 0 4 0 0 0 userData -,-,-,uint
+TiresomeWarlike 184 31 1 0 26 1 0 0 0 0 0 0 8 0 0 0  -,-,-,-,Bool=f,Numb,int,intStriBool
+StomachDetermined 29 6 0 0 6 0 0 0 0 0 0 0 1 0 0 0  StriintStriintint
+FragileArmy 152 3 1 0 9 0 0 0 0 0 0 0 1 0 0 0  Byte
+AdhesiveSqueamish 3449 40 13 0 0 8 0 0 0 1 0 0 1 4 0 0  -,-,Byte,Byte,Even
+PinusUncle 51 18 0 0 3 0 0 0 0 0 0 0 6 0 0 0 get,set,set,set -,-,-,-,NumbNumbNumb,NumbNumbNumb
+MightyBlade 65 4 0 0 6 0 0 0 0 1 0 0 3 0 0 0  !Numb,-,Numb
+FlowerStay 943 13 7 0 29 1 0 0 0 0 0 0 14 0 0 0 tempsPartieZero !,!,!,-,Byte,Even,Even=n,Keyb,Keyb,StriStri,int,int,int=5int=1,intintintintint!=n
+MilkyChicken 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+RayAction 79 2 1 0 6 0 0 0 0 0 0 0 1 0 0 0  Byte
+RayDeliver 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+StaleThick 215 8 6 0 6 3 0 0 4 0 0 0 6 3 0 0  -,Dispint=2int=3int=1int=6,Even,Even,Even,Mous,Stri,StriBool=fint=7,Striintint=7
+FourPanoramic 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+BladeLabel 37 5 1 0 7 0 0 0 0 0 0 0 1 0 0 0  Byte
+SubduedWing 50 15 3 0 6 0 0 0 0 0 0 0 3 0 0 0  Even,Numb,SounNumb=1
+CrashSense 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+BalvankaThick 20 3 0 0 0 0 0 0 0 0 0 0 3 0 0 0  -,-,int
+DeterminedMighty 176 4 6 0 0 8 0 0 0 3 0 0 1 8 0 0 couleurEnCours !intintintintint,-,-,Even,Even,Even,Stri,Stri,intint
+CompetitionFaint 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+BashfulLook 7 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+LunasolePanoramic 113 5 7 0 5 0 0 0 0 0 0 0 7 0 0 0  -,Even,Even,Moviint=0int=0,Stri,Stri,intintFunc=nObje=n
+YellCurved 45 1 1 0 2 0 0 0 0 0 0 0 4 1 0 0 ecriture,lecture -,Byte,Byte,Byte,int=0Stri=n
+MouseStupid 77 3 1 0 21 0 0 0 0 0 0 0 1 0 0 0 couleur,rotation Byte
+HarmonySense 25 10 2 0 0 0 0 0 0 0 0 0 2 0 0 0  -,int=0int=0
+SenseList 39 15 0 0 4 0 0 0 0 0 0 0 1 0 0 0  NumbNumbBool
+HystericalOrange 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+ChivalrousLip 519 5 0 0 4 1 0 0 0 3 0 0 5 0 0 0  !,!Arraint*,-,-,-
+PlanFeeble 331 1 1 0 4 0 0 0 0 22 0 0 10 0 0 0  !,!,!,!,!,Dict,int,int,int,int
+DelightfulAdmire 419 661 0 0 0 181 0 0 0 0 0 0 1 9 0 0  -,-,-,-,-,-,-,-,-,-
+ProudProbable 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intintStri
+StayPeck 157 19 6 0 8 2 0 0 0 2 0 0 6 0 0 0  -,-,Bool,Mous,Mous,intint
+ThickSupply 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+DeterminedProbable 124 45 0 0 0 1 0 0 0 0 0 0 1 7 0 0  !,!,!,!,!=n,-,-,VectBoolBool
+ColorConfused 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+CuteGrate 90 10 3 0 0 0 0 0 0 0 0 0 7 2 0 0  -,-,-,-,-,-,Even,Even=n,Mous
+ColorSisters 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+WarlikeJumbled 571 57 9 0 0 16 0 0 0 4 0 0 1 26 0 0  -,-,-,-,-,-,Bool,Bool,Bool,Bool,Even,Even,Even,Numb,Numb,Stri,Stri,Stri,Stri,StriBool,StriNumb,StriNumb=1Bool=fBool=fBool=f,StriStri,StriStriBool=fBool=fBool=fBool=fNumb=1,int,int,int
+LipDeadpan 51 2 2 0 2 0 0 0 0 0 0 0 3 0 0 0  -,-,DispBool
+ConfusedGullible 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+FaintEntertaining 12 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+PinusPlan 18 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintintintint
+NotebookHateful 61 4 1 0 5 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+AlluringScratch 410 5 7 0 14 5 0 0 0 2 0 0 16 2 0 0  !,!,!,!,!,!Bool,!Dict,-,-,-,-,-,-,-,Bool,Mous=n,Vect,Vect
+HistoricalPrepare 344 61 10 0 0 2 0 0 0 2 0 0 1 12 0 0  !Func,-,BitmNumbNumb=0,Disp,Dispint,Dispint=-Numb=-Numb=-,DispintFunc=nint=0Func=nObje=n,Even,Inte,Mous,Mous,SpriBool=t,intintintintDispint=-Stri="
+CrowdedFlower 181 12 1 0 0 1 0 0 0 0 0 0 1 6 0 0  !,-,-,NumbNumb,NumbNumb,intint,intintintNumbNumbNumbNumb
+WickedStick 32 15 1 0 6 0 0 0 0 0 0 0 1 0 0 0  Byte
+WateryPipka 31 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+DecayPail 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+CrimeLarge 264 11 9 0 11 2 0 0 0 0 0 0 7 4 0 0  -,-,-,Dispint=0int=0int=0,Even,Stri,Stri,StriBool,Striint=0int=0Bool=t,intint,intintint=0
+PlanBird 99 4 2 0 14 0 0 0 0 7 0 0 4 0 0 0  !,-,Bool,intint!
+ThickLaborer 32 14 0 0 6 0 0 0 0 4 0 0 1 0 0 0  -
+CrimeMark 259 19 2 0 6 6 0 0 0 0 0 0 10 8 0 0  !,!int,-,-,-,-,-,-,-,-,-,Bool,Bool,int,int,int,int,intStriStri
+CryWhistle 433 13 0 0 20 1 0 0 0 0 0 0 21 0 0 0 K !,!,!,-,-,-,-,-,-,-,-,-,-,-,-,-,Bool,Bool,Numb,Numb,NumbNumb
+BagMighty 15 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int!
+AlansonSisters 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+ConfusedSigh 39 9 1 0 3 0 0 0 0 0 0 0 1 0 0 0  DispFunc=nObje=n
+BagDecay 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+BatheChickens 23 2 1 0 3 0 0 0 0 0 0 0 1 0 0 0  Byte
+BashfulFascinated 14 2 0 0 0 0 0 0 0 1 0 0 1 0 0 0  -
+AlluringJoyous 146 3 1 0 0 1 0 0 2 0 0 0 13 0 0 0  -,-,-,-,-,-,ObjeFuncBool=f,Stri,Stri,Stri,Stri=",StriBool=f,StriStri="
+CuteFlower 15 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intBoolBool
+UnitPear 125 2 4 0 2 3 0 0 0 0 0 0 5 2 0 0  !,!,!,-,-,Even,intint
+ToeFaithful 2198 59 20 0 49 5 0 0 0 6 0 0 71 5 0 0 x_ajouterMessage,x_fonctionRetourMessage801,x_supprimerFondTexteEntree !,!,!,!!,!!Bool=f,!Bool=fBool=f,!Stri,!Stri=nStri=n,!StriStri=nint=-int=1Stri=nStri=nStri=n,-,-,-,-,-,-,-,-,-,-,-,Bool,Bool,Bool,Bool,Bool,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even=n,Mous,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,StriBool,StriBool,StriFuncObje=n,StriStri=n,StriStri=nBool=fStri=nStri=nStri=n,StriStriStriint=-,StriStriint,StriStriintint,StriText,StriVect,Striint,Text,VectStriStri,int,int,int,int,intStriStriint=-,intStriVectVect,intVectVect,intint,intintint
+HateCry 32 2 1 0 6 0 0 0 0 0 0 0 1 0 0 0  Byte
+CribYell 450 490 0 0 0 179 0 0 0 0 0 0 1 16 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+CoalFlower 199 7 3 0 10 2 0 0 0 1 0 0 7 3 0 0  -,-,Stri,Stri,Stri,Vect,Vect,int,intFuncFunc=nBool=fBool=fStri=nStri=nBool=f,intFuncFunc=nBool=fBool=fStri=nStri=nBool=f
+LaborerPinus 43 2 1 0 6 0 0 0 0 0 0 0 1 0 0 0  Byte
+ProbableWatery 216 3 10 0 8 1 0 0 0 2 0 0 8 3 0 0  -,-,-,-,Bool=tStri=n,Even,Even=n,Func,Func,Keyb,Time
+LookParty 504 1 0 0 1 0 0 0 0 0 0 0 34 0 0 0 x_executeResultatAffecterRang,x_executeResultatAjoutRang,x_executeResultatChangementDroitsRang,x_executeResultatChangementLogoTribu,x_executeResultatChangementNomRang,x_executeResultatChangerCodeMaisonTFM,x_executeResultatChangerMessageJour,x_executeResultatDemandeCreerTribu,x_executeResultatDemandeDissoudreTribu,x_executeResultatDemandeQuitterTribu,x_executeResultatDesignerChef,x_executeResultatExclureMembre,x_executeResultatFermetureInterfaceTribu,x_executeResultatHistoriqueTribu,x_executeResultatInverserRang,x_executeResultatInvitationTribu,x_executeResultatOuvertureInterfaceTribu,x_executeResultatRepondsInvitationTribu,x_executeResultatSupprimeRang,x_executeSignaleChangementMessageJour,x_executeSignaleChangementParametresMembre,x_executeSignaleChangementParametresTribu,x_executeSignaleChangementRang,x_executeSignaleConnexionMembre,x_executeSignaleDeconnexionMembre,x_executeSignaleDepartMembre,x_executeSignaleExclusionMembre,x_executeSignaleInformationsMembreTribu,x_executeSignaleInvitationTribu,x_executeSignaleNouveauMembre,x_executeSignaleReponseInvitationTribu !,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,-,Stri,Stri
+HealAdaptable 26 1 0 0 0 0 0 0 0 1 0 0 3 0 0 0  !,!,!
+ChopCrib 66 12 1 0 2 1 0 0 0 0 0 0 1 1 0 0 x_codeTitre intint,intintint=0
+SubduedCrash 1207 26 8 0 38 8 0 0 0 7 0 0 37 15 0 0  !,!,!,!,!,!,!,!,!!,!!,!!Bool,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Bool,Bool,BoolBool,BoolBoolBoolBool,Boolint,Disp=n,Even,Even=n,Stri,Stri,Stri,StriStriFunc!,int,int=-Bool=f
+HystericalCracker 20 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0  !,!int
+StoreSisters 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStriBool
+VioletBurn 33 9 0 0 7 0 0 0 0 0 0 0 1 0 0 0  intStriStriintintStriBool
+TastelessNoxious 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+StoreSigh 171 2 5 0 0 5 0 0 0 0 0 0 7 0 0 0  -,-,-,Bool=f,Even,Movi,Text
+PipkaArmy 489 852 0 0 0 186 0 0 0 0 0 0 1 21 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+LightCompetition 2120 231 13 0 0 33 0 0 0 0 0 0 1 23 0 0  -,-,-,-,-,-,-,-,-,Even,Even,Even,Even,Even=n,Mous,Mous,Mous,Stri,int,intBool=fint=0Bool=f,intint,intint,intintintint=0Numb=0Numb=0Bool=t,intintintint=0Numb=0Numb=0Bool=tint=-Bool=tMovi=n!=nint=0Arra=n
+CrackerBabies 103 4 1 0 10 0 0 0 0 0 0 0 2 0 0 0  intint,intint!
+CrowdedGate 89 32 1 0 0 3 0 0 0 0 0 0 1 5 0 0  -,-,Stri,Stri,StriBool,StriBool=tBool=tBool=fint=0
+DistroFour 28 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+YellBathe 104 9 1 0 0 0 0 0 0 2 0 0 1 4 0 0 version -,Byte,Stri,Stri,Stri
+CardAgreeable 99 13 4 0 3 1 0 0 0 0 0 0 6 0 0 0  !,-,-,Bool=t,Stri,Time
+AbaftToe 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStri
+BackTasteless 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+WhisperObtainable 29 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+CrowdedApathetic 121 13 1 0 0 6 0 0 0 4 0 0 1 8 0 0  -,-,-,-,-,-,Func,Func,StriStri
+SeriousArmy 105 12 1 0 0 6 0 0 0 1 0 0 1 7 0 0  -,-,-,-,-,-,-,FuncFunc
+GateChop 50 2 2 0 6 0 0 0 0 0 0 0 1 0 0 0  Byte
+CuteTouch 316 2 5 0 6 1 0 0 2 0 0 0 11 3 0 0  !!,!!,!=n,-,-,-,-,-,Bool=t,Even,Keyb,Keyb,Stri,intint=1
+AirCard 16 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriStri
+SqueamishProse 54 78 1 0 1 0 0 0 0 2 0 0 6 0 0 0  !,-,-,-,Bool,Vect
+FaintSense 16 4 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intBoolintint
+ArmySupply 28 11 0 0 0 0 0 0 0 0 0 0 5 0 0 0  !,!,!,!,-
+InexpensiveOrange 49 5 1 0 2 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,int
+GrateStatement 36 2 0 0 0 1 0 0 0 0 0 0 1 1 0 0  -,Bool
+ApatheticHalf 58 2 1 0 2 0 0 0 0 0 0 0 2 0 0 0  !,int
+LipBury 18 10 0 0 2 0 0 0 0 0 0 0 1 0 0 0 v -
+BagGate 32 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intStriintObjeStriStriStriStriStriintintStri
+PearGrate 615 18 5 0 0 7 0 0 0 0 0 0 1 1 0 0  -,Stri
+ProbableHysterical 38 8 1 0 1 0 0 0 0 1 0 0 2 0 0 0  -,intObjeint
+TastelessDetermined 268 8 1 0 8 0 0 0 0 13 0 0 5 7 0 0  !Bool=fBool=f,!StriStri,-,-,Func,Stri,Stri,Stri,StriBool=f,intStriFunc=n,intStriStri="Bool=fBool=fArra=n,intVect
+DeliverClub 23 2 5 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+LargeMighty 58 2 1 0 3 0 0 0 0 0 0 0 1 0 0 0  Byte
+BurnChivalrous 217 3 10 0 10 0 0 0 0 0 0 0 7 0 0 0  -,-,Even,Even,Even=n,Stri,intint!
+CrashWhisper 31 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+TrailJoyous 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  !Stri
+HangingInstruct 63 9 5 0 0 0 0 0 0 3 0 0 1 2 0 0  -,-,int
+KnotMouse 98 1 2 0 1 1 0 0 0 0 0 0 3 1 0 0  -,-,Stri,Stri="
+IllustriousSeed 49 5 1 0 2 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,int
+RobinAlluring 15 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintint
+BagList 53 10 1 0 2 1 0 0 0 8 0 0 1 1 0 0  int,intStri
+CreatorInvite 198 2 3 0 1 1 0 0 0 0 0 0 3 3 0 0  !,!,!!,-,-,int
+MightyFaint 63 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  !
+JumbledAnus 7 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+LaborerDeliver 27 3 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+LipBorrow 33 2 0 0 1 1 0 0 0 0 0 0 4 0 0 0  !,-,-,int
+MachineArmy 19 24 0 0 2 0 0 0 0 0 0 0 1 0 0 0  -
+ListGround 322 47 0 0 29 3 0 0 0 0 0 0 10 1 0 0  !,!!,!!,-,-,BoolBool=f,StriStriint,int,intStri,intStriStri,intStriStriint!=nStri=nStri=nStri=n
+VolcanoCrib 541 14 0 0 22 0 0 0 0 0 0 0 21 0 0 0  !,!,!,-,-,-,-,-,-,-,-,-,-,-,-,-,Bool,Bool,Numb,Numb,NumbNumb
+CreatorAction 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+RobinCry 63 3 0 0 2 1 0 0 0 0 0 0 6 1 0 0  -,-,int,int,int,int,int
+SpuriousRay 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+MarkBlade 889 11 13 0 36 0 0 0 0 0 0 0 39 1 0 0  !Bool,-,-,-,-,-,-,-,-,-,-,-,Bool,Disp,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even=n,Keyb,Mous,Mous,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,int,intStri
+SubduedPlan 74 28 0 0 0 0 0 0 0 31 0 0 1 0 0 0  -
+PipkaCurved 52 39 1 0 1 0 0 0 0 8 0 0 1 1 0 0 NORMAL int,int
+VolcanoWindy 91 5 2 0 0 0 0 0 0 1 0 0 1 6 0 0 distance !NumbNumbPoin=nMovi=nPoin=n!=n,-,Poin,PoinPoin,PoinPoin,PoinPoin,PoinPoin
+AgreeAlanson 18 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Vect
+SupplyCute 160 1 2 0 2 0 0 0 0 7 0 0 4 0 0 0  -,-,-,int
+JuiceTremble 154 25 5 0 0 3 0 0 0 0 0 0 1 10 0 0  -,-,-,Even,Even,Even,Even,Even,Even,Even,Obje
+BirdStatement 120 141 4 0 7 3 0 0 0 0 0 0 2 0 0 0  -,intBoolStriintint=5int=0
+WhisperStupid 166 11 0 0 0 2 0 0 0 0 0 0 1 2 0 0  !intNumb=1Bool=t,-,-
+InexpensiveDetermined 47 1 0 0 0 0 0 0 0 4 0 0 3 0 0 0  -,-,int
+CompanyJuice 209 15 6 0 16 0 0 0 0 0 0 0 9 0 0 0  -,Even,Numb,Numbint=0,Stri,Text,int,int,intintint=4
+ObeisantAdvise 65 31 1 0 10 1 0 0 0 3 0 0 3 1 0 0  Bool=f,Bool=fBool=f,int,intintintBoolBoolBoolBool
+MarkAction 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+AdaptableStupid 320 1 5 0 13 0 0 0 0 7 0 0 12 0 0 0  !,!,!,!,!Bool,!int,!int,Dict,StriStri,int,int,int
+ComplexTrail 433 1 11 0 9 1 0 0 0 6 0 0 15 0 0 0  !,!,!,!,!,-,-,-,Dict,Even,int,int,int,int,intintintint
+BalvankaWhistle 36 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+BuryMark 16 6 0 0 2 0 0 0 0 0 0 0 1 0 0 0  -
+ToeNotebook 225 4 2 0 3 0 0 0 0 0 0 0 10 0 0 0  !,!!,-,-,-,-,-,-,-,int!
+FaithfulCute 53 4 5 0 2 1 0 0 0 0 0 0 3 0 0 0  -,Even,StriStri
+SubduedChop 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+NotebookChop 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+LamentableSwanky 110 17 1 0 0 0 0 0 0 0 0 0 1 14 0 0  -,-,-,Bool,Bool,Stri,Stri,StriintBoolBoolBool,StriintByteByte,VectVect,int,int,intBool,intint+,intintintint
+BirdChop 338 3 6 0 12 1 0 0 0 5 0 0 24 3 0 0 lecture -,-,-,-,-,-,-,-,-,-,-,-,-,Bool,Bool,Bool,Even,Even,Even,Numb,Numb,Obje,Obje,Obje=n,Stri,Striint,Striint=0Func=n
+HydrantAnus 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+LookHanging 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  !
+ChickensChickens 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+SeriousEntertaining 21 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+InviteStore 124 1 6 0 2 1 0 0 0 0 0 0 3 1 0 0 type -,-,Boolint=0int=0int=0int=0Bool=f,int=0int=0int=0int=0
+SlipInstruct 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+AgonizingFaint 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+ProgramChickens 20 2 0 0 0 0 0 0 0 0 0 0 3 0 0 0  !,!,-
+SistersTremble 104 3 7 0 0 1 0 0 0 0 0 0 1 6 0 0  -,-,-,Stri,Stri,Stri,intint
+HistoricalOranges 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+ChivalrousBabies 65 8 0 0 9 0 0 0 0 0 0 0 2 0 0 0  !!!!!!Numb,-
+DecayCry 77 2 0 0 1 1 0 0 0 0 0 0 9 0 0 0  -,-,-,Stri,Stri,Stri,Stri,Stri,Vect
+IcyKotsky 30 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intArra
+KotskyInstruct 124 19 2 0 0 0 0 0 0 0 0 0 9 1 0 0  -,-,-,-,-,-,-,-,Byte,int=0Stri=n
+CreatorSisters 15 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintBool
+HystericalCrime 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+ChivalrousAnus 41 1 1 0 0 0 0 0 0 1 0 0 4 0 0 0  !,!,!,Dict
+ChickensElite 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+CurvedAir 49 5 1 0 2 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,int
+FaintSlip 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+OrderAmuse 41 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+AdhesiveDistro 234 28 0 0 14 11 0 0 0 0 0 0 9 18 0 0  !Stri,-,-,-,-,-,-,-,-,-,-,Bool,Bool,Bool,Bool=t,Func,FuncFunc=n,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,StriBool=f,Striintint=-
+WateryConfused 242 7 2 0 10 1 0 0 0 0 0 0 6 1 0 0  !intintintintStriBool,-,-,-,-,int,intBool=fStri=n
+SensePear 170 5 4 0 0 9 0 0 0 0 0 0 1 4 0 0  -,-,Bool,Even,Even=n
+MetalSatisfy 104 1 0 0 0 4 0 0 0 0 0 0 1 1 0 0  !!!!,-
+DecayChickens 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+ClubSlip 79 3 6 0 0 1 0 0 0 0 0 0 3 1 0 0  Dispint=0int=0int=-,Dispint=0int=0int=-,Striintint,Striintint
+FeebleCard 70 1 0 0 0 0 0 0 0 0 0 0 1 3 0 0  -,Obje,int=0int=0,int=0int=0
+CuteCompetition 173 331 0 0 0 8 0 0 0 0 0 0 1 12 0 0 traiterPaquetEntrant !,!,-,-,-,-,-,Bool,Stri,Stri,int,int!,intint
+ScaleColor 152 2 4 0 3 0 0 0 0 9 0 0 2 0 0 0  -,intObje
+WhistleGrate 100 1 4 0 1 0 0 0 0 2 0 0 4 0 0 0  !,-,Even,int
+SignCrib 38 2 1 0 8 0 0 0 0 0 0 0 1 0 0 0  Byte
+BruiseStick 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+LightJumbled 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+InviteSwanky 26 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  BoolVect=n
+CurvedApathetic 116 86 0 0 2 0 0 0 0 49 0 0 1 0 0 0  int
+KotskyAlanson 63 1 2 0 0 0 0 0 0 0 0 0 1 1 0 0  -,intint
+QuirkyDildo 23 9 0 0 3 0 0 0 0 0 0 0 1 1 0 0  !!,-
+CrashSlip 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+PearSigh 21 44 0 0 3 0 0 0 0 0 0 0 1 0 0 0  -
+SenseProse 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+LabelStomach 35 8 1 0 9 0 0 0 0 0 0 0 1 0 0 0  intint
+ProseStore 109 37 2 0 0 13 0 0 0 0 0 0 1 3 0 0  -,-,-,StriDispStriintNumb=1
+AdmireAlluring 139 21 3 0 17 4 0 0 0 0 0 0 8 0 0 0 url -,-,Bool,Bool,Numb=0Numb=0Bool=f,NumbNumbBool=f,Stri,StriNumb=0Numb=0Bool=f
+WateryRequest 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+CrySuper 30 8 0 0 6 0 0 0 0 0 0 0 1 0 0 0 alpha,couleur !intintNumbBoolint
+LaborerFix 36 22 1 0 5 1 0 0 0 0 0 0 2 0 0 0  !,-
+WateryFlower 34 8 0 0 2 1 0 0 0 0 0 0 3 0 0 0  Numb=0Numb=0,NumbNumb,NumbNumb
+SlipPanoramic 96 50 1 0 4 0 0 0 0 0 0 0 10 1 0 0 toString -,-,-,-,-,-,-,-,Byte,int,int=0Stri=nint=0int=0Bool=fBool=f!=nNumb=0
+PipkaSubdued 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+QuirkyThick 26 2 1 0 4 0 0 0 0 0 0 0 1 0 0 0 x,y Byte
+PartyLight 130 5 1 0 0 0 0 0 0 2 0 0 1 2 0 0  !,!,-
+CryWandering 75 1 1 0 8 0 0 0 0 0 0 0 4 1 0 0 ecriture,lecture -,Byte,Byte,Byte,int=0Stri=nint=0int=0Bool=fBool=f!=nint=0
+QuirkyTouch 78 1 1 0 2 0 0 0 0 0 0 0 2 0 0 0  Byte,Byte
+ComplexTouch 15 140 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+EliteFaithful 50 6 1 0 2 0 0 0 0 1 0 0 2 0 0 0  -,intObjeintBool
+PailOranges 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+GroundTax 205 23 1 0 0 11 0 0 0 4 0 0 8 3 0 0 x_initialisation -,-,-,-,-,-,-,Bool,Obje,Stri,Stri
+MouseKuruma 339 53 5 0 3 17 0 0 0 4 0 0 6 6 0 0  -,-,-,Bool,Bool=f,BoolStriStri,Stri,Stri,Stri,StriStri,StriStriintint,Striint
+AdmireIcy 155 35 1 0 9 6 0 0 0 0 0 0 6 2 0 0  -,-,Func,FuncBoolint,int,int,int,intStriFunc=nFunc=n
+ChickenSuper 443 16 5 0 29 0 0 0 0 0 0 0 17 0 0 0 Ascenseur,DécalageBarreY,Rendu_Ascenseur -,-,-,Even,Even,Even,Mous,Mous,Movi,MoviBool=f,Stri=nint=0Func=n,Striint=0,int,int=0,int=0int=0Bool=t,int=8uint=2uint=3,intintint=0Bool=tint=0
+InviteBruise 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+HealToe 49 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+WaitingRecognise 433 2 4 0 17 1 0 0 0 2 0 0 13 0 0 0  !,-,-,-,Bool=f,Stri,Stri,Stri,Stri,Stri,StriFuncObjeStri=",StriText,Text
+BerryNoxious 15 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintint
+SistersSand 168 2 2 0 5 0 0 0 0 0 0 0 8 0 0 0  -,-,-,-,-,Keyb,Stri,intStri
+AgonizingLunasole 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+GateFaint 99 1 8 0 7 0 0 0 0 0 0 0 4 0 0 0  Even,Keyb,Stri,intint
+FragileDecay 22 19 0 0 0 0 0 0 0 5 0 0 1 0 0 0  -
+BurnStomach 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+BabiesWandering 224 137 2 0 42 0 0 0 0 0 0 0 7 0 0 0  !Bool=t,!Bool=t,-,Numb,int,intFuncObje=n,intint=-Func=nObje=n
+EliteBury 29 2 0 0 3 0 0 0 0 0 0 0 3 0 0 0  !,-,intObje
+AmuseChicken 17 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+PlanBag 189 2 1 0 6 1 0 0 0 0 0 0 17 0 0 0  !,!,!,!,-,-,-,-,-,-,-,Stri,Stri,Stri,Stri,StriBool,int
+YellSigh 214 40 7 0 8 0 0 0 0 1 0 0 12 0 0 0  -,-,-,Bool=t,Even,Focu,InteStriFunc=nObje=n,Keyb,StriBool=f,StriFunc=nObje=n,int=0int=0int=0int=0,intStri="Bool=f
+ProbablePat 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+DecaySatisfy 28 2 0 0 5 0 0 0 0 0 0 0 1 0 0 0 target -
+GrateChicken 302 20 7 0 9 0 0 0 0 0 0 0 15 0 0 0  -,-,-,-,Bool,Bool=f,Bool=t+,Even,Even,Even,Func=n,Mous,Striint=0,intint,intint
+CribScratch 85 2 0 0 3 1 0 0 0 0 0 0 10 0 0 0  -,-,Stri,Stri,Stri,Stri,StriBool,StriStri,StriStri,intStri="
+CoalHistorical 74 38 3 0 0 0 0 0 0 0 0 0 1 3 0 0  -,-,Stri,StriBool=fBool=f
+LegViolet 37 2 3 0 0 0 0 0 0 0 0 0 1 1 0 0  -,DispNumbNumbBool
+WindyAlluring 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+SenseHistorical 54 18 0 0 10 0 0 0 0 0 0 0 2 0 0 0  !!!!,-
+ObeisantBack 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+ScratchStomach 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+PeckStupid 24 26 0 0 6 0 0 0 0 0 0 0 1 0 0 0  -
+BruiseDelightful 168 1 0 0 11 0 0 0 0 0 0 0 9 0 0 0 K !,!,!,!,-,-,-,-,-
+ToeDelightful 1142 124 6 0 0 26 0 0 0 7 0 0 1 19 0 0  !Numb,!Numb,!Stri,-,-,-,-,-,-,Bool,Bool,Bool=fBool=f,Disp,Disp,int,int,intBool=f,intint,intintBool=f,intintint
+CommonFaithful 300 163 1 0 0 0 0 0 0 93 0 0 1 1 0 0  -,int
+AmusePlan 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+WindyKuruma 838 102 7 0 0 14 0 0 0 6 0 0 1 17 0 0 Initialisation -,-,-,-,Bool,Keyb,Keyb,Mous,Obje,int,int,int,int,int,int,int,int,intBoolBool
+GapingCry 18 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriStriStriStri
+BruiseSign 578 1 4 0 14 0 0 0 0 13 0 0 14 0 0 0  !,!,!,!intBoolint,-,Bool,Bool,int,int,int,int,intBool,intBoolint,intint
+YellBury 41 2 1 0 9 0 0 0 0 0 0 0 1 0 0 0  Byte
+SandHysterical 141 27 1 0 7 8 0 0 0 0 0 0 12 0 0 0  !,!,!!!,!Numb!,!Numb!!,-,-,Arraint!,Arraint!,uint,uint,uint
+ObeisantProud 201 3 0 0 24 0 0 0 0 0 0 0 28 0 0 0  !,!,!,!Stri,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Bool=fBool=t,Obje,Obje=n,ObjeBool=f,Stri,Stri=n,StriStriBool,StriVect,intint
+PailSwanky 254 8 5 0 8 0 0 0 0 0 0 0 9 0 0 0  -,-,-,Bool,Even,Even,Even,NumbBool=f,intBool=fStri=n
+ScaleIcy 403 5656 0 0 0 168 0 0 0 0 0 0 1 11 0 0  -,-,-,-,-,-,-,-,-,-,-,-
+ListEntertaining 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+KnotLip 32 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+WhisperGate 26 216 0 0 0 0 0 0 0 7 0 0 1 0 0 0  -
+ProseDelightful 23 1 0 0 0 1 0 0 0 2 0 0 1 0 0 0  intStri
+HistoricalHeal 77 37 1 0 1 2 0 0 0 0 0 0 3 1 0 0  !,-,-,intintint=0Bool=fint=0int=1int=1int=0
+BatheTrail 122 18 4 0 9 0 0 0 0 0 0 0 3 0 0 0 x,y -,Disp,intintintintint
+ClubCrib 13 5 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+InexpensiveObeisant 29 2 1 0 4 0 0 0 0 0 0 0 1 0 0 0  Byte
+NoxiousPrepare 148 4 3 0 0 4 0 0 0 0 0 0 1 2 0 0  -,Bool,Even
+AlansonMetal 278 2 6 0 8 3 0 0 0 0 0 0 4 2 0 0  -,-,Keyb,Obje,Obje,Stri
+CryStupid 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+ChopScintillating 15 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintint
+LaborerWindy 293 4 7 0 10 0 0 0 0 2 0 0 7 0 0 0  -,-,Bool=t,Striintintintint=0int=0int=1,int,int,int
+ZonkedPat 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+LoafLook 73 2 0 0 3 0 0 0 0 1 0 0 4 0 0 0  -,-,-,Bool=t
+DildoPipka 17 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintintintint
+HistoricalBorrow 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStri
+SwankyLeg 138 7 6 0 11 1 0 0 0 0 0 0 3 0 0 0  Stri,Text,intStriintintintintintintNumbBool
+AdaptableColor 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStriBool
+WaitingGullible 41 10 0 0 5 0 0 0 0 0 0 0 2 0 0 0 length !!!!,-
+StatementSuzuka 310 12 6 0 5 1 0 0 0 0 0 0 8 0 0 0  -,-,-,-,-,-,Even,intStri
+SeedAnnoying 270 194 3 0 0 0 0 0 0 32 0 0 1 5 0 0  -,Numb,NumbNumbNumb,NumbNumbNumb,intNumb,intNumb=0Numb=1Numb=1
+HydrantPat 326 4 1 0 0 12 0 0 0 0 0 0 1 11 0 0  !int,-,-,-,-,-,-,-,-,Numb,NumbNumbNumb,Obje
+LookStatement 23 22 1 0 0 0 0 0 0 2 0 0 2 0 0 0  !,-
+AgreeableBerry 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+ChivalrousNoiseless 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Bool
+GateWhisper 28 2 2 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+CreatorDelightful 53 4 1 0 3 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+BerryCard 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intStri
+HystericalSatisfy 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+BruiseSeed 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+LargeKotsky 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+CryHeal 64 1 0 0 1 1 0 0 0 0 0 0 3 1 0 0  -,-,Boolint=0,int
+HealPipka 31 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Arra
+PanoramicCrowded 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+ProsePat 16 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriStri
+SuzukaNoiseless 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStri
+DeadpanHeal 58 4 1 0 4 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+FeebleRecognise 569 35 11 0 6 4 0 0 0 5 0 0 4 8 0 0 x_B_1,x_IndianaMouse,x_squeletteChat !,-,-,Even,Func,int,int,intAppl,intint=0,intint=0Arra=nBool=f,intintArra=nBool=f,intintintStriStriVectBool=f
+AlansonTasteless 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStri
+PeckTrail 49 4 0 0 3 0 0 0 0 6 0 0 1 1 0 0  int,intStriStri
+ApatheticCrime 21 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+LargeColor 185 5 6 0 0 9 0 0 0 0 0 0 1 8 0 0  -,-,-,-,int,int,int,intint,intintint
+RecogniseCoal 241 7 8 0 0 12 0 0 0 0 0 0 1 10 0 0  !,-,-,Boolint=1,Even,Mous,Mous,Stri,Stri=nint=0,int,int=0int=8int=-
+MightyKuruma 832 13 0 0 10 1 0 0 0 2 0 0 15 1 0 0  !,!!,!!,!!,!*,!*int,-,-,-,ArraArra!,ArraArraintintArraintint,Arraintint,int,int,int,int!
+DildoPlan 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+WindyDildo 17 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  int_IPa
+StatementTiresome 194 28 7 0 0 10 0 0 0 6 0 0 1 17 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,Even,IOEr,Obje,Obje,StriFunc
+GullibleBerry 39 7 1 0 10 0 0 0 0 0 0 0 1 0 0 0  intint
+SubduedInexpensive 154 13 9 0 9 4 0 0 0 0 0 0 4 1 0 0  -,Boolint=0,Even,int,int
+GroundChicken 63 4 1 0 6 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+PrepareLunasole 121 1 5 0 1 0 0 0 0 1 0 0 5 0 0 0  !,!,!,!,Stri=nint=0
+NotebookJumbled 437 835 0 0 0 185 0 0 0 0 0 0 1 11 0 0  -,-,-,-,-,-,-,-,-,-,-,-
+CoalSigh 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+SlipBlade 27 2 1 0 3 0 0 0 0 0 0 0 1 0 0 0  Byte
+BirdCompetition 54 4 1 0 3 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+AmuseBabies 69 8 2 0 0 1 0 0 0 0 0 0 1 5 0 0  -,-,-,Stri,intByte,intFunc
+SistersScratch 184 4 3 0 8 1 0 0 0 5 0 0 3 4 0 0  -,-,-,-,Bool=tStri=",StriStriintintint!,int
+VioletLip 16 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriBool=fBool=tBool=t
+IllustriousHysterical 15 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintint
+MarkCompetition 245 41 3 0 0 5 0 0 0 1 0 0 1 17 0 0  !!,-,-,-,-,-,Stri,int,int,int,int,int,intBool=f,intBool=fBool=f,intStri=n,intint,intint,intintintBoolBoolBoolBool
+ClubGaping 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+BladeProse 83 13 1 0 0 3 0 0 0 0 0 0 1 3 0 0  !,!,-,int
+AlluringEntertaining 54 9 1 0 8 0 0 0 0 0 0 0 1 0 0 0  StriintintintintintintintBool=f
+VolcanoList 99 29 0 0 22 0 0 0 0 4 0 0 1 2 0 0 alpha,couleur,type StriBool,StriBoolint=8,int
+ColorArmy 44 2 2 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+WingBird 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+TiresomeLarge 24 2 0 0 4 0 0 0 0 0 0 0 1 0 0 0  intintArra
+ChivalrousGullible 115 9 7 0 8 0 0 0 0 0 0 0 5 0 0 0  -,-,Even,intStriStri,intint
+NotebookBorrow 31 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+CrySuzuka 21 2 0 0 0 0 0 0 0 0 0 0 3 0 0 0  !,-,-
+GullibleStupid 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intint
+MouseWaiting 122 1 1 0 14 3 0 0 0 0 0 0 4 1 0 0  -,Disp,Stri="Stri="Stri="int=0Stri="int=0Stri=",StriStriStriintStriintStri,int
+BorrowOrange 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0 x,y Byte
+DelightfulCrown 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+ThickColor 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStri
+CryHateful 2595 56 23 0 0 56 0 0 0 9 0 0 1 70 0 0  !,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!!,!!,!!,!!!MoviRectNumbintint,!Bool=t,!intintFunc,!intintFuncint=-int=-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Arra,Arra,Arra,Arra,Bool,Bool,BoolMovi,Disp,Even,Even,Even,Even,Even,Even,Even,Mous,MoviStriArra,Striint,Striint,Vect,int,int,int,intBool,intStri,intStriintint,intint,intint,intint,intintBool=f,intintDictintint,intintStri
+DistroHate 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0 x,y Byte
+HystericalThick 436 1 3 0 8 0 0 0 1 8 0 0 10 0 0 0  !,!,!,!intint,-,int,int,int,int!,intBool
+GapingRecognise 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+JuiceToe 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+LamentableEntertaining 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+ToeOrange 76 1 1 0 0 1 0 0 0 0 0 0 4 1 0 0  -,-,-,Even,int
+AdaptableFix 71 19 1 0 0 0 0 0 0 0 0 0 1 3 0 0  -,FuncObje,ObjeObjeBool=f,Stri
+DecayVolcano 26 2 1 0 4 0 0 0 0 0 0 0 1 0 0 0 x,y Byte
+UnitNotebook 228 9 7 0 8 1 0 0 0 0 0 0 4 2 0 0  -,-,-,Bool,Mous,int
+MilkyLip 14 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriBool=f
+LunasoleStick 29 20 0 0 0 1 0 0 0 0 0 0 1 2 0 0  -,-,int
+VolcanoHeal 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStri
+KnotElite 47 1 2 0 0 1 0 0 0 0 0 0 1 2 0 0  -,Bool,Even
+StoreRequest 45 8 3 0 0 0 0 0 0 1 0 0 1 3 0 0  -,Stri,Stri,Stri
+HystericalGaping 166 24 0 0 0 4 0 0 0 0 0 0 1 8 0 0  -,-,Numb,Numb,Numb,NumbNumb,NumbNumb,NumbNumb,NumbNumbNumb
+ZonkedTax 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+KurumaAbaft 109 1 6 0 2 3 0 0 0 0 0 0 3 1 0 0  -,-,Boolint=0int=0,int=0int=0
+SeriousSign 17 10 0 0 2 0 0 0 0 0 0 0 1 0 0 0  -
+RobinBird 17 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+PatPinus 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+TaxStomach 164 2277 3 0 0 3 0 0 0 0 0 0 1 3 0 0  -,-,int,intStriintintintint
+BatheConfused 408 678 0 0 0 158 0 0 0 0 0 0 1 16 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+FixKuruma 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+LaborerMighty 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+OrangeProbable 18 17 0 0 2 0 0 0 0 0 0 0 1 0 0 0 shape !!
+KnotAir 36 8 1 0 2 0 0 0 0 0 0 0 1 0 0 0  StriStri
+LipConfused 46 18 0 0 11 0 0 0 0 0 0 0 1 0 0 0  StriStriStriint=0int=0Bool=f
+ProbableChivalrous 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStri
+CuteNotebook 446 1041 0 0 0 182 0 0 0 0 0 0 1 14 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+ApatheticStomach 78 4 5 0 2 2 0 0 0 0 0 0 2 0 0 0  Bool,int
+PatColor 49 9 1 0 17 0 0 0 0 0 0 0 1 0 0 0  int
+TaxFragile 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  !
+WingChop 23 5 1 0 1 0 0 0 0 0 0 0 1 0 0 0  int
+PailSlip 331 6 4 0 8 1 0 0 0 0 0 0 12 5 0 0  !,!Bool,-,-,-,-,-,-,-,-,-,-,-,Bool,Stri,Stri,int
+TrailBerry 392 551 0 0 0 170 0 0 0 0 0 0 1 8 0 0  -,-,-,-,-,-,-,-,-
+PatBurn 14 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+EntertainingHalf 14 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+SandRay 14 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+NotebookUncle 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+GullibleVolcano 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+ProudFlower 59 4 6 0 1 0 0 0 0 1 0 0 1 1 0 0  !,!
+BagStomach 27 2 1 0 4 0 0 0 0 0 0 0 1 0 0 0  Byte
+SenseDeadpan 416 553 0 0 0 182 0 0 0 0 0 0 1 8 0 0  -,-,-,-,-,-,-,-,-
+InstructViolet 195 5 4 0 17 0 0 0 0 0 0 0 3 0 0 0  -,Even,XMLNBool=f
+SpuriousCreator 17 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintintintint
+FascinatedBabies 111 92 1 0 3 0 0 0 0 0 0 0 3 3 0 0  -,-,Byte,Byte,Byte,Byte
+ScratchComplex 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intint
+ScratchSand 26 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+DeterminedBathe 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+ArmyOranges 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+HalfPanoramic 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+GapingElite 48 7 0 0 12 0 0 0 0 0 0 0 1 0 0 0  intintint=0int=0int=0int=0int=0int=0Bool=fBool=fBool=f
+HatefulSlip 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+CrashPrepare 109 2 4 0 0 5 0 0 0 0 0 0 1 5 0 0  -,-,-,Even,Stri,int
+CardMetal 54 4 1 0 3 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+DeterminedList 177 4 5 0 1 1 0 0 0 0 0 0 14 1 0 0  -,Bool,Even,Even,Even,Even,Even,Even,Even,Even=n,Even=n,Even=n,Even=n,StriFunc,StriStriFunc
+SignAbaft 30 7 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintintintintintintintBoolBoolint=0
+SuperBruise 149 11 2 0 0 7 0 0 0 1 0 0 1 11 0 0  -,-,-,-,-,-,-,Bool,Stri,Stri,Stri,Stri=n
+CoalCute 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStri
+IllustriousGate 19 6 0 0 0 3 0 0 0 0 0 0 1 0 0 0  -
+ScratchLaborer 186 43 7 0 4 3 0 0 0 2 0 0 4 3 0 0  -,Numb,int,int,int,intintBoolint=0,intintint=0
+StatementAdmire 15 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintint
+ThickScintillating 492 27 0 0 7 3 0 0 0 0 0 0 16 2 0 0  !,!,!,!,!,!!,!!,!!!,!!int,!Arra!!Numb,!NumbNumb,-,-,-,-,-,-,Arraint
+InexpensiveElite 145 2 2 0 5 0 0 0 0 0 0 0 10 0 0 0  -,-,-,-,-,Bool,Func,Func,Stri,Stri
+RaySerious 238 29 7 0 0 24 0 0 0 0 0 0 1 5 0 0  -,-,-,Bool,DispBool,int
+SatisfyPlan 70 1 0 0 1 0 0 0 0 20 0 0 1 1 0 0  Stri,Stri
+SpuriousRare 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+CuteAmuse 351 41 3 0 12 1 0 0 0 9 0 0 2 0 0 0  -,intStriStriint=-Stri=nStri=nStri=n
+JoyousCommon 37 1 1 0 0 0 0 0 0 3 0 0 1 2 0 0  -,-,Stri
+TiresomeBerry 34 3 1 0 4 0 0 0 0 0 0 0 1 0 0 0  Byte
+StickFix 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+SignGate 16 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintintint
+JumbledAdvise 65 23 1 0 4 1 0 0 0 10 0 0 1 1 0 0  int,intStriStriStri
+CreatorRequest 232 4 6 0 6 0 0 0 0 0 0 0 7 0 0 0  -,-,-,Bool,Bool,Bool=f,int!Bool=f
+SenseSwanky 36 34 0 0 1 1 0 0 0 0 0 0 2 0 0 0  Numb,Numb=0
+FragileKuruma 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+CrowdedCrime 21 5 0 0 3 0 0 0 0 0 0 0 1 0 0 0  intintint
+ScratchFix 220 1 0 0 1 0 0 0 0 0 0 0 20 0 0 0 x_executeResultatAjoutAmi,x_executeResultatDemandeDivorce,x_executeResultatDemandeEnMariage,x_executeResultatDemandeFermetureListeAmis,x_executeResultatDemandeOuvertureListeAmis,x_executeResultatReponseDemandeEnMariage,x_executeResultatSuppressionAmi,x_executeSignalementAjoutAmi,x_executeSignalementConnexionAmi,x_executeSignalementDeconnexionAmi,x_executeSignalementDemandeEnMariage,x_executeSignalementDivorce,x_executeSignalementListeAmis,x_executeSignalementMariage,x_executeSignalementModificationAmi,x_executeSignalementRefusMariage,x_executeSignalementSuppressionAmi !,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,!,-,Stri,Stri
+InjureAir 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+DildoNoxious 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Bool
+PinusFeeble 74 13 1 0 0 2 0 0 0 0 0 0 3 1 0 0  !,-,-,intintint=0Bool=fint=0int=1int=1
+SuperKnife 63 29 1 0 13 0 0 0 0 9 0 0 1 0 0 0 rotation Striintint
+FragileAlanson 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+HystericalSpurious 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStri
+LookStale 61 1 2 0 1 0 0 0 0 0 0 0 2 0 0 0  !,!
+OrangesLight 229 81 0 0 0 2 0 0 0 0 0 0 1 18 0 0  -,-,-,Arra,int,int,int,int,int,int,intArra,intBool=t,intBool=t,intBool=t,intint=0,intint=0,intint=0,intint=0,intintBool=t
+SeriousProgram 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+AdviseCrime 41 24 0 0 3 0 0 0 0 0 0 0 4 0 0 0  !,-,-,-
+SpuriousWarlike 47 5 1 0 5 0 0 0 0 0 0 0 1 0 0 0  Byte
+BuryFaint 12 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+FaintCrime 228 20 9 0 5 1 0 0 0 0 0 0 12 1 0 0  !,-,-,-,-,Even,Even=n,Mous,Mous,StriFunc=nObje=nBool=fBool=t,StriFunc=nObje=nBool=fBool=t,int,int
+ChickenHateful 33 2 1 0 5 0 0 0 0 0 0 0 1 0 0 0  Byte
+ChickenKotsky 19 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+FascinatedNotebook 61 1 2 0 0 0 0 0 0 0 0 0 2 1 0 0  Byte,Byte,Stri
+SqueamishHarmony 441 1030 13 0 0 15 0 0 0 6 0 0 1 13 0 0  !,!intStri+,-,-,Bool,BoolStri+,Even,Even,FuncStriBoolBoolStri+,FuncStriBoolStri+,Stri+,StriBool,StriBool=fBool=tStri=",StriFunc=nObje=n
+CrashPinus 78 3 2 0 2 0 0 0 0 0 0 0 3 0 0 0  !,-,Bool
+ProbableEntertaining 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+BuryChickens 16 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriStri
+HistoricalWandering 51 21 0 0 3 0 0 0 0 0 0 0 3 0 0 0 normal !,-,-
+VioletSand 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+ProbableThick 28 9 0 0 3 0 0 0 0 0 0 0 2 0 0 0  -,-
+AdmireAbaft 21 5 3 0 0 0 0 0 0 0 0 0 1 0 0 0  Bitmintint
+StupidSupply 18 5 0 0 2 0 0 0 0 0 0 0 1 0 0 0  -
+SandNoiseless 154 3 1 0 5 0 0 0 0 6 0 0 8 0 0 0  !,!,!,!,!,!,!!Numb,!int
+LabelPanoramic 79 22 1 0 0 2 0 0 0 0 0 0 1 6 0 0  -,-,-,Bool,Obje,Obje=n,ObjeBool=tBool=t
+PartyAmuse 313 33 4 0 0 17 0 0 0 0 0 0 1 14 0 0  !,!,-,-,-,-,-,-,-,-,BoolNumb=0Bool=f,BoolNumb=1,BoolNumb=1Numb=1,Func=n,int=0int=8int=-
+ListDecay 266 11 7 0 5 4 0 0 0 0 0 0 7 5 0 0  -,-,-,-,-,-,DispStriFuncObje=n,Mous,Mous,int,int,int
+CrimeLip 110 10 1 0 7 0 0 0 0 0 0 0 2 0 0 0  Byte,int=-
+BabiesHateful 15 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintint
+ScaleStatement 74 2 3 0 0 2 0 0 0 0 0 0 1 5 0 0  -,-,Even,Even=n,Stri,Stri
+CrashLeg 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+AnnoyingJuice 14 2 0 0 0 1 0 0 0 0 0 0 1 0 0 0  -
+BackFragile 141 2 10 0 9 3 0 0 0 0 0 0 4 0 0 0  -,Even,Even,intintintint=0
+InviteRare 158 4 4 0 1 3 0 0 0 0 0 0 4 6 0 0  !,!,-,-,-,-,Byte,Byte,Byte,Even
+InexpensiveCrib 24 37 0 0 6 0 0 0 0 0 0 0 1 0 0 0  -
+LookBird 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+WhisperChop 133 31 5 0 7 0 0 0 0 0 0 0 6 0 0 0  !Bool=t,Bool,Bool,Even=n,ObjeStri="int=0Disp=n,intint
+AdmireObeisant 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStri
+ColorParty 221 15 8 0 5 2 0 0 0 1 0 0 3 4 0 0  -,-,-,-,BoolBool=f,Stri,Stri
+VioletProbable 49 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+FourCrown 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intBool
+SeedWing 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+ListCoal 336 96 7 0 14 0 0 0 0 0 0 0 21 0 0 0  !,-,-,-,-,Bool,Even,Even,Even,Even=n,FuncObje=nBool=f,FuncObje=nBool=t,Keyb,Spri,Stri,Stri,StriBool=tBool=t,int,int=1int=2Bool=t,intNumb=1,intint=2
+ChickenStay 172 34 3 0 6 0 0 0 0 0 0 0 10 0 0 0  -,-,-,Bool=t,Bool=t,Bool=t,Keyb,StriFunc=nObje=n,StriFunc=nObje=n,intStri="Bool=f
+SeriousAction 24 1 0 0 0 0 0 0 0 1 0 0 2 0 0 0  !,!
+FascinatedHalf 493 1 4 0 14 0 0 0 0 11 0 0 12 0 0 0  !,!,!,!!Bool,-,Bool=f,Dict,NumbNumb,int,int,int,int
+CryCreator 252 1 2 0 0 10 0 0 0 0 0 0 1 8 0 0  -,-,-,-,Even=n,Stri,Stri,Stri,Stri
+BorrowPear 16 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriStri
+TrembleStore 20 7 0 0 4 0 0 0 0 0 0 0 1 0 0 0  -
+CrowdedKuruma 593 1 6 0 27 0 0 0 1 1 0 0 19 0 0 0  !,!,!,!!Numb,-,-,Bool,Bool,Bool,Even,Mous,Numbint,Stri,Vectint,Vectint,VectintBool=t,int,int,int
+AlansonPlan 54 4 3 0 4 0 0 0 0 1 0 0 1 0 0 0  Spriint=0int=0int=0
+LipStatement 57 3 0 0 2 0 0 0 0 0 0 0 2 0 0 0  -,Arra!!Numb
+FrailAdvise 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+LegBurn 29 4 0 0 7 0 0 0 0 0 0 0 1 0 0 0 normal,position -
+StatementAction 154 12 1 0 0 6 0 0 0 6 0 0 1 10 0 0  -,-,-,-,-,-,Func,Func,Func,Stri,Stri
+DeterminedScintillating 24 4 0 0 4 0 0 0 0 0 0 0 1 0 0 0  intintintint
+JoyousIllustrious 21 4 0 0 0 0 0 0 0 0 0 0 3 0 0 0  **,***,-
+DeterminedJuice 14 16 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int=0
+ChopStick 41 7 1 0 9 0 0 0 0 0 0 0 1 0 0 0  Byte
+TiresomeViolet 159 1 6 0 12 0 0 0 0 0 0 0 10 0 0 0 lecture,pauseVideo -,Bool,Even,Even,Even,Even,Even,Even=n,Stri,StriBool=tNumb=1Func=n
+PartySand 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+SatisfyGaping 12 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+RareBashful 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStriStri
+EntertainingBlade 451 331 10 0 15 6 0 0 0 0 0 0 14 0 0 0 reset !,-,-,Byte,Even,Even,Even,Even,Prog=nBool=f,Secu,Stri,Stri=n,Stri=nBool=f,StriBool!=n
+UnclePanoramic 65 1 0 0 0 0 0 0 0 0 0 0 4 0 0 0 x_executeResultatAjoutListeNoire,x_executeResultatConsultationListeNoire,x_executeResultatSuppressionListeNoire !,!,!,-
+EliteTrail 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intintint
+DelightfulMouse 30 2 1 0 3 0 0 0 0 0 0 0 1 0 0 0  Byte
+BalvankaAlanson 376 2 0 0 0 5 0 0 0 0 0 0 1 7 0 0  !!!!!!,!!!!!!,!!!!!!,!!*!*!,!!ArraArraArra,!!ArraArraArra,!Arraint,-
+SuzukaLaborer 380 374 0 0 0 164 0 0 0 0 0 0 1 8 0 0  -,-,-,-,-,-,-,-,-
+SeedCracker 395 6 5 0 8 1 0 0 0 0 0 0 23 0 0 0  -,-,-,-,Arra,Bool,Bool,Bool,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even,Even=n,Even=n,Even=n,int,int
+GroundSwanky 494 51 3 0 5 0 0 0 0 4 0 0 24 2 0 0 couleur !,!,!=n,!Bool=f,-,-,-,-,-,-,-,-,-,-,-,Bool=tBool=fBool=fBool=f,Dict=nBool=tBool=tBool=f,StriDict=nBool=tBool=tBool=f,StriDict=nBool=tBool=tBool=f,int,int,int,int,int=0,int=1Bool=fNumb=1int=1,intint
+WanderingRobin 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+IcyWicked 454 7 12 0 14 2 0 0 1 0 0 0 20 0 0 0 couleur,couleurEnCours -,-,-,-,-,-,Func=n,Func=n,Keyb,Mous,Mous,Mous,Mous,Mous=n,Mous=n,int=-,int=-Bool=t,intBool=t,intBool=t,intBool=tBool=f
+JumbledGround 127 106 0 0 2 0 0 0 0 0 0 0 12 0 0 0  !,!,!,!!,!NumbNumb,-,-,-,-,-,Numb,Numb=0!=n!=n
+InjureObtainable 59 2 2 0 10 0 0 0 0 0 0 0 1 0 0 0  Byte
+AdaptableWicked 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+CrownClub 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStri
+PartyObtainable 14 5 0 0 0 1 0 0 0 0 0 0 1 0 0 0  -
+KotskyChop 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStri
+MilkyKnot 104 44 1 0 12 0 0 0 0 0 0 0 6 1 0 0 toString !,-,-,-,Byte,Stri=nint=0,int
+PearLunasole 724 24 9 0 16 6 0 0 0 4 0 0 24 10 0 0  !,!,!,!!,!!,-,-,-,-,-,-,-,-,-,-,-,-,-,Bool,Bool,Bool,Bool=t,Disp=n,Even,Even=n,Keyb,Keyb,Stri,Stri,Stri,Stri,int,int,int
+PinusAgreeable 108 4 1 0 11 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+SqueamishHistorical 59 1 2 0 1 0 0 0 0 1 0 0 4 0 0 0  !,-,Even,int
+OrderLaborer 167 8 5 0 12 1 0 0 0 0 0 0 11 0 0 0 get,get,recupereSequence,set,set,traitePaquetSortant !,-,-,-,-,-,-,Prog,Stri=nuint=0,int,int!
+LaborerChop 59 13240 1 0 0 0 0 0 0 0 0 0 1 9 0 0  !,!,-,Arra,Bool,Disp,Func,Numb,Stri,int
+GullibleChicken 482 155 9 0 26 0 0 0 0 2 0 0 29 0 0 0  -,-,-,-,-,Bool=t+,BoolNumb=0Bool=f,DispBool=fBool=f,Even,Even,Even,Even,Even,Even,Even,Even=n,Func=nObje=nBool=t,Func=nObje=nFunc=nObje=n,FuncObje,FuncObje=nBool=t,Mous,Mous,Mous,Mous,Numb=0Numb=0Bool=f,Stri,intNumb=1,intint,intintBool=f
+TastelessCracker 17 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+ProudHeal 24 7 0 0 4 0 0 0 0 0 0 0 1 0 0 0  intStriStriStri="
+ObtainableHarmony 31 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+HydrantGaping 368 3 1 0 15 1 0 0 0 2 0 0 39 0 0 0  !,!,!,!!,!!Bool,!Bool,!Stri,!intintint,-,-,-,-,-,-,-,-,-,-,-,Bool,Bool,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,StriBool,Striint,int,int,int,intStriStriint
+StayOrder 561 25 9 0 13 12 0 0 0 8 0 0 11 14 0 0  !,!,-,-,-,-,-,-,Bool,Bool=t,BoolBool,Boolintint,Boolintint,Disp,Even,Mous,Stri,Stri,Stri,Stri,Stri,Stri,Striint,Striint,int
+AgonizingScintillating 403 2 2 0 2 0 0 0 0 0 0 0 19 1 0 0  !,!,!Stri,-,-,-,-,-,-,-,-,-,Bool=fBool=t,Obje,Obje=n,Stri,Stri,Stri=n,StriVect,intint
+ObtainableReligion 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+IllustriousScintillating 97 57 1 0 7 0 0 0 0 0 0 0 2 5 0 0  !,!!,!!,!!,-,int,intBool=fBool=fBool=f
+AlluringHistorical 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+HalfRare 14 2 0 0 0 1 0 0 0 0 0 0 1 0 0 0  -
+HistoricalStomach 55 10 0 0 1 0 0 0 0 5 0 0 2 1 0 0  -,-,-
+SwankyUnit 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+WaitingArmy 49 5 1 0 2 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,int
+ReligionDeliver 64 2 1 0 3 1 0 0 0 0 0 0 5 0 0 0 get,recupereSequence,set,traitePaquetSortant !,-,-,-,int
+IllustriousHarmony 64 176 0 0 0 0 0 0 0 6 0 0 1 1 0 0  -,Objeint
+BalvankaScale 28 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intBoolBoolintintintintBoolintintNumb=Nint=0Bool=t
+ProbableQuirky 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+JoyousCompany 354 90 8 0 0 34 0 0 0 2 0 0 1 11 0 0  -,-,-,-,-,-,Even,Even=n,Stri,StriBool=tint=0,int,intintintint
+SighCrime 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+FaithfulJuice 29 1 0 0 0 0 0 0 0 1 0 0 3 0 0 0  !,!,!
+LegAgreeable 192 183 3 0 1 16 0 0 0 40 0 0 3 0 0 0 lecture -,Stri,StriObje
+WateryTremble 31 3 1 0 0 1 0 0 0 0 0 0 1 2 0 0  -,-,Byte
+MetalAction 27 3 0 0 0 0 0 0 0 0 0 0 1 3 0 0  !StriStri,-,Stri,Stri
+WickedAdhesive 49 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+ColorPail 93 5 4 0 3 1 0 0 0 0 0 0 2 2 0 0  -,Bool,DispintintNumbBool=t,Mous
+LoafKuruma 15 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriintStri
+LabelAmuse 348 7 9 0 15 4 0 0 1 0 0 0 8 5 0 0  -,-,-,-,-,-,-,-,-,-,Bool,Even,int
+ConfusedCommon 1265 26 7 0 62 3 0 0 0 1 0 0 1 2 0 0  -,MoviBool=f,XMLNStriintBoolint=0Bool=f
+InjureWindy 121 5 2 0 0 2 0 0 0 0 0 0 1 2 0 0  -,Bitm,ByteintByte
+FaintBruise 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+RayChickens 15 77 1 0 0 0 0 0 0 0 0 0 0 0 0 0  
+EntertainingParty 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Bool
+CreatorCrown 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+AbaftDecay 26 27 0 0 3 0 0 0 0 0 0 0 2 0 0 0  Stri,intStri
+IllustriousMetal 1080 12 0 0 23 8 0 0 0 1 0 0 32 0 0 0  !,!,!,!,!,!,!,!,!,!,!,!,!,!,!!!Bool,!!Bool,!Arraint,-,-,-,-,-,-,-,-,-,-,-,Bool,Bool,Bool,Numb
+WhistleCrime 242 4 4 0 1 0 0 0 0 0 0 0 8 0 0 0  !,-,-,-,-,-,Even=n,int!
+HateChickens 138 36 4 0 0 8 0 0 0 1 0 0 1 5 0 0  -,-,Stri,StriBool=t,Striint=4,StriintStriStriStri=n
+CribSerious 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+WhisperSubdued 61 123 0 0 0 2 0 0 0 18 0 0 1 1 0 0  -,Bool
+TastelessNoiseless 17 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+PeckFaint 72 119 0 0 0 30 0 0 0 0 0 0 1 0 0 0  -
+AirFlower 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+TrailLook 193 1 3 0 2 0 0 0 0 7 0 0 6 0 0 0  !,!,!,-,int,int
+FaithfulCreator 23 2 1 0 3 0 0 0 0 0 0 0 1 0 0 0  Byte
+InjureRecognise 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+RaySpurious 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStri
+AdaptableDecay 61 56 4 0 0 0 0 0 0 3 0 0 1 3 0 0  -,Mous,Mous,SpriBool=tBool=t
+DildoAgonizing 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Bool
+ActionSigh 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+OrderProud 142 16 1 0 10 4 0 0 0 0 0 0 4 0 0 0 toString -,-,Bool,intintintStri
+WhisperDelightful 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+CrackerPail 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intint
+ReligionSubdued 20 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Bool
+DildoSerious 17 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+ProseChickens 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStri
+SeriousDeliver 68 77 0 0 0 0 0 0 0 16 0 0 1 0 0 0  -
+FascinatedMouse 84 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+OrangeKuruma 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+MightyCommon 41 3 1 0 1 1 0 0 0 0 0 0 1 1 0 0  -,Boolint=0
+WhisperWhistle 161 2 0 0 13 0 0 0 0 0 0 0 6 0 0 0  !,-,int,int,int,int
+CompetitionCrime 44 2 1 0 7 0 0 0 0 0 0 0 1 0 0 0  Byte
+OrderBashful 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+KnotPeck 27 9 0 0 5 0 0 0 0 0 0 0 1 0 0 0 type,userData; -
+NoxiousJoyous 42 2 0 0 2 0 0 0 0 1 0 0 4 0 0 0  -,-,Bool,Bool
+FlowerFascinated 76 1 6 0 1 3 0 0 0 0 0 0 2 1 0 0  -,-,Boolint=0
+NoxiousFour 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStriint
+KnifeSand 70 1 1 0 7 0 0 0 0 0 0 0 4 1 0 0 ecriture,lecture -,Byte,Byte,Byte,int=0Stri=nint=0int=0int=0int=0!=n
+ConfusedViolet 75 30 0 0 14 0 0 0 0 0 0 0 4 0 0 0  !,-,-,intintintBoolintintint
+CrashWhistle 27 2 0 0 0 0 0 0 0 0 0 0 1 1 0 0  -,intintintBool=t
+BuryRay 42 6 0 0 0 0 0 0 0 0 0 0 1 6 0 0  -,int,int,int,intint,intint,intintintintBool
+AdviseSisters 124 19 4 0 4 4 0 0 0 1 0 0 5 0 0 0  -,-,-,-,int
+WickedTax 112 13 4 0 0 1 0 0 0 0 0 0 1 3 0 0  !,!,-,int
+LamentableArmy 209 10 5 0 12 0 0 0 0 0 0 0 9 0 0 0 DécalageBarreY,Rendu_Ascenseur,Texte -,Even,Even,Func,Mous,Mous,Textint=1uint=2uint=3,int,int=0
+LipKnife 29 2 1 0 5 0 0 0 0 0 0 0 1 0 0 0  Byte
+StatementRay 7 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+ObeisantApathetic 149 7 1 0 0 5 0 0 0 1 0 0 1 3 0 0  -,Stri,StriStri=n,int
+JumbledFix 4769 2020 39 0 166 28 0 0 8 13 0 0 109 10 0 0 Fx,Fy,Initialisation,_I,tempsPartieZero,x_UTILISATEUR_DEBUG,x_moletteTransformice,x_nombreBonusDefilante,x_proxyModule801,x_proxySteam,x_recupTitreInterface !,!,!,!,!,!,!Bool=fBool=f,!Boolintintint,!Stri=nStri=nint=0int=0Bool=f,!int,!int=0,+,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Arra,Bool,Bool,Bool=f,Boolintint,Disp,Even,Even,Even,Even,Even,Even,Even,Even,Even=n,Even=n,Even=n,Even=nBool=fint=0,EvenStri=nBool=f,Func,Mous,Mous,Mous,Mous,Mous,Mous,Mous,Mous,Mous,Mous,Mous,Mous,Mous,Movi,Movi,Numb,Obje,Obje,ObjeStriint=0int=0int=0int=0,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri,Stri=n,Stri=n,StriStri=n,StriStri=nBool=fStri=nStri=nStri=n,StriStriStriStri,StriStriint,Striint,Time=n,XMLNMovi,int,int,int,int,int,intFuncint=0int=0,intint,intint!int,intint=0int=0Bool=fBool=t,intintNumbNumbNumbintNumbNumbNumbNumb=0Numb=0,intintint,intintint!=nBool=fNumb=0Numb=0,intintintBool=fint=-,intintintintBool=fBool=tint=0,intintintintBool=fint=0,intintintintintBool=tNumb=0!=n
+LegYell 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intintStri
+InjureSign 82 3 1 0 0 2 0 0 0 2 0 0 1 4 0 0  -,-,Stri,Stri,StriStriBool
+WanderingLight 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+FaintViolet 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+LunasoleSign 211 6 6 0 7 1 0 0 0 0 0 0 9 1 0 0  !,!,!,!,-,Mous,Mous,MoviBool,Stri,intint
+SqueamishFaithful 428 675 0 0 0 168 0 0 0 0 0 0 1 16 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+MightySand 530 1 4 0 0 0 0 0 0 0 0 0 1 1 0 0  -,Byteint
+NoxiousVolcano 136 116 2 0 3 1 0 0 0 0 0 0 1 6 0 0  -,-,-,-,-,Dispint=1Bool=f,int
+ObtainableLook 57 6 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intintint
+WanderingLaborer 30 3 1 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriStriStri!Stri
+GateApathetic 72 5 1 0 5 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+BerryHeal 207 116 0 0 23 0 0 0 0 19 0 0 2 0 0 0 couleur,rotation,x,y -,intintintintint
+FlowerAnus 473 896 0 0 0 198 0 0 0 0 0 0 1 13 0 0  -,-,-,-,-,-,-,-,-,-,-,-,-,-
+WingAir 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+SpuriousJumbled 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+HistoricalCracker 30 2 0 0 1 0 0 0 0 0 0 0 2 0 0 0  -,intStri
+StupidClub 225 2 8 0 15 1 0 0 0 5 0 0 7 0 0 0 NORMAL -,-,-,-,Keyb,Stri,intintStriintintintBool
+AnnoyingTax 30 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intArra
+MouseTouch 213 99 0 0 0 0 0 0 0 3 0 0 1 31 0 0  !,!,!!,!!,!!,!!,!!,!!,!!,!!,!!,!!,!!,!!,!!,!!,!!,!!!,!Numb,-,-,ArraArra,Numb,Numb,Numb!,Numb!,NumbNumb,NumbNumb,NumbNumb,NumbNumbNumb,uint,uint
+PearChivalrous 274 3 0 0 19 0 0 0 7 0 0 0 3 0 0 0  Bool=fBool=f,Numb,intintint
+VioletRecognise 616 11 11 0 8 0 0 0 0 7 0 0 18 0 0 0  !Bool,-,-,Func,Func,Func,Mous,Mous,Mous,Mous,Mous,Mous,Mous,Mous,Stri,Striint=0,Striintint!=n,int=0
+DistroBathe 43 6 0 0 4 0 0 0 0 0 0 0 4 0 0 0  !Numb!Numb,!Numb!Numb,-,-
+HalfPeck 20 109 0 0 0 0 0 0 0 4 0 0 1 0 0 0  -
+TastelessWing 75 14 1 0 17 0 0 0 0 0 0 0 1 0 0 0  Byte=n
+TaxAnus 351 4 6 0 10 2 0 0 0 1 0 0 17 1 0 0  !Func,!Func,-,-,-,-,Even,Even,Func,Func,Func,Mous,Vect,Vect,int,int,int=-!=n,intint=-
+PipkaAgree 12 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+ScaleWing 71 15 5 0 4 0 0 0 0 0 0 0 1 0 0 0  StriStriintNumb
+KnotFlower 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintint=0
+IllustriousSubdued 42 4 5 0 3 0 0 0 0 0 0 0 2 0 0 0  -,Disp
+TrembleEntertaining 14 5 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Stri
+RareInvite 49 1 1 0 0 0 0 0 1 0 0 0 4 0 0 0  !,!,Dict,int
+ListMark 18 20 0 0 0 3 0 0 0 0 0 0 1 0 0 0  -
+StatementTremble 54 16 0 0 10 0 0 0 0 6 0 0 1 0 0 0  intintintintintintintintStriStri
+ProudPail 1935 49 7 0 0 48 0 0 0 12 0 0 1 2 0 0  -,Bool,Even
+CuteStupid 16 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriintintStri
+SighSatisfy 637 36 3 0 30 10 0 0 0 13 0 0 9 8 0 0  -,-,-,-,-,-,Bool,Bool,Bool,Bool,Bool=f,StriBoolBool=f,StriintintVect,StriintintVectBool=fNumb=1,StriintintVectBool=fNumb=1int=1,intStri,intStriintintStriVectBool=fBool=f
+OrderAction 1941 433 12 0 101 5 0 0 0 3 0 0 57 1 0 0 Initialisation,transformice,x_finAnimConfetti,x_finAnimNeige -,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool,Bool,BoolBool=f,Boolint=0,Boolint=0,DispBool=t,Even,Even,Even,Even,Numb=1,Obje=n,Stri,StriStri="Bool=fBool=fint=-int=-Bool=f,Striint=0int=0int=1,int,int,int,int,int,int,intStri=nBool=f,intint,intintStri=nStri=nint=1
+VolcanoStupid 48 2 0 0 2 0 0 0 0 4 0 0 2 0 0 0  -,intint
+GateJuice 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+BirdAmuse 219 4 1 0 9 1 0 0 0 0 0 0 8 0 0 0  -,-,-,-,Byte=n,Vect,int,int
+ThickBruise 49 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+OrangeInjure 65 1 6 0 0 3 0 0 0 0 0 0 1 2 0 0  -,-,Stri
+SandAgree 20 11 0 0 4 0 0 0 0 0 0 0 1 0 0 0  -
+PinusHistorical 22 2 0 0 3 0 0 0 0 0 0 0 1 0 0 0  -
+HangingKuruma 14 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriBool
+AdaptableFour 120 10 0 0 0 0 0 0 0 0 0 0 1 3 0 0  !intStriBool=f,-,intStri=n,intintBool
+SupplyBury 112 20 0 0 2 0 0 0 0 0 0 0 9 0 0 0  !,!,!,!!,!!,!!!,!Arra!!Numb,-,-
+StayWindy 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+LightLook 56 72 0 0 0 0 0 0 0 22 0 0 1 0 0 0  -
+BalvankaComplex 1254 528 9 0 49 0 0 0 0 0 0 0 44 0 0 0  !int=0int=0int=0int=0,!int=2,-,-,-,-,-,-,-,-,-,-,-,Bool=f,Bool=t,Bool=t,Bool=t+,Bool=tint=0,Bool=tint=0Bool=fRect=n,Boolint=6Bool=f,Disp,Disp,Disp+,DispBool,Even,Even,Even,Even,Even,Even,Even,Even=n,Mous,Numb=0,StriFunc=nint=1,int,int,int,int,int=0int=0,intNumb=1,intint,intintBoolintint=0int=0,intintFunc
+BladeCrown 89 53 0 0 6 0 0 0 0 0 0 0 5 0 0 0  !,-,-,Bool,Vect
+AdhesiveVolcano 12 3 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+VioletSupply 256 1 0 0 15 0 0 0 0 0 0 0 9 0 0 0  !,!,!,-,-,-,-,-,-
+WaitingPail 15 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriBool
+YellBabies 18 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint=-Stri=n
+AbaftStupid 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+GateHistorical 62 197 0 0 5 0 0 0 0 2 0 0 4 1 0 0  !int=2int=0,+,-,Vect,int
+ApatheticIcy 66 4 1 0 3 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+ToeGrate 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intStri
+ProbablePipka 61 5 1 0 5 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intintintBool
+DistroLoaf 79 10 1 0 1 0 0 0 0 9 0 0 1 2 0 0  Vect,int,int
+RequestJoyous 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+YellHateful 17 4 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintintintStri
+BabiesIllustrious 188 14 1 0 0 6 0 0 0 0 0 0 1 7 0 0  !,!!,-,-,Bool=f,Stri,Text!=n,int=1
+BurnKuruma 152 52 1 0 2 0 0 0 0 41 0 0 1 2 0 0  int,int,intBool=f
+WanderingCrown 403 18 5 0 0 7 0 0 0 0 0 0 1 14 0 0  !,!,-,-,-,-,-,-,-,Bool,Dispint,int,int,intint,intintintintintBool=tNumb=0
+ScaleParty 294 2 0 0 8 0 0 0 0 0 0 0 11 3 0 0  !!,!!,!uintuint,-,-,-,-,intint,intint,uintuint,uintuint,uintuint,uintuint,uintuintuint
+InjureLabel 202 2 0 0 3 0 0 0 0 1 0 0 5 0 0 0  !,**,***,-,-
+DildoUnit 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+CrownHalf 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+PeckArmy 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+InexpensiveCrash 101 6 1 0 8 0 0 0 0 0 0 0 3 0 0 0  -,intintintintintint,intintintintintint
+ActionStick 110 5 1 0 4 1 0 0 0 0 0 0 4 3 0 0  -,-,-,-,-,-,Stri=n
+SupplyPrepare 137 1 1 0 2 0 0 0 0 1 0 0 7 0 0 0  !,!,!,!,!,-,-
+HatefulCracker 101 35 1 0 4 1 0 0 0 22 0 0 1 1 0 0  int,intStriintStri
+BirdHateful 40 34 0 0 0 0 0 0 0 14 0 0 1 0 0 0  -
+LightSuzuka 111 12 0 0 3 0 0 0 0 0 0 0 8 0 0 0  !Bool=t,!Bool=t,-,-,Func,ObjeBool=t,int=0int=0,intBool=t
+SatisfyUnequaled 14 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriBool
+RareSign 58 3 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+HatefulDistro 20 8 0 0 4 0 0 0 0 0 0 0 1 0 0 0 couleur -
+HalfAir 105 1 2 0 0 2 0 0 0 0 0 0 1 7 0 0 tribulle -,-,Arra,Stri,Stri,StriStri,StriStri,StriStriStri
+OrangeTouch 32 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0  !,-
+ScintillatingHate 17 2 1 0 1 0 0 0 0 0 0 0 1 0 0 0  Byte
+DeliverAlanson 397 720 0 0 0 165 0 0 0 0 0 0 1 11 0 0  -,-,-,-,-,-,-,-,-,-,-,-
+ChickenCreator 260 173 3 0 16 0 0 0 0 0 0 0 16 0 0 0  -,-,-,-,-,BitmNumb=NNumb=N,Even,Even,FuncObje=n,NumbNumb=0,Stri,Stri=nint=0int=0int=0int=0,int=0Numb=1,int=0int=0,intint,intint
+ZonkedReligion 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+DecayFlower 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+TrailTax 32 8 0 0 2 0 0 0 0 0 0 0 2 0 0 0 toString -,intStriNumbStriintStri
+CrimeFaint 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+ComplexPinus 54 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+GapingJuice 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+UnequaledAgree 35 7 1 0 7 0 0 0 0 0 0 0 1 0 0 0  Byte
+DildoTiresome 41 78 0 0 2 0 0 0 0 0 0 0 4 0 0 0 R,position !,!!,!=n!=n,-
+SignChicken 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+TiresomeCompetition 47 18 0 0 6 0 0 0 0 0 0 0 3 0 0 0  !,-,-
+MilkyWaiting 27 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+ThickDeliver 61 4 1 0 5 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+StupidDildo 35 38 1 0 1 0 0 0 0 0 0 0 5 0 0 0 ecriture,get,set -,-,-,-,Byte
+CrownFascinated 250 23 2 0 9 0 0 0 0 7 0 0 5 0 0 0  !,-,-,intintintNumb=0int=0Bool=t,intintintintintBool=tNumb=0
+UncleToe 589 119 2 0 44 1 0 0 5 0 0 0 2 1 0 0  -,-,intint
+KnifeKuruma 343 6 5 0 7 1 0 0 0 0 0 0 14 5 0 0  !,!Bool,-,-,-,-,-,-,-,-,-,-,-,-,Bool,Even,Stri,Stri,int
+SubduedWhisper 222 43 0 0 11 6 0 0 0 0 0 0 9 4 0 0  !,!,!!*,!*,!=n!=n,-,-,-,-,-,-,-,FuncFuncintint
+CardKuruma 388 1519 0 0 0 168 0 0 0 0 0 0 1 8 0 0  -,-,-,-,-,-,-,-,-
+HateSwanky 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+StatementCry 14 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+SignDeadpan 14 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+ZonkedLight 14 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+HistoricalProse 434 451 16 0 0 16 0 0 0 9 0 0 1 21 0 0 x_Ressources_Class,x_TransformiceFLA,x_pouf -,-,-,-,-,-,Appl,Even,Even,Even,Even,Even,IOEr,Stri,Stri,Stri,Stri,StriBool=f,StriFunc=nObje=n,StriStri=",StriStri=",int
+AlansonComplex 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+SwankyOrange 397 5 7 0 0 3 0 0 0 1 0 0 1 8 0 0  !SpriStriint,!int,!int,!intBool,!intint,-,-,Spri,StriBool=f
+PlanDildo 45 3 2 0 0 0 0 0 0 0 0 0 2 1 0 0  -,StriStri,StriStri="
+ConfusedInvite 56 8 0 0 1 0 0 0 0 5 0 0 2 1 0 0  -,-,-
+DelightfulSense 49 5 1 0 2 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,int
+ObtainableDeadpan 87 5 1 0 5 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+JumbledPipka 79 16 2 0 0 2 0 0 0 2 0 0 1 4 0 0  -,-,-,int,intStri
+KurumaWatery 740 6 9 0 28 9 0 0 0 0 0 0 16 8 0 0  !,!,!,!,!,!,!,!,!,!,-,-,-,-,-,-,-,Bool,Disp,Even=n,Text,Text,int,int
+TaxPipka 475 8 14 0 9 2 0 0 0 1 0 0 17 6 0 0  !,-,-,-,-,-,-,-,-,-,-,Arra,Arra,Bool,Bool,Boolint,Disp,Even,Focu,Mous,Stri,Striint,Text
+StaleCurved 83 15 2 0 8 0 0 0 0 0 0 0 5 0 0 0  Numb=0Numb=0,NumbNumbBool=f,StriintintBool=fBool=f,int,intint
+RayPipka 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+ArmyLunasole 12 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+RequestDildo 412 11 3 0 6 1 0 0 0 2 0 0 9 7 0 0  !,!,!,!,!,!!!=n,!!!=nBool=fBool=fBool=f,!!=n,!!Bool=fBool=f,!Bool,!int,!intBool=fBool=f,-,-,-,Stri
+AlansonTax 50 4 1 0 2 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+AirLaborer 19 7 0 0 3 0 0 0 0 0 0 0 1 0 0 0  int
+NoiselessSpurious 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+BackPear 879 13 9 0 0 12 0 0 0 1 0 0 1 14 0 0  -,-,-,-,Bool,Bool,Bool=t,Even,Even,Even=n,EvenMovi=nBool=f,Mous,StriObjeBool=f,XMLNMovi,int
+StaleFaint 18 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Vect
+ReligionClub 26 1 0 0 0 0 0 0 0 1 0 0 3 0 0 0  !,!,!
+PipkaNotebook 328 6 5 0 16 1 0 0 0 0 0 0 17 2 0 0  !,!Bool=f,-,-,-,-,-,-,Even,Even,Even=n,Even=n,Mous,Mous,Mous,Mous,Mous,Mous,Mous
+SqueamishRay 241 7 1 0 5 2 0 0 0 9 0 0 9 3 0 0  -,-,-,-,-,-,-,Bool,Bool=f,Boolint=0Stri=",int=0,intStri="
+TastelessHalf 13 8 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+JuiceSign 34 16 0 0 9 0 0 0 0 0 0 0 1 0 0 0 normal,position,velocity -
+RecogniseAdmire 422 1 3 0 13 0 0 0 0 12 0 0 13 0 0 0  !,!,!,!,-,-,-,-,-,Dict,int,int,int
+NotebookWing 12 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  -
+BabiesJumbled 32 1 0 0 0 0 0 0 0 1 0 0 3 0 0 0  !,!,!
+ColorCrime 17 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intintintint
+InviteList 369 4 0 0 12 4 0 0 0 0 0 0 8 0 0 0  !,!,!,!,!!BoolBool,-,Arra,intintint*!
+BruiseJumbled 85 85 0 0 2 1 0 0 0 0 0 0 5 0 0 0  -,NumbNumb,NumbNumb!=nNumb=0Numb=0Numb=0,NumbNumbNumbNumb,Vect
+GullibleSense 13 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0  Bool
+AgreeableSense 13 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0  
+AmusePeck 56 2 4 0 0 2 0 0 0 0 0 0 1 1 0 0  -,Stri
+AnusInvite 121 37 0 0 4 0 0 0 0 29 0 0 1 1 0 0  int,intStriStri=nBool=f
+WaterySwanky 37 16 1 0 6 1 0 0 0 0 0 0 1 0 0 0  Striintint
+EntertainingCry 34 7 0 0 9 0 0 0 0 0 0 0 1 0 0 0 rotation intintint
+BerryGullible 22 6 0 0 5 0 0 0 0 0 0 0 1 0 0 0  -
+AmuseWandering 36 24 0 0 6 0 0 0 0 3 0 0 1 0 0 0  !intintintintint
+JuiceAnus 233 1 1 0 0 0 0 0 0 0 0 0 13 0 0 0 x_executeResultatDefinirModeSilence,x_executeResultatEnvoiMessageChat,x_executeResultatEnvoiMessagePrive,x_executeResultatEnvoiMessageTribu,x_executeResultatListerCanalPublique,x_executeResultatQuitterCanalPublique,x_executeResultatRejoindreCanalPublique,x_executeSignalementMessageChat,x_executeSignalementMessagePrive,x_executeSignalementMessageTribu,x_executeSignalementQuitterCanalPublique,x_executeSignalementRejoindreCanalPublique !,!,!,!,!,!,!,!,!,!,!,!,-
+IllustriousScale 106 5 2 0 38 0 0 0 0 0 0 0 1 0 0 0  -
+CuteGate 51 2 1 0 13 0 0 0 0 0 0 0 1 0 0 0  Byte
+PartyList 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+BabiesSubdued 217 6 5 0 0 3 0 0 0 8 0 0 1 6 0 0  !,-,-,Even,Mous,Mous,Mous
+LargeSupply 31 8 0 0 7 0 0 0 0 0 0 0 1 0 0 0 userData -
+StayLight 20 2 1 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+ScintillatingAnus 60 46 0 0 11 0 0 0 0 0 0 0 1 0 0 0 position,userData; Bool
+AdmireEntertaining 18 2 0 0 2 0 0 0 0 0 0 0 1 0 0 0  intStri
+AgonizingCute 50 9 1 0 3 0 0 0 0 0 0 0 4 1 0 0 ecriture,lecture,type -,Byte,Byte,Byte,int=0int=0Stri=n
+CrackerThick 68 5 1 0 4 0 0 0 0 0 0 0 8 0 0 0 get,get,get,getIdSequence,idSequence,lecture !,-,-,-,-,-,-,Byte
+CrashReligion 221 15 0 0 10 0 0 0 0 0 0 0 8 0 0 0  !,!,!,-,-,-,-,-
+StomachComplex 149 678 0 0 2 0 0 0 0 0 0 0 20 1 0 0  !,!,!,!,!,!,!,-,-,-,-,-,-,-,-,Numb,Numb,Numb,Numb=0Numb=0,Numb=0Numb=0,NumbNumb
+FascinatedWhisper 15 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStri
+SqueamishDildo 49 9 0 0 3 0 0 0 0 6 0 0 1 1 0 0 url int,intintStri
+WateryCurved 88 2 3 0 3 1 0 0 0 0 0 0 13 0 0 0 x_changerTempsDecoAFK,x_defAdresseIPServeur,x_defImageLogin,x_defNomJeuModule801,x_envoyerMessageVersServeur,x_initialisationRetour,x_rechargerLuaServeur,x_recupChampsTexteEntree,x_recupChat,x_recupImageDistante !,-,-,Bitm,FuncFunc,Stri,Stri,Stri,Stri,Stri,int,intArra,intint
+SandCrime 273 11 2 0 0 1 0 0 0 17 0 0 1 10 0 0  -,-,-,-,Bool,StriStri,int,intByte,intFunc,intint,intint
+ChickenBabies 37 2 2 0 2 0 0 0 0 0 0 0 1 0 0 0  Byte
+ActionOrder 178 1 7 0 1 1 0 0 0 0 0 0 4 1 0 0  !,-,-,-,-
+WarlikeLeg 32 5 1 0 6 0 0 0 0 0 0 0 1 0 0 0  intintintintintint
+BruiseViolet 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStriStri
+HystericalBathe 14 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  intint
+SupplyWindy 78 1 2 0 0 1 0 0 0 0 0 0 3 1 0 0  -,-,Bool,Mous
+CreatorReligion 115 3 3 0 4 1 0 0 0 0 0 0 6 2 0 0  -,-,-,-,Even,Stri,Stri,StriBool=f
+HealColor 94 4 1 0 7 0 0 0 0 0 0 0 7 0 0 0 get,get,get,lecture !,-,-,-,-,-,Byte
+NoiselessOranges 45 1 1 0 2 0 0 0 0 0 0 0 4 1 0 0 ecriture,lecture -,Byte,Byte,Byte,Stri=nint=0
+SignColor 66 14 0 0 0 0 0 0 0 5 0 0 1 1 0 0  int,intStriFunc=nFunc=n
+BruiseWaiting 13 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  int
+YellOranges 247 81 5 0 18 1 0 0 0 0 0 0 13 0 0 0 Active,Bloqué,Texte *,-,-,-,Bool,Bool,Even,Even,Even,Even,Stri,intintStriFunc*=nint=0Bool=t,uint
+PatIcy 269 2 8 0 3 3 0 0 0 0 0 0 7 5 0 0  -,-,-,-,-,-,Arra,Bool,Bool,Bool,Keyb,Mous
+CrashAlluring 41 1 7 0 1 1 0 0 0 0 0 0 2 1 0 0  -,Disp,Mous
+GapingWandering 493 8 0 0 23 0 0 0 0 1 0 0 13 0 0 0  !,!,!,-,-,-,-,-,-,-,-,-,-
+FascinatedSqueamish 120 15 4 0 8 0 0 0 0 1 0 0 7 0 0 0  -,Bool,Bool=tBool=t,Disp,Even=n,Func=nObje=nBool=f,Stri="int=0
+AirAlluring 77 1 3 0 0 7 0 0 0 0 0 0 1 1 0 0  -,intint
+NoxiousCoal 53 5 1 0 3 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStri
+NoiselessHanging 118 238 1 0 2 0 0 0 0 0 0 0 9 0 0 0  Bool,Byte,ByteStri,Stri,int,int,int,int,intint=-
+SenseSupply 19 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0  StriStriStriStriStriStri
+UnequaledKnot 69 1 1 0 0 3 0 0 0 0 0 0 1 4 0 0  -,Arra,Obje,Obje,Obje
+PlanAdmire 57 5 1 0 4 0 0 0 0 0 0 0 7 0 0 0 ecriture,get,get,getIdSequence,idSequence -,-,-,-,-,Byte,intStriBool
+BagFaithful 109 300 0 0 0 38 0 0 0 0 0 0 1 3 0 0  !,-,-,Stri

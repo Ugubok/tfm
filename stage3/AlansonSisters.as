@@ -1,22 +1,50 @@
 package
 {
-   import flash.utils.getTimer;
+   import flash.utils.ByteArray;
    
-   public class AlansonSisters
+   public class AlansonSisters implements RayChickens
    {
        
       
-      public var noiselessLook:EntertainingCompany;
+      public var cardFaithful:ComplexTouch;
       
-      public var unitMetal:int;
+      public var fascinatedGate:String;
       
-      public var competitionSand:Boolean = false;
-      
-      public function AlansonSisters(param1:EntertainingCompany)
+      public function AlansonSisters(param1:ComplexTouch)
       {
          super();
-         this.noiselessLook = param1;
-         this.unitMetal = getTimer() + EliteProse.lunasoleWaiting;
+         this.cardFaithful = param1;
+      }
+      
+      public function get unequaledJumbled() : String
+      {
+         return LaborerChop.stickScratch(ReligionPear.stupidNotebook);
+      }
+      
+      public function get typeTaille() : int
+      {
+         return HalfPeck.fourKnot;
+      }
+      
+      public function cardToe() : Boolean
+      {
+         return false;
+      }
+      
+      public function yellParty() : int
+      {
+         return ReligionPear.pailHate + this.fascinatedGate.length;
+      }
+      
+      public function lecture(param1:ByteArray) : void
+      {
+         var _loc2_:int = param1.readShort();
+         this.fascinatedGate = param1.readUTFBytes(_loc2_);
+      }
+      
+      public function get scaleFeeble() : int
+      {
+         return LaborerChop.uncleRobin(ScaleIcy.superIcy);
       }
    }
 }

@@ -1,99 +1,65 @@
 package
 {
-   import flash.filters.GlowFilter;
-   import flash.text.AntiAliasType;
-   import flash.text.GridFitType;
-   import flash.text.TextField;
-   import flash.text.TextFormat;
-   
-   public class ChivalrousBabies
+   public class ChivalrousBabies extends KnotPeck
    {
-      
-      public static var chickenArmy:Boolean = true;
        
+      
+      public var gullibleLook:StomachComplex;
+      
+      public var machinePanoramic:StomachComplex;
+      
+      public var kotskyHistorical:StomachComplex;
+      
+      public var lightMilky:StomachComplex;
+      
+      public var requestAnus:Number;
+      
+      public var wickedSuzuka:Number;
+      
+      public var buryOrange:Number;
+      
+      public var crowdedLoaf:Number;
+      
+      public var balvankaCreator:Number;
       
       public function ChivalrousBabies()
       {
+         this.gullibleLook = new StomachComplex();
+         this.machinePanoramic = new StomachComplex();
+         this.kotskyHistorical = new StomachComplex();
+         this.lightMilky = new StomachComplex();
          super();
+         type = TastelessCute.hystericalTremble;
+         this.gullibleLook.warlikeWicked(-ScaleIcy.companyObtainable,ScaleIcy.companyObtainable);
+         this.machinePanoramic.warlikeWicked(ScaleIcy.companyObtainable,ScaleIcy.companyObtainable);
+         this.kotskyHistorical.warlikeWicked(-ScaleIcy.companyObtainable,LaborerChop.superInjure(AirSuzuka.proseHanging));
+         this.lightMilky.warlikeWicked(LaborerChop.superInjure(ScaleIcy.companyObtainable),AirSuzuka.proseHanging);
+         this.requestAnus = LaborerChop.superInjure(AirSuzuka.proseHanging);
+         this.wickedSuzuka = LaborerChop.superInjure(AirSuzuka.proseHanging);
+         this.buryOrange = AirSuzuka.proseHanging;
+         this.crowdedLoaf = AirSuzuka.proseHanging;
+         this.balvankaCreator = LaborerChop.superInjure(ScaleIcy.companyObtainable);
+         orangeRecognise = TaxStomach.airQuirky;
       }
       
-      public static function faithfulCompetition(param1:String, param2:Boolean = true) : String
+      public function healGrate(param1:WarlikeScintillating, param2:WarlikeScintillating, param3:StomachComplex, param4:StomachComplex, param5:StomachComplex, param6:StomachComplex, param7:Number) : void
       {
-         if(!param1)
-         {
-            return PatWhistle.cardList;
-         }
-         param1 = param1.replace(/&lt;/g,GateStupid.grateLoaf(GullibleCommon.icyRequest));
-         if(param2)
-         {
-            param1 = param1.replace(/&amp;/g,GateStupid.grateLoaf(LightSubdued.hatefulPipka));
-         }
-         return param1;
-      }
-      
-      public static function unequaledBurn() : TextField
-      {
-         var _loc2_:TextFormat = null;
-         var _loc1_:TextField = JoyousVolcano.grateSatisfy(GateStupid.grateLoaf(MarkZonked.fragileKuruma)).getChildByName(LightSubdued.requestAdvise) as TextField;
-         if(!ChivalrousBabies.chickenArmy)
-         {
-            _loc2_ = _loc1_.defaultTextFormat;
-            _loc1_.embedFonts = FourSense.competitionNotebook;
-            _loc2_.font = ClubScintillating.alluringLip;
-            _loc1_.defaultTextFormat = _loc2_;
-         }
-         return _loc1_;
-      }
-      
-      public static function lunasoleBlade(param1:String, param2:Boolean = true) : String
-      {
-         if(!param1)
-         {
-            return GateStupid.grateLoaf(PatWhistle.cardList);
-         }
-         if(param2)
-         {
-            param1 = param1.replace(/&/g,GateStupid.grateLoaf(EliteProse.batheCute));
-         }
-         param1 = param1.replace(/</g,GateStupid.grateLoaf(JoyousDelightful.crashInvite));
-         return param1;
-      }
-      
-      public static function cryCreator(param1:String = "", param2:int = 0, param3:int = 20) : CrackerStomach
-      {
-         var _loc4_:CrackerStomach = new CrackerStomach(param1,param2,param3);
-         _loc4_.embedFonts = FourSense.faithfulLarge;
-         var _loc5_:TextFormat = _loc4_.defaultTextFormat;
-         _loc5_.font = GateStupid.grateLoaf(CompetitionSqueamish.statementLunasole);
-         _loc5_[GullibleCommon.stomachOrder] = InviteReligion.hydrantBlade;
-         _loc4_.defaultTextFormat = _loc5_;
-         _loc4_.setTextFormat(_loc5_);
-         _loc4_.filters = new Array(new GlowFilter(GateStupid.waitingStupid(VioletPrepare.obeisantCrib),GateStupid.waitingStupid(FaintHanging.wateryBalvanka),GullibleCommon.partyEntertaining,GullibleCommon.partyEntertaining,GateStupid.waitingStupid(InviteReligion.grateCompany)));
-         _loc4_.antiAliasType = AntiAliasType.ADVANCED;
-         _loc4_.gridFitType = GridFitType.PIXEL;
-         return _loc4_;
-      }
-      
-      public static function partyUnit() : TextField
-      {
-         return JoyousVolcano.grateSatisfy(GullibleCommon.eliteFeeble).getChildByName(LightSubdued.requestAdvise) as TextField;
-      }
-      
-      public static function buryOrange(param1:String, param2:int, param3:Boolean) : String
-      {
-         if(!param1)
-         {
-            return PatWhistle.cardList;
-         }
-         if(param1.length <= param2)
-         {
-            return param1;
-         }
-         if(param3)
-         {
-            return param1.substr(-GateStupid.waitingStupid(FaintHanging.wateryBalvanka) + param2) + CuteConfused.balvankaStatement;
-         }
-         return param1.substr(param2);
+         stomachAmuse = param1;
+         alluringBorrow = param2;
+         this.gullibleLook.illustriousRay(param3);
+         this.machinePanoramic.illustriousRay(param4);
+         this.kotskyHistorical = stomachAmuse.grateMilky(param5);
+         this.lightMilky = alluringBorrow.grateMilky(param6);
+         var _loc8_:Number = -param3.stayProbable + param5.stayProbable;
+         var _loc9_:Number = -param3.hydrantCompetition + param5.hydrantCompetition;
+         this.requestAnus = Math.sqrt(_loc8_ * _loc8_ + _loc9_ * _loc9_);
+         var _loc10_:Number = -param4.stayProbable + param6.stayProbable;
+         var _loc11_:Number = -param4.hydrantCompetition + param6.hydrantCompetition;
+         this.buryOrange = Math.sqrt(_loc10_ * _loc10_ + _loc11_ * _loc11_);
+         this.balvankaCreator = param7;
+         var _loc12_:Number = this.requestAnus + this.balvankaCreator * this.buryOrange;
+         this.wickedSuzuka = _loc12_ - this.balvankaCreator * GapingWandering.scintillatingDistro;
+         this.crowdedLoaf = (-GapingWandering.scintillatingDistro + _loc12_) / this.balvankaCreator;
       }
    }
 }

@@ -1,21 +1,20 @@
 package
 {
-   public class ConfusedGullible
+   import flash.utils.ByteArray;
+   
+   public class ConfusedGullible extends FascinatedBabies
    {
        
       
-      public var lipTasteless:Number;
+      public var fragileTremble:int;
       
-      public var entertainingGrate:TiresomeCry;
+      public var suzukaAmuse:int;
       
-      public var anusPat:Number;
-      
-      public function ConfusedGullible()
+      public function ConfusedGullible(param1:ByteArray)
       {
-         this.lipTasteless = GateStupid.harmonyHanging(CuteConfused.agreeFlower);
-         this.entertainingGrate = new TiresomeCry(VioletPrepare.obeisantCrib,VioletPrepare.obeisantCrib);
-         this.anusPat = CuteConfused.agreeFlower;
-         super();
+         super(param1);
+         this.fragileTremble = param1.readInt();
+         this.suzukaAmuse = param1.readByte();
       }
    }
 }
