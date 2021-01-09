@@ -9,68 +9,68 @@ package
    public class LipKnot extends Sprite
    {
       
-      public static var inviteAir:Array;
+      public static var slipPipka:Array;
       
-      public static var seriousCry:Array;
+      public static var robinSpurious:Array;
        
       
-      public var obeisantAdhesive:int;
+      public var fascinatedRay:int;
       
-      public var waitingColor:InexpensiveGround;
+      public var wingOrder:InexpensiveGround;
       
       public function LipKnot(param1:int)
       {
          super();
-         this.obeisantAdhesive = param1;
-         mouseChildren = DeterminedPrepare.machineSigh;
-         addChild(AgreeableHistorical.religionSign(RecogniseCompetition.mouseDelightful(CoalRay.admireBashful) + param1 + RecogniseTrail.competitionChicken));
-         if(!LipKnot.inviteAir)
+         this.fascinatedRay = param1;
+         mouseChildren = HateFaint.bladeStatement;
+         addChild(AgreeableHistorical.crowdedScale(OrderUnit.probableLip(SlipReligion.babiesSign) + param1 + SlipReligion.yellSeed));
+         if(!LipKnot.slipPipka)
          {
-            LipKnot.inviteAir = new Array(new BevelFilter(CoalRay.actionBorrow,RecogniseCompetition.prepareAgree(HystericalKotsky.borrowTax),16777215,RecogniseCompetition.scaleCrown(CoalRay.orangeOrange),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)));
+            LipKnot.slipPipka = new Array(new BevelFilter(CardBabies.machineOranges,ReligionStore.zonkedReligion,16777215,AdmireUncle.mouseBabies,OrderUnit.apatheticRare(ReligionStore.trailInstruct),CardBabies.machineOranges,CardBabies.machineOranges));
          }
-         filters = LipKnot.inviteAir;
-         FascinatedLip.superApathetic(this,true);
+         filters = LipKnot.slipPipka;
+         FascinatedLip.harmonyMilky(this,true);
          var _loc2_:Sprite = new Sprite();
-         _loc2_.graphics.beginFill(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.scaleCrown(CoalWhisper.dildoPanoramic));
-         _loc2_.graphics.drawRect(HystericalKotsky.notebookChivalrous,AdviseRobin.annoyingSisters,RecogniseCompetition.prepareAgree(AlansonReligion.cribReligion),RecogniseCompetition.prepareAgree(BerryMouse.distroWicked));
+         _loc2_.graphics.beginFill(ReligionStore.trailInstruct,ListIllustrious.proseThick);
+         _loc2_.graphics.drawRect(OrderUnit.apatheticRare(ReligionStore.trailInstruct),CardBabies.crashJuice,LargeComplex.waitingHarmony,PrepareLip.competitionSupply);
          _loc2_.graphics.endFill();
          addChild(_loc2_);
-         var _loc3_:int = RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky);
-         if(param1 == RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+         var _loc3_:int = OrderUnit.apatheticRare(LargeComplex.programAbaft);
+         if(param1 == OrderUnit.apatheticRare(CardBabies.machineOranges))
          {
-            _loc3_ = HystericalKotsky.lunasoleHate;
+            _loc3_ = StupidCoal.chivalrousSatisfy;
          }
-         this.waitingColor = new InexpensiveGround(BerryAgreeable.noiselessGround(DeterminedWarlike.lookKotsky + param1),RecogniseCompetition.prepareAgree(AlansonReligion.cribReligion),RecogniseCompetition.prepareAgree(BerryMouse.distroWicked),new TextFormat(BerryAgreeable.groundKuruma,_loc3_,FascinatedAnus.backInvite,null,null,null,null,null,TextFormatAlign.CENTER));
-         this.waitingColor.textColor = 43690;
-         this.waitingColor.y = AdviseRobin.annoyingSisters;
-         addChild(this.waitingColor);
+         this.wingOrder = new InexpensiveGround(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(BatheKotsky.proseGaping) + param1),OrderUnit.apatheticRare(LargeComplex.waitingHarmony),PrepareLip.competitionSupply,new TextFormat(BerryAgreeable.decayInjure,_loc3_,FascinatedAnus.swankyRare,null,null,null,null,null,TextFormatAlign.CENTER));
+         this.wingOrder.textColor = 43690;
+         this.wingOrder.y = CardBabies.crashJuice;
+         addChild(this.wingOrder);
       }
       
-      public function mouseTremble(param1:Boolean) : void
+      public function anusGround(param1:Boolean) : void
       {
          if(param1)
          {
-            mouseEnabled = DeterminedPrepare.machineSigh;
-            if(!LipKnot.seriousCry)
+            mouseEnabled = HateFaint.bladeStatement;
+            if(!LipKnot.robinSpurious)
             {
-               LipKnot.seriousCry = new Array(new BevelFilter(RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),RecogniseCompetition.prepareAgree(HystericalKotsky.borrowTax),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),16777215,RecogniseCompetition.scaleCrown(CoalRay.orangeOrange),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)));
+               LipKnot.robinSpurious = new Array(new BevelFilter(OrderUnit.apatheticRare(PinusSand.jumbledTiresome),OrderUnit.apatheticRare(ReligionStore.zonkedReligion),ReligionStore.trailInstruct,OrderUnit.apatheticRare(CardBabies.machineOranges),16777215,AdmireUncle.mouseBabies,OrderUnit.apatheticRare(CardBabies.machineOranges)));
             }
-            transform.colorTransform = new ColorTransform(RecogniseCompetition.scaleCrown(CoalWhisper.dildoPanoramic),CoalWhisper.dildoPanoramic,CoalWhisper.dildoPanoramic);
-            filters = LipKnot.seriousCry;
-            this.waitingColor.textColor = FascinatedAnus.orangesPanoramic;
+            transform.colorTransform = new ColorTransform(ListIllustrious.proseThick,ListIllustrious.proseThick,OrderUnit.noiselessGullible(ListIllustrious.proseThick));
+            filters = LipKnot.robinSpurious;
+            this.wingOrder.textColor = FascinatedAnus.buryBalvanka;
          }
          else
          {
-            mouseEnabled = DeterminedPrepare.hatefulComplex;
-            filters = LipKnot.inviteAir;
+            mouseEnabled = HateFaint.proudGround;
+            filters = LipKnot.slipPipka;
             transform.colorTransform = new ColorTransform();
-            if(this.obeisantAdhesive == RecogniseCompetition.prepareAgree(CoalWhisper.burnViolet))
+            if(this.fascinatedRay == OrderUnit.apatheticRare(AdmireUncle.faithfulFlower))
             {
-               this.waitingColor.textColor = FascinatedAnus.annoyingRay;
+               this.wingOrder.textColor = FascinatedAnus.deliverLoaf;
             }
             else
             {
-               this.waitingColor.textColor = FascinatedAnus.backInvite;
+               this.wingOrder.textColor = FascinatedAnus.swankyRare;
             }
          }
       }

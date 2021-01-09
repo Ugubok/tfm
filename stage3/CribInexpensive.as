@@ -13,13 +13,13 @@ package
    public class CribInexpensive
    {
       
-      public static var legKuruma:Sprite;
+      public static var knotFaint:Sprite;
       
-      public static var spuriousWing:Sprite;
+      public static var knotBalvanka:Sprite;
       
-      public static var anusOrange:TextField;
+      public static var actionProse:TextField;
       
-      public static var adaptableHarmony:DisplayObject;
+      public static var fixGround:DisplayObject;
        
       
       public function CribInexpensive()
@@ -27,159 +27,155 @@ package
          super();
       }
       
-      public static function trailGround(param1:Event) : void
+      public static function illustriousCommon(param1:Event) : void
       {
          var _loc2_:int = 0;
          var _loc3_:int = 0;
          var _loc4_:int = 0;
          var _loc5_:int = 0;
-         if(CribInexpensive.legKuruma && CribInexpensive.legKuruma.stage)
+         if(CribInexpensive.knotFaint && CribInexpensive.knotFaint.stage)
          {
-            _loc2_ = AdmireStore.proseWindy[ConfusedPeck.healWindy];
-            _loc3_ = AdmireStore.proseWindy[RecogniseCompetition.mouseDelightful(FrailJuice.wingList)] + RecogniseCompetition.prepareAgree(AlansonReligion.statementScratch);
-            _loc4_ = -CribInexpensive.legKuruma.width + AdmireStore.alluringRecognise;
-            if(_loc4_ < _loc2_)
+            _loc2_ = StalePinus.halfWaiting[CardBabies.taxAgree];
+            _loc3_ = StalePinus.halfWaiting[ListIllustrious.orangeDeadpan] + WaitingCrib.statementDecay;
+            _loc4_ = StalePinus.knotWandering - CribInexpensive.knotFaint.width;
+            if(_loc2_ > _loc4_)
             {
                _loc2_ = _loc4_;
             }
-            _loc5_ = -CribInexpensive.legKuruma.height + AdmireStore.slipCry;
+            _loc5_ = StalePinus.crownWatery - CribInexpensive.knotFaint.height;
             if(_loc3_ > _loc5_)
             {
                _loc3_ = _loc5_;
             }
-            CribInexpensive.legKuruma.x = _loc2_;
-            CribInexpensive.legKuruma.y = _loc3_;
+            CribInexpensive.knotFaint.x = _loc2_;
+            CribInexpensive.knotFaint.y = _loc3_;
          }
       }
       
-      public static function statementFrail(param1:DisplayObject, param2:String, param3:int = -1, param4:int = 0, param5:int = 0) : void
+      public static function feebleProse(param1:DisplayObject, param2:String, param3:int = -1, param4:int = 0, param5:int = 0) : void
       {
-         param1.addEventListener(MouseEvent.MOUSE_OVER,CribInexpensive.alluringCreator);
-         param1.addEventListener(MouseEvent.MOUSE_OUT,CribInexpensive.hatefulStay);
-         var _loc6_:String = param3 + RecogniseCompetition.mouseDelightful(RecogniseTrail.airMark) + param2 + RecogniseCompetition.mouseDelightful(RecogniseTrail.airMark) + param4 + RecogniseTrail.airMark + param5;
+         param1.addEventListener(MouseEvent.MOUSE_OVER,CribInexpensive.scalePipka);
+         param1.addEventListener(MouseEvent.MOUSE_OUT,CribInexpensive.toeAdaptable);
+         var _loc6_:String = param3 + OrderUnit.probableLip(CreatorSupply.legBlade) + param2 + OrderUnit.probableLip(CreatorSupply.legBlade) + param4 + CreatorSupply.legBlade + param5;
          param1.name = _loc6_;
       }
       
-      public static function trailCracker(param1:DisplayObject) : void
-      {
-         param1.removeEventListener(MouseEvent.MOUSE_OVER,CribInexpensive.alluringCreator);
-         param1.removeEventListener(MouseEvent.MOUSE_OUT,CribInexpensive.hatefulStay);
-         if(CribInexpensive.adaptableHarmony == param1)
-         {
-            CribInexpensive.hatefulStay(null);
-         }
-      }
-      
-      public static function hatefulStay(param1:Event) : void
-      {
-         AdmireStore.proseWindy.removeEventListener(RecogniseCompetition.mouseDelightful(BalvankaNotebook.programOrder),CribInexpensive.trailGround);
-         if(CribInexpensive.legKuruma && CribInexpensive.legKuruma.parent)
-         {
-            CribInexpensive.legKuruma.parent.removeChild(CribInexpensive.legKuruma);
-         }
-      }
-      
-      public static function alluringCreator(param1:Event) : void
+      public static function scalePipka(param1:Event) : void
       {
          var _loc2_:DisplayObject = null;
          var _loc7_:Point = null;
          var _loc10_:TextFormat = null;
-         CribInexpensive.adaptableHarmony = param1.currentTarget as DisplayObject;
-         if(!CribInexpensive.legKuruma)
+         CribInexpensive.fixGround = param1.currentTarget as DisplayObject;
+         if(!CribInexpensive.knotFaint)
          {
-            CribInexpensive.legKuruma = new Sprite();
-            CribInexpensive.legKuruma.mouseChildren = DeterminedPrepare.machineSigh;
-            CribInexpensive.legKuruma.mouseEnabled = DeterminedPrepare.machineSigh;
-            CribInexpensive.legKuruma.cacheAsBitmap = DeterminedPrepare.hatefulComplex;
-            CribInexpensive.anusOrange = new TextField();
-            _loc10_ = new TextFormat(BerryAgreeable.groundKuruma,RecogniseCompetition.prepareAgree(DeterminedWarlike.volcanoDelightful),FascinatedAnus.annoyingRay);
-            if(BerryAgreeable.unitBack)
+            CribInexpensive.knotFaint = new Sprite();
+            CribInexpensive.knotFaint.mouseChildren = HateFaint.bladeStatement;
+            CribInexpensive.knotFaint.mouseEnabled = HateFaint.bladeStatement;
+            CribInexpensive.knotFaint.cacheAsBitmap = HateFaint.proudGround;
+            CribInexpensive.actionProse = new TextField();
+            _loc10_ = new TextFormat(BerryAgreeable.decayInjure,OrderUnit.apatheticRare(CardBabies.lunasoleSwanky),FascinatedAnus.deliverLoaf);
+            if(BerryAgreeable.colorGaping)
             {
                _loc10_.align = TextFormatAlign.CENTER;
             }
-            CribInexpensive.anusOrange.defaultTextFormat = _loc10_;
-            CribInexpensive.anusOrange.multiline = DeterminedPrepare.hatefulComplex;
-            CribInexpensive.anusOrange.width = RecogniseCompetition.prepareAgree(BruiseBorrow.listStomach);
-            CribInexpensive.anusOrange.height = BerryMouse.distroWicked;
-            CribInexpensive.anusOrange.autoSize = TextFieldAutoSize.LEFT;
-            CribInexpensive.anusOrange.styleSheet = AdmireStore.proseWindy.agonizingThick;
-            CribInexpensive.legKuruma.addChild(CribInexpensive.anusOrange);
-            if(AdmireStore.whisperLeg.agreeableMighty.laborerFrail)
+            CribInexpensive.actionProse.defaultTextFormat = _loc10_;
+            CribInexpensive.actionProse.multiline = HateFaint.proudGround;
+            CribInexpensive.actionProse.width = OrderUnit.apatheticRare(SlipReligion.abaftAction);
+            CribInexpensive.actionProse.height = OrderUnit.apatheticRare(PrepareLip.competitionSupply);
+            CribInexpensive.actionProse.autoSize = TextFieldAutoSize.LEFT;
+            CribInexpensive.actionProse.styleSheet = StalePinus.halfWaiting.agreeableCrowded;
+            CribInexpensive.knotFaint.addChild(CribInexpensive.actionProse);
+            if(StalePinus.determinedColor.uncleLaborer.hatefulSwanky)
             {
-               CribInexpensive.spuriousWing = AgreeableHistorical.probableCute(AdmireStore.whisperLeg.agreeableMighty.laborerFrail);
-               CribInexpensive.spuriousWing.x = -RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping);
-               CribInexpensive.spuriousWing.y = -RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping);
-               CribInexpensive.legKuruma.addChildAt(CribInexpensive.spuriousWing,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
+               CribInexpensive.knotBalvanka = AgreeableHistorical.admireCute(StalePinus.determinedColor.uncleLaborer.hatefulSwanky);
+               CribInexpensive.knotBalvanka.x = -OrderUnit.apatheticRare(AdmireUncle.crimeCreator);
+               CribInexpensive.knotBalvanka.y = -OrderUnit.apatheticRare(AdmireUncle.crimeCreator);
+               CribInexpensive.knotFaint.addChildAt(CribInexpensive.knotBalvanka,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
             }
          }
          _loc2_ = param1.currentTarget as DisplayObject;
-         var _loc3_:Array = _loc2_.name.split(RecogniseCompetition.mouseDelightful(RecogniseTrail.airMark));
-         var _loc4_:int = _loc3_[HystericalKotsky.notebookChivalrous];
-         CribInexpensive.anusOrange.wordWrap = DeterminedPrepare.machineSigh;
-         CribInexpensive.anusOrange.htmlText = _loc3_[CoalRay.actionBorrow];
-         if(CribInexpensive.anusOrange.width > CoalRay.chickenStore)
+         var _loc3_:Array = _loc2_.name.split(OrderUnit.probableLip(CreatorSupply.legBlade));
+         var _loc4_:int = _loc3_[OrderUnit.apatheticRare(ReligionStore.trailInstruct)];
+         CribInexpensive.actionProse.wordWrap = HateFaint.bladeStatement;
+         CribInexpensive.actionProse.htmlText = _loc3_[CardBabies.machineOranges];
+         if(CribInexpensive.actionProse.width > PrepareLip.seriousBlade)
          {
-            CribInexpensive.anusOrange.wordWrap = DeterminedPrepare.hatefulComplex;
-            CribInexpensive.anusOrange.width = CoalRay.chickenStore;
+            CribInexpensive.actionProse.wordWrap = HateFaint.proudGround;
+            CribInexpensive.actionProse.width = OrderUnit.apatheticRare(PrepareLip.seriousBlade);
          }
-         if(CribInexpensive.spuriousWing)
+         if(CribInexpensive.knotBalvanka)
          {
-            CribInexpensive.spuriousWing.width = HystericalKotsky.lightAnus + CribInexpensive.anusOrange.width;
-            CribInexpensive.spuriousWing.height = CribInexpensive.anusOrange.height + HystericalKotsky.lightAnus;
+            CribInexpensive.knotBalvanka.width = LargeComplex.balvankaZonked + CribInexpensive.actionProse.width;
+            CribInexpensive.knotBalvanka.height = LargeComplex.balvankaZonked + CribInexpensive.actionProse.height;
          }
          else
          {
-            CribInexpensive.legKuruma.graphics.clear();
-            CribInexpensive.legKuruma.graphics.lineStyle(LaborerFeeble.instructBathe);
-            CribInexpensive.legKuruma.graphics.beginFill(2236979);
-            CribInexpensive.legKuruma.graphics.drawRect(-LaborerFeeble.instructBathe,-RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),CribInexpensive.anusOrange.width + DeterminedWarlike.deadpanBalvanka,CribInexpensive.anusOrange.height + AdviseRobin.mouseProbable);
-            CribInexpensive.legKuruma.graphics.endFill();
+            CribInexpensive.knotFaint.graphics.clear();
+            CribInexpensive.knotFaint.graphics.lineStyle(OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
+            CribInexpensive.knotFaint.graphics.beginFill(2236979);
+            CribInexpensive.knotFaint.graphics.drawRect(-PinusSand.jumbledTiresome,-OrderUnit.apatheticRare(PinusSand.jumbledTiresome),CribInexpensive.actionProse.width + SlipReligion.companyHistorical,CribInexpensive.actionProse.height + OrderUnit.apatheticRare(CardBabies.senseCrown));
+            CribInexpensive.knotFaint.graphics.endFill();
          }
-         var _loc5_:int = _loc3_[RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)];
-         var _loc6_:int = _loc3_[DeterminedWarlike.deadpanBalvanka];
-         if(_loc4_ == -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+         var _loc5_:int = _loc3_[OrderUnit.apatheticRare(PinusSand.jumbledTiresome)];
+         var _loc6_:int = _loc3_[SlipReligion.companyHistorical];
+         if(_loc4_ == -OrderUnit.apatheticRare(CardBabies.machineOranges))
          {
-            AdmireStore.proseWindy.addEventListener(RecogniseCompetition.mouseDelightful(BalvankaNotebook.programOrder),CribInexpensive.trailGround);
+            StalePinus.halfWaiting.addEventListener(OrderUnit.probableLip(WaitingCrib.gateFrail),CribInexpensive.illustriousCommon);
          }
-         else if(_loc4_ == -LaborerFeeble.instructBathe)
+         else if(_loc4_ == -OrderUnit.apatheticRare(PinusSand.jumbledTiresome))
          {
-            CribInexpensive.legKuruma.x = _loc3_[LaborerFeeble.instructBathe];
-            CribInexpensive.legKuruma.y = _loc3_[RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka)];
+            CribInexpensive.knotFaint.x = _loc3_[OrderUnit.apatheticRare(PinusSand.jumbledTiresome)];
+            CribInexpensive.knotFaint.y = _loc3_[OrderUnit.apatheticRare(SlipReligion.companyHistorical)];
          }
-         else if(_loc4_ == -DeterminedWarlike.deadpanBalvanka)
+         else if(_loc4_ == -SlipReligion.companyHistorical)
          {
-            CribInexpensive.legKuruma.x = _loc3_[LaborerFeeble.instructBathe] - CribInexpensive.legKuruma.width;
-            CribInexpensive.legKuruma.y = _loc3_[RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka)] - CribInexpensive.legKuruma.height;
+            CribInexpensive.knotFaint.x = _loc3_[OrderUnit.apatheticRare(PinusSand.jumbledTiresome)] - CribInexpensive.knotFaint.width;
+            CribInexpensive.knotFaint.y = _loc3_[SlipReligion.companyHistorical] - CribInexpensive.knotFaint.height;
          }
-         else if(RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous) == _loc4_)
+         else if(_loc4_ == OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining))
          {
-            _loc7_ = _loc2_.localToGlobal(new Point(HystericalKotsky.notebookChivalrous,HystericalKotsky.notebookChivalrous));
-            CribInexpensive.legKuruma.x = _loc7_.x;
-            CribInexpensive.legKuruma.y = _loc7_.y + _loc2_.height;
+            _loc7_ = _loc2_.localToGlobal(new Point(OrderUnit.apatheticRare(ReligionStore.trailInstruct),ReligionStore.trailInstruct));
+            CribInexpensive.knotFaint.x = _loc7_.x;
+            CribInexpensive.knotFaint.y = _loc7_.y + _loc2_.height;
          }
-         else if(_loc4_ == AdviseRobin.obtainablePear)
+         else if(OrderUnit.apatheticRare(VolcanoStay.proudWaiting) == _loc4_)
          {
-            _loc7_ = _loc2_.localToGlobal(new Point(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),HystericalKotsky.notebookChivalrous));
-            CribInexpensive.legKuruma.x = -CribInexpensive.legKuruma.width + _loc7_.x;
-            CribInexpensive.legKuruma.y = _loc7_.y - CribInexpensive.legKuruma.height;
+            _loc7_ = _loc2_.localToGlobal(new Point(ReligionStore.trailInstruct,OrderUnit.apatheticRare(ReligionStore.trailInstruct)));
+            CribInexpensive.knotFaint.x = -CribInexpensive.knotFaint.width + _loc7_.x;
+            CribInexpensive.knotFaint.y = -CribInexpensive.knotFaint.height + _loc7_.y;
          }
-         else if(HystericalKotsky.lightAnus == _loc4_)
+         else if(OrderUnit.apatheticRare(LargeComplex.balvankaZonked) == _loc4_)
          {
-            _loc7_ = _loc2_.localToGlobal(new Point(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)));
-            CribInexpensive.legKuruma.x = _loc7_.x / AdmireStore.lipPlan;
-            CribInexpensive.legKuruma.y = _loc7_.y / AdmireStore.lipPlan - CribInexpensive.legKuruma.height - HystericalKotsky.lightAnus;
+            _loc7_ = _loc2_.localToGlobal(new Point(ReligionStore.trailInstruct,ReligionStore.trailInstruct));
+            CribInexpensive.knotFaint.x = _loc7_.x / StalePinus.subduedSatisfy;
+            CribInexpensive.knotFaint.y = _loc7_.y / StalePinus.subduedSatisfy - CribInexpensive.knotFaint.height - LargeComplex.balvankaZonked;
          }
-         var _loc8_:int = AdmireStore.alluringRecognise - CribInexpensive.legKuruma.width - RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-         if(_loc8_ < CribInexpensive.legKuruma.x)
+         var _loc8_:int = StalePinus.knotWandering - CribInexpensive.knotFaint.width - PinusSand.jumbledTiresome;
+         if(CribInexpensive.knotFaint.x > _loc8_)
          {
-            CribInexpensive.legKuruma.x = _loc8_;
+            CribInexpensive.knotFaint.x = _loc8_;
          }
-         var _loc9_:int = AdmireStore.slipCry - CribInexpensive.legKuruma.height - RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-         if(_loc9_ < CribInexpensive.legKuruma.y)
+         var _loc9_:int = StalePinus.crownWatery - CribInexpensive.knotFaint.height - OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+         if(CribInexpensive.knotFaint.y > _loc9_)
          {
-            CribInexpensive.legKuruma.y = _loc9_;
+            CribInexpensive.knotFaint.y = _loc9_;
          }
-         CrashAlanson.pipkaTax(CribInexpensive.legKuruma,LaborerFeeble.instructBathe);
+         CrashAlanson.yellObtainable(CribInexpensive.knotFaint,PinusSand.jumbledTiresome);
+      }
+      
+      public static function toeAdaptable(param1:Event) : void
+      {
+         StalePinus.halfWaiting.removeEventListener(OrderUnit.probableLip(WaitingCrib.gateFrail),CribInexpensive.illustriousCommon);
+         if(CribInexpensive.knotFaint && CribInexpensive.knotFaint.parent)
+         {
+            CribInexpensive.knotFaint.parent.removeChild(CribInexpensive.confusedBerry(param1:DisplayObject) : void
+      {
+         param1.removeEventListener(MouseEvent.MOUSE_OVER,CribInexpensive.scalePipka);
+         param1.removeEventListener(MouseEvent.MOUSE_OUT,CribInexpensive.toeAdaptable);
+         if(param1 == CribInexpensive.fixGround)
+         {
+            CribInexpensive.toeAdaptable(null);
+         }
       }
    }
 }

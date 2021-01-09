@@ -6,53 +6,53 @@ package
    {
        
       
-      public var berryViolet:BalvankaSpurious;
+      public var feebleMachine:BalvankaSpurious;
       
-      public var juiceComplex:String;
+      public var lookBashful:String;
       
-      public var waterySand:String;
+      public var deliverStomach:String;
       
-      public var chickenMark:String;
+      public var determinedHalf:String;
       
       public function KnotMouse(param1:BalvankaSpurious)
       {
          super();
-         this.berryViolet = param1;
+         this.feebleMachine = param1;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      public function harmonyWhisper() : int
+      public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous) + this.juiceComplex.length + this.waterySand.length + this.chickenMark.length;
+         return BatheKotsky.milkyEntertaining + this.lookBashful.length + this.deliverStomach.length + this.determinedHalf.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.juiceComplex = param1.readUTFBytes(_loc2_);
+         this.lookBashful = param1.readUTFBytes(_loc2_);
          var _loc3_:int = param1.readShort();
-         this.waterySand = param1.readUTFBytes(_loc3_);
+         this.deliverStomach = param1.readUTFBytes(_loc3_);
          var _loc4_:int = param1.readShort();
-         this.chickenMark = param1.readUTFBytes(_loc4_);
+         this.determinedHalf = param1.readUTFBytes(_loc4_);
       }
       
-      public function get prepareHate() : int
+      public function get yellOrder() : int
       {
-         return BalvankaNotebook.senseGrate;
+         return BatheKotsky.crimeUnit;
       }
    }
 }

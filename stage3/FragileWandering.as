@@ -5,106 +5,106 @@ package
    public class FragileWandering
    {
       
-      public static const fixSerious:FragileWandering = new FragileWandering(4310 + -4309,SubduedScale);
+      public static const lightRecognise:FragileWandering = new FragileWandering( 1,SubduedScale);
       
-      public static const alansonPail:FragileWandering = new FragileWandering(1387 + -1385,KotskyWhistle);
+      public static const uncleLunasole:FragileWandering = new FragileWandering( 2,KotskyWhistle);
       
-      public static const hydrantCurved:FragileWandering = new FragileWandering(7685 + -7682,PatRequest);
+      public static const agreeableCry:FragileWandering = new FragileWandering( 3,PatRequest);
       
-      public static const hangingStick:FragileWandering = new FragileWandering(7735 + -7731,RequestBabies);
+      public static const stayMachine:FragileWandering = new FragileWandering( 4,RequestBabies);
       
-      public static const instructZonked:FragileWandering = new FragileWandering(1909 + -1904,RobinCurved);
+      public static const statementHateful:FragileWandering = new FragileWandering( 5,RobinCurved);
       
-      public static const volcanoViolet:FragileWandering = new FragileWandering(1672 + -1666,AlansonBorrow);
+      public static const gateFaint:FragileWandering = new FragileWandering( 6,AlansonBorrow);
       
-      public static const stupidHysterical:FragileWandering = new FragileWandering(1172 + -1165,ActionCrime);
+      public static const orderLabel:FragileWandering = new FragileWandering( 7,ActionCrime);
       
-      public static const babiesHateful:FragileWandering = new FragileWandering(4151 + -4143,BalvankaColor);
+      public static const burnBashful:FragileWandering = new FragileWandering( 8,BalvankaColor);
       
-      public static const unitWhistle:FragileWandering = new FragileWandering(2221 + -2212,BorrowClub);
+      public static const joyousSense:FragileWandering = new FragileWandering( 9,BorrowClub);
       
-      public static const dildoChickens:FragileWandering = new FragileWandering(297 + -287,FragileSwanky);
+      public static const stickHysterical:FragileWandering = new FragileWandering( 10,FragileSwanky);
       
-      public static const hydrantIcy:FragileWandering = new FragileWandering(2358 + -2347,ColorSign);
+      public static const zonkedOrange:FragileWandering = new FragileWandering( 11,ColorSign);
       
-      public static const faintChop:FragileWandering = new FragileWandering(9225 + -9213,AlansonBalvanka);
+      public static const joyousSisters:FragileWandering = new FragileWandering( 12,AlansonBalvanka);
       
-      public static const agreeablePanoramic:FragileWandering = new FragileWandering(4504 + -4491,AlansonChickens);
+      public static const volcanoOrder:FragileWandering = new FragileWandering( 13,OrangesWhistle);
       
-      public static const complexAnus:FragileWandering = new FragileWandering(3294 + -3280,BerryDetermined);
+      public static const complexKnot:FragileWandering = new FragileWandering( 14,ClubBorrow);
       
-      public static const squeamishColor:FragileWandering = new FragileWandering(5257 + -5242,RareInexpensive);
+      public static const groundPail:FragileWandering = new FragileWandering( 15,RareInexpensive);
       
-      public static const warlikeFour:FragileWandering = new FragileWandering(1953 + -1937,BatheTiresome);
+      public static const windyLunasole:FragileWandering = new FragileWandering( 16,TrembleEntertaining);
       
-      public static const inviteStupid:FragileWandering = new FragileWandering(2122 + -2105,HatefulAnnoying);
+      public static const hystericalMark:FragileWandering = new FragileWandering( 17,HatefulAnnoying);
       
-      public static const subduedOrange:FragileWandering = new FragileWandering(5386 + -5368,BalvankaAgreeable);
+      public static const armyHateful:FragileWandering = new FragileWandering( 18,BalvankaAgreeable);
       
-      public static const inexpensiveCreator:FragileWandering = new FragileWandering(8436 + -8417,MouseProbable);
+      public static const faintUnit:FragileWandering = new FragileWandering( 19,MouseProbable);
       
-      public static const milkyScintillating:FragileWandering = new FragileWandering(380 + -360,PinusCrash);
+      public static const mousePipka:FragileWandering = new FragileWandering( 20,PinusCrash);
       
-      public static const sandLeg:FragileWandering = new FragileWandering(9130 + -9109,PrepareRequest);
+      public static const listEntertaining:FragileWandering = new FragileWandering( 21,PrepareRequest);
       
-      public static const swankyObtainable:FragileWandering = new FragileWandering(5282 + -5260,LoafClub);
+      public static const notebookUncle:FragileWandering = new FragileWandering( 22,LoafClub);
       
-      public static const crowdedHalf:FragileWandering = new FragileWandering(7204 + -7181,KotskyStupid);
+      public static const fourVolcano:FragileWandering = new FragileWandering( 23,KotskyStupid);
       
-      public static const burnParty:FragileWandering = new FragileWandering(2524 + -2500,SlipToe);
+      public static const hydrantProgram:FragileWandering = new FragileWandering( 24,SlipToe);
       
-      public static const probableMouse:FragileWandering = new FragileWandering(9778 + -9753,BalvankaCard);
+      public static const planViolet:FragileWandering = new FragileWandering( 25,BalvankaCard);
       
-      public static const faintSubdued:FragileWandering = new FragileWandering(5970 + -5944,YellDetermined);
+      public static const colorBurn:FragileWandering = new FragileWandering( 26,YellDetermined);
       
-      public static const requestFrail:FragileWandering = new FragileWandering(3695 + -3643,SlipProbable);
+      public static const unequaledLight:FragileWandering = new FragileWandering( 52,SlipProbable);
       
-      public static const unequaledGround:Dictionary = new Dictionary();
+      public static const labelStupid:Dictionary = new Dictionary();
       
       {
-         FragileWandering.unequaledGround[FragileWandering.fixSerious.lipAdmire] = FragileWandering.fixSerious;
-         FragileWandering.unequaledGround[FragileWandering.alansonPail.lipAdmire] = FragileWandering.alansonPail;
-         FragileWandering.unequaledGround[FragileWandering.hydrantCurved.lipAdmire] = FragileWandering.hydrantCurved;
-         FragileWandering.unequaledGround[FragileWandering.hangingStick.lipAdmire] = FragileWandering.hangingStick;
-         FragileWandering.unequaledGround[FragileWandering.instructZonked.lipAdmire] = FragileWandering.instructZonked;
-         FragileWandering.unequaledGround[FragileWandering.volcanoViolet.lipAdmire] = FragileWandering.volcanoViolet;
-         FragileWandering.unequaledGround[FragileWandering.stupidHysterical.lipAdmire] = FragileWandering.stupidHysterical;
-         FragileWandering.unequaledGround[FragileWandering.babiesHateful.lipAdmire] = FragileWandering.babiesHateful;
-         FragileWandering.unequaledGround[FragileWandering.unitWhistle.lipAdmire] = FragileWandering.unitWhistle;
-         FragileWandering.unequaledGround[FragileWandering.dildoChickens.lipAdmire] = FragileWandering.dildoChickens;
-         FragileWandering.unequaledGround[FragileWandering.hydrantIcy.lipAdmire] = FragileWandering.hydrantIcy;
-         FragileWandering.unequaledGround[FragileWandering.faintChop.lipAdmire] = FragileWandering.faintChop;
-         FragileWandering.unequaledGround[FragileWandering.agreeablePanoramic.lipAdmire] = FragileWandering.agreeablePanoramic;
-         FragileWandering.unequaledGround[FragileWandering.complexAnus.lipAdmire] = FragileWandering.complexAnus;
-         FragileWandering.unequaledGround[FragileWandering.squeamishColor.lipAdmire] = FragileWandering.squeamishColor;
-         FragileWandering.unequaledGround[FragileWandering.warlikeFour.lipAdmire] = FragileWandering.warlikeFour;
-         FragileWandering.unequaledGround[FragileWandering.inviteStupid.lipAdmire] = FragileWandering.inviteStupid;
-         FragileWandering.unequaledGround[FragileWandering.subduedOrange.lipAdmire] = FragileWandering.subduedOrange;
-         FragileWandering.unequaledGround[FragileWandering.inexpensiveCreator.lipAdmire] = FragileWandering.inexpensiveCreator;
-         FragileWandering.unequaledGround[FragileWandering.milkyScintillating.lipAdmire] = FragileWandering.milkyScintillating;
-         FragileWandering.unequaledGround[FragileWandering.sandLeg.lipAdmire] = FragileWandering.sandLeg;
-         FragileWandering.unequaledGround[FragileWandering.swankyObtainable.lipAdmire] = FragileWandering.swankyObtainable;
-         FragileWandering.unequaledGround[FragileWandering.crowdedHalf.lipAdmire] = FragileWandering.crowdedHalf;
-         FragileWandering.unequaledGround[FragileWandering.burnParty.lipAdmire] = FragileWandering.burnParty;
-         FragileWandering.unequaledGround[FragileWandering.probableMouse.lipAdmire] = FragileWandering.probableMouse;
-         FragileWandering.unequaledGround[FragileWandering.faintSubdued.lipAdmire] = FragileWandering.faintSubdued;
-         FragileWandering.unequaledGround[FragileWandering.requestFrail.lipAdmire] = FragileWandering.requestFrail;
+         FragileWandering.labelStupid[FragileWandering.lightRecognise.knifeStick] = FragileWandering.lightRecognise;
+         FragileWandering.labelStupid[FragileWandering.uncleLunasole.knifeStick] = FragileWandering.uncleLunasole;
+         FragileWandering.labelStupid[FragileWandering.agreeableCry.knifeStick] = FragileWandering.agreeableCry;
+         FragileWandering.labelStupid[FragileWandering.stayMachine.knifeStick] = FragileWandering.stayMachine;
+         FragileWandering.labelStupid[FragileWandering.statementHateful.knifeStick] = FragileWandering.statementHateful;
+         FragileWandering.labelStupid[FragileWandering.gateFaint.knifeStick] = FragileWandering.gateFaint;
+         FragileWandering.labelStupid[FragileWandering.orderLabel.knifeStick] = FragileWandering.orderLabel;
+         FragileWandering.labelStupid[FragileWandering.burnBashful.knifeStick] = FragileWandering.burnBashful;
+         FragileWandering.labelStupid[FragileWandering.joyousSense.knifeStick] = FragileWandering.joyousSense;
+         FragileWandering.labelStupid[FragileWandering.stickHysterical.knifeStick] = FragileWandering.stickHysterical;
+         FragileWandering.labelStupid[FragileWandering.zonkedOrange.knifeStick] = FragileWandering.zonkedOrange;
+         FragileWandering.labelStupid[FragileWandering.joyousSisters.knifeStick] = FragileWandering.joyousSisters;
+         FragileWandering.labelStupid[FragileWandering.volcanoOrder.knifeStick] = FragileWandering.volcanoOrder;
+         FragileWandering.labelStupid[FragileWandering.complexKnot.knifeStick] = FragileWandering.complexKnot;
+         FragileWandering.labelStupid[FragileWandering.groundPail.knifeStick] = FragileWandering.groundPail;
+         FragileWandering.labelStupid[FragileWandering.windyLunasole.knifeStick] = FragileWandering.windyLunasole;
+         FragileWandering.labelStupid[FragileWandering.hystericalMark.knifeStick] = FragileWandering.hystericalMark;
+         FragileWandering.labelStupid[FragileWandering.armyHateful.knifeStick] = FragileWandering.armyHateful;
+         FragileWandering.labelStupid[FragileWandering.faintUnit.knifeStick] = FragileWandering.faintUnit;
+         FragileWandering.labelStupid[FragileWandering.mousePipka.knifeStick] = FragileWandering.mousePipka;
+         FragileWandering.labelStupid[FragileWandering.listEntertaining.knifeStick] = FragileWandering.listEntertaining;
+         FragileWandering.labelStupid[FragileWandering.notebookUncle.knifeStick] = FragileWandering.notebookUncle;
+         FragileWandering.labelStupid[FragileWandering.fourVolcano.knifeStick] = FragileWandering.fourVolcano;
+         FragileWandering.labelStupid[FragileWandering.hydrantProgram.knifeStick] = FragileWandering.hydrantProgram;
+         FragileWandering.labelStupid[FragileWandering.planViolet.knifeStick] = FragileWandering.planViolet;
+         FragileWandering.labelStupid[FragileWandering.colorBurn.knifeStick] = FragileWandering.colorBurn;
+         FragileWandering.labelStupid[FragileWandering.unequaledLight.knifeStick] = FragileWandering.unequaledLight;
       }
       
-      public var lipAdmire:int;
+      public var knifeStick:int;
       
-      public var curvedAlluring:Class;
+      public var confusedProbable:Class;
       
       public function FragileWandering(param1:int, param2:Class)
       {
          super();
-         this.lipAdmire = param1;
-         this.curvedAlluring = param2;
+         this.knifeStick = param1;
+         this.confusedProbable = param2;
       }
       
-      public static function tastelessBag(param1:int) : FragileWandering
+      public static function dildoAbaft(param1:int) : FragileWandering
       {
-         return FragileWandering.unequaledGround[param1];
+         return FragileWandering.labelStupid[param1];
       }
    }
 }

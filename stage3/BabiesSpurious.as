@@ -6,10 +6,10 @@ package
       
       public function BabiesSpurious(param1:int, param2:int, param3:int)
       {
-         super(AdviseRobin.satisfyGaping,MetalDetermined.hatefulSqueamish);
-         staySigh.writeInt(param1);
-         staySigh.writeShort(param2);
-         staySigh.writeShort(param3);
+         super(PrepareLip.competitionSupply,PanoramicProbable.bladeProse);
+         lamentableSpurious.writeShort(param1);
+         lamentableSpurious.writeByte(param2);
+         lamentableSpurious.writeShort(param3);
       }
    }
 }

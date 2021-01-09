@@ -6,11 +6,11 @@ package
       
       public function PinusSubdued(param1:int, param2:Boolean, param3:int, param4:int)
       {
-         super(LaborerFeeble.knifeParty,RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
-         staySigh.writeShort(param1);
-         staySigh.writeByte(!!param2?int(CoalRay.actionBorrow):int(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)));
-         staySigh.writeShort(param3);
-         staySigh.writeShort(param4);
+         super(CardBabies.staleJumbled,OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
+         lamentableSpurious.writeShort(param1);
+         lamentableSpurious.writeByte(!!param2?int(CardBabies.machineOranges):int(ReligionStore.trailInstruct));
+         lamentableSpurious.writeShort(param3);
+         lamentableSpurious.writeShort(param4);
       }
    }
 }

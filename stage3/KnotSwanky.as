@@ -4,146 +4,144 @@ package
    {
        
       
-      public var trembleDeadpan:Number;
+      public var crowdedFragile:Number;
       
-      public var zonkedJuice:Number;
+      public var milkySupply:Number;
       
       public function KnotSwanky(param1:Number = 0, param2:Number = 0)
       {
          super();
-         this.zonkedJuice = param1;
-         this.trembleDeadpan = param2;
+         this.crowdedFragile = param2;
+         this.milkySupply = param1;
       }
       
-      public static function prepareScale(param1:Number, param2:Number) : KnotSwanky
+      public static function gateVolcano(param1:Number, param2:Number) : KnotSwanky
       {
          return new KnotSwanky(param1,param2);
       }
       
-      public function annoyingCute(param1:Number) : void
+      public function chickenCommon(param1:KnotSwanky) : void
       {
-         var _loc2_:Number = this.zonkedJuice;
-         this.zonkedJuice = param1 * this.trembleDeadpan;
-         this.trembleDeadpan = -param1 * _loc2_;
+         this.crowdedFragile = param1.crowdedFragile;
+         this.milkySupply = param1.milkySupply;
       }
       
-      public function mouseDeadpan() : void
+      public function crowdedGaping(param1:KnotSwanky) : void
       {
-         this.zonkedJuice = RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
-         this.trembleDeadpan = GroundFour.flowerHanging;
+         this.crowdedFragile = this.crowdedFragile < param1.crowdedFragile?Number(this.crowdedFragile):Number(param1.crowdedFragile);
+         this.milkySupply = this.milkySupply < param1.milkySupply?Number(this.milkySupply):Number(param1.milkySupply);
       }
       
-      public function loafViolet() : Boolean
+      public function gapingTrail(param1:KnotSwanky) : void
       {
-         return RareAlanson.lamentableLarge(this.zonkedJuice) && RareAlanson.lamentableLarge(this.trembleDeadpan);
+         this.milkySupply = this.milkySupply - param1.milkySupply;
+         this.crowdedFragile = this.crowdedFragile - param1.crowdedFragile;
       }
       
-      public function apatheticAction(param1:Number) : void
+      public function deliverStay(param1:Number = 0, param2:Number = 0) : void
       {
-         this.zonkedJuice = this.zonkedJuice * param1;
-         this.trembleDeadpan = this.trembleDeadpan * param1;
+         this.crowdedFragile = param2;
+         this.milkySupply = param1;
       }
       
-      public function illustriousProud(param1:YellProse) : void
+      public function distroDecay(param1:ToeCrime) : void
       {
-         var _loc2_:Number = this.zonkedJuice;
-         this.zonkedJuice = param1.programHalf.zonkedJuice * _loc2_ + param1.adviseHistorical.zonkedJuice * this.trembleDeadpan;
-         this.trembleDeadpan = param1.programHalf.trembleDeadpan * _loc2_ + param1.adviseHistorical.trembleDeadpan * this.trembleDeadpan;
+         var _loc2_:Number = SlipKotsky.unequaledLoaf(this,param1.crowdedRobin);
+         this.crowdedFragile = SlipKotsky.unequaledLoaf(this,param1.trailAdaptable);
+         this.milkySupply = _loc2_;
       }
       
-      public function orderHydrant(param1:KnotSwanky) : void
+      public function deliverSeed() : void
       {
-         this.trembleDeadpan = param1.trembleDeadpan;
-         this.zonkedJuice = param1.zonkedJuice;
+         if(this.crowdedFragile < OrderUnit.apatheticRare(ReligionStore.trailInstruct))
+         {
+            this.crowdedFragile = -this.crowdedFragile;
+         }
+         if(ReligionStore.trailInstruct > this.wanderingSupply = -this.milkySupply;
+         }
       }
       
-      public function pearMilky() : Number
+      public function bagStay() : Number
       {
-         return Math.sqrt(this.zonkedJuice * this.zonkedJuice + this.trembleDeadpan * this.trembleDeadpan);
+         return this.milkySupply * this.milkySupply + this.crowdedFragile * this.crowdedFragile;
       }
       
-      public function bruiseDecay() : Number
+      public function groundDeadpan() : Boolean
       {
-         var _loc1_:Number = Math.sqrt(this.zonkedJuice * this.zonkedJuice + this.trembleDeadpan * this.trembleDeadpan);
+         return SlipKotsky.lipSand(this.milkySupply) && SlipKotsky.lipSand(this.crowdedFragile);
+      }
+      
+      public function labelAnnoying(param1:Number) : void
+      {
+         var _loc2_:Number = this.milkySupply;
+         this.milkySupply = -param1 * this.crowdedFragile;
+         this.crowdedFragile = _loc2_ * param1;
+      }
+      
+      public function hystericalAlanson(param1:Number) : void
+      {
+         this.milkySupply = this.milkySupply * param1;
+         this.crowdedFragile = this.crowdedFragile * param1;
+      }
+      
+      public function spuriousWandering() : Number
+      {
+         return Math.sqrt(this.milkySupply * this.milkySupply + this.crowdedFragile * this.crowdedFragile);
+      }
+      
+      public function supplyAgonizing() : KnotSwanky
+      {
+         return new KnotSwanky(this.milkySupply,this.crowdedFragile);
+      }
+      
+      public function alansonAlanson(param1:KnotSwanky) : void
+      {
+         this.crowdedFragile = this.crowdedFragile + param1.crowdedFragile;
+         this.milkySupply = this.milkySupply + param1.milkySupply;
+      }
+      
+      public function robinChivalrous() : KnotSwanky
+      {
+         return new KnotSwanky(-this.milkySupply,-this.crowdedFragile);
+      }
+      
+      public function taxHate() : Number
+      {
+         var _loc1_:Number = Math.sqrt(this.milkySupply * this.milkySupply + this.crowdedFragile * this.crowdedFragile);
          if(_loc1_ < Number.MIN_VALUE)
          {
-            return RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
+            return LargeComplex.thickCrowded;
          }
-         var _loc2_:Number = AdviseRobin.hangingUncle / _loc1_;
-         this.zonkedJuice = this.zonkedJuice * _loc2_;
-         this.trembleDeadpan = this.trembleDeadpan * _loc2_;
+         var _loc2_:Number = CardBabies.joyousFascinated / _loc1_;
+         this.milkySupply = this.milkySupply * _loc2_;
+         this.crowdedFragile = this.crowdedFragile * _loc2_;
          return _loc1_;
       }
       
-      public function yellDistro(param1:KnotSwanky) : void
+      public function lunasoleFix(param1:Number) : void
       {
-         this.zonkedJuice = this.zonkedJuice < param1.zonkedJuice?Number(this.zonkedJuice):Number(param1.zonkedJuice);
-         this.trembleDeadpan = this.trembleDeadpan < param1.trembleDeadpan?Number(this.trembleDeadpan):Number(param1.trembleDeadpan);
+         var _loc2_:Number = this.milkySupply;
+         this.milkySupply = this.crowdedFragile * param1;
+         this.crowdedFragile = -param1 * _loc2_;
       }
       
-      public function hangingMouse(param1:KnotSwanky) : void
+      public function creatorHanging(param1:ToeCrime) : void
       {
-         this.trembleDeadpan = this.trembleDeadpan - param1.trembleDeadpan;
-         this.zonkedJuice = this.zonkedJuice - param1.zonkedJuice;
+         var _loc2_:Number = this.milkySupply;
+         this.milkySupply = param1.joyousLaborer * _loc2_ + param1.touchChop * this.crowdedFragile;
+         this.crowdedFragile = param1.abaftMachine * _loc2_ + param1.alluringAlluring * this.crowdedFragile;
       }
       
-      public function proudBorrow(param1:Number) : void
+      public function uncleBashful() : void
       {
-         var _loc2_:Number = this.zonkedJuice;
-         this.zonkedJuice = -param1 * this.trembleDeadpan;
-         this.trembleDeadpan = _loc2_ * param1;
+         this.crowdedFragile = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
+         this.milkySupply = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
       }
       
-      public function bashfulPrepare(param1:Number = 0, param2:Number = 0) : void
+      public function alansonFlower(param1:KnotSwanky) : void
       {
-         this.zonkedJuice = param1;
-         this.trembleDeadpan = param2;
-      }
-      
-      public function uncleQuirky() : KnotSwanky
-      {
-         return new KnotSwanky(this.zonkedJuice,this.trembleDeadpan);
-      }
-      
-      public function icyFrail() : Number
-      {
-         return this.zonkedJuice * this.zonkedJuice + this.trembleDeadpan * this.trembleDeadpan;
-      }
-      
-      public function religionLook(param1:KnotSwanky) : void
-      {
-         this.zonkedJuice = this.zonkedJuice + param1.zonkedJuice;
-         this.trembleDeadpan = this.trembleDeadpan + param1.trembleDeadpan;
-      }
-      
-      public function swankyOrange() : KnotSwanky
-      {
-         return new KnotSwanky(-this.zonkedJuice,-this.trembleDeadpan);
-      }
-      
-      public function noiselessMachine() : void
-      {
-         if(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) > this.trembleDeadpan)
-         {
-            this.trembleDeadpan = -this.trembleDeadpan;
-         }
-         if(this.zonkedJuice < RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
-         {
-            this.zonkedJuice = -this.zonkedJuice;
-         }
-      }
-      
-      public function illustriousStale(param1:YellProse) : void
-      {
-         var _loc2_:Number = RareAlanson.slipHate(this,param1.programHalf);
-         this.trembleDeadpan = RareAlanson.slipHate(this,param1.adviseHistorical);
-         this.zonkedJuice = _loc2_;
-      }
-      
-      public function frailPail(param1:KnotSwanky) : void
-      {
-         this.zonkedJuice = this.zonkedJuice > param1.zonkedJuice?Number(this.zonkedJuice):Number(param1.zonkedJuice);
-         this.trembleDeadpan = this.trembleDeadpan > param1.trembleDeadpan?Number(this.trembleDeadpan):Number(param1.trembleDeadpan);
+         this.milkySupply = this.milkySupply > param1.milkySupply?Number(this.milkySupply):Number(param1.milkySupply);
+         this.crowdedFragile = this.crowdedFragile > param1.crowdedFragile?Number(this.crowdedFragile):Number(param1.crowdedFragile);
       }
    }
 }

@@ -6,29 +6,29 @@ package
    {
        
       
-      public var proudKotsky:Vector.<int>;
+      public var machineTasteless:Vector.<int>;
       
-      public var confusedOranges:int;
+      public var crownPinus:int;
       
-      public var sistersTrail:int;
+      public var proudChickens:int;
       
-      public var chickenObtainable:int;
+      public var chickensLoaf:int;
       
       public function AgreeableBerry(param1:ByteArray)
       {
          super(param1);
          var _loc2_:int = param1.readByte();
-         this.proudKotsky = new Vector.<int>(_loc2_ * RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),true);
-         var _loc3_:int = HystericalKotsky.notebookChivalrous;
+         this.machineTasteless = new Vector.<int>(_loc2_ * PinusSand.jumbledTiresome,true);
+         var _loc3_:int = ReligionStore.trailInstruct;
          while(_loc3_ < _loc2_)
          {
-            this.proudKotsky[_loc3_ * LaborerFeeble.instructBathe] = param1.readByte();
-            this.proudKotsky[_loc3_ * LaborerFeeble.instructBathe + CoalRay.actionBorrow] = param1.readInt();
+            this.machineTasteless[_loc3_ * OrderUnit.apatheticRare(PinusSand.jumbledTiresome)] = param1.readByte();
+            this.machineTasteless[_loc3_ * PinusSand.jumbledTiresome + CardBabies.machineOranges] = param1.readInt();
             _loc3_++;
          }
-         this.confusedOranges = param1.readByte();
-         this.sistersTrail = param1.readByte();
-         this.chickenObtainable = param1.readByte();
+         this.crownPinus = param1.readByte();
+         this.proudChickens = param1.readByte();
+         this.chickensLoaf = param1.readByte();
       }
    }
 }

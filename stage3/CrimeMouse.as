@@ -7,17 +7,17 @@ package
    public class CrimeMouse
    {
       
-      public static const lipSpurious:int = 3;
+      public static const agonizingLeg:int =  3;
       
-      public static var confusedBerry:Dictionary = new Dictionary();
+      public static var swankyBack:Dictionary = new Dictionary();
       
-      public static var mightyOranges:Vector.<AdaptableSubdued> = new Vector.<AdaptableSubdued>();
+      public static var bagPinus:Vector.<AdaptableSubdued> = new Vector.<AdaptableSubdued>();
       
-      public static var abaftCrime:Vector.<int> = new Vector.<int>();
+      public static var eliteAgonizing:Vector.<int> = new Vector.<int>();
       
-      public static var yellDeadpan:Dictionary;
+      public static var kotskySupply:Dictionary;
       
-      public static var gapingSeed:Boolean = true;
+      public static var loafSigh:Boolean = true;
        
       
       public function CrimeMouse()
@@ -25,221 +25,221 @@ package
          super();
       }
       
-      public static function milkyBack(param1:int, param2:int, param3:int, param4:Boolean, param5:Boolean, param6:Boolean, param7:Boolean) : void
+      public static function bruiseGate(param1:AdaptableSubdued, param2:AdaptableSubdued) : Number
       {
-         var _loc8_:AdaptableSubdued = CrimeMouse.confusedBerry[param1];
-         if(!_loc8_)
+         var _loc3_:Boolean = CrimeMouse.kotskySupply[param1.planHalf];
+         var _loc4_:Boolean = CrimeMouse.kotskySupply[param2.planHalf];
+         if(_loc3_ && !_loc4_)
          {
-            _loc8_ = new AdaptableSubdued(param1,HystericalKotsky.notebookChivalrous,param3,param4,param5,param6,param7);
-            CrimeMouse.confusedBerry[param1] = _loc8_;
-            CrimeMouse.mightyOranges.push(_loc8_);
-            CrimeMouse.gapingSeed = DeterminedPrepare.hatefulComplex;
+            return -CardBabies.machineOranges;
          }
-         _loc8_.admireWatery = CrimeMouse.confusedBerry[param1].admireWatery + param2;
+         if(!_loc3_ && _loc4_)
+         {
+            return CardBabies.machineOranges;
+         }
+         if(param1.windyLarge && !param2.windyLarge)
+         {
+            return -OrderUnit.apatheticRare(CardBabies.machineOranges);
+         }
+         if(!param1.windyLarge && param2.windyLarge)
+         {
+            return CardBabies.machineOranges;
+         }
+         if(param1.zonkedFaint != param2.zonkedFaint)
+         {
+            return param2.zonkedFaint - param1.zonkedFaint;
+         }
+         return param1.planHalf - param2.planHalf;
       }
       
-      public static function jumbledBlade(param1:int, param2:Boolean = false) : AlansonSign
+      public static function cryStale(param1:int, param2:Boolean = false) : MouseStupid
       {
-         var _loc3_:AdaptableSubdued = AdaptableSubdued.obtainableClub(param1);
+         var _loc3_:AdaptableSubdued = AdaptableSubdued.knotBruise(param1);
          if(!_loc3_)
          {
             return null;
          }
-         return _loc3_.gapingCrib(param2);
+         return _loc3_.signStore(param2);
       }
       
-      public static function squeamishCompetition(param1:int, param2:int) : void
+      public static function abaftKnot(param1:int) : Boolean
       {
-         if(CrimeMouse.confusedBerry[param1])
-         {
-            CrimeMouse.confusedBerry[param1].admireWatery = param2;
-            CrimeMouse.dildoWindy(param1,param2);
-         }
-      }
-      
-      public static function uncleYell(param1:AdaptableSubdued, param2:AdaptableSubdued) : Number
-      {
-         var _loc3_:Boolean = CrimeMouse.yellDeadpan[param1.entertainingHateful];
-         var _loc4_:Boolean = CrimeMouse.yellDeadpan[param2.entertainingHateful];
-         if(_loc3_ && !_loc4_)
-         {
-            return -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         }
-         if(!_loc3_ && _loc4_)
-         {
-            return CoalRay.actionBorrow;
-         }
-         if(param1.legColor && !param2.legColor)
-         {
-            return -CoalRay.actionBorrow;
-         }
-         if(!param1.legColor && param2.legColor)
-         {
-            return RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         }
-         if(param1.hatefulWhistle != param2.hatefulWhistle)
-         {
-            return param2.hatefulWhistle - param1.hatefulWhistle;
-         }
-         return param1.entertainingHateful - param2.entertainingHateful;
-      }
-      
-      public static function hydrantPail(param1:String) : void
-      {
-         RareFeeble.hateWicked.stickVolcano(new CardRare(param1));
-      }
-      
-      public static function grateOranges(param1:int) : Boolean
-      {
-         if(!CrimeMouse.confusedBerry[param1] || !CrimeMouse.confusedBerry[param1].notebookPear)
-         {
-            if(CrimeMouse.abaftCrime.indexOf(param1) != -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
-            {
-               CrimeMouse.abaftCrime.splice(CrimeMouse.abaftCrime.indexOf(param1),CoalRay.actionBorrow);
-            }
-            return false;
-         }
-         var _loc2_:Boolean = CrimeMouse.crackerWatery(param1);
-         if(!_loc2_ && CrimeMouse.abaftCrime.length >= CrimeMouse.lipSpurious)
+         if(!CrimeMouse.swankyBack[param1] || !CrimeMouse.swankyBack[param1].loafChop)
          {
             return false;
          }
-         if(!_loc2_)
-         {
-            CrimeMouse.abaftCrime.push(param1);
-         }
-         else
-         {
-            CrimeMouse.abaftCrime.splice(CrimeMouse.abaftCrime.indexOf(param1),CoalRay.actionBorrow);
-         }
-         return !_loc2_;
+         return CrimeMouse.agonizingLeg > CrimeMouse.eliteAgonizing.length;
       }
       
-      public static function chickenDistro() : void
+      public static function kurumaCompetition(param1:int, param2:int, param3:int, param4:Boolean, param5:Boolean, param6:Boolean, param7:Boolean) : void
       {
-         CrimeMouse.yellDeadpan = new Dictionary();
-         CrimeMouse.yellDeadpan[AnusKnot.unitElite.lipAdmire] = DeterminedPrepare.hatefulComplex;
-         CrimeMouse.yellDeadpan[AnusKnot.preparePat.lipAdmire] = DeterminedPrepare.hatefulComplex;
-         CrimeMouse.yellDeadpan[AnusKnot.cryCrash.lipAdmire] = DeterminedPrepare.hatefulComplex;
-         CrimeMouse.yellDeadpan[AnusKnot.companyBury.lipAdmire] = DeterminedPrepare.hatefulComplex;
-         CrimeMouse.yellDeadpan[AnusKnot.spuriousCrib.lipAdmire] = DeterminedPrepare.hatefulComplex;
-         CrimeMouse.yellDeadpan[AnusKnot.borrowConfused.lipAdmire] = DeterminedPrepare.hatefulComplex;
-         CrimeMouse.yellDeadpan[AnusKnot.tiresomeAgonizing.lipAdmire] = DeterminedPrepare.hatefulComplex;
-         CrimeMouse.yellDeadpan[AnusKnot.crackerProgram.lipAdmire] = DeterminedPrepare.hatefulComplex;
-         CrimeMouse.yellDeadpan[AnusKnot.lookHydrant.lipAdmire] = DeterminedPrepare.hatefulComplex;
-         CrimeMouse.yellDeadpan[AnusKnot.taxFragile.lipAdmire] = DeterminedPrepare.hatefulComplex;
-         var _loc1_:int = AdviseRobin.windyRobin;
-         while(_loc1_ <= RecogniseCompetition.prepareAgree(CoalWhisper.unequaledDildo))
+         var _loc8_:AdaptableSubdued = CrimeMouse.swankyBack[param1];
+         if(!_loc8_)
          {
-            CrimeMouse.yellDeadpan[_loc1_] = DeterminedPrepare.hatefulComplex;
+            _loc8_ = new AdaptableSubdued(param1,ReligionStore.trailInstruct,param3,param4,param5,param6,param7);
+            CrimeMouse.swankyBack[param1] = _loc8_;
+            CrimeMouse.bagPinus.push(_loc8_);
+            CrimeMouse.loafSigh = HateFaint.proudGround;
+         }
+         _loc8_.seriousSuper = CrimeMouse.swankyBack[param1].seriousSuper + param2;
+      }
+      
+      public static function stupidFeeble(param1:int) : Boolean
+      {
+         return CrimeMouse.eliteAgonizing.indexOf(param1) != -OrderUnit.apatheticRare(CardBabies.machineOranges);
+      }
+      
+      public static function commonInvite(param1:int, param2:Boolean = false, param3:Boolean = false) : MouseStupid
+      {
+         var _loc4_:AdaptableSubdued = AdaptableSubdued.knotBruise(param1);
+         if(!_loc4_)
+         {
+            return MouseStupid.admireCute(param1,OrderUnit.apatheticRare(CardBabies.machineOranges),param2,param3);
+         }
+         return _loc4_.admireCute(param2,param3);
+      }
+      
+      public static function waitingChickens() : void
+      {
+         CrimeMouse.kotskySupply = new Dictionary();
+         CrimeMouse.kotskySupply[AnusKnot.peckBlade.knifeStick] = HateFaint.proudGround;
+         CrimeMouse.kotskySupply[AnusKnot.thickFaint.knifeStick] = HateFaint.proudGround;
+         CrimeMouse.kotskySupply[AnusKnot.fragilePipka.knifeStick] = HateFaint.proudGround;
+         CrimeMouse.kotskySupply[AnusKnot.probableHateful.knifeStick] = HateFaint.proudGround;
+         CrimeMouse.kotskySupply[AnusKnot.competitionCrowded.knifeStick] = HateFaint.proudGround;
+         CrimeMouse.kotskySupply[AnusKnot.squeamishAnnoying.knifeStick] = HateFaint.proudGround;
+         CrimeMouse.kotskySupply[AnusKnot.trailStomach.knifeStick] = HateFaint.proudGround;
+         CrimeMouse.kotskySupply[AnusKnot.chickensDecay.knifeStick] = HateFaint.proudGround;
+         CrimeMouse.kotskySupply[AnusKnot.wickedMouse.knifeStick] = HateFaint.proudGround;
+         CrimeMouse.kotskySupply[AnusKnot.religionOrder.knifeStick] = HateFaint.proudGround;
+         var _loc1_:int = PanoramicProbable.stickTouch;
+         while(_loc1_ <= AdaptableInexpensive.orderWhistle)
+         {
+            CrimeMouse.kotskySupply[_loc1_] = HateFaint.proudGround;
             _loc1_++;
          }
-         CrimeMouse.confusedBerry = new Dictionary();
-         CrimeMouse.mightyOranges = new Vector.<AdaptableSubdued>();
-         CrimeMouse.abaftCrime = new Vector.<int>();
+         CrimeMouse.swankyBack = new Dictionary();
+         CrimeMouse.bagPinus = new Vector.<AdaptableSubdued>();
+         CrimeMouse.eliteAgonizing = new Vector.<int>();
       }
       
-      public static function icyCompetition() : int
+      public static function commonPat() : int
       {
-         return CrimeMouse.abaftCrime.length;
+         return CrimeMouse.eliteAgonizing.length;
       }
       
-      public static function knotRare(param1:int) : int
+      public static function waitingKuruma(param1:int) : int
       {
-         return !!CrimeMouse.confusedBerry[param1]?int(CrimeMouse.confusedBerry[param1].admireWatery):int(HystericalKotsky.notebookChivalrous);
+         return !!CrimeMouse.swankyBack[param1]?int(CrimeMouse.swankyBack[param1].seriousSuper):int(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
       }
       
-      public static function tastelessFaithful(param1:int) : Boolean
-      {
-         if(!CrimeMouse.confusedBerry[param1] || !CrimeMouse.confusedBerry[param1].notebookPear)
-         {
-            return false;
-         }
-         return CrimeMouse.lipSpurious > CrimeMouse.abaftCrime.length;
-      }
-      
-      public static function tiresomeWatery(param1:int) : Boolean
-      {
-         if(!CrimeMouse.confusedBerry[param1])
-         {
-            return false;
-         }
-         var _loc2_:AdaptableSubdued = CrimeMouse.confusedBerry[param1] as AdaptableSubdued;
-         return _loc2_.warlikeSigh;
-      }
-      
-      public static function instructHateful() : Vector.<AdaptableSubdued>
-      {
-         if(CrimeMouse.gapingSeed)
-         {
-            CrimeMouse.gapingSeed = DeterminedPrepare.machineSigh;
-            CrimeMouse.mightyOranges.sort(CrimeMouse.uncleYell);
-         }
-         return CrimeMouse.mightyOranges;
-      }
-      
-      public static function dildoWindy(param1:int, param2:int) : void
-      {
-         var _loc3_:AlansonSign = null;
-         if(PatRobin.proseWindy)
-         {
-            PatRobin.proseWindy.thickPlan();
-         }
-         if(CrimeMouse.crackerWatery(param1))
-         {
-            _loc3_ = CrimeMouse.pailList(param1,true);
-            if(HystericalKotsky.notebookChivalrous == param2)
-            {
-               PatRobin.grateOranges(param1);
-               AgreeableCrib.taxSeed();
-            }
-            else
-            {
-               _loc3_.wickedAir(param2);
-            }
-         }
-      }
-      
-      public static function crackerWatery(param1:int) : Boolean
-      {
-         return CrimeMouse.abaftCrime.indexOf(param1) != -CoalRay.actionBorrow;
-      }
-      
-      public static function taxKnot() : Vector.<int>
-      {
-         return CrimeMouse.abaftCrime;
-      }
-      
-      public static function religionColor(param1:int, param2:String = null) : GroundBabies
+      public static function volcanoCrowded(param1:int, param2:String = null) : GroundBabies
       {
          var _loc5_:ByteArray = null;
-         var _loc3_:AdaptableSubdued = CrimeMouse.confusedBerry[param1] as AdaptableSubdued;
+         var _loc3_:AdaptableSubdued = CrimeMouse.swankyBack[param1] as AdaptableSubdued;
          var _loc4_:String = param2;
-         if(_loc3_ && _loc3_.crowdedReligion)
+         if(_loc3_ && _loc3_.bladeMighty)
          {
-            _loc4_ = _loc3_.crowdedReligion;
+            _loc4_ = _loc3_.bladeMighty;
          }
-         else if(param1 > ArmyObtainable.milkyAgree && param1 < GroundFour.rareCard)
+         else if(param1 > StupidCoal.healDistro && param1 < OrderUnit.apatheticRare(WaitingCrib.agonizingChop))
          {
             _loc5_ = new ByteArray();
-            _loc5_.writeUTF(param1.toString() + RecogniseTrail.proseInexpensive());
-            _loc4_ = FeeblePat.windyIcy(new SHA256().x_hash(_loc5_)).replace(/[+=\/]/g,RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued));
+            _loc5_.writeUTF(param1.toString() + RayAmuse.proudWatery());
+            _loc4_ = FeeblePat.armyBury(new SHA256().x_hash(_loc5_)).replace(/[+=\/]/g,OrderUnit.probableLip(DildoBorrow.metalAdaptable));
          }
          else if(!param2)
          {
             _loc4_ = param1.toString();
          }
-         return new GroundBabies(RecogniseCompetition.mouseDelightful(RayYell.admireJumbled) + _loc4_ + RecogniseCompetition.mouseDelightful(RecogniseTrail.competitionChicken),AlansonReligion.babiesBag,AlansonReligion.babiesBag);
+         return new GroundBabies(PinusSand.planArmy + _loc4_ + OrderUnit.probableLip(SlipReligion.yellSeed),CardBabies.inexpensiveChickens,OrderUnit.apatheticRare(CardBabies.inexpensiveChickens));
       }
       
-      public static function pailList(param1:int, param2:Boolean = false, param3:Boolean = false) : AlansonSign
+      public static function lipChop() : Vector.<AdaptableSubdued>
       {
-         var _loc4_:AdaptableSubdued = AdaptableSubdued.obtainableClub(param1);
-         if(!_loc4_)
+         if(CrimeMouse.loafSigh)
          {
-            return AlansonSign.probableCute(param1,CoalRay.actionBorrow,param2,param3);
+            CrimeMouse.loafSigh = HateFaint.bladeStatement;
+            CrimeMouse.bagPinus.sort(CrimeMouse.bruiseGate);
          }
-         return _loc4_.probableCute(param2,param3);
+         return CrimeMouse.bagPinus;
+      }
+      
+      public static function wingChivalrous(param1:String) : void
+      {
+         RareFeeble.cuteAction.sighCrime(new WanderingCrash(param1));
+      }
+      
+      public static function markSuzuka(param1:int, param2:int) : void
+      {
+         var _loc3_:MouseStupid = null;
+         if(PatRobin.halfWaiting)
+         {
+            PatRobin.halfWaiting.violetTrail();
+         }
+         if(CrimeMouse.stupidFeeble(param1))
+         {
+            _loc3_ = CrimeMouse.commonInvite(param1,true);
+            if(param2 == OrderUnit.apatheticRare(ReligionStore.trailInstruct))
+            {
+               PatRobin.eliteApathetic(param1);
+               AgreeableCrib.jumbledStay();
+            }
+            else
+            {
+               _loc3_.batheScintillating(param2);
+            }
+         }
+      }
+      
+      public static function eliteApathetic(param1:int) : Boolean
+      {
+         if(!CrimeMouse.swankyBack[param1] || !CrimeMouse.swankyBack[param1].loafChop)
+         {
+            if(CrimeMouse.eliteAgonizing.indexOf(param1) != -OrderUnit.apatheticRare(CardBabies.machineOranges))
+            {
+               CrimeMouse.eliteAgonizing.splice(CrimeMouse.eliteAgonizing.indexOf(param1),OrderUnit.apatheticRare(CardBabies.machineOranges));
+            }
+            return false;
+         }
+         var _loc2_:Boolean = CrimeMouse.stupidFeeble(param1);
+         if(!_loc2_ && CrimeMouse.eliteAgonizing.length >= CrimeMouse.agonizingLeg)
+         {
+            return false;
+         }
+         if(!_loc2_)
+         {
+            CrimeMouse.eliteAgonizing.push(param1);
+         }
+         else
+         {
+            CrimeMouse.eliteAgonizing.splice(CrimeMouse.eliteAgonizing.indexOf(param1),OrderUnit.apatheticRare(CardBabies.machineOranges));
+         }
+         return !_loc2_;
+      }
+      
+      public static function crashWarlike() : Vector.<int>
+      {
+         return CrimeMouse.eliteAgonizing;
+      }
+      
+      public static function hydrantAir(param1:int, param2:int) : void
+      {
+         if(CrimeMouse.swankyBack[param1])
+         {
+            CrimeMouse.swankyBack[param1].seriousSuper = param2;
+            CrimeMouse.markSuzuka(param1,param2);
+         }
+      }
+      
+      public static function adviseDetermined(param1:int) : Boolean
+      {
+         if(!CrimeMouse.swankyBack[param1])
+         {
+            return false;
+         }
+         var _loc2_:AdaptableSubdued = CrimeMouse.swankyBack[param1] as AdaptableSubdued;
+         return _loc2_.unitScintillating;
       }
    }
 }

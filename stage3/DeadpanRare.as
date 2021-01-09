@@ -4,10 +4,10 @@ package
    {
        
       
-      public function DeadpanRare(param1:Boolean)
+      public function DeadpanRare(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(RayYell.stickColor),RecogniseCompetition.prepareAgree(HystericalKotsky.lunasoleHate));
-         staySigh.writeBoolean(param1);
+         super(OrderUnit.apatheticRare(AdmireUncle.crimeCreator),OrderUnit.apatheticRare(BurnFix.toeSlip));
+         lamentableSpurious.writeShort(param1);
       }
    }
 }

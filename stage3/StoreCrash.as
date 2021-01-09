@@ -3,17 +3,17 @@ package
    public class StoreCrash
    {
       
-      public static var proseWindy:StoreCrash;
+      public static var halfWaiting:StoreCrash;
       
-      public static var agreeableNotebook:Boolean = false;
+      public static var whistleRecognise:Boolean = false;
       
-      public static var whistleClub:Boolean = false;
+      public static var seedStick:Boolean = false;
        
       
       public function StoreCrash()
       {
          super();
-         StoreCrash.proseWindy = this;
+         StoreCrash.halfWaiting = this;
       }
    }
 }

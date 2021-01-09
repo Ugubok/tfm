@@ -8,321 +8,307 @@ package
    public class CribViolet
    {
       
-      public static const eliteVolcano:int = -2;
+      public static const loafCompetition:int = 2;
       
-      public static const lamentableCrowded:int = -1;
+      public static const distroProse:int = 1;
       
-      public static const faithfulFragile:int = 0;
+      public static const alluringOrder:int =  0;
       
-      public static const eliteObtainable:int = 1;
+      public static const machineBury:int =  1;
       
-      public static const stayFragile:int = 2;
+      public static const laborerScintillating:int =  2;
       
-      public static const machineReligion:int = 3;
+      public static const historicalDistro:int =  3;
       
-      public static const entertainingHistorical:int = 5;
+      public static const religionToe:int =  5;
        
       
-      public var burnJoyous:Object = null;
+      public var curvedSign:Object = null;
       
-      public var patRequest:Sprite = null;
+      public var uncleTax:Sprite = null;
       
-      public var scintillatingCoal:int;
+      public var storeAmuse:int;
       
-      public var delightfulAlanson:int;
+      public var babiesSubdued:int;
       
-      public var admireLarge:String;
+      public var hydrantAnus:String;
       
-      public var largePeck:String;
+      public var admireList:String;
       
-      public var largeFragile:String;
+      public var whisperHanging:String;
       
-      public var swankyHanging:String;
+      public var loafHanging:String;
       
-      public var fascinatedCurved:String;
+      public var hystericalUnequaled:String;
       
-      public var squeamishAnus:String;
+      public var crownLunasole:String;
       
-      public var adaptableList:String;
+      public var crowdedMark:String;
       
-      public var confusedCreator:String;
+      public var distroDistro:String;
       
-      public var yellNoiseless:String;
+      public var suzukaPat:String;
       
-      public var subduedCrash:String;
+      public var notebookMachine:String;
       
       public function CribViolet(param1:Object, param2:Sprite, param3:String, param4:String, param5:String, param6:String, param7:String, param8:String, param9:String, param10:String, param11:String, param12:String = "")
       {
-         this.scintillatingCoal = HystericalKotsky.notebookChivalrous;
-         this.delightfulAlanson = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.storeAmuse = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.babiesSubdued = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          super();
-         this.burnJoyous = param1;
-         this.patRequest = param2;
-         this.admireLarge = param3;
-         this.largePeck = param4;
-         this.largeFragile = param5;
-         this.swankyHanging = param6;
-         this.fascinatedCurved = param7;
-         this.squeamishAnus = param9;
-         this.confusedCreator = param10;
-         this.adaptableList = param12;
-         this.yellNoiseless = param11;
-         this.subduedCrash = param8;
+         this.curvedSign = param1;
+         this.uncleTax = param2;
+         this.hydrantAnus = param3;
+         this.admireList = param4;
+         this.whisperHanging = param5;
+         this.loafHanging = param6;
+         this.hystericalUnequaled = param7;
+         this.crownLunasole = param9;
+         this.distroDistro = param10;
+         this.crowdedMark = param12;
+         this.suzukaPat = param11;
+         this.notebookMachine = param8;
       }
       
-      public function taxAdaptable(param1:Boolean) : void
-      {
-         if(this.proudLight.mouseEnabled = param1;
-            this.patRequest.mouseChildren = param1;
-         }
-      }
-      
-      public function clubGate() : void
+      public function loafAnnoying() : int
       {
          try
          {
-            if(this.burnJoyous)
+            if(this.curvedSign)
             {
-               this.burnJoyous[this.admireLarge]();
+               return int(this.illustriousKnot]());
+            }
+            return int(ExternalInterface.call(this.suzukaPat));
+         }
+         catch(subduedPear:Error)
+         {
+            supplyViolet(subduedPear);
+         }
+         return CribViolet.loafCompetition;
+      }
+      
+      public function laborerSisters() : void
+      {
+         try
+         {
+            if(!this.curvedSign)
+            {
+               ExternalInterface.call(this.crowdedMark);
+            }
+            return;
+         }
+         catch(subduedPear:Error)
+         {
+            supplyViolet(subduedPear);
+            return;
+         }
+      }
+      
+      public function wickedElite() : Number
+      {
+         try
+         {
+            if(this.curvedSign)
+            {
+               return this.curvedJuice]();
+            }
+            return ExternalInterface.call(this.hystericalUnequaled);
+         }
+         catch(subduedPear:Error)
+         {
+            supplyViolet(subduedPear);
+         }
+         return OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+      }
+      
+      public function kotskyAlluring() : void
+      {
+         try
+         {
+            if(this.hystericalJoyous]();
             }
             else
             {
-               ExternalInterface.call(this.admireLarge);
+               ExternalInterface.call(this.admireList);
             }
             return;
          }
-         catch(eliteLabel:Error)
+         catch(subduedPear:Error)
          {
-            suzukaChop(eliteLabel);
+            supplyViolet(subduedPear);
             return;
          }
       }
       
-      public function knotGround() : void
+      public function apatheticAnnoying(param1:String, param2:int, param3:String) : void
       {
+         var metalCute:String = param1;
+         var actionReligion:int = param2;
+         var wingBack:String = param3;
          try
          {
-            if(!this.burnJoyous)
-            {
-               ExternalInterface.call(this.adaptableList);
-            }
-            return;
-         }
-         catch(eliteLabel:Error)
-         {
-            suzukaChop(eliteLabel);
-            return;
-         }
-      }
-      
-      public function volcanoStale() : void
-      {
-         if(!this.wingLoaf(this.scintillatingCoal,this.delightfulAlanson);
-         }
-      }
-      
-      public function suzukaChop(param1:*) : void
-      {
-         AdmireStore.proseWindy.knotAlanson(param1);
-      }
-      
-      public function touchFaint(param1:DisplayObjectContainer, param2:int = -1) : void
-      {
-         var balvankaBalvanka:DisplayObjectContainer = param1;
-         var laborerPat:int = param2;
-         try
-         {
-            if(laborerPat < HystericalKotsky.notebookChivalrous)
-            {
-               balvankaBalvanka.addChild(this.patRequest);
+            if(this.distroLight](metalCute,actionReligion,wingBack);
             }
             else
             {
-               balvankaBalvanka.addChildAt(this.patRequest,laborerPat);
+               ExternalInterface.call(this.loafHanging,metalCute,actionReligion,wingBack);
             }
             return;
          }
-         catch(eliteLabel:Error)
+         catch(subduedPear:Error)
          {
-            suzukaChop(eliteLabel);
+            supplyViolet(subduedPear);
             return;
          }
       }
       
-      public function cardHanging() : void
+      public function burnProse() : void
       {
+         if(!this.pipkaDetermined(this.storeAmuse,this.babiesSubdued);
+         }
+      }
+      
+      public function bladeGrate(param1:Number) : void
+      {
+         var birdAdaptable:Number = param1;
+         birdAdaptable = FeebleSubdued.laborerLoaf(birdAdaptable,OrderUnit.apatheticRare(ReligionStore.trailInstruct),OrderUnit.apatheticRare(WanderingDecay.healQuirky));
          try
          {
-            if(this.burnJoyous)
-            {
-               this.burnJoyous[this.largeFragile]();
+            if(this.decayPinus](birdAdaptable);
             }
             else
             {
-               ExternalInterface.call(this.largeFragile);
+               ExternalInterface.call(this.distroDistro,birdAdaptable);
             }
             return;
          }
-         catch(eliteLabel:Error)
+         catch(subduedPear:Error)
          {
-            suzukaChop(eliteLabel);
+            supplyViolet(subduedPear);
             return;
          }
       }
       
-      public function chopMighty() : void
+      public function delightfulGullible() : void
       {
          try
          {
-            if(this.burnJoyous)
-            {
-               this.burnJoyous[this.largePeck]();
+            if(this.stomachCrown]();
             }
             else
             {
-               ExternalInterface.call(this.largePeck);
+               ExternalInterface.call(this.hydrantAnus);
             }
             return;
          }
-         catch(eliteLabel:Error)
+         catch(subduedPear:Error)
          {
-            suzukaChop(eliteLabel);
+            supplyViolet(subduedPear);
             return;
          }
       }
       
-      public function agreeMouse() : int
+      public function pailWarlike(param1:Boolean) : void
       {
-         try
-         {
-            if(this.burnJoyous)
-            {
-               return int(this.burnJoyous[this.yellNoiseless]());
-            }
-            return int(ExternalInterface.call(this.yellNoiseless));
+         if(this.wingElite.mouseEnabled = param1;
+            this.uncleTax.mouseChildren = param1;
          }
-         catch(eliteLabel:Error)
-         {
-            suzukaChop(eliteLabel);
-         }
-         return CribViolet.eliteVolcano;
       }
       
-      public function abaftFaithful() : Number
+      public function storeChop(param1:DisplayObjectContainer, param2:int = -1) : void
       {
+         var stickWicked:DisplayObjectContainer = param1;
+         var alluringFaithful:int = param2;
          try
          {
-            if(this.burnJoyous)
+            if(OrderUnit.apatheticRare(ReligionStore.trailInstruct) > alluringFaithful)
             {
-               return this.burnJoyous[this.fascinatedCurved]();
-            }
-            return ExternalInterface.call(this.fascinatedCurved);
-         }
-         catch(eliteLabel:Error)
-         {
-            suzukaChop(eliteLabel);
-         }
-         return HystericalKotsky.notebookChivalrous;
-      }
-      
-      public function recogniseThick(param1:Number) : void
-      {
-         var toeConfused:Number = param1;
-         toeConfused = FeebleSubdued.colorSpurious(toeConfused,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RayYell.seriousOrange);
-         try
-         {
-            if(this.burnJoyous)
-            {
-               this.burnJoyous[this.confusedCreator](toeConfused);
+               stickWicked.addChild(this.uncleTax);
             }
             else
             {
-               ExternalInterface.call(this.confusedCreator,toeConfused);
+               stickWicked.addChildAt(this.uncleTax,alluringFaithful);
             }
             return;
          }
-         catch(eliteLabel:Error)
+         catch(subduedPear:Error)
          {
-            suzukaChop(eliteLabel);
+            supplyViolet(subduedPear);
             return;
          }
       }
       
-      public function knotCute(param1:int, param2:int) : void
+      public function pailWing() : void
       {
-         var lookScale:Point = null;
-         var groundQuirky:int = param1;
-         var faithfulNoiseless:int = param2;
          try
          {
-            this.scintillatingCoal = groundQuirky;
-            this.delightfulAlanson = faithfulNoiseless;
-            this.patRequest.width = groundQuirky;
-            this.patRequest.height = faithfulNoiseless;
-            this.patRequest.x = -groundQuirky / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-            this.patRequest.y = -faithfulNoiseless / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-            if(this.burnJoyous)
-            {
-               this.burnJoyous[this.squeamishAnus](groundQuirky,faithfulNoiseless);
+            if(this.coalIcy]();
             }
             else
             {
-               lookScale = this.patRequest.localToGlobal(new Point());
-               ExternalInterface.call(this.squeamishAnus,lookScale.x,lookScale.y,groundQuirky,faithfulNoiseless,(-MetalDetermined.gatePail + AdmireStore.alluringRecognise) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),(AdmireStore.slipCry - RecogniseCompetition.prepareAgree(FrailJuice.senseLamentable)) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
+               ExternalInterface.call(this.whisperHanging);
             }
             return;
          }
-         catch(eliteLabel:Error)
+         catch(subduedPear:Error)
          {
-            suzukaChop(eliteLabel);
+            supplyViolet(subduedPear);
             return;
          }
       }
       
-      public function crowdedGround(param1:String, param2:int, param3:String) : void
+      public function subduedJoyous(param1:int, param2:int) : void
       {
-         var whistleBalvanka:String = param1;
-         var lipInexpensive:int = param2;
-         var unitLarge:String = param3;
+         var thickLook:Point = null;
+         var delightfulNoxious:int = param1;
+         var dildoReligion:int = param2;
          try
          {
-            if(this.burnJoyous)
-            {
-               this.burnJoyous[this.swankyHanging](whistleBalvanka,lipInexpensive,unitLarge);
+            this.storeAmuse = delightfulNoxious;
+            this.babiesSubdued = dildoReligion;
+            this.uncleTax.width = delightfulNoxious;
+            this.uncleTax.height = dildoReligion;
+            this.uncleTax.x = -delightfulNoxious / PinusSand.jumbledTiresome;
+            this.uncleTax.y = -dildoReligion / OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+            if(this.obtainableWandering](delightfulNoxious,dildoReligion);
             }
             else
             {
-               ExternalInterface.call(this.swankyHanging,whistleBalvanka,lipInexpensive,unitLarge);
+               thickLook = this.uncleTax.localToGlobal(new Point());
+               ExternalInterface.call(this.crownLunasole,thickLook.x,thickLook.y,delightfulNoxious,dildoReligion,(-PanoramicProbable.orangeChivalrous + StalePinus.knotWandering) / PinusSand.jumbledTiresome,(-OrderUnit.apatheticRare(BurnFix.mouseVolcano) + StalePinus.crownWatery) / PinusSand.jumbledTiresome);
             }
             return;
          }
-         catch(eliteLabel:Error)
+         catch(subduedPear:Error)
          {
-            suzukaChop(eliteLabel);
+            supplyViolet(subduedPear);
             return;
          }
       }
       
-      public function proudScale(param1:Number) : void
+      public function recogniseWindy(param1:Number) : void
       {
-         var pearHeal:Number = param1;
+         var notebookCrowded:Number = param1;
          try
          {
-            if(this.burnJoyous)
-            {
-               this.burnJoyous[this.subduedCrash](pearHeal,true);
+            if(this.harmonyThick](notebookCrowded,true);
             }
             else
             {
-               ExternalInterface.call(this.subduedCrash,pearHeal,true);
+               ExternalInterface.call(this.notebookMachine,notebookCrowded,true);
             }
             return;
          }
-         catch(eliteLabel:Error)
+         catch(subduedPear:Error)
          {
-            suzukaChop(eliteLabel);
+            supplyViolet(subduedPear);
             return;
          }
+      }
+      
+      public function supplyViolet(param1:*) : void
+      {
+         StalePinus.halfWaiting.hystericalClub(param1);
       }
    }
 }

@@ -4,41 +4,41 @@ package
    {
        
       
-      public var injureComplex:ApatheticAlanson;
+      public var inviteLight:ApatheticAlanson;
       
-      public var entertainingTremble:uint;
+      public var crashHeal:uint;
       
       public function LoafGround()
       {
-         this.injureComplex = new ApatheticAlanson();
+         this.inviteLight = new ApatheticAlanson();
          super();
-         this.injureComplex.jumbledReligion = this;
+         this.violetTouch = this;
       }
       
-      public function get swankyCurved() : uint
+      public function get adviseSuper() : uint
       {
-         return this.entertainingTremble;
+         return this.crashHeal;
       }
       
-      public function set swankyCurved(param1:uint) : void
+      public function set adviseSuper(param1:uint) : void
       {
-         this.entertainingTremble = param1;
-         this.injureComplex.buryBabies = this.entertainingTremble & 255;
-         this.injureComplex.planChicken = (this.entertainingTremble & 65280) >> RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird) & 255;
-         this.injureComplex.scratchMark = (this.entertainingTremble & 16711680) >> CoalWhisper.burnViolet & 255;
-         this.injureComplex.scintillatingList = (this.entertainingTremble & 4278190080) >> RecogniseCompetition.prepareAgree(BerryMouse.unequaledJuice) & 255;
+         this.crashHeal = param1;
+         this.sistersCompetition = this.crashHeal & 255;
+         this.partySubdued = (this.crashHeal & 65280) >> GullibleLook.unequaledJumbled & 255;
+         this.violetThick = (this.crashHeal & 16711680) >> AdmireUncle.faithfulFlower & 255;
+         this.bruiseAir = (this.crashHeal & 4278190080) >> OrderUnit.apatheticRare(BurnFix.toeSlip) & 255;
       }
       
-      public function bashfulPrepare(param1:LoafGround) : void
-      {
-         this.swankyCurved = param1.entertainingTremble;
-      }
-      
-      public function uncleQuirky() : LoafGround
+      public function supplyAgonizing() : LoafGround
       {
          var _loc1_:LoafGround = new LoafGround();
-         _loc1_.swankyCurved = this.swankyCurved;
+         _loc1_.adviseSuper = this.adviseSuper;
          return _loc1_;
+      }
+      
+      public function deliverStay(param1:LoafGround) : void
+      {
+         this.adviseSuper = param1.crashHeal;
       }
    }
 }

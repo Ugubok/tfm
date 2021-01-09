@@ -4,15 +4,15 @@ package
    {
        
       
-      public function PinusWhistle(param1:String, param2:String, param3:String, param4:String, param5:String)
+      public function PinusWhistle(param1:int, param2:int, param3:int, param4:int, param5:int)
       {
-         super(RecogniseCompetition.prepareAgree(AlansonReligion.statementScratch),RecogniseTrail.icyBabies);
-         staySigh.writeUTF(param1);
-         staySigh.writeUTF(param2);
-         staySigh.writeUTF(param3);
-         staySigh.writeUTF(param4);
-         staySigh.writeUTF(param5);
-         lipStay = DeterminedPrepare.hatefulComplex;
+         super(OrderUnit.apatheticRare(AdmireUncle.crimeCreator),SlipReligion.delightfulRay);
+         lamentableSpurious.writeByte(param1);
+         lamentableSpurious.writeInt(param2);
+         lamentableSpurious.writeInt(param3);
+         lamentableSpurious.writeShort(BerryAnus.sighHalf());
+         lamentableSpurious.writeShort(param4);
+         lamentableSpurious.writeShort(param5);
       }
    }
 }

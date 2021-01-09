@@ -4,11 +4,11 @@ package
    {
        
       
-      public function BirdPinus(param1:String, param2:int)
+      public function BirdPinus(param1:int, param2:int)
       {
-         super(RecogniseCompetition.prepareAgree(LaborerFeeble.staleMark),WaitingReligion.peckKotsky);
-         staySigh.writeUTF(param1);
-         staySigh.writeByte(param2);
+         super(AdmireUncle.delightfulFragile,OrderUnit.apatheticRare(ReligionStore.birdAdhesive));
+         lamentableSpurious.writeByte(param1);
+         lamentableSpurious.writeByte(param2);
       }
    }
 }

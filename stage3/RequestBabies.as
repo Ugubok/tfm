@@ -6,44 +6,44 @@ package
    {
        
       
-      public const pailNotebook:Vector.<KnotSwanky> = new <KnotSwanky>[new KnotSwanky(),new KnotSwanky()];
+      public const programCry:Vector.<KnotSwanky> = new <KnotSwanky>[new KnotSwanky(),new KnotSwanky()];
       
       public function RequestBabies(param1:FragileWandering)
       {
          super(param1);
       }
       
-      public function slipOrder(param1:int) : void
-      {
-         RareFeeble.actionFeeble.stickVolcano(zonkedPeck(CoalRay.actionBorrow,param1));
-      }
-      
-      override public function icyGrate(param1:AnusHateful) : void
+      override public function obeisantNoiseless(param1:AnusHateful) : void
       {
          var _loc2_:int = 0;
          var _loc3_:int = 0;
          var _loc4_:RobinAdaptable = null;
          var _loc5_:int = 0;
          var _loc6_:int = 0;
-         switch(param1.entertainingHateful)
+         switch(param1.planHalf)
          {
-            case RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous):
-               _loc2_ = param1.crimeStay(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-               _loc3_ = param1.crimeStay(CoalRay.actionBorrow);
-               _loc4_ = AdmireStore.proseWindy.whistleCoal[_loc2_];
+            case OrderUnit.apatheticRare(ReligionStore.trailInstruct):
+               _loc2_ = param1.chivalrousCrown(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+               _loc3_ = param1.chivalrousCrown(OrderUnit.apatheticRare(CardBabies.machineOranges));
+               _loc4_ = StalePinus.halfWaiting.warlikeConfused[_loc2_];
                if(_loc4_)
                {
-                  RecogniseCompetition.signTiresome(_loc4_.subduedSuzuka.feebleClub)(this.pailNotebook[_loc3_],HystericalKotsky.notebookChivalrous);
+                  OrderUnit.chickenTiresome(OrderUnit.chickenTiresome(OrderUnit.chickenTiresome(_loc4_.gateSeed)))(this.programCry[_loc3_],OrderUnit.apatheticRare(ReligionStore.trailInstruct));
                }
                break;
-            case RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe):
-               _loc5_ = param1.crimeStay(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-               _loc6_ = param1.crimeStay(CoalRay.actionBorrow);
+            case PinusSand.jumbledTiresome:
+               _loc5_ = param1.chivalrousCrown(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+               _loc6_ = param1.chivalrousCrown(OrderUnit.apatheticRare(CardBabies.machineOranges));
          }
       }
       
-      override public function lipPear(param1:Dictionary) : void
+      override public function instructElite(param1:Dictionary) : void
       {
+      }
+      
+      public function superBashful(param1:int) : void
+      {
+         RareFeeble.waitingGullible.sighCrime(jumbledLook(OrderUnit.apatheticRare(CardBabies.machineOranges),param1));
       }
    }
 }

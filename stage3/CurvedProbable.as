@@ -6,34 +6,34 @@ package
    {
        
       
-      public var subduedVolcano:int;
+      public var crownBack:int;
       
-      public var entertainingHateful:int;
+      public var planHalf:int;
       
-      public var obtainableIcy:VioletRobin;
+      public var adhesiveWicked:VioletRobin;
       
-      public var thickInjure:Boolean = false;
+      public var decaySupply:Boolean = false;
       
-      public var spuriousConfused:Boolean = false;
+      public var zonkedChivalrous:Boolean = false;
       
-      public var largeTouch:Boolean = false;
+      public var waitingCommon:Boolean = false;
       
-      public var frailApathetic:Boolean = false;
+      public var largeStore:Boolean = false;
       
-      public var chickensScratch:SwankyKnot;
+      public var noxiousJoyous:SwankyKnot;
       
-      public var thickParty:Number;
+      public var pinusProud:Number;
       
-      public var orangesIcy:Number;
+      public var wanderingLip:Number;
       
       public function CurvedProbable(param1:int, param2:int)
       {
-         this.thickParty = HystericalKotsky.notebookChivalrous;
-         this.orangesIcy = HystericalKotsky.notebookChivalrous;
+         this.pinusProud = ReligionStore.trailInstruct;
+         this.wanderingLip = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          super();
-         this.subduedVolcano = param1;
-         this.entertainingHateful = param2;
-         addChild(AgreeableHistorical.probableCute(ConfusedPeck.inviteInstruct + param1,true));
+         this.crownBack = param1;
+         this.planHalf = param2;
+         addChild(AgreeableHistorical.admireCute(CardBabies.balvankaPlan + param1,true));
       }
    }
 }

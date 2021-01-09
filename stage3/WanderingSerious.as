@@ -6,9 +6,9 @@ package
       
       public function WanderingSerious(param1:String, param2:Boolean)
       {
-         super(BruiseBorrow.hateStatement,RecogniseCompetition.prepareAgree(BruiseBorrow.hateStatement));
-         staySigh.writeUTF(param1);
-         staySigh.writeByte(!!param2?int(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)):int(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)));
+         super(CreatorSupply.slipSeed,OrderUnit.apatheticRare(PanoramicProbable.bladeProse));
+         lamentableSpurious.writeUTF(param1);
+         lamentableSpurious.writeByte(!!param2?int(OrderUnit.apatheticRare(CardBabies.machineOranges)):int(ReligionStore.trailInstruct));
       }
    }
 }

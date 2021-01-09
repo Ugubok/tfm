@@ -9,157 +9,153 @@ package
    public class BabiesLoaf implements BalvankaSpurious
    {
       
-      public static var harmonyHarmony:int = 0;
+      public static var planHanging:int =  0;
        
       
-      public var orangesCrime:OnceSignal;
+      public var orderScintillating:OnceSignal;
       
-      public var wanderingScratch:Signal;
+      public var curvedSqueamish:Signal;
       
-      public var joyousCrowded:Socket;
+      public var orderAmuse:Socket;
       
-      public var admireDelightful:ScaleAgreeable;
+      public var orderFeeble:ScaleAgreeable;
       
-      public var tremblePeck:ByteArray;
+      public var abaftSigh:ByteArray;
       
-      public var cuteRequest:ByteArray;
+      public var notebookOrder:ByteArray;
       
-      public var obtainableKnife:int;
+      public var entertainingMachine:int;
       
-      public var actionGaping:Boolean = true;
+      public var trailBruise:Boolean = true;
       
-      public var hatefulObtainable:MightyColor;
+      public var annoyingGate:MightyColor;
       
-      public var lightAlluring:int;
+      public var fixSlip:int;
       
-      public var obtainableOrder:int;
+      public var senseFix:int;
       
-      public var slipBird:Vector.<AgreeableBabies>;
+      public var determinedDildo:Vector.<AgreeableBabies>;
       
       public function BabiesLoaf(param1:String = null, param2:uint = 0)
       {
-         this.obtainableKnife = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         this.obtainableOrder = HystericalKotsky.notebookChivalrous;
+         this.entertainingMachine = -OrderUnit.apatheticRare(CardBabies.machineOranges);
+         this.senseFix = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          super();
-         this.joyousCrowded = new Socket();
-         this.slipBird = new Vector.<AgreeableBabies>();
-         this.subduedClub();
+         this.orderAmuse = new Socket();
+         this.determinedDildo = new Vector.<AgreeableBabies>();
+         this.adhesiveAdhesive();
          if(param1 && param2)
          {
-            this.joyousCrowded.connect(param1,param2);
+            this.orderAmuse.connect(param1,param2);
          }
       }
       
-      public function noxiousSuper(param1:ProgressEvent) : void
+      public function adhesiveAdhesive() : void
       {
-         while(HystericalKotsky.notebookChivalrous < this.joyousCrowded.bytesAvailable)
+         this.orderAmuse.addEventListener(ProgressEvent.SOCKET_DATA,this.cardReligion);
+         this.orderScintillating = new OnceSignal();
+         this.curvedSqueamish = new Signal(String,Array);
+      }
+      
+      public function traitePaquetSortant(param1:AgreeableBabies) : void
+      {
+         param1.feebleMachine = this;
+         var _loc2_:ByteArray = RequestZonked.squeamishAgree();
+         _loc2_.writeShort(this.orderFeeble.getIdPaquet(param1));
+         _loc2_.writeShort(BabiesLoaf.planHanging++);
+         _loc2_.writeShort(param1.complexHeal());
+         param1.ecriture(_loc2_);
+         this.orderAmuse.writeBytes(_loc2_);
+         this.orderAmuse.flush();
+         if(param1 is InexpensiveSlip)
          {
-            if(this.actionGaping)
-            {
-               this.lightAlluring = this.joyousCrowded.readShort();
-               this.hatefulObtainable = this.admireDelightful.creePaquetEntrant(this,this.lightAlluring);
-               if(this.hatefulObtainable.typeTaille == SlipAdaptable.deadpanHanging)
+            this.curvedBruise(this.idSequence,param1);
+         }
+         RequestZonked.volcanoBerry(_loc2_);
+         _loc2_ = null;
+      }
+      
+      public function violetDelightful() : void
+      {
+         this.orderAmuse.removeEventListener(ProgressEvent.SOCKET_DATA,this.cardReligion);
+         this.orderAmuse.close();
+      }
+      
+      public function set protocole(param1:ScaleAgreeable) : void
+      {
+         if(null == this.batheRare = param1;
+            return;
+         }
+         throw new Error("On ne peut avoir qu\'un seul protocole !!");
+      }
+      
+      public function cardReligion(param1:ProgressEvent) : void
+      {
+         while(this.orderAmuse.bytesAvailable > ReligionStore.trailInstruct)
+         {
+            if(this.hydrantDetermined = this.orderAmuse.readShort();
+               this.annoyingGate = this.orderFeeble.creePaquetEntrant(this,this.fixSlip);
+               if(SlipAdaptable.kurumaCompany == this.annoyingGate.typeTaille)
                {
-                  this.obtainableKnife = this.joyousCrowded.readShort();
+                  this.entertainingMachine = this.orderAmuse.readShort();
                }
-               else if(SlipAdaptable.requestInjure == this.hatefulObtainable.typeTaille)
+               else if(SlipAdaptable.mightyFour.typeTaille)
                {
-                  this.obtainableKnife = this.joyousCrowded.readByte();
+                  this.entertainingMachine = this.orderAmuse.readByte();
                }
-               else if(SlipAdaptable.feeblePeck == this.hatefulObtainable.typeTaille)
+               else if(this.annoyingGate.typeTaille == SlipAdaptable.crackerAmuse)
                {
-                  this.obtainableKnife = this.joyousCrowded.readInt();
+                  this.entertainingMachine = this.orderAmuse.readInt();
                }
                else
                {
-                  this.obtainableKnife = this.hatefulObtainable.harmonyWhisper();
+                  this.entertainingMachine = this.annoyingGate.complexHeal();
                }
-               this.actionGaping = DeterminedPrepare.machineSigh;
+               this.trailBruise = HateFaint.bladeStatement;
             }
-            if(!this.actionGaping && this.joyousCrowded.bytesAvailable >= this.obtainableKnife)
-            {
-               if(this.cuteRequest == null)
+            if(!this.trailBruise && this.orderAmuse.bytesAvailable >= this.stupidAbaft == null)
                {
-                  this.cuteRequest = RequestZonked.gullibleMighty();
+                  this.notebookOrder = RequestZonked.squeamishAgree();
                }
                else
                {
-                  this.cuteRequest.clear();
+                  this.notebookOrder.clear();
                }
-               this.joyousCrowded.readBytes(this.cuteRequest,HystericalKotsky.notebookChivalrous,this.obtainableKnife);
-               this.hatefulObtainable.lecture(this.cuteRequest);
-               this.admireDelightful.traiterPaquetEntrant(this.lightAlluring,this.hatefulObtainable);
-               this.actionGaping = DeterminedPrepare.hatefulComplex;
+               this.orderAmuse.readBytes(this.notebookOrder,OrderUnit.apatheticRare(ReligionStore.trailInstruct),this.entertainingMachine);
+               this.annoyingGate.lecture(this.notebookOrder);
+               this.orderFeeble.traiterPaquetEntrant(this.fixSlip,this.annoyingGate);
+               this.trailBruise = HateFaint.proudGround;
                continue;
             }
             break;
          }
       }
       
-      public function traitePaquetSortant(param1:AgreeableBabies) : void
+      public function get protocole() : ScaleAgreeable
       {
-         param1.berryViolet = this;
-         var _loc2_:ByteArray = RequestZonked.gullibleMighty();
-         _loc2_.writeShort(this.admireDelightful.getIdPaquet(param1));
-         _loc2_.writeShort(BabiesLoaf.harmonyHarmony++);
-         _loc2_.writeShort(param1.harmonyWhisper());
-         param1.ecriture(_loc2_);
-         this.joyousCrowded.writeBytes(_loc2_);
-         this.joyousCrowded.flush();
-         if(param1 is InexpensiveSlip)
-         {
-            this.wickedAnus(this.idSequence,param1);
-         }
-         RequestZonked.senseUnequaled(_loc2_);
-         _loc2_ = null;
+         return this.orderFeeble;
       }
       
-      public function subduedClub() : void
+      public function curvedBruise(param1:int, param2:AgreeableBabies) : void
       {
-         this.joyousCrowded.addEventListener(ProgressEvent.SOCKET_DATA,this.noxiousSuper);
-         this.orangesCrime = new OnceSignal();
-         this.wanderingScratch = new Signal(String,Array);
-      }
-      
-      public function set protocole(param1:ScaleAgreeable) : void
-      {
-         if(null == this.statementThick = param1;
-            return;
-         }
-         throw new Error("On ne peut avoir qu\'un seul protocole !!");
-      }
-      
-      public function probableFascinated() : void
-      {
-         this.joyousCrowded.removeEventListener(ProgressEvent.SOCKET_DATA,this.noxiousSuper);
-         this.joyousCrowded.close();
-      }
-      
-      public function recupereSequence(param1:int) : AgreeableBabies
-      {
-         var _loc2_:AgreeableBabies = this.slipBird[param1];
-         delete this.slipBird[param1];
-         return _loc2_;
+         this.determinedDildo.splice(param1,OrderUnit.apatheticRare(ReligionStore.trailInstruct),param2);
       }
       
       public function set idSequence(param1:int) : void
       {
-         this.obtainableOrder = param1;
+         this.senseFix = param1;
       }
       
-      public function wickedAnus(param1:int, param2:AgreeableBabies) : void
+      public function recupereSequence(param1:int) : AgreeableBabies
       {
-         this.slipBird.splice(param1,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),param2);
-      }
-      
-      public function get protocole() : ScaleAgreeable
-      {
-         return this.admireDelightful;
+         var _loc2_:AgreeableBabies = this.determinedDildo[param1];
+         delete this.determinedDildo[param1];
+         return _loc2_;
       }
       
       public function get idSequence() : int
       {
-         return this.obtainableOrder;
+         return this.senseFix;
       }
    }
 }

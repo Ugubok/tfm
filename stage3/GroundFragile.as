@@ -4,10 +4,10 @@ package
    {
        
       
-      public function GroundFragile(param1:String)
+      public function GroundFragile(param1:int)
       {
-         super(AlansonReligion.statementScratch,RecogniseCompetition.prepareAgree(LipStore.confusedSeed));
-         staySigh.writeUTF(param1);
+         super(WaitingCrib.statementDecay,WanderingDecay.deadpanAdvise);
+         lamentableSpurious.writeShort(param1);
       }
    }
 }

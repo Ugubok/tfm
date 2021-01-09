@@ -11,80 +11,96 @@ package
    public class ScaleWhistle extends SeriousFragile
    {
       
-      public static const peckSand:GlowFilter = new GlowFilter(FascinatedAnus.backInvite,(2501 + -2426) / 100,8682 + -8679,2848 + -2845);
+      public static const cryLarge:GlowFilter = new GlowFilter(FascinatedAnus.swankyRare75 /100, 3, 3);
        
       
-      public var illustriousSupply:InexpensiveGround;
+      public var chickensAlluring:InexpensiveGround;
       
-      public var dildoPipka:SeriousFragile;
+      public var fourYell:SeriousFragile;
       
-      public var thickBury:SwankyOranges;
+      public var cardOrange:SwankyOranges;
       
-      public var pipkaBack:Function = null;
+      public var seedObeisant:Function = null;
       
-      public var swankySuzuka:Object = null;
+      public var partyAlluring:Object = null;
       
-      public var fixFragile:Boolean = false;
+      public var squeamishArmy:Boolean = false;
       
-      public var scintillatingTouch:Object;
+      public var probableAdaptable:Object;
       
-      public var adviseAction:Dictionary;
+      public var partyDistro:Dictionary;
       
       public function ScaleWhistle(param1:int, param2:String = "", param3:Boolean = false)
       {
-         this.adviseAction = new Dictionary();
-         super(param1,RecogniseCompetition.prepareAgree(RayYell.seriousOrange));
-         hateLeg(AdviseRobin.clubSubdued,this.fragileAmuse);
-         knotSqueamish(new FragileScale(ChickensScintillating.trembleCard,RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping)));
-         this.illustriousSupply = new InexpensiveGround(param2,scintillatingCoal,HystericalKotsky.notebookChivalrous).crownSqueamish(TextFormatAlign.CENTER);
+         this.partyDistro = new Dictionary();
+         super(param1,OrderUnit.apatheticRare(WanderingDecay.healQuirky));
+         healComplex(DildoBorrow.metalAdaptable,this.probableViolet);
+         agreeableRobin(new FragileScale(ChickensScintillating.distroStick,AdmireUncle.crimeCreator));
+         this.chickensAlluring = new InexpensiveGround(param2,storeAmuse,OrderUnit.apatheticRare(ReligionStore.trailInstruct)).bruiseKnot(TextFormatAlign.CENTER);
          if(param3)
          {
-            this.unequaledPipka(param2,param3);
+            this.stickAgreeable(param2,param3);
          }
-         this.dildoPipka = new SeriousFragile(scintillatingCoal,BerryMouse.distroWicked);
-         this.dildoPipka.knotSqueamish(new FragileScale(ChickensScintillating.clubAdaptable,AdviseRobin.satisfyGaping));
-         this.thickBury = new SwankyOranges(RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued),this.dildoPipka.scintillatingCoal,this.halfBurn);
-         this.thickBury.addEventListener(KeyboardEvent.KEY_DOWN,this.staySuper);
-         this.dildoPipka.cuteProse(this.thickBury);
-         cuteProse(this.illustriousSupply,this.dildoPipka);
-         sighChop(scintillatingCoal,icyAbaft(false));
+         this.fourYell = new SeriousFragile(storeAmuse,OrderUnit.apatheticRare(PrepareLip.competitionSupply));
+         this.fourYell.agreeableRobin(new FragileScale(ChickensScintillating.robinKnot,OrderUnit.apatheticRare(AdmireUncle.crimeCreator)));
+         this.cardOrange = new SwankyOranges(OrderUnit.probableLip(DildoBorrow.metalAdaptable),this.fourYell.storeAmuse,this.lightGate);
+         this.cardOrange.addEventListener(KeyboardEvent.KEY_DOWN,this.satisfyAgreeable);
+         this.fourYell.icyCry(this.cardOrange);
+         icyCry(this.chickensAlluring,this.fourYell);
+         crackerIcy(storeAmuse,milkyHalf(false));
       }
       
-      public function seedStale(param1:Boolean = true) : ScaleWhistle
+      public function swankyChivalrous() : ScaleWhistle
       {
-         if(param1)
+         StalePinus.halfWaiting.sistersHate.focus = this.cardOrange;
+         return this;
+      }
+      
+      public function deliverTrail(param1:String, param2:Function = null, param3:Object = null) : ScaleWhistle
+      {
+         this.cardOrange.stickAgreeable(param1);
+         this.seedObeisant = param2;
+         this.partyAlluring = param3;
+         return this;
+      }
+      
+      public function abaftCry(param1:InteractiveObject, param2:String, param3:Function = null, param4:Object = null) : void
+      {
+         if(!this.partyDistro[param1])
          {
-            this.thickBury.addEventListener(FocusEvent.FOCUS_IN,this.proudBird);
-            this.thickBury.addEventListener(FocusEvent.FOCUS_OUT,this.proudBird);
+            this.partyDistro[param1] = new Dictionary();
+         }
+         if(param3)
+         {
+            this.partyDistro[param1][param2] = param3;
+            this.partyDistro[param1][param2 + OrderUnit.probableLip(GullibleLook.legBack)] = param4;
+            param1.addEventListener(param2,this.faithfulAlluring);
          }
          else
          {
-            this.thickBury.removeEventListener(FocusEvent.FOCUS_IN,this.proudBird);
-            this.thickBury.removeEventListener(FocusEvent.FOCUS_OUT,this.proudBird);
+            delete this.partyDistro[param1][param2];
+            delete this.partyDistro[param1][param2 + OrderUnit.probableLip(GullibleLook.legBack)];
+            param1.removeEventListener(param2,this.faithfulAlluring);
          }
-         if(AdmireStore.proseWindy.competitionGaping.focus == this.thickBury)
-         {
-            this.crimeUncle();
-         }
-         return this;
       }
       
-      public function crimeUncle() : ScaleWhistle
+      public function lightGate() : void
       {
-         AdmireStore.proseWindy.competitionGaping.focus = this.thickBury;
-         return this;
+         this.probableViolet();
+         SeriousRare.partyAdvise(this.seedObeisant,this.partyAlluring);
+         StalePinus.halfWaiting.sistersHate.focus = StalePinus.halfWaiting;
       }
       
-      public function noxiousMetal(param1:int = 0, param2:int = 0, param3:int = 0, param4:int = 0) : ScaleWhistle
+      public function faintMighty(param1:int = 0, param2:int = 0, param3:int = 0, param4:int = 0) : ScaleWhistle
       {
-         if(param3 == RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) && param4 == RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+         if(param3 == OrderUnit.apatheticRare(ReligionStore.trailInstruct) && param4 == OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
             if(parent)
             {
                if(parent is SpuriousSubdued)
                {
-                  param3 = (parent as SpuriousSubdued).scintillatingCoal;
-                  param4 = (parent as SpuriousSubdued).delightfulAlanson;
+                  param3 = (parent as SpuriousSubdued).storeAmuse;
+                  param4 = (parent as SpuriousSubdued).babiesSubdued;
                }
                else
                {
@@ -93,53 +109,21 @@ package
                }
             }
          }
-         x = (-scintillatingCoal + param3) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) + param1;
-         y = (param4 - delightfulAlanson) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) + param2;
+         x = (param3 - storeAmuse) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome) + param1;
+         y = (-babiesSubdued + param4) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome) + param2;
          return this;
       }
       
-      public function staySuper(param1:KeyboardEvent) : void
-      {
-         if(BirdOranges.coalSeed == param1.keyCode)
-         {
-            if(this.thickBury.crownComplex())
-            {
-               this.halfBurn();
-               param1.stopPropagation();
-            }
-         }
-      }
-      
-      public function unequaledPipka(param1:String, param2:Boolean = false) : ScaleWhistle
-      {
-         if(param2)
-         {
-            if(!this.fixFragile)
-            {
-               this.illustriousSupply.pipkaAdhesive();
-               this.fixFragile = DeterminedPrepare.hatefulComplex;
-            }
-            this.illustriousSupply.htmlText = param1;
-         }
-         else
-         {
-            this.illustriousSupply.text = param1;
-         }
-         companyHistorical();
-         sighChop(scintillatingCoal,icyAbaft(false));
-         return this;
-      }
-      
-      public function patMighty(param1:Event) : void
+      public function faithfulAlluring(param1:Event) : void
       {
          var _loc2_:InteractiveObject = InteractiveObject(param1.currentTarget);
          var _loc3_:String = param1.type;
-         var _loc4_:Function = this.adviseAction[_loc2_][_loc3_];
-         var _loc5_:Object = this.adviseAction[_loc2_][_loc3_ + GroundFour.alansonAmuse];
-         SeriousRare.coalPanoramic(_loc4_,_loc5_);
+         var _loc4_:Function = this.partyDistro[_loc2_][_loc3_];
+         var _loc5_:Object = this.partyDistro[_loc2_][_loc3_ + OrderUnit.probableLip(GullibleLook.legBack)];
+         SeriousRare.partyAdvise(_loc4_,_loc5_);
       }
       
-      public function fragileAmuse() : void
+      public function probableViolet() : void
       {
          if(parent)
          {
@@ -147,27 +131,38 @@ package
          }
       }
       
-      public function seedObeisant(param1:InteractiveObject, param2:String, param3:Function = null, param4:Object = null) : void
+      public function hystericalColor(param1:Boolean = true) : ScaleWhistle
       {
-         if(!this.adviseAction[param1])
+         if(param1)
          {
-            this.adviseAction[param1] = new Dictionary();
-         }
-         if(param3)
-         {
-            this.adviseAction[param1][param2] = param3;
-            this.adviseAction[param1][param2 + RecogniseCompetition.mouseDelightful(GroundFour.alansonAmuse)] = param4;
-            param1.addEventListener(param2,this.patMighty);
+            this.cardOrange.addEventListener(FocusEvent.FOCUS_IN,this.alansonViolet);
+            this.cardOrange.addEventListener(FocusEvent.FOCUS_OUT,this.alansonViolet);
          }
          else
          {
-            delete this.adviseAction[param1][param2];
-            delete this.adviseAction[param1][param2 + GroundFour.alansonAmuse];
-            param1.removeEventListener(param2,this.patMighty);
+            this.cardOrange.removeEventListener(FocusEvent.FOCUS_IN,this.alansonViolet);
+            this.cardOrange.removeEventListener(FocusEvent.FOCUS_OUT,this.alansonViolet);
+         }
+         if(StalePinus.halfWaiting.sistersHate.focus == this.cardOrange)
+         {
+            this.swankyChivalrous();
+         }
+         return this;
+      }
+      
+      public function satisfyAgreeable(param1:KeyboardEvent) : void
+      {
+         if(BirdOranges.groundSerious == param1.keyCode)
+         {
+            if(this.cardOrange.whisperAnnoying())
+            {
+               this.lightGate();
+               param1.stopPropagation();
+            }
          }
       }
       
-      public function proudBird(param1:FocusEvent) : void
+      public function alansonViolet(param1:FocusEvent) : void
       {
          var _loc2_:SwankyOranges = null;
          var _loc3_:Array = null;
@@ -177,7 +172,7 @@ package
             {
                _loc2_ = SwankyOranges(param1.currentTarget);
                _loc3_ = _loc2_.filters;
-               _loc3_.unshift(ScaleWhistle.peckSand);
+               _loc3_.unshift(ScaleWhistle.cryLarge);
                _loc2_.filters = _loc3_;
             }
          }
@@ -187,7 +182,7 @@ package
             {
                _loc2_ = SwankyOranges(param1.currentTarget);
                _loc3_ = _loc2_.filters;
-               if(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) < _loc3_.length)
+               if(OrderUnit.apatheticRare(ReligionStore.trailInstruct) < _loc3_.length)
                {
                   _loc3_.shift();
                }
@@ -196,19 +191,24 @@ package
          }
       }
       
-      public function alluringWaiting(param1:String, param2:Function = null, param3:Object = null) : ScaleWhistle
+      public function stickAgreeable(param1:String, param2:Boolean = false) : ScaleWhistle
       {
-         this.thickBury.unequaledPipka(param1);
-         this.pipkaBack = param2;
-         this.swankySuzuka = param3;
+         if(param2)
+         {
+            if(!this.squeamishArmy)
+            {
+               this.chickensAlluring.quirkyHeal();
+               this.squeamishArmy = HateFaint.proudGround;
+            }
+            this.chickensAlluring.htmlText = param1;
+         }
+         else
+         {
+            this.chickensAlluring.text = param1;
+         }
+         storeObeisant();
+         crackerIcy(storeAmuse,milkyHalf(false));
          return this;
-      }
-      
-      public function halfBurn() : void
-      {
-         this.fragileAmuse();
-         SeriousRare.coalPanoramic(this.pipkaBack,this.swankySuzuka);
-         AdmireStore.proseWindy.competitionGaping.focus = AdmireStore.proseWindy;
       }
    }
 }

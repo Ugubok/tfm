@@ -4,17 +4,17 @@ package
    {
        
       
-      public var toeRay:Number;
+      public var wingBury:Number;
       
-      public var lipHysterical:Number;
+      public var gateKotsky:Number;
       
-      public var distroMilky:Number;
+      public var largeInexpensive:Number;
       
-      public var robinPrepare:int;
+      public var probableInexpensive:int;
       
-      public var lookCompetition:Boolean;
+      public var zonkedQuirky:Boolean;
       
-      public var harmonyCry:Boolean;
+      public var waitingBathe:Boolean;
       
       public function SignBabies()
       {

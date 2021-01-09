@@ -6,15 +6,15 @@ package
    {
        
       
-      public var joyousGullible:int;
+      public var scratchKotsky:int;
       
-      public var crimeSuper:int;
+      public var touchBurn:int;
       
       public function PinusRequest(param1:ByteArray)
       {
          super(param1);
-         this.joyousGullible = param1.readInt();
-         this.crimeSuper = param1.readByte();
+         this.scratchKotsky = param1.readByte();
+         this.touchBurn = param1.readByte();
       }
    }
 }

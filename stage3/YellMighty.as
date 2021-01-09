@@ -6,32 +6,32 @@ package
    {
        
       
-      public var entertainingHateful:int;
+      public var planHalf:int;
       
-      public var juiceComplex:String;
+      public var lookBashful:String;
       
-      public var metalAgree:String;
+      public var laborerOrder:String;
       
-      public var agonizingDeliver:int;
+      public var wingAbaft:int;
       
-      public var tastelessPanoramic:int;
+      public var cardLarge:int;
       
-      public var instructAgonizing:String;
+      public var programFix:String;
       
-      public var hatefulDeadpan:int;
+      public var seriousObtainable:int;
       
       public function YellMighty(param1:ByteArray)
       {
-         this.juiceComplex = LipStore.warlikeKuruma;
+         this.lookBashful = OrderUnit.probableLip(DildoBorrow.tiresomeTiresome);
          super();
-         this.entertainingHateful = param1.readInt();
-         this.metalAgree = param1.readUTF();
-         this.agonizingDeliver = param1.readInt();
-         this.tastelessPanoramic = param1.readInt();
-         this.instructAgonizing = param1.readUTF();
-         this.hatefulDeadpan = param1.readInt();
-         this.metalAgree = this.metalAgree.replace(/</g,RecogniseCompetition.mouseDelightful(DeterminedWarlike.crashCrown)).replace(/&/g,AlansonReligion.obtainableGround);
-         this.metalAgree = ChickensInexpensive.prepareWicked(this.metalAgree,AdviseRobin.clubSubdued);
+         this.planHalf = param1.readInt();
+         this.laborerOrder = param1.readUTF();
+         this.wingAbaft = param1.readInt();
+         this.cardLarge = param1.readInt();
+         this.programFix = param1.readUTF();
+         this.seriousObtainable = param1.readInt();
+         this.laborerOrder = this.laborerOrder.replace(/</g,ReligionStore.legRequest).replace(/&/g,OrderUnit.probableLip(PrepareLip.thickSpurious));
+         this.laborerOrder = ChickensInexpensive.hangingCrown(this.laborerOrder,OrderUnit.probableLip(DildoBorrow.metalAdaptable));
       }
    }
 }

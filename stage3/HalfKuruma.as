@@ -4,22 +4,22 @@ package
    {
        
       
-      public var suzukaBashful:KnotSwanky;
+      public var lamentablePipka:KnotSwanky;
       
       public function HalfKuruma()
       {
-         this.suzukaBashful = new KnotSwanky();
+         this.lamentablePipka = new KnotSwanky();
          super();
       }
       
-      public function rareCrib(param1:SubduedRequest, param2:Number, param3:Number) : KnotSwanky
+      public function icyBathe(param1:SubduedRequest, param2:Number, param3:Number) : KnotSwanky
       {
-         return this.suzukaBashful;
+         return this.lamentablePipka;
       }
       
-      public function tiresomeRare(param1:SubduedRequest) : KnotSwanky
+      public function unequaledPanoramic(param1:SubduedRequest) : KnotSwanky
       {
-         return this.suzukaBashful;
+         return this.lamentablePipka;
       }
    }
 }

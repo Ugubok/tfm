@@ -6,9 +6,9 @@ package
       
       public function DeadpanCrib(param1:int, param2:int)
       {
-         super(RecogniseCompetition.prepareAgree(LaborerFeeble.knifeParty),RecogniseCompetition.prepareAgree(ArmyObtainable.orangesAction));
-         staySigh.writeInt(param1);
-         staySigh.writeInt(param2);
+         super(OrderUnit.apatheticRare(WaitingCrib.statementDecay),OrderUnit.apatheticRare(BatheKotsky.agonizingStomach));
+         lamentableSpurious.writeInt(param1);
+         lamentableSpurious.writeByte(param2);
       }
    }
 }

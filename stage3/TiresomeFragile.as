@@ -6,12 +6,12 @@ package
    {
        
       
-      public var harmonyAgonizing:Boolean;
+      public var knifeStick:int;
       
       public function TiresomeFragile(param1:ByteArray)
       {
          super(param1);
-         this.harmonyAgonizing = param1.readByte() == CoalRay.actionBorrow;
+         this.knifeStick = param1.readShort();
       }
    }
 }

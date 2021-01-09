@@ -6,72 +6,72 @@ package
    {
        
       
-      public var whistleHydrant:int;
+      public var requestStay:int;
       
-      public var groundPat:Boolean;
+      public var scaleSuper:Boolean;
       
-      public var prepareScratch:int;
+      public var religionSlip:int;
       
-      public var zonkedJuice:int;
+      public var milkySupply:int;
       
-      public var trembleDeadpan:int;
+      public var crowdedFragile:int;
       
-      public var scintillatingCoal:int;
+      public var storeAmuse:int;
       
-      public var delightfulAlanson:int;
+      public var babiesSubdued:int;
       
-      public var agonizingRobin:Boolean;
+      public var halfCry:Boolean;
       
-      public var adviseChop:Number;
+      public var bagAgonizing:Number;
       
-      public var zonkedArmy:Number;
+      public var scaleJoyous:Number;
       
       public var rotation:int;
       
       public var couleur:Boolean;
       
-      public var rareDetermined:int;
+      public var coalMouse:int;
       
-      public var bladeBack:Boolean;
+      public var requestAlluring:Boolean;
       
-      public var scintillatingHanging:Boolean;
+      public var alansonCrash:Boolean;
       
-      public var labelConfused:Boolean;
+      public var babiesFrail:Boolean;
       
-      public var swankyViolet:int;
+      public var yellFragile:int;
       
-      public var alluringSense:Number;
+      public var sighComplex:Number;
       
-      public var crimeHeal:Number;
+      public var inviteSupply:Number;
       
-      public var gapingGullible:Boolean;
+      public var hystericalSuper:Boolean;
       
-      public var crowdedReligion:String;
+      public var bladeMighty:String;
       
       public function HistoricalCard(param1:ByteArray)
       {
          super(param1);
-         this.whistleHydrant = param1.readShort();
-         this.groundPat = param1.readBoolean();
-         this.prepareScratch = param1.readByte();
-         this.zonkedJuice = param1.readShort();
-         this.trembleDeadpan = param1.readShort();
-         this.scintillatingCoal = param1.readShort();
-         this.delightfulAlanson = param1.readShort();
-         this.agonizingRobin = param1.readBoolean();
-         this.adviseChop = param1.readShort() / RecogniseCompetition.prepareAgree(RayYell.seriousOrange);
-         this.zonkedArmy = param1.readShort() / RayYell.seriousOrange;
+         this.requestStay = param1.readShort();
+         this.scaleSuper = param1.readBoolean();
+         this.religionSlip = param1.readByte();
+         this.milkySupply = param1.readShort();
+         this.crowdedFragile = param1.readShort();
+         this.storeAmuse = param1.readShort();
+         this.babiesSubdued = param1.readShort();
+         this.halfCry = param1.readBoolean();
+         this.bagAgonizing = param1.readShort() / WanderingDecay.healQuirky;
+         this.scaleJoyous = param1.readShort() / OrderUnit.apatheticRare(WanderingDecay.healQuirky);
          this.rotation = param1.readShort();
          this.couleur = param1.readBoolean();
-         this.rareDetermined = param1.readInt();
-         this.bladeBack = param1.readBoolean();
-         this.scintillatingHanging = param1.readBoolean();
-         this.labelConfused = param1.readBoolean();
-         this.swankyViolet = param1.readShort();
-         this.alluringSense = param1.readShort() / RecogniseCompetition.prepareAgree(RayYell.seriousOrange);
-         this.crimeHeal = param1.readShort() / RecogniseCompetition.prepareAgree(RayYell.seriousOrange);
-         this.gapingGullible = param1.readBoolean();
-         this.crowdedReligion = param1.readUTF();
+         this.coalMouse = param1.readInt();
+         this.requestAlluring = param1.readBoolean();
+         this.alansonCrash = param1.readBoolean();
+         this.babiesFrail = param1.readBoolean();
+         this.yellFragile = param1.readShort();
+         this.sighComplex = param1.readShort() / OrderUnit.apatheticRare(WanderingDecay.healQuirky);
+         this.inviteSupply = param1.readShort() / OrderUnit.apatheticRare(WanderingDecay.healQuirky);
+         this.hystericalSuper = param1.readBoolean();
+         this.bladeMighty = param1.readUTF();
       }
    }
 }

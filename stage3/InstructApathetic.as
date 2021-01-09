@@ -6,29 +6,29 @@ package
    {
        
       
-      public var halfLaborer:String;
+      public var grateCrowded:String;
       
-      public var jumbledMighty:Dictionary;
+      public var uncleColor:Dictionary;
       
       public function InstructApathetic(param1:String, param2:String)
       {
          var _loc6_:String = null;
          var _loc7_:int = 0;
          var _loc8_:String = null;
-         this.jumbledMighty = new Dictionary();
+         this.uncleColor = new Dictionary();
          super();
-         this.halfLaborer = param1;
-         var _loc3_:Array = param2.split(BerryMouse.agreeChop);
+         this.grateCrowded = param1;
+         var _loc3_:Array = param2.split(PrepareLip.faintPinus);
          var _loc4_:int = _loc3_.length;
-         var _loc5_:int = -CoalRay.actionBorrow;
+         var _loc5_:int = -OrderUnit.apatheticRare(CardBabies.machineOranges);
          while(++_loc5_ < _loc4_)
          {
             _loc6_ = _loc3_[_loc5_];
-            _loc7_ = _loc6_.indexOf(BalvankaNotebook.seedKotsky);
-            if(_loc7_ != -CoalRay.actionBorrow)
+            _loc7_ = _loc6_.indexOf(OrderUnit.probableLip(PinusSand.legCurved));
+            if(_loc7_ != -CardBabies.machineOranges)
             {
-               _loc8_ = _loc6_.substr(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),_loc7_);
-               this.jumbledMighty[_loc8_] = _loc6_.substr(_loc7_ + RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
+               _loc8_ = _loc6_.substr(OrderUnit.apatheticRare(ReligionStore.trailInstruct),_loc7_);
+               this.uncleColor[_loc8_] = _loc6_.substr(OrderUnit.apatheticRare(CardBabies.machineOranges) + _loc7_);
             }
          }
       }

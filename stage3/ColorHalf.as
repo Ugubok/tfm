@@ -6,17 +6,17 @@ package
    {
        
       
-      public var confusedParty:BabiesHistorical;
+      public var warlikeCoal:BabiesHistorical;
       
-      public var crowdedWhisper:int;
+      public var illustriousCard:int;
       
-      public var abaftSlip:Boolean = false;
+      public var harmonyOranges:Boolean = false;
       
       public function ColorHalf(param1:BabiesHistorical)
       {
          super();
-         this.confusedParty = param1;
-         this.crowdedWhisper = getTimer() + CoalRay.feebleObtainable;
+         this.warlikeCoal = param1;
+         this.illustriousCard = getTimer() + OrderUnit.apatheticRare(LargeComplex.commonFeeble);
       }
    }
 }

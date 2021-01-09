@@ -9,317 +9,304 @@ package
    public class SpuriousRobin extends Sprite
    {
       
-      public static var proseWindy:SpuriousRobin;
+      public static var halfWaiting:SpuriousRobin;
        
       
-      public var bruiseBashful:SeriousFragile;
+      public var satisfyProgram:SeriousFragile;
       
-      public var dildoPipka:SeriousFragile;
+      public var fourYell:SeriousFragile;
       
-      public var unitFascinated:SeriousFragile;
+      public var cardProgram:SeriousFragile;
       
-      public var milkyHate:Boolean = false;
+      public var crownNoxious:Boolean = false;
       
-      public var pearHateful:Boolean = false;
+      public var apatheticFeeble:Boolean = false;
       
-      public var coalStomach:MovieClip;
+      public var joyousRare:MovieClip;
       
-      public var determinedTiresome:MovieClip;
+      public var entertainingWaiting:MovieClip;
       
-      public var kotskyAgreeable:Boolean = false;
+      public var batheAdmire:Boolean = false;
       
-      public var healStatement:Boolean = true;
+      public var inexpensiveSign:Boolean = true;
       
-      public var berryCrown:Vector.<FeebleFascinated>;
+      public var tastelessGround:Vector.<FeebleFascinated>;
       
-      public var peckMighty:Vector.<FeebleFascinated>;
+      public var fascinatedSigh:Vector.<FeebleFascinated>;
       
-      public var agonizingLunasole:Object;
+      public var subduedTiresome:Object;
       
-      public var pinusProbable:Number;
+      public var waitingAdmire:Number;
       
-      public var lunasoleAlanson:Number;
+      public var taxNoxious:Number;
       
-      public var sighWatery:Boolean;
+      public var bashfulNoxious:Boolean;
       
-      public var orangeInjure:Boolean;
+      public var swankyStatement:Boolean;
       
       public function SpuriousRobin()
       {
-         this.berryCrown = new Vector.<FeebleFascinated>();
-         this.peckMighty = new Vector.<FeebleFascinated>();
+         this.tastelessGround = new Vector.<FeebleFascinated>();
+         this.fascinatedSigh = new Vector.<FeebleFascinated>();
          super();
-         this.bruiseBashful = new SeriousFragile(RecogniseCompetition.prepareAgree(HystericalKotsky.complexPear),GroundFour.scaleHalf);
-         this.bruiseBashful.knotSqueamish(new FragileScale(ChickensScintillating.trembleCard));
-         addChild(this.bruiseBashful);
-         this.dildoPipka = new SeriousFragile(RecogniseCompetition.prepareAgree(HystericalKotsky.complexPear),MetalDetermined.signBury);
-         this.dildoPipka.knotSqueamish(new FragileScale(ChickensScintillating.clubAdaptable,DeterminedWarlike.harmonyCoal));
-         this.determinedTiresome = AgreeableHistorical.probableCute(RecogniseCompetition.mouseDelightful(DeterminedWarlike.decayHysterical));
-         this.determinedTiresome.scaleX = this.determinedTiresome.scaleY = AdviseRobin.satisfyGaping;
-         this.determinedTiresome.alpha = CoalRay.orangeOrange;
-         this.determinedTiresome.cacheAsBitmap = DeterminedPrepare.hatefulComplex;
-         this.determinedTiresome.addEventListener(MouseEvent.MOUSE_DOWN,this.orderList);
-         this.dildoPipka.cuteProse(this.determinedTiresome);
-         this.coalStomach = AgreeableHistorical.probableCute(RecogniseCompetition.mouseDelightful(GroundFour.largeConfused));
-         this.coalStomach.scaleX = this.coalStomach.scaleY = RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping);
-         this.coalStomach.alpha = CoalRay.orangeOrange;
-         this.coalStomach.cacheAsBitmap = DeterminedPrepare.hatefulComplex;
-         this.coalStomach.addEventListener(MouseEvent.MOUSE_DOWN,this.suzukaCoal);
-         this.dildoPipka.cuteProse(this.coalStomach);
-         this.unitFascinated = new SeriousFragile(AdviseRobin.gateMouse,RecogniseCompetition.prepareAgree(HystericalKotsky.complexPear));
-         this.unitFascinated.knotSqueamish(new FragileScale(ChickensScintillating.laborerPail));
-         if(this.cribStore.satisfyCracker(true,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
-            this.unitFascinated.addEventListener(MouseEvent.MOUSE_DOWN,this.partyRecognise);
-            this.unitFascinated.addEventListener(MouseEvent.MOUSE_UP,this.determinedStomach);
-            this.unitFascinated.addEventListener(MouseEvent.MOUSE_MOVE,this.buryStick);
-            this.unitFascinated.addEventListener(MouseEvent.MOUSE_OUT,this.superOrange);
-            this.unitFascinated.addEventListener(MouseEvent.MOUSE_OVER,this.religionPinus);
+         this.satisfyProgram = new SeriousFragile(OrderUnit.apatheticRare(CreatorSupply.hatefulBlade),OrderUnit.apatheticRare(AdmireUncle.warlikeSqueamish));
+         this.satisfyProgram.agreeableRobin(new FragileScale(ChickensScintillating.distroStick));
+         addChild(this.satisfyProgram);
+         this.fourYell = new SeriousFragile(CreatorSupply.hatefulBlade,OrderUnit.apatheticRare(CreatorSupply.burnAdaptable));
+         this.fourYell.agreeableRobin(new FragileScale(ChickensScintillating.robinKnot,GullibleLook.uncleHysterical));
+         this.entertainingWaiting = AgreeableHistorical.admireCute(SlipReligion.scintillatingMighty);
+         this.entertainingWaiting.scaleX = this.entertainingWaiting.scaleY = OrderUnit.apatheticRare(AdmireUncle.crimeCreator);
+         this.entertainingWaiting.alpha = AdmireUncle.mouseBabies;
+         this.entertainingWaiting.cacheAsBitmap = HateFaint.proudGround;
+         this.entertainingWaiting.addEventListener(MouseEvent.MOUSE_DOWN,this.violetSatisfy);
+         this.fourYell.icyCry(this.entertainingWaiting);
+         this.joyousRare = AgreeableHistorical.admireCute(OrderUnit.probableLip(WanderingDecay.wingFlower));
+         this.joyousRare.scaleX = this.joyousRare.scaleY = OrderUnit.apatheticRare(AdmireUncle.crimeCreator);
+         this.joyousRare.alpha = AdmireUncle.mouseBabies;
+         this.joyousRare.cacheAsBitmap = HateFaint.proudGround;
+         this.joyousRare.addEventListener(MouseEvent.MOUSE_DOWN,this.rareFlower);
+         this.fourYell.icyCry(this.joyousRare);
+         this.cardProgram = new SeriousFragile(ReligionStore.pailDecay,OrderUnit.apatheticRare(CreatorSupply.hatefulBlade));
+         this.cardProgram.agreeableRobin(new FragileScale(ChickensScintillating.peckConfused));
+         if(this.mouseTremble.crashConfused(true,CardBabies.machineOranges);
+            this.cardProgram.addEventListener(MouseEvent.MOUSE_DOWN,this.touchCracker);
+            this.cardProgram.addEventListener(MouseEvent.MOUSE_UP,this.seedBag);
+            this.cardProgram.addEventListener(MouseEvent.MOUSE_MOVE,this.orangeStick);
+            this.cardProgram.addEventListener(MouseEvent.MOUSE_OUT,this.frailInjure);
+            this.cardProgram.addEventListener(MouseEvent.MOUSE_OVER,this.wickedKuruma);
          }
          else
          {
-            this.unitFascinated.satisfyCracker(true);
+            this.cardProgram.crashConfused(true);
          }
-         this.bruiseBashful.cuteProse(this.unitFascinated);
-         this.bruiseBashful.cuteProse(this.dildoPipka);
-         this.bruiseBashful.x = BerryMouse.distroWicked;
-         this.stupidFaint(FeebleFascinated.annoyingAir(-RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),true),true);
-         this.stupidFaint(FeebleFascinated.annoyingAir(BurnAlanson.apatheticRay,HystericalKotsky.notebookChivalrous,true),true);
-         this.stupidFaint(FeebleFascinated.annoyingAir(BurnAlanson.hydrantBurn,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),true),true);
-         this.stupidFaint(FeebleFascinated.annoyingAir(BurnAlanson.agreeableYell,HystericalKotsky.notebookChivalrous,true),true);
-         this.stupidFaint(FeebleFascinated.annoyingAir(BurnAlanson.hydrantCracker,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),true),true);
-         this.stupidFaint(FeebleFascinated.annoyingAir(BurnAlanson.crackerWing,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),true),true);
-         addEventListener(Event.ADDED_TO_STAGE,this.chopBorrow);
+         this.satisfyProgram.icyCry(this.cardProgram);
+         this.satisfyProgram.icyCry(this.fourYell);
+         this.satisfyProgram.x = PrepareLip.competitionSupply;
+         this.cribSuzuka(FeebleFascinated.wanderingDistro(-CardBabies.machineOranges,ReligionStore.trailInstruct,true),true);
+         this.cribSuzuka(FeebleFascinated.wanderingDistro(SatisfyStomach.distroInexpensive,OrderUnit.apatheticRare(ReligionStore.trailInstruct),true),true);
+         this.cribSuzuka(FeebleFascinated.wanderingDistro(SatisfyStomach.patJumbled,OrderUnit.apatheticRare(ReligionStore.trailInstruct),true),true);
+         this.cribSuzuka(FeebleFascinated.wanderingDistro(SatisfyStomach.orangeMachine,ReligionStore.trailInstruct,true),true);
+         this.cribSuzuka(FeebleFascinated.wanderingDistro(SatisfyStomach.gullibleChop,OrderUnit.apatheticRare(ReligionStore.trailInstruct),true),true);
+         this.cribSuzuka(FeebleFascinated.wanderingDistro(SatisfyStomach.suzukaUnequaled,OrderUnit.apatheticRare(ReligionStore.trailInstruct),true),true);
+         addEventListener(Event.ADDED_TO_STAGE,this.grateStore);
       }
       
-      public static function orangeBack() : SpuriousRobin
+      public static function orangeToe() : void
       {
-         if(!SpuriousRobin.proseWindy)
+         if(SpuriousRobin.halfWaiting && SpuriousRobin.halfWaiting.parent)
          {
-            SpuriousRobin.proseWindy = new SpuriousRobin();
+            SpuriousRobin.halfWaiting.parent.removeChild(SpuriousRobin.halfWaiting);
          }
-         return SpuriousRobin.proseWindy;
       }
       
-      public static function staleStatement() : void
+      public static function buryLabel() : SpuriousRobin
       {
-         if(SpuriousRobin.proseWindy && SpuriousRobin.proseWindy.parent)
+         if(!SpuriousRobin.halfWaiting)
          {
-            SpuriousRobin.proseWindy.parent.removeChild(SpuriousRobin.proseWindy);
+            SpuriousRobin.halfWaiting = new SpuriousRobin();
          }
+         return SpuriousRobin.halfWaiting;
       }
       
-      public function stupidFaint(param1:FeebleFascinated, param2:Boolean = false) : void
+      public function grateStore(param1:Event) : void
       {
-         param1.scaleX = param1.scaleY = RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
+         addEventListener(WaitingCrib.gateFrail,this.requestBorrow);
+      }
+      
+      public function cribSuzuka(param1:FeebleFascinated, param2:Boolean = false) : void
+      {
+         param1.scaleX = param1.scaleY = OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
          if(param2)
          {
-            this.peckMighty.push(param1);
-            param1.addEventListener(MouseEvent.MOUSE_UP,this.complexUncle);
+            this.fascinatedSigh.push(param1);
+            param1.addEventListener(MouseEvent.MOUSE_UP,this.flowerColor);
          }
          else
          {
-            this.berryCrown.push(param1);
-            param1.addEventListener(MouseEvent.MOUSE_UP,this.knotHistorical);
+            this.tastelessGround.push(param1);
+            param1.addEventListener(MouseEvent.MOUSE_UP,this.obeisantSubdued);
          }
       }
       
-      public function instructAction() : void
+      public function obeisantIllustrious() : void
       {
-         this.unitFascinated.programVolcano();
-         this.berryCrown.length = HystericalKotsky.notebookChivalrous;
+         this.cardProgram.obeisantAdaptable();
+         this.tastelessGround.length = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
       }
       
-      public function metalFour(param1:Event) : void
+      public function requestBorrow(param1:Event) : void
       {
          if(!stage)
          {
-            removeEventListener(RecogniseCompetition.mouseDelightful(BalvankaNotebook.programOrder),this.metalFour);
+            removeEventListener(OrderUnit.probableLip(WaitingCrib.gateFrail),this.requestBorrow);
             return;
          }
-         if(this.milkyHate && RobinAdaptable.stomachFaithful.x > RecogniseCompetition.prepareAgree(ConfusedPeck.competitionUnequaled))
+         if(this.crownNoxious && RobinAdaptable.pailBurn.x > OrderUnit.apatheticRare(ReligionStore.patZonked))
          {
-            this.milkyHate = DeterminedPrepare.machineSigh;
-            this.bruiseBashful.x = BerryMouse.distroWicked;
-            if(this.healStatement)
-            {
-               this.notebookDildo();
+            this.crownNoxious = HateFaint.bladeStatement;
+            this.satisfyProgram.x = PrepareLip.competitionSupply;
+            if(this.notebookFascinated();
             }
          }
-         else if(!this.milkyHate && RobinAdaptable.stomachFaithful.x < DeterminedWarlike.crackerCrash)
+         else if(!this.crownNoxious && RobinAdaptable.pailBurn.x < BatheKotsky.eliteCoal)
          {
-            this.milkyHate = DeterminedPrepare.hatefulComplex;
-            this.bruiseBashful.x = -this.bruiseBashful.scintillatingCoal + RecogniseCompetition.prepareAgree(LaborerFeeble.cardAbaft);
-            if(this.healStatement)
-            {
-               this.notebookDildo();
+            this.crownNoxious = HateFaint.proudGround;
+            this.satisfyProgram.x = -this.satisfyProgram.storeAmuse + OrderUnit.apatheticRare(GullibleLook.unequaledPinus);
+            if(this.notebookFascinated();
             }
          }
       }
       
-      public function chopBorrow(param1:Event) : void
+      public function rareFlower(param1:Event = null) : void
       {
-         addEventListener(BalvankaNotebook.programOrder,this.metalFour);
+         AlansonBird.violetKnife(null);
       }
       
-      public function suzukaCoal(param1:Event = null) : void
+      public function violetSatisfy(param1:Event = null) : void
       {
-         AlansonBird.partyBag(null);
+         this.pipkaHysterical();
+         AlansonBird.spuriousMighty();
       }
       
-      public function orderList(param1:Event = null) : void
+      public function pipkaHysterical() : void
       {
-         this.thickNoiseless();
-         AlansonBird.religionSatisfy();
-      }
-      
-      public function thickNoiseless() : void
-      {
-         this.unitFascinated.programVolcano();
-         var _loc1_:int = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         var _loc2_:int = this.berryCrown.length;
+         this.cardProgram.obeisantAdaptable();
+         var _loc1_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         var _loc2_:int = this.tastelessGround.length;
          while(_loc1_ < _loc2_)
          {
-            this.unitFascinated.cuteProse(this.berryCrown[_loc1_]);
+            this.cardProgram.icyCry(this.tastelessGround[_loc1_]);
             _loc1_++;
          }
-         this.pearHateful = HystericalKotsky.lunasoleHate < this.unitFascinated.warlikeStatement;
-         this.coalStomach.alpha = CoalRay.orangeOrange;
-         this.determinedTiresome.alpha = RecogniseCompetition.scaleCrown(CoalRay.orangeOrange);
+         this.apatheticFeeble = this.gullibleList > StupidCoal.chivalrousSatisfy;
+         this.joyousRare.alpha = AdmireUncle.mouseBabies;
+         this.entertainingWaiting.alpha = OrderUnit.noiselessGullible(AdmireUncle.mouseBabies);
       }
       
-      public function zonkedOrder(param1:FeebleFascinated) : void
+      public function machineRequest(param1:FeebleFascinated) : void
       {
-         this.unitFascinated.programVolcano();
-         var _loc2_:int = HystericalKotsky.notebookChivalrous;
-         var _loc3_:int = this.peckMighty.length;
+         this.cardProgram.obeisantAdaptable();
+         var _loc2_:int = ReligionStore.trailInstruct;
+         var _loc3_:int = this.fascinatedSigh.length;
          for(; _loc2_ < _loc3_; _loc2_++)
          {
-            if(this.peckMighty[_loc2_].bagClub == BurnAlanson.hydrantBurn)
+            if(this.fascinatedSigh[_loc2_].loafViolet == SatisfyStomach.patJumbled)
             {
-               if(param1.bagClub != BurnAlanson.bladeViolet && param1.bagClub != BurnAlanson.volcanoReligion || AdmireStore.proseWindy.amuseCry > SeriousViolet.NORMAL)
+               if(param1.loafViolet != SatisfyStomach.faithfulApathetic && param1.loafViolet != SatisfyStomach.lookCard || StalePinus.halfWaiting.bruisePear > SeriousViolet.NORMAL)
                {
                   continue;
                }
             }
-            else if(this.peckMighty[_loc2_].bagClub == BurnAlanson.apatheticRay)
+            else if(this.fascinatedSigh[_loc2_].loafViolet == SatisfyStomach.distroInexpensive)
             {
-               if(SeriousViolet.stomachLight == AdmireStore.proseWindy.amuseCry)
+               if(SeriousViolet.inviteRecognise == StalePinus.halfWaiting.bruisePear)
                {
                   continue;
                }
             }
-            this.unitFascinated.cuteProse(this.peckMighty[_loc2_]);
+            this.cardProgram.icyCry(this.fascinatedSigh[_loc2_]);
          }
-         this.pearHateful = this.unitFascinated.warlikeStatement > HystericalKotsky.lunasoleHate;
-         this.coalStomach.alpha = RecogniseCompetition.scaleCrown(AnusSeed.lipStomach);
-         this.determinedTiresome.alpha = AnusSeed.lipStomach;
+         this.apatheticFeeble = StupidCoal.chivalrousSatisfy < this.gullibleList;
+         this.joyousRare.alpha = OrderUnit.noiselessGullible(WaitingCrib.metalAnnoying);
+         this.entertainingWaiting.alpha = OrderUnit.noiselessGullible(WaitingCrib.metalAnnoying);
       }
       
-      public function notebookDildo() : void
+      public function pipkaFaint() : void
       {
-         this.dildoPipka.programVolcano();
-         if(this.milkyHate)
+         this.fourYell.obeisantAdaptable();
+         if(this.crownNoxious)
          {
-            this.dildoPipka.cuteProse(this.determinedTiresome);
-            this.dildoPipka.cuteProse(this.coalStomach);
+            this.fourYell.icyCry(this.entertainingWaiting);
+            this.fourYell.icyCry(this.joyousRare);
          }
          else
          {
-            this.dildoPipka.cuteProse(this.coalStomach);
-            this.dildoPipka.cuteProse(this.determinedTiresome);
+            this.fourYell.icyCry(this.joyousRare);
+            this.fourYell.icyCry(this.entertainingWaiting);
          }
       }
       
-      public function partyRecognise(param1:MouseEvent) : void
+      public function touchCracker(param1:MouseEvent) : void
       {
-         this.pinusProbable = this.lunasoleAlanson = param1.stageY;
-         this.agonizingLunasole = param1.target;
-         this.orangeInjure = DeterminedPrepare.hatefulComplex;
+         this.waitingAdmire = this.taxNoxious = param1.stageY;
+         this.subduedTiresome = param1.target;
+         this.swankyStatement = HateFaint.proudGround;
       }
       
-      public function complexUncle(param1:MouseEvent) : void
+      public function flowerColor(param1:MouseEvent) : void
       {
          var _loc2_:FeebleFascinated = null;
-         if(!this.sighWatery)
+         if(!this.bashfulNoxious)
          {
             _loc2_ = param1.currentTarget as FeebleFascinated;
-            if(BurnAlanson.apatheticRay == _loc2_.bagClub)
+            if(SatisfyStomach.distroInexpensive == _loc2_.loafViolet)
             {
-               WingLip.agreeAnnoying(new KeyboardEvent(KeyboardEvent.KEY_DOWN,true,false,BirdOranges.adaptablePrepare,BirdOranges.adaptablePrepare));
+               WingLip.harmonyTremble(new KeyboardEvent(KeyboardEvent.KEY_DOWN,true,false,BirdOranges.flowerPipka,BirdOranges.flowerPipka));
             }
-            else if(BurnAlanson.agreeableYell == _loc2_.bagClub)
+            else if(_loc2_.loafViolet == SatisfyStomach.orangeMachine)
             {
-               WingLip.agreeAnnoying(new KeyboardEvent(KeyboardEvent.KEY_DOWN,true,false,BirdOranges.curvedSense,BirdOranges.curvedSense));
+               WingLip.harmonyTremble(new KeyboardEvent(KeyboardEvent.KEY_DOWN,true,false,BirdOranges.crowdedFix,BirdOranges.crowdedFix));
             }
-            else if(BurnAlanson.hydrantBurn == _loc2_.bagClub)
+            else if(SatisfyStomach.patJumbled == _loc2_.loafViolet)
             {
-               WingLip.agreeAnnoying(new KeyboardEvent(KeyboardEvent.KEY_DOWN,true,false,BirdOranges.gullibleToe,BirdOranges.gullibleToe));
+               WingLip.harmonyTremble(new KeyboardEvent(KeyboardEvent.KEY_DOWN,true,false,BirdOranges.decayHateful,BirdOranges.decayHateful));
             }
-            else if(BurnAlanson.hydrantCracker == _loc2_.bagClub)
+            else if(_loc2_.loafViolet == SatisfyStomach.gullibleChop)
             {
-               WingLip.agreeAnnoying(new KeyboardEvent(KeyboardEvent.KEY_DOWN,true,false,BirdOranges.stomachCurved,BirdOranges.stomachCurved));
+               WingLip.harmonyTremble(new KeyboardEvent(KeyboardEvent.KEY_DOWN,true,false,BirdOranges.groundIcy,BirdOranges.groundIcy));
             }
-            else if(BurnAlanson.crackerWing == _loc2_.bagClub)
+            else if(SatisfyStomach.suzukaUnequaled == _loc2_.loafViolet)
             {
-               WingLip.agreeAnnoying(new KeyboardEvent(KeyboardEvent.KEY_DOWN,true,false,BirdOranges.fixViolet,BirdOranges.fixViolet));
+               WingLip.harmonyTremble(new KeyboardEvent(KeyboardEvent.KEY_DOWN,true,false,BirdOranges.laborerMighty,BirdOranges.laborerMighty));
             }
-            else if(_loc2_.bagClub == -CoalRay.actionBorrow)
+            else if(_loc2_.loafViolet == -OrderUnit.apatheticRare(CardBabies.machineOranges))
             {
-               WingLip.agreeAnnoying(new KeyboardEvent(KeyboardEvent.KEY_DOWN,true,false,BirdOranges.gratePinus,BirdOranges.gratePinus));
+               WingLip.harmonyTremble(new KeyboardEvent(KeyboardEvent.KEY_DOWN,true,false,BirdOranges.touchWaiting,BirdOranges.touchWaiting));
             }
          }
-         this.sighWatery = DeterminedPrepare.machineSigh;
-         this.pinusProbable = this.lunasoleAlanson = HystericalKotsky.notebookChivalrous;
-         this.agonizingLunasole = null;
-         this.orangeInjure = DeterminedPrepare.machineSigh;
-      }
-      
-      public function knotHistorical(param1:MouseEvent) : void
+         this.bashfulNoxious = HateFaint.bladeStatement;
+         this.waitingAdmire = this.taxNoxious = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.subduedTiresome = null;
+         this.deadpanBury(param1:MouseEvent) : void
       {
          var _loc2_:FeebleFascinated = null;
-         if(!this.sighWatery)
+         if(!this.bashfulNoxious)
          {
             _loc2_ = param1.currentTarget as FeebleFascinated;
-            this.zonkedOrder(_loc2_);
-            AlansonBird.entertainingSuper(param1);
+            this.machineRequest(_loc2_);
+            AlansonBird.superLaborer(param1);
          }
-         this.sighWatery = DeterminedPrepare.machineSigh;
-         this.pinusProbable = this.lunasoleAlanson = HystericalKotsky.notebookChivalrous;
-         this.agonizingLunasole = null;
-         this.orangeInjure = DeterminedPrepare.machineSigh;
-      }
-      
-      public function determinedStomach(param1:MouseEvent) : void
+         this.bashfulNoxious = HateFaint.bladeStatement;
+         this.waitingAdmire = this.taxNoxious = ReligionStore.trailInstruct;
+         this.subduedTiresome = null;
+         this.subduedFix(param1:MouseEvent) : void
       {
-         this.sighWatery = DeterminedPrepare.machineSigh;
-         this.pinusProbable = this.lunasoleAlanson = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         this.agonizingLunasole = null;
-         this.orangeInjure = DeterminedPrepare.machineSigh;
-      }
-      
-      public function religionPinus(param1:MouseEvent) : void
+         this.bashfulNoxious = HateFaint.bladeStatement;
+         this.waitingAdmire = this.taxNoxious = ReligionStore.trailInstruct;
+         this.subduedTiresome = null;
+         this.subduedWindy(param1:MouseEvent) : void
       {
       }
       
-      public function superOrange(param1:MouseEvent) : void
+      public function frailInjure(param1:MouseEvent) : void
       {
-         if(param1.stageX < this.unitFascinated.x || param1.stageX > this.unitFascinated.x + this.unitFascinated.width || param1.stageY < this.unitFascinated.y || param1.stageY > this.unitFascinated.y + this.unitFascinated.height)
+         if(param1.stageX < this.cardProgram.x || param1.stageX > this.cardProgram.x + this.cardProgram.width || param1.stageY < this.cardProgram.y || param1.stageY > this.cardProgram.y + this.cardProgram.height)
          {
-            this.orangeInjure = DeterminedPrepare.machineSigh;
+            this.swankyStatement = HateFaint.bladeStatement;
          }
       }
       
-      public function buryStick(param1:MouseEvent) : void
+      public function orangeStick(param1:MouseEvent) : void
       {
          var _loc2_:Number = NaN;
          var _loc3_:Number = NaN;
-         if(this.pearHateful && this.orangeInjure)
+         if(this.apatheticFeeble && this.swankyStatement)
          {
             _loc2_ = param1.stageY;
-            _loc3_ = -this.lunasoleAlanson + _loc2_;
-            this.unitFascinated.thickIcy(_loc3_);
-            this.lunasoleAlanson = _loc2_;
-            this.sighWatery = DeterminedPrepare.hatefulComplex;
+            _loc3_ = -this.taxNoxious + _loc2_;
+            this.gapingSupply(_loc3_);
+            this.taxNoxious = _loc2_;
+            this.bashfulNoxious = HateFaint.proudGround;
          }
       }
    }

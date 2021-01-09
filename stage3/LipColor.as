@@ -9,19 +9,19 @@ package
          super();
       }
       
-      public static function stickFour(param1:int, param2:int, param3:int, param4:Boolean = true) : void
+      public static function distroFaithful(param1:int, param2:int, param3:int, param4:Boolean = true) : void
       {
-         if(param4 && AgreeableCrib.unitLook == RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+         if(param4 && AgreeableCrib.orangeEntertaining == OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
-            AnusGround.stupidMark(GroundFour.cryLamentable());
+            AnusGround.rareEntertaining(BurnFix.abaftList());
          }
-         AdmireStore.proseWindy.hangingReligion(WingKuruma.grateBalvanka,param1,param2,ArmyObtainable.kurumaBird,RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),false,HystericalKotsky.notebookChivalrous);
-         var _loc5_:PatWhistle = AdmireStore.proseWindy.quirkyLeg[WingKuruma.buryPanoramic];
+         StalePinus.halfWaiting.storeBlade(WingKuruma.pailChickens,param1,param2,OrderUnit.apatheticRare(GullibleLook.unequaledJumbled),PinusSand.jumbledTiresome,false,ReligionStore.trailInstruct);
+         var _loc5_:PatWhistle = StalePinus.halfWaiting.dildoPeck[WingKuruma.amuseList];
          var _loc6_:SlipAction = new SlipAction(_loc5_,false);
-         _loc6_.zonkedJuice = AdmireStore.proseWindy.squeamishWandering.x + param1 + param3 / LaborerFeeble.instructBathe;
-         _loc6_.trembleDeadpan = param2 + AdmireStore.proseWindy.squeamishWandering.y;
-         AdmireStore.proseWindy.agreeableAgreeable.obtainableChop.push(_loc6_);
-         AdmireStore.proseWindy.agreeableAgreeable.tiresomeCracker = DeterminedPrepare.hatefulComplex;
+         _loc6_.milkySupply = StalePinus.halfWaiting.notebookCompetition.x + param1 + param3 / PinusSand.jumbledTiresome;
+         _loc6_.crowdedFragile = StalePinus.halfWaiting.notebookCompetition.y + param2;
+         StalePinus.halfWaiting.anusBury.push(_loc6_);
+         StalePinus.halfWaiting.pipkaLamentable = HateFaint.proudGround;
       }
    }
 }

@@ -4,11 +4,11 @@ package
    {
        
       
-      public function StupidArmy(param1:int, param2:int)
+      public function StupidArmy(param1:String, param2:String)
       {
-         super(AdviseRobin.satisfyGaping,AlansonReligion.statementScratch);
-         staySigh.writeInt(param1);
-         staySigh.writeInt(param2);
+         super(AdmireUncle.crimeCreator,AdmireUncle.planLoaf);
+         lamentableSpurious.writeUTF(param1);
+         lamentableSpurious.writeUTF(param2);
       }
    }
 }

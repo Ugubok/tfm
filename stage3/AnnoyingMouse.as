@@ -6,23 +6,23 @@ package
    {
        
       
-      public var frailDeliver:Number;
+      public var supplyStomach:Number;
       
-      public var spuriousBlade:Number;
+      public var flowerSand:Number;
       
-      public var scintillatingDeadpan:Number;
+      public var flowerNoiseless:Number;
       
-      public var listTax:Number;
+      public var knotStore:Number;
       
       public function AnnoyingMouse()
       {
-         this.frailDeliver = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         this.spuriousBlade = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         this.scintillatingDeadpan = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         this.listTax = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.supplyStomach = ReligionStore.trailInstruct;
+         this.flowerSand = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.flowerNoiseless = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.knotStore = ReligionStore.trailInstruct;
          super();
          graphics.beginFill(15255694);
-         graphics.drawCircle(HystericalKotsky.notebookChivalrous,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),BerryMouse.distroWicked);
+         graphics.drawCircle(OrderUnit.apatheticRare(ReligionStore.trailInstruct),OrderUnit.apatheticRare(ReligionStore.trailInstruct),PrepareLip.competitionSupply);
          graphics.endFill();
       }
    }

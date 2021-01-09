@@ -5,22 +5,33 @@ package
    public class MightyRobin implements BalvankaSpurious
    {
       
-      public static var proseWindy:MightyRobin;
+      public static var halfWaiting:MightyRobin;
        
       
-      public var stomachSigh:KurumaAdaptable;
+      public var probableSlip:KurumaAdaptable;
       
-      public var kurumaWarlike:Dictionary;
+      public var feebleProgram:Dictionary;
       
-      public var obtainableOrder:int;
+      public var senseFix:int;
       
       public function MightyRobin()
       {
-         this.kurumaWarlike = new Dictionary();
-         this.obtainableOrder = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.groundAlluring = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          super();
-         MightyRobin.proseWindy = this;
-         this.stomachSigh = new KurumaAdaptable();
+         MightyRobin.halfWaiting = this;
+         this.probableSlip = new KurumaAdaptable();
+      }
+      
+      public function get idSequence() : int
+      {
+         return this.senseFix;
+      }
+      
+      public function recupereSequence(param1:int) : AgreeableBabies
+      {
+         var _loc2_:AgreeableBabies = this.feebleProgram[param1];
+         delete this.feebleProgram[param1];
+         return _loc2_;
       }
       
       public function traitePaquetSortant(param1:AgreeableBabies) : void
@@ -29,13 +40,13 @@ package
          var _loc3_:int = 0;
          try
          {
-            _loc2_ = this.stomachSigh.getIdPaquet(param1);
+            _loc2_ = this.probableSlip.getIdPaquet(param1);
             if(param1 is InexpensiveSlip)
             {
                _loc3_ = (param1 as InexpensiveSlip).getIdSequence();
-               this.kurumaWarlike[_loc3_] = param1;
+               this.feebleProgram[_loc3_] = param1;
             }
-            RareFeeble.hateWicked.stickVolcano(new YellPinus(_loc2_,param1));
+            RareFeeble.cuteAction.sighCrime(new CrashStupid(_loc2_,param1));
             return;
          }
          catch(E:Error)
@@ -44,21 +55,9 @@ package
          }
       }
       
-      public function get idSequence() : int
-      {
-         return this.obtainableOrder;
-      }
-      
       public function set idSequence(param1:int) : void
       {
-         this.obtainableOrder = param1;
-      }
-      
-      public function recupereSequence(param1:int) : AgreeableBabies
-      {
-         var _loc2_:AgreeableBabies = this.kurumaWarlike[param1];
-         delete this.kurumaWarlike[param1];
-         return _loc2_;
+         this.senseFix = param1;
       }
    }
 }

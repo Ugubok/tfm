@@ -4,10 +4,10 @@ package
    {
        
       
-      public function CardRare(param1:String)
+      public function CardRare(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(RayYell.stickColor),RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping));
-         staySigh.writeUTF(param1);
+         super(LargeComplex.programAbaft,LargeComplex.programAbaft);
+         lamentableSpurious.writeByte(param1);
       }
    }
 }

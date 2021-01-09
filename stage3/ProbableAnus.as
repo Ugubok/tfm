@@ -6,48 +6,48 @@ package
    {
        
       
-      public var berryViolet:BalvankaSpurious;
+      public var feebleMachine:BalvankaSpurious;
       
-      public var slipAdhesive:String;
+      public var backYell:String;
       
-      public var seriousCrash:Boolean;
+      public var instructKotsky:Boolean;
       
       public function ProbableAnus(param1:BalvankaSpurious)
       {
          super();
-         this.berryViolet = param1;
+         this.feebleMachine = param1;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return LargeComplex.stomachBack;
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      public function harmonyWhisper() : int
+      public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka) + this.slipAdhesive.length;
+         return SlipReligion.companyHistorical + this.backYell.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.slipAdhesive = param1.readUTFBytes(_loc2_);
-         this.seriousCrash = param1.readByte() != HystericalKotsky.notebookChivalrous;
+         this.backYell = param1.readUTFBytes(_loc2_);
+         this.instructKotsky = param1.readByte() != OrderUnit.apatheticRare(ReligionStore.trailInstruct);
       }
       
-      public function get prepareHate() : int
+      public function get yellOrder() : int
       {
-         return RecogniseCompetition.prepareAgree(AdviseRobin.annoyingSisters);
+         return CardBabies.crashJuice;
       }
    }
 }

@@ -4,13 +4,13 @@ package
    {
        
       
-      public var chickenHydrant:BabiesHistorical;
+      public var zonkedKuruma:BabiesHistorical;
       
-      public var knotTasteless:AlansonTiresome;
+      public var healLamentable:AlansonTiresome;
       
-      public var rayProse:SwankyAnus;
+      public var partyObeisant:SwankyAnus;
       
-      public var cribLaborer:SwankyAnus;
+      public var lunasoleThick:SwankyAnus;
       
       public function SwankyAnus()
       {

@@ -6,24 +6,24 @@ package
    {
        
       
-      public var armyLook:int;
+      public var swankySisters:int;
       
-      public var alansonRobin:int;
+      public var bagUnequaled:int;
       
-      public var squeamishDeliver:String;
+      public var laborerTax:String;
       
-      public var seedRequest:Boolean;
+      public var lunasoleCute:Boolean;
       
       public function StupidSerious(param1:ByteArray)
       {
          super(param1);
-         this.armyLook = param1.readInt();
-         this.alansonRobin = param1.readByte();
-         if(this.alansonRobin == HystericalKotsky.lightAnus)
+         this.swankySisters = param1.readInt();
+         this.bagUnequaled = param1.readByte();
+         if(this.bagUnequaled == OrderUnit.apatheticRare(LargeComplex.balvankaZonked))
          {
-            this.squeamishDeliver = param1.readUTF();
+            this.laborerTax = param1.readUTF();
          }
-         this.seedRequest = param1.readBoolean();
+         this.lunasoleCute = param1.readBoolean();
       }
    }
 }

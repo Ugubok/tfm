@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var unequaledSeed:Boolean;
+      public var stomachRequest:String;
       
-      public var apatheticTrail:CrashClub;
+      public var wickedViolet:PrepareZonked;
       
-      public function HistoricalPrepare(param1:int, param2:Boolean)
+      public function HistoricalPrepare(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.unequaledSeed = param2;
+         this.stomachRequest = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RecogniseCompetition.mouseDelightful(RayYell.quirkyTasteless);
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping);
+         return BatheKotsky.milkyEntertaining + this.stomachRequest.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(!!this.unequaledSeed?int(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)):int(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)));
+         param1.writeUTF(this.stomachRequest);
       }
    }
 }

@@ -4,11 +4,11 @@ package
    {
        
       
-      public function HatefulChickens(param1:String, param2:String)
+      public function HatefulChickens(param1:int, param2:int)
       {
-         super(RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail),AnusSeed.harmonyBury);
-         staySigh.writeUTF(param1);
-         staySigh.writeUTF(param2);
+         super(GullibleLook.unequaledJumbled,OrderUnit.apatheticRare(CardBabies.quirkyFix));
+         lamentableSpurious.writeByte(param1);
+         lamentableSpurious.writeShort(param2);
       }
    }
 }

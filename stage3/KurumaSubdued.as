@@ -7,71 +7,67 @@ package
    {
        
       
-      public var joyousCommon:Boolean = false;
+      public var legTouch:Boolean = false;
       
-      public var waterySand:RobinAdaptable;
+      public var deliverStomach:RobinAdaptable;
       
       public function KurumaSubdued(param1:RobinAdaptable)
       {
          super();
-         this.waterySand = param1;
+         this.deliverStomach = param1;
       }
       
-      public function mouseAgree() : void
-      {
-         if(this.joyousCommon)
-         {
-            if(this.waterySand.subduedSuzuka.wateryPinus.trembleDeadpan > FrailJuice.cuteBag())
-            {
-               this.waterySand.subduedSuzuka.wateryPinus.trembleDeadpan = MetalDetermined.illustriousUncle() + BerryMouse.touchFour() * FrailJuice.cuteBag();
-               if(this.waterySand.programLarge)
-               {
-                  this.waterySand.historicalSlip.pipkaViolet = FrailJuice.cuteBag();
-               }
-            }
-            AdmireStore.proseWindy.hangingReligion(AdmireStore.crimeGullible() % LaborerFeeble.instructBathe == RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)?int(WingKuruma.markAdmire):int(WingKuruma.kotskyRare),this.waterySand.x,this.waterySand.y,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),CoalRay.actionBorrow,false);
-         }
-      }
-      
-      public function markSuzuka(param1:Boolean) : void
+      public function orderNoiseless(param1:Boolean) : void
       {
          var _loc2_:MovieClip = null;
          var _loc3_:* = 0;
          var _loc4_:* = 0;
          var _loc5_:* = 0;
-         if(param1 && this.joyousCommon)
+         if(param1 && this.legTouch)
          {
             return;
          }
-         if(!param1 && !this.joyousCommon)
+         if(!param1 && !this.legTouch)
          {
             return;
          }
          if(param1)
          {
-            this.joyousCommon = DeterminedPrepare.hatefulComplex;
-            if(!this.waterySand.supplyApathetic.harmonyGate)
-            {
-               if(!this.waterySand.listBag)
+            this.legTouch = HateFaint.proudGround;
+            if(!this.wickedBabies)
                {
-                  this.waterySand.listBag = AgreeableHistorical.probableCute(RecogniseCompetition.mouseDelightful(RayYell.warlikeComplex));
-                  this.waterySand.listBag.x = AdviseRobin.satisfyGaping;
-                  _loc2_ = this.waterySand.listBag[WaitingReligion.healGate];
-                  _loc3_ = this.waterySand.agreeableCracker.uncleLook() >> CoalWhisper.burnViolet & 255;
-                  _loc4_ = this.waterySand.agreeableCracker.uncleLook() >> ArmyObtainable.kurumaBird & 255;
-                  _loc5_ = this.waterySand.agreeableCracker.uncleLook() & 255;
-                  _loc2_.transform.colorTransform = new ColorTransform(_loc3_ / RecogniseCompetition.prepareAgree(RecogniseTrail.knotWarlike),_loc4_ / RecogniseTrail.knotWarlike,_loc5_ / RecogniseCompetition.prepareAgree(RecogniseTrail.knotWarlike));
+                  this.mightyCurved = AgreeableHistorical.admireCute(AdmireUncle.probableFragile);
+                  this.mightyCurved.x = OrderUnit.apatheticRare(AdmireUncle.crimeCreator);
+                  _loc2_ = this.mightyCurved[VolcanoStay.coalScale];
+                  _loc3_ = this.wateryProud() >> OrderUnit.apatheticRare(AdmireUncle.faithfulFlower) & 255;
+                  _loc4_ = this.wateryProud() >> GullibleLook.unequaledJumbled & 255;
+                  _loc5_ = this.wateryProud() & 255;
+                  _loc2_.transform.colorTransform = new ColorTransform(_loc3_ / VolcanoStay.mouseHydrant,_loc4_ / VolcanoStay.mouseHydrant,_loc5_ / OrderUnit.apatheticRare(VolcanoStay.mouseHydrant));
                }
-               this.waterySand.lipUnequaled(this.waterySand.listBag);
+               this.illustriousSlip(this.mightyCurved);
             }
          }
          else
          {
-            this.joyousCommon = DeterminedPrepare.machineSigh;
-            if(this.waterySand.listBag && this.waterySand.listBag.parent)
+            this.legTouch = HateFaint.bladeStatement;
+            if(this.mightyCurved && this.mightyCurved.parent)
             {
-               this.waterySand.listBag.parent.removeChild(this.waterySand.listBag);
+               this.satisfyInexpensive);
             }
+         }
+      }
+      
+      public function agreeablePear() : void
+      {
+         if(this.legTouch)
+         {
+            if(DildoBorrow.groundGullible() < this.markLabel = DildoBorrow.groundGullible();
+               if(this.deliverStomach.obeisantAnnoying)
+               {
+                  this.deliverStomach.babiesKuruma.hydrantThick = DildoBorrow.groundGullible();
+               }
+            }
+            StalePinus.halfWaiting.storeBlade(StalePinus.trailLamentable() % OrderUnit.apatheticRare(PinusSand.jumbledTiresome) == OrderUnit.apatheticRare(ReligionStore.trailInstruct)?int(WingKuruma.legStay):int(WingKuruma.scratchHanging),this.deliverStomach.x,this.deliverStomach.y,CardBabies.machineOranges,OrderUnit.apatheticRare(CardBabies.machineOranges),false);
          }
       }
    }

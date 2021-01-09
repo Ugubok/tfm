@@ -3,54 +3,54 @@ package
    public class ProbableChickens extends SpuriousSubdued
    {
       
-      public static const superBalvanka:int = 1;
+      public static const agreeableRecognise:int =  1;
       
-      public static const groundQuirky:int = 172* ProbableChickens.superBalvanka;
+      public static const delightfulNoxious:int =  172* ProbableChickens.agreeableRecognise;
       
-      public static const faithfulNoiseless:int = 42* ProbableChickens.superBalvanka;
+      public static const dildoReligion:int =  42* ProbableChickens.agreeableRecognise;
       
-      public static const batheGrate:int = 38;
+      public static const mightyPlan:int =  38;
       
-      public static const deadpanCute:int = 7;
+      public static const lunasoleGaping:int =  7;
        
       
-      public var listCry:InexpensiveGround;
+      public var balvankaSlip:InexpensiveGround;
       
       public function ProbableChickens()
       {
          var _loc1_:GroundBabies = null;
-         super(ProbableChickens.groundQuirky,ProbableChickens.faithfulNoiseless);
+         super(ProbableChickens.delightfulNoxious,ProbableChickens.dildoReligion);
          graphics.clear();
-         graphics.beginFill(HystericalKotsky.notebookChivalrous,BruiseBorrow.largeAlanson);
-         graphics.drawRoundRect(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),HystericalKotsky.notebookChivalrous,ProbableChickens.groundQuirky,ProbableChickens.faithfulNoiseless,RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),LaborerFeeble.instructBathe);
+         graphics.beginFill(OrderUnit.apatheticRare(ReligionStore.trailInstruct),GullibleLook.unitSisters);
+         graphics.drawRoundRect(ReligionStore.trailInstruct,OrderUnit.apatheticRare(ReligionStore.trailInstruct),ProbableChickens.delightfulNoxious,ProbableChickens.dildoReligion,OrderUnit.apatheticRare(PinusSand.jumbledTiresome),PinusSand.jumbledTiresome);
          graphics.endFill();
          graphics.beginFill(4411778);
-         graphics.drawRoundRect(ProbableChickens.superBalvanka,ProbableChickens.superBalvanka,ProbableChickens.groundQuirky - RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) * ProbableChickens.superBalvanka,ProbableChickens.faithfulNoiseless - RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) * ProbableChickens.superBalvanka,RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),LaborerFeeble.instructBathe);
+         graphics.drawRoundRect(ProbableChickens.agreeableRecognise,ProbableChickens.agreeableRecognise,ProbableChickens.delightfulNoxious - OrderUnit.apatheticRare(PinusSand.jumbledTiresome) * ProbableChickens.agreeableRecognise,ProbableChickens.dildoReligion - OrderUnit.apatheticRare(PinusSand.jumbledTiresome) * ProbableChickens.agreeableRecognise,OrderUnit.apatheticRare(PinusSand.jumbledTiresome),OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
          graphics.endFill();
-         _loc1_ = new GroundBabies(RecogniseCompetition.mouseDelightful(LipStore.staleMilky),ProbableChickens.batheGrate,ProbableChickens.batheGrate).birdProgram(ProbableChickens.batheGrate,ProbableChickens.batheGrate);
+         _loc1_ = new GroundBabies(OrderUnit.probableLip(StupidCoal.waitingCurved),ProbableChickens.mightyPlan,ProbableChickens.mightyPlan).pinusDelightful(ProbableChickens.mightyPlan,ProbableChickens.mightyPlan);
          addChild(_loc1_);
-         _loc1_.x = RecogniseCompetition.prepareAgree(CoalRay.actionBorrow) + ProbableChickens.superBalvanka;
-         _loc1_.y = ProbableChickens.superBalvanka + RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         this.listCry = new InexpensiveGround(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(LaborerFeeble.supplyOrange)),ProbableChickens.groundQuirky - ProbableChickens.batheGrate - RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) * (ProbableChickens.deadpanCute + ProbableChickens.superBalvanka) - LaborerFeeble.instructBathe,ProbableChickens.faithfulNoiseless - ProbableChickens.superBalvanka);
-         this.listCry.multiline = DeterminedPrepare.hatefulComplex;
-         this.listCry.wordWrap = DeterminedPrepare.hatefulComplex;
-         this.listCry.crownSqueamish(GroundFour.legLabel);
-         this.listCry.jumbledAbaft(FascinatedAnus.fragileConfused);
-         this.listCry.warlikeCompany(true);
-         addChild(this.listCry);
-         this.listCry.x = _loc1_.x + ProbableChickens.batheGrate + ProbableChickens.deadpanCute + CoalRay.actionBorrow;
-         this.listCry.bashfulMachine();
-         confusedHateful(ProbableChickens.taxUnequaled);
+         _loc1_.x = CardBabies.machineOranges + ProbableChickens.agreeableRecognise;
+         _loc1_.y = ProbableChickens.agreeableRecognise + OrderUnit.apatheticRare(CardBabies.machineOranges);
+         this.balvankaSlip = new InexpensiveGround(BerryAgreeable.orangesCompetition(ReligionStore.commonNoiseless),ProbableChickens.delightfulNoxious - ProbableChickens.mightyPlan - PinusSand.jumbledTiresome * (ProbableChickens.agreeableRecognise + ProbableChickens.lunasoleGaping) - OrderUnit.apatheticRare(PinusSand.jumbledTiresome),ProbableChickens.dildoReligion - ProbableChickens.agreeableRecognise);
+         this.balvankaSlip.multiline = HateFaint.proudGround;
+         this.balvankaSlip.wordWrap = HateFaint.proudGround;
+         this.balvankaSlip.bruiseKnot(OrderUnit.probableLip(SlipReligion.machineOrange));
+         this.chopCurved(FascinatedAnus.programMetal);
+         this.crashBashful(true);
+         addChild(this.balvankaSlip);
+         this.balvankaSlip.x = _loc1_.x + ProbableChickens.mightyPlan + ProbableChickens.lunasoleGaping + OrderUnit.apatheticRare(CardBabies.machineOranges);
+         this.amuseElite();
+         harmonySign(ProbableChickens.fixFix);
       }
       
-      public static function taxUnequaled() : void
+      public static function fixFix() : void
       {
-         DeadpanSign.berryRecognise();
+         PinusBerry.fascinatedBury();
       }
       
-      public function suzukaLight() : void
+      public function creatorMighty() : void
       {
-         this.listCry.text = BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(LaborerFeeble.supplyOrange));
+         this.balvankaSlip.text = BerryAgreeable.orangesCompetition(OrderUnit.probableLip(ReligionStore.commonNoiseless));
       }
    }
 }

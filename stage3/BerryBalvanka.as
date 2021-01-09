@@ -3,75 +3,75 @@ package
    public class BerryBalvanka
    {
       
-      public static var proseWindy:BerryBalvanka;
+      public static var halfWaiting:BerryBalvanka;
        
       
-      public var fascinatedCrime:Vector.<String>;
+      public var notebookLook:Vector.<String>;
       
       public function BerryBalvanka()
       {
-         this.fascinatedCrime = new Vector.<String>();
+         this.notebookLook = new Vector.<String>();
          super();
-         BerryBalvanka.proseWindy = this;
+         BerryBalvanka.halfWaiting = this;
       }
       
-      public function injureAmuse(param1:String) : void
+      public function juiceGaping() : void
       {
-         ClubScintillating.squeamishCreator(new AlansonAgreeable(ClubScintillating.agreeEntertaining(),param1));
+         ClubScintillating.tiresomeFeeble(new SignHateful(ClubScintillating.lightAir()));
       }
       
-      public function religionBack() : void
+      public function windyQuirky(param1:String) : Boolean
       {
-         ClubScintillating.squeamishCreator(new SignHateful(ClubScintillating.agreeEntertaining()));
+         return this.notebookLook.indexOf(BatheBerry.yellElite(param1)) != -CardBabies.machineOranges;
       }
       
-      public function delightfulCompany() : Vector.<String>
+      public function panoramicProud(param1:String) : void
       {
-         return this.fascinatedCrime.concat();
+         var _loc2_:String = BatheBerry.yellElite(param1);
+         if(this.notebookLook.indexOf(_loc2_) == -CardBabies.machineOranges)
+         {
+            this.notebookLook.push(_loc2_);
+            this.notebookLook.sort(Array.CASEINSENSITIVE);
+            ZonkedBird.cuteLabel(true);
+         }
       }
       
-      public function pipkaCrash(param1:String) : void
+      public function warlikeOrange(param1:String) : void
       {
-         ClubScintillating.squeamishCreator(new LipGround(ClubScintillating.agreeEntertaining(),param1));
+         var _loc2_:String = BatheBerry.yellElite(param1);
+         var _loc3_:int = this.notebookLook.indexOf(_loc2_);
+         if(_loc3_ != -OrderUnit.apatheticRare(CardBabies.machineOranges))
+         {
+            this.notebookLook.splice(_loc3_,CardBabies.machineOranges);
+            this.notebookLook.sort(Array.CASEINSENSITIVE);
+            ZonkedBird.cuteLabel(true);
+         }
       }
       
-      public function chickenLight(param1:Vector.<String>) : void
+      public function clubRay(param1:Vector.<String>) : void
       {
          var _loc2_:String = null;
-         this.fascinatedCrime = new Vector.<String>();
+         this.notebookLook = new Vector.<String>();
          for each(_loc2_ in param1)
          {
-            this.fascinatedCrime.push(SignMetal.sighHateful(_loc2_));
+            this.notebookLook.push(BatheBerry.yellElite(_loc2_));
          }
-         this.fascinatedCrime.sort(Array.CASEINSENSITIVE);
+         this.notebookLook.sort(Array.CASEINSENSITIVE);
       }
       
-      public function feebleApathetic(param1:String) : void
+      public function violetAlanson() : Vector.<String>
       {
-         var _loc2_:String = SignMetal.sighHateful(param1);
-         var _loc3_:int = this.fascinatedCrime.indexOf(_loc2_);
-         if(_loc3_ != -CoalRay.actionBorrow)
-         {
-            this.fascinatedCrime.splice(_loc3_,CoalRay.actionBorrow);
-            this.fascinatedCrime.sort(Array.CASEINSENSITIVE);
-            ZonkedBird.crowdedYell(true);
-         }
+         return this.notebookLook.concat();
       }
       
-      public function satisfyInstruct(param1:String) : void
+      public function instructDeadpan(param1:String) : void
       {
-         var _loc2_:String = SignMetal.sighHateful(param1);
-         if(this.fascinatedCrime.indexOf(_loc2_) == -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
-         {
-            this.fascinatedCrime.push(_loc2_);
-            this.fascinatedCrime.sort(Array.CASEINSENSITIVE);
-            ZonkedBird.crowdedYell(true);
-         }
+         ClubScintillating.tiresomeFeeble(new SeriousStupid(ClubScintillating.lightAir(),param1));
       }
       
-      public function loafStay(param1:String) : Boolean
+      public function armyHanging(param1:String) : void
       {
-         return this.fascinatedCrime.indexOf(SignMetal.sighHateful(param1)) != -CoalRay.actionBorrow;
+         ClubScintillating.tiresomeFeeble(new LipGround(ClubScintillating.lightAir(),param1));
       }
    }
 }

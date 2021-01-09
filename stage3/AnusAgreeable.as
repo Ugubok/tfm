@@ -6,7 +6,7 @@ package
       
       public function AnusAgreeable()
       {
-         super(RecogniseCompetition.prepareAgree(RayYell.seriousOrange),RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka));
+         super(OrderUnit.apatheticRare(PrepareLip.competitionSupply),ReligionStore.birdAdhesive);
       }
    }
 }

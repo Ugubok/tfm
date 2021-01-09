@@ -10,67 +10,66 @@ package
    public class SignArmy extends Sprite
    {
       
-      public static var groundQuirky:int = 350;
+      public static var delightfulNoxious:int =  350;
       
-      public static var faithfulNoiseless:int = 300;
+      public static var dildoReligion:int =  300;
       
-      public static var proseWindy:SignArmy;
+      public static var halfWaiting:SignArmy;
        
       
-      public var adhesiveStomach:TextField;
+      public var admireGaping:TextField;
       
       public function SignArmy()
       {
-         var _loc2_:Bitmap = null;
          var _loc3_:Sprite = null;
          super();
-         var _loc1_:MovieClip = AgreeableHistorical.probableCute(RecogniseCompetition.mouseDelightful(CoalRay.touchBashful));
-         _loc1_.cacheAsBitmap = DeterminedPrepare.hatefulComplex;
-         _loc1_.width = SignArmy.groundQuirky;
-         _loc1_.height = SignArmy.faithfulNoiseless;
+         var _loc1_:MovieClip = AgreeableHistorical.admireCute(PanoramicProbable.inviteCracker);
+         _loc1_.cacheAsBitmap = HateFaint.proudGround;
+         _loc1_.width = SignArmy.delightfulNoxious;
+         _loc1_.height = SignArmy.dildoReligion;
          addChild(_loc1_);
-         _loc2_ = AgreeableHistorical.religionSign(FrailJuice.stomachSqueamish);
-         _loc2_.x = HystericalKotsky.rayAdvise;
-         _loc2_.y = ConfusedPeck.lamentableDelightful;
+         var _loc2_:Bitmap = AgreeableHistorical.crowdedScale(OrderUnit.probableLip(CardBabies.hatefulLaborer));
+         _loc2_.x = LargeComplex.obeisantStupid;
+         _loc2_.y = OrderUnit.apatheticRare(ReligionStore.birdAdhesive);
          addChild(_loc2_);
-         _loc3_ = AgreeableHistorical.probableCute(RecogniseCompetition.mouseDelightful(BruiseBorrow.wickedCreator));
-         _loc3_.x = SignArmy.groundQuirky / LaborerFeeble.instructBathe + CoalRay.satisfyTrail;
-         _loc3_.y = -RecogniseCompetition.prepareAgree(DeterminedWarlike.harmonyCoal) + SignArmy.faithfulNoiseless;
+         _loc3_ = AgreeableHistorical.admireCute(OrderUnit.probableLip(BurnFix.backProgram));
+         _loc3_.x = SignArmy.delightfulNoxious / PinusSand.jumbledTiresome + OrderUnit.apatheticRare(AdmireUncle.delightfulFragile);
+         _loc3_.y = -OrderUnit.apatheticRare(GullibleLook.uncleHysterical) + SignArmy.dildoReligion;
          addChild(_loc3_);
-         this.adhesiveStomach = PrepareAction.supplyKnife();
-         this.adhesiveStomach.width = SignArmy.groundQuirky / LaborerFeeble.instructBathe;
-         this.adhesiveStomach.y = SignArmy.faithfulNoiseless - RecogniseTrail.balvankaAir;
-         var _loc4_:TextFormat = this.adhesiveStomach.defaultTextFormat;
+         this.admireGaping = PrepareAction.panoramicMark();
+         this.admireGaping.width = SignArmy.delightfulNoxious / PinusSand.jumbledTiresome;
+         this.admireGaping.y = SignArmy.dildoReligion - OrderUnit.apatheticRare(PrepareLip.pailThick);
+         var _loc4_:TextFormat = this.admireGaping.defaultTextFormat;
          _loc4_.align = TextFormatAlign.RIGHT;
-         this.adhesiveStomach.defaultTextFormat = _loc4_;
-         this.adhesiveStomach.textColor = 15479827;
-         addChild(this.adhesiveStomach);
-         var _loc5_:RequestKuruma = new RequestKuruma(RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus),SignArmy.faithfulNoiseless - RecogniseCompetition.prepareAgree(ArmyObtainable.orangesAction),BerryAgreeable.noiselessGround(BalvankaNotebook.tiresomeWaiting),this.joyousWhistle,null,SignArmy.groundQuirky - RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag),false);
+         this.admireGaping.defaultTextFormat = _loc4_;
+         this.admireGaping.textColor = 15479827;
+         addChild(this.admireGaping);
+         var _loc5_:RequestKuruma = new RequestKuruma(OrderUnit.apatheticRare(LargeComplex.balvankaZonked),SignArmy.dildoReligion - OrderUnit.apatheticRare(PanoramicProbable.rareJoyous),BerryAgreeable.orangesCompetition(ListIllustrious.taxSqueamish),this.delightfulSpurious,null,SignArmy.delightfulNoxious - CardBabies.inexpensiveChickens,false);
          addChild(_loc5_);
       }
       
-      public static function requestRare(param1:Boolean, param2:int = 0) : void
+      public static function rareFix(param1:Boolean, param2:int = 0) : void
       {
          if(param1)
          {
-            if(!SignArmy.proseWindy)
+            if(!SignArmy.halfWaiting)
             {
-               SignArmy.proseWindy = new SignArmy();
-               SignArmy.proseWindy.x = int((RecogniseCompetition.prepareAgree(MetalDetermined.gatePail) - SignArmy.groundQuirky) / LaborerFeeble.instructBathe);
-               SignArmy.proseWindy.y = HystericalKotsky.rayAdvise;
+               SignArmy.halfWaiting = new SignArmy();
+               SignArmy.halfWaiting.x = int((-SignArmy.delightfulNoxious + PanoramicProbable.orangeChivalrous) / PinusSand.jumbledTiresome);
+               SignArmy.halfWaiting.y = OrderUnit.apatheticRare(LargeComplex.obeisantStupid);
             }
-            AdmireStore.proseWindy.mightyDetermined.addChild(SignArmy.proseWindy);
-            SignArmy.proseWindy.adhesiveStomach.text = AdviseRobin.largeChickens + param2;
+            StalePinus.halfWaiting.crashBalvanka.addChild(SignArmy.halfWaiting);
+            SignArmy.halfWaiting.admireGaping.text = LargeComplex.fascinatedBerry + param2;
          }
-         else if(SignArmy.proseWindy && SignArmy.proseWindy.parent)
+         else if(SignArmy.halfWaiting && SignArmy.halfWaiting.parent)
          {
-            SignArmy.proseWindy.parent.removeChild(SignArmy.proseWindy);
+            SignArmy.halfWaiting.parent.removeChild(SignArmy.halfWaiting);
          }
       }
       
-      public function joyousWhistle() : void
+      public function delightfulSpurious() : void
       {
-         SignArmy.requestRare(false);
+         SignArmy.rareFix(false);
       }
    }
 }

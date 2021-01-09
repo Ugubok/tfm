@@ -9,107 +9,107 @@ package
    public class ClubApathetic extends Sprite
    {
       
-      public static var proseWindy:ClubApathetic;
+      public static var halfWaiting:ClubApathetic;
       
-      public static var machineGullible:String = "Lucida Console";
+      public static var cribRequest:String = OrderUnit.probableLip("Lucida Console");
       
-      public static var groundQuirky:int = 300;
+      public static var delightfulNoxious:int =  300;
       
-      public static var faithfulNoiseless:int = 150;
+      public static var dildoReligion:int =  150;
        
       
-      public var anusOrange:TextField;
+      public var actionProse:TextField;
       
-      public var abaftReligion:String;
+      public var faithfulStomach:String;
       
       public function ClubApathetic()
       {
-         this.abaftReligion = RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued);
+         this.faithfulStomach = DildoBorrow.metalAdaptable;
          super();
          var _loc1_:Sprite = new Sprite();
-         _loc1_.cacheAsBitmap = DeterminedPrepare.hatefulComplex;
-         _loc1_.graphics.beginFill(AdmireStore.whisperLeg.agreeableMighty.robinCrash);
-         _loc1_.graphics.drawRoundRect(HystericalKotsky.notebookChivalrous,HystericalKotsky.notebookChivalrous,ClubApathetic.groundQuirky,ClubApathetic.faithfulNoiseless,BerryMouse.distroWicked);
+         _loc1_.cacheAsBitmap = HateFaint.proudGround;
+         _loc1_.graphics.beginFill(StalePinus.determinedColor.uncleLaborer.airCard);
+         _loc1_.graphics.drawRoundRect(OrderUnit.apatheticRare(ReligionStore.trailInstruct),ReligionStore.trailInstruct,ClubApathetic.delightfulNoxious,ClubApathetic.dildoReligion,OrderUnit.apatheticRare(PrepareLip.competitionSupply));
          _loc1_.graphics.endFill();
-         _loc1_.transform.colorTransform = new ColorTransform(CoalWhisper.dildoPanoramic,CoalWhisper.dildoPanoramic,CoalWhisper.dildoPanoramic);
+         _loc1_.transform.colorTransform = new ColorTransform(OrderUnit.noiselessGullible(ListIllustrious.proseThick),OrderUnit.noiselessGullible(ListIllustrious.proseThick),OrderUnit.noiselessGullible(ListIllustrious.proseThick));
          addChild(_loc1_);
          try
          {
-            if(ScaleDetermined.satisfyGround())
+            if(ScaleDetermined.hangingAdvise())
             {
-               ClubApathetic.machineGullible = BruiseBorrow.abaftMark;
+               ClubApathetic.cribRequest = VolcanoStay.squeamishLarge;
             }
-            else if(ScaleDetermined.agreeableInexpensive())
+            else if(ScaleDetermined.unitAgreeable())
             {
-               ClubApathetic.machineGullible = RecogniseCompetition.mouseDelightful(AdviseRobin.pinusGround);
+               ClubApathetic.cribRequest = CreatorSupply.healBury;
             }
          }
          catch(E:Error)
          {
          }
-         this.anusOrange = new TextField();
-         this.anusOrange.defaultTextFormat = new TextFormat(ClubApathetic.machineGullible,RecogniseCompetition.prepareAgree(BalvankaNotebook.subduedCard),AdmireStore.whisperLeg.agreeableMighty.robinCrash,null,null,null,null,null,TextFormatAlign.CENTER);
-         this.anusOrange.multiline = DeterminedPrepare.hatefulComplex;
-         this.anusOrange.wordWrap = DeterminedPrepare.hatefulComplex;
-         this.anusOrange.x = HystericalKotsky.lightAnus;
-         this.anusOrange.y = HystericalKotsky.lightAnus;
-         this.anusOrange.width = ClubApathetic.groundQuirky - RecogniseCompetition.prepareAgree(BerryMouse.distroWicked);
-         this.anusOrange.height = -BerryMouse.distroWicked + ClubApathetic.faithfulNoiseless;
-         this.anusOrange.transform.colorTransform = new ColorTransform(ConfusedPeck.lipLook,RecogniseCompetition.scaleCrown(ConfusedPeck.lipLook),ConfusedPeck.lipLook);
-         addChild(this.anusOrange);
+         this.actionProse = new TextField();
+         this.actionProse.defaultTextFormat = new TextFormat(ClubApathetic.cribRequest,AdaptableInexpensive.harmonyChicken,StalePinus.determinedColor.uncleLaborer.airCard,null,null,null,null,null,TextFormatAlign.CENTER);
+         this.actionProse.multiline = HateFaint.proudGround;
+         this.actionProse.wordWrap = HateFaint.proudGround;
+         this.actionProse.x = OrderUnit.apatheticRare(LargeComplex.balvankaZonked);
+         this.actionProse.y = LargeComplex.balvankaZonked;
+         this.actionProse.width = -PrepareLip.competitionSupply + ClubApathetic.delightfulNoxious;
+         this.actionProse.height = -PrepareLip.competitionSupply + ClubApathetic.dildoReligion;
+         this.actionProse.transform.colorTransform = new ColorTransform(OrderUnit.noiselessGullible(CardBabies.thickSerious),CardBabies.thickSerious,CardBabies.thickSerious);
+         addChild(this.actionProse);
       }
       
-      public static function unequaledPipka(param1:String) : void
+      public static function creatorPail(param1:String) : void
       {
-         if(!ClubApathetic.proseWindy)
+         if(!ClubApathetic.halfWaiting)
          {
             return;
          }
-         ClubApathetic.proseWindy.abaftReligion = param1;
-         ClubApathetic.proseWindy.anusOrange.htmlText = param1;
-         ClubApathetic.proseWindy.legFour();
+         ClubApathetic.halfWaiting.faithfulStomach = ClubApathetic.halfWaiting.faithfulStomach + param1;
+         ClubApathetic.halfWaiting.actionProse.htmlText = ClubApathetic.halfWaiting.faithfulStomach;
+         ClubApathetic.halfWaiting.crowdedSupply();
       }
       
-      public static function requestRare(param1:Boolean) : void
+      public static function stickAgreeable(param1:String) : void
+      {
+         if(!ClubApathetic.halfWaiting)
+         {
+            return;
+         }
+         ClubApathetic.halfWaiting.faithfulStomach = param1;
+         ClubApathetic.halfWaiting.actionProse.htmlText = param1;
+         ClubApathetic.halfWaiting.crowdedSupply();
+      }
+      
+      public static function rareFix(param1:Boolean) : void
       {
          if(param1)
          {
-            if(!ClubApathetic.proseWindy)
+            if(!ClubApathetic.halfWaiting)
             {
-               ClubApathetic.proseWindy = new ClubApathetic();
-               ClubApathetic.proseWindy.x = (RecogniseCompetition.prepareAgree(MetalDetermined.gatePail) - ClubApathetic.groundQuirky) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-               ClubApathetic.proseWindy.y = (RecogniseCompetition.prepareAgree(WaitingReligion.programRobin) - ClubApathetic.faithfulNoiseless) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
+               ClubApathetic.halfWaiting = new ClubApathetic();
+               ClubApathetic.halfWaiting.x = (-ClubApathetic.delightfulNoxious + PanoramicProbable.orangeChivalrous) / PinusSand.jumbledTiresome;
+               ClubApathetic.halfWaiting.y = (-ClubApathetic.dildoReligion + OrderUnit.apatheticRare(PinusSand.kurumaComplex)) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
             }
-            if(!AdmireStore.healRequest)
+            if(!StalePinus.squeamishStale)
             {
-               AdmireStore.proseWindy.stage.addChild(ClubApathetic.proseWindy);
+               StalePinus.halfWaiting.stage.addChild(ClubApathetic.halfWaiting);
             }
          }
-         else if(ClubApathetic.proseWindy && ClubApathetic.proseWindy.parent)
+         else if(ClubApathetic.halfWaiting && ClubApathetic.halfWaiting.parent)
          {
-            ClubApathetic.proseWindy.parent.removeChild(ClubApathetic.proseWindy);
+            ClubApathetic.halfWaiting.parent.removeChild(ClubApathetic.halfWaiting);
          }
       }
       
-      public static function adviseCreator(param1:String) : void
+      public function crowdedSupply() : void
       {
-         if(!ClubApathetic.proseWindy)
+         if(!ClubApathetic.halfWaiting)
          {
             return;
          }
-         ClubApathetic.proseWindy.abaftReligion = ClubApathetic.proseWindy.abaftReligion + param1;
-         ClubApathetic.proseWindy.anusOrange.htmlText = ClubApathetic.proseWindy.abaftReligion;
-         ClubApathetic.proseWindy.legFour();
-      }
-      
-      public function legFour() : void
-      {
-         if(!ClubApathetic.proseWindy)
-         {
-            return;
-         }
-         ClubApathetic.proseWindy.anusOrange.height = RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping) + ClubApathetic.proseWindy.anusOrange.textHeight;
-         ClubApathetic.proseWindy.anusOrange.y = (-ClubApathetic.proseWindy.anusOrange.height + ClubApathetic.faithfulNoiseless) / LaborerFeeble.instructBathe - RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus);
+         ClubApathetic.halfWaiting.actionProse.height = ClubApathetic.halfWaiting.actionProse.textHeight + AdmireUncle.crimeCreator;
+         ClubApathetic.halfWaiting.actionProse.y = (ClubApathetic.dildoReligion - ClubApathetic.halfWaiting.actionProse.height) / PinusSand.jumbledTiresome - LargeComplex.balvankaZonked;
       }
    }
 }

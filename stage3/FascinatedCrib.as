@@ -4,42 +4,42 @@ package
    {
        
       
-      public var sighQuirky:String;
+      public var commonPipka:String;
       
-      public var squeamishDeliver:String;
+      public var laborerTax:String;
       
-      public var airInjure:String;
+      public var hatefulStay:String;
       
-      public var juiceProse:String;
+      public var laborerWing:String;
       
-      public var legWing:String;
+      public var agreeAnus:String;
       
-      public var clubBathe:int;
+      public var fixAdhesive:int;
       
-      public var seedScratch:int;
+      public var subduedDelightful:int;
       
-      public var fragileSense:Boolean = false;
+      public var orderHistorical:Boolean = false;
       
-      public var companyObtainable:String;
+      public var cryClub:String;
       
-      public var wingBack:String;
+      public var illustriousJoyous:String;
       
-      public var statementEntertaining:Boolean = false;
+      public var groundWindy:Boolean = false;
       
       public function FascinatedCrib(param1:String, param2:String, param3:String, param4:int = 0, param5:int = 0, param6:Boolean = false)
       {
-         this.seedScratch = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.subduedDelightful = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          super();
-         this.sighQuirky = param1;
-         this.squeamishDeliver = param2;
-         this.airInjure = ChickensInexpensive.prepareWicked(param3);
-         this.juiceProse = param3.toLowerCase();
-         this.clubBathe = param4;
-         this.seedScratch = param5;
-         this.statementEntertaining = param6;
-         if(this.airInjure.length > HystericalKotsky.notebookChivalrous && this.airInjure.charAt(HystericalKotsky.notebookChivalrous) == WaitingReligion.noiselessObeisant)
+         this.commonPipka = param1;
+         this.laborerTax = param2;
+         this.hatefulStay = ChickensInexpensive.hangingCrown(param3);
+         this.laborerWing = param3.toLowerCase();
+         this.fixAdhesive = param4;
+         this.subduedDelightful = param5;
+         this.groundWindy = param6;
+         if(this.hatefulStay.length > ReligionStore.trailInstruct && this.hatefulStay.charAt(ReligionStore.trailInstruct) == OrderUnit.probableLip(SlipReligion.orangeBorrow))
          {
-            this.airInjure = BerryAgreeable.noiselessGround(this.airInjure);
+            this.hatefulStay = BerryAgreeable.orangesCompetition(this.hatefulStay);
          }
       }
    }

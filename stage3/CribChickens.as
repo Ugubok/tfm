@@ -3,7 +3,7 @@ package
    public class CribChickens
    {
       
-      public static var fixGround:Boolean = false;
+      public static var faithfulChivalrous:Boolean = false;
        
       
       public function CribChickens()
@@ -11,18 +11,18 @@ package
          super();
       }
       
-      public static function frailSatisfy(param1:int) : void
+      public static function alluringBalvanka(param1:int) : void
       {
-         CribChickens.fixGround = RareOranges.injureHysterical == param1;
-         CribChickens.agreeCrime();
+         CribChickens.faithfulChivalrous = RareOranges.backSatisfy == param1;
+         CribChickens.balvankaStale();
       }
       
-      public static function agreeCrime() : void
+      public static function balvankaStale() : void
       {
-         var _loc1_:BerryAnus = RecogniseCompetition.senseStore(BerryAnus.cribSatisfy);
-         if(RecogniseCompetition.tastelessConfused(CribChickens.fixGround))
+         var _loc1_:BerryAnus = OrderUnit.trembleTasteless(BerryAnus.touchSerious);
+         if(CribChickens.faithfulChivalrous)
          {
-            RareFeeble.actionFeeble.stickVolcano(FeebleJumbled.superProse(RecogniseCompetition.senseStore(_loc1_).legConfused.armySerious,RecogniseCompetition.senseStore(_loc1_).legConfused.pailBlade));
+            RareFeeble.waitingGullible.sighCrime(FeebleJumbled.rareLoaf(OrderUnit.trembleTasteless(_loc1_).crashCard.orderBruise,_loc1_.crashCard.abaftPrepare));
          }
       }
    }

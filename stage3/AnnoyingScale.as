@@ -5,9 +5,9 @@ package
    public class AnnoyingScale extends SeriousBerry
    {
       
-      public static const lamentableKnife:int = 4000;
+      public static const cuteLoaf:int =  4000;
       
-      public static const gateAnus:int = 150;
+      public static const crimeRobin:int =  150;
        
       
       public function AnnoyingScale(param1:ClubColor)
@@ -15,9 +15,9 @@ package
          super(param1);
       }
       
-      override public function probableCute() : MovieClip
+      override public function admireCute() : MovieClip
       {
-         return RareInstruct.superRare(chickensBack,orderCracker,VioletHalf.raySuper(entertainingHateful));
+         return AnnoyingAlanson.orderOrange(kurumaBalvanka,abaftBird,VioletHalf.competitionCrime(planHalf));
       }
    }
 }

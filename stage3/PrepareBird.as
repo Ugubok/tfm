@@ -6,7 +6,7 @@ package
       
       public function PrepareBird()
       {
-         super(RecogniseCompetition.prepareAgree(AlansonReligion.statementScratch),BerryMouse.distroWicked);
+         super(CreatorSupply.slipSeed,WanderingDecay.noiselessTasteless);
       }
    }
 }

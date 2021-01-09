@@ -6,12 +6,12 @@ package
    {
        
       
-      public var armyLook:int;
+      public var agreeDistro:Boolean;
       
       public function RobinAgreeable(param1:ByteArray)
       {
          super(param1);
-         this.armyLook = param1.readInt();
+         this.agreeDistro = param1.readByte() == CardBabies.machineOranges;
       }
    }
 }

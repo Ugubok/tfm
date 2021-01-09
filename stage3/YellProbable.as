@@ -6,30 +6,30 @@ package
    {
        
       
-      public var abaftApathetic:int;
+      public var admireKotsky:int;
       
-      public var wateryTouch:int;
+      public var scintillatingAdaptable:int;
       
-      public var commonAdhesive:int;
+      public var noxiousAdhesive:int;
       
-      public var complexLight:int;
+      public var groundAdaptable:int;
       
-      public var seedCompetition:int;
+      public var feebleRare:int;
       
-      public var trailSqueamish:int;
+      public var toeLaborer:int;
       
-      public var bashfulParty:int;
+      public var scintillatingInstruct:int;
       
-      public var illustriousKotsky:int;
+      public var seedRay:int;
       
-      public var religionWindy:int;
+      public var commonLight:int;
       
       public function YellProbable(param1:int, param2:int)
       {
          super();
-         this.abaftApathetic = param1;
-         this.wateryTouch = param2;
-         addChild(AgreeableHistorical.religionSign(RecogniseCompetition.mouseDelightful(RayYell.labelUnit) + param2 + RecogniseCompetition.mouseDelightful(BerryMouse.competitionStick) + param1 + RecogniseCompetition.mouseDelightful(AdviseRobin.inexpensiveDelightful)));
+         this.admireKotsky = param1;
+         this.scintillatingAdaptable = param2;
+         addChild(AgreeableHistorical.crowdedScale(OrderUnit.probableLip(DildoBorrow.pearThick) + param2 + OrderUnit.probableLip(AdmireUncle.loafDecay) + param1 + WaitingCrib.injureCreator));
       }
    }
 }

@@ -3,13 +3,13 @@ package
    public class CrimeBabies extends ArmyScintillating
    {
       
-      public static const senseRequest:int = 4;
+      public static const frailChivalrous:int =  4;
       
-      public static const milkyLunasole:int = 5;
+      public static const lookAction:int =  5;
       
-      public static const groundKotsky:int = 7;
+      public static const patVolcano:int =  7;
       
-      public static const hydrantWhistle:int = 10;
+      public static const superJuice:int =  10;
        
       
       public function CrimeBabies()
@@ -17,30 +17,30 @@ package
          super();
       }
       
-      override public function pearCrash(param1:int) : void
+      override public function swankyApathetic(param1:int) : void
       {
-         if(CrimeBabies.senseRequest == param1)
+         if(CrimeBabies.frailChivalrous == param1)
          {
-            YellRare.agreeJumbled(true,HystericalKotsky.notebookChivalrous);
+            YellRare.crowdedMouse(true,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
             return;
          }
-         if(CrimeBabies.milkyLunasole == param1)
+         if(CrimeBabies.lookAction == param1)
          {
             return;
          }
-         if(CrimeBabies.groundKotsky == param1)
+         if(param1 == CrimeBabies.patVolcano)
          {
-            YellRare.proudSupply();
+            YellRare.knifeCrown();
             return;
          }
-         if(param1 == CrimeBabies.hydrantWhistle)
+         if(param1 == CrimeBabies.superJuice)
          {
-            CrimeStupid.instructToe();
+            CrimeStupid.wateryTax();
             return;
          }
       }
       
-      override public function mouseAgree() : void
+      override public function agreeablePear() : void
       {
       }
    }

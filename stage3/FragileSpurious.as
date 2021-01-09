@@ -1,14 +1,7 @@
 package
 {
-   import mx.core.ByteArrayAsset;
-   
-   public class FragileSpurious extends ByteArrayAsset
+   public interface FragileSpurious
    {
        
-      
-      public function FragileSpurious()
-      {
-         super();
-      }
    }
 }

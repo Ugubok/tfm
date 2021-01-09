@@ -4,10 +4,10 @@ package
    {
        
       
-      public function RareKuruma(param1:String)
+      public function RareKuruma(param1:int)
       {
-         super(CoalRay.actionBorrow,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
-         staySigh.writeUTF(param1);
+         super(WaitingCrib.statementDecay,OrderUnit.apatheticRare(PinusSand.peckKuruma));
+         lamentableSpurious.writeByte(param1);
       }
    }
 }

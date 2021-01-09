@@ -4,37 +4,37 @@ package
    {
        
       
-      public var senseMouse:KnotSwanky;
+      public var tiresomeCreator:KnotSwanky;
       
-      public var decayProgram:KnotSwanky;
+      public var agonizingRay:KnotSwanky;
       
-      public var delightfulLabel:KnotSwanky;
+      public var slipCrash:KnotSwanky;
       
-      public var obtainableBalvanka:KnotSwanky;
+      public var unequaledTiresome:KnotSwanky;
       
-      public var determinedCoal:Number;
+      public var partyAnus:Number;
       
-      public var squeamishApathetic:Number;
+      public var lipCommon:Number;
       
-      public var warlikeCry:Number;
+      public var rayFrail:Number;
       
-      public var scaleInjure:Number;
+      public var colorComplex:Number;
       
-      public var markGullible:Number;
+      public var supplyLook:Number;
       
-      public var colorLip:Number;
+      public var sistersNoiseless:Number;
       
-      public var competitionInjure:Number;
+      public var hystericalRay:Number;
       
-      public var markMouse:Number;
+      public var zonkedYell:Number;
       
       public function ProbableSlip()
       {
-         this.senseMouse = new KnotSwanky();
-         this.decayProgram = new KnotSwanky();
-         this.delightfulLabel = new KnotSwanky();
-         this.obtainableBalvanka = new KnotSwanky();
-         this.markMouse = HystericalKotsky.notebookChivalrous;
+         this.tiresomeCreator = new KnotSwanky();
+         this.agonizingRay = new KnotSwanky();
+         this.slipCrash = new KnotSwanky();
+         this.unequaledTiresome = new KnotSwanky();
+         this.zonkedYell = ReligionStore.trailInstruct;
          super();
       }
    }

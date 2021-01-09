@@ -4,10 +4,10 @@ package
    {
        
       
-      public function WanderingCrash(param1:Boolean)
+      public function WanderingCrash(param1:String)
       {
-         super(RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail),HystericalKotsky.borrowTax);
-         staySigh.writeByte(!!param1?int(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)):int(HystericalKotsky.notebookChivalrous));
+         super(OrderUnit.apatheticRare(WanderingDecay.gullibleKuruma),OrderUnit.apatheticRare(AdmireUncle.crimeCreator));
+         lamentableSpurious.writeUTF(param1);
       }
    }
 }

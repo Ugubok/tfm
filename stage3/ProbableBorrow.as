@@ -9,124 +9,116 @@ package
    public class ProbableBorrow extends Sprite
    {
       
-      public static var groundQuirky:int = 500;
+      public static var delightfulNoxious:int =  500;
       
-      public static var faithfulNoiseless:int = 275;
+      public static var dildoReligion:int =  275;
       
-      public static var proseWindy:ProbableBorrow;
+      public static var halfWaiting:ProbableBorrow;
        
       
-      public var trembleKnot:TextField;
+      public var kotskyWarlike:TextField;
       
-      public var lunasoleSwanky:TextField;
+      public var anusCurved:TextField;
       
       public function ProbableBorrow()
       {
          super();
          var _loc1_:Sprite = new Sprite();
-         if(AdmireStore.trailQuirky || AdmireStore.faintOranges)
+         if(StalePinus.faintSubdued || StalePinus.waitingAmuse)
          {
-            _loc1_.graphics.beginFill(FascinatedAnus.mouseRequest,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
+            _loc1_.graphics.beginFill(FascinatedAnus.milkySense,CardBabies.machineOranges);
          }
          else
          {
-            _loc1_.graphics.beginFill(FascinatedAnus.orderAmuse,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
+            _loc1_.graphics.beginFill(FascinatedAnus.faintHateful,CardBabies.machineOranges);
          }
-         _loc1_.graphics.drawRoundRect(HystericalKotsky.notebookChivalrous,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),ProbableBorrow.groundQuirky,ProbableBorrow.faithfulNoiseless,HystericalKotsky.lightAnus);
+         _loc1_.graphics.drawRoundRect(ReligionStore.trailInstruct,ReligionStore.trailInstruct,ProbableBorrow.delightfulNoxious,ProbableBorrow.dildoReligion,LargeComplex.balvankaZonked);
          _loc1_.graphics.endFill();
-         if(AdmireStore.trailQuirky || AdmireStore.faintOranges)
+         if(StalePinus.faintSubdued || StalePinus.waitingAmuse)
          {
-            _loc1_.filters = FascinatedAnus.notebookSisters;
+            _loc1_.filters = FascinatedAnus.alansonSeed;
          }
          else
          {
-            _loc1_.filters = FascinatedAnus.touchSubdued;
+            _loc1_.filters = FascinatedAnus.alansonSign;
          }
          addChild(_loc1_);
-         this.trembleKnot = new TextField();
-         this.trembleKnot.defaultTextFormat = new TextFormat(BerryAgreeable.groundKuruma,BalvankaNotebook.subduedCard,FascinatedAnus.fragileConfused,null,null,null,null,null,TextFormatAlign.CENTER);
-         this.trembleKnot.autoSize = TextFieldAutoSize.LEFT;
-         this.trembleKnot.multiline = DeterminedPrepare.hatefulComplex;
-         this.trembleKnot.wordWrap = DeterminedPrepare.hatefulComplex;
-         this.trembleKnot.selectable = DeterminedPrepare.machineSigh;
-         this.trembleKnot.x = HystericalKotsky.lightAnus;
-         this.trembleKnot.y = RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus);
-         this.trembleKnot.width = -RecogniseCompetition.prepareAgree(BerryMouse.distroWicked) + ProbableBorrow.groundQuirky;
-         this.trembleKnot.styleSheet = AdmireStore.proseWindy.agonizingThick;
-         if(AdmireStore.faintOranges)
-         {
-            this.trembleKnot.text = BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(HystericalKotsky.delightfulLamentable));
+         this.kotskyWarlike = new TextField();
+         this.kotskyWarlike.defaultTextFormat = new TextFormat(BerryAgreeable.decayInjure,OrderUnit.apatheticRare(AdaptableInexpensive.harmonyChicken),FascinatedAnus.programMetal,null,null,null,null,null,TextFormatAlign.CENTER);
+         this.kotskyWarlike.autoSize = TextFieldAutoSize.LEFT;
+         this.kotskyWarlike.multiline = HateFaint.proudGround;
+         this.kotskyWarlike.wordWrap = HateFaint.proudGround;
+         this.kotskyWarlike.selectable = HateFaint.bladeStatement;
+         this.kotskyWarlike.x = LargeComplex.balvankaZonked;
+         this.kotskyWarlike.y = OrderUnit.apatheticRare(LargeComplex.balvankaZonked);
+         this.kotskyWarlike.width = ProbableBorrow.delightfulNoxious - OrderUnit.apatheticRare(PrepareLip.competitionSupply);
+         this.kotskyWarlike.styleSheet = StalePinus.halfWaiting.agreeableCrowded;
+         if(StalePinus.pipkaProse.text = BerryAgreeable.orangesCompetition(OrderUnit.probableLip(GullibleLook.stomachConfused));
          }
-         else if(AdmireStore.trailQuirky)
+         else if(StalePinus.faintSubdued)
          {
-            this.trembleKnot.text = BerryAgreeable.noiselessGround(AdviseRobin.lamentableMachine);
+            this.kotskyWarlike.text = BerryAgreeable.orangesCompetition(AdaptableInexpensive.requestInstruct);
          }
          else
          {
-            this.trembleKnot.text = BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(FrailJuice.fourNotebook));
+            this.kotskyWarlike.text = BerryAgreeable.orangesCompetition(OrderUnit.probableLip(GullibleLook.advisePrepare));
          }
-         addChild(this.trembleKnot);
-         this.lunasoleSwanky = new TextField();
-         this.lunasoleSwanky.defaultTextFormat = new TextFormat(BerryAgreeable.groundKuruma,RecogniseCompetition.prepareAgree(BalvankaNotebook.subduedCard),FascinatedAnus.annoyingRay,null,null,null,null,null,TextFormatAlign.CENTER);
-         this.lunasoleSwanky.autoSize = TextFieldAutoSize.LEFT;
-         this.lunasoleSwanky.multiline = DeterminedPrepare.hatefulComplex;
-         this.lunasoleSwanky.wordWrap = DeterminedPrepare.hatefulComplex;
-         this.lunasoleSwanky.selectable = DeterminedPrepare.hatefulComplex;
-         this.lunasoleSwanky.x = RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus);
-         this.lunasoleSwanky.y = this.trembleKnot.y + this.trembleKnot.height + BerryMouse.distroWicked;
-         this.lunasoleSwanky.width = -RecogniseCompetition.prepareAgree(BerryMouse.distroWicked) + ProbableBorrow.groundQuirky;
-         this.lunasoleSwanky.styleSheet = AdmireStore.proseWindy.agonizingThick;
-         if(AdmireStore.faintOranges)
+         addChild(this.kotskyWarlike);
+         this.anusCurved = new TextField();
+         this.anusCurved.defaultTextFormat = new TextFormat(BerryAgreeable.decayInjure,AdaptableInexpensive.harmonyChicken,FascinatedAnus.deliverLoaf,null,null,null,null,null,TextFormatAlign.CENTER);
+         this.anusCurved.autoSize = TextFieldAutoSize.LEFT;
+         this.anusCurved.multiline = HateFaint.proudGround;
+         this.anusCurved.wordWrap = HateFaint.proudGround;
+         this.anusCurved.selectable = HateFaint.proudGround;
+         this.anusCurved.x = LargeComplex.balvankaZonked;
+         this.anusCurved.y = this.kotskyWarlike.y + this.kotskyWarlike.height + OrderUnit.apatheticRare(PrepareLip.competitionSupply);
+         this.anusCurved.width = -PrepareLip.competitionSupply + ProbableBorrow.delightfulNoxious;
+         this.anusCurved.styleSheet = StalePinus.halfWaiting.agreeableCrowded;
+         if(StalePinus.adaptableSign.text = PrepareLip.stupidHistorical + RareOranges.cuteInexpensive;
+         }
+         else if(StalePinus.faintSubdued)
          {
-            this.lunasoleSwanky.text = RecogniseCompetition.mouseDelightful(HystericalKotsky.milkyAgreeable) + RareOranges.cryWandering;
+            this.anusCurved.text = CreatorSupply.batheChivalrous + RareOranges.fourJoyous.text = OrderUnit.probableLip(PrepareLip.waitingInexpensive) + RareOranges.cuteInexpensive;
          }
-         else if(AdmireStore.trailQuirky)
-         {
-            this.lunasoleSwanky.text = AdviseRobin.coalWing + RareOranges.cryWandering;
-         }
-         else
-         {
-            this.lunasoleSwanky.text = RecogniseCompetition.mouseDelightful(CoalWhisper.adhesiveBird) + RareOranges.cryWandering;
-         }
-         addChild(this.lunasoleSwanky);
-         var _loc2_:RequestKuruma = new RequestKuruma(HystericalKotsky.lightAnus,ProbableBorrow.faithfulNoiseless - RecogniseCompetition.prepareAgree(LaborerFeeble.staleMark),BerryAgreeable.noiselessGround(BalvankaNotebook.tiresomeWaiting),this.joyousWhistle,null,ProbableBorrow.groundQuirky - RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag),false);
+         addChild(this.anusCurved);
+         var _loc2_:RequestKuruma = new RequestKuruma(LargeComplex.balvankaZonked,ProbableBorrow.dildoReligion - WanderingDecay.noiselessTasteless,BerryAgreeable.orangesCompetition(OrderUnit.probableLip(ListIllustrious.taxSqueamish)),this.delightfulSpurious,null,ProbableBorrow.delightfulNoxious - OrderUnit.apatheticRare(CardBabies.inexpensiveChickens),false);
          addChild(_loc2_);
       }
       
-      public static function requestRare(param1:Boolean) : void
+      public static function halfReligion() : Boolean
       {
-         if(!ProbableBorrow.gullibleHydrant())
-         {
-            return;
-         }
-         if(param1)
-         {
-            if(!ProbableBorrow.proseWindy)
-            {
-               ProbableBorrow.proseWindy = new ProbableBorrow();
-               ProbableBorrow.proseWindy.x = int((RecogniseCompetition.prepareAgree(MetalDetermined.gatePail) - ProbableBorrow.groundQuirky) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
-               ProbableBorrow.proseWindy.y = HystericalKotsky.rayAdvise;
-            }
-            AdmireStore.proseWindy.mightyDetermined.addChild(ProbableBorrow.proseWindy);
-         }
-         else if(ProbableBorrow.proseWindy && ProbableBorrow.proseWindy.parent)
-         {
-            ProbableBorrow.proseWindy.parent.removeChild(ProbableBorrow.proseWindy);
-         }
-      }
-      
-      public static function gullibleHydrant() : Boolean
-      {
-         if(WanderingMighty.statementPail)
+         if(WanderingMighty.crowdedTouch)
          {
             return false;
          }
          return true;
       }
       
-      public function joyousWhistle() : void
+      public static function rareFix(param1:Boolean) : void
       {
-         ProbableBorrow.requestRare(false);
+         if(!ProbableBorrow.halfReligion())
+         {
+            return;
+         }
+         if(param1)
+         {
+            if(!ProbableBorrow.halfWaiting)
+            {
+               ProbableBorrow.halfWaiting = new ProbableBorrow();
+               ProbableBorrow.halfWaiting.x = int((-ProbableBorrow.delightfulNoxious + OrderUnit.apatheticRare(PanoramicProbable.orangeChivalrous)) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
+               ProbableBorrow.halfWaiting.y = LargeComplex.obeisantStupid;
+            }
+            StalePinus.halfWaiting.crashBalvanka.addChild(ProbableBorrow.halfWaiting);
+         }
+         else if(ProbableBorrow.halfWaiting && ProbableBorrow.halfWaiting.parent)
+         {
+            ProbableBorrow.halfWaiting.parent.removeChild(ProbableBorrow.halfWaiting);
+         }
+      }
+      
+      public function delightfulSpurious() : void
+      {
+         ProbableBorrow.rareFix(false);
       }
    }
 }

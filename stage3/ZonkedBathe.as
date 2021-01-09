@@ -6,8 +6,8 @@ package
       
       public function ZonkedBathe(param1:int)
       {
-         super(AlansonReligion.statementScratch,RecogniseCompetition.prepareAgree(CoalWhisper.whistlePanoramic));
-         staySigh.writeByte(param1);
+         super(WaitingCrib.statementDecay,OrderUnit.apatheticRare(AdmireUncle.planLoaf));
+         lamentableSpurious.writeByte(param1);
       }
    }
 }

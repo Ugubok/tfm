@@ -3,34 +3,34 @@ package
    public class FragileAlanson
    {
       
-      public static const swankyRobin:int = 0;
+      public static const halfOrder:int =  0;
       
-      public static const toeMetal:int = 1;
+      public static const agreeWindy:int =  1;
       
-      public static const mightyWhisper:int = 2;
+      public static const buryAgonizing:int =  2;
        
       
-      public var volcanoProbable:TiresomeCrib;
+      public var burnPail:TiresomeCrib;
       
-      public var adhesiveList:int;
+      public var listOrder:int;
       
-      public var agonizingScratch:int;
+      public var patGate:int;
       
-      public var lightUncle:int;
+      public var flowerPail:int;
       
-      public var agreeableSense:int;
+      public var markRay:int;
       
-      public var fourTremble:int;
+      public var coalUncle:int;
       
       public function FragileAlanson(param1:TiresomeCrib, param2:int, param3:int, param4:int, param5:int, param6:int)
       {
          super();
-         this.volcanoProbable = param1;
-         this.adhesiveList = param2;
-         this.agonizingScratch = param3;
-         this.lightUncle = param4;
-         this.agreeableSense = param5;
-         this.fourTremble = param6;
+         this.burnPail = param1;
+         this.listOrder = param2;
+         this.patGate = param3;
+         this.flowerPail = param4;
+         this.markRay = param5;
+         this.coalUncle = param6;
       }
    }
 }

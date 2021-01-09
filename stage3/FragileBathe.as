@@ -6,7 +6,7 @@ package
       
       public function FragileBathe()
       {
-         super(RecogniseCompetition.prepareAgree(AlansonReligion.statementScratch),HystericalKotsky.lunasoleHate);
+         super(GullibleLook.unequaledJumbled,CardBabies.eliteUncle);
       }
    }
 }

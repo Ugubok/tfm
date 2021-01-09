@@ -9,15 +9,15 @@ package
       
       public function GroundClub(param1:int = 0, param2:int = 0)
       {
-         super(new SubduedGround(HystericalKotsky.notebookChivalrous));
-         crimeVolcano.harmonyStick = param1;
-         crimeVolcano.inexpensiveChicken = param2;
+         super(new SubduedGround(OrderUnit.apatheticRare(ReligionStore.trailInstruct)));
+         hateReligion = param1;
+         notebookBerry = param2;
       }
       
-      override public function probableCute() : MovieClip
+      override public function admireCute() : MovieClip
       {
          var _loc1_:MovieClip = new MovieClip();
-         var _loc2_:Bitmap = AgreeableHistorical.religionSign(FrailJuice.batheWhistle);
+         var _loc2_:Bitmap = AgreeableHistorical.crowdedScale(OrderUnit.probableLip(CreatorSupply.signAnnoying));
          _loc1_.addChild(_loc2_);
          return _loc1_;
       }

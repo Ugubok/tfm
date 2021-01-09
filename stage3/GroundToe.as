@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var groundWhistle:int;
+      public var gullibleAnus:String;
       
-      public var signProgram:GroundAdaptable;
+      public var storeNoxious:ProbableAdaptable;
       
-      public function GroundToe(param1:int, param2:int)
+      public function GroundToe(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.groundWhistle = param2;
+         this.gullibleAnus = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird);
+         return OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining) + this.gullibleAnus.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeInt(this.groundWhistle);
+         param1.writeUTF(this.gullibleAnus);
       }
    }
 }

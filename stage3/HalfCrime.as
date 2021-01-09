@@ -5,36 +5,36 @@ package
    public class HalfCrime extends SeriousFragile
    {
       
-      public static var proseWindy:HalfCrime;
+      public static var halfWaiting:HalfCrime;
        
       
-      public var pailBurn:InexpensiveGround;
+      public var thickCard:InexpensiveGround;
       
       public function HalfCrime()
       {
-         super(LipStore.lunasoleProgram,RecogniseCompetition.prepareAgree(CoalRay.anusChickens));
-         recogniseLip(ChickensScintillating.trembleCard);
-         hateLeg(BerryAgreeable.noiselessGround(ArmyObtainable.gullibleStay));
-         this.pailBurn = new InexpensiveGround(AdviseRobin.clubSubdued,scintillatingCoal,HystericalKotsky.notebookChivalrous).crownSqueamish(TextFormatAlign.CENTER).warlikeBack(RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky)).jumbledAbaft(FascinatedAnus.fragileConfused);
-         cuteProse(this.pailBurn);
-         kurumaPanoramic(CoalRay.orangeOrange,CoalRay.orangeOrange,true);
+         super(PrepareLip.cribViolet,OrderUnit.apatheticRare(WanderingDecay.actionInstruct));
+         crimeCrib(ChickensScintillating.distroStick);
+         healComplex(BerryAgreeable.orangesCompetition(CardBabies.knotComplex));
+         this.thickCard = new InexpensiveGround(OrderUnit.probableLip(DildoBorrow.metalAdaptable),storeAmuse,OrderUnit.apatheticRare(ReligionStore.trailInstruct)).bruiseKnot(TextFormatAlign.CENTER).gapingThick(OrderUnit.apatheticRare(LargeComplex.programAbaft)).lipUnit(FascinatedAnus.programMetal);
+         icyCry(this.thickCard);
+         hatefulWing(AdmireUncle.mouseBabies,AdmireUncle.mouseBabies,true);
       }
       
-      public static function cardGrate(param1:Boolean, param2:int = 0) : void
+      public static function dildoCracker(param1:Boolean, param2:int = 0) : void
       {
          if(param1)
          {
-            if(!HalfCrime.proseWindy)
+            if(!HalfCrime.halfWaiting)
             {
-               HalfCrime.proseWindy = new HalfCrime();
+               HalfCrime.halfWaiting = new HalfCrime();
             }
-            HalfCrime.proseWindy.pailBurn.htmlText = BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(BruiseBorrow.storeSense),param2);
-            HalfCrime.proseWindy.pailBurn.bashfulMachine();
-            CrashAlanson.pipkaTax(HalfCrime.proseWindy);
+            HalfCrime.halfWaiting.thickCard.htmlText = BerryAgreeable.orangesCompetition(DildoBorrow.batheHysterical,param2);
+            HalfCrime.halfWaiting.whisperReligion();
+            CrashAlanson.yellObtainable(HalfCrime.halfWaiting);
          }
-         else if(HalfCrime.proseWindy && HalfCrime.proseWindy.parent)
+         else if(HalfCrime.halfWaiting && HalfCrime.halfWaiting.parent)
          {
-            HalfCrime.proseWindy.parent.removeChild(HalfCrime.proseWindy);
+            HalfCrime.halfWaiting.parent.removeChild(HalfCrime.halfWaiting);
          }
       }
    }

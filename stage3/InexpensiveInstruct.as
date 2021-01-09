@@ -10,23 +10,23 @@ package
    public class InexpensiveInstruct
    {
       
-      public static var legPinus:Boolean = true;
+      public static var deliverRay:Boolean = true;
       
-      public static var unequaledAnus:Vector.<String>;
+      public static var deadpanJumbled:Vector.<String>;
       
-      public static var waitingDecay:Vector.<Sprite>;
+      public static var suzukaProud:Vector.<Sprite>;
       
-      public static var loafGullible:Sprite;
+      public static var swankyBabies:Sprite;
       
-      public static var touchTrail:Sprite;
+      public static var actionCompany:Sprite;
       
-      public static var volcanoSubdued:Sprite;
+      public static var pinusTrail:Sprite;
       
-      public static var slipProud:int;
+      public static var staleAlanson:int;
       
-      public static var scintillatingFascinated:int;
+      public static var inviteDelightful:int;
       
-      public static var satisfyDistro:Dictionary;
+      public static var juiceArmy:Dictionary;
        
       
       public function InexpensiveInstruct()
@@ -34,42 +34,77 @@ package
          super();
       }
       
-      public static function unitDecay(param1:int) : void
+      public static function superUncle(param1:int) : void
       {
-         if(InexpensiveInstruct.touchTrail && InexpensiveInstruct.touchTrail.parent)
+         if(InexpensiveInstruct.actionCompany && InexpensiveInstruct.actionCompany.parent)
          {
-            InexpensiveInstruct.touchTrail.parent.removeChild(InexpensiveInstruct.touchTrail);
+            InexpensiveInstruct.actionCompany.parent.removeChild(InexpensiveInstruct.actionCompany);
          }
-         InexpensiveInstruct.touchTrail = InexpensiveInstruct.prepareKnot(param1);
-         InexpensiveInstruct.touchTrail.alpha = RecogniseCompetition.scaleCrown(CoalRay.orangeOrange);
-         BerryAnus.cribSatisfy.uncleAdvise.addChild(InexpensiveInstruct.touchTrail);
-         InexpensiveInstruct.touchTrail.x = InexpensiveInstruct.slipProud;
-         InexpensiveInstruct.touchTrail.y = InexpensiveInstruct.scintillatingFascinated;
+         InexpensiveInstruct.actionCompany = InexpensiveInstruct.flowerBorrow(param1);
+         InexpensiveInstruct.actionCompany.alpha = AdmireUncle.mouseBabies;
+         BerryAnus.touchSerious.metalStatement.addChild(InexpensiveInstruct.actionCompany);
+         InexpensiveInstruct.actionCompany.x = InexpensiveInstruct.staleAlanson;
+         InexpensiveInstruct.actionCompany.y = InexpensiveInstruct.inviteDelightful;
       }
       
-      public static function feebleHanging() : void
+      public static function orangeUnequaled(param1:int, param2:int, param3:int) : void
       {
-         if(InexpensiveInstruct.loafGullible && InexpensiveInstruct.loafGullible.parent)
+         if(InexpensiveInstruct.pinusTrail && InexpensiveInstruct.pinusTrail.parent)
          {
-            InexpensiveInstruct.loafGullible.parent.removeChild(InexpensiveInstruct.loafGullible);
+            InexpensiveInstruct.pinusTrail.parent.removeChild(InexpensiveInstruct.pinusTrail);
          }
-         if(InexpensiveInstruct.touchTrail && InexpensiveInstruct.touchTrail.parent)
+         InexpensiveInstruct.pinusTrail = InexpensiveInstruct.flowerBorrow(param1);
+         BerryAnus.touchSerious.metalStatement.addChild(InexpensiveInstruct.pinusTrail);
+         InexpensiveInstruct.pinusTrail.x = param2;
+         InexpensiveInstruct.pinusTrail.y = param3;
+         HistoricalKnot.partyRobin(OrderUnit.probableLip(WaitingCrib.largeSubdued),StalePinus.determinedColor.laborerTiresome(param2,param3));
+      }
+      
+      public static function mouseCompetition() : Boolean
+      {
+         return InexpensiveInstruct.swankyBabies && InexpensiveInstruct.swankyBabies.parent;
+      }
+      
+      public static function subduedReligion(param1:int, param2:int) : void
+      {
+         var _loc7_:Sprite = null;
+         if(InexpensiveInstruct.deliverRay)
          {
-            InexpensiveInstruct.touchTrail.parent.removeChild(InexpensiveInstruct.touchTrail);
+            InexpensiveInstruct.uncleGaping();
+         }
+         InexpensiveInstruct.companyBorrow();
+         InexpensiveInstruct.staleAlanson = param1;
+         InexpensiveInstruct.inviteDelightful = param2;
+         InexpensiveInstruct.swankyBabies = new Sprite();
+         InexpensiveInstruct.swankyBabies.x = param1 + StalePinus.halfWaiting.notebookCompetition.x;
+         InexpensiveInstruct.swankyBabies.y = StalePinus.halfWaiting.notebookCompetition.y + param2;
+         CrashAlanson.yellObtainable(InexpensiveInstruct.swankyBabies,ReligionStore.trailInstruct);
+         var _loc3_:Number = ReligionStore.trailInstruct;
+         var _loc4_:int = OrderUnit.apatheticRare(PrepareLip.pailThick);
+         var _loc5_:int = -CardBabies.machineOranges;
+         var _loc6_:int = InexpensiveInstruct.suzukaProud.length;
+         while(++_loc5_ < _loc6_)
+         {
+            _loc7_ = InexpensiveInstruct.suzukaProud[_loc5_];
+            RobinHateful.cardDeadpan(_loc7_,OrderUnit.apatheticRare(PrepareLip.cribViolet),ActionKnot.deliverJumbled,_loc5_ * AdmireUncle.delightfulFragile).berryEntertaining(OrderUnit.apatheticRare(ReligionStore.trailInstruct),Math.cos(_loc3_) * _loc4_).illustriousCrime(OrderUnit.apatheticRare(ReligionStore.trailInstruct),Math.sin(_loc3_) * _loc4_);
+            _loc3_ = _loc3_ + Math.PI * OrderUnit.apatheticRare(PinusSand.jumbledTiresome) / _loc6_;
+            InexpensiveInstruct.swankyBabies.addChild(_loc7_);
          }
       }
       
-      public static function faithfulBruise(param1:int) : void
+      public static function companyBorrow() : void
       {
-         InexpensiveInstruct.feebleHanging();
-         if(InexpensiveInstruct.touchTrail && InexpensiveInstruct.touchTrail.parent)
+         if(InexpensiveInstruct.swankyBabies && InexpensiveInstruct.swankyBabies.parent)
          {
-            InexpensiveInstruct.touchTrail.parent.removeChild(InexpensiveInstruct.touchTrail);
+            InexpensiveInstruct.swankyBabies.parent.removeChild(InexpensiveInstruct.swankyBabies);
          }
-         RareFeeble.actionFeeble.stickVolcano(new StupidHistorical(param1,InexpensiveInstruct.slipProud,InexpensiveInstruct.scintillatingFascinated));
+         if(InexpensiveInstruct.actionCompany && InexpensiveInstruct.actionCompany.parent)
+         {
+            InexpensiveInstruct.actionCompany.parent.removeChild(InexpensiveInstruct.actionCompany);
+         }
       }
       
-      public static function prepareKnot(param1:int) : Sprite
+      public static function flowerBorrow(param1:int) : Sprite
       {
          var _loc2_:Sprite = null;
          var _loc3_:TextField = null;
@@ -77,109 +112,74 @@ package
          var _loc5_:Sprite = null;
          var _loc6_:int = 0;
          var _loc7_:int = 0;
-         if(InexpensiveInstruct.legPinus)
+         if(InexpensiveInstruct.deliverRay)
          {
-            InexpensiveInstruct.machineSubdued();
+            InexpensiveInstruct.uncleGaping();
          }
-         _loc2_ = InexpensiveInstruct.satisfyDistro[param1];
+         _loc2_ = InexpensiveInstruct.juiceArmy[param1];
          if(!_loc2_)
          {
             _loc2_ = new Sprite();
             _loc3_ = new TextField();
-            _loc3_.x = RecogniseCompetition.prepareAgree(LaborerFeeble.agreePanoramic);
-            _loc3_.y = RecogniseCompetition.prepareAgree(LaborerFeeble.agreePanoramic);
-            _loc4_ = new TextFormat(BerryAgreeable.groundKuruma,WaitingReligion.peckKotsky,3811100);
+            _loc3_.x = OrderUnit.apatheticRare(SlipReligion.delightfulRay);
+            _loc3_.y = SlipReligion.delightfulRay;
+            _loc4_ = new TextFormat(BerryAgreeable.decayInjure,LargeComplex.programAbaft,3811100);
             _loc4_.align = TextFormatAlign.CENTER;
-            _loc4_[RecogniseCompetition.mouseDelightful(WaitingReligion.fascinatedBerry)] = HystericalKotsky.notebookChivalrous;
-            _loc4_.italic = DeterminedPrepare.hatefulComplex;
+            _loc4_[GullibleLook.sistersFaithful] = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+            _loc4_.italic = HateFaint.proudGround;
             _loc3_.defaultTextFormat = _loc4_;
-            _loc3_.multiline = DeterminedPrepare.hatefulComplex;
-            _loc3_.wordWrap = DeterminedPrepare.hatefulComplex;
-            _loc3_.width = RecogniseCompetition.prepareAgree(RayYell.seriousOrange);
+            _loc3_.multiline = HateFaint.proudGround;
+            _loc3_.wordWrap = HateFaint.proudGround;
+            _loc3_.width = OrderUnit.apatheticRare(WanderingDecay.healQuirky);
             _loc3_.autoSize = TextFieldAutoSize.LEFT;
-            _loc3_.text = InexpensiveInstruct.unequaledAnus[param1];
-            _loc5_ = AgreeableHistorical.probableCute(RecogniseCompetition.mouseDelightful(AdviseRobin.chivalrousRare));
-            _loc5_.width = RecogniseCompetition.prepareAgree(AnusSeed.borrowToe) + _loc3_.width;
-            _loc5_.height = RecogniseTrail.icyBabies + _loc3_.height;
+            _loc3_.text = InexpensiveInstruct.deadpanJumbled[param1];
+            _loc5_ = AgreeableHistorical.admireCute(OrderUnit.probableLip(LargeComplex.lookLeg));
+            _loc5_.width = _loc3_.width + OrderUnit.apatheticRare(WanderingDecay.superCry);
+            _loc5_.height = _loc3_.height + CardBabies.eliteUncle;
             _loc2_.addChild(_loc5_);
             _loc2_.addChild(_loc3_);
-            _loc6_ = _loc2_.width / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-            _loc7_ = _loc2_.height / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
+            _loc6_ = _loc2_.width / OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+            _loc7_ = _loc2_.height / PinusSand.jumbledTiresome;
             _loc5_.x = _loc5_.x - _loc6_;
             _loc5_.y = _loc5_.y - _loc7_;
             _loc3_.x = _loc3_.x - _loc6_;
             _loc3_.y = _loc3_.y - _loc7_;
-            _loc2_.mouseChildren = DeterminedPrepare.machineSigh;
-            _loc2_.mouseEnabled = DeterminedPrepare.machineSigh;
-            _loc2_.cacheAsBitmap = DeterminedPrepare.hatefulComplex;
+            _loc2_.mouseChildren = HateFaint.bladeStatement;
+            _loc2_.mouseEnabled = HateFaint.bladeStatement;
+            _loc2_.cacheAsBitmap = HateFaint.proudGround;
          }
-         _loc2_.alpha = RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+         _loc2_.alpha = CardBabies.machineOranges;
          return _loc2_;
       }
       
-      public static function mightyLarge() : Boolean
-      {
-         return InexpensiveInstruct.loafGullible && InexpensiveInstruct.loafGullible.parent;
-      }
-      
-      public static function joyousStale(param1:int, param2:int, param3:int) : void
-      {
-         if(InexpensiveInstruct.volcanoSubdued && InexpensiveInstruct.volcanoSubdued.parent)
-         {
-            InexpensiveInstruct.volcanoSubdued.parent.removeChild(InexpensiveInstruct.volcanoSubdued);
-         }
-         InexpensiveInstruct.volcanoSubdued = InexpensiveInstruct.prepareKnot(param1);
-         BerryAnus.cribSatisfy.uncleAdvise.addChild(InexpensiveInstruct.volcanoSubdued);
-         InexpensiveInstruct.volcanoSubdued.x = param2;
-         InexpensiveInstruct.volcanoSubdued.y = param3;
-         HistoricalKnot.cuteGround(AdviseRobin.batheLight,AdmireStore.whisperLeg.clubNoxious(param2,param3));
-      }
-      
-      public static function agreeableWindy(param1:int, param2:int) : void
-      {
-         var _loc7_:Sprite = null;
-         if(InexpensiveInstruct.legPinus)
-         {
-            InexpensiveInstruct.machineSubdued();
-         }
-         InexpensiveInstruct.feebleHanging();
-         InexpensiveInstruct.slipProud = param1;
-         InexpensiveInstruct.scintillatingFascinated = param2;
-         InexpensiveInstruct.loafGullible = new Sprite();
-         InexpensiveInstruct.loafGullible.x = AdmireStore.proseWindy.squeamishWandering.x + param1;
-         InexpensiveInstruct.loafGullible.y = param2 + AdmireStore.proseWindy.squeamishWandering.y;
-         CrashAlanson.pipkaTax(InexpensiveInstruct.loafGullible,HystericalKotsky.notebookChivalrous);
-         var _loc3_:Number = HystericalKotsky.notebookChivalrous;
-         var _loc4_:int = RecogniseCompetition.prepareAgree(RecogniseTrail.balvankaAir);
-         var _loc5_:int = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         var _loc6_:int = InexpensiveInstruct.waitingDecay.length;
-         while(++_loc5_ < _loc6_)
-         {
-            _loc7_ = InexpensiveInstruct.waitingDecay[_loc5_];
-            RobinHateful.scratchQuirky(_loc7_,RecogniseCompetition.prepareAgree(LipStore.lunasoleProgram),ActionKnot.airCrash,_loc5_ * CoalRay.satisfyTrail).obeisantTasteless(HystericalKotsky.notebookChivalrous,Math.cos(_loc3_) * _loc4_).senseObeisant(HystericalKotsky.notebookChivalrous,Math.sin(_loc3_) * _loc4_);
-            _loc3_ = _loc3_ + RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) * Math.PI / _loc6_;
-            InexpensiveInstruct.loafGullible.addChild(_loc7_);
-         }
-      }
-      
-      public static function machineSubdued() : void
+      public static function uncleGaping() : void
       {
          var _loc2_:SpuriousSubdued = null;
-         InexpensiveInstruct.legPinus = DeterminedPrepare.machineSigh;
-         InexpensiveInstruct.satisfyDistro = new Dictionary();
-         InexpensiveInstruct.unequaledAnus = new Vector.<String>();
-         InexpensiveInstruct.waitingDecay = new Vector.<Sprite>();
-         var _loc1_:int = HystericalKotsky.notebookChivalrous;
-         while(_loc1_ < RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear))
+         InexpensiveInstruct.deliverRay = HateFaint.bladeStatement;
+         InexpensiveInstruct.juiceArmy = new Dictionary();
+         InexpensiveInstruct.deadpanJumbled = new Vector.<String>();
+         InexpensiveInstruct.suzukaProud = new Vector.<Sprite>();
+         var _loc1_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         while(_loc1_ < OrderUnit.apatheticRare(VolcanoStay.proudWaiting))
          {
-            InexpensiveInstruct.unequaledAnus.push(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(HystericalKotsky.agonizingSubdued) + _loc1_));
-            _loc2_ = new SpuriousSubdued(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),HystericalKotsky.notebookChivalrous);
-            _loc2_.addChild(AgreeableHistorical.probableCute(HystericalKotsky.agonizingSubdued + _loc1_));
-            InexpensiveInstruct.waitingDecay.push(_loc2_);
-            _loc2_.confusedHateful(InexpensiveInstruct.faithfulBruise,_loc1_);
-            _loc2_.annoyingSerious(InexpensiveInstruct.unitDecay,_loc1_);
+            InexpensiveInstruct.deadpanJumbled.push(BerryAgreeable.orangesCompetition(DildoBorrow.babiesPlan + _loc1_));
+            _loc2_ = new SpuriousSubdued(ReligionStore.trailInstruct,ReligionStore.trailInstruct);
+            _loc2_.addChild(AgreeableHistorical.admireCute(DildoBorrow.babiesPlan + _loc1_));
+            InexpensiveInstruct.suzukaProud.push(_loc2_);
+            _loc2_.harmonySign(InexpensiveInstruct.satisfyJoyous,_loc1_);
+            _loc2_.proudBack(InexpensiveInstruct.superUncle,_loc1_);
             _loc1_++;
          }
+      }
+      
+      public static function satisfyJoyous(param1:int) : void
+      {
+         InexpensiveInstruct.companyBorrow();
+         if(InexpensiveInstruct.actionCompany && InexpensiveInstruct.actionCompany.parent)
+         {
+            InexpensiveInstruct.actionCompany.parent.removeChild(InexpensiveInstruct.actionCompany);
+         }
+         RareFeeble.waitingGullible.sighCrime(new StupidHistorical(param1,InexpensiveInstruct.staleAlanson,InexpensiveInstruct.inviteDelightful));
       }
    }
 }

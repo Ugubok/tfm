@@ -5,30 +5,30 @@ package
    public class ToeLip
    {
       
-      public static var rayCompetition:Boolean = false;
+      public static var alansonFour:Boolean = false;
        
       
-      public var crimeVolcano:SubduedGround;
+      public var crackerLabel:SubduedGround;
       
-      public var harmonyViolet:Boolean = false;
+      public var agreeableYell:Boolean = false;
       
-      public var delightfulInstruct:Boolean = false;
+      public var orderMighty:Boolean = false;
       
-      public var crackerWatery:Boolean = false;
+      public var stupidFeeble:Boolean = false;
       
-      public var frailProbable:HistoricalSwanky;
+      public var cribObeisant:HistoricalSwanky;
       
       public function ToeLip(param1:SubduedGround)
       {
          super();
          if(param1)
          {
-            this.crimeVolcano = param1;
+            this.crackerLabel = param1;
          }
-         this.frailProbable = new HistoricalSwanky(this,false);
+         this.cribObeisant = new HistoricalSwanky(this,false);
       }
       
-      public function probableCute() : MovieClip
+      public function admireCute() : MovieClip
       {
          return null;
       }

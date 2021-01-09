@@ -6,38 +6,38 @@ package
    {
        
       
-      public var hystericalChickens:int;
+      public var programLaborer:int;
       
-      public var clubBathe:int;
+      public var fixAdhesive:int;
       
-      public var squeamishFour:int;
+      public var staleScale:int;
       
-      public var kurumaRecognise:String;
+      public var bagGullible:String;
       
-      public var juiceComplex:String;
+      public var lookBashful:String;
       
-      public var actionHate:int;
+      public var whistleIcy:int;
       
-      public var prepareHydrant:Boolean;
+      public var panoramicDildo:Boolean;
       
       public function SwankyStore(param1:ByteArray)
       {
          super(param1);
-         this.hystericalChickens = param1.readInt();
-         this.clubBathe = param1.readShort();
-         this.squeamishFour = param1.readByte();
-         this.kurumaRecognise = cryBalvanka();
-         this.juiceComplex = param1.readUTF();
-         this.actionHate = param1.readByte();
-         this.prepareHydrant = param1.readBoolean();
-         if(this.kurumaRecognise == RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued))
+         this.programLaborer = param1.readInt();
+         this.fixAdhesive = param1.readShort();
+         this.staleScale = param1.readByte();
+         this.feebleThick();
+         this.lookBashful = param1.readUTF();
+         this.whistleIcy = param1.readByte();
+         this.panoramicDildo = param1.readBoolean();
+         if(this.bagGullible == DildoBorrow.metalAdaptable)
          {
-            this.kurumaRecognise = null;
+            this.bagGullible = null;
          }
          if(param1.bytesAvailable)
          {
-            this.juiceComplex = RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued);
-            this.actionHate = HystericalKotsky.notebookChivalrous;
+            this.lookBashful = OrderUnit.probableLip(DildoBorrow.metalAdaptable);
+            this.whistleIcy = ReligionStore.trailInstruct;
          }
       }
    }

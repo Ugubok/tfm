@@ -4,36 +4,36 @@ package
    {
        
       
-      public var zonkedJuice:int;
+      public var milkySupply:int;
       
-      public var trembleDeadpan:int;
+      public var crowdedFragile:int;
       
-      public var adviseColor:Boolean;
+      public var historicalTasteless:Boolean;
       
-      public var scaleMachine:int;
+      public var flowerGate:int;
       
       public function BabiesPinus(param1:Number, param2:Number, param3:Boolean)
       {
          super();
-         this.adviseColor = param3;
-         if(param1 < HystericalKotsky.notebookChivalrous)
+         this.historicalTasteless = param3;
+         if(param1 < OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
-            param1 = HystericalKotsky.notebookChivalrous;
+            param1 = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          }
-         else if(PrepareFeeble.groundQuirky < param1)
+         else if(param1 > PrepareFeeble.delightfulNoxious)
          {
-            param1 = PrepareFeeble.groundQuirky;
+            param1 = PrepareFeeble.delightfulNoxious;
          }
-         if(HystericalKotsky.notebookChivalrous > param2)
+         if(OrderUnit.apatheticRare(ReligionStore.trailInstruct) > param2)
          {
-            param2 = HystericalKotsky.notebookChivalrous;
+            param2 = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          }
-         else if(PrepareFeeble.faithfulNoiseless < param2)
+         else if(PrepareFeeble.dildoReligion < param2)
          {
-            param2 = PrepareFeeble.faithfulNoiseless;
+            param2 = PrepareFeeble.dildoReligion;
          }
-         this.zonkedJuice = int(Math.round(param1 / LaborerFeeble.instructBathe) * LaborerFeeble.instructBathe);
-         this.trembleDeadpan = int(Math.round(param2 / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)) * LaborerFeeble.instructBathe);
+         this.milkySupply = int(Math.round(param1 / PinusSand.jumbledTiresome) * PinusSand.jumbledTiresome);
+         this.crowdedFragile = int(Math.round(param2 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome)) * PinusSand.jumbledTiresome);
       }
    }
 }

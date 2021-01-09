@@ -4,196 +4,196 @@ package
    import flash.text.TextFormatAlign;
    import flash.utils.Dictionary;
    
-   public class SpuriousCrash extends InstructKnot
+   public class SpuriousCrash extends ArmyAlanson
    {
       
-      public static const airObeisant:int = 8;
+      public static const groundStore:int =  8;
       
-      public static var admireHeal:Dictionary = new Dictionary();
+      public static var hateLight:Dictionary = new Dictionary();
       
-      public static var trembleTax:Vector.<SpuriousCrash> = new Vector.<SpuriousCrash>();
+      public static var mightyTrail:Vector.<SpuriousCrash> = new Vector.<SpuriousCrash>();
        
       
-      public var entertainingHateful:String = null;
+      public var planHalf:String = null;
       
-      public var fascinatedAdhesive:LipHistorical;
+      public var inexpensiveAlanson:LipHistorical;
       
-      public var yellCry:Function = null;
+      public var sighSense:Function = null;
       
-      public var armyLight:Function = null;
+      public var quirkyWandering:Function = null;
       
-      public var partyChicken:Boolean = false;
+      public var loafStupid:Boolean = false;
       
-      public var hystericalHate:YellAlanson = null;
+      public var lightUnequaled:YellAlanson = null;
       
-      public var wingStupid:MovieClip;
+      public var orderFaithful:MovieClip;
       
-      public var waitingCrown:SeriousFragile;
+      public var tastelessDetermined:SeriousFragile;
       
-      public var thickMachine:SeriousFragile;
+      public var frailAnus:SeriousFragile;
       
-      public var chopLook:SeriousFragile;
+      public var colorFlower:SeriousFragile;
       
       public function SpuriousCrash(param1:int, param2:Function, param3:Function = null, param4:Boolean = false, param5:Boolean = false, param6:String = null, param7:String = null, param8:Boolean = false)
       {
          var _loc9_:SeriousFragile = null;
-         super(GroundFour.peckNoxious,(!!param5?MetalDetermined.hateKotsky:RayYell.stayCracker) + (param6 != null && param6.length > HystericalKotsky.notebookChivalrous?RecogniseCompetition.prepareAgree(BerryMouse.distroWicked):RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)));
-         knotSqueamish(new FragileScale(ChickensScintillating.trembleCard,BruiseBorrow.taxChivalrous));
-         stomachWicked(AdviseRobin.mouseProbable);
-         jumbledAnnoying();
-         this.fascinatedAdhesive = new LipHistorical();
-         this.chopLook = new SeriousFragile(HystericalKotsky.taxBalvanka,HystericalKotsky.notebookChivalrous);
-         cuteProse(this.chopLook);
-         this.chopLook.x = AdviseRobin.mouseProbable;
-         this.hystericalHate = this.fascinatedAdhesive.programLabel();
-         cuteProse(this.hystericalHate);
-         this.hystericalHate.x = AdviseRobin.mouseProbable;
-         this.wingStupid = this.fascinatedAdhesive.grateIllustrious(new <int>[param1])[HystericalKotsky.notebookChivalrous];
-         this.fascinatedAdhesive.knotOranges(HystericalKotsky.notebookChivalrous);
+         super(OrderUnit.apatheticRare(AdmireUncle.wingFragile),(!!param5?GullibleLook.illustriousLamentable:BurnFix.orderReligion) + (param6 != null && param6.length > OrderUnit.apatheticRare(ReligionStore.trailInstruct)?OrderUnit.apatheticRare(PrepareLip.competitionSupply):OrderUnit.apatheticRare(ReligionStore.trailInstruct)));
+         agreeableRobin(new FragileScale(ChickensScintillating.distroStick,OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining)));
+         gullibleDistro(CardBabies.senseCrown);
+         harmonyWatery();
+         this.inexpensiveAlanson = new LipHistorical();
+         this.colorFlower = new SeriousFragile(OrderUnit.apatheticRare(DildoBorrow.instructBorrow),OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         icyCry(this.colorFlower);
+         this.colorFlower.x = CardBabies.senseCrown;
+         this.lightUnequaled = this.scaleAnnoying();
+         icyCry(this.lightUnequaled);
+         this.lightUnequaled.x = CardBabies.senseCrown;
+         this.orderFaithful = this.whisperFix(new <int>[param1])[OrderUnit.apatheticRare(ReligionStore.trailInstruct)];
+         this.pinusThick(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
          if(param5)
          {
-            _loc9_ = new SeriousFragile(HystericalKotsky.taxBalvanka,MetalDetermined.anusWing);
-            _loc9_.knotSqueamish(new FragileScale(ChickensScintillating.clubAdaptable,AdviseRobin.satisfyGaping));
-            cuteProse(_loc9_);
-            _loc9_.x = RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable);
-            _loc9_.cuteProse(new InexpensiveGround(BerryAgreeable.noiselessGround(WaitingReligion.admireInjure)));
-            _loc9_.cuteProse(this.wingStupid);
-            this.wingStupid.y = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-            _loc9_.stomachWicked(RecogniseCompetition.prepareAgree(DeterminedWarlike.volcanoDelightful));
-            this.waitingCrown = new SeriousFragile(RayYell.seriousOrange,RecogniseCompetition.prepareAgree(LipStore.lunasoleProgram));
-            _loc9_.cuteProse(this.waitingCrown);
-            this.partyChicken = DeterminedPrepare.hatefulComplex;
-            this.fascinatedAdhesive.tastelessThick(SpuriousCrash.airObeisant,this.waitingCrown);
+            _loc9_ = new SeriousFragile(OrderUnit.apatheticRare(DildoBorrow.instructBorrow),OrderUnit.apatheticRare(AdaptableInexpensive.kurumaUnit));
+            _loc9_.agreeableRobin(new FragileScale(ChickensScintillating.robinKnot,AdmireUncle.crimeCreator));
+            icyCry(_loc9_);
+            _loc9_.x = OrderUnit.apatheticRare(CardBabies.senseCrown);
+            _loc9_.icyCry(new InexpensiveGround(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(VolcanoStay.chopOrder))));
+            _loc9_.icyCry(this.orderFaithful);
+            this.orderFaithful.y = -CardBabies.machineOranges;
+            _loc9_.gullibleDistro(OrderUnit.apatheticRare(CardBabies.lunasoleSwanky));
+            this.tastelessDetermined = new SeriousFragile(OrderUnit.apatheticRare(WanderingDecay.healQuirky),PrepareLip.cribViolet);
+            _loc9_.icyCry(this.tastelessDetermined);
+            this.loafStupid = HateFaint.proudGround;
+            this.obeisantAir(SpuriousCrash.groundStore,this.tastelessDetermined);
          }
-         this.cribCard(param6);
-         this.hystericalHate.couleur(param1,true,true);
-         this.yellCry = param2;
-         this.fascinatedAdhesive.fourInstruct(this.yellCry);
-         this.armyLight = param3;
-         this.thickMachine = new SeriousFragile(RecogniseCompetition.prepareAgree(HystericalKotsky.taxBalvanka),RecogniseCompetition.prepareAgree(BerryMouse.distroWicked));
-         this.thickMachine.knotSqueamish(new FragileScale(ChickensScintillating.clubAdaptable,CoalWhisper.burnViolet));
-         cuteProse(this.thickMachine);
-         this.thickMachine.x = AdviseRobin.mouseProbable;
+         this.bashfulPlan(param6);
+         this.lightUnequaled.couleur(param1,true,true);
+         this.sighSense = param2;
+         this.cuteWhisper(this.sighSense);
+         this.quirkyWandering = param3;
+         this.frailAnus = new SeriousFragile(OrderUnit.apatheticRare(DildoBorrow.instructBorrow),OrderUnit.apatheticRare(PrepareLip.competitionSupply));
+         this.frailAnus.agreeableRobin(new FragileScale(ChickensScintillating.robinKnot,OrderUnit.apatheticRare(AdmireUncle.faithfulFlower)));
+         icyCry(this.frailAnus);
+         this.frailAnus.x = OrderUnit.apatheticRare(CardBabies.senseCrown);
          if(param4)
          {
-            this.thickMachine.cuteProse(this.fascinatedAdhesive.armyBury(new SwankyOranges(BerryAgreeable.noiselessGround(AdviseRobin.fragileCoal),(this.thickMachine.scintillatingCoal - this.thickMachine.loafSisters()) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)),this.subduedAdaptable));
-            this.thickMachine.cuteProse(this.fascinatedAdhesive.metalSerious(new SwankyOranges(BerryAgreeable.noiselessGround(LaborerFeeble.lightFrail),(this.thickMachine.scintillatingCoal - this.thickMachine.loafSisters()) / LaborerFeeble.instructBathe),this.sighOranges));
+            this.frailAnus.icyCry(this.warlikeBag(new SwankyOranges(BerryAgreeable.orangesCompetition(VolcanoStay.noxiousRare),(this.frailAnus.storeAmuse - this.frailAnus.tiresomeBruise()) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome)),this.violetCry));
+            this.frailAnus.icyCry(this.trembleCommon(new SwankyOranges(BerryAgreeable.orangesCompetition(ListIllustrious.unequaledNoxious),(this.frailAnus.storeAmuse - this.frailAnus.tiresomeBruise()) / PinusSand.jumbledTiresome),this.frailBag));
          }
          else
          {
-            this.thickMachine.cuteProse(this.fascinatedAdhesive.armyBury(new SwankyOranges(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(AdviseRobin.fragileCoal)),this.thickMachine.scintillatingCoal),this.subduedAdaptable));
+            this.frailAnus.icyCry(this.warlikeBag(new SwankyOranges(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(VolcanoStay.noxiousRare)),this.frailAnus.storeAmuse),this.violetCry));
          }
       }
       
-      public static function birdAgonizing(param1:String) : Boolean
-      {
-         return SpuriousCrash.admireHeal[param1] && SpuriousCrash.admireHeal[param1].parent;
-      }
-      
-      public static function companyPlan(param1:String) : void
-      {
-         if(SpuriousCrash.admireHeal[param1] && SpuriousCrash.admireHeal[param1].parent)
-         {
-            SpuriousCrash.admireHeal[param1].parent.removeChild(SpuriousCrash.admireHeal[param1]);
-         }
-      }
-      
-      public static function requestRare(param1:int, param2:Function, param3:Function = null, param4:Boolean = false, param5:Boolean = false, param6:String = null, param7:String = null, param8:Boolean = false) : SpuriousCrash
+      public static function rareFix(param1:int, param2:Function, param3:Function = null, param4:Boolean = false, param5:Boolean = false, param6:String = null, param7:String = null, param8:Boolean = false) : SpuriousCrash
       {
          var _loc9_:SpuriousCrash = null;
-         if(param7 != null && SpuriousCrash.admireHeal[param7])
+         if(param7 != null && SpuriousCrash.hateLight[param7])
          {
-            _loc9_ = SpuriousCrash.admireHeal[param7];
-            _loc9_.fascinatedAdhesive.programLabel().couleur(param1);
-            _loc9_.fascinatedAdhesive.fourInstruct(param2);
-            _loc9_.cribCard(param6);
+            _loc9_ = SpuriousCrash.hateLight[param7];
+            _loc9_.scaleAnnoying().couleur(param1);
+            _loc9_.cuteWhisper(param2);
+            _loc9_.bashfulPlan(param6);
          }
          else
          {
             _loc9_ = new SpuriousCrash(param1,param2,param3,param4,param5,param6);
          }
-         _loc9_.x = (MetalDetermined.gatePail - _loc9_.scintillatingCoal) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-         _loc9_.y = RecogniseCompetition.prepareAgree(BerryMouse.distroWicked) + (-_loc9_.delightfulAlanson + DeterminedWarlike.crackerCrash) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
+         _loc9_.x = (-_loc9_.storeAmuse + PanoramicProbable.orangeChivalrous) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+         _loc9_.y = PrepareLip.competitionSupply + (BatheKotsky.eliteCoal - _loc9_.babiesSubdued) / PinusSand.jumbledTiresome;
          if(param7 != null)
          {
-            SpuriousCrash.admireHeal[param7] = _loc9_;
-            _loc9_.entertainingHateful = param7;
+            SpuriousCrash.hateLight[param7] = _loc9_;
+            _loc9_.planHalf = param7;
          }
-         if(SpuriousCrash.trembleTax.indexOf(_loc9_) == -CoalRay.actionBorrow)
+         if(SpuriousCrash.mightyTrail.indexOf(_loc9_) == -OrderUnit.apatheticRare(CardBabies.machineOranges))
          {
-            SpuriousCrash.trembleTax.push(_loc9_);
+            SpuriousCrash.mightyTrail.push(_loc9_);
          }
          if(param8)
          {
-            _loc9_.armyLight = _loc9_.staleSupply;
-            MightyInstruct.markCrib.addChild(_loc9_);
+            _loc9_.quirkyWandering = _loc9_.feebleArmy;
+            MightyInstruct.feebleMilky.addChild(_loc9_);
          }
          else
          {
-            CrashAlanson.pipkaTax(_loc9_);
+            CrashAlanson.yellObtainable(_loc9_);
          }
          return _loc9_;
       }
       
-      public function cardGrate() : void
+      public static function requestChop(param1:String) : Boolean
       {
-         this.hystericalHate.couleur(this.hystericalHate.couleurEnCours,true,true);
-         CrashAlanson.pipkaTax(this);
+         return SpuriousCrash.hateLight[param1] && SpuriousCrash.hateLight[param1].parent;
       }
       
-      public function sighOranges(param1:Vector.<int>) : void
+      public static function injureOrange(param1:String) : void
       {
-         this.fourWaiting();
-         if(this.armyLight != null)
+         if(SpuriousCrash.hateLight[param1] && SpuriousCrash.hateLight[param1].parent)
          {
-            this.armyLight(-CoalRay.actionBorrow);
+            SpuriousCrash.hateLight[param1].parent.removeChild(SpuriousCrash.hateLight[param1]);
          }
       }
       
-      public function cribCard(param1:String) : void
+      public function dildoCracker() : void
       {
-         this.chopLook.programVolcano();
-         if(param1 != null && param1.length > RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+         this.lightUnequaled.couleur(this.lightUnequaled.couleurEnCours,true,true);
+         CrashAlanson.yellObtainable(this);
+      }
+      
+      public function violetCry(param1:Vector.<int>) : void
+      {
+         this.pearBerry();
+         if(this.quirkyWandering != null)
          {
-            this.chopLook.sighChop(this.chopLook.scintillatingCoal,BerryMouse.distroWicked);
-            this.chopLook.cuteProse(new InexpensiveGround(param1,this.chopLook.scintillatingCoal).crownSqueamish(TextFormatAlign.CENTER));
-            sighChop(scintillatingCoal,(!!this.partyChicken?MetalDetermined.hateKotsky:RecogniseCompetition.prepareAgree(RayYell.stayCracker)) + BerryMouse.distroWicked);
+            this.quirkyWandering(param1[ReligionStore.trailInstruct]);
+         }
+      }
+      
+      public function bashfulPlan(param1:String) : void
+      {
+         this.colorFlower.obeisantAdaptable();
+         if(param1 != null && param1.length > ReligionStore.trailInstruct)
+         {
+            this.colorFlower.crackerIcy(this.colorFlower.storeAmuse,OrderUnit.apatheticRare(PrepareLip.competitionSupply));
+            this.colorFlower.icyCry(new InexpensiveGround(param1,this.colorFlower.storeAmuse).bruiseKnot(TextFormatAlign.CENTER));
+            crackerIcy(storeAmuse,(!!this.loafStupid?OrderUnit.apatheticRare(GullibleLook.illustriousLamentable):BurnFix.orderReligion) + PrepareLip.competitionSupply);
          }
          else
          {
-            this.chopLook.sighChop(this.chopLook.scintillatingCoal,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-            sighChop(scintillatingCoal,!!this.partyChicken?int(MetalDetermined.hateKotsky):int(RecogniseCompetition.prepareAgree(RayYell.stayCracker)));
+            this.colorFlower.crackerIcy(this.colorFlower.storeAmuse,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+            crackerIcy(storeAmuse,!!this.loafStupid?int(GullibleLook.illustriousLamentable):int(BurnFix.orderReligion));
          }
-         companyHistorical();
+         storeObeisant();
       }
       
-      public function staleSupply(param1:int) : void
-      {
-         if(this.entertainingHateful == null || this.entertainingHateful.indexOf(RecogniseCompetition.mouseDelightful(GroundFour.agonizingPear)) != HystericalKotsky.notebookChivalrous)
-         {
-            return;
-         }
-         var _loc2_:int = parseInt(this.entertainingHateful.replace(GroundFour.agonizingPear,RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued)));
-         RareFeeble.actionFeeble.stickVolcano(new DeadpanCrib(_loc2_,param1));
-         AdmireStore.proseWindy.stage.focus = AdmireStore.proseWindy;
-      }
-      
-      public function fourWaiting() : void
+      public function pearBerry() : void
       {
          if(parent)
          {
             parent.removeChild(this);
-            SpuriousCrash.trembleTax.splice(SpuriousCrash.trembleTax.indexOf(this),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
+            SpuriousCrash.mightyTrail.splice(SpuriousCrash.mightyTrail.indexOf(this),CardBabies.machineOranges);
          }
       }
       
-      public function subduedAdaptable(param1:Vector.<int>) : void
+      public function frailBag(param1:Vector.<int>) : void
       {
-         this.fourWaiting();
-         if(this.armyLight != null)
+         this.pearBerry();
+         if(this.quirkyWandering != null)
          {
-            this.armyLight(param1[RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)]);
+            this.quirkyWandering(-OrderUnit.apatheticRare(CardBabies.machineOranges));
          }
+      }
+      
+      public function feebleArmy(param1:int) : void
+      {
+         if(this.planHalf == null || this.planHalf.indexOf(OrderUnit.probableLip(AdaptableInexpensive.legSign)) != OrderUnit.apatheticRare(ReligionStore.trailInstruct))
+         {
+            return;
+         }
+         var _loc2_:int = parseInt(this.planHalf.replace(OrderUnit.probableLip(AdaptableInexpensive.legSign),DildoBorrow.metalAdaptable));
+         RareFeeble.waitingGullible.sighCrime(new DeadpanAnnoying(_loc2_,param1));
+         StalePinus.halfWaiting.stage.focus = StalePinus.halfWaiting;
       }
    }
 }

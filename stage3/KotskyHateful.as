@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var batheGate:int;
+      public var orderBalvanka:int;
       
-      public var curvedOranges:int;
+      public var tastelessProud:int;
       
-      public var hystericalEntertaining:ZonkedJumbled;
+      public var largeFlower:SpuriousFragile;
       
       public function KotskyHateful(param1:int, param2:int, param3:int)
       {
          super();
          this.idSequence = param1;
-         this.batheGate = param2;
-         this.curvedOranges = param3;
+         this.orderBalvanka = param2;
+         this.tastelessProud = param3;
       }
       
       public function getIdSequence() : int
@@ -27,31 +27,31 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky);
+         return OrderUnit.apatheticRare(LargeComplex.programAbaft);
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeInt(this.batheGate);
-         param1.writeInt(this.curvedOranges);
+         param1.writeInt(this.orderBalvanka);
+         param1.writeInt(this.tastelessProud);
       }
    }
 }

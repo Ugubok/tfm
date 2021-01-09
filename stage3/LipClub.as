@@ -6,10 +6,10 @@ package
       
       public function LipClub(param1:String, param2:String, param3:Boolean)
       {
-         super(AdviseRobin.satisfyGaping,RecogniseCompetition.prepareAgree(AnusSeed.buryArmy));
-         staySigh.writeUTF(param1);
-         staySigh.writeUTF(param2);
-         staySigh.writeByte(!!param3?int(CoalRay.actionBorrow):int(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)));
+         super(OrderUnit.apatheticRare(AdmireUncle.crimeCreator),OrderUnit.apatheticRare(ReligionStore.orderConfused));
+         lamentableSpurious.writeUTF(param1);
+         lamentableSpurious.writeUTF(param2);
+         lamentableSpurious.writeByte(!!param3?int(OrderUnit.apatheticRare(CardBabies.machineOranges)):int(ReligionStore.trailInstruct));
       }
    }
 }

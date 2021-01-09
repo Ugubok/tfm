@@ -4,13 +4,13 @@ package
    {
        
       
-      public function PrepareOranges(param1:String, param2:String, param3:String)
+      public function PrepareOranges(param1:String, param2:Boolean = false, param3:Boolean = true, param4:Boolean = true)
       {
-         super(LaborerFeeble.staleMark,BruiseBorrow.hateStatement);
-         staySigh.writeUTF(param1);
-         staySigh.writeUTF(param2);
-         staySigh.writeUTF(param3);
-         lipStay = DeterminedPrepare.hatefulComplex;
+         super(CreatorSupply.slipSeed,OrderUnit.apatheticRare(WaitingCrib.statementDecay));
+         lamentableSpurious.writeUTF(param1);
+         lamentableSpurious.writeBoolean(param2);
+         lamentableSpurious.writeBoolean(param3);
+         lamentableSpurious.writeBoolean(param4);
       }
    }
 }

@@ -4,24 +4,24 @@ package
    {
        
       
-      public var sistersBerry:uint = 1;
+      public var birdAlanson:uint = 1;
       
-      public var apatheticPinus:uint = 65535;
+      public var proseDecay:uint = 65535;
       
-      public var satisfyUncle:int;
+      public var zonkedAgonizing:int;
       
       public function FascinatedInstruct()
       {
-         this.satisfyUncle = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.zonkedAgonizing = ReligionStore.trailInstruct;
          super();
       }
       
-      public function uncleQuirky() : FascinatedInstruct
+      public function supplyAgonizing() : FascinatedInstruct
       {
          var _loc1_:FascinatedInstruct = new FascinatedInstruct();
-         _loc1_.sistersBerry = this.sistersBerry;
-         _loc1_.apatheticPinus = this.apatheticPinus;
-         _loc1_.satisfyUncle = this.satisfyUncle;
+         _loc1_.birdAlanson = this.birdAlanson;
+         _loc1_.proseDecay = this.proseDecay;
+         _loc1_.zonkedAgonizing = this.zonkedAgonizing;
          return _loc1_;
       }
    }

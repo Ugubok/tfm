@@ -4,11 +4,11 @@ package
    {
        
       
-      public var instructWandering:Function;
+      public var inviteParty:Function;
       
-      public var gateFix:Function;
+      public var amuseLabel:Function;
       
-      public var crashQuirky:Boolean;
+      public var fragileOrder:Boolean;
       
       public function SubduedInstruct()
       {

@@ -8,23 +8,23 @@ package
    public class AnusHistorical
    {
       
-      public static var companyGrate:Sprite;
+      public static var patEntertaining:Sprite;
       
-      public static var complexSupply:MovieClip;
+      public static var whisperJumbled:MovieClip;
       
-      public static var birdAgonizing:Boolean = false;
+      public static var requestChop:Boolean = false;
       
-      public static var juiceClub:int;
+      public static var crownRobin:int;
       
-      public static var adaptableApathetic:int;
+      public static var seriousCrime:int;
       
-      public static var grateViolet:int = 100;
+      public static var chivalrousDildo:int =  100;
       
-      public static var flowerProbable:int = 300;
+      public static var balvankaNoiseless:int =  300;
       
-      public static var bladeChicken:Boolean = true;
+      public static var gullibleWandering:Boolean = true;
       
-      public static var satisfyKnot:int = 0;
+      public static var birdBabies:int =  0;
        
       
       public function AnusHistorical()
@@ -32,137 +32,137 @@ package
          super();
       }
       
-      public static function unequaledKotsky() : void
+      public static function statementKnot() : void
       {
-         AnusHistorical.satisfyKnot = AdmireStore.crimeGullible();
-         AdmireStore.proseWindy.removeEventListener(BalvankaNotebook.programOrder,AnusHistorical.actionAdhesive);
-         AnusHistorical.birdAgonizing = DeterminedPrepare.machineSigh;
-         if(AnusHistorical.companyGrate && AnusHistorical.companyGrate.parent)
+         AnusHistorical.birdBabies = StalePinus.trailLamentable();
+         StalePinus.halfWaiting.removeEventListener(OrderUnit.probableLip(WaitingCrib.gateFrail),AnusHistorical.fascinatedStore);
+         AnusHistorical.requestChop = HateFaint.bladeStatement;
+         if(AnusHistorical.patEntertaining && AnusHistorical.patEntertaining.parent)
          {
-            AnusHistorical.companyGrate.parent.removeChild(AnusHistorical.companyGrate);
+            AnusHistorical.patEntertaining.parent.removeChild(AnusHistorical.patEntertaining);
          }
-         if(AnusHistorical.complexSupply)
+         if(AnusHistorical.whisperJumbled)
          {
-            AnusHistorical.complexSupply.gotoAndStop(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
+            AnusHistorical.whisperJumbled.gotoAndStop(OrderUnit.apatheticRare(CardBabies.machineOranges));
          }
-         if(ActionSign.faintStale)
+         if(ActionSign.batheInexpensive)
          {
-            AdmireStore.proseWindy.stage.scaleMode = StageScaleMode.NO_BORDER;
+            StalePinus.halfWaiting.stage.scaleMode = StageScaleMode.NO_BORDER;
          }
       }
       
-      public static function competitionFrail(param1:Event = null) : void
-      {
-         if(RareOranges.labelMachine)
-         {
-            AdmireStore.proseWindy.competitionGaping.addEventListener(Event.RESIZE,AnusHistorical.competitionFrail);
-            return;
-         }
-         if(AnusHistorical.companyGrate)
-         {
-            AnusHistorical.companyGrate.graphics.clear();
-            AnusHistorical.companyGrate.graphics.beginFill(AdmireStore.whisperLeg.agreeableMighty.robinCrash);
-            AnusHistorical.companyGrate.graphics.drawRect(HystericalKotsky.notebookChivalrous,HystericalKotsky.notebookChivalrous,AdmireStore.alluringRecognise,AdmireStore.slipCry);
-            AnusHistorical.companyGrate.graphics.endFill();
-            if(AdmireStore.planScale())
-            {
-               AnusHistorical.complexSupply.x = int((AdmireStore.alluringRecognise - AnusHistorical.complexSupply.width) / LaborerFeeble.instructBathe);
-               AnusHistorical.complexSupply.y = int((-AnusHistorical.complexSupply.height + AdmireStore.slipCry) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)) - AdviseRobin.annoyingSisters;
-            }
-            else
-            {
-               AnusHistorical.complexSupply.x = int((AdmireStore.alluringRecognise - AnusHistorical.complexSupply.width) / LaborerFeeble.instructBathe);
-               AnusHistorical.complexSupply.y = int((-AnusHistorical.complexSupply.height + AdmireStore.slipCry) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)) - AdviseRobin.annoyingSisters;
-            }
-         }
-      }
-      
-      public static function requestRare(param1:Boolean) : void
+      public static function rareFix(param1:Boolean) : void
       {
          if(param1)
          {
-            if(!AnusHistorical.companyGrate)
+            if(!AnusHistorical.patEntertaining)
             {
-               AnusHistorical.companyGrate = new Sprite();
-               AnusHistorical.companyGrate.graphics.beginFill(AdmireStore.whisperLeg.agreeableMighty.robinCrash);
-               AnusHistorical.companyGrate.graphics.drawRect(HystericalKotsky.notebookChivalrous,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),AdmireStore.alluringRecognise,AdmireStore.slipCry);
-               AnusHistorical.companyGrate.graphics.endFill();
-               AnusHistorical.complexSupply = AgreeableHistorical.probableCute(LaborerFeeble.trembleAction);
-               if(AdmireStore.planScale())
+               AnusHistorical.patEntertaining = new Sprite();
+               AnusHistorical.patEntertaining.graphics.beginFill(StalePinus.determinedColor.uncleLaborer.airCard);
+               AnusHistorical.patEntertaining.graphics.drawRect(OrderUnit.apatheticRare(ReligionStore.trailInstruct),ReligionStore.trailInstruct,StalePinus.knotWandering,StalePinus.crownWatery);
+               AnusHistorical.patEntertaining.graphics.endFill();
+               AnusHistorical.whisperJumbled = AgreeableHistorical.admireCute(OrderUnit.probableLip(RayAmuse.burnStatement));
+               if(StalePinus.entertainingViolet())
                {
-                  AnusHistorical.complexSupply.x = int((-AnusHistorical.complexSupply.width + AdmireStore.alluringRecognise) / LaborerFeeble.instructBathe);
-                  AnusHistorical.complexSupply.y = int((-AnusHistorical.complexSupply.height + AdmireStore.slipCry) / LaborerFeeble.instructBathe) - AdviseRobin.annoyingSisters;
+                  AnusHistorical.whisperJumbled.x = int((-AnusHistorical.whisperJumbled.width + StalePinus.knotWandering) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
+                  AnusHistorical.whisperJumbled.y = int((StalePinus.crownWatery - AnusHistorical.whisperJumbled.height) / PinusSand.jumbledTiresome) - OrderUnit.apatheticRare(CardBabies.crashJuice);
                }
                else
                {
-                  AnusHistorical.complexSupply.x = int((-AnusHistorical.complexSupply.width + AdmireStore.alluringRecognise) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
-                  AnusHistorical.complexSupply.y = int((-AnusHistorical.complexSupply.height + AdmireStore.slipCry) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)) - RecogniseCompetition.prepareAgree(AdviseRobin.annoyingSisters);
+                  AnusHistorical.whisperJumbled.x = int((StalePinus.knotWandering - AnusHistorical.whisperJumbled.width) / PinusSand.jumbledTiresome);
+                  AnusHistorical.whisperJumbled.y = int((-AnusHistorical.whisperJumbled.height + StalePinus.crownWatery) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome)) - OrderUnit.apatheticRare(CardBabies.crashJuice);
                }
-               AnusHistorical.companyGrate.addChild(AnusHistorical.complexSupply);
+               AnusHistorical.patEntertaining.addChild(AnusHistorical.whisperJumbled);
             }
-            AnusHistorical.complexSupply.gotoAndStop(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
-            AdmireStore.proseWindy.stage.addChild(AnusHistorical.companyGrate);
-            AdmireStore.proseWindy.addEventListener(BalvankaNotebook.programOrder,AnusHistorical.actionAdhesive);
-            AnusHistorical.juiceClub = AdmireStore.crimeGullible();
-            AnusHistorical.adaptableApathetic = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-            AnusHistorical.birdAgonizing = DeterminedPrepare.hatefulComplex;
-            if(ActionSign.faintStale)
+            AnusHistorical.whisperJumbled.gotoAndStop(OrderUnit.apatheticRare(CardBabies.machineOranges));
+            StalePinus.halfWaiting.stage.addChild(AnusHistorical.patEntertaining);
+            StalePinus.halfWaiting.addEventListener(WaitingCrib.gateFrail,AnusHistorical.fascinatedStore);
+            AnusHistorical.crownRobin = StalePinus.trailLamentable();
+            AnusHistorical.seriousCrime = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+            AnusHistorical.requestChop = HateFaint.proudGround;
+            if(ActionSign.batheInexpensive)
             {
-               AnusHistorical.complexSupply.gotoAndStop(ArmyObtainable.tastelessRecognise);
-               AnusHistorical.complexSupply.cacheAsBitmap = DeterminedPrepare.hatefulComplex;
+               AnusHistorical.whisperJumbled.gotoAndStop(OrderUnit.apatheticRare(LargeComplex.agreeableColor));
+               AnusHistorical.whisperJumbled.cacheAsBitmap = HateFaint.proudGround;
             }
-            AdmireStore.proseWindy.competitionGaping.addEventListener(Event.RESIZE,AnusHistorical.competitionFrail);
+            StalePinus.halfWaiting.sistersHate.addEventListener(Event.RESIZE,AnusHistorical.fragilePeck);
          }
          else
          {
-            AdmireStore.proseWindy.competitionGaping.removeEventListener(Event.RESIZE,AnusHistorical.competitionFrail);
-            if(AnusHistorical.companyGrate)
+            StalePinus.halfWaiting.sistersHate.removeEventListener(Event.RESIZE,AnusHistorical.fragilePeck);
+            if(AnusHistorical.patEntertaining)
             {
-               AnusHistorical.unequaledKotsky();
+               AnusHistorical.statementKnot();
             }
          }
       }
       
-      public static function actionAdhesive(param1:Event) : void
+      public static function fascinatedStore(param1:Event) : void
       {
          var _loc5_:int = 0;
-         var _loc2_:int = AdmireStore.crimeGullible();
-         var _loc3_:int = _loc2_ - AnusHistorical.juiceClub;
-         var _loc4_:int = RecogniseCompetition.prepareAgree(HystericalKotsky.rayAdvise) * (_loc3_ / ArmyObtainable.milkyAgree);
-         if(ActionSign.faintStale)
+         var _loc2_:int = StalePinus.trailLamentable();
+         var _loc3_:int = _loc2_ - AnusHistorical.crownRobin;
+         var _loc4_:int = LargeComplex.obeisantStupid * (_loc3_ / StupidCoal.healDistro);
+         if(ActionSign.batheInexpensive)
          {
-            if(_loc4_ >= RecogniseCompetition.prepareAgree(ArmyObtainable.tastelessRecognise))
+            if(OrderUnit.apatheticRare(LargeComplex.agreeableColor) <= _loc4_)
             {
-               if(AnusHistorical.bladeChicken)
+               if(AnusHistorical.gullibleWandering)
                {
-                  AnusHistorical.bladeChicken = DeterminedPrepare.machineSigh;
-                  BerryColor.requestRare(RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
+                  AnusHistorical.gullibleWandering = HateFaint.bladeStatement;
+                  BerryColor.rareFix(PinusSand.jumbledTiresome);
                }
-               AnusHistorical.unequaledKotsky();
+               AnusHistorical.statementKnot();
             }
             return;
          }
-         AnusHistorical.complexSupply.gotoAndStop(_loc4_);
-         if(ArmyObtainable.tastelessRecognise <= _loc4_)
+         AnusHistorical.whisperJumbled.gotoAndStop(_loc4_);
+         if(OrderUnit.apatheticRare(LargeComplex.agreeableColor) <= _loc4_)
          {
-            if(AnusHistorical.bladeChicken)
+            if(AnusHistorical.gullibleWandering)
             {
-               AnusHistorical.bladeChicken = DeterminedPrepare.machineSigh;
-               BerryColor.requestRare(RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
+               AnusHistorical.gullibleWandering = HateFaint.bladeStatement;
+               BerryColor.rareFix(OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
             }
-            AnusHistorical.complexSupply.gotoAndStop(ArmyObtainable.tastelessRecognise);
-            if(AnusHistorical.adaptableApathetic == HystericalKotsky.notebookChivalrous)
+            AnusHistorical.whisperJumbled.gotoAndStop(LargeComplex.agreeableColor);
+            if(ReligionStore.trailInstruct == AnusHistorical.seriousCrime)
             {
-               AnusHistorical.adaptableApathetic = _loc2_;
+               AnusHistorical.seriousCrime = _loc2_;
             }
-            _loc5_ = _loc2_ - AnusHistorical.adaptableApathetic;
-            if(_loc5_ > AnusHistorical.flowerProbable)
+            _loc5_ = _loc2_ - AnusHistorical.seriousCrime;
+            if(AnusHistorical.balvankaNoiseless < _loc5_)
             {
-               AnusHistorical.unequaledKotsky();
+               AnusHistorical.statementKnot();
             }
             else
             {
-               AnusHistorical.companyGrate.alpha = CoalRay.actionBorrow - _loc5_ / AnusHistorical.flowerProbable;
+               AnusHistorical.patEntertaining.alpha = OrderUnit.apatheticRare(CardBabies.machineOranges) - _loc5_ / AnusHistorical.balvankaNoiseless;
+            }
+         }
+      }
+      
+      public static function fragilePeck(param1:Event = null) : void
+      {
+         if(RareOranges.scratchWatery)
+         {
+            StalePinus.halfWaiting.sistersHate.addEventListener(Event.RESIZE,AnusHistorical.fragilePeck);
+            return;
+         }
+         if(AnusHistorical.patEntertaining)
+         {
+            AnusHistorical.patEntertaining.graphics.clear();
+            AnusHistorical.patEntertaining.graphics.beginFill(StalePinus.determinedColor.uncleLaborer.airCard);
+            AnusHistorical.patEntertaining.graphics.drawRect(OrderUnit.apatheticRare(ReligionStore.trailInstruct),OrderUnit.apatheticRare(ReligionStore.trailInstruct),StalePinus.knotWandering,StalePinus.crownWatery);
+            AnusHistorical.patEntertaining.graphics.endFill();
+            if(StalePinus.entertainingViolet())
+            {
+               AnusHistorical.whisperJumbled.x = int((StalePinus.knotWandering - AnusHistorical.whisperJumbled.width) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
+               AnusHistorical.whisperJumbled.y = int((StalePinus.crownWatery - AnusHistorical.whisperJumbled.height) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome)) - OrderUnit.apatheticRare(CardBabies.crashJuice);
+            }
+            else
+            {
+               AnusHistorical.whisperJumbled.x = int((-AnusHistorical.whisperJumbled.width + StalePinus.knotWandering) / PinusSand.jumbledTiresome);
+               AnusHistorical.whisperJumbled.y = int((StalePinus.crownWatery - AnusHistorical.whisperJumbled.height) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome)) - OrderUnit.apatheticRare(CardBabies.crashJuice);
             }
          }
       }

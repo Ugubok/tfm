@@ -6,12 +6,12 @@ package
       
       public var v:KnotSwanky;
       
-      public var scaleStomach:LoafGround;
+      public var mouseFrail:LoafGround;
       
       public function AnusBathe()
       {
          this.v = new KnotSwanky();
-         this.scaleStomach = new LoafGround();
+         this.mouseFrail = new LoafGround();
          super();
       }
    }

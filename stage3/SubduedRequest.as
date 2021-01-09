@@ -6,36 +6,36 @@ package
       
       public var position:KnotSwanky;
       
-      public var R:YellProse;
+      public var R:ToeCrime;
       
-      public function SubduedRequest(param1:KnotSwanky = null, param2:YellProse = null)
+      public function SubduedRequest(param1:KnotSwanky = null, param2:ToeCrime = null)
       {
          this.position = new KnotSwanky();
-         this.R = new YellProse();
+         this.R = new ToeCrime();
          super();
          if(param1)
          {
-            this.position.orderHydrant(param1);
-            this.R.prosePeck(param2);
+            this.position.chickenCommon(param1);
+            this.R.illustriousUncle(param2);
          }
       }
       
-      public function lightTiresome(param1:KnotSwanky, param2:YellProse) : void
+      public function deliverStay(param1:SubduedRequest) : void
       {
-         this.position.orderHydrant(param1);
-         this.R.prosePeck(param2);
+         this.position.chickenCommon(param1.position);
+         this.R.illustriousUncle(param1.R);
       }
       
-      public function bashfulPrepare(param1:SubduedRequest) : void
+      public function bashfulProgram() : void
       {
-         this.position.orderHydrant(param1.position);
-         this.R.prosePeck(param1.R);
+         this.position.uncleBashful();
+         this.R.bashfulProgram();
       }
       
-      public function whistleAbaft() : void
+      public function hystericalDelightful(param1:KnotSwanky, param2:ToeCrime) : void
       {
-         this.position.mouseDeadpan();
-         this.R.whistleAbaft();
+         this.position.chickenCommon(param1);
+         this.R.illustriousUncle(param2);
       }
    }
 }

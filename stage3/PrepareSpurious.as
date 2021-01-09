@@ -4,11 +4,11 @@ package
    {
        
       
-      public function PrepareSpurious(param1:RequestCrash, param2:String)
+      public function PrepareSpurious(param1:int, param2:int)
       {
-         super(RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous),HystericalKotsky.lightAnus);
-         staySigh.writeByte(param1.lipAdmire);
-         staySigh.writeUTF(param2);
+         super(LargeComplex.programAbaft,AdmireUncle.faithfulFlower);
+         lamentableSpurious.writeByte(param1);
+         lamentableSpurious.writeByte(param2);
       }
    }
 }

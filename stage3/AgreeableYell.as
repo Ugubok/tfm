@@ -6,23 +6,23 @@ package
       
       public var target:KnotSwanky;
       
-      public var notebookFragile:Number;
+      public var tiresomeWindy:Number;
       
-      public var sighKuruma:Number;
+      public var kotskyFour:Number;
       
-      public var subduedArmy:Number;
+      public var trailDildo:Number;
       
-      public var violetComplex:Number;
+      public var batheAbaft:Number;
       
       public function AgreeableYell()
       {
          this.target = new KnotSwanky();
          super();
-         type = AlansonTiresome.orderAlanson;
-         this.notebookFragile = RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
-         this.sighKuruma = CoalRay.mousePear;
-         this.subduedArmy = BruiseBorrow.largeAlanson;
-         this.violetComplex = RecogniseCompetition.scaleCrown(AdviseRobin.hangingUncle) / BerryMouse.squeamishJoyous;
+         type = AlansonTiresome.healApathetic;
+         this.tiresomeWindy = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
+         this.kotskyFour = GullibleLook.anusUncle;
+         this.trailDildo = GullibleLook.unitSisters;
+         this.batheAbaft = CardBabies.joyousFascinated / BurnFix.lamentableFaithful;
       }
    }
 }

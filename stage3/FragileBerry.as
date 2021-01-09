@@ -4,11 +4,11 @@ package
    {
        
       
-      public function FragileBerry(param1:int, param2:String)
+      public function FragileBerry(param1:String, param2:String)
       {
-         super(BerryMouse.distroWicked,LipStore.confusedSeed);
-         staySigh.writeShort(param1);
-         staySigh.writeUTF(param2);
+         super(OrderUnit.apatheticRare(AdmireUncle.delightfulFragile),OrderUnit.apatheticRare(CardBabies.quirkyFix));
+         lamentableSpurious.writeUTF(param1);
+         lamentableSpurious.writeUTF(param2);
       }
    }
 }

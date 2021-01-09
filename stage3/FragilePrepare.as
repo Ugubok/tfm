@@ -11,7 +11,7 @@ package
    public class FragilePrepare
    {
       
-      public static var feebleRay:Sprite = new Sprite();
+      public static var noxiousLamentable:Sprite = new Sprite();
        
       
       public function FragilePrepare()
@@ -19,86 +19,80 @@ package
          super();
       }
       
-      public static function cribMark(param1:String) : void
+      public static function uncleGaping() : void
       {
-         ActionFascinated.requestRare(param1);
-      }
-      
-      public static function pinusWhisper() : void
+         Global.x_connexionTribulle = new FeebleLoaf();
+         StalePinus.halfWaiting.agreeableObtainable = HateFaint.proudGround;
+         ProxyTribulle.x_initilisation(StalePinus.halfWaiting);
+         ProxyTribulle.x_messageChat = StalePinus.halfWaiting.hystericalClub;
+         ProxyTribulle.x_ouvrirInterfacePolice = BirdRobin.halfWaiting.rareFix;
+         ProxyTribulle.x_fonctionDebug = FragilePrepare.kurumaBerry;
+         ProxyTribulle.x_modeBouboum = StalePinus.faintSubdued;
+         ProxyTribulle.x_modeForteresse = StalePinus.waitingAmuse;
+         ProxyTribulle.x_modeTransformice = StalePinus.yellSubdued;
+         ProxyTribulle.x_fonctionCliqueChat = BabiesSwanky.illustriousStupid;
+         ProxyTribulle.x_fonctionLancementEchange = CrimeMouse.wingChivalrous;
+         ProxyTribulle.x_recupImageDistante = AgreeableHistorical.crowdedScale;
+         ProxyTribulle.x_fonctionDemandeToken = StalePinus.halfWaiting.listBruise;
+         ProxyTribulle.x_recupDrapeau = LunasoleWaiting.pinusSupply;
+         ProxyTribulle.x_testTexteChatInterdit = BerryColor.programLabel;
+         GestionnaireAmisVieux.getInstance();
+         GestionnaireListeNoireVieux.getInstance();
+         if(StalePinus.waitingAmuse)
+         {
+            ClientTribulle.getInstance().init(DeadpanToe.lipGullible.mouseFrail);
+         }
+         else if(StalePinus.faintSubdued)
+         {
+            ClientTribulle.getInstance().init(DeadpanToe.crashJoyous.mouseFrail);
+         }
+         else if(StalePinus.wateryBruise)
+         {
+            ClientTribulle.getInstance().init(DeadpanToe.obeisantSuper.mouseFrail);
+         }
+         else if(StalePinus.violetBalvanka)
+         {
+            ClientTribulle.getInstance().init(DeadpanToe.backCreator.mouseFrail);
+         }
+         else
+         {
+            ClientTribulle.getInstance().init(DeadpanToe.healSeed.mouseFrail);
+         }
+         GestionnaireAssets.x_ressourcesTransformicePourTribulle = AgreeableHistorical;
+         ClientTribulle.getInstance().RejoindreSalon.add(FragilePrepare.probableSigh);
+         ClientTribulle.getInstance().DemandeProfil.add(FragilePrepare.creatorCrib);
+         ClientTribulle.getInstance().OuvertureInterfaceSignalement.add(FragilePrepare.grateCrib(param1:String) : void
       {
-         FeebleYell.machineSubdued();
-         BabiesToe.machineSubdued();
-         AdmireStore.proseWindy.mightyDetermined.addChild(FragilePrepare.feebleRay);
-      }
-      
-      public static function kotskyNotebook(param1:String) : void
-      {
-         var _loc2_:String = RecogniseCompetition.mouseDelightful(AnusSeed.faithfulTremble);
-         if(param1.indexOf(ConfusedPeck.fascinatedGate) == HystericalKotsky.notebookChivalrous)
+         var _loc2_:String = CreatorSupply.scintillatingLoaf;
+         if(param1.indexOf(CardBabies.partyWhisper) == OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
             _loc2_ = _loc2_ + param1;
          }
          else
          {
-            _loc2_ = _loc2_ + param1.substr(param1.indexOf(RecogniseCompetition.mouseDelightful(AdviseRobin.largeChickens)) + CoalRay.actionBorrow);
+            _loc2_ = _loc2_ + param1.substr(param1.indexOf(LargeComplex.fascinatedBerry) + OrderUnit.apatheticRare(CardBabies.machineOranges));
          }
-         AdmireStore.proseWindy.pinusMouse(_loc2_);
+         StalePinus.halfWaiting.pipkaMachine(_loc2_);
       }
       
-      public static function illustriousOrange(param1:String) : void
+      public static function kurumaBerry(param1:int, param2:int) : void
       {
-         var _loc2_:String = RecogniseCompetition.mouseDelightful(CoalRay.notebookAction) + param1;
-         AdmireStore.proseWindy.pinusMouse(_loc2_);
+         RareFeeble.cuteAction.sighCrime(new SlipStupid(BurnFix.probableBerry + param1 + ReligionStore.adviseBabies + param2 + OrderUnit.probableLip(RayAmuse.rayJuice)));
       }
       
-      public static function machineSubdued() : void
+      public static function flowerQuirky(param1:String) : void
       {
-         Global.x_connexionTribulle = new FeebleLoaf();
-         AdmireStore.proseWindy.swankyDistro = DeterminedPrepare.hatefulComplex;
-         ProxyTribulle.x_initilisation(AdmireStore.proseWindy);
-         ProxyTribulle.x_messageChat = AdmireStore.proseWindy.knotAlanson;
-         ProxyTribulle.x_ouvrirInterfacePolice = BirdRobin.proseWindy.requestRare;
-         ProxyTribulle.x_fonctionDebug = FragilePrepare.proudViolet;
-         ProxyTribulle.x_modeBouboum = AdmireStore.trailQuirky;
-         ProxyTribulle.x_modeForteresse = AdmireStore.faintOranges;
-         ProxyTribulle.x_modeTransformice = AdmireStore.spuriousBruise;
-         ProxyTribulle.x_fonctionCliqueChat = BabiesSwanky.illustriousBury;
-         ProxyTribulle.x_fonctionLancementEchange = CrimeMouse.hydrantPail;
-         ProxyTribulle.x_recupImageDistante = AgreeableHistorical.religionSign;
-         ProxyTribulle.x_fonctionDemandeToken = AdmireStore.proseWindy.coalJoyous;
-         ProxyTribulle.x_recupDrapeau = RecogniseWhisper.slipBruise;
-         ProxyTribulle.x_testTexteChatInterdit = BerryColor.anusGate;
-         GestionnaireAmisVieux.getInstance();
-         GestionnaireListeNoireVieux.getInstance();
-         if(AdmireStore.faintOranges)
-         {
-            ClientTribulle.getInstance().init(DeadpanToe.crackerSigh.scaleStomach);
-         }
-         else if(AdmireStore.trailQuirky)
-         {
-            ClientTribulle.getInstance().init(DeadpanToe.healFlower.scaleStomach);
-         }
-         else if(AdmireStore.delightfulSatisfy)
-         {
-            ClientTribulle.getInstance().init(DeadpanToe.unitIllustrious.scaleStomach);
-         }
-         else if(AdmireStore.eliteToe)
-         {
-            ClientTribulle.getInstance().init(DeadpanToe.orangeInexpensive.scaleStomach);
-         }
-         else
-         {
-            ClientTribulle.getInstance().init(DeadpanToe.obtainableBathe.scaleStomach);
-         }
-         GestionnaireAssets.x_ressourcesTransformicePourTribulle = AgreeableHistorical;
-         ClientTribulle.getInstance().RejoindreSalon.add(FragilePrepare.kotskyNotebook);
-         ClientTribulle.getInstance().DemandeProfil.add(FragilePrepare.illustriousOrange);
-         ClientTribulle.getInstance().OuvertureInterfaceSignalement.add(FragilePrepare.cribMark);
+         ActionFascinated.rareFix(param1);
       }
       
-      public static function proudViolet(param1:int, param2:int) : void
+      public static function determinedNoiseless() : void
       {
-         RareFeeble.hateWicked.stickVolcano(new KotskyCrib(RayYell.cryGrate + param1 + RecogniseCompetition.mouseDelightful(MetalDetermined.religionAgonizing) + param2 + RecogniseCompetition.mouseDelightful(GroundFour.spuriousCrime)));
+         FeebleYell.uncleGaping();
+         BabiesToe.uncleGaping();
+         StalePinus.halfWaiting.crashBalvanka.addChild(FragilePrepare.wingStomach(param1:String) : void
+      {
+         var _loc2_:String = OrderUnit.probableLip(PrepareLip.panoramicGate) + param1;
+         StalePinus.halfWaiting.pipkaMachine(_loc2_);
       }
    }
 }

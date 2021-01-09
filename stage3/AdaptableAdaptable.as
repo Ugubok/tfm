@@ -3,45 +3,45 @@ package
    public class AdaptableAdaptable
    {
       
-      public static const seriousRequest:AdaptableAdaptable = new AdaptableAdaptable(9427 + -9427,RecogniseCompetition.mouseDelightful("Hack"),RecogniseCompetition.mouseDelightful("$R_Hack"));
+      public static const signWandering:AdaptableAdaptable = new AdaptableAdaptable( 0,OrderUnit.probableLip("Hack"),"$R_Hack");
       
-      public static const faintRecognise:AdaptableAdaptable = new AdaptableAdaptable(5660 + -5659,RecogniseCompetition.mouseDelightful("Spam"),RecogniseCompetition.mouseDelightful("$R_Flood"));
+      public static const commonCreator:AdaptableAdaptable = new AdaptableAdaptable( 1,OrderUnit.probableLip("Spam"),"$R_Flood");
       
-      public static const bagBird:AdaptableAdaptable = new AdaptableAdaptable(6426 + -6424,"Insults","$R_Insultes");
+      public static const violetNoiseless:AdaptableAdaptable = new AdaptableAdaptable( 2,"Insults","$R_Insultes");
       
-      public static const touchCrowded:AdaptableAdaptable = new AdaptableAdaptable(6024 + -6021,"Phishing","$R_Fishing");
+      public static const pearWing:AdaptableAdaptable = new AdaptableAdaptable( 3,OrderUnit.probableLip("Phishing"),OrderUnit.probableLip("$R_Fishing"));
       
-      public static const satisfyLabel:AdaptableAdaptable = new AdaptableAdaptable(2994 + -2990,RecogniseCompetition.mouseDelightful("Other"),"$R_Autre");
+      public static const anusColor:AdaptableAdaptable = new AdaptableAdaptable( 4,"Other",OrderUnit.probableLip("$R_Autre"));
       
-      public static const pipkaWhistle:Vector.<AdaptableAdaptable> = new Vector.<AdaptableAdaptable>();
+      public static const signRobin:Vector.<AdaptableAdaptable> = new Vector.<AdaptableAdaptable>();
       
       {
-         AdaptableAdaptable.pipkaWhistle.push(AdaptableAdaptable.seriousRequest);
-         AdaptableAdaptable.pipkaWhistle.push(AdaptableAdaptable.faintRecognise);
-         AdaptableAdaptable.pipkaWhistle.push(AdaptableAdaptable.bagBird);
-         AdaptableAdaptable.pipkaWhistle.push(AdaptableAdaptable.touchCrowded);
-         AdaptableAdaptable.pipkaWhistle.push(AdaptableAdaptable.satisfyLabel);
+         AdaptableAdaptable.signRobin.push(AdaptableAdaptable.signWandering);
+         AdaptableAdaptable.signRobin.push(AdaptableAdaptable.commonCreator);
+         AdaptableAdaptable.signRobin.push(AdaptableAdaptable.violetNoiseless);
+         AdaptableAdaptable.signRobin.push(AdaptableAdaptable.pearWing);
+         AdaptableAdaptable.signRobin.push(AdaptableAdaptable.anusColor);
       }
       
-      public var lipAdmire:int;
+      public var knifeStick:int;
       
-      public var waitingMighty:String;
+      public var cryIllustrious:String;
       
-      public var injureOrder:String;
+      public var cribNoxious:String;
       
       public function AdaptableAdaptable(param1:int, param2:String, param3:String)
       {
          super();
-         this.lipAdmire = param1;
-         this.waitingMighty = param2;
-         this.injureOrder = param3;
+         this.knifeStick = param1;
+         this.cryIllustrious = param2;
+         this.cribNoxious = param3;
       }
       
-      public static function tastelessBag(param1:int) : AdaptableAdaptable
+      public static function dildoAbaft(param1:int) : AdaptableAdaptable
       {
-         if(param1 >= RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) && param1 < AdaptableAdaptable.pipkaWhistle.length)
+         if(param1 >= ReligionStore.trailInstruct && param1 < AdaptableAdaptable.signRobin.length)
          {
-            return AdaptableAdaptable.pipkaWhistle[param1];
+            return AdaptableAdaptable.signRobin[param1];
          }
          return null;
       }

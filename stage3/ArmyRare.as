@@ -12,100 +12,100 @@ package
    {
        
       
-      public var scintillatingCoal:int;
+      public var storeAmuse:int;
       
-      public var delightfulAlanson:int;
+      public var babiesSubdued:int;
       
-      public var lookStomach:Sprite;
+      public var fragileMark:Sprite;
       
-      public var crownRobin:Function;
+      public var distroLook:Function;
       
-      public var frailLunasole:Object;
+      public var agreeableInjure:Object;
       
       public function ArmyRare(param1:int, param2:int, param3:Function = null, param4:Object = null)
       {
          super();
-         this.scintillatingCoal = param1;
-         this.delightfulAlanson = param2;
-         var _loc5_:Sprite = AgreeableHistorical.probableCute(AdmireStore.whisperLeg.agreeableMighty.sandInexpensive);
-         _loc5_.width = this.scintillatingCoal;
-         _loc5_.height = this.delightfulAlanson;
+         this.storeAmuse = param1;
+         this.babiesSubdued = param2;
+         var _loc5_:Sprite = AgreeableHistorical.admireCute(StalePinus.determinedColor.uncleLaborer.companyCry);
+         _loc5_.width = this.storeAmuse;
+         _loc5_.height = this.babiesSubdued;
          addChild(_loc5_);
-         this.lookStomach = new Sprite();
-         addChild(this.lookStomach);
+         this.fragileMark = new Sprite();
+         addChild(this.fragileMark);
          if(param3 != null)
          {
-            this.crownRobin = param3;
-            this.frailLunasole = param4;
-            RobinHateful.superApathetic(this.lookStomach,true);
-            this.lookStomach.addEventListener(MouseEvent.MOUSE_DOWN,this.rareAlluring);
+            this.distroLook = param3;
+            this.agreeableInjure = param4;
+            RobinHateful.harmonyMilky(this.fragileMark,true);
+            this.fragileMark.addEventListener(MouseEvent.MOUSE_DOWN,this.whistleCard);
          }
-         var _loc6_:RequestKuruma = new RequestKuruma(RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus),this.delightfulAlanson - ArmyObtainable.orangesAction,BerryAgreeable.noiselessGround(BalvankaNotebook.tiresomeWaiting),this.joyousWhistle,null,this.scintillatingCoal - RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag),false);
+         var _loc6_:RequestKuruma = new RequestKuruma(LargeComplex.balvankaZonked,this.babiesSubdued - PanoramicProbable.rareJoyous,BerryAgreeable.orangesCompetition(OrderUnit.probableLip(ListIllustrious.taxSqueamish)),this.delightfulSpurious,null,this.storeAmuse - CardBabies.inexpensiveChickens,false);
          addChild(_loc6_);
-         x = int((MetalDetermined.gatePail - this.scintillatingCoal) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
-         y = BerryMouse.distroWicked + int((-this.delightfulAlanson + DeterminedWarlike.crackerCrash) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
+         x = int((PanoramicProbable.orangeChivalrous - this.storeAmuse) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
+         y = PrepareLip.competitionSupply + int((-this.babiesSubdued + OrderUnit.apatheticRare(BatheKotsky.eliteCoal)) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
       }
       
-      public function bashfulKotsky(param1:Event) : void
+      public function frailPlan(param1:String) : void
       {
-         this.lookStomach.x = int((-this.lookStomach.width + this.scintillatingCoal) / LaborerFeeble.instructBathe);
-         this.lookStomach.y = int((this.delightfulAlanson - this.lookStomach.height) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)) - ConfusedPeck.lamentableDelightful;
+         var _loc2_:Bitmap = AgreeableHistorical.crowdedScale(param1);
+         _loc2_.addEventListener(Event.COMPLETE,this.loafWandering);
+         this.fragileMark.addChild(_loc2_);
       }
       
-      public function joyousWhistle() : void
-      {
-         if(parent)
-         {
-            parent.removeChild(this);
-         }
-      }
-      
-      public function balvankaAdvise(param1:String) : void
-      {
-         var _loc2_:Bitmap = AgreeableHistorical.religionSign(param1);
-         _loc2_.addEventListener(Event.COMPLETE,this.bashfulKotsky);
-         this.lookStomach.addChild(_loc2_);
-      }
-      
-      public function rareAlluring(param1:Event) : void
-      {
-         if(parent)
-         {
-            parent.removeChild(this);
-         }
-         if(this.healScale(this.frailLunasole);
-         }
-         else
-         {
-            this.crownRobin();
-         }
-      }
-      
-      public function bruiseBathe(param1:MovieClip, param2:int = 0, param3:int = 0) : void
-      {
-         param1.x = param2;
-         param1.y = param3;
-         this.lookStomach.addChild(param1);
-      }
-      
-      public function annoyingWhisper(param1:String) : void
+      public function clubAir(param1:String) : void
       {
          var _loc2_:TextField = null;
          _loc2_ = new TextField();
-         _loc2_.defaultTextFormat = new TextFormat(BerryAgreeable.groundKuruma,WaitingReligion.peckKotsky,FascinatedAnus.fragileConfused);
-         _loc2_.multiline = DeterminedPrepare.hatefulComplex;
-         _loc2_.wordWrap = DeterminedPrepare.hatefulComplex;
-         _loc2_.selectable = DeterminedPrepare.machineSigh;
-         _loc2_.x = HystericalKotsky.lightAnus;
-         _loc2_.y = HystericalKotsky.lightAnus;
-         _loc2_.width = this.scintillatingCoal - RecogniseCompetition.prepareAgree(BerryMouse.distroWicked);
-         _loc2_.height = this.delightfulAlanson - HystericalKotsky.borrowTax;
-         _loc2_.styleSheet = AdmireStore.proseWindy.agonizingThick;
+         _loc2_.defaultTextFormat = new TextFormat(BerryAgreeable.decayInjure,LargeComplex.programAbaft,FascinatedAnus.programMetal);
+         _loc2_.multiline = HateFaint.proudGround;
+         _loc2_.wordWrap = HateFaint.proudGround;
+         _loc2_.selectable = HateFaint.bladeStatement;
+         _loc2_.x = LargeComplex.balvankaZonked;
+         _loc2_.y = LargeComplex.balvankaZonked;
+         _loc2_.width = this.storeAmuse - PrepareLip.competitionSupply;
+         _loc2_.height = -OrderUnit.apatheticRare(ReligionStore.zonkedReligion) + this.babiesSubdued;
+         _loc2_.styleSheet = StalePinus.halfWaiting.agreeableCrowded;
          _loc2_.htmlText = param1;
          addChild(_loc2_);
-         var _loc3_:OrangesHateful = new OrangesHateful(_loc2_,RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
-         _loc3_.Rendu_Ascenseur(HystericalKotsky.notebookChivalrous);
-         _loc3_.x = _loc3_.x - RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping);
+         var _loc3_:OrangesHateful = new OrangesHateful(_loc2_,PinusSand.jumbledTiresome);
+         _loc3_.Rendu_Ascenseur(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         _loc3_.x = _loc3_.x - OrderUnit.apatheticRare(AdmireUncle.crimeCreator);
+      }
+      
+      public function delightfulSpurious() : void
+      {
+         if(parent)
+         {
+            parent.removeChild(this);
+         }
+      }
+      
+      public function loafWandering(param1:Event) : void
+      {
+         this.fragileMark.x = int((-this.fragileMark.width + this.storeAmuse) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
+         this.fragileMark.y = int((this.babiesSubdued - this.fragileMark.height) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome)) - OrderUnit.apatheticRare(ReligionStore.birdAdhesive);
+      }
+      
+      public function recogniseRare(param1:MovieClip, param2:int = 0, param3:int = 0) : void
+      {
+         param1.x = param2;
+         param1.y = param3;
+         this.fragileMark.addChild(param1);
+      }
+      
+      public function whistleCard(param1:Event) : void
+      {
+         if(parent)
+         {
+            parent.removeChild(this);
+         }
+         if(this.clubMilky(this.agreeableInjure);
+         }
+         else
+         {
+            this.distroLook();
+         }
       }
    }
 }

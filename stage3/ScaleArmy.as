@@ -4,36 +4,36 @@ package
    {
        
       
-      public var chivalrousDeadpan:Vector.<int>;
+      public var notebookComplex:Vector.<int>;
       
-      public var crowdedAbaft:Vector.<int>;
+      public var borrowCreator:Vector.<int>;
       
-      public var suzukaArmy:uint;
+      public var cryAction:uint;
       
-      public var pailRay:uint;
+      public var pearAir:uint;
       
       public var userData = null;
       
       public function ScaleArmy()
       {
-         this.chivalrousDeadpan = new <int>[RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),HystericalKotsky.notebookChivalrous];
-         this.crowdedAbaft = new <int>[HystericalKotsky.notebookChivalrous,HystericalKotsky.notebookChivalrous];
+         this.notebookComplex = new <int>[OrderUnit.apatheticRare(ReligionStore.trailInstruct),ReligionStore.trailInstruct];
+         this.borrowCreator = new <int>[OrderUnit.apatheticRare(ReligionStore.trailInstruct),OrderUnit.apatheticRare(ReligionStore.trailInstruct)];
          super();
       }
       
-      public function loafViolet() : Boolean
+      public function stupidPeck(param1:uint) : void
       {
-         return this.suzukaArmy != InexpensiveFeeble.pailStick;
+         this.notebookComplex[ReligionStore.trailInstruct] = param1 & 65535;
       }
       
-      public function deliverJumbled(param1:uint) : void
+      public function groundDeadpan() : Boolean
       {
-         this.chivalrousDeadpan[HystericalKotsky.notebookChivalrous] = param1 & 65535;
+         return this.cryAction != InexpensiveFeeble.proseAdmire;
       }
       
-      public function alluringCry() : uint
+      public function annoyingColor() : uint
       {
-         return this.chivalrousDeadpan[RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)];
+         return this.notebookComplex[ReligionStore.trailInstruct];
       }
    }
 }

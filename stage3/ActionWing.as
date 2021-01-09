@@ -8,37 +8,37 @@ package
    {
        
       
-      public var violetApathetic:int;
+      public var windySeed:int;
       
-      public var entertainingHateful:int;
+      public var planHalf:int;
       
-      public var seriousAdmire:int;
+      public var crashStale:int;
       
-      public var zonkedJuice:int;
+      public var milkySupply:int;
       
-      public var trembleDeadpan:int;
+      public var crowdedFragile:int;
       
-      public var fragileWicked:Bitmap;
+      public var scintillatingAgreeable:Bitmap;
       
       public function ActionWing(param1:int, param2:int, param3:int, param4:int, param5:int)
       {
          super();
-         this.violetApathetic = param1;
-         this.entertainingHateful = param2;
-         this.seriousAdmire = param3;
-         this.zonkedJuice = param4;
-         this.trembleDeadpan = param5;
-         mouseChildren = DeterminedPrepare.machineSigh;
-         mouseEnabled = DeterminedPrepare.machineSigh;
-         this.fragileWicked = AgreeableHistorical.religionSign(FrailJuice.lipBabies + param3 + AdviseRobin.inexpensiveDelightful);
-         this.fragileWicked.addEventListener(ConfusedPeck.alluringJoyous,this.bashfulKotsky);
-         addChild(this.fragileWicked);
+         this.windySeed = param1;
+         this.planHalf = param2;
+         this.crashStale = param3;
+         this.milkySupply = param4;
+         this.crowdedFragile = param5;
+         mouseChildren = HateFaint.bladeStatement;
+         mouseEnabled = HateFaint.bladeStatement;
+         this.scintillatingAgreeable = AgreeableHistorical.crowdedScale(OrderUnit.probableLip(AdaptableInexpensive.religionTouch) + param3 + OrderUnit.probableLip(WaitingCrib.injureCreator));
+         this.scintillatingAgreeable.addEventListener(OrderUnit.probableLip(GullibleLook.recogniseThick),this.loafWandering);
+         addChild(this.scintillatingAgreeable);
       }
       
-      public function bashfulKotsky(param1:Event) : void
+      public function loafWandering(param1:Event) : void
       {
-         this.fragileWicked.x = -int(this.fragileWicked.width / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
-         this.fragileWicked.y = -int(this.fragileWicked.height / LaborerFeeble.instructBathe);
+         this.scintillatingAgreeable.x = -int(this.scintillatingAgreeable.width / PinusSand.jumbledTiresome);
+         this.scintillatingAgreeable.y = -int(this.scintillatingAgreeable.height / OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
       }
    }
 }

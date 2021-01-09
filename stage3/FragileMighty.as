@@ -4,12 +4,12 @@ package
    {
        
       
-      public function FragileMighty(param1:int, param2:Boolean, param3:Boolean)
+      public function FragileMighty(param1:int, param2:int, param3:int)
       {
-         super(RayYell.stickColor,ArmyObtainable.kurumaBird);
-         staySigh.writeShort(param1);
-         staySigh.writeBoolean(param2);
-         staySigh.writeBoolean(param3);
+         super(OrderUnit.apatheticRare(AdmireUncle.crimeCreator),AdmireUncle.faithfulFlower);
+         lamentableSpurious.writeShort(param1);
+         lamentableSpurious.writeShort(param2);
+         lamentableSpurious.writeShort(param3);
       }
    }
 }

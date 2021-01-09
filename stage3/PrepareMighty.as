@@ -8,20 +8,20 @@ package
       
       public var userData;
       
-      public var chivalrousWarlike:BabiesHistorical;
+      public var mightyHistorical:BabiesHistorical;
       
-      public var spuriousQuirky:BabiesHistorical;
+      public var bladeSpurious:BabiesHistorical;
       
-      public var birdFour:Boolean;
+      public var scintillatingAmuse:Boolean;
       
       public function PrepareMighty()
       {
          super();
-         this.type = AlansonTiresome.alluringPrepare;
+         this.type = AlansonTiresome.alansonStay;
          this.userData = null;
-         this.chivalrousWarlike = null;
-         this.spuriousQuirky = null;
-         this.birdFour = DeterminedPrepare.machineSigh;
+         this.mightyHistorical = null;
+         this.bladeSpurious = null;
+         this.scintillatingAmuse = HateFaint.bladeStatement;
       }
    }
 }

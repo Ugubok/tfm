@@ -6,37 +6,35 @@ package
    {
        
       
-      public var scratchObtainable:Boolean;
+      public var faithfulHateful:Boolean;
       
-      public var entertainingFour:Boolean;
+      public var healCute:Boolean;
       
-      public var probableChivalrous:Boolean;
+      public var competitionWing:Boolean;
       
-      public var peckWicked:int;
+      public var hydrantAdvise:int;
       
-      public var proseUnequaled:Vector.<StupidInexpensive>;
+      public var frailSense:Vector.<StupidInexpensive>;
       
-      public var knotPipka:String;
+      public var partyLabel:String;
       
       public function ActionBorrow(param1:ByteArray)
       {
          var _loc2_:StupidInexpensive = null;
-         this.proseUnequaled = new Vector.<StupidInexpensive>();
-         this.knotPipka = AdviseRobin.clubSubdued;
+         this.frailSense = new Vector.<StupidInexpensive>();
+         this.partyLabel = OrderUnit.probableLip(DildoBorrow.metalAdaptable);
          super(param1);
-         this.scratchObtainable = param1.readBoolean();
-         if(this.scratchObtainable)
-         {
-            this.peckWicked = param1.readInt();
-            this.entertainingFour = param1.readBoolean();
-            this.probableChivalrous = param1.readBoolean();
+         this.faithfulHateful = param1.readBoolean();
+         if(this.machineMilky = param1.readInt();
+            this.healCute = param1.readBoolean();
+            this.competitionWing = param1.readBoolean();
             while(param1.bytesAvailable)
             {
                _loc2_ = new StupidInexpensive(param1);
-               this.proseUnequaled.push(_loc2_);
-               if(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow) == _loc2_.creatorStore)
+               this.frailSense.push(_loc2_);
+               if(CardBabies.machineOranges == _loc2_.mouseOrder)
                {
-                  this.knotPipka = _loc2_.injureZonked;
+                  this.partyLabel = _loc2_.wingWing;
                }
             }
          }

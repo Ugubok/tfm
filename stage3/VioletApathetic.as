@@ -6,8 +6,8 @@ package
       
       public function VioletApathetic(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping),ConfusedPeck.lamentableDelightful);
-         staySigh.writeInt(param1);
+         super(OrderUnit.apatheticRare(PrepareLip.competitionSupply),OrderUnit.apatheticRare(BurnFix.toeSlip));
+         lamentableSpurious.writeInt(param1);
       }
    }
 }

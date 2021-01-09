@@ -2,67 +2,29 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class OrangesAction implements MightyColor, InexpensiveSlip
+   public class OrangesAction extends CardBorrow
    {
        
       
-      public var berryViolet:BalvankaSpurious;
+      public var planObeisant:Vector.<ActionPat>;
       
-      public var idSequence:int;
-      
-      public var rayTrail:int;
-      
-      public var planHanging:DeadpanChickens;
-      
-      public function OrangesAction(param1:BalvankaSpurious)
+      public function OrangesAction(param1:ByteArray)
       {
-         super();
-         this.berryViolet = param1;
-      }
-      
-      public function getIdSequence() : int
-      {
-         return this.idSequence;
-      }
-      
-      public function get mightyHateful() : String
-      {
-         return RecogniseCompetition.mouseDelightful(RayYell.quirkyTasteless);
-      }
-      
-      public function get typeTaille() : int
-      {
-         return SlipAdaptable.deadpanHanging;
-      }
-      
-      public function joyousSign() : Boolean
-      {
-         return false;
-      }
-      
-      public function harmonyWhisper() : int
-      {
-         return AdviseRobin.satisfyGaping;
-      }
-      
-      public function lecture(param1:ByteArray) : void
-      {
-         this.idSequence = param1.readInt();
-         this.rayTrail = param1.readByte();
-         var _loc2_:AgreeableBabies = this.berryViolet.recupereSequence(this.idSequence);
-         if(_loc2_ != null)
+         var _loc4_:ActionPat = null;
+         this.planObeisant = new Vector.<ActionPat>();
+         super(param1);
+         var _loc2_:int = param1.readShort();
+         var _loc3_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         while(_loc3_ < _loc2_)
          {
-            if(_loc2_ is DeadpanChickens)
-            {
-               this.planHanging = DeadpanChickens(_loc2_);
-               this.planHanging.deadpanSense = this;
-            }
+            _loc4_ = new ActionPat();
+            this.planObeisant.push(_loc4_);
+            _loc4_.advisePat = param1.readUTF();
+            _loc4_.swankySisters = param1.readShort();
+            _loc4_.couleur = param1.readByte();
+            _loc4_.airTiresome = param1.readShort();
+            _loc3_++;
          }
-      }
-      
-      public function get prepareHate() : int
-      {
-         return RecogniseCompetition.prepareAgree(ArmyObtainable.rareHate);
       }
    }
 }

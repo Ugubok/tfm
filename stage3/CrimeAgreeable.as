@@ -6,31 +6,31 @@ package
    public class CrimeAgreeable
    {
       
-      public static const airTrail:int = 0;
+      public static const warlikeJuice:int =  0;
       
-      public static const touchAnus:int = 1;
+      public static const waitingSeed:int =  1;
       
-      public static const fragileTasteless:int = 2;
+      public static const adhesiveFaithful:int =  2;
       
-      public static const agreeableFascinated:int = 4;
+      public static const raySlip:int =  4;
       
-      public static const storeParty:int = 5;
+      public static const borrowStay:int =  5;
       
-      public static const mouseHalf:int = 6;
+      public static const crownTax:int =  6;
       
-      public static var patStick:Boolean = true;
+      public static var suzukaKnot:Boolean = true;
       
-      public static var laborerBorrow:Boolean = false;
+      public static var cryNoxious:Boolean = false;
       
-      public static var buryStomach:Boolean = false;
+      public static var hydrantClub:Boolean = false;
       
-      public static var sighHysterical:Boolean = false;
+      public static var patStatement:Boolean = false;
       
-      public static var wickedNotebook:Boolean = false;
+      public static var armyRare:Boolean = false;
       
-      public static var annoyingLabel:Boolean = false;
+      public static var deliverFascinated:Boolean = false;
       
-      public static var hateSwanky:int = CrimeAgreeable.airTrail;
+      public static var robinLunasole:int = CrimeAgreeable.warlikeJuice;
        
       
       public function CrimeAgreeable()
@@ -38,104 +38,104 @@ package
          super();
       }
       
-      public static function staySuzuka(param1:int) : void
+      public static function obtainableBurn(param1:int) : void
       {
          var _loc2_:Bitmap = null;
-         if(CrimeAgreeable.hateSwanky == param1)
+         if(CrimeAgreeable.robinLunasole == param1)
          {
             return;
          }
-         if(AdmireStore.proseWindy.mightyDetermined)
+         if(StalePinus.halfWaiting.crashBalvanka)
          {
-            AdmireStore.proseWindy.stayCard.text = AdviseRobin.clubSubdued;
+            StalePinus.halfWaiting.obeisantWaiting.text = OrderUnit.probableLip(DildoBorrow.metalAdaptable);
          }
-         if(CrimeAgreeable.hateSwanky == CrimeAgreeable.airTrail)
+         if(CrimeAgreeable.robinLunasole == CrimeAgreeable.warlikeJuice)
          {
-            DeterminedHistorical.adaptableChivalrous(false);
-            if(AdmireStore.proseWindy.agreeableAgreeable)
+            DeterminedHistorical.bashfulFaithful(false);
+            if(StalePinus.halfWaiting.crowdedSwanky)
             {
-               AdmireStore.proseWindy.agreeableAgreeable.jumbledFrail();
+               StalePinus.halfWaiting.probableDeadpan();
             }
-            if(ApatheticSubdued.proseWindy)
+            if(ApatheticSubdued.halfWaiting)
             {
-               ApatheticSubdued.proseWindy.lipPeck();
+               ApatheticSubdued.halfWaiting.wateryVolcano();
             }
-            if(AgreeableCrib.loafNotebook)
+            if(AgreeableCrib.flowerDetermined)
             {
-               AgreeableCrib.loafNotebook.hystericalJoyous();
+               AgreeableCrib.rayIcy();
             }
-            if(AdmireStore.proseWindy.squeamishWandering && AdmireStore.proseWindy.squeamishWandering.parent)
+            if(StalePinus.halfWaiting.notebookCompetition && StalePinus.halfWaiting.notebookCompetition.parent)
             {
-               AdmireStore.proseWindy.squeamishWandering.parent.removeChild(AdmireStore.proseWindy.squeamishWandering);
+               StalePinus.halfWaiting.notebookCompetition.parent.removeChild(StalePinus.halfWaiting.notebookCompetition);
             }
-            AdmireStore.proseWindy.whistleCoal = new Dictionary();
-            YellLoaf.tiresomeCry();
+            StalePinus.halfWaiting.warlikeConfused = new Dictionary();
+            YellLoaf.largeLabel();
          }
-         else if(CrimeAgreeable.agreeableFascinated == CrimeAgreeable.hateSwanky)
+         else if(CrimeAgreeable.raySlip == CrimeAgreeable.robinLunasole)
          {
-            if(StoreWandering.cribSatisfy)
+            if(StoreWandering.touchSerious)
             {
-               if(StoreWandering.cribSatisfy.parent)
+               if(StoreWandering.touchSerious.parent)
                {
-                  StoreWandering.cribSatisfy.parent.removeChild(StoreWandering.cribSatisfy);
+                  StoreWandering.touchSerious.parent.removeChild(StoreWandering.touchSerious);
                }
             }
-            LipSerious.wanderingSqueamish(false);
+            LipSerious.feebleDeliver(false);
          }
-         else if(CrimeAgreeable.hateSwanky == CrimeAgreeable.storeParty)
+         else if(CrimeAgreeable.borrowStay == CrimeAgreeable.robinLunasole)
          {
-            if(PinusBerry.cribSatisfy)
+            if(PailCry.touchSerious)
             {
-               if(PinusBerry.cribSatisfy.parent)
+               if(PailCry.touchSerious.parent)
                {
-                  PinusBerry.cribSatisfy.parent.removeChild(PinusBerry.cribSatisfy);
+                  PailCry.touchSerious.parent.removeChild(PailCry.touchSerious);
                }
             }
          }
-         CrimeAgreeable.hateSwanky = param1;
-         CrimeAgreeable.patStick = DeterminedPrepare.machineSigh;
-         CrimeAgreeable.laborerBorrow = DeterminedPrepare.machineSigh;
-         CrimeAgreeable.buryStomach = DeterminedPrepare.machineSigh;
-         CrimeAgreeable.sighHysterical = DeterminedPrepare.machineSigh;
-         CrimeAgreeable.wickedNotebook = DeterminedPrepare.machineSigh;
-         CrimeAgreeable.annoyingLabel = DeterminedPrepare.machineSigh;
-         if(CrimeAgreeable.hateSwanky == CrimeAgreeable.airTrail)
+         CrimeAgreeable.robinLunasole = param1;
+         CrimeAgreeable.suzukaKnot = HateFaint.bladeStatement;
+         CrimeAgreeable.cryNoxious = HateFaint.bladeStatement;
+         CrimeAgreeable.hydrantClub = HateFaint.bladeStatement;
+         CrimeAgreeable.patStatement = HateFaint.bladeStatement;
+         CrimeAgreeable.armyRare = HateFaint.bladeStatement;
+         CrimeAgreeable.deliverFascinated = HateFaint.bladeStatement;
+         if(CrimeAgreeable.robinLunasole == CrimeAgreeable.warlikeJuice)
          {
-            CrimeAgreeable.patStick = DeterminedPrepare.hatefulComplex;
-            if(!AdmireStore.proseWindy.squeamishWandering.parent)
+            CrimeAgreeable.suzukaKnot = HateFaint.proudGround;
+            if(!StalePinus.halfWaiting.notebookCompetition.parent)
             {
-               AdmireStore.proseWindy.addChildAt(AdmireStore.proseWindy.squeamishWandering,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
+               StalePinus.halfWaiting.addChildAt(StalePinus.halfWaiting.notebookCompetition,ReligionStore.trailInstruct);
             }
          }
-         else if(CrimeAgreeable.touchAnus == CrimeAgreeable.hateSwanky)
+         else if(CrimeAgreeable.waitingSeed == CrimeAgreeable.robinLunasole)
          {
-            CrimeAgreeable.laborerBorrow = DeterminedPrepare.hatefulComplex;
+            CrimeAgreeable.cryNoxious = HateFaint.proudGround;
          }
-         else if(CrimeAgreeable.fragileTasteless == CrimeAgreeable.hateSwanky)
+         else if(CrimeAgreeable.robinLunasole == CrimeAgreeable.adhesiveFaithful)
          {
-            CrimeAgreeable.buryStomach = DeterminedPrepare.hatefulComplex;
-            AdmireStore.proseWindy.mightyDetermined.addChildAt(AgreeableHistorical.religionSign(LipStore.harmonyFour),CoalRay.actionBorrow);
-            _loc2_ = AgreeableHistorical.religionSign(AnusSeed.kotskyList);
-            _loc2_.y = RecogniseCompetition.prepareAgree(BerryMouse.unequaledJuice);
-            AdmireStore.proseWindy.mightyDetermined.addChildAt(_loc2_,CoalRay.actionBorrow);
-            _loc2_ = AgreeableHistorical.religionSign(RecogniseCompetition.mouseDelightful(RayYell.sandProud));
-            _loc2_.y = RayYell.lamentableHysterical;
-            AdmireStore.proseWindy.mightyDetermined.addChildAt(_loc2_,CoalRay.actionBorrow);
+            CrimeAgreeable.hydrantClub = HateFaint.proudGround;
+            StalePinus.halfWaiting.crashBalvanka.addChildAt(AgreeableHistorical.crowdedScale(CreatorSupply.planTax),CardBabies.machineOranges);
+            _loc2_ = AgreeableHistorical.crowdedScale(OrderUnit.probableLip(ReligionStore.faintOrange));
+            _loc2_.y = OrderUnit.apatheticRare(BurnFix.toeSlip);
+            StalePinus.halfWaiting.crashBalvanka.addChildAt(_loc2_,CardBabies.machineOranges);
+            _loc2_ = AgreeableHistorical.crowdedScale(OrderUnit.probableLip(AdmireUncle.pearChickens));
+            _loc2_.y = BurnFix.largeZonked;
+            StalePinus.halfWaiting.crashBalvanka.addChildAt(_loc2_,CardBabies.machineOranges);
          }
-         else if(CrimeAgreeable.agreeableFascinated == CrimeAgreeable.hateSwanky)
+         else if(CrimeAgreeable.robinLunasole == CrimeAgreeable.raySlip)
          {
-            CrimeAgreeable.sighHysterical = DeterminedPrepare.hatefulComplex;
-            LipSerious.wanderingSqueamish(true);
-            AdmireStore.proseWindy.addChildAt(new StoreWandering(),CoalRay.actionBorrow);
+            CrimeAgreeable.patStatement = HateFaint.proudGround;
+            LipSerious.feebleDeliver(true);
+            StalePinus.halfWaiting.addChildAt(new StoreWandering(),OrderUnit.apatheticRare(CardBabies.machineOranges));
          }
-         else if(CrimeAgreeable.storeParty == CrimeAgreeable.hateSwanky)
+         else if(CrimeAgreeable.borrowStay == CrimeAgreeable.robinLunasole)
          {
-            CrimeAgreeable.wickedNotebook = DeterminedPrepare.hatefulComplex;
-            AdmireStore.proseWindy.addChildAt(new PinusBerry(),CoalRay.actionBorrow);
+            CrimeAgreeable.armyRare = HateFaint.proudGround;
+            StalePinus.halfWaiting.addChildAt(new PailCry(),CardBabies.machineOranges);
          }
-         else if(CrimeAgreeable.mouseHalf == CrimeAgreeable.hateSwanky)
+         else if(CrimeAgreeable.crownTax == CrimeAgreeable.robinLunasole)
          {
-            CrimeAgreeable.annoyingLabel = DeterminedPrepare.hatefulComplex;
+            CrimeAgreeable.deliverFascinated = HateFaint.proudGround;
          }
       }
    }

@@ -5,12 +5,12 @@ package
    public class RareInexpensive extends MousePinus
    {
       
-      public static const pipkaOranges:Vector.<int> = new Vector.<int>();
+      public static const chopHysterical:Vector.<int> = new Vector.<int>();
       
       {
-         RareInexpensive.pipkaOranges.push(RecogniseCompetition.prepareAgree(LipStore.squeamishPinus));
-         RareInexpensive.pipkaOranges.push(RecogniseCompetition.prepareAgree(HystericalKotsky.pailSense));
-         RareInexpensive.pipkaOranges.push(RecogniseCompetition.prepareAgree(ArmyObtainable.gapingTiresome));
+         RareInexpensive.chopHysterical.push(VolcanoStay.prosePanoramic);
+         RareInexpensive.chopHysterical.push(OrderUnit.apatheticRare(DildoBorrow.rareBird));
+         RareInexpensive.chopHysterical.push(OrderUnit.apatheticRare(LargeComplex.alluringStomach));
       }
       
       public function RareInexpensive(param1:FragileWandering)
@@ -18,24 +18,24 @@ package
          super(param1);
       }
       
-      override public function touchUnequaled(param1:BerryAnus) : void
+      override public function instructElite(param1:Dictionary) : void
       {
-         instructAir = RareInexpensive.pipkaOranges.indexOf(param1.hystericalChickens.pipkaViolet) != -CoalRay.actionBorrow;
+         if(unitProbable)
+         {
+            AlansonBird.creatorPat = OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+         }
       }
       
-      override public function icyGrate(param1:AnusHateful) : void
+      override public function obeisantNoiseless(param1:AnusHateful) : void
       {
          if(0)
          {
          }
       }
       
-      override public function lipPear(param1:Dictionary) : void
+      override public function squeamishBorrow(param1:BerryAnus) : void
       {
-         if(instructAir)
-         {
-            AlansonBird.injureBalvanka = RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-         }
+         unitProbable = RareInexpensive.chopHysterical.indexOf(param1.programLaborer.hydrantThick) != -OrderUnit.apatheticRare(CardBabies.machineOranges);
       }
    }
 }

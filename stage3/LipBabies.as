@@ -6,7 +6,7 @@ package
       
       public function LipBabies()
       {
-         super(RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail),RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag));
+         super(OrderUnit.apatheticRare(WaitingCrib.statementDecay),CardBabies.inexpensiveChickens);
       }
    }
 }

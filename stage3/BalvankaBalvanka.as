@@ -4,11 +4,11 @@ package
    {
        
       
-      public function BalvankaBalvanka(param1:int, param2:int)
+      public function BalvankaBalvanka(param1:int, param2:String)
       {
-         super(RecogniseCompetition.prepareAgree(BerryMouse.distroWicked),MetalDetermined.anusWing);
-         staySigh.writeByte(param1);
-         staySigh.writeByte(param2);
+         super(AdmireUncle.delightfulFragile,PinusSand.satisfyProse);
+         lamentableSpurious.writeInt(param1);
+         lamentableSpurious.writeUTF(param2);
       }
    }
 }

@@ -6,25 +6,25 @@ package
    public class SignCard extends SeriousFragile
    {
       
-      public static var mightyHeal:SeriousFragile;
+      public static var hydrantPear:SeriousFragile;
       
-      public static var airChivalrous:SeriousFragile;
+      public static var pearCoal:SeriousFragile;
       
-      public static var requestHistorical:SeriousFragile;
+      public static var borrowCrib:SeriousFragile;
       
-      public static var violetNotebook:SeriousFragile;
+      public static var subduedLamentable:SeriousFragile;
       
-      public static var halfWing:BirdGround;
+      public static var mightyKuruma:BirdGround;
       
-      public static var proudInvite:BirdGround;
+      public static var fragileAction:BirdGround;
       
-      public static var chivalrousLamentable:BirdGround;
+      public static var spuriousLamentable:BirdGround;
       
-      public static var requestFaint:InexpensiveGround;
+      public static var unclePanoramic:InexpensiveGround;
       
-      public static var lunasolePear:SwankyOranges;
+      public static var distroBabies:SwankyOranges;
       
-      public static var scaleZonked:Boolean = false;
+      public static var burnChicken:Boolean = false;
        
       
       public function SignCard()
@@ -32,221 +32,221 @@ package
          super();
       }
       
-      public static function lightHysterical(param1:Event = null) : Boolean
+      public static function agreeToe(param1:String) : void
+      {
+         SignCard.unclePanoramic.text = param1;
+      }
+      
+      public static function rareFix(param1:String) : void
+      {
+         if(param1 == OrderUnit.probableLip(GullibleLook.lipScratch) || param1 == OrderUnit.probableLip(PanoramicProbable.injureViolet) || param1 == OrderUnit.probableLip(AdaptableInexpensive.trailPail) || param1 == OrderUnit.probableLip(AdmireUncle.scaleToe))
+         {
+            SignCard.burnChicken = param1 == OrderUnit.probableLip(GullibleLook.lipScratch) || param1 == OrderUnit.probableLip(PanoramicProbable.injureViolet) || param1 == OrderUnit.probableLip(AdaptableInexpensive.trailPail) || false;
+            SignCard.pinusPail(param1);
+         }
+         else
+         {
+            SignCard.apatheticKnife(param1);
+         }
+      }
+      
+      public static function pinusPail(param1:String) : *
+      {
+         var _loc2_:InexpensiveGround = null;
+         var _loc3_:InexpensiveGround = null;
+         if(SignCard.subduedLamentable && SignCard.subduedLamentable.parent)
+         {
+            SignCard.subduedLamentable.parent.removeChild(SignCard.subduedLamentable);
+         }
+         SignCard.subduedLamentable = new SeriousFragile(OrderUnit.apatheticRare(AdmireUncle.warlikeSqueamish),OrderUnit.apatheticRare(ReligionStore.trailInstruct)).agreeableRobin(new FragileScale(ChickensScintillating.distroStick,OrderUnit.apatheticRare(AdmireUncle.crimeCreator)));
+         SignCard.subduedLamentable.healComplex(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(CardBabies.lamentableUnit)));
+         _loc2_ = new InexpensiveGround(BerryAgreeable.orangesCompetition(VolcanoStay.trailDecay,StalePinus.determinedColor.rareLabel),SignCard.subduedLamentable.storeAmuse,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         _loc2_.lipUnit(FascinatedAnus.deliverLoaf);
+         _loc2_.multiline = HateFaint.proudGround;
+         _loc2_.wordWrap = HateFaint.proudGround;
+         _loc2_.selectable = HateFaint.proudGround;
+         _loc2_.mouseEnabled = HateFaint.proudGround;
+         SignCard.subduedLamentable.icyCry(_loc2_);
+         _loc3_ = new InexpensiveGround(DildoBorrow.metalAdaptable,SignCard.subduedLamentable.storeAmuse,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         _loc3_.quirkyHeal();
+         _loc3_.lipUnit(FascinatedAnus.tiresomeInstruct);
+         _loc3_.htmlText = BerryAgreeable.orangesCompetition(PrepareLip.colorTax,StalePinus.determinedColor.rareLabel,PanoramicProbable.lookRobin + RareOranges.advisePat + OrderUnit.probableLip(PinusSand.whisperSense));
+         _loc3_.multiline = HateFaint.proudGround;
+         _loc3_.wordWrap = HateFaint.proudGround;
+         _loc3_.selectable = HateFaint.proudGround;
+         _loc3_.mouseEnabled = HateFaint.proudGround;
+         SignCard.subduedLamentable.icyCry(_loc3_);
+         var _loc4_:* = new InexpensiveGround(BerryAgreeable.orangesCompetition(CardBabies.programPat));
+         SignCard.mightyKuruma = new BirdGround(SignCard.subduedLamentable.storeAmuse);
+         SignCard.pearWicked(true);
+         SignCard.mightyKuruma.chickensAlluring.addEventListener(Event.CHANGE,SignCard.notebookIllustrious);
+         var _loc5_:* = new InexpensiveGround(BerryAgreeable.orangesCompetition(VolcanoStay.agreeAdhesive));
+         SignCard.fragileAction = new BirdGround(SignCard.subduedLamentable.storeAmuse);
+         SignCard.crashUnequaled(true);
+         SignCard.fragileAction.chickensAlluring.addEventListener(Event.CHANGE,SignCard.notebookIllustrious);
+         var _loc6_:* = new InexpensiveGround(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(WaitingCrib.staleAdaptable)));
+         SignCard.spuriousLamentable = new BirdGround(SignCard.subduedLamentable.storeAmuse);
+         SignCard.subduedLamentable.icyCry(_loc4_,SignCard.mightyKuruma,_loc5_,SignCard.fragileAction,_loc6_,SignCard.spuriousLamentable);
+         if(!SignCard.burnChicken)
+         {
+            _loc6_.visible = HateFaint.bladeStatement;
+            SignCard.spuriousLamentable.visible = HateFaint.bladeStatement;
+         }
+         SignCard.unclePanoramic = new InexpensiveGround(OrderUnit.probableLip(DildoBorrow.metalAdaptable),SignCard.subduedLamentable.storeAmuse,CardBabies.inexpensiveChickens);
+         SignCard.unclePanoramic.multiline = HateFaint.proudGround;
+         SignCard.unclePanoramic.wordWrap = HateFaint.proudGround;
+         SignCard.unclePanoramic.textColor = FascinatedAnus.scaleSense;
+         SignCard.subduedLamentable.icyCry(SignCard.unclePanoramic);
+         SignCard.distroBabies = new SwankyOranges(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(VolcanoStay.noxiousRare)),SignCard.subduedLamentable.storeAmuse,SignCard.instructLaborer);
+         SignCard.subduedLamentable.icyCry(SignCard.distroBabies);
+         CrashAlanson.yellObtainable(SignCard.subduedLamentable,OrderUnit.apatheticRare(CardBabies.machineOranges));
+         SignCard.lamentableProse(AdmireUncle.mouseBabies,AdmireUncle.mouseBabies);
+         SignCard.subduedLamentable.crackerIcy(SignCard.subduedLamentable.storeAmuse,SignCard.subduedLamentable.height - OrderUnit.apatheticRare(AdmireUncle.delightfulFragile));
+         var _loc7_:Sprite = new Sprite();
+         _loc7_.graphics.beginFill(FascinatedAnus.obeisantLip);
+         _loc7_.graphics.drawRect(-SignCard.subduedLamentable.x,-SignCard.subduedLamentable.y,WaitingCrib.agonizingChop,WaitingCrib.agonizingChop);
+         _loc7_.graphics.endFill();
+         SignCard.subduedLamentable.addChildAt(_loc7_,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+      }
+      
+      public static function notebookIllustrious(param1:Event = null) : Boolean
       {
          var _loc6_:String = null;
-         var _loc2_:String = RareOranges.illustriousPipka.toLowerCase();
-         var _loc3_:String = SignCard.halfWing.illustriousSupply.text;
-         var _loc4_:String = SignCard.proudInvite.illustriousSupply.text;
-         var _loc5_:String = SignCard.chivalrousLamentable.illustriousSupply.text;
-         if(param1 == null || param1.currentTarget == SignCard.halfWing.illustriousSupply || param1.currentTarget == SignCard.proudInvite.illustriousSupply)
+         var _loc2_:String = RareOranges.advisePat.toLowerCase();
+         var _loc3_:String = SignCard.mightyKuruma.chickensAlluring.text;
+         var _loc4_:String = SignCard.fragileAction.chickensAlluring.text;
+         var _loc5_:String = SignCard.spuriousLamentable.chickensAlluring.text;
+         if(param1 == null || param1.currentTarget == SignCard.mightyKuruma.chickensAlluring || param1.currentTarget == SignCard.fragileAction.chickensAlluring)
          {
-            if(RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird) > _loc3_.length)
+            if(GullibleLook.unequaledJumbled > _loc3_.length)
             {
-               SignCard.inviteSupply(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(WaitingReligion.alluringCrime)));
+               SignCard.agreeToe(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(BurnFix.largeFragile)));
                return false;
             }
-            if(_loc3_.toLowerCase().indexOf(_loc2_.toLowerCase()) != -CoalRay.actionBorrow)
+            if(_loc3_.toLowerCase().indexOf(_loc2_.toLowerCase()) != -OrderUnit.apatheticRare(CardBabies.machineOranges))
             {
-               SignCard.inviteSupply(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(LipStore.rayRecognise)));
+               SignCard.agreeToe(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(VolcanoStay.supplyScratch)));
                return false;
             }
-            if(_loc3_.match(GroundFour.confusedFix) == null || _loc3_.match(RecogniseCompetition.mouseDelightful(CoalWhisper.largeSeed)) == null)
+            if(_loc3_.match(PrepareLip.delightfulTouch) == null || _loc3_.match(PanoramicProbable.signHarmony) == null)
             {
-               SignCard.inviteSupply(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(FrailJuice.programLeg)));
+               SignCard.agreeToe(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(GullibleLook.wateryInvite)));
                return false;
             }
          }
-         if(param1 == null || param1.currentTarget == SignCard.proudInvite.illustriousSupply)
+         if(param1 == null || param1.currentTarget == SignCard.fragileAction.chickensAlluring)
          {
             if(_loc3_ != _loc4_)
             {
-               SignCard.inviteSupply(BerryAgreeable.noiselessGround(CoalRay.windyElite));
+               SignCard.agreeToe(BerryAgreeable.orangesCompetition(PanoramicProbable.crownClub));
                return false;
             }
          }
-         if(SignCard.scaleZonked)
+         if(SignCard.burnChicken)
          {
-            if(param1 == null || param1.currentTarget == SignCard.chivalrousLamentable.illustriousSupply)
+            if(param1 == null || param1.currentTarget == SignCard.spuriousLamentable.chickensAlluring)
             {
-               if(AdmireStore.eliteReligion)
+               if(StalePinus.partyCrib)
                {
-                  if(_loc5_.split(RecogniseCompetition.mouseDelightful(ConfusedPeck.proudCrash)).length != LaborerFeeble.instructBathe)
+                  if(_loc5_.split(PrepareLip.lipMachine).length != PinusSand.jumbledTiresome)
                   {
-                     SignCard.inviteSupply(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(LipStore.gapingIcy)));
+                     SignCard.agreeToe(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(ReligionStore.deadpanAlanson)));
                      return false;
                   }
-                  _loc6_ = _loc5_.split(ConfusedPeck.proudCrash)[CoalRay.actionBorrow] as String;
-                  if(_loc6_.indexOf(RecogniseCompetition.mouseDelightful(ConfusedPeck.unequaledBag)) == -CoalRay.actionBorrow || _loc6_.length < RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable))
+                  _loc6_ = _loc5_.split(PrepareLip.lipMachine)[OrderUnit.apatheticRare(CardBabies.machineOranges)] as String;
+                  if(_loc6_.indexOf(OrderUnit.probableLip(ReligionStore.cardKotsky)) == -CardBabies.machineOranges || _loc6_.length < CardBabies.senseCrown)
                   {
-                     SignCard.inviteSupply(BerryAgreeable.noiselessGround(LipStore.gapingIcy));
+                     SignCard.agreeToe(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(ReligionStore.deadpanAlanson)));
                      return false;
                   }
                }
             }
          }
-         SignCard.inviteSupply(AdviseRobin.clubSubdued);
+         SignCard.agreeToe(OrderUnit.probableLip(DildoBorrow.metalAdaptable));
          return true;
       }
       
-      public static function armyFeeble(param1:String) : *
-      {
-         var _loc2_:InexpensiveGround = null;
-         var _loc3_:InexpensiveGround = null;
-         if(SignCard.violetNotebook && SignCard.violetNotebook.parent)
-         {
-            SignCard.violetNotebook.parent.removeChild(SignCard.violetNotebook);
-         }
-         SignCard.violetNotebook = new SeriousFragile(GroundFour.scaleHalf,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)).knotSqueamish(new FragileScale(ChickensScintillating.trembleCard,AdviseRobin.satisfyGaping));
-         SignCard.violetNotebook.hateLeg(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(CoalWhisper.sandBlade)));
-         _loc2_ = new InexpensiveGround(BerryAgreeable.noiselessGround(BalvankaNotebook.lipMachine,AdmireStore.whisperLeg.quirkyLoaf),SignCard.violetNotebook.scintillatingCoal,HystericalKotsky.notebookChivalrous);
-         _loc2_.jumbledAbaft(FascinatedAnus.annoyingRay);
-         _loc2_.multiline = DeterminedPrepare.hatefulComplex;
-         _loc2_.wordWrap = DeterminedPrepare.hatefulComplex;
-         _loc2_.selectable = DeterminedPrepare.hatefulComplex;
-         _loc2_.mouseEnabled = DeterminedPrepare.hatefulComplex;
-         SignCard.violetNotebook.cuteProse(_loc2_);
-         _loc3_ = new InexpensiveGround(RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued),SignCard.violetNotebook.scintillatingCoal,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-         _loc3_.pipkaAdhesive();
-         _loc3_.jumbledAbaft(FascinatedAnus.instructLaborer);
-         _loc3_.htmlText = BerryAgreeable.noiselessGround(BruiseBorrow.gateToe,AdmireStore.whisperLeg.quirkyLoaf,RecogniseCompetition.mouseDelightful(RecogniseTrail.borrowRequest) + RareOranges.illustriousPipka + RecogniseCompetition.mouseDelightful(BerryMouse.crashAnnoying));
-         _loc3_.multiline = DeterminedPrepare.hatefulComplex;
-         _loc3_.wordWrap = DeterminedPrepare.hatefulComplex;
-         _loc3_.selectable = DeterminedPrepare.hatefulComplex;
-         _loc3_.mouseEnabled = DeterminedPrepare.hatefulComplex;
-         SignCard.violetNotebook.cuteProse(_loc3_);
-         var _loc4_:* = new InexpensiveGround(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(BruiseBorrow.balvankaRequest)));
-         SignCard.halfWing = new BirdGround(SignCard.violetNotebook.scintillatingCoal);
-         SignCard.halfWing.sandDeliver(true);
-         SignCard.halfWing.illustriousSupply.addEventListener(Event.CHANGE,SignCard.lightHysterical);
-         var _loc5_:* = new InexpensiveGround(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(RayYell.cuteCrowded)));
-         SignCard.proudInvite = new BirdGround(SignCard.violetNotebook.scintillatingCoal);
-         SignCard.proudInvite.sandDeliver(true);
-         SignCard.proudInvite.illustriousSupply.addEventListener(Event.CHANGE,SignCard.lightHysterical);
-         var _loc6_:* = new InexpensiveGround(BerryAgreeable.noiselessGround(AnusSeed.berryLunasole));
-         SignCard.chivalrousLamentable = new BirdGround(SignCard.violetNotebook.scintillatingCoal);
-         SignCard.violetNotebook.cuteProse(_loc4_,SignCard.halfWing,_loc5_,SignCard.proudInvite,_loc6_,SignCard.chivalrousLamentable);
-         if(!SignCard.scaleZonked)
-         {
-            _loc6_.visible = DeterminedPrepare.machineSigh;
-            SignCard.chivalrousLamentable.visible = DeterminedPrepare.machineSigh;
-         }
-         SignCard.requestFaint = new InexpensiveGround(AdviseRobin.clubSubdued,SignCard.violetNotebook.scintillatingCoal,RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag));
-         SignCard.requestFaint.multiline = DeterminedPrepare.hatefulComplex;
-         SignCard.requestFaint.wordWrap = DeterminedPrepare.hatefulComplex;
-         SignCard.requestFaint.textColor = FascinatedAnus.trailCrime;
-         SignCard.violetNotebook.cuteProse(SignCard.requestFaint);
-         SignCard.lunasolePear = new SwankyOranges(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(AdviseRobin.fragileCoal)),SignCard.violetNotebook.scintillatingCoal,SignCard.supplyWatery);
-         SignCard.violetNotebook.cuteProse(SignCard.lunasolePear);
-         CrashAlanson.pipkaTax(SignCard.violetNotebook,CoalRay.actionBorrow);
-         SignCard.violetNotebook.kurumaPanoramic(CoalRay.orangeOrange,RecogniseCompetition.scaleCrown(CoalRay.orangeOrange));
-         SignCard.violetNotebook.sighChop(SignCard.violetNotebook.scintillatingCoal,SignCard.violetNotebook.height - RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail));
-         var _loc7_:Sprite = new Sprite();
-         _loc7_.graphics.beginFill(FascinatedAnus.knotLunasole);
-         _loc7_.graphics.drawRect(-SignCard.violetNotebook.x,-SignCard.violetNotebook.y,GroundFour.rareCard,GroundFour.rareCard);
-         _loc7_.graphics.endFill();
-         SignCard.violetNotebook.addChildAt(_loc7_,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-      }
-      
-      public static function dildoMachine() : *
-      {
-         if(AdmireStore.whisperLeg.quirkyLoaf == HystericalKotsky.labelBury)
-         {
-            ScintillatingSubdued.entertainingPipka(HystericalKotsky.orderChickens);
-         }
-         else if(AdmireStore.whisperLeg.quirkyLoaf == BruiseBorrow.whistleCute)
-         {
-            ScintillatingSubdued.entertainingPipka(BalvankaNotebook.hateCrib);
-         }
-         else if(AdmireStore.whisperLeg.quirkyLoaf != RecogniseCompetition.mouseDelightful(HystericalKotsky.grateFix))
-         {
-            if(AdmireStore.whisperLeg.quirkyLoaf == RecogniseCompetition.mouseDelightful(CoalWhisper.waitingScratch))
-            {
-            }
-         }
-      }
-      
-      public static function requestRare(param1:String) : void
-      {
-         if(param1 == BerryMouse.bruiseGullible || param1 == RecogniseCompetition.mouseDelightful(LipStore.yellCreator) || param1 == RecogniseCompetition.mouseDelightful(GroundFour.bruiseAgonizing) || param1 == RecogniseCompetition.mouseDelightful(LaborerFeeble.apatheticStore))
-         {
-            SignCard.scaleZonked = param1 == BerryMouse.bruiseGullible || param1 == LipStore.yellCreator || param1 == GroundFour.bruiseAgonizing || false;
-            SignCard.armyFeeble(param1);
-         }
-         else
-         {
-            SignCard.borrowRare(param1);
-         }
-      }
-      
-      public static function borrowRare(param1:String) : *
-      {
-         if(SignCard.requestHistorical && SignCard.requestHistorical.parent)
-         {
-            SignCard.requestHistorical.parent.removeChild(SignCard.requestHistorical);
-         }
-         SignCard.requestHistorical = new SeriousFragile(RecogniseCompetition.prepareAgree(WaitingReligion.programRobin),CoalRay.chickenStore);
-         SignCard.requestHistorical.hateLeg(RecogniseCompetition.mouseDelightful(HystericalKotsky.labelBury),SignCard.fragileAmuse);
-         SignCard.requestHistorical.knotSqueamish(new FragileScale(ChickensScintillating.clubAdaptable,AdviseRobin.satisfyGaping));
-         SignCard.mightyHeal = new SeriousFragile(SignCard.requestHistorical.scintillatingCoal * CoalRay.orangeOrange - AdviseRobin.satisfyGaping,SignCard.requestHistorical.delightfulAlanson).knotSqueamish(new FragileScale(ChickensScintillating.trembleCard,AdviseRobin.satisfyGaping));
-         SignCard.airChivalrous = new SeriousFragile(SignCard.requestHistorical.scintillatingCoal * RecogniseCompetition.scaleCrown(CoalRay.orangeOrange) - AdviseRobin.satisfyGaping,SignCard.requestHistorical.delightfulAlanson).knotSqueamish(new FragileScale(ChickensScintillating.trembleCard,AdviseRobin.satisfyGaping));
-         var _loc2_:GroundBabies = new GroundBabies(LipStore.fragileChicken);
-         SignCard.mightyHeal.cuteProse(_loc2_);
-         var _loc3_:InexpensiveGround = new InexpensiveGround(BerryAgreeable.noiselessGround(BalvankaNotebook.lipMachine,AdmireStore.whisperLeg.quirkyLoaf),SignCard.airChivalrous.scintillatingCoal,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-         _loc3_.jumbledAbaft(FascinatedAnus.instructLaborer);
-         _loc3_.multiline = DeterminedPrepare.hatefulComplex;
-         _loc3_.wordWrap = DeterminedPrepare.hatefulComplex;
-         _loc3_.selectable = DeterminedPrepare.hatefulComplex;
-         _loc3_.mouseEnabled = DeterminedPrepare.hatefulComplex;
-         SignCard.airChivalrous.cuteProse(_loc3_);
-         var _loc4_:InexpensiveGround = new InexpensiveGround(BerryAgreeable.noiselessGround(BerryMouse.hatefulDetermined,AdmireStore.whisperLeg.quirkyLoaf),SignCard.airChivalrous.scintillatingCoal,HystericalKotsky.notebookChivalrous);
-         _loc4_.jumbledAbaft(FascinatedAnus.trailCrime);
-         _loc4_.multiline = DeterminedPrepare.hatefulComplex;
-         _loc4_.wordWrap = DeterminedPrepare.hatefulComplex;
-         _loc4_.selectable = DeterminedPrepare.hatefulComplex;
-         _loc4_.mouseEnabled = DeterminedPrepare.hatefulComplex;
-         SignCard.airChivalrous.cuteProse(_loc4_);
-         var _loc5_:SwankyOranges = new SwankyOranges(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(AdviseRobin.entertainingIcy)),SignCard.airChivalrous.scintillatingCoal,SignCard.dildoMachine);
-         var _loc6_:SwankyOranges = new SwankyOranges(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(FrailJuice.crownFix)),SignCard.airChivalrous.scintillatingCoal,SignCard.fragileAmuse);
-         SignCard.airChivalrous.cuteProse(_loc5_,_loc6_);
-         SignCard.requestHistorical.cuteProse(SignCard.mightyHeal,SignCard.airChivalrous);
-         SignCard.requestHistorical.kurumaPanoramic();
-         SignCard.requestHistorical.x = int((-SignCard.requestHistorical.scintillatingCoal + RecogniseCompetition.prepareAgree(MetalDetermined.gatePail)) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
-         SignCard.requestHistorical.y = RecogniseCompetition.prepareAgree(RecogniseTrail.balvankaAir);
-         CrashAlanson.pipkaTax(SignCard.requestHistorical,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
-      }
-      
-      public static function fragileAmuse() : void
-      {
-         if(SignCard.requestHistorical && SignCard.requestHistorical.parent)
-         {
-            SignCard.requestHistorical.parent.removeChild(SignCard.requestHistorical);
-         }
-         if(SignCard.violetNotebook && SignCard.violetNotebook.parent)
-         {
-            SignCard.violetNotebook.parent.removeChild(SignCard.violetNotebook);
-         }
-      }
-      
-      public static function inviteSupply(param1:String) : void
-      {
-         SignCard.requestFaint.text = param1;
-      }
-      
-      public static function supplyWatery() : void
+      public static function instructLaborer() : void
       {
          var _loc1_:String = null;
          var _loc2_:int = 0;
-         if(SignCard.lightHysterical())
+         if(SignCard.notebookIllustrious())
          {
-            _loc1_ = StupidKuruma.wingArmy(SignCard.halfWing.illustriousSupply.text);
-            RareFeeble.hateWicked.stickVolcano(WhistleProbable.armyFix(_loc1_,SignCard.chivalrousLamentable.illustriousSupply.text));
-            _loc2_ = RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-            while(_loc2_ < SignCard.violetNotebook.numChildren)
+            _loc1_ = StupidKuruma.harmonyToe(SignCard.mightyKuruma.chickensAlluring.text);
+            RareFeeble.cuteAction.sighCrime(WhistleProbable.chopCrime(_loc1_,SignCard.spuriousLamentable.chickensAlluring.text));
+            _loc2_ = OrderUnit.apatheticRare(CardBabies.machineOranges);
+            while(_loc2_ < SignCard.subduedLamentable.numChildren)
             {
-               SignCard.violetNotebook.getChildAt(_loc2_).visible = DeterminedPrepare.machineSigh;
+               SignCard.subduedLamentable.getChildAt(_loc2_).visible = HateFaint.bladeStatement;
                _loc2_++;
             }
+         }
+      }
+      
+      public static function apatheticKnife(param1:String) : *
+      {
+         if(SignCard.borrowCrib && SignCard.borrowCrib.parent)
+         {
+            SignCard.borrowCrib.parent.removeChild(SignCard.borrowCrib);
+         }
+         SignCard.borrowCrib = new SeriousFragile(OrderUnit.apatheticRare(PinusSand.kurumaComplex),PrepareLip.seriousBlade);
+         SignCard.borrowCrib.healComplex(OrderUnit.probableLip(PinusSand.eliteBag),SignCard.probableViolet);
+         SignCard.borrowCrib.agreeableRobin(new FragileScale(ChickensScintillating.robinKnot,OrderUnit.apatheticRare(AdmireUncle.crimeCreator)));
+         SignCard.hydrantPear = new SeriousFragile(SignCard.borrowCrib.storeAmuse * AdmireUncle.mouseBabies - AdmireUncle.crimeCreator,SignCard.borrowCrib.babiesSubdued).agreeableRobin(new FragileScale(ChickensScintillating.distroStick,OrderUnit.apatheticRare(AdmireUncle.crimeCreator)));
+         SignCard.pearCoal = new SeriousFragile(SignCard.borrowCrib.storeAmuse * OrderUnit.noiselessGullible(AdmireUncle.mouseBabies) - AdmireUncle.crimeCreator,SignCard.borrowCrib.babiesSubdued).agreeableRobin(new FragileScale(ChickensScintillating.distroStick,OrderUnit.apatheticRare(AdmireUncle.crimeCreator)));
+         var _loc2_:GroundBabies = new GroundBabies(OrderUnit.probableLip(PanoramicProbable.fascinatedAir));
+         SignCard.hydrantPear.icyCry(_loc2_);
+         var _loc3_:InexpensiveGround = new InexpensiveGround(BerryAgreeable.orangesCompetition(VolcanoStay.trailDecay,StalePinus.determinedColor.rareLabel),SignCard.pearCoal.storeAmuse,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         _loc3_.lipUnit(FascinatedAnus.tiresomeInstruct);
+         _loc3_.multiline = HateFaint.proudGround;
+         _loc3_.wordWrap = HateFaint.proudGround;
+         _loc3_.selectable = HateFaint.proudGround;
+         _loc3_.mouseEnabled = HateFaint.proudGround;
+         SignCard.pearCoal.icyCry(_loc3_);
+         var _loc4_:InexpensiveGround = new InexpensiveGround(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(BatheKotsky.confusedPipka),StalePinus.determinedColor.rareLabel),SignCard.pearCoal.storeAmuse,ReligionStore.trailInstruct);
+         _loc4_.lipUnit(FascinatedAnus.scaleSense);
+         _loc4_.multiline = HateFaint.proudGround;
+         _loc4_.wordWrap = HateFaint.proudGround;
+         _loc4_.selectable = HateFaint.proudGround;
+         _loc4_.mouseEnabled = HateFaint.proudGround;
+         SignCard.pearCoal.icyCry(_loc4_);
+         var _loc5_:SwankyOranges = new SwankyOranges(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(AdmireUncle.delightfulLoaf)),SignCard.pearCoal.storeAmuse,SignCard.orangeDetermined);
+         var _loc6_:SwankyOranges = new SwankyOranges(BerryAgreeable.orangesCompetition(PrepareLip.faithfulConfused),SignCard.pearCoal.storeAmuse,SignCard.probableViolet);
+         SignCard.pearCoal.icyCry(_loc5_,_loc6_);
+         SignCard.borrowCrib.icyCry(SignCard.hydrantPear,SignCard.pearCoal);
+         SignCard.whisperPeck();
+         SignCard.borrowCrib.x = int((PanoramicProbable.orangeChivalrous - SignCard.borrowCrib.storeAmuse) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
+         SignCard.borrowCrib.y = OrderUnit.apatheticRare(PrepareLip.pailThick);
+         CrashAlanson.yellObtainable(SignCard.borrowCrib,CardBabies.machineOranges);
+      }
+      
+      public static function orangeDetermined() : *
+      {
+         if(StalePinus.determinedColor.rareLabel == OrderUnit.probableLip(PinusSand.eliteBag))
+         {
+            ScintillatingSubdued.suzukaAbaft(SlipReligion.airBorrow);
+         }
+         else if(StalePinus.determinedColor.rareLabel == SlipReligion.trailBashful)
+         {
+            ScintillatingSubdued.suzukaAbaft(ListIllustrious.kurumaToe);
+         }
+         else if(StalePinus.determinedColor.rareLabel != OrderUnit.probableLip(AdmireUncle.lamentableRobin))
+         {
+            if(StalePinus.determinedColor.rareLabel == BurnFix.feebleIcy)
+            {
+            }
+         }
+      }
+      
+      public static function probableViolet() : void
+      {
+         if(SignCard.borrowCrib && SignCard.borrowCrib.parent)
+         {
+            SignCard.borrowCrib.parent.removeChild(SignCard.borrowCrib);
+         }
+         if(SignCard.subduedLamentable && SignCard.subduedLamentable.parent)
+         {
+            SignCard.subduedLamentable.parent.removeChild(SignCard.subduedLamentable);
          }
       }
    }

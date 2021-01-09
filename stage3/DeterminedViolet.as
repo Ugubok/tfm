@@ -6,8 +6,8 @@ package
       
       public function DeterminedViolet(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird),AdviseRobin.satisfyGaping);
-         staySigh.writeByte(param1);
+         super(OrderUnit.apatheticRare(PinusSand.panoramicFlower),OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining));
+         lamentableSpurious.writeByte(param1);
       }
    }
 }

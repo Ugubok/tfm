@@ -4,10 +4,10 @@ package
    {
        
       
-      public function FragileBorrow(param1:Boolean)
+      public function FragileBorrow(param1:String)
       {
-         super(AdviseRobin.mouseProbable,RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous));
-         staySigh.writeByte(!!param1?int(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)):int(HystericalKotsky.notebookChivalrous));
+         super(OrderUnit.apatheticRare(LargeComplex.programAbaft),SlipReligion.companyHistorical);
+         taxWaiting(param1);
       }
    }
 }

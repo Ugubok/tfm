@@ -11,31 +11,31 @@ package
    public class BabiesToe
    {
       
-      public static var hydrantDetermined:BabiesToe;
+      public static var bashfulBabies:BabiesToe;
        
       
-      public var waitingCommon:ComposantTribu;
+      public var eliteCute:ComposantTribu;
       
       public function BabiesToe(param1:DisplayObjectContainer)
       {
          super();
-         this.waitingCommon = ClientTribulle.getInstance().ajouterComposantTribu(param1);
-         this.waitingCommon.visible = DeterminedPrepare.machineSigh;
-         GestionnaireTribuVieux.getInstance().composantTribu = this.waitingCommon;
-         var _loc2_:PushButton = UtilUI.getChild(this.waitingCommon,RecogniseCompetition.mouseDelightful(ConfusedPeck.sandAgree)) as PushButton;
-         _loc2_.addEventListener(MouseEvent.CLICK,this.superClub);
+         this.eliteCute = ClientTribulle.getInstance().ajouterComposantTribu(param1);
+         this.eliteCute.visible = HateFaint.bladeStatement;
+         GestionnaireTribuVieux.getInstance().composantTribu = this.eliteCute;
+         var _loc2_:PushButton = UtilUI.getChild(this.eliteCute,OrderUnit.probableLip(AdmireUncle.chopAgonizing)) as PushButton;
+         _loc2_.addEventListener(MouseEvent.CLICK,this.chopApathetic);
       }
       
-      public static function machineSubdued() : void
+      public static function uncleGaping() : void
       {
-         BabiesToe.hydrantDetermined = new BabiesToe(CrashAlanson.healAction(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)));
-         CrashAlanson.pipkaTax(BabiesToe.hydrantDetermined.waitingCommon,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
-         BabiesToe.hydrantDetermined.waitingCommon.x_masquer();
+         BabiesToe.bashfulBabies = new BabiesToe(CrashAlanson.legAgree(CardBabies.machineOranges));
+         CrashAlanson.yellObtainable(BabiesToe.hydrantChicken,CardBabies.machineOranges);
+         BabiesToe.hydrantChicken.x_masquer();
       }
       
-      public function superClub(param1:MouseEvent) : void
+      public function chopApathetic(param1:MouseEvent) : void
       {
-         RareFeeble.hateWicked.stickVolcano(new SwankyColor());
+         RareFeeble.cuteAction.sighCrime(new SwankyColor());
       }
    }
 }

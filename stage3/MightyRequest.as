@@ -6,36 +6,36 @@ package
    {
        
       
-      public var bagClub:int;
+      public var loafViolet:int;
       
-      public var zonkedJuice:Number;
+      public var milkySupply:Number;
       
-      public var trembleDeadpan:Number;
+      public var crowdedFragile:Number;
       
-      public var proudVolcano:Boolean;
+      public var chopAdvise:Boolean;
       
-      public var berryUncle:Number;
+      public var hystericalRare:Number;
       
-      public var berryMetal:Number;
+      public var listAbaft:Number;
       
-      public var yellRare:Boolean;
+      public var amuseSerious:Boolean;
       
-      public var fragileClub:Number;
+      public var batheCute:Number;
       
-      public var programCard:Boolean;
+      public var supplyPanoramic:Boolean;
       
       public function MightyRequest(param1:ByteArray)
       {
          super(param1);
-         this.bagClub = param1.readInt();
-         this.zonkedJuice = param1.readShort() / CoalRay.satisfyTrail;
-         this.trembleDeadpan = param1.readShort() / CoalRay.satisfyTrail;
-         this.proudVolcano = param1.readBoolean();
-         this.berryUncle = param1.readShort() / HystericalKotsky.lightAnus;
-         this.berryMetal = param1.readShort() / RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus);
-         this.yellRare = param1.readBoolean();
-         this.fragileClub = param1.readShort();
-         this.programCard = param1.readBoolean();
+         this.loafViolet = param1.readInt();
+         this.milkySupply = param1.readShort() / AdmireUncle.delightfulFragile;
+         this.crowdedFragile = param1.readShort() / AdmireUncle.delightfulFragile;
+         this.chopAdvise = param1.readBoolean();
+         this.hystericalRare = param1.readShort() / LargeComplex.balvankaZonked;
+         this.listAbaft = param1.readShort() / OrderUnit.apatheticRare(LargeComplex.balvankaZonked);
+         this.amuseSerious = param1.readBoolean();
+         this.batheCute = param1.readShort();
+         this.supplyPanoramic = param1.readBoolean();
       }
    }
 }

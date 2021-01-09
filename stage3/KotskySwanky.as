@@ -9,11 +9,11 @@ package
          super();
       }
       
-      public function companyInvite(param1:AlansonTiresome) : void
+      public function crimeBruise(param1:HistoricalGround) : void
       {
       }
       
-      public function fragileLight(param1:HistoricalGround) : void
+      public function joyousParty(param1:AlansonTiresome) : void
       {
       }
    }

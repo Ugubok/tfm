@@ -4,11 +4,11 @@ package
    {
        
       
-      public function ColorJumbled(param1:String)
+      public function ColorJumbled(param1:int, param2:int)
       {
-         super(RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous),BruiseBorrow.taxChivalrous);
-         staySigh.writeUTF(param1);
-         lipStay = DeterminedPrepare.hatefulComplex;
+         super(OrderUnit.apatheticRare(AdmireUncle.delightfulFragile),BatheKotsky.agonizingStomach);
+         lamentableSpurious.writeByte(param1);
+         lamentableSpurious.writeByte(param2);
       }
    }
 }

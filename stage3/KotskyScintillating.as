@@ -6,12 +6,12 @@ package
    {
        
       
-      public var loafFaint:int;
+      public var delightfulLight:String;
       
       public function KotskyScintillating(param1:ByteArray)
       {
          super(param1);
-         this.loafFaint = param1.readInt();
+         this.delightfulLight = param1.readUTF();
       }
    }
 }

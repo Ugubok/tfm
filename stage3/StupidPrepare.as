@@ -6,8 +6,8 @@ package
       
       public function StupidPrepare(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(BerryMouse.distroWicked),LaborerFeeble.agreePanoramic);
-         staySigh.writeInt(param1);
+         super(OrderUnit.apatheticRare(WanderingDecay.noiselessTasteless),LargeComplex.balvankaZonked);
+         lamentableSpurious.writeByte(param1);
       }
    }
 }

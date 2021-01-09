@@ -6,7 +6,7 @@ package
       
       public function WhistleDeadpan()
       {
-         super(RecogniseCompetition.prepareAgree(CoalWhisper.burnViolet),RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka));
+         super(LargeComplex.programAbaft,OrderUnit.apatheticRare(WanderingDecay.deadpanAdvise));
       }
    }
 }

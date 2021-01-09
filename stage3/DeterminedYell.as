@@ -6,7 +6,7 @@ package
       
       public function DeterminedYell()
       {
-         super(RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird),BerryMouse.distroWicked);
+         super(AdmireUncle.delightfulFragile,OrderUnit.apatheticRare(PrepareLip.competitionSupply));
       }
    }
 }

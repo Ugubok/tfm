@@ -6,12 +6,12 @@ package
    {
        
       
-      public var zonkedTasteless:String;
+      public var programUnequaled:String;
       
       public function ActionZonked(param1:ByteArray)
       {
          super(param1);
-         this.zonkedTasteless = param1.readUTF();
+         this.programUnequaled = param1.readUTF();
       }
    }
 }

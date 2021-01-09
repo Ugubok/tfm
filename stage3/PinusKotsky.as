@@ -8,10 +8,10 @@ package
       
       public function PinusKotsky(param1:int, param2:_IPaquetSortant)
       {
-         super(RecogniseCompetition.prepareAgree(HystericalKotsky.rayAdvise),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
-         staySigh.writeShort(param1);
-         param2.ecriture(staySigh);
-         lipStay = DeterminedPrepare.hatefulComplex;
+         super(OrderUnit.apatheticRare(LargeComplex.obeisantStupid),CardBabies.machineOranges);
+         lamentableSpurious.writeShort(param1);
+         param2.ecriture(lamentableSpurious);
+         laborerTouch = HateFaint.proudGround;
       }
    }
 }

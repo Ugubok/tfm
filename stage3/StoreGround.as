@@ -4,10 +4,10 @@ package
    {
        
       
-      public function StoreGround(param1:int)
+      public function StoreGround(param1:String)
       {
-         super(RecogniseCompetition.prepareAgree(LaborerFeeble.staleMark),HystericalKotsky.lightAnus);
-         staySigh.writeByte(param1);
+         super(OrderUnit.apatheticRare(CreatorSupply.slipSeed),OrderUnit.apatheticRare(BatheKotsky.proseNoiseless));
+         lamentableSpurious.writeUTF(param1);
       }
    }
 }

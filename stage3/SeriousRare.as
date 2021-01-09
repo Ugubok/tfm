@@ -11,20 +11,24 @@ package
          super();
       }
       
-      public static function largeGround(param1:String) : Boolean
+      public static function partyAdvise(param1:Function, param2:Object) : Object
       {
-         var _loc2_:Class = null;
-         try
+         if(param1)
          {
-            _loc2_ = ApplicationDomain.currentDomain.getDefinition(param1) as Class;
+            if(param2 != null)
+            {
+               if(param2 is Array)
+               {
+                  return param1.apply(null,(param2 as Array).slice(OrderUnit.apatheticRare(ReligionStore.trailInstruct),param1.length));
+               }
+               return param1(param2);
+            }
+            return param1();
          }
-         catch(eliteLabel:Error)
-         {
-         }
-         return _loc2_ != null;
+         return null;
       }
       
-      public static function borrowChickens(param1:Object, param2:Object, param3:Boolean = false) : Array
+      public static function chickenComplex(param1:Object, param2:Object, param3:Boolean = false) : Array
       {
          var _loc4_:Array = null;
          if(param1 === null)
@@ -51,21 +55,17 @@ package
          return _loc4_;
       }
       
-      public static function coalPanoramic(param1:Function, param2:Object) : Object
+      public static function prepareCreator(param1:String) : Boolean
       {
-         if(param1)
+         var _loc2_:Class = null;
+         try
          {
-            if(param2 != null)
-            {
-               if(param2 is Array)
-               {
-                  return param1.apply(null,(param2 as Array).slice(HystericalKotsky.notebookChivalrous,param1.length));
-               }
-               return param1(param2);
-            }
-            return param1();
+            _loc2_ = ApplicationDomain.currentDomain.getDefinition(param1) as Class;
          }
-         return null;
+         catch(subduedPear:Error)
+         {
+         }
+         return _loc2_ != null;
       }
    }
 }

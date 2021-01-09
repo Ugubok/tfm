@@ -6,9 +6,9 @@ package
       
       public function BabiesSlip(param1:int, param2:int)
       {
-         super(WaitingReligion.peckKotsky,RecogniseCompetition.prepareAgree(CoalWhisper.burnViolet));
-         staySigh.writeByte(param1);
-         staySigh.writeByte(param2);
+         super(OrderUnit.apatheticRare(GullibleLook.unequaledJumbled),OrderUnit.apatheticRare(ReligionStore.zonkedReligion));
+         lamentableSpurious.writeByte(param1);
+         lamentableSpurious.writeShort(param2);
       }
    }
 }

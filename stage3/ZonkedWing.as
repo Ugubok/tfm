@@ -6,27 +6,25 @@ package
    {
        
       
-      public var pinusSign:int;
+      public var agreeRare:int;
       
-      public var knifeAdvise:int;
+      public var machineFrail:int;
       
-      public var entertainingApathetic:int;
+      public var fascinatedCoal:int;
       
-      public var wanderingDildo:String;
+      public var cribParty:String;
       
-      public var obtainableCommon:String;
+      public var chivalrousSeed:String;
       
       public function ZonkedWing(param1:ByteArray)
       {
          super(param1);
-         this.pinusSign = param1.readInt();
-         this.knifeAdvise = param1.readInt();
-         this.entertainingApathetic = param1.readInt();
-         this.wanderingDildo = param1.readUTF();
-         this.obtainableCommon = param1.readUTF();
-         if(this.wanderingDildo == RecogniseCompetition.mouseDelightful(RecogniseTrail.groundSubdued))
-         {
-            this.wanderingDildo = null;
+         this.agreeRare = param1.readInt();
+         this.machineFrail = param1.readInt();
+         this.fascinatedCoal = param1.readInt();
+         this.cribParty = param1.readUTF();
+         this.chivalrousSeed = param1.readUTF();
+         if(this.cribParty == WaitingCrib.stupidParty = null;
          }
       }
    }

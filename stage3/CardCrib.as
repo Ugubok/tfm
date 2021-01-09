@@ -6,12 +6,12 @@ package
    {
        
       
-      public var commonPeck:String;
+      public var alluringDecay:int;
       
       public function CardCrib(param1:ByteArray)
       {
          super(param1);
-         this.commonPeck = param1.readUTF();
+         this.alluringDecay = param1.readUnsignedShort();
       }
    }
 }

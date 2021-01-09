@@ -4,16 +4,16 @@ package
    {
        
       
-      function unequaledScale() : int;
+      function swankyCrime() : int;
       
-      function lightInjure() : String;
+      function storeBorrow() : String;
       
-      function inviteCute() : int;
+      function statementSpurious() : int;
       
-      function deliverLeg() : SignBalvanka;
+      function obeisantTouch() : SignBalvanka;
       
-      function religionBruise() : Date;
+      function obtainableCrib() : Date;
       
-      function squeamishArmy() : Boolean;
+      function bagFix() : Boolean;
    }
 }

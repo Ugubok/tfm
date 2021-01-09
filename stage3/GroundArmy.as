@@ -7,106 +7,104 @@ package
    public class GroundArmy extends SeriousFragile
    {
       
-      public static var proseWindy:GroundArmy;
+      public static var halfWaiting:GroundArmy;
        
       
-      public var anusOrange:InexpensiveGround;
+      public var actionProse:InexpensiveGround;
       
-      public var abaftReligion:String;
+      public var faithfulStomach:String;
       
-      public var curvedRequest:SwankyOranges;
+      public var dildoBury:SwankyOranges;
       
-      public var harmonyDecay:Bitmap;
+      public var kotskyFaint:Bitmap;
       
       public function GroundArmy()
       {
-         this.abaftReligion = RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued);
-         super(CoalRay.chickenStore,BerryMouse.juiceDetermined);
-         knotFaithful(true);
-         this.halfFlower();
-         this.anusOrange = new InexpensiveGround(AdviseRobin.clubSubdued,scintillatingCoal - BerryMouse.distroWicked,HystericalKotsky.notebookChivalrous).crownSqueamish(TextFormatAlign.CENTER);
-         this.anusOrange.mouseEnabled = DeterminedPrepare.hatefulComplex;
-         this.anusOrange.x = RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus);
-         addChild(this.anusOrange);
-         this.curvedRequest = new SwankyOranges(BerryAgreeable.noiselessGround(MetalDetermined.orangeStick),scintillatingCoal - BerryMouse.distroWicked,this.lunasoleBerry);
-         this.curvedRequest.x = RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus);
-         this.curvedRequest.y = delightfulAlanson - RecogniseCompetition.prepareAgree(BerryMouse.distroWicked) - WaitingReligion.peckKotsky;
-         addChild(this.curvedRequest);
-         kurumaPanoramic(CoalRay.orangeOrange,RecogniseCompetition.scaleCrown(BruiseBorrow.largeAlanson));
+         this.faithfulStomach = OrderUnit.probableLip(DildoBorrow.metalAdaptable);
+         super(OrderUnit.apatheticRare(PrepareLip.seriousBlade),WanderingDecay.legChop);
+         feebleHysterical(true);
+         this.stomachKotsky();
+         this.actionProse = new InexpensiveGround(DildoBorrow.metalAdaptable,storeAmuse - PrepareLip.competitionSupply,OrderUnit.apatheticRare(ReligionStore.trailInstruct)).bruiseKnot(TextFormatAlign.CENTER);
+         this.actionProse.mouseEnabled = HateFaint.proudGround;
+         this.actionProse.x = LargeComplex.balvankaZonked;
+         addChild(this.actionProse);
+         this.dildoBury = new SwankyOranges(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(PrepareLip.rareCrime)),storeAmuse - OrderUnit.apatheticRare(PrepareLip.competitionSupply),this.abaftIllustrious);
+         this.dildoBury.x = LargeComplex.balvankaZonked;
+         this.dildoBury.y = babiesSubdued - OrderUnit.apatheticRare(PrepareLip.competitionSupply) - OrderUnit.apatheticRare(LargeComplex.programAbaft);
+         addChild(this.dildoBury);
+         hatefulWing(OrderUnit.noiselessGullible(AdmireUncle.mouseBabies),OrderUnit.noiselessGullible(GullibleLook.unitSisters));
       }
       
-      public static function adviseCreator(param1:String) : void
+      public static function rareFix(param1:String, param2:Boolean = false) : void
       {
-         if(GroundArmy.proseWindy)
+         if(!GroundArmy.halfWaiting)
          {
-            GroundArmy.proseWindy.tiresomeBird(GroundArmy.proseWindy.abaftReligion + RecogniseCompetition.mouseDelightful(CoalWhisper.orangeFragile) + param1);
+            GroundArmy.halfWaiting = new GroundArmy();
+         }
+         GroundArmy.halfWaiting.prepareFeeble(param1);
+         GroundArmy.halfWaiting.dildoBury.visible = param2;
+         CrashAlanson.obeisantAdaptable();
+         while(StalePinus.halfWaiting.numChildren)
+         {
+            StalePinus.halfWaiting.removeChildAt(ReligionStore.trailInstruct);
+         }
+         GroundArmy.halfWaiting.visible = HateFaint.proudGround;
+         StalePinus.halfWaiting.addChild(GroundArmy.halfWaiting);
+      }
+      
+      public static function creatorPail(param1:String) : void
+      {
+         if(GroundArmy.halfWaiting)
+         {
+            GroundArmy.halfWaiting.prepareFeeble(GroundArmy.halfWaiting.faithfulStomach + ReligionStore.uncleFaithful + param1);
          }
       }
       
-      public static function requestRare(param1:String, param2:Boolean = false) : void
+      public function healMilky() : void
       {
-         if(!GroundArmy.proseWindy)
-         {
-            GroundArmy.proseWindy = new GroundArmy();
-         }
-         GroundArmy.proseWindy.tiresomeBird(param1);
-         GroundArmy.proseWindy.curvedRequest.visible = param2;
-         CrashAlanson.programVolcano();
-         while(AdmireStore.proseWindy.numChildren)
-         {
-            AdmireStore.proseWindy.removeChildAt(HystericalKotsky.notebookChivalrous);
-         }
-         GroundArmy.proseWindy.visible = DeterminedPrepare.hatefulComplex;
-         AdmireStore.proseWindy.addChild(GroundArmy.proseWindy);
-      }
-      
-      public function tiresomeBird(param1:String) : void
-      {
-         this.abaftReligion = param1;
-         this.anusOrange.text = param1;
-         this.anusOrange.y = (delightfulAlanson - BerryMouse.distroWicked - this.anusOrange.height) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-         GroundArmy.proseWindy.sandGrate();
-      }
-      
-      public function lunasoleBerry() : void
-      {
-         ScintillatingSubdued.frailWandering(GroundFour.planScintillating);
-      }
-      
-      public function halfFlower() : void
-      {
-         if(AdmireStore.whisperLeg.suzukaPanoramic = AgreeableHistorical.religionSign(AdmireStore.whisperLeg.colorBurn);
-            this.harmonyDecay.addEventListener(Event.COMPLETE,this.prepareWindy);
-            addChildAt(this.harmonyDecay,HystericalKotsky.notebookChivalrous);
+         if(this.actionProse.height > WanderingDecay.storeAgonizing.width = BurnFix.chopLarge;
+            storeAmuse = Math.min(BurnFix.chopLarge,this.actionProse.textWidth + CardBabies.inexpensiveChickens);
+            this.actionProse.width = storeAmuse - PrepareLip.competitionSupply;
+            babiesSubdued = this.actionProse.textHeight + CardBabies.inexpensiveChickens;
+            this.actionProse.y = (babiesSubdued - OrderUnit.apatheticRare(PrepareLip.competitionSupply) - this.actionProse.height) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+            GroundArmy.halfWaiting.hatefulWing(OrderUnit.noiselessGullible(AdmireUncle.mouseBabies),OrderUnit.noiselessGullible(GullibleLook.unitSisters));
+            GroundArmy.halfWaiting.feebleHysterical(true);
+            GroundArmy.halfWaiting.addChildAt(GroundArmy.halfWaiting.kotskyFaint,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
          }
       }
       
-      public function prepareWindy(param1:Event) : void
+      public function probableWicked(param1:Event) : void
       {
-         if(this.harmonyDecay.width >= WaitingReligion.halfSisters && this.harmonyDecay.height >= RecogniseCompetition.prepareAgree(BerryMouse.healParty))
+         if(this.kotskyFaint.width >= ReligionStore.hystericalBack && this.kotskyFaint.height >= OrderUnit.apatheticRare(CreatorSupply.confusedSpurious))
          {
-            this.harmonyDecay.x = -x;
-            this.harmonyDecay.y = -y;
+            this.kotskyFaint.x = -x;
+            this.kotskyFaint.y = -y;
          }
          else
          {
-            this.harmonyDecay.x = (-this.harmonyDecay.bitmapData.width + scintillatingCoal) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-            this.harmonyDecay.y = -this.harmonyDecay.bitmapData.height * RecogniseCompetition.scaleCrown(BruiseBorrow.largeAlanson);
+            this.kotskyFaint.x = (-this.kotskyFaint.bitmapData.width + storeAmuse) / PinusSand.jumbledTiresome;
+            this.kotskyFaint.y = -this.kotskyFaint.bitmapData.height * GullibleLook.unitSisters;
          }
       }
       
-      public function sandGrate() : void
+      public function prepareFeeble(param1:String) : void
       {
-         if(RecogniseCompetition.prepareAgree(BerryMouse.juiceDetermined) < this.anusOrange.height)
-         {
-            this.anusOrange.width = AdviseRobin.instructBabies;
-            scintillatingCoal = Math.min(AdviseRobin.instructBabies,this.anusOrange.textWidth + AlansonReligion.babiesBag);
-            this.anusOrange.width = -BerryMouse.distroWicked + scintillatingCoal;
-            delightfulAlanson = AlansonReligion.babiesBag + this.anusOrange.textHeight;
-            this.anusOrange.y = (delightfulAlanson - BerryMouse.distroWicked - this.anusOrange.height) / LaborerFeeble.instructBathe;
-            GroundArmy.proseWindy.kurumaPanoramic(RecogniseCompetition.scaleCrown(CoalRay.orangeOrange),BruiseBorrow.largeAlanson);
-            GroundArmy.proseWindy.knotFaithful(true);
-            GroundArmy.proseWindy.addChildAt(GroundArmy.proseWindy.harmonyDecay,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
+         this.faithfulStomach = param1;
+         this.actionProse.text = param1;
+         this.actionProse.y = (babiesSubdued - PrepareLip.competitionSupply - this.actionProse.height) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+         GroundArmy.halfWaiting.healMilky();
+      }
+      
+      public function abaftIllustrious() : void
+      {
+         ScintillatingSubdued.requestElite(PrepareLip.fourWhisper);
+      }
+      
+      public function stomachKotsky() : void
+      {
+         if(StalePinus.determinedColor.scratchSubdued = AgreeableHistorical.crowdedScale(StalePinus.determinedColor.rayHalf);
+            this.kotskyFaint.addEventListener(Event.COMPLETE,this.probableWicked);
+            addChildAt(this.kotskyFaint,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
          }
       }
    }

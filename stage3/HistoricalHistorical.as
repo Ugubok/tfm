@@ -6,15 +6,15 @@ package
    {
        
       
-      public var illustriousPipka:String;
+      public var swankySisters:int;
       
-      public var zonkedCreator:String;
+      public var slipStore:String;
       
       public function HistoricalHistorical(param1:ByteArray)
       {
          super(param1);
-         this.illustriousPipka = param1.readUTF();
-         this.zonkedCreator = param1.readUTF();
+         this.swankySisters = param1.readInt();
+         this.slipStore = param1.readUTF();
       }
    }
 }

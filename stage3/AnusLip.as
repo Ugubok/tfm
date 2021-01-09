@@ -4,10 +4,10 @@ package
    {
        
       
-      public function AnusLip(param1:String)
+      public function AnusLip(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird),RecogniseCompetition.prepareAgree(ConfusedPeck.statementWatery));
-         staySigh.writeUTF(param1);
+         super(OrderUnit.apatheticRare(AdmireUncle.crimeCreator),AdaptableInexpensive.harmonyChicken);
+         lamentableSpurious.writeInt(param1);
       }
    }
 }

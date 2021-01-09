@@ -6,41 +6,41 @@ package
    {
        
       
-      public var determinedKnife:int;
+      public var tiresomeStore:int;
       
-      public var lipAdmire:int;
+      public var knifeStick:int;
       
-      public var alansonCompany:int;
+      public var lipToe:int;
       
-      public var annoyingBerry:int;
+      public var burnChickens:int;
       
-      public var fragileClub:int;
+      public var batheCute:int;
       
-      public var apatheticSuper:int;
+      public var planAdaptable:int;
       
-      public var trailTremble:int;
+      public var taxPlan:int;
       
-      public var noxiousHateful:Boolean;
+      public var fascinatedPeck:Boolean;
       
-      public var gateBashful:Array;
+      public var unequaledBashful:Array;
       
       public function BabiesViolet(param1:ByteArray)
       {
          super(param1);
-         this.determinedKnife = param1.readInt();
-         this.lipAdmire = param1.readShort();
-         this.alansonCompany = param1.readShort();
-         this.annoyingBerry = param1.readShort();
-         this.fragileClub = param1.readShort();
-         this.apatheticSuper = param1.readByte();
-         this.trailTremble = param1.readByte();
-         this.noxiousHateful = param1.readByte() == RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+         this.tiresomeStore = param1.readInt();
+         this.knifeStick = param1.readShort();
+         this.lipToe = param1.readShort();
+         this.burnChickens = param1.readShort();
+         this.batheCute = param1.readShort();
+         this.planAdaptable = param1.readByte();
+         this.taxPlan = param1.readByte();
+         this.fascinatedPeck = param1.readByte() == OrderUnit.apatheticRare(CardBabies.machineOranges);
          var _loc2_:int = param1.readByte();
-         this.gateBashful = new Array();
-         var _loc3_:int = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.unequaledBashful = new Array();
+         var _loc3_:int = ReligionStore.trailInstruct;
          while(_loc3_ < _loc2_)
          {
-            this.gateBashful.push(param1.readInt());
+            this.unequaledBashful.push(param1.readInt());
             _loc3_++;
          }
       }

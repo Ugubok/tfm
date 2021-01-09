@@ -6,30 +6,30 @@ package
    {
        
       
-      public var alansonRare:int;
+      public var adviseKnife:int;
       
-      public var zonkedJuice:int;
+      public var milkySupply:int;
       
-      public var trembleDeadpan:int;
+      public var crowdedFragile:int;
       
-      public var statementBruise:int;
+      public var agreeablePrepare:int;
       
-      public var chickensViolet:int;
+      public var waitingQuirky:int;
       
-      public var prepareCrowded:Boolean;
+      public var gapingTouch:Boolean;
       
-      public var listTax:Number;
+      public var knotStore:Number;
       
       public function SeriousRequest(param1:ByteArray)
       {
          super(param1);
-         this.alansonRare = staySigh.readByte();
-         this.zonkedJuice = staySigh.readShort();
-         this.trembleDeadpan = staySigh.readShort();
-         this.statementBruise = staySigh.readByte();
-         this.chickensViolet = staySigh.readByte();
-         this.prepareCrowded = staySigh.readBoolean();
-         this.listTax = staySigh.readShort();
+         this.adviseKnife = lamentableSpurious.readByte();
+         this.milkySupply = lamentableSpurious.readShort();
+         this.crowdedFragile = lamentableSpurious.readShort();
+         this.agreeablePrepare = lamentableSpurious.readByte();
+         this.waitingQuirky = lamentableSpurious.readByte();
+         this.gapingTouch = lamentableSpurious.readBoolean();
+         this.knotStore = lamentableSpurious.readShort();
       }
    }
 }

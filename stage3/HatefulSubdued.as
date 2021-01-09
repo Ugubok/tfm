@@ -3,56 +3,56 @@ package
    public class HatefulSubdued
    {
       
-      public static const joyousLoaf:HatefulSubdued = new HatefulSubdued(RecogniseCompetition.mouseDelightful("$OM1"));
+      public static const joyousOrder:HatefulSubdued = new HatefulSubdued(OrderUnit.probableLip("$OM1"));
       
-      public static const frailAdaptable:HatefulSubdued = new HatefulSubdued("$OM2");
+      public static const deliverBerry:HatefulSubdued = new HatefulSubdued(OrderUnit.probableLip("$OM2"));
       
-      public static const agreeKotsky:HatefulSubdued = new HatefulSubdued(RecogniseCompetition.mouseDelightful("$OM3"),PinusTiresome.agreeKotsky);
+      public static const unitBabies:HatefulSubdued = new HatefulSubdued(OrderUnit.probableLip("$OM3"),PinusTiresome.unitBabies);
       
-      public static const quirkyApathetic:HatefulSubdued = new HatefulSubdued("$OM4",PinusTiresome.quirkyApathetic);
+      public static const curvedSubdued:HatefulSubdued = new HatefulSubdued(OrderUnit.probableLip("$OM4"),PinusTiresome.curvedSubdued);
       
-      public static const laborerCrash:HatefulSubdued = new HatefulSubdued(RecogniseCompetition.mouseDelightful("$OM5"),PinusTiresome.cutePinus);
+      public static const sistersProse:HatefulSubdued = new HatefulSubdued(OrderUnit.probableLip("$OM5"),PinusTiresome.sandBurn);
       
-      public static const orangesStale:HatefulSubdued = new HatefulSubdued(RecogniseCompetition.mouseDelightful("$OM6"),PinusTiresome.orangesStale);
+      public static const clubChivalrous:HatefulSubdued = new HatefulSubdued(OrderUnit.probableLip("$OM6"),PinusTiresome.clubChivalrous);
       
-      public static const chickensAnus:HatefulSubdued = new HatefulSubdued("$OM7",PinusTiresome.chickensAnus);
+      public static const loafLoaf:HatefulSubdued = new HatefulSubdued("$OM7",PinusTiresome.loafLoaf);
       
-      public static const lipParty:HatefulSubdued = new HatefulSubdued("$Queue",PinusTiresome.lipParty);
+      public static const planSqueamish:HatefulSubdued = new HatefulSubdued(OrderUnit.probableLip("$Queue"),PinusTiresome.planSqueamish);
       
-      public static const cribHistorical:HatefulSubdued = new HatefulSubdued("$Coiffure",PinusTiresome.cribHistorical);
+      public static const complexJoyous:HatefulSubdued = new HatefulSubdued(OrderUnit.probableLip("$Coiffure"),PinusTiresome.complexJoyous);
       
-      public static const mouseCrime:HatefulSubdued = new HatefulSubdued("$Fourrure",PinusTiresome.mouseCrime);
+      public static const grateAgonizing:HatefulSubdued = new HatefulSubdued(OrderUnit.probableLip("$Fourrure"),PinusTiresome.grateAgonizing);
       
-      public static const agreeablePanoramic:HatefulSubdued = new HatefulSubdued(RecogniseCompetition.mouseDelightful("$Mot_Chamane"));
+      public static const volcanoOrder:HatefulSubdued = new HatefulSubdued("$Mot_Chamane");
       
-      public static const adviseStomach:HatefulSubdued = new HatefulSubdued(RecogniseCompetition.mouseDelightful("$Personnaliser"));
+      public static const mouseChicken:HatefulSubdued = new HatefulSubdued(OrderUnit.probableLip("$Personnaliser"));
       
-      public static const trembleProbable:HatefulSubdued = new HatefulSubdued(RecogniseCompetition.mouseDelightful("$Tenues"));
+      public static const stickHalf:HatefulSubdued = new HatefulSubdued("$Tenues");
       
-      public static const orangeLight:HatefulSubdued = new HatefulSubdued("$Nouveautes");
+      public static const waitingLaborer:HatefulSubdued = new HatefulSubdued("$Nouveautes");
       
-      public static const noiselessElite:HatefulSubdued = new HatefulSubdued("$Soldes");
+      public static const bruiseUncle:HatefulSubdued = new HatefulSubdued("$Soldes");
       
-      public static const crashMouse:HatefulSubdued = new HatefulSubdued(RecogniseCompetition.mouseDelightful("$Collector"));
+      public static const birdUnequaled:HatefulSubdued = new HatefulSubdued(OrderUnit.probableLip("$Collector"));
       
-      public static const supplyScintillating:HatefulSubdued = new HatefulSubdued(RecogniseCompetition.mouseDelightful("$Lentilles"),PinusTiresome.supplyScintillating);
+      public static const storeAdhesive:HatefulSubdued = new HatefulSubdued("$Lentilles",PinusTiresome.storeAdhesive);
       
-      public static const staleAdhesive:HatefulSubdued = new HatefulSubdued("$Mains",PinusTiresome.staleAdhesive);
+      public static const crimeProse:HatefulSubdued = new HatefulSubdued("$Mains",PinusTiresome.crimeProse);
        
       
-      public var waitingGrate:String;
+      public var deliverAbaft:String;
       
-      public var listPipka:Boolean = false;
+      public var volcanoCrib:Boolean = false;
       
-      public var chickensBack:int;
+      public var kurumaBalvanka:int;
       
       public function HatefulSubdued(param1:String, param2:int = -1)
       {
-         this.chickensBack = -CoalRay.actionBorrow;
+         this.kurumaBalvanka = -CardBabies.machineOranges;
          super();
-         this.waitingGrate = param1;
-         this.chickensBack = param2;
-         this.listPipka = param2 != -CoalRay.actionBorrow;
+         this.deliverAbaft = param1;
+         this.kurumaBalvanka = param2;
+         this.volcanoCrib = param2 != -OrderUnit.apatheticRare(CardBabies.machineOranges);
       }
    }
 }

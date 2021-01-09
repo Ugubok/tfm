@@ -6,7 +6,7 @@ package
       
       public function HistoricalInstruct()
       {
-         super(RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky),BalvankaNotebook.subduedCard);
+         super(OrderUnit.apatheticRare(LargeComplex.programAbaft),AdaptableInexpensive.harmonyChicken);
       }
    }
 }

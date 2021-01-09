@@ -6,12 +6,12 @@ package
    {
        
       
-      public var knifeBruise:Boolean;
+      public var sistersHistorical:String;
       
       public function ColorInexpensive(param1:ByteArray)
       {
          super(param1);
-         this.knifeBruise = param1.readByte() == CoalRay.actionBorrow;
+         this.sistersHistorical = param1.readUTF();
       }
    }
 }

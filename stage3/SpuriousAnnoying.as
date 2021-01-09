@@ -3,53 +3,50 @@ package
    public class SpuriousAnnoying extends SpuriousSubdued
    {
       
-      public static const superBalvanka:int = 1;
+      public static const agreeableRecognise:int =  1;
       
-      public static const groundQuirky:int = 172* SpuriousAnnoying.superBalvanka;
+      public static const delightfulNoxious:int =  172* SpuriousAnnoying.agreeableRecognise;
       
-      public static const faithfulNoiseless:int = 42* SpuriousAnnoying.superBalvanka;
+      public static const dildoReligion:int =  42* SpuriousAnnoying.agreeableRecognise;
       
-      public static const agreeableBurn:int = 38;
+      public static const stupidFrail:int =  38;
       
-      public static const deadpanCute:int = 7;
+      public static const lunasoleGaping:int =  7;
        
       
-      public var listCry:InexpensiveGround;
+      public var balvankaSlip:InexpensiveGround;
       
       public function SpuriousAnnoying()
       {
          var _loc1_:GroundBabies = null;
-         super(SpuriousAnnoying.groundQuirky,SpuriousAnnoying.faithfulNoiseless);
+         super(SpuriousAnnoying.delightfulNoxious,SpuriousAnnoying.dildoReligion);
          graphics.clear();
-         graphics.beginFill(HystericalKotsky.notebookChivalrous,BruiseBorrow.largeAlanson);
-         graphics.drawRoundRect(HystericalKotsky.notebookChivalrous,HystericalKotsky.notebookChivalrous,SpuriousAnnoying.groundQuirky,SpuriousAnnoying.faithfulNoiseless,LaborerFeeble.instructBathe,RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
+         graphics.beginFill(OrderUnit.apatheticRare(ReligionStore.trailInstruct),GullibleLook.unitSisters);
+         graphics.drawRoundRect(OrderUnit.apatheticRare(ReligionStore.trailInstruct),ReligionStore.trailInstruct,SpuriousAnnoying.delightfulNoxious,SpuriousAnnoying.dildoReligion,OrderUnit.apatheticRare(PinusSand.jumbledTiresome),PinusSand.jumbledTiresome);
          graphics.endFill();
          graphics.beginFill(4220339);
-         graphics.drawRoundRect(SpuriousAnnoying.superBalvanka,SpuriousAnnoying.superBalvanka,SpuriousAnnoying.groundQuirky - LaborerFeeble.instructBathe * SpuriousAnnoying.superBalvanka,SpuriousAnnoying.faithfulNoiseless - LaborerFeeble.instructBathe * SpuriousAnnoying.superBalvanka,LaborerFeeble.instructBathe,LaborerFeeble.instructBathe);
+         graphics.drawRoundRect(SpuriousAnnoying.agreeableRecognise,SpuriousAnnoying.agreeableRecognise,SpuriousAnnoying.delightfulNoxious - PinusSand.jumbledTiresome * SpuriousAnnoying.agreeableRecognise,SpuriousAnnoying.dildoReligion - PinusSand.jumbledTiresome * SpuriousAnnoying.agreeableRecognise,OrderUnit.apatheticRare(PinusSand.jumbledTiresome),PinusSand.jumbledTiresome);
          graphics.endFill();
-         _loc1_ = new GroundBabies(RecogniseCompetition.mouseDelightful(RecogniseTrail.storeHydrant),SpuriousAnnoying.agreeableBurn,SpuriousAnnoying.agreeableBurn).birdProgram(SpuriousAnnoying.agreeableBurn,SpuriousAnnoying.agreeableBurn);
+         _loc1_ = new GroundBabies(OrderUnit.probableLip(SlipReligion.joyousColor),SpuriousAnnoying.stupidFrail,SpuriousAnnoying.stupidFrail).pinusDelightful(SpuriousAnnoying.stupidFrail,SpuriousAnnoying.stupidFrail);
          addChild(_loc1_);
-         _loc1_.x = CoalRay.actionBorrow + SpuriousAnnoying.superBalvanka;
-         _loc1_.y = RecogniseCompetition.prepareAgree(CoalRay.actionBorrow) + SpuriousAnnoying.superBalvanka;
-         this.listCry = new InexpensiveGround(BerryAgreeable.noiselessGround(ConfusedPeck.satisfyChivalrous),SpuriousAnnoying.groundQuirky - SpuriousAnnoying.agreeableBurn - LaborerFeeble.instructBathe * (SpuriousAnnoying.superBalvanka + SpuriousAnnoying.deadpanCute) - LaborerFeeble.instructBathe,SpuriousAnnoying.faithfulNoiseless - SpuriousAnnoying.superBalvanka);
-         this.listCry.multiline = DeterminedPrepare.hatefulComplex;
-         this.listCry.wordWrap = DeterminedPrepare.hatefulComplex;
-         this.listCry.crownSqueamish(GroundFour.legLabel);
-         this.listCry.jumbledAbaft(FascinatedAnus.recogniseLarge);
-         addChild(this.listCry);
-         this.listCry.x = _loc1_.x + SpuriousAnnoying.agreeableBurn + SpuriousAnnoying.deadpanCute + RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         this.listCry.bashfulMachine();
-         confusedHateful(SpuriousAnnoying.hystericalTasteless);
+         _loc1_.x = OrderUnit.apatheticRare(CardBabies.machineOranges) + SpuriousAnnoying.agreeableRecognise;
+         _loc1_.y = CardBabies.machineOranges + SpuriousAnnoying.agreeableRecognise;
+         this.balvankaSlip = new InexpensiveGround(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(AdaptableInexpensive.faithfulNotebook)),SpuriousAnnoying.delightfulNoxious - SpuriousAnnoying.stupidFrail - OrderUnit.apatheticRare(PinusSand.jumbledTiresome) * (SpuriousAnnoying.lunasoleGaping + SpuriousAnnoying.agreeableRecognise) - OrderUnit.apatheticRare(PinusSand.jumbledTiresome),SpuriousAnnoying.dildoReligion - SpuriousAnnoying.agreeableRecognise);
+         this.balvankaSlip.multiline = HateFaint.proudGround;
+         this.balvankaSlip.wordWrap = HateFaint.proudGround;
+         this.balvankaSlip.bruiseKnot(SlipReligion.machineOrange);
+         this.chopCurved(FascinatedAnus.unequaledIcy);
+         addChild(this.balvankaSlip);
+         this.balvankaSlip.x = _loc1_.x + SpuriousAnnoying.stupidFrail + SpuriousAnnoying.lunasoleGaping + OrderUnit.apatheticRare(CardBabies.machineOranges);
+         this.amuseElite();
+         harmonySign(SpuriousAnnoying.thickBashful() : void
+      {
+         LipAgreeable.fascinatedBury();
       }
       
-      public static function hystericalTasteless() : void
+      public function creatorMighty() : void
       {
-         LipAgreeable.berryRecognise();
-      }
-      
-      public function suzukaLight() : void
-      {
-         this.listCry.text = BerryAgreeable.noiselessGround(ConfusedPeck.satisfyChivalrous);
+         this.balvankaSlip.text = BerryAgreeable.orangesCompetition(OrderUnit.probableLip(AdaptableInexpensive.faithfulNotebook));
       }
    }
 }

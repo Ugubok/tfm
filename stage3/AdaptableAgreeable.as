@@ -6,15 +6,15 @@ package
    {
        
       
-      public var rayNotebook:String;
+      public var swankySisters:int;
       
-      public var storeJuice:String;
+      public var hatefulFascinated:int;
       
       public function AdaptableAgreeable(param1:ByteArray)
       {
          super(param1);
-         this.rayNotebook = param1.readUTF();
-         this.storeJuice = param1.readUTF();
+         this.swankySisters = param1.readInt();
+         this.hatefulFascinated = param1.readShort();
       }
    }
 }

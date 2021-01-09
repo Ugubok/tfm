@@ -4,10 +4,10 @@ package
    {
        
       
-      public function SlipStupid(param1:int)
+      public function SlipStupid(param1:String)
       {
-         super(RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky),WaitingReligion.peckKotsky);
-         staySigh.writeByte(param1);
+         super(OrderUnit.apatheticRare(WaitingCrib.statementDecay),OrderUnit.apatheticRare(AdmireUncle.delightfulFragile));
+         lamentableSpurious.writeUTF(param1);
       }
    }
 }

@@ -6,15 +6,15 @@ package
    {
        
       
-      public var armyLook:int;
+      public var knifeChop:int;
       
-      public var fascinatedUnequaled:int;
+      public var pinusLip:int;
       
       public function WanderingMouse(param1:ByteArray)
       {
          super(param1);
-         this.armyLook = param1.readInt();
-         this.fascinatedUnequaled = param1.readShort();
+         this.knifeChop = param1.readByte();
+         this.pinusLip = param1.readInt();
       }
    }
 }

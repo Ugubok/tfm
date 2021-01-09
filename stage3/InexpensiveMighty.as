@@ -13,11 +13,11 @@ package
       public function InexpensiveMighty()
       {
          super();
-         fixChivalrous = new VieuxCategorieTribu();
-         volcanoCracker = new VieuxCategorieChat();
-         sistersPear = new VieuxCategorieListeNoire();
-         slipCrime = new VieuxCategorieAmis();
-         seedScintillating = new VieuxCategorieDonneesUtilisateur();
+         inexpensiveWindy = new VieuxCategorieTribu();
+         obtainableToe = new VieuxCategorieChat();
+         adhesiveReligion = new VieuxCategorieListeNoire();
+         frailAlanson = new VieuxCategorieAmis();
+         juiceSupply = new VieuxCategorieDonneesUtilisateur();
       }
    }
 }

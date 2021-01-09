@@ -5,9 +5,9 @@ package
    public class CribOranges
    {
       
-      public static var listAmuse:Boolean = false;
+      public static var amuseHeal:Boolean = false;
       
-      public static var apatheticChop:Dictionary = new Dictionary();
+      public static var toeChop:Dictionary = new Dictionary();
        
       
       public function CribOranges()
@@ -15,65 +15,65 @@ package
          super();
       }
       
-      public static function largeWhisper(param1:Object = null) : void
-      {
-         AdmireStore.whisperLeg.largeWhisper(param1);
-      }
-      
-      public static function flowerCrowded() : void
-      {
-         CribOranges.apatheticChop = new Dictionary();
-      }
-      
-      public static function joyousSand(param1:Object) : Boolean
-      {
-         return AdmireStore.whisperLeg.joyousSand(param1);
-      }
-      
-      public static function lookGaping(param1:Boolean) : void
-      {
-         CribOranges.listAmuse = param1;
-      }
-      
-      public static function chivalrousAmuse(param1:Object, param2:Boolean = true, param3:Boolean = true) : void
+      public static function programZonked(param1:Object, param2:Boolean = true, param3:Boolean = true) : void
       {
          if(param1 is String)
          {
             param1 = String(param1).toLowerCase();
          }
-         var _loc4_:Boolean = !param2 || !CribOranges.apatheticChop[param1];
+         var _loc4_:Boolean = !param2 || !CribOranges.toeChop[param1];
          if(_loc4_)
          {
-            CribOranges.apatheticChop[param1] = DeterminedPrepare.hatefulComplex;
-            CribOranges.lookGaping(true);
+            CribOranges.toeChop[param1] = HateFaint.proudGround;
+            CribOranges.metalHarmony(true);
          }
          else
          {
-            delete CribOranges.apatheticChop[param1];
-            if(CribOranges.flowerWhistle())
+            delete CribOranges.toeChop[param1];
+            if(CribOranges.agreeWarlike())
             {
-               CribOranges.lookGaping(false);
+               CribOranges.metalHarmony(false);
             }
          }
          if(param3)
          {
-            CribOranges.largeWhisper();
+            CribOranges.sandGround();
          }
       }
       
-      public static function flowerWhistle() : Boolean
+      public static function sandGround(param1:Object = null) : void
+      {
+         StalePinus.determinedColor.sandGround(param1);
+      }
+      
+      public static function metalHarmony(param1:Boolean) : void
+      {
+         CribOranges.amuseHeal = param1;
+      }
+      
+      public static function agreeRay() : void
+      {
+         CribOranges.toeChop = new Dictionary();
+      }
+      
+      public static function agreeWarlike() : Boolean
       {
          var _loc2_:Object = null;
-         var _loc1_:Boolean = DeterminedPrepare.hatefulComplex;
-         for each(_loc2_ in CribOranges.apatheticChop)
+         var _loc1_:Boolean = HateFaint.proudGround;
+         for each(_loc2_ in CribOranges.toeChop)
          {
             if(_loc2_ != null)
             {
-               _loc1_ = DeterminedPrepare.machineSigh;
+               _loc1_ = HateFaint.bladeStatement;
                break;
             }
          }
          return _loc1_;
+      }
+      
+      public static function balvankaRare(param1:Object) : Boolean
+      {
+         return StalePinus.determinedColor.balvankaRare(param1);
       }
    }
 }

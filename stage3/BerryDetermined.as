@@ -1,12 +1,12 @@
 package
 {
-   public class BerryDetermined extends MousePinus
+   public class BerryDetermined extends LoafSwanky
    {
        
       
-      public function BerryDetermined(param1:FragileWandering)
+      public function BerryDetermined()
       {
-         super(param1);
+         super(OrderUnit.apatheticRare(WaitingCrib.statementDecay),OrderUnit.apatheticRare(CreatorSupply.slipSeed));
       }
    }
 }

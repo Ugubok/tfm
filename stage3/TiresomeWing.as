@@ -4,12 +4,12 @@ package
    {
        
       
-      public function TiresomeWing(param1:int, param2:int, param3:int)
+      public function TiresomeWing(param1:String, param2:String)
       {
-         super(BerryMouse.distroWicked,GroundFour.adaptableBathe);
-         staySigh.writeShort(param1);
-         staySigh.writeByte(param2);
-         staySigh.writeShort(param3);
+         super(OrderUnit.apatheticRare(WanderingDecay.noiselessTasteless),BurnFix.toeSlip);
+         lamentableSpurious.writeUTF(param1);
+         lamentableSpurious.writeUTF(param2);
+         laborerTouch = HateFaint.proudGround;
       }
    }
 }

@@ -4,11 +4,11 @@ package
    {
        
       
-      public function WingFragile(param1:String, param2:Boolean = false)
+      public function WingFragile(param1:String)
       {
-         super(RayYell.stickColor,RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous));
-         staySigh.writeUTF(param1);
-         staySigh.writeBoolean(param2);
+         super(OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining),WaitingCrib.statementDecay);
+         taxWaiting(param1);
+         laborerTouch = HateFaint.proudGround;
       }
    }
 }

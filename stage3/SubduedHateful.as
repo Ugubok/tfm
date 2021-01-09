@@ -6,14 +6,14 @@ package
       
       public function SubduedHateful(param1:Boolean)
       {
-         super(RecogniseCompetition.prepareAgree(BruiseBorrow.hateStatement),RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
+         super(OrderUnit.apatheticRare(CreatorSupply.slipSeed),PinusSand.jumbledTiresome);
          if(param1)
          {
-            staySigh.writeByte(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
+            lamentableSpurious.writeByte(CardBabies.machineOranges);
          }
          else
          {
-            staySigh.writeByte(HystericalKotsky.notebookChivalrous);
+            lamentableSpurious.writeByte(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
          }
       }
    }

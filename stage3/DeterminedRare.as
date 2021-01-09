@@ -6,7 +6,7 @@ package
       
       public function DeterminedRare()
       {
-         super(RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky),RecogniseCompetition.prepareAgree(RayYell.instructMetal));
+         super(OrderUnit.apatheticRare(WanderingDecay.healQuirky),OrderUnit.apatheticRare(AdmireUncle.delightfulFragile));
       }
    }
 }

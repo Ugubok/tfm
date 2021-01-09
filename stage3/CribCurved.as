@@ -5,11 +5,11 @@ package
    public class CribCurved
    {
       
-      public static var juiceIcy:Object;
+      public static var whisperConfused:String;
       
-      public static var proseCommon:String;
+      public static var proseColor:Object;
       
-      public static var statementPear:Array;
+      public static var dildoMilky:Array;
        
       
       public function CribCurved()
@@ -17,11 +17,11 @@ package
          super();
       }
       
-      public static function gullibleInexpensive(param1:Object) : void
+      public static function kotskyCracker(param1:Object) : void
       {
          try
          {
-            CribCurved.proseCommon = CribCurved.proseCommon + CribCurved.juiceIcy[CribCurved.statementPear[RecogniseCompetition.prepareAgree(RayYell.instructMetal)]][CribCurved.statementPear[BalvankaNotebook.subduedCard]](CribCurved.juiceIcy[CribCurved.statementPear[RayYell.instructMetal]][CribCurved.statementPear[ConfusedPeck.lamentableDelightful]]);
+            CribCurved.whisperConfused = CribCurved.whisperConfused + CribCurved.proseColor[CribCurved.dildoMilky[OrderUnit.apatheticRare(WanderingDecay.deadpanAdvise)]][CribCurved.dildoMilky[OrderUnit.apatheticRare(AdaptableInexpensive.harmonyChicken)]](CribCurved.proseColor[CribCurved.dildoMilky[OrderUnit.apatheticRare(WanderingDecay.deadpanAdvise)]][CribCurved.dildoMilky[OrderUnit.apatheticRare(ReligionStore.birdAdhesive)]]);
             return;
          }
          catch(E:Error)
@@ -30,22 +30,30 @@ package
          }
       }
       
-      public static function largeHateful(param1:Array) : void
+      public static function machineUncle(param1:Object) : void
+      {
+         RareFeeble.cuteAction.sighCrime(new KotskySubdued(AnusGround.confusedIcy(CribCurved.whisperConfused)));
+         CribCurved.proseColor = null;
+         CribCurved.whisperConfused = null;
+         CribCurved.dildoMilky = null;
+      }
+      
+      public static function rayAir(param1:Array) : void
       {
          var _loc2_:Object = null;
-         CribCurved.statementPear = param1;
+         CribCurved.dildoMilky = param1;
          try
          {
-            CribCurved.proseCommon = AdviseRobin.clubSubdued;
-            _loc2_ = new ApplicationDomain.currentDomain.getDefinition(CribCurved.statementPear[HystericalKotsky.notebookChivalrous] + CribCurved.statementPear[RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)])();
-            _loc2_[CribCurved.statementPear[RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping)]] = new ApplicationDomain.currentDomain.getDefinition(CribCurved.statementPear[RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)])(CribCurved.statementPear[DeterminedWarlike.deadpanBalvanka]);
-            CribCurved.juiceIcy = new ApplicationDomain.currentDomain.getDefinition(CribCurved.statementPear[HystericalKotsky.notebookChivalrous] + CribCurved.statementPear[RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable)])();
-            CribCurved.juiceIcy[CribCurved.statementPear[BruiseBorrow.taxChivalrous]](_loc2_);
-            CribCurved.juiceIcy[CribCurved.statementPear[RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear)]](CribCurved.statementPear[RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird)],CribCurved.gullibleInexpensive);
-            CribCurved.juiceIcy[CribCurved.statementPear[RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear)]](CribCurved.statementPear[RecogniseCompetition.prepareAgree(HystericalKotsky.lunasoleHate)],CribCurved.groundDistro);
-            CribCurved.juiceIcy[CribCurved.statementPear[AdviseRobin.obtainablePear]](CribCurved.statementPear[RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus)],CribCurved.adhesiveUncle);
-            CribCurved.juiceIcy[CribCurved.statementPear[AdviseRobin.obtainablePear]](CribCurved.statementPear[DeterminedWarlike.volcanoDelightful],CribCurved.adhesiveUncle);
-            CribCurved.juiceIcy[CribCurved.statementPear[RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear)]](CribCurved.statementPear[WaitingReligion.peckKotsky],CribCurved.adhesiveUncle);
+            CribCurved.whisperConfused = OrderUnit.probableLip(DildoBorrow.metalAdaptable);
+            _loc2_ = new ApplicationDomain.currentDomain.getDefinition(CribCurved.dildoMilky[ReligionStore.trailInstruct] + CribCurved.dildoMilky[CardBabies.machineOranges])();
+            _loc2_[CribCurved.dildoMilky[AdmireUncle.crimeCreator]] = new ApplicationDomain.currentDomain.getDefinition(CribCurved.dildoMilky[OrderUnit.apatheticRare(PinusSand.jumbledTiresome)])(CribCurved.dildoMilky[OrderUnit.apatheticRare(SlipReligion.companyHistorical)]);
+            CribCurved.proseColor = new ApplicationDomain.currentDomain.getDefinition(CribCurved.dildoMilky[OrderUnit.apatheticRare(ReligionStore.trailInstruct)] + CribCurved.dildoMilky[CardBabies.senseCrown])();
+            CribCurved.proseColor[CribCurved.dildoMilky[BatheKotsky.milkyEntertaining]](_loc2_);
+            CribCurved.proseColor[CribCurved.dildoMilky[OrderUnit.apatheticRare(VolcanoStay.proudWaiting)]](CribCurved.dildoMilky[OrderUnit.apatheticRare(GullibleLook.unequaledJumbled)],CribCurved.kotskyCracker);
+            CribCurved.proseColor[CribCurved.dildoMilky[OrderUnit.apatheticRare(VolcanoStay.proudWaiting)]](CribCurved.dildoMilky[StupidCoal.chivalrousSatisfy],CribCurved.machineUncle);
+            CribCurved.proseColor[CribCurved.dildoMilky[VolcanoStay.proudWaiting]](CribCurved.dildoMilky[LargeComplex.balvankaZonked],CribCurved.burnSisters);
+            CribCurved.proseColor[CribCurved.dildoMilky[OrderUnit.apatheticRare(VolcanoStay.proudWaiting)]](CribCurved.dildoMilky[OrderUnit.apatheticRare(CardBabies.lunasoleSwanky)],CribCurved.burnSisters);
+            CribCurved.proseColor[CribCurved.dildoMilky[OrderUnit.apatheticRare(VolcanoStay.proudWaiting)]](CribCurved.dildoMilky[OrderUnit.apatheticRare(LargeComplex.programAbaft)],CribCurved.burnSisters);
             return;
          }
          catch(E:Error)
@@ -54,15 +62,7 @@ package
          }
       }
       
-      public static function groundDistro(param1:Object) : void
-      {
-         RareFeeble.hateWicked.stickVolcano(new GroundFragile(AnusGround.hydrantPeck(CribCurved.proseCommon)));
-         CribCurved.juiceIcy = null;
-         CribCurved.proseCommon = null;
-         CribCurved.statementPear = null;
-      }
-      
-      public static function adhesiveUncle(param1:Object) : void
+      public static function burnSisters(param1:Object) : void
       {
       }
    }

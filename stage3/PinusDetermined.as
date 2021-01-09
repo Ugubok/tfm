@@ -4,15 +4,15 @@ package
    {
        
       
-      public var zonkedJuice:int;
+      public var milkySupply:int;
       
-      public var trembleDeadpan:int;
+      public var crowdedFragile:int;
       
-      public var abaftApathetic:int;
+      public var admireKotsky:int;
       
-      public var wateryTouch:int;
+      public var scintillatingAdaptable:int;
       
-      public var bashfulSuper:int;
+      public var orangeElite:int;
       
       public function PinusDetermined()
       {

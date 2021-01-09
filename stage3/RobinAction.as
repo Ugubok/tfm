@@ -6,15 +6,15 @@ package
    {
        
       
-      public var armyLook:int;
+      public var swankySisters:int;
       
-      public var stickLabel:Boolean;
+      public var waitingBorrow:Boolean;
       
       public function RobinAction(param1:ByteArray)
       {
          super(param1);
-         this.armyLook = param1.readInt();
-         this.stickLabel = param1.readByte() == RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+         this.swankySisters = param1.readInt();
+         this.waitingBorrow = param1.readByte() == CardBabies.machineOranges;
       }
    }
 }

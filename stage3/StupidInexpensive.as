@@ -6,36 +6,36 @@ package
    {
        
       
-      public var partySpurious:int;
+      public var unitAgree:int;
       
-      public var agonizingDeliver:int;
+      public var wingAbaft:int;
       
-      public var spuriousBack:int;
+      public var invitePrepare:int;
       
-      public var injureZonked:String;
+      public var wingWing:String;
       
-      public var panoramicFlower:String;
+      public var machineAdaptable:String;
       
-      public var companyRay:Boolean;
+      public var toeBerry:Boolean;
       
-      public var deliverWhisper:int;
+      public var gapingCrib:int;
       
-      public var wanderingDildo:String;
+      public var cribParty:String;
       
-      public var creatorStore:int;
+      public var mouseOrder:int;
       
       public function StupidInexpensive(param1:ByteArray)
       {
          super();
-         this.partySpurious = param1.readInt();
-         this.agonizingDeliver = param1.readInt();
-         this.spuriousBack = param1.readInt();
-         this.injureZonked = param1.readUTF();
-         this.panoramicFlower = param1.readUTF();
-         this.companyRay = param1.readBoolean();
-         this.deliverWhisper = param1.readShort();
-         this.wanderingDildo = param1.readUTF();
-         this.creatorStore = param1.readByte();
+         this.unitAgree = param1.readInt();
+         this.wingAbaft = param1.readInt();
+         this.invitePrepare = param1.readInt();
+         this.wingWing = param1.readUTF();
+         this.machineAdaptable = param1.readUTF();
+         this.toeBerry = param1.readBoolean();
+         this.gapingCrib = param1.readShort();
+         this.cribParty = param1.readUTF();
+         this.mouseOrder = param1.readByte();
       }
    }
 }

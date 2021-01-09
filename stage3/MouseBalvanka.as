@@ -6,9 +6,9 @@ package
       
       public function MouseBalvanka(param1:int, param2:int)
       {
-         super(BerryMouse.distroWicked,BerryMouse.distroWicked);
-         staySigh.writeInt(param1);
-         staySigh.writeByte(param2);
+         super(GullibleLook.unequaledJumbled,AdmireUncle.planLoaf);
+         lamentableSpurious.writeShort(param1);
+         lamentableSpurious.writeShort(param2);
       }
    }
 }

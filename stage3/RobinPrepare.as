@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var armySupply:String;
+      public var statementSupply:int;
       
-      public var mouseNoxious:Boolean;
+      public var healScale:int;
       
-      public var probableQuirky:SubduedHalf;
+      public var machineInvite:AnusBalvanka;
       
-      public function RobinPrepare(param1:int, param2:String, param3:Boolean)
+      public function RobinPrepare(param1:int, param2:int, param3:int)
       {
          super();
          this.idSequence = param1;
-         this.armySupply = param2;
-         this.mouseNoxious = param3;
+         this.statementSupply = param2;
+         this.healScale = param3;
       }
       
       public function getIdSequence() : int
@@ -27,31 +27,31 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear) + this.armySupply.length;
+         return BatheKotsky.milkyEntertaining;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.armySupply);
-         param1.writeByte(!!this.mouseNoxious?int(CoalRay.actionBorrow):int(HystericalKotsky.notebookChivalrous));
+         param1.writeByte(this.statementSupply);
+         param1.writeByte(this.healScale);
       }
    }
 }

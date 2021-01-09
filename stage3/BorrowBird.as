@@ -3,61 +3,61 @@ package
    public class BorrowBird
    {
       
-      public static var proseWindy:BorrowBird;
+      public static var halfWaiting:BorrowBird;
        
       
-      public var balvankaIllustrious:int;
+      public var markList:int;
       
-      public var labelReligion:int;
+      public var lamentableBag:int;
       
       public function BorrowBird()
       {
-         this.balvankaIllustrious = BabiesWandering.obeisantChop;
-         this.labelReligion = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+         this.markList = BabiesWandering.peckStomach;
+         this.lamentableBag = -CardBabies.machineOranges;
          super();
-         BorrowBird.proseWindy = this;
+         BorrowBird.halfWaiting = this;
       }
       
-      public static function decayDelightful(param1:int) : Boolean
+      public static function fourLeg(param1:int) : Boolean
       {
-         return param1 == BabiesWandering.crashProgram;
+         return param1 == BabiesWandering.laborerNotebook;
       }
       
-      public function joyousFix() : Boolean
+      public function scaleApathetic(param1:int) : void
       {
-         return BorrowBird.decayDelightful(this.balvankaIllustrious);
+         this.lamentableBag = param1;
       }
       
-      public function apatheticStay(param1:int) : void
+      public function milkyPrepare(param1:int) : void
       {
-         this.labelReligion = param1;
+         ClubScintillating.tiresomeFeeble(new KurumaWandering(ClubScintillating.lightAir(),param1));
       }
       
-      public function lookToe(param1:int) : void
+      public function faintSign(param1:int) : void
       {
-         ClubScintillating.squeamishCreator(new PatPinus(ClubScintillating.agreeEntertaining(),param1));
-      }
-      
-      public function burnWarlike(param1:int) : void
-      {
-         this.balvankaIllustrious = param1;
-         RareOranges.confusedBorrow = this.balvankaIllustrious == BabiesWandering.crashProgram;
-         if(HalfBalvanka.birdAgonizing())
+         this.markList = param1;
+         RareOranges.squeamishAmuse = this.markList == BabiesWandering.laborerNotebook;
+         if(HalfBalvanka.requestChop())
          {
-            HalfBalvanka.taxVolcano(this.balvankaIllustrious);
+            HalfBalvanka.inviteWing(this.markList);
          }
-         if(AdmireStore.spuriousBruise)
+         if(StalePinus.yellSubdued)
          {
-            if(RobinAdaptable.stomachFaithful && RobinAdaptable.stomachFaithful.proudClub)
+            if(RobinAdaptable.pailBurn && RobinAdaptable.pailBurn.touchToe)
             {
-               RobinAdaptable.stomachFaithful.proudClub.chivalrousSatisfy(this.balvankaIllustrious);
+               RobinAdaptable.pailBurn.touchToe.hangingArmy(this.markList);
             }
          }
       }
       
-      public function notebookToe(param1:int) : void
+      public function wickedBury(param1:int) : void
       {
-         ClubScintillating.squeamishCreator(new GroundToe(ClubScintillating.agreeEntertaining(),param1));
+         ClubScintillating.tiresomeFeeble(new GroundAlanson(ClubScintillating.lightAir(),param1));
+      }
+      
+      public function fragileInjure() : Boolean
+      {
+         return BorrowBird.fourLeg(this.markList);
       }
    }
 }

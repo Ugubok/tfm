@@ -10,11 +10,11 @@ package
    public class OrangesFragile
    {
       
-      public static var programStay:Sprite;
+      public static var hateUnit:Sprite;
       
-      public static var grateHarmony:MovieClip;
+      public static var zonkedDeliver:MovieClip;
       
-      public static var zonkedTasteless:TextField;
+      public static var sistersHistorical:TextField;
        
       
       public function OrangesFragile()
@@ -22,44 +22,44 @@ package
          super();
       }
       
-      public static function abaftReligion() : String
+      public static function rareFix(param1:String) : void
       {
-         if(OrangesFragile.zonkedTasteless)
+         if(!OrangesFragile.hateUnit)
          {
-            return OrangesFragile.zonkedTasteless.text;
+            if(FeebleAnus.adviseCrime)
+            {
+               OrangesFragile.zonkedDeliver = AgreeableHistorical.admireCute(DildoBorrow.trailBalvanka);
+               OrangesFragile.zonkedDeliver.y = OrderUnit.apatheticRare(LargeComplex.balvankaZonked);
+               OrangesFragile.zonkedDeliver.width = OrderUnit.apatheticRare(PrepareLip.competitionSupply);
+               OrangesFragile.zonkedDeliver.height = PrepareLip.competitionSupply;
+            }
+            OrangesFragile.hateUnit = new Sprite();
+            OrangesFragile.hateUnit.mouseChildren = HateFaint.bladeStatement;
+            OrangesFragile.hateUnit.mouseEnabled = HateFaint.bladeStatement;
+            OrangesFragile.hateUnit.addChild(OrangesFragile.zonkedDeliver);
+            OrangesFragile.sistersHistorical = new TextField();
+            OrangesFragile.sistersHistorical.defaultTextFormat = new TextFormat(OrderUnit.probableLip(WaitingCrib.requestThick),LargeComplex.programAbaft,12238127,true);
+            OrangesFragile.sistersHistorical.width = CardBabies.inexpensiveChickens;
+            OrangesFragile.sistersHistorical.height = OrderUnit.apatheticRare(PrepareLip.competitionSupply);
+            OrangesFragile.sistersHistorical.autoSize = TextFieldAutoSize.LEFT;
+            OrangesFragile.sistersHistorical.styleSheet = StalePinus.halfWaiting.agreeableCrowded;
+            OrangesFragile.hateUnit.addChild(OrangesFragile.sistersHistorical);
+            OrangesFragile.hateUnit.filters = new Array(new GlowFilter(ReligionStore.trailInstruct,CardBabies.machineOranges,PinusSand.jumbledTiresome,OrderUnit.apatheticRare(PinusSand.jumbledTiresome),OrderUnit.apatheticRare(SlipReligion.companyHistorical),OrderUnit.apatheticRare(SlipReligion.companyHistorical)));
          }
-         return AdviseRobin.clubSubdued;
+         StalePinus.halfWaiting.crashBalvanka.addChild(OrangesFragile.hateUnit);
+         OrangesFragile.sistersHistorical.htmlText = param1;
+         OrangesFragile.zonkedDeliver.x = OrderUnit.apatheticRare(ReligionStore.birdAdhesive) + OrangesFragile.sistersHistorical.width;
+         OrangesFragile.hateUnit.x = -(OrderUnit.apatheticRare(AdmireUncle.crimeCreator) + OrangesFragile.hateUnit.width) + PanoramicProbable.orangeChivalrous;
+         OrangesFragile.hateUnit.y = OrderUnit.apatheticRare(BatheKotsky.eliteCoal);
       }
       
-      public static function requestRare(param1:String) : void
+      public static function faithfulStomach() : String
       {
-         if(!OrangesFragile.programStay)
+         if(OrangesFragile.sistersHistorical)
          {
-            if(FeebleAnus.partyWatery)
-            {
-               OrangesFragile.grateHarmony = AgreeableHistorical.probableCute(RecogniseCompetition.mouseDelightful(RayYell.buryAction));
-               OrangesFragile.grateHarmony.y = HystericalKotsky.lightAnus;
-               OrangesFragile.grateHarmony.width = RecogniseCompetition.prepareAgree(BerryMouse.distroWicked);
-               OrangesFragile.grateHarmony.height = BerryMouse.distroWicked;
-            }
-            OrangesFragile.programStay = new Sprite();
-            OrangesFragile.programStay.mouseChildren = DeterminedPrepare.machineSigh;
-            OrangesFragile.programStay.mouseEnabled = DeterminedPrepare.machineSigh;
-            OrangesFragile.programStay.addChild(OrangesFragile.grateHarmony);
-            OrangesFragile.zonkedTasteless = new TextField();
-            OrangesFragile.zonkedTasteless.defaultTextFormat = new TextFormat(DeterminedWarlike.faithfulHistorical,RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky),12238127,true);
-            OrangesFragile.zonkedTasteless.width = AlansonReligion.babiesBag;
-            OrangesFragile.zonkedTasteless.height = BerryMouse.distroWicked;
-            OrangesFragile.zonkedTasteless.autoSize = TextFieldAutoSize.LEFT;
-            OrangesFragile.zonkedTasteless.styleSheet = AdmireStore.proseWindy.agonizingThick;
-            OrangesFragile.programStay.addChild(OrangesFragile.zonkedTasteless);
-            OrangesFragile.programStay.filters = new Array(new GlowFilter(HystericalKotsky.notebookChivalrous,CoalRay.actionBorrow,LaborerFeeble.instructBathe,LaborerFeeble.instructBathe,DeterminedWarlike.deadpanBalvanka,DeterminedWarlike.deadpanBalvanka));
+            return OrangesFragile.sistersHistorical.text;
          }
-         AdmireStore.proseWindy.mightyDetermined.addChild(OrangesFragile.programStay);
-         OrangesFragile.zonkedTasteless.htmlText = param1;
-         OrangesFragile.grateHarmony.x = ConfusedPeck.lamentableDelightful + OrangesFragile.zonkedTasteless.width;
-         OrangesFragile.programStay.x = -(AdviseRobin.satisfyGaping + OrangesFragile.programStay.width) + RecogniseCompetition.prepareAgree(MetalDetermined.gatePail);
-         OrangesFragile.programStay.y = DeterminedWarlike.crackerCrash;
+         return DildoBorrow.metalAdaptable;
       }
    }
 }

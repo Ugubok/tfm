@@ -4,21 +4,21 @@ package
    {
        
       
-      public var chopToe:int;
+      public var wickedColor:int;
       
-      public var apatheticAdvise:int;
+      public var warlikeParty:int;
       
-      public var proseChickens:int;
+      public var windySupply:int;
       
-      public var rayLarge:int;
+      public var volcanoIllustrious:int;
       
       public function YellStore(param1:int, param2:int, param3:int, param4:int)
       {
          super();
-         this.chopToe = param1;
-         this.apatheticAdvise = param2;
-         this.proseChickens = param3;
-         this.rayLarge = param4;
+         this.wickedColor = param1;
+         this.warlikeParty = param2;
+         this.windySupply = param3;
+         this.volcanoIllustrious = param4;
       }
    }
 }

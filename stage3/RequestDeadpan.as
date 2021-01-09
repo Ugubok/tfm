@@ -6,21 +6,21 @@ package
    {
        
       
-      public var peckParty:int;
+      public var whisperMark:int;
       
-      public var amuseCry:int;
+      public var bruisePear:int;
       
-      public var wanderingFix:int;
+      public var distroBorrow:int;
       
-      public var crashRecognise:int;
+      public var pailTouch:int;
       
       public function RequestDeadpan(param1:ByteArray)
       {
          super(param1);
-         this.peckParty = param1.readInt();
-         this.amuseCry = param1.readByte();
-         this.wanderingFix = param1.readShort();
-         this.crashRecognise = param1.readUnsignedShort();
+         this.whisperMark = param1.readInt();
+         this.bruisePear = param1.readByte();
+         this.distroBorrow = param1.readShort();
+         this.pailTouch = param1.readUnsignedShort();
       }
    }
 }

@@ -5,71 +5,71 @@ package
    public class SignAdaptable extends SeriousFragile
    {
       
-      public static var proseWindy:SignAdaptable;
+      public static var halfWaiting:SignAdaptable;
        
       
       public function SignAdaptable()
       {
          var _loc3_:SpuriousSubdued = null;
-         super(RayYell.seriousOrange);
-         knotSqueamish(new FragileScale(ChickensScintillating.laborerPail,AdviseRobin.mouseProbable));
+         super(OrderUnit.apatheticRare(WanderingDecay.healQuirky));
+         agreeableRobin(new FragileScale(ChickensScintillating.peckConfused,OrderUnit.apatheticRare(CardBabies.senseCrown)));
          var _loc1_:Vector.<WingScale> = new Vector.<WingScale>();
-         _loc1_.push(WingScale.robinAnus);
-         _loc1_.push(WingScale.listBashful);
-         _loc1_.push(WingScale.faithfulNotebook);
-         _loc1_.push(WingScale.tiresomeCrime);
-         _loc1_.push(WingScale.healKnot);
-         var _loc2_:int = HystericalKotsky.notebookChivalrous;
+         _loc1_.push(WingScale.whisperSuzuka);
+         _loc1_.push(WingScale.windyFragile);
+         _loc1_.push(WingScale.recogniseZonked);
+         _loc1_.push(WingScale.halfHateful);
+         _loc1_.push(WingScale.senseGate);
+         var _loc2_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          while(_loc2_ < _loc1_.length)
          {
-            _loc3_ = new SpuriousSubdued(RecogniseCompetition.prepareAgree(BerryMouse.distroWicked),RecogniseCompetition.prepareAgree(BerryMouse.distroWicked));
-            _loc3_.addChild(AgreeableHistorical.probableCute(_loc1_[_loc2_].grateHarmony));
-            cuteProse(_loc3_);
-            _loc3_.confusedHateful(this.markThick,_loc1_[_loc2_].lipAdmire);
+            _loc3_ = new SpuriousSubdued(PrepareLip.competitionSupply,OrderUnit.apatheticRare(PrepareLip.competitionSupply));
+            _loc3_.addChild(AgreeableHistorical.admireCute(_loc1_[_loc2_].zonkedDeliver));
+            icyCry(_loc3_);
+            _loc3_.harmonySign(this.scaleProbable,_loc1_[_loc2_].knifeStick);
             _loc2_++;
          }
-         knotFaithful(true,RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus),true);
-         mouseEnabled = DeterminedPrepare.hatefulComplex;
-         tabEnabled = DeterminedPrepare.machineSigh;
+         feebleHysterical(true,OrderUnit.apatheticRare(LargeComplex.balvankaZonked),true);
+         mouseEnabled = HateFaint.proudGround;
+         tabEnabled = HateFaint.bladeStatement;
       }
       
-      public static function requestRare() : void
+      public static function rareFix() : void
       {
-         if(!SignAdaptable.proseWindy)
+         if(!SignAdaptable.halfWaiting)
          {
-            SignAdaptable.proseWindy = new SignAdaptable();
+            SignAdaptable.halfWaiting = new SignAdaptable();
          }
-         CrashAlanson.pipkaTax(SignAdaptable.proseWindy);
-         SignAdaptable.proseWindy.x = CrashAlanson.healAction(CoalRay.actionBorrow)[ConfusedPeck.healWindy] - RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus);
-         SignAdaptable.proseWindy.y = CrashAlanson.healAction(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))[FrailJuice.wingList] - HystericalKotsky.lightAnus;
-         SignAdaptable.proseWindy.addEventListener(RecogniseCompetition.mouseDelightful(BalvankaNotebook.programOrder),SignAdaptable.proseWindy.mouseAgree);
-         AdmireStore.proseWindy.competitionGaping.focus = SignAdaptable.proseWindy;
+         CrashAlanson.yellObtainable(SignAdaptable.halfWaiting);
+         SignAdaptable.halfWaiting.x = CrashAlanson.legAgree(CardBabies.machineOranges)[CardBabies.taxAgree] - LargeComplex.balvankaZonked;
+         SignAdaptable.halfWaiting.y = CrashAlanson.legAgree(OrderUnit.apatheticRare(CardBabies.machineOranges))[ListIllustrious.orangeDeadpan] - LargeComplex.balvankaZonked;
+         SignAdaptable.halfWaiting.addEventListener(WaitingCrib.gateFrail,SignAdaptable.halfWaiting.agreeablePear);
+         StalePinus.halfWaiting.sistersHate.focus = SignAdaptable.halfWaiting;
       }
       
-      public function markThick(param1:int) : void
+      public function scaleProbable(param1:int) : void
       {
-         BorrowSpurious.scratchStay(param1);
-         this.fragileAmuse();
+         BorrowSpurious.creatorCrown(param1);
+         this.probableViolet();
       }
       
-      public function fragileAmuse() : void
-      {
-         if(SignAdaptable.proseWindy.parent)
-         {
-            SignAdaptable.proseWindy.parent.removeChild(SignAdaptable.proseWindy);
-         }
-      }
-      
-      public function mouseAgree(param1:Event) : void
+      public function agreeablePear(param1:Event) : void
       {
          if(null == stage)
          {
-            removeEventListener(RecogniseCompetition.mouseDelightful(BalvankaNotebook.programOrder),this.mouseAgree);
+            removeEventListener(WaitingCrib.gateFrail,this.agreeablePear);
             return;
          }
-         if(AdmireStore.proseWindy.competitionGaping.focus != this)
+         if(StalePinus.halfWaiting.sistersHate.focus != this)
          {
-            this.fragileAmuse();
+            this.probableViolet();
+         }
+      }
+      
+      public function probableViolet() : void
+      {
+         if(SignAdaptable.halfWaiting.parent)
+         {
+            SignAdaptable.halfWaiting.parent.removeChild(SignAdaptable.halfWaiting);
          }
       }
    }

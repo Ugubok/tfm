@@ -6,18 +6,18 @@ package
    {
        
       
-      public var illustriousPipka:String;
+      public var swankySisters:int;
       
-      public var lookScintillating:String;
+      public var clubProgram:Boolean;
       
-      public var scintillatingDelightful:Boolean;
+      public var entertainingDeliver:Boolean;
       
       public function AnusSubdued(param1:ByteArray)
       {
          super(param1);
-         this.illustriousPipka = param1.readUTF();
-         this.lookScintillating = param1.readUTF();
-         this.scintillatingDelightful = param1.readBoolean();
+         this.swankySisters = param1.readInt();
+         this.clubProgram = param1.readBoolean();
+         this.entertainingDeliver = param1.readBoolean();
       }
    }
 }

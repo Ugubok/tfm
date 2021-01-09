@@ -6,12 +6,12 @@ package
    {
        
       
-      public var decayParty:int;
+      public var colorAlluring:String;
       
       public function HatefulToe(param1:ByteArray)
       {
          super(param1);
-         this.decayParty = param1.readByte();
+         this.colorAlluring = param1.readUTF();
       }
    }
 }

@@ -8,21 +8,21 @@ package
       
       public var idSequence:int;
       
-      public var crimeBerry:int;
+      public var juiceLip:int;
       
-      public var joyousSubdued:int;
+      public var scaleMark:int;
       
-      public var staleStatement:Boolean;
+      public var orangeToe:Boolean;
       
-      public var dildoUnit:PinusAnus;
+      public var trembleTouch:BerryJumbled;
       
       public function FeebleWhistle(param1:int, param2:int, param3:int, param4:Boolean)
       {
          super();
          this.idSequence = param1;
-         this.crimeBerry = param2;
-         this.joyousSubdued = param3;
-         this.staleStatement = param4;
+         this.juiceLip = param2;
+         this.scaleMark = param3;
+         this.orangeToe = param4;
       }
       
       public function getIdSequence() : int
@@ -30,32 +30,32 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RecogniseCompetition.mouseDelightful(RayYell.quirkyTasteless);
+         return LargeComplex.stomachBack;
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus);
+         return LargeComplex.balvankaZonked;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(this.crimeBerry);
-         param1.writeInt(this.joyousSubdued);
-         param1.writeByte(!!this.staleStatement?int(CoalRay.actionBorrow):int(HystericalKotsky.notebookChivalrous));
+         param1.writeByte(this.juiceLip);
+         param1.writeInt(this.scaleMark);
+         param1.writeByte(!!this.orangeToe?int(CardBabies.machineOranges):int(ReligionStore.trailInstruct));
       }
    }
 }

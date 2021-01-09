@@ -4,31 +4,31 @@ package
    {
        
       
-      public var bagClub:int;
+      public var loafViolet:int;
       
-      public var zonkedJuice:int;
+      public var milkySupply:int;
       
-      public var trembleDeadpan:int;
+      public var crowdedFragile:int;
       
-      public var crackerSlip:Boolean = false;
+      public var noxiousCard:Boolean = false;
       
-      public var fragileCompany:Number;
+      public var loafBurn:Number;
       
-      public var abaftInexpensive:Number;
+      public var creatorDeadpan:Number;
       
-      public var noxiousHateful:Boolean = true;
+      public var fascinatedPeck:Boolean = true;
       
       public var rotation:int;
       
-      public var programList:Boolean = true;
+      public var robinDecay:Boolean = true;
       
       public function CrimeApathetic(param1:int, param2:int, param3:int)
       {
-         this.rotation = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.rotation = ReligionStore.trailInstruct;
          super();
-         this.bagClub = param1;
-         this.zonkedJuice = param2;
-         this.trembleDeadpan = param3;
+         this.loafViolet = param1;
+         this.milkySupply = param2;
+         this.crowdedFragile = param3;
       }
    }
 }

@@ -13,62 +13,62 @@ package
          super();
       }
       
-      public static function entertainingPipka(param1:String) : void
+      public static function crashAlluring() : void
       {
-         navigateToURL(new URLRequest(param1),RecogniseCompetition.mouseDelightful(BerryMouse.competitionStick) + RecogniseCompetition.mouseDelightful(CoalRay.kotskyHistorical) + RecogniseCompetition.mouseDelightful(WaitingReligion.jumbledTiresome));
-      }
-      
-      public static function wateryScale() : void
-      {
-         if(AdmireStore.religionBorrow)
+         if(StalePinus.dildoList)
          {
-            ClubScintillating.largeInvite();
+            ClubScintillating.clubDistro();
          }
          else
          {
-            ScintillatingSubdued.entertainingPipka(ProxyTribulle.x_fonctionGetUrlForum(BerryAgreeable.clubViolet));
+            ScintillatingSubdued.suzukaAbaft(ProxyTribulle.x_fonctionGetUrlForum(BerryAgreeable.companyAgreeable));
          }
       }
       
-      public static function frailWandering(param1:String, param2:Boolean = false, param3:Boolean = false) : void
+      public static function requestElite(param1:String, param2:Boolean = false, param3:Boolean = false) : void
       {
          var _loc5_:String = null;
          var _loc6_:int = 0;
-         var _loc4_:String = AdmireStore.noxiousChivalrous + RecogniseCompetition.mouseDelightful(RayYell.clubMachine) + param1;
-         if(RareOranges.kurumaInexpensive)
+         var _loc4_:String = StalePinus.commonCurved + StupidCoal.airMachine + param1;
+         if(RareOranges.orangeViolet)
          {
-            param2 = DeterminedPrepare.machineSigh;
+            param2 = HateFaint.bladeStatement;
          }
          if(param2)
          {
-            if(SlipChickens.obtainableRare())
+            if(SlipChickens.tiresomeSlip())
             {
-               _loc5_ = (_loc4_.indexOf(RecogniseCompetition.mouseDelightful(RecogniseTrail.thickMouse)) != -CoalRay.actionBorrow?CoalRay.whistlePrepare:RecogniseTrail.thickMouse) + RecogniseCompetition.mouseDelightful(DeterminedWarlike.coalBird) + SignMetal.scratchSerious() + RecogniseCompetition.mouseDelightful(RayYell.notebookStale) + SlipChickens.hateBag();
-               _loc6_ = _loc4_.indexOf(AnusSeed.kotskyNoiseless);
-               if(_loc6_ == -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+               _loc5_ = (_loc4_.indexOf(OrderUnit.probableLip(GullibleLook.loafTax)) != -OrderUnit.apatheticRare(CardBabies.machineOranges)?BurnFix.squeamishOrange:OrderUnit.probableLip(GullibleLook.loafTax)) + OrderUnit.probableLip(StupidCoal.annoyingLip) + BatheBerry.legCompany() + OrderUnit.probableLip(BurnFix.thickSeed) + SlipChickens.toeStupid();
+               _loc6_ = _loc4_.indexOf(AdaptableInexpensive.bruiseThick);
+               if(_loc6_ == -CardBabies.machineOranges)
                {
                   _loc4_ = _loc4_ + _loc5_;
                }
                else
                {
-                  _loc4_ = _loc4_.substr(HystericalKotsky.notebookChivalrous,_loc6_) + _loc5_ + _loc4_.substr(_loc6_);
+                  _loc4_ = _loc4_.substr(ReligionStore.trailInstruct,_loc6_) + _loc5_ + _loc4_.substr(_loc6_);
                }
             }
             else
             {
-               SlipChickens.apatheticTiresome();
-               if(WanderingMighty.statementPail && WanderingMighty.volcanoAction)
+               SlipChickens.confusedFragile();
+               if(WanderingMighty.crowdedTouch && WanderingMighty.robinPlan)
                {
-                  param3 = DeterminedPrepare.hatefulComplex;
+                  param3 = HateFaint.proudGround;
                }
                if(param3)
                {
-                  ClubScintillating.knifeRare(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(LaborerFeeble.gateBabies)));
+                  ClubScintillating.trailAir(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(AdaptableInexpensive.entertainingJumbled)));
                   return;
                }
             }
          }
-         ScintillatingSubdued.entertainingPipka(_loc4_);
+         ScintillatingSubdued.suzukaAbaft(_loc4_);
+      }
+      
+      public static function suzukaAbaft(param1:String) : void
+      {
+         navigateToURL(new URLRequest(param1),AdmireUncle.loafDecay + OrderUnit.probableLip(DildoBorrow.deadpanBag) + BatheKotsky.historicalBird);
       }
    }
 }

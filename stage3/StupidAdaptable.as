@@ -6,55 +6,55 @@ package
    {
        
       
-      public var squeamishFour:int;
+      public var staleScale:int;
       
-      public var taxWicked:Boolean;
+      public var bashfulPinus:Boolean;
       
-      public var uncleSwanky:Boolean;
+      public var groundBalvanka:Boolean;
       
-      public var zonkedJuice:Number;
+      public var milkySupply:Number;
       
-      public var trembleDeadpan:Number;
+      public var crowdedFragile:Number;
       
-      public var frailDeliver:Number;
+      public var supplyStomach:Number;
       
-      public var spuriousBlade:Number;
+      public var flowerSand:Number;
       
-      public var flowerAir:Boolean;
+      public var kurumaAbaft:Boolean;
       
-      public var pipkaReligion:int;
+      public var stayBerry:int;
       
-      public var lunasoleLight:int;
+      public var historicalMilky:int;
       
-      public var armyLook:int;
+      public var swankySisters:int;
       
-      public var fragileClub:Number;
+      public var batheCute:Number;
       
-      public var peckAdaptable:Number;
+      public var cribProbable:Number;
       
-      public var labelConfused:Boolean = true;
+      public var babiesFrail:Boolean = true;
       
       public function StupidAdaptable(param1:ByteArray)
       {
-         this.fragileClub = HystericalKotsky.notebookChivalrous;
-         this.peckAdaptable = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.batheCute = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.cribProbable = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          super(param1);
-         this.armyLook = param1.readInt();
-         this.squeamishFour = param1.readInt();
-         this.taxWicked = param1.readBoolean();
-         this.uncleSwanky = param1.readBoolean();
-         this.zonkedJuice = param1.readInt() / RecogniseCompetition.prepareAgree(RayYell.seriousOrange);
-         this.trembleDeadpan = param1.readInt() / RayYell.seriousOrange;
-         this.frailDeliver = param1.readShort() / RayYell.seriousOrange;
-         this.spuriousBlade = param1.readShort() / RayYell.seriousOrange;
-         this.flowerAir = param1.readBoolean();
-         this.pipkaReligion = param1.readByte();
-         this.lunasoleLight = param1.readByte();
+         this.swankySisters = param1.readInt();
+         this.staleScale = param1.readInt();
+         this.bashfulPinus = param1.readBoolean();
+         this.groundBalvanka = param1.readBoolean();
+         this.milkySupply = param1.readInt() / WanderingDecay.healQuirky;
+         this.crowdedFragile = param1.readInt() / OrderUnit.apatheticRare(WanderingDecay.healQuirky);
+         this.supplyStomach = param1.readShort() / WanderingDecay.healQuirky;
+         this.flowerSand = param1.readShort() / OrderUnit.apatheticRare(WanderingDecay.healQuirky);
+         this.kurumaAbaft = param1.readBoolean();
+         this.stayBerry = param1.readByte();
+         this.historicalMilky = param1.readByte();
          if(param1.bytesAvailable)
          {
-            this.fragileClub = param1.readShort() / RayYell.seriousOrange;
-            this.peckAdaptable = param1.readShort() / RayYell.seriousOrange;
-            this.labelConfused = param1.readBoolean();
+            this.batheCute = param1.readShort() / OrderUnit.apatheticRare(WanderingDecay.healQuirky);
+            this.cribProbable = param1.readShort() / OrderUnit.apatheticRare(WanderingDecay.healQuirky);
+            this.babiesFrail = param1.readBoolean();
          }
       }
    }

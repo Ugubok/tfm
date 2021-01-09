@@ -6,40 +6,40 @@ package
    {
        
       
-      public var trembleSuzuka:int;
+      public var deliverAbaft:String;
       
-      public var burnFragile:String;
+      public var groundMouse:int;
       
-      public function GroundMouse(param1:int = 0, param2:String = null)
+      public function GroundMouse(param1:String = null, param2:int = 0)
       {
          super();
-         this.trembleSuzuka = param1;
-         this.burnFragile = param2;
+         this.deliverAbaft = param1;
+         this.groundMouse = param2;
       }
       
-      public static function gullibleMighty(param1:ByteArray) : GroundMouse
+      public static function squeamishAgree(param1:ByteArray) : GroundMouse
       {
          var _loc2_:GroundMouse = new GroundMouse();
          _loc2_.lecture(param1);
          return _loc2_;
       }
       
-      public function waitingStupid() : int
+      public function backJuice() : int
       {
-         return BruiseBorrow.taxChivalrous + this.burnFragile.length;
+         return BatheKotsky.milkyEntertaining + this.deliverAbaft.length;
       }
       
       public function ecriture(param1:ByteArray) : void
       {
-         param1.writeInt(this.trembleSuzuka);
-         param1.writeUTF(this.burnFragile);
+         param1.writeUTF(this.deliverAbaft);
+         param1.writeInt(this.groundMouse);
       }
       
       public function lecture(param1:ByteArray) : void
       {
-         this.trembleSuzuka = param1.readInt();
          var _loc2_:int = param1.readShort();
-         this.burnFragile = param1.readUTFBytes(_loc2_);
+         this.deliverAbaft = param1.readUTFBytes(_loc2_);
+         this.groundMouse = param1.readInt();
       }
    }
 }

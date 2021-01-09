@@ -7,44 +7,44 @@ package
    {
        
       
-      public var faithfulDeadpan:int;
+      public var backThick:int;
       
-      public var entertainingLook:int;
+      public var balvankaLamentable:int;
       
-      public var taxGrate:String;
+      public var gapingRare:String;
       
-      public var sistersChickens:Dictionary;
+      public var chivalrousStick:Dictionary;
       
-      public var agreeableMouse:int;
+      public var zonkedProbable:int;
       
-      public var backStick:int;
+      public var seriousSupply:int;
       
       public function ToeBabies(param1:ByteArray)
       {
          var _loc4_:int = 0;
          var _loc5_:ClubHalf = null;
          super(param1);
-         this.faithfulDeadpan = param1.readUnsignedShort();
-         this.entertainingLook = param1.readUnsignedByte();
-         this.taxGrate = param1.readUTF();
+         this.backThick = param1.readUnsignedShort();
+         this.balvankaLamentable = param1.readUnsignedByte();
+         this.gapingRare = param1.readUTF();
          var _loc2_:int = param1.readUnsignedByte();
-         this.sistersChickens = new Dictionary();
-         var _loc3_:int = HystericalKotsky.notebookChivalrous;
+         this.chivalrousStick = new Dictionary();
+         var _loc3_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          while(_loc3_ < _loc2_)
          {
             _loc4_ = param1.readInt();
             _loc5_ = new ClubHalf();
-            _loc5_.whistleBack = param1.readUnsignedByte();
-            _loc5_.suzukaOranges = param1.readUnsignedShort();
-            _loc5_.zonkedFour = param1.readUnsignedShort();
-            _loc5_.birdLarge = param1.readUnsignedByte();
-            _loc5_.hateJoyous = param1.readUnsignedShort();
-            _loc5_.machinePeck = param1.readUnsignedShort();
-            this.sistersChickens[_loc4_] = _loc5_;
+            _loc5_.airProse = param1.readUnsignedByte();
+            _loc5_.tiresomeLook = param1.readUnsignedShort();
+            _loc5_.annoyingGaping = param1.readUnsignedShort();
+            _loc5_.yellCrowded = param1.readUnsignedByte();
+            _loc5_.alansonSerious = param1.readUnsignedShort();
+            _loc5_.lunasoleAgreeable = param1.readUnsignedShort();
+            this.chivalrousStick[_loc4_] = _loc5_;
             _loc3_++;
          }
-         this.agreeableMouse = param1.readShort();
-         this.backStick = param1.readShort();
+         this.zonkedProbable = param1.readShort();
+         this.seriousSupply = param1.readShort();
       }
    }
 }

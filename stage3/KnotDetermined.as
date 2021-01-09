@@ -4,10 +4,10 @@ package
    {
        
       
-      public function KnotDetermined(param1:int)
+      public function KnotDetermined(param1:String)
       {
-         super(RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky),RecogniseCompetition.prepareAgree(ConfusedPeck.lamentableDelightful));
-         staySigh.writeByte(param1);
+         super(OrderUnit.apatheticRare(WanderingDecay.noiselessTasteless),OrderUnit.apatheticRare(PinusSand.satisfyProse));
+         lamentableSpurious.writeUTF(param1);
       }
    }
 }

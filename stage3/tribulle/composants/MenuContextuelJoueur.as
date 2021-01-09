@@ -97,7 +97,7 @@ package tribulle.composants
          {
             x = Number(this._defaultParent["mouseX"]);
          }
-         if(this._defaultParent["mouseY"] + _height > Number(0 + 600 * 1))
+         if(this._defaultParent["mouseY"] + _height > Number( 600* 1))
          {
             y = Number(600 * 1 + 0 - _height);
          }

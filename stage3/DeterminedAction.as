@@ -1,14 +1,14 @@
 package
 {
-   public class DeterminedAction extends LoafSwanky
+   import mx.core.ByteArrayAsset;
+   
+   public class DeterminedAction extends ByteArrayAsset
    {
        
       
-      public function DeterminedAction(param1:int, param2:int)
+      public function DeterminedAction()
       {
-         super(RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping),RecogniseCompetition.prepareAgree(DeterminedWarlike.pearWhisper));
-         staySigh.writeInt(RecogniseCompetition.prepareAgree(HystericalKotsky.cryConfused) + param1);
-         staySigh.writeInt(HystericalKotsky.cryConfused + param2);
+         super();
       }
    }
 }

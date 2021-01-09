@@ -3,21 +3,21 @@ package
    public class SeriousGround extends ProbableOranges
    {
       
-      public static const stayKnot:ProbableOranges = new ProbableOranges("Déplacement").gateSuzuka(BirdBorrow.abaftPail).gateSuzuka(BirdBorrow.robinSense).gateSuzuka(BirdBorrow.warlikeHarmony).gateSuzuka(BirdBorrow.actionFour);
+      public static const feebleUnit:ProbableOranges = new ProbableOranges(OrderUnit.probableLip("Déplacement")).companyGullible(BirdBorrow.orangesJumbled).companyGullible(BirdBorrow.violetSwanky).companyGullible(BirdBorrow.knotFeeble).companyGullible(BirdBorrow.kurumaDecay);
       
-      public static const backStale:ProbableOranges = new ProbableOranges("Interfaces").gateSuzuka(DildoMark.commonHate).gateSuzuka(BirdBorrow.complexCute);
+      public static const sandEntertaining:ProbableOranges = new ProbableOranges("Interfaces").companyGullible(StayCute.thickAgonizing).companyGullible(BirdBorrow.competitionVolcano);
       
-      public static var requestFix:Vector.<ProbableOranges>;
+      public static var instructJumbled:Vector.<ProbableOranges>;
        
       
       public function SeriousGround(param1:int, param2:String)
       {
          super(param2);
-         if(!SeriousGround.requestFix)
+         if(!SeriousGround.instructJumbled)
          {
-            SeriousGround.requestFix = new Vector.<ProbableOranges>();
+            SeriousGround.instructJumbled = new Vector.<ProbableOranges>();
          }
-         SeriousGround.requestFix.push(this);
+         SeriousGround.instructJumbled.push(this);
       }
    }
 }

@@ -8,54 +8,54 @@ package
    public class FeebleYell
    {
       
-      public static var hydrantDetermined:FeebleYell;
+      public static var bashfulBabies:FeebleYell;
        
       
-      public var commonPipka:ComposantAmis;
+      public var joyousElite:ComposantAmis;
       
       public function FeebleYell(param1:DisplayObjectContainer)
       {
          super();
-         if(FeebleYell.hydrantDetermined != null)
+         if(FeebleYell.bashfulBabies != null)
          {
-            throw new Error(LipStore.clubDildo);
+            throw new Error(SlipReligion.stickObeisant);
          }
          var _loc2_:Dictionary = new Dictionary();
-         _loc2_[BalvankaNotebook.companyApathetic] = AgreeableHistorical.obtainableCurved(BalvankaNotebook.companyApathetic);
-         _loc2_[RecogniseCompetition.mouseDelightful(GroundFour.wateryBerry)] = AgreeableHistorical.obtainableCurved(GroundFour.wateryBerry);
-         _loc2_[RecogniseCompetition.mouseDelightful(AlansonReligion.taxBerry)] = AgreeableHistorical.obtainableCurved(AlansonReligion.taxBerry);
-         _loc2_[RayYell.halfChicken] = AgreeableHistorical.obtainableCurved(RayYell.halfChicken);
-         _loc2_[RecogniseCompetition.mouseDelightful(GroundFour.noiselessSuper)] = AgreeableHistorical.obtainableCurved(RecogniseCompetition.mouseDelightful(GroundFour.noiselessSuper));
-         _loc2_[RecogniseCompetition.mouseDelightful(MetalDetermined.admireTax)] = AgreeableHistorical.obtainableCurved(RecogniseCompetition.mouseDelightful(MetalDetermined.admireTax));
-         _loc2_[WaitingReligion.hateSisters] = AgreeableHistorical.obtainableCurved(WaitingReligion.hateSisters);
-         _loc2_[RecogniseCompetition.mouseDelightful(ConfusedPeck.crowdedChicken)] = AgreeableHistorical.obtainableCurved(ConfusedPeck.crowdedChicken);
-         _loc2_[RecogniseCompetition.mouseDelightful(LipStore.wickedObtainable)] = AgreeableHistorical.obtainableCurved(RecogniseCompetition.mouseDelightful(LipStore.wickedObtainable));
-         _loc2_[RecogniseCompetition.mouseDelightful(BerryMouse.obtainableRobin)] = AgreeableHistorical.obtainableCurved(RecogniseCompetition.mouseDelightful(BerryMouse.obtainableRobin));
+         _loc2_[OrderUnit.probableLip(StupidCoal.pearWaiting)] = AgreeableHistorical.orangeSqueamish(StupidCoal.pearWaiting);
+         _loc2_[BurnFix.swankyAdhesive] = AgreeableHistorical.orangeSqueamish(OrderUnit.probableLip(BurnFix.swankyAdhesive));
+         _loc2_[BurnFix.inexpensiveLip] = AgreeableHistorical.largeJoyous);
+         _loc2_[SlipReligion.flowerStore] = AgreeableHistorical.orangeSqueamish(OrderUnit.probableLip(SlipReligion.flowerStore));
+         _loc2_[ListIllustrious.orangesScratch] = AgreeableHistorical.orangeSqueamish(ListIllustrious.orangesScratch);
+         _loc2_[BatheKotsky.historicalCrown] = AgreeableHistorical.orangeSqueamish(OrderUnit.probableLip(BatheKotsky.historicalCrown));
+         _loc2_[OrderUnit.probableLip(LargeComplex.deliverBlade)] = AgreeableHistorical.orangeSqueamish(LargeComplex.deliverBlade);
+         _loc2_[WanderingDecay.whisperInstruct] = AgreeableHistorical.orangeSqueamish(WanderingDecay.whisperInstruct);
+         _loc2_[OrderUnit.probableLip(ListIllustrious.pailChicken)] = AgreeableHistorical.orangeSqueamish(OrderUnit.probableLip(ListIllustrious.pailChicken));
+         _loc2_[GullibleLook.competitionBurn] = AgreeableHistorical.orangeSqueamish(OrderUnit.probableLip(GullibleLook.competitionBurn));
          ClientTribulle.getInstance().addRessources(_loc2_);
-         this.commonPipka = ClientTribulle.getInstance().x_ajouteComposantListeAmis(param1);
+         this.joyousElite = ClientTribulle.getInstance().x_ajouteComposantListeAmis(param1);
       }
       
-      public static function machineSubdued() : void
+      public static function uncleGaping() : void
       {
-         FeebleYell.hydrantDetermined = new FeebleYell(CrashAlanson.healAction(CoalRay.actionBorrow));
-         CrashAlanson.pipkaTax(FeebleYell.hydrantDetermined.commonPipka,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
-         FeebleYell.hydrantDetermined.commonPipka.x_masquer();
+         FeebleYell.bashfulBabies = new FeebleYell(CrashAlanson.legAgree(OrderUnit.apatheticRare(CardBabies.machineOranges)));
+         CrashAlanson.yellObtainable(FeebleYell.deadpanList,CardBabies.machineOranges);
+         FeebleYell.deadpanList.x_masquer();
       }
       
       public static function getInstance() : FeebleYell
       {
-         return FeebleYell.hydrantDetermined;
+         return FeebleYell.bashfulBabies;
       }
       
-      public function requestRare() : void
+      public function rareFix() : void
       {
-         if(!this.commonPipka.x_affichee)
+         if(!this.joyousElite.x_affichee)
          {
-            this.commonPipka.x_afficher();
+            this.joyousElite.x_afficher();
          }
          else
          {
-            this.commonPipka.x_masquer();
+            this.joyousElite.x_masquer();
          }
       }
    }

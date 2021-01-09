@@ -1,12 +1,12 @@
 package
 {
-   public class MightyScintillating
+   public class MightyScintillating extends LoafSwanky
    {
        
       
       public function MightyScintillating()
       {
-         super();
+         super(WanderingDecay.gullibleKuruma,CardBabies.machineOranges);
       }
    }
 }

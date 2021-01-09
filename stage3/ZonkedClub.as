@@ -4,10 +4,10 @@ package
    {
        
       
-      public function ZonkedClub(param1:int)
+      public function ZonkedClub(param1:String)
       {
-         super(RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird),DeterminedWarlike.pearWhisper);
-         markKuruma(param1);
+         super(AdmireUncle.faithfulFlower,PinusSand.jumbledTiresome);
+         lamentableSpurious.writeUTF(param1);
       }
    }
 }

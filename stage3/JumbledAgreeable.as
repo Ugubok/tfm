@@ -7,76 +7,76 @@ package
    {
        
       
-      public var wanderingTremble:String;
+      public var taxBird:String;
       
-      public var birdAgreeable:Bitmap;
+      public var fragileAdhesive:Bitmap;
       
-      public var lookJoyous:Sprite;
+      public var listDeliver:Sprite;
       
-      public var zonkedJuice:int;
+      public var milkySupply:int;
       
-      public var trembleDeadpan:int;
+      public var crowdedFragile:int;
       
-      public var scintillatingCoal:int;
+      public var storeAmuse:int;
       
-      public var delightfulAlanson:int;
+      public var babiesSubdued:int;
       
-      public var entertainingHateful:int;
+      public var planHalf:int;
       
       public function JumbledAgreeable(param1:String, param2:int, param3:int, param4:Boolean = false, param5:Boolean = false)
       {
-         this.scintillatingCoal = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         this.delightfulAlanson = -CoalRay.actionBorrow;
-         this.entertainingHateful = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.storeAmuse = -OrderUnit.apatheticRare(CardBabies.machineOranges);
+         this.babiesSubdued = -CardBabies.machineOranges;
+         this.planHalf = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          super();
-         this.wanderingTremble = param1;
-         if(param1.indexOf(RecogniseCompetition.mouseDelightful(LaborerFeeble.religionMetal)) != -CoalRay.actionBorrow && false)
+         this.taxBird = param1;
+         if(param1.indexOf(OrderUnit.probableLip(RayAmuse.squeamishOranges)) != -OrderUnit.apatheticRare(CardBabies.machineOranges) && false)
          {
-            this.birdAgreeable = AgreeableHistorical.religionSign(param1 + RecogniseCompetition.mouseDelightful(HystericalKotsky.borrowProse) + AdmireStore.entertainingDildo,AdviseRobin.clubSubdued);
+            this.fragileAdhesive = AgreeableHistorical.crowdedScale(param1 + OrderUnit.probableLip(ListIllustrious.alluringAnnoying) + StalePinus.programCoal,DildoBorrow.metalAdaptable);
          }
          else
          {
-            this.birdAgreeable = AgreeableHistorical.religionSign(param1 + HystericalKotsky.borrowProse + AdmireStore.entertainingDildo);
+            this.fragileAdhesive = AgreeableHistorical.crowdedScale(param1 + OrderUnit.probableLip(ListIllustrious.alluringAnnoying) + StalePinus.programCoal);
          }
-         this.zonkedJuice = param2;
-         this.trembleDeadpan = param3;
+         this.milkySupply = param2;
+         this.crowdedFragile = param3;
          if(param4)
          {
-            this.birdAgreeable.scaleX = -CoalRay.actionBorrow;
+            this.fragileAdhesive.scaleX = -OrderUnit.apatheticRare(CardBabies.machineOranges);
          }
-         this.birdAgreeable.x = this.zonkedJuice;
-         this.birdAgreeable.y = this.trembleDeadpan;
+         this.fragileAdhesive.x = this.milkySupply;
+         this.fragileAdhesive.y = this.crowdedFragile;
          if(param5)
          {
-            this.lookJoyous = new Sprite();
-            this.lookJoyous.addChild(this.birdAgreeable);
+            this.listDeliver = new Sprite();
+            this.listDeliver.addChild(this.fragileAdhesive);
          }
       }
       
-      public function bruiseCurved(param1:Number, param2:Number, param3:Boolean = false) : JumbledAgreeable
+      public function instructGate(param1:Number = 0, param2:Number = 0) : JumbledAgreeable
       {
-         this.zonkedJuice = !!param3?int(this.zonkedJuice + param1):int(param1);
-         this.trembleDeadpan = !!param3?int(this.trembleDeadpan + param2):int(param2);
-         this.birdAgreeable.x = this.zonkedJuice;
-         this.birdAgreeable.y = this.trembleDeadpan;
+         return new JumbledAgreeable(this.taxBird,this.milkySupply,this.crowdedFragile,this.fragileAdhesive.scaleX == -OrderUnit.apatheticRare(CardBabies.machineOranges),!!this.listDeliver).tremblePipka(param1,param2,true);
+      }
+      
+      public function agreeUncle(param1:int, param2:int) : JumbledAgreeable
+      {
+         this.fragileAdhesive.width = param1;
+         this.fragileAdhesive.height = param2;
          return this;
       }
       
-      public function halfAdmire(param1:Number = 0, param2:Number = 0) : JumbledAgreeable
+      public function feebleBlade(param1:int) : JumbledAgreeable
       {
-         return new JumbledAgreeable(this.wanderingTremble,this.zonkedJuice,this.trembleDeadpan,this.birdAgreeable.scaleX == -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),!!this.lookJoyous).bruiseCurved(param1,param2,true);
-      }
-      
-      public function airBerry(param1:int, param2:int) : JumbledAgreeable
-      {
-         this.birdAgreeable.width = param1;
-         this.birdAgreeable.height = param2;
+         this.planHalf = param1;
          return this;
       }
       
-      public function noiselessFour(param1:int) : JumbledAgreeable
+      public function tremblePipka(param1:Number, param2:Number, param3:Boolean = false) : JumbledAgreeable
       {
-         this.entertainingHateful = param1;
+         this.milkySupply = !!param3?int(this.milkySupply + param1):int(param1);
+         this.crowdedFragile = !!param3?int(this.crowdedFragile + param2):int(param2);
+         this.fragileAdhesive.x = this.milkySupply;
+         this.fragileAdhesive.y = this.crowdedFragile;
          return this;
       }
    }

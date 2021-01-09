@@ -163,7 +163,7 @@ package tribulle.composants
       
       public function ChatTribulle(param1:DisplayObjectContainer, param2:StyleSheet, param3:String, param4:Function = null)
       {
-         this._ongletsStaff = new Vector.<Onglet>(4);
+         this._ongletsStaff = new Vector.<Onglet4;
          this.listeCanauxDiscussionEnCours = new Dictionary();
          this.indexOnglets = new Dictionary();
          this.effetBtnPlus0 = new Array(new BevelFilter(1,45,2924187,1,663840,1,1,1,1));

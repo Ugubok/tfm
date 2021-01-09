@@ -4,24 +4,24 @@ package
    {
        
       
-      public var orderPrepare:ArmyInexpensive;
+      public var machineBabies:ArmyInexpensive;
       
-      public var programStay:SeriousFragile;
+      public var hateUnit:SeriousFragile;
       
-      public var sistersDildo:AgreeableCrash;
+      public var peckScale:AgreeableCrash;
       
       public function InstructAnus(param1:int, param2:Object)
       {
          super();
-         this.orderPrepare = new ArmyInexpensive(param1,param2);
+         this.machineBabies = new ArmyInexpensive(param1,param2);
       }
       
-      public function injureScratch(param1:AgreeableCrash) : void
+      public function grateLoaf(param1:AgreeableCrash) : void
       {
-         this.sistersDildo = param1;
+         this.peckScale = param1;
       }
       
-      public function probableCute() : SeriousFragile
+      public function admireCute() : SeriousFragile
       {
          return null;
       }

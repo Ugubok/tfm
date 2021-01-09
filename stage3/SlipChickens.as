@@ -3,7 +3,7 @@ package
    public class SlipChickens
    {
       
-      public static var gateBorrow:String = "";
+      public static var groundMark:String = OrderUnit.probableLip("");
        
       
       public function SlipChickens()
@@ -11,28 +11,28 @@ package
          super();
       }
       
-      public static function hateBag() : String
+      public static function tiresomeSlip() : Boolean
       {
-         var _loc1_:String = SlipChickens.gateBorrow;
-         SlipChickens.apatheticTiresome();
+         return SlipChickens.groundMark && SlipChickens.groundMark.length > ReligionStore.trailInstruct;
+      }
+      
+      public static function toeStupid() : String
+      {
+         var _loc1_:String = SlipChickens.groundMark;
+         SlipChickens.confusedFragile();
          return _loc1_;
       }
       
-      public static function adhesiveCoal(param1:String) : void
+      public static function actionChicken(param1:String) : void
       {
-         SlipChickens.gateBorrow = param1;
+         SlipChickens.groundMark = param1;
       }
       
-      public static function obtainableRare() : Boolean
+      public static function confusedFragile() : void
       {
-         return SlipChickens.gateBorrow && SlipChickens.gateBorrow.length > RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-      }
-      
-      public static function apatheticTiresome() : void
-      {
-         if(RareOranges.labelMachine && !RareOranges.kurumaInexpensive)
+         if(RareOranges.scratchWatery && !RareOranges.orangeViolet)
          {
-            RareFeeble.hateWicked.stickVolcano(new CribAnnoying());
+            RareFeeble.cuteAction.sighCrime(new LipBabies());
          }
       }
    }

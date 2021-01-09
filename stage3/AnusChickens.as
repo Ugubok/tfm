@@ -3,49 +3,49 @@ package
    public class AnusChickens
    {
       
-      public static const fascinatedStale:String = String.fromCharCode(275 + -259);
+      public static const noiselessBruise:String = String.fromCharCode( 5);
       
-      public static const inexpensiveCurved:String = String.fromCharCode(242 + -230);
+      public static const backBabies:String = String.fromCharCode( 11);
       
-      public static const wateryMilky:String = String.fromCharCode(1309 + -1305);
+      public static const distroOrder:String = String.fromCharCode( 7);
       
-      public static const hatefulProgram:String = String.fromCharCode(8300 + -8289);
+      public static const frailMilky:String = String.fromCharCode( 10);
       
-      public static const seriousAnnoying:String = String.fromCharCode(7076 + -7051);
+      public static const thickCrib:String = String.fromCharCode( 25);
       
-      public static const lookCrash:String = String.fromCharCode(8474 + -8460);
+      public static const seriousWaiting:String = String.fromCharCode( 16);
       
-      public static const patUnequaled:String = String.fromCharCode(5219 + -5193);
+      public static const wickedDildo:String = String.fromCharCode( 2);
       
-      public static const knifeGround:String = String.fromCharCode(9485 + -9472);
+      public static const rayCoal:String = String.fromCharCode( 12);
       
-      public static const borrowMouse:String = String.fromCharCode(4850 + -4832);
+      public static const swankyWatery:String = String.fromCharCode( 14);
       
-      public static const commonCrime:String = String.fromCharCode(9975 + -9953);
+      public static const instructAdhesive:String = String.fromCharCode( 6);
       
-      public static const abaftGate:String = String.fromCharCode(9429 + -9409);
+      public static const obeisantAgreeable:String = String.fromCharCode( 17);
       
-      public static const peckLeg:String = String.fromCharCode(2702 + -2679);
+      public static const historicalFaithful:String = String.fromCharCode( 20);
       
-      public static const scratchFour:String = String.fromCharCode(7427 + -7424);
+      public static const coalLaborer:String = String.fromCharCode( 1);
       
-      public static const requestStomach:String = String.fromCharCode(9789 + -9784);
+      public static const zonkedInexpensive:String = String.fromCharCode( 13);
       
-      public static const warlikeProbable:String = String.fromCharCode(560 + -543);
+      public static const batheJoyous:String = String.fromCharCode( 26);
       
-      public static const sandAdmire:String = String.fromCharCode(1518 + -1516);
+      public static const trembleChop:String = String.fromCharCode( 9);
       
-      public static const crowdedOranges:String = String.fromCharCode(5340 + -5334);
+      public static const seriousFix:String = String.fromCharCode( 18);
       
-      public static const loafPat:String = String.fromCharCode(4481 + -4474);
+      public static const stickScratch:String = String.fromCharCode( 3);
       
-      public static const injureRecognise:String = String.fromCharCode(6885 + -6875);
+      public static const joyousIllustrious:String = String.fromCharCode( 8);
       
-      public static const requestCry:String = String.fromCharCode(438 + -429);
+      public static const distroAnnoying:String = String.fromCharCode( 4);
       
-      public static const entertainingAdhesive:String = String.fromCharCode(4264 + -4263);
+      public static const agreeJuice:String = String.fromCharCode( 23);
       
-      public static const dildoCute:String = String.fromCharCode(4914 + -4906);
+      public static const peckRare:String = String.fromCharCode( 22);
        
       
       public function AnusChickens()

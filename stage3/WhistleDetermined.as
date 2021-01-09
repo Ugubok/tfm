@@ -5,19 +5,19 @@ package
    public class WhistleDetermined
    {
       
-      public static var proseWindy:WhistleDetermined;
+      public static var halfWaiting:WhistleDetermined;
       
-      public static var pearFlower:Boolean = false;
+      public static var inviteCompetition:Boolean = false;
       
-      public static const berryCrib:Boolean = true;
+      public static const deadpanOrder:Boolean = true;
       
-      public static var whistleDecay:Boolean = false;
+      public static var birdAmuse:Boolean = false;
       
-      public static var historicalRay:Function = null;
+      public static var mightyBashful:Function = null;
       
-      public static var deliverBlade:Function = null;
+      public static var listScratch:Function = null;
       
-      public static var seedWing:Boolean = false;
+      public static var healSense:Boolean = false;
        
       
       public function WhistleDetermined()
@@ -25,79 +25,79 @@ package
          super();
       }
       
-      public static function groundInstruct() : void
+      public static function volcanoBurn() : void
       {
-         WhistleDetermined.dildoLoaf();
+         WhistleDetermined.airJumbled();
       }
       
-      public static function stomachScintillating() : void
-      {
-         WhistleDetermined.dildoLoaf();
-      }
-      
-      public static function chickenSlip() : void
-      {
-         if(WhistleDetermined.kurumaAnus() && WhistleDetermined.deliverBlade)
-         {
-            try
-            {
-               ExternalInterface.call(FrailJuice.airBruise);
-            }
-            catch(eliteLabel:Error)
-            {
-               return;
-            }
-            WhistleDetermined.deliverBlade();
-         }
-      }
-      
-      public static function kurumaAnus() : Boolean
+      public static function metalJuice() : Boolean
       {
          try
          {
-            return ExternalInterface.call(AnusSeed.actionSatisfy) && WhistleDetermined.seedWing;
+            return ExternalInterface.call(OrderUnit.probableLip(BurnFix.hystericalSeed)) && WhistleDetermined.healSense;
          }
-         catch(eliteLabel:Error)
+         catch(subduedPear:Error)
          {
          }
          return false;
       }
       
-      public static function dildoLoaf() : void
+      public static function eliteJumbled() : void
       {
-         WhistleDetermined.seedWing = DeterminedPrepare.machineSigh;
-         RareFeeble.hateWicked.stickVolcano(new ToeToe());
-         WhistleDetermined.alluringBurn();
+         WhistleDetermined.airJumbled();
       }
       
-      public static function machineSubdued(param1:Function, param2:Function) : void
+      public static function airJumbled() : void
       {
-         if(!WhistleDetermined.pearFlower)
+         WhistleDetermined.healSense = HateFaint.bladeStatement;
+         RareFeeble.cuteAction.sighCrime(new WanderingToe());
+         WhistleDetermined.chickensIcy();
+      }
+      
+      public static function uncleGaping(param1:Function, param2:Function) : void
+      {
+         if(!WhistleDetermined.inviteCompetition)
          {
             try
             {
-               ExternalInterface.addCallback(RecogniseCompetition.mouseDelightful(CoalWhisper.bashfulInexpensive),WhistleDetermined.groundInstruct);
-               ExternalInterface.addCallback(RecogniseCompetition.mouseDelightful(HystericalKotsky.lipFaint),WhistleDetermined.stomachScintillating);
-               ExternalInterface.call(RecogniseCompetition.mouseDelightful(LipStore.staySerious),RareOranges.cryWandering.toString());
-               WhistleDetermined.historicalRay = param1;
-               WhistleDetermined.deliverBlade = param2;
-               WhistleDetermined.pearFlower = DeterminedPrepare.hatefulComplex;
+               ExternalInterface.addCallback(OrderUnit.probableLip(WaitingCrib.notebookJoyous),WhistleDetermined.eliteJumbled);
+               ExternalInterface.addCallback(OrderUnit.probableLip(DildoBorrow.pailAdhesive),WhistleDetermined.volcanoBurn);
+               ExternalInterface.call(BatheKotsky.adviseSwanky,RareOranges.cuteInexpensive.toString());
+               WhistleDetermined.mightyBashful = param1;
+               WhistleDetermined.listScratch = param2;
+               WhistleDetermined.inviteCompetition = HateFaint.proudGround;
                return;
             }
-            catch(eliteLabel:Error)
+            catch(subduedPear:Error)
             {
                return;
             }
          }
       }
       
-      public static function alluringBurn() : void
+      public static function fragileParty() : void
       {
-         if(WhistleDetermined.kurumaAnus())
+         if(WhistleDetermined.metalJuice() && WhistleDetermined.listScratch)
          {
-            if(WhistleDetermined.historicalRay != null)
+            try
             {
-               WhistleDetermined.historicalRay();
+               ExternalInterface.call(ListIllustrious.listClub);
+            }
+            catch(subduedPear:Error)
+            {
+               return;
+            }
+            WhistleDetermined.listScratch();
+         }
+      }
+      
+      public static function chickensIcy() : void
+      {
+         if(WhistleDetermined.metalJuice())
+         {
+            if(WhistleDetermined.mightyBashful != null)
+            {
+               WhistleDetermined.mightyBashful();
             }
          }
       }

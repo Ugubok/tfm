@@ -4,13 +4,13 @@ package
    {
        
       
-      public function AgreeableWhistle(param1:String, param2:String, param3:String)
+      public function AgreeableWhistle(param1:int, param2:int, param3:int, param4:int)
       {
-         super(LaborerFeeble.staleMark,BerryMouse.seedPeck);
-         staySigh.writeUTF(param1);
-         staySigh.writeUTF(param2);
-         staySigh.writeUTF(param3);
-         staySigh.writeByte(HystericalKotsky.notebookChivalrous);
+         super(AdmireUncle.crimeCreator,GullibleLook.unequaledJumbled);
+         lamentableSpurious.writeShort(param1);
+         lamentableSpurious.writeShort(param2);
+         lamentableSpurious.writeShort(param3);
+         lamentableSpurious.writeShort(param4);
       }
    }
 }

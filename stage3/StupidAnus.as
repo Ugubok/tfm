@@ -7,9 +7,9 @@ package
    public class StupidAnus
    {
       
-      public static var orderMighty:Boolean = false;
+      public static var backTasteless:Boolean = false;
       
-      public static var crashSigh:DisplayObject;
+      public static var thickLabel:DisplayObject;
        
       
       public function StupidAnus()
@@ -17,58 +17,51 @@ package
          super();
       }
       
-      public static function determinedHysterical(param1:Event = null) : void
+      public static function agreeablePear(param1:Event) : void
       {
-         if(StupidAnus.orderMighty && StupidAnus.crashSigh)
+         if(StupidAnus.backTasteless)
          {
-            AdmireStore.proseWindy.addChild(StupidAnus.crashSigh);
-            AdmireStore.proseWindy.addEventListener(BalvankaNotebook.programOrder,StupidAnus.mouseAgree);
+            StupidAnus.thickLabel.x = StalePinus.halfWaiting[CardBabies.taxAgree];
+            StupidAnus.thickLabel.y = StalePinus.halfWaiting[ListIllustrious.orangeDeadpan];
+         }
+      }
+      
+      public static function burnKnife() : void
+      {
+         StupidAnus.backTasteless = HateFaint.bladeStatement;
+         StalePinus.halfWaiting.removeEventListener(OrderUnit.probableLip(WaitingCrib.gateFrail),StupidAnus.agreeablePear);
+         Mouse.show();
+         if(StupidAnus.thickLabel && StupidAnus.thickLabel.parent)
+         {
+            StupidAnus.thickLabel.parent.removeChild(StupidAnus.requestRequest(param1:Event = null) : void
+      {
+         if(StupidAnus.backTasteless && StupidAnus.thickLabel)
+         {
+            StalePinus.halfWaiting.addChild(StupidAnus.thickLabel);
+            StalePinus.halfWaiting.addEventListener(WaitingCrib.gateFrail,StupidAnus.agreeablePear);
             Mouse.hide();
          }
       }
       
-      public static function wickedCommon(param1:String) : DisplayObject
+      public static function taxProgram(param1:String) : DisplayObject
       {
-         if(StupidAnus.crashSigh && StupidAnus.crashSigh.parent)
+         if(StupidAnus.thickLabel && StupidAnus.thickLabel.parent)
          {
-            StupidAnus.crashSigh.parent.removeChild(StupidAnus.crashSigh);
+            StupidAnus.thickLabel.parent.removeChild(StupidAnus.thickLabel);
          }
-         StupidAnus.crashSigh = AgreeableHistorical.religionSign(param1);
-         StupidAnus.orderMighty = DeterminedPrepare.hatefulComplex;
-         StupidAnus.crashSigh.addEventListener(RecogniseCompetition.mouseDelightful(ConfusedPeck.alluringJoyous),StupidAnus.determinedHysterical);
-         return StupidAnus.crashSigh;
-      }
-      
-      public static function mouseAgree(param1:Event) : void
+         StupidAnus.thickLabel = AgreeableHistorical.crowdedScale(param1);
+         StupidAnus.backTasteless = HateFaint.proudGround;
+         StupidAnus.thickLabel.addEventListener(OrderUnit.probableLip(GullibleLook.recogniseThick),StupidAnus.chivalrousBack);
+         return StupidAnus.listPinus(param1:String) : DisplayObject
       {
-         if(StupidAnus.orderMighty)
+         if(StupidAnus.thickLabel && StupidAnus.thickLabel.parent)
          {
-            StupidAnus.crashSigh.x = AdmireStore.proseWindy[ConfusedPeck.healWindy];
-            StupidAnus.crashSigh.y = AdmireStore.proseWindy[FrailJuice.wingList];
+            StupidAnus.thickLabel.parent.removeChild(StupidAnus.thickLabel);
          }
-      }
-      
-      public static function faithfulWatery() : void
-      {
-         StupidAnus.orderMighty = DeterminedPrepare.machineSigh;
-         AdmireStore.proseWindy.removeEventListener(BalvankaNotebook.programOrder,StupidAnus.mouseAgree);
-         Mouse.show();
-         if(StupidAnus.crashSigh && StupidAnus.crashSigh.parent)
-         {
-            StupidAnus.crashSigh.parent.removeChild(StupidAnus.crashSigh);
-         }
-      }
-      
-      public static function stupidTiresome(param1:String) : DisplayObject
-      {
-         if(StupidAnus.crashSigh && StupidAnus.crashSigh.parent)
-         {
-            StupidAnus.crashSigh.parent.removeChild(StupidAnus.crashSigh);
-         }
-         StupidAnus.crashSigh = AgreeableHistorical.probableCute(param1,true);
-         StupidAnus.orderMighty = DeterminedPrepare.hatefulComplex;
-         StupidAnus.determinedHysterical();
-         return StupidAnus.crashSigh;
+         StupidAnus.thickLabel = AgreeableHistorical.admireCute(param1,true);
+         StupidAnus.backTasteless = HateFaint.proudGround;
+         StupidAnus.chivalrousBack();
+         return StupidAnus.thickLabel;
       }
    }
 }

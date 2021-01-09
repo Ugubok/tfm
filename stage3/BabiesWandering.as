@@ -3,11 +3,11 @@ package
    public class BabiesWandering
    {
       
-      public static var wanderingRecognise:int = 2;
+      public static var alluringFeeble:int =  2;
       
-      public static var obeisantChop:int = 0;
+      public static var peckStomach:int =  0;
       
-      public static var crashProgram:int = 1;
+      public static var laborerNotebook:int =  1;
        
       
       public function BabiesWandering()

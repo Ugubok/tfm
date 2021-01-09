@@ -4,10 +4,10 @@ package
    {
        
       
-      public function BirdYell(param1:String)
+      public function BirdYell(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky),RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka));
-         subduedUncle(param1);
+         super(WanderingDecay.gullibleKuruma,OrderUnit.apatheticRare(SlipReligion.companyHistorical));
+         lamentableSpurious.writeShort(param1);
       }
    }
 }

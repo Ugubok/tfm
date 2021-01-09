@@ -3,7 +3,7 @@ package
    public class HatefulAnnoying extends MousePinus
    {
       
-      public static const whistleAdaptable:int = 2016;
+      public static const commonParty:int =  2016;
        
       
       public function HatefulAnnoying(param1:FragileWandering)
@@ -11,21 +11,21 @@ package
          super(param1);
       }
       
-      override public function touchUnequaled(param1:BerryAnus) : void
-      {
-         instructAir = param1.hystericalChickens.pipkaViolet == HatefulAnnoying.whistleAdaptable;
-         if(instructAir)
-         {
-            param1.legConfused.notebookCrime.push(BurnAlanson.scratchPinus);
-            param1.legConfused.notebookCrime.push(BurnAlanson.programNoxious);
-            param1.thickToe = DeterminedPrepare.machineSigh;
-         }
-      }
-      
-      override public function icyGrate(param1:AnusHateful) : void
+      override public function obeisantNoiseless(param1:AnusHateful) : void
       {
          if(0)
          {
+         }
+      }
+      
+      override public function squeamishBorrow(param1:BerryAnus) : void
+      {
+         unitProbable = HatefulAnnoying.commonParty == param1.programLaborer.hydrantThick;
+         if(unitProbable)
+         {
+            param1.crashCard.deliverConfused.push(SatisfyStomach.partyLight);
+            param1.crashCard.deliverConfused.push(SatisfyStomach.hateDildo);
+            param1.suzukaFour = HateFaint.bladeStatement;
          }
       }
    }

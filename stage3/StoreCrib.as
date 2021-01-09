@@ -4,11 +4,11 @@ package
    {
        
       
-      public function StoreCrib(param1:int, param2:String)
+      public function StoreCrib(param1:int, param2:int, param3:int = 0)
       {
-         super(RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail),ConfusedPeck.eliteBerry);
-         staySigh.writeInt(param1);
-         staySigh.writeUTF(param2);
+         super(OrderUnit.apatheticRare(AdmireUncle.crimeCreator),OrderUnit.apatheticRare(WanderingDecay.noiselessTasteless));
+         lamentableSpurious.writeShort(param1);
+         lamentableSpurious.writeShort(param2);
       }
    }
 }

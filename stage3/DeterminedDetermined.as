@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var illustriousObeisant:String;
+      public var gullibleAnus:String;
       
-      public var crimeBerry:int;
+      public var juiceLip:int;
       
-      public var slipFaint:StupidSpurious;
+      public var whisperFeeble:HatefulSign;
       
       public function DeterminedDetermined(param1:int, param2:String, param3:int)
       {
          super();
          this.idSequence = param1;
-         this.illustriousObeisant = param2;
-         this.crimeBerry = param3;
+         this.gullibleAnus = param2;
+         this.juiceLip = param3;
       }
       
       public function getIdSequence() : int
@@ -27,31 +27,31 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear) + this.illustriousObeisant.length;
+         return OrderUnit.apatheticRare(VolcanoStay.proudWaiting) + this.gullibleAnus.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.illustriousObeisant);
-         param1.writeByte(this.crimeBerry);
+         param1.writeUTF(this.gullibleAnus);
+         param1.writeByte(this.juiceLip);
       }
    }
 }

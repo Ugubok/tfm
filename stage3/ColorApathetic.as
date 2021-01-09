@@ -7,60 +7,60 @@ package
    {
        
       
-      public var hatefulApathetic:int;
+      public var joyousChop:int;
       
-      public var wateryAlanson:MovieClip;
+      public var largeAbaft:MovieClip;
       
-      public var inexpensiveWicked:int;
+      public var seedArmy:int;
       
-      public var bashfulObeisant:int;
+      public var colorIcy:int;
       
-      public var apatheticBag:int;
+      public var partyFlower:int;
       
       public function ColorApathetic(param1:int, param2:int, param3:int, param4:Number, param5:Number, param6:Number)
       {
-         this.apatheticBag = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+         this.partyFlower = -CardBabies.machineOranges;
          super();
-         this.hatefulApathetic = param1;
-         this.wateryAlanson = AgreeableHistorical.probableCute(RecogniseCompetition.mouseDelightful(BruiseBorrow.prepareBlade) + param1);
+         this.joyousChop = param1;
+         this.largeAbaft = AgreeableHistorical.admireCute(WaitingCrib.listStupid + param1);
          x = param2;
          y = param3;
-         this.wateryAlanson.scaleX = param4;
-         this.wateryAlanson.scaleY = param5;
-         this.wateryAlanson.rotation = param6;
-         if(HystericalKotsky.notebookChivalrous == param1)
+         this.largeAbaft.scaleX = param4;
+         this.largeAbaft.scaleY = param5;
+         this.largeAbaft.rotation = param6;
+         if(param1 == ReligionStore.trailInstruct)
          {
-            this.bashfulObeisant = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+            this.colorIcy = ReligionStore.trailInstruct;
          }
-         if(CoalRay.actionBorrow == param1)
+         if(param1 == CardBabies.machineOranges)
          {
-            this.bashfulObeisant = RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka);
+            this.colorIcy = SlipReligion.companyHistorical;
          }
-         if(RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) == param1)
+         if(param1 == PinusSand.jumbledTiresome)
          {
-            this.bashfulObeisant = DeterminedWarlike.deadpanBalvanka;
+            this.colorIcy = SlipReligion.companyHistorical;
          }
-         if(DeterminedWarlike.deadpanBalvanka == param1)
+         if(SlipReligion.companyHistorical == param1)
          {
-            this.bashfulObeisant = RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable);
+            this.colorIcy = OrderUnit.apatheticRare(CardBabies.senseCrown);
          }
-         if(param1 == RecogniseCompetition.prepareAgree(BerryMouse.distroWicked))
+         if(param1 == PrepareLip.competitionSupply)
          {
-            this.bashfulObeisant = RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+            this.colorIcy = OrderUnit.apatheticRare(CardBabies.machineOranges);
          }
-         if(RecogniseCompetition.prepareAgree(MetalDetermined.hatefulSqueamish) == param1)
+         if(OrderUnit.apatheticRare(CardBabies.halfChicken) == param1)
          {
-            this.bashfulObeisant = LaborerFeeble.instructBathe;
+            this.colorIcy = OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
          }
-         if(MetalDetermined.anusWing == param1)
+         if(param1 == AdaptableInexpensive.kurumaUnit)
          {
-            this.bashfulObeisant = AdviseRobin.satisfyGaping;
+            this.colorIcy = AdmireUncle.crimeCreator;
          }
-         if(RecogniseCompetition.prepareAgree(GroundFour.adaptableBathe) == param1)
+         if(PanoramicProbable.bladeProse == param1)
          {
-            this.bashfulObeisant = BruiseBorrow.taxChivalrous;
+            this.colorIcy = BatheKotsky.milkyEntertaining;
          }
-         addChild(this.wateryAlanson);
+         addChild(this.largeAbaft);
       }
    }
 }

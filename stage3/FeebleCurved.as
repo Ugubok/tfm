@@ -6,12 +6,12 @@ package
    {
        
       
-      public var armyLook:int;
+      public var balvankaCard:int;
       
       public function FeebleCurved(param1:ByteArray)
       {
          super(param1);
-         this.armyLook = param1.readInt();
+         this.balvankaCard = param1.readByte();
       }
    }
 }

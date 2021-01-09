@@ -4,15 +4,15 @@ package
    {
        
       
-      public function SeriousProbable(param1:InstructSpurious, param2:Boolean)
+      public function SeriousProbable(param1:Vector.<String>)
       {
-         super(RayYell.seriousOrange,RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
-         staySigh.writeShort(param1.bagClub);
-         staySigh.writeShort(param1.x);
-         staySigh.writeShort(param1.y);
-         staySigh.writeShort(param1.obtainableLabel());
-         staySigh.writeUTF(param1.dildoList());
-         staySigh.writeBoolean(param2);
+         super(WaitingCrib.statementDecay,SlipReligion.delightfulRay);
+         var _loc2_:int = ReligionStore.trailInstruct;
+         while(_loc2_ < param1.length)
+         {
+            taxWaiting(param1[_loc2_]);
+            _loc2_++;
+         }
       }
    }
 }

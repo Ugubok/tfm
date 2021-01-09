@@ -4,17 +4,17 @@ package
    {
        
       
-      public var entertainingHateful:int;
+      public var planHalf:int;
       
-      public var chopWhistle:Number;
+      public var satisfyQuirky:Number;
       
-      public var planWarlike:int;
+      public var chickensReligion:int;
       
-      public var pinusColor:int;
+      public var wickedPear:int;
       
-      public var sandFrail:int;
+      public var borrowDeliver:int;
       
-      public var hatefulStatement:String;
+      public var scratchKotsky:String;
       
       public function BatheSubdued()
       {

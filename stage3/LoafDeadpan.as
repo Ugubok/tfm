@@ -6,7 +6,7 @@ package
       
       public function LoafDeadpan()
       {
-         super(AlansonReligion.statementScratch,RecogniseCompetition.prepareAgree(BruiseBorrow.hateStatement));
+         super(GullibleLook.unequaledJumbled,PrepareLip.competitionSupply);
       }
    }
 }

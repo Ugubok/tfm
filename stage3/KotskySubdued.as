@@ -4,10 +4,10 @@ package
    {
        
       
-      public function KotskySubdued(param1:int)
+      public function KotskySubdued(param1:String)
       {
-         super(RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird),MetalDetermined.hatefulSqueamish);
-         staySigh.writeByte(param1);
+         super(WaitingCrib.statementDecay,OrderUnit.apatheticRare(BatheKotsky.proseNoiseless));
+         lamentableSpurious.writeUTF(param1);
       }
    }
 }

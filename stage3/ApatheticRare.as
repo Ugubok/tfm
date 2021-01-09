@@ -6,9 +6,9 @@ package
       
       public function ApatheticRare(param1:int, param2:String)
       {
-         super(LaborerFeeble.knifeParty,MetalDetermined.hatefulSqueamish);
-         staySigh.writeInt(param1);
-         staySigh.writeUTF(param2);
+         super(OrderUnit.apatheticRare(PrepareLip.competitionSupply),BatheKotsky.proseNoiseless);
+         lamentableSpurious.writeShort(param1);
+         lamentableSpurious.writeUTF(param2);
       }
    }
 }

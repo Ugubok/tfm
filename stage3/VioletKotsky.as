@@ -8,112 +8,112 @@ package
    public class VioletKotsky extends Sprite
    {
       
-      public static var rayCrib:ColorTransform;
+      public static var touchCry:ColorTransform;
       
-      public static var wickedAlluring:ColorTransform;
+      public static var fourCreator:ColorTransform;
       
-      public static var bruiseBack:ColorTransform;
+      public static var confusedChop:ColorTransform;
        
       
-      public var competitionAlluring:int;
+      public var senseIllustrious:int;
       
-      public var cribWing:int;
+      public var warlikeInjure:int;
       
-      public var groundLeg:String;
+      public var religionDildo:String;
       
-      public var tastelessCommon:int;
+      public var admireCurved:int;
       
-      public var determinedEntertaining:int;
+      public var wickedInstruct:int;
       
-      public var waitingObeisant:Boolean = true;
+      public var spuriousPail:Boolean = true;
       
-      public var largeFour:Boolean = false;
+      public var scaleWandering:Boolean = false;
       
       public function VioletKotsky(param1:int, param2:Boolean, param3:String, param4:int, param5:int = 5, param6:int = 0)
       {
-         this.cribWing = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.warlikeInjure = ReligionStore.trailInstruct;
          super();
-         this.competitionAlluring = param1;
-         this.largeFour = param2;
-         this.groundLeg = param3;
-         this.tastelessCommon = param4;
-         this.cribWing = param5;
-         this.determinedEntertaining = param6;
-         this.sandElite();
+         this.senseIllustrious = param1;
+         this.scaleWandering = param2;
+         this.religionDildo = param3;
+         this.admireCurved = param4;
+         this.warlikeInjure = param5;
+         this.wickedInstruct = param6;
+         this.pinusWhisper();
       }
       
-      public function sandElite() : void
+      public function pinusWhisper() : void
       {
          var _loc1_:int = 0;
          var _loc2_:MovieClip = null;
-         if(!VioletKotsky.rayCrib)
+         if(!VioletKotsky.touchCry)
          {
-            VioletKotsky.rayCrib = new ColorTransform();
-            VioletKotsky.rayCrib.color = 14650138;
-            VioletKotsky.wickedAlluring = new ColorTransform();
-            VioletKotsky.wickedAlluring.color = 56576;
-            VioletKotsky.bruiseBack = new ColorTransform();
-            VioletKotsky.bruiseBack.color = 8947848;
+            VioletKotsky.touchCry = new ColorTransform();
+            VioletKotsky.touchCry.color = 14650138;
+            VioletKotsky.fourCreator = new ColorTransform();
+            VioletKotsky.fourCreator.color = 56576;
+            VioletKotsky.confusedChop = new ColorTransform();
+            VioletKotsky.confusedChop.color = 8947848;
          }
-         _loc1_ = int(ClubGround.probableProgram[this.competitionAlluring]);
-         BalvankaFascinated.trembleChivalrous = BalvankaFascinated.trembleChivalrous + _loc1_;
-         _loc2_ = AgreeableHistorical.probableCute(AnusSeed.seriousCute);
-         _loc2_.mouseChildren = DeterminedPrepare.machineSigh;
-         _loc2_.mouseEnabled = DeterminedPrepare.machineSigh;
+         _loc1_ = int(ClubGround.adviseCommon[this.senseIllustrious]);
+         BalvankaFascinated.violetElite = BalvankaFascinated.violetElite + _loc1_;
+         _loc2_ = AgreeableHistorical.admireCute(OrderUnit.probableLip(RayAmuse.crackerFaint));
+         _loc2_.mouseChildren = HateFaint.bladeStatement;
+         _loc2_.mouseEnabled = HateFaint.bladeStatement;
          var _loc3_:TextField = _loc2_.x_texte;
-         _loc3_.text = _loc1_ + RayYell.clubMachine + this.cribWing;
-         if(this.largeFour)
+         _loc3_.text = _loc1_ + StupidCoal.airMachine + this.warlikeInjure;
+         if(this.scaleWandering)
          {
-            if(ClubGround.scaleKuruma == HystericalKotsky.notebookChivalrous)
+            if(ReligionStore.trailInstruct == ClubGround.historicalSpurious)
             {
-               this.waitingObeisant = DeterminedPrepare.machineSigh;
+               this.spuriousPail = HateFaint.bladeStatement;
             }
-            if(_loc1_ == HystericalKotsky.notebookChivalrous)
+            if(_loc1_ == ReligionStore.trailInstruct)
             {
-               _loc2_.x_fond.x_couleur.transform.colorTransform = VioletKotsky.bruiseBack;
-               if(!this.waitingObeisant)
+               _loc2_.x_fond.x_couleur.transform.colorTransform = VioletKotsky.confusedChop;
+               if(!this.spuriousPail)
                {
-                  _loc2_.transform.colorTransform = new ColorTransform(CoalRay.orangeOrange,RecogniseCompetition.scaleCrown(CoalRay.orangeOrange),CoalRay.orangeOrange);
-                  _loc3_.visible = DeterminedPrepare.machineSigh;
+                  _loc2_.transform.colorTransform = new ColorTransform(AdmireUncle.mouseBabies,AdmireUncle.mouseBabies,AdmireUncle.mouseBabies);
+                  _loc3_.visible = HateFaint.bladeStatement;
                }
                else
                {
-                  _loc2_.transform.colorTransform = new ColorTransform(CoalWhisper.dildoPanoramic,RecogniseCompetition.scaleCrown(CoalWhisper.dildoPanoramic),CoalWhisper.dildoPanoramic);
+                  _loc2_.transform.colorTransform = new ColorTransform(ListIllustrious.proseThick,OrderUnit.noiselessGullible(ListIllustrious.proseThick),OrderUnit.noiselessGullible(ListIllustrious.proseThick));
                }
             }
-            else if(this.cribWing == _loc1_)
+            else if(this.warlikeInjure == _loc1_)
             {
-               _loc2_.x_fond.x_couleur.transform.colorTransform = VioletKotsky.rayCrib;
+               _loc2_.x_fond.x_couleur.transform.colorTransform = VioletKotsky.touchCry;
                _loc3_.textColor = 14650138;
-               this.waitingObeisant = DeterminedPrepare.machineSigh;
+               this.spuriousPail = HateFaint.bladeStatement;
             }
-            else if(_loc1_ > HystericalKotsky.notebookChivalrous)
+            else if(_loc1_ > OrderUnit.apatheticRare(ReligionStore.trailInstruct))
             {
-               _loc2_.x_fond.x_couleur.transform.colorTransform = VioletKotsky.wickedAlluring;
+               _loc2_.x_fond.x_couleur.transform.colorTransform = VioletKotsky.fourCreator;
                _loc3_.textColor = 56644;
             }
             else
             {
-               _loc2_.x_fond.x_couleur.transform.colorTransform = VioletKotsky.bruiseBack;
+               _loc2_.x_fond.x_couleur.transform.colorTransform = VioletKotsky.confusedChop;
             }
          }
          else
          {
-            this.waitingObeisant = DeterminedPrepare.machineSigh;
-            _loc3_.visible = DeterminedPrepare.machineSigh;
-            _loc2_.x_fond.x_couleur.transform.colorTransform = VioletKotsky.bruiseBack;
-            _loc2_.transform.colorTransform = new ColorTransform(BerryMouse.proudPear,BerryMouse.proudPear,RecogniseCompetition.scaleCrown(BerryMouse.proudPear));
+            this.spuriousPail = HateFaint.bladeStatement;
+            _loc3_.visible = HateFaint.bladeStatement;
+            _loc2_.x_fond.x_couleur.transform.colorTransform = VioletKotsky.confusedChop;
+            _loc2_.transform.colorTransform = new ColorTransform(OrderUnit.noiselessGullible(BatheKotsky.patHydrant),OrderUnit.noiselessGullible(BatheKotsky.patHydrant),OrderUnit.noiselessGullible(BatheKotsky.patHydrant));
          }
-         if(this.groundLeg)
+         if(this.religionDildo)
          {
-            _loc2_.x_fond.x_image.addChild(AgreeableHistorical.religionSign(this.groundLeg));
+            _loc2_.x_fond.x_image.addChild(AgreeableHistorical.crowdedScale(this.religionDildo));
          }
          var _loc4_:int = _loc1_;
-         if(HystericalKotsky.notebookChivalrous == _loc4_)
+         if(_loc4_ == OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
-            _loc4_ = CoalRay.actionBorrow;
+            _loc4_ = OrderUnit.apatheticRare(CardBabies.machineOranges);
          }
-         AdmireStore.proseWindy.delightfulHydrant(_loc2_,RecogniseCompetition.mouseDelightful(AlansonReligion.gullibleTouch) + BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(CoalWhisper.laborerAction) + this.competitionAlluring + AlansonReligion.birdCrash) + RecogniseCompetition.mouseDelightful(BerryMouse.chickenKnot) + _loc1_ + RayYell.clubMachine + this.cribWing + LipStore.fragileTrail + BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(CoalWhisper.laborerAction) + this.competitionAlluring,RecogniseCompetition.mouseDelightful(ArmyObtainable.statementCrib) + (_loc4_ * this.tastelessCommon + this.determinedEntertaining) + RecogniseCompetition.mouseDelightful(AnusSeed.harmonyFeeble)),HystericalKotsky.notebookChivalrous,HystericalKotsky.notebookChivalrous,HystericalKotsky.notebookChivalrous,RecogniseTrail.anusCracker);
+         StalePinus.halfWaiting.icyBag(_loc2_,BurnFix.sistersLook + BerryAgreeable.orangesCompetition(OrderUnit.probableLip(PrepareLip.harmonyLaborer) + this.senseIllustrious + GullibleLook.annoyingInstruct) + PanoramicProbable.jumbledBack + _loc1_ + OrderUnit.probableLip(StupidCoal.airMachine) + this.warlikeInjure + OrderUnit.probableLip(GullibleLook.airStatement) + BerryAgreeable.orangesCompetition(PrepareLip.harmonyLaborer + this.senseIllustrious,OrderUnit.probableLip(CardBabies.injureElite) + (_loc4_ * this.admireCurved + this.wickedInstruct) + OrderUnit.probableLip(WanderingDecay.obtainableSupply)),ReligionStore.trailInstruct,OrderUnit.apatheticRare(ReligionStore.trailInstruct),OrderUnit.apatheticRare(ReligionStore.trailInstruct),CardBabies.lunasoleMilky);
          addChild(_loc2_);
       }
    }

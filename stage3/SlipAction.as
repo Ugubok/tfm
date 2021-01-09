@@ -7,214 +7,210 @@ package
    {
        
       
-      public var flowerCute:PatWhistle;
+      public var hatePipka:PatWhistle;
       
-      public var chickensBabies:Boolean = false;
+      public var warlikeProbable:Boolean = false;
       
-      public var largeBlade:BitmapData;
+      public var cribBird:BitmapData;
       
-      public var whisperWatery:HatefulStupid;
+      public var senseBerry:HatefulStupid;
       
-      public var cuteStick:Vector.<HatefulStupid>;
+      public var markUncle:Vector.<HatefulStupid>;
       
-      public var tiresomeUncle:int;
+      public var fourProud:int;
       
-      public var complexJoyous:int;
+      public var metalDildo:int;
       
-      public var religionAir:Boolean;
+      public var religionPear:Boolean;
       
-      public var largeStick:Function;
+      public var prosePinus:Function;
       
-      public var satisfyTouch:FeebleHistorical;
+      public var waitingEntertaining:FeebleHistorical;
       
-      public var cardMetal:Boolean;
+      public var colorVolcano:Boolean;
       
-      public var requestRare:Boolean = true;
+      public var rareFix:Boolean = true;
       
-      public var knotHalf:int;
+      public var bladeThick:int;
       
-      public var healPear:int;
+      public var clubThick:int;
       
-      public var zonkedJuice:Number;
+      public var milkySupply:Number;
       
-      public var trembleDeadpan:Number;
+      public var crowdedFragile:Number;
       
-      public var airSerious:Number;
+      public var lookSeed:Number;
       
-      public var annoyingCrash:Number;
+      public var delightfulSupply:Number;
       
-      public var frailDeliver:Number;
+      public var supplyStomach:Number;
       
-      public var spuriousBlade:Number;
+      public var flowerSand:Number;
       
-      public var scintillatingDeadpan:Number;
+      public var flowerNoiseless:Number;
       
-      public var listTax:Number;
+      public var knotStore:Number;
       
-      public var adhesiveWandering:Number;
+      public var feebleLoaf:Number;
       
-      public var agonizingRecognise:Number;
+      public var pearStatement:Number;
       
-      public var pipkaLaborer:Number;
+      public var commonRequest:Number;
       
-      public var prepareCrowded:Boolean = true;
+      public var gapingTouch:Boolean = true;
       
-      public var orangeProbable:Boolean = false;
+      public var mouseApathetic:Boolean = false;
       
-      public var hangingLight:int;
+      public var storeAbaft:int;
       
-      public var healGaping:int;
+      public var chopZonked:int;
       
-      public var healSuper:int;
+      public var noiselessList:int;
       
-      public var pinusUnit:String;
+      public var rayFlower:String;
       
-      public var satisfyWandering:int;
+      public var toeApathetic:int;
       
-      public var competitionAbaft:Boolean = true;
+      public var anusCrash:Boolean = true;
       
-      public var airMilky:Boolean = false;
+      public var colorSpurious:Boolean = false;
       
-      public var determinedFrail:Number;
+      public var alluringPanoramic:Number;
       
-      public var birdUnit:Number;
+      public var buryCrib:Number;
       
-      public var tiresomeAlanson:int;
+      public var entertainingKnot:int;
       
-      public var deadpanStale:Boolean = false;
+      public var groundYell:Boolean = false;
       
-      public var lightStore:int;
+      public var kurumaKnot:int;
       
-      public var hangingFrail:Function;
+      public var legCracker:Function;
       
-      public var dildoWhistle:Object;
+      public var pinusNotebook:Object;
       
-      public var staleVolcano:int;
+      public var robinToe:int;
       
       public function SlipAction(param1:PatWhistle, param2:Boolean = true)
       {
-         this.knotHalf = HystericalKotsky.notebookChivalrous;
-         this.healPear = HystericalKotsky.notebookChivalrous;
-         this.zonkedJuice = HystericalKotsky.notebookChivalrous;
-         this.trembleDeadpan = HystericalKotsky.notebookChivalrous;
-         this.airSerious = HystericalKotsky.notebookChivalrous;
-         this.annoyingCrash = HystericalKotsky.notebookChivalrous;
-         this.frailDeliver = HystericalKotsky.notebookChivalrous;
-         this.spuriousBlade = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         this.scintillatingDeadpan = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         this.listTax = HystericalKotsky.notebookChivalrous;
-         this.adhesiveWandering = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         this.agonizingRecognise = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         this.pipkaLaborer = HystericalKotsky.notebookChivalrous;
-         this.healSuper = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         this.determinedFrail = RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         this.birdUnit = HystericalKotsky.notebookChivalrous;
-         this.tiresomeAlanson = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         this.staleVolcano = -CoalRay.actionBorrow;
+         this.bladeThick = ReligionStore.trailInstruct;
+         this.clubThick = ReligionStore.trailInstruct;
+         this.milkySupply = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.crowdedFragile = ReligionStore.trailInstruct;
+         this.lookSeed = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.delightfulSupply = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.supplyStomach = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.flowerSand = ReligionStore.trailInstruct;
+         this.flowerNoiseless = ReligionStore.trailInstruct;
+         this.knotStore = ReligionStore.trailInstruct;
+         this.feebleLoaf = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.pearStatement = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.commonRequest = ReligionStore.trailInstruct;
+         this.noiselessList = ReligionStore.trailInstruct;
+         this.alluringPanoramic = OrderUnit.apatheticRare(CardBabies.machineOranges);
+         this.buryCrib = ReligionStore.trailInstruct;
+         this.entertainingKnot = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.robinToe = -OrderUnit.apatheticRare(CardBabies.machineOranges);
          super();
-         if(param1 == null)
+         if(null == param1)
          {
-            this.requestRare = DeterminedPrepare.machineSigh;
-            this.cardMetal = DeterminedPrepare.machineSigh;
+            this.rareFix = HateFaint.bladeStatement;
+            this.colorVolcano = HateFaint.bladeStatement;
          }
          else
          {
-            this.machineSubdued(param1,param2);
+            this.uncleGaping(param1,param2);
          }
       }
       
-      public function planFour(param1:int, param2:int = -1, param3:Function = null, param4:Object = null) : void
+      public function instructGate() : SlipAction
       {
-         if(!this.requestRare)
-         {
-            return;
-         }
-         this.knotHalf = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         this.staleVolcano = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         if(HystericalKotsky.notebookChivalrous <= param2)
-         {
-            this.tiresomeAlanson = param2;
-         }
-         if(param3 != null)
-         {
-            this.noxiousAdaptable(param2,param3,param4);
-         }
-         this.cardMetal = DeterminedPrepare.hatefulComplex;
-         if(param1 < HystericalKotsky.notebookChivalrous)
-         {
-            this.complexJoyous = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         }
-         else if(param1 >= this.tiresomeUncle)
-         {
-            this.complexJoyous = this.tiresomeUncle - RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         }
-         else
-         {
-            this.complexJoyous = param1;
-         }
-         this.whisperWatery = this.cuteStick[this.complexJoyous];
-         if(!this.whisperWatery.staleLoaf && !this.whisperWatery.chickenInvite.requestDecay(true);
-         }
-         this.largeBlade = this.whisperWatery.largeBlade;
-      }
-      
-      public function noxiousAdaptable(param1:int, param2:Function, param3:Object = null) : void
-      {
-         this.deadpanStale = DeterminedPrepare.hatefulComplex;
-         this.lightStore = param1;
-         this.hangingFrail = param2;
-         this.dildoWhistle = param3;
-         this.staleVolcano = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-      }
-      
-      public function machineSubdued(param1:PatWhistle, param2:Boolean = true) : void
-      {
-         this.requestRare = DeterminedPrepare.hatefulComplex;
-         this.cardMetal = DeterminedPrepare.hatefulComplex;
-         this.flowerCute = param1;
-         this.religionAir = param2;
-         this.cuteStick = param1.cuteStick;
-         this.tiresomeUncle = this.cuteStick.length;
-         this.complexJoyous = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-      }
-      
-      public function halfAdmire() : SlipAction
-      {
-         var _loc1_:SlipAction = new SlipAction(this.flowerCute,this.religionAir);
-         _loc1_.zonkedJuice = this.zonkedJuice;
-         _loc1_.trembleDeadpan = this.trembleDeadpan;
+         var _loc1_:SlipAction = new SlipAction(this.hatePipka,this.religionPear);
+         _loc1_.milkySupply = this.milkySupply;
+         _loc1_.crowdedFragile = this.crowdedFragile;
          return _loc1_;
       }
       
-      public function violetPear(param1:int) : void
+      public function illustriousMighty(param1:int, param2:int = -1, param3:Function = null, param4:Object = null) : void
       {
-         if(!this.requestRare)
+         if(!this.rareFix)
          {
             return;
          }
-         this.cardMetal = DeterminedPrepare.machineSigh;
-         if(param1 < HystericalKotsky.notebookChivalrous)
+         this.bladeThick = ReligionStore.trailInstruct;
+         this.robinToe = -OrderUnit.apatheticRare(CardBabies.machineOranges);
+         if(param2 >= OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
-            this.complexJoyous = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+            this.entertainingKnot = param2;
          }
-         else if(this.tiresomeUncle <= param1)
+         if(param3 != null)
          {
-            this.complexJoyous = this.tiresomeUncle - CoalRay.actionBorrow;
+            this.rareIllustrious(param2,param3,param4);
+         }
+         this.colorVolcano = HateFaint.proudGround;
+         if(param1 < OrderUnit.apatheticRare(ReligionStore.trailInstruct))
+         {
+            this.metalDildo = ReligionStore.trailInstruct;
+         }
+         else if(this.fourProud <= param1)
+         {
+            this.metalDildo = this.fourProud - CardBabies.machineOranges;
          }
          else
          {
-            this.complexJoyous = param1;
+            this.metalDildo = param1;
          }
-         this.whisperWatery = this.cuteStick[this.complexJoyous];
-         if(!this.whisperWatery.staleLoaf && !this.whisperWatery.chickenInvite.requestDecay(true);
+         this.senseBerry = this.lipSuzuka];
+         if(!this.peckAlanson && !this.juiceInjure(true);
          }
-         this.largeBlade = this.whisperWatery.largeBlade;
+         this.cribBird = this.annoyingInexpensive;
       }
       
-      public function historicalSerious(param1:Number) : void
+      public function halfSigh(param1:int) : void
       {
-         this.airMilky = param1 != RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         this.determinedFrail = param1;
+         if(!this.rareFix)
+         {
+            return;
+         }
+         this.colorVolcano = HateFaint.bladeStatement;
+         if(OrderUnit.apatheticRare(ReligionStore.trailInstruct) > param1)
+         {
+            this.metalDildo = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         }
+         else if(this.fourProud <= param1)
+         {
+            this.metalDildo = -CardBabies.machineOranges + this.obtainableElite = param1;
+         }
+         this.senseBerry = this.lipSuzuka];
+         if(!this.peckAlanson && !this.juiceInjure(true);
+         }
+         this.cribBird = this.annoyingInexpensive;
+      }
+      
+      public function rareIllustrious(param1:int, param2:Function, param3:Object = null) : void
+      {
+         this.groundYell = HateFaint.proudGround;
+         this.kurumaKnot = param1;
+         this.legCracker = param2;
+         this.pinusNotebook = param3;
+         this.robinToe = -OrderUnit.apatheticRare(CardBabies.machineOranges);
+      }
+      
+      public function healHarmony(param1:Number) : void
+      {
+         this.colorSpurious = param1 != OrderUnit.apatheticRare(CardBabies.machineOranges);
+         this.alluringPanoramic = param1;
+      }
+      
+      public function uncleGaping(param1:PatWhistle, param2:Boolean = true) : void
+      {
+         this.rareFix = HateFaint.proudGround;
+         this.colorVolcano = HateFaint.proudGround;
+         this.hatePipka = param1;
+         this.religionPear = param2;
+         this.markUncle = param1.markUncle;
+         this.fourProud = this.markUncle.length;
+         this.metalDildo = ReligionStore.trailInstruct;
       }
    }
 }

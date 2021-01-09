@@ -6,8 +6,8 @@ package
       
       public function ScaleStore(param1:String)
       {
-         super(AlansonReligion.birdProse,RecogniseTrail.balvankaAir);
-         staySigh.writeUTF(param1);
+         super(OrderUnit.apatheticRare(AdaptableInexpensive.crimeLarge),OrderUnit.apatheticRare(PrepareLip.pailThick));
+         lamentableSpurious.writeUTF(param1);
       }
    }
 }

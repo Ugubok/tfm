@@ -4,11 +4,11 @@ package
    {
        
       
-      public function RequestProbable(param1:int, param2:int, param3:int = 0)
+      public function RequestProbable(param1:int, param2:int)
       {
-         super(AdviseRobin.satisfyGaping,RecogniseCompetition.prepareAgree(LaborerFeeble.staleMark));
-         staySigh.writeShort(param1);
-         staySigh.writeShort(param2);
+         super(OrderUnit.apatheticRare(AdmireUncle.crimeCreator),CreatorSupply.cardTremble);
+         lamentableSpurious.writeInt(param1 + CreatorSupply.obeisantSeed);
+         lamentableSpurious.writeInt(param2 + OrderUnit.apatheticRare(CreatorSupply.obeisantSeed));
       }
    }
 }

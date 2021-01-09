@@ -4,38 +4,38 @@ package
    {
        
       
-      public var unequaledCompetition:int;
+      public var loafBalvanka:int;
       
-      public var agreeableSwanky:int;
+      public var jumbledSwanky:int;
       
-      public var planScratch:int;
+      public var admireRecognise:int;
       
       public function ApatheticHalf()
       {
          super();
       }
       
-      public function cardLunasole(param1:ApatheticHalf) : void
+      public function hatefulCry() : Boolean
       {
-         var _loc2_:int = this.unequaledCompetition;
-         var _loc3_:int = this.agreeableSwanky;
-         var _loc4_:int = this.planScratch;
-         this.unequaledCompetition = param1.unequaledCompetition;
-         this.agreeableSwanky = param1.agreeableSwanky;
-         this.planScratch = param1.planScratch;
-         param1.unequaledCompetition = _loc2_;
-         param1.agreeableSwanky = _loc3_;
-         param1.planScratch = _loc4_;
+         return (this.loafBalvanka & CardBabies.machineOranges) == OrderUnit.apatheticRare(ReligionStore.trailInstruct);
       }
       
-      public function knotAdvise() : Boolean
+      public function jumbledCrown() : Boolean
       {
-         return (this.unequaledCompetition & CoalRay.actionBorrow) == RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+         return (this.loafBalvanka & OrderUnit.apatheticRare(CardBabies.machineOranges)) == OrderUnit.apatheticRare(CardBabies.machineOranges);
       }
       
-      public function obtainableAnus() : Boolean
+      public function deliverIcy(param1:ApatheticHalf) : void
       {
-         return (this.unequaledCompetition & CoalRay.actionBorrow) == HystericalKotsky.notebookChivalrous;
+         var _loc2_:int = this.loafBalvanka;
+         var _loc3_:int = this.jumbledSwanky;
+         var _loc4_:int = this.admireRecognise;
+         this.loafBalvanka = param1.loafBalvanka;
+         this.jumbledSwanky = param1.jumbledSwanky;
+         this.admireRecognise = param1.admireRecognise;
+         param1.loafBalvanka = _loc2_;
+         param1.jumbledSwanky = _loc3_;
+         param1.admireRecognise = _loc4_;
       }
    }
 }

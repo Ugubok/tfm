@@ -6,51 +6,51 @@ package
    public class CrashYell extends SeriousFragile
    {
       
-      public static var proseWindy:CrashYell;
+      public static var halfWaiting:CrashYell;
        
       
-      public var abaftFour:BirdGround;
+      public var hangingMark:BirdGround;
       
       public function CrashYell()
       {
-         super(RecogniseCompetition.prepareAgree(GroundFour.scaleHalf),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-         knotSqueamish(new FragileScale(ChickensScintillating.trembleCard,AdviseRobin.satisfyGaping));
-         this.abaftFour = new BirdGround(scintillatingCoal,RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag));
-         this.abaftFour.buryCreator(this.frailMighty);
-         this.abaftFour.illustriousSupply.defaultTextFormat = new TextFormat(BerryAgreeable.groundKuruma,RecogniseCompetition.prepareAgree(BerryMouse.distroWicked),39355,true,false,false,null,null,TextFormatAlign.CENTER);
-         this.abaftFour.stupidArmy(AdviseRobin.hatefulBury);
-         cuteProse(this.abaftFour);
-         cuteProse(new SwankyOranges(BerryAgreeable.noiselessGround(AdviseRobin.fragileCoal),scintillatingCoal,this.frailMighty));
-         cuteProse(new SwankyOranges(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(LaborerFeeble.lightFrail)),scintillatingCoal,this.fragileAmuse));
-         knotFaithful(true,RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus),true);
+         super(AdmireUncle.warlikeSqueamish,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         agreeableRobin(new FragileScale(ChickensScintillating.distroStick,AdmireUncle.crimeCreator));
+         this.hangingMark = new BirdGround(storeAmuse,OrderUnit.apatheticRare(CardBabies.inexpensiveChickens));
+         this.deadpanDetermined(this.tiresomePlan);
+         this.hangingMark.chickensAlluring.defaultTextFormat = new TextFormat(BerryAgreeable.decayInjure,OrderUnit.apatheticRare(PrepareLip.competitionSupply),39355,true,false,false,null,null,TextFormatAlign.CENTER);
+         this.hangingMark.amuseKuruma(SlipReligion.volcanoLight);
+         icyCry(this.hangingMark);
+         icyCry(new SwankyOranges(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(VolcanoStay.noxiousRare)),storeAmuse,this.tiresomePlan));
+         icyCry(new SwankyOranges(BerryAgreeable.orangesCompetition(ListIllustrious.unequaledNoxious),storeAmuse,this.probableViolet));
+         feebleHysterical(true,OrderUnit.apatheticRare(LargeComplex.balvankaZonked),true);
       }
       
-      public static function requestRare(param1:String = null) : void
+      public static function rareFix(param1:String = null) : void
       {
-         if(CrashYell.proseWindy && CrashYell.proseWindy.parent)
+         if(CrashYell.halfWaiting && CrashYell.halfWaiting.parent)
          {
-            CrashYell.proseWindy.parent.removeChild(CrashYell.proseWindy);
+            CrashYell.halfWaiting.parent.removeChild(CrashYell.halfWaiting);
          }
-         CrashYell.proseWindy = new CrashYell();
-         if(AdmireStore.eliteToe)
+         CrashYell.halfWaiting = new CrashYell();
+         if(StalePinus.violetBalvanka)
          {
-            CrashYell.proseWindy.hateLeg(AdviseRobin.faintSpurious,CrashYell.proseWindy.fragileAmuse);
-            CrashYell.proseWindy.kurumaPanoramic(RecogniseCompetition.scaleCrown(CoalRay.orangeOrange),CoalRay.orangeOrange,true);
+            CrashYell.halfWaiting.healComplex(AdmireUncle.hatefulBabies,CrashYell.halfWaiting.probableViolet);
+            CrashYell.halfWaiting.hatefulWing(AdmireUncle.mouseBabies,OrderUnit.noiselessGullible(AdmireUncle.mouseBabies),true);
          }
          else
          {
-            CrashYell.proseWindy.x = int((-CrashYell.proseWindy.width + MetalDetermined.gatePail) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
-            CrashYell.proseWindy.y = BruiseBorrow.listStomach;
+            CrashYell.halfWaiting.x = int((-CrashYell.halfWaiting.width + PanoramicProbable.orangeChivalrous) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
+            CrashYell.halfWaiting.y = OrderUnit.apatheticRare(SlipReligion.abaftAction);
          }
          if(param1)
          {
-            CrashYell.proseWindy.abaftFour.colorProbable();
-            CrashYell.proseWindy.abaftFour.frailHydrant(param1);
+            CrashYell.halfWaiting.jumbledLip();
+            CrashYell.halfWaiting.seedScale(param1);
          }
-         CrashAlanson.pipkaTax(CrashYell.proseWindy);
+         CrashAlanson.yellObtainable(CrashYell.halfWaiting);
       }
       
-      public function fragileAmuse() : void
+      public function probableViolet() : void
       {
          if(parent)
          {
@@ -58,16 +58,16 @@ package
          }
       }
       
-      public function frailMighty() : void
+      public function tiresomePlan() : void
       {
          var _loc1_:String = null;
-         if(!this.abaftFour.machinePrepare())
+         if(!this.decayQuirky())
          {
-            _loc1_ = this.abaftFour.illustriousSupply.text;
+            _loc1_ = this.hangingMark.chickensAlluring.text;
             if(_loc1_)
             {
-               AdmireStore.proseWindy.pinusMouse(MetalDetermined.armyInvite + _loc1_.toUpperCase().split(RecogniseTrail.faithfulPipka).join(RecogniseCompetition.mouseDelightful(BerryMouse.competitionStick)));
-               this.fragileAmuse();
+               StalePinus.halfWaiting.pipkaMachine(WaitingCrib.touchDeadpan + _loc1_.toUpperCase().split(StupidCoal.whisperCrash).join(AdmireUncle.loafDecay));
+               this.probableViolet();
             }
          }
       }

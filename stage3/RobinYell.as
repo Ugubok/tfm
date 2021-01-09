@@ -6,24 +6,24 @@ package
    {
        
       
-      public var illustriousPipka:String;
+      public var advisePat:String;
       
-      public var seriousSand:Boolean;
+      public var fragileCommon:Boolean;
       
-      public var juiceComplex:String;
+      public var lookBashful:String;
       
-      public var thickInstruct:int;
+      public var peckSupply:int;
       
-      public var chickenWatery:String;
+      public var chickenQuirky:String;
       
       public function RobinYell(param1:ByteArray)
       {
          super(param1);
-         this.illustriousPipka = param1.readUTF();
-         this.seriousSand = param1.readBoolean();
-         this.juiceComplex = param1.readUTF();
-         this.thickInstruct = param1.readInt();
-         this.chickenWatery = param1.readUTF();
+         this.advisePat = param1.readUTF();
+         this.fragileCommon = param1.readBoolean();
+         this.lookBashful = param1.readUTF();
+         this.peckSupply = param1.readInt();
+         this.chickenQuirky = param1.readUTF();
       }
    }
 }

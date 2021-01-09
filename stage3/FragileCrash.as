@@ -4,13 +4,13 @@ package
    {
        
       
-      public function FragileCrash(param1:String, param2:int, param3:int, param4:String)
+      public function FragileCrash(param1:String, param2:String, param3:String)
       {
-         super(RecogniseCompetition.prepareAgree(BerryMouse.distroWicked),LaborerFeeble.staleMark);
-         staySigh.writeUTF(param1);
-         staySigh.writeByte(param2);
-         staySigh.writeInt(param3);
-         staySigh.writeUTF(param4);
+         super(OrderUnit.apatheticRare(WanderingDecay.noiselessTasteless),OrderUnit.apatheticRare(BatheKotsky.agonizingStomach));
+         lamentableSpurious.writeUTF(param1);
+         lamentableSpurious.writeUTF(param2);
+         lamentableSpurious.writeUTF(param3);
+         lamentableSpurious.writeByte(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
       }
    }
 }

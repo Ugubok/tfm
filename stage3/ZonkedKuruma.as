@@ -3,7 +3,7 @@ package
    public class ZonkedKuruma
    {
       
-      public static var jumbledCrash:String;
+      public static var recogniseAction:Boolean = true;
        
       
       public function ZonkedKuruma()

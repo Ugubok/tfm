@@ -4,16 +4,16 @@ package
    {
        
       
-      public var robinGaping:KnotSwanky;
+      public var gullibleSlip:KnotSwanky;
       
-      public var anusCommon:Number;
+      public var bladePinus:Number;
       
       public function FeebleViolet()
       {
-         this.robinGaping = new KnotSwanky(RecogniseCompetition.scaleCrown(GroundFour.flowerHanging),RecogniseCompetition.scaleCrown(GroundFour.flowerHanging));
+         this.gullibleSlip = new KnotSwanky(OrderUnit.noiselessGullible(LargeComplex.thickCrowded),OrderUnit.noiselessGullible(LargeComplex.thickCrowded));
          super();
-         borrowMark = HistoricalGround.competitionHysterical;
-         this.anusCommon = AdviseRobin.hangingUncle;
+         jumbledApathetic = HistoricalGround.chickenBird;
+         this.bladePinus = OrderUnit.noiselessGullible(CardBabies.joyousFascinated);
       }
    }
 }

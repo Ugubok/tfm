@@ -6,18 +6,18 @@ package
    {
        
       
-      public var berryViolet:BalvankaSpurious;
+      public var feebleMachine:BalvankaSpurious;
       
       public var idSequence:int;
       
-      public var rayTrail:int;
+      public var hangingBurn:int;
       
-      public var deadpanStupid:ZonkedCrime;
+      public var programCrib:HistoricalPrepare;
       
       public function PrepareZonked(param1:BalvankaSpurious)
       {
          super();
-         this.berryViolet = param1;
+         this.feebleMachine = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      public function harmonyWhisper() : int
+      public function complexHeal() : int
       {
-         return AdviseRobin.satisfyGaping;
+         return OrderUnit.apatheticRare(AdmireUncle.crimeCreator);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.rayTrail = param1.readByte();
-         var _loc2_:AgreeableBabies = this.berryViolet.recupereSequence(this.idSequence);
+         this.hangingBurn = param1.readByte();
+         var _loc2_:AgreeableBabies = this.feebleMachine.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is ZonkedCrime)
+            if(_loc2_ is HistoricalPrepare)
             {
-               this.deadpanStupid = ZonkedCrime(_loc2_);
-               this.deadpanStupid.juiceRare = this;
+               this.programCrib = HistoricalPrepare(_loc2_);
+               this.healIllustrious = this;
             }
          }
       }
       
-      public function get prepareHate() : int
+      public function get yellOrder() : int
       {
-         return CoalWhisper.agreeClub;
+         return OrderUnit.apatheticRare(PanoramicProbable.rareJoyous);
       }
    }
 }

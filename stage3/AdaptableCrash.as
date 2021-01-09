@@ -6,8 +6,8 @@ package
       
       public function AdaptableCrash(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping),LipStore.confusedSeed);
-         staySigh.writeShort(param1);
+         super(OrderUnit.apatheticRare(AdmireUncle.crimeCreator),OrderUnit.apatheticRare(ReligionStore.birdAdhesive));
+         lamentableSpurious.writeInt(param1);
       }
    }
 }

@@ -8,7 +8,7 @@ package
       
       public var idSequence:int;
       
-      public var uncleSand:CribGround;
+      public var orangeRequest:CribGround;
       
       public function SlipBabies(param1:int)
       {
@@ -21,24 +21,24 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RecogniseCompetition.mouseDelightful(RayYell.quirkyTasteless);
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return AdviseRobin.mouseProbable;
+         return CardBabies.senseCrown;
       }
       
       override public function ecriture(param1:ByteArray) : void

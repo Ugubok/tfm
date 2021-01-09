@@ -4,11 +4,11 @@ package
    {
        
       
-      public function ChickensPat(param1:int, param2:int)
+      public function ChickensPat(param1:String, param2:String)
       {
-         super(RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail),RecogniseCompetition.prepareAgree(FrailJuice.peckScale));
-         staySigh.writeInt(param1);
-         staySigh.writeInt(param2);
+         super(WaitingCrib.statementDecay,OrderUnit.apatheticRare(LargeComplex.programAbaft));
+         lamentableSpurious.writeUTF(param1);
+         lamentableSpurious.writeUTF(param2);
       }
    }
 }

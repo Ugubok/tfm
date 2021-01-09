@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var lookLip:String;
+      public var lipQuirky:String;
       
-      public var gateHydrant:BerryJumbled;
+      public var seriousHysterical:ClubBalvanka;
       
       public function PinusPinus(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.lookLip = param2;
+         this.lipQuirky = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return LargeComplex.stomachBack;
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return BruiseBorrow.taxChivalrous + this.lookLip.length;
+         return BatheKotsky.milkyEntertaining + this.lipQuirky.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.lookLip);
+         param1.writeUTF(this.lipQuirky);
       }
    }
 }

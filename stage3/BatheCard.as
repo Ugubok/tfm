@@ -6,56 +6,56 @@ package
    {
        
       
-      public var berryViolet:BalvankaSpurious;
+      public var feebleMachine:BalvankaSpurious;
       
-      public var injureZonked:String;
+      public var wingWing:String;
       
-      public var sistersRare:int;
+      public var birdAir:int;
       
-      public var backMilky:String;
+      public var crimeCry:String;
       
-      public var lookScintillating:String;
+      public var patLaborer:String;
       
       public function BatheCard(param1:BalvankaSpurious)
       {
          super();
-         this.berryViolet = param1;
+         this.feebleMachine = param1;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      public function harmonyWhisper() : int
+      public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus) + this.injureZonked.length + this.backMilky.length + this.lookScintillating.length;
+         return OrderUnit.apatheticRare(LargeComplex.balvankaZonked) + this.wingWing.length + this.crimeCry.length + this.patLaborer.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.injureZonked = param1.readUTFBytes(_loc2_);
-         this.sistersRare = param1.readInt();
+         this.wingWing = param1.readUTFBytes(_loc2_);
+         this.birdAir = param1.readInt();
          var _loc3_:int = param1.readShort();
-         this.backMilky = param1.readUTFBytes(_loc3_);
+         this.crimeCry = param1.readUTFBytes(_loc3_);
          var _loc4_:int = param1.readShort();
-         this.lookScintillating = param1.readUTFBytes(_loc4_);
+         this.patLaborer = param1.readUTFBytes(_loc4_);
       }
       
-      public function get prepareHate() : int
+      public function get yellOrder() : int
       {
-         return RecogniseCompetition.prepareAgree(GroundFour.lamentableSerious);
+         return PinusSand.prepareRay;
       }
    }
 }

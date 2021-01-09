@@ -4,12 +4,12 @@ package
    {
        
       
-      public function CrashCard(param1:String, param2:int, param3:String)
+      public function CrashCard(param1:int, param2:int, param3:Boolean)
       {
-         super(RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird),BruiseBorrow.hateStatement);
-         staySigh.writeUTF(param1);
-         staySigh.writeByte(param2);
-         staySigh.writeUTF(param3);
+         super(AdmireUncle.delightfulFragile,StupidCoal.fixProbable);
+         lamentableSpurious.writeInt(param1);
+         lamentableSpurious.writeInt(param2);
+         lamentableSpurious.writeByte(!!param3?int(CardBabies.machineOranges):int(OrderUnit.apatheticRare(ReligionStore.trailInstruct)));
       }
    }
 }

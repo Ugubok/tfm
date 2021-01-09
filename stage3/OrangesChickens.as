@@ -3,13 +3,13 @@ package
    public class OrangesChickens
    {
       
-      public static var pipkaHalf:Number = 0;
+      public static var recogniseAnnoying:Number =  0;
       
-      public static var pinusSwanky:Number = 0;
+      public static var pipkaWhisper:Number =  0;
       
-      public static var decayStupid:Number = 0;
+      public static var lamentableObeisant:Number =  0;
       
-      public static var abaftTouch:Number = 0;
+      public static var taxCrime:Number =  0;
        
       
       public function OrangesChickens()
@@ -17,150 +17,150 @@ package
          super();
       }
       
-      public static function fixGaping(param1:Number, param2:Number) : Boolean
+      public static function waitingDeliver(param1:Number, param2:Number) : Boolean
       {
-         OrangesChickens.pipkaHalf = param1;
-         OrangesChickens.pinusSwanky = param2;
-         var _loc3_:Number = RecogniseTrail.wingAgreeable;
-         if(param1 > RayYell.seriousOrange || param1 < -RecogniseCompetition.prepareAgree(RayYell.seriousOrange))
+         OrangesChickens.recogniseAnnoying = param1;
+         OrangesChickens.pipkaWhisper = param2;
+         var _loc3_:Number = OrderUnit.noiselessGullible(LargeComplex.agonizingFour);
+         if(param1 > OrderUnit.apatheticRare(WanderingDecay.healQuirky) || param1 < -WanderingDecay.healQuirky)
          {
-            _loc3_ = CoalRay.actionBorrow;
+            _loc3_ = OrderUnit.apatheticRare(CardBabies.machineOranges);
          }
          var _loc4_:Number = -param2 + param1;
-         if(_loc4_ < RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+         if(_loc4_ < OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
             _loc4_ = -_loc4_;
          }
          return _loc4_ > _loc3_;
       }
       
-      public static function inexpensiveSign(param1:Number) : Boolean
+      public static function hangingWandering(param1:Number) : Boolean
       {
-         var _loc2_:Number = RayYell.lamentableVolcano;
-         if(param1 > RecogniseCompetition.prepareAgree(RayYell.seriousOrange) || param1 < -RayYell.seriousOrange)
+         var _loc2_:Number = OrderUnit.noiselessGullible(AdmireUncle.stomachToe);
+         if(param1 > OrderUnit.apatheticRare(WanderingDecay.healQuirky) || param1 < -WanderingDecay.healQuirky)
          {
-            _loc2_ = CoalRay.actionBorrow;
+            _loc2_ = OrderUnit.apatheticRare(CardBabies.machineOranges);
          }
-         var _loc3_:Number = OrangesChickens.pinusSwanky - param1;
-         var _loc4_:Number = -param1 + OrangesChickens.pipkaHalf;
-         if(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) > _loc4_)
+         var _loc3_:Number = OrangesChickens.pipkaWhisper - param1;
+         var _loc4_:Number = -param1 + OrangesChickens.recogniseAnnoying;
+         if(_loc4_ < ReligionStore.trailInstruct)
          {
             _loc4_ = -_loc4_;
          }
-         if(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) > _loc3_)
+         if(_loc3_ < OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
             _loc3_ = -_loc3_;
          }
          if(_loc4_ > _loc2_ && _loc3_ > _loc2_)
          {
-            AnusGround.stupidMark(MetalDetermined.illustriousUncle() + BerryMouse.touchFour() * LaborerFeeble.slipStomach());
+            AnusGround.rareEntertaining(StupidCoal.historicalDeliver() * LargeComplex.faintLip());
          }
-         return false;
+         return true;
       }
       
-      public static function peckCrime(param1:Number, param2:Number) : Boolean
+      public static function spuriousSense(param1:Number) : Boolean
       {
-         OrangesChickens.pipkaHalf = param1;
-         OrangesChickens.pinusSwanky = param2;
-         return param1 <= param2;
-      }
-      
-      public static function scintillatingInjure(param1:Number) : Boolean
-      {
-         var _loc2_:Number = RecogniseCompetition.scaleCrown(RayYell.lamentableVolcano);
-         if(param1 > RayYell.seriousOrange || param1 < -RecogniseCompetition.prepareAgree(RayYell.seriousOrange))
+         var _loc2_:Number = AdmireUncle.stomachToe;
+         if(param1 > OrderUnit.apatheticRare(WanderingDecay.healQuirky) || param1 < -OrderUnit.apatheticRare(WanderingDecay.healQuirky))
          {
-            _loc2_ = RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+            _loc2_ = OrderUnit.apatheticRare(CardBabies.machineOranges);
          }
-         var _loc3_:Number = -param1 + OrangesChickens.pipkaHalf;
-         var _loc4_:Number = -param1 + OrangesChickens.pinusSwanky;
-         if(HystericalKotsky.notebookChivalrous > _loc3_)
+         var _loc3_:Number = OrangesChickens.recogniseAnnoying - param1;
+         var _loc4_:Number = OrangesChickens.pipkaWhisper - param1;
+         if(_loc3_ < ReligionStore.trailInstruct)
          {
             _loc3_ = -_loc3_;
          }
-         if(_loc4_ < HystericalKotsky.notebookChivalrous)
+         if(_loc4_ < OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
             _loc4_ = -_loc4_;
          }
          if(_loc3_ > _loc2_ && _loc4_ > _loc2_)
          {
-            AnusGround.stupidMark(LaborerFeeble.slipStomach() + MetalDetermined.illustriousUncle());
+            AnusGround.rareEntertaining(StupidCoal.historicalDeliver());
          }
-         return true;
+         return false;
       }
       
-      public static function illustriousHanging(param1:Number, param2:Number) : Boolean
+      public static function lookCoal(param1:Number, param2:Number, param3:Number) : Boolean
       {
-         OrangesChickens.pipkaHalf = param1;
-         OrangesChickens.pinusSwanky = param2;
-         var _loc3_:Number = RecogniseCompetition.scaleCrown(RecogniseTrail.wingAgreeable);
-         if(param1 > RayYell.seriousOrange || param1 < -RayYell.seriousOrange)
-         {
-            _loc3_ = RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         }
-         var _loc4_:Number = -param2 + param1;
-         if(_loc4_ < RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
-         {
-            _loc4_ = -_loc4_;
-         }
-         return _loc4_ <= _loc3_;
-      }
-      
-      public static function competitionOrange(param1:Number) : Number
-      {
-         return Math.pow(param1,RayYell.faithfulKnife());
-      }
-      
-      public static function abaftPat(param1:Number, param2:Number, param3:Number) : Boolean
-      {
-         OrangesChickens.pinusSwanky = param2;
-         OrangesChickens.pipkaHalf = param1;
+         OrangesChickens.recogniseAnnoying = param1;
+         OrangesChickens.pipkaWhisper = param2;
          var _loc4_:Number = param1 - param2;
-         if(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) > _loc4_)
+         if(_loc4_ < ReligionStore.trailInstruct)
          {
             _loc4_ = -_loc4_;
          }
          return _loc4_ <= param3;
       }
       
-      public static function volcanoCoal() : void
+      public static function bashfulLook(param1:Number, param2:Number) : Boolean
       {
-         if(OrangesChickens.peckCrime(RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),CoalRay.actionBorrow))
+         OrangesChickens.recogniseAnnoying = param1;
+         OrangesChickens.pipkaWhisper = param2;
+         var _loc3_:Number = OrderUnit.noiselessGullible(LargeComplex.agonizingFour);
+         if(param1 > WanderingDecay.healQuirky || param1 < -WanderingDecay.healQuirky)
          {
-            AnusGround.stupidMark(BerryMouse.cuteWatery() + MetalDetermined.illustriousUncle());
+            _loc3_ = CardBabies.machineOranges;
          }
-         if(!OrangesChickens.scintillatingInjure(CoalRay.actionBorrow))
+         var _loc4_:Number = param1 - param2;
+         if(_loc4_ < ReligionStore.trailInstruct)
          {
-            AnusGround.stupidMark(BerryMouse.cuteWatery() * BerryMouse.touchFour());
+            _loc4_ = -_loc4_;
          }
-         if(OrangesChickens.illustriousHanging(RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping),RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear)))
+         return _loc4_ <= _loc3_;
+      }
+      
+      public static function groundLabel(param1:Number) : Number
+      {
+         return Math.pow(param1,AdmireUncle.subduedHate());
+      }
+      
+      public static function lookHysterical() : void
+      {
+         if(OrangesChickens.bladeRay(PinusSand.jumbledTiresome,OrderUnit.apatheticRare(CardBabies.machineOranges)))
          {
-            AnusGround.stupidMark(BerryMouse.cuteWatery() * BerryMouse.touchFour());
+            AnusGround.rareEntertaining(BatheKotsky.robinWindy() * LargeComplex.faintLip());
          }
-         if(OrangesChickens.inexpensiveSign(AdviseRobin.obtainablePear))
+         if(!OrangesChickens.hangingWandering(CardBabies.machineOranges))
          {
-            AnusGround.stupidMark(MetalDetermined.illustriousUncle() + BerryMouse.touchFour() * BerryMouse.cuteWatery());
+            AnusGround.rareEntertaining(BatheKotsky.robinWindy() + VolcanoStay.volcanoHeal());
          }
-         if(OrangesChickens.illustriousHanging(RecogniseCompetition.prepareAgree(GroundFour.groundChickens),RecogniseCompetition.prepareAgree(WaitingReligion.gateCommon)))
+         if(OrangesChickens.bashfulLook(AdmireUncle.crimeCreator,OrderUnit.apatheticRare(VolcanoStay.proudWaiting)))
          {
-            AnusGround.stupidMark(BerryMouse.cuteWatery() + MetalDetermined.illustriousUncle());
+            AnusGround.rareEntertaining(BatheKotsky.robinWindy() + VolcanoStay.volcanoHeal());
          }
-         if(OrangesChickens.inexpensiveSign(GroundFour.groundChickens))
+         if(OrangesChickens.spuriousSense(VolcanoStay.proudWaiting))
          {
-            AnusGround.stupidMark(BerryMouse.cuteWatery() + MetalDetermined.illustriousUncle());
+            AnusGround.rareEntertaining(LargeComplex.faintLip() * BatheKotsky.robinWindy());
          }
-         if(!OrangesChickens.scintillatingInjure(WaitingReligion.gateCommon))
+         if(OrangesChickens.bashfulLook(OrderUnit.apatheticRare(CreatorSupply.satisfyBird),WanderingDecay.sandPrepare))
          {
-            AnusGround.stupidMark(BerryMouse.cuteWatery());
+            AnusGround.rareEntertaining(LargeComplex.faintLip() * BatheKotsky.robinWindy());
          }
-         if(!OrangesChickens.illustriousHanging(RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird),ArmyObtainable.kurumaBird))
+         if(OrangesChickens.spuriousSense(OrderUnit.apatheticRare(CreatorSupply.satisfyBird)))
          {
-            AnusGround.stupidMark(BerryMouse.cuteWatery() + MetalDetermined.illustriousUncle());
+            AnusGround.rareEntertaining(LargeComplex.faintLip() * BatheKotsky.robinWindy());
          }
-         var _loc1_:StupidHalf = new StupidHalf(RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird));
-         _loc1_.healMighty(ArmyObtainable.kurumaBird);
-         _loc1_.pipkaViolet = AdviseRobin.mouseProbable;
-         _loc1_.healMighty(AdviseRobin.mouseProbable);
+         if(!OrangesChickens.hangingWandering(WanderingDecay.sandPrepare))
+         {
+            AnusGround.rareEntertaining(BatheKotsky.robinWindy() + VolcanoStay.volcanoHeal());
+         }
+         if(!OrangesChickens.bashfulLook(OrderUnit.apatheticRare(GullibleLook.unequaledJumbled),OrderUnit.apatheticRare(GullibleLook.unequaledJumbled)))
+         {
+            AnusGround.rareEntertaining(BatheKotsky.robinWindy() * LargeComplex.faintLip() + VolcanoStay.volcanoHeal());
+         }
+         var _loc1_:StupidHalf = new StupidHalf(OrderUnit.apatheticRare(GullibleLook.unequaledJumbled));
+         _loc1_.colorClub(GullibleLook.unequaledJumbled);
+         _loc1_.hydrantThick = OrderUnit.apatheticRare(CardBabies.senseCrown);
+         _loc1_.colorClub(OrderUnit.apatheticRare(CardBabies.senseCrown));
+      }
+      
+      public static function bladeRay(param1:Number, param2:Number) : Boolean
+      {
+         OrangesChickens.recogniseAnnoying = param1;
+         OrangesChickens.pipkaWhisper = param2;
+         return param1 <= param2;
       }
    }
 }

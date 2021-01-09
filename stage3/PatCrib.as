@@ -8,43 +8,41 @@ package
    {
        
       
-      public var backMilky:SoundChannel;
+      public var peckLook:SoundChannel;
       
-      public var cardMetal:Boolean = false;
+      public var colorVolcano:Boolean = false;
       
-      public var quirkyComplex:Number;
+      public var clubReligion:Number;
       
-      public var seriousWing:Number;
+      public var windyPlan:Number;
       
-      public var fourWarlike:Number;
+      public var illustriousEntertaining:Number;
       
-      public var airVolcano:int;
+      public var superSand:int;
       
       public function PatCrib(param1:SoundChannel, param2:Number = 1)
       {
-         this.fourWarlike = RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+         this.illustriousEntertaining = CardBabies.machineOranges;
          super();
-         this.backMilky = param1;
-         this.backMilky.addEventListener(Event.SOUND_COMPLETE,this.bruiseCute);
-         this.quirkyComplex = param2;
+         this.peckLook = param1;
+         this.peckLook.addEventListener(Event.SOUND_COMPLETE,this.dildoFix);
+         this.clubReligion = param2;
       }
       
-      public function sistersCracker(param1:Number) : void
+      public function fourRay(param1:Number) : void
       {
          var _loc2_:SoundTransform = null;
-         param1 = HistoricalKnot.scaleRecognise * param1;
-         if(param1 != this.fourWarlike)
-         {
-            this.fourWarlike = param1;
-            _loc2_ = this.backMilky.soundTransform;
-            _loc2_[CoalRay.backBerry] = param1;
-            this.backMilky.soundTransform = _loc2_;
+         param1 = HistoricalKnot.probableDeliver * param1;
+         if(param1 != this.gapingBabies = param1;
+            _loc2_ = this.peckLook.soundTransform;
+            _loc2_[PinusSand.religionGround] = param1;
+            this.peckLook.soundTransform = _loc2_;
          }
       }
       
-      public function bruiseCute(param1:Event) : void
+      public function dildoFix(param1:Event) : void
       {
-         this.cardMetal = DeterminedPrepare.machineSigh;
+         this.colorVolcano = HateFaint.bladeStatement;
       }
    }
 }

@@ -1,212 +1,133 @@
 package
 {
-   public class RareAlanson
+   public class RareAlanson extends LoafSwanky
    {
-      
-      public static const squeamishStick:KnotSwanky = new KnotSwanky((3002 + -3002) / 10,(7347 + -7347) / (2703 + -2693));
-      
-      public static const seedAbaft:YellProse = new YellProse(8782 + -8782,new KnotSwanky((9867 + -9857) / 10,(1610 + -1610) / (1695 + -1685)),new KnotSwanky((9961 + -9961) / 10,(3185 + -3175) / (8551 + -8541)));
-      
-      public static const swankyLabel:SubduedRequest = new SubduedRequest(RareAlanson.squeamishStick,RareAlanson.seedAbaft);
        
       
-      public function RareAlanson()
+      public function RareAlanson(param1:int, param2:Array)
       {
-         super();
+         super(AdaptableInexpensive.crimeLarge,CardBabies.machineOranges);
+         lamentableSpurious.writeShort(param1);
+         var _loc3_:int = -OrderUnit.apatheticRare(CardBabies.machineOranges);
+         var _loc4_:int = param2.length;
+         lamentableSpurious.writeByte(_loc4_);
+         while(++_loc3_ < _loc4_)
+         {
+            this.cryLoaf(param2[_loc3_]);
+         }
       }
       
-      public static function orangesFour(param1:KnotSwanky, param2:KnotSwanky) : Number
+      public function cryLoaf(param1:Object) : void
       {
-         var _loc3_:Number = param1.zonkedJuice - param2.zonkedJuice;
-         var _loc4_:Number = -param2.trembleDeadpan + param1.trembleDeadpan;
-         return _loc3_ * _loc3_ + _loc4_ * _loc4_;
-      }
-      
-      public static function airAlanson(param1:Number, param2:KnotSwanky) : KnotSwanky
-      {
-         var _loc3_:KnotSwanky = new KnotSwanky(param1 * param2.zonkedJuice,param1 * param2.trembleDeadpan);
-         return _loc3_;
-      }
-      
-      public static function SwankyYell(param1:KnotSwanky, param2:KnotSwanky) : Number
-      {
-         var _loc3_:Number = param1.zonkedJuice - param2.zonkedJuice;
-         var _loc4_:Number = -param2.trembleDeadpan + param1.trembleDeadpan;
-         return Math.sqrt(_loc3_ * _loc3_ + _loc4_ * _loc4_);
-      }
-      
-      public static function apatheticDistro(param1:Number) : Number
-      {
-         return param1 > GroundFour.flowerHanging?Number(param1):Number(-param1);
-      }
-      
-      public static function slipHate(param1:KnotSwanky, param2:KnotSwanky) : Number
-      {
-         return param1.zonkedJuice * param2.zonkedJuice + param1.trembleDeadpan * param2.trembleDeadpan;
-      }
-      
-      public static function subduedMighty(param1:uint) : uint
-      {
-         param1 = param1 | param1 >> RecogniseCompetition.prepareAgree(CoalRay.actionBorrow) & 2147483647;
-         param1 = param1 | param1 >> RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) & 1073741823;
-         param1 = param1 | param1 >> AdviseRobin.mouseProbable & 268435455;
-         param1 = param1 | param1 >> RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird) & 16777215;
-         param1 = param1 | param1 >> CoalWhisper.burnViolet & 65535;
-         return param1 + RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-      }
-      
-      public static function feebleBurn(param1:Number, param2:Number) : Number
-      {
-         return param1 < param2?Number(param1):Number(param2);
-      }
-      
-      public static function violetSigh(param1:KnotSwanky) : KnotSwanky
-      {
-         var _loc2_:KnotSwanky = new KnotSwanky(RareAlanson.apatheticDistro(param1.zonkedJuice),RareAlanson.apatheticDistro(param1.trembleDeadpan));
-         return _loc2_;
-      }
-      
-      public static function crashStomach(param1:YellProse, param2:YellProse) : YellProse
-      {
-         var _loc3_:KnotSwanky = new KnotSwanky(RareAlanson.slipHate(param1.programHalf,param2.programHalf),RareAlanson.slipHate(param1.adviseHistorical,param2.programHalf));
-         var _loc4_:KnotSwanky = new KnotSwanky(RareAlanson.slipHate(param1.programHalf,param2.adviseHistorical),RareAlanson.slipHate(param1.adviseHistorical,param2.adviseHistorical));
-         var _loc5_:YellProse = new YellProse(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),_loc3_,_loc4_);
-         return _loc5_;
-      }
-      
-      public static function commonSense(param1:Array, param2:Array) : void
-      {
-         var _loc3_:* = param1[HystericalKotsky.notebookChivalrous];
-         param1[HystericalKotsky.notebookChivalrous] = param2[RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)];
-         param2[RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)] = _loc3_;
-      }
-      
-      public static function deadpanKotsky(param1:KnotSwanky, param2:Number) : KnotSwanky
-      {
-         var _loc3_:KnotSwanky = new KnotSwanky(param2 * param1.trembleDeadpan,-param2 * param1.zonkedJuice);
-         return _loc3_;
-      }
-      
-      public static function instructProbable() : Number
-      {
-         return Math.random() * RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) - CoalRay.actionBorrow;
-      }
-      
-      public static function joyousTouch(param1:KnotSwanky, param2:KnotSwanky) : KnotSwanky
-      {
-         var _loc3_:KnotSwanky = new KnotSwanky(param1.zonkedJuice - param2.zonkedJuice,param1.trembleDeadpan - param2.trembleDeadpan);
-         return _loc3_;
-      }
-      
-      public static function violetDildo(param1:YellProse, param2:KnotSwanky) : KnotSwanky
-      {
-         var _loc3_:KnotSwanky = new KnotSwanky(RareAlanson.slipHate(param2,param1.programHalf),RareAlanson.slipHate(param2,param1.adviseHistorical));
-         return _loc3_;
-      }
-      
-      public static function tastelessRobin(param1:SubduedRequest, param2:KnotSwanky) : KnotSwanky
-      {
-         var _loc3_:KnotSwanky = null;
-         _loc3_ = RareAlanson.obtainableBird(param1.R,param2);
-         _loc3_.zonkedJuice = _loc3_.zonkedJuice + param1.position.zonkedJuice;
-         _loc3_.trembleDeadpan = _loc3_.trembleDeadpan + param1.position.trembleDeadpan;
-         return _loc3_;
-      }
-      
-      public static function chivalrousHanging(param1:KnotSwanky, param2:KnotSwanky) : Number
-      {
-         return param1.zonkedJuice * param2.trembleDeadpan - param1.trembleDeadpan * param2.zonkedJuice;
-      }
-      
-      public static function obtainableFeeble(param1:Number, param2:KnotSwanky) : KnotSwanky
-      {
-         var _loc3_:KnotSwanky = new KnotSwanky(-param1 * param2.trembleDeadpan,param1 * param2.zonkedJuice);
-         return _loc3_;
-      }
-      
-      public static function whisperGaping(param1:YellProse, param2:YellProse) : YellProse
-      {
-         var _loc3_:YellProse = new YellProse(HystericalKotsky.notebookChivalrous,RareAlanson.storeSpurious(param1.programHalf,param2.programHalf),RareAlanson.storeSpurious(param1.adviseHistorical,param2.adviseHistorical));
-         return _loc3_;
-      }
-      
-      public static function storeSpurious(param1:KnotSwanky, param2:KnotSwanky) : KnotSwanky
-      {
-         var _loc3_:KnotSwanky = new KnotSwanky(param1.zonkedJuice + param2.zonkedJuice,param1.trembleDeadpan + param2.trembleDeadpan);
-         return _loc3_;
-      }
-      
-      public static function obeisantScale(param1:YellProse) : YellProse
-      {
-         var _loc2_:YellProse = new YellProse(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RareAlanson.violetSigh(param1.programHalf),RareAlanson.violetSigh(param1.adviseHistorical));
-         return _loc2_;
-      }
-      
-      public static function dildoCoal(param1:Number, param2:Number) : Number
-      {
-         return param1 > param2?Number(param1):Number(param2);
-      }
-      
-      public static function senseObtainable(param1:Number, param2:Number) : Number
-      {
-         var _loc3_:Number = Math.random();
-         _loc3_ = (param2 - param1) * _loc3_ + param1;
-         return _loc3_;
-      }
-      
-      public static function labelKotsky(param1:KnotSwanky, param2:KnotSwanky) : KnotSwanky
-      {
-         var _loc3_:KnotSwanky = new KnotSwanky(RareAlanson.feebleBurn(param1.zonkedJuice,param2.zonkedJuice),RareAlanson.feebleBurn(param1.trembleDeadpan,param2.trembleDeadpan));
-         return _loc3_;
-      }
-      
-      public static function instructStomach(param1:SubduedRequest, param2:KnotSwanky) : KnotSwanky
-      {
-         var _loc4_:Number = NaN;
-         var _loc3_:KnotSwanky = RareAlanson.joyousTouch(param2,param1.position);
-         _loc4_ = _loc3_.zonkedJuice * param1.R.programHalf.zonkedJuice + _loc3_.trembleDeadpan * param1.R.programHalf.trembleDeadpan;
-         _loc3_.trembleDeadpan = _loc3_.zonkedJuice * param1.R.adviseHistorical.zonkedJuice + _loc3_.trembleDeadpan * param1.R.adviseHistorical.trembleDeadpan;
-         _loc3_.zonkedJuice = _loc4_;
-         return _loc3_;
-      }
-      
-      public static function stupidOrder(param1:KnotSwanky, param2:KnotSwanky) : KnotSwanky
-      {
-         var _loc3_:KnotSwanky = new KnotSwanky(RareAlanson.dildoCoal(param1.zonkedJuice,param2.zonkedJuice),RareAlanson.dildoCoal(param1.trembleDeadpan,param2.trembleDeadpan));
-         return _loc3_;
-      }
-      
-      public static function patFaithful(param1:YellProse, param2:YellProse) : YellProse
-      {
-         var _loc3_:YellProse = new YellProse(HystericalKotsky.notebookChivalrous,RareAlanson.obtainableBird(param1,param2.programHalf),RareAlanson.obtainableBird(param1,param2.adviseHistorical));
-         return _loc3_;
-      }
-      
-      public static function lamentableLarge(param1:Number) : Boolean
-      {
-         return isFinite(param1);
-      }
-      
-      public static function stickApathetic(param1:Number, param2:Number, param3:Number) : Number
-      {
-         return RareAlanson.dildoCoal(param2,RareAlanson.feebleBurn(param1,param3));
-      }
-      
-      public static function fragileDecay(param1:uint) : Boolean
-      {
-         var _loc2_:Boolean = param1 > HystericalKotsky.notebookChivalrous && (param1 & -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow) + param1) == RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         return _loc2_;
-      }
-      
-      public static function obtainableBird(param1:YellProse, param2:KnotSwanky) : KnotSwanky
-      {
-         var _loc3_:KnotSwanky = new KnotSwanky(param1.programHalf.zonkedJuice * param2.zonkedJuice + param1.adviseHistorical.zonkedJuice * param2.trembleDeadpan,param1.programHalf.trembleDeadpan * param2.zonkedJuice + param1.adviseHistorical.trembleDeadpan * param2.trembleDeadpan);
-         return _loc3_;
-      }
-      
-      public static function agreeableCrown(param1:KnotSwanky, param2:KnotSwanky, param3:KnotSwanky) : KnotSwanky
-      {
-         return RareAlanson.stupidOrder(param2,RareAlanson.labelKotsky(param1,param3));
+         var _loc2_:int = 0;
+         var _loc3_:Array = null;
+         var _loc4_:int = 0;
+         var _loc5_:int = 0;
+         var _loc6_:String = null;
+         var _loc7_:int = 0;
+         if(null == param1)
+         {
+            lamentableSpurious.writeByte(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         }
+         else if(param1 is Boolean)
+         {
+            lamentableSpurious.writeByte(OrderUnit.apatheticRare(CardBabies.machineOranges));
+            lamentableSpurious.writeBoolean(param1);
+         }
+         else if(param1 is int)
+         {
+            _loc2_ = int(param1);
+            if(_loc2_ < OrderUnit.apatheticRare(ReligionStore.trailInstruct))
+            {
+               if(-_loc2_ <= 127)
+               {
+                  lamentableSpurious.writeByte(OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
+                  lamentableSpurious.writeByte(_loc2_);
+               }
+               else if(-_loc2_ <= 32767)
+               {
+                  lamentableSpurious.writeByte(CardBabies.senseCrown);
+                  lamentableSpurious.writeShort(_loc2_);
+               }
+               else
+               {
+                  lamentableSpurious.writeByte(BatheKotsky.milkyEntertaining);
+                  lamentableSpurious.writeInt(_loc2_);
+               }
+            }
+            else if(255 >= _loc2_)
+            {
+               lamentableSpurious.writeByte(SlipReligion.companyHistorical);
+               lamentableSpurious.writeByte(_loc2_);
+            }
+            else if(65535 >= _loc2_)
+            {
+               lamentableSpurious.writeByte(OrderUnit.apatheticRare(AdmireUncle.crimeCreator));
+               lamentableSpurious.writeShort(_loc2_);
+            }
+            else
+            {
+               lamentableSpurious.writeByte(OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining));
+               lamentableSpurious.writeInt(_loc2_);
+            }
+         }
+         else if(param1 is uint)
+         {
+            _loc2_ = uint(param1);
+            if(255 >= _loc2_)
+            {
+               lamentableSpurious.writeByte(OrderUnit.apatheticRare(SlipReligion.companyHistorical));
+               lamentableSpurious.writeByte(_loc2_);
+            }
+            else if(_loc2_ <= 65535)
+            {
+               lamentableSpurious.writeByte(OrderUnit.apatheticRare(AdmireUncle.crimeCreator));
+               lamentableSpurious.writeShort(_loc2_);
+            }
+            else
+            {
+               lamentableSpurious.writeByte(VolcanoStay.proudWaiting);
+               lamentableSpurious.writeDouble(_loc2_);
+            }
+         }
+         else if(param1 is Number)
+         {
+            lamentableSpurious.writeByte(OrderUnit.apatheticRare(GullibleLook.unequaledJumbled));
+            lamentableSpurious.writeDouble(param1 as Number);
+         }
+         else if(param1 is Array)
+         {
+            lamentableSpurious.writeByte(OrderUnit.apatheticRare(StupidCoal.chivalrousSatisfy));
+            _loc3_ = param1 as Array;
+            _loc4_ = -CardBabies.machineOranges;
+            _loc5_ = _loc3_.length;
+            lamentableSpurious.writeShort(_loc5_);
+            while(++_loc4_ < _loc5_)
+            {
+               this.cryLoaf(_loc3_[_loc4_]);
+            }
+         }
+         else if(param1 is String)
+         {
+            _loc6_ = param1 as String;
+            _loc7_ = _loc6_.length;
+            if(_loc7_ <= 255)
+            {
+               lamentableSpurious.writeByte(LargeComplex.balvankaZonked);
+               lamentableSpurious.writeByte(_loc7_);
+               lamentableSpurious.writeUTFBytes(_loc6_);
+            }
+            else
+            {
+               lamentableSpurious.writeByte(OrderUnit.apatheticRare(CardBabies.lunasoleSwanky));
+               lamentableSpurious.writeUTF(_loc6_);
+            }
+         }
+         else
+         {
+            lamentableSpurious.writeByte(CardBabies.lunasoleSwanky);
+            lamentableSpurious.writeUTF(String(param1));
+         }
       }
    }
 }

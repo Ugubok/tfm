@@ -4,11 +4,11 @@ package
    {
        
       
-      public function BatheKuruma(param1:int, param2:Boolean)
+      public function BatheKuruma(param1:String)
       {
-         super(RecogniseCompetition.prepareAgree(RayYell.stickColor),AdviseRobin.mouseProbable);
-         staySigh.writeShort(param1);
-         staySigh.writeBoolean(param2);
+         super(OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining),OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining));
+         lamentableSpurious.writeUTF(param1);
+         laborerTouch = HateFaint.proudGround;
       }
    }
 }

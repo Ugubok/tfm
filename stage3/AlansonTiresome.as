@@ -3,166 +3,166 @@ package
    public class AlansonTiresome
    {
       
-      public static const alluringPrepare:int = 0;
+      public static const alansonStay:int =  0;
       
-      public static const unequaledYell:int = 1;
+      public static const instructHate:int =  1;
       
-      public static const adaptableLarge:int = 2;
+      public static const bagHate:int =  2;
       
-      public static const fourFlower:int = 3;
+      public static const listCreator:int =  3;
       
-      public static const religionWicked:int = 4;
+      public static const warlikeIllustrious:int =  4;
       
-      public static const orderAlanson:int = 5;
+      public static const healApathetic:int =  5;
       
-      public static const wingAdvise:int = 6;
+      public static const stupidSuper:int =  6;
       
-      public static const labelAlanson:int = 0;
+      public static const wateryChivalrous:int =  0;
       
-      public static const airProbable:int = 1;
+      public static const crackerHanging:int =  1;
       
-      public static const deliverKnife:int = 2;
+      public static const mightyLabel:int =  2;
       
-      public static const suzukaAlanson:int = 3;
+      public static const fixBashful:int =  3;
        
       
-      public var warlikeSpurious:int;
+      public var adaptableCrib:int;
       
-      public var laborerWindy:AlansonTiresome;
+      public var noiselessCrime:AlansonTiresome;
       
-      public var lamentableQuirky:AlansonTiresome;
+      public var curvedEntertaining:AlansonTiresome;
       
-      public var lipChop:SwankyAnus;
+      public var noiselessStick:SwankyAnus;
       
-      public var spuriousPlan:SwankyAnus;
+      public var deadpanDelightful:SwankyAnus;
       
-      public var storeComplex:BabiesHistorical;
+      public var sandOrange:BabiesHistorical;
       
-      public var planStatement:BabiesHistorical;
+      public var juiceYell:BabiesHistorical;
       
-      public var wanderingViolet:Number;
+      public var illustriousHarmony:Number;
       
-      public var orangeSign:Boolean;
+      public var suzukaFeeble:Boolean;
       
-      public var groundCrowded:Boolean;
+      public var admireFix:Boolean;
       
-      public var loafPinus;
+      public var berryReligion;
       
       public function AlansonTiresome(param1:PrepareMighty)
       {
-         this.lipChop = new SwankyAnus();
-         this.spuriousPlan = new SwankyAnus();
+         this.noiselessStick = new SwankyAnus();
+         this.deadpanDelightful = new SwankyAnus();
          super();
-         this.warlikeSpurious = param1.type;
-         this.laborerWindy = null;
-         this.lamentableQuirky = null;
-         this.storeComplex = param1.chivalrousWarlike;
-         this.planStatement = param1.spuriousQuirky;
-         this.groundCrowded = param1.birdFour;
-         this.orangeSign = DeterminedPrepare.machineSigh;
-         this.loafPinus = param1.userData;
+         this.adaptableCrib = param1.type;
+         this.noiselessCrime = null;
+         this.curvedEntertaining = null;
+         this.sandOrange = param1.mightyHistorical;
+         this.juiceYell = param1.bladeSpurious;
+         this.admireFix = param1.scintillatingAmuse;
+         this.suzukaFeeble = HateFaint.bladeStatement;
+         this.berryReligion = param1.userData;
       }
       
-      public static function fixAnus(param1:AlansonTiresome, param2:*) : void
-      {
-      }
-      
-      public static function pearPlan(param1:PrepareMighty, param2:*) : AlansonTiresome
+      public static function statementNoiseless(param1:PrepareMighty, param2:*) : AlansonTiresome
       {
          var _loc3_:AlansonTiresome = null;
          var _loc4_:int = param1.type;
-         if(_loc4_ == AlansonTiresome.fourFlower)
+         if(AlansonTiresome.listCreator == _loc4_)
          {
             return new ZonkedSerious(param1 as AgreeableClub);
          }
-         if(_loc4_ == AlansonTiresome.orderAlanson)
+         if(AlansonTiresome.healApathetic == _loc4_)
          {
             return new GroundCrib(param1 as AgreeableYell);
          }
-         if(_loc4_ == AlansonTiresome.adaptableLarge)
+         if(AlansonTiresome.bagHate == _loc4_)
          {
             return new LoafSerious(param1 as OrangesSubdued);
          }
-         if(_loc4_ == AlansonTiresome.unequaledYell)
+         if(_loc4_ == AlansonTiresome.instructHate)
          {
             return new AnusSlip(param1 as BalvankaOranges);
          }
-         if(_loc4_ == AlansonTiresome.religionWicked)
+         if(_loc4_ == AlansonTiresome.warlikeIllustrious)
          {
-            return new AgreeableWing(param1 as ApatheticCard);
+            return new AgreeableWing(param1 as MightyCurved);
          }
-         if(_loc4_ == AlansonTiresome.wingAdvise)
+         if(_loc4_ == AlansonTiresome.stupidSuper)
          {
             return new OrangesSerious(param1 as ProbablePrepare);
          }
          return _loc3_;
       }
       
-      public function adhesiveCard() : int
+      public static function seriousSpurious(param1:AlansonTiresome, param2:*) : void
       {
-         return this.warlikeSpurious;
       }
       
-      public function zonkedScale() : BabiesHistorical
+      public function chivalrousHalf() : void
       {
-         return this.storeComplex;
       }
       
-      public function warlikeHysterical() : KnotSwanky
+      public function admireVolcano() : KnotSwanky
       {
          return null;
       }
       
-      public function sighCreator() : Boolean
+      public function warlikeSupply() : *
+      {
+         return this.berryReligion;
+      }
+      
+      public function curvedCurved() : BabiesHistorical
+      {
+         return this.juiceYell;
+      }
+      
+      public function flowerList(param1:SignBabies) : void
+      {
+      }
+      
+      public function fourLunasole(param1:SignBabies) : void
+      {
+      }
+      
+      public function rarePear(param1:*) : void
+      {
+         this.berryReligion = param1;
+      }
+      
+      public function icyFascinated() : BabiesHistorical
+      {
+         return this.sandOrange;
+      }
+      
+      public function lookLip() : Number
+      {
+         return LargeComplex.thickCrowded;
+      }
+      
+      public function whisperCry() : KnotSwanky
+      {
+         return null;
+      }
+      
+      public function crowdedCreator() : int
+      {
+         return this.adaptableCrib;
+      }
+      
+      public function annoyingColor() : AlansonTiresome
+      {
+         return this.curvedEntertaining;
+      }
+      
+      public function statementScratch() : Boolean
       {
          return false;
       }
       
-      public function orangesQuirky(param1:SignBabies) : void
-      {
-      }
-      
-      public function scintillatingStupid() : KnotSwanky
+      public function harmonyPrepare() : KnotSwanky
       {
          return null;
-      }
-      
-      public function scintillatingNoiseless() : KnotSwanky
-      {
-         return null;
-      }
-      
-      public function waitingUnequaled(param1:SignBabies) : void
-      {
-      }
-      
-      public function hateChop() : void
-      {
-      }
-      
-      public function toeClub(param1:*) : void
-      {
-         this.loafPinus = param1;
-      }
-      
-      public function scintillatingJuice() : *
-      {
-         return this.loafPinus;
-      }
-      
-      public function alluringCry() : AlansonTiresome
-      {
-         return this.lamentableQuirky;
-      }
-      
-      public function trembleSpurious() : BabiesHistorical
-      {
-         return this.planStatement;
-      }
-      
-      public function staleFour() : Number
-      {
-         return RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
       }
    }
 }

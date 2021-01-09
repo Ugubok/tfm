@@ -4,10 +4,10 @@ package
    {
        
       
-      public function ZonkedCurved(param1:Boolean)
+      public function ZonkedCurved(param1:String)
       {
-         super(RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable),RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird));
-         staySigh.writeByte(!!param1?int(CoalRay.actionBorrow):int(HystericalKotsky.notebookChivalrous));
+         super(CardBabies.machineOranges,CardBabies.machineOranges);
+         lamentableSpurious.writeUTF(param1);
       }
    }
 }

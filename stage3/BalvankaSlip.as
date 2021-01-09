@@ -4,13 +4,13 @@ package
    {
        
       
-      public var chickenHydrant:BabiesHistorical;
+      public var zonkedKuruma:BabiesHistorical;
       
-      public var gullibleWicked:HalfFeeble;
+      public var backSense:HalfFeeble;
       
-      public var rayProse:BalvankaSlip;
+      public var partyObeisant:BalvankaSlip;
       
-      public var cribLaborer:BalvankaSlip;
+      public var lunasoleThick:BalvankaSlip;
       
       public function BalvankaSlip()
       {

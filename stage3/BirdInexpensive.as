@@ -4,23 +4,23 @@ package
    {
        
       
-      public var taxGrate:String;
+      public var gapingRare:String;
       
-      public var panoramicSpurious:int;
+      public var toeStatement:int;
       
-      public var icyAdvise:Boolean = false;
+      public var peckHalf:Boolean = false;
       
       public function BirdInexpensive(param1:int, param2:String)
       {
-         this.panoramicSpurious = HystericalKotsky.notebookChivalrous;
+         this.toeStatement = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          super(param1);
-         this.fourClub(param2);
+         this.sistersRecognise(param2);
       }
       
-      public function fourClub(param1:String) : void
+      public function sistersRecognise(param1:String) : void
       {
-         this.taxGrate = param1;
-         this.icyAdvise = param1.length > HystericalKotsky.notebookChivalrous && param1.charAt(HystericalKotsky.notebookChivalrous) == RecogniseCompetition.mouseDelightful(WaitingReligion.noiselessObeisant);
+         this.gapingRare = param1;
+         this.peckHalf = param1.length > ReligionStore.trailInstruct && param1.charAt(OrderUnit.apatheticRare(ReligionStore.trailInstruct)) == OrderUnit.probableLip(SlipReligion.orangeBorrow);
       }
    }
 }

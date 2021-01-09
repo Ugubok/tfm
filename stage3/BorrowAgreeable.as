@@ -6,73 +6,73 @@ package
    public class BorrowAgreeable extends SeriousOranges
    {
       
-      public static var proseWindy:BorrowAgreeable;
+      public static var halfWaiting:BorrowAgreeable;
        
       
       public function BorrowAgreeable()
       {
-         super(CoalRay.adaptableAdmire);
-         crownPrepare = RayYell.seriousOrange;
-         robinWing = new Array();
-         if(!AdmireStore.spuriousBruise)
+         super(OrderUnit.apatheticRare(LargeComplex.windyDildo));
+         inexpensiveDecay = WanderingDecay.healQuirky;
+         decayBruise = new Array();
+         if(!StalePinus.yellSubdued)
          {
-            AdmireStore.squeamishAdaptable(crownPrepare);
-            RecogniseCompetition.orangesPeck(robinWing).push(new Array(HystericalKotsky.labelBury,LipStore.stupidAir,BerryAgreeable.robinBag(RareOranges.confusedBorrow,AnusSeed.faithfulPat)));
-            AdmireStore.squeamishAdaptable(robinWing);
+            OrderUnit.milkyBruise(decayBruise).push(new Array(PinusSand.eliteBag,OrderUnit.probableLip(DildoBorrow.alansonChickens),BerryAgreeable.labelAdhesive(RareOranges.squeamishAmuse,AdaptableInexpensive.staleBathe)));
+            StalePinus.annoyingReligion(decayBruise);
+            StalePinus.annoyingReligion(inexpensiveDecay);
          }
-         if(!RecogniseCompetition.tastelessConfused(AdmireStore.faintOranges))
+         if(!OrderUnit.curvedJoyous(StalePinus.waitingAmuse))
          {
-            AdmireStore.squeamishAdaptable(crownPrepare);
-            RecogniseCompetition.orangesPeck(RecogniseCompetition.orangesPeck(robinWing)).push(new Array(CoalWhisper.waitingScratch,RecogniseCompetition.mouseDelightful(RecogniseTrail.commonOrder),BerryAgreeable.robinBag(RareOranges.confusedBorrow,RecogniseCompetition.mouseDelightful(AlansonReligion.unitJuice))));
-            AdmireStore.squeamishAdaptable(robinWing);
+            StalePinus.annoyingReligion(decayBruise);
+            StalePinus.annoyingReligion(inexpensiveDecay);
+            OrderUnit.milkyBruise(OrderUnit.milkyBruise(decayBruise)).push(new Array(OrderUnit.probableLip(BurnFix.feebleIcy),ListIllustrious.agreeHistorical,BerryAgreeable.labelAdhesive(RareOranges.squeamishAmuse,GullibleLook.kurumaColor)));
          }
-         if(!AdmireStore.trailQuirky)
+         if(!OrderUnit.curvedJoyous(StalePinus.faintSubdued))
          {
-            RecogniseCompetition.orangesPeck(RecogniseCompetition.orangesPeck(robinWing)).push(new Array(RecogniseCompetition.mouseDelightful(HystericalKotsky.grateFix),RecogniseCompetition.mouseDelightful(AlansonReligion.injureBabies),BerryAgreeable.robinBag(RareOranges.confusedBorrow,RecogniseCompetition.mouseDelightful(HystericalKotsky.pipkaSupply))));
-            AdmireStore.squeamishAdaptable(robinWing);
-            AdmireStore.squeamishAdaptable(crownPrepare);
+            StalePinus.annoyingReligion(decayBruise);
+            StalePinus.annoyingReligion(inexpensiveDecay);
+            OrderUnit.milkyBruise(decayBruise).push(new Array(OrderUnit.probableLip(AdmireUncle.lamentableRobin),CardBabies.religionNotebook,BerryAgreeable.labelAdhesive(RareOranges.squeamishAmuse,CardBabies.determinedScratch)));
          }
-         if(!RecogniseCompetition.tastelessConfused(AdmireStore.delightfulSatisfy))
+         if(!OrderUnit.curvedJoyous(StalePinus.wateryBruise))
          {
-            AdmireStore.squeamishAdaptable(crownPrepare);
-            robinWing.push(new Array(RecogniseCompetition.mouseDelightful(WaitingReligion.abaftAgreeable),BalvankaNotebook.clubCurved,BerryAgreeable.robinBag(RareOranges.confusedBorrow,RecogniseCompetition.mouseDelightful(FrailJuice.hystericalSisters))));
-            AdmireStore.squeamishAdaptable(robinWing);
+            StalePinus.annoyingReligion(inexpensiveDecay);
+            OrderUnit.milkyBruise(OrderUnit.milkyBruise(decayBruise)).push(new Array(OrderUnit.probableLip(PrepareLip.armyFascinated),PanoramicProbable.fourPanoramic,BerryAgreeable.labelAdhesive(RareOranges.squeamishAmuse,LargeComplex.grateAmuse)));
+            StalePinus.annoyingReligion(decayBruise);
          }
       }
       
-      public static function requestRare(param1:Boolean) : void
+      public static function rareFix(param1:Boolean) : void
       {
          if(param1)
          {
-            if(!BorrowAgreeable.proseWindy)
+            if(!BorrowAgreeable.halfWaiting)
             {
-               BorrowAgreeable.proseWindy = new BorrowAgreeable();
-               BorrowAgreeable.proseWindy.x = int((MetalDetermined.gatePail - BorrowAgreeable.proseWindy.apatheticStale) / LaborerFeeble.instructBathe);
-               BorrowAgreeable.proseWindy.y = RecogniseCompetition.prepareAgree(AlansonReligion.signProud);
+               BorrowAgreeable.halfWaiting = new BorrowAgreeable();
+               BorrowAgreeable.halfWaiting.x = int((-BorrowAgreeable.halfWaiting.grateGround + OrderUnit.apatheticRare(PanoramicProbable.orangeChivalrous)) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
+               BorrowAgreeable.halfWaiting.y = PinusSand.peckKuruma;
             }
-            BorrowAgreeable.proseWindy.thickPlan();
-            AdmireStore.proseWindy.mightyDetermined.addChild(BorrowAgreeable.proseWindy);
-            BorrowAgreeable.proseWindy.delightfulArmy.violetFeeble();
-            BorrowAgreeable.proseWindy.delightfulArmy.adaptableDecay(HystericalKotsky.notebookChivalrous);
+            BorrowAgreeable.halfWaiting.violetTrail();
+            StalePinus.halfWaiting.crashBalvanka.addChild(BorrowAgreeable.halfWaiting);
+            BorrowAgreeable.halfWaiting.satisfyWatery();
+            BorrowAgreeable.halfWaiting.injureComplex.wingCoal(ReligionStore.trailInstruct);
          }
-         else if(BorrowAgreeable.proseWindy && BorrowAgreeable.proseWindy.parent)
+         else if(BorrowAgreeable.halfWaiting && BorrowAgreeable.halfWaiting.parent)
          {
-            BorrowAgreeable.proseWindy.parent.removeChild(BorrowAgreeable.proseWindy);
+            BorrowAgreeable.halfWaiting.parent.removeChild(BorrowAgreeable.halfWaiting);
          }
       }
       
-      override public function scratchCurved(param1:MouseEvent) : void
+      override public function frailBag() : void
+      {
+         BorrowAgreeable.rareFix(false);
+      }
+      
+      override public function bladeLip(param1:MouseEvent) : void
       {
          var _loc2_:MovieClip = param1.currentTarget as MovieClip;
-         if(seriousHeal[_loc2_])
+         if(determinedCommon[_loc2_])
          {
-            ScintillatingSubdued.entertainingPipka(LaborerFeeble.legNoiseless + seriousHeal[_loc2_].toLowerCase() + MetalDetermined.competitionProbable);
+            ScintillatingSubdued.suzukaAbaft(GullibleLook.cardRobin + determinedCommon[_loc2_].toLowerCase() + OrderUnit.probableLip(BurnFix.sistersMouse));
          }
-      }
-      
-      override public function sighOranges() : void
-      {
-         BorrowAgreeable.requestRare(false);
       }
    }
 }

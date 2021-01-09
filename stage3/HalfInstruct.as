@@ -6,27 +6,27 @@ package
    {
        
       
-      public var waitingWaiting:Boolean;
+      public var sighDeliver:Boolean;
       
-      public var inviteHydrant:Boolean;
+      public var halfToe:Boolean;
       
-      public var amuseHateful:int;
+      public var feebleScintillating:int;
       
-      public var statementZonked:Boolean;
+      public var dildoNotebook:Boolean;
       
-      public var lunasoleReligion:Number;
+      public var fourGullible:Number;
       
-      public var injureInexpensive:int;
+      public var satisfyCreator:int;
       
       public function HalfInstruct(param1:ByteArray)
       {
          super(param1);
-         this.waitingWaiting = param1.readBoolean();
-         this.inviteHydrant = param1.readBoolean();
-         this.amuseHateful = param1.readInt();
-         this.statementZonked = param1.readBoolean();
-         this.lunasoleReligion = param1.readInt() * ArmyObtainable.milkyAgree;
-         this.injureInexpensive = param1.readByte();
+         this.sighDeliver = param1.readBoolean();
+         this.halfToe = param1.readBoolean();
+         this.feebleScintillating = param1.readInt();
+         this.dildoNotebook = param1.readBoolean();
+         this.fourGullible = param1.readInt() * OrderUnit.apatheticRare(StupidCoal.healDistro);
+         this.satisfyCreator = param1.readByte();
       }
    }
 }

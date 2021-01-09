@@ -4,13 +4,13 @@ package
    {
        
       
-      public var armyLook:int;
+      public var swankySisters:int;
       
-      public var knotMilky:Vector.<int>;
+      public var agreeLoaf:Vector.<int>;
       
       public function ClubDeadpan()
       {
-         this.knotMilky = new Vector.<int>();
+         this.agreeLoaf = new Vector.<int>();
          super();
       }
    }

@@ -6,9 +6,9 @@ package
       
       public function PatHalf(param1:int, param2:int)
       {
-         super(RecogniseCompetition.prepareAgree(AlansonReligion.statementScratch),BerryMouse.seedPeck);
-         staySigh.writeInt(param1);
-         staySigh.writeByte(param2);
+         super(AdmireUncle.crimeCreator,OrderUnit.apatheticRare(PinusSand.peckKuruma));
+         lamentableSpurious.writeByte(param1);
+         lamentableSpurious.writeInt(param2);
       }
    }
 }

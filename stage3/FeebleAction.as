@@ -4,11 +4,11 @@ package
    {
        
       
-      public function FeebleAction(param1:int, param2:int)
+      public function FeebleAction(param1:int, param2:Boolean)
       {
-         super(RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail),RecogniseCompetition.prepareAgree(ConfusedPeck.lamentableDelightful));
-         staySigh.writeByte(param1);
-         staySigh.writeByte(param2);
+         super(WaitingCrib.statementDecay,AdmireUncle.crimeCreator);
+         lamentableSpurious.writeInt(param1);
+         lamentableSpurious.writeByte(!!param2?int(CardBabies.machineOranges):int(OrderUnit.apatheticRare(ReligionStore.trailInstruct)));
       }
    }
 }

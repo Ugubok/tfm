@@ -6,65 +6,65 @@ package
    {
        
       
-      public var scaleStomach:int;
+      public var mouseFrail:int;
       
-      public var waitingGrate:String;
+      public var deliverAbaft:String;
       
-      public var balvankaIllustrious:int;
+      public var markList:int;
       
-      public var labelReligion:int;
+      public var lamentableBag:int;
       
-      public var healFeeble:int;
+      public var kurumaRecognise:int;
       
-      public var crimeBerry:int;
+      public var juiceLip:int;
       
-      public var mightyCard:SignBalvanka;
+      public var seriousConfused:SignBalvanka;
       
       public function FascinatedSlip(param1:int = 0, param2:String = null, param3:int = 0, param4:int = 0, param5:int = 0, param6:int = 0, param7:SignBalvanka = null)
       {
          super();
-         this.scaleStomach = param1;
-         this.waitingGrate = param2;
-         this.balvankaIllustrious = param3;
-         this.labelReligion = param4;
-         this.healFeeble = param5;
-         this.crimeBerry = param6;
-         this.mightyCard = param7;
+         this.mouseFrail = param1;
+         this.deliverAbaft = param2;
+         this.markList = param3;
+         this.lamentableBag = param4;
+         this.kurumaRecognise = param5;
+         this.juiceLip = param6;
+         this.seriousConfused = param7;
       }
       
-      public static function gullibleMighty(param1:ByteArray) : FascinatedSlip
+      public static function squeamishAgree(param1:ByteArray) : FascinatedSlip
       {
          var _loc2_:FascinatedSlip = new FascinatedSlip();
          _loc2_.lecture(param1);
          return _loc2_;
       }
       
-      public function waitingStupid() : int
+      public function backJuice() : int
       {
-         return CoalWhisper.burnViolet + this.waitingGrate.length + this.mightyCard.waitingStupid();
+         return AdmireUncle.faithfulFlower + this.deliverAbaft.length + this.scintillatingSign();
       }
       
       public function ecriture(param1:ByteArray) : void
       {
-         param1.writeInt(this.scaleStomach);
-         param1.writeUTF(this.waitingGrate);
-         param1.writeByte(this.balvankaIllustrious);
-         param1.writeInt(this.labelReligion);
-         param1.writeInt(this.healFeeble);
-         param1.writeByte(this.crimeBerry);
-         this.mightyCard.ecriture(param1);
+         param1.writeInt(this.mouseFrail);
+         param1.writeUTF(this.deliverAbaft);
+         param1.writeByte(this.markList);
+         param1.writeInt(this.lamentableBag);
+         param1.writeInt(this.kurumaRecognise);
+         param1.writeByte(this.juiceLip);
+         this.seriousConfused.ecriture(param1);
       }
       
       public function lecture(param1:ByteArray) : void
       {
-         this.scaleStomach = param1.readInt();
+         this.mouseFrail = param1.readInt();
          var _loc2_:int = param1.readShort();
-         this.waitingGrate = param1.readUTFBytes(_loc2_);
-         this.balvankaIllustrious = param1.readByte();
-         this.labelReligion = param1.readInt();
-         this.healFeeble = param1.readInt();
-         this.crimeBerry = param1.readByte();
-         this.mightyCard = SignBalvanka.gullibleMighty(param1);
+         this.deliverAbaft = param1.readUTFBytes(_loc2_);
+         this.markList = param1.readByte();
+         this.lamentableBag = param1.readInt();
+         this.kurumaRecognise = param1.readInt();
+         this.juiceLip = param1.readByte();
+         this.seriousConfused = SignBalvanka.squeamishAgree(param1);
       }
    }
 }

@@ -4,13 +4,13 @@ package
    {
        
       
-      public function ScaleBabies(param1:String, param2:Boolean = false, param3:Boolean = true, param4:Boolean = true)
+      public function ScaleBabies(param1:String, param2:int, param3:int, param4:String)
       {
-         super(BruiseBorrow.hateStatement,RecogniseCompetition.prepareAgree(AlansonReligion.statementScratch));
-         staySigh.writeUTF(param1);
-         staySigh.writeBoolean(param2);
-         staySigh.writeBoolean(param3);
-         staySigh.writeBoolean(param4);
+         super(OrderUnit.apatheticRare(PrepareLip.competitionSupply),OrderUnit.apatheticRare(WanderingDecay.noiselessTasteless));
+         lamentableSpurious.writeUTF(param1);
+         lamentableSpurious.writeByte(param2);
+         lamentableSpurious.writeInt(param3);
+         lamentableSpurious.writeUTF(param4);
       }
    }
 }

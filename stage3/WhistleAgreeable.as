@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var signDelightful:int;
+      public var inexpensiveInvite:int;
       
-      public var squeamishCrime:int;
+      public var illustriousSign:int;
       
-      public var mouseSand:SeriousSpurious;
+      public var swankyOranges:SeriousSpurious;
       
       public function WhistleAgreeable(param1:int, param2:int, param3:int)
       {
          super();
          this.idSequence = param1;
-         this.signDelightful = param2;
-         this.squeamishCrime = param3;
+         this.inexpensiveInvite = param2;
+         this.illustriousSign = param3;
       }
       
       public function getIdSequence() : int
@@ -27,31 +27,31 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return WaitingReligion.peckKotsky;
+         return LargeComplex.programAbaft;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeInt(this.signDelightful);
-         param1.writeInt(this.squeamishCrime);
+         param1.writeInt(this.inexpensiveInvite);
+         param1.writeInt(this.illustriousSign);
       }
    }
 }

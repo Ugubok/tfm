@@ -477,11 +477,12 @@ def demangle_contents(file_map: TFileMap):
     # Then replace all other identifiers
     for cls in mangled_classes:
         pb.tick()
-        for identifier in set(re.findall("§[^§]+§", cls.contents)):
+        for i, identifier in enumerate(set(re.findall("§[^§]+§", cls.contents))):
             if identifier in demangled_identifiers:
                 continue
 
-            demangled = get_demangled_name(identifier, capitalize=False)
+            seed = cls.name + f"_{i}"
+            demangled = get_demangled_name(seed, capitalize=False)
             replace_everywhere(file_map, identifier, demangled)
 
             demangled_identifiers.add(identifier)

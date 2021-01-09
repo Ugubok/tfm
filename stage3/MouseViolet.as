@@ -3,7 +3,7 @@ package
    public class MouseViolet
    {
       
-      public static var senseBorrow:MouseViolet = new MouseViolet();
+      public static var cardAnnoying:MouseViolet = new MouseViolet();
        
       
       public function MouseViolet()
@@ -11,15 +11,15 @@ package
          super();
       }
       
-      public function sistersCoal(param1:HistoricalGround, param2:HistoricalGround) : Boolean
+      public function crashPinus(param1:HistoricalGround, param2:HistoricalGround) : Boolean
       {
-         var _loc3_:FascinatedInstruct = param1.joyousChicken();
-         var _loc4_:FascinatedInstruct = param2.joyousChicken();
-         if(_loc3_.satisfyUncle == _loc4_.satisfyUncle && _loc3_.satisfyUncle != HystericalKotsky.notebookChivalrous)
+         var _loc3_:FascinatedInstruct = param1.touchSlip();
+         var _loc4_:FascinatedInstruct = param2.touchSlip();
+         if(_loc3_.zonkedAgonizing == _loc4_.zonkedAgonizing && _loc3_.zonkedAgonizing != OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
-            return _loc3_.satisfyUncle > HystericalKotsky.notebookChivalrous;
+            return _loc3_.zonkedAgonizing > OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          }
-         var _loc5_:Boolean = (_loc3_.apatheticPinus & _loc4_.sistersBerry) != RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) && (_loc3_.sistersBerry & _loc4_.apatheticPinus) != HystericalKotsky.notebookChivalrous;
+         var _loc5_:Boolean = (_loc3_.proseDecay & _loc4_.birdAlanson) != OrderUnit.apatheticRare(ReligionStore.trailInstruct) && (_loc3_.birdAlanson & _loc4_.proseDecay) != ReligionStore.trailInstruct;
          return _loc5_;
       }
    }

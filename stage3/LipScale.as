@@ -4,11 +4,11 @@ package
    {
        
       
-      public function LipScale(param1:String)
+      public function LipScale(param1:String, param2:Boolean = false)
       {
-         super(BruiseBorrow.taxChivalrous,RecogniseCompetition.prepareAgree(AlansonReligion.statementScratch));
-         subduedUncle(param1);
-         lipStay = DeterminedPrepare.hatefulComplex;
+         super(OrderUnit.apatheticRare(WanderingDecay.gullibleKuruma),BatheKotsky.milkyEntertaining);
+         lamentableSpurious.writeUTF(param1);
+         lamentableSpurious.writeBoolean(param2);
       }
    }
 }

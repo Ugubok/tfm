@@ -8,25 +8,25 @@ package
    public class WanderingMighty
    {
       
-      public static const inviteHalf:Boolean = false;
+      public static const chopLunasole:Boolean = false;
       
-      public static const sighAdhesive:String = "123457";
+      public static const wickedBalvanka:String = "123457";
       
-      public static const orangeSeed:String = "fjdskmlfjdsklm";
+      public static const toePear:String = OrderUnit.probableLip("fjdskmlfjdsklm");
       
-      public static const programWicked:Boolean = false;
+      public static const flowerBury:Boolean = false;
       
-      public static var statementPail:Boolean = false;
+      public static var crowdedTouch:Boolean = false;
       
-      public static var whistleClub:Boolean = true;
+      public static var seedStick:Boolean = true;
       
-      public static var volcanoAction:Boolean = false;
+      public static var robinPlan:Boolean = false;
       
-      public static var stalePinus:Object;
+      public static var deadpanIcy:Object;
       
-      public static var programHydrant:Boolean = false;
+      public static var notebookProse:Boolean = false;
       
-      public static var wanderingGround:Object = null;
+      public static var squeamishList:Object = null;
        
       
       public function WanderingMighty()
@@ -34,100 +34,97 @@ package
          super();
       }
       
-      public static function touchAdmire() : void
+      public static function fixDeliver() : String
       {
-         if(WanderingMighty.inviteHalf)
+         if(WanderingMighty.chopLunasole)
+         {
+            return WanderingMighty.toePear;
+         }
+         return WanderingMighty.squeamishList[OrderUnit.probableLip(LargeComplex.deadpanStomach)][OrderUnit.probableLip(WaitingCrib.crackerDildo)]();
+      }
+      
+      public static function borrowAnus(param1:Event) : void
+      {
+         var _loc2_:LoaderInfo = param1.currentTarget as LoaderInfo;
+         if(_loc2_.content && Object(_loc2_.content)[OrderUnit.probableLip(LargeComplex.deadpanStomach)])
+         {
+            WanderingMighty.notebookProse = HateFaint.proudGround;
+            WanderingMighty.squeamishList = Object(_loc2_.content);
+            WanderingMighty.squeamishList[LargeComplex.deadpanStomach][OrderUnit.probableLip(BatheKotsky.touchFour)]();
+         }
+      }
+      
+      public static function requestCoal() : void
+      {
+         if(WanderingMighty.chopLunasole)
          {
             return;
          }
-         WanderingMighty.wanderingGround[RecogniseCompetition.mouseDelightful(CoalRay.crownAnnoying)][RecogniseTrail.cryJoyous]();
+         WanderingMighty.squeamishList[OrderUnit.probableLip(LargeComplex.deadpanStomach)][OrderUnit.probableLip(VolcanoStay.statementRequest)]();
       }
       
-      public static function panoramicFaint(param1:String, param2:Function) : void
+      public static function creatorReligion() : String
       {
-         WanderingMighty.wanderingGround[RecogniseCompetition.mouseDelightful(BerryMouse.yellGrate)][RecogniseCompetition.mouseDelightful(AnusSeed.companyLamentable)](param1,param2);
-      }
-      
-      public static function staySupply(param1:Object) : void
-      {
-      }
-      
-      public static function machineSubdued(param1:LoaderInfo) : void
-      {
-         var _loc2_:String = null;
-         WanderingMighty.statementPail = DeterminedPrepare.hatefulComplex;
-         if(param1 != null)
+         if(WanderingMighty.chopLunasole)
          {
-            WanderingMighty.stalePinus = param1.parameters;
+            return WanderingMighty.wickedBalvanka;
          }
-         if(WanderingMighty.stalePinus && WanderingMighty.stalePinus.hasOwnProperty(GroundFour.crimeComplex))
-         {
-            _loc2_ = WanderingMighty.stalePinus[GroundFour.crimeComplex];
-            var _loc3_:Loader = new Loader();
-            _loc3_.contentLoaderInfo.addEventListener(Event.COMPLETE,WanderingMighty.knifeSense);
-            _loc3_.load(new URLRequest(_loc2_));
-            AdmireStore.proseWindy.competitionGaping.addChild(_loc3_);
-            return;
-         }
+         return WanderingMighty.squeamishList[OrderUnit.probableLip(LargeComplex.deadpanStomach)][LargeComplex.agonizingScale]();
       }
       
-      public static function mouseInvite() : String
+      public static function warlikeFour() : Boolean
       {
-         if(WanderingMighty.inviteHalf)
-         {
-            return WanderingMighty.orangeSeed;
-         }
-         return WanderingMighty.wanderingGround[RecogniseCompetition.mouseDelightful(CoalRay.crownAnnoying)][FrailJuice.batheGullible]();
-      }
-      
-      public static function anusEntertaining() : Boolean
-      {
-         if(WanderingMighty.inviteHalf)
+         if(WanderingMighty.chopLunasole)
          {
             return true;
          }
-         return WanderingMighty.programHydrant;
-      }
-      
-      public static function hangingVolcano() : void
+         return WanderingMighty.windyChickens(param1:String, param2:int) : void
       {
-      }
-      
-      public static function berryArmy(param1:String, param2:int) : void
-      {
-         if(!WanderingMighty.inviteHalf)
+         if(!WanderingMighty.chopLunasole)
          {
          }
-         WanderingMighty.wanderingGround[AlansonReligion.prepareVolcano][RecogniseCompetition.mouseDelightful(BerryMouse.waitingHateful)](param1,param2);
+         WanderingMighty.squeamishList[PrepareLip.obtainableProbable][PinusSand.zonkedSatisfy](param1,param2);
       }
       
-      public static function knifeSense(param1:Event) : void
+      public static function orangeViolet() : Boolean
       {
-         var _loc2_:LoaderInfo = param1.currentTarget as LoaderInfo;
-         if(_loc2_.content && Object(_loc2_.content)[RecogniseCompetition.mouseDelightful(CoalRay.crownAnnoying)])
+         if(WanderingMighty.chopLunasole)
          {
-            WanderingMighty.programHydrant = DeterminedPrepare.hatefulComplex;
-            WanderingMighty.wanderingGround = Object(_loc2_.content);
-            WanderingMighty.wanderingGround[CoalRay.crownAnnoying][AlansonReligion.laborerGround]();
+            return WanderingMighty.flowerBury;
+         }
+         return WanderingMighty.squeamishList[OrderUnit.probableLip(LargeComplex.deadpanStomach)][StupidCoal.hydrantJuice]();
+      }
+      
+      public static function statementSign(param1:String, param2:Function) : void
+      {
+         WanderingMighty.squeamishList[StupidCoal.stupidProse][OrderUnit.probableLip(StupidCoal.inexpensiveStupid)](param1,param2);
+      }
+      
+      public static function uncleGaping(param1:LoaderInfo) : void
+      {
+         var _loc2_:String = null;
+         WanderingMighty.crowdedTouch = HateFaint.proudGround;
+         if(param1 != null)
+         {
+            WanderingMighty.deadpanIcy = param1.parameters;
+         }
+         if(WanderingMighty.deadpanIcy && WanderingMighty.deadpanIcy.hasOwnProperty(OrderUnit.probableLip(BurnFix.wickedSatisfy)))
+         {
+            _loc2_ = WanderingMighty.deadpanIcy[BurnFix.wickedSatisfy];
+            var _loc3_:Loader = new Loader();
+            _loc3_.contentLoaderInfo.addEventListener(Event.COMPLETE,WanderingMighty.borrowAnus);
+            _loc3_.load(new URLRequest(_loc2_));
+            StalePinus.halfWaiting.sistersHate.addChild(_loc3_);
+            return;
          }
       }
       
-      public static function kurumaInexpensive() : Boolean
+      public static function toeChickens() : void
       {
-         if(WanderingMighty.inviteHalf)
-         {
-            return WanderingMighty.programWicked;
-         }
-         return WanderingMighty.wanderingGround[CoalRay.crownAnnoying][RecogniseCompetition.mouseDelightful(LipStore.actionDelightful)]();
       }
       
-      public static function squeamishFaithful() : String
+      public static function hydrantCreator(param1:Object) : void
       {
-         if(WanderingMighty.inviteHalf)
-         {
-            return WanderingMighty.sighAdhesive;
-         }
-         return WanderingMighty.wanderingGround[CoalRay.crownAnnoying][RecogniseCompetition.mouseDelightful(RayYell.adhesiveHistorical)]();
       }
    }
 }

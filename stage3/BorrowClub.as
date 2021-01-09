@@ -3,7 +3,7 @@ package
    public class BorrowClub extends MousePinus
    {
       
-      public static const whistleAdaptable:int = 2008;
+      public static const commonParty:int =  2008;
        
       
       public function BorrowClub(param1:FragileWandering)
@@ -11,15 +11,15 @@ package
          super(param1);
       }
       
-      override public function touchUnequaled(param1:BerryAnus) : void
+      override public function squeamishBorrow(param1:BerryAnus) : void
       {
-         instructAir = param1.hystericalChickens.pipkaViolet == BorrowClub.whistleAdaptable;
-         if(!instructAir)
+         unitProbable = param1.programLaborer.hydrantThick == BorrowClub.commonParty;
+         if(!unitProbable)
          {
          }
       }
       
-      override public function icyGrate(param1:AnusHateful) : void
+      override public function obeisantNoiseless(param1:AnusHateful) : void
       {
       }
    }

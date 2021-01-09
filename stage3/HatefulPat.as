@@ -6,38 +6,43 @@ package
    public class HatefulPat extends SeriousFragile
    {
       
-      public static const groundQuirky:int = 250;
+      public static const delightfulNoxious:int =  250;
        
       
-      public var uncleZonked:Bitmap;
+      public var feebleBerry:Bitmap;
       
       public function HatefulPat(param1:Vector.<BatheSubdued>)
       {
          var _loc5_:BatheSubdued = null;
          var _loc6_:SwankyOranges = null;
          super();
-         knotSqueamish(new FragileScale(ChickensScintillating.trembleCard,AdviseRobin.mouseProbable));
-         var _loc2_:SeriousFragile = new SeriousFragile(HatefulPat.groundQuirky,RecogniseCompetition.prepareAgree(DeterminedWarlike.harmonyCoal));
-         this.uncleZonked = AgreeableHistorical.religionSign(LaborerFeeble.competitionCrown);
-         _loc2_.addChild(this.uncleZonked);
-         this.uncleZonked.addEventListener(Event.COMPLETE,this.programToe);
-         cuteProse(_loc2_);
-         var _loc3_:int = -CoalRay.actionBorrow;
+         agreeableRobin(new FragileScale(ChickensScintillating.distroStick,CardBabies.senseCrown));
+         var _loc2_:SeriousFragile = new SeriousFragile(HatefulPat.delightfulNoxious,OrderUnit.apatheticRare(GullibleLook.uncleHysterical));
+         this.feebleBerry = AgreeableHistorical.crowdedScale(OrderUnit.probableLip(AdmireUncle.noxiousRequest));
+         _loc2_.addChild(this.feebleBerry);
+         this.feebleBerry.addEventListener(Event.COMPLETE,this.warlikeFlower);
+         icyCry(_loc2_);
+         var _loc3_:int = -CardBabies.machineOranges;
          var _loc4_:int = param1.length;
          while(++_loc3_ < _loc4_)
          {
             _loc5_ = param1[_loc3_];
-            _loc6_ = new SwankyOranges(RecogniseCompetition.mouseDelightful(BalvankaNotebook.agonizingCreator) + _loc5_.chopWhistle + CoalWhisper.feebleInexpensive + _loc5_.hatefulStatement + RecogniseCompetition.mouseDelightful(WaitingReligion.suzukaDistro) + _loc5_.planWarlike + RecogniseCompetition.mouseDelightful(GroundFour.lamentableScratch),HatefulPat.groundQuirky,this.delightfulProgram,_loc3_);
-            _loc6_.thickPeck(false);
-            cuteProse(_loc6_);
+            _loc6_ = new SwankyOranges(OrderUnit.probableLip(BatheKotsky.stomachStale) + _loc5_.obtainableTasteless) + _loc5_.confusedSense) + _loc5_.chickensReligion + ReligionStore.stomachPat,HatefulPat.delightfulNoxious,this.decayCute,_loc3_);
+            _loc6_.suzukaSign(false);
+            icyCry(_loc6_);
          }
-         stomachWicked(BruiseBorrow.hateStatement);
-         cuteProse(new SwankyOranges(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(LaborerFeeble.lightFrail)),HatefulPat.groundQuirky,this.bathePrepare));
-         knotFaithful(true,BerryMouse.distroWicked,true);
-         kurumaPanoramic(CoalRay.orangeOrange,RecogniseCompetition.scaleCrown(CoalRay.sandCreator));
+         gullibleDistro(OrderUnit.apatheticRare(CreatorSupply.slipSeed));
+         icyCry(new SwankyOranges(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(ListIllustrious.unequaledNoxious)),HatefulPat.delightfulNoxious,this.eliteHarmony));
+         feebleHysterical(true,PrepareLip.competitionSupply,true);
+         hatefulWing(AdmireUncle.mouseBabies,VolcanoStay.coalFascinated);
       }
       
-      public function bathePrepare() : void
+      public function warlikeFlower(param1:Event) : void
+      {
+         this.feebleBerry.x = (-this.feebleBerry.width + HatefulPat.delightfulNoxious) / PinusSand.jumbledTiresome;
+      }
+      
+      public function eliteHarmony() : void
       {
          if(parent)
          {
@@ -45,15 +50,10 @@ package
          }
       }
       
-      public function programToe(param1:Event) : void
+      public function decayCute(param1:int) : void
       {
-         this.uncleZonked.x = (HatefulPat.groundQuirky - this.uncleZonked.width) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-      }
-      
-      public function delightfulProgram(param1:int) : void
-      {
-         this.bathePrepare();
-         RareFeeble.hateWicked.stickVolcano(new SlipStupid(param1));
+         this.eliteHarmony();
+         RareFeeble.cuteAction.sighCrime(new CardRare(param1));
       }
    }
 }

@@ -7,339 +7,237 @@ package
    public class BalvankaColor extends MousePinus
    {
       
-      public static const whistleAdaptable:int = 2007;
+      public static const commonParty:int =  2007;
       
-      public static const agreeDistro:int = 3;
+      public static const sandThick:int =  3;
       
-      public static const batheMetal:int = 6;
+      public static const rareChicken:int =  6;
       
-      public static const mouseAnnoying:int = 1400;
+      public static const gateInexpensive:int =  1400;
       
-      public static const flowerSatisfy:Vector.<Vector.<Point>> = new Vector.<Vector.<Point>>();
+      public static const crackerCreator:Vector.<Vector.<Point>> = new Vector.<Vector.<Point>>();
       
-      public static const bashfulWhistle:KnotCrime = new KnotCrime(3159 + -3009,5665 + -5455).seriousAir((1562 + -1561) / ((895 + -595) / (2226 + -2216)));
+      public static const seriousRequest:KnotCrime = new KnotCrime( 150, 210).scintillatingPat1 / 300 /10));
       
-      public static const alluringFragile:Number = 3;
+      public static const wateryGate:Number =  3;
       
-      public static const suzukaSand:Number = 9/ 10;
+      public static const competitionDecay:Number =9 /10;
       
       {
-         BalvankaColor.flowerSatisfy.push(new <Point>[new Point(AdviseRobin.satisfyGaping,-AnusSeed.borrowToe),new Point(RecogniseCompetition.prepareAgree(BalvankaNotebook.waitingCry),CoalWhisper.agreeClub),new Point(-DeterminedWarlike.harmonyCoal,-RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka)),new Point(RecogniseCompetition.prepareAgree(LipStore.confusedSeed),RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail)),new Point(-BruiseBorrow.hateStatement,RecogniseCompetition.prepareAgree(BruiseBorrow.bathePear)),new Point(-RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag),RecogniseCompetition.prepareAgree(LaborerFeeble.lookLarge)),new Point(BerryMouse.lamentableLaborer,RecogniseCompetition.prepareAgree(LaborerFeeble.lookLarge))]);
-         BalvankaColor.flowerSatisfy.push(new <Point>[new Point(AlansonReligion.babiesBag,-CoalWhisper.burnViolet),new Point(ArmyObtainable.legDistro,RayYell.zonkedGullible),new Point(-CoalRay.satisfyTrail,-RayYell.instructMetal),new Point(-RecogniseCompetition.prepareAgree(AlansonReligion.signProud),RecogniseCompetition.prepareAgree(AlansonReligion.suzukaSisters)),new Point(BerryMouse.distroWicked,CoalRay.gateNoiseless),new Point(-RecogniseCompetition.prepareAgree(AlansonReligion.signProud),ConfusedPeck.metalDeadpan),new Point(AlansonReligion.cribReligion,ConfusedPeck.metalDeadpan)]);
-         BalvankaColor.flowerSatisfy.push(new <Point>[new Point(RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag),-RecogniseCompetition.prepareAgree(RayYell.stickColor)),new Point(RecogniseCompetition.prepareAgree(RecogniseTrail.balvankaAir),RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag)),new Point(-LipStore.stupidGullible,-RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping)),new Point(LaborerFeeble.agreePanoramic,ConfusedPeck.statementWatery),new Point(-RecogniseCompetition.prepareAgree(LaborerFeeble.agreePanoramic),RecogniseCompetition.prepareAgree(CoalWhisper.burnViolet)),new Point(-DeterminedWarlike.harmonyCoal,RecogniseCompetition.prepareAgree(AlansonReligion.birdProse)),new Point(HystericalKotsky.rayAdvise,AlansonReligion.birdProse)]);
+         BalvankaColor.crackerCreator.push(new <Point>[new Point(OrderUnit.apatheticRare(AdmireUncle.crimeCreator),-WanderingDecay.superCry),new Point(OrderUnit.apatheticRare(LargeComplex.gapingScale),LargeComplex.armyOrder),new Point(-OrderUnit.apatheticRare(GullibleLook.uncleHysterical),-OrderUnit.apatheticRare(SlipReligion.companyHistorical)),new Point(OrderUnit.apatheticRare(BatheKotsky.proseNoiseless),OrderUnit.apatheticRare(AdmireUncle.delightfulFragile)),new Point(-OrderUnit.apatheticRare(CreatorSupply.slipSeed),OrderUnit.apatheticRare(CreatorSupply.bagBury)),new Point(-CardBabies.inexpensiveChickens,StupidCoal.wanderingDeliver),new Point(OrderUnit.apatheticRare(StupidCoal.hatefulIcy),OrderUnit.apatheticRare(StupidCoal.wanderingDeliver))]);
+         BalvankaColor.crackerCreator.push(new <Point>[new Point(OrderUnit.apatheticRare(CardBabies.inexpensiveChickens),-OrderUnit.apatheticRare(AdmireUncle.faithfulFlower)),new Point(OrderUnit.apatheticRare(PanoramicProbable.colorEntertaining),OrderUnit.apatheticRare(WanderingDecay.faintJoyous)),new Point(-OrderUnit.apatheticRare(AdmireUncle.delightfulFragile),-WanderingDecay.deadpanAdvise),new Point(-OrderUnit.apatheticRare(PinusSand.peckKuruma),OrderUnit.apatheticRare(StupidCoal.creatorSatisfy)),new Point(OrderUnit.apatheticRare(PrepareLip.competitionSupply),OrderUnit.apatheticRare(BurnFix.notebookFour)),new Point(-OrderUnit.apatheticRare(PinusSand.peckKuruma),OrderUnit.apatheticRare(StupidCoal.crimeUnequaled)),new Point(OrderUnit.apatheticRare(LargeComplex.waitingHarmony),OrderUnit.apatheticRare(StupidCoal.crimeUnequaled))]);
+         BalvankaColor.crackerCreator.push(new <Point>[new Point(OrderUnit.apatheticRare(CardBabies.inexpensiveChickens),-WanderingDecay.gullibleKuruma),new Point(PrepareLip.pailThick,OrderUnit.apatheticRare(CardBabies.inexpensiveChickens)),new Point(-OrderUnit.apatheticRare(RayAmuse.eliteSubdued),-OrderUnit.apatheticRare(AdmireUncle.crimeCreator)),new Point(SlipReligion.delightfulRay,OrderUnit.apatheticRare(RayAmuse.hydrantWatery)),new Point(-SlipReligion.delightfulRay,OrderUnit.apatheticRare(AdmireUncle.faithfulFlower)),new Point(-OrderUnit.apatheticRare(GullibleLook.uncleHysterical),OrderUnit.apatheticRare(AdaptableInexpensive.crimeLarge)),new Point(OrderUnit.apatheticRare(LargeComplex.obeisantStupid),OrderUnit.apatheticRare(AdaptableInexpensive.crimeLarge))]);
       }
       
-      public const chickensAbaft:int = ConfusedPeck.lamentableDelightful;
+      public const harmonyChop:int = ReligionStore.birdAdhesive;
       
-      public var cryToe:Vector.<Boolean>;
+      public var kurumaMighty:Vector.<Boolean>;
       
-      public var orderUnit:int;
+      public var dildoChickens:int;
       
-      public var groundScintillating:Vector.<BabiesHistorical> = null;
+      public var violetSuzuka:Vector.<BabiesHistorical> = null;
       
-      public var stayDeadpan:Vector.<int> = null;
+      public var burnDelightful:Vector.<int> = null;
       
-      public var crashStale:Boolean = false;
+      public var rayDelightful:Boolean = false;
       
-      public var labelLaborer:Boolean = false;
+      public var agreeableAmuse:Boolean = false;
       
-      public var chopCoal:Boolean = false;
+      public var companyGrate:Boolean = false;
       
-      public var whisperLarge:int;
+      public var loafSign:int;
       
       public function BalvankaColor(param1:FragileWandering)
       {
-         this.whisperLarge = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.loafSign = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          super(param1);
       }
       
-      public function slipCrib() : void
-      {
-         if(!this.labelLaborer || this.orderUnit == -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow) || this.chopCoal)
-         {
-            return;
-         }
-         var _loc1_:BabiesHistorical = this.groundScintillating[this.orderUnit];
-         RareFeeble.actionFeeble.stickVolcano(zonkedPeck(RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka),int(_loc1_.satisfySuzuka().zonkedJuice * RecogniseCompetition.prepareAgree(RayYell.seriousOrange)),int(_loc1_.satisfySuzuka().trembleDeadpan * RecogniseCompetition.prepareAgree(RayYell.seriousOrange)),int(_loc1_.injureSpurious().zonkedJuice * RecogniseCompetition.prepareAgree(RayYell.seriousOrange))));
-      }
-      
-      override public function touchUnequaled(param1:BerryAnus) : void
+      override public function squeamishBorrow(param1:BerryAnus) : void
       {
          var _loc2_:MovieClip = null;
          var _loc3_:int = 0;
-         instructAir = BalvankaColor.whistleAdaptable == param1.hystericalChickens.pipkaViolet;
-         if(instructAir)
+         unitProbable = param1.programLaborer.hydrantThick == BalvankaColor.commonParty;
+         if(unitProbable)
          {
-            AdmireStore.proseWindy.volcanoLeg = DeterminedPrepare.hatefulComplex;
-            _loc2_ = AgreeableHistorical.probableCute(FrailJuice.tiresomeAnnoying);
-            _loc2_.scaleX = BruiseBorrow.largeAlanson;
-            _loc2_.scaleY = RecogniseCompetition.scaleCrown(BruiseBorrow.largeAlanson);
-            _loc2_.x = RecogniseCompetition.prepareAgree(AdviseRobin.annoyingSisters);
-            _loc2_.y = HystericalKotsky.borrowTax;
-            BerryAnus.cribSatisfy.pipkaTax(_loc2_);
-            this.orderUnit = -CoalRay.actionBorrow;
-            this.crashStale = DeterminedPrepare.machineSigh;
-            this.groundScintillating = new Vector.<BabiesHistorical>(BalvankaColor.agreeDistro);
-            this.stayDeadpan = new Vector.<int>(BalvankaColor.agreeDistro);
-            _loc3_ = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-            while(_loc3_ < this.stayDeadpan.length)
+            StalePinus.halfWaiting.suzukaTax = HateFaint.proudGround;
+            _loc2_ = AgreeableHistorical.admireCute(LargeComplex.programAmuse);
+            _loc2_.scaleX = OrderUnit.noiselessGullible(GullibleLook.unitSisters);
+            _loc2_.scaleY = GullibleLook.unitSisters;
+            _loc2_.x = CardBabies.crashJuice;
+            _loc2_.y = OrderUnit.apatheticRare(ReligionStore.zonkedReligion);
+            BerryAnus.touchSerious.yellObtainable(_loc2_);
+            this.dildoChickens = -CardBabies.machineOranges;
+            this.rayDelightful = HateFaint.bladeStatement;
+            this.violetSuzuka = new Vector.<BabiesHistorical>(BalvankaColor.sandThick);
+            this.burnDelightful = new Vector.<int>(BalvankaColor.sandThick);
+            _loc3_ = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+            while(_loc3_ < this.burnDelightful.length)
             {
-               this.stayDeadpan[_loc3_] = -CoalRay.actionBorrow;
+               this.burnDelightful[_loc3_] = -CardBabies.machineOranges;
                _loc3_++;
             }
-            this.cryToe = new Vector.<Boolean>();
-            this.labelLaborer = DeterminedPrepare.machineSigh;
-            this.chopCoal = DeterminedPrepare.machineSigh;
+            this.kurumaMighty = new Vector.<Boolean>();
+            this.agreeableAmuse = HateFaint.bladeStatement;
+            this.companyGrate = HateFaint.bladeStatement;
          }
       }
       
-      override public function curvedPlan(param1:int) : Boolean
-      {
-         if(instructAir)
-         {
-            if(this.crashStale && this.orderUnit != -CoalRay.actionBorrow)
-            {
-               if(WingLip.staleList == param1)
-               {
-                  return true;
-               }
-               if(param1 == WingLip.prepareChivalrous || param1 == WingLip.proseKnot)
-               {
-                  return true;
-               }
-               if(param1 == WingLip.groundAdvise)
-               {
-                  return true;
-               }
-            }
-         }
-         return false;
-      }
-      
-      public function actionMouse(param1:int, param2:Vector.<RobinAdaptable>) : void
+      public function eliteBashful(param1:int, param2:Vector.<RobinAdaptable>) : void
       {
          var _loc3_:int = 0;
          var _loc4_:RobinAdaptable = null;
-         if(this.groundScintillating && param1 >= RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) && param1 < this.groundScintillating.length)
+         if(this.violetSuzuka && param1 >= OrderUnit.apatheticRare(ReligionStore.trailInstruct) && param1 < this.violetSuzuka.length)
          {
-            _loc3_ = HystericalKotsky.notebookChivalrous;
+            _loc3_ = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
             while(_loc3_ < param2.length)
             {
                _loc4_ = param2[_loc3_];
-               BerryAnus.cribSatisfy.apatheticFour.addChild(_loc4_);
-               _loc4_.visible = DeterminedPrepare.hatefulComplex;
-               this.wingUncle(_loc4_,param1,_loc3_);
-               if(_loc4_ == RobinAdaptable.stomachFaithful)
+               BerryAnus.touchSerious.frailLight.addChild(_loc4_);
+               _loc4_.visible = HateFaint.proudGround;
+               this.proseSatisfy(_loc4_,param1,_loc3_);
+               if(RobinAdaptable.pailBurn == _loc4_)
                {
-                  this.orderUnit = param1;
-                  this.labelLaborer = _loc3_ == RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-                  this.crashStale = DeterminedPrepare.hatefulComplex;
+                  this.dildoChickens = param1;
+                  this.agreeableAmuse = ReligionStore.trailInstruct == _loc3_;
+                  this.rayDelightful = HateFaint.proudGround;
                }
                _loc3_++;
             }
-            this.groundScintillating[param1].feebleClub(BalvankaColor.bashfulWhistle.deliverHanging(),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
+            this.violetSuzuka[param1].fixMachine(BalvankaColor.faintYell(),ReligionStore.trailInstruct);
          }
       }
       
-      override public function agreeableMachine(param1:int) : Boolean
+      public function distroAlanson() : void
       {
-         if(instructAir)
+         if(!this.agreeableAmuse || this.dildoChickens == -CardBabies.machineOranges || this.companyGrate)
          {
-            if(this.crashStale && this.orderUnit != -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
-            {
-               if(param1 == WingLip.staleList)
-               {
-                  return true;
-               }
-               if(WingLip.prepareChivalrous == param1)
-               {
-                  if(this.cryToe.length == HystericalKotsky.notebookChivalrous || this.cryToe[this.cryToe.length - CoalRay.actionBorrow] == false)
-                  {
-                     this.cryToe.push(true);
-                     if(BalvankaColor.batheMetal == this.cryToe.length)
-                     {
-                        RareFeeble.actionFeeble.stickVolcano(zonkedPeck(CoalRay.actionBorrow));
-                        this.cryToe = new Vector.<Boolean>();
-                     }
-                  }
-                  else
-                  {
-                     this.cryToe = new Vector.<Boolean>();
-                  }
-                  return true;
-               }
-               if(WingLip.proseKnot == param1)
-               {
-                  if(this.cryToe.length == HystericalKotsky.notebookChivalrous || this.cryToe[this.cryToe.length - CoalRay.actionBorrow] == true)
-                  {
-                     this.cryToe.push(false);
-                     if(BalvankaColor.batheMetal == this.cryToe.length)
-                     {
-                        RareFeeble.actionFeeble.stickVolcano(zonkedPeck(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)));
-                        this.cryToe = new Vector.<Boolean>();
-                     }
-                  }
-                  else
-                  {
-                     this.cryToe = new Vector.<Boolean>();
-                  }
-                  return true;
-               }
-               if(param1 == WingLip.groundAdvise)
-               {
-                  return true;
-               }
-            }
+            return;
          }
-         return false;
+         var _loc1_:BabiesHistorical = this.religionSwanky];
+         RareFeeble.waitingGullible.sighCrime(jumbledLook(OrderUnit.apatheticRare(SlipReligion.companyHistorical),int(_loc1_.proudKuruma().milkySupply * WanderingDecay.healQuirky),int(_loc1_.proudKuruma().crowdedFragile * OrderUnit.apatheticRare(WanderingDecay.healQuirky)),int(_loc1_.batheArmy().milkySupply * WanderingDecay.healQuirky)));
       }
       
-      override public function mouseAgree(param1:int) : void
+      public function subduedSwanky(param1:int, param2:Boolean) : BabiesHistorical
       {
-         var _loc2_:BabiesHistorical = null;
-         if(instructAir)
-         {
-            if(this.labelLaborer)
-            {
-               if(param1 - this.whisperLarge > WaitingReligion.programRobin)
-               {
-                  this.slipCrib();
-                  this.whisperLarge = param1;
-               }
-               _loc2_ = this.groundScintillating[this.orderUnit];
-               if(_loc2_.wateryPinus.zonkedJuice < -BruiseBorrow.halfAdaptable)
-               {
-                  _loc2_.wateryPinus.zonkedJuice = HystericalKotsky.notebookChivalrous;
-                  this.slipCrib();
-               }
-               if(_loc2_.satisfySuzuka().zonkedJuice * CoalRay.satisfyTrail > BalvankaColor.mouseAnnoying && !this.chopCoal)
-               {
-                  this.chopCoal = DeterminedPrepare.hatefulComplex;
-                  this.slipCrib();
-                  RareFeeble.actionFeeble.stickVolcano(zonkedPeck(AdviseRobin.mouseProbable));
-               }
-            }
-         }
-      }
-      
-      public function bashfulOrange(param1:int, param2:Boolean) : BabiesHistorical
-      {
+         var _loc3_:PrepareBalvanka = null;
          var _loc4_:KnotCrime = null;
+         var _loc5_:MovieClip = null;
          var _loc9_:int = 0;
          var _loc10_:int = 0;
-         var _loc3_:PrepareBalvanka = new PrepareBalvanka(false);
-         _loc3_.position = BalvankaColor.bashfulWhistle.deliverHanging();
-         _loc3_.fragileClub = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         if(HystericalKotsky.notebookChivalrous == param1)
+         _loc3_ = new PrepareBalvanka(false);
+         _loc3_.position = BalvankaColor.faintYell();
+         _loc3_.batheCute = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         if(param1 == OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
-            _loc4_ = new KnotCrime(AlansonReligion.thickBird,RecogniseCompetition.prepareAgree(BerryMouse.lamentableStore));
+            _loc4_ = new KnotCrime(OrderUnit.apatheticRare(AdmireUncle.wanderingInstruct),PanoramicProbable.entertainingTrail);
          }
-         else if(param1 == RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+         else if(param1 == CardBabies.machineOranges)
          {
-            _loc4_ = new KnotCrime(LipStore.joyousThick,FrailJuice.chopCard);
+            _loc4_ = new KnotCrime(PinusSand.complexStatement,CreatorSupply.birdPanoramic);
          }
-         else if(LaborerFeeble.instructBathe == param1)
+         else if(param1 == PinusSand.jumbledTiresome)
          {
-            _loc4_ = new KnotCrime(RecogniseCompetition.prepareAgree(AnusSeed.determinedSisters),AdviseRobin.joyousBurn);
+            _loc4_ = new KnotCrime(OrderUnit.apatheticRare(GullibleLook.batheSuper),VolcanoStay.stomachCommon);
          }
          if(param2)
          {
-            this.stayDeadpan[RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)] = param1;
+            this.burnDelightful[PinusSand.jumbledTiresome] = param1;
          }
          else
          {
-            _loc9_ = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-            _loc10_ = HystericalKotsky.notebookChivalrous;
-            while(_loc10_ < this.groundScintillating.length)
+            _loc9_ = ReligionStore.trailInstruct;
+            _loc10_ = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+            while(_loc10_ < this.violetSuzuka.length)
             {
-               if(!this.groundScintillating[_loc10_])
+               if(!this.violetSuzuka[_loc10_])
                {
                   _loc9_++;
                }
                _loc10_++;
             }
-            if(_loc9_ == RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka))
+            if(_loc9_ == SlipReligion.companyHistorical)
             {
-               _loc4_.delta(HystericalKotsky.notebookChivalrous,this.chickensAbaft);
-               this.stayDeadpan[RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)] = param1;
+               _loc4_.delta(ReligionStore.trailInstruct,this.harmonyChop);
+               this.burnDelightful[OrderUnit.apatheticRare(ReligionStore.trailInstruct)] = param1;
             }
-            else if(LaborerFeeble.instructBathe == _loc9_)
+            else if(_loc9_ == PinusSand.jumbledTiresome)
             {
-               this.stayDeadpan[CoalRay.actionBorrow] = param1;
+               this.burnDelightful[CardBabies.machineOranges] = param1;
             }
-            else if(_loc9_ == CoalRay.actionBorrow)
+            else if(CardBabies.machineOranges == _loc9_)
             {
-               _loc4_.delta(HystericalKotsky.notebookChivalrous,-this.chickensAbaft);
-               this.stayDeadpan[LaborerFeeble.instructBathe] = param1;
+               _loc4_.delta(ReligionStore.trailInstruct,-this.harmonyChop);
+               this.burnDelightful[PinusSand.jumbledTiresome] = param1;
             }
          }
-         var _loc5_:MovieClip = new MovieClip();
-         var _loc6_:Bitmap = AgreeableHistorical.religionSign(RecogniseCompetition.mouseDelightful(DeterminedWarlike.metalMark) + (param1 + RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)) + RecogniseCompetition.mouseDelightful(AdviseRobin.inexpensiveDelightful));
-         _loc6_.x = -_loc4_.x / LaborerFeeble.instructBathe;
-         _loc6_.y = -_loc4_.y / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
+         _loc5_ = new MovieClip();
+         var _loc6_:Bitmap = AgreeableHistorical.crowdedScale(OrderUnit.probableLip(BurnFix.juiceOranges) + (param1 + OrderUnit.apatheticRare(CardBabies.machineOranges)) + WaitingCrib.injureCreator);
+         _loc6_.x = -_loc4_.x / PinusSand.jumbledTiresome;
+         _loc6_.y = -_loc4_.y / PinusSand.jumbledTiresome;
          _loc5_.addChild(_loc6_);
          _loc3_.userData = _loc5_;
-         BerryAnus.cribSatisfy.apatheticFour.addChild(_loc5_);
-         var _loc7_:BabiesHistorical = BerryAnus.cribSatisfy.orderWhistle.deliverChop(_loc3_);
+         BerryAnus.touchSerious.frailLight.addChild(_loc5_);
+         var _loc7_:BabiesHistorical = BerryAnus.touchSerious.faithfulStay(_loc3_);
          var _loc8_:WhistleFascinated = new WhistleFascinated();
-         _loc8_.adhesiveJumbled = RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         _loc8_.wateryStay = DeterminedWarlike.faintWicked;
-         _loc8_.zonkedArmy = RecogniseCompetition.scaleCrown(BruiseBorrow.largeDeliver);
-         _loc8_.bladeLabel.sistersBerry = RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird);
-         _loc8_.bladeLabel.apatheticPinus = AdviseRobin.mouseProbable;
-         _loc8_.crackerHarmony(_loc4_.x / RecogniseCompetition.scaleCrown(BerryMouse.squeamishJoyous),_loc4_.y / BerryMouse.squeamishJoyous);
-         _loc7_.agreeMighty(_loc8_);
-         _loc7_.crowdedGullible();
-         _loc7_.scintillatingOrange = HystericalKotsky.borrowTax;
-         _loc7_.confusedEntertaining = RecogniseCompetition.prepareAgree(CoalRay.actionBorrow) / _loc7_.scintillatingOrange;
-         _loc7_.crimeLook = BalvankaColor.alluringFragile;
+         _loc8_.complexTasteless = CardBabies.machineOranges;
+         _loc8_.quirkyHydrant = OrderUnit.noiselessGullible(StupidCoal.hateLabel);
+         _loc8_.scaleJoyous = OrderUnit.noiselessGullible(ListIllustrious.pailFour);
+         _loc8_.scaleWhistle = GullibleLook.unequaledJumbled;
+         _loc8_.laborerScratch = CardBabies.senseCrown;
+         _loc8_.confusedLook(_loc4_.x / OrderUnit.noiselessGullible(BurnFix.lamentableFaithful),_loc4_.y / OrderUnit.noiselessGullible(BurnFix.lamentableFaithful));
+         _loc7_.bruiseConfused(_loc8_);
+         _loc7_.planIcy();
+         _loc7_.listPlan = ReligionStore.zonkedReligion;
+         _loc7_.satisfyApathetic = CardBabies.machineOranges / _loc7_.listPlan;
+         _loc7_.injureBabies = BalvankaColor.wateryGate;
          return _loc7_;
       }
       
-      public function wingUncle(param1:RobinAdaptable, param2:int, param3:int) : void
+      public function proseSatisfy(param1:RobinAdaptable, param2:int, param3:int) : void
       {
          var _loc5_:KnotCrime = null;
-         if(!this.groundScintillating || param2 < HystericalKotsky.notebookChivalrous || param2 > this.groundScintillating.length)
+         if(!this.violetSuzuka || param2 < OrderUnit.apatheticRare(ReligionStore.trailInstruct) || param2 > this.violetSuzuka.length)
          {
             return;
          }
-         var _loc4_:BabiesHistorical = this.groundScintillating[param2];
-         param1.subduedSuzuka.scintillatingOrange = RayYell.lamentableVolcano;
-         param1.subduedSuzuka.confusedEntertaining = CoalRay.actionBorrow / param1.subduedSuzuka.scintillatingOrange;
-         if(param3 < AdviseRobin.satisfyGaping)
+         var _loc4_:BabiesHistorical = this.violetSuzuka[param2];
+         param1.flowerNotebook;
+         param1.bladeBlade = CardBabies.machineOranges / param1.pinusAdaptable;
+         if(AdmireUncle.crimeCreator > param3)
          {
-            _loc5_ = KnotCrime.complexSuzuka(BalvankaColor.flowerSatisfy[param2][param3]);
+            _loc5_ = KnotCrime.yellBerry(BalvankaColor.crackerCreator[param2][param3]);
          }
          else
          {
-            _loc5_ = KnotCrime.complexSuzuka(ScintillatingWhistle.joyousZonked(BalvankaColor.flowerSatisfy[param2][AdviseRobin.satisfyGaping],BalvankaColor.flowerSatisfy[param2][BruiseBorrow.taxChivalrous]));
+            _loc5_ = KnotCrime.yellBerry(ScintillatingWhistle.icyStale(BalvankaColor.crackerCreator[param2][OrderUnit.apatheticRare(AdmireUncle.crimeCreator)],BalvankaColor.crackerCreator[param2][BatheKotsky.milkyEntertaining]));
          }
-         var _loc6_:int = this.stayDeadpan.indexOf(param2);
-         if(_loc6_ != -CoalRay.actionBorrow)
+         var _loc6_:int = this.burnDelightful.indexOf(param2);
+         if(_loc6_ != -CardBabies.machineOranges)
          {
-            if(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) == _loc6_)
+            if(OrderUnit.apatheticRare(ReligionStore.trailInstruct) == _loc6_)
             {
-               _loc5_.delta(HystericalKotsky.notebookChivalrous,-this.chickensAbaft / LaborerFeeble.instructBathe);
+               _loc5_.delta(ReligionStore.trailInstruct,-this.harmonyChop / PinusSand.jumbledTiresome);
             }
-            else if(_loc6_ == RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe))
+            else if(_loc6_ == PinusSand.jumbledTiresome)
             {
-               _loc5_.delta(HystericalKotsky.notebookChivalrous,this.chickensAbaft / LaborerFeeble.instructBathe);
+               _loc5_.delta(ReligionStore.trailInstruct,this.harmonyChop / OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
             }
          }
          var _loc7_:BalvankaOranges = new BalvankaOranges();
-         _loc7_.berryKuruma = DeterminedPrepare.hatefulComplex;
-         _loc7_.noxiousLabel = -HystericalKotsky.notebookChivalrous;
-         _loc7_.alansonPear = HystericalKotsky.notebookChivalrous;
-         _loc7_.chivalrousWarlike = param1.subduedSuzuka;
-         _loc7_.spuriousQuirky = _loc4_;
-         _loc7_.kotskySerious = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         _loc7_.senseMouse = new KnotSwanky(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-         _loc7_.decayProgram = new KnotSwanky(_loc5_.x / LaborerFeeble.knotPeck,_loc5_.y / RecogniseCompetition.scaleCrown(LaborerFeeble.knotPeck));
-         BerryAnus.cribSatisfy.orderWhistle.swankySigh(_loc7_);
-         param1.subduedSuzuka.lightCommon(false);
+         _loc7_.creatorInvite = HateFaint.proudGround;
+         _loc7_.proudSpurious = -ReligionStore.trailInstruct;
+         _loc7_.unequaledNotebook = ReligionStore.trailInstruct;
+         _loc7_.mightyHistorical = param1.mouseOrange;
+         _loc7_.bladeSpurious = _loc4_;
+         _loc7_.loafComplex = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         _loc7_.tiresomeCreator = new KnotSwanky(ReligionStore.trailInstruct,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         _loc7_.agonizingRay = new KnotSwanky(_loc5_.x / OrderUnit.noiselessGullible(StupidCoal.mouseAdmire),_loc5_.y / StupidCoal.mouseAdmire);
+         BerryAnus.touchSerious.flowerSisters(_loc7_);
+         param1.instructAnus(false);
       }
       
-      override public function icyGrate(param1:AnusHateful) : void
+      override public function obeisantNoiseless(param1:AnusHateful) : void
       {
          var _loc2_:int = 0;
          var _loc3_:BabiesHistorical = null;
@@ -350,83 +248,181 @@ package
          var _loc8_:RobinAdaptable = null;
          var _loc9_:BabiesHistorical = null;
          var _loc10_:RobinAdaptable = null;
-         switch(param1.entertainingHateful)
+         switch(param1.planHalf)
          {
-            case HystericalKotsky.notebookChivalrous:
-               if(instructAir)
+            case ReligionStore.trailInstruct:
+               if(unitProbable)
                {
-                  _loc2_ = param1.crimeStay(HystericalKotsky.notebookChivalrous);
-                  _loc4_ = param1.bladeAgonizing(CoalRay.actionBorrow);
-                  _loc3_ = this.bashfulOrange(_loc2_,_loc4_);
-                  this.groundScintillating[_loc2_] = _loc3_;
+                  _loc2_ = param1.chivalrousCrown(ReligionStore.trailInstruct);
+                  _loc4_ = param1.crownLarge(OrderUnit.apatheticRare(CardBabies.machineOranges));
+                  _loc3_ = this.subduedSwanky(_loc2_,_loc4_);
+                  this.violetSuzuka[_loc2_] = _loc3_;
                }
                break;
-            case CoalRay.actionBorrow:
-               if(instructAir)
+            case CardBabies.machineOranges:
+               if(unitProbable)
                {
-                  _loc2_ = param1.crimeStay(HystericalKotsky.notebookChivalrous);
-                  if(this.groundScintillating && _loc2_ >= HystericalKotsky.notebookChivalrous && _loc2_ < this.groundScintillating.length)
+                  _loc2_ = param1.chivalrousCrown(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+                  if(this.violetSuzuka && _loc2_ >= ReligionStore.trailInstruct && _loc2_ < this.violetSuzuka.length)
                   {
-                     _loc5_ = param1.crimeStay(CoalRay.actionBorrow);
+                     _loc5_ = param1.chivalrousCrown(CardBabies.machineOranges);
                      _loc6_ = new Vector.<RobinAdaptable>();
-                     _loc7_ = HystericalKotsky.notebookChivalrous;
+                     _loc7_ = ReligionStore.trailInstruct;
                      while(_loc7_ < _loc5_)
                      {
-                        _loc8_ = AdmireStore.proseWindy.whistleCoal[param1.crimeStay(_loc7_ + RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe))];
+                        _loc8_ = StalePinus.halfWaiting.warlikeConfused[param1.chivalrousCrown(PinusSand.jumbledTiresome + _loc7_)];
                         if(_loc8_)
                         {
                            _loc6_.push(_loc8_);
                         }
                         _loc7_++;
                      }
-                     BerryAnus.cribSatisfy.apatheticFour.addChild(this.groundScintillating[_loc2_].loafPinus);
-                     this.actionMouse(_loc2_,_loc6_);
+                     BerryAnus.touchSerious.frailLight.addChild(this.violetSuzuka[_loc2_].berryReligion);
+                     this.eliteBashful(_loc2_,_loc6_);
                   }
                }
                break;
-            case LaborerFeeble.instructBathe:
-               if(instructAir)
+            case PinusSand.jumbledTiresome:
+               if(unitProbable)
                {
-                  _loc2_ = param1.crimeStay(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-                  if(this.groundScintillating && this.groundScintillating[_loc2_])
+                  _loc2_ = param1.chivalrousCrown(ReligionStore.trailInstruct);
+                  if(this.violetSuzuka && this.violetSuzuka[_loc2_])
                   {
-                     this.groundScintillating[_loc2_].wateryPinus.zonkedJuice = this.groundScintillating[_loc2_].wateryPinus.zonkedJuice + BalvankaColor.suzukaSand;
-                     this.slipCrib();
+                     this.violetSuzuka[_loc2_].gateCracker = this.violetSuzuka[_loc2_].gateCracker + BalvankaColor.competitionDecay;
+                     this.distroAlanson();
                   }
                }
                break;
-            case RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka):
-               if(instructAir)
+            case SlipReligion.companyHistorical:
+               if(unitProbable)
                {
-                  _loc2_ = param1.crimeStay(HystericalKotsky.notebookChivalrous);
-                  if(this.groundScintillating && this.groundScintillating[_loc2_])
+                  _loc2_ = param1.chivalrousCrown(ReligionStore.trailInstruct);
+                  if(this.violetSuzuka && this.violetSuzuka[_loc2_])
                   {
-                     _loc3_ = this.groundScintillating[_loc2_];
-                     _loc3_.feebleClub(new KnotSwanky(param1.crimeStay(CoalRay.actionBorrow) / AnusSeed.statementInexpensive,param1.crimeStay(RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)) / AnusSeed.statementInexpensive),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-                     _loc3_.wateryPinus = new KnotSwanky(param1.crimeStay(RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka)) / RecogniseCompetition.scaleCrown(AnusSeed.statementInexpensive),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
+                     _loc3_ = this.violetSuzuka[_loc2_];
+                     _loc3_.fixMachine(new KnotSwanky(param1.chivalrousCrown(OrderUnit.apatheticRare(CardBabies.machineOranges)) / RayAmuse.injureBathe,param1.chivalrousCrown(PinusSand.jumbledTiresome) / OrderUnit.noiselessGullible(RayAmuse.injureBathe)),OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+                     _loc3_.buryBerry = new KnotSwanky(param1.chivalrousCrown(SlipReligion.companyHistorical) / OrderUnit.noiselessGullible(RayAmuse.injureBathe),OrderUnit.apatheticRare(ReligionStore.trailInstruct));
                   }
                }
                break;
-            case RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable):
-               if(instructAir)
+            case OrderUnit.apatheticRare(CardBabies.senseCrown):
+               if(unitProbable)
                {
-                  _loc2_ = param1.crimeStay(HystericalKotsky.notebookChivalrous);
-                  this.chopCoal = DeterminedPrepare.hatefulComplex;
-                  this.crashStale = DeterminedPrepare.machineSigh;
-                  for each(_loc9_ in this.groundScintillating)
+                  _loc2_ = param1.chivalrousCrown(ReligionStore.trailInstruct);
+                  this.companyGrate = HateFaint.proudGround;
+                  this.rayDelightful = HateFaint.bladeStatement;
+                  for each(_loc9_ in this.violetSuzuka)
                   {
-                     if(_loc9_.loafPinus && _loc9_.loafPinus.parent)
+                     if(_loc9_.berryReligion && _loc9_.berryReligion.parent)
                      {
-                        _loc9_.loafPinus.parent.removeChild(_loc9_.loafPinus);
+                        _loc9_.berryReligion.parent.removeChild(_loc9_.berryReligion);
                      }
-                     BerryAnus.cribSatisfy.orderWhistle.commonCrib(_loc9_);
+                     BerryAnus.touchSerious.volcanoMilky(_loc9_);
                   }
-                  AdmireStore.proseWindy.volcanoLeg = DeterminedPrepare.machineSigh;
-                  for each(_loc10_ in AdmireStore.proseWindy.whistleCoal)
+                  StalePinus.halfWaiting.suzukaTax = HateFaint.bladeStatement;
+                  for each(_loc10_ in StalePinus.halfWaiting.warlikeConfused)
                   {
-                     _loc10_.subduedSuzuka.lightCommon(true);
+                     _loc10_.instructAnus(true);
                   }
                }
+         }
+      }
+      
+      override public function squeamishProud(param1:int) : Boolean
+      {
+         if(quirkyBurn && this.dildoChickens != -OrderUnit.apatheticRare(CardBabies.machineOranges))
+            {
+               if(WingLip.kotskyCrown == param1)
+               {
+                  return true;
+               }
+               if(param1 == WingLip.cribApathetic || param1 == WingLip.bagInvite)
+               {
+                  return true;
+               }
+               if(param1 == WingLip.decayTiresome)
+               {
+                  return true;
+               }
+            }
+         }
+         return false;
+      }
+      
+      override public function yellSpurious(param1:int) : Boolean
+      {
+         if(quirkyBurn && this.dildoChickens != -CardBabies.machineOranges)
+            {
+               if(WingLip.kotskyCrown == param1)
+               {
+                  return true;
+               }
+               if(WingLip.cribApathetic == param1)
+               {
+                  if(this.kurumaMighty.length == ReligionStore.trailInstruct || this.senseTremble.length - CardBabies.machineOranges] == false)
+                  {
+                     this.kurumaMighty.push(true);
+                     if(this.kurumaMighty.length == BalvankaColor.rareChicken)
+                     {
+                        RareFeeble.waitingGullible.sighCrime(jumbledLook(OrderUnit.apatheticRare(CardBabies.machineOranges)));
+                        this.kurumaMighty = new Vector.<Boolean>();
+                     }
+                  }
+                  else
+                  {
+                     this.kurumaMighty = new Vector.<Boolean>();
+                  }
+                  return true;
+               }
+               if(param1 == WingLip.bagInvite)
+               {
+                  if(this.kurumaMighty.length == OrderUnit.apatheticRare(ReligionStore.trailInstruct) || this.senseTremble.length - OrderUnit.apatheticRare(CardBabies.machineOranges)] == true)
+                  {
+                     this.kurumaMighty.push(false);
+                     if(this.kurumaMighty.length == BalvankaColor.rareChicken)
+                     {
+                        RareFeeble.waitingGullible.sighCrime(jumbledLook(OrderUnit.apatheticRare(CardBabies.machineOranges)));
+                        this.kurumaMighty = new Vector.<Boolean>();
+                     }
+                  }
+                  else
+                  {
+                     this.kurumaMighty = new Vector.<Boolean>();
+                  }
+                  return true;
+               }
+               if(param1 == WingLip.decayTiresome)
+               {
+                  return true;
+               }
+            }
+         }
+         return false;
+      }
+      
+      override public function agreeablePear(param1:int) : void
+      {
+         var _loc2_:BabiesHistorical = null;
+         if(legColor)
+            {
+               if(param1 - this.loafSign > PinusSand.kurumaComplex)
+               {
+                  this.distroAlanson();
+                  this.loafSign = param1;
+               }
+               _loc2_ = this.religionSwanky];
+               if(_loc2_.gateCracker < -AdaptableInexpensive.tiresomeHarmony)
+               {
+                  _loc2_.gateCracker = ReligionStore.trailInstruct;
+                  this.distroAlanson();
+               }
+               if(_loc2_.proudKuruma().milkySupply * OrderUnit.apatheticRare(AdmireUncle.delightfulFragile) > BalvankaColor.gateInexpensive && !this.companyGrate)
+               {
+                  this.companyGrate = HateFaint.proudGround;
+                  this.distroAlanson();
+                  RareFeeble.waitingGullible.sighCrime(jumbledLook(OrderUnit.apatheticRare(CardBabies.senseCrown)));
+               }
+            }
          }
       }
    }

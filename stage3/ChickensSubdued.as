@@ -13,86 +13,87 @@ package
    {
        
       
-      public var scintillatingCoal:int;
+      public var storeAmuse:int;
       
-      public var delightfulAlanson:int;
+      public var babiesSubdued:int;
       
-      public var inviteBlade:int;
+      public var backWandering:int;
       
-      public var distroMark:int;
+      public var knotStale:int;
       
-      public var anusOrange:TextField;
+      public var actionProse:TextField;
       
-      public var lamentableWindy:TextField;
+      public var deliverPlan:TextField;
       
-      public var bruiseJuice:Vector.<String>;
+      public var metalPail:Vector.<String>;
       
       public function ChickensSubdued(param1:int, param2:int)
       {
-         this.inviteBlade = RecogniseTrail.balvankaAir;
-         this.bruiseJuice = new Vector.<String>();
+         var _loc3_:Sprite = null;
+         this.backWandering = PrepareLip.pailThick;
+         this.metalPail = new Vector.<String>();
          super();
-         this.scintillatingCoal = param1;
-         this.delightfulAlanson = param2;
-         this.distroMark = this.scintillatingCoal - this.inviteBlade - RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping);
-         this.anusOrange = new TextField();
-         this.anusOrange.defaultTextFormat = new TextFormat(BerryAgreeable.groundKuruma,BalvankaNotebook.subduedCard,FascinatedAnus.fragileConfused,null,null,null,null,null,null,null,null,null,-RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
-         this.anusOrange.styleSheet = AdmireStore.proseWindy.agonizingThick;
-         this.anusOrange.x = this.scintillatingCoal - this.distroMark;
-         this.anusOrange.width = this.distroMark;
-         this.anusOrange.height = this.delightfulAlanson + RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping);
-         this.anusOrange.multiline = DeterminedPrepare.hatefulComplex;
-         this.anusOrange.wordWrap = DeterminedPrepare.hatefulComplex;
-         addChild(this.anusOrange);
-         this.lamentableWindy = new TextField();
-         this.lamentableWindy.defaultTextFormat = new TextFormat(BerryAgreeable.groundKuruma,BerryMouse.distroWicked,FascinatedAnus.fragileConfused);
-         this.lamentableWindy.width = this.inviteBlade;
-         this.lamentableWindy.height = this.delightfulAlanson / LaborerFeeble.instructBathe;
-         this.lamentableWindy.y = int(-this.lamentableWindy.height + this.delightfulAlanson);
-         this.lamentableWindy.type = TextFieldType.INPUT;
-         this.lamentableWindy.addEventListener(KeyboardEvent.KEY_DOWN,this.wanderingCrib);
-         addChild(this.lamentableWindy);
-         var _loc3_:Sprite = new Sprite();
+         this.storeAmuse = param1;
+         this.babiesSubdued = param2;
+         this.knotStale = this.storeAmuse - this.backWandering - OrderUnit.apatheticRare(AdmireUncle.crimeCreator);
+         this.actionProse = new TextField();
+         this.actionProse.defaultTextFormat = new TextFormat(BerryAgreeable.decayInjure,AdaptableInexpensive.harmonyChicken,FascinatedAnus.programMetal,null,null,null,null,null,null,null,null,null,-OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
+         this.actionProse.styleSheet = StalePinus.halfWaiting.agreeableCrowded;
+         this.actionProse.x = this.storeAmuse - this.knotStale;
+         this.actionProse.width = this.knotStale;
+         this.actionProse.height = OrderUnit.apatheticRare(AdmireUncle.crimeCreator) + this.babiesSubdued;
+         this.actionProse.multiline = HateFaint.proudGround;
+         this.actionProse.wordWrap = HateFaint.proudGround;
+         addChild(this.actionProse);
+         this.deliverPlan = new TextField();
+         this.deliverPlan.defaultTextFormat = new TextFormat(BerryAgreeable.decayInjure,OrderUnit.apatheticRare(PrepareLip.competitionSupply),FascinatedAnus.programMetal);
+         this.deliverPlan.width = this.backWandering;
+         this.deliverPlan.height = this.babiesSubdued / OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+         this.deliverPlan.y = int(this.babiesSubdued - this.deliverPlan.height);
+         this.deliverPlan.type = TextFieldType.INPUT;
+         this.deliverPlan.addEventListener(KeyboardEvent.KEY_DOWN,this.gateChicken);
+         addChild(this.deliverPlan);
+         _loc3_ = new Sprite();
          _loc3_.graphics.beginFill(2504254);
-         _loc3_.graphics.drawRoundRect(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),this.lamentableWindy.width + LaborerFeeble.instructBathe,this.lamentableWindy.height,RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous));
+         _loc3_.graphics.drawRoundRect(ReligionStore.trailInstruct,OrderUnit.apatheticRare(ReligionStore.trailInstruct),this.deliverPlan.width + OrderUnit.apatheticRare(PinusSand.jumbledTiresome),this.deliverPlan.height,BatheKotsky.milkyEntertaining);
          _loc3_.graphics.endFill();
-         _loc3_.x = this.lamentableWindy.x - CoalRay.actionBorrow;
-         _loc3_.y = this.lamentableWindy.y - CoalRay.actionBorrow;
-         _loc3_.filters = new Array(new BevelFilter(CoalRay.actionBorrow,RecogniseCompetition.prepareAgree(HystericalKotsky.borrowTax),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),12176082,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),CoalRay.actionBorrow,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)));
-         addChildAt(_loc3_,HystericalKotsky.notebookChivalrous);
+         _loc3_.x = this.deliverPlan.x - CardBabies.machineOranges;
+         _loc3_.y = -CardBabies.machineOranges + this.deliverPlan.y;
+         _loc3_.filters = new Array(new BevelFilter(OrderUnit.apatheticRare(CardBabies.machineOranges),OrderUnit.apatheticRare(ReligionStore.zonkedReligion),OrderUnit.apatheticRare(ReligionStore.trailInstruct),OrderUnit.apatheticRare(CardBabies.machineOranges),12176082,OrderUnit.apatheticRare(CardBabies.machineOranges),CardBabies.machineOranges,OrderUnit.apatheticRare(CardBabies.machineOranges)));
+         addChildAt(_loc3_,ReligionStore.trailInstruct);
       }
       
-      public function wanderingCrib(param1:KeyboardEvent) : void
+      public function bashfulCrash(param1:Event) : void
+      {
+         removeEventListener(WaitingCrib.gateFrail,this.bashfulCrash);
+         this.deliverPlan.text = DildoBorrow.metalAdaptable;
+      }
+      
+      public function gullibleHanging(param1:String) : void
+      {
+         this.metalPail.push(param1);
+         if(OrderUnit.apatheticRare(CardBabies.senseCrown) < this.metalPail.length)
+         {
+            this.metalPail.shift();
+         }
+         this.actionProse.htmlText = OrderUnit.probableLip(BurnFix.dildoComplex.join(OrderUnit.probableLip(ReligionStore.uncleFaithful));
+         this.actionProse.scrollV = this.actionProse.maxScrollV;
+      }
+      
+      public function gateChicken(param1:KeyboardEvent) : void
       {
          var _loc3_:String = null;
          var _loc2_:int = param1.keyCode;
-         if(BirdOranges.coalSeed == _loc2_)
+         if(_loc2_ == BirdOranges.groundSerious)
          {
-            _loc3_ = this.lamentableWindy.text;
+            _loc3_ = this.deliverPlan.text;
             if(!_loc3_)
             {
                return;
             }
-            addEventListener(RecogniseCompetition.mouseDelightful(BalvankaNotebook.programOrder),this.annoyingGate);
+            addEventListener(OrderUnit.probableLip(WaitingCrib.gateFrail),this.bashfulCrash);
             ProxyTribulle.x_validationMessageChat(_loc3_);
          }
-      }
-      
-      public function annoyingGate(param1:Event) : void
-      {
-         removeEventListener(BalvankaNotebook.programOrder,this.annoyingGate);
-         this.lamentableWindy.text = RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued);
-      }
-      
-      public function faithfulCry(param1:String) : void
-      {
-         this.bruiseJuice.push(param1);
-         if(this.bruiseJuice.length > AdviseRobin.mouseProbable)
-         {
-            this.bruiseJuice.shift();
-         }
-         this.anusOrange.htmlText = RecogniseCompetition.mouseDelightful(ConfusedPeck.flowerWing) + this.bruiseJuice.join(RecogniseCompetition.mouseDelightful(CoalWhisper.orangeFragile));
-         this.anusOrange.scrollV = this.anusOrange.maxScrollV;
       }
    }
 }

@@ -5,62 +5,62 @@ package
    public class ClubCrib
    {
       
-      public static var noiselessTasteless:Dictionary;
+      public static var patComplex:Dictionary;
        
       
       public var x_codeTitre:int;
       
-      public var tastelessCommon:int;
+      public var admireCurved:int;
       
       public function ClubCrib(param1:int, param2:int)
       {
          super();
          this.x_codeTitre = param1;
-         this.tastelessCommon = param2;
+         this.admireCurved = param2;
       }
       
-      public static function hatefulSerious(param1:int, param2:int, param3:int = 0) : String
+      public static function chopBird(param1:int, param2:int, param3:int = 0) : String
       {
-         if(RecogniseCompetition.prepareAgree(HystericalKotsky.lunasoleHate) < param2)
+         if(OrderUnit.apatheticRare(StupidCoal.chivalrousSatisfy) < param2)
          {
-            param2 = RecogniseCompetition.prepareAgree(HystericalKotsky.lunasoleHate);
+            param2 = OrderUnit.apatheticRare(StupidCoal.chivalrousSatisfy);
          }
-         if(ClubCrib.noiselessTasteless == null)
+         if(ClubCrib.patComplex == null)
          {
-            ClubCrib.noiselessTasteless = new Dictionary();
-            if(ScaleDetermined.scaleRay())
+            ClubCrib.patComplex = new Dictionary();
+            if(ScaleDetermined.proseFour())
             {
-               ClubCrib.noiselessTasteless[HystericalKotsky.notebookChivalrous] = RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued);
-               ClubCrib.noiselessTasteless[RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)] = RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued);
-               ClubCrib.noiselessTasteless[LaborerFeeble.instructBathe] = RecogniseCompetition.mouseDelightful(HystericalKotsky.patPinus);
-               ClubCrib.noiselessTasteless[RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka)] = RecogniseCompetition.mouseDelightful(RayYell.hystericalAdhesive);
-               ClubCrib.noiselessTasteless[AdviseRobin.mouseProbable] = DeterminedWarlike.backPail;
-               ClubCrib.noiselessTasteless[RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping)] = HystericalKotsky.rayLight;
-               ClubCrib.noiselessTasteless[BruiseBorrow.taxChivalrous] = FrailJuice.annoyingConfused;
-               ClubCrib.noiselessTasteless[RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear)] = RecogniseCompetition.mouseDelightful(BerryMouse.confusedStatement);
-               ClubCrib.noiselessTasteless[RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird)] = RecogniseCompetition.mouseDelightful(BruiseBorrow.curvedScale);
-               ClubCrib.noiselessTasteless[RecogniseCompetition.prepareAgree(HystericalKotsky.lunasoleHate)] = BerryMouse.crownGullible;
+               ClubCrib.patComplex[ReligionStore.trailInstruct] = DildoBorrow.metalAdaptable;
+               ClubCrib.patComplex[OrderUnit.apatheticRare(CardBabies.machineOranges)] = OrderUnit.probableLip(DildoBorrow.metalAdaptable);
+               ClubCrib.patComplex[PinusSand.jumbledTiresome] = PinusSand.crimeBag;
+               ClubCrib.patComplex[SlipReligion.companyHistorical] = VolcanoStay.robinSeed;
+               ClubCrib.patComplex[CardBabies.senseCrown] = PinusSand.violetChicken;
+               ClubCrib.patComplex[OrderUnit.apatheticRare(AdmireUncle.crimeCreator)] = OrderUnit.probableLip(CreatorSupply.preparePanoramic);
+               ClubCrib.patComplex[BatheKotsky.milkyEntertaining] = DildoBorrow.gullibleSuzuka;
+               ClubCrib.patComplex[VolcanoStay.proudWaiting] = OrderUnit.probableLip(AdmireUncle.warlikeScintillating);
+               ClubCrib.patComplex[OrderUnit.apatheticRare(GullibleLook.unequaledJumbled)] = BurnFix.laborerAgonizing;
+               ClubCrib.patComplex[OrderUnit.apatheticRare(StupidCoal.chivalrousSatisfy)] = WanderingDecay.lamentableAdaptable;
             }
             else
             {
-               ClubCrib.noiselessTasteless[HystericalKotsky.notebookChivalrous] = RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued);
-               ClubCrib.noiselessTasteless[RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)] = RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued);
-               ClubCrib.noiselessTasteless[RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)] = RecogniseTrail.hatefulYell;
-               ClubCrib.noiselessTasteless[RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka)] = RecogniseCompetition.mouseDelightful(AlansonReligion.hatefulProbable);
-               ClubCrib.noiselessTasteless[RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable)] = RecogniseCompetition.mouseDelightful(ArmyObtainable.gullibleViolet);
-               ClubCrib.noiselessTasteless[AdviseRobin.satisfyGaping] = RecogniseCompetition.mouseDelightful(DeterminedWarlike.faithfulWhistle);
-               ClubCrib.noiselessTasteless[RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous)] = ConfusedPeck.companyFragile;
-               ClubCrib.noiselessTasteless[AdviseRobin.obtainablePear] = RecogniseCompetition.mouseDelightful(AlansonReligion.injureRequest);
-               ClubCrib.noiselessTasteless[RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird)] = RecogniseCompetition.mouseDelightful(DeterminedWarlike.touchSigh);
-               ClubCrib.noiselessTasteless[HystericalKotsky.lunasoleHate] = RecogniseCompetition.mouseDelightful(RayYell.religionCompetition);
+               ClubCrib.patComplex[OrderUnit.apatheticRare(ReligionStore.trailInstruct)] = DildoBorrow.metalAdaptable;
+               ClubCrib.patComplex[OrderUnit.apatheticRare(CardBabies.machineOranges)] = OrderUnit.probableLip(DildoBorrow.metalAdaptable);
+               ClubCrib.patComplex[OrderUnit.apatheticRare(PinusSand.jumbledTiresome)] = OrderUnit.probableLip(DildoBorrow.berryLunasole);
+               ClubCrib.patComplex[SlipReligion.companyHistorical] = WaitingCrib.legFascinated;
+               ClubCrib.patComplex[OrderUnit.apatheticRare(CardBabies.senseCrown)] = PanoramicProbable.gapingHate;
+               ClubCrib.patComplex[AdmireUncle.crimeCreator] = OrderUnit.probableLip(BurnFix.fascinatedMark);
+               ClubCrib.patComplex[BatheKotsky.milkyEntertaining] = OrderUnit.probableLip(BatheKotsky.gapingRecognise);
+               ClubCrib.patComplex[VolcanoStay.proudWaiting] = VolcanoStay.burnCrime;
+               ClubCrib.patComplex[OrderUnit.apatheticRare(GullibleLook.unequaledJumbled)] = OrderUnit.probableLip(ReligionStore.cardCrown);
+               ClubCrib.patComplex[StupidCoal.chivalrousSatisfy] = OrderUnit.probableLip(GullibleLook.chickensCrash);
             }
          }
-         var _loc4_:Boolean = BorrowBird.decayDelightful(param3);
-         if(param2 > CoalRay.actionBorrow)
+         var _loc4_:Boolean = BorrowBird.fourLeg(param3);
+         if(OrderUnit.apatheticRare(CardBabies.machineOranges) < param2)
          {
-            return BerryAgreeable.robinBag(_loc4_,RecogniseCompetition.mouseDelightful(AnusSeed.laborerHeal) + param1) + RecogniseCompetition.mouseDelightful(RecogniseTrail.faithfulPipka) + ClubCrib.noiselessTasteless[param2];
+            return BerryAgreeable.labelAdhesive(_loc4_,PanoramicProbable.babiesOrange + param1) + OrderUnit.probableLip(StupidCoal.whisperCrash) + ClubCrib.patComplex[param2];
          }
-         return BerryAgreeable.robinBag(_loc4_,RecogniseCompetition.mouseDelightful(AnusSeed.laborerHeal) + param1);
+         return BerryAgreeable.labelAdhesive(_loc4_,PanoramicProbable.babiesOrange + param1);
       }
    }
 }

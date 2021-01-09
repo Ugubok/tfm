@@ -7,111 +7,111 @@ package
    {
        
       
-      public var bruiseSatisfy:BirdGround;
+      public var suzukaStale:BirdGround;
       
-      public var armyDeadpan:Function = null;
+      public var bagBorrow:Function = null;
       
       public function AnusBorrow(param1:int, param2:String = "", param3:Boolean = false)
       {
          super(param1,param2,param3);
-         this.bruiseSatisfy = new BirdGround(scintillatingCoal);
-         this.bruiseSatisfy.addEventListener(KeyboardEvent.KEY_DOWN,this.staySuper);
-         programVolcano();
-         cuteProse(illustriousSupply,this.bruiseSatisfy,dildoPipka);
-         sighChop(scintillatingCoal,icyAbaft(false));
+         this.suzukaStale = new BirdGround(storeAmuse);
+         this.suzukaStale.addEventListener(KeyboardEvent.KEY_DOWN,this.satisfyAgreeable);
+         obeisantAdaptable();
+         icyCry(chickensAlluring,this.suzukaStale,fourYell);
+         crackerIcy(storeAmuse,milkyHalf(false));
       }
       
-      public function whisperAgonizing(param1:String) : void
+      override public function satisfyAgreeable(param1:KeyboardEvent) : void
       {
-         this.bruiseSatisfy.illustriousSupply.text = param1;
-         this.bruiseSatisfy.illustriousSupply.dispatchEvent(new Event(Event.CHANGE));
-      }
-      
-      public function buryUncle(param1:Boolean = true) : AnusBorrow
-      {
-         if(this.bruiseSatisfy)
+         if(BirdOranges.groundSerious == param1.keyCode)
          {
-            AdmireStore.proseWindy.competitionGaping.focus = this.bruiseSatisfy.illustriousSupply;
-            if(param1)
+            if((param1.currentTarget == this.suzukaStale || param1.currentTarget == cardOrange) && cardOrange.whisperAnnoying())
             {
-               this.bruiseSatisfy.illustriousSupply.metalReligion(-CoalRay.actionBorrow);
-            }
-         }
-         return this;
-      }
-      
-      public function gateAbaft(param1:Function) : void
-      {
-         this.armyDeadpan = param1;
-         if(param1)
-         {
-            this.bruiseSatisfy.illustriousSupply.addEventListener(Event.CHANGE,this.crowdedLunasole);
-         }
-         else
-         {
-            this.bruiseSatisfy.illustriousSupply.removeEventListener(Event.CHANGE,this.crowdedLunasole);
-         }
-      }
-      
-      public function crowdedLunasole(param1:Event) : void
-      {
-         if(this.armyDeadpan != null)
-         {
-            thickBury.trembleLoaf(this.armyDeadpan(this.bruiseSatisfy.illustriousSupply.text));
-         }
-         else
-         {
-            thickBury.trembleLoaf(true);
-         }
-      }
-      
-      override public function staySuper(param1:KeyboardEvent) : void
-      {
-         if(param1.keyCode == BirdOranges.coalSeed)
-         {
-            if((param1.currentTarget == this.bruiseSatisfy || param1.currentTarget == thickBury) && thickBury.crownComplex())
-            {
-               halfBurn();
+               lightGate();
                param1.stopPropagation();
             }
-            else if(param1.currentTarget == babiesKotsky && babiesKotsky.crownComplex())
+            else if(param1.currentTarget == sistersMighty && sistersMighty.whisperAnnoying())
             {
-               planCompetition();
+               companyConfused();
                param1.stopPropagation();
             }
          }
-         if(uncleFour && param1.keyCode == BirdOranges.wickedCoal)
+         if(wateryHateful && param1.keyCode == BirdOranges.notebookTrail)
          {
-            if(this.bruiseSatisfy == param1.currentTarget)
+            if(param1.currentTarget == this.suzukaStale)
             {
-               if(thickBury.crownComplex())
+               if(cardOrange.whisperAnnoying())
                {
-                  AdmireStore.proseWindy.competitionGaping.focus = thickBury;
+                  StalePinus.halfWaiting.sistersHate.focus = cardOrange;
                }
-               else if(babiesKotsky.crownComplex())
+               else if(sistersMighty.whisperAnnoying())
                {
-                  AdmireStore.proseWindy.competitionGaping.focus = babiesKotsky;
+                  StalePinus.halfWaiting.sistersHate.focus = sistersMighty;
                }
                param1.stopPropagation();
             }
-            else if(param1.currentTarget == thickBury)
+            else if(param1.currentTarget == cardOrange)
             {
-               if(babiesKotsky.crownComplex())
+               if(sistersMighty.whisperAnnoying())
                {
-                  AdmireStore.proseWindy.competitionGaping.focus = babiesKotsky;
+                  StalePinus.halfWaiting.sistersHate.focus = sistersMighty;
                }
                else
                {
-                  AdmireStore.proseWindy.competitionGaping.focus = this.bruiseSatisfy.illustriousSupply;
+                  StalePinus.halfWaiting.sistersHate.focus = this.suzukaStale.chickensAlluring;
                }
                param1.stopPropagation();
             }
-            else if(param1.currentTarget == babiesKotsky)
+            else if(param1.currentTarget == sistersMighty)
             {
-               AdmireStore.proseWindy.competitionGaping.focus = this.bruiseSatisfy.illustriousSupply;
+               StalePinus.halfWaiting.sistersHate.focus = this.suzukaStale.chickensAlluring;
                param1.stopPropagation();
             }
          }
+      }
+      
+      public function noiselessPipka(param1:Event) : void
+      {
+         if(this.bagBorrow != null)
+         {
+            cardOrange.harmonyClub(this.bagBorrow(this.suzukaStale.chickensAlluring.text));
+         }
+         else
+         {
+            cardOrange.harmonyClub(true);
+         }
+      }
+      
+      public function lipHanging(param1:Function) : void
+      {
+         this.bagBorrow = param1;
+         if(param1)
+         {
+            this.suzukaStale.chickensAlluring.addEventListener(Event.CHANGE,this.noiselessPipka);
+         }
+         else
+         {
+            this.suzukaStale.chickensAlluring.removeEventListener(Event.CHANGE,this.noiselessPipka);
+         }
+      }
+      
+      public function inviteStomach(param1:String) : void
+      {
+         this.suzukaStale.chickensAlluring.text = param1;
+         this.suzukaStale.chickensAlluring.dispatchEvent(new Event(Event.CHANGE));
+      }
+      
+      public function feeblePear(param1:Boolean = true) : AnusBorrow
+      {
+         if(this.suzukaStale)
+         {
+            StalePinus.halfWaiting.sistersHate.focus = this.suzukaStale.chickensAlluring;
+            if(param1)
+            {
+               this.suzukaStale.chickensAlluring.recogniseSuzuka(-OrderUnit.apatheticRare(CardBabies.machineOranges));
+            }
+         }
+         return this;
       }
    }
 }

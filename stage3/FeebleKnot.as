@@ -4,12 +4,12 @@ package
    {
        
       
-      public function FeebleKnot(param1:int, param2:int, param3:int)
+      public function FeebleKnot(param1:int, param2:Boolean, param3:Boolean)
       {
-         super(AdviseRobin.satisfyGaping,RecogniseCompetition.prepareAgree(CoalWhisper.burnViolet));
-         staySigh.writeShort(param1);
-         staySigh.writeShort(param2);
-         staySigh.writeShort(param3);
+         super(WanderingDecay.gullibleKuruma,OrderUnit.apatheticRare(GullibleLook.unequaledJumbled));
+         lamentableSpurious.writeShort(param1);
+         lamentableSpurious.writeBoolean(param2);
+         lamentableSpurious.writeBoolean(param3);
       }
    }
 }

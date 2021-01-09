@@ -5,11 +5,11 @@ package
    public class DeterminedTiresome
    {
       
-      public static var zonkedSisters:Dictionary = new Dictionary();
+      public static var apatheticLabel:Vector.<SeriousDeadpan> = new Vector.<SeriousDeadpan>();
       
-      public static var unitParty:Dictionary = new Dictionary();
+      public static var knotAmuse:Dictionary = new Dictionary();
       
-      public static var stayTrail:Vector.<SeriousDeadpan> = new Vector.<SeriousDeadpan>();
+      public static var planInvite:Dictionary = new Dictionary();
        
       
       public function DeterminedTiresome()
@@ -17,63 +17,63 @@ package
          super();
       }
       
-      public static function obeisantAdvise(param1:BabiesWhistle) : void
+      public static function eliteWicked(param1:ActionPat) : void
       {
          var _loc3_:int = 0;
          var _loc4_:int = 0;
          var _loc5_:SeriousDeadpan = null;
-         var _loc2_:SeriousDeadpan = new SeriousDeadpan(param1.illustriousPipka,param1.armyLook,param1.couleur);
-         _loc2_.crashDildo = param1.crashDildo;
-         if(DeterminedTiresome.zonkedSisters[_loc2_.armyLook])
+         var _loc2_:SeriousDeadpan = new SeriousDeadpan(param1.advisePat,param1.swankySisters,param1.couleur);
+         _loc2_.airTiresome = param1.airTiresome;
+         if(DeterminedTiresome.knotAmuse[_loc2_.swankySisters])
          {
-            _loc3_ = -CoalRay.actionBorrow;
-            _loc4_ = DeterminedTiresome.stayTrail.length;
+            _loc3_ = -CardBabies.machineOranges;
+            _loc4_ = DeterminedTiresome.apatheticLabel.length;
             while(++_loc3_ < _loc4_)
             {
-               _loc5_ = DeterminedTiresome.stayTrail[_loc3_];
-               if(_loc5_.armyLook == param1.armyLook)
+               _loc5_ = DeterminedTiresome.apatheticLabel[_loc3_];
+               if(param1.swankySisters == _loc5_.swankySisters)
                {
-                  DeterminedTiresome.stayTrail.splice(_loc3_,CoalRay.actionBorrow);
+                  DeterminedTiresome.apatheticLabel.splice(_loc3_,CardBabies.machineOranges);
                   break;
                }
             }
          }
-         DeterminedTiresome.stayTrail.push(_loc2_);
-         DeterminedTiresome.zonkedSisters[_loc2_.armyLook] = _loc2_;
-         DeterminedTiresome.unitParty[param1.illustriousPipka] = _loc2_;
+         DeterminedTiresome.apatheticLabel.push(_loc2_);
+         DeterminedTiresome.knotAmuse[_loc2_.swankySisters] = _loc2_;
+         DeterminedTiresome.planInvite[param1.advisePat] = _loc2_;
       }
       
-      public static function subduedUnequaled(param1:SwankyList) : void
+      public static function kurumaStick(param1:OrangesAction) : void
       {
-         var _loc4_:BabiesWhistle = null;
-         DeterminedTiresome.zonkedSisters = new Dictionary();
-         DeterminedTiresome.unitParty = new Dictionary();
-         DeterminedTiresome.stayTrail = new Vector.<SeriousDeadpan>();
-         var _loc2_:int = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         var _loc3_:int = param1.unequaledDetermined.length;
+         var _loc4_:ActionPat = null;
+         DeterminedTiresome.knotAmuse = new Dictionary();
+         DeterminedTiresome.planInvite = new Dictionary();
+         DeterminedTiresome.apatheticLabel = new Vector.<SeriousDeadpan>();
+         var _loc2_:int = -OrderUnit.apatheticRare(CardBabies.machineOranges);
+         var _loc3_:int = param1.planObeisant.length;
          while(++_loc2_ < _loc3_)
          {
-            _loc4_ = param1.unequaledDetermined[_loc2_];
-            DeterminedTiresome.obeisantAdvise(_loc4_);
+            _loc4_ = param1.planObeisant[_loc2_];
+            DeterminedTiresome.eliteWicked(_loc4_);
          }
       }
       
-      public static function statementDecay(param1:int) : void
+      public static function cribWing(param1:int) : void
       {
-         var _loc2_:SeriousDeadpan = DeterminedTiresome.zonkedSisters[param1];
+         var _loc2_:SeriousDeadpan = DeterminedTiresome.knotAmuse[param1];
          if(!_loc2_)
          {
             return;
          }
-         delete DeterminedTiresome.zonkedSisters[param1];
-         delete DeterminedTiresome.unitParty[_loc2_.illustriousPipka];
-         var _loc3_:int = DeterminedTiresome.stayTrail.length;
-         var _loc4_:int = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         delete DeterminedTiresome.knotAmuse[param1];
+         delete DeterminedTiresome.planInvite[_loc2_.advisePat];
+         var _loc3_:int = DeterminedTiresome.apatheticLabel.length;
+         var _loc4_:int = ReligionStore.trailInstruct;
          while(_loc4_ < _loc3_)
          {
-            if(DeterminedTiresome.stayTrail[_loc4_].armyLook == param1)
+            if(DeterminedTiresome.apatheticLabel[_loc4_].swankySisters == param1)
             {
-               DeterminedTiresome.stayTrail.splice(_loc4_,CoalRay.actionBorrow);
+               DeterminedTiresome.apatheticLabel.splice(_loc4_,OrderUnit.apatheticRare(CardBabies.machineOranges));
                break;
             }
             _loc4_++;

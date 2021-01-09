@@ -6,12 +6,12 @@ package
    {
        
       
-      public var scaleMachine:int;
+      public var pailWhistle:int;
       
       public function BirdCrash(param1:ByteArray)
       {
          super(param1);
-         this.scaleMachine = param1.readInt();
+         this.pailWhistle = param1.readInt();
       }
    }
 }

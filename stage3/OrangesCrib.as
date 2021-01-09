@@ -4,18 +4,18 @@ package
    {
        
       
-      public var zonkedJuice:int;
+      public var milkySupply:int;
       
-      public var trembleDeadpan:int;
+      public var crowdedFragile:int;
       
-      public var juiceClub:int;
+      public var crownRobin:int;
       
       public function OrangesCrib(param1:int, param2:int, param3:int)
       {
          super();
-         this.zonkedJuice = param1;
-         this.trembleDeadpan = param2;
-         this.juiceClub = param3;
+         this.milkySupply = param1;
+         this.crowdedFragile = param2;
+         this.crownRobin = param3;
       }
    }
 }

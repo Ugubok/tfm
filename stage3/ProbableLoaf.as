@@ -3,32 +3,32 @@ package
    public class ProbableLoaf
    {
       
-      public static var programSign:ProbableLoaf;
+      public static var noxiousWatery:ProbableLoaf;
        
       
-      public var storeClub:StupidHalf;
+      public var decayRecognise:StupidHalf;
       
-      public var stayKotsky:StupidHalf;
+      public var crimeFix:StupidHalf;
       
       public function ProbableLoaf(param1:Number = 0, param2:Number = 0)
       {
-         this.storeClub = new StupidHalf();
-         this.stayKotsky = new StupidHalf();
+         this.decayRecognise = new StupidHalf();
+         this.crimeFix = new StupidHalf();
          super();
-         this.storeClub.pipkaViolet = param1;
-         this.stayKotsky.pipkaViolet = param2;
+         this.decayRecognise.hydrantThick = param1;
+         this.crimeFix.hydrantThick = param2;
       }
       
-      public function kurumaWing(param1:Number, param2:Number) : void
+      public function wingMighty(param1:Number, param2:Number) : void
       {
-         this.storeClub.healMighty(param1 / CoalRay.satisfyTrail);
-         this.stayKotsky.healMighty(param2 / RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail));
+         this.requestPat(param1 / AdmireUncle.delightfulFragile);
+         this.distroSpurious(param2 / OrderUnit.apatheticRare(AdmireUncle.delightfulFragile));
       }
       
-      public function scratchAgree(param1:Number, param2:Number) : void
+      public function dildoAgreeable(param1:Number, param2:Number) : void
       {
-         this.storeClub.pipkaViolet = param1 / CoalRay.satisfyTrail;
-         this.stayKotsky.pipkaViolet = param2 / RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail);
+         this.decayRecognise.hydrantThick = param1 / AdmireUncle.delightfulFragile;
+         this.crimeFix.hydrantThick = param2 / OrderUnit.apatheticRare(AdmireUncle.delightfulFragile);
       }
    }
 }

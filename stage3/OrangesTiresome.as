@@ -4,11 +4,11 @@ package
    {
        
       
-      public function OrangesTiresome(param1:String, param2:String)
+      public function OrangesTiresome(param1:int, param2:int)
       {
-         super(WaitingReligion.peckKotsky,LaborerFeeble.instructBathe);
-         staySigh.writeUTF(param1);
-         staySigh.writeUTF(param2);
+         super(OrderUnit.apatheticRare(PrepareLip.competitionSupply),OrderUnit.apatheticRare(AdaptableInexpensive.kurumaUnit));
+         lamentableSpurious.writeByte(param1);
+         lamentableSpurious.writeByte(param2);
       }
    }
 }

@@ -6,8 +6,8 @@ package
       
       public function BalvankaProbable(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(BerryMouse.distroWicked),BruiseBorrow.taxChivalrous);
-         staySigh.writeByte(param1);
+         super(OrderUnit.apatheticRare(AdmireUncle.crimeCreator),WanderingDecay.injureAdmire);
+         lamentableSpurious.writeInt(param1);
       }
    }
 }

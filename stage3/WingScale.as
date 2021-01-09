@@ -3,117 +3,117 @@ package
    public class WingScale
    {
       
-      public static const admireCompany:WingScale = new WingScale(4674 + -4674,"AnimDanse","$I1");
+      public static const dildoThick:WingScale = new WingScale( 0,"AnimDanse",OrderUnit.probableLip("$I1"));
       
-      public static const suzukaAction:WingScale = new WingScale(8087 + -8086,"AnimLaugh",RecogniseCompetition.mouseDelightful("$I2"));
+      public static const lightTax:WingScale = new WingScale( 1,"AnimLaugh",OrderUnit.probableLip("$I2"));
       
-      public static const decayKuruma:WingScale = new WingScale(4665 + -4663,"AnimCry",RecogniseCompetition.mouseDelightful("$I3"));
+      public static const squeamishJuice:WingScale = new WingScale( 2,OrderUnit.probableLip("AnimCry"),OrderUnit.probableLip("$I3"));
       
-      public static const kotskyHalf:WingScale = new WingScale(4058 + -4055,"AnimKiss","$I4",true);
+      public static const listWindy:WingScale = new WingScale( 3,"AnimKiss",OrderUnit.probableLip("$I4"),true);
       
-      public static const fourYell:WingScale = new WingScale(5646 + -5642,"AnimMad","$I5");
+      public static const scratchCrash:WingScale = new WingScale( 4,"AnimMad",OrderUnit.probableLip("$I5"));
       
-      public static const noxiousHistorical:WingScale = new WingScale(4919 + -4914,RecogniseCompetition.mouseDelightful("AnimClap"),RecogniseCompetition.mouseDelightful("$I6"));
+      public static const deadpanClub:WingScale = new WingScale( 5,OrderUnit.probableLip("AnimClap"),OrderUnit.probableLip("$I6"));
       
-      public static const instructInvite:WingScale = new WingScale(9749 + -9743,RecogniseCompetition.mouseDelightful("AnimSleep"),"$I7");
+      public static const delightfulCrown:WingScale = new WingScale( 6,OrderUnit.probableLip("AnimSleep"),"$I7");
       
-      public static const fixMark:WingScale = new WingScale(1535 + -1528,RecogniseCompetition.mouseDelightful("AnimFacepalm"),RecogniseCompetition.mouseDelightful("$I8"));
+      public static const cuteScale:WingScale = new WingScale( 7,OrderUnit.probableLip("AnimFacepalm"),OrderUnit.probableLip("$I8"));
       
-      public static const robinAnus:WingScale = new WingScale(6234 + -6226,RecogniseCompetition.mouseDelightful("AnimSit"),"$I9");
+      public static const whisperSuzuka:WingScale = new WingScale( 8,OrderUnit.probableLip("AnimSit"),"$I9");
       
-      public static const amuseIllustrious:WingScale = new WingScale(279 + -270,"AnimConfetti","$I10");
+      public static const complexCracker:WingScale = new WingScale( 9,"AnimConfetti","$I10");
       
-      public static const scratchOranges:WingScale = new WingScale(5795 + -5785,"AnimDrapeau");
+      public static const quirkyCompetition:WingScale = new WingScale( 10,OrderUnit.probableLip("AnimDrapeau"));
       
-      public static const apatheticHydrant:WingScale = new WingScale(1202 + -1191,"AnimMarshmallow");
+      public static const tiresomeRecognise:WingScale = new WingScale( 11,OrderUnit.probableLip("AnimMarshmallow"));
       
-      public static const swankyAdaptable:WingScale = new WingScale(7130 + -7118,RecogniseCompetition.mouseDelightful("AnimSelfie"));
+      public static const knotRobin:WingScale = new WingScale( 12,OrderUnit.probableLip("AnimSelfie"));
       
-      public static const listBashful:WingScale = new WingScale(9398 + -9385,"multi_AnimHi5",RecogniseCompetition.mouseDelightful("$I12"));
+      public static const windyFragile:WingScale = new WingScale( 13,"multi_AnimHi5","$I12");
       
-      public static const clubWandering:WingScale = new WingScale(3396 + -3382,RecogniseCompetition.mouseDelightful("AnimHi5_1"),null,true);
+      public static const backIllustrious:WingScale = new WingScale( 14,"AnimHi5_1",null,true);
       
-      public static const scratchAbaft:WingScale = new WingScale(9017 + -9002,"AnimHi5_2",null,true);
+      public static const fourLip:WingScale = new WingScale( 15,"AnimHi5_2",null,true);
       
-      public static const cuteHydrant:WingScale = new WingScale(3589 + -3573,RecogniseCompetition.mouseDelightful("AnimLangue"),null,true);
+      public static const airBird:WingScale = new WingScale( 16,OrderUnit.probableLip("AnimLangue"),null,true);
       
-      public static const faithfulNotebook:WingScale = new WingScale(4565 + -4548,RecogniseCompetition.mouseDelightful("multi_AnimCalin"),RecogniseCompetition.mouseDelightful("$I13"));
+      public static const recogniseZonked:WingScale = new WingScale( 17,OrderUnit.probableLip("multi_AnimCalin"),"$I13");
       
-      public static const rareHistorical:WingScale = new WingScale(8905 + -8887,RecogniseCompetition.mouseDelightful("AnimCalin_1"));
+      public static const clubSpurious:WingScale = new WingScale( 18,"AnimCalin_1");
       
-      public static const crimeSwanky:WingScale = new WingScale(1820 + -1801,RecogniseCompetition.mouseDelightful("AnimCalin_2"));
+      public static const cardQuirky:WingScale = new WingScale( 19,OrderUnit.probableLip("AnimCalin_2"));
       
-      public static const colorSuzuka:WingScale = new WingScale(5869 + -5849,"AnimRondoudou",null,true);
+      public static const storeConfused:WingScale = new WingScale( 20,"AnimRondoudou",null,true);
       
-      public static const tiresomeCrime:WingScale = new WingScale(5012 + -4991,"multi_AnimBisou",RecogniseCompetition.mouseDelightful("$I14"));
+      public static const halfHateful:WingScale = new WingScale( 21,OrderUnit.probableLip("multi_AnimBisou"),OrderUnit.probableLip("$I14"));
       
-      public static const halfMark:WingScale = new WingScale(311 + -289,RecogniseCompetition.mouseDelightful("AnimBisou_1"),null,true);
+      public static const determinedBerry:WingScale = new WingScale( 22,"AnimBisou_1",null,true);
       
-      public static const bagChickens:WingScale = new WingScale(5963 + -5940,RecogniseCompetition.mouseDelightful("AnimBisou_2"),null,true);
+      public static const halfClub:WingScale = new WingScale( 23,OrderUnit.probableLip("AnimBisou_2"),null,true);
       
-      public static const deliverBathe:WingScale = new WingScale(2716 + -2692,RecogniseCompetition.mouseDelightful("AnimPlumes"));
+      public static const swankyCrowded:WingScale = new WingScale( 24,OrderUnit.probableLip("AnimPlumes"));
       
-      public static const healKnot:WingScale = new WingScale(9222 + -9197,RecogniseCompetition.mouseDelightful("multi_AnimPFC"),RecogniseCompetition.mouseDelightful("$I15"));
+      public static const senseGate:WingScale = new WingScale( 25,OrderUnit.probableLip("multi_AnimPFC"),"$I15");
       
-      public static const gateHate:WingScale = new WingScale(2718 + -2692,RecogniseCompetition.mouseDelightful("AnimPFC_1"));
+      public static const suzukaElite:WingScale = new WingScale( 26,"AnimPFC_1");
       
-      public static const knotGaping:WingScale = new WingScale(728 + -701,RecogniseCompetition.mouseDelightful("AnimPFC_2"));
+      public static const abaftDelightful:WingScale = new WingScale( 27,OrderUnit.probableLip("AnimPFC_2"));
       
-      public static const invitePear:Vector.<WingScale> = new Vector.<WingScale>();
+      public static const seriousSense:Vector.<WingScale> = new Vector.<WingScale>();
       
       {
-         WingScale.invitePear.push(WingScale.admireCompany);
-         WingScale.invitePear.push(WingScale.suzukaAction);
-         WingScale.invitePear.push(WingScale.decayKuruma);
-         WingScale.invitePear.push(WingScale.kotskyHalf);
-         WingScale.invitePear.push(WingScale.fourYell);
-         WingScale.invitePear.push(WingScale.noxiousHistorical);
-         WingScale.invitePear.push(WingScale.instructInvite);
-         WingScale.invitePear.push(WingScale.fixMark);
-         WingScale.invitePear.push(WingScale.robinAnus);
-         WingScale.invitePear.push(WingScale.amuseIllustrious);
-         WingScale.invitePear.push(WingScale.scratchOranges);
-         WingScale.invitePear.push(WingScale.apatheticHydrant);
-         WingScale.invitePear.push(WingScale.swankyAdaptable);
-         WingScale.invitePear.push(WingScale.listBashful);
-         WingScale.invitePear.push(WingScale.clubWandering);
-         WingScale.invitePear.push(WingScale.scratchAbaft);
-         WingScale.invitePear.push(WingScale.cuteHydrant);
-         WingScale.invitePear.push(WingScale.faithfulNotebook);
-         WingScale.invitePear.push(WingScale.rareHistorical);
-         WingScale.invitePear.push(WingScale.crimeSwanky);
-         WingScale.invitePear.push(WingScale.colorSuzuka);
-         WingScale.invitePear.push(WingScale.tiresomeCrime);
-         WingScale.invitePear.push(WingScale.halfMark);
-         WingScale.invitePear.push(WingScale.bagChickens);
-         WingScale.invitePear.push(WingScale.deliverBathe);
-         WingScale.invitePear.push(WingScale.healKnot);
-         WingScale.invitePear.push(WingScale.gateHate);
-         WingScale.invitePear.push(WingScale.knotGaping);
+         WingScale.seriousSense.push(WingScale.dildoThick);
+         WingScale.seriousSense.push(WingScale.lightTax);
+         WingScale.seriousSense.push(WingScale.squeamishJuice);
+         WingScale.seriousSense.push(WingScale.listWindy);
+         WingScale.seriousSense.push(WingScale.scratchCrash);
+         WingScale.seriousSense.push(WingScale.deadpanClub);
+         WingScale.seriousSense.push(WingScale.delightfulCrown);
+         WingScale.seriousSense.push(WingScale.cuteScale);
+         WingScale.seriousSense.push(WingScale.whisperSuzuka);
+         WingScale.seriousSense.push(WingScale.complexCracker);
+         WingScale.seriousSense.push(WingScale.quirkyCompetition);
+         WingScale.seriousSense.push(WingScale.tiresomeRecognise);
+         WingScale.seriousSense.push(WingScale.knotRobin);
+         WingScale.seriousSense.push(WingScale.windyFragile);
+         WingScale.seriousSense.push(WingScale.backIllustrious);
+         WingScale.seriousSense.push(WingScale.fourLip);
+         WingScale.seriousSense.push(WingScale.airBird);
+         WingScale.seriousSense.push(WingScale.recogniseZonked);
+         WingScale.seriousSense.push(WingScale.clubSpurious);
+         WingScale.seriousSense.push(WingScale.cardQuirky);
+         WingScale.seriousSense.push(WingScale.storeConfused);
+         WingScale.seriousSense.push(WingScale.halfHateful);
+         WingScale.seriousSense.push(WingScale.determinedBerry);
+         WingScale.seriousSense.push(WingScale.halfClub);
+         WingScale.seriousSense.push(WingScale.swankyCrowded);
+         WingScale.seriousSense.push(WingScale.senseGate);
+         WingScale.seriousSense.push(WingScale.suzukaElite);
+         WingScale.seriousSense.push(WingScale.abaftDelightful);
       }
       
-      public var lipAdmire:int;
+      public var knifeStick:int;
       
-      public var prepareBashful:String;
+      public var cribOranges:String;
       
-      public var grateHarmony:String;
+      public var zonkedDeliver:String;
       
-      public var agonizingCrash:Boolean;
+      public var babiesWicked:Boolean;
       
       public function WingScale(param1:int, param2:String, param3:String = null, param4:Boolean = false)
       {
          super();
-         this.lipAdmire = param1;
-         this.prepareBashful = param2;
-         this.grateHarmony = param3;
-         this.agonizingCrash = param4;
+         this.knifeStick = param1;
+         this.cribOranges = param2;
+         this.zonkedDeliver = param3;
+         this.babiesWicked = param4;
       }
       
-      public static function tastelessBag(param1:int) : WingScale
+      public static function dildoAbaft(param1:int) : WingScale
       {
-         if(param1 >= HystericalKotsky.notebookChivalrous && param1 < WingScale.invitePear.length)
+         if(param1 >= OrderUnit.apatheticRare(ReligionStore.trailInstruct) && param1 < WingScale.seriousSense.length)
          {
-            return WingScale.invitePear[param1];
+            return WingScale.seriousSense[param1];
          }
          return null;
       }

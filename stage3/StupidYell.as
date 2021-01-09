@@ -8,20 +8,20 @@ package
       {
          var _loc3_:int = 0;
          var _loc4_:int = 0;
-         super(RecogniseCompetition.prepareAgree(BerryMouse.distroWicked),RecogniseCompetition.prepareAgree(AlansonReligion.statementScratch));
-         staySigh.writeShort(param1);
-         if(null == param2)
+         super(PrepareLip.competitionSupply,WaitingCrib.statementDecay);
+         lamentableSpurious.writeShort(param1);
+         if(param2 == null)
          {
-            staySigh.writeByte(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
+            lamentableSpurious.writeByte(ReligionStore.trailInstruct);
          }
          else
          {
             _loc3_ = param2.length;
-            staySigh.writeByte(_loc3_);
-            _loc4_ = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+            lamentableSpurious.writeByte(_loc3_);
+            _loc4_ = ReligionStore.trailInstruct;
             while(_loc4_ < _loc3_)
             {
-               staySigh.writeInt(param2[_loc4_]);
+               lamentableSpurious.writeInt(param2[_loc4_]);
                _loc4_++;
             }
          }

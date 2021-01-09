@@ -6,39 +6,39 @@ package
    {
        
       
-      public var entertainingHateful:int;
+      public var planHalf:int;
       
-      public var violetApathetic:int;
+      public var windySeed:int;
       
-      public var creatorHateful:Vector.<String>;
+      public var squeamishCrime:Vector.<String>;
       
       public function AnusHateful(param1:ByteArray)
       {
          super();
-         this.violetApathetic = param1.readUnsignedByte();
-         this.entertainingHateful = param1.readUnsignedByte();
+         this.windySeed = param1.readUnsignedByte();
+         this.planHalf = param1.readUnsignedByte();
          var _loc2_:int = param1.readUnsignedByte();
-         this.creatorHateful = new Vector.<String>(_loc2_);
-         var _loc3_:int = -CoalRay.actionBorrow;
+         this.squeamishCrime = new Vector.<String>(_loc2_);
+         var _loc3_:int = -OrderUnit.apatheticRare(CardBabies.machineOranges);
          while(++_loc3_ < _loc2_)
          {
-            this.creatorHateful[_loc3_] = param1.readUTF();
+            this.squeamishCrime[_loc3_] = param1.readUTF();
          }
       }
       
-      public function taxFrail(param1:int) : String
+      public function chivalrousCrown(param1:int) : int
       {
-         return this.creatorHateful[param1];
+         return int(this.squeamishCrime[param1]);
       }
       
-      public function crimeStay(param1:int) : int
+      public function crownLarge(param1:int) : Boolean
       {
-         return int(this.creatorHateful[param1]);
+         return this.squeamishCrime[param1] == ListIllustrious.crowdedFrail;
       }
       
-      public function bladeAgonizing(param1:int) : Boolean
+      public function taxAlanson(param1:int) : String
       {
-         return this.creatorHateful[param1] == RecogniseCompetition.mouseDelightful(CoalRay.halfInvite);
+         return this.squeamishCrime[param1];
       }
    }
 }

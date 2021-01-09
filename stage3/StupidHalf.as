@@ -3,33 +3,33 @@ package
    public class StupidHalf
    {
       
-      public static var delightfulOrange:String = "";
+      public static var deliverCrowded:String = OrderUnit.probableLip("");
        
       
-      public var pipkaViolet:Number;
+      public var hydrantThick:Number;
       
       public function StupidHalf(param1:Number = 0)
       {
-         this.pipkaViolet = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.hydrantThick = ReligionStore.trailInstruct;
          super();
-         this.pipkaViolet = param1;
+         this.hydrantThick = param1;
       }
       
-      public function healMighty(param1:Number) : void
+      public function colorClub(param1:Number) : void
       {
-         var _loc2_:Number = RayYell.lamentableVolcano;
-         if(param1 > RecogniseCompetition.prepareAgree(RayYell.seriousOrange) || param1 < -RecogniseCompetition.prepareAgree(RayYell.seriousOrange))
+         var _loc2_:Number = AdmireUncle.stomachToe;
+         if(param1 > OrderUnit.apatheticRare(WanderingDecay.healQuirky) || param1 < -OrderUnit.apatheticRare(WanderingDecay.healQuirky))
          {
-            _loc2_ = CoalRay.actionBorrow;
+            _loc2_ = CardBabies.machineOranges;
          }
-         var _loc3_:Number = -param1 + this.pipkaViolet;
-         if(_loc3_ < RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+         var _loc3_:Number = this.hydrantThick - param1;
+         if(_loc3_ < ReligionStore.trailInstruct)
          {
             _loc3_ = -_loc3_;
          }
-         if(_loc2_ < _loc3_)
+         if(_loc3_ > _loc2_)
          {
-            AnusGround.stupidMark(BerryMouse.touchFour() * ArmyObtainable.bashfulHeal() + MetalDetermined.illustriousUncle());
+            AnusGround.rareEntertaining(DildoBorrow.whistleVolcano() + VolcanoStay.volcanoHeal());
          }
       }
    }

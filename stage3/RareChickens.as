@@ -6,7 +6,7 @@ package
    public class RareChickens
    {
       
-      public static var wanderingSeed:Sprite;
+      public static var crashFragile:Sprite;
        
       
       public function RareChickens()
@@ -14,34 +14,34 @@ package
          super();
       }
       
-      public static function historicalAgonizing(param1:Event) : void
+      public static function machineDistro(param1:Boolean) : void
       {
-         RareChickens.wanderingSeed.x = -LipStore.quirkyHistorical + Math.random();
-         RareChickens.wanderingSeed.y = -LipStore.quirkyHistorical + Math.random();
-      }
-      
-      public static function admireCard(param1:Boolean) : void
-      {
-         if(!RareChickens.wanderingSeed)
+         if(!RareChickens.crashFragile)
          {
-            RareChickens.wanderingSeed = new Sprite();
-            RareChickens.wanderingSeed.graphics.beginFill(AdmireStore.whisperLeg.agreeableMighty.robinCrash);
-            RareChickens.wanderingSeed.graphics.drawRect(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),HystericalKotsky.notebookChivalrous,RecogniseCompetition.prepareAgree(HystericalKotsky.cryConfused),HystericalKotsky.cryConfused);
-            RareChickens.wanderingSeed.graphics.endFill();
+            RareChickens.crashFragile = new Sprite();
+            RareChickens.crashFragile.graphics.beginFill(StalePinus.determinedColor.uncleLaborer.airCard);
+            RareChickens.crashFragile.graphics.drawRect(ReligionStore.trailInstruct,OrderUnit.apatheticRare(ReligionStore.trailInstruct),OrderUnit.apatheticRare(CreatorSupply.obeisantSeed),CreatorSupply.obeisantSeed);
+            RareChickens.crashFragile.graphics.endFill();
          }
          if(param1)
          {
-            AdmireStore.proseWindy.competitionGaping.addChildAt(RareChickens.wanderingSeed,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-            AdmireStore.proseWindy.addEventListener(AnusSeed.apatheticSerious + RecogniseCompetition.mouseDelightful(BruiseBorrow.requestFaithful),RareChickens.historicalAgonizing);
+            StalePinus.halfWaiting.sistersHate.addChildAt(RareChickens.crashFragile,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+            StalePinus.halfWaiting.addEventListener(VolcanoStay.alansonMark + WanderingDecay.subduedInjure,RareChickens.admireSpurious);
          }
          else
          {
-            AdmireStore.proseWindy.removeEventListener(RecogniseCompetition.mouseDelightful(BruiseBorrow.satisfyDeliver) + RecogniseCompetition.mouseDelightful(FrailJuice.pailOrder),RareChickens.historicalAgonizing);
-            if(RareChickens.wanderingSeed.parent)
+            StalePinus.halfWaiting.removeEventListener(OrderUnit.probableLip(CardBabies.largePlan) + LargeComplex.noxiousGaping,RareChickens.admireSpurious);
+            if(RareChickens.crashFragile.parent)
             {
-               RareChickens.wanderingSeed.parent.removeChild(RareChickens.wanderingSeed);
+               RareChickens.crashFragile.parent.removeChild(RareChickens.crashFragile);
             }
          }
+      }
+      
+      public static function admireSpurious(param1:Event) : void
+      {
+         RareChickens.crashFragile.x = -WanderingDecay.lightParty + Math.random();
+         RareChickens.crashFragile.y = -WanderingDecay.lightParty + Math.random();
       }
    }
 }

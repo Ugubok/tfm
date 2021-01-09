@@ -6,12 +6,12 @@ package
    {
        
       
-      public var lunasoleRare:int;
+      public var advisePat:String;
       
       public function WhistleBird(param1:ByteArray)
       {
          super(param1);
-         this.lunasoleRare = param1.readUnsignedShort();
+         this.advisePat = param1.readUTF();
       }
    }
 }

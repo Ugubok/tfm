@@ -6,15 +6,15 @@ package
    {
        
       
-      public var armyLook:int;
+      public var kotskyScratch:String;
       
-      public var supplyKnot:String;
+      public var programUnequaled:String;
       
       public function FragileClub(param1:ByteArray)
       {
          super(param1);
-         this.armyLook = param1.readInt();
-         this.supplyKnot = param1.readUTF();
+         this.kotskyScratch = param1.readUTF();
+         this.programUnequaled = param1.readUTF();
       }
    }
 }

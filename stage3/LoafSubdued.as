@@ -5,201 +5,201 @@ package
    public class LoafSubdued
    {
       
-      public static const inviteHalf:Boolean = false;
+      public static const chopLunasole:Boolean = false;
       
-      public static const planGround:String = "76561198041382370";
+      public static const waterySupply:String = OrderUnit.probableLip("76561198041382370");
       
-      public static const machineMark:String = RecogniseCompetition.mouseDelightful("140000000d2ba36b9bc4ac42e2bdd50401001001c8335f5a1800000001000000020000003ef7c56d0000000061ed8e0005000000b20000003200000004000000e2bdd50401001001f2300a003ef7c56d7f00a8c00000000060715c5ae020785a010095e5020000000000123710a9d4f05bb5d4dcc36eff02c25135e74a06898f2da2e439323a231895eb21a9bd939d4973cc0ed6c306ee396301eeab98e524ece0523426a531f4d75b60b9f314aaef66dcd3933fa3e0f515c2be8caf654dab5e8f9870d2eee69f6a2bc86e1d7412e63e589099d4ae00a4c75a07bbf9a0a92ef8719150b1c92cb0ab3b43");
+      public static const backScale:String = OrderUnit.probableLip("140000000d2ba36b9bc4ac42e2bdd50401001001c8335f5a1800000001000000020000003ef7c56d0000000061ed8e0005000000b20000003200000004000000e2bdd50401001001f2300a003ef7c56d7f00a8c00000000060715c5ae020785a010095e5020000000000123710a9d4f05bb5d4dcc36eff02c25135e74a06898f2da2e439323a231895eb21a9bd939d4973cc0ed6c306ee396301eeab98e524ece0523426a531f4d75b60b9f314aaef66dcd3933fa3e0f515c2be8caf654dab5e8f9870d2eee69f6a2bc86e1d7412e63e589099d4ae00a4c75a07bbf9a0a92ef8719150b1c92cb0ab3b43");
       
-      public static const taxRobin:String = "\'Az";
+      public static const coalJoyous:String = OrderUnit.probableLip("\'Az");
       
-      public static var proseWindy:LoafSubdued;
+      public static var halfWaiting:LoafSubdued;
       
-      public static var senseSwanky:Boolean = false;
+      public static var seriousCracker:Boolean = false;
       
-      public static var markDelightful:Boolean = false;
+      public static var wickedPlan:Boolean = false;
       
-      public static var adhesiveLarge:Boolean = false;
+      public static var mightyThick:Boolean = false;
       
-      public static var inviteBorrow:Boolean = true;
+      public static var trembleSeed:Boolean = true;
       
-      public static var stupidCrowded:Boolean = false;
+      public static var lipSense:Boolean = false;
       
-      public static var swankyWandering:String;
+      public static var adviseGullible:String;
       
-      public static var warlikeInexpensive:String;
+      public static var clubBabies:String;
       
-      public static var windyPanoramic:Boolean = true;
+      public static var hateConfused:Boolean = true;
       
-      public static var colorRare:String = null;
+      public static var colorLip:String = null;
       
-      public static var hateCommon:Object;
+      public static var recogniseSqueamish:Object;
        
       
       public function LoafSubdued()
       {
          super();
-         LoafSubdued.proseWindy = this;
+         LoafSubdued.halfWaiting = this;
       }
       
-      public static function grateFlower() : Boolean
+      public static function crownWing() : String
       {
-         if(LoafSubdued.inviteHalf)
+         if(LoafSubdued.chopLunasole)
+         {
+            return LoafSubdued.backScale;
+         }
+         return ExternalInterface.call(PanoramicProbable.lightChicken);
+      }
+      
+      public static function seriousSand() : Boolean
+      {
+         if(LoafSubdued.chopLunasole)
          {
             return false;
          }
-         return ExternalInterface.call(RecogniseCompetition.mouseDelightful(CoalWhisper.noiselessBashful));
+         return ExternalInterface.call(OrderUnit.probableLip(WaitingCrib.halfKnot));
       }
       
-      public static function confusedMachine(param1:Boolean) : void
+      public static function seriousYell(param1:Boolean) : void
       {
-         if(LoafSubdued.inviteHalf)
+         if(LoafSubdued.chopLunasole)
          {
             return;
          }
-         ExternalInterface.call(BruiseBorrow.tiresomeWing,param1);
+         ExternalInterface.call(OrderUnit.probableLip(WaitingCrib.peckWatery),param1);
       }
       
-      public static function adhesiveLaborer() : String
+      public function cryWindy(param1:String) : void
       {
-         if(LoafSubdued.inviteHalf)
-         {
-            return LoafSubdued.machineMark;
-         }
-         return ExternalInterface.call(RecogniseCompetition.mouseDelightful(HystericalKotsky.crackerPear));
-      }
-      
-      public function crimeChivalrous() : void
-      {
-         if(!LoafSubdued.proseWindy)
+         if(!LoafSubdued.halfWaiting)
          {
             return;
          }
-         if(LoafSubdued.adhesiveLarge)
+         if(LoafSubdued.chopLunasole)
          {
-            ExternalInterface.call(RecogniseCompetition.mouseDelightful(RayYell.creatorWhisper));
+            return;
+         }
+         if(LoafSubdued.mightyThick)
+         {
+            ExternalInterface.call(OrderUnit.probableLip(LargeComplex.proseAnnoying),param1);
+            return;
+         }
+         if(LoafSubdued.recogniseSqueamish)
+         {
+            LoafSubdued.recogniseSqueamish[OrderUnit.probableLip(LargeComplex.proseAnnoying)](param1);
+            return;
          }
       }
       
-      public function juiceFaithful() : void
+      public function faintVolcano() : String
+      {
+         if(!LoafSubdued.halfWaiting)
+         {
+            return null;
+         }
+         if(LoafSubdued.mightyThick)
+         {
+            return LoafSubdued.colorLip;
+         }
+         if(LoafSubdued.hateConfused)
+         {
+            LoafSubdued.hateConfused = HateFaint.bladeStatement;
+            if(LoafSubdued.recogniseSqueamish != null)
+            {
+               LoafSubdued.colorLip = LoafSubdued.recogniseSqueamish[OrderUnit.probableLip(BatheKotsky.amuseAnus)]();
+            }
+         }
+         return LoafSubdued.colorLip;
+      }
+      
+      public function hangingGrate() : void
       {
          var _loc1_:Object = null;
-         if(!LoafSubdued.markDelightful)
+         if(!LoafSubdued.wickedPlan)
          {
-            if(LoafSubdued.inviteHalf)
+            if(LoafSubdued.chopLunasole)
             {
-               LoafSubdued.senseSwanky = DeterminedPrepare.hatefulComplex;
-               LoafSubdued.adhesiveLarge = DeterminedPrepare.hatefulComplex;
-               LoafSubdued.colorRare = LoafSubdued.planGround;
-               LoafSubdued.swankyWandering = LoafSubdued.taxRobin;
-               LoafSubdued.windyPanoramic = DeterminedPrepare.hatefulComplex;
-               LoafSubdued.warlikeInexpensive = LoafSubdued.machineMark;
-               LoafSubdued.stupidCrowded = DeterminedPrepare.hatefulComplex;
+               LoafSubdued.seriousCracker = HateFaint.proudGround;
+               LoafSubdued.mightyThick = HateFaint.proudGround;
+               LoafSubdued.colorLip = LoafSubdued.waterySupply;
+               LoafSubdued.adviseGullible = LoafSubdued.coalJoyous;
+               LoafSubdued.hateConfused = HateFaint.proudGround;
+               LoafSubdued.clubBabies = LoafSubdued.backScale;
+               LoafSubdued.lipSense = HateFaint.proudGround;
                return;
             }
             try
             {
-               _loc1_ = ExternalInterface.call(RecogniseCompetition.mouseDelightful(LaborerFeeble.requestMighty));
+               _loc1_ = ExternalInterface.call(SlipReligion.crackerStupid);
                if(_loc1_ != null)
                {
-                  LoafSubdued.senseSwanky = DeterminedPrepare.hatefulComplex;
-                  LoafSubdued.adhesiveLarge = DeterminedPrepare.hatefulComplex;
-                  LoafSubdued.colorRare = _loc1_[HystericalKotsky.admireGate];
-                  LoafSubdued.swankyWandering = _loc1_[ConfusedPeck.sandWaiting];
-                  ExternalInterface.call(AnusSeed.bruiseSuzuka);
+                  LoafSubdued.seriousCracker = HateFaint.proudGround;
+                  LoafSubdued.mightyThick = HateFaint.proudGround;
+                  LoafSubdued.colorLip = _loc1_[OrderUnit.probableLip(AdmireUncle.recogniseMark)];
+                  LoafSubdued.adviseGullible = _loc1_[OrderUnit.probableLip(ListIllustrious.trailWicked)];
+                  ExternalInterface.call(PrepareLip.fourLoaf);
                }
                return;
             }
-            catch(eliteLabel:Error)
+            catch(subduedPear:Error)
             {
                return;
             }
          }
       }
       
-      public function yellCard(param1:String) : void
+      public function agreePear() : void
       {
-         if(!LoafSubdued.proseWindy)
+         if(!LoafSubdued.halfWaiting)
          {
             return;
          }
-         LoafSubdued.stupidCrowded = DeterminedPrepare.hatefulComplex;
-         LoafSubdued.warlikeInexpensive = param1;
+         if(LoafSubdued.mightyThick)
+         {
+            ExternalInterface.call(OrderUnit.probableLip(RayAmuse.faithfulTasteless));
+         }
       }
       
-      public function noxiousTasteless() : String
+      public function stupidObtainable(param1:String) : void
       {
-         if(!LoafSubdued.proseWindy)
+         if(!LoafSubdued.halfWaiting)
+         {
+            return;
+         }
+         LoafSubdued.lipSense = HateFaint.proudGround;
+         LoafSubdued.clubBabies = param1;
+      }
+      
+      public function batheAction() : String
+      {
+         if(!LoafSubdued.halfWaiting)
          {
             return null;
          }
-         if(LoafSubdued.adhesiveLarge)
+         if(LoafSubdued.chopLunasole)
          {
-            return LoafSubdued.colorRare;
+            return OrderUnit.probableLip(SlipReligion.batheFrail);
          }
-         if(LoafSubdued.windyPanoramic)
+         if(LoafSubdued.mightyThick)
          {
-            LoafSubdued.windyPanoramic = DeterminedPrepare.machineSigh;
-            if(LoafSubdued.hateCommon != null)
-            {
-               LoafSubdued.colorRare = LoafSubdued.hateCommon[WaitingReligion.listGaping]();
-            }
+            return ExternalInterface.call(ReligionStore.orangeWandering);
          }
-         return LoafSubdued.colorRare;
-      }
-      
-      public function crashInjure(param1:String) : void
-      {
-         if(!LoafSubdued.proseWindy)
+         try
          {
-            return;
+            return LoafSubdued.recogniseSqueamish[OrderUnit.probableLip(ReligionStore.orangeWandering)]();
          }
-         if(LoafSubdued.inviteHalf)
+         catch(illustriousPail:Error)
          {
-            return;
+            return OrderUnit.probableLip(BurnFix.crimeIcy);
          }
-         if(LoafSubdued.adhesiveLarge)
-         {
-            ExternalInterface.call(RayYell.burnStay,param1);
-            return;
-         }
-         if(LoafSubdued.hateCommon)
-         {
-            LoafSubdued.hateCommon[RecogniseCompetition.mouseDelightful(RayYell.burnStay)](param1);
-            return;
-         }
+         return BurnFix.crimeIcy;
       }
       
       public function x_initialisation(param1:Object) : void
       {
-         LoafSubdued.hateCommon = param1;
-         LoafSubdued.senseSwanky = DeterminedPrepare.hatefulComplex;
-         LoafSubdued.markDelightful = DeterminedPrepare.hatefulComplex;
-      }
-      
-      public function signCreator() : String
-      {
-         if(!LoafSubdued.proseWindy)
-         {
-            return null;
-         }
-         if(LoafSubdued.inviteHalf)
-         {
-            return RayYell.yellPlan;
-         }
-         if(LoafSubdued.adhesiveLarge)
-         {
-            return ExternalInterface.call(AnusSeed.fascinatedAdvise);
-         }
-         try
-         {
-            return LoafSubdued.hateCommon[RecogniseCompetition.mouseDelightful(AnusSeed.fascinatedAdvise)]();
-         }
-         catch(proudUncle:Error)
-         {
-            return RecogniseCompetition.mouseDelightful(BerryMouse.fascinatedElite);
-         }
-         return RecogniseCompetition.mouseDelightful(BerryMouse.fascinatedElite);
+         LoafSubdued.recogniseSqueamish = param1;
+         LoafSubdued.seriousCracker = HateFaint.proudGround;
+         LoafSubdued.wickedPlan = HateFaint.proudGround;
       }
    }
 }

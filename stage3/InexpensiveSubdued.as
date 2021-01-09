@@ -6,9 +6,9 @@ package
       
       public function InexpensiveSubdued(param1:int, param2:int)
       {
-         super(LaborerFeeble.knifeParty,RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka));
-         staySigh.writeShort(param1);
-         staySigh.writeShort(param2);
+         super(PrepareLip.competitionSupply,OrderUnit.apatheticRare(CreatorSupply.slipSeed));
+         lamentableSpurious.writeShort(param1);
+         lamentableSpurious.writeByte(param2);
       }
    }
 }

@@ -11,53 +11,53 @@ package
    public class KnotBerry
    {
       
-      public static var adaptableCurved:int = 35;
+      public static var batheKotsky:int =  35;
       
-      public static var wateryWarlike:int = 25;
+      public static var decaySpurious:int =  25;
       
-      public static var anusHydrant:int = 36;
+      public static var hystericalSupply:int =  36;
       
-      public static var cuteThick:Boolean = false;
+      public static var injureHeal:Boolean = false;
       
-      public static var crimeIcy:int = 60;
+      public static var determinedPear:int =  60;
       
-      public static var trembleThick:Boolean = true;
+      public static var adhesiveSupply:Boolean = false;
       
-      public static var robinAlanson:int = 0;
+      public static var clubObeisant:Boolean = false;
       
-      public static var swankyWhisper:Boolean = false;
+      public static var chopBashful:int =  0;
       
-      public static var milkyDetermined:int = 0;
+      public static var religionSqueamish:Boolean = false;
       
-      public static var historicalBorrow:Boolean = false;
+      public static var confusedFeeble:Boolean = true;
       
-      public static var borrowDistro:Boolean = false;
+      public static var touchCute:Boolean = false;
       
-      public static var deadpanFix:int = -1;
+      public static var backHalf:Boolean = true;
       
-      public static var gullibleWing:int = 0;
+      public static var toeParty:int =  0;
       
-      public static var machineGate:Boolean = true;
+      public static var zonkedBabies:Number =  0;
       
-      public static var crowdedGaping:Boolean = false;
+      public static var staleRare:int =  0;
       
-      public static var deliverParty:Number = 0;
+      public static var gateFragile:int = 1;
       
-      public static var chopGaping:int = 0;
+      public static var waitingViolet:TextField;
       
-      public static var halfCard:TextField;
+      public static var crimeRay:int =  0;
       
-      public static var subduedBerry:int = 0;
+      public static var swankyWindy:int =  0;
       
-      public static var fascinatedAnnoying:int = 0;
+      public static var pailWatery:int =  0;
       
-      public static var bagBruise:int = 0;
+      public static var confusedMilky:int =  0;
       
-      public static var requestGullible:int = 0;
+      public static var storeCoal:int =  0;
       
-      public static var proudMouse:int;
+      public static var admireInexpensive:int;
       
-      public static var crackerChivalrous:int = 0;
+      public static var burnSubdued:int =  0;
        
       
       public function KnotBerry()
@@ -65,19 +65,134 @@ package
          super();
       }
       
-      public static function trailUnit() : void
+      public static function scratchGround() : void
       {
-         KnotBerry.deadpanFix = getTimer() - KnotBerry.gullibleWing;
-         KnotBerry.machineGate = DeterminedPrepare.hatefulComplex;
+         KnotBerry.gateFragile = getTimer() - KnotBerry.staleRare;
+         KnotBerry.backHalf = HateFaint.proudGround;
       }
       
-      public static function armyHanging(param1:DisplayObjectContainer, param2:Boolean) : int
+      public static function joyousOrange() : void
+      {
+         KnotBerry.backHalf = HateFaint.bladeStatement;
+         KnotBerry.staleRare = getTimer();
+         RareFeeble.waitingGullible.sighCrime(new BerryDetermined());
+      }
+      
+      public static function squeamishCute(param1:int) : void
+      {
+         var _loc3_:String = null;
+         var _loc2_:int = StalePinus.trailLamentable();
+         KnotBerry.hystericalSupply = param1;
+         KnotBerry.swankyWindy++;
+         KnotBerry.confusedMilky = KnotBerry.confusedMilky + KnotBerry.hystericalSupply;
+         KnotBerry.determinedPear = KnotBerry.confusedMilky / KnotBerry.swankyWindy;
+         if(KnotBerry.religionSqueamish)
+         {
+            if(_loc2_ - KnotBerry.toeParty > CreatorSupply.obeisantSeed && KnotBerry.hystericalSupply > KnotBerry.batheKotsky + OrderUnit.apatheticRare(PinusSand.jumbledTiresome))
+            {
+               KnotBerry.religionSqueamish = HateFaint.bladeStatement;
+            }
+         }
+         else if(KnotBerry.batheKotsky > KnotBerry.hystericalSupply)
+         {
+            KnotBerry.toeParty = _loc2_;
+            KnotBerry.religionSqueamish = HateFaint.proudGround;
+         }
+         KnotBerry.clubObeisant = KnotBerry.decaySpurious > KnotBerry.hystericalSupply;
+         if(OrderUnit.apatheticRare(AdmireUncle.delightfulFragile) <= KnotBerry.swankyWindy)
+         {
+            KnotBerry.swankyWindy = ReligionStore.trailInstruct;
+            KnotBerry.confusedMilky = ReligionStore.trailInstruct;
+         }
+         if(TastelessHateful.spuriousHistorical)
+         {
+            if(OrderUnit.apatheticRare(AdmireUncle.crimeCreator) < KnotBerry.determinedPear)
+            {
+               KnotBerry.adhesiveSupply = KnotBerry.batheKotsky > KnotBerry.determinedPear;
+               KnotBerry.confusedFeeble = KnotBerry.determinedPear > KnotBerry.batheKotsky;
+            }
+         }
+         else
+         {
+            KnotBerry.adhesiveSupply = HateFaint.bladeStatement;
+            KnotBerry.confusedFeeble = HateFaint.proudGround;
+         }
+         if(KnotBerry.touchCute)
+         {
+            if(!KnotBerry.waitingViolet)
+            {
+               KnotBerry.waitingViolet = new TextField();
+               KnotBerry.waitingViolet.defaultTextFormat = new TextFormat(BerryAgreeable.decayInjure,OrderUnit.apatheticRare(LargeComplex.programAbaft),FascinatedAnus.programMetal);
+               KnotBerry.waitingViolet.multiline = HateFaint.proudGround;
+               KnotBerry.waitingViolet.wordWrap = HateFaint.bladeStatement;
+               KnotBerry.waitingViolet.selectable = HateFaint.bladeStatement;
+               KnotBerry.waitingViolet.mouseEnabled = HateFaint.bladeStatement;
+               KnotBerry.waitingViolet.width = WanderingDecay.healQuirky;
+               KnotBerry.waitingViolet.height = OrderUnit.apatheticRare(WanderingDecay.actionInstruct);
+               KnotBerry.waitingViolet.y = PrepareLip.competitionSupply;
+               KnotBerry.waitingViolet.styleSheet = StalePinus.halfWaiting.agreeableCrowded;
+               KnotBerry.waitingViolet.filters = new Array(new GlowFilter(OrderUnit.apatheticRare(ReligionStore.trailInstruct),OrderUnit.apatheticRare(CardBabies.machineOranges),CardBabies.senseCrown,OrderUnit.apatheticRare(CardBabies.senseCrown),SlipReligion.companyHistorical,OrderUnit.apatheticRare(CardBabies.machineOranges)));
+            }
+            if(_loc2_ > KnotBerry.admireInexpensive || KnotBerry.burnSubdued == OrderUnit.apatheticRare(ReligionStore.trailInstruct))
+            {
+               KnotBerry.admireInexpensive = WanderingDecay.sandPrepare + _loc2_;
+               KnotBerry.burnSubdued = System.privateMemory / CardBabies.superGround;
+            }
+            _loc3_ = CardBabies.injureElite + KnotBerry.hystericalSupply + OrderUnit.probableLip(PinusSand.chickenSatisfy) + KnotBerry.determinedPear + OrderUnit.probableLip(AdaptableInexpensive.metalCracker) + KnotBerry.scaleMachine) + int(KnotBerry.zonkedBabies / StupidCoal.healDistro) / StupidCoal.healDistro + OrderUnit.probableLip(SlipReligion.warlikeCry);
+            if(RareOranges.fragileLoaf)
+            {
+               if(ReligionStore.trailInstruct <= KnotBerry.gateFragile)
+               {
+                  _loc3_ = _loc3_ + (CardBabies.icyCrowded + KnotBerry.gateFragile + StupidCoal.abaftMilky);
+               }
+               if(KnotBerry.backHalf && getTimer() - KnotBerry.chopBashful > WaitingCrib.agonizingChop)
+               {
+                  KnotBerry.chopBashful = getTimer();
+                  KnotBerry.joyousOrange();
+               }
+               else if(!KnotBerry.backHalf && getTimer() - KnotBerry.chopBashful > OrderUnit.apatheticRare(CreatorSupply.obeisantSeed))
+               {
+                  KnotBerry.gateFragile = OrderUnit.apatheticRare(CreatorSupply.obeisantSeed);
+                  KnotBerry.backHalf = HateFaint.proudGround;
+               }
+            }
+            KnotBerry.waitingViolet.htmlText = WanderingDecay.obtainableSupply + _loc3_ + PanoramicProbable.juiceFragile;
+            StalePinus.halfWaiting.stage.addChild(KnotBerry.waitingViolet);
+         }
+         if(param1 < OrderUnit.apatheticRare(CreatorSupply.slipSeed))
+         {
+            if(KnotBerry.injureHeal)
+            {
+               return;
+            }
+            KnotBerry.pailWatery++;
+            if(KnotBerry.pailWatery >= LargeComplex.balvankaZonked)
+            {
+               KnotBerry.injureHeal = HateFaint.proudGround;
+               KnotBerry.crimeRay = StalePinus.trailLamentable();
+            }
+         }
+         else
+         {
+            KnotBerry.pailWatery = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+            if(!KnotBerry.injureHeal)
+            {
+               return;
+            }
+            if(StalePinus.trailLamentable() - KnotBerry.crimeRay > AdmireUncle.tastelessInjure)
+            {
+               KnotBerry.injureHeal = HateFaint.bladeStatement;
+            }
+         }
+      }
+      
+      public static function signBag(param1:DisplayObjectContainer, param2:Boolean) : int
       {
          var _loc6_:DisplayObject = null;
          var _loc7_:DisplayObjectContainer = null;
-         var _loc3_:int = HystericalKotsky.notebookChivalrous;
+         var _loc3_:int = ReligionStore.trailInstruct;
          var _loc4_:int = param1.numChildren;
-         var _loc5_:int = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+         var _loc5_:int = -OrderUnit.apatheticRare(CardBabies.machineOranges);
          while(++_loc5_ < _loc4_)
          {
             _loc3_++;
@@ -88,149 +203,34 @@ package
                {
                   if(DisplayObjectContainer(_loc6_).mouseEnabled)
                   {
-                     KnotBerry.requestGullible++;
+                     KnotBerry.storeCoal++;
                   }
                }
                else if(_loc6_ is TextField)
                {
                   if(TextField(_loc6_).mouseEnabled)
                   {
-                     KnotBerry.requestGullible++;
+                     KnotBerry.storeCoal++;
                   }
                }
             }
             if(_loc6_ is DisplayObjectContainer)
             {
                _loc7_ = _loc6_ as DisplayObjectContainer;
-               _loc3_ = _loc3_ + KnotBerry.armyHanging(_loc7_,_loc7_.mouseChildren);
+               _loc3_ = _loc3_ + KnotBerry.signBag(_loc7_,_loc7_.mouseChildren);
             }
          }
          return _loc3_;
       }
       
-      public static function frailBabies() : void
+      public static function borrowBashful(param1:Boolean) : void
       {
-         KnotBerry.machineGate = DeterminedPrepare.machineSigh;
-         KnotBerry.gullibleWing = getTimer();
-         RareFeeble.actionFeeble.stickVolcano(new LoafDeadpan());
-      }
-      
-      public static function wanderingClub(param1:int) : void
-      {
-         var _loc3_:String = null;
-         var _loc2_:int = AdmireStore.crimeGullible();
-         KnotBerry.anusHydrant = param1;
-         KnotBerry.fascinatedAnnoying++;
-         KnotBerry.bagBruise = KnotBerry.bagBruise + KnotBerry.anusHydrant;
-         KnotBerry.crimeIcy = KnotBerry.bagBruise / KnotBerry.fascinatedAnnoying;
-         if(KnotBerry.crowdedGaping)
-         {
-            if(_loc2_ - KnotBerry.robinAlanson > HystericalKotsky.cryConfused && KnotBerry.anusHydrant > KnotBerry.adaptableCurved + LaborerFeeble.instructBathe)
-            {
-               KnotBerry.crowdedGaping = DeterminedPrepare.machineSigh;
-            }
-         }
-         else if(KnotBerry.anusHydrant < KnotBerry.adaptableCurved)
-         {
-            KnotBerry.robinAlanson = _loc2_;
-            KnotBerry.crowdedGaping = DeterminedPrepare.hatefulComplex;
-         }
-         KnotBerry.borrowDistro = KnotBerry.wateryWarlike > KnotBerry.anusHydrant;
-         if(KnotBerry.fascinatedAnnoying >= CoalRay.satisfyTrail)
-         {
-            KnotBerry.fascinatedAnnoying = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-            KnotBerry.bagBruise = HystericalKotsky.notebookChivalrous;
-         }
-         if(FaithfulJoyous.creatorStale)
-         {
-            if(AdviseRobin.satisfyGaping < KnotBerry.crimeIcy)
-            {
-               KnotBerry.historicalBorrow = KnotBerry.crimeIcy < KnotBerry.adaptableCurved;
-               KnotBerry.trembleThick = KnotBerry.adaptableCurved < KnotBerry.crimeIcy;
-            }
-         }
-         else
-         {
-            KnotBerry.historicalBorrow = DeterminedPrepare.machineSigh;
-            KnotBerry.trembleThick = DeterminedPrepare.hatefulComplex;
-         }
-         if(KnotBerry.swankyWhisper)
-         {
-            if(!KnotBerry.halfCard)
-            {
-               KnotBerry.halfCard = new TextField();
-               KnotBerry.halfCard.defaultTextFormat = new TextFormat(BerryAgreeable.groundKuruma,WaitingReligion.peckKotsky,FascinatedAnus.fragileConfused);
-               KnotBerry.halfCard.multiline = DeterminedPrepare.hatefulComplex;
-               KnotBerry.halfCard.wordWrap = DeterminedPrepare.machineSigh;
-               KnotBerry.halfCard.selectable = DeterminedPrepare.machineSigh;
-               KnotBerry.halfCard.mouseEnabled = DeterminedPrepare.machineSigh;
-               KnotBerry.halfCard.width = RayYell.seriousOrange;
-               KnotBerry.halfCard.height = CoalRay.anusChickens;
-               KnotBerry.halfCard.y = RecogniseCompetition.prepareAgree(BerryMouse.distroWicked);
-               KnotBerry.halfCard.styleSheet = AdmireStore.proseWindy.agonizingThick;
-               KnotBerry.halfCard.filters = new Array(new GlowFilter(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),CoalRay.actionBorrow,RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable),AdviseRobin.mouseProbable,RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)));
-            }
-            if(_loc2_ > KnotBerry.proudMouse || KnotBerry.crackerChivalrous == RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
-            {
-               KnotBerry.proudMouse = _loc2_ + RecogniseCompetition.prepareAgree(WaitingReligion.gateCommon);
-               KnotBerry.crackerChivalrous = System.privateMemory / RecogniseCompetition.prepareAgree(DeterminedWarlike.swankyLip);
-            }
-            _loc3_ = RecogniseCompetition.mouseDelightful(ArmyObtainable.statementCrib) + KnotBerry.anusHydrant + LipStore.frailVolcano + KnotBerry.crimeIcy + RecogniseCompetition.mouseDelightful(CoalRay.listAdvise) + KnotBerry.crackerChivalrous + RecogniseCompetition.mouseDelightful(BruiseBorrow.cryZonked) + int(KnotBerry.deliverParty / RecogniseCompetition.prepareAgree(ArmyObtainable.milkyAgree)) / RecogniseCompetition.prepareAgree(ArmyObtainable.milkyAgree) + RecogniseCompetition.mouseDelightful(RecogniseTrail.kurumaBerry);
-            if(RareOranges.peckAir)
-            {
-               if(KnotBerry.deadpanFix >= HystericalKotsky.notebookChivalrous)
-               {
-                  _loc3_ = _loc3_ + (DeterminedWarlike.coalGrate + KnotBerry.deadpanFix + RecogniseCompetition.mouseDelightful(CoalRay.programWindy));
-               }
-               if(KnotBerry.machineGate && getTimer() - KnotBerry.milkyDetermined > RecogniseCompetition.prepareAgree(GroundFour.rareCard))
-               {
-                  KnotBerry.milkyDetermined = getTimer();
-                  KnotBerry.frailBabies();
-               }
-               else if(!KnotBerry.machineGate && getTimer() - KnotBerry.milkyDetermined > HystericalKotsky.cryConfused)
-               {
-                  KnotBerry.deadpanFix = HystericalKotsky.cryConfused;
-                  KnotBerry.machineGate = DeterminedPrepare.hatefulComplex;
-               }
-            }
-            KnotBerry.halfCard.htmlText = AnusSeed.harmonyFeeble + _loc3_ + RecogniseCompetition.mouseDelightful(GroundFour.touchCompany);
-            AdmireStore.proseWindy.stage.addChild(KnotBerry.halfCard);
-         }
-         if(RecogniseCompetition.prepareAgree(BruiseBorrow.hateStatement) > param1)
-         {
-            if(KnotBerry.cuteThick)
-            {
-               return;
-            }
-            KnotBerry.subduedBerry++;
-            if(KnotBerry.subduedBerry >= RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus))
-            {
-               KnotBerry.cuteThick = DeterminedPrepare.hatefulComplex;
-               KnotBerry.chopGaping = AdmireStore.crimeGullible();
-            }
-         }
-         else
-         {
-            KnotBerry.subduedBerry = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-            if(!KnotBerry.cuteThick)
-            {
-               return;
-            }
-            if(AdmireStore.crimeGullible() - KnotBerry.chopGaping > RecogniseCompetition.prepareAgree(DeterminedWarlike.staleZonked))
-            {
-               KnotBerry.cuteThick = DeterminedPrepare.machineSigh;
-            }
-         }
-      }
-      
-      public static function patHysterical(param1:Boolean) : void
-      {
-         KnotBerry.swankyWhisper = param1;
+         KnotBerry.touchCute = param1;
          if(!param1)
          {
-            if(KnotBerry.halfCard && KnotBerry.halfCard.parent)
+            if(KnotBerry.waitingViolet && KnotBerry.waitingViolet.parent)
             {
-               KnotBerry.halfCard.parent.removeChild(KnotBerry.halfCard);
+               KnotBerry.waitingViolet.parent.removeChild(KnotBerry.waitingViolet);
             }
          }
       }

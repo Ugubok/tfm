@@ -4,10 +4,10 @@ package
    {
        
       
-      public function CrashMighty(param1:int)
+      public function CrashMighty(param1:Boolean)
       {
-         super(RecogniseCompetition.prepareAgree(BerryMouse.distroWicked),RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear));
-         staySigh.writeByte(param1);
+         super(CardBabies.senseCrown,OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining));
+         lamentableSpurious.writeByte(!!param1?int(OrderUnit.apatheticRare(CardBabies.machineOranges)):int(OrderUnit.apatheticRare(ReligionStore.trailInstruct)));
       }
    }
 }

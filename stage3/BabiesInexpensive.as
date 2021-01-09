@@ -4,10 +4,10 @@ package
    {
        
       
-      public function BabiesInexpensive(param1:int)
+      public function BabiesInexpensive(param1:String)
       {
-         super(AdviseRobin.satisfyGaping,RecogniseCompetition.prepareAgree(LaborerFeeble.knifeParty));
-         staySigh.writeInt(param1);
+         super(OrderUnit.apatheticRare(GullibleLook.unequaledJumbled),OrderUnit.apatheticRare(LargeComplex.waitingHarmony));
+         taxWaiting(param1);
       }
    }
 }

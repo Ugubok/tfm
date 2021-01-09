@@ -11,80 +11,78 @@ package
    {
        
       
-      public var illustriousLaborer:Sprite;
+      public var labelHydrant:Sprite;
       
-      public var listPinus:Sprite;
+      public var stayMetal:Sprite;
       
-      public var anusOrange:TextField;
+      public var actionProse:TextField;
       
-      public var slipAdmire:Function;
+      public var groundProgram:Function;
       
-      public var frailLunasole:Object;
+      public var agreeableInjure:Object;
       
-      public var gateNoxious:Boolean = false;
+      public var prepareCracker:Boolean = false;
       
       public function LoafArmy(param1:Function = null, param2:Object = null)
       {
          super();
-         this.slipAdmire = param1;
-         this.frailLunasole = param2;
-         mouseChildren = DeterminedPrepare.machineSigh;
-         this.illustriousLaborer = new Sprite();
-         this.illustriousLaborer.y = RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka);
-         this.illustriousLaborer.graphics.beginFill(2306616);
-         this.illustriousLaborer.graphics.drawCircle(BruiseBorrow.taxChivalrous,BruiseBorrow.taxChivalrous,RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous));
-         this.illustriousLaborer.graphics.endFill();
-         this.illustriousLaborer.filters = new Array(new BevelFilter(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),HystericalKotsky.borrowTax,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),CoalRay.actionBorrow,6325657,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),CoalRay.actionBorrow,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),CoalRay.actionBorrow,RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka)));
-         this.listPinus = new Sprite();
-         this.listPinus.graphics.beginFill(11059144);
-         this.listPinus.graphics.drawCircle(BruiseBorrow.taxChivalrous,RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous),DeterminedWarlike.deadpanBalvanka);
-         this.listPinus.y = RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka);
-         addChild(this.illustriousLaborer);
-         graphics.beginFill(HystericalKotsky.notebookChivalrous,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-         graphics.drawRect(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),AlansonReligion.babiesBag,RecogniseCompetition.prepareAgree(LaborerFeeble.agreePanoramic));
+         this.groundProgram = param1;
+         this.agreeableInjure = param2;
+         mouseChildren = HateFaint.bladeStatement;
+         this.labelHydrant = new Sprite();
+         this.labelHydrant.y = SlipReligion.companyHistorical;
+         this.labelHydrant.graphics.beginFill(2306616);
+         this.labelHydrant.graphics.drawCircle(OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining),OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining),BatheKotsky.milkyEntertaining);
+         this.labelHydrant.graphics.endFill();
+         this.labelHydrant.filters = new Array(new BevelFilter(CardBabies.machineOranges,OrderUnit.apatheticRare(ReligionStore.zonkedReligion),OrderUnit.apatheticRare(ReligionStore.trailInstruct),CardBabies.machineOranges,6325657,OrderUnit.apatheticRare(CardBabies.machineOranges),CardBabies.machineOranges,CardBabies.machineOranges,OrderUnit.apatheticRare(CardBabies.machineOranges),SlipReligion.companyHistorical));
+         this.stayMetal = new Sprite();
+         this.stayMetal.graphics.beginFill(11059144);
+         this.stayMetal.graphics.drawCircle(BatheKotsky.milkyEntertaining,BatheKotsky.milkyEntertaining,SlipReligion.companyHistorical);
+         this.stayMetal.y = SlipReligion.companyHistorical;
+         addChild(this.labelHydrant);
+         graphics.beginFill(ReligionStore.trailInstruct,ReligionStore.trailInstruct);
+         graphics.drawRect(ReligionStore.trailInstruct,ReligionStore.trailInstruct,CardBabies.inexpensiveChickens,SlipReligion.delightfulRay);
          graphics.endFill();
-         this.anusOrange = PrepareAction.orderScale();
-         this.anusOrange.autoSize = TextFieldAutoSize.LEFT;
-         this.anusOrange.embedFonts = PrepareAction.companyDeliver;
-         this.anusOrange.x = ConfusedPeck.lamentableDelightful;
-         addChild(this.anusOrange);
-         addEventListener(MouseEvent.MOUSE_DOWN,this.buryCompany);
-         FascinatedLip.superApathetic(this,true,true);
+         this.actionProse = PrepareAction.subduedPlan();
+         this.actionProse.autoSize = TextFieldAutoSize.LEFT;
+         this.actionProse.embedFonts = PrepareAction.windyBurn;
+         this.actionProse.x = OrderUnit.apatheticRare(ReligionStore.birdAdhesive);
+         addChild(this.actionProse);
+         addEventListener(MouseEvent.MOUSE_DOWN,this.proseCrowded);
+         FascinatedLip.harmonyMilky(this,true,true);
       }
       
-      public function buryCompany(param1:Event) : void
+      public function crashGround() : void
       {
-         this.admireCard(!this.gateNoxious);
-         if(this.slipAdmire != null)
+         this.labelHydrant.y = -AdmireUncle.crimeCreator + this.actionProse.textHeight / OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+         this.stayMetal.y = this.labelHydrant.y;
+      }
+      
+      public function proseCrowded(param1:Event) : void
+      {
+         this.machineDistro(!this.prepareCracker);
+         if(this.groundProgram != null)
          {
             if(!§§pop())
             {
-               this.slipAdmire(this.gateNoxious,this.frailLunasole);
+               this.groundProgram(this.prepareCracker,this.agreeableInjure);
             }
             else
             {
-               this.slipAdmire(this.gateNoxious);
+               this.groundProgram(this.prepareCracker);
             }
          }
       }
       
-      public function admireCard(param1:Boolean) : void
+      public function machineDistro(param1:Boolean) : void
       {
-         this.gateNoxious = param1;
-         if(this.gateNoxious)
+         this.prepareCracker = param1;
+         if(this.prepareCracker)
          {
-            addChild(this.listPinus);
+            addChild(this.stayMetal);
          }
-         else if(this.listPinus.parent)
-         {
-            this.listPinus.parent.removeChild(this.listPinus);
+         else if(this.inviteKnife.parent.removeChild(this.stayMetal);
          }
-      }
-      
-      public function anusProgram() : void
-      {
-         this.illustriousLaborer.y = -AdviseRobin.satisfyGaping + this.anusOrange.textHeight / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-         this.listPinus.y = this.illustriousLaborer.y;
       }
    }
 }

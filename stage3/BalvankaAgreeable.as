@@ -3,7 +3,7 @@ package
    public class BalvankaAgreeable extends MousePinus
    {
       
-      public static const whistleAdaptable:int = 2017;
+      public static const commonParty:int =  2017;
        
       
       public function BalvankaAgreeable(param1:FragileWandering)
@@ -11,13 +11,13 @@ package
          super(param1);
       }
       
-      override public function touchUnequaled(param1:BerryAnus) : void
+      override public function squeamishBorrow(param1:BerryAnus) : void
       {
-         instructAir = param1.hystericalChickens.pipkaViolet == BalvankaAgreeable.whistleAdaptable;
-         if(instructAir)
+         unitProbable = param1.programLaborer.hydrantThick == BalvankaAgreeable.commonParty;
+         if(unitProbable)
          {
-            PrepareCrib.staleBathe.hystericalPail = RecogniseCompetition.scaleCrown(CoalRay.orangeOrange);
-            param1.legConfused.notebookCrime.push(BurnAlanson.babiesHanging);
+            PrepareCrib.frailFaint = OrderUnit.noiselessGullible(AdmireUncle.mouseBabies);
+            param1.crashCard.deliverConfused.push(SatisfyStomach.adviseAnus);
          }
       }
    }

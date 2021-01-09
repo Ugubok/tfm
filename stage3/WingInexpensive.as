@@ -6,8 +6,8 @@ package
       
       public function WingInexpensive(param1:int)
       {
-         super(RayYell.stickColor,RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka));
-         staySigh.writeShort(param1);
+         super(OrderUnit.apatheticRare(BatheKotsky.proseNoiseless),CardBabies.lunasoleSwanky);
+         lamentableSpurious.writeShort(param1);
       }
    }
 }

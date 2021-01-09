@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var illustriousObeisant:String;
+      public var recogniseMouse:Boolean;
       
-      public var backArmy:PatBabies;
+      public var adaptableBashful:AdaptableAlanson;
       
-      public function InexpensiveKotsky(param1:int, param2:String)
+      public function InexpensiveKotsky(param1:int, param2:Boolean)
       {
          super();
          this.idSequence = param1;
-         this.illustriousObeisant = param2;
+         this.recogniseMouse = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RecogniseCompetition.mouseDelightful(RayYell.quirkyTasteless);
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous) + this.illustriousObeisant.length;
+         return OrderUnit.apatheticRare(AdmireUncle.crimeCreator);
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.illustriousObeisant);
+         param1.writeByte(!!this.recogniseMouse?int(OrderUnit.apatheticRare(CardBabies.machineOranges)):int(OrderUnit.apatheticRare(ReligionStore.trailInstruct)));
       }
    }
 }

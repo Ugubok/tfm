@@ -6,15 +6,15 @@ package
    {
        
       
-      public var faithfulRobin:int;
+      public var hatefulParty:int;
       
-      public var planWarlike:int;
+      public var requestObtainable:int;
       
       public function KnotWing(param1:ByteArray)
       {
          super(param1);
-         this.faithfulRobin = param1.readInt();
-         this.planWarlike = param1.readInt();
+         this.hatefulParty = param1.readInt();
+         this.requestObtainable = param1.readByte();
       }
    }
 }

@@ -4,11 +4,11 @@ package
    {
        
       
-      public function HistoricalProbable(param1:int, param2:Boolean)
+      public function HistoricalProbable(param1:int, param2:int)
       {
-         super(AlansonReligion.statementScratch,RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping));
-         staySigh.writeInt(param1);
-         staySigh.writeByte(!!param2?int(CoalRay.actionBorrow):int(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)));
+         super(AdmireUncle.crimeCreator,WaitingCrib.statementDecay);
+         lamentableSpurious.writeInt(param1);
+         lamentableSpurious.writeInt(param2);
       }
    }
 }

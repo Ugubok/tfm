@@ -6,7 +6,7 @@ package
       
       public function VioletMouse()
       {
-         super(RecogniseCompetition.prepareAgree(RayYell.seriousOrange),RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail));
+         super(WanderingDecay.healQuirky,OrderUnit.apatheticRare(SlipReligion.companyHistorical));
       }
    }
 }

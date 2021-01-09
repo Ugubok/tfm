@@ -5,49 +5,49 @@ package
    public class InexpensiveFragile
    {
       
-      public static const wingSlip:InexpensiveFragile = new InexpensiveFragile(3893 + -3892,"CREATION_TRIBU");
+      public static const sistersDelightful:InexpensiveFragile = new InexpensiveFragile( 1,OrderUnit.probableLip("CREATION_TRIBU"));
       
-      public static const annoyingNoxious:InexpensiveFragile = new InexpensiveFragile(1833 + -1831,RecogniseCompetition.mouseDelightful("NOUVEAU_MEMBRE"));
+      public static const scintillatingPrepare:InexpensiveFragile = new InexpensiveFragile( 2,OrderUnit.probableLip("NOUVEAU_MEMBRE"));
       
-      public static const chickenRare:InexpensiveFragile = new InexpensiveFragile(3571 + -3567,"MEMBRE_PARTI");
+      public static const backAir:InexpensiveFragile = new InexpensiveFragile( 4,"MEMBRE_PARTI");
       
-      public static const competitionAdaptable:InexpensiveFragile = new InexpensiveFragile(5449 + -5444,"MEMBRE_CHANGE_DE_RANG");
+      public static const babiesMilky:InexpensiveFragile = new InexpensiveFragile( 5,OrderUnit.probableLip("MEMBRE_CHANGE_DE_RANG"));
       
-      public static const suzukaAgonizing:InexpensiveFragile = new InexpensiveFragile(991 + -985,"MESSAGE_JOUR_CHANGE");
+      public static const wickedPeck:InexpensiveFragile = new InexpensiveFragile( 6,"MESSAGE_JOUR_CHANGE");
       
-      public static const crowdedPat:InexpensiveFragile = new InexpensiveFragile(8009 + -8002,RecogniseCompetition.mouseDelightful("DISSOLUTION_TRIBU"));
+      public static const creatorNoiseless:InexpensiveFragile = new InexpensiveFragile( 7,"DISSOLUTION_TRIBU");
       
-      public static const hatePeck:InexpensiveFragile = new InexpensiveFragile(2372 + -2364,RecogniseCompetition.mouseDelightful("CODE_MAISON_TFM_CHANGE"));
+      public static const legQuirky:InexpensiveFragile = new InexpensiveFragile( 8,"CODE_MAISON_TFM_CHANGE");
       
-      public static const requestProse:InexpensiveFragile = new InexpensiveFragile(4627 + -4624,RecogniseCompetition.mouseDelightful("MEMBRE_EXCLU"));
+      public static const lunasoleStay:InexpensiveFragile = new InexpensiveFragile( 3,"MEMBRE_EXCLU");
       
-      public static var stayWicked:Dictionary = new Dictionary();
+      public static var swankyStomach:Dictionary = new Dictionary();
       
       {
-         InexpensiveFragile.stayWicked[RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)] = InexpensiveFragile.wingSlip;
-         InexpensiveFragile.stayWicked[LaborerFeeble.instructBathe] = InexpensiveFragile.annoyingNoxious;
-         InexpensiveFragile.stayWicked[AdviseRobin.mouseProbable] = InexpensiveFragile.chickenRare;
-         InexpensiveFragile.stayWicked[RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping)] = InexpensiveFragile.competitionAdaptable;
-         InexpensiveFragile.stayWicked[RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous)] = InexpensiveFragile.suzukaAgonizing;
-         InexpensiveFragile.stayWicked[RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear)] = InexpensiveFragile.crowdedPat;
-         InexpensiveFragile.stayWicked[RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird)] = InexpensiveFragile.hatePeck;
-         InexpensiveFragile.stayWicked[DeterminedWarlike.deadpanBalvanka] = InexpensiveFragile.requestProse;
+         InexpensiveFragile.swankyStomach[CardBabies.machineOranges] = InexpensiveFragile.sistersDelightful;
+         InexpensiveFragile.swankyStomach[PinusSand.jumbledTiresome] = InexpensiveFragile.scintillatingPrepare;
+         InexpensiveFragile.swankyStomach[CardBabies.senseCrown] = InexpensiveFragile.backAir;
+         InexpensiveFragile.swankyStomach[AdmireUncle.crimeCreator] = InexpensiveFragile.babiesMilky;
+         InexpensiveFragile.swankyStomach[BatheKotsky.milkyEntertaining] = InexpensiveFragile.wickedPeck;
+         InexpensiveFragile.swankyStomach[VolcanoStay.proudWaiting] = InexpensiveFragile.creatorNoiseless;
+         InexpensiveFragile.swankyStomach[GullibleLook.unequaledJumbled] = InexpensiveFragile.legQuirky;
+         InexpensiveFragile.swankyStomach[OrderUnit.apatheticRare(SlipReligion.companyHistorical)] = InexpensiveFragile.lunasoleStay;
       }
       
-      public var scaleStomach:int;
+      public var mouseFrail:int;
       
-      public var notebookDetermined:String;
+      public var spuriousNoxious:String;
       
       public function InexpensiveFragile(param1:int, param2:String)
       {
          super();
-         this.scaleStomach = param1;
-         this.notebookDetermined = param2;
+         this.mouseFrail = param1;
+         this.spuriousNoxious = param2;
       }
       
-      public static function crashBathe(param1:int) : InexpensiveFragile
+      public static function admireUnequaled(param1:int) : InexpensiveFragile
       {
-         return InexpensiveFragile.stayWicked[param1];
+         return InexpensiveFragile.swankyStomach[param1];
       }
    }
 }

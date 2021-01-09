@@ -6,7 +6,7 @@ package
       
       public function HalfBorrow()
       {
-         super(RecogniseCompetition.prepareAgree(LaborerFeeble.knifeParty),AdviseRobin.obtainablePear);
+         super(AdmireUncle.faithfulFlower,SlipReligion.companyHistorical);
       }
    }
 }

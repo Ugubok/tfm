@@ -6,8 +6,8 @@ package
       
       public function ActionBalvanka(param1:String)
       {
-         super(BruiseBorrow.hateStatement,RecogniseCompetition.prepareAgree(LipStore.confusedSeed));
-         staySigh.writeUTF(param1);
+         super(AdmireUncle.crimeCreator,OrderUnit.apatheticRare(LargeComplex.waitingHarmony));
+         lamentableSpurious.writeUTF(param1);
       }
    }
 }

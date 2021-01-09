@@ -6,33 +6,33 @@ package
    {
        
       
-      public var crashHanging:int;
+      public var bladeSign:int;
       
-      public var berryEntertaining:int;
+      public var actionVolcano:int;
       
-      public var crimeCry:int;
+      public var stomachProud:int;
       
-      public var orangePlan:int;
+      public var tastelessAgreeable:int;
       
-      public var decayCommon:int;
+      public var colorQuirky:int;
       
-      public var supplyArmy:int;
+      public var knotCoal:int;
       
-      public var bagBlade:int;
+      public var berryStupid:int;
       
-      public var cribStomach:int;
+      public var gateReligion:int;
       
       public function SignInstruct(param1:ByteArray)
       {
          super(param1);
-         this.crashHanging = param1.readInt();
-         this.berryEntertaining = param1.readInt();
-         this.crimeCry = param1.readByte();
-         this.orangePlan = param1.readByte();
-         this.decayCommon = param1.readUnsignedShort();
-         this.supplyArmy = param1.readUnsignedShort();
-         this.bagBlade = param1.readShort();
-         this.cribStomach = param1.readShort();
+         this.bladeSign = param1.readInt();
+         this.actionVolcano = param1.readInt();
+         this.stomachProud = param1.readByte();
+         this.tastelessAgreeable = param1.readByte();
+         this.colorQuirky = param1.readUnsignedShort();
+         this.knotCoal = param1.readUnsignedShort();
+         this.berryStupid = param1.readShort();
+         this.gateReligion = param1.readShort();
       }
    }
 }

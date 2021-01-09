@@ -8,15 +8,15 @@ package
    public class DeadpanOranges
    {
       
-      public static var bagAnnoying:MovieClip;
+      public static var anusCrime:MovieClip;
       
-      public static var superHalf:MovieClip;
+      public static var chickensJuice:MovieClip;
       
-      public static var cribRay:TextField;
+      public static var injureColor:TextField;
       
-      public static var scintillatingToe:int;
+      public static var alansonWing:int;
       
-      public static var yellOrder:String;
+      public static var juiceFour:String;
        
       
       public function DeadpanOranges()
@@ -24,87 +24,86 @@ package
          super();
       }
       
-      public static function mouseAgree(param1:Event) : void
+      public static function agreeablePear(param1:Event) : void
       {
-         DeadpanOranges.scintillatingToe = DeadpanOranges.scintillatingToe + RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-         if(BerryAgreeable.unitBack)
+         DeadpanOranges.alansonWing = DeadpanOranges.alansonWing + PinusSand.jumbledTiresome;
+         if(BerryAgreeable.colorGaping)
          {
-            DeadpanOranges.cribRay.htmlText = RecogniseCompetition.mouseDelightful(RecogniseTrail.mouseParty) + DeadpanOranges.yellOrder.substr(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),DeadpanOranges.scintillatingToe);
+            DeadpanOranges.injureColor.htmlText = OrderUnit.probableLip(AdaptableInexpensive.markBruise) + DeadpanOranges.juiceFour.substr(ReligionStore.trailInstruct,DeadpanOranges.alansonWing);
          }
          else
          {
-            DeadpanOranges.cribRay.htmlText = DeadpanOranges.yellOrder.substr(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),DeadpanOranges.scintillatingToe);
+            DeadpanOranges.injureColor.htmlText = DeadpanOranges.juiceFour.substr(ReligionStore.trailInstruct,DeadpanOranges.alansonWing);
          }
-         if(DeadpanOranges.yellOrder.length < DeadpanOranges.scintillatingToe)
+         if(DeadpanOranges.juiceFour.length < DeadpanOranges.alansonWing)
          {
-            AdmireStore.proseWindy.removeEventListener(BerryMouse.inexpensiveCompany + BalvankaNotebook.competitionRecognise,DeadpanOranges.mouseAgree);
+            StalePinus.halfWaiting.removeEventListener(BurnFix.icyRobin + OrderUnit.probableLip(DildoBorrow.quirkyKnot),DeadpanOranges.agreeablePear);
          }
       }
       
-      public static function probableWicked(param1:int) : void
+      public static function uncleGaping() : void
       {
-         if(param1 == RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+         var _loc2_:Bitmap = null;
+         DeadpanOranges.anusCrime = BerryAnus.touchSerious.lightSerious(PinusSand.programRequest) as MovieClip;
+         DeadpanOranges.chickensJuice = BerryAnus.touchSerious.lightSerious(BatheKotsky.fragileDeadpan) as MovieClip;
+         DeadpanOranges.injureColor = DeadpanOranges.anusCrime[AdmireUncle.loafDecay + CardBabies.thickPeck];
+         DeadpanOranges.anusCrime.addChild(new RequestKuruma(DildoBorrow.clubDeadpan * OrderUnit.apatheticRare(CardBabies.machineOranges),OrderUnit.apatheticRare(BurnFix.eliteEntertaining),BerryAgreeable.orangesCompetition(WanderingDecay.obtainableApathetic),DeadpanOranges.decayBlade,null,OrderUnit.apatheticRare(GullibleLook.tastelessBruise),!StalePinus.halfWaiting.wanderingCreator));
+         DeadpanOranges.injureColor.styleSheet = StalePinus.halfWaiting.agreeableCrowded;
+         if(StalePinus.halfWaiting.wanderingCreator)
          {
-            DeadpanOranges.agreeFix(BerryAgreeable.noiselessGround(BruiseBorrow.alansonGrate));
-            DeadpanOranges.superHalf.x = RecogniseCompetition.prepareAgree(WaitingReligion.tastelessSwanky);
-            DeadpanOranges.superHalf.y = CoalRay.rayTremble;
+            DeadpanOranges.injureColor.embedFonts = HateFaint.bladeStatement;
          }
-         else if(CoalRay.actionBorrow == param1)
+         var _loc1_:Bitmap = AgreeableHistorical.crowdedScale(OrderUnit.probableLip(StupidCoal.inviteStore));
+         _loc1_.x = OrderUnit.apatheticRare(PrepareLip.cribViolet);
+         _loc1_.y = OrderUnit.apatheticRare(GullibleLook.scaleTrail);
+         BerryAnus.touchSerious.addChild(_loc1_);
+         _loc2_ = AgreeableHistorical.crowdedScale(OrderUnit.probableLip(ReligionStore.crowdedCompetition));
+         BerryAnus.touchSerious.addChild(_loc2_);
+         _loc2_.x = LargeComplex.windyDildo;
+         _loc2_.y = OrderUnit.apatheticRare(GullibleLook.scaleTrail);
+         DeadpanOranges.deliverGate(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+      }
+      
+      public static function decayBlade() : void
+      {
+         StalePinus.halfWaiting.pipkaMachine(OrderUnit.probableLip(CreatorSupply.rareRequest));
+         if(DeadpanOranges.anusCrime)
          {
-            DeadpanOranges.agreeFix(BerryAgreeable.noiselessGround(RayYell.zonkedSigh));
-            DeadpanOranges.superHalf.x = RecogniseCompetition.prepareAgree(CoalRay.anusChickens);
-            DeadpanOranges.superHalf.y = RecogniseCompetition.prepareAgree(BerryMouse.mightyTiresome);
+            DeadpanOranges.anusCrime.visible = HateFaint.bladeStatement;
          }
-         else if(param1 == RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe))
+      }
+      
+      public static function deliverGate(param1:int) : void
+      {
+         if(param1 == OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
-            DeadpanOranges.agreeFix(BerryAgreeable.robinBag(RareOranges.confusedBorrow,RecogniseCompetition.mouseDelightful(GroundFour.complexCrash)));
-            if(DeadpanOranges.superHalf.parent)
+            DeadpanOranges.agonizingFaint(BerryAgreeable.orangesCompetition(BatheKotsky.subduedIllustrious));
+            DeadpanOranges.chickensJuice.x = OrderUnit.apatheticRare(ReligionStore.inviteQuirky);
+            DeadpanOranges.chickensJuice.y = OrderUnit.apatheticRare(PrepareLip.fourNoiseless);
+         }
+         else if(OrderUnit.apatheticRare(CardBabies.machineOranges) == param1)
+         {
+            DeadpanOranges.agonizingFaint(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(LargeComplex.crackerParty)));
+            DeadpanOranges.chickensJuice.x = WanderingDecay.actionInstruct;
+            DeadpanOranges.chickensJuice.y = OrderUnit.apatheticRare(VolcanoStay.prepareAmuse);
+         }
+         else if(param1 == PinusSand.jumbledTiresome)
+         {
+            DeadpanOranges.agonizingFaint(BerryAgreeable.labelAdhesive(RareOranges.squeamishAmuse,OrderUnit.probableLip(DildoBorrow.machineWatery)));
+            if(DeadpanOranges.chickensJuice.parent)
             {
-               DeadpanOranges.superHalf.parent.removeChild(DeadpanOranges.superHalf);
-               DeadpanOranges.superHalf.stop();
+               DeadpanOranges.chickensJuice.parent.removeChild(DeadpanOranges.chickensJuice);
+               DeadpanOranges.chickensJuice.stop();
             }
          }
       }
       
-      public static function machineSubdued() : void
+      public static function agonizingFaint(param1:String) : void
       {
-         var _loc1_:Bitmap = null;
-         var _loc2_:Bitmap = null;
-         DeadpanOranges.bagAnnoying = BerryAnus.cribSatisfy.fascinatedSense(RecogniseCompetition.mouseDelightful(AnusSeed.burnAdmire)) as MovieClip;
-         DeadpanOranges.superHalf = BerryAnus.cribSatisfy.fascinatedSense(HystericalKotsky.panoramicKotsky) as MovieClip;
-         DeadpanOranges.cribRay = DeadpanOranges.bagAnnoying[RecogniseCompetition.mouseDelightful(BerryMouse.competitionStick) + GroundFour.supplyMachine];
-         DeadpanOranges.bagAnnoying.addChild(new RequestKuruma(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow) * (RecogniseCompetition.prepareAgree(CoalRay.actionBorrow) * CoalRay.crashElite),CoalRay.violetBathe,BerryAgreeable.noiselessGround(CoalRay.gateAdmire),DeadpanOranges.tastelessKotsky,null,RecogniseCompetition.prepareAgree(AnusSeed.toeBabies),!AdmireStore.proseWindy.bagSwanky));
-         DeadpanOranges.cribRay.styleSheet = AdmireStore.proseWindy.agonizingThick;
-         if(AdmireStore.proseWindy.bagSwanky)
-         {
-            DeadpanOranges.cribRay.embedFonts = DeterminedPrepare.machineSigh;
-         }
-         _loc1_ = AgreeableHistorical.religionSign(RecogniseCompetition.mouseDelightful(AdviseRobin.obtainableChivalrous));
-         _loc1_.x = LipStore.lunasoleProgram;
-         _loc1_.y = RecogniseCompetition.prepareAgree(BerryMouse.cribSand);
-         BerryAnus.cribSatisfy.addChild(_loc1_);
-         _loc2_ = AgreeableHistorical.religionSign(RecogniseCompetition.mouseDelightful(FrailJuice.loafCoal));
-         BerryAnus.cribSatisfy.addChild(_loc2_);
-         _loc2_.x = RecogniseCompetition.prepareAgree(CoalRay.adaptableAdmire);
-         _loc2_.y = RecogniseCompetition.prepareAgree(BerryMouse.cribSand);
-         DeadpanOranges.probableWicked(HystericalKotsky.notebookChivalrous);
-      }
-      
-      public static function agreeFix(param1:String) : void
-      {
-         DeadpanOranges.scintillatingToe = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         DeadpanOranges.yellOrder = param1;
-         DeadpanOranges.cribRay.htmlText = RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued);
-         AdmireStore.proseWindy.addEventListener(RecogniseCompetition.mouseDelightful(BalvankaNotebook.competitionRecognise) + RecogniseCompetition.mouseDelightful(CoalWhisper.markDecay),DeadpanOranges.mouseAgree);
-      }
-      
-      public static function tastelessKotsky() : void
-      {
-         AdmireStore.proseWindy.pinusMouse(DeterminedWarlike.icyParty);
-         if(DeadpanOranges.bagAnnoying)
-         {
-            DeadpanOranges.bagAnnoying.visible = DeterminedPrepare.machineSigh;
-         }
+         DeadpanOranges.alansonWing = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         DeadpanOranges.juiceFour = param1;
+         DeadpanOranges.injureColor.htmlText = DildoBorrow.metalAdaptable;
+         StalePinus.halfWaiting.addEventListener(OrderUnit.probableLip(DildoBorrow.quirkyKnot) + PanoramicProbable.harmonyDildo,DeadpanOranges.agreeablePear);
       }
    }
 }

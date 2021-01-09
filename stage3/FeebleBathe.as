@@ -6,15 +6,15 @@ package
    {
        
       
-      public var deadpanCard:int;
+      public var abaftEntertaining:int;
       
-      public var rayNotebook:String;
+      public var chickensReligion:int;
       
       public function FeebleBathe(param1:ByteArray)
       {
          super(param1);
-         this.deadpanCard = param1.readShort();
-         this.rayNotebook = param1.readUTF();
+         this.abaftEntertaining = param1.readInt();
+         this.chickensReligion = param1.readInt();
       }
    }
 }

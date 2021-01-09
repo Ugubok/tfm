@@ -6,23 +6,23 @@ package
    {
        
       
-      public var halfLaborer:String;
+      public var grateCrowded:String;
       
-      public var injureOrder:String;
+      public var cribNoxious:String;
       
-      public var crownProgram:Array;
+      public var markCute:Array;
       
       public function WhistleInexpensive(param1:ByteArray)
       {
-         this.crownProgram = new Array();
+         this.markCute = new Array();
          super(param1);
-         this.halfLaborer = param1.readUTF();
-         this.injureOrder = param1.readUTF();
+         this.grateCrowded = param1.readUTF();
+         this.cribNoxious = param1.readUTF();
          var _loc2_:int = param1.readByte();
-         var _loc3_:int = HystericalKotsky.notebookChivalrous;
+         var _loc3_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          while(_loc3_ < _loc2_)
          {
-            this.crownProgram.push(param1.readUTF());
+            this.markCute.push(param1.readUTF());
             _loc3_++;
          }
       }

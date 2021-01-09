@@ -4,11 +4,10 @@ package
    {
        
       
-      public function ZonkedColor(param1:int, param2:String)
+      public function ZonkedColor(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(LaborerFeeble.knifeParty),RecogniseCompetition.prepareAgree(BerryMouse.distroWicked));
-         staySigh.writeInt(param1);
-         staySigh.writeUTF(param2);
+         super(OrderUnit.apatheticRare(AdmireUncle.crimeCreator),OrderUnit.apatheticRare(CardBabies.staleJumbled));
+         lamentableSpurious.writeInt(param1);
       }
    }
 }

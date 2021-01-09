@@ -1,12 +1,12 @@
 package
 {
-   public class OrangesWhistle extends LoafSwanky
+   public class OrangesWhistle extends MousePinus
    {
        
       
-      public function OrangesWhistle()
+      public function OrangesWhistle(param1:FragileWandering)
       {
-         super(BruiseBorrow.hateStatement,LaborerFeeble.staleMark);
+         super(param1);
       }
    }
 }

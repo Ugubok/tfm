@@ -3,13 +3,13 @@ package
    public class SlipAdaptable
    {
       
-      public static const stickSwanky:int = 0;
+      public static const babiesUncle:int =  0;
       
-      public static const requestInjure:int = 1;
+      public static const jumbledGullible:int =  1;
       
-      public static const deadpanHanging:int = 2;
+      public static const kurumaCompany:int =  2;
       
-      public static const feeblePeck:int = 4;
+      public static const crackerAmuse:int =  4;
        
       
       public function SlipAdaptable()

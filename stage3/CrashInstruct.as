@@ -4,12 +4,12 @@ package
    {
        
       
-      public function CrashInstruct(param1:String, param2:String)
+      public function CrashInstruct(param1:int, param2:int, param3:int)
       {
-         super(LaborerFeeble.staleMark,RecogniseCompetition.prepareAgree(BerryMouse.unequaledJuice));
-         staySigh.writeUTF(param1);
-         staySigh.writeUTF(param2);
-         lipStay = DeterminedPrepare.hatefulComplex;
+         super(AdmireUncle.crimeCreator,CardBabies.halfChicken);
+         lamentableSpurious.writeInt(param1);
+         lamentableSpurious.writeShort(param2);
+         lamentableSpurious.writeShort(param3);
       }
    }
 }

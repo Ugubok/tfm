@@ -9,7 +9,7 @@ package
          super();
       }
       
-      public function obtainableWhisper(param1:BabiesHistorical) : void
+      public function determinedMighty(param1:BabiesHistorical) : void
       {
       }
    }

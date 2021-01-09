@@ -9,11 +9,11 @@ package
          super();
       }
       
-      public function pearCrash(param1:int) : void
+      public function agreeablePear() : void
       {
       }
       
-      public function mouseAgree() : void
+      public function swankyApathetic(param1:int) : void
       {
       }
    }

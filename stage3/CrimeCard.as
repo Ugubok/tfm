@@ -4,72 +4,72 @@ package
    {
        
       
-      public var chickensBack:int;
+      public var kurumaBalvanka:int;
       
-      public var orderCracker:int;
+      public var abaftBird:int;
       
-      public var seedLarge:Boolean;
+      public var largeFeeble:Boolean;
       
-      public var fourHateful:int;
+      public var noiselessWandering:int;
       
-      public var planSatisfy:Vector.<int>;
+      public var halfLip:Vector.<int>;
       
-      public var borrowSigh:Boolean = false;
+      public var orderNoxious:Boolean = false;
       
-      public var cuteDildo:int;
+      public var actionThick:int;
       
-      public var hangingMachine:Boolean = false;
+      public var agreeAbaft:Boolean = false;
       
-      public var armySuper:Boolean = false;
+      public var adviseSubdued:Boolean = false;
       
-      public var instructFaithful:Boolean = false;
+      public var rareKnot:Boolean = false;
       
-      public var sistersStale:Boolean = false;
+      public var peckGround:Boolean = false;
       
-      public var cryRecognise:Boolean = false;
+      public var senseCreator:Boolean = false;
       
-      public var peckAgree:Boolean = false;
+      public var wingSeed:Boolean = false;
       
-      public var metalCry:Vector.<SeriousBerry>;
+      public var squeamishSisters:Vector.<SeriousBerry>;
       
       public function CrimeCard(param1:int, param2:int, param3:int, param4:Boolean, param5:int, param6:int, param7:int)
       {
-         this.metalCry = new Vector.<SeriousBerry>();
-         this.chickensBack = param1;
-         this.orderCracker = param2;
-         entertainingHateful = this.tastelessOrange();
-         super(entertainingHateful);
-         this.borrowSigh = param4;
-         this.fourHateful = param3;
-         this.seedLarge = this.fourHateful > HystericalKotsky.notebookChivalrous;
-         this.cuteDildo = param5;
-         harmonyStick = param6;
-         inexpensiveChicken = param7;
-         this.peckAgree = CoalRay.actionBorrow == param5;
-         this.armySuper = param5 == HystericalKotsky.lightAnus;
-         this.instructFaithful = RecogniseCompetition.prepareAgree(DeterminedWarlike.volcanoDelightful) == param5;
-         this.sistersStale = param5 == WaitingReligion.peckKotsky;
-         this.hangingMachine = this.armySuper || this.instructFaithful || this.sistersStale;
-         this.cryRecognise = param5 == RayYell.instructMetal;
-         this.planSatisfy = this.touchHateful();
+         this.squeamishSisters = new Vector.<SeriousBerry>();
+         this.kurumaBalvanka = param1;
+         this.abaftBird = param2;
+         planHalf = this.squeamishStore();
+         super(planHalf);
+         this.orderNoxious = param4;
+         this.noiselessWandering = param3;
+         this.largeFeeble = OrderUnit.apatheticRare(ReligionStore.trailInstruct) < this.noiselessWandering;
+         this.actionThick = param5;
+         slipSigh = param6;
+         stupidCompetition = param7;
+         this.wingSeed = param5 == CardBabies.machineOranges;
+         this.adviseSubdued = OrderUnit.apatheticRare(LargeComplex.balvankaZonked) == param5;
+         this.rareKnot = OrderUnit.apatheticRare(CardBabies.lunasoleSwanky) == param5;
+         this.peckGround = LargeComplex.programAbaft == param5;
+         this.agreeAbaft = this.adviseSubdued || this.rareKnot || this.peckGround;
+         this.senseCreator = param5 == WanderingDecay.deadpanAdvise;
+         this.halfLip = this.delightfulFrail();
       }
       
-      public function touchHateful() : Vector.<int>
+      public function squeamishStore() : int
       {
-         return new Vector.<int>(this.fourHateful);
+         return OrderUnit.apatheticRare(ReligionStore.trailInstruct);
       }
       
-      public function tastelessOrange() : int
+      public function hystericalKotsky(param1:SeriousBerry) : void
       {
-         return RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-      }
-      
-      public function lookBack(param1:SeriousBerry) : void
-      {
-         if(this.metalCry.indexOf(param1) == -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+         if(this.squeamishSisters.indexOf(param1) == -OrderUnit.apatheticRare(CardBabies.machineOranges))
          {
-            this.metalCry.push(param1);
+            this.squeamishSisters.push(param1);
          }
+      }
+      
+      public function delightfulFrail() : Vector.<int>
+      {
+         return new Vector.<int>(this.noiselessWandering);
       }
    }
 }

@@ -6,7 +6,7 @@ package
       
       public function BirdCard()
       {
-         super(BerryMouse.distroWicked,RecogniseCompetition.prepareAgree(ConfusedPeck.lamentableDelightful));
+         super(WaitingCrib.statementDecay,StupidCoal.chivalrousSatisfy);
       }
    }
 }

@@ -5,185 +5,183 @@ package
    public class HatefulCrash
    {
       
-      public static var proseWindy:HatefulCrash;
+      public static var halfWaiting:HatefulCrash;
        
       
-      public var eliteHydrant:Boolean = false;
+      public var commonClub:Boolean = false;
       
-      public var berryStomach:String = null;
+      public var crowdedSand:String = null;
       
-      public var fascinatedApathetic:Vector.<ScaleSubdued>;
+      public var injureWaiting:Vector.<ScaleSubdued>;
       
-      public var touchJoyous:Dictionary;
+      public var slipBurn:Dictionary;
       
-      public var metalHydrant:Dictionary;
+      public var rayToe:Dictionary;
       
-      public var stickPear:ScaleSubdued = null;
+      public var unequaledCrime:ScaleSubdued = null;
       
       public function HatefulCrash()
       {
-         this.fascinatedApathetic = new Vector.<ScaleSubdued>();
-         this.touchJoyous = new Dictionary();
-         this.metalHydrant = new Dictionary();
+         this.injureWaiting = new Vector.<ScaleSubdued>();
+         this.orangesAction = new Dictionary();
          super();
-         HatefulCrash.proseWindy = this;
+         HatefulCrash.halfWaiting = this;
       }
       
-      public function stupidMilky(param1:String) : void
+      public function rareLarge(param1:String) : void
       {
          if(param1)
          {
-            this.berryStomach = param1;
-            ClubScintillating.squeamishCreator(new GroundAlanson(ClubScintillating.agreeEntertaining(),param1));
+            ClubScintillating.tiresomeFeeble(new AlansonAgreeable(ClubScintillating.lightAir(),param1));
          }
       }
       
-      public function obeisantWatery() : Vector.<ScaleSubdued>
+      public function anusSlip(param1:String, param2:Boolean) : void
       {
-         return this.fascinatedApathetic.concat();
+         ClubScintillating.tiresomeFeeble(new AnusSerious(ClubScintillating.lightAir(),param1,param2));
       }
       
-      public function crimeAdvise(param1:int) : void
+      public function halfWarlike(param1:int) : void
       {
-         var _loc2_:ScaleSubdued = this.metalHydrant[param1];
+         var _loc2_:ScaleSubdued = this.rayToe[param1];
          if(_loc2_)
          {
-            this.fascinatedApathetic.splice(this.fascinatedApathetic.indexOf(_loc2_),CoalRay.actionBorrow);
-            delete this.touchJoyous[_loc2_.waitingGrate.toLowerCase()];
-            delete this.metalHydrant[_loc2_.scaleStomach];
-            if(ZonkedBird.birdAgonizing())
+            this.injureWaiting.splice(this.injureWaiting.indexOf(_loc2_),OrderUnit.apatheticRare(CardBabies.machineOranges));
+            delete this.slipBurn[_loc2_.deliverAbaft.toLowerCase()];
+            delete this.rayToe[_loc2_.mouseFrail];
+            if(ZonkedBird.requestChop())
             {
-               ZonkedBird.proseWindy.crimeAdvise(_loc2_);
+               ZonkedBird.halfWaiting.halfWarlike(_loc2_);
             }
          }
       }
       
-      public function knifeSisters() : ScaleSubdued
+      public function largePat() : void
       {
-         return this.stickPear;
+         ClubScintillating.tiresomeFeeble(new BabiesStore(ClubScintillating.lightAir()));
       }
       
-      public function clubCrown(param1:String) : void
+      public function lamentableAnus(param1:String) : void
       {
          if(param1)
          {
-            ClubScintillating.squeamishCreator(new KurumaWandering(ClubScintillating.agreeEntertaining(),param1));
+            ClubScintillating.tiresomeFeeble(new ScaleRobin(ClubScintillating.lightAir(),param1));
          }
       }
       
-      public function bagElite(param1:String, param2:Boolean) : void
+      public function groundScintillating(param1:ScaleSubdued) : void
       {
-         ClubScintillating.squeamishCreator(new ZonkedCrime(ClubScintillating.agreeEntertaining(),param1,param2));
-      }
-      
-      public function scaleInexpensive() : Boolean
-      {
-         return this.stickPear != null;
-      }
-      
-      public function labelGrate(param1:String) : void
-      {
-         if(param1)
-         {
-            ClubScintillating.squeamishCreator(new LipKuruma(ClubScintillating.agreeEntertaining(),param1));
-         }
-      }
-      
-      public function obeisantCrowded() : void
-      {
-         ClubScintillating.squeamishCreator(new InstructSign(ClubScintillating.agreeEntertaining()));
-      }
-      
-      public function fourRare(param1:ScaleSubdued) : void
-      {
-         if(this.stickPear == param1)
+         if(this.unequaledCrime == param1)
          {
             return;
          }
-         if(param1 == null || param1.waitingGrate == RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued))
+         if(param1 == null || param1.deliverAbaft == DildoBorrow.metalAdaptable)
          {
-            this.stickPear = null;
+            this.unequaledCrime = null;
          }
-         else if(this.metalHydrant[param1.scaleStomach])
+         else if(this.rayToe[param1.mouseFrail])
          {
-            this.stickPear = this.metalHydrant[param1.scaleStomach];
-            this.stickPear.determinedDelightful = DeterminedPrepare.hatefulComplex;
-            this.stickPear.icyTiresome = DeterminedPrepare.hatefulComplex;
+            this.unequaledCrime = this.rayToe[param1.mouseFrail];
+            this.unequaledCrime.orangesWindy = HateFaint.proudGround;
+            this.unequaledCrime.buryRay = HateFaint.proudGround;
          }
          else
          {
-            this.stickPear = param1;
-            this.stickPear.determinedDelightful = DeterminedPrepare.hatefulComplex;
-            this.balvankaStatement(this.stickPear);
+            this.unequaledCrime = param1;
+            this.unequaledCrime.orangesWindy = HateFaint.proudGround;
+            this.frailAgree(this.unequaledCrime);
          }
-         if(ZonkedBird.birdAgonizing())
+         if(ZonkedBird.requestChop())
          {
-            ZonkedBird.crowdedYell(false);
+            ZonkedBird.cuteLabel(false);
          }
       }
       
-      public function probableNotebook() : void
+      public function alansonProbable() : void
       {
-         ClubScintillating.squeamishCreator(new SlipBabies(ClubScintillating.agreeEntertaining()));
+         ClubScintillating.tiresomeFeeble(new BatheKnot(ClubScintillating.lightAir()));
       }
       
-      public function gateProgram(param1:String) : Boolean
+      public function prepareChivalrous(param1:ScaleSubdued) : void
       {
-         return this.touchJoyous[param1.toLowerCase()] != null;
-      }
-      
-      public function deadpanHarmony(param1:ScaleSubdued) : void
-      {
-         var _loc2_:ScaleSubdued = this.metalHydrant[param1.scaleStomach];
+         var _loc2_:ScaleSubdued = this.rayToe[param1.mouseFrail];
          if(_loc2_)
          {
-            this.fascinatedApathetic.splice(this.fascinatedApathetic.indexOf(_loc2_),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),param1);
-            delete this.touchJoyous[_loc2_.waitingGrate.toLowerCase()];
-            this.touchJoyous[param1.waitingGrate.toLowerCase()] = param1;
-            this.metalHydrant[param1.scaleStomach] = param1;
-            if(_loc2_.hatefulGround)
+            this.injureWaiting.splice(this.injureWaiting.indexOf(_loc2_),OrderUnit.apatheticRare(CardBabies.machineOranges),param1);
+            delete this.slipBurn[_loc2_.deliverAbaft.toLowerCase()];
+            this.slipBurn[param1.deliverAbaft.toLowerCase()] = param1;
+            this.rayToe[param1.mouseFrail] = param1;
+            if(_loc2_.peckHanging)
             {
-               param1.hatefulGround = SignSign(_loc2_.hatefulGround.obeisantMark(param1));
+               param1.peckHanging = SignSign(_loc2_.agonizingTrail(param1));
             }
-            if(_loc2_.determinedDelightful)
+            if(_loc2_.orangesWindy)
             {
-               param1.determinedDelightful = DeterminedPrepare.hatefulComplex;
-               param1.icyTiresome = DeterminedPrepare.hatefulComplex;
+               param1.orangesWindy = HateFaint.proudGround;
+               param1.buryRay = HateFaint.proudGround;
             }
-            if(ZonkedBird.birdAgonizing())
+            if(ZonkedBird.requestChop())
             {
-               ZonkedBird.proseWindy.deadpanHarmony(_loc2_,param1);
+               ZonkedBird.halfWaiting.prepareChivalrous(_loc2_,param1);
             }
          }
       }
       
-      public function balvankaStatement(param1:ScaleSubdued) : void
+      public function frailAgree(param1:ScaleSubdued) : void
       {
-         this.fascinatedApathetic.splice(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),param1);
-         this.touchJoyous[param1.waitingGrate.toLowerCase()] = param1;
-         this.metalHydrant[param1.scaleStomach] = param1;
-         if(ZonkedBird.birdAgonizing())
+         this.injureWaiting.splice(OrderUnit.apatheticRare(ReligionStore.trailInstruct),ReligionStore.trailInstruct,param1);
+         this.slipBurn[param1.deliverAbaft.toLowerCase()] = param1;
+         this.rayToe[param1.mouseFrail] = param1;
+         if(ZonkedBird.requestChop())
          {
-            ZonkedBird.proseWindy.balvankaStatement(param1);
+            ZonkedBird.halfWaiting.frailAgree(param1);
          }
       }
       
-      public function crownFragile(param1:Vector.<ScaleSubdued>) : void
+      public function unequaledAir(param1:Vector.<ScaleSubdued>) : void
       {
          var _loc2_:ScaleSubdued = null;
-         this.fascinatedApathetic = param1;
-         this.touchJoyous = new Dictionary();
-         this.metalHydrant = new Dictionary();
+         this.injureWaiting = param1;
+         this.orangesAction = new Dictionary();
          for each(_loc2_ in param1)
          {
-            this.touchJoyous[_loc2_.waitingGrate.toLowerCase()] = _loc2_;
-            this.metalHydrant[_loc2_.scaleStomach] = _loc2_;
+            this.slipBurn[_loc2_.deliverAbaft.toLowerCase()] = _loc2_;
+            this.rayToe[_loc2_.mouseFrail] = _loc2_;
          }
       }
       
-      public function faintSense() : void
+      public function staleEntertaining() : Vector.<ScaleSubdued>
       {
-         ClubScintillating.squeamishCreator(new TiresomeGround(ClubScintillating.agreeEntertaining()));
+         return this.injureWaiting.concat();
+      }
+      
+      public function cribKnot(param1:String) : void
+      {
+         if(param1)
+         {
+            this.crowdedSand = param1;
+            ClubScintillating.tiresomeFeeble(new HistoricalPrepare(ClubScintillating.lightAir(),param1));
+         }
+      }
+      
+      public function eliteAir() : void
+      {
+         ClubScintillating.tiresomeFeeble(new TiresomeGround(ClubScintillating.lightAir()));
+      }
+      
+      public function rayBabies(param1:String) : Boolean
+      {
+         return this.slipBurn[param1.toLowerCase()] != null;
+      }
+      
+      public function senseAgree() : ScaleSubdued
+      {
+         return this.unequaledCrime;
+      }
+      
+      public function cardWaiting() : Boolean
+      {
+         return this.unequaledCrime != null;
       }
    }
 }

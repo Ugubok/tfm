@@ -5,32 +5,32 @@ package
    public class SeriousDeadpan extends Sprite
    {
       
-      public static var stomachFaithful:SeriousDeadpan;
+      public static var pailBurn:SeriousDeadpan;
        
       
-      public var illustriousPipka:String;
+      public var advisePat:String;
       
-      public var armyLook:int;
+      public var swankySisters:int;
       
-      public var programLarge:Boolean = false;
+      public var obeisantAnnoying:Boolean = false;
       
-      public var dildoFlower:int;
+      public var birdArmy:int;
       
-      public var crashDildo:int;
+      public var airTiresome:int;
       
-      public var pinusPat:Vector.<CrimeHistorical>;
+      public var milkyInexpensive:Vector.<CrimeHistorical>;
       
       public function SeriousDeadpan(param1:String, param2:int, param3:int)
       {
-         this.pinusPat = new Vector.<CrimeHistorical>();
+         this.milkyInexpensive = new Vector.<CrimeHistorical>();
          super();
-         this.armyLook = param2;
-         this.illustriousPipka = param1;
-         this.dildoFlower = param3;
-         if(RareOranges.illustriousPipka == this.illustriousPipka)
+         this.swankySisters = param2;
+         this.advisePat = param1;
+         this.birdArmy = param3;
+         if(this.advisePat == RareOranges.advisePat)
          {
-            this.programLarge = DeterminedPrepare.hatefulComplex;
-            SeriousDeadpan.stomachFaithful = this;
+            this.obeisantAnnoying = HateFaint.proudGround;
+            SeriousDeadpan.pailBurn = this;
          }
       }
    }

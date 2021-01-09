@@ -12,210 +12,202 @@ package
    public class SeriousFascinated extends Sprite
    {
       
-      public static const NORMAL:int = 0;
+      public static const NORMAL:int =  0;
       
-      public static const cardToe:int = 1;
+      public static const hatefulZonked:int =  1;
       
-      public static const confusedCompetition:int = 2;
+      public static const faintHarmony:int =  2;
       
-      public static var jumbledStay:Dictionary = new Dictionary();
+      public static var hateTiresome:Dictionary = new Dictionary();
       
-      public static const healObtainable:Array = new Array(new BevelFilter(8723 + -8722,4774 + -4729,7974086,2845 + -2844,8 + -8,2796 + -2795,1206 + -1205,5105 + -5104));
+      public static const hatefulAdvise:Array = new Array(new BevelFilter( 1, 45,7974086, 1, 0, 1, 1, 1));
       
-      public static const pailDistro:Array = new Array(new BevelFilter(7326 + -7325,5986 + -5941,1666 + -1666,1715 + -1714,7974086,5441 + -5440,6113 + -6112,1963 + -1962));
+      public static const agonizingBerry:Array = new Array(new BevelFilter( 1, 45, 0, 1,7974086, 1, 1, 1));
        
       
-      public var entertainingHateful:int;
+      public var planHalf:int;
       
-      public var abaftReligion:String;
+      public var faithfulStomach:String;
       
-      public var senseCrown:int;
+      public var pailArmy:int;
       
-      public var scintillatingCoal:int;
+      public var storeAmuse:int;
       
-      public var statementLarge:Sprite;
+      public var subduedWatery:Sprite;
       
-      public var fourCrown:Sprite;
+      public var cardAction:Sprite;
       
-      public var anusOrange:TextField;
+      public var actionProse:TextField;
       
-      public var obeisantGullible:TextField;
+      public var harmonyAgree:TextField;
       
-      public var joyousLarge:RequestKuruma;
+      public var airWindy:RequestKuruma;
       
-      public var lunasolePear:RequestKuruma;
+      public var distroBabies:RequestKuruma;
       
-      public var bladeFlower:RequestKuruma;
+      public var harmonySeed:RequestKuruma;
       
-      public var peckHysterical:RequestKuruma;
+      public var hydrantDeliver:RequestKuruma;
       
-      public var joyousHydrant:Boolean;
+      public var juicePear:Boolean;
       
-      public var eliteLeg:int;
+      public var cardBury:int;
       
-      public var peckCoal:int;
+      public var stomachFaithful:int;
       
       public function SeriousFascinated(param1:int, param2:int, param3:String, param4:int, param5:int, param6:int, param7:Boolean)
       {
          super();
-         var _loc8_:SeriousFascinated = SeriousFascinated.jumbledStay[param1] as SeriousFascinated;
+         var _loc8_:SeriousFascinated = SeriousFascinated.hateTiresome[param1] as SeriousFascinated;
          if(_loc8_ && _loc8_.parent)
          {
             _loc8_.parent.removeChild(_loc8_);
          }
-         SeriousFascinated.jumbledStay[param1] = this;
-         this.entertainingHateful = param1;
-         this.senseCrown = param2;
-         this.scintillatingCoal = param6;
-         this.joyousHydrant = param7;
-         this.eliteLeg = param4;
-         this.peckCoal = param5;
-         x = this.eliteLeg;
-         y = this.peckCoal;
-         this.anusOrange = new TextField();
-         this.anusOrange.embedFonts = DeterminedPrepare.machineSigh;
-         this.anusOrange.mouseEnabled = DeterminedPrepare.machineSigh;
-         this.anusOrange.defaultTextFormat = new TextFormat(BerryAgreeable.groundKuruma,RecogniseCompetition.prepareAgree(DeterminedWarlike.volcanoDelightful),12763866);
-         this.anusOrange.width = param6;
-         this.anusOrange.multiline = DeterminedPrepare.hatefulComplex;
-         this.anusOrange.wordWrap = DeterminedPrepare.hatefulComplex;
-         this.anusOrange.autoSize = TextFieldAutoSize.LEFT;
-         if(SeriousFascinated.confusedCompetition == this.subduedRequest = new TextField();
-            this.obeisantGullible.defaultTextFormat = new TextFormat(BerryAgreeable.groundKuruma,RecogniseCompetition.prepareAgree(DeterminedWarlike.volcanoDelightful),52428);
-            this.obeisantGullible.multiline = DeterminedPrepare.machineSigh;
-            this.obeisantGullible.wordWrap = DeterminedPrepare.machineSigh;
-            this.obeisantGullible.maxChars = RecogniseCompetition.prepareAgree(BalvankaNotebook.probableMilky);
-            this.obeisantGullible.type = TextFieldType.INPUT;
-            this.obeisantGullible.width = -BerryMouse.distroWicked + this.scintillatingCoal;
-            this.obeisantGullible.height = BerryMouse.distroWicked;
-            this.obeisantGullible.x = HystericalKotsky.lightAnus;
-            this.obeisantGullible.addEventListener(KeyboardEvent.KEY_UP,this.bashfulLeg);
-            this.fourCrown = new Sprite();
-            this.fourCrown.filters = SeriousFascinated.pailDistro;
+         SeriousFascinated.hateTiresome[param1] = this;
+         this.planHalf = param1;
+         this.pailArmy = param2;
+         this.storeAmuse = param6;
+         this.juicePear = param7;
+         this.cardBury = param4;
+         this.stomachFaithful = param5;
+         x = this.cardBury;
+         y = this.stomachFaithful;
+         this.actionProse = new TextField();
+         this.actionProse.embedFonts = HateFaint.bladeStatement;
+         this.actionProse.mouseEnabled = HateFaint.bladeStatement;
+         this.actionProse.defaultTextFormat = new TextFormat(BerryAgreeable.decayInjure,OrderUnit.apatheticRare(CardBabies.lunasoleSwanky),12763866);
+         this.actionProse.width = param6;
+         this.actionProse.multiline = HateFaint.proudGround;
+         this.actionProse.wordWrap = HateFaint.proudGround;
+         this.actionProse.autoSize = TextFieldAutoSize.LEFT;
+         if(this.pailArmy == SeriousFascinated.lunasoleWaiting = new TextField();
+            this.harmonyAgree.defaultTextFormat = new TextFormat(BerryAgreeable.decayInjure,OrderUnit.apatheticRare(CardBabies.lunasoleSwanky),52428);
+            this.harmonyAgree.multiline = HateFaint.bladeStatement;
+            this.harmonyAgree.wordWrap = HateFaint.bladeStatement;
+            this.harmonyAgree.maxChars = PrepareLip.proseOranges;
+            this.harmonyAgree.type = TextFieldType.INPUT;
+            this.harmonyAgree.width = this.storeAmuse - OrderUnit.apatheticRare(PrepareLip.competitionSupply);
+            this.harmonyAgree.height = OrderUnit.apatheticRare(PrepareLip.competitionSupply);
+            this.harmonyAgree.x = LargeComplex.balvankaZonked;
+            this.harmonyAgree.addEventListener(KeyboardEvent.KEY_UP,this.groundNoxious);
+            this.cardAction = new Sprite();
+            this.cardAction.filters = SeriousFascinated.agonizingBerry;
          }
-         this.statementLarge = new Sprite();
-         this.statementLarge.filters = SeriousFascinated.healObtainable;
-         addChild(this.statementLarge);
-         addChild(this.anusOrange);
-         if(this.obeisantGullible)
+         this.subduedWatery = new Sprite();
+         this.subduedWatery.filters = SeriousFascinated.hatefulAdvise;
+         addChild(this.subduedWatery);
+         addChild(this.actionProse);
+         if(this.harmonyAgree)
          {
-            addChild(this.fourCrown);
-            addChild(this.obeisantGullible);
+            addChild(this.cardAction);
+            addChild(this.harmonyAgree);
          }
-         this.tiresomeBird(param3);
+         this.prepareFeeble(param3);
       }
       
-      public function bashfulLeg(param1:KeyboardEvent) : void
+      public function prepareFeeble(param1:String) : void
       {
-         if(param1.keyCode == RecogniseCompetition.prepareAgree(RayYell.instructMetal))
+         if(this.juicePear)
          {
-            this.stayHistorical();
+            MightyInstruct.borrowLunasole.addChild(this);
+         }
+         else
+         {
+            MightyInstruct.feebleMilky.addChild(this);
+         }
+         param1 = param1.split(OrderUnit.probableLip(StupidCoal.kotskyHysterical)).join(OrderUnit.probableLip(CreatorSupply.superCoal));
+         this.faithfulStomach = param1;
+         this.actionProse.htmlText = param1;
+         var _loc2_:int = this.actionProse.height + OrderUnit.apatheticRare(PinusSand.satisfyProse);
+         if(this.pailArmy == SeriousFascinated.faintHarmony)
+         {
+            _loc2_ = _loc2_ + OrderUnit.apatheticRare(PrepareLip.competitionSupply);
+         }
+         this.subduedWatery.graphics.clear();
+         this.subduedWatery.graphics.beginFill(3294800);
+         this.subduedWatery.graphics.drawRoundRect(-OrderUnit.apatheticRare(CardBabies.senseCrown),-CardBabies.senseCrown,this.actionProse.width + OrderUnit.apatheticRare(GullibleLook.unequaledJumbled),_loc2_,OrderUnit.apatheticRare(LargeComplex.balvankaZonked));
+         this.subduedWatery.graphics.endFill();
+         if(SeriousFascinated.inviteWindy && this.harmonySeed.parent)
+            {
+               this.balvankaWatery);
+            }
+            if(this.hydrantDeliver && this.hydrantDeliver.parent)
+            {
+               this.hangingDetermined = new RequestKuruma(OrderUnit.noiselessGullible(RayAmuse.lipPail) * this.actionProse.width - AdmireUncle.delightfulFragile,height - OrderUnit.apatheticRare(PanoramicProbable.rareJoyous),BerryAgreeable.orangesCompetition(WaitingCrib.birdWhistle),this.tiresomeDeliver,null,CardBabies.inexpensiveChickens,false);
+            addChild(this.harmonySeed);
+            this.hydrantDeliver = new RequestKuruma(this.actionProse.width * GullibleLook.competitionCry - AdmireUncle.delightfulFragile,height - OrderUnit.apatheticRare(PanoramicProbable.rareJoyous),BerryAgreeable.orangesCompetition(OrderUnit.probableLip(DildoBorrow.yellInvite)),this.clubAbaft,null,CardBabies.inexpensiveChickens,false);
+            addChild(this.hydrantDeliver);
+         }
+         else if(SeriousFascinated.metalWhisper.y = this.actionProse.y + this.actionProse.height + OrderUnit.apatheticRare(LargeComplex.balvankaZonked);
+            this.cardAction.graphics.clear();
+            this.cardAction.graphics.beginFill(2174517);
+            this.cardAction.graphics.drawRoundRect(this.harmonyAgree.x,this.harmonyAgree.y - OrderUnit.apatheticRare(CardBabies.machineOranges),this.harmonyAgree.width,this.harmonyAgree.height,BatheKotsky.milkyEntertaining);
+            this.cardAction.graphics.endFill();
+            if(this.distroBabies && this.distroBabies.parent)
+            {
+               this.distroBabies.parent.removeChild(this.balvankaSqueamish = new RequestKuruma(LargeComplex.balvankaZonked,height - OrderUnit.apatheticRare(PanoramicProbable.rareJoyous),BerryAgreeable.orangesCompetition(OrderUnit.probableLip(VolcanoStay.noxiousRare)),this.machineAdmire,null,this.actionProse.width - OrderUnit.apatheticRare(CardBabies.inexpensiveChickens),false);
+            addChild(this.distroBabies);
+         }
+         else
+         {
+            if(this.airWindy && this.airWindy.parent)
+            {
+               this.airWindy.parent.removeChild(this.burnTrail = new RequestKuruma(OrderUnit.apatheticRare(LargeComplex.balvankaZonked),height - OrderUnit.apatheticRare(PanoramicProbable.rareJoyous),BerryAgreeable.orangesCompetition(ListIllustrious.taxSqueamish),this.delightfulSpurious,null,this.actionProse.width - OrderUnit.apatheticRare(CardBabies.inexpensiveChickens),false);
+            addChild(this.airWindy);
          }
       }
       
-      public function companyParty() : void
+      public function machineAdmire() : void
       {
-         if(parent)
+         if(!RareOranges.orangeViolet && BerryColor.programLabel(this.harmonyAgree.text))
          {
-            parent.removeChild(this);
-         }
-         RareFeeble.actionFeeble.stickVolcano(new ZonkedColor(this.entertainingHateful,HystericalKotsky.chivalrousMighty));
-         AdmireStore.proseWindy.stage.focus = AdmireStore.proseWindy;
-      }
-      
-      public function stayHistorical() : void
-      {
-         if(!RareOranges.kurumaInexpensive && BerryColor.anusGate(this.obeisantGullible.text))
-         {
-            this.obeisantGullible.text = RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued);
-            BabiesSwanky.proseWindy.trembleReligion(RecogniseCompetition.mouseDelightful(CoalWhisper.storeLaborer) + BerryAgreeable.noiselessGround(LipStore.obtainableFour) + AdviseRobin.knifeScale,null,true);
+            this.harmonyAgree.text = OrderUnit.probableLip(DildoBorrow.metalAdaptable);
+            BabiesSwanky.halfWaiting.scintillatingPail(CardBabies.babiesCrowded + BerryAgreeable.orangesCompetition(CreatorSupply.unitKotsky) + OrderUnit.probableLip(CreatorSupply.yellParty),null,true);
             return;
          }
          if(parent)
          {
             parent.removeChild(this);
          }
-         RareFeeble.actionFeeble.stickVolcano(new ZonkedColor(this.entertainingHateful,this.obeisantGullible.text));
-         AdmireStore.proseWindy.stage.focus = AdmireStore.proseWindy;
+         RareFeeble.waitingGullible.sighCrime(new VioletCrime(this.planHalf,this.harmonyAgree.text));
+         StalePinus.halfWaiting.stage.focus = StalePinus.halfWaiting;
       }
       
-      public function tiresomeBird(param1:String) : void
+      public function groundNoxious(param1:KeyboardEvent) : void
       {
-         if(this.joyousHydrant)
+         if(param1.keyCode == OrderUnit.apatheticRare(WanderingDecay.deadpanAdvise))
          {
-            MightyInstruct.scratchHarmony.addChild(this);
-         }
-         else
-         {
-            MightyInstruct.markCrib.addChild(this);
-         }
-         param1 = param1.split(RecogniseCompetition.mouseDelightful(BruiseBorrow.slipSwanky)).join(MetalDetermined.cribInjure);
-         this.abaftReligion = param1;
-         this.anusOrange.htmlText = param1;
-         var _loc2_:int = this.anusOrange.height + RecogniseCompetition.prepareAgree(ConfusedPeck.eliteBerry);
-         if(SeriousFascinated.confusedCompetition == this.senseCrown)
-         {
-            _loc2_ = _loc2_ + RecogniseCompetition.prepareAgree(BerryMouse.distroWicked);
-         }
-         this.statementLarge.graphics.clear();
-         this.statementLarge.graphics.beginFill(3294800);
-         this.statementLarge.graphics.drawRoundRect(-AdviseRobin.mouseProbable,-AdviseRobin.mouseProbable,this.anusOrange.width + RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird),_loc2_,HystericalKotsky.lightAnus);
-         this.statementLarge.graphics.endFill();
-         if(this.senseCrown == SeriousFascinated.cardToe)
-         {
-            if(this.bladeFlower && this.bladeFlower.parent)
-            {
-               this.bladeFlower.parent.removeChild(this.bladeFlower);
-            }
-            if(this.peckHysterical && this.peckHysterical.parent)
-            {
-               this.peckHysterical.parent.removeChild(this.peckHysterical);
-            }
-            this.bladeFlower = new RequestKuruma(this.anusOrange.width * RecogniseCompetition.scaleCrown(FrailJuice.companyChivalrous) - RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail),height - RecogniseCompetition.prepareAgree(ArmyObtainable.orangesAction),BerryAgreeable.noiselessGround(DeterminedWarlike.quirkyTiresome),this.companyParty,null,AlansonReligion.babiesBag,false);
-            addChild(this.bladeFlower);
-            this.peckHysterical = new RequestKuruma(this.anusOrange.width * RecogniseCompetition.scaleCrown(LipStore.thickThick) - CoalRay.satisfyTrail,height - RecogniseCompetition.prepareAgree(ArmyObtainable.orangesAction),BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(AlansonReligion.hystericalNoxious)),this.faithfulInvite,null,RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag),false);
-            addChild(this.peckHysterical);
-         }
-         else if(SeriousFascinated.confusedCompetition == this.subduedRequest.y = this.anusOrange.y + this.anusOrange.height + HystericalKotsky.lightAnus;
-            this.fourCrown.graphics.clear();
-            this.fourCrown.graphics.beginFill(2174517);
-            this.fourCrown.graphics.drawRoundRect(this.obeisantGullible.x,this.obeisantGullible.y - CoalRay.actionBorrow,this.obeisantGullible.width,this.obeisantGullible.height,RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous));
-            this.fourCrown.graphics.endFill();
-            if(this.lunasolePear && this.lunasolePear.parent)
-            {
-               this.lunasolePear.parent.removeChild(this.lunasolePear);
-            }
-            this.lunasolePear = new RequestKuruma(RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus),height - ArmyObtainable.orangesAction,BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(AdviseRobin.fragileCoal)),this.stayHistorical,null,this.anusOrange.width - RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag),false);
-            addChild(this.lunasolePear);
-         }
-         else
-         {
-            if(this.joyousLarge && this.joyousLarge.parent)
-            {
-               this.joyousLarge.parent.removeChild(this.joyousLarge);
-            }
-            this.joyousLarge = new RequestKuruma(RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus),height - RecogniseCompetition.prepareAgree(ArmyObtainable.orangesAction),BerryAgreeable.noiselessGround(BalvankaNotebook.tiresomeWaiting),this.joyousWhistle,null,this.anusOrange.width - RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag),false);
-            addChild(this.joyousLarge);
+            this.machineAdmire();
          }
       }
       
-      public function faithfulInvite() : void
+      public function clubAbaft() : void
       {
          if(parent)
          {
             parent.removeChild(this);
          }
-         RareFeeble.actionFeeble.stickVolcano(new ZonkedColor(this.entertainingHateful,WaitingReligion.zonkedCommon));
-         AdmireStore.proseWindy.stage.focus = AdmireStore.proseWindy;
+         RareFeeble.waitingGullible.sighCrime(new VioletCrime(this.planHalf,OrderUnit.probableLip(SlipReligion.amuseCurved)));
+         StalePinus.halfWaiting.stage.focus = StalePinus.halfWaiting;
       }
       
-      public function joyousWhistle() : void
+      public function tiresomeDeliver() : void
       {
          if(parent)
          {
             parent.removeChild(this);
          }
-         AdmireStore.proseWindy.stage.focus = AdmireStore.proseWindy;
+         RareFeeble.waitingGullible.sighCrime(new VioletCrime(this.planHalf,SlipReligion.legWhisper));
+         StalePinus.halfWaiting.stage.focus = StalePinus.halfWaiting;
+      }
+      
+      public function delightfulSpurious() : void
+      {
+         if(parent)
+         {
+            parent.removeChild(this);
+         }
+         StalePinus.halfWaiting.stage.focus = StalePinus.halfWaiting;
       }
    }
 }

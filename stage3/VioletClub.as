@@ -5,34 +5,34 @@ package
    public class VioletClub extends InstructAnus
    {
       
-      public static const superCrime:int = 60;
+      public static const harmonyOrder:int =  60;
        
       
-      public var pearOrder:int;
+      public var touchBurn:int;
       
       public function VioletClub(param1:int, param2:Object, param3:int)
       {
          super(param1,param2);
-         this.pearOrder = param3;
+         this.touchBurn = param3;
       }
       
-      override public function probableCute() : SeriousFragile
+      override public function admireCute() : SeriousFragile
       {
          var _loc1_:Sprite = null;
          var _loc2_:GroundBabies = null;
          var _loc3_:InexpensiveGround = null;
-         if(!programStay)
+         if(!hateUnit)
          {
-            programStay = new SeriousFragile(VioletClub.superCrime,RecogniseCompetition.prepareAgree(BerryMouse.distroWicked));
+            hateUnit = new SeriousFragile(VioletClub.harmonyOrder,PrepareLip.competitionSupply);
             _loc1_ = new Sprite();
-            _loc1_.graphics.beginFill(65280,RecogniseCompetition.scaleCrown(CoalRay.orangeOrange));
-            _loc1_.graphics.drawRect(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),HystericalKotsky.notebookChivalrous,RecogniseCompetition.prepareAgree(BerryMouse.distroWicked),RecogniseCompetition.prepareAgree(BerryMouse.distroWicked));
+            _loc1_.graphics.beginFill(65280,AdmireUncle.mouseBabies);
+            _loc1_.graphics.drawRect(OrderUnit.apatheticRare(ReligionStore.trailInstruct),OrderUnit.apatheticRare(ReligionStore.trailInstruct),OrderUnit.apatheticRare(PrepareLip.competitionSupply),PrepareLip.competitionSupply);
             _loc1_.graphics.endFill();
-            _loc2_ = orderPrepare.groundWhisper();
-            _loc3_ = new InexpensiveGround(RecogniseCompetition.mouseDelightful(ConfusedPeck.apatheticFrail) + this.pearOrder).jumbledAbaft(FascinatedAnus.gullibleTiresome);
-            programStay.cuteProse(_loc2_,_loc3_);
+            _loc2_ = armyDeadpan();
+            _loc3_ = new InexpensiveGround(ListIllustrious.rareStale).lipUnit(FascinatedAnus.entertainingPinus);
+            hateUnit.icyCry(_loc2_,_loc3_);
          }
-         return programStay;
+         return hateUnit;
       }
    }
 }

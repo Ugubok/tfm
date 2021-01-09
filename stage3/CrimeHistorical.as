@@ -10,147 +10,143 @@ package
    public class CrimeHistorical extends Sprite
    {
       
-      public static const hangingAgreeable:ColorTransform = new ColorTransform((348 + -335) / 10,(4490 + -4477) / 10,(8192 + -8179) / (672 + -662));
+      public static const gateAir:ColorTransform = new ColorTransform13 /1013 /1013 /10);
       
-      public static const unitBury:ColorTransform = new ColorTransform();
+      public static const proseTouch:ColorTransform = new ColorTransform();
       
-      public static var hydrantScratch:Sprite;
+      public static var orangeProud:Sprite;
       
-      public static var crownCrib:TextField;
+      public static var abaftAbaft:TextField;
        
       
-      public var sandToe:int;
+      public var airTax:int;
       
-      public var stupidBlade:int;
+      public var flowerSeed:int;
       
-      public var gapingHate:Boolean = false;
+      public var wanderingSuzuka:Boolean = false;
       
-      public var cardPat:Boolean = false;
+      public var chickenHydrant:Boolean = false;
       
-      public var mouseTremble:Boolean = false;
+      public var anusGround:Boolean = false;
       
-      public var wickedMilky:Boolean = false;
+      public var yellSupply:Boolean = false;
       
-      public var stupidStale:int;
+      public var sistersSisters:int;
       
-      public var metalMachine:SeriousDeadpan;
+      public var icyFaint:SeriousDeadpan;
       
       public function CrimeHistorical(param1:int, param2:int)
       {
          super();
-         this.sandToe = param1;
-         this.stupidBlade = param2;
-         addEventListener(MouseEvent.MOUSE_OVER,this.robinGate);
-         addEventListener(MouseEvent.MOUSE_OUT,this.colorBury);
+         this.airTax = param1;
+         this.flowerSeed = param2;
+         addEventListener(MouseEvent.MOUSE_OVER,this.cryBathe);
+         addEventListener(MouseEvent.MOUSE_OUT,this.faithfulBurn);
       }
       
-      public function robinGate(param1:MouseEvent) : void
-      {
-         if(this.metalMachine)
-         {
-            this.decayWaiting();
-         }
-         if(buttonMode)
-         {
-            transform.colorTransform = CrimeHistorical.hangingAgreeable;
-         }
-      }
-      
-      public function decayWaiting() : void
-      {
-         if(!this.metalMachine)
-         {
-            return;
-         }
-         if(!CrimeHistorical.hydrantScratch)
-         {
-            CrimeHistorical.hydrantScratch = new Sprite();
-            CrimeHistorical.hydrantScratch.mouseChildren = DeterminedPrepare.machineSigh;
-            CrimeHistorical.hydrantScratch.mouseEnabled = DeterminedPrepare.machineSigh;
-            CrimeHistorical.hydrantScratch.cacheAsBitmap = DeterminedPrepare.hatefulComplex;
-            CrimeHistorical.crownCrib = new TextField();
-            CrimeHistorical.crownCrib.defaultTextFormat = new TextFormat(BerryAgreeable.groundKuruma,RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky),FascinatedAnus.annoyingRay);
-            CrimeHistorical.crownCrib.autoSize = TextFieldAutoSize.LEFT;
-            CrimeHistorical.crownCrib.width = RecogniseCompetition.prepareAgree(BerryMouse.distroWicked);
-            CrimeHistorical.crownCrib.height = BerryMouse.distroWicked;
-            CrimeHistorical.hydrantScratch.addChild(CrimeHistorical.crownCrib);
-         }
-         CrimeHistorical.crownCrib.htmlText = this.metalMachine.illustriousPipka;
-         CrimeHistorical.hydrantScratch.graphics.clear();
-         CrimeHistorical.hydrantScratch.graphics.lineStyle(CoalRay.actionBorrow);
-         CrimeHistorical.hydrantScratch.graphics.beginFill(HystericalKotsky.notebookChivalrous,BruiseBorrow.largeAlanson);
-         CrimeHistorical.hydrantScratch.graphics.drawRect(-RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),-RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),CrimeHistorical.crownCrib.width + RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),BerryMouse.distroWicked);
-         CrimeHistorical.hydrantScratch.graphics.endFill();
-         StoreWandering.cribSatisfy.trailHanging.addChild(CrimeHistorical.hydrantScratch);
-         CrimeHistorical.hydrantScratch.x = x + StoreWandering.laborerJuice / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) - CrimeHistorical.hydrantScratch.width / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-         CrimeHistorical.hydrantScratch.y = -BerryMouse.distroWicked + y;
-         if(CrimeHistorical.hydrantScratch.y < HystericalKotsky.notebookChivalrous)
-         {
-            CrimeHistorical.hydrantScratch.y = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         }
-      }
-      
-      public function laborerOranges(param1:Boolean) : void
+      public function sandCute(param1:Boolean) : void
       {
          if(param1)
          {
-            useHandCursor = DeterminedPrepare.hatefulComplex;
-            buttonMode = DeterminedPrepare.hatefulComplex;
+            useHandCursor = HateFaint.proudGround;
+            buttonMode = HateFaint.proudGround;
          }
          else
          {
-            useHandCursor = DeterminedPrepare.machineSigh;
-            buttonMode = DeterminedPrepare.machineSigh;
-            transform.colorTransform = CrimeHistorical.unitBury;
+            useHandCursor = HateFaint.bladeStatement;
+            buttonMode = HateFaint.bladeStatement;
+            transform.colorTransform = CrimeHistorical.proseTouch;
          }
       }
       
-      public function colorBury(param1:MouseEvent) : void
-      {
-         if(CrimeHistorical.hydrantScratch && CrimeHistorical.hydrantScratch.parent)
-         {
-            CrimeHistorical.hydrantScratch.parent.removeChild(CrimeHistorical.hydrantScratch);
-         }
-         if(buttonMode)
-         {
-            transform.colorTransform = CrimeHistorical.unitBury;
-         }
-      }
-      
-      public function amuseSwanky() : void
+      public function flowerUncle() : void
       {
          graphics.clear();
-         if(this.cardPat)
-         {
-            if(this.wickedMilky)
+         if(this.crackerClub)
             {
-               graphics.beginFill(13441116,RecogniseCompetition.scaleCrown(CoalWhisper.dildoPanoramic));
+               graphics.beginFill(13441116,ListIllustrious.proseThick);
             }
             else
             {
-               graphics.beginFill(2148021,CoalWhisper.dildoPanoramic);
+               graphics.beginFill(2148021,OrderUnit.noiselessGullible(ListIllustrious.proseThick));
             }
-            graphics.drawRect(RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable),AdviseRobin.mouseProbable,StoreWandering.laborerJuice - RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird),StoreWandering.adaptableSeed - RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird));
+            graphics.drawRect(CardBabies.senseCrown,CardBabies.senseCrown,StoreWandering.slipOranges - OrderUnit.apatheticRare(GullibleLook.unequaledJumbled),StoreWandering.recogniseFour - GullibleLook.unequaledJumbled);
             graphics.endFill();
          }
-         else if(this.mouseTremble)
+         else if(this.anusGround)
          {
-            graphics.beginFill(13223197,RecogniseCompetition.scaleCrown(CoalWhisper.dildoPanoramic));
-            graphics.drawRect(RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable),RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable),StoreWandering.laborerJuice - ArmyObtainable.kurumaBird,StoreWandering.adaptableSeed - RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird));
+            graphics.beginFill(13223197,ListIllustrious.proseThick);
+            graphics.drawRect(OrderUnit.apatheticRare(CardBabies.senseCrown),CardBabies.senseCrown,StoreWandering.slipOranges - GullibleLook.unequaledJumbled,StoreWandering.recogniseFour - OrderUnit.apatheticRare(GullibleLook.unequaledJumbled));
             graphics.endFill();
          }
          else
          {
-            graphics.beginFill(HystericalKotsky.notebookChivalrous,HystericalKotsky.notebookChivalrous);
-            graphics.drawRect(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),HystericalKotsky.notebookChivalrous,StoreWandering.laborerJuice,StoreWandering.adaptableSeed);
+            graphics.beginFill(OrderUnit.apatheticRare(ReligionStore.trailInstruct),OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+            graphics.drawRect(OrderUnit.apatheticRare(ReligionStore.trailInstruct),OrderUnit.apatheticRare(ReligionStore.trailInstruct),StoreWandering.slipOranges,StoreWandering.recogniseFour);
             graphics.endFill();
          }
-         if(this.gapingHate)
+         if(this.wanderingSuzuka)
          {
-            graphics.lineStyle(CoalRay.actionBorrow,15789107,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),true);
-            graphics.drawRect(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),StoreWandering.laborerJuice - RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka),StoreWandering.adaptableSeed - DeterminedWarlike.deadpanBalvanka);
-            graphics.lineStyle(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),7690240,CoalRay.actionBorrow,true);
-            graphics.drawRect(RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka),DeterminedWarlike.deadpanBalvanka,StoreWandering.laborerJuice - RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear),StoreWandering.adaptableSeed - AdviseRobin.obtainablePear);
+            graphics.lineStyle(CardBabies.machineOranges,15789107,CardBabies.machineOranges,true);
+            graphics.drawRect(CardBabies.machineOranges,OrderUnit.apatheticRare(CardBabies.machineOranges),StoreWandering.slipOranges - OrderUnit.apatheticRare(SlipReligion.companyHistorical),StoreWandering.recogniseFour - OrderUnit.apatheticRare(SlipReligion.companyHistorical));
+            graphics.lineStyle(OrderUnit.apatheticRare(CardBabies.machineOranges),7690240,OrderUnit.apatheticRare(CardBabies.machineOranges),true);
+            graphics.drawRect(SlipReligion.companyHistorical,SlipReligion.companyHistorical,StoreWandering.slipOranges - VolcanoStay.proudWaiting,StoreWandering.recogniseFour - OrderUnit.apatheticRare(VolcanoStay.proudWaiting));
+         }
+      }
+      
+      public function cryBathe(param1:MouseEvent) : void
+      {
+         if(this.kotskyGround();
+         }
+         if(buttonMode)
+         {
+            transform.colorTransform = CrimeHistorical.gateAir;
+         }
+      }
+      
+      public function crowdedAbaft() : void
+      {
+         if(!this.icyFaint)
+         {
+            return;
+         }
+         if(!CrimeHistorical.orangeProud)
+         {
+            CrimeHistorical.orangeProud = new Sprite();
+            CrimeHistorical.orangeProud.mouseChildren = HateFaint.bladeStatement;
+            CrimeHistorical.orangeProud.mouseEnabled = HateFaint.bladeStatement;
+            CrimeHistorical.orangeProud.cacheAsBitmap = HateFaint.proudGround;
+            CrimeHistorical.abaftAbaft = new TextField();
+            CrimeHistorical.abaftAbaft.defaultTextFormat = new TextFormat(BerryAgreeable.decayInjure,OrderUnit.apatheticRare(LargeComplex.programAbaft),FascinatedAnus.deliverLoaf);
+            CrimeHistorical.abaftAbaft.autoSize = TextFieldAutoSize.LEFT;
+            CrimeHistorical.abaftAbaft.width = OrderUnit.apatheticRare(PrepareLip.competitionSupply);
+            CrimeHistorical.abaftAbaft.height = OrderUnit.apatheticRare(PrepareLip.competitionSupply);
+            CrimeHistorical.orangeProud.addChild(CrimeHistorical.abaftAbaft);
+         }
+         CrimeHistorical.abaftAbaft.htmlText = this.icyFaint.advisePat;
+         CrimeHistorical.orangeProud.graphics.clear();
+         CrimeHistorical.orangeProud.graphics.lineStyle(CardBabies.machineOranges);
+         CrimeHistorical.orangeProud.graphics.beginFill(OrderUnit.apatheticRare(ReligionStore.trailInstruct),GullibleLook.unitSisters);
+         CrimeHistorical.orangeProud.graphics.drawRect(-OrderUnit.apatheticRare(CardBabies.machineOranges),-CardBabies.machineOranges,CrimeHistorical.abaftAbaft.width + PinusSand.jumbledTiresome,PrepareLip.competitionSupply);
+         CrimeHistorical.orangeProud.graphics.endFill();
+         StoreWandering.touchSerious.orangesEntertaining.addChild(CrimeHistorical.orangeProud);
+         CrimeHistorical.orangeProud.x = x + StoreWandering.slipOranges / PinusSand.jumbledTiresome - CrimeHistorical.orangeProud.width / PinusSand.jumbledTiresome;
+         CrimeHistorical.orangeProud.y = y - PrepareLip.competitionSupply;
+         if(CrimeHistorical.orangeProud.y < ReligionStore.trailInstruct)
+         {
+            CrimeHistorical.orangeProud.y = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         }
+      }
+      
+      public function faithfulBurn(param1:MouseEvent) : void
+      {
+         if(CrimeHistorical.orangeProud && CrimeHistorical.orangeProud.parent)
+         {
+            CrimeHistorical.orangeProud.parent.removeChild(CrimeHistorical.orangeProud);
+         }
+         if(buttonMode)
+         {
+            transform.colorTransform = CrimeHistorical.proseTouch;
          }
       }
    }

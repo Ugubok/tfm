@@ -1,137 +1,91 @@
 package
 {
-   import flash.display.Bitmap;
+   import flash.utils.getTimer;
    
-   public class BatheTiresome extends MousePinus
+   public class BatheTiresome
    {
-      
-      public static const whistleAdaptable:int = 2015;
        
       
-      public var determinedWandering:GroundFascinated;
+      public var mouseFrail:int;
       
-      public var markHalf:Bitmap;
+      public var milkyViolet:StayCute;
       
-      public function BatheTiresome(param1:FragileWandering)
+      public var dildoJuice:int;
+      
+      public var stomachRare:Boolean;
+      
+      public var wanderingJoyous:Boolean;
+      
+      public var flowerWindy:Boolean;
+      
+      public var injureBury:int;
+      
+      public function BatheTiresome(param1:int, param2:Boolean = false, param3:Boolean = false, param4:Boolean = false)
       {
-         super(param1);
-      }
-      
-      public function signBabies(param1:RobinAdaptable) : void
-      {
-         if(param1 && param1.parent)
-         {
-            param1.parent.removeChild(param1);
+         this.injureBury = ReligionStore.trailInstruct;
+         super();
+         this.mouseFrail = getTimer();
+         this.dildoJuice = param1;
+         this.stomachRare = param3;
+         this.wanderingJoyous = param4;
+         this.flowerWindy = param2;
+         if(this.lipGround++;
          }
-         param1.distroJumbled = DeterminedPrepare.hatefulComplex;
-      }
-      
-      public function lightVolcano(param1:RobinAdaptable) : void
-      {
-         if(!param1 || !param1.parent)
-         {
-            return;
+         if(this.tastelessAdaptable++;
          }
-         var _loc2_:SlipAction = new SlipAction(AdmireStore.proseWindy.quirkyLeg[WingKuruma.flowerProud],false);
-         _loc2_.zonkedJuice = param1.x;
-         _loc2_.trembleDeadpan = param1.y;
-         _loc2_.noxiousAdaptable(_loc2_.tiresomeUncle,this.signBabies,param1);
-         AdmireStore.proseWindy.agreeableAgreeable.obtainableChop.push(_loc2_);
-         AdmireStore.proseWindy.agreeableAgreeable.tiresomeCracker = DeterminedPrepare.hatefulComplex;
-      }
-      
-      override public function icyGrate(param1:AnusHateful) : void
-      {
-         var _loc2_:RobinAdaptable = null;
-         switch(param1.entertainingHateful)
-         {
-            case CoalRay.actionBorrow:
-               if(instructAir)
-               {
-                  if(!this.determinedWandering)
-                  {
-                     this.determinedWandering = new GroundFascinated(RecogniseCompetition.prepareAgree(WaitingReligion.hydrantEntertaining),HystericalKotsky.lightAnus,6086867);
-                     this.determinedWandering.x = RecogniseCompetition.prepareAgree(GroundFour.entertainingInstruct);
-                     this.determinedWandering.y = AdviseRobin.adviseStale;
-                  }
-                  this.determinedWandering.chopStale(param1.crimeStay(HystericalKotsky.notebookChivalrous) / param1.crimeStay(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)));
-                  BerryAnus.cribSatisfy.pipkaTax(this.determinedWandering);
-               }
-               break;
-            case RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe):
-               if(instructAir)
-               {
-                  _loc2_ = AdmireStore.proseWindy.whistleCoal[param1.crimeStay(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))];
-                  if(_loc2_ && !_loc2_.distroJumbled && _loc2_.parent)
-                  {
-                     this.lightVolcano(_loc2_);
-                  }
-               }
-               break;
-            case RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka):
-               if(instructAir)
-               {
-                  if(this.determinedWandering && this.determinedWandering.parent)
-                  {
-                     this.determinedWandering.parent.removeChild(this.determinedWandering);
-                  }
-                  if(this.markHalf && this.markHalf.parent)
-                  {
-                     BerryAnus.cribSatisfy.probableAgonizing(this.markHalf,HystericalKotsky.lightAnus,RecogniseTrail.superYell,this.dildoWaiting);
-                  }
-               }
+         if(this.harmonyPipka++;
          }
       }
       
-      override public function touchUnequaled(param1:BerryAnus) : void
+      public static function delightfulVolcano(param1:BatheTiresome, param2:BatheTiresome) : Boolean
       {
-         instructAir = param1.hystericalChickens.pipkaViolet == BatheTiresome.whistleAdaptable;
-         if(instructAir)
-         {
-            if(!this.markHalf)
-            {
-               this.markHalf = AgreeableHistorical.religionSign(WaitingReligion.programAdaptable);
-               this.markHalf.x = AdviseRobin.panoramicInjure;
-               this.markHalf.y = RecogniseCompetition.prepareAgree(AdviseRobin.confusedDeadpan);
-            }
-            param1.cardBurn.addChild(this.markHalf);
-         }
+         return param1 && param2 && param1.dildoJuice == param2.dildoJuice && BatheTiresome.clubDelightful(param1,param2);
       }
       
-      public function dildoWaiting() : void
+      public static function suzukaFaint(param1:BatheTiresome, param2:BatheTiresome) : int
       {
-         var _loc1_:SlipAction = null;
-         if(this.markHalf)
+         if(param2.injureBury != param1.injureBury)
          {
-            _loc1_ = new SlipAction(AdmireStore.proseWindy.quirkyLeg[WingKuruma.flowerProud],false);
-            _loc1_.zonkedJuice = this.markHalf.x + this.markHalf.width / LaborerFeeble.instructBathe;
-            _loc1_.trembleDeadpan = this.markHalf.y + this.markHalf.height / LaborerFeeble.instructBathe + RecogniseCompetition.prepareAgree(BerryMouse.distroWicked);
-            _loc1_.noxiousAdaptable(_loc1_.tiresomeUncle,this.notebookScintillating);
-            AdmireStore.proseWindy.agreeableAgreeable.obtainableChop.push(_loc1_);
-            AdmireStore.proseWindy.agreeableAgreeable.tiresomeCracker = DeterminedPrepare.hatefulComplex;
+            return param2.injureBury - param1.injureBury;
          }
+         return param2.mouseFrail - param1.mouseFrail;
       }
       
-      public function notebookScintillating() : void
+      public static function probableCrown(param1:int) : BatheTiresome
       {
-         var _loc1_:int = 0;
-         var _loc2_:int = 0;
-         if(this.markHalf)
+         return new BatheTiresome(param1,WingLip.bladeAdmire,WingLip.bashfulUnequaled,WingLip.crowdedPipka);
+      }
+      
+      public static function agreeSisters(param1:BatheTiresome) : String
+      {
+         if(param1 == null || param1.dildoJuice == ReligionStore.trailInstruct)
          {
-            _loc1_ = this.markHalf.x + this.markHalf.width / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-            _loc2_ = this.markHalf.y + this.markHalf.height / LaborerFeeble.instructBathe + RecogniseCompetition.prepareAgree(BerryMouse.distroWicked);
-            if(this.markHalf.parent)
-            {
-               this.markHalf.parent.removeChild(this.markHalf);
-            }
-            AdmireStore.proseWindy.hangingReligion(WingKuruma.markAdmire,_loc1_,_loc2_,RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable),RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable),false,HystericalKotsky.notebookChivalrous);
-            AdmireStore.proseWindy.hangingReligion(WingKuruma.wateryDeadpan,_loc1_,_loc2_,AdviseRobin.mouseProbable,RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable),false,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-            AdmireStore.proseWindy.hangingReligion(WingKuruma.birdHalf,_loc1_,_loc2_,AdviseRobin.mouseProbable,RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable),false,HystericalKotsky.notebookChivalrous);
-            AdmireStore.proseWindy.hangingReligion(WingKuruma.feebleDelightful,_loc1_,_loc2_,AdviseRobin.mouseProbable,RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable),false,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-            AdmireStore.proseWindy.hangingReligion(WingKuruma.scintillatingCry,_loc1_,_loc2_,RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable),AdviseRobin.mouseProbable,false,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-            AdmireStore.proseWindy.hangingReligion(WingKuruma.joyousIcy,_loc1_,_loc2_,RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable),RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping),false,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-            AdmireStore.proseWindy.hangingReligion(WingKuruma.grateBalvanka,_loc1_,_loc2_,AdviseRobin.mouseProbable,RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping),false,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
+            return DildoBorrow.metalAdaptable;
          }
+         var _loc2_:String = BirdOranges.healChicken);
+         if(param1.flowerWindy)
+         {
+            _loc2_ = BirdOranges.storeBorrow(BirdOranges.fourMark) + OrderUnit.probableLip(RayAmuse.armyScintillating) + _loc2_;
+         }
+         if(param1.wanderingJoyous)
+         {
+            _loc2_ = BirdOranges.storeBorrow(BirdOranges.largeYell) + RayAmuse.armyScintillating + _loc2_;
+         }
+         if(param1.stomachRare)
+         {
+            _loc2_ = BirdOranges.storeBorrow(BirdOranges.programFragile) + OrderUnit.probableLip(RayAmuse.armyScintillating) + _loc2_;
+         }
+         return _loc2_;
+      }
+      
+      public static function clubDelightful(param1:BatheTiresome, param2:BatheTiresome) : Boolean
+      {
+         return param1 && param2 && param1.stomachRare == param2.stomachRare && param1.flowerWindy == param2.flowerWindy && param1.wanderingJoyous == param2.wanderingJoyous;
+      }
+      
+      public function bagWicked() : Boolean
+      {
+         return this.milkyViolet && this.grateCrown[this];
       }
    }
 }

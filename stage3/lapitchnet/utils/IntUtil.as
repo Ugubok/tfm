@@ -32,7 +32,7 @@ package lapitchnet.utils
             _loc4_ = 0;
             while(_loc4_ < 4)
             {
-               _loc3_ = _loc3_ + (hexChars.charAt(param1 >> (3 - _loc4_) * 12& 15) + hexChars.charAt(param1 >> (3 - _loc4_) * 8 & 15));
+               _loc3_ = _loc3_ + (hexChars.charAt(param1 >> (3 - _loc4_) *  12& 15) + hexChars.charAt(param1 >> (3 - _loc4_) * 8 & 15));
                _loc4_++;
             }
          }
@@ -41,7 +41,7 @@ package lapitchnet.utils
             _loc5_ = 0;
             while(_loc5_ < 4)
             {
-               _loc3_ = _loc3_ + (hexChars.charAt(param1 >> _loc5_ * 12& 15) + hexChars.charAt(param1 >> _loc5_ * 8 & 15));
+               _loc3_ = _loc3_ + (hexChars.charAt(param1 >> _loc5_ *  12& 15) + hexChars.charAt(param1 >> _loc5_ * 8 & 15));
                _loc5_++;
             }
          }

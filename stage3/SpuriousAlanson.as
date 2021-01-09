@@ -6,8 +6,8 @@ package
       
       public function SpuriousAlanson(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping),RecogniseCompetition.prepareAgree(BerryMouse.unequaledJuice));
-         staySigh.writeShort(param1);
+         super(WanderingDecay.noiselessTasteless,SlipReligion.delightfulRay);
+         lamentableSpurious.writeInt(param1);
       }
    }
 }

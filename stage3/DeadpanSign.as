@@ -1,154 +1,68 @@
 package
 {
-   import flash.external.ExternalInterface;
+   import flash.utils.ByteArray;
    
-   public class DeadpanSign
+   public class DeadpanSign implements MightyColor, InexpensiveSlip
    {
-      
-      public static const wanderingAgonizing:Boolean = true;
-      
-      public static const coalGate:Boolean = false;
-      
-      public static const trailCompetition:int = 0;
-      
-      public static const burnBurn:int = 1;
-      
-      public static const statementStupid:int = 2;
-      
-      public static const inexpensiveFaithful:int = 3;
-      
-      public static var sistersCry:Boolean = false;
-      
-      public static var faintProbable:int = DeadpanSign.trailCompetition;
-      
-      public static var admireLabel:Function = null;
-      
-      public static var orderProud:Function = null;
-      
-      public static var whisperPail:Function = null;
-      
-      public static var pipkaRobin:String = null;
        
       
-      public function DeadpanSign()
+      public var feebleMachine:BalvankaSpurious;
+      
+      public var idSequence:int;
+      
+      public var hangingBurn:int;
+      
+      public var amuseWarlike:ScaleAdaptable;
+      
+      public function DeadpanSign(param1:BalvankaSpurious)
       {
          super();
+         this.feebleMachine = param1;
       }
       
-      public static function eliteComplex(param1:Function) : void
+      public function getIdSequence() : int
       {
-         DeadpanSign.whisperPail = param1;
+         return this.idSequence;
       }
       
-      public static function mightyLook() : void
+      public function get adhesiveProud() : String
       {
-         DeadpanSign.faintProbable = DeadpanSign.statementStupid;
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
-      public static function berryRecognise() : void
+      public function get typeTaille() : int
       {
-         if(DeadpanSign.faintProbable != DeadpanSign.inexpensiveFaithful)
+         return SlipAdaptable.kurumaCompany;
+      }
+      
+      public function amuseKnife() : Boolean
+      {
+         return false;
+      }
+      
+      public function complexHeal() : int
+      {
+         return AdmireUncle.crimeCreator;
+      }
+      
+      public function lecture(param1:ByteArray) : void
+      {
+         this.idSequence = param1.readInt();
+         this.hangingBurn = param1.readByte();
+         var _loc2_:AgreeableBabies = this.feebleMachine.recupereSequence(this.idSequence);
+         if(_loc2_ != null)
          {
-            DeadpanSign.distroHistorical("");
-         }
-         try
-         {
-            ExternalInterface.call(AlansonReligion.bruiseHalf);
-            return;
-         }
-         catch(eliteLabel:Error)
-         {
-            return;
-         }
-      }
-      
-      public static function sandJuice(param1:Function) : void
-      {
-         DeadpanSign.admireLabel = param1;
-         if(DeadpanSign.faintProbable == DeadpanSign.inexpensiveFaithful && param1)
-         {
-            param1();
-         }
-      }
-      
-      public static function distroHistorical(param1:String) : void
-      {
-         if(DeadpanSign.whisperPail)
-         {
-            DeadpanSign.whisperPail(param1);
-         }
-      }
-      
-      public static function swankyOranges(param1:Function) : void
-      {
-         DeadpanSign.orderProud = param1;
-      }
-      
-      public static function tiresomeCard() : void
-      {
-         var _loc1_:Boolean = false;
-         if(DeadpanSign.faintProbable == DeadpanSign.trailCompetition)
-         {
-            try
+            if(_loc2_ is ScaleAdaptable)
             {
-               DeadpanSign.faintProbable = DeadpanSign.burnBurn;
-               if(DeadpanSign.coalGate)
-               {
-                  _loc1_ = ExternalInterface.call(RecogniseCompetition.mouseDelightful(DeterminedWarlike.feebleChickens));
-                  if(_loc1_)
-                  {
-                     DeadpanSign.anusSpurious();
-                  }
-                  else
-                  {
-                     ExternalInterface.addCallback(RecogniseCompetition.mouseDelightful(RecogniseTrail.abaftAbaft),DeadpanSign.anusSpurious);
-                  }
-               }
-               else
-               {
-                  _loc1_ = ExternalInterface.call(RecogniseCompetition.mouseDelightful(ArmyObtainable.machineLabel));
-                  if(_loc1_)
-                  {
-                     DeadpanSign.anusSpurious();
-                  }
-                  else
-                  {
-                     ExternalInterface.addCallback(RecogniseCompetition.mouseDelightful(AlansonReligion.crashArmy),DeadpanSign.anusSpurious);
-                     ExternalInterface.addCallback(LaborerFeeble.stomachTax,DeadpanSign.mightyLook);
-                  }
-               }
-               return;
-            }
-            catch(eliteLabel:Error)
-            {
-               return;
+               this.amuseWarlike = ScaleAdaptable(_loc2_);
+               this.lookCompetition = this;
             }
          }
       }
       
-      public static function apatheticKotsky(param1:String) : void
+      public function get yellOrder() : int
       {
-         DeadpanSign.pipkaRobin = param1;
-         if(DeadpanSign.orderProud)
-         {
-            DeadpanSign.orderProud(param1);
-         }
-      }
-      
-      public static function mouseInvite() : String
-      {
-         return DeadpanSign.pipkaRobin;
-      }
-      
-      public static function anusSpurious() : void
-      {
-         DeadpanSign.faintProbable = DeadpanSign.inexpensiveFaithful;
-         ExternalInterface.addCallback(RecogniseCompetition.mouseDelightful(AdviseRobin.fragileBathe),DeadpanSign.apatheticKotsky);
-         ExternalInterface.addCallback(RecogniseCompetition.mouseDelightful(BerryMouse.planSubdued),DeadpanSign.distroHistorical);
-         if(DeadpanSign.admireLabel)
-         {
-            DeadpanSign.admireLabel();
-         }
+         return OrderUnit.apatheticRare(CardBabies.robinPanoramic);
       }
    }
 }

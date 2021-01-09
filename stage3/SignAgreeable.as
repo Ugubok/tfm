@@ -6,7 +6,7 @@ package
    {
        
       
-      public var bashfulHanging:Vector.<BatheSubdued>;
+      public var gullibleRare:Vector.<BatheSubdued>;
       
       public function SignAgreeable(param1:ByteArray)
       {
@@ -16,10 +16,10 @@ package
          var _loc7_:String = null;
          var _loc8_:int = 0;
          var _loc9_:String = null;
-         this.bashfulHanging = new Vector.<BatheSubdued>();
+         this.gullibleRare = new Vector.<BatheSubdued>();
          super(param1);
          var _loc2_:int = param1.readShort();
-         var _loc3_:int = HystericalKotsky.notebookChivalrous;
+         var _loc3_:int = ReligionStore.trailInstruct;
          while(_loc3_ < _loc2_)
          {
             _loc4_ = param1.readInt();
@@ -28,7 +28,7 @@ package
             _loc7_ = param1.readUTF();
             _loc8_ = param1.readShort();
             _loc9_ = param1.readUTF();
-            this.bashfulHanging.push(new ProbableProbable(_loc4_,_loc5_,_loc6_,_loc7_,_loc8_,_loc9_));
+            this.gullibleRare.push(new ProbableProbable(_loc4_,_loc5_,_loc6_,_loc7_,_loc8_,_loc9_));
             _loc3_++;
          }
       }

@@ -11,88 +11,102 @@ package
    {
        
       
-      public var wickedZonked:Loader;
+      public var bruiseCrown:Loader;
       
-      public var inviteChickens:Object;
+      public var unequaledCrib:Object;
       
-      public var kurumaFragile:Boolean = false;
+      public var suzukaRay:Boolean = false;
       
-      public var stupidThick:String;
+      public var joyousDistro:String;
       
-      public var scintillatingCoal:int;
+      public var storeAmuse:int;
       
-      public var delightfulAlanson:int;
+      public var babiesSubdued:int;
       
-      public var birdCry:Timer;
+      public var competitionBag:Timer;
       
-      public var yellLaborer:Boolean = false;
+      public var satisfyFix:Boolean = false;
       
-      public var hatefulBashful:int;
+      public var borrowCoal:int;
       
-      public var slipAdmire:Function;
+      public var groundProgram:Function;
       
-      public var lunasoleScintillating:Boolean;
+      public var kurumaProud:Boolean;
       
-      public var signWhistle:Sprite;
+      public var knotThick:Sprite;
       
       public function FeebleSign(param1:String, param2:Boolean = true, param3:Number = 1, param4:Function = null)
       {
-         this.hatefulBashful = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.borrowCoal = ReligionStore.trailInstruct;
          super();
-         this.lunasoleScintillating = DeterminedPrepare.hatefulComplex;
-         this.scintillatingCoal = param3 * RecogniseCompetition.prepareAgree(DeterminedWarlike.taxPlan);
-         this.delightfulAlanson = param3 * RecogniseCompetition.prepareAgree(AdviseRobin.adviseStale);
-         this.slipAdmire = param4;
-         if(!this.deadpanSigh = new Timer(ArmyObtainable.milkyAgree);
-            this.birdCry.addEventListener(TimerEvent.TIMER,this.complexKnife);
-            this.wickedZonked = new Loader();
-            this.wickedZonked.load(new URLRequest(param1));
-            this.wickedZonked.contentLoaderInfo.addEventListener(Event.INIT,this.prepareMouse);
+         this.kurumaProud = HateFaint.proudGround;
+         this.storeAmuse = param3 * OrderUnit.apatheticRare(PrepareLip.partyDelightful);
+         this.babiesSubdued = OrderUnit.apatheticRare(DildoBorrow.bruiseBurn) * param3;
+         this.groundProgram = param4;
+         if(!this.bashfulViolet = new Timer(OrderUnit.apatheticRare(StupidCoal.healDistro));
+            this.competitionBag.addEventListener(TimerEvent.TIMER,this.scratchViolet);
+            this.bruiseCrown = new Loader();
+            this.bruiseCrown.load(new URLRequest(param1));
+            this.bruiseCrown.contentLoaderInfo.addEventListener(Event.INIT,this.determinedBlade);
          }
-         this.stupidThick = param1;
-         this.signWhistle = AgreeableHistorical.probableCute(RecogniseCompetition.mouseDelightful(GroundFour.balvankaTouch));
-         this.signWhistle.cacheAsBitmap = DeterminedPrepare.hatefulComplex;
-         this.signWhistle.mouseEnabled = DeterminedPrepare.machineSigh;
-         this.signWhistle.mouseChildren = DeterminedPrepare.machineSigh;
-         this.signWhistle.width = this.scintillatingCoal;
-         this.signWhistle.height = this.delightfulAlanson;
-         this.birdCry.reset();
-         this.birdCry.start();
+         this.joyousDistro = param1;
+         this.knotThick = AgreeableHistorical.admireCute(WanderingDecay.wingStupid);
+         this.knotThick.cacheAsBitmap = HateFaint.proudGround;
+         this.knotThick.mouseEnabled = HateFaint.bladeStatement;
+         this.knotThick.mouseChildren = HateFaint.bladeStatement;
+         this.knotThick.width = this.storeAmuse;
+         this.knotThick.height = this.babiesSubdued;
+         this.competitionBag.reset();
+         this.competitionBag.start();
       }
       
-      public function complexKnife(param1:Event) : void
+      public function inexpensiveAdaptable() : void
       {
-         if(RareOranges.labelMachine)
+         if(this.borrowReligion[CreatorSupply.waitingFour]();
+         }
+      }
+      
+      public function coalProbable(param1:Event) : void
+      {
+         this.suzukaRay = HateFaint.proudGround;
+         this.unequaledCrib[BatheKotsky.panoramicThick](this.storeAmuse,this.babiesSubdued);
+         if(this.joyousDistro && this.kurumaProud)
          {
-            this.birdCry.stop();
-            this.wickedZonked.unloadAndStop(false);
-            if(this.inviteChickens)
-            {
-               this.inviteChickens[GroundFour.hydrantSqueamish]();
+         }
+         if(this.groundProgram != null)
+         {
+            this.groundProgram(this.unequaledCrib);
+         }
+      }
+      
+      public function scratchViolet(param1:Event) : void
+      {
+         if(RareOranges.preparePat.stop();
+            this.bruiseCrown.unloadAndStop(false);
+            if(this.crimeStale[OrderUnit.probableLip(CreatorSupply.waitingFour)]();
             }
          }
       }
       
-      public function swankyWicked(param1:Event) : void
-      {
-         this.kurumaFragile = DeterminedPrepare.hatefulComplex;
-         this.inviteChickens[LaborerFeeble.requestLip](this.scintillatingCoal,this.delightfulAlanson);
-         if(this.stupidThick && this.lunasoleScintillating)
-         {
-         }
-         if(this.slipAdmire != null)
-         {
-            this.slipAdmire(this.inviteChickens);
-         }
-      }
-      
-      public function scintillatingProbable(param1:Event) : void
+      public function grateLamentable(param1:Event) : void
       {
       }
       
-      public function stupidDildo() : void
+      public function pailWarlike(param1:Boolean) : void
       {
-         if(this.agreeableCute[GroundFour.hydrantSqueamish]();
+         if(this.borrowReligion.mouseEnabled = param1;
+            this.unequaledCrib.mouseChildren = param1;
+         }
+      }
+      
+      public function pauseVideo(param1:Event = null) : void
+      {
+         this.satisfyFix = !this.satisfyFix;
+         if(this.statementNoxious[OrderUnit.probableLip(WaitingCrib.hangingSisters)]();
+         }
+         else
+         {
+            this.unequaledCrib[OrderUnit.probableLip(DildoBorrow.recogniseBird)]();
          }
       }
       
@@ -103,49 +117,28 @@ package
          {
             return;
          }
-         this.birdCry.reset();
-         this.birdCry.start();
-         _loc2_ = param1.substr(param1.indexOf(FrailJuice.notebookPlan) + RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka)).split(CoalRay.whistlePrepare)[HystericalKotsky.notebookChivalrous];
-         _loc3_[HystericalKotsky.violetLip](_loc2_,this.hatefulBashful,this.scintillatingCoal < RecogniseCompetition.prepareAgree(LipStore.lunasoleProgram)?AdviseRobin.bagKnife:AdviseRobin.knifeFaithful);
-         this.yellLaborer = DeterminedPrepare.machineSigh;
-      }
-      
-      public function legHeal(param1:Event) : void
+         this.competitionBag.reset();
+         this.competitionBag.start();
+         _loc2_ = param1.substr(param1.indexOf(VolcanoStay.loafWindy) + SlipReligion.companyHistorical).split(BurnFix.squeamishOrange)[OrderUnit.apatheticRare(ReligionStore.trailInstruct)];
+         _loc3_[OrderUnit.probableLip(BatheKotsky.curvedWing)](_loc2_,this.borrowCoal,this.storeAmuse < OrderUnit.apatheticRare(PrepareLip.cribViolet)?OrderUnit.probableLip(StupidCoal.buryBag):OrderUnit.probableLip(CardBabies.crimeSpurious));
+         this.requestGate(param1:Event) : void
       {
-         var _loc2_:int = param1[RecogniseCompetition.mouseDelightful(WaitingReligion.robinBorrow)];
-         if(_loc2_ >= CoalRay.actionBorrow)
+         var _loc2_:int = param1[GullibleLook.distroJumbled];
+         if(_loc2_ >= OrderUnit.apatheticRare(CardBabies.machineOranges))
          {
-            addChild(this.wickedZonked);
-            addChild(this.signWhistle);
+            addChild(this.bruiseCrown);
+            addChild(this.knotThick);
          }
       }
       
-      public function pauseVideo(param1:Event = null) : void
+      public function determinedBlade(param1:Event) : void
       {
-         this.yellLaborer = !this.yellLaborer;
-         if(this.taxLunasole[RecogniseCompetition.mouseDelightful(RayYell.taxSuzuka)]();
-         }
-         else
-         {
-            this.inviteChickens[AdviseRobin.fourMouse]();
-         }
-      }
-      
-      public function prepareMouse(param1:Event) : void
-      {
-         this.inviteChickens = this.wickedZonked.content;
-         this.inviteChickens[AnusSeed.slipStore](RecogniseCompetition.mouseDelightful(BalvankaNotebook.proudInexpensive),this.swankyWicked);
-         this.inviteChickens[RecogniseCompetition.mouseDelightful(AnusSeed.slipStore)](WaitingReligion.inviteObeisant,this.scintillatingProbable);
-         this.inviteChickens[RecogniseCompetition.mouseDelightful(AnusSeed.slipStore)](RecogniseCompetition.mouseDelightful(MetalDetermined.listVolcano),this.legHeal);
-         addChild(this.wickedZonked);
-         addChild(this.signWhistle);
-      }
-      
-      public function taxAdaptable(param1:Boolean) : void
-      {
-         if(this.agreeableCute.mouseEnabled = param1;
-            this.inviteChickens.mouseChildren = param1;
-         }
+         this.unequaledCrib = this.bruiseCrown.content;
+         this.unequaledCrib[OrderUnit.probableLip(AdaptableInexpensive.loafPat)](CreatorSupply.lamentableSeed,this.coalProbable);
+         this.unequaledCrib[OrderUnit.probableLip(AdaptableInexpensive.loafPat)](OrderUnit.probableLip(PrepareLip.feebleBorrow),this.grateLamentable);
+         this.unequaledCrib[AdaptableInexpensive.loafPat](OrderUnit.probableLip(AdmireUncle.seedCompetition),this.cryHydrant);
+         addChild(this.bruiseCrown);
+         addChild(this.knotThick);
       }
    }
 }

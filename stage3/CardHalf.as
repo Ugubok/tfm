@@ -6,15 +6,15 @@ package
    {
        
       
-      public var armyLook:int;
+      public var pailWhistle:int;
       
-      public var bagClub:int;
+      public var waitingBorrow:Boolean;
       
       public function CardHalf(param1:ByteArray)
       {
          super(param1);
-         this.armyLook = param1.readInt();
-         this.bagClub = param1.readShort();
+         this.pailWhistle = param1.readInt();
+         this.waitingBorrow = param1.readByte() == CardBabies.machineOranges;
       }
    }
 }

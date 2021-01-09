@@ -4,11 +4,11 @@ package
    {
        
       
-      public function TiresomeRare(param1:String, param2:String)
+      public function TiresomeRare(param1:int, param2:int)
       {
-         super(RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping),CoalWhisper.whistlePanoramic);
-         staySigh.writeUTF(param1);
-         staySigh.writeUTF(param2);
+         super(OrderUnit.apatheticRare(CardBabies.staleJumbled),SlipReligion.companyHistorical);
+         lamentableSpurious.writeShort(param1);
+         lamentableSpurious.writeShort(param2);
       }
    }
 }

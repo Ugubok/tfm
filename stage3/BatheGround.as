@@ -6,8 +6,8 @@ package
       
       public function BatheGround(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky),DeterminedWarlike.volcanoDelightful);
-         staySigh.writeInt(param1);
+         super(OrderUnit.apatheticRare(AdmireUncle.crimeCreator),OrderUnit.apatheticRare(BatheKotsky.proseNoiseless));
+         lamentableSpurious.writeShort(param1);
       }
    }
 }

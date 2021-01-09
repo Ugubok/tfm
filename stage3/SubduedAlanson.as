@@ -6,12 +6,12 @@ package
       
       public function SubduedAlanson(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(AlansonReligion.statementScratch),RecogniseCompetition.prepareAgree(LaborerFeeble.knifeParty));
-         if(HystericalKotsky.notebookChivalrous > param1)
+         super(OrderUnit.apatheticRare(WaitingCrib.statementDecay),CardBabies.staleJumbled);
+         if(param1 < OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
-            param1 = HystericalKotsky.notebookChivalrous;
+            param1 = ReligionStore.trailInstruct;
          }
-         staySigh.writeInt(param1);
+         lamentableSpurious.writeInt(param1);
       }
    }
 }

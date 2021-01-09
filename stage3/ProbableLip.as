@@ -6,48 +6,48 @@ package
    {
        
       
-      public var storeProse:Bitmap;
+      public var seriousBag:Bitmap;
       
-      public var sandToe:int;
+      public var airTax:int;
       
-      public var stupidBlade:int;
+      public var flowerSeed:int;
       
-      public var agonizingScratch:int;
+      public var patGate:int;
       
-      public var agreeableSense:int;
+      public var markRay:int;
       
-      public var scintillatingCoal:int;
+      public var storeAmuse:int;
       
-      public var delightfulAlanson:int;
+      public var babiesSubdued:int;
       
-      public var religionParty:Boolean;
+      public var largeWing:Boolean;
       
       public function ProbableLip(param1:String, param2:int, param3:int, param4:int, param5:int, param6:int, param7:int, param8:int, param9:Boolean = false)
       {
          super();
-         if(param1.match(BerryAnus.creatorParty))
+         if(param1.match(BerryAnus.lipHalf))
          {
-            this.storeProse = AgreeableHistorical.religionSign(param1,RecogniseCompetition.mouseDelightful(AnusSeed.crashStay));
+            this.seriousBag = AgreeableHistorical.crowdedScale(param1,BurnFix.sighFaithful);
          }
          else
          {
-            this.storeProse = AgreeableHistorical.religionSign(param1);
+            this.seriousBag = AgreeableHistorical.crowdedScale(param1);
          }
-         this.sandToe = param3;
-         this.stupidBlade = param4;
-         this.scintillatingCoal = param5;
-         this.delightfulAlanson = param6;
-         this.religionParty = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) == param2;
+         this.airTax = param3;
+         this.flowerSeed = param4;
+         this.storeAmuse = param5;
+         this.babiesSubdued = param6;
+         this.largeWing = param2 == ReligionStore.trailInstruct;
          if(param9)
          {
-            this.storeProse.scaleX = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+            this.seriousBag.scaleX = -CardBabies.machineOranges;
          }
-         this.agonizingScratch = this.scintillatingCoal + this.sandToe;
-         this.agreeableSense = this.stupidBlade + this.delightfulAlanson;
+         this.patGate = this.airTax + this.storeAmuse;
+         this.markRay = this.babiesSubdued + this.flowerSeed;
          if(param7 || param8)
          {
-            this.storeProse.x = param7;
-            this.storeProse.y = param8;
+            this.seriousBag.x = param7;
+            this.seriousBag.y = param8;
          }
       }
    }

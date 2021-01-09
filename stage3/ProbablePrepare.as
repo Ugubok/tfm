@@ -4,19 +4,19 @@ package
    {
        
       
-      public var hatePear:AlansonTiresome;
+      public var noiselessCompetition:AlansonTiresome;
       
-      public var groundBalvanka:AlansonTiresome;
+      public var gapingWarlike:AlansonTiresome;
       
-      public var hangingIcy:Number;
+      public var superCurved:Number;
       
       public function ProbablePrepare()
       {
          super();
-         type = AlansonTiresome.wingAdvise;
-         this.hatePear = null;
-         this.groundBalvanka = null;
-         this.hangingIcy = RecogniseCompetition.scaleCrown(AdviseRobin.hangingUncle);
+         type = AlansonTiresome.stupidSuper;
+         this.noiselessCompetition = null;
+         this.gapingWarlike = null;
+         this.superCurved = OrderUnit.noiselessGullible(CardBabies.joyousFascinated);
       }
    }
 }

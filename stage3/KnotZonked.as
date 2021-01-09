@@ -4,26 +4,26 @@ package
    {
        
       
-      public var juiceComplex:String;
+      public var lookBashful:String;
       
-      public var companyCompany:int;
+      public var peckCrib:int;
       
-      public var chickenWatery:String;
+      public var chickenQuirky:String;
       
-      public var agonizingHanging:int;
+      public var yellClub:int;
       
-      public var metalFeeble:int;
+      public var subduedCrash:int;
       
-      public var birdBorrow:InexpensiveGround = null;
+      public var apatheticBird:InexpensiveGround = null;
       
       public function KnotZonked(param1:String, param2:int, param3:String, param4:int, param5:int)
       {
          super();
-         this.juiceComplex = param1;
-         this.companyCompany = param4;
-         this.chickenWatery = param3;
-         this.agonizingHanging = param2;
-         this.metalFeeble = param5;
+         this.lookBashful = param1;
+         this.peckCrib = param4;
+         this.chickenQuirky = param3;
+         this.yellClub = param2;
+         this.subduedCrash = param5;
       }
    }
 }

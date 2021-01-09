@@ -5,148 +5,148 @@ package
    public class AnusKnot
    {
       
-      public static const inexpensiveOranges:AnusKnot = new AnusKnot(5692 + -5692);
+      public static const wickedPinus:AnusKnot = new AnusKnot( 0);
       
-      public static const agreeableWarlike:AnusKnot = new AnusKnot(9180 + -9179,true);
+      public static const notebookReligion:AnusKnot = new AnusKnot( 1,true);
       
-      public static const satisfyProgram:AnusKnot = new AnusKnot(8391 + -8389);
+      public static const kotskyLeg:AnusKnot = new AnusKnot( 2);
       
-      public static const rareRare:AnusKnot = new AnusKnot(342 + -339);
+      public static const apatheticConfused:AnusKnot = new AnusKnot( 3);
       
-      public static const storePlan:AnusKnot = new AnusKnot(1636 + -1632);
+      public static const clubTiresome:AnusKnot = new AnusKnot( 4);
       
-      public static const tiresomeCrib:AnusKnot = new AnusKnot(8627 + -8622,true);
+      public static const stayPail:AnusKnot = new AnusKnot( 5,true);
       
-      public static const berryWaiting:AnusKnot = new AnusKnot(4474 + -4468,true);
+      public static const noiselessMark:AnusKnot = new AnusKnot( 6,true);
       
-      public static const rareHeal:AnusKnot = new AnusKnot(6594 + -6586,true);
+      public static const warlikeSatisfy:AnusKnot = new AnusKnot( 8,true);
       
-      public static const signAmuse:AnusKnot = new AnusKnot(4000 + -3990);
+      public static const legHysterical:AnusKnot = new AnusKnot( 10);
       
-      public static const sistersFragile:AnusKnot = new AnusKnot(4165 + -4154,true);
+      public static const lipHarmony:AnusKnot = new AnusKnot( 11,true);
       
-      public static const lookDeadpan:AnusKnot = new AnusKnot(457 + -443);
+      public static const coalClub:AnusKnot = new AnusKnot( 14);
       
-      public static const alansonMilky:AnusKnot = new AnusKnot(4750 + -4735);
+      public static const competitionTremble:AnusKnot = new AnusKnot( 15);
       
-      public static const chivalrousNoiseless:AnusKnot = new AnusKnot(2204 + -2188);
+      public static const alansonStale:AnusKnot = new AnusKnot( 16);
       
-      public static const inexpensiveNoxious:AnusKnot = new AnusKnot(2027 + -2007,true);
+      public static const metalHysterical:AnusKnot = new AnusKnot( 20,true);
       
-      public static const swankyAdaptable:AnusKnot = new AnusKnot(5690 + -5669);
+      public static const knotRobin:AnusKnot = new AnusKnot( 21);
       
-      public static const balvankaAlluring:AnusKnot = new AnusKnot(2763 + -2740);
+      public static const metalInjure:AnusKnot = new AnusKnot( 23);
       
-      public static const pailZonked:AnusKnot = new AnusKnot(449 + -425,true);
+      public static const waitingCrime:AnusKnot = new AnusKnot( 24,true);
       
-      public static const complexProse:AnusKnot = new AnusKnot(892 + -867,true);
+      public static const commonMachine:AnusKnot = new AnusKnot( 25,true);
       
-      public static const amuseFascinated:AnusKnot = new AnusKnot(6245 + -6219,true);
+      public static const chopWhistle:AnusKnot = new AnusKnot( 26,true);
       
-      public static const stickHydrant:AnusKnot = new AnusKnot(4905 + -4876,true);
+      public static const hangingFix:AnusKnot = new AnusKnot( 29,true);
       
-      public static const jumbledLook:AnusKnot = new AnusKnot(8728 + -8698,true);
+      public static const proudScale:AnusKnot = new AnusKnot( 30,true);
       
-      public static const apatheticAgree:AnusKnot = new AnusKnot(4790 + -2558);
+      public static const buryRobin:AnusKnot = new AnusKnot( 2232);
       
-      public static const loafCrime:AnusKnot = new AnusKnot(1436 + 805,true);
+      public static const dildoFeeble:AnusKnot = new AnusKnot( 2241,true);
       
-      public static const fascinatedWicked:AnusKnot = new AnusKnot(6002 + -3756);
+      public static const admireWhisper:AnusKnot = new AnusKnot( 2246);
       
-      public static const proudBag:AnusKnot = new AnusKnot(5626 + -3376,true);
+      public static const satisfyFeeble:AnusKnot = new AnusKnot( 2250,true);
       
-      public static const lamentableInexpensive:AnusKnot = new AnusKnot(6467 + -4137,true);
+      public static const laborerGate:AnusKnot = new AnusKnot( 2330,true);
       
-      public static const flowerZonked:AnusKnot = new AnusKnot(5231 + -2885);
+      public static const suzukaDeadpan:AnusKnot = new AnusKnot( 2346);
       
-      public static const stayBack:AnusKnot = new AnusKnot(8288 + -5937,true);
+      public static const coalDecay:AnusKnot = new AnusKnot( 2351,true);
       
-      public static const harmonyCurved:AnusKnot = new AnusKnot(2257 + 121,true);
+      public static const wanderingHalf:AnusKnot = new AnusKnot( 2378,true);
       
-      public static const yellSubdued:AnusKnot = new AnusKnot(8661 + -6214);
+      public static const machineAdvise:AnusKnot = new AnusKnot( 2447);
       
-      public static const unitElite:AnusKnot = new AnusKnot(8167 + -7367);
+      public static const peckBlade:AnusKnot = new AnusKnot( 800);
       
-      public static const preparePat:AnusKnot = new AnusKnot(4601 + -3800);
+      public static const thickFaint:AnusKnot = new AnusKnot( 801);
       
-      public static const cryCrash:AnusKnot = new AnusKnot(9157 + -6904);
+      public static const fragilePipka:AnusKnot = new AnusKnot( 2253);
       
-      public static const companyBury:AnusKnot = new AnusKnot(3263 + -1009);
+      public static const probableHateful:AnusKnot = new AnusKnot( 2254);
       
-      public static const spuriousCrib:AnusKnot = new AnusKnot(7823 + -5566);
+      public static const competitionCrowded:AnusKnot = new AnusKnot( 2257);
       
-      public static const borrowConfused:AnusKnot = new AnusKnot(4120 + -1860);
+      public static const squeamishAnnoying:AnusKnot = new AnusKnot( 2260);
       
-      public static const tiresomeAgonizing:AnusKnot = new AnusKnot(495 + 1766);
+      public static const trailStomach:AnusKnot = new AnusKnot( 2261);
       
-      public static const crackerProgram:AnusKnot = new AnusKnot(817 + 1655);
+      public static const chickensDecay:AnusKnot = new AnusKnot( 2472);
       
-      public static const lookHydrant:AnusKnot = new AnusKnot(8457 + -5960);
+      public static const wickedMouse:AnusKnot = new AnusKnot( 2497);
       
-      public static const taxFragile:AnusKnot = new AnusKnot(9368 + -6870);
+      public static const religionOrder:AnusKnot = new AnusKnot( 2498);
       
-      public static const mightyOranges:Dictionary = new Dictionary();
+      public static const bagPinus:Dictionary = new Dictionary();
       
       {
-         AnusKnot.mightyOranges[AnusKnot.inexpensiveOranges.lipAdmire] = AnusKnot.inexpensiveOranges;
-         AnusKnot.mightyOranges[AnusKnot.agreeableWarlike.lipAdmire] = AnusKnot.agreeableWarlike;
-         AnusKnot.mightyOranges[AnusKnot.satisfyProgram.lipAdmire] = AnusKnot.satisfyProgram;
-         AnusKnot.mightyOranges[AnusKnot.rareRare.lipAdmire] = AnusKnot.rareRare;
-         AnusKnot.mightyOranges[AnusKnot.storePlan.lipAdmire] = AnusKnot.storePlan;
-         AnusKnot.mightyOranges[AnusKnot.tiresomeCrib.lipAdmire] = AnusKnot.tiresomeCrib;
-         AnusKnot.mightyOranges[AnusKnot.berryWaiting.lipAdmire] = AnusKnot.berryWaiting;
-         AnusKnot.mightyOranges[AnusKnot.rareHeal.lipAdmire] = AnusKnot.rareHeal;
-         AnusKnot.mightyOranges[AnusKnot.signAmuse.lipAdmire] = AnusKnot.signAmuse;
-         AnusKnot.mightyOranges[AnusKnot.sistersFragile.lipAdmire] = AnusKnot.sistersFragile;
-         AnusKnot.mightyOranges[AnusKnot.lookDeadpan.lipAdmire] = AnusKnot.lookDeadpan;
-         AnusKnot.mightyOranges[AnusKnot.alansonMilky.lipAdmire] = AnusKnot.alansonMilky;
-         AnusKnot.mightyOranges[AnusKnot.chivalrousNoiseless.lipAdmire] = AnusKnot.chivalrousNoiseless;
-         AnusKnot.mightyOranges[AnusKnot.inexpensiveNoxious.lipAdmire] = AnusKnot.inexpensiveNoxious;
-         AnusKnot.mightyOranges[AnusKnot.swankyAdaptable.lipAdmire] = AnusKnot.swankyAdaptable;
-         AnusKnot.mightyOranges[AnusKnot.balvankaAlluring.lipAdmire] = AnusKnot.balvankaAlluring;
-         AnusKnot.mightyOranges[AnusKnot.pailZonked.lipAdmire] = AnusKnot.pailZonked;
-         AnusKnot.mightyOranges[AnusKnot.complexProse.lipAdmire] = AnusKnot.complexProse;
-         AnusKnot.mightyOranges[AnusKnot.amuseFascinated.lipAdmire] = AnusKnot.amuseFascinated;
-         AnusKnot.mightyOranges[AnusKnot.stickHydrant.lipAdmire] = AnusKnot.stickHydrant;
-         AnusKnot.mightyOranges[AnusKnot.jumbledLook.lipAdmire] = AnusKnot.jumbledLook;
-         AnusKnot.mightyOranges[AnusKnot.apatheticAgree.lipAdmire] = AnusKnot.apatheticAgree;
-         AnusKnot.mightyOranges[AnusKnot.loafCrime.lipAdmire] = AnusKnot.loafCrime;
-         AnusKnot.mightyOranges[AnusKnot.fascinatedWicked.lipAdmire] = AnusKnot.fascinatedWicked;
-         AnusKnot.mightyOranges[AnusKnot.proudBag.lipAdmire] = AnusKnot.proudBag;
-         AnusKnot.mightyOranges[AnusKnot.lamentableInexpensive.lipAdmire] = AnusKnot.lamentableInexpensive;
-         AnusKnot.mightyOranges[AnusKnot.flowerZonked.lipAdmire] = AnusKnot.flowerZonked;
-         AnusKnot.mightyOranges[AnusKnot.stayBack.lipAdmire] = AnusKnot.stayBack;
-         AnusKnot.mightyOranges[AnusKnot.harmonyCurved.lipAdmire] = AnusKnot.harmonyCurved;
-         AnusKnot.mightyOranges[AnusKnot.yellSubdued.lipAdmire] = AnusKnot.yellSubdued;
-         AnusKnot.mightyOranges[AnusKnot.unitElite.lipAdmire] = AnusKnot.unitElite;
-         AnusKnot.mightyOranges[AnusKnot.preparePat.lipAdmire] = AnusKnot.preparePat;
-         AnusKnot.mightyOranges[AnusKnot.cryCrash.lipAdmire] = AnusKnot.cryCrash;
-         AnusKnot.mightyOranges[AnusKnot.companyBury.lipAdmire] = AnusKnot.companyBury;
-         AnusKnot.mightyOranges[AnusKnot.spuriousCrib.lipAdmire] = AnusKnot.spuriousCrib;
-         AnusKnot.mightyOranges[AnusKnot.borrowConfused.lipAdmire] = AnusKnot.borrowConfused;
-         AnusKnot.mightyOranges[AnusKnot.tiresomeAgonizing.lipAdmire] = AnusKnot.tiresomeAgonizing;
+         AnusKnot.bagPinus[AnusKnot.wickedPinus.knifeStick] = AnusKnot.wickedPinus;
+         AnusKnot.bagPinus[AnusKnot.notebookReligion.knifeStick] = AnusKnot.notebookReligion;
+         AnusKnot.bagPinus[AnusKnot.kotskyLeg.knifeStick] = AnusKnot.kotskyLeg;
+         AnusKnot.bagPinus[AnusKnot.apatheticConfused.knifeStick] = AnusKnot.apatheticConfused;
+         AnusKnot.bagPinus[AnusKnot.clubTiresome.knifeStick] = AnusKnot.clubTiresome;
+         AnusKnot.bagPinus[AnusKnot.stayPail.knifeStick] = AnusKnot.stayPail;
+         AnusKnot.bagPinus[AnusKnot.noiselessMark.knifeStick] = AnusKnot.noiselessMark;
+         AnusKnot.bagPinus[AnusKnot.warlikeSatisfy.knifeStick] = AnusKnot.warlikeSatisfy;
+         AnusKnot.bagPinus[AnusKnot.legHysterical.knifeStick] = AnusKnot.legHysterical;
+         AnusKnot.bagPinus[AnusKnot.lipHarmony.knifeStick] = AnusKnot.lipHarmony;
+         AnusKnot.bagPinus[AnusKnot.coalClub.knifeStick] = AnusKnot.coalClub;
+         AnusKnot.bagPinus[AnusKnot.competitionTremble.knifeStick] = AnusKnot.competitionTremble;
+         AnusKnot.bagPinus[AnusKnot.alansonStale.knifeStick] = AnusKnot.alansonStale;
+         AnusKnot.bagPinus[AnusKnot.metalHysterical.knifeStick] = AnusKnot.metalHysterical;
+         AnusKnot.bagPinus[AnusKnot.knotRobin.knifeStick] = AnusKnot.knotRobin;
+         AnusKnot.bagPinus[AnusKnot.metalInjure.knifeStick] = AnusKnot.metalInjure;
+         AnusKnot.bagPinus[AnusKnot.waitingCrime.knifeStick] = AnusKnot.waitingCrime;
+         AnusKnot.bagPinus[AnusKnot.commonMachine.knifeStick] = AnusKnot.commonMachine;
+         AnusKnot.bagPinus[AnusKnot.chopWhistle.knifeStick] = AnusKnot.chopWhistle;
+         AnusKnot.bagPinus[AnusKnot.hangingFix.knifeStick] = AnusKnot.hangingFix;
+         AnusKnot.bagPinus[AnusKnot.proudScale.knifeStick] = AnusKnot.proudScale;
+         AnusKnot.bagPinus[AnusKnot.buryRobin.knifeStick] = AnusKnot.buryRobin;
+         AnusKnot.bagPinus[AnusKnot.dildoFeeble.knifeStick] = AnusKnot.dildoFeeble;
+         AnusKnot.bagPinus[AnusKnot.admireWhisper.knifeStick] = AnusKnot.admireWhisper;
+         AnusKnot.bagPinus[AnusKnot.satisfyFeeble.knifeStick] = AnusKnot.satisfyFeeble;
+         AnusKnot.bagPinus[AnusKnot.laborerGate.knifeStick] = AnusKnot.laborerGate;
+         AnusKnot.bagPinus[AnusKnot.suzukaDeadpan.knifeStick] = AnusKnot.suzukaDeadpan;
+         AnusKnot.bagPinus[AnusKnot.coalDecay.knifeStick] = AnusKnot.coalDecay;
+         AnusKnot.bagPinus[AnusKnot.wanderingHalf.knifeStick] = AnusKnot.wanderingHalf;
+         AnusKnot.bagPinus[AnusKnot.machineAdvise.knifeStick] = AnusKnot.machineAdvise;
+         AnusKnot.bagPinus[AnusKnot.peckBlade.knifeStick] = AnusKnot.peckBlade;
+         AnusKnot.bagPinus[AnusKnot.thickFaint.knifeStick] = AnusKnot.thickFaint;
+         AnusKnot.bagPinus[AnusKnot.fragilePipka.knifeStick] = AnusKnot.fragilePipka;
+         AnusKnot.bagPinus[AnusKnot.probableHateful.knifeStick] = AnusKnot.probableHateful;
+         AnusKnot.bagPinus[AnusKnot.competitionCrowded.knifeStick] = AnusKnot.competitionCrowded;
+         AnusKnot.bagPinus[AnusKnot.squeamishAnnoying.knifeStick] = AnusKnot.squeamishAnnoying;
+         AnusKnot.bagPinus[AnusKnot.trailStomach.knifeStick] = AnusKnot.trailStomach;
       }
       
-      public var lipAdmire:int;
+      public var knifeStick:int;
       
-      public var hangingBag:Boolean;
+      public var curvedBury:Boolean;
       
       public function AnusKnot(param1:int, param2:Boolean = false)
       {
          super();
-         this.lipAdmire = param1;
-         this.hangingBag = param2;
+         this.knifeStick = param1;
+         this.curvedBury = param2;
       }
       
-      public static function tastelessBag(param1:int) : AnusKnot
+      public static function quirkyTremble(param1:int) : Boolean
       {
-         return AnusKnot.mightyOranges[param1];
+         var _loc2_:AnusKnot = AnusKnot.bagPinus[param1];
+         return _loc2_ == AnusKnot.hangingFix || _loc2_ == AnusKnot.proudScale || _loc2_ == AnusKnot.dildoFeeble || _loc2_ == AnusKnot.coalDecay || _loc2_ == AnusKnot.laborerGate;
       }
       
-      public static function markAlluring(param1:int) : Boolean
+      public static function dildoAbaft(param1:int) : AnusKnot
       {
-         var _loc2_:AnusKnot = AnusKnot.mightyOranges[param1];
-         return _loc2_ == AnusKnot.stickHydrant || _loc2_ == AnusKnot.jumbledLook || _loc2_ == AnusKnot.loafCrime || _loc2_ == AnusKnot.stayBack || _loc2_ == AnusKnot.lamentableInexpensive;
+         return AnusKnot.bagPinus[param1];
       }
    }
 }

@@ -8,112 +8,112 @@ package
    public class CrashKnot extends SpuriousSubdued
    {
       
-      public static const gapingCrown:int = 14;
+      public static const requestLarge:int =  14;
        
       
-      public var volcanoDeliver:Sprite;
+      public var scratchNoxious:Sprite;
       
-      public var largeWing:Sprite;
+      public var markCrib:Sprite;
       
-      public var berryList:Boolean = false;
+      public var rareBabies:Boolean = false;
       
-      public var gateNoxious:Boolean = true;
+      public var prepareCracker:Boolean = true;
       
-      public var inviteUnequaled:DisplayObject;
+      public var complexBag:DisplayObject;
       
-      public var crownRobin:Function = null;
+      public var distroLook:Function = null;
       
-      public var mouseHanging:Object = null;
+      public var gateOrange:Object = null;
       
-      public var icyRequest:Boolean = false;
+      public var superProud:Boolean = false;
       
       public function CrashKnot(param1:String = "", param2:int = 0)
       {
-         super(CrashKnot.gapingCrown,BerryMouse.distroWicked);
-         mouseChildren = DeterminedPrepare.machineSigh;
-         this.volcanoDeliver = new Sprite();
-         this.volcanoDeliver.graphics.beginFill(2306616);
-         this.volcanoDeliver.graphics.drawRoundRect(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),CrashKnot.gapingCrown,CrashKnot.gapingCrown,DeterminedWarlike.deadpanBalvanka,RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka));
-         this.volcanoDeliver.graphics.endFill();
-         this.volcanoDeliver.filters = new Array(new BevelFilter(CoalRay.actionBorrow,HystericalKotsky.borrowTax,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),CoalRay.actionBorrow,6325657,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),CoalRay.actionBorrow,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),DeterminedWarlike.deadpanBalvanka));
-         this.volcanoDeliver.y = DeterminedWarlike.deadpanBalvanka;
-         addChild(this.volcanoDeliver);
-         this.largeWing = new Sprite();
-         this.largeWing.graphics.lineStyle(LaborerFeeble.instructBathe,11059144);
-         this.largeWing.graphics.moveTo(DeterminedWarlike.deadpanBalvanka,AdviseRobin.obtainablePear);
-         this.largeWing.graphics.lineTo(RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous),RecogniseCompetition.prepareAgree(DeterminedWarlike.volcanoDelightful));
-         this.largeWing.graphics.lineTo(RecogniseCompetition.prepareAgree(DeterminedWarlike.volcanoDelightful),RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka));
-         this.largeWing.y = this.volcanoDeliver.y;
-         this.programStore(new InexpensiveGround(param1,!!param2?int(param2 - CrashKnot.gapingCrown - RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka)):int(HystericalKotsky.notebookChivalrous)));
+         super(CrashKnot.requestLarge,OrderUnit.apatheticRare(PrepareLip.competitionSupply));
+         mouseChildren = HateFaint.bladeStatement;
+         this.scratchNoxious = new Sprite();
+         this.scratchNoxious.graphics.beginFill(2306616);
+         this.scratchNoxious.graphics.drawRoundRect(ReligionStore.trailInstruct,ReligionStore.trailInstruct,CrashKnot.requestLarge,CrashKnot.requestLarge,SlipReligion.companyHistorical,SlipReligion.companyHistorical);
+         this.scratchNoxious.graphics.endFill();
+         this.scratchNoxious.filters = new Array(new BevelFilter(CardBabies.machineOranges,ReligionStore.zonkedReligion,ReligionStore.trailInstruct,CardBabies.machineOranges,6325657,CardBabies.machineOranges,CardBabies.machineOranges,OrderUnit.apatheticRare(CardBabies.machineOranges),OrderUnit.apatheticRare(CardBabies.machineOranges),OrderUnit.apatheticRare(SlipReligion.companyHistorical)));
+         this.scratchNoxious.y = SlipReligion.companyHistorical;
+         addChild(this.scratchNoxious);
+         this.markCrib = new Sprite();
+         this.markCrib.graphics.lineStyle(OrderUnit.apatheticRare(PinusSand.jumbledTiresome),11059144);
+         this.markCrib.graphics.moveTo(OrderUnit.apatheticRare(SlipReligion.companyHistorical),OrderUnit.apatheticRare(VolcanoStay.proudWaiting));
+         this.markCrib.graphics.lineTo(OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining),CardBabies.lunasoleSwanky);
+         this.markCrib.graphics.lineTo(OrderUnit.apatheticRare(CardBabies.lunasoleSwanky),SlipReligion.companyHistorical);
+         this.markCrib.y = this.scratchNoxious.y;
+         this.bashfulAbaft(new InexpensiveGround(param1,!!param2?int(param2 - CrashKnot.requestLarge - SlipReligion.companyHistorical):int(OrderUnit.apatheticRare(ReligionStore.trailInstruct))));
          if(param2)
          {
-            scintillatingCoal = param2;
+            storeAmuse = param2;
          }
          else
          {
-            scintillatingCoal = width;
+            storeAmuse = width;
          }
-         delightfulAlanson = height;
-         this.admireCard(true);
+         babiesSubdued = height;
+         this.machineDistro(true);
       }
       
-      public function pailToe(param1:Boolean = true, param2:Boolean = true) : CrashKnot
+      public function juiceDistro() : Boolean
       {
-         if(!this.gateNoxious)
+         return this.rareBabies;
+      }
+      
+      public function bashfulAbaft(param1:DisplayObject) : CrashKnot
+      {
+         if(this.complexBag && this.complexBag.parent)
+         {
+            this.complexBag.parent.removeChild(this.complexBag);
+         }
+         this.complexBag = param1;
+         addChild(this.complexBag);
+         this.complexBag.x = CrashKnot.requestLarge + SlipReligion.companyHistorical;
+         return this;
+      }
+      
+      public function machineDistro(param1:Boolean) : CrashKnot
+      {
+         this.prepareCracker = param1;
+         super.harmonySign(!!this.prepareCracker?this.pipkaUnequaled:null);
+         return this;
+      }
+      
+      public function crashStick(param1:Boolean = true, param2:Boolean = true) : CrashKnot
+      {
+         if(!this.prepareCracker)
          {
             return this;
          }
-         this.berryList = param1;
-         if(this.berryList)
+         this.rareBabies = param1;
+         if(this.rareBabies)
          {
-            addChild(this.largeWing);
+            addChild(this.markCrib);
          }
-         else if(this.largeWing.parent)
+         else if(this.markCrib.parent)
          {
-            this.largeWing.parent.removeChild(this.largeWing);
+            this.markCrib.parent.removeChild(this.markCrib);
          }
-         if(param2 && this.crownRobin)
+         if(param2 && this.distroLook)
          {
-            SeriousRare.coalPanoramic(this.crownRobin,!!this.icyRequest?SeriousRare.borrowChickens(this.mouseHanging,this.berryList):this.mouseHanging);
+            SeriousRare.partyAdvise(this.distroLook,!!this.superProud?SeriousRare.chickenComplex(this.gateOrange,this.rareBabies):this.gateOrange);
          }
          return this;
       }
       
-      public function trailLight(param1:Event = null) : CrashKnot
+      public function deliverAnus(param1:Function = null, param2:Object = null, param3:Boolean = false) : CrashKnot
       {
-         this.pailToe(!this.berryList);
+         this.distroLook = param1;
+         this.gateOrange = param2;
+         this.superProud = param3;
          return this;
       }
       
-      public function crownSubdued() : Boolean
+      public function pipkaUnequaled(param1:Event = null) : CrashKnot
       {
-         return this.berryList;
-      }
-      
-      public function distroBurn(param1:Function = null, param2:Object = null, param3:Boolean = false) : CrashKnot
-      {
-         this.crownRobin = param1;
-         this.mouseHanging = param2;
-         this.icyRequest = param3;
-         return this;
-      }
-      
-      public function programStore(param1:DisplayObject) : CrashKnot
-      {
-         if(this.inviteUnequaled && this.inviteUnequaled.parent)
-         {
-            this.inviteUnequaled.parent.removeChild(this.inviteUnequaled);
-         }
-         this.inviteUnequaled = param1;
-         addChild(this.inviteUnequaled);
-         this.inviteUnequaled.x = DeterminedWarlike.deadpanBalvanka + CrashKnot.gapingCrown;
-         return this;
-      }
-      
-      public function admireCard(param1:Boolean) : CrashKnot
-      {
-         this.gateNoxious = param1;
-         super.confusedHateful(!!this.gateNoxious?this.trailLight:null);
+         this.crashStick(!this.rareBabies);
          return this;
       }
    }

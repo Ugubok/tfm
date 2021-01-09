@@ -4,10 +4,10 @@ package
    {
        
       
-      public function BirdProbable(param1:String)
+      public function BirdProbable(param1:int)
       {
-         super(LaborerFeeble.staleMark,ConfusedPeck.eliteBerry);
-         staySigh.writeUTF(param1);
+         super(OrderUnit.apatheticRare(LargeComplex.programAbaft),CardBabies.lunasoleSwanky);
+         lamentableSpurious.writeInt(param1);
       }
    }
 }

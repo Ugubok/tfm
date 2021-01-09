@@ -4,10 +4,10 @@ package
    {
        
       
-      public function FragileCurved(param1:int)
+      public function FragileCurved(param1:Boolean)
       {
-         super(AlansonReligion.statementScratch,AlansonReligion.signProud);
-         staySigh.writeByte(param1);
+         super(GullibleLook.unequaledJumbled,ReligionStore.birdAdhesive);
+         lamentableSpurious.writeByte(!!param1?int(CardBabies.machineOranges):int(ReligionStore.trailInstruct));
       }
    }
 }

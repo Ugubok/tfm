@@ -4,44 +4,44 @@ package
    {
        
       
-      public var whistleAmuse:KnotSwanky;
+      public var anusPeck:KnotSwanky;
       
-      public var pailDildo:KnotSwanky;
+      public var hangingInjure:KnotSwanky;
       
-      public var competitionInjure:Number;
+      public var hystericalRay:Number;
       
-      public var determinedCoal:Number;
+      public var partyAnus:Number;
       
-      public var squeamishApathetic:Number;
+      public var lipCommon:Number;
       
-      public var scaleStomach:LoafGround;
+      public var mouseFrail:LoafGround;
       
       public function CardSlip()
       {
-         this.whistleAmuse = new KnotSwanky();
-         this.pailDildo = new KnotSwanky();
-         this.scaleStomach = new LoafGround();
+         this.anusPeck = new KnotSwanky();
+         this.hangingInjure = new KnotSwanky();
+         this.mouseFrail = new LoafGround();
          super();
       }
       
-      public function delightfulBlade() : void
+      public function deliverStay(param1:CardSlip) : void
       {
-         this.whistleAmuse.mouseDeadpan();
-         this.pailDildo.mouseDeadpan();
-         this.competitionInjure = RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
-         this.determinedCoal = RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
-         this.squeamishApathetic = GroundFour.flowerHanging;
-         this.scaleStomach.swankyCurved = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.panoramicApathetic);
+         this.knotRecognise);
+         this.hystericalRay = param1.hystericalRay;
+         this.partyAnus = param1.partyAnus;
+         this.lipCommon = param1.lipCommon;
+         this.mouseFrail.adviseSuper = param1.mouseFrail.adviseSuper;
       }
       
-      public function bashfulPrepare(param1:CardSlip) : void
+      public function laborerProud() : void
       {
-         this.whistleAmuse.orderHydrant(param1.whistleAmuse);
-         this.pailDildo.orderHydrant(param1.pailDildo);
-         this.competitionInjure = param1.competitionInjure;
-         this.determinedCoal = param1.determinedCoal;
-         this.squeamishApathetic = param1.squeamishApathetic;
-         this.scaleStomach.swankyCurved = param1.scaleStomach.swankyCurved;
+         this.colorMilky();
+         this.statementFaithful();
+         this.hystericalRay = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
+         this.partyAnus = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
+         this.lipCommon = LargeComplex.thickCrowded;
+         this.mouseFrail.adviseSuper = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
       }
    }
 }

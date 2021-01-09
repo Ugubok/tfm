@@ -6,8 +6,8 @@ package
       
       public function LipAlanson(param1:int)
       {
-         super(WaitingReligion.peckKotsky,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
-         staySigh.writeInt(param1);
+         super(WanderingDecay.healQuirky,OrderUnit.apatheticRare(WanderingDecay.gullibleKuruma));
+         rareList(param1);
       }
    }
 }

@@ -3,26 +3,26 @@ package
    public class ClubHalf
    {
       
-      public static const hystericalGaping:int = 0;
+      public static const recogniseFlower:int =  0;
       
-      public static const competitionMetal:int = 1;
+      public static const curvedOranges:int =  1;
       
-      public static const creatorPanoramic:int = 2;
+      public static const rareWing:int =  2;
       
-      public static const sistersStatement:int = 3;
+      public static const bruiseQuirky:int =  3;
        
       
-      public var whistleBack:int;
+      public var airProse:int;
       
-      public var suzukaOranges:int;
+      public var tiresomeLook:int;
       
-      public var zonkedFour:int;
+      public var annoyingGaping:int;
       
-      public var birdLarge:int;
+      public var yellCrowded:int;
       
-      public var hateJoyous:int;
+      public var alansonSerious:int;
       
-      public var machinePeck:int;
+      public var lunasoleAgreeable:int;
       
       public function ClubHalf()
       {

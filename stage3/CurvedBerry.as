@@ -6,7 +6,7 @@ package
       
       public function CurvedBerry()
       {
-         super(RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird),MetalDetermined.anusWing);
+         super(OrderUnit.apatheticRare(AdmireUncle.delightfulFragile),OrderUnit.apatheticRare(WanderingDecay.deadpanAdvise));
       }
    }
 }

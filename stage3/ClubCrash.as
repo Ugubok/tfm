@@ -3,114 +3,114 @@ package
    public class ClubCrash
    {
       
-      public static const tiresomeInjure:ClubCrash = new ClubCrash(5790 + -5790);
+      public static const stayPlan:ClubCrash = new ClubCrash( 0);
       
-      public static const knotProse:ClubCrash = new ClubCrash(2222 + -2221);
+      public static const armyStale:ClubCrash = new ClubCrash( 1);
       
-      public static const bruiseRobin:ClubCrash = new ClubCrash(1616 + -1614);
+      public static const squeamishBack:ClubCrash = new ClubCrash( 2);
       
-      public static const babiesSand:ClubCrash = new ClubCrash(5648 + -5645);
+      public static const mightyStale:ClubCrash = new ClubCrash( 3);
       
-      public static const yellLight:ClubCrash = new ClubCrash(3684 + -3680);
+      public static const gullibleFour:ClubCrash = new ClubCrash( 4);
       
-      public static const prepareCompany:ClubCrash = new ClubCrash(2722 + -2717);
+      public static const jumbledDeadpan:ClubCrash = new ClubCrash( 5);
       
-      public static const cuteOranges:ClubCrash = new ClubCrash(281 + -275);
+      public static const robinWatery:ClubCrash = new ClubCrash( 6);
       
-      public static const cardCreator:ClubCrash = new ClubCrash(7357 + -7350);
+      public static const eliteHate:ClubCrash = new ClubCrash( 7);
       
-      public static const pinusDelightful:ClubCrash = new ClubCrash(2631 + -2623);
+      public static const apatheticHysterical:ClubCrash = new ClubCrash( 8);
       
-      public static const batheFeeble:ClubCrash = new ClubCrash(9627 + -9618);
+      public static const lunasoleToe:ClubCrash = new ClubCrash( 9);
       
-      public static const warlikeBlade:ClubCrash = new ClubCrash(7933 + -7923);
+      public static const satisfyGullible:ClubCrash = new ClubCrash( 10);
       
-      public static const determinedKotsky:ClubCrash = new ClubCrash(7307 + -7296);
+      public static const spuriousSign:ClubCrash = new ClubCrash( 11);
       
-      public static const taxPipka:ClubCrash = new ClubCrash(9024 + -8995);
+      public static const proudFaithful:ClubCrash = new ClubCrash( 29);
       
-      public static const clubBruise:ClubCrash = new ClubCrash(3948 + -3918);
+      public static const trailLook:ClubCrash = new ClubCrash( 30);
       
-      public static const whistleSign:ClubCrash = new ClubCrash(8037 + -8006);
+      public static const hatefulAdaptable:ClubCrash = new ClubCrash( 31);
       
-      public static const adhesivePinus:ClubCrash = new ClubCrash(7452 + -7420);
+      public static const anusProse:ClubCrash = new ClubCrash( 32);
       
-      public static const peckIllustrious:ClubCrash = new ClubCrash(743 + -710);
+      public static const crashNoxious:ClubCrash = new ClubCrash( 33);
       
-      public static const scratchWhisper:ClubCrash = new ClubCrash(995 + -961);
+      public static const scaleCrib:ClubCrash = new ClubCrash( 34);
       
-      public static const spuriousSpurious:ClubCrash = new ClubCrash(7310 + -7275);
+      public static const fixScintillating:ClubCrash = new ClubCrash( 35);
       
-      public static const amuseAdvise:ClubCrash = new ClubCrash(825 + -789);
+      public static const hangingTouch:ClubCrash = new ClubCrash( 36);
       
-      public static const suzukaKotsky:ClubCrash = new ClubCrash(3922 + -3885);
+      public static const gateAnnoying:ClubCrash = new ClubCrash( 37);
       
-      public static const squeamishWhistle:ClubCrash = new ClubCrash(2744 + -2706);
+      public static const superIcy:ClubCrash = new ClubCrash( 38);
       
-      public static const wanderingCracker:ClubCrash = new ClubCrash(8128 + -8089);
+      public static const bladeTremble:ClubCrash = new ClubCrash( 39);
       
-      public static const staleSerious:ClubCrash = new ClubCrash(1092 + -1052);
+      public static const religionPipka:ClubCrash = new ClubCrash( 40);
       
-      public static const flowerUnequaled:ClubCrash = new ClubCrash(8862 + -8850);
+      public static const actionJuice:ClubCrash = new ClubCrash( 12);
       
-      public static const yellCompetition:ClubCrash = new ClubCrash(747 + -734);
+      public static const adaptableApathetic:ClubCrash = new ClubCrash( 13);
       
-      public static const obtainableStatement:ClubCrash = new ClubCrash(9889 + -9875);
+      public static const bashfulHate:ClubCrash = new ClubCrash( 14);
       
-      public static const entertainingCrib:ClubCrash = new ClubCrash(4034 + -4019);
+      public static const robinCrown:ClubCrash = new ClubCrash( 15);
       
-      public static const adviseVolcano:ClubCrash = new ClubCrash(2861 + -2845);
+      public static const actionRequest:ClubCrash = new ClubCrash( 16);
       
-      public static const trembleMetal:ClubCrash = new ClubCrash(476 + -459);
+      public static const peckAnnoying:ClubCrash = new ClubCrash( 17);
       
-      public static const proseRay:ClubCrash = new ClubCrash(3375 + -3357);
+      public static const requestGaping:ClubCrash = new ClubCrash( 18);
       
-      public static const borrowBurn:ClubCrash = new ClubCrash(8111 + -8092);
+      public static const orangeJoyous:ClubCrash = new ClubCrash( 19);
       
-      public static const probableHarmony:ClubCrash = new ClubCrash(228 + -208);
+      public static const sandStupid:ClubCrash = new ClubCrash( 20);
       
-      public static const crackerAir:ClubCrash = new ClubCrash(508 + -487);
+      public static const pearSlip:ClubCrash = new ClubCrash( 21);
       
-      public static const obtainableJoyous:ClubCrash = new ClubCrash(4621 + -4599);
+      public static const probableBack:ClubCrash = new ClubCrash( 22);
       
-      public static const pailWaiting:ClubCrash = new ClubCrash(3743 + -3720);
+      public static const mouseCrown:ClubCrash = new ClubCrash( 23);
       
-      public static const noxiousUnequaled:ClubCrash = new ClubCrash(2272 + -2248);
+      public static const anusSqueamish:ClubCrash = new ClubCrash( 24);
       
-      public static const injureTasteless:ClubCrash = new ClubCrash(2445 + -2420);
+      public static const illustriousTremble:ClubCrash = new ClubCrash( 25);
       
-      public static const armyInexpensive:ClubCrash = new ClubCrash(7328 + -7302);
+      public static const lightDistro:ClubCrash = new ClubCrash( 26);
       
-      public static const groundConfused:ClubCrash = new ClubCrash(3464 + -3437);
+      public static const jumbledComplex:ClubCrash = new ClubCrash( 27);
       
-      public static const thickHalf:ClubCrash = new ClubCrash(2520 + -2492);
+      public static const trailArmy:ClubCrash = new ClubCrash( 28);
       
-      public static const crowdedSpurious:ClubCrash = new ClubCrash(9968 + -9927);
+      public static const orangeFascinated:ClubCrash = new ClubCrash( 41);
       
-      public static const legAdaptable:ClubCrash = new ClubCrash(5340 + -5298);
+      public static const markHarmony:ClubCrash = new ClubCrash( 42);
       
-      public static const distroDetermined:ClubCrash = new ClubCrash(7599 + -7556);
+      public static const milkyNotebook:ClubCrash = new ClubCrash( 43);
       
-      public static const burnElite:ClubCrash = new ClubCrash(4948 + -4904);
+      public static const amuseSpurious:ClubCrash = new ClubCrash( 44);
       
-      public static const obeisantDelightful:ClubCrash = new ClubCrash(7918 + -7873);
+      public static const pearSupply:ClubCrash = new ClubCrash( 45);
       
-      public static const injureLook:ClubCrash = new ClubCrash(9196 + -9150);
+      public static const anusLip:ClubCrash = new ClubCrash( 46);
       
-      public static const pearWarlike:ClubCrash = new ClubCrash(2607 + -2560);
+      public static const yellColor:ClubCrash = new ClubCrash( 47);
       
-      public static const markInexpensive:ClubCrash = new ClubCrash(5498 + -5450);
+      public static const spuriousAdhesive:ClubCrash = new ClubCrash( 48);
        
       
-      public var lipAdmire:int;
+      public var knifeStick:int;
       
-      public var entertainingHateful:String;
+      public var planHalf:String;
       
       public function ClubCrash(param1:int)
       {
          super();
-         this.lipAdmire = param1;
-         this.entertainingHateful = GroundFour.supplyMachine + param1;
+         this.knifeStick = param1;
+         this.planHalf = OrderUnit.probableLip(CardBabies.thickPeck) + param1;
       }
    }
 }

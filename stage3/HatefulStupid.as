@@ -8,100 +8,100 @@ package
    public class HatefulStupid
    {
       
-      public static var deadpanCrown:int = 0;
+      public static var obtainableIcy:int =  0;
       
-      public static var agreeableUnit:Boolean = false;
+      public static var crashWaiting:Boolean = false;
       
-      public static var coalOrder:int;
+      public static var annoyingLabel:int;
        
       
-      public var largeBlade:BitmapData;
+      public var cribBird:BitmapData;
       
-      public var eliteLeg:int;
+      public var cardBury:int;
       
-      public var peckCoal:int;
+      public var stomachFaithful:int;
       
-      public var fixRecognise:int;
+      public var noxiousBruise:int;
       
-      public var healHalf:int;
+      public var prepareCrash:int;
       
-      public var staleLoaf:Boolean = false;
+      public var touchFaithful:Boolean = false;
       
-      public var inviteAdhesive:Boolean = false;
+      public var sandWatery:Boolean = false;
       
-      public var curvedCrash:MovieClip;
+      public var scratchComplex:MovieClip;
       
-      public var gapingAdvise:int;
+      public var kurumaObeisant:int;
       
-      public var amuseHalf:Sprite;
+      public var planCreator:Sprite;
       
-      public var determinedScintillating:String;
+      public var seriousObeisant:String;
       
-      public var staleFlower:Boolean = false;
+      public var hystericalBashful:Boolean = false;
       
       public function HatefulStupid(param1:Boolean = false)
       {
-         this.eliteLeg = HystericalKotsky.notebookChivalrous;
-         this.peckCoal = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.cardBury = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.stomachFaithful = ReligionStore.trailInstruct;
          super();
-         this.staleLoaf = !param1;
+         this.touchFaithful = !param1;
       }
       
-      public function wateryLoaf(param1:MovieClip) : void
+      public function actionBashful(param1:Boolean = false) : void
       {
-         this.staleLoaf = DeterminedPrepare.machineSigh;
-         this.curvedCrash = param1;
-         this.amuseHalf = new Sprite();
-      }
-      
-      public function requestDecay(param1:Boolean = false) : void
-      {
-         if(!this.curvedCrash)
+         if(!this.scratchComplex)
          {
             return;
          }
-         if(!this.cryBury.gotoAndStop(this.gapingAdvise);
+         if(!this.legSuzuka.gotoAndStop(this.kurumaObeisant);
          }
-         this.determinedScintillating = this.curvedCrash.currentLabel;
-         if(!param1 && HatefulStupid.agreeableUnit && HatefulStupid.deadpanCrown >= HatefulStupid.coalOrder)
+         this.seriousObeisant = this.scratchComplex.currentLabel;
+         if(!param1 && HatefulStupid.crashWaiting && HatefulStupid.obtainableIcy >= HatefulStupid.annoyingLabel)
          {
             return;
          }
-         StupidCrib.alluringAbaft(DeterminedWarlike.touchChickens,true,11184640);
-         this.staleLoaf = DeterminedPrepare.hatefulComplex;
-         this.amuseHalf = new Sprite();
-         this.amuseHalf.addChild(this.curvedCrash);
-         var _loc2_:Rectangle = this.curvedCrash.getRect(this.curvedCrash);
-         var _loc3_:Number = this.curvedCrash.scaleX;
-         var _loc4_:Number = this.curvedCrash.scaleY;
-         if(_loc3_ < HystericalKotsky.notebookChivalrous)
+         StupidCrib.zonkedLarge(GullibleLook.quirkyAmuse,true,11184640);
+         this.touchFaithful = HateFaint.proudGround;
+         this.planCreator = new Sprite();
+         this.planCreator.addChild(this.scratchComplex);
+         var _loc2_:Rectangle = this.scratchComplex.getRect(this.scratchComplex);
+         var _loc3_:Number = this.scratchComplex.scaleX;
+         var _loc4_:Number = this.scratchComplex.scaleY;
+         if(OrderUnit.apatheticRare(ReligionStore.trailInstruct) > _loc3_)
          {
-            this.fixRecognise = Math.ceil(_loc2_.width * -_loc3_) + RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable);
-            this.eliteLeg = Math.round(_loc3_ * (_loc2_.width + _loc2_.x));
+            this.noxiousBruise = Math.ceil(_loc2_.width * -_loc3_) + OrderUnit.apatheticRare(CardBabies.senseCrown);
+            this.cardBury = Math.round(_loc3_ * (_loc2_.width + _loc2_.x));
          }
          else
          {
-            this.fixRecognise = AdviseRobin.mouseProbable + Math.ceil(_loc2_.width * _loc3_);
-            this.eliteLeg = Math.round(_loc3_ * _loc2_.x);
+            this.noxiousBruise = OrderUnit.apatheticRare(CardBabies.senseCrown) + Math.ceil(_loc3_ * _loc2_.width);
+            this.cardBury = Math.round(_loc2_.x * _loc3_);
          }
-         if(_loc4_ < RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+         if(OrderUnit.apatheticRare(ReligionStore.trailInstruct) > _loc4_)
          {
-            this.healHalf = Math.ceil(_loc2_.height * -_loc4_) + AdviseRobin.mouseProbable;
-            this.peckCoal = Math.round((_loc2_.height + _loc2_.y) * _loc4_);
+            this.prepareCrash = Math.ceil(_loc2_.height * -_loc4_) + CardBabies.senseCrown;
+            this.stomachFaithful = Math.round(_loc4_ * (_loc2_.y + _loc2_.height));
          }
          else
          {
-            this.healHalf = Math.ceil(_loc2_.height * _loc4_) + AdviseRobin.mouseProbable;
-            this.peckCoal = Math.round(_loc2_.y * _loc4_);
+            this.prepareCrash = OrderUnit.apatheticRare(CardBabies.senseCrown) + Math.ceil(_loc2_.height * _loc4_);
+            this.stomachFaithful = Math.round(_loc4_ * _loc2_.y);
          }
-         this.curvedCrash.x = RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) - this.eliteLeg;
-         this.curvedCrash.y = -this.peckCoal + LaborerFeeble.instructBathe;
-         HatefulStupid.deadpanCrown++;
-         this.largeBlade = new BitmapData(this.fixRecognise,this.healHalf,true,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-         this.largeBlade.draw(this.amuseHalf);
-         this.amuseHalf = null;
-         this.curvedCrash = null;
-         StupidCrib.alluringAbaft(RecogniseCompetition.mouseDelightful(DeterminedWarlike.touchChickens));
+         this.scratchComplex.x = -this.cardBury + PinusSand.jumbledTiresome;
+         this.scratchComplex.y = -this.stomachFaithful + PinusSand.jumbledTiresome;
+         HatefulStupid.obtainableIcy++;
+         this.cribBird = new BitmapData(this.noxiousBruise,this.prepareCrash,true,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         this.cribBird.draw(this.planCreator);
+         this.planCreator = null;
+         this.scratchComplex = null;
+         StupidCrib.zonkedLarge(OrderUnit.probableLip(GullibleLook.quirkyAmuse));
+      }
+      
+      public function slipRobin(param1:MovieClip) : void
+      {
+         this.touchFaithful = HateFaint.bladeStatement;
+         this.scratchComplex = param1;
+         this.planCreator = new Sprite();
       }
    }
 }

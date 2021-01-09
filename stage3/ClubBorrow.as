@@ -1,12 +1,12 @@
 package
 {
-   public class ClubBorrow extends LoafSwanky
+   public class ClubBorrow extends MousePinus
    {
        
       
-      public function ClubBorrow()
+      public function ClubBorrow(param1:FragileWandering)
       {
-         super(RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird),RecogniseCompetition.prepareAgree(RecogniseTrail.icyBabies));
+         super(param1);
       }
    }
 }

@@ -1,12 +1,12 @@
 package
 {
-   public class AlansonChickens extends MousePinus
+   public class AlansonChickens extends LoafSwanky
    {
        
       
-      public function AlansonChickens(param1:FragileWandering)
+      public function AlansonChickens()
       {
-         super(param1);
+         super(AdmireUncle.crimeCreator,OrderUnit.apatheticRare(GullibleLook.seriousPlan));
       }
    }
 }

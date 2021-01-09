@@ -4,13 +4,13 @@ package
    {
        
       
-      public function TiresomeArmy(param1:int, param2:int, param3:int, param4:int)
+      public function TiresomeArmy(param1:String, param2:String, param3:String)
       {
-         super(AdviseRobin.satisfyGaping,ArmyObtainable.kurumaBird);
-         staySigh.writeShort(param1);
-         staySigh.writeShort(param2);
-         staySigh.writeShort(param3);
-         staySigh.writeShort(param4);
+         super(OrderUnit.apatheticRare(WanderingDecay.noiselessTasteless),OrderUnit.apatheticRare(PrepareLip.competitionSupply));
+         lamentableSpurious.writeInt(parseInt(param1,OrderUnit.apatheticRare(LargeComplex.balvankaZonked)));
+         lamentableSpurious.writeUTF(param2);
+         lamentableSpurious.writeUTF(param3);
+         laborerTouch = HateFaint.proudGround;
       }
    }
 }

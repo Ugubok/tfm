@@ -8,85 +8,85 @@ package
    public class DeadpanWing extends Sprite
    {
       
-      public static var proseWindy:DeadpanWing;
+      public static var halfWaiting:DeadpanWing;
        
       
-      public var wickedPail:MovieClip;
+      public var pipkaAgonizing:MovieClip;
       
-      public var joyousStore:MovieClip;
+      public var waitingHalf:MovieClip;
       
-      public var probableSatisfy:MovieClip;
+      public var injureZonked:MovieClip;
       
       public function DeadpanWing()
       {
          super();
-         this.wickedPail = AgreeableHistorical.probableCute(RecogniseCompetition.mouseDelightful(HystericalKotsky.storeBag));
-         this.wickedPail.mouseChildren = DeterminedPrepare.machineSigh;
-         addChild(this.wickedPail);
-         this.wickedPail.x_non.visible = !HistoricalKnot.pinusToe();
-         this.wickedPail.addEventListener(MouseEvent.MOUSE_DOWN,this.waitingWicked);
-         FascinatedLip.superApathetic(this.wickedPail,true,true);
-         this.joyousStore = AgreeableHistorical.probableCute(GroundFour.wateryIcy);
-         this.joyousStore.mouseChildren = DeterminedPrepare.machineSigh;
-         addChild(this.joyousStore);
-         this.joyousStore.x = RecogniseCompetition.prepareAgree(HystericalKotsky.borrowTax);
-         this.joyousStore.x_non.visible = !HistoricalKnot.partyScratch();
-         this.joyousStore.addEventListener(MouseEvent.MOUSE_DOWN,this.waitingWicked);
-         FascinatedLip.superApathetic(this.joyousStore,true,true);
-         this.probableSatisfy = AgreeableHistorical.probableCute(HystericalKotsky.eliteMighty);
-         this.probableSatisfy.mouseChildren = DeterminedPrepare.machineSigh;
-         addChild(this.probableSatisfy);
-         this.probableSatisfy.x = RecogniseCompetition.prepareAgree(CoalRay.violetBathe);
-         this.probableSatisfy.x_non.visible = !HistoricalKnot.rareBorrow();
-         this.probableSatisfy.addEventListener(MouseEvent.MOUSE_DOWN,this.waitingWicked);
-         FascinatedLip.superApathetic(this.probableSatisfy,true,true);
-         graphics.beginFill(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),LipStore.laborerThick);
-         graphics.drawRoundRect(-RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),-RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),RecogniseCompetition.prepareAgree(LaborerFeeble.noxiousLarge),AnusSeed.harmonyBury,CoalRay.satisfyTrail);
+         this.pipkaAgonizing = AgreeableHistorical.admireCute(OrderUnit.probableLip(BurnFix.confusedScintillating));
+         this.pipkaAgonizing.mouseChildren = HateFaint.bladeStatement;
+         addChild(this.pipkaAgonizing);
+         this.pipkaAgonizing.x_non.visible = !HistoricalKnot.warlikeIcy();
+         this.pipkaAgonizing.addEventListener(MouseEvent.MOUSE_DOWN,this.robinCompany);
+         FascinatedLip.harmonyMilky(this.pipkaAgonizing,true,true);
+         this.waitingHalf = AgreeableHistorical.admireCute(PanoramicProbable.peckProbable);
+         this.waitingHalf.mouseChildren = HateFaint.bladeStatement;
+         addChild(this.waitingHalf);
+         this.waitingHalf.x = OrderUnit.apatheticRare(ReligionStore.zonkedReligion);
+         this.waitingHalf.x_non.visible = !HistoricalKnot.groundRecognise();
+         this.waitingHalf.addEventListener(MouseEvent.MOUSE_DOWN,this.robinCompany);
+         FascinatedLip.harmonyMilky(this.waitingHalf,true,true);
+         this.injureZonked = AgreeableHistorical.admireCute(OrderUnit.probableLip(GullibleLook.icyPanoramic));
+         this.injureZonked.mouseChildren = HateFaint.bladeStatement;
+         addChild(this.injureZonked);
+         this.injureZonked.x = OrderUnit.apatheticRare(BurnFix.eliteEntertaining);
+         this.injureZonked.x_non.visible = !HistoricalKnot.gateUncle();
+         this.injureZonked.addEventListener(MouseEvent.MOUSE_DOWN,this.robinCompany);
+         FascinatedLip.harmonyMilky(this.injureZonked,true,true);
+         graphics.beginFill(OrderUnit.apatheticRare(ReligionStore.trailInstruct),DildoBorrow.pipkaStick);
+         graphics.drawRoundRect(-PinusSand.jumbledTiresome,-PinusSand.jumbledTiresome,PinusSand.wateryWing,OrderUnit.apatheticRare(CardBabies.quirkyFix),AdmireUncle.delightfulFragile);
          graphics.endFill();
-         cacheAsBitmap = DeterminedPrepare.hatefulComplex;
+         cacheAsBitmap = HateFaint.proudGround;
       }
       
-      public static function cardGrate(param1:Boolean) : void
+      public static function dildoCracker(param1:Boolean) : void
       {
-         if(DeadpanWing.proseWindy)
+         if(DeadpanWing.halfWaiting)
          {
-            DeadpanWing.proseWindy.visible = param1;
+            DeadpanWing.halfWaiting.visible = param1;
          }
       }
       
-      public static function requestRare(param1:DisplayObjectContainer, param2:int, param3:int, param4:Number, param5:Boolean = true) : void
+      public static function rareFix(param1:DisplayObjectContainer, param2:int, param3:int, param4:Number, param5:Boolean = true) : void
       {
-         if(!DeadpanWing.proseWindy)
+         if(!DeadpanWing.halfWaiting)
          {
-            DeadpanWing.proseWindy = new DeadpanWing();
+            DeadpanWing.halfWaiting = new DeadpanWing();
          }
-         param1.addChild(DeadpanWing.proseWindy);
-         DeadpanWing.proseWindy.x = param2;
-         DeadpanWing.proseWindy.y = param3;
-         DeadpanWing.proseWindy.scaleX = param4;
-         DeadpanWing.proseWindy.scaleY = param4;
+         param1.addChild(DeadpanWing.halfWaiting);
+         DeadpanWing.halfWaiting.x = param2;
+         DeadpanWing.halfWaiting.y = param3;
+         DeadpanWing.halfWaiting.scaleX = param4;
+         DeadpanWing.halfWaiting.scaleY = param4;
          if(!param5)
          {
-            DeadpanWing.proseWindy.graphics.clear();
+            DeadpanWing.halfWaiting.graphics.clear();
          }
       }
       
-      public function waitingWicked(param1:MouseEvent) : void
+      public function robinCompany(param1:MouseEvent) : void
       {
          var _loc2_:MovieClip = param1.currentTarget as MovieClip;
          var _loc3_:Boolean = _loc2_.x_non.visible;
          _loc2_.x_non.visible = !_loc3_;
-         if(_loc2_ == this.wickedPail)
+         if(this.pipkaAgonizing == _loc2_)
          {
-            HistoricalKnot.seedBird(_loc3_);
+            HistoricalKnot.subduedUnequaled(_loc3_);
          }
-         else if(_loc2_ == this.joyousStore)
+         else if(_loc2_ == this.waitingHalf)
          {
-            HistoricalKnot.backQuirky(_loc3_);
+            HistoricalKnot.knotAlanson(_loc3_);
          }
-         else if(this.probableSatisfy == _loc2_)
+         else if(this.injureZonked == _loc2_)
          {
-            HistoricalKnot.admireTouch(_loc3_);
+            HistoricalKnot.chopAdhesive(_loc3_);
          }
       }
    }

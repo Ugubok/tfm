@@ -4,16 +4,16 @@ package
    {
        
       
-      public var entertainingHateful:int;
+      public var planHalf:int;
       
-      public var harmonyStick:int;
+      public var slipSigh:int;
       
-      public var inexpensiveChicken:int;
+      public var stupidCompetition:int;
       
       public function SubduedGround(param1:int)
       {
          super();
-         this.entertainingHateful = param1;
+         this.planHalf = param1;
       }
    }
 }

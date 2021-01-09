@@ -6,13 +6,13 @@ package
    public class MightyInstruct
    {
       
-      public static const scratchHarmony:Sprite = new Sprite();
+      public static const borrowLunasole:Sprite = new Sprite();
       
-      public static const markCrib:Sprite = new Sprite();
+      public static const feebleMilky:Sprite = new Sprite();
       
-      public static var fragileHydrant:Sprite = new Sprite();
+      public static var mouseUnit:Sprite = new Sprite();
       
-      public static var dildoSand:Sprite = new Sprite();
+      public static var annoyingKotsky:Sprite = new Sprite();
        
       
       public function MightyInstruct()
@@ -20,16 +20,46 @@ package
          super();
       }
       
-      public static function taxSwanky(param1:int) : void
+      public static function wingLunasole() : void
       {
-         var _loc2_:ArmyHateful = ArmyHateful.berryGrate[param1];
+         StalePinus.halfWaiting.notebookCompetition.addChild(MightyInstruct.borrowLunasole);
+         StalePinus.halfWaiting.crashBalvanka.addChildAt(MightyInstruct.annoyingKotsky,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         StalePinus.halfWaiting.crashBalvanka.addChildAt(MightyInstruct.feebleMilky,OrderUnit.apatheticRare(CardBabies.machineOranges));
+         StalePinus.halfWaiting.crashBalvanka.addChildAt(MightyInstruct.mouseUnit,PinusSand.jumbledTiresome);
+      }
+      
+      public static function hatefulHate() : void
+      {
+         while(MightyInstruct.borrowLunasole.numChildren)
+         {
+            MightyInstruct.borrowLunasole.removeChildAt(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         }
+         while(MightyInstruct.feebleMilky.numChildren)
+         {
+            MightyInstruct.feebleMilky.removeChildAt(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         }
+         while(MightyInstruct.mouseUnit.numChildren)
+         {
+            MightyInstruct.mouseUnit.removeChildAt(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         }
+         while(MightyInstruct.annoyingKotsky.numChildren)
+         {
+            MightyInstruct.annoyingKotsky.removeChildAt(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         }
+         ArmyHateful.grateZonked = new Dictionary();
+         SeriousFascinated.hateTiresome = new Dictionary();
+      }
+      
+      public static function wateryUncle(param1:int) : void
+      {
+         var _loc2_:ArmyHateful = ArmyHateful.grateZonked[param1];
          if(_loc2_)
          {
-            if(AdmireStore.proseWindy.stage.focus == _loc2_.anusOrange)
+            if(StalePinus.halfWaiting.stage.focus == _loc2_.actionProse)
             {
-               AdmireStore.proseWindy.stage.focus = AdmireStore.proseWindy;
+               StalePinus.halfWaiting.stage.focus = StalePinus.halfWaiting;
             }
-            delete ArmyHateful.berryGrate[param1];
+            delete ArmyHateful.grateZonked[param1];
             if(_loc2_.parent)
             {
                _loc2_.parent.removeChild(_loc2_);
@@ -37,43 +67,13 @@ package
          }
       }
       
-      public static function berryTremble(param1:int, param2:String) : void
+      public static function injureTremble(param1:int, param2:String) : void
       {
-         var _loc3_:ArmyHateful = ArmyHateful.berryGrate[param1];
+         var _loc3_:ArmyHateful = ArmyHateful.grateZonked[param1];
          if(_loc3_)
          {
-            _loc3_.tiresomeBird(param2);
+            _loc3_.prepareFeeble(param2);
          }
-      }
-      
-      public static function taxLip() : void
-      {
-         AdmireStore.proseWindy.squeamishWandering.addChild(MightyInstruct.scratchHarmony);
-         AdmireStore.proseWindy.mightyDetermined.addChildAt(MightyInstruct.dildoSand,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-         AdmireStore.proseWindy.mightyDetermined.addChildAt(MightyInstruct.markCrib,CoalRay.actionBorrow);
-         AdmireStore.proseWindy.mightyDetermined.addChildAt(MightyInstruct.fragileHydrant,RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
-      }
-      
-      public static function clubBorrow() : void
-      {
-         while(MightyInstruct.scratchHarmony.numChildren)
-         {
-            MightyInstruct.scratchHarmony.removeChildAt(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-         }
-         while(MightyInstruct.markCrib.numChildren)
-         {
-            MightyInstruct.markCrib.removeChildAt(HystericalKotsky.notebookChivalrous);
-         }
-         while(MightyInstruct.fragileHydrant.numChildren)
-         {
-            MightyInstruct.fragileHydrant.removeChildAt(HystericalKotsky.notebookChivalrous);
-         }
-         while(MightyInstruct.dildoSand.numChildren)
-         {
-            MightyInstruct.dildoSand.removeChildAt(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-         }
-         ArmyHateful.berryGrate = new Dictionary();
-         SeriousFascinated.jumbledStay = new Dictionary();
       }
    }
 }

@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var clubObtainable:String;
+      public var halfKotsky:String;
       
-      public var agreeRequest:SpuriousFragile;
+      public var cribTasteless:RequestScintillating;
       
       public function KnotKotsky(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.clubObtainable = param2;
+         this.halfKotsky = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return LargeComplex.stomachBack;
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return BruiseBorrow.taxChivalrous + this.clubObtainable.length;
+         return BatheKotsky.milkyEntertaining + this.halfKotsky.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.clubObtainable);
+         param1.writeUTF(this.halfKotsky);
       }
    }
 }

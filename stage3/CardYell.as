@@ -9,22 +9,22 @@ package
          super();
       }
       
-      override public function religionLook(param1:RarePrepare) : void
+      override public function alansonAlanson(param1:CurvedAction) : void
       {
-         var _loc2_:RobinAdaptable = param1.agreeableJumbled.creatorKnife.loafPinus as RobinAdaptable;
-         var _loc3_:HistoricalGround = param1.machineStale;
+         var _loc2_:RobinAdaptable = param1.crowdedPear as RobinAdaptable;
+         var _loc3_:HistoricalGround = param1.machineUnequaled;
          if(!_loc2_)
          {
-            _loc2_ = param1.machineStale.creatorKnife.loafPinus as RobinAdaptable;
-            _loc3_ = param1.agreeableJumbled;
+            _loc2_ = param1.entertainingFeeble as RobinAdaptable;
+            _loc3_ = param1.competitionPanoramic;
          }
-         if(_loc2_ && _loc2_.programLarge)
+         if(_loc2_ && _loc2_.obeisantAnnoying)
          {
-            if(_loc3_.actionCurved && !_loc2_.distroJumbled)
+            if(_loc3_.wanderingHydrant && !_loc2_.listInvite)
             {
-               _loc2_.distroJumbled = DeterminedPrepare.hatefulComplex;
-               SpuriousZonked.largeAgonizing(_loc2_.x,RecogniseCompetition.scaleCrown(_loc2_.y));
-               RareFeeble.actionFeeble.stickVolcano(new RobinBorrow(CoalRay.actionBorrow));
+               _loc2_.listInvite = HateFaint.proudGround;
+               SpuriousZonked.adhesivePat(_loc2_.x,_loc2_.y);
+               RareFeeble.waitingGullible.sighCrime(new RobinBorrow(CardBabies.machineOranges));
             }
          }
       }

@@ -6,7 +6,7 @@ package
       
       public function ChickensCurved()
       {
-         super(RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird),BruiseBorrow.taxChivalrous);
+         super(OrderUnit.apatheticRare(WaitingCrib.statementDecay),OrderUnit.apatheticRare(PrepareLip.competitionSupply));
       }
    }
 }

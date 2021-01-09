@@ -6,7 +6,7 @@ package
       
       public function SwankyColor()
       {
-         super(CoalWhisper.burnViolet,CoalRay.actionBorrow);
+         super(AdmireUncle.faithfulFlower,CardBabies.machineOranges);
       }
    }
 }

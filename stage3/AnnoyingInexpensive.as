@@ -6,8 +6,8 @@ package
       
       public function AnnoyingInexpensive(param1:int)
       {
-         super(AdviseRobin.satisfyGaping,BruiseBorrow.hateStatement);
-         markKuruma(param1);
+         super(OrderUnit.apatheticRare(AdmireUncle.delightfulFragile),CardBabies.eliteUncle);
+         lamentableSpurious.writeInt(param1);
       }
    }
 }

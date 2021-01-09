@@ -4,11 +4,11 @@ package
    {
        
       
-      public function StoreAdaptable(param1:int, param2:int)
+      public function StoreAdaptable(param1:int, param2:String)
       {
-         super(RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail),BerryMouse.seedPeck);
-         staySigh.writeByte(param1);
-         staySigh.writeByte(param2);
+         super(OrderUnit.apatheticRare(CardBabies.staleJumbled),OrderUnit.apatheticRare(CardBabies.halfChicken));
+         lamentableSpurious.writeInt(param1);
+         lamentableSpurious.writeUTF(param2);
       }
    }
 }

@@ -4,12 +4,12 @@ package
    {
        
       
-      public function YellPinus(param1:int, param2:AgreeableBabies)
+      public function YellPinus(param1:int, param2:int, param3:int)
       {
-         super(RecogniseCompetition.prepareAgree(HystericalKotsky.rayAdvise),DeterminedWarlike.deadpanBalvanka);
-         staySigh.writeShort(param1);
-         param2.ecriture(staySigh);
-         lipStay = DeterminedPrepare.hatefulComplex;
+         super(OrderUnit.apatheticRare(PrepareLip.competitionSupply),PrepareLip.scintillatingJumbled);
+         lamentableSpurious.writeInt(param1);
+         lamentableSpurious.writeByte(param2);
+         lamentableSpurious.writeShort(param3);
       }
    }
 }

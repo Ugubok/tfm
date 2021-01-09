@@ -6,18 +6,18 @@ package
    {
        
       
-      public var berryViolet:BalvankaSpurious;
+      public var feebleMachine:BalvankaSpurious;
       
       public var idSequence:int;
       
-      public var rayTrail:int;
+      public var hangingBurn:int;
       
-      public var lunasoleBlade:TiresomeGround;
+      public var curvedStatement:LipKuruma;
       
       public function FragileSign(param1:BalvankaSpurious)
       {
          super();
-         this.berryViolet = param1;
+         this.feebleMachine = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RecogniseCompetition.mouseDelightful(RayYell.quirkyTasteless);
+         return LargeComplex.stomachBack;
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      public function harmonyWhisper() : int
+      public function complexHeal() : int
       {
-         return AdviseRobin.satisfyGaping;
+         return AdmireUncle.crimeCreator;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.rayTrail = param1.readByte();
-         var _loc2_:AgreeableBabies = this.berryViolet.recupereSequence(this.idSequence);
+         this.hangingBurn = param1.readByte();
+         var _loc2_:AgreeableBabies = this.feebleMachine.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is TiresomeGround)
+            if(_loc2_ is LipKuruma)
             {
-               this.lunasoleBlade = TiresomeGround(_loc2_);
-               this.lunasoleBlade.obtainableStore = this;
+               this.curvedStatement = LipKuruma(_loc2_);
+               this.obeisantBalvanka = this;
             }
          }
       }
       
-      public function get prepareHate() : int
+      public function get yellOrder() : int
       {
-         return AnusSeed.buryArmy;
+         return OrderUnit.apatheticRare(StupidCoal.crimeUnequaled);
       }
    }
 }

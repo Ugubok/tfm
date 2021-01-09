@@ -1,14 +1,20 @@
 package
 {
-   public class ActionPat extends LoafSwanky
+   public class ActionPat
    {
        
       
-      public function ActionPat(param1:int, param2:int)
+      public var advisePat:String;
+      
+      public var couleur:int;
+      
+      public var swankySisters:int;
+      
+      public var airTiresome:int;
+      
+      public function ActionPat()
       {
-         super(RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping),AlansonReligion.signProud);
-         staySigh.writeByte(param1);
-         staySigh.writeInt(param2);
+         super();
       }
    }
 }

@@ -6,9 +6,9 @@ package
       
       public function RobinBorrow(param1:int = 0)
       {
-         super(AdviseRobin.mouseProbable,RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping));
-         staySigh.writeInt(AdmireStore.proseWindy.scaleFaithful);
-         staySigh.writeByte(param1);
+         super(OrderUnit.apatheticRare(CardBabies.senseCrown),AdmireUncle.crimeCreator);
+         lamentableSpurious.writeInt(StalePinus.halfWaiting.touchTasteless);
+         lamentableSpurious.writeByte(param1);
       }
    }
 }

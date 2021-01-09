@@ -4,38 +4,38 @@ package
    {
        
       
-      public var senseMouse:KnotSwanky;
+      public var tiresomeCreator:KnotSwanky;
       
-      public var decayProgram:KnotSwanky;
+      public var agonizingRay:KnotSwanky;
       
       public var length:Number;
       
-      public var sighKuruma:Number;
+      public var kotskyFour:Number;
       
-      public var subduedArmy:Number;
+      public var trailDildo:Number;
       
       public function AgreeableClub()
       {
-         this.senseMouse = new KnotSwanky();
-         this.decayProgram = new KnotSwanky();
+         this.tiresomeCreator = new KnotSwanky();
+         this.agonizingRay = new KnotSwanky();
          super();
-         type = AlansonTiresome.fourFlower;
-         this.length = AdviseRobin.hangingUncle;
-         this.sighKuruma = GroundFour.flowerHanging;
-         this.subduedArmy = GroundFour.flowerHanging;
+         type = AlansonTiresome.listCreator;
+         this.length = OrderUnit.noiselessGullible(CardBabies.joyousFascinated);
+         this.kotskyFour = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
+         this.trailDildo = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
       }
       
-      public function lightTiresome(param1:BabiesHistorical, param2:BabiesHistorical, param3:KnotSwanky, param4:KnotSwanky) : void
+      public function hystericalDelightful(param1:BabiesHistorical, param2:BabiesHistorical, param3:KnotSwanky, param4:KnotSwanky) : void
       {
-         chivalrousWarlike = param1;
-         spuriousQuirky = param2;
-         this.senseMouse.orderHydrant(chivalrousWarlike.cardBag(param3));
-         this.decayProgram.orderHydrant(spuriousQuirky.cardBag(param4));
-         var _loc5_:Number = -param3.zonkedJuice + param4.zonkedJuice;
-         var _loc6_:Number = -param3.trembleDeadpan + param4.trembleDeadpan;
+         mightyHistorical = param1;
+         bladeSpurious = param2;
+         this.crashWatery(fragileBruise(param3));
+         this.crashFlower(quirkySupply(param4));
+         var _loc5_:Number = param4.milkySupply - param3.milkySupply;
+         var _loc6_:Number = param4.crowdedFragile - param3.crowdedFragile;
          this.length = Math.sqrt(_loc5_ * _loc5_ + _loc6_ * _loc6_);
-         this.sighKuruma = RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
-         this.subduedArmy = RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
+         this.kotskyFour = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
+         this.trailDildo = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
       }
    }
 }

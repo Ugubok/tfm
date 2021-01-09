@@ -4,48 +4,48 @@ package
    {
        
       
-      public var stickHanging:uint;
+      public var tiresomePail:uint;
       
-      public var tiresomeHalf:uint;
+      public var crimeScratch:uint;
       
-      public var proseProbable:uint;
+      public var stomachAmuse:uint;
       
       public function ClubClub(param1:Number, param2:Number, param3:Number)
       {
-         this.stickHanging = HystericalKotsky.notebookChivalrous;
-         this.tiresomeHalf = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         this.proseProbable = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.tiresomePail = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.crimeScratch = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.stomachAmuse = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          super();
-         this.stickHanging = uint(RecogniseCompetition.prepareAgree(FrailJuice.fixPail) * RareAlanson.stickApathetic(param1,GroundFour.flowerHanging,RecogniseCompetition.scaleCrown(AdviseRobin.hangingUncle)));
-         this.tiresomeHalf = uint(RecogniseCompetition.prepareAgree(FrailJuice.fixPail) * RareAlanson.stickApathetic(param2,GroundFour.flowerHanging,AdviseRobin.hangingUncle));
-         this.proseProbable = uint(RecogniseCompetition.prepareAgree(FrailJuice.fixPail) * RareAlanson.stickApathetic(param3,GroundFour.flowerHanging,AdviseRobin.hangingUncle));
+         this.tiresomePail = uint(VolcanoStay.crackerTax * SlipKotsky.delightfulTremble(param1,OrderUnit.noiselessGullible(LargeComplex.thickCrowded),OrderUnit.noiselessGullible(CardBabies.joyousFascinated)));
+         this.crimeScratch = uint(OrderUnit.apatheticRare(VolcanoStay.crackerTax) * SlipKotsky.delightfulTremble(param2,LargeComplex.thickCrowded,OrderUnit.noiselessGullible(CardBabies.joyousFascinated)));
+         this.stomachAmuse = uint(OrderUnit.apatheticRare(VolcanoStay.crackerTax) * SlipKotsky.delightfulTremble(param3,OrderUnit.noiselessGullible(LargeComplex.thickCrowded),OrderUnit.noiselessGullible(CardBabies.joyousFascinated)));
       }
       
       public function set r(param1:Number) : void
       {
-         this.stickHanging = uint(RecogniseCompetition.prepareAgree(FrailJuice.fixPail) * RareAlanson.stickApathetic(param1,GroundFour.flowerHanging,AdviseRobin.hangingUncle));
+         this.tiresomePail = uint(VolcanoStay.crackerTax * SlipKotsky.delightfulTremble(param1,LargeComplex.thickCrowded,OrderUnit.noiselessGullible(CardBabies.joyousFascinated)));
       }
       
       public function get color() : uint
       {
-         return this.stickHanging | this.tiresomeHalf << RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird) | this.proseProbable << RecogniseCompetition.prepareAgree(CoalWhisper.burnViolet);
+         return this.tiresomePail | this.crimeScratch << GullibleLook.unequaledJumbled | this.stomachAmuse << OrderUnit.apatheticRare(AdmireUncle.faithfulFlower);
       }
       
       public function set b(param1:Number) : void
       {
-         this.proseProbable = uint(FrailJuice.fixPail * RareAlanson.stickApathetic(param1,RecogniseCompetition.scaleCrown(GroundFour.flowerHanging),RecogniseCompetition.scaleCrown(AdviseRobin.hangingUncle)));
+         this.stomachAmuse = uint(VolcanoStay.crackerTax * SlipKotsky.delightfulTremble(param1,LargeComplex.thickCrowded,OrderUnit.noiselessGullible(CardBabies.joyousFascinated)));
+      }
+      
+      public function deliverStay(param1:Number, param2:Number, param3:Number) : void
+      {
+         this.tiresomePail = uint(OrderUnit.apatheticRare(VolcanoStay.crackerTax) * SlipKotsky.delightfulTremble(param1,LargeComplex.thickCrowded,OrderUnit.noiselessGullible(CardBabies.joyousFascinated)));
+         this.crimeScratch = uint(OrderUnit.apatheticRare(VolcanoStay.crackerTax) * SlipKotsky.delightfulTremble(param2,LargeComplex.thickCrowded,CardBabies.joyousFascinated));
+         this.stomachAmuse = uint(VolcanoStay.crackerTax * SlipKotsky.delightfulTremble(param3,OrderUnit.noiselessGullible(LargeComplex.thickCrowded),OrderUnit.noiselessGullible(CardBabies.joyousFascinated)));
       }
       
       public function set g(param1:Number) : void
       {
-         this.tiresomeHalf = uint(RecogniseCompetition.prepareAgree(FrailJuice.fixPail) * RareAlanson.stickApathetic(param1,RecogniseCompetition.scaleCrown(GroundFour.flowerHanging),AdviseRobin.hangingUncle));
-      }
-      
-      public function bashfulPrepare(param1:Number, param2:Number, param3:Number) : void
-      {
-         this.stickHanging = uint(RecogniseCompetition.prepareAgree(FrailJuice.fixPail) * RareAlanson.stickApathetic(param1,RecogniseCompetition.scaleCrown(GroundFour.flowerHanging),AdviseRobin.hangingUncle));
-         this.tiresomeHalf = uint(RecogniseCompetition.prepareAgree(FrailJuice.fixPail) * RareAlanson.stickApathetic(param2,RecogniseCompetition.scaleCrown(GroundFour.flowerHanging),RecogniseCompetition.scaleCrown(AdviseRobin.hangingUncle)));
-         this.proseProbable = uint(RecogniseCompetition.prepareAgree(FrailJuice.fixPail) * RareAlanson.stickApathetic(param3,RecogniseCompetition.scaleCrown(GroundFour.flowerHanging),RecogniseCompetition.scaleCrown(AdviseRobin.hangingUncle)));
+         this.crimeScratch = uint(VolcanoStay.crackerTax * SlipKotsky.delightfulTremble(param1,OrderUnit.noiselessGullible(LargeComplex.thickCrowded),CardBabies.joyousFascinated));
       }
    }
 }

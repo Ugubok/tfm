@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var proseTouch:String;
+      public var religionHeal:String;
       
-      public var partyAgonizing:PrepareKotsky;
+      public var scintillatingApathetic:SeriousWhistle;
       
       public function ScaleRobin(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.proseTouch = param2;
+         this.religionHeal = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return LargeComplex.stomachBack;
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous) + this.proseTouch.length;
+         return OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining) + this.religionHeal.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.proseTouch);
+         param1.writeUTF(this.religionHeal);
       }
    }
 }

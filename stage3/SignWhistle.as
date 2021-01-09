@@ -6,103 +6,99 @@ package
    {
        
       
-      public var agreeOrder:int;
+      public var milkyBerry:int;
       
-      public var armyLook:int;
+      public var swankySisters:int;
       
-      public var fascinatedUnequaled:int;
+      public var hatefulFascinated:int;
       
-      public var stayCard:int;
+      public var obeisantWaiting:int;
       
-      public var scaleMachine:int;
+      public var flowerGate:int;
       
-      public var illustriousPipka:String;
+      public var advisePat:String;
       
-      public var panoramicHateful:String;
+      public var delightfulLight:String;
       
       public function SignWhistle(param1:ByteArray)
       {
          super(param1);
-         this.agreeOrder = param1.readByte();
-         this.armyLook = param1.readInt();
-         this.fascinatedUnequaled = param1.readShort();
-         this.stayCard = param1.readByte();
-         this.scaleMachine = param1.readUnsignedShort();
-         this.illustriousPipka = !!AdmireStore.proseWindy.whistleCoal[this.armyLook]?AdmireStore.proseWindy.whistleCoal[this.armyLook].illustriousPipka:RecogniseCompetition.mouseDelightful(BruiseBorrow.entertainingRobin);
-         this.religionConfused();
+         this.milkyBerry = param1.readByte();
+         this.swankySisters = param1.readInt();
+         this.hatefulFascinated = param1.readShort();
+         this.obeisantWaiting = param1.readByte();
+         this.flowerGate = param1.readUnsignedShort();
+         this.advisePat = !!StalePinus.halfWaiting.warlikeConfused[this.swankySisters]?StalePinus.halfWaiting.warlikeConfused[this.swankySisters].advisePat:OrderUnit.probableLip(LargeComplex.trembleAdmire);
+         this.crimeWaiting();
       }
       
-      public function religionConfused(param1:int = -1) : void
+      public function crimeWaiting(param1:int = -1) : void
       {
          var _loc3_:String = null;
-         var _loc2_:Number = this.scaleMachine / RecogniseCompetition.prepareAgree(RayYell.seriousOrange);
-         if(this.agreeOrder == HystericalKotsky.notebookChivalrous)
+         var _loc2_:Number = this.flowerGate / WanderingDecay.healQuirky;
+         if(OrderUnit.apatheticRare(ReligionStore.trailInstruct) == this.milkyBerry)
          {
-            if(param1 < RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+            if(ReligionStore.trailInstruct > param1)
             {
-               _loc3_ = this.stayCard < RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus)?AdviseRobin.cardSwanky + this.stayCard:String(this.stayCard);
+               _loc3_ = this.obeisantWaiting < LargeComplex.balvankaZonked?OrderUnit.probableLip(LargeComplex.commonDeliver) + this.obeisantWaiting:String(this.obeisantWaiting);
             }
             else
             {
-               _loc3_ = param1 < HystericalKotsky.lightAnus?AdviseRobin.cardSwanky + param1:String(param1);
+               _loc3_ = param1 < LargeComplex.balvankaZonked?OrderUnit.probableLip(LargeComplex.commonDeliver) + param1:String(param1);
             }
-            if(param1 < RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) && this.stayCard == CoalRay.actionBorrow || param1 == RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+            if(param1 < OrderUnit.apatheticRare(ReligionStore.trailInstruct) && this.obeisantWaiting == OrderUnit.apatheticRare(CardBabies.machineOranges) || param1 == OrderUnit.apatheticRare(CardBabies.machineOranges))
             {
-               _loc3_ = RecogniseCompetition.mouseDelightful(ArmyObtainable.statementCrib) + _loc3_;
-            }
-            else
-            {
-               _loc3_ = RecogniseCompetition.mouseDelightful(AlansonReligion.gullibleTouch) + _loc3_;
-            }
-            if(BerryAgreeable.unitBack)
-            {
-               this.panoramicHateful = RecogniseCompetition.mouseDelightful(AlansonReligion.gullibleTouch) + _loc2_ + RecogniseCompetition.mouseDelightful(RayYell.suzukaAir) + SpuriousProbable.hateKnife(this.illustriousPipka,true,true,true) + RecogniseCompetition.mouseDelightful(ArmyObtainable.lipCracker) + _loc3_;
+               _loc3_ = CardBabies.injureElite + _loc3_;
             }
             else
             {
-               this.panoramicHateful = _loc3_ + RecogniseCompetition.mouseDelightful(GroundFour.injurePanoramic) + SpuriousProbable.hateKnife(this.illustriousPipka,true,true,true) + RecogniseCompetition.mouseDelightful(RecogniseTrail.uncleChicken) + _loc2_ + GroundFour.obtainableAdaptable;
+               _loc3_ = BurnFix.sistersLook + _loc3_;
+            }
+            if(BerryAgreeable.toePrepare = BurnFix.sistersLook + _loc2_ + OrderUnit.probableLip(ReligionStore.amuseOrange) + SpuriousProbable.crowdedPail(this.advisePat,true,true,true) + CreatorSupply.taxColor + _loc3_;
+            }
+            else
+            {
+               this.delightfulLight = _loc3_ + PinusSand.supplyFaithful + SpuriousProbable.crowdedPail(this.advisePat,true,true,true) + OrderUnit.probableLip(ReligionStore.bruiseVolcano) + _loc2_ + DildoBorrow.listHistorical;
             }
          }
          else
          {
-            _loc3_ = this.stayCard < HystericalKotsky.lightAnus?AdviseRobin.cardSwanky + this.stayCard:String(this.stayCard);
-            if(CoalRay.actionBorrow == this.stayCard)
+            _loc3_ = this.obeisantWaiting < OrderUnit.apatheticRare(LargeComplex.balvankaZonked)?LargeComplex.commonDeliver + this.obeisantWaiting:String(this.obeisantWaiting);
+            if(OrderUnit.apatheticRare(CardBabies.machineOranges) == this.obeisantWaiting)
             {
-               _loc3_ = ArmyObtainable.statementCrib + _loc3_;
+               _loc3_ = OrderUnit.probableLip(CardBabies.injureElite) + _loc3_;
             }
-            if(DeterminedWarlike.deadpanBalvanka == this.agreeOrder)
+            if(OrderUnit.apatheticRare(SlipReligion.companyHistorical) == this.milkyBerry)
             {
-               if(BerryAgreeable.unitBack)
+               if(BerryAgreeable.colorGaping)
                {
-                  this.panoramicHateful = RecogniseCompetition.mouseDelightful(AlansonReligion.gullibleTouch) + _loc2_ + RecogniseCompetition.mouseDelightful(RayYell.suzukaAir) + SpuriousProbable.hateKnife(this.illustriousPipka,true,true,true) + GroundFour.religionAbaft + _loc3_;
+                  this.delightfulLight = OrderUnit.probableLip(BurnFix.sistersLook) + _loc2_ + OrderUnit.probableLip(ReligionStore.amuseOrange) + SpuriousProbable.crowdedPail(this.advisePat,true,true,true) + PrepareLip.quirkyPail + _loc3_;
                }
                else
                {
-                  this.panoramicHateful = FrailJuice.swankyAir + _loc3_ + RecogniseCompetition.mouseDelightful(GroundFour.religionAbaft) + SpuriousProbable.hateKnife(this.illustriousPipka,true,true,true) + RecogniseTrail.uncleChicken + _loc2_ + RecogniseCompetition.mouseDelightful(GroundFour.obtainableAdaptable);
+                  this.delightfulLight = OrderUnit.probableLip(AdmireUncle.supplyAlanson) + _loc3_ + OrderUnit.probableLip(PrepareLip.quirkyPail) + SpuriousProbable.crowdedPail(this.advisePat,true,true,true) + ReligionStore.bruiseVolcano + _loc2_ + OrderUnit.probableLip(DildoBorrow.listHistorical);
                }
             }
-            else if(RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) == this.agreeOrder)
+            else if(this.milkyBerry == PinusSand.jumbledTiresome)
             {
-               if(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow) == this.stayCard)
+               if(this.obeisantWaiting == CardBabies.machineOranges)
                {
-                  _loc3_ = RecogniseCompetition.mouseDelightful(ArmyObtainable.statementCrib) + _loc3_;
+                  _loc3_ = CardBabies.injureElite + _loc3_;
                }
-               if(BerryAgreeable.unitBack)
+               if(BerryAgreeable.colorGaping)
                {
-                  this.panoramicHateful = AlansonReligion.gullibleTouch + _loc2_ + RecogniseCompetition.mouseDelightful(RayYell.suzukaAir) + SpuriousProbable.hateKnife(this.illustriousPipka,true,true,true) + RecogniseCompetition.mouseDelightful(ArmyObtainable.lipCracker) + _loc3_;
+                  this.delightfulLight = BurnFix.sistersLook + _loc2_ + OrderUnit.probableLip(ReligionStore.amuseOrange) + SpuriousProbable.crowdedPail(this.advisePat,true,true,true) + CreatorSupply.taxColor + _loc3_;
                }
                else
                {
-                  this.panoramicHateful = AnusSeed.harmonyFeeble + _loc3_ + GroundFour.injurePanoramic + SpuriousProbable.hateKnife(this.illustriousPipka,true,true,true) + RecogniseTrail.uncleChicken + _loc2_ + GroundFour.obtainableAdaptable;
+                  this.delightfulLight = OrderUnit.probableLip(WanderingDecay.obtainableSupply) + _loc3_ + OrderUnit.probableLip(PinusSand.supplyFaithful) + SpuriousProbable.crowdedPail(this.advisePat,true,true,true) + OrderUnit.probableLip(ReligionStore.bruiseVolcano) + _loc2_ + OrderUnit.probableLip(DildoBorrow.listHistorical);
                }
             }
-            else if(BerryAgreeable.unitBack)
-            {
-               this.panoramicHateful = RecogniseCompetition.mouseDelightful(AlansonReligion.gullibleTouch) + _loc2_ + RecogniseCompetition.mouseDelightful(RayYell.suzukaAir) + SpuriousProbable.hateKnife(this.illustriousPipka,true,true,true) + RecogniseCompetition.mouseDelightful(ArmyObtainable.lipCracker) + _loc3_;
+            else if(BerryAgreeable.toePrepare = OrderUnit.probableLip(BurnFix.sistersLook) + _loc2_ + OrderUnit.probableLip(ReligionStore.amuseOrange) + SpuriousProbable.crowdedPail(this.advisePat,true,true,true) + OrderUnit.probableLip(CreatorSupply.taxColor) + _loc3_;
             }
             else
             {
-               this.panoramicHateful = _loc3_ + GroundFour.injurePanoramic + SpuriousProbable.hateKnife(this.illustriousPipka,true,true,true) + RecogniseCompetition.mouseDelightful(RecogniseTrail.uncleChicken) + _loc2_ + GroundFour.obtainableAdaptable;
+               this.delightfulLight = _loc3_ + OrderUnit.probableLip(PinusSand.supplyFaithful) + SpuriousProbable.crowdedPail(this.advisePat,true,true,true) + OrderUnit.probableLip(ReligionStore.bruiseVolcano) + _loc2_ + DildoBorrow.listHistorical;
             }
          }
       }

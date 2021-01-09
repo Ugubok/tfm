@@ -1,8 +1,8 @@
 package
 {
-   import mx.core.FontAsset;
+   import mx.core.ByteArrayAsset;
    
-   public class CardProbable extends FontAsset
+   public class CardProbable extends ByteArrayAsset
    {
        
       

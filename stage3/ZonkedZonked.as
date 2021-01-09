@@ -3,74 +3,74 @@ package
    public class ZonkedZonked
    {
       
-      public static var spuriousElite:uint = VioletChickens.joyousPail;
+      public static var supplyCrown:uint = CribHateful.agonizingAgree;
       
-      public static var hangingConfused:uint = VioletChickens.joyousPail;
+      public static var coalBerry:uint = CribHateful.agonizingAgree;
       
-      public static var lookMachine:int = VioletChickens.agonizingLook;
+      public static var historicalAlluring:int = CribHateful.suzukaReligion;
       
-      public static var agonizingMark:int = -(8961 + -8960) + ZonkedZonked.lookMachine;
+      public static var halfRequest:int = ZonkedZonked.historicalAlluring -1;
       
-      public static var adaptableMighty:uint = 1;
+      public static var bashfulWarlike:uint = 1;
       
-      public static var storeScintillating:uint = 2;
+      public static var jumbledWatery:uint = 2;
       
-      public static var panoramicBack:uint = 4;
+      public static var noxiousSeed:uint = 4;
        
       
       public var userData = null;
       
-      public var wateryCry:uint;
+      public var wickedTrail:uint;
       
-      public var batheSuper:uint;
+      public var satisfyOrange:uint;
       
-      public var cribLaborer:uint;
+      public var lunasoleThick:uint;
       
-      public var quirkyJuice:uint;
+      public var chopCrowded:uint;
       
       public function ZonkedZonked()
       {
          super();
       }
       
-      public function machineJumbled() : Boolean
+      public function notebookBashful() : Boolean
       {
-         return (this.quirkyJuice & ZonkedZonked.adaptableMighty) == ZonkedZonked.adaptableMighty;
+         return (this.chopCrowded & ZonkedZonked.jumbledWatery) == ZonkedZonked.jumbledWatery;
       }
       
-      public function sandGullible() : void
+      public function colorLunasole() : Boolean
       {
-         this.quirkyJuice = this.quirkyJuice | ZonkedZonked.storeScintillating;
+         return (this.chopCrowded & ZonkedZonked.bashfulWarlike) == ZonkedZonked.bashfulWarlike;
       }
       
-      public function deadpanNoiseless() : Boolean
+      public function lamentableAbaft() : void
       {
-         return (this.quirkyJuice & ZonkedZonked.panoramicBack) == ZonkedZonked.panoramicBack;
+         this.chopCrowded = this.chopCrowded & ~ZonkedZonked.jumbledWatery;
       }
       
-      public function squeamishFix() : void
+      public function borrowLabel() : void
       {
-         this.quirkyJuice = this.quirkyJuice | ZonkedZonked.panoramicBack;
+         this.chopCrowded = this.chopCrowded | ZonkedZonked.jumbledWatery;
       }
       
-      public function competitionKuruma() : Boolean
+      public function peckMighty() : void
       {
-         return (this.quirkyJuice & ZonkedZonked.storeScintillating) == ZonkedZonked.storeScintillating;
+         this.chopCrowded = this.chopCrowded | ZonkedZonked.bashfulWarlike;
       }
       
-      public function faintIllustrious() : void
+      public function wickedJuice() : void
       {
-         this.quirkyJuice = this.quirkyJuice & ~ZonkedZonked.storeScintillating;
+         this.chopCrowded = this.chopCrowded & ~ZonkedZonked.bashfulWarlike;
       }
       
-      public function orangeHeal() : void
+      public function scratchMouse() : void
       {
-         this.quirkyJuice = this.quirkyJuice | ZonkedZonked.adaptableMighty;
+         this.chopCrowded = this.chopCrowded | ZonkedZonked.noxiousSeed;
       }
       
-      public function crashAgonizing() : void
+      public function decayPrepare() : Boolean
       {
-         this.quirkyJuice = this.quirkyJuice & ~ZonkedZonked.adaptableMighty;
+         return (this.chopCrowded & ZonkedZonked.noxiousSeed) == ZonkedZonked.noxiousSeed;
       }
    }
 }

@@ -5,7 +5,7 @@ package
    public class RequestZonked
    {
       
-      public static var cribMetal:Vector.<ByteArray> = new Vector.<ByteArray>();
+      public static var peckBerry:Vector.<ByteArray> = new Vector.<ByteArray>();
        
       
       public function RequestZonked()
@@ -13,19 +13,19 @@ package
          super();
       }
       
-      public static function gullibleMighty() : ByteArray
+      public static function squeamishAgree() : ByteArray
       {
-         if(RequestZonked.cribMetal.length > HystericalKotsky.notebookChivalrous)
+         if(RequestZonked.peckBerry.length > OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
-            return RequestZonked.cribMetal.pop();
+            return RequestZonked.peckBerry.pop();
          }
          return new ByteArray();
       }
       
-      public static function senseUnequaled(param1:ByteArray) : void
+      public static function volcanoBerry(param1:ByteArray) : void
       {
          param1.clear();
-         RequestZonked.cribMetal.push(param1);
+         RequestZonked.peckBerry.push(param1);
       }
    }
 }

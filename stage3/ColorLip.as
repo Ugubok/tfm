@@ -6,15 +6,15 @@ package
    {
        
       
-      public var hatefulStatement:int;
+      public var pailWhistle:int;
       
-      public var pearOrder:int;
+      public var patAbaft:int;
       
       public function ColorLip(param1:ByteArray)
       {
          super(param1);
-         this.hatefulStatement = param1.readByte();
-         this.pearOrder = param1.readByte();
+         this.pailWhistle = param1.readInt();
+         this.patAbaft = param1.readInt();
       }
    }
 }

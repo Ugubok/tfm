@@ -6,44 +6,44 @@ package
    {
        
       
-      public var entertainingHateful:int;
+      public var planHalf:int;
       
-      public var fragileClub:Number;
+      public var batheCute:Number;
       
-      public var flowerSqueamish:int;
+      public var mouseStupid:int;
       
-      public var commonAdhesive:Number;
+      public var noxiousAdhesive:Number;
       
-      public var complexLight:Number;
+      public var groundAdaptable:Number;
       
-      public var agonizingScratch:Number;
+      public var patGate:Number;
       
-      public var agreeableSense:Number;
+      public var markRay:Number;
       
-      public var suzukaFaint:Number;
+      public var proudUnit:Number;
       
-      public var abaftKnife:Boolean = false;
+      public var admireChickens:Boolean = false;
       
-      public var yellSuzuka:Boolean = false;
+      public var wanderingLoaf:Boolean = false;
       
-      public var coalLabel:Boolean = false;
+      public var requestKuruma:Boolean = false;
       
-      public var fourCrowded:Boolean = false;
+      public var anusKnot:Boolean = false;
       
-      public var quirkyStay:Boolean = false;
+      public var adaptableSatisfy:Boolean = false;
       
-      public var satisfyStomach:Sprite;
+      public var kurumaFaint:Sprite;
       
-      public var kurumaAdhesive:Number;
+      public var staleHate:Number;
       
-      public var cardFrail:SwankyKnot;
+      public var agonizingBorrow:SwankyKnot;
       
-      public var anusWhistle:SwankyKnot;
+      public var crashRobin:SwankyKnot;
       
       public function SwankyKnot(param1:int)
       {
          super();
-         this.entertainingHateful = param1;
+         this.planHalf = param1;
       }
    }
 }

@@ -6,20 +6,20 @@ package
    {
        
       
-      public var berryViolet:BalvankaSpurious;
+      public var feebleMachine:BalvankaSpurious;
       
       public var idSequence:int;
       
-      public var rayTrail:int;
+      public var hangingBurn:int;
       
-      public var bladeChivalrous:Vector.<String>;
+      public var windyHateful:Vector.<String>;
       
-      public var agreeableSupply:MightySubdued;
+      public var staySupply:AlansonWhistle;
       
       public function MightyScale(param1:BalvankaSpurious)
       {
          super();
-         this.berryViolet = param1;
+         this.feebleMachine = param1;
       }
       
       public function getIdSequence() : int
@@ -27,61 +27,61 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return LargeComplex.stomachBack;
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.feeblePeck;
+         return SlipAdaptable.crackerAmuse;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      public function harmonyWhisper() : int
+      public function complexHeal() : int
       {
-         var _loc1_:int = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         var _loc2_:int = HystericalKotsky.notebookChivalrous;
-         while(_loc2_ < this.bladeChivalrous.length)
+         var _loc1_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         var _loc2_:int = ReligionStore.trailInstruct;
+         while(_loc2_ < this.windyHateful.length)
          {
-            _loc1_ = _loc1_ + (RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) + this.bladeChivalrous[_loc2_].length);
+            _loc1_ = _loc1_ + (OrderUnit.apatheticRare(PinusSand.jumbledTiresome) + this.windyHateful[_loc2_].length);
             _loc2_++;
          }
-         return RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear) + _loc1_;
+         return VolcanoStay.proudWaiting + _loc1_;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc5_:int = 0;
          this.idSequence = param1.readInt();
-         this.rayTrail = param1.readByte();
+         this.hangingBurn = param1.readByte();
          var _loc2_:int = param1.readShort();
-         this.bladeChivalrous = new Vector.<String>(_loc2_);
-         var _loc3_:int = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.windyHateful = new Vector.<String>(_loc2_);
+         var _loc3_:int = ReligionStore.trailInstruct;
          while(_loc3_ < _loc2_)
          {
             _loc5_ = param1.readShort();
-            this.bladeChivalrous[_loc3_] = param1.readUTFBytes(_loc5_);
+            this.windyHateful[_loc3_] = param1.readUTFBytes(_loc5_);
             _loc3_++;
          }
-         var _loc4_:AgreeableBabies = this.berryViolet.recupereSequence(this.idSequence);
+         var _loc4_:AgreeableBabies = this.feebleMachine.recupereSequence(this.idSequence);
          if(_loc4_ != null)
          {
-            if(_loc4_ is MightySubdued)
+            if(_loc4_ is AlansonWhistle)
             {
-               this.agreeableSupply = MightySubdued(_loc4_);
-               this.agreeableSupply.lookStay = this;
+               this.staySupply = AlansonWhistle(_loc4_);
+               this.entertainingChicken = this;
             }
          }
       }
       
-      public function get prepareHate() : int
+      public function get yellOrder() : int
       {
-         return RecogniseCompetition.prepareAgree(WaitingReligion.waitingPipka);
+         return PanoramicProbable.mouseAnnoying;
       }
    }
 }

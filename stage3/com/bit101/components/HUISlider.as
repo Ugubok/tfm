@@ -28,7 +28,7 @@ package com.bit101.components
          super.draw();
          _slider.x = _label.width + 5;
          _slider.y = height / 2 - _slider.height / 2;
-         _slider.width = width - _label.width -60;
+         _slider.width = width - _label.width  -60;
          _valueLabel.x = _slider.x + _slider.width + 5;
       }
    }

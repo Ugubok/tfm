@@ -4,15 +4,15 @@ package
    {
        
       
-      public function SwankyBird(param1:Vector.<String>)
+      public function SwankyBird(param1:InstructSpurious, param2:Boolean)
       {
-         super(AlansonReligion.statementScratch,LaborerFeeble.agreePanoramic);
-         var _loc2_:int = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         while(_loc2_ < param1.length)
-         {
-            subduedUncle(param1[_loc2_]);
-            _loc2_++;
-         }
+         super(OrderUnit.apatheticRare(WanderingDecay.healQuirky),OrderUnit.apatheticRare(PinusSand.jumbledTiresome));
+         lamentableSpurious.writeShort(param1.loafViolet);
+         lamentableSpurious.writeShort(param1.x);
+         lamentableSpurious.writeShort(param1.y);
+         lamentableSpurious.writeShort(param1.zonkedWhistle());
+         lamentableSpurious.writeUTF(param1.prepareList());
+         lamentableSpurious.writeBoolean(param2);
       }
    }
 }

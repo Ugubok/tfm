@@ -6,12 +6,12 @@ package
    {
        
       
-      public var lipAdmire:int;
+      public var swankySisters:int;
       
       public function LoafJumbled(param1:ByteArray)
       {
          super(param1);
-         this.lipAdmire = param1.readShort();
+         this.swankySisters = param1.readInt();
       }
    }
 }

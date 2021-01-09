@@ -6,91 +6,91 @@ package
    {
        
       
-      public var determinedDelightful:Boolean = false;
+      public var orangesWindy:Boolean = false;
       
-      public var deadpanLip:Date;
+      public var metalTouch:Date;
       
-      public var hatefulGround:SignSign = null;
+      public var peckHanging:SignSign = null;
       
-      public var icyTiresome:Boolean = false;
+      public var buryRay:Boolean = false;
       
       public function ScaleSubdued(param1:int = 0, param2:String = null, param3:int = 0, param4:int = 0, param5:Boolean = false, param6:Boolean = false, param7:SignBalvanka = null, param8:Number = 0)
       {
          super(param1,param2,param3,param4,param5,param6,param7,param8);
-         this.rareUncle();
+         this.requestAdmire();
       }
       
-      public static function gullibleMighty(param1:ByteArray) : ScaleSubdued
+      public static function squeamishAgree(param1:ByteArray) : ScaleSubdued
       {
          var _loc2_:ScaleSubdued = new ScaleSubdued();
          _loc2_.lecture(param1);
-         _loc2_.rareUncle();
+         _loc2_.requestAdmire();
          return _loc2_;
       }
       
-      public function inviteCute() : int
+      public function swankyCrime() : int
       {
-         return balvankaIllustrious;
+         return lamentableBag;
       }
       
-      public function unequaledScale() : int
+      public function rareZonked(param1:int) : SignSign
       {
-         return labelReligion;
+         if(!this.peckHanging || this.peckHanging.storeAmuse != param1 || this.buryRay)
+         {
+            this.peckHanging = new SignSign(param1,this);
+            this.buryRay = HateFaint.bladeStatement;
+         }
+         return this.peckHanging;
       }
       
-      public function deliverLeg() : SignBalvanka
+      public function storeBorrow() : String
       {
-         return mightyCard;
+         return deliverAbaft;
+      }
+      
+      public function statementSpurious() : int
+      {
+         return markList;
+      }
+      
+      public function requestAdmire() : void
+      {
+         this.metalTouch = new Date();
+         this.metalTouch.setTime(kurumaRecognise * LargeComplex.obeisantStupid * StupidCoal.healDistro);
+         if(deliverAbaft != null)
+         {
+            deliverAbaft = BatheBerry.yellElite(deliverAbaft);
+         }
+      }
+      
+      public function obeisantTouch() : SignBalvanka
+      {
+         return seriousConfused;
+      }
+      
+      public function bagFix() : Boolean
+      {
+         return waitingDildo;
       }
       
       public function toString() : String
       {
-         var _loc1_:String = waitingGrate + RecogniseCompetition.mouseDelightful(FrailJuice.borrowCompany) + String(scaleStomach) + RecogniseCompetition.mouseDelightful(WaitingReligion.balvankaAction) + String(balvankaIllustrious) + RecogniseCompetition.mouseDelightful(LaborerFeeble.juiceList) + String(labelReligion) + FrailJuice.tiresomeAgreeable + String(satisfyAmuse) + RecogniseCompetition.mouseDelightful(HystericalKotsky.labelChivalrous) + String(slipHeal) + RecogniseTrail.unitHanging + String(healFeeble) + RecogniseCompetition.mouseDelightful(ConfusedPeck.creatorAdvise);
-         if(mightyCard)
+         var _loc1_:String = deliverAbaft + OrderUnit.probableLip(LargeComplex.lipJoyous) + String(mouseFrail) + PrepareLip.machineBorrow + String(markList) + BatheKotsky.volcanoSeed + String(lamentableBag) + AdaptableInexpensive.agreeDeadpan + String(alluringElite) + AdmireUncle.patScale + String(waitingDildo) + OrderUnit.probableLip(VolcanoStay.orderSupply) + String(kurumaRecognise) + OrderUnit.probableLip(BurnFix.seriousAdvise);
+         if(seriousConfused)
          {
-            _loc1_ = _loc1_ + (RecogniseCompetition.mouseDelightful(BruiseBorrow.signEntertaining) + mightyCard.trembleSuzuka + RecogniseCompetition.mouseDelightful(BruiseBorrow.hystericalCrash) + mightyCard.burnFragile + RecogniseCompetition.mouseDelightful(WaitingReligion.tastelessBerry));
+            _loc1_ = _loc1_ + (OrderUnit.probableLip(DildoBorrow.subduedSand + OrderUnit.probableLip(DildoBorrow.eliteWarlike + ListIllustrious.warlikePrepare);
          }
          else
          {
-            _loc1_ = _loc1_ + String(mightyCard);
+            _loc1_ = _loc1_ + String(seriousConfused);
          }
-         _loc1_ = _loc1_ + RecogniseCompetition.mouseDelightful(CoalRay.historicalNoxious);
+         _loc1_ = _loc1_ + OrderUnit.probableLip(SlipReligion.amuseDecay);
          return _loc1_;
       }
       
-      public function rareUncle() : void
+      public function obtainableCrib() : Date
       {
-         this.deadpanLip = new Date();
-         this.deadpanLip.setTime(healFeeble * RecogniseCompetition.prepareAgree(HystericalKotsky.rayAdvise) * ArmyObtainable.milkyAgree);
-         if(waitingGrate != null)
-         {
-            waitingGrate = SignMetal.sighHateful(waitingGrate);
-         }
-      }
-      
-      public function squeamishArmy() : Boolean
-      {
-         return slipHeal;
-      }
-      
-      public function religionBruise() : Date
-      {
-         return this.deadpanLip;
-      }
-      
-      public function lightInjure() : String
-      {
-         return waitingGrate;
-      }
-      
-      public function bashfulBird(param1:int) : SignSign
-      {
-         if(!this.hatefulGround || this.hatefulGround.scintillatingCoal != param1 || this.icyTiresome)
-         {
-            this.hatefulGround = new SignSign(param1,this);
-            this.icyTiresome = DeterminedPrepare.machineSigh;
-         }
-         return this.hatefulGround;
+         return this.metalTouch;
       }
    }
 }

@@ -6,8 +6,8 @@ package
       
       public function FragileJumbled(param1:int)
       {
-         super(AlansonReligion.thickAmuse,RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous));
-         staySigh.writeByte(param1);
+         super(OrderUnit.apatheticRare(PrepareLip.competitionSupply),VolcanoStay.proudWaiting);
+         lamentableSpurious.writeByte(param1);
       }
    }
 }

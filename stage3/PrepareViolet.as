@@ -6,8 +6,8 @@ package
       
       public function PrepareViolet(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(AlansonReligion.statementScratch),RayYell.instructMetal);
-         staySigh.writeShort(param1);
+         super(OrderUnit.apatheticRare(PrepareLip.competitionSupply),BatheKotsky.milkyEntertaining);
+         lamentableSpurious.writeByte(param1);
       }
    }
 }

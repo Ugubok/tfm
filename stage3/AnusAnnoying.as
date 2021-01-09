@@ -6,7 +6,7 @@ package
       
       public function AnusAnnoying()
       {
-         super(AlansonReligion.statementScratch,RecogniseCompetition.prepareAgree(DeterminedWarlike.volcanoDelightful));
+         super(WanderingDecay.noiselessTasteless,CardBabies.crashJuice);
       }
    }
 }

@@ -6,16 +6,16 @@ package
    {
        
       
-      public var icyUnit:Array;
+      public var cardInexpensive:Array;
       
       public function ScintillatingSwanky(param1:ByteArray)
       {
-         this.icyUnit = new Array();
+         this.cardInexpensive = new Array();
          super(param1);
-         var _loc2_:int = HystericalKotsky.notebookChivalrous;
-         while(_loc2_ < RecogniseCompetition.prepareAgree(CoalWhisper.burnViolet))
+         var _loc2_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         while(_loc2_ < AdmireUncle.faithfulFlower)
          {
-            this.icyUnit.push(AnusGround.hydrantPeck(param1.readUTF(),false));
+            this.cardInexpensive.push(AnusGround.confusedIcy(param1.readUTF(),false));
             _loc2_++;
          }
       }

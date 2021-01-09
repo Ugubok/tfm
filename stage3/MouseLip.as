@@ -4,10 +4,10 @@ package
    {
        
       
-      public function MouseLip(param1:String)
+      public function MouseLip(param1:int)
       {
-         super(ArmyObtainable.kurumaBird,AlansonReligion.cribReligion);
-         subduedUncle(param1);
+         super(GullibleLook.unequaledJumbled,CardBabies.halfChicken);
+         lamentableSpurious.writeByte(param1);
       }
    }
 }

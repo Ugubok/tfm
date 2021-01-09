@@ -6,7 +6,7 @@ package
       
       public function ToeToe()
       {
-         super(RecogniseCompetition.prepareAgree(LaborerFeeble.staleMark),RecogniseCompetition.prepareAgree(MetalDetermined.anusWing));
+         super(CardBabies.staleJumbled,VolcanoStay.proudWaiting);
       }
    }
 }

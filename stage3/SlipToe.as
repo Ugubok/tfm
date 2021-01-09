@@ -5,98 +5,56 @@ package
    public class SlipToe extends MousePinus
    {
       
-      public static const slipRobin:int = 1;
+      public static const adaptableBurn:int =  1;
       
-      public static const kotskyPlan:int = 2;
+      public static const kotskyFeeble:int =  2;
       
-      public static const legDetermined:int = 3;
+      public static const adhesiveCoal:int =  3;
       
-      public static const signRequest:int = 4;
+      public static const creatorHarmony:int =  4;
       
-      public static const listAnnoying:int = 5;
+      public static const complexWhisper:int =  5;
       
-      public static const chopFour:int = 6;
+      public static const inexpensiveNotebook:int =  6;
        
       
-      public var agreeVolcano:Dictionary;
+      public var burnSign:Dictionary;
       
-      public var noiselessGullible:Dictionary;
+      public var fourBorrow:Dictionary;
       
-      public var raySqueamish:Dictionary;
+      public var panoramicMetal:Dictionary;
       
-      public var competitionHate:Dictionary;
+      public var metalInexpensive:Dictionary;
       
-      public var satisfyJoyous:Boolean = false;
+      public var dildoUncle:Boolean = false;
       
       public function SlipToe(param1:FragileWandering)
       {
-         this.agreeVolcano = new Dictionary();
-         this.noiselessGullible = new Dictionary();
-         this.raySqueamish = new Dictionary();
-         this.competitionHate = new Dictionary();
+         this.§\x01\x06\x05\x04\x04\x02\x04\x03\x07\x04\x06invitePeck\x07\x02\x02\x05\x05\b\x07\x02\b\x01\x06\x01invitePeck\x06\b\x06\x01\b\b\x05\x03\x02\x03\x02\x07invitePeck\x03\x02\b\x02\x07\x05\x02\x02\b\x06\x04\x07\x03§ = new Dictionary();
          super(param1);
       }
       
-      public function legProbable(param1:RobinAdaptable) : Number
+      override public function abaftInvite(param1:RobinAdaptable, param2:BabiesHistorical, param3:Number) : Boolean
       {
-         if(this.raySqueamish[param1.injureHysterical])
+         if(!§lightArmy\x02\x03\x01\x05\x03\x04\x02\x06\x01\x04\x04curvedSlip\x07\x02\x02\x05\x05\b\x07\x02\b\x01\x06\x01abaftGaping\x02\x03\x05\b\x07\x02\x03\b\x06\x05\x01\x03spuriousDildo\x03\x07\x07\x04\x01\x02\x05\x06\x03\x07\x04\x03\x03bladeUnequaled\x07\x06\x06\x02\x02\x01\x02\x02\x02\x05zonkedFragile\x03\x07\x07\x04\x01\x02\x05\x06\x03\x07\x04\x03\x03bladeUnequaled\x07\x06\x06\x02\x02\x01\x02\x02\x02\x05panoramicChickens\x03\x07\x07\x04\x01\x02\x05\x06\x03\x07\x04\x03\x03bladeUnequaled\x07\x06\x06\x02\x02\x01\x02\x02\x02\x05touchMouse\x07\x02\x02\x05\x05\b\x07\x02\b\x01\x06\x01abaftGaping\x02\x03\x05\b\x07\x02\x03\b\x06\x05\x01\x03chivalrousWicked\x07\x02\x02\x05\x05\b\x07\x02\b\x01\x06\x01abaftGaping\x02\x03\x05\b\x07\x02\x03\b\x06\x05\x01\x03violetPail\x07\b\x02\x01\x01\x01\x07\b\x06\x07\b\x05coalPinus\x03\x04\x04\b\x07\x03\x01\x07\x07\x04\x04\x04bladeUnequaled\x03\x02\b\x03\x05\x05\x05\x07\b\b\x07§;
+         if(param2 == SlipToe.adaptableBurn)
          {
-            return RecogniseCompetition.scaleCrown(RecogniseCompetition.scaleCrown(-RecogniseCompetition.scaleCrown(ArmyObtainable.machineCurved)));
+            this.§\x01\x06\x05\x04\x04\x02\x04\x03\x07\x04\x06abaftGaping\x02\x03\x05\b\x07\x02\x03\b\x06\x05\x01\x03flowerLarge\x02\x05\x02\b\x04\b\x01\x04\x07\x07\x06§);
          }
-         return RecogniseCompetition.scaleCrown(MetalDetermined.illustriousUncle());
-      }
-      
-      override public function obeisantAdvise(param1:RobinAdaptable) : void
-      {
-         if(this.competitionHate[param1.injureHysterical])
+         else if(SlipToe.kotskyFeeble == param2)
          {
-            FascinatedHalf.commonSubdued(param1.subduedSuzuka.distroAgonizing.proseWhisper,FascinatedHalf.seriousAction);
+            _loc3_.§\b\x04\x05\x07\x02\x01\x04\x04\x03\b\x04\x04listCry\x03\x04\x04\b\x07\x03\x01\x07\x07\x04\x04\x04bladeUnequaled\x05\x02\x04\x02\x07\x03\x04\b\x03\x02\x04staySqueamish\x05\x02\b\x04\x01\x07\x07\b\x03\b\x05buryCrowded\x07\x02\x02\x05\x05\b\x07\x02\b\x01\x06\x01abaftGaping\x02\x03\x05\b\x07\x02\x03\b\x06\x05\x01\x03borrowWatery\x01\x07\x01\b\x07\b\x01\x06\b\x02\x01\x03crackerMark\x06\x04\x03\x07\x04\x03\x05\x06\x04\x05\x07\bscintillatingWhisper\x03\x04\x04\b\x07\x03\x01\x07\x07\x04\x04\x04bladeUnequaled\x04\x07\x05\x06\x01\b\x04\x05\x03\x04\bflowerComplex\x04\x01\x04\x02\x05\x07\x01\x04\b\b\x01§ = HateFaint.proudGround;
+            }
          }
-         if(this.satisfyJoyous && param1.programLarge)
+         else if(SlipToe.complexWhisper == param2)
          {
-            param1.subduedSuzuka.dildoColor = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-            param1.subduedYell = DeterminedPrepare.hatefulComplex;
+            this.§\x06\b\x06\x01\b\b\x05\x03\x02\x03\x02\x07abaftGaping\x02\x03\x05\b\x07\x02\x03\b\x06\x05\x01\x03burnCoal\x07\x04\x01\b\x07\x03\x02\x03\b\x02\x06wateryBashful\x03\x02\b\x02\x07\x05\x02\x02\b\x06\x04\x07\x03abaftGaping\x02\x03\x05\b\x07\x02\x03\b\x06\x05\x01\x03supplyUnequaled\b\x04\b\x01\x05\x05\x06\x07\x04\x06\b\x02\x01buryAlanson\x05\x07\b\x03\x04\b\b\x05\x03\x06\x01\x03\x06agreeProse\x02\x02\x03\b\x06\x05\x07\b\x07\x01\x05\x01\x02crimeBerry\x07\x06\x07\x06\x05\x07\x06\x05\x01\x05\x04\x03\x01suzukaIcy\x01\x06\x05\x04\x04\x02\x04\x03\x07\x04\x06abaftGaping\x02\x03\x05\b\x07\x02\x03\b\x06\x05\x01\x03decayColor\x02\b\x05\x03\x07\b\b\x07\x02\x01\b\x06colorLarge\x01\x06\x05\x04\x04\x02\x04\x03\x07\x04\x06invitePeck\x07\x02\x02\x05\x05\b\x07\x02\b\x01\x06\x01invitePeck\x06\b\x06\x01\b\b\x05\x03\x02\x03\x02\x07invitePeck\x03\x02\b\x02\x07\x05\x02\x02\b\x06\x04\x07\x03invitePeck\x06\x04\x03\x07\x04\x03\x05\x06\x04\x05\x07\bstickDistro\x01\b\x01\b\b\x07\x07\x03\x05\x01\x04\x01\x06suzukaIcy\x06\b\x06\x01\b\b\x05\x03\x02\x03\x02\x07abaftGaping\x02\x03\x05\b\x07\x02\x03\b\x06\x05\x01\x03annoyingWicked\x03\x07\x05\x04\b\x03\x03\x01\x03\x01\x05subduedAlanson\x03\x02\b\x02\x07\x05\x02\x02\b\x06\x04\x07\x03abaftGaping\x02\x03\x05\b\x07\x02\x03\b\x06\x05\x01\x03inviteStick\b\x04\b\x01\x05\x05\x06\x07\x04\x06\b\x02\x01sighBack\x03\x04\x04\b\x07\x03\x01\x07\x07\x04\x04\x04bladeUnequaled\x03\x02\b\x03\x05\x05\x05\x07\b\b\x07bladeUnequaled\x05\x07\b\x03\x04\b\b\x05\x03\x06\x01\x03\x06agreeProse\x02\x02\x03\b\x06\x05\x07\b\x07\x01\x05\x01\x02§);
          }
-      }
-      
-      public function volcanoMark(param1:RobinAdaptable) : Number
-      {
-         if(this.agreeVolcano[param1.injureHysterical])
+         if(this.dildoUncle && param1.obeisantAnnoying)
          {
-            return RecogniseCompetition.scaleCrown(HystericalKotsky.lightAnus);
+            param1.§\x03\x04\x04\b\x07\x03\x01\x07\x07\x04\x04\x04bladeUnequaled\x04\x07\x05\x06\x01\b\x04\x05\x03\x04\bcrowdedAdvise\x04\x01\x04\x02\x05\x07\x01\x04\b\b\x01seedLabel\x01\x04\b\x06\x06\x02\x06\x01\x03\x07\x05\x05\x02suzukaWing\x07\b\x02\x01\x01\x01\x07\b\x06\x07\b\x05sandDistro\x01\x04\b\x06\x06\x02\x06\x01\x03\x07\x05\x05\x02§(OrderUnit.apatheticRare(CardBabies.machineOranges)));
+               }
          }
-         return BerryMouse.touchFour();
-      }
-      
-      override public function touchUnequaled(param1:BerryAnus) : void
-      {
-         this.agreeVolcano = new Dictionary();
-         this.noiselessGullible = new Dictionary();
-         this.raySqueamish = new Dictionary();
-         this.competitionHate = new Dictionary();
-         this.satisfyJoyous = DeterminedPrepare.machineSigh;
-      }
-      
-      override public function buryRobin(param1:RobinAdaptable, param2:BabiesHistorical, param3:Number) : Boolean
-      {
-         if(!§lamentableFeeble\b\x07\x06\x04\x05\x07\x02\x03\x01\x03\x05obeisantArmy\x04\b\x03\x04\x07\x05\b\x06\x05\bpearAdmire\x04\b\x03\x04\x07\x05\b\x06\x05\bsqueamishToe\x04\b\x03\x04\x07\x05\b\x06\x05\balansonInjure\x06\x03\x07\x01\b\x04\b\x04\x07\x03\x05\bbatheWarlike\x06\x03\x07\x01\b\x04\b\x04\x07\x03\x05\bchopPanoramic\b\x03\x03\x06\b\x01\x04\x06\x03\x03\x05\bstoreInstruct\b\x02\x06\x05\b\x04\x06\x01\x03\x05\x03\b\x06§)
-         {
-            this.agreeVolcano[param1.injureHysterical] = DeterminedPrepare.hatefulComplex;
-            AdmireStore.proseWindy.§\x05\x05\x01\b\x01\x04\x05\x05\x06\x05\x02faithfulDelightful\x02\x07\x06\x02\x04\b\b\x05\x03\x01\x04\x03§)
-         {
-            _loc3_.zonkedLeg = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-            param1.subduedSuzuka.violetSign();
-         }
-         else if(SlipToe.legDetermined == param2)
-         {
-            this.§\x04\b\x03\x04\x07\x05\b\x06\x05\bstupidBury\x04\x02\x02\x07\x06\b\x06\b\b\x07\x02\b\x06robinWatery\x03\b\b\x01\x02\x05\x03\x07\x02\x06\b\bsistersSatisfy\x07\x06\b\x02\x07\x07\x03\x01\b\x03\b\x07\bsatisfyZonked\x06\x04\x01\x04\x02\b\b\x04\x07\b\x07crackerTrail\x03\x03\b\x02\b\b\x06\x01\x01\b\x04\x06instructCrown\x04\x02\x02\x03\b\x04\x07\x02\x06\x04\x06§[param1.injureHysterical] = DeterminedPrepare.hatefulComplex;
-         }
-         else if(SlipToe.chopFour == param2)
-         {
-            this.competitionHate[param1.injureHysterical] = DeterminedPrepare.hatefulComplex;
-            FascinatedHalf.commonSubdued(_loc3_.proseWhisper,FascinatedHalf.seriousAction);
-         }
-         AdmireStore.proseWindy.hangingReligion(WingKuruma.grateBalvanka,param1.x,param1.y,RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus),RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),false);
       }
    }
 }

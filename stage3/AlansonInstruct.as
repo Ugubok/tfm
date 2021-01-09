@@ -1,12 +1,12 @@
 package
 {
-   public class AlansonInstruct extends LoafSwanky
+   public class AlansonInstruct
    {
        
       
       public function AlansonInstruct()
       {
-         super(RecogniseCompetition.prepareAgree(AlansonReligion.statementScratch),RecogniseCompetition.prepareAgree(AdviseRobin.annoyingSisters));
+         super();
       }
    }
 }

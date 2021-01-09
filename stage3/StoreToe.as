@@ -3,11 +3,11 @@ package
    public class StoreToe
    {
       
-      public static var scratchCoal:Boolean = false;
+      public static var knifeBabies:Boolean = false;
       
-      public static var confusedDecay:Boolean = false;
+      public static var orangeFix:Boolean = false;
       
-      public static var notebookBabies:Boolean = false;
+      public static var icyBack:Boolean = false;
        
       
       public function StoreToe()
@@ -15,59 +15,59 @@ package
          super();
       }
       
-      public static function seriousFeeble() : void
+      public static function airFix() : void
       {
-         RareOranges.religionHanging = DeterminedPrepare.hatefulComplex;
-         MightyInstruct.taxLip();
+         RareOranges.companyInvite = HateFaint.proudGround;
+         MightyInstruct.wingLunasole();
       }
       
-      public static function complexAnnoying(param1:Boolean) : void
+      public static function violetAgree() : void
       {
-         if(StoreToe.scratchCoal != param1)
+         MightyInstruct.hatefulHate();
+         WingLip.zonkedAgree();
+         CrimeWing.curvedBathe();
+         RareOranges.companyInvite = HateFaint.bladeStatement;
+         StoreToe.volcanoClub(false);
+         StoreToe.airEntertaining(false);
+         StoreToe.fixAlluring(false);
+      }
+      
+      public static function fixAlluring(param1:Boolean) : void
+      {
+         if(StoreToe.icyBack != param1)
          {
-            StoreToe.scratchCoal = param1;
-            if(StoreToe.scratchCoal && CribOranges.listAmuse)
+            StoreToe.icyBack = param1;
+         }
+      }
+      
+      public static function volcanoClub(param1:Boolean) : void
+      {
+         if(StoreToe.knifeBabies != param1)
+         {
+            StoreToe.knifeBabies = param1;
+            if(StoreToe.knifeBabies && CribOranges.amuseHeal)
             {
-               CribOranges.lookGaping(false);
-               CribOranges.largeWhisper();
+               CribOranges.metalHarmony(false);
+               CribOranges.sandGround();
             }
-            else if(!StoreToe.scratchCoal && !CribOranges.flowerWhistle())
+            else if(!StoreToe.knifeBabies && !CribOranges.agreeWarlike())
             {
-               CribOranges.lookGaping(true);
-               CribOranges.largeWhisper();
+               CribOranges.metalHarmony(true);
+               CribOranges.sandGround();
             }
          }
       }
       
-      public static function pipkaChop(param1:Boolean) : void
+      public static function airEntertaining(param1:Boolean) : void
       {
-         if(StoreToe.notebookBabies != param1)
+         if(StoreToe.orangeFix != param1)
          {
-            StoreToe.notebookBabies = param1;
-         }
-      }
-      
-      public static function scaleKnot(param1:Boolean) : void
-      {
-         if(StoreToe.confusedDecay != param1)
-         {
-            StoreToe.confusedDecay = param1;
-            if(BerryAnus.inexpensiveBack && BerryAnus.cribSatisfy.curvedPear)
+            StoreToe.orangeFix = param1;
+            if(BerryAnus.lamentableDeliver && BerryAnus.touchSerious.machineBruise)
             {
-               BerryAnus.cribSatisfy.curvedPear.visible = !StoreToe.confusedDecay;
+               BerryAnus.touchSerious.machineBruise.visible = !StoreToe.orangeFix;
             }
          }
-      }
-      
-      public static function lipFix() : void
-      {
-         MightyInstruct.clubBorrow();
-         WingLip.orderKuruma();
-         CrimeWing.rayProud();
-         RareOranges.religionHanging = DeterminedPrepare.machineSigh;
-         StoreToe.complexAnnoying(false);
-         StoreToe.scaleKnot(false);
-         StoreToe.pipkaChop(false);
       }
    }
 }

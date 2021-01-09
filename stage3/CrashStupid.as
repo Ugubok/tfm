@@ -4,12 +4,12 @@ package
    {
        
       
-      public function CrashStupid(param1:int, param2:int, param3:int)
+      public function CrashStupid(param1:int, param2:AgreeableBabies)
       {
-         super(RecogniseCompetition.prepareAgree(AnusSeed.harmonyBury),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow));
-         staySigh.writeInt(param1);
-         staySigh.writeInt(param2);
-         staySigh.writeInt(param3);
+         super(LargeComplex.obeisantStupid,OrderUnit.apatheticRare(SlipReligion.companyHistorical));
+         lamentableSpurious.writeShort(param1);
+         param2.ecriture(lamentableSpurious);
+         laborerTouch = HateFaint.proudGround;
       }
    }
 }

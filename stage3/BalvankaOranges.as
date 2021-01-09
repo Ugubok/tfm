@@ -4,48 +4,45 @@ package
    {
        
       
-      public var senseMouse:KnotSwanky;
+      public var tiresomeCreator:KnotSwanky;
       
-      public var decayProgram:KnotSwanky;
+      public var agonizingRay:KnotSwanky;
       
-      public var kotskySerious:Number;
+      public var loafComplex:Number;
       
-      public var berryKuruma:Boolean;
+      public var creatorInvite:Boolean;
       
-      public var noxiousLabel:Number;
+      public var proudSpurious:Number;
       
-      public var alansonPear:Number;
+      public var unequaledNotebook:Number;
       
-      public var rayBorrow:Boolean;
+      public var babiesWatery:Boolean;
       
-      public var delightfulBury:Number;
+      public var babiesAdhesive:Number;
       
-      public var stupidZonked:Number;
+      public var inexpensiveMachine:Number;
       
       public function BalvankaOranges()
       {
-         this.senseMouse = new KnotSwanky();
-         this.decayProgram = new KnotSwanky();
+         this.tiresomeCreator = new KnotSwanky();
+         this.agonizingRay = new KnotSwanky();
          super();
-         type = AlansonTiresome.unequaledYell;
-         this.senseMouse.bashfulPrepare(RecogniseCompetition.scaleCrown(GroundFour.flowerHanging),GroundFour.flowerHanging);
-         this.decayProgram.bashfulPrepare(GroundFour.flowerHanging,RecogniseCompetition.scaleCrown(GroundFour.flowerHanging));
-         this.kotskySerious = GroundFour.flowerHanging;
-         this.noxiousLabel = RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
-         this.alansonPear = GroundFour.flowerHanging;
-         this.stupidZonked = RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
-         this.delightfulBury = RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
-         this.berryKuruma = DeterminedPrepare.machineSigh;
-         this.rayBorrow = DeterminedPrepare.machineSigh;
-      }
-      
-      public function lightTiresome(param1:BabiesHistorical, param2:BabiesHistorical, param3:KnotSwanky) : void
+         type = AlansonTiresome.instructHate;
+         this.mightyRecognise(LargeComplex.thickCrowded,LargeComplex.thickCrowded);
+         this.listBathe(OrderUnit.noiselessGullible(LargeComplex.thickCrowded),LargeComplex.thickCrowded);
+         this.loafComplex = LargeComplex.thickCrowded;
+         this.proudSpurious = LargeComplex.thickCrowded;
+         this.unequaledNotebook = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
+         this.inexpensiveMachine = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
+         this.babiesAdhesive = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
+         this.creatorInvite = HateFaint.bladeStatement;
+         this.whisperStale(param1:BabiesHistorical, param2:BabiesHistorical, param3:KnotSwanky) : void
       {
-         chivalrousWarlike = param1;
-         spuriousQuirky = param2;
-         this.senseMouse = chivalrousWarlike.cardBag(param3);
-         this.decayProgram = spuriousQuirky.cardBag(param3);
-         this.kotskySerious = spuriousQuirky.kurumaLabel() - chivalrousWarlike.kurumaLabel();
+         mightyHistorical = param1;
+         bladeSpurious = param2;
+         this.knotProud(param3);
+         this.hydrantTiresome(param3);
+         this.loafComplex = jumbledPail() - spuriousCard();
       }
    }
 }

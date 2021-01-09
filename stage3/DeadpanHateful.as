@@ -4,17 +4,17 @@ package
    {
        
       
-      public var R:YellProse;
+      public var R:ToeCrime;
       
-      public var yellCrown:KnotSwanky;
+      public var halfFour:KnotSwanky;
       
-      public var lipLamentable:KnotSwanky;
+      public var armyBird:KnotSwanky;
       
       public function DeadpanHateful()
       {
-         this.R = new YellProse();
-         this.yellCrown = new KnotSwanky();
-         this.lipLamentable = new KnotSwanky();
+         this.R = new ToeCrime();
+         this.halfFour = new KnotSwanky();
+         this.armyBird = new KnotSwanky();
          super();
       }
    }

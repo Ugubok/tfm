@@ -6,41 +6,41 @@ package
    public class WhistleProbable
    {
       
-      public static const suzukaTasteless:int = 36865;
+      public static const machineIcy:int = 36865;
       
-      public static const staleFix:int = 36866;
+      public static const agreeIcy:int = 36866;
       
-      public static const airRare:int = 36867;
+      public static const patWindy:int = 36867;
       
-      public static const airRay:int = 36868;
+      public static const panoramicKotsky:int = 36868;
       
-      public static const alansonIllustrious:int = 36869;
+      public static const toeCry:int = 36869;
       
-      public static const crimeStatement:int = 36870;
+      public static const juiceAnnoying:int = 36870;
       
-      public static const seedWarlike:int = 36871;
+      public static const lookChickens:int = 36871;
       
-      public static const alansonAdhesive:int = 36872;
+      public static const uncleLook:int = 36872;
       
-      public static const crowdedAdhesive:int = 36873;
+      public static const scaleFragile:int = 36873;
       
-      public static const adaptableHate:int = 36874;
+      public static const pinusCute:int = 36874;
       
-      public static const crackerGrate:int = 36875;
+      public static const fragilePanoramic:int = 36875;
       
-      public static const planJumbled:int = 38145;
+      public static const proseObtainable:int = 38145;
       
-      public static const agreeableHateful:int = 38146;
+      public static const kotskyBurn:int = 38146;
       
-      public static const largeStore:int = 38147;
+      public static const juiceChickens:int = 38147;
       
-      public static const hateBorrow:int = 38148;
+      public static const pearDeadpan:int = 38148;
       
-      public static const taxBorrow:int = 38149;
+      public static const crownSeed:int = 38149;
       
-      public static const entertainingTiresome:int = 38150;
+      public static const apatheticHate:int = 38150;
       
-      public static var trailSisters:Dictionary = new Dictionary();
+      public static var thickQuirky:Dictionary = new Dictionary();
        
       
       public function WhistleProbable()
@@ -48,226 +48,226 @@ package
          super();
       }
       
-      public static function machineSubdued() : void
+      public static function suzukaCreator(param1:int, param2:Function) : void
       {
-         competitionSisters(WhistleProbable.suzukaTasteless,function(param1:ByteArray):void
+         if(WhistleProbable.thickQuirky[param1])
+         {
+            throw new Error(StupidCoal.pailUnequaled);
+         }
+         WhistleProbable.thickQuirky[param1] = param2;
+      }
+      
+      public static function kotskyRequest(param1:int, param2:int) : LoafSwanky
+      {
+         return new LoafSwanky(WhistleProbable.pearDeadpan).loafKnife(param1).loafKnife(param2);
+      }
+      
+      public static function hatefulFragile(param1:Boolean) : LoafSwanky
+      {
+         return new LoafSwanky(WhistleProbable.juiceChickens).kurumaDetermined(param1);
+      }
+      
+      public static function knifeAdmire(param1:int, param2:int) : LoafSwanky
+      {
+         return new LoafSwanky(WhistleProbable.apatheticHate).loafKnife(param1).crimeArmy(param2);
+      }
+      
+      public static function obeisantNoiseless(param1:int, param2:ByteArray) : void
+      {
+         var _loc3_:Function = WhistleProbable.thickQuirky[param1];
+         if(_loc3_)
+         {
+            _loc3_(param2);
+            return;
+         }
+         TiresomeColor.distroStupid();
+         throw new Error(LargeComplex.creatorMark + param1.toString(OrderUnit.apatheticRare(AdmireUncle.faithfulFlower)));
+      }
+      
+      public static function uncleGaping() : void
+      {
+         suzukaCreator(WhistleProbable.machineIcy,function(param1:ByteArray):void
          {
             var _loc2_:Vector.<ScintillatingWing> = new Vector.<ScintillatingWing>();
             var _loc3_:int = param1.readShort();
-            while(_loc3_-- > RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+            while(_loc3_-- > OrderUnit.apatheticRare(ReligionStore.trailInstruct))
             {
                _loc2_.push(new ScintillatingWing(param1));
             }
-            AdmireStore.proseWindy.feebleBorrow(_loc2_);
-            SubduedBabies.proseWindy.scaleSpurious();
-            AdmireStore.proseWindy.healProud.adaptableDecay(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
+            StalePinus.halfWaiting.signSuper(_loc2_);
+            SubduedBabies.halfWaiting.amuseApathetic();
+            StalePinus.halfWaiting.apatheticSwanky.wingCoal(ReligionStore.trailInstruct);
          });
-         competitionSisters(WhistleProbable.staleFix,function(param1:ByteArray):void
+         suzukaCreator(WhistleProbable.agreeIcy,function(param1:ByteArray):void
          {
             var _loc6_:MousePinus = null;
             var _loc7_:RobinAdaptable = null;
             var _loc2_:ScintillatingWing = new ScintillatingWing(param1);
             var _loc3_:Boolean = param1.readBoolean();
             var _loc4_:Boolean = param1.readBoolean();
-            var _loc5_:RobinAdaptable = AdmireStore.proseWindy.sistersKotsky(_loc2_,!_loc3_);
-            if(!_loc5_.distroJumbled)
+            var _loc5_:RobinAdaptable = StalePinus.halfWaiting.signCrash(_loc2_,!_loc3_);
+            if(!_loc5_.listInvite)
             {
-               if(_loc5_.programLarge)
+               if(_loc5_.obeisantAnnoying)
                {
-                  BerryAnus.cribSatisfy.requestBack.addChild(_loc5_);
-                  AdmireStore.proseWindy.agreeRecognise = DeterminedPrepare.hatefulComplex;
-                  if(AdmireStore.proseWindy.inviteMighty && !AdmireStore.proseWindy.orangeBlade.parent)
+                  BerryAnus.touchSerious.unequaledTremble.addChild(_loc5_);
+                  StalePinus.halfWaiting.feebleDecay = HateFaint.proudGround;
+                  if(StalePinus.halfWaiting.lookStore && !StalePinus.halfWaiting.historicalNotebook.parent)
                   {
-                     AdmireStore.proseWindy.squeamishWandering.addChild(AdmireStore.proseWindy.orangeBlade);
+                     StalePinus.halfWaiting.notebookCompetition.addChild(StalePinus.halfWaiting.historicalNotebook);
                   }
-                  _loc5_.historicalSlip.pipkaViolet = (-BerryMouse.touchFour() + MetalDetermined.illustriousUncle() + MetalDetermined.illustriousUncle()) * BerryMouse.touchFour() + Math.random() * CoalRay.abaftDildo();
-                  _loc5_.subduedWandering = BerryMouse.touchFour();
-                  _loc5_.lookGullible.healList(true);
-                  _loc5_.jumbledMouse.pipkaViolet = -FrailJuice.crashLaborer() + DeterminedWarlike.birdSpurious();
-                  if(BerryAnus.cribSatisfy.legConfused.lunasoleFour)
+                  _loc5_.knifeBashful.hydrantThick = GullibleLook.backAdmire() - AdmireUncle.complexMetal();
+                  _loc5_.competitionFeeble = LargeComplex.faintLip();
+                  _loc5_.babiesKuruma.hydrantThick = -LargeComplex.faintLip() + VolcanoStay.volcanoHeal() + Math.random() * CreatorSupply.tastelessNotebook();
+                  _loc5_.stomachJuice.obeisantFrail(true);
+                  if(BerryAnus.touchSerious.crashCard.joyousAlanson)
                   {
-                     BerryAnus.cribSatisfy.orangeHateful();
+                     BerryAnus.touchSerious.staleCute();
                   }
                }
                else
                {
-                  BerryAnus.cribSatisfy.requestBack.addChildAt(_loc5_,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-                  _loc5_.hydrantReligion(true);
+                  BerryAnus.touchSerious.unequaledTremble.addChildAt(_loc5_,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+                  _loc5_.fixComplex(true);
                }
             }
             if(_loc4_)
             {
-               SubduedBabies.proseWindy.scaleSpurious();
+               SubduedBabies.halfWaiting.amuseApathetic();
             }
-            for each(_loc6_ in RequestToe.panoramicAnus)
+            for each(_loc6_ in RequestToe.harmonyJumbled)
             {
-               _loc6_.obeisantAdvise(_loc5_);
+               _loc6_.eliteWicked(_loc5_);
             }
-            if(SpuriousProbable.requestKnot(_loc5_.illustriousPipka))
+            if(SpuriousProbable.orangeMighty(_loc5_.advisePat))
             {
-               for each(_loc7_ in AdmireStore.proseWindy.whistleCoal)
+               for each(_loc7_ in StalePinus.halfWaiting.warlikeConfused)
                {
-                  _loc7_.proudClub.patColor();
+                  _loc7_.touchToe.jumbledNoxious();
                }
-               HistoricalSubdued.tiresomeBird(true);
-               KnotOranges.stickScintillating();
+               HistoricalSubdued.prepareFeeble(true);
+               KnotOranges.faintDeliver();
             }
          });
-         competitionSisters(WhistleProbable.airRare,function(param1:ByteArray):void
+         suzukaCreator(WhistleProbable.patWindy,function(param1:ByteArray):void
          {
-            ScintillatingStore.requestRare(param1);
+            ScintillatingStore.rareFix(param1);
          });
-         competitionSisters(WhistleProbable.airRay,function(param1:ByteArray):void
+         suzukaCreator(WhistleProbable.panoramicKotsky,function(param1:ByteArray):void
          {
-            ScintillatingStore.healSigh(param1);
+            ScintillatingStore.lamentableChop(param1);
          });
-         competitionSisters(WhistleProbable.alansonIllustrious,function(param1:ByteArray):void
+         suzukaCreator(WhistleProbable.toeCry,function(param1:ByteArray):void
          {
-            OrangesAnus.proseWindy.borrowReligion(param1.readBoolean());
+            OrangesAnus.halfWaiting.lookKnife(param1.readBoolean());
          });
-         competitionSisters(WhistleProbable.crimeStatement,function(param1:ByteArray):void
+         suzukaCreator(WhistleProbable.juiceAnnoying,function(param1:ByteArray):void
          {
-            var _loc2_:RobinAdaptable = AdmireStore.proseWindy.whistleCoal[param1.readInt()];
+            var _loc2_:RobinAdaptable = StalePinus.halfWaiting.warlikeConfused[param1.readInt()];
             var _loc3_:int = param1.readByte();
             if(_loc2_)
             {
-               AdmireStore.proseWindy.lightDildo(_loc2_,_loc3_);
-               AdmireStore.proseWindy.hangingReligion(WingKuruma.grateBalvanka,_loc2_.x - RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus),_loc2_.y - RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus),HystericalKotsky.lightAnus,LaborerFeeble.instructBathe,false);
+               StalePinus.halfWaiting.healIcy(_loc2_,_loc3_);
+               StalePinus.halfWaiting.storeBlade(WingKuruma.pailChickens,_loc2_.x - LargeComplex.balvankaZonked,_loc2_.y - LargeComplex.balvankaZonked,LargeComplex.balvankaZonked,OrderUnit.apatheticRare(PinusSand.jumbledTiresome),false);
             }
-            if(AdmireStore.proseWindy.religionEntertaining)
+            if(StalePinus.halfWaiting.kotskyProbable)
             {
-               AdmireStore.proseWindy.religionEntertaining.religionBird = AdmireStore.proseWindy.religionEntertaining.religionBird - DeterminedWarlike.chickenHysterical;
-               if(AdmireStore.proseWindy.religionEntertaining.religionBird < -RecogniseCompetition.scaleCrown(BruiseBorrow.largeAlanson))
+               StalePinus.halfWaiting.kotskyProbable.lamentableFeeble = StalePinus.halfWaiting.kotskyProbable.lamentableFeeble - OrderUnit.noiselessGullible(ReligionStore.illustriousUnequaled);
+               if(StalePinus.halfWaiting.kotskyProbable.lamentableFeeble < -GullibleLook.unitSisters)
                {
-                  AdmireStore.proseWindy.religionEntertaining.religionBird = -RecogniseCompetition.scaleCrown(BruiseBorrow.largeAlanson);
+                  StalePinus.halfWaiting.kotskyProbable.lamentableFeeble = -GullibleLook.unitSisters;
                }
             }
          });
-         competitionSisters(WhistleProbable.seedWarlike,function(param1:ByteArray):void
+         suzukaCreator(WhistleProbable.lookChickens,function(param1:ByteArray):void
          {
-            var _loc2_:RobinAdaptable = AdmireStore.proseWindy.whistleCoal[param1.readInt()];
-            if(_loc2_ && _loc2_.yellFaint)
+            var _loc2_:RobinAdaptable = StalePinus.halfWaiting.warlikeConfused[param1.readInt()];
+            if(_loc2_ && _loc2_.alluringMouse)
             {
-               AdmireStore.proseWindy.bagPear(_loc2_);
+               StalePinus.halfWaiting.milkyBashful(_loc2_);
             }
          });
-         competitionSisters(WhistleProbable.alansonAdhesive,function(param1:ByteArray):void
+         suzukaCreator(WhistleProbable.uncleLook,function(param1:ByteArray):void
          {
             var _loc2_:Boolean = param1.readBoolean();
-            var _loc3_:int = HystericalKotsky.notebookChivalrous;
-            while(_loc3_ < BerryAnus.cribSatisfy.historicalHydrant.length)
+            var _loc3_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+            while(_loc3_ < BerryAnus.touchSerious.alansonBird.length)
             {
-               BerryAnus.cribSatisfy.historicalHydrant[_loc3_].visible = !_loc2_;
+               BerryAnus.touchSerious.alansonBird[_loc3_].visible = !_loc2_;
                _loc3_++;
             }
-            BerryAnus.cribSatisfy.partyThick = _loc2_;
+            BerryAnus.touchSerious.toeAdvise = _loc2_;
          });
-         competitionSisters(WhistleProbable.crowdedAdhesive,function(param1:ByteArray):void
+         suzukaCreator(WhistleProbable.scaleFragile,function(param1:ByteArray):void
          {
             var _loc2_:int = param1.readByte();
-            if(_loc2_ == -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+            if(_loc2_ == -CardBabies.machineOranges)
             {
-               HistoricalKnot.cuteGround(RecogniseCompetition.mouseDelightful(MetalDetermined.chivalrousStale),RecogniseCompetition.scaleCrown(CoalRay.orangeOrange));
+               HistoricalKnot.partyRobin(OrderUnit.probableLip(ReligionStore.entertainingRobin),AdmireUncle.mouseBabies);
             }
-            else if(_loc2_ == BerryMouse.unequaledJuice)
+            else if(BurnFix.toeSlip == _loc2_)
             {
-               HistoricalKnot.cuteGround(BruiseBorrow.noiselessBack);
+               HistoricalKnot.partyRobin(ListIllustrious.milkyFix);
             }
             else
             {
-               HistoricalKnot.cuteGround(BruiseBorrow.noiselessBack);
+               HistoricalKnot.partyRobin(ListIllustrious.milkyFix);
             }
          });
-         competitionSisters(WhistleProbable.adaptableHate,function(param1:ByteArray):void
+         suzukaCreator(WhistleProbable.pinusCute,function(param1:ByteArray):void
          {
             var _loc2_:String = param1.readUTF();
-            var _loc3_:Number = param1.readShort() / AnusSeed.statementInexpensive;
+            var _loc3_:Number = param1.readShort() / RayAmuse.injureBathe;
             if(param1.readBoolean())
             {
-               HistoricalKnot.cuteGround(_loc2_,_loc3_ * AdmireStore.whisperLeg.clubNoxious(param1.readShort(),param1.readShort()));
+               HistoricalKnot.partyRobin(_loc2_,_loc3_ * StalePinus.determinedColor.laborerTiresome(param1.readShort(),param1.readShort()));
             }
             else
             {
-               HistoricalKnot.cuteGround(_loc2_,_loc3_);
+               HistoricalKnot.partyRobin(_loc2_,_loc3_);
             }
          });
-         competitionSisters(WhistleProbable.crackerGrate,function(param1:ByteArray):void
+         suzukaCreator(WhistleProbable.fragilePanoramic,function(param1:ByteArray):void
          {
-            if(LoafKotsky.birdAgonizing())
+            if(LoafKotsky.requestChop())
             {
-               LoafKotsky.proseWindy.adviseDildo(param1.readShort());
+               LoafKotsky.halfWaiting.noxiousTax(param1.readShort());
             }
          });
-         competitionSisters(36876,function(param1:ByteArray):void
+         suzukaCreator(36876,function(param1:ByteArray):void
          {
-            BerryAnus.cribSatisfy.superMetal(param1.readInt());
+            BerryAnus.touchSerious.armyHistorical(param1.readInt());
          });
-         competitionSisters(36877,function(param1:ByteArray):void
+         suzukaCreator(36877,function(param1:ByteArray):void
          {
-            SignCard.requestRare(param1.readUTF());
+            SignCard.rareFix(param1.readUTF());
          });
-         competitionSisters(36878,function(param1:ByteArray):void
+         suzukaCreator(36878,function(param1:ByteArray):void
          {
-            FaithfulJoyous.proseWindy.staleBorrow(FaithfulJoyous.lipCrowded,RecogniseCompetition.mouseDelightful(BalvankaNotebook.flowerCard));
-            FaithfulJoyous.proseWindy.staleBorrow(FaithfulJoyous.agreeableScintillating,RareOranges.illustriousPipka);
-            BorrowProbable.knifeRare(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(BalvankaNotebook.companyJuice),RecogniseCompetition.mouseDelightful(RecogniseTrail.borrowRequest) + RareOranges.illustriousPipka + RecogniseCompetition.mouseDelightful(BerryMouse.crashAnnoying)));
+            TastelessHateful.halfWaiting.borrowNoxious(TastelessHateful.milkyAnus,OrderUnit.probableLip(GullibleLook.spuriousDetermined));
+            TastelessHateful.halfWaiting.borrowNoxious(TastelessHateful.spuriousGullible,RareOranges.advisePat);
+            BorrowProbable.trailAir(BerryAgreeable.orangesCompetition(PinusSand.companyInexpensive,PanoramicProbable.lookRobin + RareOranges.advisePat + OrderUnit.probableLip(PinusSand.whisperSense)));
          });
       }
       
-      public static function orangeBalvanka(param1:Boolean) : LoafSwanky
+      public static function programAlluring() : LoafSwanky
       {
-         return new LoafSwanky(WhistleProbable.largeStore).trailSatisfy(param1);
+         return new LoafSwanky(WhistleProbable.crownSeed);
       }
       
-      public static function airScratch(param1:int, param2:int) : LoafSwanky
+      public static function crownPail(param1:int) : LoafSwanky
       {
-         return new LoafSwanky(WhistleProbable.hateBorrow).markKuruma(param1).markKuruma(param2);
+         return new LoafSwanky(WhistleProbable.kotskyBurn).rareList(param1);
       }
       
-      public static function icyGrate(param1:int, param2:ByteArray) : void
+      public static function chopCrime(param1:String, param2:String) : LoafSwanky
       {
-         var _loc3_:Function = WhistleProbable.trailSisters[param1];
-         if(_loc3_)
-         {
-            _loc3_(param2);
-            return;
-         }
-         TiresomeColor.yellCoal();
-         throw new Error(AnusSeed.robinMighty + param1.toString(CoalWhisper.burnViolet));
+         return new LoafSwanky(38151).taxWaiting(param1).taxWaiting(param2);
       }
       
-      public static function partyBalvanka(param1:int, param2:int) : LoafSwanky
+      public static function coalBurn() : LoafSwanky
       {
-         return new LoafSwanky(WhistleProbable.entertainingTiresome).markKuruma(param1).injureScale(param2);
-      }
-      
-      public static function pearArmy() : LoafSwanky
-      {
-         return new LoafSwanky(WhistleProbable.taxBorrow);
-      }
-      
-      public static function pailHanging(param1:int) : LoafSwanky
-      {
-         return new LoafSwanky(WhistleProbable.agreeableHateful).sighOrange(param1);
-      }
-      
-      public static function bashfulSerious() : LoafSwanky
-      {
-         return new LoafSwanky(WhistleProbable.planJumbled);
-      }
-      
-      public static function competitionSisters(param1:int, param2:Function) : void
-      {
-         if(WhistleProbable.trailSisters[param1])
-         {
-            throw new Error(AnusSeed.agreeableFeeble);
-         }
-         WhistleProbable.trailSisters[param1] = param2;
-      }
-      
-      public static function armyFix(param1:String, param2:String) : LoafSwanky
-      {
-         return new LoafSwanky(38151).subduedUncle(param1).subduedUncle(param2);
+         return new LoafSwanky(WhistleProbable.proseObtainable);
       }
    }
 }

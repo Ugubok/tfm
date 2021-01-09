@@ -7,19 +7,19 @@ package
    public class ActionJumbled
    {
       
-      public static var slipBag:MovieClip;
+      public static var hystericalSwanky:MovieClip;
       
-      public static var buryCard:TextField;
+      public static var chickenTax:TextField;
       
-      public static var companyLip:Bitmap;
+      public static var noxiousIcy:Bitmap;
       
-      public static var probableKnife:Bitmap;
+      public static var competitionOrder:Bitmap;
       
-      public static var metalSeed:Bitmap;
+      public static var confusedDelightful:Bitmap;
       
-      public static var kotskyDetermined:Bitmap;
+      public static var deliverPail:Bitmap;
       
-      public static var scratchTiresome:Bitmap;
+      public static var pinusLook:Bitmap;
        
       
       public function ActionJumbled()
@@ -27,50 +27,50 @@ package
          super();
       }
       
-      public static function chickensSign(param1:int, param2:int) : void
+      public static function statementComplex(param1:int, param2:int) : void
       {
          var _loc3_:String = null;
-         if(param2 == RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+         if(ReligionStore.trailInstruct == param2)
          {
             return;
          }
-         if(!ActionJumbled.slipBag)
+         if(!ActionJumbled.hystericalSwanky)
          {
-            ActionJumbled.slipBag = AgreeableHistorical.probableCute(LipStore.storeWaiting);
-            ActionJumbled.buryCard = ActionJumbled.slipBag.x_clip.x_num;
-            ActionJumbled.buryCard.styleSheet = AdmireStore.proseWindy.agonizingThick;
-            ActionJumbled.companyLip = AgreeableHistorical.religionSign(RecogniseCompetition.mouseDelightful(LaborerFeeble.entertainingSpurious));
-            ActionJumbled.probableKnife = AgreeableHistorical.religionSign(ArmyObtainable.deliverStomach);
-            ActionJumbled.metalSeed = AgreeableHistorical.religionSign(RecogniseCompetition.mouseDelightful(RecogniseTrail.dildoCrash));
-            ActionJumbled.kotskyDetermined = AgreeableHistorical.religionSign(AlansonReligion.crowdedAgreeable);
-            ActionJumbled.scratchTiresome = AgreeableHistorical.religionSign(LipStore.bruiseSuper);
-            ActionJumbled.slipBag.x_clip.addChild(ActionJumbled.companyLip);
-            ActionJumbled.slipBag.x_clip.addChild(ActionJumbled.probableKnife);
-            ActionJumbled.slipBag.x_clip.addChild(ActionJumbled.metalSeed);
-            ActionJumbled.slipBag.x_clip.addChild(ActionJumbled.kotskyDetermined);
-            ActionJumbled.slipBag.x_clip.addChild(ActionJumbled.scratchTiresome);
-            ActionJumbled.slipBag.x = RecogniseCompetition.prepareAgree(RayYell.yellHistorical);
-            ActionJumbled.slipBag.y = DeterminedWarlike.crackerCrash;
+            ActionJumbled.hystericalSwanky = AgreeableHistorical.admireCute(SlipReligion.groundCute);
+            ActionJumbled.chickenTax = ActionJumbled.hystericalSwanky.x_clip.x_num;
+            ActionJumbled.chickenTax.styleSheet = StalePinus.halfWaiting.agreeableCrowded;
+            ActionJumbled.noxiousIcy = AgreeableHistorical.crowdedScale(OrderUnit.probableLip(ReligionStore.violetWhisper));
+            ActionJumbled.competitionOrder = AgreeableHistorical.crowdedScale(CreatorSupply.anusJoyous);
+            ActionJumbled.confusedDelightful = AgreeableHistorical.crowdedScale(OrderUnit.probableLip(AdaptableInexpensive.seriousZonked));
+            ActionJumbled.deliverPail = AgreeableHistorical.crowdedScale(ReligionStore.abaftDildo);
+            ActionJumbled.pinusLook = AgreeableHistorical.crowdedScale(ListIllustrious.chickensVolcano);
+            ActionJumbled.hystericalSwanky.x_clip.addChild(ActionJumbled.noxiousIcy);
+            ActionJumbled.hystericalSwanky.x_clip.addChild(ActionJumbled.competitionOrder);
+            ActionJumbled.hystericalSwanky.x_clip.addChild(ActionJumbled.confusedDelightful);
+            ActionJumbled.hystericalSwanky.x_clip.addChild(ActionJumbled.deliverPail);
+            ActionJumbled.hystericalSwanky.x_clip.addChild(ActionJumbled.pinusLook);
+            ActionJumbled.hystericalSwanky.x = CreatorSupply.peckStick;
+            ActionJumbled.hystericalSwanky.y = OrderUnit.apatheticRare(BatheKotsky.eliteCoal);
          }
-         if(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) > param2)
+         if(ReligionStore.trailInstruct > param2)
          {
             _loc3_ = String(param2);
          }
          else
          {
-            _loc3_ = FrailJuice.deadpanOrange + param2;
+            _loc3_ = SlipReligion.proseSand + param2;
          }
-         ActionJumbled.companyLip.visible = DeterminedPrepare.machineSigh;
-         ActionJumbled.probableKnife.visible = DeterminedPrepare.machineSigh;
-         ActionJumbled.metalSeed.visible = DeterminedPrepare.machineSigh;
-         ActionJumbled.kotskyDetermined.visible = DeterminedPrepare.machineSigh;
-         ActionJumbled.scratchTiresome.visible = DeterminedPrepare.machineSigh;
-         ActionJumbled.slipBag.gotoAndPlay(CoalRay.actionBorrow);
-         AdmireStore.proseWindy.mightyDetermined.addChild(ActionJumbled.slipBag);
-         if(LoafSlip.airKnot == param1)
+         ActionJumbled.noxiousIcy.visible = HateFaint.bladeStatement;
+         ActionJumbled.competitionOrder.visible = HateFaint.bladeStatement;
+         ActionJumbled.confusedDelightful.visible = HateFaint.bladeStatement;
+         ActionJumbled.deliverPail.visible = HateFaint.bladeStatement;
+         ActionJumbled.pinusLook.visible = HateFaint.bladeStatement;
+         ActionJumbled.hystericalSwanky.gotoAndPlay(OrderUnit.apatheticRare(CardBabies.machineOranges));
+         StalePinus.halfWaiting.crashBalvanka.addChild(ActionJumbled.hystericalSwanky);
+         if(LoafSlip.bashfulCreator == param1)
          {
-            ActionJumbled.companyLip.visible = DeterminedPrepare.hatefulComplex;
-            ActionJumbled.buryCard.htmlText = ArmyObtainable.statementCrib + _loc3_;
+            ActionJumbled.noxiousIcy.visible = HateFaint.proudGround;
+            ActionJumbled.chickenTax.htmlText = CardBabies.injureElite + _loc3_;
          }
       }
    }

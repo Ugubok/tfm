@@ -1,31 +1,31 @@
 package
 {
-   public class BirdBorrow extends DildoMark
+   public class BirdBorrow extends StayCute
    {
       
-      public static const abaftPail:BirdBorrow = new BirdBorrow(201,"$Action_Haut",function():void
+      public static const orangesJumbled:BirdBorrow = new BirdBorrow(201,"$Action_Haut",function():void
       {
-         AgreeableCrib.wingFaint(BirdOranges.statementFeeble);
+         AgreeableCrib.wickedSuzuka(BirdOranges.pailRequest);
       });
       
-      public static const actionFour:BirdBorrow = new BirdBorrow(202,"$Action_Gauche",function():void
+      public static const kurumaDecay:BirdBorrow = new BirdBorrow(202,"$Action_Gauche",function():void
       {
-         AgreeableCrib.wingFaint(BirdOranges.injureThick);
+         AgreeableCrib.wickedSuzuka(BirdOranges.tastelessAction);
       });
       
-      public static const warlikeHarmony:BirdBorrow = new BirdBorrow(203,"$Action_Bas",function():void
+      public static const knotFeeble:BirdBorrow = new BirdBorrow(203,"$Action_Bas",function():void
       {
-         AgreeableCrib.wingFaint(BirdOranges.adaptableFaithful);
+         AgreeableCrib.wickedSuzuka(BirdOranges.agreeTouch);
       });
       
-      public static const robinSense:BirdBorrow = new BirdBorrow(204,"$Action_Droite",function():void
+      public static const violetSwanky:BirdBorrow = new BirdBorrow(204,"$Action_Droite",function():void
       {
-         AgreeableCrib.wingFaint(BirdOranges.cribAgreeable);
+         AgreeableCrib.wickedSuzuka(BirdOranges.pipkaAdmire);
       });
       
-      public static const complexCute:BirdBorrow = new BirdBorrow(225,"Ouvrir l\'inventaire",function():void
+      public static const competitionVolcano:BirdBorrow = new BirdBorrow(225,"Ouvrir l\'inventaire",function():void
       {
-         PatRobin.requestRare(!PatRobin.pearKotsky());
+         PatRobin.rareFix(!PatRobin.admirePinus());
       });
        
       
@@ -34,30 +34,30 @@ package
          super(param1,param2,param3,param4);
       }
       
-      public static function eliteStore(param1:int) : Boolean
+      public static function laborerMark(param1:int) : Boolean
       {
-         if(!RobinAdaptable.stomachFaithful || !RobinAdaptable.stomachFaithful.distroJumbled)
+         if(!RobinAdaptable.pailBurn || !RobinAdaptable.pailBurn.listInvite)
          {
             return false;
          }
-         if(BirdOranges.cribAgreeable == param1)
+         if(BirdOranges.pipkaAdmire == param1)
          {
-            DeterminedHistorical.proudLaborer = DeterminedPrepare.hatefulComplex;
+            DeterminedHistorical.tastelessPat = HateFaint.proudGround;
             return true;
          }
-         if(param1 == BirdOranges.injureThick)
+         if(param1 == BirdOranges.tastelessAction)
          {
-            DeterminedHistorical.hangingSubdued = DeterminedPrepare.hatefulComplex;
+            DeterminedHistorical.swankyFaint = HateFaint.proudGround;
             return true;
          }
-         if(param1 == BirdOranges.statementFeeble)
+         if(param1 == BirdOranges.pailRequest)
          {
-            DeterminedHistorical.amuseLeg = DeterminedPrepare.hatefulComplex;
+            DeterminedHistorical.flowerSupply = HateFaint.proudGround;
             return true;
          }
-         if(BirdOranges.adaptableFaithful == param1)
+         if(BirdOranges.agreeTouch == param1)
          {
-            DeterminedHistorical.signRare = DeterminedPrepare.hatefulComplex;
+            DeterminedHistorical.mightyWhistle = HateFaint.proudGround;
             return true;
          }
          return false;

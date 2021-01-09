@@ -6,8 +6,8 @@ package
       
       public function KnotYell(param1:Boolean)
       {
-         super(ArmyObtainable.kurumaBird,RecogniseCompetition.prepareAgree(ConfusedPeck.lamentableDelightful));
-         staySigh.writeByte(!!param1?int(CoalRay.actionBorrow):int(HystericalKotsky.notebookChivalrous));
+         super(CardBabies.senseCrown,GullibleLook.unequaledJumbled);
+         lamentableSpurious.writeByte(!!param1?int(CardBabies.machineOranges):int(OrderUnit.apatheticRare(ReligionStore.trailInstruct)));
       }
    }
 }

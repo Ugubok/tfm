@@ -6,14 +6,14 @@ package
       
       public function AnnoyingPinus(param1:String, param2:String, param3:String, param4:String, param5:String, param6:String)
       {
-         super(RecogniseCompetition.prepareAgree(AlansonReligion.statementScratch),AdviseRobin.obtainablePear);
-         staySigh.writeUTF(param1);
-         staySigh.writeUTF(param2);
-         staySigh.writeUTF(param3);
-         staySigh.writeUTF(param4);
-         staySigh.writeUTF(param5);
-         staySigh.writeUTF(param6);
-         lipStay = DeterminedPrepare.hatefulComplex;
+         super(WaitingCrib.statementDecay,OrderUnit.apatheticRare(VolcanoStay.proudWaiting));
+         lamentableSpurious.writeUTF(param1);
+         lamentableSpurious.writeUTF(param2);
+         lamentableSpurious.writeUTF(param3);
+         lamentableSpurious.writeUTF(param4);
+         lamentableSpurious.writeUTF(param5);
+         lamentableSpurious.writeUTF(param6);
+         laborerTouch = HateFaint.proudGround;
       }
    }
 }

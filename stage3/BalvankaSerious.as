@@ -5,75 +5,75 @@ package
    public class BalvankaSerious
    {
       
-      public static const metalBabies:BalvankaSerious = new BalvankaSerious(7949 + -7946);
+      public static const noxiousSwanky:BalvankaSerious = new BalvankaSerious( 3);
       
-      public static const fixLarge:BalvankaSerious = new BalvankaSerious(5038 + -5033);
+      public static const laborerChop:BalvankaSerious = new BalvankaSerious( 5);
       
-      public static const touchMouse:BalvankaSerious = new BalvankaSerious(1263 + -1256);
+      public static const supplyLip:BalvankaSerious = new BalvankaSerious( 7);
       
-      public static const pinusElite:BalvankaSerious = new BalvankaSerious(5556 + -5546);
+      public static const wanderingSuper:BalvankaSerious = new BalvankaSerious( 10);
       
-      public static const suzukaMouse:BalvankaSerious = new BalvankaSerious(93 + -82);
+      public static const hateWicked:BalvankaSerious = new BalvankaSerious( 11);
       
-      public static const supplyOranges:BalvankaSerious = new BalvankaSerious(9940 + -9928);
+      public static const fascinatedYell:BalvankaSerious = new BalvankaSerious( 12);
       
-      public static const noxiousFlower:BalvankaSerious = new BalvankaSerious(7564 + -7551);
+      public static const uncleCoal:BalvankaSerious = new BalvankaSerious( 13);
       
-      public static const deadpanLunasole:BalvankaSerious = new BalvankaSerious(2259 + -2244);
+      public static const adhesiveParty:BalvankaSerious = new BalvankaSerious( 15);
       
-      public static const cribHydrant:Dictionary = new Dictionary();
+      public static const adaptableFaithful:Dictionary = new Dictionary();
       
       {
-         BalvankaSerious.cribHydrant[BalvankaSerious.metalBabies.lipAdmire] = BalvankaSerious.metalBabies;
-         BalvankaSerious.cribHydrant[BalvankaSerious.touchMouse.lipAdmire] = BalvankaSerious.touchMouse;
-         BalvankaSerious.cribHydrant[BalvankaSerious.fixLarge.lipAdmire] = BalvankaSerious.fixLarge;
-         BalvankaSerious.cribHydrant[BalvankaSerious.pinusElite.lipAdmire] = BalvankaSerious.pinusElite;
-         BalvankaSerious.cribHydrant[BalvankaSerious.suzukaMouse.lipAdmire] = BalvankaSerious.suzukaMouse;
-         BalvankaSerious.cribHydrant[BalvankaSerious.supplyOranges.lipAdmire] = BalvankaSerious.supplyOranges;
-         BalvankaSerious.cribHydrant[BalvankaSerious.noxiousFlower.lipAdmire] = BalvankaSerious.noxiousFlower;
-         BalvankaSerious.cribHydrant[BalvankaSerious.deadpanLunasole.lipAdmire] = BalvankaSerious.deadpanLunasole;
+         BalvankaSerious.adaptableFaithful[BalvankaSerious.noxiousSwanky.knifeStick] = BalvankaSerious.noxiousSwanky;
+         BalvankaSerious.adaptableFaithful[BalvankaSerious.supplyLip.knifeStick] = BalvankaSerious.supplyLip;
+         BalvankaSerious.adaptableFaithful[BalvankaSerious.laborerChop.knifeStick] = BalvankaSerious.laborerChop;
+         BalvankaSerious.adaptableFaithful[BalvankaSerious.wanderingSuper.knifeStick] = BalvankaSerious.wanderingSuper;
+         BalvankaSerious.adaptableFaithful[BalvankaSerious.hateWicked.knifeStick] = BalvankaSerious.hateWicked;
+         BalvankaSerious.adaptableFaithful[BalvankaSerious.fascinatedYell.knifeStick] = BalvankaSerious.fascinatedYell;
+         BalvankaSerious.adaptableFaithful[BalvankaSerious.uncleCoal.knifeStick] = BalvankaSerious.uncleCoal;
+         BalvankaSerious.adaptableFaithful[BalvankaSerious.adhesiveParty.knifeStick] = BalvankaSerious.adhesiveParty;
       }
       
-      public var lipAdmire:int;
+      public var knifeStick:int;
       
       public function BalvankaSerious(param1:int)
       {
          super();
-         this.lipAdmire = param1;
+         this.knifeStick = param1;
       }
       
-      public static function deadpanEntertaining(param1:Vector.<int>) : void
+      public static function dildoAbaft(param1:int) : BalvankaSerious
+      {
+         var _loc2_:BalvankaSerious = BalvankaSerious.adaptableFaithful[param1];
+         if(_loc2_)
+         {
+            return _loc2_;
+         }
+         return null;
+      }
+      
+      public static function seriousUnit(param1:Vector.<int>) : void
       {
          var _loc3_:int = 0;
          var _loc4_:BalvankaSerious = null;
          var _loc2_:Vector.<BalvankaSerious> = new Vector.<BalvankaSerious>();
          for each(_loc3_ in param1)
          {
-            _loc4_ = BalvankaSerious.tastelessBag(_loc3_);
+            _loc4_ = BalvankaSerious.dildoAbaft(_loc3_);
             if(_loc4_)
             {
                _loc2_.push(_loc4_);
             }
          }
-         RareOranges.berryTax = _loc2_;
-         RareOranges.noiselessSisters = RareOranges.faithfulHate(BalvankaSerious.metalBabies);
-         RareOranges.admireChicken = RareOranges.faithfulHate(BalvankaSerious.touchMouse);
-         RareOranges.markFaithful = RareOranges.faithfulHate(BalvankaSerious.fixLarge);
-         RareOranges.warlikeDildo = RareOranges.faithfulHate(BalvankaSerious.pinusElite);
-         RareOranges.chickenFaithful = RareOranges.faithfulHate(BalvankaSerious.suzukaMouse);
-         RareOranges.volcanoCommon = RareOranges.faithfulHate(BalvankaSerious.supplyOranges);
-         RareOranges.partyRequest = RareOranges.faithfulHate(BalvankaSerious.noxiousFlower);
-         RareOranges.pinusFeeble = RareOranges.faithfulHate(BalvankaSerious.deadpanLunasole);
-      }
-      
-      public static function tastelessBag(param1:int) : BalvankaSerious
-      {
-         var _loc2_:BalvankaSerious = BalvankaSerious.cribHydrant[param1];
-         if(_loc2_)
-         {
-            return _loc2_;
-         }
-         return null;
+         RareOranges.groundMouse = _loc2_;
+         RareOranges.satisfyMark = RareOranges.obeisantWhistle(BalvankaSerious.noxiousSwanky);
+         RareOranges.crackerCompany = RareOranges.obeisantWhistle(BalvankaSerious.supplyLip);
+         RareOranges.statementZonked = RareOranges.obeisantWhistle(BalvankaSerious.laborerChop);
+         RareOranges.scintillatingWicked = RareOranges.obeisantWhistle(BalvankaSerious.wanderingSuper);
+         RareOranges.bladeCrown = RareOranges.obeisantWhistle(BalvankaSerious.hateWicked);
+         RareOranges.adhesiveNoiseless = RareOranges.obeisantWhistle(BalvankaSerious.fascinatedYell);
+         RareOranges.hydrantAgonizing = RareOranges.obeisantWhistle(BalvankaSerious.uncleCoal);
+         RareOranges.gullibleWhistle = RareOranges.obeisantWhistle(BalvankaSerious.adhesiveParty);
       }
    }
 }

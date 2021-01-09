@@ -4,14 +4,14 @@ package
    {
        
       
-      public var orangeRequest:Array;
+      public var waitingSisters:Array;
       
-      public var eliteInstruct:Array;
+      public var noxiousAlluring:Array;
       
       public function SeriousAnnoying()
       {
-         this.orangeRequest = [HystericalKotsky.notebookChivalrous,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous)];
-         this.eliteInstruct = [HystericalKotsky.notebookChivalrous,HystericalKotsky.notebookChivalrous];
+         this.waitingSisters = [ReligionStore.trailInstruct,ReligionStore.trailInstruct];
+         this.noxiousAlluring = [OrderUnit.apatheticRare(ReligionStore.trailInstruct),ReligionStore.trailInstruct];
          super();
       }
    }

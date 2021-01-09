@@ -1,49 +1,36 @@
 package
 {
-   import flash.utils.ByteArray;
-   
-   public class BabiesStore extends JumbledKuruma implements InexpensiveSlip
+   public class BabiesStore extends SeriousFragile
    {
+      
+      public static var halfWaiting:BabiesStore;
        
       
-      public var idSequence:int;
-      
-      public var frailAgree:BatheZonked;
-      
-      public function BabiesStore(param1:int)
+      public function BabiesStore()
       {
          super();
-         this.idSequence = param1;
       }
       
-      public function getIdSequence() : int
+      public static function rareFix(param1:Boolean) : void
       {
-         return this.idSequence;
-      }
-      
-      public function get mightyHateful() : String
-      {
-         return RecogniseCompetition.mouseDelightful(RayYell.quirkyTasteless);
-      }
-      
-      public function get typeTaille() : int
-      {
-         return SlipAdaptable.deadpanHanging;
-      }
-      
-      public function joyousSign() : Boolean
-      {
-         return false;
-      }
-      
-      override public function harmonyWhisper() : int
-      {
-         return RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable);
-      }
-      
-      override public function ecriture(param1:ByteArray) : void
-      {
-         param1.writeInt(this.idSequence);
+         if(param1)
+         {
+            if(!BabiesStore.halfWaiting)
+            {
+               BabiesStore.halfWaiting = new BabiesStore();
+            }
+            CrashAlanson.yellObtainable(BabiesStore.halfWaiting,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+            KnotOranges.dildoCracker(false);
+         }
+         else
+         {
+            if(BabiesStore.halfWaiting && BabiesStore.halfWaiting.parent)
+            {
+               BabiesStore.halfWaiting.parent.removeChild(BabiesStore.halfWaiting);
+            }
+            KnotOranges.dildoCracker(true);
+         }
+         StalePinus.halfWaiting.stickStatement = param1;
       }
    }
 }

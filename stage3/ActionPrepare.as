@@ -6,40 +6,40 @@ package
    {
        
       
-      public var waitingGrate:String;
+      public var actionCrown:int;
       
-      public var berryTax:int;
+      public var squeamishUnequaled:String;
       
-      public function ActionPrepare(param1:String = null, param2:int = 0)
+      public function ActionPrepare(param1:int = 0, param2:String = null)
       {
          super();
-         this.waitingGrate = param1;
-         this.berryTax = param2;
+         this.actionCrown = param1;
+         this.squeamishUnequaled = param2;
       }
       
-      public static function gullibleMighty(param1:ByteArray) : ActionPrepare
+      public static function squeamishAgree(param1:ByteArray) : ActionPrepare
       {
          var _loc2_:ActionPrepare = new ActionPrepare();
          _loc2_.lecture(param1);
          return _loc2_;
       }
       
-      public function waitingStupid() : int
+      public function backJuice() : int
       {
-         return RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous) + this.waitingGrate.length;
+         return BatheKotsky.milkyEntertaining + this.squeamishUnequaled.length;
       }
       
       public function ecriture(param1:ByteArray) : void
       {
-         param1.writeUTF(this.waitingGrate);
-         param1.writeInt(this.berryTax);
+         param1.writeInt(this.actionCrown);
+         param1.writeUTF(this.squeamishUnequaled);
       }
       
       public function lecture(param1:ByteArray) : void
       {
+         this.actionCrown = param1.readInt();
          var _loc2_:int = param1.readShort();
-         this.waitingGrate = param1.readUTFBytes(_loc2_);
-         this.berryTax = param1.readInt();
+         this.squeamishUnequaled = param1.readUTFBytes(_loc2_);
       }
    }
 }

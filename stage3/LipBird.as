@@ -13,107 +13,107 @@ package
       
       public var y:int;
       
-      public var scintillatingCoal:int;
+      public var storeAmuse:int;
       
-      public var delightfulAlanson:int;
+      public var babiesSubdued:int;
       
-      public var agonizingScratch:int;
+      public var patGate:int;
       
-      public var agreeableSense:int;
+      public var markRay:int;
       
-      public var chopJumbled:int;
+      public var obeisantInexpensive:int;
       
-      public var jumbledCrib:int;
+      public var markTremble:int;
       
-      public var slipAlanson:int;
+      public var anusTouch:int;
       
       public function LipBird(param1:int, param2:int, param3:int, param4:int, param5:int)
       {
          super();
          this.x = param1;
          this.y = param2;
-         this.scintillatingCoal = param3;
-         this.delightfulAlanson = param4;
-         this.slipAlanson = param5;
-         this.agonizingScratch = this.x + this.scintillatingCoal;
-         this.agreeableSense = this.y + this.delightfulAlanson;
-         this.chopJumbled = this.x + this.scintillatingCoal / LaborerFeeble.instructBathe;
-         this.jumbledCrib = this.y + this.delightfulAlanson / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
+         this.storeAmuse = param3;
+         this.babiesSubdued = param4;
+         this.anusTouch = param5;
+         this.patGate = this.storeAmuse + this.x;
+         this.markRay = this.y + this.babiesSubdued;
+         this.obeisantInexpensive = this.x + this.storeAmuse / OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+         this.markTremble = this.y + this.babiesSubdued / PinusSand.jumbledTiresome;
       }
       
-      public function satisfyLaborer(param1:DisplayObject) : int
+      public function lunasoleOranges(param1:DisplayObject) : int
       {
          if(!param1)
          {
-            return RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+            return ReligionStore.trailInstruct;
          }
-         var _loc2_:int = param1.x - param1.width / LaborerFeeble.instructBathe;
-         var _loc3_:int = param1.y - param1.height / LaborerFeeble.instructBathe;
+         var _loc2_:int = param1.x - param1.width / OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+         var _loc3_:int = param1.y - param1.height / PinusSand.jumbledTiresome;
          var _loc4_:int = param1.x;
          var _loc5_:int = param1.y;
-         var _loc6_:int = param1.x + param1.width / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-         var _loc7_:int = param1.y + param1.height / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-         if(_loc4_ > this.x && _loc4_ < this.agonizingScratch && _loc5_ > this.y && _loc5_ < this.agreeableSense)
+         var _loc6_:int = param1.x + param1.width / OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+         var _loc7_:int = param1.y + param1.height / OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+         if(_loc4_ > this.x && _loc4_ < this.patGate && _loc5_ > this.y && _loc5_ < this.markRay)
          {
-            return RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping);
+            return AdmireUncle.crimeCreator;
          }
-         if(_loc4_ > this.x && _loc4_ < this.agonizingScratch)
+         if(_loc4_ > this.x && _loc4_ < this.patGate)
          {
-            if(_loc7_ > this.y && _loc7_ < this.agreeableSense)
+            if(_loc7_ > this.y && _loc7_ < this.markRay)
             {
-               return RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird);
+               return GullibleLook.unequaledJumbled;
             }
-            if(_loc3_ < this.agreeableSense && _loc3_ > this.y)
+            if(_loc3_ < this.markRay && _loc3_ > this.y)
             {
-               return RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
+               return OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
             }
          }
-         else if(_loc5_ > this.y && _loc5_ < this.agreeableSense)
+         else if(_loc5_ > this.y && _loc5_ < this.markRay)
          {
-            if(_loc6_ > this.x && _loc6_ < this.agonizingScratch)
+            if(_loc6_ > this.x && _loc6_ < this.patGate)
             {
-               return RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable);
+               return OrderUnit.apatheticRare(CardBabies.senseCrown);
             }
-            if(_loc2_ < this.agonizingScratch && _loc2_ > this.x)
+            if(_loc2_ < this.patGate && _loc2_ > this.x)
             {
-               return BruiseBorrow.taxChivalrous;
+               return OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining);
             }
          }
          else
          {
-            if(_loc6_ > this.x && _loc6_ < this.agonizingScratch && _loc7_ > this.y && _loc7_ < this.agreeableSense)
+            if(_loc6_ > this.x && _loc6_ < this.patGate && _loc7_ > this.y && _loc7_ < this.markRay)
             {
-               return RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear);
+               return VolcanoStay.proudWaiting;
             }
-            if(_loc2_ < this.agonizingScratch && _loc2_ > this.x && _loc7_ > this.y && _loc7_ < this.agreeableSense)
+            if(_loc2_ < this.patGate && _loc2_ > this.x && _loc7_ > this.y && _loc7_ < this.markRay)
             {
-               return HystericalKotsky.lunasoleHate;
+               return StupidCoal.chivalrousSatisfy;
             }
-            if(_loc6_ > this.x && _loc6_ < this.agonizingScratch && _loc3_ < this.agreeableSense && _loc3_ > this.y)
+            if(_loc6_ > this.x && _loc6_ < this.patGate && _loc3_ < this.markRay && _loc3_ > this.y)
             {
-               return RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+               return CardBabies.machineOranges;
             }
-            if(_loc2_ < this.agonizingScratch && _loc2_ > this.x && _loc3_ < this.agreeableSense && _loc3_ > this.y)
+            if(_loc2_ < this.patGate && _loc2_ > this.x && _loc3_ < this.markRay && _loc3_ > this.y)
             {
-               return DeterminedWarlike.deadpanBalvanka;
+               return OrderUnit.apatheticRare(SlipReligion.companyHistorical);
             }
          }
-         return HystericalKotsky.notebookChivalrous;
+         return ReligionStore.trailInstruct;
       }
       
-      public function touchKuruma() : Sprite
+      public function stayCard() : Sprite
       {
          var _loc1_:Sprite = null;
          _loc1_ = new Sprite();
          var _loc2_:TextField = new TextField();
-         _loc2_.text = LaborerFeeble.hangingCute + this.slipAlanson;
+         _loc2_.text = OrderUnit.probableLip(StupidCoal.seedPanoramic;
          var _loc3_:BitmapData = new BitmapData(_loc2_.width,_loc2_.height,true,255);
          _loc3_.draw(_loc2_);
-         _loc1_.graphics.beginFill(255,RecogniseCompetition.scaleCrown(CoalRay.orangeOrange));
-         _loc1_.graphics.drawRect(HystericalKotsky.notebookChivalrous,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),this.scintillatingCoal,this.delightfulAlanson);
+         _loc1_.graphics.beginFill(255,AdmireUncle.mouseBabies);
+         _loc1_.graphics.drawRect(ReligionStore.trailInstruct,OrderUnit.apatheticRare(ReligionStore.trailInstruct),this.storeAmuse,this.babiesSubdued);
          _loc1_.graphics.endFill();
          _loc1_.graphics.beginBitmapFill(_loc3_);
-         _loc1_.graphics.drawRect((-_loc3_.width + this.scintillatingCoal) / LaborerFeeble.instructBathe,(this.delightfulAlanson - _loc3_.height) / LaborerFeeble.instructBathe,_loc3_.width,_loc3_.height);
+         _loc1_.graphics.drawRect((-_loc3_.width + this.storeAmuse) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome),(this.babiesSubdued - _loc3_.height) / PinusSand.jumbledTiresome,_loc3_.width,_loc3_.height);
          _loc1_.graphics.endFill();
          _loc1_.x = this.x;
          _loc1_.y = this.y;

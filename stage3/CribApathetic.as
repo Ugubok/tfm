@@ -6,8 +6,8 @@ package
       
       public function CribApathetic(param1:int)
       {
-         super(LipStore.confusedSeed,RecogniseCompetition.prepareAgree(DeterminedWarlike.volcanoDelightful));
-         staySigh.writeShort(param1);
+         super(GullibleLook.unequaledJumbled,AdmireUncle.crimeCreator);
+         lamentableSpurious.writeByte(param1);
       }
    }
 }

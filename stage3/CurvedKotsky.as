@@ -6,18 +6,18 @@ package
    {
        
       
-      public var armyLook:int;
+      public var advisePat:String;
       
-      public var knotLamentable:Boolean;
+      public var patLaborer:String;
       
-      public var bruiseWaiting:Boolean;
+      public var wingPear:Boolean;
       
       public function CurvedKotsky(param1:ByteArray)
       {
          super(param1);
-         this.armyLook = param1.readInt();
-         this.knotLamentable = param1.readBoolean();
-         this.bruiseWaiting = param1.readBoolean();
+         this.advisePat = param1.readUTF();
+         this.patLaborer = param1.readUTF();
+         this.wingPear = param1.readBoolean();
       }
    }
 }

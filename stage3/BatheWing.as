@@ -4,10 +4,10 @@ package
    {
        
       
-      public function BatheWing(param1:int)
+      public function BatheWing(param1:String)
       {
-         super(RecogniseCompetition.prepareAgree(LaborerFeeble.staleMark),LaborerFeeble.agreePanoramic);
-         staySigh.writeInt(param1);
+         super(OrderUnit.apatheticRare(WanderingDecay.noiselessTasteless),OrderUnit.apatheticRare(AdmireUncle.faithfulFlower));
+         lamentableSpurious.writeUTF(param1);
       }
    }
 }

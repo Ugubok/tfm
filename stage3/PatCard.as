@@ -4,31 +4,29 @@ package
    {
        
       
-      public var agonizingBalvanka:Array;
+      public var admireBlade:Array;
       
       public var normal:KnotSwanky;
       
-      public var bladeTax:KotskyAction;
+      public var grateJumbled:KotskyAction;
       
-      public var chivalrousWarlike:BabiesHistorical;
+      public var mightyHistorical:BabiesHistorical;
       
-      public var spuriousQuirky:BabiesHistorical;
+      public var bladeSpurious:BabiesHistorical;
       
-      public var wateryStay:Number;
+      public var quirkyHydrant:Number;
       
-      public var zonkedArmy:Number;
+      public var scaleJoyous:Number;
       
-      public var grateDecay:int;
+      public var hangingDecay:int;
       
       public function PatCard()
       {
          this.normal = new KnotSwanky();
          super();
-         this.agonizingBalvanka = new Array(VioletChickens.hateElite);
-         var _loc1_:int = HystericalKotsky.notebookChivalrous;
-         while(_loc1_ < VioletChickens.hateElite)
-         {
-            this.agonizingBalvanka[_loc1_] = new ProbableSlip();
+         this.admireBlade = new Array(CribHateful.waitingLoaf);
+         var _loc1_:int = ReligionStore.trailInstruct;
+         while(_loc1_ < CribHateful.gullibleHarmony[_loc1_] = new ProbableSlip();
             _loc1_++;
          }
       }

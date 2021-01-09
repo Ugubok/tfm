@@ -3,45 +3,45 @@ package
    public class AnnoyingInstruct
    {
       
-      public static const crowdedHalf:AnnoyingInstruct = new AnnoyingInstruct(3637 + -3637,AnusKnot.stickHydrant.lipAdmire,RecogniseCompetition.mouseDelightful("x_fond_dessin_halloween.jpg"));
+      public static const fourVolcano:AnnoyingInstruct = new AnnoyingInstruct( 0,AnusKnot.hangingFix.knifeStick,"x_fond_dessin_halloween.jpg");
       
-      public static const requestFrail:AnnoyingInstruct = new AnnoyingInstruct(8548 + -8547,AnusKnot.jumbledLook.lipAdmire,RecogniseCompetition.mouseDelightful("x_fond_dessin_noel.jpg"));
+      public static const unequaledLight:AnnoyingInstruct = new AnnoyingInstruct( 1,AnusKnot.proudScale.knifeStick,"x_fond_dessin_noel.jpg");
       
-      public static const stupidHysterical:AnnoyingInstruct = new AnnoyingInstruct(1436 + -1434,AnusKnot.loafCrime.lipAdmire,"x_fond_dessin_stvalentin.jpg");
+      public static const orderLabel:AnnoyingInstruct = new AnnoyingInstruct( 2,AnusKnot.dildoFeeble.knifeStick,OrderUnit.probableLip("x_fond_dessin_stvalentin.jpg"));
       
-      public static const sandLeg:AnnoyingInstruct = new AnnoyingInstruct(6980 + -6977,AnusKnot.lamentableInexpensive.lipAdmire,RecogniseCompetition.mouseDelightful("x_fond_dessin_potager.jpg"));
+      public static const listEntertaining:AnnoyingInstruct = new AnnoyingInstruct( 3,AnusKnot.laborerGate.knifeStick,OrderUnit.probableLip("x_fond_dessin_potager.jpg"));
       
-      public static const hydrantIcy:AnnoyingInstruct = new AnnoyingInstruct(4006 + -4002,AnusKnot.stayBack.lipAdmire,"x_fond_dessin_stpatrick.jpg");
+      public static const zonkedOrange:AnnoyingInstruct = new AnnoyingInstruct( 4,AnusKnot.coalDecay.knifeStick,OrderUnit.probableLip("x_fond_dessin_stpatrick.jpg"));
       
-      public static const recognisePeck:Vector.<AnnoyingInstruct> = new Vector.<AnnoyingInstruct>();
+      public static const staleWhisper:Vector.<AnnoyingInstruct> = new Vector.<AnnoyingInstruct>();
       
       {
-         AnnoyingInstruct.recognisePeck.push(AnnoyingInstruct.crowdedHalf);
-         AnnoyingInstruct.recognisePeck.push(AnnoyingInstruct.requestFrail);
-         AnnoyingInstruct.recognisePeck.push(AnnoyingInstruct.stupidHysterical);
-         AnnoyingInstruct.recognisePeck.push(AnnoyingInstruct.sandLeg);
-         AnnoyingInstruct.recognisePeck.push(AnnoyingInstruct.hydrantIcy);
+         AnnoyingInstruct.staleWhisper.push(AnnoyingInstruct.fourVolcano);
+         AnnoyingInstruct.staleWhisper.push(AnnoyingInstruct.unequaledLight);
+         AnnoyingInstruct.staleWhisper.push(AnnoyingInstruct.orderLabel);
+         AnnoyingInstruct.staleWhisper.push(AnnoyingInstruct.listEntertaining);
+         AnnoyingInstruct.staleWhisper.push(AnnoyingInstruct.zonkedOrange);
       }
       
-      public var lipAdmire:int;
+      public var knifeStick:int;
       
-      public var agreeBag:int;
+      public var orderWing:int;
       
       public var url:String;
       
       public function AnnoyingInstruct(param1:int, param2:int, param3:String)
       {
          super();
-         this.lipAdmire = param1;
+         this.knifeStick = param1;
          this.url = param3;
-         this.agreeBag = param2;
+         this.orderWing = param2;
       }
       
-      public static function tastelessBag(param1:int) : AnnoyingInstruct
+      public static function dildoAbaft(param1:int) : AnnoyingInstruct
       {
-         if(param1 >= HystericalKotsky.notebookChivalrous && param1 < AnnoyingInstruct.recognisePeck.length)
+         if(param1 >= OrderUnit.apatheticRare(ReligionStore.trailInstruct) && param1 < AnnoyingInstruct.staleWhisper.length)
          {
-            return AnnoyingInstruct.recognisePeck[param1];
+            return AnnoyingInstruct.staleWhisper[param1];
          }
          return null;
       }

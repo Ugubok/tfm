@@ -6,11 +6,11 @@ package
    {
        
       
-      function get berryViolet() : BabiesLoaf;
+      function get feebleMachine() : BabiesLoaf;
       
-      function set berryViolet(param1:BabiesLoaf) : void;
+      function set feebleMachine(param1:BabiesLoaf) : void;
       
-      function harmonyWhisper() : int;
+      function complexHeal() : int;
       
       function ecriture(param1:ByteArray) : void;
    }

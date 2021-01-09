@@ -6,49 +6,49 @@ package
    {
        
       
-      public var berryViolet:BalvankaSpurious;
+      public var feebleMachine:BalvankaSpurious;
       
-      public var juiceComplex:String;
+      public var gullibleAnus:String;
       
-      public var lookScintillating:String;
+      public var lookBashful:String;
       
       public function KotskyCurved(param1:BalvankaSpurious)
       {
          super();
-         this.berryViolet = param1;
+         this.feebleMachine = param1;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RecogniseCompetition.mouseDelightful(RayYell.quirkyTasteless);
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      public function harmonyWhisper() : int
+      public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable) + this.juiceComplex.length + this.lookScintillating.length;
+         return CardBabies.senseCrown + this.gullibleAnus.length + this.lookBashful.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.juiceComplex = param1.readUTFBytes(_loc2_);
+         this.gullibleAnus = param1.readUTFBytes(_loc2_);
          var _loc3_:int = param1.readShort();
-         this.lookScintillating = param1.readUTFBytes(_loc3_);
+         this.lookBashful = param1.readUTFBytes(_loc3_);
       }
       
-      public function get prepareHate() : int
+      public function get yellOrder() : int
       {
-         return RecogniseCompetition.prepareAgree(LaborerFeeble.noxiousLarge);
+         return RayAmuse.quirkyBury;
       }
    }
 }

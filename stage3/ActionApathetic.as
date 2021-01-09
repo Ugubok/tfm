@@ -3,70 +3,58 @@ package
    public class ActionApathetic extends SeriousFragile
    {
       
-      public static const amuseIcy:int = 6;
+      public static const scratchRare:int =  6;
        
       
-      public var pailPear:Boolean;
+      public var pailKnife:Boolean;
       
-      public var coalSlip:ProbableChickens;
+      public var subduedWing:ProbableChickens;
       
-      public var volcanoLook:SpuriousAnnoying;
+      public var metalAlanson:SpuriousAnnoying;
       
       public function ActionApathetic(param1:Boolean = true)
       {
-         super(!!param1?int(Math.max(ProbableChickens.groundQuirky,SpuriousAnnoying.groundQuirky)):int(ProbableChickens.groundQuirky + ActionApathetic.amuseIcy + SpuriousAnnoying.groundQuirky),!!param1?int(ProbableChickens.faithfulNoiseless + ActionApathetic.amuseIcy + SpuriousAnnoying.faithfulNoiseless):int(Math.max(ProbableChickens.faithfulNoiseless,SpuriousAnnoying.faithfulNoiseless)));
-         this.pailPear = param1;
+         super(!!param1?int(Math.max(ProbableChickens.delightfulNoxious,SpuriousAnnoying.delightfulNoxious)):int(ProbableChickens.delightfulNoxious + ActionApathetic.scratchRare + SpuriousAnnoying.delightfulNoxious),!!param1?int(ProbableChickens.dildoReligion + ActionApathetic.scratchRare + SpuriousAnnoying.dildoReligion):int(Math.max(ProbableChickens.dildoReligion,SpuriousAnnoying.dildoReligion)));
+         this.pailKnife = param1;
       }
       
-      public function staleBury() : void
+      public function icyAdhesive() : void
       {
-         if(this.coalSlip)
+         if(this.subduedWing)
          {
             return;
          }
-         this.coalSlip = new ProbableChickens();
-         addChild(this.coalSlip);
-         if(this.pailPear)
-         {
-            this.coalSlip.x = (-ProbableChickens.groundQuirky + scintillatingCoal) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-            this.coalSlip.y = HystericalKotsky.notebookChivalrous;
+         this.subduedWing = new ProbableChickens();
+         addChild(this.subduedWing);
+         if(this.faithfulInjure.x = (storeAmuse - ProbableChickens.delightfulNoxious) / PinusSand.jumbledTiresome;
+            this.subduedWing.y = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          }
          else
          {
-            this.coalSlip.x = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-            this.coalSlip.y = (delightfulAlanson - ProbableChickens.faithfulNoiseless) / LaborerFeeble.instructBathe;
+            this.subduedWing.x = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+            this.subduedWing.y = (babiesSubdued - ProbableChickens.dildoReligion) / PinusSand.jumbledTiresome;
          }
       }
       
-      public function eliteHeal() : void
+      public function instructChivalrous() : void
       {
-         if(this.volcanoLook)
+         if(this.metalAlanson)
          {
             return;
          }
-         this.volcanoLook = new SpuriousAnnoying();
-         addChild(this.volcanoLook);
-         if(this.pailPear)
-         {
-            this.volcanoLook.x = (-SpuriousAnnoying.groundQuirky + scintillatingCoal) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-            this.volcanoLook.y = ActionApathetic.amuseIcy + SpuriousAnnoying.faithfulNoiseless;
-         }
-         else
-         {
-            this.volcanoLook.x = ActionApathetic.amuseIcy + SpuriousAnnoying.groundQuirky;
-            this.volcanoLook.y = (delightfulAlanson - SpuriousAnnoying.faithfulNoiseless) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
+         this.metalAlanson = new SpuriousAnnoying();
+         addChild(this.metalAlanson);
+         if(this.violetOrder.x = (-SpuriousAnnoying.delightfulNoxious + storeAmuse) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+            this.metalAlanson.y = SpuriousAnnoying.dildoReligion + ActionApathetic.partyTiresome.x = ActionApathetic.scratchRare + SpuriousAnnoying.delightfulNoxious;
+            this.metalAlanson.y = (babiesSubdued - SpuriousAnnoying.dildoReligion) / PinusSand.jumbledTiresome;
          }
       }
       
-      public function suzukaLight() : void
+      public function creatorMighty() : void
       {
-         if(this.coalSlip)
-         {
-            this.coalSlip.suzukaLight();
+         if(this.scintillatingViolet();
          }
-         if(this.volcanoLook)
-         {
-            this.volcanoLook.suzukaLight();
+         if(this.peckAgree();
          }
       }
    }

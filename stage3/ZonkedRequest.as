@@ -9,19 +9,19 @@ package
          super();
       }
       
-      public function scaleHanging(param1:RarePrepare) : void
+      public function markMetal(param1:CurvedAction) : void
       {
       }
       
-      public function hystericalWing(param1:CurvedCard) : void
+      public function crimeHalf(param1:SeriousYell) : void
       {
       }
       
-      public function whistleMighty(param1:RarePrepare) : void
+      public function alansonAlanson(param1:CurvedAction) : void
       {
       }
       
-      public function religionLook(param1:RarePrepare) : void
+      public function metalProgram(param1:CurvedAction) : void
       {
       }
    }

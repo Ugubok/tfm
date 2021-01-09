@@ -4,52 +4,52 @@ package
    {
        
       
-      public var waitingMighty:String;
+      public var cryIllustrious:String;
       
-      public var gateCoal:Boolean;
+      public var gatePrepare:Boolean;
       
-      public var toeParty:Vector.<DildoMark>;
+      public var icyMighty:Vector.<StayCute>;
       
       public function ProbableOranges(param1:String, param2:Boolean = true)
       {
-         this.toeParty = new Vector.<DildoMark>();
+         this.icyMighty = new Vector.<StayCute>();
          super();
-         this.waitingMighty = param1;
-         this.gateCoal = param2;
+         this.cryIllustrious = param1;
+         this.gatePrepare = param2;
       }
       
-      public function uncleCommon() : Vector.<DildoMark>
+      public function legGround(param1:Vector.<StayCute>) : ProbableOranges
       {
-         return this.toeParty;
-      }
-      
-      public function adaptableBerry(param1:Vector.<DildoMark>) : ProbableOranges
-      {
-         var _loc2_:DildoMark = null;
+         var _loc2_:StayCute = null;
          for each(_loc2_ in param1)
          {
-            this.gateSuzuka(_loc2_);
+            this.companyGullible(_loc2_);
          }
          return this;
       }
       
-      public function gateSuzuka(param1:DildoMark) : ProbableOranges
+      public function pearRobin(param1:StayCute) : void
       {
-         if(this.toeParty.indexOf(param1) != -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+         var _loc2_:int = this.icyMighty.indexOf(param1);
+         if(_loc2_ != -OrderUnit.apatheticRare(CardBabies.machineOranges))
          {
-            this.toeParty.splice(this.toeParty.indexOf(param1),CoalRay.actionBorrow);
+            this.icyMighty.splice(_loc2_,CardBabies.machineOranges);
          }
-         this.toeParty.push(param1);
-         return this;
       }
       
-      public function taxSatisfy(param1:DildoMark) : void
+      public function scaleCrown() : Vector.<StayCute>
       {
-         var _loc2_:int = this.toeParty.indexOf(param1);
-         if(_loc2_ != -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+         return this.icyMighty;
+      }
+      
+      public function companyGullible(param1:StayCute) : ProbableOranges
+      {
+         if(this.icyMighty.indexOf(param1) != -OrderUnit.apatheticRare(CardBabies.machineOranges))
          {
-            this.toeParty.splice(_loc2_,CoalRay.actionBorrow);
+            this.icyMighty.splice(this.icyMighty.indexOf(param1),CardBabies.machineOranges);
          }
+         this.icyMighty.push(param1);
+         return this;
       }
    }
 }

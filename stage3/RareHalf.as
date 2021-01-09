@@ -6,9 +6,9 @@ package
    {
        
       
-      public var supplyKnot:String;
+      public var slipStore:String;
       
-      public var birdEntertaining:int;
+      public var flowerWicked:int;
       
       public function RareHalf(param1:ByteArray)
       {
@@ -17,38 +17,38 @@ package
          var _loc7_:int = 0;
          super(param1);
          var _loc2_:int = param1.readUnsignedShort();
-         this.supplyKnot = _loc2_ + RecogniseCompetition.mouseDelightful(RayYell.bruiseDeadpan);
-         var _loc3_:int = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         var _loc4_:int = PinusTiresome.clubCommon.length;
+         this.slipStore = _loc2_ + OrderUnit.probableLip(DildoBorrow.laborerCrime);
+         var _loc3_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         var _loc4_:int = PinusTiresome.agonizingInexpensive.length;
          while(_loc3_ < _loc4_)
          {
             _loc5_ = param1.readInt();
-            if(HystericalKotsky.notebookChivalrous < _loc3_)
+            if(ReligionStore.trailInstruct < _loc3_)
             {
-               this.supplyKnot = this.supplyKnot + RecogniseCompetition.mouseDelightful(FrailJuice.lamentableLoaf);
+               this.slipStore = this.slipStore + PanoramicProbable.knifeUnequaled;
             }
-            this.supplyKnot = this.supplyKnot + _loc5_;
+            this.slipStore = this.slipStore + _loc5_;
             _loc6_ = param1.readByte();
-            if(_loc6_ > RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+            if(_loc6_ > ReligionStore.trailInstruct)
             {
-               this.supplyKnot = this.supplyKnot + BerryMouse.competitionStick;
-               _loc7_ = HystericalKotsky.notebookChivalrous;
+               this.slipStore = this.slipStore + OrderUnit.probableLip(AdmireUncle.loafDecay);
+               _loc7_ = ReligionStore.trailInstruct;
                while(_loc7_ < _loc6_)
                {
-                  if(HystericalKotsky.notebookChivalrous == _loc7_)
+                  if(ReligionStore.trailInstruct == _loc7_)
                   {
-                     this.supplyKnot = this.supplyKnot + param1.readInt().toString(CoalWhisper.burnViolet);
+                     this.slipStore = this.slipStore + param1.readInt().toString(AdmireUncle.faithfulFlower);
                   }
                   else
                   {
-                     this.supplyKnot = this.supplyKnot + (RecogniseCompetition.mouseDelightful(FrailJuice.deadpanOrange) + param1.readInt().toString(CoalWhisper.burnViolet));
+                     this.slipStore = this.slipStore + (SlipReligion.proseSand + param1.readInt().toString(OrderUnit.apatheticRare(AdmireUncle.faithfulFlower)));
                   }
                   _loc7_++;
                }
             }
             _loc3_++;
          }
-         this.birdEntertaining = param1.readInt();
+         this.flowerWicked = param1.readInt();
       }
    }
 }

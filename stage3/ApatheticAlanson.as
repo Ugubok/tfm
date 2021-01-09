@@ -4,63 +4,63 @@ package
    {
        
       
-      public var buryBabies:int;
+      public var windyList:int;
       
-      public var planChicken:int;
+      public var apatheticDeliver:int;
       
-      public var scratchMark:int;
+      public var sandBalvanka:int;
       
-      public var scintillatingList:int;
+      public var inviteBurn:int;
       
-      public var jumbledReligion:LoafGround;
+      public var harmonyTasteless:LoafGround;
       
       public function ApatheticAlanson()
       {
          super();
       }
       
-      public function get referenceEdge() : int
+      public function get cryWicked() : int
       {
-         return this.buryBabies;
+         return this.apatheticDeliver;
+      }
+      
+      public function get scintillatingInvite() : int
+      {
+         return this.inviteBurn;
       }
       
       public function set referenceEdge(param1:int) : void
       {
-         this.buryBabies = param1;
-         this.jumbledReligion.entertainingTremble = this.jumbledReligion.entertainingTremble & 4294967040 | this.buryBabies & 255;
-      }
-      
-      public function get berryRobin() : int
-      {
-         return this.scintillatingList;
-      }
-      
-      public function get alluringJuice() : int
-      {
-         return this.planChicken;
-      }
-      
-      public function set incidentVertex(param1:int) : void
-      {
-         this.scratchMark = param1;
-         this.jumbledReligion.entertainingTremble = this.jumbledReligion.entertainingTremble & 4278255615 | this.scratchMark << RecogniseCompetition.prepareAgree(CoalWhisper.burnViolet) & 16711680;
-      }
-      
-      public function set berryRobin(param1:int) : void
-      {
-         this.scintillatingList = param1;
-         this.jumbledReligion.entertainingTremble = this.jumbledReligion.entertainingTremble & 16777215 | this.scintillatingList << BerryMouse.unequaledJuice & 4278190080;
-      }
-      
-      public function set alluringJuice(param1:int) : void
-      {
-         this.planChicken = param1;
-         this.jumbledReligion.entertainingTremble = this.jumbledReligion.entertainingTremble & 4294902015 | this.planChicken << RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird) & 65280;
+         this.windyList = param1;
+         this.fascinatedDeadpan = this.fascinatedDeadpan & 4294967040 | this.windyList & 255;
       }
       
       public function get incidentVertex() : int
       {
-         return this.scratchMark;
+         return this.sandBalvanka;
+      }
+      
+      public function set scintillatingInvite(param1:int) : void
+      {
+         this.inviteBurn = param1;
+         this.fascinatedDeadpan = this.fascinatedDeadpan & 16777215 | this.inviteBurn << OrderUnit.apatheticRare(BurnFix.toeSlip) & 4278190080;
+      }
+      
+      public function set incidentVertex(param1:int) : void
+      {
+         this.sandBalvanka = param1;
+         this.fascinatedDeadpan = this.fascinatedDeadpan & 4278255615 | this.sandBalvanka << AdmireUncle.faithfulFlower & 16711680;
+      }
+      
+      public function set cryWicked(param1:int) : void
+      {
+         this.apatheticDeliver = param1;
+         this.fascinatedDeadpan = this.fascinatedDeadpan & 4294902015 | this.apatheticDeliver << GullibleLook.unequaledJumbled & 65280;
+      }
+      
+      public function get referenceEdge() : int
+      {
+         return this.windyList;
       }
    }
 }

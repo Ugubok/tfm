@@ -4,20 +4,20 @@ package
    {
        
       
-      public var notebookBathe:RobinAdaptable;
+      public var obtainableNoxious:RobinAdaptable;
       
-      public var warlikeWhisper:AlansonTiresome;
+      public var superTouch:AlansonTiresome;
       
-      public var slipCute:int;
+      public var curvedSpurious:int;
       
-      public var wanderingHistorical:Boolean = false;
+      public var religionColor:Boolean = false;
       
       public function WhistleMouse(param1:AlansonTiresome, param2:int)
       {
-         this.slipCute = HystericalKotsky.notebookChivalrous;
+         this.curvedSpurious = ReligionStore.trailInstruct;
          super();
-         this.warlikeWhisper = param1;
-         this.slipCute = param2;
+         this.superTouch = param1;
+         this.curvedSpurious = param2;
       }
    }
 }

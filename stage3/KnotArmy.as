@@ -6,8 +6,8 @@ package
       
       public function KnotArmy(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping),MetalDetermined.waitingScale);
-         staySigh.writeInt(param1);
+         super(OrderUnit.apatheticRare(LargeComplex.programAbaft),OrderUnit.apatheticRare(ReligionStore.birdAdhesive));
+         lamentableSpurious.writeByte(param1);
       }
    }
 }

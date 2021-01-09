@@ -6,46 +6,46 @@ package
    {
        
       
-      public var armyLook:int;
+      public var swankySisters:int;
       
-      public var unequaledDelightful:String;
+      public var sistersStore:String;
       
-      public var metalAgree:int;
+      public var laborerOrder:int;
       
-      public var volcanoOranges:Boolean;
+      public var touchBruise:Boolean;
       
-      public var instructChickens:String;
+      public var companyBathe:String;
       
-      public var sandToe:int;
+      public var airTax:int;
       
-      public var stupidBlade:int;
+      public var flowerSeed:int;
       
-      public var balvankaParty:Boolean;
+      public var creatorGullible:Boolean;
       
-      public var amuseMachine:Boolean;
+      public var scaleKnot:Boolean;
       
-      public var gullibleNotebook:int;
+      public var listStale:int;
       
-      public var zonkedTasteless:String;
+      public var sistersHistorical:String;
       
-      public var yellFaint:Boolean = false;
+      public var alluringMouse:Boolean = false;
       
-      public var robinKnot:Boolean = false;
+      public var machineJuice:Boolean = false;
       
       public function PatOranges(param1:ByteArray)
       {
          super(param1);
-         this.armyLook = param1.readInt();
-         this.unequaledDelightful = param1.readUTF();
-         this.metalAgree = param1.readShort();
-         this.volcanoOranges = param1.readBoolean();
-         this.instructChickens = param1.readUTF();
-         this.sandToe = param1.readShort();
-         this.stupidBlade = param1.readShort();
-         this.balvankaParty = param1.readBoolean();
-         this.amuseMachine = param1.readBoolean();
-         this.gullibleNotebook = param1.readByte();
-         this.zonkedTasteless = param1.readUTF();
+         this.swankySisters = param1.readInt();
+         this.sistersStore = param1.readUTF();
+         this.laborerOrder = param1.readShort();
+         this.touchBruise = param1.readBoolean();
+         this.companyBathe = param1.readUTF();
+         this.airTax = param1.readShort();
+         this.flowerSeed = param1.readShort();
+         this.creatorGullible = param1.readBoolean();
+         this.scaleKnot = param1.readBoolean();
+         this.listStale = param1.readByte();
+         this.sistersHistorical = param1.readUTF();
       }
    }
 }

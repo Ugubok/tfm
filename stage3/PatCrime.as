@@ -4,27 +4,27 @@ package
    {
        
       
-      public var borrowMark:int;
+      public var jumbledApathetic:int;
       
       public var userData = null;
       
-      public var wateryStay:Number;
+      public var quirkyHydrant:Number;
       
-      public var zonkedArmy:Number;
+      public var scaleJoyous:Number;
       
-      public var adhesiveJumbled:Number;
+      public var complexTasteless:Number;
       
-      public var orderCrowded:Boolean = false;
+      public var wateryNoxious:Boolean = false;
       
-      public var bladeLabel:FascinatedInstruct;
+      public var hatefulCute:FascinatedInstruct;
       
       public function PatCrime()
       {
-         this.borrowMark = HistoricalGround.windyNotebook;
-         this.wateryStay = RecogniseCompetition.scaleCrown(BruiseBorrow.largeDeliver);
-         this.zonkedArmy = RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
-         this.adhesiveJumbled = GroundFour.flowerHanging;
-         this.bladeLabel = new FascinatedInstruct();
+         this.jumbledApathetic = HistoricalGround.fixEntertaining;
+         this.quirkyHydrant = ListIllustrious.pailFour;
+         this.scaleJoyous = LargeComplex.thickCrowded;
+         this.complexTasteless = LargeComplex.thickCrowded;
+         this.hatefulCute = new FascinatedInstruct();
          super();
       }
    }

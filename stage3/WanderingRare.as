@@ -6,44 +6,44 @@ package
    {
        
       
-      public var berryViolet:BalvankaSpurious;
+      public var feebleMachine:BalvankaSpurious;
       
-      public var groundWhistle:int;
+      public var mouseFrail:int;
       
       public function WanderingRare(param1:BalvankaSpurious)
       {
          super();
-         this.berryViolet = param1;
+         this.feebleMachine = param1;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      public function harmonyWhisper() : int
+      public function complexHeal() : int
       {
-         return AdviseRobin.mouseProbable;
+         return OrderUnit.apatheticRare(CardBabies.senseCrown);
       }
       
       public function lecture(param1:ByteArray) : void
       {
-         this.groundWhistle = param1.readInt();
+         this.mouseFrail = param1.readInt();
       }
       
-      public function get prepareHate() : int
+      public function get yellOrder() : int
       {
-         return BerryMouse.unequaledJuice;
+         return OrderUnit.apatheticRare(StupidCoal.fixProbable);
       }
    }
 }

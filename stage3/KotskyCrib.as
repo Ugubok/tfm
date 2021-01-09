@@ -4,10 +4,11 @@ package
    {
        
       
-      public function KotskyCrib(param1:String)
+      public function KotskyCrib(param1:RequestCrash, param2:String)
       {
-         super(RecogniseCompetition.prepareAgree(AlansonReligion.statementScratch),CoalRay.satisfyTrail);
-         staySigh.writeUTF(param1);
+         super(OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining),LargeComplex.balvankaZonked);
+         lamentableSpurious.writeByte(param1.knifeStick);
+         lamentableSpurious.writeUTF(param2);
       }
    }
 }

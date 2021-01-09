@@ -4,10 +4,10 @@ package
    {
        
       
-      public function ApatheticYell(param1:int)
+      public function ApatheticYell(param1:String)
       {
-         super(RecogniseCompetition.prepareAgree(RayYell.seriousOrange),RayYell.stickColor);
-         sighOrange(param1);
+         super(OrderUnit.apatheticRare(GullibleLook.unequaledJumbled),RayAmuse.hydrantWatery);
+         lamentableSpurious.writeUTF(param1);
       }
    }
 }

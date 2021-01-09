@@ -4,106 +4,106 @@ package
    {
        
       
-      public var recogniseViolet:Vector.<CurvedYell>;
+      public var gullibleBird:Vector.<CurvedYell>;
       
-      public var milkySuzuka:int;
+      public var determinedHateful:int;
       
-      public var largeCrib:Function;
+      public var scratchQuirky:Function;
       
       public function ProbableFeeble(param1:int = 0, param2:int = 0)
       {
-         this.milkySuzuka = -CoalRay.actionBorrow;
+         this.determinedHateful = -OrderUnit.apatheticRare(CardBabies.machineOranges);
          super(param1,param2);
-         this.recogniseViolet = new Vector.<CurvedYell>();
+         this.gullibleBird = new Vector.<CurvedYell>();
       }
       
-      public function tastelessBury(param1:CurvedYell, param2:Boolean = true) : ProbableFeeble
-      {
-         if(this.recogniseViolet.indexOf(param1) != -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
-         {
-            return this;
-         }
-         this.recogniseViolet.push(param1);
-         cuteProse(param1);
-         param1.sandTax(this,false);
-         if(param2)
-         {
-            this.toeCompetition();
-         }
-         return this;
-      }
-      
-      public function pipkaGullible(param1:Object, param2:Boolean = true) : void
+      public function coalSign(param1:Object, param2:Boolean = true) : void
       {
          var _loc3_:CurvedYell = null;
-         for each(_loc3_ in this.recogniseViolet)
+         for each(_loc3_ in this.gullibleBird)
          {
-            if(_loc3_.seriousBerry === param1)
+            if(_loc3_.orangesCracker === param1)
             {
-               this.noxiousPlan(_loc3_,param2);
+               this.zonkedGround(_loc3_,param2);
                break;
             }
          }
       }
       
-      public function faintDeadpan(param1:int, param2:Boolean = true) : void
+      public function kotskyIllustrious(param1:int, param2:Boolean = true) : void
       {
-         if(param1 >= HystericalKotsky.notebookChivalrous && param1 < this.recogniseViolet.length)
+         if(param1 >= ReligionStore.trailInstruct && param1 < this.gullibleBird.length)
          {
-            this.noxiousPlan(this.recogniseViolet[param1],param2);
+            this.zonkedGround(this.gullibleBird[param1],param2);
          }
       }
       
-      public function decayWing() : CurvedYell
+      public function zonkedGround(param1:CurvedYell, param2:Boolean = true) : void
       {
-         if(this.recogniseViolet.length == RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
-         {
-            return null;
-         }
-         if(this.milkySuzuka < HystericalKotsky.notebookChivalrous || this.milkySuzuka >= this.recogniseViolet.length)
-         {
-            return null;
-         }
-         return this.recogniseViolet[this.milkySuzuka];
-      }
-      
-      public function noxiousPlan(param1:CurvedYell, param2:Boolean = true) : void
-      {
-         this.milkySuzuka = this.recogniseViolet.indexOf(param1);
-         this.toeCompetition();
-         if(this.milkySuzuka != -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow) && param2 && this.religionQuirky(param1);
+         this.determinedHateful = this.gullibleBird.indexOf(param1);
+         this.crimeKuruma();
+         if(this.determinedHateful != -CardBabies.machineOranges && param2 && this.hydrantOrder(param1);
          }
       }
       
-      public function toeCompetition() : void
+      public function metalHanging(param1:Function) : void
+      {
+         this.scratchQuirky = param1;
+      }
+      
+      public function crimeKuruma() : void
       {
          var _loc1_:int = 0;
          var _loc2_:int = 0;
          var _loc3_:CurvedYell = null;
-         if(HystericalKotsky.notebookChivalrous < this.recogniseViolet.length)
+         if(this.gullibleBird.length > OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
-            if(this.milkySuzuka < HystericalKotsky.notebookChivalrous || this.milkySuzuka > this.recogniseViolet.length - RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+            if(this.determinedHateful < OrderUnit.apatheticRare(ReligionStore.trailInstruct) || this.determinedHateful > this.gullibleBird.length - OrderUnit.apatheticRare(CardBabies.machineOranges))
             {
-               this.milkySuzuka = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+               this.determinedHateful = -OrderUnit.apatheticRare(CardBabies.machineOranges);
             }
-            _loc1_ = HystericalKotsky.notebookChivalrous;
-            _loc2_ = this.recogniseViolet.length;
+            _loc1_ = ReligionStore.trailInstruct;
+            _loc2_ = this.gullibleBird.length;
             while(_loc1_ < _loc2_)
             {
-               _loc3_ = this.recogniseViolet[_loc1_];
-               _loc3_.alluringArmy(_loc1_ == this.milkySuzuka);
+               _loc3_ = this.gullibleBird[_loc1_];
+               _loc3_.eliteTasteless(_loc1_ == this.determinedHateful);
                _loc1_++;
             }
          }
          else
          {
-            this.milkySuzuka = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+            this.determinedHateful = -OrderUnit.apatheticRare(CardBabies.machineOranges);
          }
       }
       
-      public function bruiseQuirky(param1:Function) : void
+      public function bashfulFour(param1:CurvedYell, param2:Boolean = true) : ProbableFeeble
       {
-         this.largeCrib = param1;
+         if(this.gullibleBird.indexOf(param1) != -CardBabies.machineOranges)
+         {
+            return this;
+         }
+         this.gullibleBird.push(param1);
+         icyCry(param1);
+         param1.adaptableMark(this,false);
+         if(param2)
+         {
+            this.crimeKuruma();
+         }
+         return this;
+      }
+      
+      public function grateCoal() : CurvedYell
+      {
+         if(this.gullibleBird.length == OrderUnit.apatheticRare(ReligionStore.trailInstruct))
+         {
+            return null;
+         }
+         if(this.determinedHateful < OrderUnit.apatheticRare(ReligionStore.trailInstruct) || this.determinedHateful >= this.gullibleBird.length)
+         {
+            return null;
+         }
+         return this.trailGround];
       }
    }
 }

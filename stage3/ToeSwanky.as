@@ -7,44 +7,44 @@ package
    {
        
       
-      public var uncleProud:Sprite;
+      public var partyAnnoying:Sprite;
       
-      public var coalCommon:Sprite;
+      public var feebleDelightful:Sprite;
       
       public function ToeSwanky()
       {
          super();
-         this.uncleProud = new Sprite();
-         this.uncleProud.mouseEnabled = DeterminedPrepare.machineSigh;
-         this.coalCommon = new Sprite();
-         this.coalCommon.mouseEnabled = DeterminedPrepare.machineSigh;
-         this.coalCommon.mouseChildren = DeterminedPrepare.machineSigh;
-         addChild(this.coalCommon);
-         addChild(this.uncleProud);
-         mouseEnabled = DeterminedPrepare.machineSigh;
+         this.partyAnnoying = new Sprite();
+         this.partyAnnoying.mouseEnabled = HateFaint.bladeStatement;
+         this.feebleDelightful = new Sprite();
+         this.feebleDelightful.mouseEnabled = HateFaint.bladeStatement;
+         this.feebleDelightful.mouseChildren = HateFaint.bladeStatement;
+         addChild(this.feebleDelightful);
+         addChild(this.partyAnnoying);
+         mouseEnabled = HateFaint.bladeStatement;
       }
       
-      public function berrySlip() : void
+      public function deadpanGround() : void
       {
-         while(this.uncleProud.numChildren > RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+         while(ReligionStore.trailInstruct < this.partyAnnoying.numChildren)
          {
-            this.uncleProud.removeChildAt(HystericalKotsky.notebookChivalrous);
+            this.partyAnnoying.removeChildAt(ReligionStore.trailInstruct);
          }
-         while(this.coalCommon.numChildren > HystericalKotsky.notebookChivalrous)
+         while(this.feebleDelightful.numChildren > ReligionStore.trailInstruct)
          {
-            this.coalCommon.removeChildAt(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
+            this.feebleDelightful.removeChildAt(ReligionStore.trailInstruct);
          }
       }
       
-      public function cardFour(param1:DisplayObject, param2:Boolean) : void
+      public function gapingIllustrious(param1:DisplayObject, param2:Boolean) : void
       {
          if(param2)
          {
-            this.uncleProud.addChild(param1);
+            this.partyAnnoying.addChild(param1);
          }
          else
          {
-            this.coalCommon.addChild(param1);
+            this.feebleDelightful.addChild(param1);
          }
       }
    }

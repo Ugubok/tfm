@@ -15,43 +15,43 @@ package
          var _loc8_:SeriousFragile = null;
          var _loc9_:GroundBabies = null;
          var _loc10_:InexpensiveGround = null;
-         super(AdmireStore.proseWindy.competitionGaping.stageWidth - RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag),AdmireStore.proseWindy.competitionGaping.stageHeight - AlansonReligion.babiesBag);
-         jumbledCrime(RecogniseCompetition.prepareAgree(BerryMouse.distroWicked),RecogniseCompetition.prepareAgree(BerryMouse.distroWicked));
-         knotSqueamish(new FragileScale(ChickensScintillating.cardSisters,HystericalKotsky.lightAnus));
+         super(StalePinus.halfWaiting.sistersHate.stageWidth - CardBabies.inexpensiveChickens,StalePinus.halfWaiting.sistersHate.stageHeight - OrderUnit.apatheticRare(CardBabies.inexpensiveChickens));
+         pailWindy(PrepareLip.competitionSupply,PrepareLip.competitionSupply);
+         agreeableRobin(new FragileScale(ChickensScintillating.eliteBruise,LargeComplex.balvankaZonked));
          graphics.beginFill(3364181);
-         graphics.drawRect(-RecogniseCompetition.prepareAgree(GroundFour.rareCard),-RecogniseCompetition.prepareAgree(GroundFour.rareCard),RecogniseCompetition.prepareAgree(CoalRay.feebleObtainable),CoalRay.feebleObtainable);
+         graphics.drawRect(-OrderUnit.apatheticRare(WaitingCrib.agonizingChop),-WaitingCrib.agonizingChop,OrderUnit.apatheticRare(LargeComplex.commonFeeble),OrderUnit.apatheticRare(LargeComplex.commonFeeble));
          graphics.endFill();
-         var _loc2_:TextFormat = new TextFormat(BerryAgreeable.groundKuruma,WaitingReligion.peckKotsky,FascinatedAnus.instructLaborer);
+         var _loc2_:TextFormat = new TextFormat(BerryAgreeable.decayInjure,LargeComplex.programAbaft,FascinatedAnus.tiresomeInstruct);
          var _loc3_:int = param1.readUnsignedShort();
-         var _loc4_:int = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         var _loc4_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          while(_loc4_ < _loc3_)
          {
             _loc5_ = param1.readUTF();
             _loc6_ = param1.readUTF();
             _loc7_ = param1.readUTF();
             _loc8_ = new SeriousFragile();
-            _loc8_.mouseChildren = DeterminedPrepare.machineSigh;
-            _loc9_ = RecogniseWhisper.instructSwanky(_loc7_,RecogniseCompetition.prepareAgree(BerryMouse.unequaledJuice));
-            _loc8_.cuteProse(_loc9_);
-            _loc10_ = new InexpensiveGround(_loc6_,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail),_loc2_);
-            _loc10_.embedFonts = DeterminedPrepare.machineSigh;
-            _loc8_.cuteProse(_loc10_);
-            _loc8_.confusedHateful(this.notebookSand,_loc5_);
-            _loc10_.y = _loc10_.y + RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe);
-            _loc8_.delightfulAlanson = RecogniseCompetition.prepareAgree(BerryMouse.distroWicked);
-            cuteProse(_loc8_);
+            _loc8_.mouseChildren = HateFaint.bladeStatement;
+            _loc9_ = LunasoleWaiting.inviteSign(_loc7_,OrderUnit.apatheticRare(BurnFix.toeSlip));
+            _loc8_.icyCry(_loc9_);
+            _loc10_ = new InexpensiveGround(_loc6_,OrderUnit.apatheticRare(ReligionStore.trailInstruct),OrderUnit.apatheticRare(AdmireUncle.delightfulFragile),_loc2_);
+            _loc10_.embedFonts = HateFaint.bladeStatement;
+            _loc8_.icyCry(_loc10_);
+            _loc8_.harmonySign(this.adaptableHarmony,_loc5_);
+            _loc10_.y = _loc10_.y + OrderUnit.apatheticRare(PinusSand.jumbledTiresome);
+            _loc8_.babiesSubdued = PrepareLip.competitionSupply;
+            icyCry(_loc8_);
             _loc4_++;
          }
       }
       
-      public static function cardGrate(param1:ByteArray) : void
+      public static function dildoCracker(param1:ByteArray) : void
       {
-         AdmireStore.proseWindy.addChild(new PatFragile(param1));
+         StalePinus.halfWaiting.addChild(new PatFragile(param1));
       }
       
-      public function notebookSand(param1:String) : void
+      public function adaptableHarmony(param1:String) : void
       {
-         RareFeeble.hateWicked.stickVolcano(GroundOranges.volcanoRequest(param1));
+         RareFeeble.cuteAction.sighCrime(GroundOranges.hatefulLoaf(param1));
          if(parent)
          {
             parent.removeChild(this);

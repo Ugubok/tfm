@@ -6,7 +6,7 @@ package
    public class WingCard
    {
       
-      public static var crackerJumbled:Boolean = false;
+      public static var armyBorrow:Boolean = false;
       
       public static var tribulle:Object;
        
@@ -16,65 +16,65 @@ package
          super();
       }
       
-      public static function agreeJuice(param1:String, param2:String) : Boolean
+      public static function historicalLoaf(param1:Array) : void
       {
-         if(WingCard.crackerJumbled)
+         var _loc2_:String = param1[OrderUnit.apatheticRare(ReligionStore.trailInstruct)];
+         var _loc3_:String = param1[CardBabies.machineOranges];
+         if(!_loc3_)
+         {
+            return;
+         }
+         _loc3_ = _loc3_.replace(/</g,ReligionStore.legRequest);
+         if(_loc2_ == RayAmuse.alluringLoaf)
+         {
+            return;
+         }
+      }
+      
+      public static function buryToe(param1:String, param2:String) : Boolean
+      {
+         if(WingCard.armyBorrow)
          {
             return WingCard.tribulle.x_commandes.x_ajoutTexteFenetreChat(param1,param2);
          }
          return false;
       }
       
-      public static function armyPear(param1:Array) : void
+      public static function noiselessLight(param1:String) : void
       {
-         var _loc2_:String = param1[HystericalKotsky.notebookChivalrous];
-         var _loc3_:String = param1[CoalRay.actionBorrow];
-         if(!_loc3_)
+         if(WingCard.armyBorrow)
          {
-            return;
-         }
-         _loc3_ = _loc3_.replace(/</g,RecogniseCompetition.mouseDelightful(DeterminedWarlike.crashCrown));
-         if(_loc2_ == DeterminedWarlike.chickenMouse)
-         {
-            return;
+            WingCard.tribulle.x_commandes.x_nouvelleFenetre(param1);
          }
       }
       
-      public static function seriousStatement(param1:String) : void
+      public static function prepareBack(param1:String, param2:String) : void
       {
-         if(WingCard.crackerJumbled)
-         {
-            WingCard.tribulle.x_commandes.x_messageTribu(param1);
-         }
-      }
-      
-      public static function toeViolet(param1:String, param2:String, param3:String) : void
-      {
-         if(WingCard.crackerJumbled)
-         {
-            WingCard.tribulle.x_commandes.x_envoieChuchotement(param1,param2,param3);
-         }
-      }
-      
-      public static function warlikeTremble(param1:String, param2:String) : void
-      {
-         if(WingCard.crackerJumbled)
+         if(WingCard.armyBorrow)
          {
             WingCard.tribulle.x_commandes.x_receptionChuchotement(param1,param2);
          }
       }
       
-      public static function machineSubdued() : void
+      public static function faithfulCurved(param1:String, param2:String, param3:String) : void
+      {
+         if(WingCard.armyBorrow)
+         {
+            WingCard.tribulle.x_commandes.x_envoieChuchotement(param1,param2,param3);
+         }
+      }
+      
+      public static function uncleGaping() : void
       {
          var _loc1_:DisplayObjectContainer = null;
-         if(Capabilities.playerType == RecogniseCompetition.mouseDelightful(GroundFour.groundAnus))
+         if(Capabilities.playerType == VolcanoStay.laborerGrate)
          {
-            WingCard.crackerJumbled = DeterminedPrepare.hatefulComplex;
+            WingCard.armyBorrow = HateFaint.proudGround;
             new WingCard();
-            _loc1_ = AdmireStore.proseWindy;
+            _loc1_ = StalePinus.halfWaiting;
             while(_loc1_)
             {
-               if(_loc1_.hasOwnProperty(LipStore.metalObeisant))
+               if(_loc1_.hasOwnProperty(OrderUnit.probableLip(ReligionStore.yellSand)))
                {
                   WingCard.tribulle = _loc1_;
                   break;
@@ -87,18 +87,18 @@ package
             }
             if(null == WingCard.tribulle)
             {
-               WingCard.crackerJumbled = DeterminedPrepare.machineSigh;
+               WingCard.armyBorrow = HateFaint.bladeStatement;
                return;
             }
-            WingCard.tribulle.x_envoieMessage = WingCard.armyPear;
+            WingCard.tribulle.x_envoieMessage = WingCard.historicalLoaf;
          }
       }
       
-      public static function lipObtainable(param1:String) : void
+      public static function historicalGrate(param1:String) : void
       {
-         if(WingCard.crackerJumbled)
+         if(WingCard.armyBorrow)
          {
-            WingCard.tribulle.x_commandes.x_nouvelleFenetre(param1);
+            WingCard.tribulle.x_commandes.x_messageTribu(param1);
          }
       }
    }

@@ -6,12 +6,12 @@ package
    {
        
       
-      public var armyLook:int;
+      public var swankySisters:int;
       
       public function SeriousCurved(param1:ByteArray)
       {
          super(param1);
-         this.armyLook = param1.readInt();
+         this.swankySisters = param1.readInt();
       }
    }
 }

@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var rayAgonizing:int;
+      public var whistleJoyous:int;
       
-      public var alluringNoxious:int;
+      public var patLaborer:String;
       
-      public var deadpanSense:OrangesAction;
+      public var coalAdvise:DeadpanMouse;
       
-      public function DeadpanChickens(param1:int, param2:int, param3:int)
+      public function DeadpanChickens(param1:int, param2:int, param3:String)
       {
          super();
          this.idSequence = param1;
-         this.rayAgonizing = param2;
-         this.alluringNoxious = param3;
+         this.whistleJoyous = param2;
+         this.patLaborer = param3;
       }
       
       public function getIdSequence() : int
@@ -27,31 +27,31 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RecogniseCompetition.mouseDelightful(RayYell.quirkyTasteless);
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return BruiseBorrow.taxChivalrous;
+         return OrderUnit.apatheticRare(VolcanoStay.proudWaiting) + this.patLaborer.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(this.rayAgonizing);
-         param1.writeByte(this.alluringNoxious);
+         param1.writeByte(this.whistleJoyous);
+         param1.writeUTF(this.patLaborer);
       }
    }
 }

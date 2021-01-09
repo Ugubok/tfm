@@ -4,11 +4,11 @@ package
    {
        
       
-      public function SlipWing(param1:String, param2:String)
+      public function SlipWing(param1:String, param2:int)
       {
-         super(AlansonReligion.statementScratch,WaitingReligion.peckKotsky);
-         staySigh.writeUTF(param1);
-         staySigh.writeUTF(param2);
+         super(WanderingDecay.noiselessTasteless,LargeComplex.programAbaft);
+         lamentableSpurious.writeUTF(param1);
+         lamentableSpurious.writeByte(param2);
       }
    }
 }

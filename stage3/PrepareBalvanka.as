@@ -4,57 +4,57 @@ package
    {
        
       
-      public var notebookOranges:Boolean;
+      public var batheCute:Number;
       
-      public var delightfulWindy:Boolean;
+      public var illustriousAdaptable:Boolean;
       
-      public var fragileClub:Number;
+      public var userData;
       
-      public var patHanging:Boolean;
+      public var recogniseToe:Boolean;
       
-      public var spuriousFaint:Boolean;
+      public var touchGround:Number;
+      
+      public var chivalrousGate:Boolean;
+      
+      public var warlikeNoxious:Boolean;
+      
+      public var backInstruct:Boolean;
+      
+      public var whisperBabies:Number;
       
       public var position:KnotSwanky;
       
-      public var probableLook:ProbableInexpensive;
-      
-      public var trailWhistle:Number;
-      
-      public var juiceColor:Number;
-      
-      public var obeisantEntertaining:Boolean;
-      
-      public var userData;
+      public var adhesiveLunasole:ProbableInexpensive;
       
       public function PrepareBalvanka(param1:Boolean)
       {
          this.position = new KnotSwanky();
-         this.probableLook = new ProbableInexpensive();
+         this.adhesiveLunasole = new ProbableInexpensive();
          super();
-         this.probableLook;
-         this.juiceColor;
-         this.obeisantEntertaining;
-         this.position;
-         this.delightfulWindy;
-         this.fragileClub;
-         this.trailWhistle;
-         this.notebookOranges;
-         this.patHanging;
-         this.spuriousFaint;
          this.userData;
-         this.probableLook.companyInjure.mouseDeadpan();
-         this.probableLook.swankyViolet = RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
-         this.probableLook.dildoAnus = RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
+         this.illustriousAdaptable;
+         this.backInstruct;
+         this.whisperBabies;
+         this.adhesiveLunasole;
+         this.recogniseToe;
+         this.position;
+         this.chivalrousGate;
+         this.batheCute;
+         this.touchGround;
+         this.warlikeNoxious;
+         this.distroFlower();
+         this.prepareMachine = LargeComplex.thickCrowded;
+         this.commonHanging = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
          this.userData = null;
-         this.position.bashfulPrepare(RecogniseCompetition.scaleCrown(GroundFour.flowerHanging),GroundFour.flowerHanging);
-         this.fragileClub = GroundFour.flowerHanging;
-         this.juiceColor = GroundFour.flowerHanging;
-         this.trailWhistle = RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
-         this.delightfulWindy = DeterminedPrepare.hatefulComplex;
-         this.patHanging = DeterminedPrepare.machineSigh;
-         this.spuriousFaint = DeterminedPrepare.machineSigh;
-         this.obeisantEntertaining = DeterminedPrepare.machineSigh;
-         this.notebookOranges = param1;
+         this.position.deliverStay(LargeComplex.thickCrowded,OrderUnit.noiselessGullible(LargeComplex.thickCrowded));
+         this.batheCute = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
+         this.touchGround = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
+         this.whisperBabies = LargeComplex.thickCrowded;
+         this.backInstruct = HateFaint.proudGround;
+         this.recogniseToe = HateFaint.bladeStatement;
+         this.illustriousAdaptable = HateFaint.bladeStatement;
+         this.warlikeNoxious = HateFaint.bladeStatement;
+         this.chivalrousGate = param1;
       }
    }
 }

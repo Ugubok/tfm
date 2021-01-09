@@ -4,10 +4,10 @@ package
    {
        
       
-      public function YellAction(param1:String)
+      public function YellAction(param1:int)
       {
-         super(AdviseRobin.satisfyGaping,AlansonReligion.cribReligion);
-         staySigh.writeUTF(param1);
+         super(OrderUnit.apatheticRare(AdmireUncle.crimeCreator),OrderUnit.apatheticRare(DildoBorrow.suzukaPeck));
+         lamentableSpurious.writeInt(param1);
       }
    }
 }

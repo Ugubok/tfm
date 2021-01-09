@@ -4,10 +4,10 @@ package
    {
        
       
-      public function ScintillatingHateful(param1:int)
+      public function ScintillatingHateful(param1:Number)
       {
-         super(BerryMouse.distroWicked,RecogniseCompetition.prepareAgree(BerryMouse.unequaledJuice));
-         staySigh.writeInt(param1);
+         super(GullibleLook.unequaledJumbled,OrderUnit.apatheticRare(AdmireUncle.delightfulFragile));
+         lamentableSpurious.writeByte(int(param1 * OrderUnit.apatheticRare(WanderingDecay.healQuirky)));
       }
    }
 }

@@ -6,12 +6,12 @@ package
    {
        
       
-      public var panoramicHateful:String;
+      public var kurumaWandering:Boolean;
       
       public function HistoricalWandering(param1:ByteArray)
       {
          super(param1);
-         this.panoramicHateful = param1.readUTF();
+         this.kurumaWandering = param1.readByte() == CardBabies.machineOranges;
       }
    }
 }

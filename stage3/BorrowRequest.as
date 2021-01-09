@@ -6,15 +6,15 @@ package
    {
        
       
-      public var loafFaint:int;
+      public var swankySisters:int;
       
-      public var stickLabel:Boolean;
+      public var recognisePanoramic:int;
       
       public function BorrowRequest(param1:ByteArray)
       {
          super(param1);
-         this.loafFaint = param1.readInt();
-         this.stickLabel = param1.readByte() == RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+         this.swankySisters = param1.readInt();
+         this.recognisePanoramic = param1.readByte();
       }
    }
 }

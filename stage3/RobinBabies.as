@@ -4,21 +4,21 @@ package
    {
        
       
-      public var amuseHateful:int;
+      public var feebleScintillating:int;
       
-      public var feebleOranges:int;
+      public var chopWing:int;
       
-      public var staleAgonizing:int;
+      public var fragileChop:int;
       
-      public var violetHistorical:Array;
+      public var distroSerious:Array;
       
       public function RobinBabies(param1:int, param2:int, param3:Array)
       {
          super();
-         this.amuseHateful = param1;
-         this.feebleOranges = param2;
-         this.violetHistorical = param3;
-         this.staleAgonizing = this.violetHistorical.length;
+         this.feebleScintillating = param1;
+         this.chopWing = param2;
+         this.distroSerious = param3;
+         this.fragileChop = this.distroSerious.length;
       }
    }
 }

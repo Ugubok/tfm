@@ -6,73 +6,73 @@ package
    public class ApatheticViolet extends AnusBorrow
    {
       
-      public static var proseWindy:ApatheticViolet;
+      public static var halfWaiting:ApatheticViolet;
       
-      public static var airInjure:String;
+      public static var hatefulStay:String;
        
       
       public function ApatheticViolet()
       {
-         super(AdviseRobin.wateryBird,BerryAgreeable.noiselessGround(FrailJuice.distroWhisper));
-         alluringWaiting(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(AdviseRobin.fragileCoal)),this.subduedAdaptable);
-         cribAgonizing(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(GroundFour.lookBlade)));
-         bruiseSatisfy.illustriousSupply.addEventListener(KeyboardEvent.KEY_DOWN,this.milkyCrash);
-         bruiseSatisfy.volcanoHanging(this.icyPail);
+         super(BatheKotsky.clubStomach,BerryAgreeable.orangesCompetition(LargeComplex.hatePat));
+         deliverTrail(BerryAgreeable.orangesCompetition(VolcanoStay.noxiousRare),this.violetCry);
+         yellAdmire(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(ListIllustrious.juiceInexpensive)));
+         suzukaStale.chickensAlluring.addEventListener(KeyboardEvent.KEY_DOWN,this.chopSigh);
+         suzukaStale.birdOranges(this.wingWicked);
       }
       
-      public static function requestRare(param1:Boolean, param2:String = null) : void
+      public static function rareFix(param1:Boolean, param2:String = null) : void
       {
          if(param1)
          {
-            if(!ApatheticViolet.proseWindy)
+            if(!ApatheticViolet.halfWaiting)
             {
-               ApatheticViolet.proseWindy = new ApatheticViolet();
+               ApatheticViolet.halfWaiting = new ApatheticViolet();
             }
-            ApatheticViolet.airInjure = param2;
-            ApatheticViolet.proseWindy.unequaledPipka(BerryAgreeable.noiselessGround(BerryMouse.proudBerry,RecogniseCompetition.mouseDelightful(AlansonReligion.gullibleTouch) + (ApatheticViolet.airInjure.length <= BruiseBorrow.hateStatement?ApatheticViolet.airInjure:CoalWhisper.orangeFragile + ApatheticViolet.airInjure) + RecogniseCompetition.mouseDelightful(BruiseBorrow.admireHateful)),true);
-            ApatheticViolet.proseWindy.bruiseSatisfy.crownSqueamish(TextFormatAlign.CENTER);
-            ApatheticViolet.proseWindy.bruiseSatisfy.stupidArmy(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(BruiseBorrow.balvankaRequest)),false);
-            ApatheticViolet.proseWindy.noxiousMetal(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.prepareAgree(BerryMouse.distroWicked),RecogniseCompetition.prepareAgree(MetalDetermined.gatePail),RecogniseCompetition.prepareAgree(DeterminedWarlike.crackerCrash));
-            CrashAlanson.pipkaTax(ApatheticViolet.proseWindy);
-            ApatheticViolet.proseWindy.buryUncle();
+            ApatheticViolet.hatefulStay = param2;
+            ApatheticViolet.halfWaiting.stickAgreeable(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(PanoramicProbable.slipMouse),OrderUnit.probableLip(BurnFix.sistersLook) + (ApatheticViolet.hatefulStay.length <= CreatorSupply.slipSeed?ApatheticViolet.hatefulStay:OrderUnit.probableLip(ReligionStore.uncleFaithful) + ApatheticViolet.hatefulStay) + OrderUnit.probableLip(BurnFix.mightyFlower)),true);
+            ApatheticViolet.halfWaiting.suzukaStale.bruiseKnot(TextFormatAlign.CENTER);
+            ApatheticViolet.halfWaiting.suzukaStale.amuseKuruma(BerryAgreeable.orangesCompetition(CardBabies.programPat),false);
+            ApatheticViolet.halfWaiting.faintMighty(ReligionStore.trailInstruct,OrderUnit.apatheticRare(PrepareLip.competitionSupply),OrderUnit.apatheticRare(PanoramicProbable.orangeChivalrous),BatheKotsky.eliteCoal);
+            CrashAlanson.yellObtainable(ApatheticViolet.halfWaiting);
+            ApatheticViolet.halfWaiting.feeblePear();
          }
          else
          {
-            if(ApatheticViolet.proseWindy && ApatheticViolet.proseWindy.parent)
+            if(ApatheticViolet.halfWaiting && ApatheticViolet.halfWaiting.parent)
             {
-               ApatheticViolet.proseWindy.parent.removeChild(ApatheticViolet.proseWindy);
+               ApatheticViolet.halfWaiting.parent.removeChild(ApatheticViolet.halfWaiting);
             }
-            AdmireStore.proseWindy.stage.focus = AdmireStore.proseWindy;
+            StalePinus.halfWaiting.stage.focus = StalePinus.halfWaiting;
          }
       }
       
-      public function subduedAdaptable() : void
+      public function frailBag() : void
       {
-         ApatheticViolet.requestRare(false);
-         if(bruiseSatisfy.illustriousSupply.text != AdviseRobin.clubSubdued)
+         ApatheticViolet.rareFix(false);
+      }
+      
+      public function chopSigh(param1:KeyboardEvent) : void
+      {
+         if(BirdOranges.deliverDeliver == param1.keyCode)
          {
-            RareFeeble.hateWicked.stickVolcano(new TiresomeRare(bruiseSatisfy.illustriousSupply.text,ApatheticViolet.airInjure));
+            this.frailBag();
          }
       }
       
-      public function sighOranges() : void
+      public function violetCry() : void
       {
-         ApatheticViolet.requestRare(false);
-      }
-      
-      public function milkyCrash(param1:KeyboardEvent) : void
-      {
-         if(BirdOranges.pearQuirky == param1.keyCode)
+         ApatheticViolet.rareFix(false);
+         if(suzukaStale.chickensAlluring.text != OrderUnit.probableLip(DildoBorrow.metalAdaptable))
          {
-            this.sighOranges();
+            RareFeeble.cuteAction.sighCrime(new StupidArmy(suzukaStale.chickensAlluring.text,ApatheticViolet.hatefulStay));
          }
       }
       
-      public function icyPail() : void
+      public function wingWicked() : void
       {
-         if(bruiseSatisfy.illustriousSupply.text == AdviseRobin.clubSubdued)
+         if(suzukaStale.chickensAlluring.text == OrderUnit.probableLip(DildoBorrow.metalAdaptable))
          {
-            ApatheticViolet.proseWindy.bruiseSatisfy.stupidArmy(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(BruiseBorrow.balvankaRequest)),false);
+            ApatheticViolet.halfWaiting.suzukaStale.amuseKuruma(BerryAgreeable.orangesCompetition(CardBabies.programPat),false);
          }
       }
    }

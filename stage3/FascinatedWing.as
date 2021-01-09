@@ -8,9 +8,9 @@ package
    public class FascinatedWing
    {
       
-      public static var taxReligion:Sprite;
+      public static var agreeWandering:Sprite;
       
-      public static var proudWhistle:TextField;
+      public static var largeIllustrious:TextField;
        
       
       public function FascinatedWing()
@@ -18,39 +18,39 @@ package
          super();
       }
       
-      public static function wanderingNotebook(param1:String) : void
+      public static function stayAmuse(param1:String) : void
       {
-         if(!FascinatedWing.taxReligion)
+         if(!FascinatedWing.agreeWandering)
          {
-            FascinatedWing.taxReligion = new Sprite();
-            FascinatedWing.proudWhistle = new TextField();
-            FascinatedWing.proudWhistle.autoSize = TextFieldAutoSize.LEFT;
-            FascinatedWing.proudWhistle.defaultTextFormat = new TextFormat(BerryAgreeable.groundKuruma,RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky),12763866);
-            FascinatedWing.proudWhistle.styleSheet = AdmireStore.proseWindy.agonizingThick;
-            FascinatedWing.proudWhistle.multiline = DeterminedPrepare.machineSigh;
-            FascinatedWing.proudWhistle.wordWrap = DeterminedPrepare.machineSigh;
-            FascinatedWing.proudWhistle.selectable = DeterminedPrepare.machineSigh;
-            FascinatedWing.taxReligion.mouseChildren = DeterminedPrepare.machineSigh;
-            FascinatedWing.taxReligion.mouseEnabled = DeterminedPrepare.machineSigh;
-            FascinatedWing.taxReligion.filters = FascinatedAnus.notebookSisters;
-            FascinatedWing.taxReligion.addChild(FascinatedWing.proudWhistle);
-            FascinatedWing.taxReligion.y = DeterminedWarlike.crackerCrash;
-            FascinatedWing.proudWhistle.x = RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping);
+            FascinatedWing.agreeWandering = new Sprite();
+            FascinatedWing.largeIllustrious = new TextField();
+            FascinatedWing.largeIllustrious.autoSize = TextFieldAutoSize.LEFT;
+            FascinatedWing.largeIllustrious.defaultTextFormat = new TextFormat(BerryAgreeable.decayInjure,OrderUnit.apatheticRare(LargeComplex.programAbaft),12763866);
+            FascinatedWing.largeIllustrious.styleSheet = StalePinus.halfWaiting.agreeableCrowded;
+            FascinatedWing.largeIllustrious.multiline = HateFaint.bladeStatement;
+            FascinatedWing.largeIllustrious.wordWrap = HateFaint.bladeStatement;
+            FascinatedWing.largeIllustrious.selectable = HateFaint.bladeStatement;
+            FascinatedWing.agreeWandering.mouseChildren = HateFaint.bladeStatement;
+            FascinatedWing.agreeWandering.mouseEnabled = HateFaint.bladeStatement;
+            FascinatedWing.agreeWandering.filters = FascinatedAnus.alansonSeed;
+            FascinatedWing.agreeWandering.addChild(FascinatedWing.largeIllustrious);
+            FascinatedWing.agreeWandering.y = OrderUnit.apatheticRare(BatheKotsky.eliteCoal);
+            FascinatedWing.largeIllustrious.x = AdmireUncle.crimeCreator;
          }
-         if(param1 == null)
+         if(null == param1)
          {
-            if(FascinatedWing.taxReligion && FascinatedWing.taxReligion.parent)
+            if(FascinatedWing.agreeWandering && FascinatedWing.agreeWandering.parent)
             {
-               FascinatedWing.taxReligion.parent.removeChild(FascinatedWing.taxReligion);
+               FascinatedWing.agreeWandering.parent.removeChild(FascinatedWing.agreeWandering);
             }
             return;
          }
-         FascinatedWing.proudWhistle.htmlText = param1;
-         FascinatedWing.taxReligion.graphics.clear();
-         FascinatedWing.taxReligion.graphics.beginFill(FascinatedAnus.mouseRequest);
-         FascinatedWing.taxReligion.graphics.drawRoundRect(HystericalKotsky.notebookChivalrous,HystericalKotsky.notebookChivalrous,FascinatedWing.proudWhistle.width + RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus),BerryMouse.distroWicked,RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus),RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus));
-         FascinatedWing.taxReligion.graphics.endFill();
-         AdmireStore.proseWindy.mightyDetermined.addChild(FascinatedWing.taxReligion);
+         FascinatedWing.largeIllustrious.htmlText = param1;
+         FascinatedWing.agreeWandering.graphics.clear();
+         FascinatedWing.agreeWandering.graphics.beginFill(FascinatedAnus.milkySense);
+         FascinatedWing.agreeWandering.graphics.drawRoundRect(OrderUnit.apatheticRare(ReligionStore.trailInstruct),ReligionStore.trailInstruct,FascinatedWing.largeIllustrious.width + OrderUnit.apatheticRare(LargeComplex.balvankaZonked),OrderUnit.apatheticRare(PrepareLip.competitionSupply),OrderUnit.apatheticRare(LargeComplex.balvankaZonked),OrderUnit.apatheticRare(LargeComplex.balvankaZonked));
+         FascinatedWing.agreeWandering.graphics.endFill();
+         StalePinus.halfWaiting.crashBalvanka.addChild(FascinatedWing.agreeWandering);
       }
    }
 }

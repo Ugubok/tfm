@@ -6,7 +6,7 @@ package
       
       public function CribAnnoying()
       {
-         super(AlansonReligion.statementScratch,AlansonReligion.babiesBag);
+         super(WaitingCrib.statementDecay,WaitingCrib.statementDecay);
       }
    }
 }

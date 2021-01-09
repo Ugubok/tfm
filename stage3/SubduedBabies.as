@@ -8,91 +8,87 @@ package
    public class SubduedBabies extends Sprite
    {
       
-      public static var proseWindy:SubduedBabies;
+      public static var halfWaiting:SubduedBabies;
        
       
-      public var inviteNoiseless:Vector.<LoafChickens>;
+      public var gulliblePlan:Vector.<LoafChickens>;
       
-      public var crowdedSerious:SeriousFragile;
+      public var recogniseLook:SeriousFragile;
       
-      public var historicalParty:Timer;
+      public var adviseLunasole:Timer;
       
       public function SubduedBabies()
       {
-         this.inviteNoiseless = new Vector.<LoafChickens>();
+         this.gulliblePlan = new Vector.<LoafChickens>();
          super();
-         SubduedBabies.proseWindy = this;
-         if(AdmireStore.spuriousBruise)
+         SubduedBabies.halfWaiting = this;
+         if(StalePinus.yellSubdued)
          {
-            this.crowdedSerious = new SeriousFragile(HystericalKotsky.markWhisper,ConfusedPeck.seriousLeg);
-            this.crowdedSerious.x = GroundFour.joyousLabel;
-            this.crowdedSerious.y = RecogniseCompetition.prepareAgree(BalvankaNotebook.birdElite);
+            this.recogniseLook = new SeriousFragile(OrderUnit.apatheticRare(LargeComplex.actionRare),AdaptableInexpensive.halfDeadpan);
+            this.recogniseLook.x = OrderUnit.apatheticRare(BurnFix.fourTasteless);
+            this.recogniseLook.y = RayAmuse.hystericalOrange = new SeriousFragile(OrderUnit.apatheticRare(SlipReligion.abaftAction),OrderUnit.apatheticRare(BatheKotsky.fixToe));
+            this.recogniseLook.x = OrderUnit.apatheticRare(LargeComplex.warlikeFeeble);
+            this.recogniseLook.y = AdaptableInexpensive.lunasoleConfused;
          }
-         else
-         {
-            this.crowdedSerious = new SeriousFragile(RecogniseCompetition.prepareAgree(BruiseBorrow.listStomach),RecogniseCompetition.prepareAgree(AnusSeed.programAgree));
-            this.crowdedSerious.x = RecogniseCompetition.prepareAgree(LipStore.cardBashful);
-            this.crowdedSerious.y = CoalRay.faithfulAbaft;
-         }
-         this.historicalParty = new Timer(RecogniseCompetition.prepareAgree(ArmyObtainable.milkyAgree));
-         this.historicalParty.addEventListener(TimerEvent.TIMER,this.jumbledAdvise);
-         this.crowdedSerious.knotSqueamish(new FragileScale(ChickensScintillating.trembleCard,-RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)));
-         this.crowdedSerious.satisfyCracker(true);
-         addChild(this.crowdedSerious);
+         this.adviseLunasole = new Timer(StupidCoal.healDistro);
+         this.adviseLunasole.addEventListener(TimerEvent.TIMER,this.windySuzuka);
+         this.recogniseLook.agreeableRobin(new FragileScale(ChickensScintillating.distroStick,-CardBabies.machineOranges));
+         this.recogniseLook.crashConfused(true);
+         addChild(this.recogniseLook);
       }
       
-      public function gapingChivalrous(param1:Boolean = true) : void
+      public function windySuzuka(param1:TimerEvent) : void
       {
-         this.crowdedSerious.visible = param1;
+         this.adviseLunasole.stop();
+         this.adviseLunasole.reset();
+         StalePinus.determinedColor.airGround();
       }
       
-      public function jumbledAdvise(param1:TimerEvent) : void
+      public function trailSerious(param1:Vector.<WanderingSubdued>) : void
       {
-         this.historicalParty.stop();
-         this.historicalParty.reset();
-         AdmireStore.whisperLeg.sistersAgonizing();
-      }
-      
-      public function slipCracker(param1:String) : void
-      {
-         if(AdmireStore.religionBorrow)
-         {
-            ClubScintillating.notebookFascinated(param1);
-         }
-         else
-         {
-            ProxyTribulle.x_menuContextuel(param1);
-         }
-      }
-      
-      public function scaleSpurious() : void
-      {
-         this.historicalParty.stop();
-         this.historicalParty.reset();
-         this.historicalParty.start();
-      }
-      
-      public function waitingNoxious(param1:Vector.<WanderingQuirky>) : void
-      {
-         var _loc4_:WanderingQuirky = null;
+         var _loc4_:WanderingSubdued = null;
          var _loc5_:LoafChickens = null;
-         this.crowdedSerious.wickedPrepare();
-         this.inviteNoiseless.concat(this.crowdedSerious.programVolcano(true));
-         var _loc2_:int = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
+         this.grateReligion();
+         this.gulliblePlan.concat(this.recogniseLook.obeisantAdaptable(true));
+         var _loc2_:int = -OrderUnit.apatheticRare(CardBabies.machineOranges);
          var _loc3_:int = param1.length;
          while(++_loc2_ < _loc3_)
          {
             _loc4_ = param1[_loc2_];
-            if(HystericalKotsky.notebookChivalrous == this.inviteNoiseless.length)
+            if(ReligionStore.trailInstruct == this.gulliblePlan.length)
             {
                _loc5_ = new LoafChickens();
             }
             else
             {
-               _loc5_ = this.inviteNoiseless.shift();
+               _loc5_ = this.gulliblePlan.shift();
             }
-            _loc5_.tiresomeBird(_loc4_.illustriousPipka,_loc4_.zonkedTasteless);
-            this.crowdedSerious.cuteProse(_loc5_);
+            _loc5_.prepareFeeble(_loc4_.advisePat,_loc4_.sistersHistorical);
+            this.recogniseLook.icyCry(_loc5_);
+         }
+      }
+      
+      public function entertainingMilky(param1:Boolean = true) : void
+      {
+         this.recogniseLook.visible = param1;
+      }
+      
+      public function amuseApathetic() : void
+      {
+         this.adviseLunasole.stop();
+         this.adviseLunasole.reset();
+         this.adviseLunasole.start();
+      }
+      
+      public function feebleOrange(param1:String) : void
+      {
+         if(StalePinus.dildoList)
+         {
+            ClubScintillating.illustriousRare(param1);
+         }
+         else
+         {
+            ProxyTribulle.x_menuContextuel(param1);
          }
       }
    }

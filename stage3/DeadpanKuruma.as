@@ -6,15 +6,15 @@ package
    {
        
       
-      public var deliverSuper:int;
+      public var x:int;
       
-      public var determinedFragile:int;
+      public var y:int;
       
       public function DeadpanKuruma(param1:ByteArray)
       {
          super(param1);
-         this.deliverSuper = param1.readByte();
-         this.determinedFragile = param1.readInt();
+         this.x = param1.readInt() - CreatorSupply.obeisantSeed;
+         this.y = param1.readInt() - CreatorSupply.obeisantSeed;
       }
    }
 }

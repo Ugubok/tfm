@@ -9,11 +9,11 @@ package
          super(param1);
       }
       
-      override public function colorPail(param1:RobinAdaptable, param2:int) : void
+      override public function lunasoleSuper(param1:RobinAdaptable, param2:int) : void
       {
-         if(RecogniseCompetition.prepareAgree(RayYell.seriousOrange) > param2)
+         if(WanderingDecay.healQuirky > param2)
          {
-            RareFeeble.actionFeeble.stickVolcano(zonkedPeck(CoalRay.actionBorrow));
+            RareFeeble.waitingGullible.sighCrime(jumbledLook(OrderUnit.apatheticRare(CardBabies.machineOranges)));
          }
       }
    }

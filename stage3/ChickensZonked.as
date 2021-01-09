@@ -12,18 +12,18 @@ package
          super();
       }
       
-      public static function fixToe(param1:int, param2:int) : Boolean
+      public static function pearToe(param1:int, param2:int) : Boolean
       {
          var _loc4_:int = 0;
          var _loc5_:int = 0;
-         var _loc3_:Stage = AdmireStore.proseWindy.competitionGaping;
-         if(StageAlign.TOP_LEFT == _loc3_.align)
+         var _loc3_:Stage = StalePinus.halfWaiting.sistersHate;
+         if(_loc3_.align == StageAlign.TOP_LEFT)
          {
-            if(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) > param1)
+            if(param1 < OrderUnit.apatheticRare(ReligionStore.trailInstruct))
             {
                return false;
             }
-            if(param2 < RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+            if(param2 < ReligionStore.trailInstruct)
             {
                return false;
             }
@@ -31,7 +31,7 @@ package
             {
                return false;
             }
-            if(_loc3_.stageHeight < param2)
+            if(param2 > _loc3_.stageHeight)
             {
                return false;
             }
@@ -40,19 +40,19 @@ package
          {
             _loc4_ = _loc3_.stageWidth;
             _loc5_ = _loc3_.stageHeight;
-            if(param1 < -(_loc4_ - RecogniseCompetition.prepareAgree(MetalDetermined.gatePail)) / LaborerFeeble.instructBathe)
+            if(param1 < -(_loc4_ - OrderUnit.apatheticRare(PanoramicProbable.orangeChivalrous)) / PinusSand.jumbledTiresome)
             {
                return false;
             }
-            if(param2 < -(_loc5_ - RecogniseCompetition.prepareAgree(FrailJuice.senseLamentable)) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe))
+            if(param2 < -(_loc5_ - BurnFix.mouseVolcano) / PinusSand.jumbledTiresome)
             {
                return false;
             }
-            if(param1 > RecogniseCompetition.prepareAgree(MetalDetermined.gatePail) + (_loc4_ - MetalDetermined.gatePail) / LaborerFeeble.instructBathe)
+            if(param1 > PanoramicProbable.orangeChivalrous + (-OrderUnit.apatheticRare(PanoramicProbable.orangeChivalrous) + _loc4_) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome))
             {
                return false;
             }
-            if(param2 > FrailJuice.senseLamentable + (_loc5_ - RecogniseCompetition.prepareAgree(FrailJuice.senseLamentable)) / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe))
+            if(param2 > OrderUnit.apatheticRare(BurnFix.mouseVolcano) + (_loc5_ - OrderUnit.apatheticRare(BurnFix.mouseVolcano)) / OrderUnit.apatheticRare(PinusSand.jumbledTiresome))
             {
                return false;
             }

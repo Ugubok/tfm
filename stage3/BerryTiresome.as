@@ -6,12 +6,12 @@ package
    {
        
       
-      public var hateTouch:String;
+      public var wateryBird:String;
       
       public function BerryTiresome(param1:ByteArray)
       {
          super(param1);
-         this.hateTouch = param1.readUTF();
+         this.wateryBird = param1.readUTF();
       }
    }
 }

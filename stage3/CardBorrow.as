@@ -6,106 +6,106 @@ package
    {
        
       
-      public var entertainingAdhesive:int;
+      public var coalLaborer:int;
       
-      public var sandAdmire:int;
+      public var wickedDildo:int;
       
-      public var staySigh:ByteArray;
+      public var lamentableSpurious:ByteArray;
       
       public function CardBorrow(param1:ByteArray)
       {
-         this.entertainingAdhesive = HystericalKotsky.notebookChivalrous;
-         this.sandAdmire = HystericalKotsky.notebookChivalrous;
+         this.coalLaborer = ReligionStore.trailInstruct;
+         this.wickedDildo = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          super();
-         this.staySigh = param1;
-         this.staySigh.position = HystericalKotsky.notebookChivalrous;
-         this.entertainingAdhesive = this.staySigh.readByte();
-         this.sandAdmire = this.staySigh.readByte();
+         this.lamentableSpurious = param1;
+         this.lamentableSpurious.position = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.coalLaborer = this.lamentableSpurious.readByte();
+         this.wickedDildo = this.lamentableSpurious.readByte();
       }
       
-      public static function partyLunasole(param1:ByteArray) : uint
+      public static function labelPail(param1:ByteArray) : uint
       {
          var _loc2_:uint = param1.readByte();
-         var _loc3_:* = (_loc2_ & 128) != RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         var _loc3_:* = (_loc2_ & 128) != OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          _loc2_ = _loc2_ & 127;
          var _loc4_:uint = _loc2_;
          while(_loc3_)
          {
-            _loc4_ = _loc4_ << RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear);
+            _loc4_ = _loc4_ << OrderUnit.apatheticRare(VolcanoStay.proudWaiting);
             _loc2_ = param1.readByte();
-            _loc3_ = (_loc2_ & 128) != RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+            _loc3_ = (_loc2_ & 128) != OrderUnit.apatheticRare(ReligionStore.trailInstruct);
             _loc2_ = _loc2_ & 127;
             _loc4_ = _loc4_ | _loc2_;
          }
          return _loc4_;
       }
       
-      public static function warlikePinus(param1:ByteArray) : int
+      public static function dildoLunasole(param1:ByteArray) : int
       {
          var _loc2_:* = int(param1.readByte());
-         var _loc3_:* = (_loc2_ & 128) != RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         var _loc4_:* = (_loc2_ & 64) != RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         var _loc3_:* = (_loc2_ & 128) != ReligionStore.trailInstruct;
+         var _loc4_:* = (_loc2_ & 64) != OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          _loc2_ = _loc2_ & 63;
          var _loc5_:* = int(_loc2_);
          while(_loc3_)
          {
-            _loc5_ = _loc5_ << RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear);
+            _loc5_ = _loc5_ << VolcanoStay.proudWaiting;
             _loc2_ = int(param1.readByte());
-            _loc3_ = (_loc2_ & 128) != RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+            _loc3_ = (_loc2_ & 128) != ReligionStore.trailInstruct;
             _loc2_ = _loc2_ & 127;
             _loc5_ = _loc5_ | _loc2_;
          }
          return !!_loc4_?int(-_loc5_):int(_loc5_);
       }
       
-      public static function jumbledGullible(param1:ByteArray) : int
+      public static function abaftObeisant(param1:ByteArray) : int
       {
-         var _loc2_:* = int(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-         var _loc3_:int = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         var _loc4_:int = HystericalKotsky.notebookChivalrous;
-         var _loc5_:* = int(-CoalRay.actionBorrow);
+         var _loc2_:* = int(ReligionStore.trailInstruct);
+         var _loc3_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         var _loc4_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         var _loc5_:* = int(-OrderUnit.apatheticRare(CardBabies.machineOranges));
          do
          {
             _loc3_ = param1.readByte();
-            _loc2_ = _loc2_ | (_loc3_ & 127) << _loc4_ * RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear);
-            _loc5_ = _loc5_ << AdviseRobin.obtainablePear;
+            _loc2_ = _loc2_ | (_loc3_ & 127) << VolcanoStay.proudWaiting * _loc4_;
+            _loc5_ = _loc5_ << OrderUnit.apatheticRare(VolcanoStay.proudWaiting);
             _loc4_++;
          }
-         while((_loc3_ & 128) == 128 && _loc4_ < RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping));
+         while((_loc3_ & 128) == 128 && _loc4_ < AdmireUncle.crimeCreator);
          
-         if((_loc5_ >> CoalRay.actionBorrow & _loc2_) != RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+         if((_loc5_ >> OrderUnit.apatheticRare(CardBabies.machineOranges) & _loc2_) != OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
             _loc2_ = _loc2_ | _loc5_;
          }
          return _loc2_;
       }
       
-      public function metalWandering() : ByteArray
+      public function staleList() : String
       {
-         var _loc1_:int = this.staySigh.readInt();
+         var _loc1_:int = this.lamentableSpurious.readInt();
+         if(!_loc1_)
+         {
+            return OrderUnit.probableLip(DildoBorrow.metalAdaptable);
+         }
+         var _loc2_:ByteArray = new ByteArray();
+         this.lamentableSpurious.readBytes(_loc2_,ReligionStore.trailInstruct,_loc1_);
+         _loc2_.uncompress(BatheKotsky.bladeGullible);
+         _loc2_.position = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         return _loc2_.readUTFBytes(_loc2_.length);
+      }
+      
+      public function halfFrail() : ByteArray
+      {
+         var _loc1_:int = this.lamentableSpurious.readInt();
          if(!_loc1_)
          {
             return new ByteArray();
          }
          var _loc2_:ByteArray = new ByteArray();
-         this.staySigh.readBytes(_loc2_,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),_loc1_);
-         _loc2_.uncompress(RayYell.commonWicked);
-         _loc2_.position = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.lamentableSpurious.readBytes(_loc2_,ReligionStore.trailInstruct,_loc1_);
+         _loc2_.uncompress(BatheKotsky.bladeGullible);
+         _loc2_.position = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          return _loc2_;
-      }
-      
-      public function cryBalvanka() : String
-      {
-         var _loc1_:int = this.staySigh.readInt();
-         if(!_loc1_)
-         {
-            return AdviseRobin.clubSubdued;
-         }
-         var _loc2_:ByteArray = new ByteArray();
-         this.staySigh.readBytes(_loc2_,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),_loc1_);
-         _loc2_.uncompress(RayYell.commonWicked);
-         _loc2_.position = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-         return _loc2_.readUTFBytes(_loc2_.length);
       }
    }
 }

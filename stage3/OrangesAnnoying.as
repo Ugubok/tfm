@@ -3,7 +3,7 @@ package
    public class OrangesAnnoying
    {
       
-      public static var zonkedNotebook:Boolean = true;
+      public static var injureReligion:String;
        
       
       public function OrangesAnnoying()

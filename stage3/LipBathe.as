@@ -4,15 +4,15 @@ package
    {
        
       
-      public var entertainingHateful:int;
+      public var planHalf:int;
       
-      public var waitingGrate:String;
+      public var deliverAbaft:String;
       
       public function LipBathe(param1:int, param2:String)
       {
          super();
-         this.entertainingHateful = param1;
-         this.waitingGrate = param2;
+         this.planHalf = param1;
+         this.deliverAbaft = param2;
       }
    }
 }

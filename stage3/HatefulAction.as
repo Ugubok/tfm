@@ -4,45 +4,45 @@ package
    {
        
       
-      public var determinedKnife:int;
+      public var tiresomeStore:int;
       
-      public var religionGate:int;
+      public var quirkySign:int;
       
-      public var sandMetal:Boolean;
+      public var fragileFeeble:Boolean;
       
-      public var zonkedJuice:Number;
+      public var milkySupply:Number;
       
-      public var trembleDeadpan:Number;
+      public var crowdedFragile:Number;
       
-      public var determinedElite:Number;
+      public var machinePear:Number;
       
-      public var subduedFrail:Number;
+      public var faithfulRecognise:Number;
       
-      public var fragileClub:Number;
+      public var batheCute:Number;
       
-      public var stickSlip:Number;
+      public var clubAdhesive:Number;
       
-      public var noxiousHateful:Boolean;
+      public var fascinatedPeck:Boolean;
       
-      public var borrowBerry:Boolean;
+      public var staleGate:Boolean;
       
-      public var partyDetermined:Boolean;
+      public var wingInjure:Boolean;
       
       public function HatefulAction(param1:int, param2:int, param3:int = 0, param4:int = 0, param5:int = 0, param6:int = 0, param7:int = 0, param8:int = 0, param9:Boolean = false, param10:Boolean = false, param11:Boolean = false)
       {
          super();
-         this.determinedKnife = param1;
-         this.religionGate = param2;
-         this.sandMetal = this.religionGate == -CoalRay.actionBorrow;
-         this.zonkedJuice = param3 / RayYell.seriousOrange;
-         this.trembleDeadpan = param4 / RecogniseCompetition.prepareAgree(RayYell.seriousOrange);
-         this.determinedElite = param5 / RecogniseCompetition.prepareAgree(RayYell.seriousOrange);
-         this.subduedFrail = param6 / RayYell.seriousOrange;
-         this.fragileClub = param7 / RecogniseCompetition.prepareAgree(RayYell.seriousOrange);
-         this.stickSlip = param8 / RayYell.seriousOrange;
-         this.noxiousHateful = param9;
-         this.borrowBerry = param10;
-         this.partyDetermined = param11;
+         this.tiresomeStore = param1;
+         this.quirkySign = param2;
+         this.fragileFeeble = this.quirkySign == -OrderUnit.apatheticRare(CardBabies.machineOranges);
+         this.milkySupply = param3 / WanderingDecay.healQuirky;
+         this.crowdedFragile = param4 / WanderingDecay.healQuirky;
+         this.machinePear = param5 / OrderUnit.apatheticRare(WanderingDecay.healQuirky);
+         this.faithfulRecognise = param6 / OrderUnit.apatheticRare(WanderingDecay.healQuirky);
+         this.batheCute = param7 / OrderUnit.apatheticRare(WanderingDecay.healQuirky);
+         this.clubAdhesive = param8 / WanderingDecay.healQuirky;
+         this.fascinatedPeck = param9;
+         this.staleGate = param10;
+         this.wingInjure = param11;
       }
    }
 }

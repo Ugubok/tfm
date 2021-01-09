@@ -3,31 +3,31 @@ package
    public class KurumaClub
    {
       
-      public static var legSuper:int = int("[DEPART_CLEF_OBFUSCATION]");
+      public static var subduedHeal:int = int(OrderUnit.probableLip("[DEPART_CLEF_OBFUSCATION]"));
        
       
-      public var seedProse:int;
+      public var agonizingBag:int;
       
       public function KurumaClub()
       {
-         this.seedProse = KurumaClub.legSuper;
+         this.agonizingBag = KurumaClub.subduedHeal;
          super();
       }
       
-      public function inviteCry(param1:int) : int
+      public function knotHanging(param1:LoafSwanky) : void
       {
-         this.seedProse = (this.seedProse + WaitingReligion.apatheticTremble) % BerryMouse.chickensDeliver;
-         return param1 ^ this.seedProse;
+         param1.lamentableSpurious.position = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
       }
       
-      public function proudPinus(param1:LoafSwanky) : void
+      public function jumbledSatisfy() : void
       {
-         param1.staySigh.position = HystericalKotsky.notebookChivalrous;
+         this.agonizingBag = KurumaClub.subduedHeal;
       }
       
-      public function hystericalSerious() : void
+      public function knifeTasteless(param1:int) : int
       {
-         this.seedProse = KurumaClub.legSuper;
+         this.agonizingBag = (this.agonizingBag + OrderUnit.apatheticRare(ReligionStore.orderConfused)) % BatheKotsky.wanderingSubdued;
+         return param1 ^ this.agonizingBag;
       }
    }
 }

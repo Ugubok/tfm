@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var crimeBerry:int;
+      public var juiceLip:int;
       
-      public var waitingGrate:String;
+      public var deliverAbaft:String;
       
-      public var faintSupply:DeadpanMouse;
+      public var agreeableFix:CrashClub;
       
       public function TiresomeCard(param1:int, param2:int, param3:String)
       {
          super();
          this.idSequence = param1;
-         this.crimeBerry = param2;
-         this.waitingGrate = param3;
+         this.juiceLip = param2;
+         this.deliverAbaft = param3;
       }
       
       public function getIdSequence() : int
@@ -27,31 +27,31 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RecogniseCompetition.mouseDelightful(RayYell.quirkyTasteless);
+         return LargeComplex.stomachBack;
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(AdviseRobin.obtainablePear) + this.waitingGrate.length;
+         return VolcanoStay.proudWaiting + this.deliverAbaft.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(this.crimeBerry);
-         param1.writeUTF(this.waitingGrate);
+         param1.writeByte(this.juiceLip);
+         param1.writeUTF(this.deliverAbaft);
       }
    }
 }

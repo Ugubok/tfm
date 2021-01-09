@@ -3,40 +3,40 @@ package
    public class ChickensHistorical
    {
       
-      public static const icyBurn:int = 1782 + -1682 + Math.random() * 50;
+      public static const creatorSwanky:int = 4704 + -4604 + Math.random() *50;
        
       
-      public var windyScratch:Vector.<Boolean>;
+      public var deadpanInstruct:Vector.<Boolean>;
       
-      public var thickTiresome:int;
+      public var dildoToe:int;
       
       public function ChickensHistorical(param1:Boolean)
       {
-         this.windyScratch = new Vector.<Boolean>(ChickensHistorical.icyBurn,true);
+         this.deadpanInstruct = new Vector.<Boolean>(ChickensHistorical.creatorSwanky,true);
          super();
-         this.healList(param1);
+         this.obeisantFrail(param1);
       }
       
-      public function mightyEntertaining() : Boolean
+      public function touchFascinated() : Boolean
       {
-         var _loc1_:int = Math.random() * ChickensHistorical.icyBurn;
-         this.windyScratch[_loc1_] = this.windyScratch[this.thickTiresome];
-         this.thickTiresome = _loc1_;
-         return this.windyScratch[this.thickTiresome];
+         var _loc1_:int = Math.random() * ChickensHistorical.creatorSwanky;
+         this.deadpanInstruct[_loc1_] = this.curvedRare];
+         this.dildoToe = _loc1_;
+         return !this.curvedRare];
       }
       
-      public function knifeStomach() : Boolean
+      public function obeisantFrail(param1:Boolean) : void
       {
-         var _loc1_:int = Math.random() * ChickensHistorical.icyBurn;
-         this.windyScratch[_loc1_] = this.windyScratch[this.thickTiresome];
-         this.thickTiresome = _loc1_;
-         return !this.windyScratch[this.thickTiresome];
+         this.dildoToe = Math.random() * ChickensHistorical.creatorSwanky;
+         this.curvedRare] = param1;
       }
       
-      public function healList(param1:Boolean) : void
+      public function annoyingObeisant() : Boolean
       {
-         this.thickTiresome = Math.random() * ChickensHistorical.icyBurn;
-         this.windyScratch[this.thickTiresome] = param1;
+         var _loc1_:int = Math.random() * ChickensHistorical.creatorSwanky;
+         this.deadpanInstruct[_loc1_] = this.curvedRare];
+         this.dildoToe = _loc1_;
+         return this.curvedRare];
       }
    }
 }

@@ -6,12 +6,12 @@ package
    {
        
       
-      public var illustriousPipka:String;
+      public var flowerGate:int;
       
       public function ProbableKuruma(param1:ByteArray)
       {
          super(param1);
-         this.illustriousPipka = param1.readUTF();
+         this.flowerGate = param1.readInt();
       }
    }
 }

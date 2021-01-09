@@ -3,79 +3,79 @@ package
    public class LipProbable
    {
       
-      public static var proseWindy:LipProbable;
+      public static var halfWaiting:LipProbable;
        
       
-      public var lightPanoramic:int;
+      public var whisperLabel:int;
       
-      public var rayRare:String = null;
+      public var signOrder:String = null;
       
-      public var partyCrib:Vector.<String>;
+      public var markChicken:Vector.<String>;
       
       public function LipProbable()
       {
-         this.lightPanoramic = RequestAdaptable.mouseSwanky;
-         this.partyCrib = new Vector.<String>();
+         this.whisperLabel = RequestAdaptable.unequaledHistorical;
+         this.markChicken = new Vector.<String>();
          super();
-         LipProbable.proseWindy = this;
+         LipProbable.halfWaiting = this;
       }
       
-      public function stupidCreator(param1:String) : void
+      public function bashfulColor(param1:String, param2:Boolean) : void
       {
-         ClubScintillating.squeamishCreator(new MightySubdued(ClubScintillating.agreeEntertaining(),param1));
+         ClubScintillating.tiresomeFeeble(new MightyWandering(ClubScintillating.lightAir(),param1,param2));
       }
       
-      public function raySigh(param1:String, param2:String) : void
-      {
-         ClubScintillating.squeamishCreator(new InexpensiveLip(ClubScintillating.agreeEntertaining(),param1,param2));
-      }
-      
-      public function pinusWatery(param1:String, param2:String) : void
-      {
-         ClubScintillating.squeamishCreator(new AlansonPat(ClubScintillating.agreeEntertaining(),param1,param2));
-      }
-      
-      public function wickedSubdued(param1:String) : void
-      {
-         ClubScintillating.squeamishCreator(new AlansonWhistle(ClubScintillating.agreeEntertaining(),param1));
-      }
-      
-      public function icyDistro(param1:String, param2:Boolean) : void
-      {
-         ClubScintillating.squeamishCreator(new ScintillatingInexpensive(ClubScintillating.agreeEntertaining(),param1,param2));
-      }
-      
-      public function babiesNotebook(param1:int, param2:String = "") : void
-      {
-         if(this.lightPanoramic != RequestAdaptable.mouseSwanky)
-         {
-            param1 = RequestAdaptable.mouseSwanky;
-         }
-         ClubScintillating.squeamishCreator(new MightyWandering(ClubScintillating.agreeEntertaining(),param1,param2));
-      }
-      
-      public function proudSign(param1:String) : void
-      {
-         ClubScintillating.squeamishCreator(new ScaleRobin(ClubScintillating.agreeEntertaining(),param1));
-      }
-      
-      public function squeamishClub() : void
-      {
-         var _loc1_:String = null;
-         for each(_loc1_ in this.waitingApathetic(_loc1_,false);
-         }
-         this.partyCrib = new Vector.<String>();
-      }
-      
-      public function laborerRay(param1:String) : void
+      public function storeMilky(param1:String) : void
       {
          param1 = param1.toLowerCase();
-         if(ClubScintillating.robinProud(param1,false);
+         if(ClubScintillating.pipkaWaiting(param1,false);
          }
-         else if(this.partyCrib.indexOf(param1) == -CoalRay.actionBorrow)
+         else if(this.markChicken.indexOf(param1) == -OrderUnit.apatheticRare(CardBabies.machineOranges))
          {
-            this.partyCrib.push(param1);
+            this.markChicken.push(param1);
          }
+      }
+      
+      public function scaleFascinated(param1:int, param2:String = "") : void
+      {
+         if(this.whisperLabel != RequestAdaptable.unequaledHistorical)
+         {
+            param1 = RequestAdaptable.unequaledHistorical;
+         }
+         ClubScintillating.tiresomeFeeble(new DeadpanChickens(ClubScintillating.lightAir(),param1,param2));
+      }
+      
+      public function sandSisters() : void
+      {
+         var _loc1_:String = null;
+         for each(_loc1_ in this.deliverAdhesive(_loc1_,false);
+         }
+         this.markChicken = new Vector.<String>();
+      }
+      
+      public function dildoSlip(param1:String) : void
+      {
+         ClubScintillating.tiresomeFeeble(new PatPinus(ClubScintillating.lightAir(),param1));
+      }
+      
+      public function squeamishStay(param1:String, param2:String) : void
+      {
+         ClubScintillating.tiresomeFeeble(new InexpensiveLip(ClubScintillating.lightAir(),param1,param2));
+      }
+      
+      public function halfMark(param1:String, param2:String) : void
+      {
+         ClubScintillating.tiresomeFeeble(new AlansonPat(ClubScintillating.lightAir(),param1,param2));
+      }
+      
+      public function companyCompany(param1:String) : void
+      {
+         ClubScintillating.tiresomeFeeble(new AlansonWhistle(ClubScintillating.lightAir(),param1));
+      }
+      
+      public function obeisantWhisper(param1:String) : void
+      {
+         ClubScintillating.tiresomeFeeble(new KnotKotsky(ClubScintillating.lightAir(),param1));
       }
    }
 }

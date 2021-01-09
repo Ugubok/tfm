@@ -4,21 +4,21 @@ package
    {
        
       
-      public var lipAdmire:int;
+      public var knifeStick:int;
       
-      public var adhesiveAdaptable:String;
+      public var borrowClub:String;
       
-      public var sighQuirky:String;
+      public var commonPipka:String;
       
-      public var seedMighty:String;
+      public var statementStay:String;
       
       public function AlansonSpurious(param1:int, param2:String, param3:String, param4:String = "")
       {
          super();
-         this.lipAdmire = param1;
-         this.adhesiveAdaptable = param2;
-         this.sighQuirky = param3;
-         this.seedMighty = param4;
+         this.knifeStick = param1;
+         this.borrowClub = param2;
+         this.commonPipka = param3;
+         this.statementStay = param4;
       }
    }
 }

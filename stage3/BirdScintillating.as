@@ -8,51 +8,51 @@ package
    public class BirdScintillating extends TextField
    {
       
-      public static var proseWindy:BirdScintillating;
+      public static var halfWaiting:BirdScintillating;
        
       
-      public var proseUnequaled:Vector.<String>;
+      public var frailSense:Vector.<String>;
       
       public function BirdScintillating()
       {
-         this.proseUnequaled = new Vector.<String>();
+         this.frailSense = new Vector.<String>();
          super();
-         multiline = DeterminedPrepare.hatefulComplex;
-         wordWrap = DeterminedPrepare.hatefulComplex;
-         defaultTextFormat = new TextFormat(DeterminedWarlike.faithfulHistorical,RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky),16777215);
-         filters = new Array(new GlowFilter(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),BruiseBorrow.taxChivalrous));
-         addEventListener(BalvankaNotebook.programOrder,this.mouseAgree);
-         mouseEnabled = DeterminedPrepare.machineSigh;
-         width = RecogniseCompetition.prepareAgree(MetalDetermined.gatePail);
-         height = FrailJuice.senseLamentable;
+         multiline = HateFaint.proudGround;
+         wordWrap = HateFaint.proudGround;
+         defaultTextFormat = new TextFormat(OrderUnit.probableLip(WaitingCrib.requestThick),OrderUnit.apatheticRare(LargeComplex.programAbaft),16777215);
+         filters = new Array(new GlowFilter(ReligionStore.trailInstruct,CardBabies.machineOranges,PinusSand.jumbledTiresome,OrderUnit.apatheticRare(PinusSand.jumbledTiresome),BatheKotsky.milkyEntertaining));
+         addEventListener(WaitingCrib.gateFrail,this.agreeablePear);
+         mouseEnabled = HateFaint.bladeStatement;
+         width = OrderUnit.apatheticRare(PanoramicProbable.orangeChivalrous);
+         height = BurnFix.mouseVolcano;
       }
       
-      public static function fragileAmuse() : void
+      public static function probableViolet() : void
       {
-         if(BirdScintillating.proseWindy)
+         if(BirdScintillating.halfWaiting)
          {
-            BirdScintillating.proseWindy.removeEventListener(BalvankaNotebook.programOrder,BirdScintillating.proseWindy.mouseAgree);
-            if(BirdScintillating.proseWindy.parent)
+            BirdScintillating.halfWaiting.removeEventListener(OrderUnit.probableLip(WaitingCrib.gateFrail),BirdScintillating.halfWaiting.agreeablePear);
+            if(BirdScintillating.halfWaiting.parent)
             {
-               BirdScintillating.proseWindy.parent.removeChild(BirdScintillating.proseWindy);
+               BirdScintillating.halfWaiting.parent.removeChild(BirdScintillating.halfWaiting);
             }
          }
       }
       
-      public static function borrowPanoramic(param1:Object) : void
+      public static function rareSwanky(param1:Object) : void
       {
-         if(!BirdScintillating.proseWindy)
+         if(!BirdScintillating.halfWaiting)
          {
-            BirdScintillating.proseWindy = new BirdScintillating();
+            BirdScintillating.halfWaiting = new BirdScintillating();
          }
-         BirdScintillating.proseWindy.proseUnequaled.push(String(param1));
-         BirdScintillating.proseWindy.text = BirdScintillating.proseWindy.proseUnequaled.join(RecogniseCompetition.mouseDelightful(CoalWhisper.orangeFragile));
-         BirdScintillating.proseWindy.scrollV = BirdScintillating.proseWindy.maxScrollV;
+         BirdScintillating.halfWaiting.frailSense.push(String(param1));
+         BirdScintillating.halfWaiting.text = BirdScintillating.halfWaiting.frailSense.join(OrderUnit.probableLip(ReligionStore.uncleFaithful));
+         BirdScintillating.halfWaiting.scrollV = BirdScintillating.halfWaiting.maxScrollV;
       }
       
-      public function mouseAgree(param1:Event) : void
+      public function agreeablePear(param1:Event) : void
       {
-         AdmireStore.proseWindy.stage.addChild(this);
+         StalePinus.halfWaiting.stage.addChild(this);
       }
    }
 }

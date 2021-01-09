@@ -8,7 +8,7 @@ package
       
       public var idSequence:int;
       
-      public var abaftArmy:AnnoyingHistorical;
+      public var lunasoleStomach:AnnoyingHistorical;
       
       public function SignHateful(param1:int)
       {
@@ -21,24 +21,24 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RecogniseCompetition.mouseDelightful(RayYell.quirkyTasteless);
+         return LargeComplex.stomachBack;
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable);
+         return OrderUnit.apatheticRare(CardBabies.senseCrown);
       }
       
       override public function ecriture(param1:ByteArray) : void

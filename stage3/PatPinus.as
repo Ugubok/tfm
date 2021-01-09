@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var raySuzuka:int;
+      public var patLaborer:String;
       
-      public var agreeableBird:ClubBird;
+      public var competitionAgree:ZonkedHateful;
       
-      public function PatPinus(param1:int, param2:int)
+      public function PatPinus(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.raySuzuka = param2;
+         this.patLaborer = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return LargeComplex.stomachBack;
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping);
+         return OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining) + this.patLaborer.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(this.raySuzuka);
+         param1.writeUTF(this.patLaborer);
       }
    }
 }

@@ -4,10 +4,10 @@ package
    {
        
       
-      public function PrepareTiresome(param1:String)
+      public function PrepareTiresome(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(LaborerFeeble.staleMark),RecogniseCompetition.prepareAgree(CoalWhisper.burnViolet));
-         staySigh.writeUTF(param1);
+         super(OrderUnit.apatheticRare(LargeComplex.programAbaft),OrderUnit.apatheticRare(LargeComplex.balvankaZonked));
+         lamentableSpurious.writeByte(param1);
       }
    }
 }

@@ -10,6 +10,6 @@ package
       
       function get typeTaille() : int;
       
-      function harmonyWhisper() : int;
+      function complexHeal() : int;
    }
 }

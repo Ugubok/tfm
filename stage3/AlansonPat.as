@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var proseTouch:String;
+      public var stomachRequest:String;
       
-      public var lookScintillating:String;
+      public var patLaborer:String;
       
-      public var distroBury:BabiesRobin;
+      public var laborerNoxious:FragileFragile;
       
       public function AlansonPat(param1:int, param2:String, param3:String)
       {
          super();
          this.idSequence = param1;
-         this.proseTouch = param2;
-         this.lookScintillating = param3;
+         this.stomachRequest = param2;
+         this.patLaborer = param3;
       }
       
       public function getIdSequence() : int
@@ -27,31 +27,31 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RecogniseCompetition.mouseDelightful(RayYell.quirkyTasteless);
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return ArmyObtainable.kurumaBird + this.proseTouch.length + this.lookScintillating.length;
+         return OrderUnit.apatheticRare(GullibleLook.unequaledJumbled) + this.stomachRequest.length + this.patLaborer.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.proseTouch);
-         param1.writeUTF(this.lookScintillating);
+         param1.writeUTF(this.stomachRequest);
+         param1.writeUTF(this.patLaborer);
       }
    }
 }

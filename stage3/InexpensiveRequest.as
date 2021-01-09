@@ -6,21 +6,21 @@ package
    {
        
       
-      public var programLight:Vector.<YellMighty>;
+      public var backReligion:Vector.<YellMighty>;
       
-      public var cuteWarlike:Boolean;
+      public var colorLaborer:Boolean;
       
-      public var obtainableArmy:Boolean;
+      public var crowdedIcy:Boolean;
       
       public function InexpensiveRequest(param1:ByteArray)
       {
-         this.programLight = new Vector.<YellMighty>();
+         this.backReligion = new Vector.<YellMighty>();
          super(param1);
-         this.cuteWarlike = param1.readBoolean();
-         this.obtainableArmy = param1.readBoolean();
+         this.colorLaborer = param1.readBoolean();
+         this.crowdedIcy = param1.readBoolean();
          while(param1.bytesAvailable)
          {
-            this.programLight.push(new YellMighty(param1));
+            this.backReligion.push(new YellMighty(param1));
          }
       }
    }

@@ -5,278 +5,172 @@ package
    public class ActionKnot
    {
       
-      public static const coalVolcano:Number = Math.PI * 2;
+      public static const seedStay:Number = Math.PI *2;
       
-      public static const backSpurious:Number = Math.PI / 2;
+      public static const patCry:Number = Math.PI /2;
        
       
-      public var actionLarge:DisplayObject;
+      public var wickedRequest:DisplayObject;
       
-      public var commonAdhesive:int;
+      public var noxiousAdhesive:int;
       
-      public var complexLight:int;
+      public var groundAdaptable:int;
       
-      public var agonizingScratch:int;
+      public var patGate:int;
       
-      public var agreeableSense:int;
+      public var markRay:int;
       
-      public var decayNoxious:int;
+      public var wickedProse:int;
       
-      public var violetStick:int;
+      public var legChickens:int;
       
-      public var deliverMilky:Number;
+      public var burnCommon:Number;
       
-      public var wateryWhisper:Number;
+      public var cribQuirky:Number;
       
-      public var pearSwanky:Number;
+      public var wingStatement:Number;
       
-      public var colorArmy:Number;
+      public var hydrantViolet:Number;
       
-      public var rayParty:Number;
+      public var faintOranges:Number;
       
-      public var inexpensiveComplex:Number;
+      public var babiesFaithful:Number;
       
-      public var kurumaPeck:Number;
+      public var halfChickens:Number;
       
-      public var stupidBag:Number;
+      public var subduedArmy:Number;
       
-      public var gateGate:Number;
+      public var backSlip:Number;
       
-      public var thickInstruct:int;
+      public var peckSupply:int;
       
-      public var largeStick:Function;
+      public var prosePinus:Function;
       
-      public var unitGaping:Function;
+      public var dildoWaiting:Function;
       
-      public var coalRay:Object;
+      public var zonkedCompetition:Object;
       
-      public var knifeMark:int;
+      public var harmonyRecognise:int;
       
-      public var bladeDetermined:Boolean = false;
+      public var volcanoCompetition:Boolean = false;
       
-      public var inviteJuice:Boolean = false;
+      public var cribTouch:Boolean = false;
       
-      public var creatorDetermined:Boolean = false;
+      public var agreeBabies:Boolean = false;
       
-      public var crackerCrime:Boolean = false;
+      public var spuriousTasteless:Boolean = false;
       
-      public var whistleGullible:Number;
+      public var unitCommon:Number;
       
-      public var superJoyous:Number;
+      public var illustriousAdvise:Number;
       
-      public var pinusOranges:Number;
+      public var satisfyBruise:Number;
       
-      public var bashfulGullible:Boolean = false;
+      public var trailUnit:Boolean = false;
       
-      public var noiselessProud:Function;
+      public var peckStale:Function;
       
       public function ActionKnot(param1:DisplayObject, param2:int, param3:Function = null, param4:int = 0, param5:Function = null, param6:Object = null)
       {
          super();
-         this.actionLarge = param1;
-         this.thickInstruct = param2;
-         this.largeStick = param3;
-         this.knifeMark = AdmireStore.crimeGullible() + param4;
-         this.unitGaping = param5;
-         this.coalRay = param6;
+         this.wickedRequest = param1;
+         this.peckSupply = param2;
+         this.prosePinus = param3;
+         this.harmonyRecognise = StalePinus.trailLamentable() + param4;
+         this.dildoWaiting = param5;
+         this.zonkedCompetition = param6;
       }
       
-      public static function healSatisfy(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      public static function planPear(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         return -param3 * (Math.sqrt(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow) - (param1 = Number(param1 / param4)) * param1) - RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)) + param2;
+         return -param3 * (Math.sqrt(CardBabies.machineOranges - (param1 = Number(param1 / param4)) * param1) - OrderUnit.apatheticRare(CardBabies.machineOranges)) + param2;
       }
       
-      public static function grateDistro(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      public static function fragileMouse(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         return param3 - ActionKnot.alluringTrail(param4 - param1,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),param3,param4) + param2;
-      }
-      
-      public static function deliverSign(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         if((param1 = param1 / (param4 / LaborerFeeble.instructBathe)) < CoalRay.actionBorrow)
+         if((param1 = param1 / (param4 / PinusSand.jumbledTiresome)) < OrderUnit.apatheticRare(CardBabies.machineOranges))
          {
-            return -param3 / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) * (Math.sqrt(CoalRay.actionBorrow - param1 * param1) - CoalRay.actionBorrow) + param2;
+            return param3 / PinusSand.jumbledTiresome * param1 * param1 * param1 + param2;
          }
-         return param3 / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) * (Math.sqrt(CoalRay.actionBorrow - (param1 = Number(param1 - RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe))) * param1) + RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)) + param2;
+         return param3 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome) * ((param1 = param1 - PinusSand.jumbledTiresome) * param1 * param1 + OrderUnit.apatheticRare(PinusSand.jumbledTiresome)) + param2;
       }
       
-      public static function lunasoleSign(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      public static function recogniseStomach(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         return -param3 * ((param1 = param1 / param4 - CoalRay.actionBorrow) * param1 * param1 * param1 - CoalRay.actionBorrow) + param2;
+         return param1 == OrderUnit.apatheticRare(ReligionStore.trailInstruct)?Number(param2):Number(param3 * Math.pow(PinusSand.jumbledTiresome,OrderUnit.apatheticRare(LargeComplex.balvankaZonked) * (param1 / param4 - CardBabies.machineOranges)) + param2);
       }
       
-      public static function notebookProbable(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      public static function alansonAnus(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         return param3 * ((param1 = param1 / param4 - RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)) * param1 * param1 + CoalRay.actionBorrow) + param2;
+         return -param3 * ((param1 = param1 / param4 - CardBabies.machineOranges) * param1 * param1 * param1 - CardBabies.machineOranges) + param2;
       }
       
-      public static function borrowList(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      public static function wateryTrail(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         if(param1 < param4 / LaborerFeeble.instructBathe)
-         {
-            return ActionKnot.grateDistro(param1 * LaborerFeeble.instructBathe,HystericalKotsky.notebookChivalrous,param3,param4) * CoalRay.orangeOrange + param2;
-         }
-         return ActionKnot.alluringTrail(param1 * RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) - param4,HystericalKotsky.notebookChivalrous,param3,param4) * RecogniseCompetition.scaleCrown(CoalRay.orangeOrange) + param3 * RecogniseCompetition.scaleCrown(CoalRay.orangeOrange) + param2;
+         return param2 + param3 * (OrderUnit.noiselessGullible(CardBabies.joyousFascinated) - Math.sin(AdmireUncle.mouseBabies * param1 * (Math.PI - CardBabies.joyousFascinated))) * Math.sin(PanoramicProbable.feebleProbable * param1 * Math.PI);
       }
       
-      public static function patWhistle(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         return param2 + param3 * (RecogniseCompetition.scaleCrown(AdviseRobin.hangingUncle) - Math.sin(param1 * Math.PI)) * Math.sin(RecogniseCompetition.scaleCrown(BerryMouse.berryCry) * param1 * Math.PI);
-      }
-      
-      public static function stupidAlluring(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = 1.70158) : Number
-      {
-         return param3 * (param1 = param1 / param4) * param1 * ((param5 + CoalRay.actionBorrow) * param1 - param5) + param2;
-      }
-      
-      public static function amuseScratch(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         return RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) == param1?Number(param2):Number(param3 * Math.pow(RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),HystericalKotsky.lightAnus * (param1 / param4 - CoalRay.actionBorrow)) + param2);
-      }
-      
-      public static function satisfyAgreeable(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         if((param1 = param1 / (param4 / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe))) < RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
-         {
-            return param3 / LaborerFeeble.instructBathe * param1 * param1 * param1 * param1 * param1 + param2;
-         }
-         return param3 / LaborerFeeble.instructBathe * ((param1 = param1 - RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)) * param1 * param1 * param1 * param1 + RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)) + param2;
-      }
-      
-      public static function supplyTremble(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         return param3 * Math.sin(param1 / param4 * ActionKnot.backSpurious) + param2;
-      }
-      
-      public static function programWhisper(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         if((param1 = param1 / (param4 / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe))) < CoalRay.actionBorrow)
-         {
-            return param3 / LaborerFeeble.instructBathe * param1 * param1 + param2;
-         }
-         return -param3 / LaborerFeeble.instructBathe * (--param1 * (param1 - RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)) - CoalRay.actionBorrow) + param2;
-      }
-      
-      public static function noxiousAgreeable(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         return param2 + param3 * (RecogniseCompetition.scaleCrown(AdviseRobin.hangingUncle) - Math.sin(CoalRay.orangeOrange * param1 * (-AdviseRobin.hangingUncle + Math.PI))) * Math.sin(RecogniseCompetition.scaleCrown(BerryMouse.berryCry) * param1 * Math.PI);
-      }
-      
-      public static function noxiousVolcano(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = 1.70158) : Number
-      {
-         return param3 * ((param1 = param1 / param4 - CoalRay.actionBorrow) * param1 * ((CoalRay.actionBorrow + param5) * param1 + param5) + RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)) + param2;
-      }
-      
-      public static function agonizingBack(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         return param3 * (param1 = param1 / param4) * param1 * param1 * param1 + param2;
-      }
-      
-      public static function suzukaSlip(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         return param3 * Math.sqrt(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow) - (param1 = Number(param1 / param4 - CoalRay.actionBorrow)) * param1) + param2;
-      }
-      
-      public static function airCrash(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         return param4 == param1?Number(param2 + param3):Number(param3 * (-Math.pow(RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),-RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus) * param1 / param4) + RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)) + param2);
-      }
-      
-      public static function crackerYell(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         return param3 * ((param1 = param1 / param4 - CoalRay.actionBorrow) * param1 * param1 * param1 * param1 + RecogniseCompetition.prepareAgree(CoalRay.actionBorrow)) + param2;
-      }
-      
-      public static function chopWing(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         return param3 * (param1 = param1 / param4) * param1 + param2;
-      }
-      
-      public static function peckColor(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = undefined, param6:Number = undefined) : Number
+      public static function deadpanUncle(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = undefined, param6:Number = undefined) : Number
       {
          var _loc7_:Number = NaN;
-         if(param1 == RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+         if(OrderUnit.apatheticRare(ReligionStore.trailInstruct) == param1)
          {
             return param2;
          }
-         if((param1 = param1 / param4) == RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+         if((param1 = param1 / (param4 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome))) == PinusSand.jumbledTiresome)
          {
             return param2 + param3;
          }
          if(!param6)
          {
-            param6 = RecogniseCompetition.scaleCrown(LipStore.laborerThick) * param4;
+            param6 = DildoBorrow.pipkaStick * LargeComplex.loafCrib * param4;
          }
          if(!param5 || param5 < Math.abs(param3))
          {
             param5 = param3;
-            _loc7_ = param6 / RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable);
+            _loc7_ = param6 / OrderUnit.apatheticRare(CardBabies.senseCrown);
          }
          else
          {
-            _loc7_ = param6 / ActionKnot.coalVolcano * Math.asin(param3 / param5);
+            _loc7_ = param6 / ActionKnot.seedStay * Math.asin(param3 / param5);
          }
-         return param5 * Math.pow(RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),-RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus) * param1) * Math.sin((param1 * param4 - _loc7_) * ActionKnot.coalVolcano / param6) + param3 + param2;
-      }
-      
-      public static function robinStick(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = 1.70158) : Number
-      {
-         if((param1 = param1 / (param4 / LaborerFeeble.instructBathe)) < RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+         if(CardBabies.machineOranges > param1)
          {
-            return param3 / LaborerFeeble.instructBathe * (param1 * param1 * (((param5 = param5 * RecogniseCompetition.scaleCrown(DeterminedWarlike.apatheticWhisper)) + CoalRay.actionBorrow) * param1 - param5)) + param2;
+            return -OrderUnit.noiselessGullible(AdmireUncle.mouseBabies) * (param5 * Math.pow(OrderUnit.apatheticRare(PinusSand.jumbledTiresome),LargeComplex.balvankaZonked * (param1 = Number(param1 - OrderUnit.apatheticRare(CardBabies.machineOranges)))) * Math.sin((param1 * param4 - _loc7_) * ActionKnot.seedStay / param6)) + param2;
          }
-         return param3 / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) * ((param1 = param1 - RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)) * param1 * (((param5 = param5 * DeterminedWarlike.apatheticWhisper) + CoalRay.actionBorrow) * param1 + param5) + LaborerFeeble.instructBathe) + param2;
+         return param5 * Math.pow(OrderUnit.apatheticRare(PinusSand.jumbledTiresome),-OrderUnit.apatheticRare(LargeComplex.balvankaZonked) * (param1 = Number(param1 - OrderUnit.apatheticRare(CardBabies.machineOranges)))) * Math.sin((param1 * param4 - _loc7_) * ActionKnot.seedStay / param6) * AdmireUncle.mouseBabies + param3 + param2;
       }
       
-      public static function bladeIcy(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      public static function alansonSqueamish(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         return -param3 / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) * (Math.cos(Math.PI * param1 / param4) - CoalRay.actionBorrow) + param2;
-      }
-      
-      public static function creatorFascinated(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         return param3 * (param1 = param1 / param4) * param1 * param1 + param2;
-      }
-      
-      public static function knifeList(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         return -param3 * Math.cos(param1 / param4 * ActionKnot.backSpurious) + param3 + param2;
-      }
-      
-      public static function machineBabies(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         if((param1 = param1 / (param4 / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe))) < RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+         if((param1 = param1 / param4) < OrderUnit.apatheticRare(CardBabies.machineOranges) / OrderUnit.noiselessGullible(PinusSand.chivalrousPail))
          {
-            return param3 / LaborerFeeble.instructBathe * param1 * param1 * param1 * param1 + param2;
+            return param3 * (OrderUnit.noiselessGullible(BurnFix.satisfyTrail) * param1 * param1) + param2;
          }
-         return -param3 / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) * ((param1 = param1 - RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)) * param1 * param1 * param1 - RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)) + param2;
+         if(param1 < OrderUnit.apatheticRare(PinusSand.jumbledTiresome) / PinusSand.chivalrousPail)
+         {
+            return param3 * (OrderUnit.noiselessGullible(BurnFix.satisfyTrail) * (param1 = param1 - LargeComplex.loafCrib / PinusSand.chivalrousPail) * param1 + PanoramicProbable.probableYell) + param2;
+         }
+         if(param1 < BurnFix.pinusZonked / OrderUnit.noiselessGullible(PinusSand.chivalrousPail))
+         {
+            return param3 * (BurnFix.satisfyTrail * (param1 = param1 - OrderUnit.noiselessGullible(AdaptableInexpensive.pailDildo) / PinusSand.chivalrousPail) * param1 + OrderUnit.noiselessGullible(SlipReligion.milkyUnequaled)) + param2;
+         }
+         return param3 * (BurnFix.satisfyTrail * (param1 = param1 - CreatorSupply.entertainingSlip / PinusSand.chivalrousPail) * param1 + OrderUnit.noiselessGullible(PrepareLip.entertainingObtainable)) + param2;
       }
       
-      public static function jumbledLeg(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      public static function crimeKnot(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         return -param3 * (param1 = param1 / param4) * (-RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) + param1) + param2;
+         return -param3 * Math.cos(param1 / param4 * ActionKnot.patCry) + param3 + param2;
       }
       
-      public static function alluringTrail(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      public static function senseSeed(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         if((param1 = param1 / param4) < CoalRay.actionBorrow / LipStore.panoramicBorrow)
-         {
-            return param3 * (LaborerFeeble.crackerBruise * param1 * param1) + param2;
-         }
-         if(param1 < RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) / LipStore.panoramicBorrow)
-         {
-            return param3 * (LaborerFeeble.crackerBruise * (param1 = param1 - AlansonReligion.patComplex / LipStore.panoramicBorrow) * param1 + AnusSeed.crowdedComplex) + param2;
-         }
-         if(param1 < BruiseBorrow.bagDeadpan / LipStore.panoramicBorrow)
-         {
-            return param3 * (LaborerFeeble.crackerBruise * (param1 = param1 - CoalRay.dildoAlluring / LipStore.panoramicBorrow) * param1 + RecogniseCompetition.scaleCrown(DeterminedWarlike.pipkaAlluring)) + param2;
-         }
-         return param3 * (LaborerFeeble.crackerBruise * (param1 = param1 - RecogniseCompetition.scaleCrown(RecogniseTrail.peckAnus) / RecogniseCompetition.scaleCrown(LipStore.panoramicBorrow)) * param1 + ConfusedPeck.windyStale) + param2;
+         return -param3 * (param1 = param1 / param4) * (-PinusSand.jumbledTiresome + param1) + param2;
       }
       
-      public static function panoramicGaping(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      public static function robinObtainable(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         if(param1 == RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous))
+         if(param1 == OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
             return param2;
          }
@@ -284,133 +178,239 @@ package
          {
             return param2 + param3;
          }
-         if((param1 = param1 / (param4 / LaborerFeeble.instructBathe)) < RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+         if((param1 = param1 / (param4 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome))) < OrderUnit.apatheticRare(CardBabies.machineOranges))
          {
-            return param3 / LaborerFeeble.instructBathe * Math.pow(RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus) * (param1 - RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))) + param2;
+            return param3 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome) * Math.pow(OrderUnit.apatheticRare(PinusSand.jumbledTiresome),OrderUnit.apatheticRare(LargeComplex.balvankaZonked) * (-CardBabies.machineOranges + param1)) + param2;
          }
-         return param3 / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) * (-Math.pow(LaborerFeeble.instructBathe,-RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus) * --param1) + LaborerFeeble.instructBathe) + param2;
+         return param3 / PinusSand.jumbledTiresome * (-Math.pow(PinusSand.jumbledTiresome,-LargeComplex.balvankaZonked * --param1) + OrderUnit.apatheticRare(PinusSand.jumbledTiresome)) + param2;
       }
       
-      public static function crackerSisters(param1:Number, param2:Number, param3:Number, param4:Number) : Number
-      {
-         if((param1 = param1 / (param4 / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe))) < CoalRay.actionBorrow)
-         {
-            return param3 / LaborerFeeble.instructBathe * param1 * param1 * param1 + param2;
-         }
-         return param3 / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe) * ((param1 = param1 - RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe)) * param1 * param1 + LaborerFeeble.instructBathe) + param2;
-      }
-      
-      public static function decayApathetic(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      public static function mightyMetal(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
          return param3 * (param1 = param1 / param4) * param1 * param1 * param1 * param1 + param2;
       }
       
-      public static function cryChicken(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = undefined, param6:Number = undefined) : Number
+      public static function agonizingLunasole(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         return param3 * ((param1 = param1 / param4 - OrderUnit.apatheticRare(CardBabies.machineOranges)) * param1 * param1 + CardBabies.machineOranges) + param2;
+      }
+      
+      public static function agonizingInjure(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = undefined, param6:Number = undefined) : Number
       {
          var _loc7_:Number = NaN;
-         if(param1 == HystericalKotsky.notebookChivalrous)
+         if(param1 == OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
             return param2;
          }
-         if((param1 = param1 / param4) == CoalRay.actionBorrow)
+         if((param1 = param1 / param4) == CardBabies.machineOranges)
          {
             return param2 + param3;
          }
          if(!param6)
          {
-            param6 = LipStore.laborerThick * param4;
+            param6 = param4 * DildoBorrow.pipkaStick;
          }
          if(!param5 || param5 < Math.abs(param3))
          {
             param5 = param3;
-            _loc7_ = param6 / AdviseRobin.mouseProbable;
+            _loc7_ = param6 / OrderUnit.apatheticRare(CardBabies.senseCrown);
          }
          else
          {
-            _loc7_ = param6 / ActionKnot.coalVolcano * Math.asin(param3 / param5);
+            _loc7_ = param6 / ActionKnot.seedStay * Math.asin(param3 / param5);
          }
-         return -(param5 * Math.pow(RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),HystericalKotsky.lightAnus * (param1 = Number(param1 - CoalRay.actionBorrow))) * Math.sin((param1 * param4 - _loc7_) * ActionKnot.coalVolcano / param6)) + param2;
+         return param5 * Math.pow(PinusSand.jumbledTiresome,-LargeComplex.balvankaZonked * param1) * Math.sin((param1 * param4 - _loc7_) * ActionKnot.seedStay / param6) + param3 + param2;
       }
       
-      public static function chickensPinus(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = undefined, param6:Number = undefined) : Number
+      public static function entertainingProbable(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         return param3 * (param1 = param1 / param4) * param1 * param1 + param2;
+      }
+      
+      public static function hydrantTasteless(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         return param3 * ((param1 = param1 / param4 - OrderUnit.apatheticRare(CardBabies.machineOranges)) * param1 * param1 * param1 * param1 + CardBabies.machineOranges) + param2;
+      }
+      
+      public static function cribInvite(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = 1.70158) : Number
+      {
+         return param3 * (param1 = param1 / param4) * param1 * ((OrderUnit.apatheticRare(CardBabies.machineOranges) + param5) * param1 - param5) + param2;
+      }
+      
+      public static function fourFascinated(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         return param3 * (param1 = param1 / param4) * param1 + param2;
+      }
+      
+      public static function colorPail(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         return param3 * Math.sin(param1 / param4 * ActionKnot.patCry) + param2;
+      }
+      
+      public static function trailFragile(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = 1.70158) : Number
+      {
+         return param3 * ((param1 = param1 / param4 - OrderUnit.apatheticRare(CardBabies.machineOranges)) * param1 * ((OrderUnit.apatheticRare(CardBabies.machineOranges) + param5) * param1 + param5) + CardBabies.machineOranges) + param2;
+      }
+      
+      public static function quirkyFlower(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         if((param1 = param1 / (param4 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome))) < CardBabies.machineOranges)
+         {
+            return param3 / PinusSand.jumbledTiresome * param1 * param1 + param2;
+         }
+         return -param3 / PinusSand.jumbledTiresome * (--param1 * (param1 - PinusSand.jumbledTiresome) - CardBabies.machineOranges) + param2;
+      }
+      
+      public static function scratchHateful(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         return param2 + param3 * (-Math.sin(Math.PI * param1) + CardBabies.joyousFascinated) * Math.sin(PanoramicProbable.feebleProbable * param1 * Math.PI);
+      }
+      
+      public static function agonizingDetermined(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         return param3 - ActionKnot.alansonSqueamish(param4 - param1,ReligionStore.trailInstruct,param3,param4) + param2;
+      }
+      
+      public static function staleAnus(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         if((param1 = param1 / (param4 / PinusSand.jumbledTiresome)) < CardBabies.machineOranges)
+         {
+            return -param3 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome) * (Math.sqrt(OrderUnit.apatheticRare(CardBabies.machineOranges) - param1 * param1) - OrderUnit.apatheticRare(CardBabies.machineOranges)) + param2;
+         }
+         return param3 / PinusSand.jumbledTiresome * (Math.sqrt(OrderUnit.apatheticRare(CardBabies.machineOranges) - (param1 = Number(param1 - PinusSand.jumbledTiresome)) * param1) + OrderUnit.apatheticRare(CardBabies.machineOranges)) + param2;
+      }
+      
+      public static function proudAdhesive(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         return -param3 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome) * (Math.cos(Math.PI * param1 / param4) - CardBabies.machineOranges) + param2;
+      }
+      
+      public static function bagPeck(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         if((param1 = param1 / (param4 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome))) < OrderUnit.apatheticRare(CardBabies.machineOranges))
+         {
+            return param3 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome) * param1 * param1 * param1 * param1 * param1 + param2;
+         }
+         return param3 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome) * ((param1 = param1 - OrderUnit.apatheticRare(PinusSand.jumbledTiresome)) * param1 * param1 * param1 * param1 + OrderUnit.apatheticRare(PinusSand.jumbledTiresome)) + param2;
+      }
+      
+      public static function fourHysterical(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = 1.70158) : Number
+      {
+         if((param1 = param1 / (param4 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome))) < CardBabies.machineOranges)
+         {
+            return param3 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome) * (param1 * param1 * (((param5 = param5 * OrderUnit.noiselessGullible(GullibleLook.squeamishSubdued)) + OrderUnit.apatheticRare(CardBabies.machineOranges)) * param1 - param5)) + param2;
+         }
+         return param3 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome) * ((param1 = param1 - PinusSand.jumbledTiresome) * param1 * (((param5 = param5 * GullibleLook.squeamishSubdued) + OrderUnit.apatheticRare(CardBabies.machineOranges)) * param1 + param5) + OrderUnit.apatheticRare(PinusSand.jumbledTiresome)) + param2;
+      }
+      
+      public static function inexpensiveCracker(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         return param3 * Math.sqrt(OrderUnit.apatheticRare(CardBabies.machineOranges) - (param1 = Number(param1 / param4 - OrderUnit.apatheticRare(CardBabies.machineOranges))) * param1) + param2;
+      }
+      
+      public static function balvankaScintillating(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         return param3 * (param1 = param1 / param4) * param1 * param1 * param1 + param2;
+      }
+      
+      public static function largeApathetic(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         if((param1 = param1 / (param4 / PinusSand.jumbledTiresome)) < OrderUnit.apatheticRare(CardBabies.machineOranges))
+         {
+            return param3 / PinusSand.jumbledTiresome * param1 * param1 * param1 * param1 + param2;
+         }
+         return -param3 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome) * ((param1 = param1 - PinusSand.jumbledTiresome) * param1 * param1 * param1 - OrderUnit.apatheticRare(PinusSand.jumbledTiresome)) + param2;
+      }
+      
+      public static function programSign(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         if(param1 < param4 / OrderUnit.apatheticRare(PinusSand.jumbledTiresome))
+         {
+            return ActionKnot.agonizingDetermined(param1 * OrderUnit.apatheticRare(PinusSand.jumbledTiresome),ReligionStore.trailInstruct,param3,param4) * AdmireUncle.mouseBabies + param2;
+         }
+         return ActionKnot.alansonSqueamish(param1 * PinusSand.jumbledTiresome - param4,OrderUnit.apatheticRare(ReligionStore.trailInstruct),param3,param4) * OrderUnit.noiselessGullible(AdmireUncle.mouseBabies) + param3 * OrderUnit.noiselessGullible(AdmireUncle.mouseBabies) + param2;
+      }
+      
+      public static function deliverJumbled(param1:Number, param2:Number, param3:Number, param4:Number) : Number
+      {
+         return param1 == param4?Number(param2 + param3):Number(param3 * (-Math.pow(PinusSand.jumbledTiresome,-OrderUnit.apatheticRare(LargeComplex.balvankaZonked) * param1 / param4) + CardBabies.machineOranges) + param2);
+      }
+      
+      public static function inviteGround(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = undefined, param6:Number = undefined) : Number
       {
          var _loc7_:Number = NaN;
-         if(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) == param1)
+         if(param1 == OrderUnit.apatheticRare(ReligionStore.trailInstruct))
          {
             return param2;
          }
-         if((param1 = param1 / (param4 / RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe))) == RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe))
+         if((param1 = param1 / param4) == CardBabies.machineOranges)
          {
             return param2 + param3;
          }
          if(!param6)
          {
-            param6 = LipStore.laborerThick * RecogniseCompetition.scaleCrown(AlansonReligion.patComplex) * param4;
+            param6 = DildoBorrow.pipkaStick * param4;
          }
          if(!param5 || param5 < Math.abs(param3))
          {
             param5 = param3;
-            _loc7_ = param6 / RecogniseCompetition.prepareAgree(AdviseRobin.mouseProbable);
+            _loc7_ = param6 / CardBabies.senseCrown;
          }
          else
          {
-            _loc7_ = param6 / ActionKnot.coalVolcano * Math.asin(param3 / param5);
+            _loc7_ = param6 / ActionKnot.seedStay * Math.asin(param3 / param5);
          }
-         if(CoalRay.actionBorrow > param1)
-         {
-            return -RecogniseCompetition.scaleCrown(CoalRay.orangeOrange) * (param5 * Math.pow(RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe),HystericalKotsky.lightAnus * (param1 = Number(param1 - CoalRay.actionBorrow))) * Math.sin((param1 * param4 - _loc7_) * ActionKnot.coalVolcano / param6)) + param2;
-         }
-         return param5 * Math.pow(LaborerFeeble.instructBathe,-HystericalKotsky.lightAnus * (param1 = Number(param1 - CoalRay.actionBorrow))) * Math.sin((param1 * param4 - _loc7_) * ActionKnot.coalVolcano / param6) * CoalRay.orangeOrange + param3 + param2;
+         return -(param5 * Math.pow(OrderUnit.apatheticRare(PinusSand.jumbledTiresome),LargeComplex.balvankaZonked * (param1 = Number(param1 - OrderUnit.apatheticRare(CardBabies.machineOranges)))) * Math.sin((param1 * param4 - _loc7_) * ActionKnot.seedStay / param6)) + param2;
       }
       
-      public function complexBorrow(param1:Number = 1, param2:Number = 0) : ActionKnot
+      public function berryEntertaining(param1:int, param2:int) : ActionKnot
       {
-         this.crackerCrime = DeterminedPrepare.hatefulComplex;
-         this.whistleGullible = param1;
-         this.superJoyous = param2;
-         this.pinusOranges = -param1 + param2;
+         this.cribTouch = HateFaint.proudGround;
+         this.noxiousAdhesive = param1;
+         this.patGate = param2;
+         this.wickedProse = param2 - param1;
+         this.wickedRequest.x = param1;
          return this;
       }
       
-      public function unequaledTasteless(param1:Function) : ActionKnot
+      public function hateZonked(param1:Function) : ActionKnot
       {
-         this.bashfulGullible = DeterminedPrepare.hatefulComplex;
-         this.noiselessProud = param1;
+         this.trailUnit = HateFaint.proudGround;
+         this.peckStale = param1;
          return this;
       }
       
-      public function senseObeisant(param1:int, param2:int) : ActionKnot
+      public function illustriousCrime(param1:int, param2:int) : ActionKnot
       {
-         this.creatorDetermined = DeterminedPrepare.hatefulComplex;
-         this.complexLight = param1;
-         this.agreeableSense = param2;
-         this.violetStick = -param1 + param2;
-         this.actionLarge.y = param1;
+         this.agreeBabies = HateFaint.proudGround;
+         this.groundAdaptable = param1;
+         this.markRay = param2;
+         this.legChickens = -param1 + param2;
+         this.wickedRequest.y = param1;
          return this;
       }
       
-      public function seriousObtainable(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number, param6:Number) : ActionKnot
+      public function knotWhisper(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number, param6:Number) : ActionKnot
       {
-         this.bladeDetermined = DeterminedPrepare.hatefulComplex;
-         this.deliverMilky = param1;
-         this.wateryWhisper = param4;
-         this.colorArmy = param2;
-         this.rayParty = param5;
-         this.kurumaPeck = param3;
-         this.stupidBag = param6;
-         this.pearSwanky = -param1 + param4;
-         this.inexpensiveComplex = -param2 + param5;
-         this.gateGate = -param3 + param6;
+         this.volcanoCompetition = HateFaint.proudGround;
+         this.burnCommon = param1;
+         this.cribQuirky = param4;
+         this.hydrantViolet = param2;
+         this.faintOranges = param5;
+         this.halfChickens = param3;
+         this.subduedArmy = param6;
+         this.wingStatement = -param1 + param4;
+         this.babiesFaithful = param5 - param2;
+         this.backSlip = -param3 + param6;
          return this;
       }
       
-      public function obeisantTasteless(param1:int, param2:int) : ActionKnot
+      public function orangeAdvise(param1:Number = 1, param2:Number = 0) : ActionKnot
       {
-         this.inviteJuice = DeterminedPrepare.hatefulComplex;
-         this.commonAdhesive = param1;
-         this.agonizingScratch = param2;
-         this.decayNoxious = -param1 + param2;
-         this.actionLarge.x = param1;
+         this.spuriousTasteless = HateFaint.proudGround;
+         this.unitCommon = param1;
+         this.illustriousAdvise = param2;
+         this.satisfyBruise = -param1 + param2;
          return this;
       }
    }

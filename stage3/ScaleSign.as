@@ -6,49 +6,49 @@ package
    {
        
       
-      public var berryViolet:BalvankaSpurious;
+      public var feebleMachine:BalvankaSpurious;
       
-      public var illustriousObeisant:String;
+      public var wingWing:String;
       
-      public var juiceComplex:String;
+      public var crimeGate:String;
       
       public function ScaleSign(param1:BalvankaSpurious)
       {
          super();
-         this.berryViolet = param1;
+         this.feebleMachine = param1;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return LargeComplex.stomachBack;
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      public function harmonyWhisper() : int
+      public function complexHeal() : int
       {
-         return AdviseRobin.mouseProbable + this.illustriousObeisant.length + this.juiceComplex.length;
+         return CardBabies.senseCrown + this.wingWing.length + this.crimeGate.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.illustriousObeisant = param1.readUTFBytes(_loc2_);
+         this.wingWing = param1.readUTFBytes(_loc2_);
          var _loc3_:int = param1.readShort();
-         this.juiceComplex = param1.readUTFBytes(_loc3_);
+         this.crimeGate = param1.readUTFBytes(_loc3_);
       }
       
-      public function get prepareHate() : int
+      public function get yellOrder() : int
       {
-         return RecogniseCompetition.prepareAgree(LipStore.scratchHysterical);
+         return LargeComplex.gapingScale;
       }
    }
 }

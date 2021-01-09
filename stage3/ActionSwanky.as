@@ -7,16 +7,16 @@ package
    public class ActionSwanky
    {
       
-      public static const instructSatisfy:Sprite = new Sprite();
+      public static const airRay:Sprite = new Sprite();
        
       
-      public var partyPat:Number;
+      public var juiceAbaft:Number;
       
-      public var crownCard:Number;
+      public var listAdmire:Number;
       
-      public var staySigh:BitmapData;
+      public var lamentableSpurious:BitmapData;
       
-      public var fragileLabel:Rectangle;
+      public var signElite:Rectangle;
       
       public function ActionSwanky(param1:Sprite, param2:int = 0, param3:int = 0, param4:int = 0)
       {
@@ -24,31 +24,31 @@ package
          var _loc7_:Number = NaN;
          var _loc8_:Number = NaN;
          super();
-         var _loc5_:int = param4 / LaborerFeeble.instructBathe;
+         var _loc5_:int = param4 / PinusSand.jumbledTiresome;
          if(param2)
          {
-            _loc6_ = new Rectangle(HystericalKotsky.notebookChivalrous,HystericalKotsky.notebookChivalrous,RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag),AlansonReligion.babiesBag);
+            _loc6_ = new Rectangle(ReligionStore.trailInstruct,OrderUnit.apatheticRare(ReligionStore.trailInstruct),CardBabies.inexpensiveChickens,CardBabies.inexpensiveChickens);
             _loc7_ = param2;
             _loc8_ = param3;
          }
          else
          {
             _loc6_ = param1.getRect(param1);
-            _loc7_ = _loc6_.width + param4;
-            _loc8_ = _loc6_.height + param4;
+            _loc7_ = param4 + _loc6_.width;
+            _loc8_ = param4 + _loc6_.height;
          }
-         this.fragileLabel = new Rectangle(HystericalKotsky.notebookChivalrous,HystericalKotsky.notebookChivalrous,_loc7_,_loc8_);
-         this.partyPat = _loc6_.x;
-         this.crownCard = _loc6_.y;
-         if(ActionSwanky.instructSatisfy.numChildren)
+         this.signElite = new Rectangle(OrderUnit.apatheticRare(ReligionStore.trailInstruct),ReligionStore.trailInstruct,_loc7_,_loc8_);
+         this.juiceAbaft = _loc6_.x;
+         this.listAdmire = _loc6_.y;
+         if(ActionSwanky.airRay.numChildren)
          {
-            ActionSwanky.instructSatisfy.removeChildAt(HystericalKotsky.notebookChivalrous);
+            ActionSwanky.airRay.removeChildAt(OrderUnit.apatheticRare(ReligionStore.trailInstruct));
          }
-         ActionSwanky.instructSatisfy.addChild(param1);
+         ActionSwanky.airRay.addChild(param1);
          param1.x = _loc5_ - _loc6_.x;
-         param1.y = -_loc6_.y + _loc5_;
-         this.staySigh = new BitmapData(_loc7_,_loc8_,true,HystericalKotsky.notebookChivalrous);
-         this.staySigh.draw(ActionSwanky.instructSatisfy);
+         param1.y = _loc5_ - _loc6_.y;
+         this.lamentableSpurious = new BitmapData(_loc7_,_loc8_,true,ReligionStore.trailInstruct);
+         this.lamentableSpurious.draw(ActionSwanky.airRay);
       }
    }
 }

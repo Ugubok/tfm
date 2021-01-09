@@ -20,55 +20,55 @@ package
    public class AgreeableHistorical
    {
       
-      public static const icyMark:Boolean = false;
+      public static const distroBury:Boolean = false;
       
-      public static var x_TransformiceFLA:Class = SlipDeadpan;
+      public static var x_TransformiceFLA:Class = CardProbable;
       
-      public static var x_Ressources_Class:Class = PinusPrepare;
+      public static var x_Ressources_Class:Class = KnotChickens;
       
-      public static var competitionSense:Class = CardProbable;
+      public static var bruiseHysterical:Class = CurvedAnnoying;
       
-      public static const chivalrousCompany:Vector.<ApplicationDomain> = new Vector.<ApplicationDomain>();
+      public static const historicalInvite:Vector.<ApplicationDomain> = new Vector.<ApplicationDomain>();
       
-      public static var instructAdhesive:int = 0;
+      public static var unitPrepare:int =  0;
       
-      public static var crownHeal:Function;
+      public static var warlikeFrail:Function;
       
-      public static const proudAdvise:Dictionary = new Dictionary();
+      public static const peckNoxious:Dictionary = new Dictionary();
       
-      public static const competitionBird:Dictionary = new Dictionary();
+      public static const violetProse:Dictionary = new Dictionary();
       
-      public static const alluringViolet:Dictionary = new Dictionary();
+      public static const superAgree:Dictionary = new Dictionary();
       
-      public static const windySpurious:Vector.<Bitmap> = new Vector.<Bitmap>();
+      public static const milkyLoaf:Vector.<Bitmap> = new Vector.<Bitmap>();
       
-      public static var dildoKotsky:Boolean = false;
+      public static var bagHalf:Boolean = false;
       
-      public static const proseConfused:Vector.<String> = new Vector.<String>();
+      public static const volcanoAgree:Vector.<String> = new Vector.<String>();
       
-      public static var bruiseApathetic:Vector.<Loader>;
+      public static var apatheticAmuse:Vector.<Loader>;
       
-      public static const decayTremble:Dictionary = new Dictionary();
+      public static const alansonCurved:Dictionary = new Dictionary();
       
-      public static var machineStomach:LoaderContext;
+      public static var deliverHate:LoaderContext;
       
-      public static var fragileAdvise:Boolean = false;
+      public static var lunasoleObtainable:Boolean = false;
       
-      public static var pipkaTrail:Array = new Array();
+      public static var probableSubdued:Array = new Array();
       
-      public static var pailPinus:URLLoader;
+      public static var actionAction:URLLoader;
       
-      public static var pipkaUnequaled:Loader;
+      public static var recogniseProgram:Loader;
       
-      public static var chickensWhisper:Boolean = false;
+      public static var touchOrder:Boolean = false;
       
-      public static var airLeg:String;
+      public static var inviteScratch:String;
       
-      public static var seriousFlower:Function;
+      public static var planHeal:Function;
       
-      public static var cryAgonizing:Object;
+      public static var cuteIllustrious:Object;
       
-      public static const cribPeck:Event = new Event(Event.COMPLETE);
+      public static const bagBalvanka:Event = new Event(Event.COMPLETE);
        
       
       public function AgreeableHistorical()
@@ -76,209 +76,13 @@ package
          super();
       }
       
-      public static function religionSign(param1:String, param2:String = "http://www.transformice.com/images/") : Bitmap
-      {
-         var _loc5_:int = 0;
-         var _loc6_:int = 0;
-         var _loc7_:Loader = null;
-         if(!AgreeableHistorical.bruiseApathetic)
-         {
-            _loc5_ = HystericalKotsky.lightAnus;
-            AgreeableHistorical.bruiseApathetic = new Vector.<Loader>();
-            _loc6_ = HystericalKotsky.notebookChivalrous;
-            while(_loc6_ < _loc5_)
-            {
-               _loc7_ = new Loader();
-               _loc7_.contentLoaderInfo.addEventListener(Event.COMPLETE,AgreeableHistorical.bashfulKotsky);
-               _loc7_.contentLoaderInfo.addEventListener(IOErrorEvent.IO_ERROR,AgreeableHistorical.unequaledGaping);
-               AgreeableHistorical.bruiseApathetic.push(_loc7_);
-               _loc6_++;
-            }
-         }
-         var _loc3_:String = param2 + param1;
-         var _loc4_:Bitmap = new Bitmap();
-         if(AgreeableHistorical.competitionBird[_loc3_])
-         {
-            _loc4_.bitmapData = AgreeableHistorical.competitionBird[_loc3_];
-            AgreeableHistorical.windySpurious.push(_loc4_);
-            if(!AgreeableHistorical.dildoKotsky)
-            {
-               AgreeableHistorical.dildoKotsky = DeterminedPrepare.hatefulComplex;
-               AdmireStore.proseWindy.addEventListener(BalvankaNotebook.programOrder,AgreeableHistorical.slipLeg);
-            }
-         }
-         else if(AgreeableHistorical.alluringViolet[_loc3_])
-         {
-            AgreeableHistorical.alluringViolet[_loc3_].push(_loc4_);
-         }
-         else
-         {
-            AgreeableHistorical.alluringViolet[_loc3_] = new Array(_loc4_);
-            AgreeableHistorical.proseConfused.push(_loc3_);
-            AgreeableHistorical.deliverLook();
-         }
-         return _loc4_;
-      }
-      
-      public static function wanderingBathe() : void
-      {
-         if(AgreeableHistorical.pipkaTrail.length <= RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous) || AgreeableHistorical.coalChickens();
-            return;
-         }
-         try
-         {
-            AgreeableHistorical.chickensWhisper = DeterminedPrepare.hatefulComplex;
-            AgreeableHistorical.airLeg = AgreeableHistorical.pipkaTrail.shift();
-            AgreeableHistorical.seriousFlower = AgreeableHistorical.pipkaTrail.shift();
-            AgreeableHistorical.cryAgonizing = AgreeableHistorical.pipkaTrail.shift();
-            AgreeableHistorical.pailPinus = new URLLoader();
-            AgreeableHistorical.pailPinus.dataFormat = URLLoaderDataFormat.BINARY;
-            AgreeableHistorical.pailPinus.addEventListener(Event.COMPLETE,AgreeableHistorical.crackerCompetition);
-            AgreeableHistorical.pailPinus.addEventListener(SecurityErrorEvent.SECURITY_ERROR,AgreeableHistorical.agreeWhisper);
-            AgreeableHistorical.pailPinus.addEventListener(IOErrorEvent.IO_ERROR,AgreeableHistorical.agreeWhisper);
-            AgreeableHistorical.pailPinus.load(new URLRequest(AgreeableHistorical.airLeg + HystericalKotsky.backDeliver + AdmireStore.proseWindy.clubHeal));
-            return;
-         }
-         catch(proudUncle:Error)
-         {
-            AgreeableHistorical.chickensWhisper = DeterminedPrepare.machineSigh;
-            AgreeableHistorical.wanderingBathe();
-            return;
-         }
-      }
-      
-      public static function bashfulKotsky(param1:Event) : void
-      {
-         var crowdedReligion:BitmapData = null;
-         var machineSign:String = null;
-         var taxCrown:Array = null;
-         var partyMetal:int = 0;
-         var wanderingTremble:Bitmap = null;
-         var superScale:Event = param1;
-         var batheFrail:Loader = null;
-         try
-         {
-            batheFrail = (superScale.currentTarget as LoaderInfo).loader;
-            crowdedReligion = Bitmap(batheFrail.content).bitmapData;
-            machineSign = AgreeableHistorical.decayTremble[batheFrail];
-            AgreeableHistorical.competitionBird[machineSign] = crowdedReligion;
-            KnotBerry.deliverParty = KnotBerry.deliverParty + batheFrail.contentLoaderInfo.bytesLoaded;
-            taxCrown = AgreeableHistorical.alluringViolet[machineSign];
-            if(taxCrown)
-            {
-               delete AgreeableHistorical.alluringViolet[machineSign];
-               partyMetal = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-               while(partyMetal < taxCrown.length)
-               {
-                  wanderingTremble = taxCrown[partyMetal];
-                  wanderingTremble.bitmapData = crowdedReligion;
-                  wanderingTremble.dispatchEvent(AgreeableHistorical.cribPeck);
-                  partyMetal++;
-               }
-            }
-            return;
-         }
-         catch(proudUncle:Error)
-         {
-            return;
-         }
-         finally
-         {
-            if(batheFrail)
-            {
-               AgreeableHistorical.bruiseApathetic.push(batheFrail);
-            }
-            AgreeableHistorical.deliverLook();
-         }
-      }
-      
-      public static function flowerViolet(param1:Event) : void
-      {
-         AgreeableHistorical.chickensWhisper = DeterminedPrepare.machineSigh;
-         AgreeableHistorical.superAdvise(ApplicationDomain.currentDomain);
-         if(AgreeableHistorical.seriousFlower != null)
-         {
-            if(AgreeableHistorical.cryAgonizing == null)
-            {
-               AgreeableHistorical.seriousFlower();
-            }
-            else
-            {
-               AgreeableHistorical.seriousFlower(AgreeableHistorical.cryAgonizing);
-            }
-         }
-         AgreeableHistorical.wanderingBathe();
-      }
-      
-      public static function slipLeg(param1:Event) : void
-      {
-         while(AgreeableHistorical.windySpurious.length)
-         {
-            AgreeableHistorical.windySpurious.shift().dispatchEvent(AgreeableHistorical.cribPeck);
-         }
-         AdmireStore.proseWindy.removeEventListener(RecogniseCompetition.mouseDelightful(ArmyObtainable.supplyObeisant) + GroundFour.pailHateful,AgreeableHistorical.slipLeg);
-         AgreeableHistorical.dildoKotsky = DeterminedPrepare.machineSigh;
-      }
-      
-      public static function bagScale(param1:int) : String
-      {
-         return RecogniseCompetition.mouseDelightful(WaitingReligion.illustriousMouse) + param1 % RecogniseCompetition.prepareAgree(HystericalKotsky.cryConfused) + RayYell.clubMachine + param1 + MetalDetermined.healFragile;
-      }
-      
-      public static function crackerCompetition(param1:Event) : void
-      {
-         var commonRare:LoaderContext = null;
-         var superScale:Event = param1;
-         try
-         {
-            AgreeableHistorical.pipkaUnequaled = new Loader();
-            AgreeableHistorical.pipkaUnequaled.contentLoaderInfo.addEventListener(Event.COMPLETE,AgreeableHistorical.flowerViolet);
-            AgreeableHistorical.pipkaUnequaled.contentLoaderInfo.addEventListener(IOErrorEvent.IO_ERROR,AgreeableHistorical.agreeWhisper);
-            AgreeableHistorical.pipkaUnequaled.contentLoaderInfo.addEventListener(SecurityErrorEvent.SECURITY_ERROR,AgreeableHistorical.agreeWhisper);
-            commonRare = new LoaderContext();
-            if(Capabilities.playerType == RecogniseCompetition.mouseDelightful(GroundFour.groundAnus))
-            {
-               Object(commonRare).allowCodeImport = DeterminedPrepare.hatefulComplex;
-            }
-            commonRare.applicationDomain = ApplicationDomain.currentDomain;
-            AgreeableHistorical.pipkaUnequaled.loadBytes(AgreeableHistorical.pailPinus.data,commonRare);
-            return;
-         }
-         catch(proudUncle:Error)
-         {
-            AgreeableHistorical.chickensWhisper = DeterminedPrepare.machineSigh;
-            AgreeableHistorical.wanderingBathe();
-            return;
-         }
-      }
-      
-      public static function programTax(param1:String, param2:Function = null, param3:Object = null) : void
-      {
-         if(AdmireStore.hatefulFaint && param1.indexOf(BruiseBorrow.distroAlluring) == HystericalKotsky.notebookChivalrous)
-         {
-            param1 = BalvankaNotebook.patWindy + param1.substr(AdviseRobin.mouseProbable);
-         }
-         param1 = param1 + HystericalKotsky.backDeliver + AdmireStore.proseWindy.clubHeal + ConfusedPeck.unequaledBag + AdmireStore.entertainingDildo;
-         AgreeableHistorical.pipkaTrail.push(param1,param2,param3);
-         if(!AgreeableHistorical.chickensWhisper)
-         {
-            AgreeableHistorical.wanderingBathe();
-         }
-      }
-      
-      public static function agreeWhisper(param1:Event) : void
-      {
-         AgreeableHistorical.chickensWhisper = DeterminedPrepare.machineSigh;
-         AgreeableHistorical.wanderingBathe();
-      }
-      
-      public static function probableCute(param1:String, param2:Boolean = false) : MovieClip
+      public static function admireCute(param1:String, param2:Boolean = false) : MovieClip
       {
          var _loc4_:ApplicationDomain = null;
-         var _loc3_:int = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         while(++_loc3_ < AgreeableHistorical.instructAdhesive)
+         var _loc3_:int = -OrderUnit.apatheticRare(CardBabies.machineOranges);
+         while(++_loc3_ < AgreeableHistorical.unitPrepare)
          {
-            _loc4_ = AgreeableHistorical.chivalrousCompany[_loc3_];
+            _loc4_ = AgreeableHistorical.historicalInvite[_loc3_];
             if(_loc4_.hasDefinition(param1))
             {
                return new (_loc4_.getDefinition(param1) as Class)();
@@ -291,18 +95,18 @@ package
          return null;
       }
       
-      public static function injureAir() : ByteArray
+      public static function faintCompany() : ByteArray
       {
          return new x_Ressources_Class() as ByteArray;
       }
       
-      public static function obtainableCurved(param1:String) : Class
+      public static function orangeSqueamish(param1:String) : Class
       {
          var _loc3_:ApplicationDomain = null;
-         var _loc2_:int = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         while(++_loc2_ < AgreeableHistorical.instructAdhesive)
+         var _loc2_:int = -OrderUnit.apatheticRare(CardBabies.machineOranges);
+         while(++_loc2_ < AgreeableHistorical.unitPrepare)
          {
-            _loc3_ = AgreeableHistorical.chivalrousCompany[_loc2_];
+            _loc3_ = AgreeableHistorical.historicalInvite[_loc2_];
             if(_loc3_.hasDefinition(param1))
             {
                return _loc3_.getDefinition(param1) as Class;
@@ -311,13 +115,81 @@ package
          return null;
       }
       
+      public static function laborerBorrow(param1:Event) : void
+      {
+         while(AgreeableHistorical.milkyLoaf.length)
+         {
+            AgreeableHistorical.milkyLoaf.shift().dispatchEvent(AgreeableHistorical.bagBalvanka);
+         }
+         StalePinus.halfWaiting.removeEventListener(OrderUnit.probableLip(ReligionStore.requestHanging) + OrderUnit.probableLip(RayAmuse.cribSqueamish),AgreeableHistorical.laborerBorrow);
+         AgreeableHistorical.bagHalf = HateFaint.bladeStatement;
+      }
+      
+      public static function clubSerious(param1:int) : String
+      {
+         return OrderUnit.probableLip(RayAmuse.cardDeliver) + param1 % CreatorSupply.obeisantSeed + StupidCoal.airMachine + param1 + OrderUnit.probableLip(AdmireUncle.machineWhistle);
+      }
+      
+      public static function icySigh() : void
+      {
+         var unequaledWandering:Loader = null;
+         if(AgreeableHistorical.volcanoAgree.length == OrderUnit.apatheticRare(ReligionStore.trailInstruct) || AgreeableHistorical.apatheticAmuse.length == ReligionStore.trailInstruct)
+         {
+            return;
+         }
+         try
+         {
+            instructAgreeable = AgreeableHistorical.volcanoAgree.shift();
+            clubWandering = AgreeableHistorical.apatheticAmuse.shift();
+            AgreeableHistorical.cuteUnit;
+            if(!AgreeableHistorical.deliverHate)
+            {
+               AgreeableHistorical.deliverHate = new LoaderContext(true,ApplicationDomain.currentDomain);
+            }
+            clubWandering.load(new URLRequest(instructAgreeable + OrderUnit.probableLip(PinusSand.hangingAgree) + StalePinus.programCoal),AgreeableHistorical.deliverHate);
+            return;
+         }
+         catch(illustriousPail:Error)
+         {
+            return;
+         }
+         finally
+         {
+            AgreeableHistorical.icySigh();
+         }
+      }
+      
+      public static function waitingFix(param1:String) : Object
+      {
+         var _loc3_:ApplicationDomain = null;
+         var _loc2_:int = -OrderUnit.apatheticRare(CardBabies.machineOranges);
+         while(++_loc2_ < AgreeableHistorical.unitPrepare)
+         {
+            _loc3_ = AgreeableHistorical.historicalInvite[_loc2_];
+            if(_loc3_.hasDefinition(param1))
+            {
+               return new (_loc3_.getDefinition(param1) as Class)();
+            }
+         }
+         return null;
+      }
+      
+      public static function anusQuirky(param1:ApplicationDomain) : void
+      {
+         if(param1 && AgreeableHistorical.historicalInvite.indexOf(param1) == -CardBabies.machineOranges)
+         {
+            AgreeableHistorical.historicalInvite.push(param1);
+            AgreeableHistorical.unitPrepare = AgreeableHistorical.historicalInvite.length;
+         }
+      }
+      
       public static function x_pouf(param1:String) : Object
       {
          var _loc3_:ApplicationDomain = null;
-         var _loc2_:int = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         while(++_loc2_ < AgreeableHistorical.instructAdhesive)
+         var _loc2_:int = -CardBabies.machineOranges;
+         while(++_loc2_ < AgreeableHistorical.unitPrepare)
          {
-            _loc3_ = AgreeableHistorical.chivalrousCompany[_loc2_];
+            _loc3_ = AgreeableHistorical.historicalInvite[_loc2_];
             if(_loc3_.hasDefinition(param1))
             {
                return new (_loc3_.getDefinition(param1) as Class)();
@@ -326,96 +198,195 @@ package
          return null;
       }
       
-      public static function subduedAnnoying(param1:String) : Object
+      public static function crowdedScale(param1:String, param2:String = "http://www.transformice.com/images/") : Bitmap
       {
-         var _loc3_:ApplicationDomain = null;
-         var _loc2_:int = -CoalRay.actionBorrow;
-         while(++_loc2_ < AgreeableHistorical.instructAdhesive)
+         var _loc5_:int = 0;
+         var _loc6_:int = 0;
+         var _loc7_:Loader = null;
+         if(!AgreeableHistorical.apatheticAmuse)
          {
-            _loc3_ = AgreeableHistorical.chivalrousCompany[_loc2_];
-            if(_loc3_.hasDefinition(param1))
+            _loc5_ = LargeComplex.balvankaZonked;
+            AgreeableHistorical.apatheticAmuse = new Vector.<Loader>();
+            _loc6_ = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+            while(_loc6_ < _loc5_)
             {
-               return new (_loc3_.getDefinition(param1) as Class)();
+               _loc7_ = new Loader();
+               _loc7_.contentLoaderInfo.addEventListener(Event.COMPLETE,AgreeableHistorical.loafWandering);
+               _loc7_.contentLoaderInfo.addEventListener(IOErrorEvent.IO_ERROR,AgreeableHistorical.coalThick);
+               AgreeableHistorical.apatheticAmuse.push(_loc7_);
+               _loc6_++;
             }
          }
-         return null;
-      }
-      
-      public static function superAdvise(param1:ApplicationDomain) : void
-      {
-         if(param1 && AgreeableHistorical.chivalrousCompany.indexOf(param1) == -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow))
+         var _loc3_:String = param2 + param1;
+         var _loc4_:Bitmap = new Bitmap();
+         if(AgreeableHistorical.violetProse[_loc3_])
          {
-            AgreeableHistorical.chivalrousCompany.push(param1);
-            AgreeableHistorical.instructAdhesive = AgreeableHistorical.chivalrousCompany.length;
+            _loc4_.bitmapData = AgreeableHistorical.violetProse[_loc3_];
+            AgreeableHistorical.milkyLoaf.push(_loc4_);
+            if(!AgreeableHistorical.bagHalf)
+            {
+               AgreeableHistorical.bagHalf = HateFaint.proudGround;
+               StalePinus.halfWaiting.addEventListener(OrderUnit.probableLip(WaitingCrib.gateFrail),AgreeableHistorical.laborerBorrow);
+            }
          }
-      }
-      
-      public static function unequaledGaping(param1:IOErrorEvent) : void
-      {
-         var _loc2_:Loader = (param1.currentTarget as LoaderInfo).loader;
-         var _loc3_:String = AgreeableHistorical.decayTremble[_loc2_];
-         if(AgreeableHistorical.fragileAdvise)
+         else if(AgreeableHistorical.superAgree[_loc3_])
          {
-            AdmireStore.proseWindy.knotAlanson(RecogniseCompetition.mouseDelightful(CoalWhisper.determinedRare) + _loc3_ + GroundFour.jumbledIcy);
+            AgreeableHistorical.superAgree[_loc3_].push(_loc4_);
          }
-         delete AgreeableHistorical.alluringViolet[_loc3_];
-         AgreeableHistorical.bruiseApathetic.push(_loc2_);
-         AgreeableHistorical.deliverLook();
+         else
+         {
+            AgreeableHistorical.superAgree[_loc3_] = new Array(_loc4_);
+            AgreeableHistorical.volcanoAgree.push(_loc3_);
+            AgreeableHistorical.icySigh();
+         }
+         return _loc4_;
       }
       
-      public static function crowdedHarmony() : ByteArray
+      public static function icyCompany(param1:String, param2:String = "http://www.transformice.com/images/") : void
       {
-         return new x_TransformiceFLA() as ByteArray;
+         delete AgreeableHistorical.violetProse[param2 + param1];
       }
       
-      public static function burnApathetic() : int
+      public static function curvedMilky() : int
       {
          var _loc2_:* = null;
-         var _loc1_:int = HystericalKotsky.notebookChivalrous;
-         for(_loc2_ in AgreeableHistorical.alluringViolet)
+         var _loc1_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         for(_loc2_ in AgreeableHistorical.superAgree)
          {
             _loc1_++;
          }
          return _loc1_;
       }
       
-      public static function deliverLook() : void
+      public static function airWarlike() : ByteArray
       {
-         var machineSign:String = null;
-         var batheFrail:Loader = null;
-         if(AgreeableHistorical.proseConfused.length == HystericalKotsky.notebookChivalrous || AgreeableHistorical.bruiseApathetic.length == HystericalKotsky.notebookChivalrous)
-         {
-            return;
-         }
+         return new x_TransformiceFLA() as ByteArray;
+      }
+      
+      public static function loafWandering(param1:Event) : void
+      {
+         var bladeMighty:BitmapData = null;
+         var frailPipka:Array = null;
+         var actionKnot:int = 0;
+         var taxBird:Bitmap = null;
+         var patPail:Event = param1;
+         var clubWandering:Loader = null;
          try
          {
-            machineSign = AgreeableHistorical.proseConfused.shift();
-            batheFrail = AgreeableHistorical.bruiseApathetic.shift();
-            AgreeableHistorical.decayTremble[batheFrail] = machineSign;
-            if(!AgreeableHistorical.machineStomach)
+            unequaledStore.currentTarget as LoaderInfo).loader;
+            bladeMighty = Bitmap(clubWandering.content).bitmapData;
+            instructAgreeable = AgreeableHistorical.backBerry];
+            AgreeableHistorical.illustriousStatement] = bladeMighty;
+            KnotBerry.zonkedBabies = KnotBerry.zonkedBabies + clubWandering.contentLoaderInfo.bytesLoaded;
+            amuseSisters = AgreeableHistorical.sighWing)
             {
-               AgreeableHistorical.machineStomach = new LoaderContext(true,ApplicationDomain.currentDomain);
+               delete AgreeableHistorical.backCrash];
+               actionKnot = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+               while(actionKnot < amuseSisters.length)
+               {
+                  determinedChicken[actionKnot];
+                  taxBird.bitmapData = bladeMighty;
+                  taxBird.dispatchEvent(AgreeableHistorical.bagBalvanka);
+                  actionKnot++;
+               }
             }
-            batheFrail.load(new URLRequest(machineSign + HystericalKotsky.backDeliver + AdmireStore.entertainingDildo),AgreeableHistorical.machineStomach);
             return;
          }
-         catch(proudUncle:Error)
+         catch(illustriousPail:Error)
          {
             return;
          }
          finally
          {
-            AgreeableHistorical.deliverLook();
+            if(clubWandering)
+            {
+               AgreeableHistorical.apatheticAmuse.push(clubWandering);
+            }
+            AgreeableHistorical.icySigh();
          }
       }
       
-      public static function requestLaborer(param1:String) : BitmapData
+      public static function coalThick(param1:IOErrorEvent) : void
+      {
+         var _loc2_:Loader = (param1.currentTarget as LoaderInfo).loader;
+         var _loc3_:String = AgreeableHistorical.alansonCurved[_loc2_];
+         if(AgreeableHistorical.lunasoleObtainable)
+         {
+            StalePinus.halfWaiting.hystericalClub(ListIllustrious.pailLarge + _loc3_ + CardBabies.kotskyTiresome);
+         }
+         delete AgreeableHistorical.superAgree[_loc3_];
+         AgreeableHistorical.apatheticAmuse.push(_loc2_);
+         AgreeableHistorical.icySigh();
+      }
+      
+      public static function windyStick() : void
+      {
+         if(AgreeableHistorical.probableSubdued.length <= ReligionStore.trailInstruct || AgreeableHistorical.touchOrder)
+         {
+            StalePinus.determinedColor.admireAmuse();
+            return;
+         }
+         try
+         {
+            AgreeableHistorical.touchOrder = HateFaint.proudGround;
+            AgreeableHistorical.inviteScratch = AgreeableHistorical.probableSubdued.shift();
+            AgreeableHistorical.planHeal = AgreeableHistorical.probableSubdued.shift();
+            AgreeableHistorical.cuteIllustrious = AgreeableHistorical.probableSubdued.shift();
+            AgreeableHistorical.actionAction = new URLLoader();
+            AgreeableHistorical.actionAction.dataFormat = URLLoaderDataFormat.BINARY;
+            AgreeableHistorical.actionAction.addEventListener(Event.COMPLETE,AgreeableHistorical.admireAmuse);
+            AgreeableHistorical.actionAction.addEventListener(SecurityErrorEvent.SECURITY_ERROR,AgreeableHistorical.markGrate);
+            AgreeableHistorical.actionAction.addEventListener(IOErrorEvent.IO_ERROR,AgreeableHistorical.markGrate);
+            AgreeableHistorical.actionAction.load(new URLRequest(AgreeableHistorical.inviteScratch + OrderUnit.probableLip(PinusSand.hangingAgree) + StalePinus.halfWaiting.gapingFascinated));
+            return;
+         }
+         catch(illustriousPail:Error)
+         {
+            AgreeableHistorical.touchOrder = HateFaint.bladeStatement;
+            AgreeableHistorical.windyStick();
+            return;
+         }
+      }
+      
+      public static function tiresomeHate(param1:Event) : void
+      {
+         AgreeableHistorical.touchOrder = HateFaint.bladeStatement;
+         AgreeableHistorical.anusQuirky(ApplicationDomain.currentDomain);
+         if(AgreeableHistorical.planHeal != null)
+         {
+            if(null == AgreeableHistorical.cuteIllustrious)
+            {
+               AgreeableHistorical.planHeal();
+            }
+            else
+            {
+               AgreeableHistorical.planHeal(AgreeableHistorical.cuteIllustrious);
+            }
+         }
+         AgreeableHistorical.windyStick();
+      }
+      
+      public static function religionHysterical(param1:String, param2:Function = null, param3:Object = null) : void
+      {
+         if(StalePinus.berryAgree && param1.indexOf(OrderUnit.probableLip(WanderingDecay.proseConfused)) == OrderUnit.apatheticRare(ReligionStore.trailInstruct))
+         {
+            param1 = PanoramicProbable.tiresomeScratch + param1.substr(CardBabies.senseCrown);
+         }
+         param1 = param1 + OrderUnit.probableLip(PinusSand.hangingAgree) + StalePinus.halfWaiting.gapingFascinated + ReligionStore.cardKotsky + StalePinus.programCoal;
+         AgreeableHistorical.probableSubdued.push(param1,param2,param3);
+         if(!AgreeableHistorical.touchOrder)
+         {
+            AgreeableHistorical.windyStick();
+         }
+      }
+      
+      public static function warlikeKotsky(param1:String) : BitmapData
       {
          var _loc3_:ApplicationDomain = null;
-         var _loc2_:int = -RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         while(++_loc2_ < AgreeableHistorical.instructAdhesive)
+         var _loc2_:int = -OrderUnit.apatheticRare(CardBabies.machineOranges);
+         while(++_loc2_ < AgreeableHistorical.unitPrepare)
          {
-            _loc3_ = AgreeableHistorical.chivalrousCompany[_loc2_];
+            _loc3_ = AgreeableHistorical.historicalInvite[_loc2_];
             if(_loc3_.hasDefinition(param1))
             {
                return new (_loc3_.getDefinition(param1) as Class)();
@@ -424,9 +395,36 @@ package
          return null;
       }
       
-      public static function scintillatingGround(param1:String, param2:String = "http://www.transformice.com/images/") : void
+      public static function markGrate(param1:Event) : void
       {
-         delete AgreeableHistorical.competitionBird[param2 + param1];
+         AgreeableHistorical.touchOrder = HateFaint.bladeStatement;
+         AgreeableHistorical.windyStick();
+      }
+      
+      public static function admireAmuse(param1:Event) : void
+      {
+         var flowerBerry:LoaderContext = null;
+         var patPail:Event = param1;
+         try
+         {
+            AgreeableHistorical.recogniseProgram = new Loader();
+            AgreeableHistorical.recogniseProgram.contentLoaderInfo.addEventListener(Event.COMPLETE,AgreeableHistorical.tiresomeHate);
+            AgreeableHistorical.recogniseProgram.contentLoaderInfo.addEventListener(IOErrorEvent.IO_ERROR,AgreeableHistorical.markGrate);
+            AgreeableHistorical.recogniseProgram.contentLoaderInfo.addEventListener(SecurityErrorEvent.SECURITY_ERROR,AgreeableHistorical.mightySeed = new LoaderContext();
+            if(Capabilities.playerType == VolcanoStay.laborerGrate)
+            {
+               Object(flowerBerry).allowCodeImport = HateFaint.proudGround;
+            }
+            flowerBerry.applicationDomain = ApplicationDomain.currentDomain;
+            AgreeableHistorical.recogniseProgram.loadBytes(AgreeableHistorical.actionAction.data,flowerBerry);
+            return;
+         }
+         catch(illustriousPail:Error)
+         {
+            AgreeableHistorical.touchOrder = HateFaint.bladeStatement;
+            AgreeableHistorical.windyStick();
+            return;
+         }
       }
    }
 }

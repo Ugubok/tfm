@@ -6,27 +6,27 @@ package
    {
        
       
-      public var violetApathetic:int;
+      public var windySeed:int;
       
-      public var entertainingHateful:int;
+      public var planHalf:int;
       
-      public var zonkedJuice:int;
+      public var milkySupply:int;
       
-      public var trembleDeadpan:int;
+      public var crowdedFragile:int;
       
-      public var agonizingScratch:int;
+      public var patGate:int;
       
-      public var agreeableSense:int;
+      public var markRay:int;
       
       public function DeterminedGround(param1:int, param2:int, param3:int, param4:int, param5:int, param6:int)
       {
          super();
-         this.violetApathetic = param1;
-         this.entertainingHateful = param2;
-         this.zonkedJuice = param3;
-         this.trembleDeadpan = param4;
-         this.agonizingScratch = param3 + param5;
-         this.agreeableSense = param6 + param4;
+         this.windySeed = param1;
+         this.planHalf = param2;
+         this.milkySupply = param3;
+         this.crowdedFragile = param4;
+         this.patGate = param3 + param5;
+         this.markRay = param4 + param6;
       }
    }
 }

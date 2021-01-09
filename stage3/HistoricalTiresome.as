@@ -5,50 +5,46 @@ package
    public class HistoricalTiresome extends SeriousBerry
    {
       
-      public static const lamentableKnife:int = 2000;
+      public static const cuteLoaf:int =  2000;
       
-      public static const gateAnus:int = 20;
+      public static const crimeRobin:int =  20;
        
       
-      public var wanderingAnnoying:HistoricalSwanky;
+      public var complexCrib:HistoricalSwanky;
       
       public function HistoricalTiresome(param1:ChickensChickens)
       {
          super(param1);
-         this.wanderingAnnoying = new HistoricalSwanky(this,true);
+         this.complexCrib = new HistoricalSwanky(this,true);
       }
       
-      override public function probableCute() : MovieClip
+      public function instructGate() : HistoricalTiresome
       {
-         return RareInstruct.chickensNoiseless(chickensBack,orderCracker,!!berryLeg?cribProud():null);
+         return new HistoricalTiresome(crackerLabel as ChickensChickens);
       }
       
-      override public function gratePrepare(param1:Boolean) : void
+      override public function robinDistro(param1:Vector.<int>) : void
       {
-         super.gratePrepare(param1);
-         if(this.wanderingAnnoying)
-         {
-            this.wanderingAnnoying.deliverSatisfy();
+         super.robinDistro(param1);
+         if(this.loafLabel();
          }
       }
       
-      override public function windyFragile(param1:Vector.<int>) : void
+      override public function admireCute() : MovieClip
       {
-         super.windyFragile(param1);
-         if(this.wanderingAnnoying)
-         {
-            this.wanderingAnnoying.superPail();
+         return AnnoyingAlanson.seedOrder(kurumaBalvanka,abaftBird,!!admireDildo?instructWhisper():null);
+      }
+      
+      override public function creatorAdaptable(param1:Boolean) : void
+      {
+         super.creatorAdaptable(param1);
+         if(this.determinedRecognise();
          }
       }
       
-      public function feebleSuper() : HistoricalSwanky
+      public function anusWatery() : HistoricalSwanky
       {
-         return this.wanderingAnnoying;
-      }
-      
-      public function halfAdmire() : HistoricalTiresome
-      {
-         return new HistoricalTiresome(crimeVolcano as ChickensChickens);
+         return this.complexCrib;
       }
    }
 }

@@ -7,51 +7,51 @@ package
    {
        
       
-      public var cryWandering:int;
+      public var cuteInexpensive:int;
       
-      public var illustriousPipka:String;
+      public var advisePat:String;
       
-      public var abaftCrown:int;
+      public var babiesChivalrous:int;
       
-      public var rayConfused:int;
+      public var loafApathetic:int;
       
-      public var injureHysterical:int;
+      public var backSatisfy:int;
       
-      public var airMetal:Boolean = false;
+      public var trembleConfused:Boolean = false;
       
-      public var berryTax:Vector.<int>;
+      public var groundMouse:Vector.<int>;
       
-      public var windyUncle:Boolean;
+      public var crashPeck:Boolean;
       
-      public var deliverHateful:int;
+      public var laborerScale:int;
       
-      public var knifeWhistle:Dictionary;
+      public var proudSeed:Dictionary;
       
       public function BabiesWing(param1:ByteArray)
       {
-         this.knifeWhistle = new Dictionary();
+         this.proudSeed = new Dictionary();
          super(param1);
-         this.cryWandering = param1.readInt();
-         this.illustriousPipka = param1.readUTF();
-         this.abaftCrown = param1.readInt();
-         this.rayConfused = param1.readByte();
-         this.injureHysterical = param1.readInt();
-         this.airMetal = param1.readBoolean();
+         this.cuteInexpensive = param1.readInt();
+         this.advisePat = param1.readUTF();
+         this.babiesChivalrous = param1.readInt();
+         this.loafApathetic = param1.readByte();
+         this.backSatisfy = param1.readInt();
+         this.trembleConfused = param1.readBoolean();
          var _loc2_:int = param1.readByte();
-         this.berryTax = new Vector.<int>();
-         var _loc3_:int = HystericalKotsky.notebookChivalrous;
+         this.groundMouse = new Vector.<int>();
+         var _loc3_:int = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          while(_loc3_ < _loc2_)
          {
-            this.berryTax.push(param1.readByte());
+            this.groundMouse.push(param1.readByte());
             _loc3_++;
          }
-         this.windyUncle = param1.readBoolean();
-         this.deliverHateful = param1.readUnsignedShort();
+         this.crashPeck = param1.readBoolean();
+         this.laborerScale = param1.readUnsignedShort();
          var _loc4_:int = param1.readUnsignedShort();
-         _loc3_ = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         _loc3_ = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          while(_loc3_ < _loc4_)
          {
-            this.knifeWhistle[param1.readUTF()] = param1.readUTF();
+            this.proudSeed[param1.readUTF()] = param1.readUTF();
             _loc3_++;
          }
       }

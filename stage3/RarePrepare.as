@@ -1,34 +1,17 @@
 package
 {
-   public class RarePrepare
+   import flash.utils.ByteArray;
+   
+   public class RarePrepare extends CardBorrow
    {
        
       
-      public var agreeableJumbled:HistoricalGround;
+      public var chickensReligion:int;
       
-      public var machineStale:HistoricalGround;
-      
-      public var position:KnotSwanky;
-      
-      public var velocity:KnotSwanky;
-      
-      public var normal:KnotSwanky;
-      
-      public var competitionInjure:Number;
-      
-      public var wateryStay:Number;
-      
-      public var zonkedArmy:Number;
-      
-      public var scaleStomach:LoafGround;
-      
-      public function RarePrepare()
+      public function RarePrepare(param1:ByteArray)
       {
-         this.position = new KnotSwanky();
-         this.velocity = new KnotSwanky();
-         this.normal = new KnotSwanky();
-         this.scaleStomach = new LoafGround();
-         super();
+         super(param1);
+         this.chickensReligion = param1.readShort();
       }
    }
 }

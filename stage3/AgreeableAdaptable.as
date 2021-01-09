@@ -5,11 +5,11 @@ package
    public class AgreeableAdaptable
    {
       
-      public static const groundSwanky:String = "flash.display.NativeWindow";
+      public static const abaftLook:String = "flash.display.NativeWindow";
       
-      public static const fixHydrant:String = "flash.display.NativeWindowInitOptions";
+      public static const seriousWing:String = OrderUnit.probableLip("flash.display.NativeWindowInitOptions");
       
-      public static const hystericalKuruma:String = "flash.desktop.NativeApplication";
+      public static const dildoKnot:String = "flash.desktop.NativeApplication";
        
       
       public function AgreeableAdaptable()
@@ -17,11 +17,11 @@ package
          super();
       }
       
-      public static function mouseMouse() : Boolean
+      public static function suzukaAdhesive() : Boolean
       {
          try
          {
-            return ApplicationDomain.currentDomain.getDefinition(AgreeableAdaptable.groundSwanky) != null;
+            return ApplicationDomain.currentDomain.getDefinition(AgreeableAdaptable.abaftLook) != null;
          }
          catch(E:Error)
          {
@@ -29,7 +29,7 @@ package
          return false;
       }
       
-      public static function obtainableCurved(param1:String) : Object
+      public static function orangeSqueamish(param1:String) : Object
       {
          return ApplicationDomain.currentDomain.getDefinition(param1);
       }

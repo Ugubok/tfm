@@ -6,70 +6,70 @@ package
    {
        
       
-      public var illustriousPipka:String;
+      public var advisePat:String;
       
-      public var armyLook:int;
+      public var swankySisters:int;
       
-      public var yellFaint:Boolean = false;
+      public var alluringMouse:Boolean = false;
       
-      public var crackerChicken:int;
+      public var statementCute:int;
       
-      public var distroJumbled:Boolean = false;
+      public var listInvite:Boolean = false;
       
-      public var trembleParty:int;
+      public var markAgree:int;
       
-      public var airChickens:int;
+      public var crimeStatement:int;
       
-      public var hatePanoramic:int;
+      public var chopAdaptable:int;
       
-      public var slipHydrant:int;
+      public var lightTiresome:int;
       
-      public var agreeableAgree:int;
+      public var pipkaKuruma:int;
       
-      public var agonizingDeliver:String;
+      public var wingAbaft:String;
       
-      public var supplyKnot:String;
+      public var slipStore:String;
       
-      public var jumbledConfused:Boolean;
+      public var pipkaRecognise:Boolean;
       
-      public var birdEntertaining:int;
+      public var flowerWicked:int;
       
-      public var wickedWing:int;
+      public var admireSupply:int;
       
-      public var hystericalHalf:int;
+      public var fragileMachine:int;
       
-      public var cribAir:int;
+      public var chickenSuper:int;
       
       public function ScintillatingWing(param1:ByteArray = null)
       {
-         this.illustriousPipka = AdviseRobin.clubSubdued;
-         this.armyLook = -CoalRay.actionBorrow;
-         this.crackerChicken = HystericalKotsky.notebookChivalrous;
-         this.trembleParty = HystericalKotsky.notebookChivalrous;
-         this.slipHydrant = RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         this.supplyKnot = RecogniseCompetition.mouseDelightful(AdviseRobin.cardWhistle);
+         this.advisePat = OrderUnit.probableLip(DildoBorrow.metalAdaptable);
+         this.swankySisters = -CardBabies.machineOranges;
+         this.statementCute = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.markAgree = ReligionStore.trailInstruct;
+         this.lightTiresome = OrderUnit.apatheticRare(CardBabies.machineOranges);
+         this.anusGrate);
          super();
          if(null == param1)
          {
             return;
          }
-         this.illustriousPipka = param1.readUTF();
-         this.armyLook = param1.readInt();
-         this.yellFaint = param1.readBoolean();
-         this.crackerChicken = param1.readByte();
-         this.distroJumbled = this.crackerChicken > HystericalKotsky.notebookChivalrous;
-         this.trembleParty = param1.readShort();
-         this.airChickens = param1.readByte();
-         this.hatePanoramic = param1.readShort();
-         this.slipHydrant = param1.readByte();
-         this.agreeableAgree = param1.readByte();
-         this.agonizingDeliver = param1.readUTF();
-         this.supplyKnot = param1.readUTF();
-         this.jumbledConfused = param1.readBoolean();
-         this.birdEntertaining = param1.readInt();
-         this.wickedWing = param1.readInt();
-         this.hystericalHalf = param1.readInt();
-         this.cribAir = param1.readInt();
+         this.advisePat = param1.readUTF();
+         this.swankySisters = param1.readInt();
+         this.alluringMouse = param1.readBoolean();
+         this.statementCute = param1.readByte();
+         this.listInvite = this.statementCute > OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.markAgree = param1.readShort();
+         this.crimeStatement = param1.readByte();
+         this.chopAdaptable = param1.readShort();
+         this.lightTiresome = param1.readByte();
+         this.pipkaKuruma = param1.readByte();
+         this.wingAbaft = param1.readUTF();
+         this.slipStore = param1.readUTF();
+         this.pipkaRecognise = param1.readBoolean();
+         this.flowerWicked = param1.readInt();
+         this.admireSupply = param1.readInt();
+         this.fragileMachine = param1.readInt();
+         this.chickenSuper = param1.readInt();
       }
    }
 }

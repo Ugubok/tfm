@@ -6,7 +6,7 @@ package
       
       public function KotskyInstruct()
       {
-         super(AdviseRobin.satisfyGaping,GroundFour.lamentableSerious);
+         super(WaitingCrib.statementDecay,OrderUnit.apatheticRare(CardBabies.crashJuice));
       }
    }
 }

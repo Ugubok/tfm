@@ -6,48 +6,48 @@ package
    {
        
       
-      public var berryViolet:BalvankaSpurious;
+      public var feebleMachine:BalvankaSpurious;
       
-      public var clubObtainable:String;
+      public var agreeBathe:String;
       
-      public var panoramicLabel:Boolean;
+      public var anusFaithful:Boolean;
       
       public function YellOranges(param1:BalvankaSpurious)
       {
          super();
-         this.berryViolet = param1;
+         this.feebleMachine = param1;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RayYell.quirkyTasteless;
+         return OrderUnit.probableLip(LargeComplex.stomachBack);
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      public function harmonyWhisper() : int
+      public function complexHeal() : int
       {
-         return RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka) + this.clubObtainable.length;
+         return OrderUnit.apatheticRare(SlipReligion.companyHistorical) + this.agreeBathe.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.clubObtainable = param1.readUTFBytes(_loc2_);
-         this.panoramicLabel = param1.readByte() != RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.agreeBathe = param1.readUTFBytes(_loc2_);
+         this.anusFaithful = param1.readByte() != OrderUnit.apatheticRare(ReligionStore.trailInstruct);
       }
       
-      public function get prepareHate() : int
+      public function get yellOrder() : int
       {
-         return RecogniseCompetition.prepareAgree(ConfusedPeck.obeisantHydrant);
+         return SlipReligion.grateAdaptable;
       }
    }
 }

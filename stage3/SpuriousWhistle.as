@@ -6,8 +6,8 @@ package
       
       public function SpuriousWhistle(param1:int)
       {
-         super(RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping),WaitingReligion.apatheticTremble);
-         staySigh.writeInt(param1);
+         super(OrderUnit.apatheticRare(AdmireUncle.crimeCreator),OrderUnit.apatheticRare(CreatorSupply.slipSeed));
+         loafKnife(param1);
       }
    }
 }

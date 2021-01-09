@@ -5,59 +5,59 @@ package
    public class CribClub
    {
       
-      public static const clubWaiting:String = RecogniseCompetition.mouseDelightful("T");
+      public static const competitionConfused:String = "T";
       
-      public static const unitElite:String = RecogniseCompetition.mouseDelightful("F");
+      public static const peckBlade:String = "F";
       
-      public static const cribCute:String = RecogniseCompetition.mouseDelightful("DS");
+      public static const complexCommon:String = "DS";
       
-      public static const seriousFour:String = "DC";
+      public static const tiresomeNoiseless:String = "DC";
       
-      public static const adaptableSatisfy:String = RecogniseCompetition.mouseDelightful("DC2");
+      public static const chivalrousMilky:String = "DC2";
       
-      public static const satisfyCoal:String = RecogniseCompetition.mouseDelightful("P");
+      public static const touchElite:String = "P";
       
-      public static const probableFeeble:String = "CAD";
+      public static const tastelessLook:String = "CAD";
       
-      public static const adviseLeg:String = RecogniseCompetition.mouseDelightful("BON");
+      public static const lamentableTouch:String = "BON";
       
-      public static const loafStale:String = RecogniseCompetition.mouseDelightful("ROS");
+      public static const hangingSeed:String = "ROS";
        
       
-      public var entertainingHateful:String;
+      public var planHalf:String;
       
-      public var sandToe:int;
+      public var airTax:int;
       
-      public var stupidBlade:int;
+      public var flowerSeed:int;
       
-      public var statementLarge:Boolean = false;
+      public var subduedWatery:Boolean = false;
       
-      public var agonizingRobin:Boolean = false;
+      public var halfCry:Boolean = false;
       
-      public var mightyAlluring:int;
+      public var touchTax:int;
       
-      public var fourOranges:int;
+      public var uncleAdhesive:int;
       
-      public var gateBashful:Array;
+      public var unequaledBashful:Array;
       
-      public var gapingGullible:Boolean = false;
+      public var hystericalSuper:Boolean = false;
       
       public var rotation:Number;
       
-      public var hystericalIllustrious:Boolean = false;
+      public var competitionAdmire:Boolean = false;
       
-      public var flowerObeisant:Boolean = false;
+      public var whistlePear:Boolean = false;
       
-      public var programStay:MovieClip;
+      public var hateUnit:MovieClip;
       
       public function CribClub(param1:String, param2:int, param3:int)
       {
-         this.mightyAlluring = HystericalKotsky.notebookChivalrous;
-         this.rotation = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.touchTax = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
+         this.rotation = OrderUnit.apatheticRare(ReligionStore.trailInstruct);
          super();
-         this.entertainingHateful = param1;
-         this.sandToe = param2;
-         this.stupidBlade = param3;
+         this.planHalf = param1;
+         this.airTax = param2;
+         this.flowerSeed = param3;
       }
    }
 }

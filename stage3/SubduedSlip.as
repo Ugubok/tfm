@@ -6,12 +6,12 @@ package
    {
        
       
-      public var storeJuice:String;
+      public var swankySisters:int;
       
       public function SubduedSlip(param1:ByteArray)
       {
          super(param1);
-         this.storeJuice = param1.readUTF();
+         this.swankySisters = param1.readInt();
       }
    }
 }

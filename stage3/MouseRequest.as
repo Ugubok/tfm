@@ -1,40 +1,50 @@
 package
 {
-   import flash.display.MovieClip;
+   import flash.utils.ByteArray;
    
-   public class MouseRequest
+   public class MouseRequest implements MightyColor
    {
-      
-      public static var programStay:MovieClip;
        
       
-      public function MouseRequest()
+      public var feebleMachine:BalvankaSpurious;
+      
+      public var gullibleAnus:String;
+      
+      public function MouseRequest(param1:BalvankaSpurious)
       {
          super();
+         this.feebleMachine = param1;
       }
       
-      public static function cardGrate(param1:String) : void
+      public function get adhesiveProud() : String
       {
-         if(!MouseRequest.programStay)
-         {
-            MouseRequest.programStay = AgreeableHistorical.probableCute(CoalWhisper.colorSwanky);
-            MouseRequest.programStay.mouseChildren = DeterminedPrepare.machineSigh;
-            MouseRequest.programStay.mouseEnabled = DeterminedPrepare.machineSigh;
-            if(AdmireStore.proseWindy.bagSwanky)
-            {
-               MouseRequest.programStay._Texte.embedFonts = DeterminedPrepare.machineSigh;
-            }
-         }
-         MouseRequest.programStay._Texte.htmlText = param1;
-         AdmireStore.proseWindy.addChild(MouseRequest.programStay);
+         return LargeComplex.stomachBack;
       }
       
-      public static function agreeSense() : void
+      public function get typeTaille() : int
       {
-         if(MouseRequest.programStay && MouseRequest.programStay.parent)
-         {
-            MouseRequest.programStay.parent.removeChild(MouseRequest.programStay);
-         }
+         return SlipAdaptable.kurumaCompany;
+      }
+      
+      public function amuseKnife() : Boolean
+      {
+         return false;
+      }
+      
+      public function complexHeal() : int
+      {
+         return PinusSand.jumbledTiresome + this.gullibleAnus.length;
+      }
+      
+      public function lecture(param1:ByteArray) : void
+      {
+         var _loc2_:int = param1.readShort();
+         this.gullibleAnus = param1.readUTFBytes(_loc2_);
+      }
+      
+      public function get yellOrder() : int
+      {
+         return WanderingDecay.healQuirky;
       }
    }
 }

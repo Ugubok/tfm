@@ -6,9 +6,9 @@ package
       
       public function MouseAnnoying(param1:String, param2:Boolean = false)
       {
-         super(BruiseBorrow.hateStatement,BerryMouse.unequaledJuice);
-         staySigh.writeUTF(param1);
-         staySigh.writeBoolean(param2);
+         super(CreatorSupply.slipSeed,BurnFix.toeSlip);
+         lamentableSpurious.writeUTF(param1);
+         lamentableSpurious.writeBoolean(param2);
       }
    }
 }

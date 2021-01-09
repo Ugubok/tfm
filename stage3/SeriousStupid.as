@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var bruiseSeed:String;
+      public var inexpensiveBurn:String;
       
-      public var pipkaChicken:AdaptableAlanson;
+      public var proudMetal:PinusAnus;
       
       public function SeriousStupid(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.bruiseSeed = param2;
+         this.inexpensiveBurn = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get mightyHateful() : String
+      public function get adhesiveProud() : String
       {
-         return RecogniseCompetition.mouseDelightful(RayYell.quirkyTasteless);
+         return LargeComplex.stomachBack;
       }
       
       public function get typeTaille() : int
       {
-         return SlipAdaptable.deadpanHanging;
+         return SlipAdaptable.kurumaCompany;
       }
       
-      public function joyousSign() : Boolean
+      public function amuseKnife() : Boolean
       {
          return false;
       }
       
-      override public function harmonyWhisper() : int
+      override public function complexHeal() : int
       {
-         return BruiseBorrow.taxChivalrous + this.bruiseSeed.length;
+         return OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining) + this.inexpensiveBurn.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.bruiseSeed);
+         param1.writeUTF(this.inexpensiveBurn);
       }
    }
 }

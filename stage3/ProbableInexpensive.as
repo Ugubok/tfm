@@ -4,17 +4,17 @@ package
    {
        
       
-      public var swankyViolet:Number;
+      public var yellFragile:Number;
       
-      public var companyInjure:KnotSwanky;
+      public var hangingLamentable:KnotSwanky;
       
-      public var dildoAnus:Number;
+      public var obeisantHysterical:Number;
       
       public function ProbableInexpensive()
       {
-         this.swankyViolet = RecogniseCompetition.scaleCrown(GroundFour.flowerHanging);
-         this.companyInjure = new KnotSwanky(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),HystericalKotsky.notebookChivalrous);
-         this.dildoAnus = GroundFour.flowerHanging;
+         this.yellFragile = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
+         this.hangingLamentable = new KnotSwanky(OrderUnit.apatheticRare(ReligionStore.trailInstruct),OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         this.obeisantHysterical = OrderUnit.noiselessGullible(LargeComplex.thickCrowded);
          super();
       }
    }

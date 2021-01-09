@@ -6,8 +6,8 @@ package
       
       public function BorrowPrepare(param1:int)
       {
-         super(WaitingReligion.peckKotsky,RecogniseCompetition.prepareAgree(HystericalKotsky.lightAnus));
-         staySigh.writeByte(param1);
+         super(OrderUnit.apatheticRare(LargeComplex.programAbaft),CardBabies.machineOranges);
+         lamentableSpurious.writeInt(param1);
       }
    }
 }

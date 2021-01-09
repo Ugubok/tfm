@@ -8,24 +8,56 @@ package
    public class ScintillatingStore extends SeriousFragile
    {
       
-      public static var proseWindy:ScintillatingStore;
+      public static var halfWaiting:ScintillatingStore;
       
-      public static var mouseLight:ClubAdaptable;
+      public static var religionTasteless:ClubAdaptable;
       
-      public static var yellStomach:Timer;
+      public static var mouseBag:Timer;
        
       
-      public var cardSeed:SeriousFragile;
+      public var machineBag:SeriousFragile;
       
       public function ScintillatingStore()
       {
-         super(RecogniseCompetition.prepareAgree(RayYell.inviteStatement),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-         this.cardSeed = new SeriousFragile(scintillatingCoal,delightfulAlanson);
-         this.cardSeed.recogniseLip(ChickensScintillating.laborerPail,RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping));
-         addChild(this.cardSeed);
+         super(RayAmuse.dildoMighty,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         this.machineBag = new SeriousFragile(storeAmuse,babiesSubdued);
+         this.machineBag.crimeCrib(ChickensScintillating.peckConfused,OrderUnit.apatheticRare(AdmireUncle.crimeCreator));
+         addChild(this.machineBag);
       }
       
-      public static function healSigh(param1:ByteArray) : void
+      public static function bruiseAnnoying() : Boolean
+      {
+         return ScintillatingStore.halfWaiting && ScintillatingStore.halfWaiting.parent;
+      }
+      
+      public static function whistleObeisant() : void
+      {
+         if(ScintillatingStore.religionTasteless && ScintillatingStore.religionTasteless.parent)
+         {
+            ScintillatingStore.religionTasteless.parent.removeChild(ScintillatingStore.religionTasteless);
+         }
+         ScintillatingStore.religionTasteless = null;
+         ScintillatingStore.mouseBag.reset();
+         ScintillatingStore.mouseBag.stop();
+      }
+      
+      public static function frailCrib(param1:Event) : void
+      {
+         RobinHateful.cardDeadpan(ScintillatingStore.religionTasteless,OrderUnit.apatheticRare(PrepareLip.seriousBlade),null,OrderUnit.apatheticRare(ReligionStore.trailInstruct),ScintillatingStore.whistleObeisant).orangeAdvise(ScintillatingStore.religionTasteless.alpha,OrderUnit.apatheticRare(ReligionStore.trailInstruct));
+         ScintillatingStore.religionTasteless.cacheAsBitmap = HateFaint.bladeStatement;
+         ScintillatingStore.mouseBag.reset();
+         ScintillatingStore.mouseBag.stop();
+      }
+      
+      public static function probableViolet() : void
+      {
+         if(ScintillatingStore.halfWaiting && ScintillatingStore.halfWaiting.parent)
+         {
+            ScintillatingStore.halfWaiting.parent.removeChild(ScintillatingStore.halfWaiting);
+         }
+      }
+      
+      public static function lamentableChop(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readUnsignedShort();
          var _loc3_:int = param1.readUnsignedByte();
@@ -33,81 +65,63 @@ package
          var _loc5_:int = param1.readUnsignedShort();
          var _loc6_:int = param1.readUnsignedShort();
          var _loc7_:int = param1.readUnsignedShort();
-         if(ScintillatingStore.mouseLight && ScintillatingStore.mouseLight.slipEntertaining == _loc2_)
+         if(ScintillatingStore.religionTasteless && ScintillatingStore.actionDelightful == _loc2_)
          {
-            ScintillatingStore.mouseLight.decayPat(_loc2_,_loc3_,_loc4_,_loc5_,_loc6_,_loc7_);
-            ScintillatingStore.yellStomach.reset();
-            ScintillatingStore.yellStomach.start();
-            ScintillatingStore.mouseLight.alpha = CoalRay.actionBorrow;
-            ScintillatingStore.mouseLight.y = BruiseBorrow.hateStatement;
-            RobinHateful.pailWarlike(ScintillatingStore.mouseLight);
+            ScintillatingStore.unitCreator(_loc2_,_loc3_,_loc4_,_loc5_,_loc6_,_loc7_);
+            ScintillatingStore.mouseBag.reset();
+            ScintillatingStore.mouseBag.start();
+            ScintillatingStore.religionTasteless.alpha = CardBabies.machineOranges;
+            ScintillatingStore.religionTasteless.y = CreatorSupply.slipSeed;
+            RobinHateful.religionFaint(ScintillatingStore.religionTasteless);
             return;
          }
-         if(ScintillatingStore.mouseLight && ScintillatingStore.mouseLight.parent)
+         if(ScintillatingStore.religionTasteless && ScintillatingStore.religionTasteless.parent)
          {
-            ScintillatingStore.mouseLight.parent.removeChild(ScintillatingStore.mouseLight);
+            ScintillatingStore.religionTasteless.parent.removeChild(ScintillatingStore.religionTasteless);
          }
-         ScintillatingStore.mouseLight = new ClubAdaptable(_loc2_,_loc3_,_loc4_,_loc5_,_loc6_,_loc7_);
-         ScintillatingStore.mouseLight.cacheAsBitmap = DeterminedPrepare.hatefulComplex;
-         ScintillatingStore.mouseLight.x = int((-ScintillatingStore.mouseLight.scintillatingCoal + MetalDetermined.gatePail) / LaborerFeeble.instructBathe);
-         ScintillatingStore.mouseLight.alpha = RecogniseCompetition.prepareAgree(CoalRay.actionBorrow);
-         RobinHateful.pailWarlike(ScintillatingStore.mouseLight);
-         CrashAlanson.pipkaTax(ScintillatingStore.mouseLight,RecogniseCompetition.prepareAgree(LaborerFeeble.instructBathe));
-         RobinHateful.scratchQuirky(ScintillatingStore.mouseLight,CoalRay.chickenStore,ActionKnot.airCrash).senseObeisant(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),BruiseBorrow.hateStatement);
-         if(!ScintillatingStore.yellStomach)
+         ScintillatingStore.religionTasteless = new ClubAdaptable(_loc2_,_loc3_,_loc4_,_loc5_,_loc6_,_loc7_);
+         ScintillatingStore.religionTasteless.cacheAsBitmap = HateFaint.proudGround;
+         ScintillatingStore.religionTasteless.x = int((OrderUnit.apatheticRare(PanoramicProbable.orangeChivalrous) - ScintillatingStore.religionTasteless.storeAmuse) / PinusSand.jumbledTiresome);
+         ScintillatingStore.religionTasteless.alpha = CardBabies.machineOranges;
+         RobinHateful.religionFaint(ScintillatingStore.religionTasteless);
+         CrashAlanson.yellObtainable(ScintillatingStore.religionTasteless,PinusSand.jumbledTiresome);
+         RobinHateful.cardDeadpan(ScintillatingStore.religionTasteless,OrderUnit.apatheticRare(PrepareLip.seriousBlade),ActionKnot.deliverJumbled).illustriousCrime(ReligionStore.trailInstruct,CreatorSupply.slipSeed);
+         if(!ScintillatingStore.mouseBag)
          {
-            ScintillatingStore.yellStomach = new Timer(RayYell.burnSwanky);
-            ScintillatingStore.yellStomach.addEventListener(TimerEvent.TIMER,ScintillatingStore.trailAnus);
+            ScintillatingStore.mouseBag = new Timer(CardBabies.volcanoGate);
+            ScintillatingStore.mouseBag.addEventListener(TimerEvent.TIMER,ScintillatingStore.frailCrib);
          }
-         ScintillatingStore.yellStomach.reset();
-         ScintillatingStore.yellStomach.start();
-         ScintillatingStore.mouseLight.confusedHateful(ScintillatingStore.faintHalf);
+         ScintillatingStore.mouseBag.reset();
+         ScintillatingStore.mouseBag.start();
+         ScintillatingStore.religionTasteless.harmonySign(ScintillatingStore.whistleObeisant);
       }
       
-      public static function fragileAmuse() : void
+      public static function rareFix(param1:ByteArray) : void
       {
-         if(ScintillatingStore.proseWindy && ScintillatingStore.proseWindy.parent)
+         if(!ScintillatingStore.halfWaiting)
          {
-            ScintillatingStore.proseWindy.parent.removeChild(ScintillatingStore.proseWindy);
+            ScintillatingStore.halfWaiting = new ScintillatingStore();
          }
+         ScintillatingStore.halfWaiting.uncleGaping(param1);
+         ScintillatingStore.halfWaiting.hatefulWing(OrderUnit.noiselessGullible(AdmireUncle.mouseBabies),OrderUnit.noiselessGullible(DildoBorrow.pipkaStick));
+         CrashAlanson.yellObtainable(ScintillatingStore.halfWaiting);
       }
       
-      public static function trailAnus(param1:Event) : void
+      public function apatheticLoaf(param1:ClubAdaptable) : void
       {
-         RobinHateful.scratchQuirky(ScintillatingStore.mouseLight,CoalRay.chickenStore,null,HystericalKotsky.notebookChivalrous,ScintillatingStore.faintHalf).complexBorrow(ScintillatingStore.mouseLight.alpha,HystericalKotsky.notebookChivalrous);
-         ScintillatingStore.mouseLight.cacheAsBitmap = DeterminedPrepare.machineSigh;
-         ScintillatingStore.yellStomach.reset();
-         ScintillatingStore.yellStomach.stop();
+         var _loc2_:BatheStore = new BatheStore();
+         _loc2_.probableHysterical(BerryAgreeable.labelAdhesive(RareOranges.squeamishAmuse,OrderUnit.probableLip(PanoramicProbable.inexpensiveFour)),null,null,true);
+         _loc2_.probableHysterical(BerryAgreeable.orangesCompetition(ListIllustrious.unequaledNoxious));
+         _loc2_.probableHysterical(BerryAgreeable.orangesCompetition(OrderUnit.probableLip(VolcanoStay.noxiousRare)),this.prepareHanging,param1);
+         _loc2_.dildoCracker();
       }
       
-      public static function bruiseBabies() : Boolean
+      public function prepareHanging(param1:ClubAdaptable) : void
       {
-         return ScintillatingStore.proseWindy && ScintillatingStore.proseWindy.parent;
+         RareFeeble.cuteAction.sighCrime(WhistleProbable.crownPail(param1.competitionFrail));
       }
       
-      public static function faintHalf() : void
-      {
-         if(ScintillatingStore.mouseLight && ScintillatingStore.mouseLight.parent)
-         {
-            ScintillatingStore.mouseLight.parent.removeChild(ScintillatingStore.mouseLight);
-         }
-         ScintillatingStore.mouseLight = null;
-         ScintillatingStore.yellStomach.reset();
-         ScintillatingStore.yellStomach.stop();
-      }
-      
-      public static function requestRare(param1:ByteArray) : void
-      {
-         if(!ScintillatingStore.proseWindy)
-         {
-            ScintillatingStore.proseWindy = new ScintillatingStore();
-         }
-         ScintillatingStore.proseWindy.machineSubdued(param1);
-         ScintillatingStore.proseWindy.kurumaPanoramic(RecogniseCompetition.scaleCrown(CoalRay.orangeOrange),LipStore.laborerThick);
-         CrashAlanson.pipkaTax(ScintillatingStore.proseWindy);
-      }
-      
-      public function machineSubdued(param1:ByteArray) : void
+      public function uncleGaping(param1:ByteArray) : void
       {
          var _loc4_:int = 0;
          var _loc5_:int = 0;
@@ -117,9 +131,9 @@ package
          var _loc9_:int = 0;
          var _loc10_:Boolean = false;
          var _loc11_:ClubAdaptable = null;
-         this.cardSeed.programVolcano();
+         this.machineBag.obeisantAdaptable();
          var _loc2_:int = param1.readUnsignedByte();
-         var _loc3_:int = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         var _loc3_:int = ReligionStore.trailInstruct;
          while(_loc3_ < _loc2_)
          {
             _loc4_ = param1.readUnsignedShort();
@@ -132,27 +146,13 @@ package
             _loc11_ = new ClubAdaptable(_loc4_,_loc5_,_loc6_,_loc7_,_loc8_,_loc9_);
             if(_loc10_)
             {
-               _loc11_.confusedHateful(this.injureAgonizing,_loc11_);
+               _loc11_.harmonySign(this.apatheticLoaf,_loc11_);
             }
-            this.cardSeed.cuteProse(_loc11_);
+            this.machineBag.icyCry(_loc11_);
             _loc3_++;
          }
-         delightfulAlanson = this.cardSeed.height;
-         hateLeg(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(DeterminedWarlike.wickedSuzuka)),ScintillatingStore.fragileAmuse);
-      }
-      
-      public function senseLip(param1:ClubAdaptable) : void
-      {
-         RareFeeble.hateWicked.stickVolcano(WhistleProbable.pailHanging(param1.slipEntertaining));
-      }
-      
-      public function injureAgonizing(param1:ClubAdaptable) : void
-      {
-         var _loc2_:BatheStore = new BatheStore();
-         _loc2_.hateComplex(BerryAgreeable.robinBag(RareOranges.confusedBorrow,RecogniseCompetition.mouseDelightful(RecogniseTrail.religionRobin)),null,null,true);
-         _loc2_.hateComplex(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(LaborerFeeble.lightFrail)));
-         _loc2_.hateComplex(BerryAgreeable.noiselessGround(RecogniseCompetition.mouseDelightful(AdviseRobin.fragileCoal)),this.senseLip,param1);
-         _loc2_.cardGrate();
+         babiesSubdued = this.machineBag.height;
+         healComplex(BerryAgreeable.orangesCompetition(WaitingCrib.requestChicken),ScintillatingStore.probableViolet);
       }
    }
 }

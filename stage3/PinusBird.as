@@ -6,8 +6,8 @@ package
       
       public function PinusBird(param1:int)
       {
-         super(CoalRay.satisfyTrail,RecogniseTrail.icyBabies);
-         staySigh.writeInt(param1);
+         super(PrepareLip.competitionSupply,SlipReligion.delightfulRay);
+         lamentableSpurious.writeInt(param1);
       }
    }
 }

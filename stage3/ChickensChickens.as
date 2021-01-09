@@ -5,21 +5,21 @@ package
    public class ChickensChickens extends CrimeCard
    {
       
-      public static var hateChicken:Vector.<ChickensChickens> = new Vector.<ChickensChickens>();
+      public static var agreeableWandering:Vector.<ChickensChickens> = new Vector.<ChickensChickens>();
       
-      public static var companyZonked:Dictionary = new Dictionary();
+      public static var burnAdmire:Dictionary = new Dictionary();
        
       
-      public var companySigh:int;
+      public var berryNotebook:int;
       
       public function ChickensChickens(param1:int, param2:int, param3:int = 0, param4:Boolean = false, param5:int = 0, param6:int = 100000, param7:int = 100000, param8:int = 0)
       {
-         this.companySigh = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
+         this.berryNotebook = ReligionStore.trailInstruct;
          super(param1,param2,param3,param4,param5,param6,param7);
-         this.companySigh = param8;
+         this.berryNotebook = param8;
       }
       
-      public static function unequaledToe(param1:Vector.<ChickensChickens>) : Vector.<ChickensChickens>
+      public static function probableSense(param1:Vector.<ChickensChickens>) : Vector.<ChickensChickens>
       {
          var _loc3_:ChickensChickens = null;
          var _loc4_:ChickensChickens = null;
@@ -27,51 +27,51 @@ package
          var _loc2_:Vector.<ChickensChickens> = new Vector.<ChickensChickens>();
          for each(_loc3_ in param1)
          {
-            _loc4_ = ChickensChickens.companyZonked[_loc3_.entertainingHateful];
+            _loc4_ = ChickensChickens.burnAdmire[_loc3_.planHalf];
             if(!_loc4_)
             {
-               ChickensChickens.hateChicken.push(_loc3_);
+               ChickensChickens.agreeableWandering.push(_loc3_);
                _loc2_.push(_loc3_);
             }
             else
             {
-               for each(_loc5_ in _loc4_.metalCry)
+               for each(_loc5_ in _loc4_.squeamishSisters)
                {
-                  _loc5_.crimeVolcano = _loc3_;
-                  _loc3_.lookBack(_loc5_);
+                  _loc5_.crackerLabel = _loc3_;
+                  _loc3_.hystericalKotsky(_loc5_);
                }
-               ChickensChickens.hateChicken.splice(ChickensChickens.hateChicken.indexOf(_loc4_),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),_loc3_);
+               ChickensChickens.agreeableWandering.splice(ChickensChickens.agreeableWandering.indexOf(_loc4_),CardBabies.machineOranges,_loc3_);
             }
-            ChickensChickens.companyZonked[_loc3_.entertainingHateful] = _loc3_;
+            ChickensChickens.burnAdmire[_loc3_.planHalf] = _loc3_;
          }
          return _loc2_;
       }
       
-      override public function touchHateful() : Vector.<int>
+      override public function delightfulFrail() : Vector.<int>
       {
          var _loc2_:Array = null;
          var _loc3_:int = 0;
-         var _loc1_:Vector.<int> = new Vector.<int>(fourHateful);
-         if(fourHateful > HystericalKotsky.notebookChivalrous)
+         var _loc1_:Vector.<int> = new Vector.<int>(noiselessWandering);
+         if(OrderUnit.apatheticRare(ReligionStore.trailInstruct) < noiselessWandering)
          {
-            _loc2_ = RareInstruct.hystericalAdvise(entertainingHateful);
-            _loc3_ = RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous);
-            while(_loc3_ < fourHateful)
+            _loc2_ = AnnoyingAlanson.fourWatery(planHalf);
+            _loc3_ = ReligionStore.trailInstruct;
+            while(_loc3_ < noiselessWandering)
             {
-               _loc1_[_loc3_] = !!_loc2_[_loc3_]?int(_loc2_[_loc3_]):int(HystericalKotsky.notebookChivalrous);
+               _loc1_[_loc3_] = !!_loc2_[_loc3_]?int(_loc2_[_loc3_]):int(ReligionStore.trailInstruct);
                _loc3_++;
             }
          }
          return _loc1_;
       }
       
-      override public function tastelessOrange() : int
+      override public function squeamishStore() : int
       {
-         if(RecogniseCompetition.prepareAgree(CoalRay.prepareSerious) < orderCracker)
+         if(OrderUnit.apatheticRare(CreatorSupply.cardJumbled) < abaftBird)
          {
-            return chickensBack * RecogniseCompetition.prepareAgree(HystericalKotsky.cryConfused) + orderCracker + HystericalKotsky.cryConfused;
+            return kurumaBalvanka * CreatorSupply.obeisantSeed + abaftBird + OrderUnit.apatheticRare(CreatorSupply.obeisantSeed);
          }
-         return chickensBack * RecogniseCompetition.prepareAgree(RayYell.seriousOrange) + orderCracker;
+         return kurumaBalvanka * OrderUnit.apatheticRare(WanderingDecay.healQuirky) + abaftBird;
       }
    }
 }

@@ -6,7 +6,7 @@ package
       
       public function ApatheticSign()
       {
-         super(AlansonReligion.statementScratch,AlansonReligion.statementScratch);
+         super(OrderUnit.apatheticRare(AdmireUncle.delightfulFragile),OrderUnit.apatheticRare(CardBabies.inexpensiveChickens));
       }
    }
 }

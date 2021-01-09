@@ -5,61 +5,61 @@ package
    public class AdaptableSubdued
    {
       
-      public static const delightfulAgreeable:int = 2000;
+      public static const creatorSense:int =  2000;
       
-      public static const agreeableRay:int = 2202;
+      public static const storeCreator:int =  2202;
       
-      public static const actionAction:int = 2100;
+      public static const labelLamentable:int =  2100;
       
-      public static var obeisantYell:Dictionary = new Dictionary();
+      public static var hangingNoiseless:Dictionary = new Dictionary();
        
       
-      public var entertainingHateful:int;
+      public var planHalf:int;
       
-      public var admireWatery:int;
+      public var seriousSuper:int;
       
-      public var legColor:Boolean;
+      public var windyLarge:Boolean;
       
-      public var warlikeSigh:Boolean;
+      public var unitScintillating:Boolean;
       
-      public var notebookPear:Boolean;
+      public var loafChop:Boolean;
       
-      public var historicalCracker:Boolean;
+      public var obtainableGaping:Boolean;
       
-      public var crowdedReligion:String = null;
+      public var bladeMighty:String = null;
       
-      public var chopWaiting:Boolean = false;
+      public var faintOrder:Boolean = false;
       
-      public var milkyKnife:Boolean = false;
+      public var admireGate:Boolean = false;
       
-      public var hatefulWhistle:int;
+      public var zonkedFaint:int;
       
       public function AdaptableSubdued(param1:int, param2:int, param3:int, param4:Boolean, param5:Boolean, param6:Boolean, param7:Boolean)
       {
          super();
-         this.entertainingHateful = param1;
-         this.admireWatery = param2;
-         this.hatefulWhistle = param3;
-         this.legColor = param4;
-         this.warlikeSigh = param5 && (!AnusKnot.markAlluring(this.entertainingHateful) || !RareOranges.kurumaInexpensive);
-         this.notebookPear = param6;
-         this.historicalCracker = param7;
-         AdaptableSubdued.obeisantYell[param1] = this;
+         this.planHalf = param1;
+         this.seriousSuper = param2;
+         this.zonkedFaint = param3;
+         this.windyLarge = param4;
+         this.unitScintillating = param5 && (!AnusKnot.quirkyTremble(this.planHalf) || !RareOranges.orangeViolet);
+         this.loafChop = param6;
+         this.obtainableGaping = param7;
+         AdaptableSubdued.hangingNoiseless[param1] = this;
       }
       
-      public static function obtainableClub(param1:int) : AdaptableSubdued
+      public static function knotBruise(param1:int) : AdaptableSubdued
       {
-         return AdaptableSubdued.obeisantYell[param1];
+         return AdaptableSubdued.hangingNoiseless[param1];
       }
       
-      public function probableCute(param1:Boolean = false, param2:Boolean = false) : AlansonSign
+      public function signStore(param1:Boolean = false) : MouseStupid
       {
-         return AlansonSign.probableCute(this.entertainingHateful,this.admireWatery,param1,param2);
+         return MouseStupid.admireCute(this.planHalf,-CardBabies.machineOranges,param1);
       }
       
-      public function gapingCrib(param1:Boolean = false) : AlansonSign
+      public function admireCute(param1:Boolean = false, param2:Boolean = false) : MouseStupid
       {
-         return AlansonSign.probableCute(this.entertainingHateful,-CoalRay.actionBorrow,param1);
+         return MouseStupid.admireCute(this.planHalf,this.seriousSuper,param1,param2);
       }
    }
 }

@@ -10,122 +10,118 @@ package
    {
        
       
-      public var illustriousLaborer:Sprite;
+      public var labelHydrant:Sprite;
       
-      public var listPinus:Sprite;
+      public var stayMetal:Sprite;
       
-      public var inviteUnequaled:DisplayObject;
+      public var complexBag:DisplayObject;
       
-      public var crownComplex:Boolean = true;
+      public var whisperAnnoying:Boolean = true;
       
-      public var coalSand:Boolean = false;
+      public var markWhistle:Boolean = false;
       
-      public var seriousBerry:Object;
+      public var orangesCracker:Object;
       
-      public var whistleCreator:ProbableFeeble = null;
+      public var chivalrousCrowded:ProbableFeeble = null;
       
       public function CurvedYell(param1:Object, param2:String = "", param3:int = 0, param4:DisplayObject = null)
       {
-         super(RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky),RecogniseCompetition.prepareAgree(WaitingReligion.peckKotsky));
-         mouseChildren = DeterminedPrepare.machineSigh;
-         this.illustriousLaborer = new Sprite();
-         this.illustriousLaborer.y = RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka);
-         this.illustriousLaborer.graphics.beginFill(2306616);
-         this.illustriousLaborer.graphics.drawCircle(RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous),RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous),BruiseBorrow.taxChivalrous);
-         this.illustriousLaborer.graphics.endFill();
-         this.illustriousLaborer.filters = new Array(new BevelFilter(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),RecogniseCompetition.prepareAgree(HystericalKotsky.borrowTax),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),CoalRay.actionBorrow,6325657,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),CoalRay.actionBorrow,RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),DeterminedWarlike.deadpanBalvanka));
-         this.listPinus = new Sprite();
-         this.listPinus.graphics.beginFill(11059144);
-         this.listPinus.graphics.drawCircle(RecogniseCompetition.prepareAgree(BruiseBorrow.taxChivalrous),BruiseBorrow.taxChivalrous,RecogniseCompetition.prepareAgree(DeterminedWarlike.deadpanBalvanka));
-         this.listPinus.y = DeterminedWarlike.deadpanBalvanka;
-         addChild(this.illustriousLaborer);
-         graphics.beginFill(RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous));
-         graphics.drawRect(HystericalKotsky.notebookChivalrous,RecogniseCompetition.prepareAgree(HystericalKotsky.notebookChivalrous),RecogniseCompetition.prepareAgree(AlansonReligion.babiesBag),LaborerFeeble.agreePanoramic);
+         super(OrderUnit.apatheticRare(LargeComplex.programAbaft),OrderUnit.apatheticRare(LargeComplex.programAbaft));
+         mouseChildren = HateFaint.bladeStatement;
+         this.labelHydrant = new Sprite();
+         this.labelHydrant.y = OrderUnit.apatheticRare(SlipReligion.companyHistorical);
+         this.labelHydrant.graphics.beginFill(2306616);
+         this.labelHydrant.graphics.drawCircle(BatheKotsky.milkyEntertaining,OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining),OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining));
+         this.labelHydrant.graphics.endFill();
+         this.labelHydrant.filters = new Array(new BevelFilter(OrderUnit.apatheticRare(CardBabies.machineOranges),ReligionStore.zonkedReligion,ReligionStore.trailInstruct,CardBabies.machineOranges,6325657,OrderUnit.apatheticRare(CardBabies.machineOranges),OrderUnit.apatheticRare(CardBabies.machineOranges),CardBabies.machineOranges,OrderUnit.apatheticRare(CardBabies.machineOranges),OrderUnit.apatheticRare(SlipReligion.companyHistorical)));
+         this.stayMetal = new Sprite();
+         this.stayMetal.graphics.beginFill(11059144);
+         this.stayMetal.graphics.drawCircle(OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining),OrderUnit.apatheticRare(BatheKotsky.milkyEntertaining),OrderUnit.apatheticRare(SlipReligion.companyHistorical));
+         this.stayMetal.y = SlipReligion.companyHistorical;
+         addChild(this.labelHydrant);
+         graphics.beginFill(ReligionStore.trailInstruct,ReligionStore.trailInstruct);
+         graphics.drawRect(ReligionStore.trailInstruct,ReligionStore.trailInstruct,OrderUnit.apatheticRare(CardBabies.inexpensiveChickens),OrderUnit.apatheticRare(SlipReligion.delightfulRay));
          graphics.endFill();
          if(param4 != null)
          {
-            this.inviteUnequaled = param4;
+            this.complexBag = param4;
          }
          else
          {
-            this.inviteUnequaled = new InexpensiveGround(param2);
-            this.inviteUnequaled.x = RecogniseCompetition.prepareAgree(ConfusedPeck.lamentableDelightful);
-            this.inviteUnequaled.y = -CoalRay.actionBorrow;
+            this.complexBag = new InexpensiveGround(param2);
+            this.complexBag.x = ReligionStore.birdAdhesive;
+            this.complexBag.y = -OrderUnit.apatheticRare(CardBabies.machineOranges);
          }
-         addChild(this.inviteUnequaled);
+         addChild(this.complexBag);
          if(param3)
          {
-            scintillatingCoal = param3;
-            this.inviteUnequaled.x = RecogniseCompetition.prepareAgree(ConfusedPeck.lamentableDelightful);
+            storeAmuse = param3;
+            this.complexBag.x = OrderUnit.apatheticRare(ReligionStore.birdAdhesive);
          }
          else
          {
-            scintillatingCoal = width;
+            storeAmuse = width;
          }
-         delightfulAlanson = height;
-         confusedHateful(this.obtainableLook);
-         this.seriousBerry = param1;
+         babiesSubdued = height;
+         harmonySign(this.obtainableColor);
+         this.orangesCracker = param1;
       }
       
-      public function obtainableLook(param1:Event = null) : CurvedYell
+      public function obtainableColor(param1:Event = null) : CurvedYell
       {
-         if(this.coalSand)
+         if(this.markWhistle)
          {
             return this;
          }
-         this.alluringArmy(true);
-         if(this.whistleCreator)
-         {
-            this.whistleCreator.noxiousPlan(this);
+         this.eliteTasteless(true);
+         if(this.decayRare(this);
          }
          return this;
       }
       
-      public function mightyBury(param1:int, param2:int) : CurvedYell
+      public function adaptableMark(param1:ProbableFeeble, param2:Boolean = true) : CurvedYell
       {
-         this.listPinus.x = param1;
-         this.listPinus.y = param2;
-         this.illustriousLaborer.x = param1;
-         this.illustriousLaborer.y = param2;
-         return this;
-      }
-      
-      public function sandTax(param1:ProbableFeeble, param2:Boolean = true) : CurvedYell
-      {
-         this.whistleCreator = param1;
+         this.chivalrousCrowded = param1;
          if(param2)
          {
-            this.whistleCreator.tastelessBury(this);
+            this.wateryFour(this);
          }
          return this;
       }
       
-      public function admireCard(param1:Boolean) : CurvedYell
+      public function machineDistro(param1:Boolean) : CurvedYell
       {
-         if(this.crownComplex == param1)
+         if(this.whisperAnnoying == param1)
          {
             return this;
          }
-         this.crownComplex = param1;
-         confusedHateful(!!this.crownComplex?this.obtainableLook:null);
-         transform.colorTransform = new ColorTransform(RecogniseCompetition.scaleCrown(CoalRay.sandCreator),RecogniseCompetition.scaleCrown(CoalRay.sandCreator),RecogniseCompetition.scaleCrown(CoalRay.sandCreator));
+         this.whisperAnnoying = param1;
+         harmonySign(!!this.whisperAnnoying?this.obtainableColor:null);
+         transform.colorTransform = new ColorTransform(VolcanoStay.coalFascinated,OrderUnit.noiselessGullible(VolcanoStay.coalFascinated),OrderUnit.noiselessGullible(VolcanoStay.coalFascinated));
          return this;
       }
       
-      public function alluringArmy(param1:Boolean) : CurvedYell
+      public function programAdhesive(param1:int, param2:int) : CurvedYell
       {
-         if(this.coalSand == param1)
+         this.stayMetal.x = param1;
+         this.stayMetal.y = param2;
+         this.labelHydrant.x = param1;
+         this.labelHydrant.y = param2;
+         return this;
+      }
+      
+      public function eliteTasteless(param1:Boolean) : CurvedYell
+      {
+         if(this.markWhistle == param1)
          {
             return this;
          }
-         this.coalSand = param1;
-         if(this.coalSand)
+         this.markWhistle = param1;
+         if(this.markWhistle)
          {
-            addChild(this.listPinus);
+            addChild(this.stayMetal);
          }
-         else if(this.listPinus.parent)
-         {
-            this.listPinus.parent.removeChild(this.listPinus);
+         else if(this.inviteKnife.parent.removeChild(this.stayMetal);
          }
          return this;
       }

@@ -4,10 +4,10 @@ package
    {
        
       
-      public function ActionDeadpan(param1:Number)
+      public function ActionDeadpan(param1:Boolean)
       {
-         super(RecogniseCompetition.prepareAgree(ArmyObtainable.kurumaBird),RecogniseCompetition.prepareAgree(CoalRay.satisfyTrail));
-         staySigh.writeByte(int(param1 * RecogniseCompetition.prepareAgree(RayYell.seriousOrange)));
+         super(OrderUnit.apatheticRare(WanderingDecay.gullibleKuruma),OrderUnit.apatheticRare(StupidCoal.chivalrousSatisfy));
+         lamentableSpurious.writeBoolean(param1);
       }
    }
 }

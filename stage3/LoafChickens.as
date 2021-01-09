@@ -9,45 +9,43 @@ package
    public class LoafChickens extends Sprite
    {
       
-      public static var deliverNoiseless:int = 14011807;
+      public static var fragileWhistle:int = 14011807;
        
       
-      public var anusOrange:InexpensiveGround;
+      public var actionProse:InexpensiveGround;
       
-      public var illustriousPipka:String;
+      public var advisePat:String;
       
       public function LoafChickens()
       {
          super();
-         this.anusOrange = new InexpensiveGround(RecogniseCompetition.mouseDelightful(AdviseRobin.clubSubdued),RecogniseCompetition.prepareAgree(MetalDetermined.signBury),BerryMouse.distroWicked,new TextFormat(RecogniseCompetition.mouseDelightful(DeterminedWarlike.faithfulHistorical),RayYell.instructMetal,12763866,true));
-         this.anusOrange.styleSheet = AdmireStore.proseWindy.agonizingThick;
-         addChild(this.anusOrange);
-         if(BerryAgreeable.unitBack)
-         {
-            this.anusOrange.defaultTextFormat.align = TextFormatAlign.RIGHT;
+         this.actionProse = new InexpensiveGround(DildoBorrow.metalAdaptable,CreatorSupply.burnAdaptable,OrderUnit.apatheticRare(PrepareLip.competitionSupply),new TextFormat(WaitingCrib.requestThick,WanderingDecay.deadpanAdvise,12763866,true));
+         this.actionProse.styleSheet = StalePinus.halfWaiting.agreeableCrowded;
+         addChild(this.actionProse);
+         if(BerryAgreeable.scratchLaborer.defaultTextFormat.align = TextFormatAlign.RIGHT;
          }
-         graphics.lineStyle(RecogniseCompetition.prepareAgree(CoalRay.actionBorrow),LoafChickens.deliverNoiseless);
-         graphics.moveTo(RecogniseCompetition.prepareAgree(AdviseRobin.satisfyGaping),RecogniseCompetition.prepareAgree(BerryMouse.distroWicked));
-         graphics.lineTo(MetalDetermined.signBury,RecogniseCompetition.prepareAgree(BerryMouse.distroWicked));
-         useHandCursor = DeterminedPrepare.hatefulComplex;
-         buttonMode = DeterminedPrepare.hatefulComplex;
-         cacheAsBitmap = DeterminedPrepare.hatefulComplex;
-         mouseChildren = DeterminedPrepare.machineSigh;
-         addEventListener(MouseEvent.MOUSE_DOWN,this.competitionQuirky);
+         graphics.lineStyle(OrderUnit.apatheticRare(CardBabies.machineOranges),LoafChickens.fragileWhistle);
+         graphics.moveTo(AdmireUncle.crimeCreator,PrepareLip.competitionSupply);
+         graphics.lineTo(CreatorSupply.burnAdaptable,PrepareLip.competitionSupply);
+         useHandCursor = HateFaint.proudGround;
+         buttonMode = HateFaint.proudGround;
+         cacheAsBitmap = HateFaint.proudGround;
+         mouseChildren = HateFaint.bladeStatement;
+         addEventListener(MouseEvent.MOUSE_DOWN,this.buryTax);
       }
       
-      public function tiresomeBird(param1:String, param2:String) : void
+      public function buryTax(param1:Event) : void
       {
-         this.illustriousPipka = param1;
-         this.anusOrange.htmlText = param2;
+         if(this.advisePat)
+         {
+            SubduedBabies.halfWaiting.feebleOrange(this.advisePat);
+         }
       }
       
-      public function competitionQuirky(param1:Event) : void
+      public function prepareFeeble(param1:String, param2:String) : void
       {
-         if(this.illustriousPipka)
-         {
-            SubduedBabies.proseWindy.slipCracker(this.illustriousPipka);
-         }
+         this.advisePat = param1;
+         this.actionProse.htmlText = param2;
       }
    }
 }
