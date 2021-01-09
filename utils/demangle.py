@@ -124,6 +124,7 @@ class ClassInfo:
                 self.demangled_identifiers.append(name)
 
         self.demangled_identifiers = sorted(self.demangled_identifiers)
+        self.func_arguments = sorted(self.func_arguments)
 
     def stats_tuple(self):
         return (
