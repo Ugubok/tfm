@@ -355,6 +355,7 @@ class ProgressBar:
 
         self.progress += 1
 
+        # FIXME: progress bar is goes beyond the [] boundaries or doesn't reach it
         if self.progress % self.step == 0:
             self.counter += 1
             print("#", end="", flush=True)
@@ -520,18 +521,27 @@ def simplify_expressions(file_map: TFileMap):
 
     for _, cls in file_map.items():
         pb.tick()
-        for match in re.finditer(r"\s[\d\s\-()]+ [+-] [\d\s+\-()]+", cls.contents):
-            expr = match.group()
 
-            try:
-                result = " " + str(eval(expr))
-            except SyntaxError:
-                continue
-            except Exception as e:
-                print(f"  {type(e).__name__} while eval expression '{expr}'")
-                continue
+        changed = True
+        while changed:
+            changed = False
 
-            cls.contents = cls.contents.replace(expr, result)
+            for match in re.finditer(r"[\s(,]([\d\s\-]+ [+-] [\d\s+\-]+)", cls.contents):
+                expr = match.groups()[0]
+
+                try:
+                    result = " " + str(eval(expr))
+                except SyntaxError:
+                    continue
+                except Exception as e:
+                    print(f"  {type(e).__name__} while eval expression '{expr}'")
+                    continue
+
+                changed = True
+                cls.contents = cls.contents.replace(expr, result)
+            
+            cls.contents = re.sub(r"\W\(\s?(\d+)\)", r"\1", cls.contents)
+
     pb.done()
 
 
