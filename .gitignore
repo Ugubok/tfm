@@ -1,3 +1,6 @@
 .idea/
 stage1/
 stage2/
+
+__pycache__/
+*.pyc

@@ -3,13 +3,24 @@ import glob
 import os
 import random
 import re
-import sys
+import logging
 from dataclasses import dataclass, field
 from functools import lru_cache
 from itertools import count
 from typing import List, Optional, Mapping
+from datetime import datetime
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
+
+logfile_name = datetime.now().strftime("%Y-%m-%d_%H-%M.log")
+logfile_path = os.path.join(script_dir, "logs", logfile_name)
+
+try:
+    os.makedirs(os.path.dirname(logfile_path))
+except FileExistsError:
+    pass
+
+logging.basicConfig(filename=logfile_path, level=logging.INFO)
 
 
 @dataclass
@@ -152,15 +163,22 @@ class ClassInfo:
         self.is_mangled = self._is_mangled(self.file_path)
 
         try:
-            self.name = re.search(r"public[\w\s]* (?:class|interface) ([^\s]+)", self.contents).groups()[0]
+            self.name = self.original_name = re.search(
+                r"public[\w\s]* (?:class|interface) ([^\s]+)", self.contents
+            ).groups()[0]
         except AttributeError:
             if not self.is_mangled:
                 return
 
-            raise ValueError(f"Class or interface definition not found: {self.file_path}")
+            raise ValueError(
+                f"Class or interface definition not found: {self.file_path}"
+            )
 
         if self.is_mangled:
             self.count_stats()
+
+
+TFileMap = Mapping[str, ClassInfo]
 
 
 class ClassInfoDB(object):
@@ -317,6 +335,34 @@ class ClassInfoDB(object):
             f.writelines(self.lines)
 
 
+@dataclass
+class ProgressBar:
+    total: int
+    length: int
+
+    progress: int = 0
+    counter: int = 0
+
+    def __post_init__(self):
+        self.mounted = False
+        self.step = round(self.total / self.length)
+
+    def tick(self):
+        if not self.mounted:
+            print("[" + " " * self.length + "]", end="", flush=True)
+            print("\r[", end="", flush=True)
+            self.mounted = True
+
+        self.progress += 1
+
+        if self.progress % self.step == 0:
+            self.counter += 1
+            print("#", end="", flush=True)
+
+    def done(self):
+        print("", flush=True)
+
+
 @lru_cache()
 def get_words() -> List[str]:
     words_file_path = os.path.join(script_dir, "words.txt")
@@ -346,7 +392,7 @@ def get_demangled_name(mangled_name: str, capitalize: bool = True) -> str:
             return word
 
 
-def get_stage2_map(path) -> Mapping[str, ClassInfo]:
+def get_stage2_map(path) -> TFileMap:
     script_paths = glob.glob(os.path.join(path, "**", "*.as"), recursive=True)
     file_map = {path: ClassInfo(path) for path in script_paths}
     return file_map
@@ -354,26 +400,25 @@ def get_stage2_map(path) -> Mapping[str, ClassInfo]:
 
 def count_xrefs(file_map):
     mangled_classes = [c for _, c in file_map.items() if c.is_mangled]
+    pb = ProgressBar(total=len(mangled_classes), length=80)
 
     for cls in mangled_classes:
+        pb.tick()
+
         for other in mangled_classes:
             if cls == other:
                 continue
 
             cls.xref_count += other.contents.count(cls.name)
+    pb.done()
 
 
-def main(in_dir, out_dir, db_path):
-    file_map = get_stage2_map(in_dir)
+def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
+    pb = ProgressBar(total=len(file_map), length=80)
 
-    db = ClassInfoDB(db_path)
-    print(f"Loaded {db.count()} classes from DB")
-
-    print("Counting xrefs...")
-    count_xrefs(file_map)
-
-    print("Associating local classes with DB classes...")
     for _, cls in file_map.items():
+        pb.tick()
+
         if not cls.is_mangled:
             continue
 
@@ -386,17 +431,17 @@ def main(in_dir, out_dir, db_path):
             cls.associate(other)
 
             if k < 1:
-                print(f"Something changed in class {cls.name}")
+                logging.info(f"Something changed in class {cls.name}")
 
             continue
 
         similar, report, k = db.find_similar(cls)
 
         if not similar:
-            print(f"Found new class {cls.name}")
+            logging.info(f"Found new class {cls.name}")
             continue
 
-        print(f"{cls.name} is similar to {similar.name} with k={k}")
+        logging.info(f"{cls.name} is similar to {similar.name} with k={k}")
 
         cls.name = similar.name
         cls.associate(similar)
@@ -404,13 +449,116 @@ def main(in_dir, out_dir, db_path):
         db.store(cls)
 
         for entry in report:
-            print(f"    {entry[0]:24s}" + "\t".join(map(str, entry[1:])))
-        print(f"    cls demangled_id" + ",".join(cls.demangled_identifiers))
-        print(f"    dst demangled_id" + ",".join(similar.demangled_identifiers))
-        print("    cls path", cls.file_path)
-        print("    dst path", similar.file_path)
+            logging.info(f"    {entry[0]:24s}" + "\t".join(map(str, entry[1:])))
+
+        logging.info("    cls demangled_id" + ",".join(cls.demangled_identifiers))
+        logging.info("    dst demangled_id" + ",".join(similar.demangled_identifiers))
+        logging.info(f"    cls path {cls.file_path}")
+        logging.info(f"    dst path {similar.file_path}")
+    pb.done()
+
+
+def replace_everywhere(file_map: TFileMap, old: str, new: str):
+    for _, cls in file_map.items():
+        cls.contents = cls.contents.replace(old, new)
+
+
+def demangle_contents(file_map: TFileMap):
+    mangled_classes = [c for _, c in file_map.items() if c.is_mangled]
+    pb = ProgressBar(total=len(mangled_classes) * 2, length=80)
+
+    # Replace class names first
+    for cls in mangled_classes:
+        pb.tick()
+        replace_everywhere(file_map, cls.original_name, cls.name)
+
+    demangled_identifiers = set()
+
+    # Then replace all other identifiers
+    for cls in mangled_classes:
+        pb.tick()
+        for identifier in set(re.findall("§[^§]+§", cls.contents)):
+            if identifier in demangled_identifiers:
+                continue
+
+            demangled = get_demangled_name(identifier, capitalize=False)
+            replace_everywhere(file_map, identifier, demangled)
+
+            demangled_identifiers.add(identifier)
+    pb.done()
+
+
+def save_as_files(file_map: TFileMap, in_dir: str, out_dir: str):
+    in_dir = os.path.abspath(in_dir)
+    out_dir = os.path.abspath(out_dir)
+
+    pb = ProgressBar(total=len(file_map), length=80)
+
+    for path, cls in file_map.items():
+        pb.tick()
+        path = os.path.abspath(path)
+
+        out_path = os.path.join(out_dir, os.path.relpath(path, in_dir))
+
+        if cls.is_mangled:
+            out_path = os.path.join(os.path.dirname(out_path), f"{cls.name}.as")
+
+        try:
+            os.makedirs(os.path.dirname(out_path))
+        except FileExistsError:
+            pass
+
+        with open(out_path, "w") as f:
+            f.write(cls.contents)
+
+    pb.done()
+
+
+def simplify_expressions(file_map: TFileMap):
+    pb = ProgressBar(total=len(file_map), length=80)
+
+    for _, cls in file_map.items():
+        pb.tick()
+        for match in re.finditer(r"\s[\d\s\-()]+ [+-] [\d\s+\-()]+", cls.contents):
+            expr = match.group()
+
+            try:
+                result = " " + str(eval(expr))
+            except SyntaxError:
+                continue
+            except Exception as e:
+                print(f"  {type(e).__name__} while eval expression '{expr}'")
+                continue
+
+            cls.contents = cls.contents.replace(expr, result)
+    pb.done()
+
+
+def main(in_dir, out_dir, db_path):
+    file_map = get_stage2_map(in_dir)
+
+    mangled_count = sum(1 for _, c in file_map.items() if c.is_mangled)
+    print(f"Found {mangled_count} mangled classes")
+
+    db = ClassInfoDB(db_path)
+    print(f"Loaded {db.count()} classes from DB")
+
+    print("1/5 Counting xrefs")
+    count_xrefs(file_map)
+
+    print("2/5 Associating local classes with known classes from DB")
+    associate_known_classes(file_map, db)
 
     db.save()
+
+    print("3/5 Demangle all identifiers")
+    demangle_contents(file_map)
+
+    print("4/5 Simplifying arithmetic expressions")
+    simplify_expressions(file_map)
+
+    print("5/5 Saving everything to stage3 directory")
+    save_as_files(file_map, in_dir, out_dir)
 
 
 if __name__ == "__main__":
