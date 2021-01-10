@@ -6,7 +6,6 @@ import re
 import logging
 from dataclasses import dataclass, field
 from functools import lru_cache
-from itertools import count
 from typing import List, Optional, Mapping
 from datetime import datetime
 
@@ -44,8 +43,17 @@ class ClassInfo:
     c_priv_s: int = 0
     # function
     f_pub: int = 0
+    f_pubg: int = 0
+    f_pubs: int = 0
+    f_opub: int = 0  # override
+    f_opubg: int = 0  # override get
+    f_opubs: int = 0  # override set
     f_pub_s: int = 0
+    f_pubg_s: int = 0
+    f_pubs_s: int = 0
     f_priv: int = 0
+    f_privg: int = 0  # get
+    f_privs: int = 0  # set
     f_priv_s: int = 0
 
     lines_count: int = 0
@@ -81,16 +89,17 @@ class ClassInfo:
             else:
                 self.imports_clean += 1
 
-        defs = re.findall(
-            r"(public|private) ?(.*) (var|function|const) ([^:=\s\(]+)(?:\(([^)]*)\))?", self.contents
-        )
+        r = r"(override )?(public|private) ?(static )?(var|function|const) (get |set )?([^:=\s(]+)(?:\(([^)]*)\))?"
+        defs = re.findall(r, self.contents)
 
-        for scope, static, def_, name, args in defs:
+        for override, scope, static, def_, get_or_set, name, args in defs:
             scope = "pub" if scope == "public" else "priv"
             static = "_s" if static else ""
+            override = "o" if override else ""
+            get_or_set = get_or_set[0] if get_or_set else ""
             def_ = def_[0]
 
-            attr = f"{def_}_{scope}{static}"
+            attr = f"{def_}_{override}{scope}{get_or_set}{static}"
 
             value = getattr(self, attr)
             setattr(self, attr, value + 1)
@@ -138,8 +147,17 @@ class ClassInfo:
             ("c_priv", self.c_priv, 1, 1),
             ("c_priv_s", self.c_priv_s, 1, 1),
             ("f_pub", self.f_pub, 1, 1),
+            ("f_pubg", self.f_pubg, 1, 1),
+            ("f_pubs", self.f_pubs, 1, 1),
+            ("f_opub", self.f_opub, 1, 1),
+            ("f_opubg", self.f_opubg, 1, 1),
+            ("f_opubs", self.f_opubs, 1, 1),
             ("f_pub_s", self.f_pub_s, 1, 1),
+            ("f_pubg_s", self.f_pubg_s, 1, 1),
+            ("f_pubs_s", self.f_pubs_s, 1, 1),
             ("f_priv", self.f_priv, 1, 1),
+            ("f_privg", self.f_privg, 1, 1),
+            ("f_privs", self.f_privs, 1, 1),
             ("f_priv_s", self.f_priv_s, 1, 1),
             ("lines_count", self.lines_count, int(self.lines_count * 0.1), 3),
             ("xref_count", self.xref_count, 5, 3),
@@ -235,8 +253,17 @@ class ClassInfoDB(object):
         c_priv: int
         c_priv_s: int
         f_pub: int
+        f_pubg: int
+        f_pubs: int
+        f_opub: int
+        f_opubg: int
+        f_opubs: int
         f_pub_s: int
+        f_pubg_s: int
+        f_pubs_s: int
         f_priv: int
+        f_privg: int
+        f_privs: int
         f_priv_s: int
 
         demangled_identifiers: List[str]
@@ -416,19 +443,17 @@ def get_demangled_name(mangled_name: str, capitalize: bool = True) -> str:
     words = get_words()
     random.seed(mangled_name)
 
-    for i in count():
-        if capitalize:
-            word = random.choice(words).capitalize() + random.choice(words).capitalize()
-        else:
-            word = random.choice(words) + random.choice(words).capitalize()
+    w1, w2 = random.choice(words), random.choice(words)
+    word = (w1.capitalize() if capitalize else w1) + w2.capitalize()
 
-        if i > 1024:
-            word += str(random.randint(1, 9999))
+    original_word = word
+    i = 0
+    while word in used_words:
+        i += 1
+        word = original_word + str(i)
 
-        if word not in used_words:
-            used_words.add(word)
-
-            return word
+    used_words.add(word)
+    return word
 
 
 def get_stage2_map(path) -> TFileMap:
@@ -477,12 +502,9 @@ def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
             other = db.get_by_name(cls.name)
             k, _ = cls.get_eq_coefficient(other)
 
-            cls.associate(other)
-
-            if k < 1:
-                logging.info(f"Something changed in class {cls.name}")
-
-            continue
+            if k > 0.999:
+                cls.associate(other)
+                continue
 
         similar, report, k = db.find_similar(cls)
 
@@ -523,7 +545,7 @@ def demangle_contents(file_map: TFileMap):
     for cls in mangled_classes:
         pb.tick()
         for i, identifier in enumerate(set(re.findall("§[^§]+§", cls.contents))):
-            #if identifier in demangled_identifiers:
+            # if identifier in demangled_identifiers:
             #    continue
 
             seed = cls.name + f"_{i}"
@@ -572,7 +594,9 @@ def simplify_expressions(file_map: TFileMap):
         while changed:
             changed = False
 
-            for match in re.finditer(r"[\s(,]([\d\s\-]+ [+-] [\d\s+\-]+)", cls.contents):
+            for match in re.finditer(
+                r"[\s(,]([\d\s\-]+ [+-] [\d\s+\-]+)", cls.contents
+            ):
                 expr = match.groups()[0]
 
                 try:
@@ -585,7 +609,7 @@ def simplify_expressions(file_map: TFileMap):
 
                 changed = True
                 cls.contents = cls.contents.replace(expr, result)
-            
+
             cls.contents = re.sub(r"\W\(\s?(\d+)\)", r"\1", cls.contents)
 
     pb.done()
