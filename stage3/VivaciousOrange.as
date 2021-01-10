@@ -1,13 +1,13 @@
 package
 {
-   public class VivaciousOrange extends WordCalculator
+   public class VivaciousOrange extends StorePaint
    {
        
       
-      public function VivaciousOrange(param1:int)
+      public function VivaciousOrange(param1:Boolean)
       {
-         super(MarkEvasive.momentousBlush,BalanceLoaf.adviseTangy);
-         upsetSymptomatic1.writeShort(param1);
+         super(NervousOnerous.upsetSymptomatic(SpaceIdea.sickHistorical1),NervousOnerous.upsetSymptomatic(SupplyMountain.historyBack));
+         newPoison.writeByte(!!param1?int(MarkParty.momentousBlush):int(FaithfulBaseball.adviseTangy));
       }
    }
 }

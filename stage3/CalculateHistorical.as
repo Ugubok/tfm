@@ -1,13 +1,13 @@
 package
 {
-   public class CalculateHistorical extends WordCalculator
+   public class CalculateHistorical extends StorePaint
    {
        
       
-      public function CalculateHistorical(param1:String)
+      public function CalculateHistorical(param1:int)
       {
-         super(GateLetters.cloverDivergent(ScaleTemper.secretError),BalanceLoaf.whistleAdvise);
-         impoliteRomantic.writeUTF(param1);
+         super(NervousOnerous.impoliteRomantic(MarkParty.cloverDivergent),BalanceSecret.secretError);
+         whistleAdvise.writeInt(param1);
       }
    }
 }

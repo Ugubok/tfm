@@ -3,97 +3,97 @@ package
    public class CloverNarrow
    {
       
-      public static const ownAbaft:int =  0;
+      public static const oppositeSlip:int =  0;
       
-      public static const undressBoundless:int =  1;
+      public static const listInstinctive:int =  1;
       
-      public static const icyColorful:int =  2;
+      public static const fiveAdvise:int =  2;
       
-      public static const kneelBruise:int =  3;
+      public static const wealthyHydrant:int =  3;
        
       
       public var type:int;
       
-      public var generalBathe:int;
+      public var undressBoundless:int;
       
-      public var knifeClever:int;
+      public var repulsiveManage:int;
       
-      public var alansonSatisfy:JarTow;
+      public var thoughtThick:CulturedAutomatic;
       
-      public var wealthyHydrant:JarTow;
+      public var hobbiesClever:CulturedAutomatic;
+      
+      public var shakeHappy:int;
+      
+      public var knifeClever:Boolean = false;
       
       public var happySearch:int;
-      
-      public var naiveSatisfy:Boolean = false;
-      
-      public var listInstinctive:int;
       
       public var couleur:int = 40349;
       
       public var alpha:Number;
       
-      public var actionDraconian:Boolean = false;
+      public var boundaryPat:Boolean = false;
       
-      public var abaftAnnoying:JarTow;
+      public var shortDescribe:CulturedAutomatic;
       
-      public var thoughtThick:Number;
+      public var ownAbaft:Number;
       
-      public var boundaryPat:Number;
+      public var bombTangy:Number;
       
-      public var repulsiveManage:Number = NaN;
+      public var actionDraconian:Number = NaN;
       
-      public var bombTangy:Number = NaN;
+      public var paintNeat:Number = NaN;
       
-      public var zippyApathetic:Number = NaN;
+      public var kneelBruise:Number = NaN;
       
-      public var fiveAdvise:Number = NaN;
+      public var naiveSatisfy:Number = NaN;
       
-      public var possessDoor:Number = NaN;
+      public var abaftAnnoying:Number = NaN;
       
-      public var recordReminiscent:JarTow;
+      public var smileWatery:CulturedAutomatic;
       
-      public var smileWatery:JarTow;
+      public var recordReminiscent:CulturedAutomatic;
       
-      public var oppositeSlip:Number;
+      public var icyColorful:Number;
       
       public function CloverNarrow(param1:int)
       {
-         this.listInstinctive = FrightenUnique.reachRabbits;
-         this.alpha = FrightenUnique.reachRabbits;
-         this.thoughtThick = GateLetters.paintNeat(ForkBit.shortDescribe);
-         this.boundaryPat = ForkBit.shortDescribe;
+         this.happySearch = MarkParty.generalBathe;
+         this.alpha = MarkParty.generalBathe;
+         this.ownAbaft = NervousOnerous.tediousTasty(FaithfulBaseball.satisfySign);
+         this.bombTangy = FaithfulBaseball.satisfySign;
          super();
          this.type = param1;
       }
       
-      public static function hobbiesClever(param1:String, param2:Boolean) : JarTow
-      {
-         var _loc3_:Array = null;
-         if(null == param1)
-         {
-            return null;
-         }
-         _loc3_ = param1.split(HarmonyVeil.orangesToothpaste);
-         if(param2)
-         {
-            return new JarTow(-int(_loc3_[GateLetters.paintNeat(ForkBit.shortDescribe)]),int(_loc3_[GateLetters.paintNeat(FrightenUnique.reachRabbits)]));
-         }
-         return new JarTow(int(_loc3_[GateLetters.paintNeat(ForkBit.shortDescribe)]),int(_loc3_[GateLetters.paintNeat(FrightenUnique.reachRabbits)]));
-      }
-      
-      public static function satisfySign(param1:String, param2:Boolean, param3:int = 800) : JarTow
+      public static function alansonSatisfy(param1:String, param2:Boolean, param3:int = 800) : CulturedAutomatic
       {
          var _loc4_:Array = null;
-         if(null == param1)
+         if(param1 == null)
          {
             return null;
          }
-         _loc4_ = param1.split(GateLetters.tediousTasty(HarmonyVeil.orangesToothpaste));
+         _loc4_ = param1.split(NervousOnerous.orangesToothpaste(KneelDaily.zippyApathetic));
          if(param2)
          {
-            return new JarTow((param3 - int(_loc4_[ForkBit.shortDescribe])) / ToothpasteCloistered.shakeHappy,int(_loc4_[FrightenUnique.reachRabbits]) / GateLetters.paintNeat(ToothpasteCloistered.shakeHappy));
+            return new CulturedAutomatic((param3 - int(_loc4_[FaithfulBaseball.satisfySign])) / NervousOnerous.tediousTasty(KnotModern.reachRabbits),int(_loc4_[NervousOnerous.tediousTasty(MarkParty.generalBathe)]) / NervousOnerous.tediousTasty(KnotModern.reachRabbits));
          }
-         return new JarTow(int(_loc4_[GateLetters.paintNeat(ForkBit.shortDescribe)]) / GateLetters.paintNeat(ToothpasteCloistered.shakeHappy),int(_loc4_[GateLetters.paintNeat(FrightenUnique.reachRabbits)]) / ToothpasteCloistered.shakeHappy);
+         return new CulturedAutomatic(int(_loc4_[FaithfulBaseball.satisfySign]) / NervousOnerous.tediousTasty(KnotModern.reachRabbits),int(_loc4_[MarkParty.generalBathe]) / KnotModern.reachRabbits);
+      }
+      
+      public static function possessDoor(param1:String, param2:Boolean) : CulturedAutomatic
+      {
+         var _loc3_:Array = null;
+         if(param1 == null)
+         {
+            return null;
+         }
+         _loc3_ = param1.split(NervousOnerous.orangesToothpaste(KneelDaily.zippyApathetic));
+         if(param2)
+         {
+            return new CulturedAutomatic(-int(_loc3_[FaithfulBaseball.satisfySign]),int(_loc3_[MarkParty.generalBathe]));
+         }
+         return new CulturedAutomatic(int(_loc3_[NervousOnerous.tediousTasty(FaithfulBaseball.satisfySign)]),int(_loc3_[MarkParty.generalBathe]));
       }
    }
 }

@@ -6,18 +6,18 @@ package
    {
        
       
-      public var earUnique:ZippySisters;
+      public var spikyInquisitive:ZippySisters;
       
       public var idSequence:int;
       
-      public var alertNaive1:int;
+      public var cuteBehavior:int;
       
-      public var cuteBehavior:PeckAspiring;
+      public var franticBrush:RightfulTrousers;
       
       public function SandCrime(param1:ZippySisters)
       {
          super();
-         this.earUnique = param1;
+         this.spikyInquisitive = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get franticBrush() : String
+      public function get weightBrass() : String
       {
-         return ChinSnakes.utopianDeadpan;
+         return OrangesQueue.forkWing1;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.smileProse;
+         return KotskyRailway.alertNaive;
       }
       
       public function boundaryEasy() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function eggnogOrder() : int
+      public function smileProse() : int
       {
-         return GateLetters.forkWing(MarkEvasive.spaceCold);
+         return NervousOnerous.eggnogOrder(MarkParty.utopianDeadpan);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.alertNaive1 = param1.readByte();
-         var _loc2_:ProseZonked = this.earUnique.recupereSequence(this.idSequence);
+         this.cuteBehavior = param1.readByte();
+         var _loc2_:ProseZonked = this.spikyInquisitive.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is PeckAspiring)
+            if(_loc2_ is RightfulTrousers)
             {
-               this.cuteBehavior = PeckAspiring(_loc2_);
-               this.cuteBehavior.decaySpiky = this;
+               this.franticBrush = RightfulTrousers(_loc2_);
+               this.franticBrush.earUnique1 = this;
             }
          }
       }
       
-      public function get weightBrass() : int
+      public function get spaceCold() : int
       {
-         return BashfulUnwritten.spikyInquisitive;
+         return NervousOnerous.eggnogOrder(SpaceIdea.decaySpiky);
       }
    }
 }

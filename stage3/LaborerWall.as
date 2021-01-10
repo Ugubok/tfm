@@ -2,21 +2,21 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class LaborerWall extends CleverWhip
+   public class LaborerWall extends KotskyCheck
    {
        
       
-      public var beadPerson:int;
+      public var measurePoison:String;
       
-      public var measurePoison:Boolean;
+      public var beadPerson:String;
       
       public var babiesSpooky:Boolean;
       
       public function LaborerWall(param1:ByteArray)
       {
          super(param1);
-         this.beadPerson = param1.readInt();
-         this.measurePoison = param1.readBoolean();
+         this.measurePoison = param1.readUTF();
+         this.beadPerson = param1.readUTF();
          this.babiesSpooky = param1.readBoolean();
       }
    }

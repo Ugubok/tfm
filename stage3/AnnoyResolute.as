@@ -4,31 +4,31 @@ package
    {
        
       
-      public var panoramicIdea:Array;
+      public var snottyMountain:Array;
       
-      public var normal:JarTow;
+      public var normal:CulturedAutomatic;
       
-      public var snottyMountain:CravenNoiseless;
+      public var gullibleRambunctious:CravenNoiseless;
       
-      public var capriciousAlluring:GrateHydrant;
+      public var promisePrickly:LimitRare;
       
-      public var quirkyResolute:GrateHydrant;
+      public var panoramicIdea:LimitRare;
       
-      public var collectPrecious:Number;
+      public var capriciousAlluring:Number;
       
       public var wiseDebt:Number;
       
-      public var paymentProgram:int;
+      public var quirkyResolute:int;
       
       public function AnnoyResolute()
       {
-         this.normal = new JarTow();
+         this.normal = new CulturedAutomatic();
          super();
-         this.panoramicIdea = new Array(WetHesitant.jokeArm);
-         var _loc1_:int = ForkBit.promisePrickly;
-         while(_loc1_ < WetHesitant.jokeArm)
+         this.snottyMountain = new Array(StickSisters.jokeArm1);
+         var _loc1_:int = NervousOnerous.collectPrecious(FaithfulBaseball.paymentProgram);
+         while(_loc1_ < StickSisters.jokeArm1)
          {
-            this.panoramicIdea[_loc1_] = new BalvankaPail();
+            this.snottyMountain[_loc1_] = new BalvankaPail();
             _loc1_++;
          }
       }

@@ -2,26 +2,26 @@ package
 {
    import flash.display.DisplayObject;
    
-   public class TightfistedSwanky extends GrateBoring
+   public class TightfistedSwanky extends HesitantOven
    {
        
       
-      public var sugarHistorical:Function;
+      public var beginnerSuzuka:Function;
       
-      public var frightenEasy:Object;
+      public var pushyHobbies:Object;
       
-      public var beginnerSuzuka:int;
+      public var frightenEasy:int;
       
       public function TightfistedSwanky(param1:DisplayObject, param2:Function = null, param3:Object = null)
       {
          var _loc4_:int = 0;
          var _loc5_:int = 0;
-         var _loc6_:GrateBoring = null;
-         if(param1 is GrateBoring)
+         var _loc6_:HesitantOven = null;
+         if(param1 is HesitantOven)
          {
-            _loc6_ = param1 as GrateBoring;
-            _loc4_ = _loc6_.naiveConcentrate;
-            _loc5_ = _loc6_.brassKnife;
+            _loc6_ = param1 as HesitantOven;
+            _loc4_ = _loc6_.sugarHistorical1;
+            _loc5_ = _loc6_.heatKindhearted;
          }
          else
          {
@@ -29,10 +29,10 @@ package
             _loc5_ = param1.height;
          }
          super(_loc4_,_loc5_);
-         this.sugarHistorical = param2;
-         this.frightenEasy = param3;
-         mouseChildren = AmuseFrighten.pushyHobbies;
-         cacheAsBitmap = AmuseFrighten.heatKindhearted;
+         this.beginnerSuzuka = param2;
+         this.pushyHobbies = param3;
+         mouseChildren = NarrowPlants.brassKnife;
+         cacheAsBitmap = NarrowPlants.naiveConcentrate;
          addChild(param1);
       }
    }

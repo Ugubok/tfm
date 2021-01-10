@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var colossalAbsurd:int;
+      public var armyBright:int;
       
-      public var adviceCart:int;
+      public var paymentBasket:int;
       
-      public var hugeDaily:EnergeticPear;
+      public var momentousPerform:DearTiresome;
       
       public function PhoneCapricious(param1:int, param2:int, param3:int)
       {
          super();
          this.idSequence = param1;
-         this.colossalAbsurd = param2;
-         this.adviceCart = param3;
+         this.armyBright = param2;
+         this.paymentBasket = param3;
       }
       
       public function getIdSequence() : int
@@ -27,31 +27,31 @@ package
          return this.idSequence;
       }
       
-      public function get momentousPerform() : String
+      public function get innateJuggle() : String
       {
-         return ChinSnakes.bearLook;
+         return OrangesQueue.hugeDaily;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.paymentBasket;
+         return KotskyRailway.adviceCart;
       }
       
-      public function armyBright() : Boolean
+      public function paintCute() : Boolean
       {
          return false;
       }
       
-      override public function paintCute() : int
+      override public function colossalAbsurd() : int
       {
-         return ScaleTemper.innateJuggle;
+         return SupplyMountain.bearLook;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(this.colossalAbsurd);
-         param1.writeByte(this.adviceCart);
+         param1.writeByte(this.armyBright);
+         param1.writeByte(this.paymentBasket);
       }
    }
 }

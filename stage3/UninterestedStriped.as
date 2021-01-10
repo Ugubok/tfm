@@ -1,12 +1,12 @@
 package
 {
-   public class UninterestedStriped extends WordCalculator
+   public class UninterestedStriped extends StorePaint
    {
        
       
       public function UninterestedStriped()
       {
-         super(ChinSnakes.sandTrap,ScaleTemper.didacticAbsurd);
+         super(IdeaReal.sandTrap,NervousOnerous.didacticAbsurd1(IdeaReal.abortiveAdmire));
       }
    }
 }

@@ -6,44 +6,44 @@ package
    {
        
       
-      public var birdWoman:ZippySisters;
+      public var performBurly:ZippySisters;
       
-      public var performBurly:AnalyzeTemper;
+      public var cryNoisy:int;
       
       public function OrangePeck(param1:ZippySisters)
       {
          super();
-         this.birdWoman = param1;
+         this.performBurly = param1;
       }
       
-      public function get secretArmy() : String
+      public function get kotskyToys() : String
       {
-         return GateLetters.blushFaithful(ChinSnakes.jogImperfect);
+         return OrangesQueue.secretArmy;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.messyEarthquake;
+         return KotskyRailway.windCrook;
       }
       
-      public function meanEdge() : Boolean
+      public function meanEdge1() : Boolean
       {
          return false;
       }
       
-      public function windCrook() : int
+      public function messyEarthquake() : int
       {
-         return this.performBurly.moveDiscussion();
+         return SpaceIdea.moveDiscussion;
       }
       
       public function lecture(param1:ByteArray) : void
       {
-         this.performBurly = AnalyzeTemper.separateNear(param1);
+         this.cryNoisy = param1.readInt();
       }
       
-      public function get kotskyToys() : int
+      public function get separateNear() : int
       {
-         return AdditionVague.cryNoisy;
+         return NervousOnerous.blushFaithful(BalanceSecret.birdWoman);
       }
    }
 }

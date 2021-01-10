@@ -1,12 +1,12 @@
 package
 {
-   public class SincereFill extends WordCalculator
+   public class SincereFill
    {
        
       
       public function SincereFill()
       {
-         super(GateLetters.kneelMeasure(BashfulUnwritten.largeNeat),GateLetters.kneelMeasure(BalanceLoaf.betterSpace));
+         super();
       }
    }
 }

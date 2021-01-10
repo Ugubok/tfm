@@ -1,13 +1,13 @@
 package
 {
-   public class SproutPaint extends WordCalculator
+   public class SproutPaint extends StorePaint
    {
        
       
-      public function SproutPaint(param1:int)
+      public function SproutPaint(param1:String)
       {
-         super(MarkEvasive.scintillatingFunny,ExoticMemorize.satisfyAdmire);
-         aspiringSpooky.writeInt(param1);
+         super(NervousOnerous.satisfyAdmire(IdeaReal.tendencyLabel),FaithfulVoracious.scintillatingFunny);
+         aspiringSpooky.writeUTF(param1);
       }
    }
 }

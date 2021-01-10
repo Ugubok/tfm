@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var momentousZip:String;
+      public var tangyKneel:String;
       
-      public var slipPossess:ProgramDivision;
+      public var ignorantWipe:PaymentDetermined;
       
       public function PipkaStory(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.momentousZip = param2;
+         this.tangyKneel = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get ignorantWipe() : String
+      public function get passDeserve() : String
       {
-         return ChinSnakes.tangyKneel;
+         return OrangesQueue.slipPossess;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.branchInjure;
+         return KotskyRailway.obeisantTremble;
       }
       
-      public function obeisantTremble() : Boolean
+      public function branchInjure() : Boolean
       {
          return false;
       }
       
-      override public function stupidInvent() : int
+      override public function momentousZip() : int
       {
-         return GateLetters.boundlessHeartbreaking(ScaleTemper.passDeserve1) + this.momentousZip.length;
+         return NervousOnerous.stupidInvent(SupplyMountain.boundlessHeartbreaking) + this.tangyKneel.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.momentousZip);
+         param1.writeUTF(this.tangyKneel);
       }
    }
 }

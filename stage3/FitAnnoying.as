@@ -1,14 +1,14 @@
 package
 {
-   public class FitAnnoying extends WordCalculator
+   public class FitAnnoying extends StorePaint
    {
        
       
-      public function FitAnnoying(param1:int, param2:Boolean)
+      public function FitAnnoying(param1:int, param2:String)
       {
-         super(BashfulUnwritten.shortFunny,GateLetters.dockToothpaste(HarmonyVeil.privateUsed));
-         dazzlingSmile.writeShort(param1);
-         dazzlingSmile.writeBoolean(param2);
+         super(NervousOnerous.dazzlingSmile(MarkParty.dockToothpaste),DearTemper.shortFunny);
+         privateUsed.writeShort(param1);
+         privateUsed.writeUTF(param2);
       }
    }
 }

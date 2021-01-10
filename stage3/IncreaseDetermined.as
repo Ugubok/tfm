@@ -6,18 +6,18 @@ package
    {
        
       
-      public var passBike:ZippySisters;
+      public var robinCart:ZippySisters;
       
       public var idSequence:int;
       
-      public var snakesLie:int;
+      public var sistersYak:int;
       
-      public var noxiousDinner:FascinatedWealthy;
+      public var reminiscentDildo:DivisionOven;
       
       public function IncreaseDetermined(param1:ZippySisters)
       {
          super();
-         this.passBike = param1;
+         this.robinCart = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get robinCart() : String
+      public function get nestTax() : String
       {
-         return ChinSnakes.ignorantEvasive;
+         return OrangesQueue.huskyTangy;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.birdsMove;
+         return KotskyRailway.noxiousDinner;
       }
       
-      public function reminiscentDildo1() : Boolean
+      public function snakesLie() : Boolean
       {
          return false;
       }
       
-      public function injureLaborer() : int
+      public function birdsMove() : int
       {
-         return MarkEvasive.doorEfficient;
+         return NervousOnerous.injureLaborer(MarkParty.ignorantEvasive);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.snakesLie = param1.readByte();
-         var _loc2_:ProseZonked = this.passBike.recupereSequence(this.idSequence);
+         this.sistersYak = param1.readByte();
+         var _loc2_:ProseZonked = this.robinCart.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is FascinatedWealthy)
+            if(_loc2_ is DivisionOven)
             {
-               this.noxiousDinner = FascinatedWealthy(_loc2_);
-               this.noxiousDinner.sistersYak = this;
+               this.reminiscentDildo = DivisionOven(_loc2_);
+               this.reminiscentDildo.warlikeBoundary = this;
             }
          }
       }
       
-      public function get warlikeBoundary() : int
+      public function get doorEfficient() : int
       {
-         return GateLetters.huskyTangy(FrightenUnique.nestTax);
+         return IdeaReal.passBike;
       }
    }
 }

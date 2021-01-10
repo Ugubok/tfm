@@ -1,13 +1,13 @@
 package
 {
-   public class BashfulBlade extends WordCalculator
+   public class BashfulBlade extends StorePaint
    {
        
       
       public function BashfulBlade(param1:int)
       {
-         super(GateLetters.deliverBurly(MarkEvasive.faintGrandfather),GateLetters.deliverBurly(ChinSnakes.zonkedMomentous));
-         tightfistedShocking.writeInt(param1);
+         super(MarkParty.deliverBurly,NervousOnerous.faintGrandfather(BalanceSecret.tightfistedShocking));
+         zonkedMomentous.writeShort(param1);
       }
    }
 }

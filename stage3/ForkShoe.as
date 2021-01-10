@@ -1,15 +1,15 @@
 package
 {
-   public class ForkShoe extends WordCalculator
+   public class ForkShoe extends StorePaint
    {
        
       
-      public function ForkShoe(param1:int, param2:int, param3:int)
+      public function ForkShoe(param1:int, param2:ProseZonked)
       {
-         super(GateLetters.uniqueRepulsive1(AttractiveSugar.lookSpiffy),ToothpasteCloistered.pinusLight);
-         threateningSupply.writeInt(param1);
-         threateningSupply.writeByte(param2);
-         threateningSupply.writeShort(param3);
+         super(KneelDaily.pinusLight,MarkParty.threateningSupply);
+         hourMouse.writeShort(param1);
+         param2.ecriture(hourMouse);
+         uniqueRepulsive = NarrowPlants.lookSpiffy;
       }
    }
 }

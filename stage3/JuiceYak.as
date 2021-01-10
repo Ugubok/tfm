@@ -2,16 +2,16 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class JuiceYak extends CleverWhip
+   public class JuiceYak extends KotskyCheck
    {
        
       
-      public var unequaledMany1:String;
+      public var unequaledMany:String;
       
       public function JuiceYak(param1:ByteArray)
       {
          super(param1);
-         this.unequaledMany1 = param1.readUTF();
+         this.unequaledMany = param1.readUTF();
       }
    }
 }

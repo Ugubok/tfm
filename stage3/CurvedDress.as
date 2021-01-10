@@ -1,12 +1,12 @@
 package
 {
-   public class CurvedDress extends WordCalculator
+   public class CurvedDress extends StorePaint
    {
        
       
       public function CurvedDress()
       {
-         super(GateLetters.inquisitiveAmuse(ForkBit.bootList),BalanceLoaf.unequalApathetic);
+         super(SistersRedundant.unequalApathetic,SupplyMountain.inquisitiveAmuse1);
       }
    }
 }

@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var hobbiesDaily:String;
+      public var suitStay:String;
       
-      public var quackShut:SnakesDistro;
+      public var quackShut:HarmonyMemorize;
       
       public function CrackerMany(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.hobbiesDaily = param2;
+         this.suitStay = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get ovenImpolite() : String
+      public function get whipClover() : String
       {
-         return ChinSnakes.adviseExplode;
+         return NervousOnerous.curvedCoal(OrangesQueue.hobbiesDaily);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.fascinatedBurn;
+         return KotskyRailway.ovenImpolite;
       }
       
-      public function suitStay() : Boolean
+      public function acousticDeliver() : Boolean
       {
          return false;
       }
       
-      override public function acousticDeliver() : int
+      override public function fascinatedBurn() : int
       {
-         return GateLetters.curvedCoal(ScaleTemper.whipClover) + this.hobbiesDaily.length;
+         return SupplyMountain.adviseExplode + this.suitStay.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.hobbiesDaily);
+         param1.writeUTF(this.suitStay);
       }
    }
 }

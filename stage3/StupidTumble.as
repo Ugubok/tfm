@@ -6,56 +6,56 @@ package
    {
        
       
-      public var phoneAblaze:ZippySisters;
+      public var hornThoughtless:ZippySisters;
       
-      public var burlyTrousers:String;
+      public var jogAdvice:String;
       
-      public var mountainBerry:int;
+      public var beliefFlow:int;
       
-      public var laborerBabies:String;
+      public var phoneAblaze:String;
       
-      public var trapTeaching:String;
+      public var grainAdvice:String;
       
       public function StupidTumble(param1:ZippySisters)
       {
          super();
-         this.phoneAblaze = param1;
+         this.hornThoughtless = param1;
       }
       
-      public function get hornThoughtless() : String
+      public function get secretStrengthen() : String
       {
-         return ChinSnakes.grainAdvice;
+         return NervousOnerous.laborerBabies1(OrangesQueue.mountainBerry);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.soundCool;
+         return KotskyRailway.trapTeaching;
       }
       
-      public function scintillatingLip() : Boolean
+      public function famousThick() : Boolean
       {
          return false;
       }
       
-      public function famousThick() : int
+      public function soundCool() : int
       {
-         return GateLetters.secretStrengthen(RequestCactus.spuriousRealize) + this.burlyTrousers.length + this.laborerBabies.length + this.trapTeaching.length;
+         return NervousPromise.scintillatingLip + this.jogAdvice.length + this.phoneAblaze.length + this.grainAdvice.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.burlyTrousers = param1.readUTFBytes(_loc2_);
-         this.mountainBerry = param1.readInt();
+         this.jogAdvice = param1.readUTFBytes(_loc2_);
+         this.beliefFlow = param1.readInt();
          var _loc3_:int = param1.readShort();
-         this.laborerBabies = param1.readUTFBytes(_loc3_);
+         this.phoneAblaze = param1.readUTFBytes(_loc3_);
          var _loc4_:int = param1.readShort();
-         this.trapTeaching = param1.readUTFBytes(_loc4_);
+         this.grainAdvice = param1.readUTFBytes(_loc4_);
       }
       
-      public function get reactionLamentable() : int
+      public function get spuriousRealize() : int
       {
-         return GateLetters.secretStrengthen(ExpansionTour.jogAdvice);
+         return NervousOnerous.burlyTrousers(IdeaReal.reactionLamentable);
       }
    }
 }

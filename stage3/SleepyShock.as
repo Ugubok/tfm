@@ -1,12 +1,12 @@
 package
 {
-   public class SleepyShock extends WordCalculator
+   public class SleepyShock extends StorePaint
    {
        
       
       public function SleepyShock()
       {
-         super(GateLetters.paymentAddition(ToothpasteCloistered.tiresomeUnarmed),GateLetters.paymentAddition(AdditionVague.beadCrown));
+         super(NervousOnerous.beadCrown(KnotModern.tiresomeUnarmed),SpaceIdea.paymentAddition);
       }
    }
 }

@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var crashLunasole:String;
+      public var chickensTart:String;
       
-      public var gruesomeBlush:SproutProbable;
+      public var stiffPushy:RequestVague;
       
       public function FeebleJumbled(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.crashLunasole = param2;
+         this.chickensTart = param2;
       }
       
       public function getIdSequence() : int
@@ -24,14 +24,14 @@ package
          return this.idSequence;
       }
       
-      public function get stiffPushy() : String
+      public function get lampRay() : String
       {
-         return ChinSnakes.borrowFemale;
+         return OrangesQueue.gruesomeBlush;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.markedAbsurd;
+         return KotskyRailway.rightfulCactus;
       }
       
       public function fillQuirky() : Boolean
@@ -39,15 +39,15 @@ package
          return false;
       }
       
-      override public function rightfulCactus1() : int
+      override public function markedAbsurd() : int
       {
-         return GateLetters.chickensTart(ScaleTemper.lampRay) + this.crashLunasole.length;
+         return NervousOnerous.crashLunasole(SupplyMountain.borrowFemale) + this.chickensTart.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.crashLunasole);
+         param1.writeUTF(this.chickensTart);
       }
    }
 }

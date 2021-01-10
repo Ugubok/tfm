@@ -1,168 +1,167 @@
 package
 {
-   public class TrainsCheat extends CommonDoctor
+   public class TrainsCheat extends CountIncompetent
    {
        
       
-      public var K:CuteAttractive;
+      public var K:IllustriousLanguid;
       
-      public var voraciousBelligerent:CuteAttractive;
+      public var draconianDildo:IllustriousLanguid;
       
-      public var pearStomach:CuteAttractive;
+      public var orangeJoyous:IllustriousLanguid;
       
-      public var tangyFork1:JarTow;
+      public var glowShame:CulturedAutomatic;
       
-      public var detailHumor:JarTow;
+      public var classLip:CulturedAutomatic;
       
-      public var fadeCheck:JarTow;
+      public var beliefHateful:CulturedAutomatic;
       
-      public var neighborlyFlow:CuteAttractive;
+      public var agonizingBomb:IllustriousLanguid;
       
-      public var reachAunt:JarTow;
+      public var tastelessExpansion:CulturedAutomatic;
       
-      public var awakeCherry:Number;
+      public var rareLeg:Number;
       
-      public var stayScared:Number;
+      public var discussionAbaft:Number;
       
-      public var glowShame1:Number;
+      public var beliefWork:Number;
       
       public function TrainsCheat(param1:AdditionBelligerent)
       {
-         var _loc2_:Number = NaN;
-         var _loc4_:CuteAttractive = null;
-         this.K = new CuteAttractive();
-         this.voraciousBelligerent = new CuteAttractive();
-         this.pearStomach = new CuteAttractive();
-         this.tangyFork1 = new JarTow();
-         this.detailHumor = new JarTow();
-         this.fadeCheck = new JarTow();
-         this.neighborlyFlow = new CuteAttractive();
-         this.reachAunt = new JarTow();
+         this.K = new IllustriousLanguid();
+         this.draconianDildo = new IllustriousLanguid();
+         this.orangeJoyous = new IllustriousLanguid();
+         this.glowShame = new CulturedAutomatic();
+         this.classLip = new CulturedAutomatic();
+         this.beliefHateful = new CulturedAutomatic();
+         this.agonizingBomb = new IllustriousLanguid();
+         this.tastelessExpansion = new CulturedAutomatic();
          super(param1);
-         this.detailHumor.beliefHateful(param1.target);
-         _loc2_ = this.detailHumor.pigGullible - patBabies.sincereAbortive.position.pigGullible;
-         var _loc3_:Number = this.detailHumor.draconianDildo - patBabies.sincereAbortive.position.draconianDildo;
-         _loc4_ = patBabies.sincereAbortive.R;
-         this.tangyFork1.pigGullible = _loc2_ * _loc4_.discussionSubdued.pigGullible + _loc3_ * _loc4_.discussionSubdued.draconianDildo;
-         this.tangyFork1.draconianDildo = _loc2_ * _loc4_.orangeJoyous.pigGullible + _loc3_ * _loc4_.orangeJoyous.draconianDildo;
-         this.awakeCherry = param1.collectGrate;
-         this.fadeCheck.beginnerJuice();
-         var _loc5_:Number = patBabies.neighborlyFlow;
-         var _loc6_:Number = HarmonyVeil.toeWasteful * WetHesitant.zooPlants * param1.partyFamous;
-         var _loc7_:Number = GateLetters.cherryMetal(HarmonyVeil.toeWasteful) * _loc5_ * param1.roomNeat * _loc6_;
-         var _loc8_:Number = _loc6_ * _loc6_ * (param1.tastelessExpansion * _loc5_);
-         this.glowShame1 = FillLegs.rareLeg / (_loc7_ + _loc8_);
-         this.stayScared = _loc8_ / (_loc8_ + _loc7_);
+         this.classLip.sproutTightfisted(param1.target);
+         var _loc2_:Number = this.classLip.chivalrousAbortive - trainsScrew.rightfulLip.position.chivalrousAbortive;
+         var _loc3_:Number = this.classLip.patBabies - trainsScrew.rightfulLip.position.patBabies;
+         var _loc4_:IllustriousLanguid = trainsScrew.rightfulLip.R;
+         this.glowShame.chivalrousAbortive = _loc2_ * _loc4_.awakeCherry1.chivalrousAbortive + _loc3_ * _loc4_.awakeCherry1.patBabies;
+         this.glowShame.patBabies = _loc2_ * _loc4_.fadeCheck.chivalrousAbortive + _loc3_ * _loc4_.fadeCheck.patBabies;
+         this.rareLeg = param1.toyWatery;
+         this.beliefHateful.cloisteredSpot();
+         var _loc5_:Number = trainsScrew.agonizingBomb;
+         var _loc6_:Number = SistersRedundant.neighborlyFlow * StickSisters.collectGrate * param1.sincereAbortive;
+         var _loc7_:Number = SistersRedundant.neighborlyFlow * _loc5_ * param1.statementAdaptable * _loc6_;
+         var _loc8_:Number = _loc6_ * _loc6_ * (_loc5_ * param1.stayScared);
+         this.beliefWork = FaithfulBaseball.tightfistedRabbits / (_loc8_ + _loc7_);
+         this.discussionAbaft = _loc8_ / (_loc7_ + _loc8_);
       }
       
-      override public function lipTiresome() : Boolean
+      override public function partyFamous() : Boolean
       {
          return true;
       }
       
-      override public function discussionAbaft() : JarTow
+      override public function neatRequest() : CulturedAutomatic
       {
-         return this.detailHumor;
+         return this.beliefHateful;
       }
       
-      override public function statementAdaptable() : Number
+      override public function summerBetter(param1:HeartbreakingBurn) : void
       {
-         return GateLetters.cherryMetal(HarmonyVeil.classLip);
-      }
-      
-      override public function agonizingBomb() : JarTow
-      {
-         return this.fadeCheck;
-      }
-      
-      public function tightfistedRabbits(param1:JarTow) : void
-      {
-         if(patBabies.mouseVoracious())
-         {
-            patBabies.railwayToys();
-         }
-         this.detailHumor = param1;
-      }
-      
-      override public function sproutTightfisted(param1:HeartbreakingBurn) : void
-      {
-         var _loc2_:GrateHydrant = null;
-         var _loc3_:CuteAttractive = null;
+         var _loc2_:LimitRare = null;
+         var _loc3_:IllustriousLanguid = null;
          var _loc4_:Number = NaN;
          var _loc5_:Number = NaN;
-         var _loc6_:Number = NaN;
          var _loc7_:Number = NaN;
-         var _loc11_:Number = NaN;
-         _loc2_ = patBabies;
-         _loc3_ = _loc2_.sincereAbortive.R;
-         _loc6_ = this.tangyFork1.pigGullible - _loc2_.explodeWeight.neatRequest.pigGullible;
-         _loc7_ = -_loc2_.explodeWeight.neatRequest.draconianDildo + this.tangyFork1.draconianDildo;
-         _loc4_ = _loc3_.discussionSubdued.pigGullible * _loc6_ + _loc3_.orangeJoyous.pigGullible * _loc7_;
-         _loc7_ = _loc3_.discussionSubdued.draconianDildo * _loc6_ + _loc3_.orangeJoyous.draconianDildo * _loc7_;
+         var _loc16_:Number = NaN;
+         _loc2_ = trainsScrew;
+         _loc3_ = _loc2_.rightfulLip.R;
+         var _loc6_:Number = this.glowShame.chivalrousAbortive - _loc2_.lipTiresome.expertToothpaste.chivalrousAbortive;
+         _loc7_ = -_loc2_.lipTiresome.expertToothpaste.patBabies + this.glowShame.patBabies;
+         _loc4_ = _loc3_.awakeCherry1.chivalrousAbortive * _loc6_ + _loc3_.fadeCheck.chivalrousAbortive * _loc7_;
+         _loc7_ = _loc3_.awakeCherry1.patBabies * _loc6_ + _loc3_.fadeCheck.patBabies * _loc7_;
          _loc6_ = _loc4_;
-         var _loc8_:Number = _loc2_.chivalrousAbortive.pigGullible + -_loc2_.rightfulLip * _loc7_;
-         var _loc9_:Number = _loc2_.rightfulLip * _loc6_ + _loc2_.chivalrousAbortive.draconianDildo;
-         _loc3_ = this.neighborlyFlow;
-         _loc4_ = _loc8_ + this.stayScared * param1.thoughtBurly * this.reachAunt.pigGullible + this.glowShame1 * param1.laughableStale * this.fadeCheck.pigGullible;
-         _loc5_ = _loc9_ + this.stayScared * param1.thoughtBurly * this.reachAunt.draconianDildo + this.glowShame1 * param1.laughableStale * this.fadeCheck.draconianDildo;
-         var _loc10_:Number = -param1.thoughtBurly * (_loc3_.discussionSubdued.pigGullible * _loc4_ + _loc3_.orangeJoyous.pigGullible * _loc5_);
-         _loc11_ = -param1.thoughtBurly * (_loc3_.discussionSubdued.draconianDildo * _loc4_ + _loc3_.orangeJoyous.draconianDildo * _loc5_);
-         var _loc12_:Number = this.fadeCheck.pigGullible;
-         var _loc13_:Number = this.fadeCheck.draconianDildo;
-         this.fadeCheck.pigGullible = this.fadeCheck.pigGullible + _loc10_;
-         this.fadeCheck.draconianDildo = this.fadeCheck.draconianDildo + _loc11_;
-         var _loc14_:Number = this.fadeCheck.expertToothpaste();
-         if(_loc14_ > this.awakeCherry)
+         var _loc8_:Number = _loc2_.roomNeat.chivalrousAbortive + -_loc2_.pigGullible * _loc7_;
+         var _loc9_:Number = _loc2_.pigGullible * _loc6_ + _loc2_.roomNeat.patBabies;
+         _loc3_ = this.agonizingBomb;
+         _loc4_ = _loc8_ + this.discussionAbaft * param1.pearStomach * this.tastelessExpansion.chivalrousAbortive + this.beliefWork * param1.railwayToys * this.beliefHateful.chivalrousAbortive;
+         _loc5_ = _loc9_ + param1.pearStomach * this.discussionAbaft * this.tastelessExpansion.patBabies + this.beliefWork * param1.railwayToys * this.beliefHateful.patBabies;
+         var _loc10_:Number = -param1.pearStomach * (_loc3_.awakeCherry1.chivalrousAbortive * _loc4_ + _loc3_.fadeCheck.chivalrousAbortive * _loc5_);
+         var _loc11_:Number = -param1.pearStomach * (_loc3_.awakeCherry1.patBabies * _loc4_ + _loc3_.fadeCheck.patBabies * _loc5_);
+         var _loc12_:Number = this.beliefHateful.chivalrousAbortive;
+         var _loc13_:Number = this.beliefHateful.patBabies;
+         this.beliefHateful.chivalrousAbortive = this.beliefHateful.chivalrousAbortive + _loc10_;
+         this.beliefHateful.patBabies = this.beliefHateful.patBabies + _loc11_;
+         var _loc14_:Number = this.beliefHateful.reachAunt();
+         if(this.rareLeg < _loc14_)
          {
-            this.fadeCheck.fitMighty(this.awakeCherry / _loc14_);
+            this.beliefHateful.fitMighty(this.rareLeg / _loc14_);
          }
-         _loc10_ = this.fadeCheck.pigGullible - _loc12_;
-         _loc11_ = -_loc13_ + this.fadeCheck.draconianDildo;
-         var _loc15_:Number = _loc10_ * param1.laughableStale;
-         var _loc16_:Number = _loc11_ * param1.laughableStale;
-         _loc2_.chivalrousAbortive.pigGullible = _loc2_.chivalrousAbortive.pigGullible + _loc15_ * _loc2_.delicateCute1;
-         _loc2_.chivalrousAbortive.draconianDildo = _loc2_.chivalrousAbortive.draconianDildo + _loc2_.delicateCute1 * _loc16_;
-         _loc2_.rightfulLip = _loc2_.rightfulLip + _loc2_.summerBetter * (_loc6_ * _loc16_ - _loc7_ * _loc15_);
+         _loc10_ = -_loc12_ + this.beliefHateful.chivalrousAbortive;
+         _loc11_ = -_loc13_ + this.beliefHateful.patBabies;
+         var _loc15_:Number = _loc10_ * param1.railwayToys;
+         _loc16_ = param1.railwayToys * _loc11_;
+         _loc2_.roomNeat.chivalrousAbortive = _loc2_.roomNeat.chivalrousAbortive + _loc15_ * _loc2_.detailHumor;
+         _loc2_.roomNeat.patBabies = _loc2_.roomNeat.patBabies + _loc16_ * _loc2_.detailHumor;
+         _loc2_.pigGullible = _loc2_.pigGullible + _loc2_.laughableStale * (_loc6_ * _loc16_ - _loc7_ * _loc15_);
       }
       
-      override public function trainsScrew() : JarTow
+      public function zooPlants(param1:CulturedAutomatic) : void
       {
-         return patBabies.robinSave(this.tangyFork1);
+         if(trainsScrew.afternoonSincere())
+         {
+            trainsScrew.warlikeCracker();
+         }
+         this.classLip = param1;
       }
       
-      override public function cloisteredSpot(param1:HeartbreakingBurn) : void
+      override public function mouseVoracious() : CulturedAutomatic
       {
-         var _loc3_:CuteAttractive = null;
-         var _loc2_:GrateHydrant = patBabies;
-         _loc3_ = _loc2_.sincereAbortive.R;
-         var _loc4_:Number = this.tangyFork1.pigGullible - _loc2_.explodeWeight.neatRequest.pigGullible;
-         var _loc5_:Number = -_loc2_.explodeWeight.neatRequest.draconianDildo + this.tangyFork1.draconianDildo;
-         var _loc6_:Number = _loc3_.discussionSubdued.pigGullible * _loc4_ + _loc3_.orangeJoyous.pigGullible * _loc5_;
-         _loc5_ = _loc3_.discussionSubdued.draconianDildo * _loc4_ + _loc3_.orangeJoyous.draconianDildo * _loc5_;
+         return this.classLip;
+      }
+      
+      override public function beginnerJuice() : CulturedAutomatic
+      {
+         return trainsScrew.tangyFork(this.glowShame);
+      }
+      
+      override public function voraciousBelligerent() : Number
+      {
+         return NervousOnerous.discussionSubdued(RepulsiveDear.robinSave);
+      }
+      
+      override public function delicateCute(param1:HeartbreakingBurn) : void
+      {
+         var _loc2_:LimitRare = null;
+         var _loc3_:IllustriousLanguid = null;
+         var _loc4_:Number = NaN;
+         _loc2_ = trainsScrew;
+         _loc3_ = _loc2_.rightfulLip.R;
+         _loc4_ = -_loc2_.lipTiresome.expertToothpaste.chivalrousAbortive + this.glowShame.chivalrousAbortive;
+         var _loc5_:Number = -_loc2_.lipTiresome.expertToothpaste.patBabies + this.glowShame.patBabies;
+         var _loc6_:Number = _loc3_.awakeCherry1.chivalrousAbortive * _loc4_ + _loc3_.fadeCheck.chivalrousAbortive * _loc5_;
+         _loc5_ = _loc3_.awakeCherry1.patBabies * _loc4_ + _loc3_.fadeCheck.patBabies * _loc5_;
          _loc4_ = _loc6_;
-         var _loc7_:Number = _loc2_.delicateCute1;
-         var _loc8_:Number = _loc2_.summerBetter;
-         this.voraciousBelligerent.discussionSubdued.pigGullible = _loc7_;
-         this.voraciousBelligerent.orangeJoyous.pigGullible = GateLetters.cherryMetal(HarmonyVeil.classLip);
-         this.voraciousBelligerent.discussionSubdued.draconianDildo = GateLetters.cherryMetal(HarmonyVeil.classLip);
-         this.voraciousBelligerent.orangeJoyous.draconianDildo = _loc7_;
-         this.pearStomach.discussionSubdued.pigGullible = _loc8_ * _loc5_ * _loc5_;
-         this.pearStomach.orangeJoyous.pigGullible = -_loc8_ * _loc4_ * _loc5_;
-         this.pearStomach.discussionSubdued.draconianDildo = -_loc8_ * _loc4_ * _loc5_;
-         this.pearStomach.orangeJoyous.draconianDildo = _loc8_ * _loc4_ * _loc4_;
-         this.K.warlikeCracker(this.voraciousBelligerent);
-         this.K.afternoonSincere(this.pearStomach);
-         this.K.discussionSubdued.pigGullible = this.K.discussionSubdued.pigGullible + this.glowShame1;
-         this.K.orangeJoyous.draconianDildo = this.K.orangeJoyous.draconianDildo + this.glowShame1;
-         this.K.beliefWork(this.neighborlyFlow);
-         this.reachAunt.pigGullible = _loc2_.explodeWeight.toyWatery.pigGullible + _loc4_ - this.detailHumor.pigGullible;
-         this.reachAunt.draconianDildo = _loc2_.explodeWeight.toyWatery.draconianDildo + _loc5_ - this.detailHumor.draconianDildo;
-         _loc2_.rightfulLip = _loc2_.rightfulLip * GateLetters.cherryMetal(AttractiveSugar.faithfulPowerful);
-         var _loc9_:Number = param1.laughableStale * this.fadeCheck.pigGullible;
-         var _loc10_:Number = this.fadeCheck.draconianDildo * param1.laughableStale;
-         _loc2_.chivalrousAbortive.pigGullible = _loc2_.chivalrousAbortive.pigGullible + _loc9_ * _loc7_;
-         _loc2_.chivalrousAbortive.draconianDildo = _loc2_.chivalrousAbortive.draconianDildo + _loc7_ * _loc10_;
-         _loc2_.rightfulLip = _loc2_.rightfulLip + _loc8_ * (_loc4_ * _loc10_ - _loc5_ * _loc9_);
+         var _loc7_:Number = _loc2_.detailHumor;
+         var _loc8_:Number = _loc2_.laughableStale;
+         this.draconianDildo.awakeCherry1.chivalrousAbortive = _loc7_;
+         this.draconianDildo.fadeCheck.chivalrousAbortive = RepulsiveDear.robinSave;
+         this.draconianDildo.awakeCherry1.patBabies = RepulsiveDear.robinSave;
+         this.draconianDildo.fadeCheck.patBabies = _loc7_;
+         this.orangeJoyous.awakeCherry1.chivalrousAbortive = _loc8_ * _loc5_ * _loc5_;
+         this.orangeJoyous.fadeCheck.chivalrousAbortive = -_loc8_ * _loc4_ * _loc5_;
+         this.orangeJoyous.awakeCherry1.patBabies = -_loc8_ * _loc4_ * _loc5_;
+         this.orangeJoyous.fadeCheck.patBabies = _loc8_ * _loc4_ * _loc4_;
+         this.K.toeWasteful(this.draconianDildo);
+         this.K.faithfulPowerful(this.orangeJoyous);
+         this.K.awakeCherry1.chivalrousAbortive = this.K.awakeCherry1.chivalrousAbortive + this.beliefWork;
+         this.K.fadeCheck.patBabies = this.K.fadeCheck.patBabies + this.beliefWork;
+         this.K.cherryMetal(this.agonizingBomb);
+         this.tastelessExpansion.chivalrousAbortive = _loc2_.lipTiresome.thoughtBurly.chivalrousAbortive + _loc4_ - this.classLip.chivalrousAbortive;
+         this.tastelessExpansion.patBabies = _loc2_.lipTiresome.thoughtBurly.patBabies + _loc5_ - this.classLip.patBabies;
+         _loc2_.pigGullible = _loc2_.pigGullible * NervousOnerous.discussionSubdued(DearTemper.explodeWeight);
+         var _loc9_:Number = param1.railwayToys * this.beliefHateful.chivalrousAbortive;
+         var _loc10_:Number = this.beliefHateful.patBabies * param1.railwayToys;
+         _loc2_.roomNeat.chivalrousAbortive = _loc2_.roomNeat.chivalrousAbortive + _loc9_ * _loc7_;
+         _loc2_.roomNeat.patBabies = _loc2_.roomNeat.patBabies + _loc10_ * _loc7_;
+         _loc2_.pigGullible = _loc2_.pigGullible + _loc8_ * (_loc4_ * _loc10_ - _loc5_ * _loc9_);
       }
    }
 }

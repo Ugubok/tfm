@@ -23,12 +23,12 @@ package
       
       public function get sockMouse() : String
       {
-         return GateLetters.tightfistedUncle(ChinSnakes.unarmedDrown);
+         return NervousOnerous.cakeGovernment(OrangesQueue.tightfistedUncle);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.absurdEggnog;
+         return KotskyRailway.fourAttractive;
       }
       
       public function aliveAgree() : Boolean
@@ -36,9 +36,9 @@ package
          return false;
       }
       
-      override public function fourAttractive() : int
+      override public function absurdEggnog() : int
       {
-         return HarmonyVeil.cakeGovernment;
+         return SpaceIdea.unarmedDrown;
       }
       
       override public function ecriture(param1:ByteArray) : void

@@ -6,44 +6,44 @@ package
    {
        
       
-      public var girlHateful:ZippySisters;
+      public var fixGlow:ZippySisters;
       
-      public var porterCelery1:AgreeCapricious;
+      public var staleWall:BrushStormy;
       
       public function LaughableMachine(param1:ZippySisters)
       {
          super();
-         this.girlHateful = param1;
+         this.fixGlow = param1;
       }
       
-      public function get rightfulCalculator() : String
+      public function get tightfistedBoundary() : String
       {
-         return GateLetters.pleaseEnergetic(ChinSnakes.franticHeal);
+         return NervousOnerous.girlHateful(OrangesQueue.reminiscentCareful);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.delightfulFade;
+         return KotskyRailway.verdantWarlike;
       }
       
-      public function rareShade() : Boolean
+      public function rareShade1() : Boolean
       {
          return false;
       }
       
-      public function verdantWarlike() : int
+      public function delightfulFade() : int
       {
-         return this.porterCelery1.tightfistedBoundary();
+         return this.staleWall.pleaseEnergetic();
       }
       
       public function lecture(param1:ByteArray) : void
       {
-         this.porterCelery1 = AgreeCapricious.reminiscentCareful(param1);
+         this.staleWall = BrushStormy.porterCelery(param1);
       }
       
-      public function get fixGlow() : int
+      public function get franticHeal() : int
       {
-         return FranticCrook.staleWall;
+         return NervousOnerous.rightfulCalculator(FaithfulBaseball.nestCure);
       }
    }
 }

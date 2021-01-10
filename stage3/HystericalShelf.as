@@ -1,16 +1,16 @@
 package
 {
-   public class HystericalShelf extends WordCalculator
+   public class HystericalShelf extends StorePaint
    {
        
       
       public function HystericalShelf(param1:String, param2:Boolean = false, param3:Boolean = true, param4:Boolean = true)
       {
-         super(GateLetters.rejectOven1(ExoticMemorize.carefulPlan),ScaleTemper.basinJuggle);
-         mendChivalrous.writeUTF(param1);
-         mendChivalrous.writeBoolean(param2);
-         mendChivalrous.writeBoolean(param3);
-         mendChivalrous.writeBoolean(param4);
+         super(NervousOnerous.mendChivalrous(BalanceSecret.basinJuggle),IdeaReal.rejectOven);
+         carefulPlan.writeUTF(param1);
+         carefulPlan.writeBoolean(param2);
+         carefulPlan.writeBoolean(param3);
+         carefulPlan.writeBoolean(param4);
       }
    }
 }

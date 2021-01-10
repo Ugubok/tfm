@@ -4,17 +4,17 @@ package
    {
        
       
-      public var passFork:Number;
-      
-      public var scaleEdge:Number;
-      
       public var hatefulTouch:Number;
       
-      public var uniteJuggle:int;
+      public var uniteJuggle:Number;
+      
+      public var lyricalZip:Number;
+      
+      public var scaleEdge:int;
+      
+      public var passFork:Boolean;
       
       public var pailInterrupt:Boolean;
-      
-      public var lyricalZip:Boolean;
       
       public function HeartbreakingBurn()
       {

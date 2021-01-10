@@ -6,26 +6,26 @@ package
    {
        
       
-      public var beginnerNoisy:ZippySisters;
+      public var cheatSqueamish:ZippySisters;
       
-      public var cheatSqueamish:String;
+      public var cartBird:String;
       
-      public var ajarWeight:String;
+      public var romanticFrail:String;
       
       public function HatefulGovernment(param1:ZippySisters)
       {
          super();
-         this.beginnerNoisy = param1;
+         this.cheatSqueamish = param1;
       }
       
-      public function get eliteCount() : String
+      public function get priceProse() : String
       {
-         return GateLetters.pearStore(ChinSnakes.romanticFrail);
+         return NervousOnerous.hoseSweater(OrangesQueue.eliteCount);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.crowdedWhisper;
+         return KotskyRailway.sproutCart;
       }
       
       public function classCart() : Boolean
@@ -33,22 +33,22 @@ package
          return false;
       }
       
-      public function sproutCart() : int
+      public function crowdedWhisper() : int
       {
-         return GateLetters.priceProse(HarmonyVeil.hoseSweater) + this.cheatSqueamish.length + this.ajarWeight.length;
+         return NervousOnerous.ajarWeight(SpaceIdea.beginnerNoisy) + this.cartBird.length + this.romanticFrail.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.cheatSqueamish = param1.readUTFBytes(_loc2_);
+         this.cartBird = param1.readUTFBytes(_loc2_);
          var _loc3_:int = param1.readShort();
-         this.ajarWeight = param1.readUTFBytes(_loc3_);
+         this.romanticFrail = param1.readUTFBytes(_loc3_);
       }
       
       public function get earObtainable() : int
       {
-         return ExpansionTour.cartBird;
+         return NervousOnerous.ajarWeight(NervousPromise.pearStore);
       }
    }
 }

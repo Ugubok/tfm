@@ -8,7 +8,7 @@ package
       
       public var idSequence:int;
       
-      public var robinCard:PunctureRailway;
+      public var beautifulSparkle:BoastSparkle;
       
       public function SqueezeInexpensive(param1:int)
       {
@@ -21,14 +21,14 @@ package
          return this.idSequence;
       }
       
-      public function get reachInterrupt() : String
+      public function get nutClammy() : String
       {
-         return GateLetters.shockingLeg(ChinSnakes.paymentHour);
+         return NervousOnerous.robinCard(OrangesQueue.reachInterrupt);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.snottyCool;
+         return KotskyRailway.whipJoke;
       }
       
       public function steerTasty() : Boolean
@@ -36,9 +36,9 @@ package
          return false;
       }
       
-      override public function whipJoke() : int
+      override public function snottyCool() : int
       {
-         return HarmonyVeil.nutClammy;
+         return NervousOnerous.shockingLeg(SpaceIdea.paymentHour);
       }
       
       override public function ecriture(param1:ByteArray) : void

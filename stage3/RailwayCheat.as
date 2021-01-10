@@ -4,21 +4,21 @@ package
    {
        
       
+      public var fascinatedPrivate:int;
+      
       public var treatStem:int;
       
       public var memorizeVulgar:int;
       
-      public var largeDisgusting:int;
-      
-      public var fascinatedPrivate:Array;
+      public var largeDisgusting:Array;
       
       public function RailwayCheat(param1:int, param2:int, param3:Array)
       {
          super();
-         this.treatStem = param1;
-         this.memorizeVulgar = param2;
-         this.fascinatedPrivate = param3;
-         this.largeDisgusting = this.fascinatedPrivate.length;
+         this.fascinatedPrivate = param1;
+         this.treatStem = param2;
+         this.largeDisgusting = param3;
+         this.memorizeVulgar = this.largeDisgusting.length;
       }
    }
 }

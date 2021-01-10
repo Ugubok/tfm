@@ -1,13 +1,13 @@
 package
 {
-   public class CrackerNut extends WordCalculator
+   public class CrackerNut extends StorePaint
    {
        
       
-      public function CrackerNut(param1:String)
+      public function CrackerNut(param1:int)
       {
-         super(AttractiveSugar.attractiveLip,ToothpasteCloistered.shakeBashful);
-         adviceHistory.writeUTF(param1);
+         super(NervousOnerous.attractiveLip(MarkParty.shakeBashful),ActionThrill.apatheticTrip);
+         adviceHistory.writeInt(param1);
       }
    }
 }

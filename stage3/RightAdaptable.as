@@ -1,13 +1,13 @@
 package
 {
-   public class RightAdaptable extends WordCalculator
+   public class RightAdaptable extends StorePaint
    {
        
       
       public function RightAdaptable(param1:int)
       {
-         super(BashfulUnwritten.doorRiver,GateLetters.imperfectChin(BashfulUnwritten.flowerCake));
-         batheWrathful(param1);
+         super(IdeaReal.flowerCake,SpaceIdea.imperfectChin);
+         batheWrathful.writeShort(param1);
       }
    }
 }

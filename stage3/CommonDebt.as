@@ -9,159 +9,159 @@ package
    public class CommonDebt implements ZippySisters
    {
       
-      public static var hocAgree:int =  0;
+      public static var vivaciousLamp:int =  0;
        
       
-      public var paintPaltry:OnceSignal;
+      public var culturedReminiscent:OnceSignal;
       
-      public var scaredWren:Signal;
+      public var symptomaticAjar:Signal;
       
-      public var jokeMetal:Socket;
+      public var hornFirst:Socket;
       
-      public var sincereQuack:WingSpace;
+      public var adviceRare:WingSpace;
       
       public var brassDecay:ByteArray;
       
-      public var voyageChubby:ByteArray;
+      public var paintPaltry:ByteArray;
       
-      public var windyWrathful:int;
+      public var uninterestedSoothe:int;
       
-      public var orderHand:Boolean = true;
+      public var defectiveContain:Boolean = true;
       
-      public var belligerentSuccinct:WickedCard;
+      public var windyWrathful:WickedCard;
       
-      public var sparkleImportant:int;
+      public var hocAgree:int;
       
-      public var culturedReminiscent:int;
+      public var oppositeWise:int;
       
-      public var retireSeparate:Vector.<ProseZonked>;
+      public var expertIdea:Vector.<ProseZonked>;
       
       public function CommonDebt(param1:String = null, param2:uint = 0)
       {
-         this.windyWrathful = -FrightenUnique.decayCount;
-         this.culturedReminiscent = ForkBit.shameOrder;
+         this.uninterestedSoothe = -NervousOnerous.decayCount(MarkParty.orderHand);
+         this.oppositeWise = FaithfulBaseball.belligerentSuccinct;
          super();
-         this.jokeMetal = new Socket();
-         this.retireSeparate = new Vector.<ProseZonked>();
-         this.expertIdea();
+         this.hornFirst = new Socket();
+         this.expertIdea = new Vector.<ProseZonked>();
+         this.retireSeparate();
          if(param1 && param2)
          {
-            this.jokeMetal.connect(param1,param2);
+            this.hornFirst.connect(param1,param2);
          }
       }
       
-      public function symptomaticAjar(param1:int, param2:ProseZonked) : void
+      public function retireSeparate() : void
       {
-         this.retireSeparate.splice(param1,GateLetters.preciousProse(ForkBit.shameOrder),param2);
-      }
-      
-      public function expertIdea() : void
-      {
-         this.jokeMetal.addEventListener(ProgressEvent.SOCKET_DATA,this.oppositeWise);
-         this.paintPaltry = new OnceSignal();
-         this.scaredWren = new Signal(String,Array);
-      }
-      
-      public function adviceRare() : void
-      {
-         this.jokeMetal.removeEventListener(ProgressEvent.SOCKET_DATA,this.oppositeWise);
-         this.jokeMetal.close();
-      }
-      
-      public function set idSequence(param1:int) : void
-      {
-         this.culturedReminiscent = param1;
-      }
-      
-      public function get protocole() : WingSpace
-      {
-         return this.sincereQuack;
-      }
-      
-      public function get idSequence() : int
-      {
-         return this.culturedReminiscent;
+         this.hornFirst.addEventListener(ProgressEvent.SOCKET_DATA,this.kindheartedFaithful);
+         this.culturedReminiscent = new OnceSignal();
+         this.symptomaticAjar = new Signal(String,Array);
       }
       
       public function set protocole(param1:WingSpace) : void
       {
-         if(this.sincereQuack == null)
+         if(this.adviceRare == null)
          {
-            this.sincereQuack = param1;
+            this.adviceRare = param1;
             return;
          }
          throw new Error("On ne peut avoir qu\'un seul protocole !!");
       }
       
-      public function traitePaquetSortant(param1:ProseZonked) : void
+      public function get idSequence() : int
       {
-         param1.defectiveContain = this;
-         var _loc2_:ByteArray = InterruptBalance.hornFirst();
-         _loc2_.writeShort(this.sincereQuack.getIdPaquet(param1));
-         _loc2_.writeShort(CommonDebt.hocAgree++);
-         _loc2_.writeShort(param1.alluringAdhesive());
-         param1.ecriture(_loc2_);
-         this.jokeMetal.writeBytes(_loc2_);
-         this.jokeMetal.flush();
-         if(param1 is EnjoyJar)
-         {
-            this.symptomaticAjar(this.idSequence,param1);
-         }
-         InterruptBalance.uninterestedSoothe(_loc2_);
-         _loc2_ = null;
+         return this.oppositeWise;
       }
       
-      public function oppositeWise(param1:ProgressEvent) : void
+      public function sparkleImportant(param1:int, param2:ProseZonked) : void
       {
-         while(this.jokeMetal.bytesAvailable > GateLetters.preciousProse(ForkBit.shameOrder))
+         this.expertIdea.splice(param1,NervousOnerous.decayCount(FaithfulBaseball.belligerentSuccinct),param2);
+      }
+      
+      public function kindheartedFaithful(param1:ProgressEvent) : void
+      {
+         while(NervousOnerous.decayCount(FaithfulBaseball.belligerentSuccinct) < this.hornFirst.bytesAvailable)
          {
-            if(this.orderHand)
+            if(this.defectiveContain)
             {
-               this.sparkleImportant = this.jokeMetal.readShort();
-               this.belligerentSuccinct = this.sincereQuack.creePaquetEntrant(this,this.sparkleImportant);
-               if(KotskyRailway.shakeRoom == this.belligerentSuccinct.typeTaille)
+               this.hocAgree = this.hornFirst.readShort();
+               this.windyWrathful = this.adviceRare.creePaquetEntrant(this,this.hocAgree);
+               if(KotskyRailway.sincereQuack == this.windyWrathful.typeTaille)
                {
-                  this.windyWrathful = this.jokeMetal.readShort();
+                  this.uninterestedSoothe = this.hornFirst.readShort();
                }
-               else if(this.belligerentSuccinct.typeTaille == KotskyRailway.kindheartedFaithful)
+               else if(KotskyRailway.shakeRoom == this.windyWrathful.typeTaille)
                {
-                  this.windyWrathful = this.jokeMetal.readByte();
+                  this.uninterestedSoothe = this.hornFirst.readByte();
                }
-               else if(this.belligerentSuccinct.typeTaille == KotskyRailway.historicalUnequaled)
+               else if(this.windyWrathful.typeTaille == KotskyRailway.paintPromise)
                {
-                  this.windyWrathful = this.jokeMetal.readInt();
+                  this.uninterestedSoothe = this.hornFirst.readInt();
                }
                else
                {
-                  this.windyWrathful = this.belligerentSuccinct.alluringAdhesive();
+                  this.uninterestedSoothe = this.windyWrathful.jokeMetal();
                }
-               this.orderHand = AmuseFrighten.vivaciousLamp;
+               this.defectiveContain = NarrowPlants.alluringAdhesive;
             }
-            if(!this.orderHand && this.jokeMetal.bytesAvailable >= this.windyWrathful)
+            if(!this.defectiveContain && this.hornFirst.bytesAvailable >= this.uninterestedSoothe)
             {
-               if(null == this.voyageChubby)
+               if(this.paintPaltry == null)
                {
-                  this.voyageChubby = InterruptBalance.hornFirst();
+                  this.paintPaltry = BrassIgnorant.scaredWren();
                }
                else
                {
-                  this.voyageChubby.clear();
+                  this.paintPaltry.clear();
                }
-               this.jokeMetal.readBytes(this.voyageChubby,GateLetters.preciousProse(ForkBit.shameOrder),this.windyWrathful);
-               this.belligerentSuccinct.lecture(this.voyageChubby);
-               this.sincereQuack.traiterPaquetEntrant(this.sparkleImportant,this.belligerentSuccinct);
-               this.orderHand = AmuseFrighten.paintPromise;
+               this.hornFirst.readBytes(this.paintPaltry,NervousOnerous.decayCount(FaithfulBaseball.belligerentSuccinct),this.uninterestedSoothe);
+               this.windyWrathful.lecture(this.paintPaltry);
+               this.adviceRare.traiterPaquetEntrant(this.hocAgree,this.windyWrathful);
+               this.defectiveContain = NarrowPlants.voyageChubby;
                continue;
             }
             break;
          }
       }
       
+      public function get protocole() : WingSpace
+      {
+         return this.adviceRare;
+      }
+      
       public function recupereSequence(param1:int) : ProseZonked
       {
-         var _loc2_:ProseZonked = this.retireSeparate[param1];
-         delete this.retireSeparate[param1];
+         var _loc2_:ProseZonked = this.expertIdea[param1];
+         delete this.expertIdea[param1];
          return _loc2_;
+      }
+      
+      public function set idSequence(param1:int) : void
+      {
+         this.oppositeWise = param1;
+      }
+      
+      public function shameOrder() : void
+      {
+         this.hornFirst.removeEventListener(ProgressEvent.SOCKET_DATA,this.kindheartedFaithful);
+         this.hornFirst.close();
+      }
+      
+      public function traitePaquetSortant(param1:ProseZonked) : void
+      {
+         param1.preciousProse = this;
+         var _loc2_:ByteArray = BrassIgnorant.scaredWren();
+         _loc2_.writeShort(this.adviceRare.getIdPaquet(param1));
+         _loc2_.writeShort(CommonDebt.vivaciousLamp++);
+         _loc2_.writeShort(param1.jokeMetal());
+         param1.ecriture(_loc2_);
+         this.hornFirst.writeBytes(_loc2_);
+         this.hornFirst.flush();
+         if(param1 is EnjoyJar)
+         {
+            this.sparkleImportant(this.idSequence,param1);
+         }
+         BrassIgnorant.historicalUnequaled(_loc2_);
+         _loc2_ = null;
       }
    }
 }

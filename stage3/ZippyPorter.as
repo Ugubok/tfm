@@ -6,18 +6,18 @@ package
    {
        
       
-      public var admireDinner:ZippySisters;
+      public var chivalrousQuack:ZippySisters;
       
       public var idSequence:int;
       
-      public var thankClub:int;
+      public var distroHesitant:int;
       
-      public var bleachRailway:VioletBoundless;
+      public var bleachRailway:SqueezeYak;
       
       public function ZippyPorter(param1:ZippySisters)
       {
          super();
-         this.admireDinner = param1;
+         this.chivalrousQuack = param1;
       }
       
       public function getIdSequence() : int
@@ -27,12 +27,12 @@ package
       
       public function get preciousPenitent() : String
       {
-         return GateLetters.distroHesitant(ChinSnakes.matchExplain);
+         return NervousOnerous.alluringHumor(OrangesQueue.fourWant);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.sleepDaily;
+         return KotskyRailway.thankClub;
       }
       
       public function weightFrighten() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function chivalrousQuack() : int
+      public function sleepDaily() : int
       {
-         return GateLetters.workFade(MarkEvasive.washWing);
+         return MarkParty.washWing;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.thankClub = param1.readByte();
-         var _loc2_:ProseZonked = this.admireDinner.recupereSequence(this.idSequence);
+         this.distroHesitant = param1.readByte();
+         var _loc2_:ProseZonked = this.chivalrousQuack.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is VioletBoundless)
+            if(_loc2_ is SqueezeYak)
             {
-               this.bleachRailway = VioletBoundless(_loc2_);
-               this.bleachRailway.fourWant = this;
+               this.bleachRailway = SqueezeYak(_loc2_);
+               this.bleachRailway.admireDinner = this;
             }
          }
       }
       
       public function get gruesomeUninterested() : int
       {
-         return GateLetters.workFade(RequestCactus.alluringHumor);
+         return KnotModern.workFade;
       }
    }
 }

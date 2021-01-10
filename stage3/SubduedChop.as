@@ -2,27 +2,27 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class SubduedChop extends CleverWhip
+   public class SubduedChop extends KotskyCheck
    {
        
       
-      public var naiveBelief:String;
-      
       public var supplyFragile:String;
       
-      public var preciousVoyage:Array;
+      public var naiveBelief:String;
+      
+      public var narrowFeeble:Array;
       
       public function SubduedChop(param1:ByteArray)
       {
-         this.preciousVoyage = new Array();
+         this.narrowFeeble = new Array();
          super(param1);
-         this.naiveBelief = param1.readUTF();
          this.supplyFragile = param1.readUTF();
+         this.naiveBelief = param1.readUTF();
          var _loc2_:int = param1.readByte();
-         var _loc3_:int = GateLetters.concentrateCracker(ForkBit.narrowFeeble1);
+         var _loc3_:int = FaithfulBaseball.preciousVoyage;
          while(_loc3_ < _loc2_)
          {
-            this.preciousVoyage.push(param1.readUTF());
+            this.narrowFeeble.push(param1.readUTF());
             _loc3_++;
          }
       }

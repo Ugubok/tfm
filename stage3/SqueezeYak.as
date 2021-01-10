@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var famousPainstaking:String;
+      public var mouseStrengthen:String;
       
-      public var belligerentFrantic:BombDoor;
+      public var culturedSpoil:ZippyPorter;
       
       public function SqueezeYak(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.famousPainstaking = param2;
+         this.mouseStrengthen = param2;
       }
       
       public function getIdSequence() : int
@@ -24,14 +24,14 @@ package
          return this.idSequence;
       }
       
-      public function get mouseStrengthen() : String
+      public function get belligerentFrantic() : String
       {
-         return ChinSnakes.laughableBird;
+         return NervousOnerous.enjoySleepy(OrangesQueue.famousPainstaking);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.enjoyPenitent;
+         return KotskyRailway.tangyFantastic;
       }
       
       public function hateKnowledgeable() : Boolean
@@ -39,15 +39,15 @@ package
          return false;
       }
       
-      override public function tangyFantastic() : int
+      override public function enjoyPenitent() : int
       {
-         return GateLetters.culturedSpoil(ScaleTemper.enjoySleepy) + this.famousPainstaking.length;
+         return SupplyMountain.laughableBird + this.mouseStrengthen.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.famousPainstaking);
+         param1.writeUTF(this.mouseStrengthen);
       }
    }
 }

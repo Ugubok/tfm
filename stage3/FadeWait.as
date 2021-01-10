@@ -2,7 +2,7 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class FadeWait extends CleverWhip
+   public class FadeWait extends KotskyCheck
    {
        
       
@@ -14,7 +14,7 @@ package
       {
          super(param1);
          this.optimalWet = param1.readInt();
-         this.spoonSparkle = param1.readShort();
+         this.spoonSparkle = param1.readInt();
       }
    }
 }

@@ -1,12 +1,12 @@
 package
 {
-   public class AnnoyingPushy extends WordCalculator
+   public class AnnoyingPushy extends StorePaint
    {
        
       
       public function AnnoyingPushy()
       {
-         super(ScaleTemper.abortivePaltry,FranticCrook.airHeat);
+         super(IdeaReal.airHeat,SpaceIdea.abortivePaltry);
       }
    }
 }

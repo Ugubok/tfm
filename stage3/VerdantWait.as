@@ -1,13 +1,13 @@
 package
 {
-   public class VerdantWait extends WordCalculator
+   public class VerdantWait extends StorePaint
    {
        
       
-      public function VerdantWait(param1:Number)
+      public function VerdantWait(param1:int)
       {
-         super(ChinSnakes.cuteWindy,GateLetters.pictureWretched(ToothpasteCloistered.delightfulOwn));
-         happyContain.writeByte(int(BashfulUnwritten.rabbitUnique * param1));
+         super(MarkParty.happyContain,NervousOnerous.cuteWindy(RoomAddition.pictureWretched));
+         delightfulOwn.writeInt(param1);
       }
    }
 }

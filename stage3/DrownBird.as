@@ -5,59 +5,59 @@ package
    public class DrownBird
    {
       
-      public static const doubleMark:String = GateLetters.gateLanguid("T");
+      public static const shockingPurpose:String = NervousOnerous.doubleMark("T");
       
-      public static const celeryBit:String = GateLetters.gateLanguid("F");
+      public static const veilCool:String = NervousOnerous.doubleMark("F");
       
-      public static const milkySymptomatic:String = GateLetters.gateLanguid("DS");
+      public static const milkySymptomatic:String = NervousOnerous.doubleMark("DS");
       
-      public static const superGruesome:String = "DC";
+      public static const boastGrin:String = NervousOnerous.doubleMark("DC");
       
-      public static const locketLamentable:String = GateLetters.gateLanguid("DC2");
+      public static const smoothConcentrate:String = NervousOnerous.doubleMark("DC2");
       
-      public static const tumbleDescribe1:String = GateLetters.gateLanguid("P");
+      public static const importantWarlike:String = "P";
       
-      public static const berryJuice:String = "CAD";
+      public static const locketLamentable:String = "CAD";
       
-      public static const voraciousImportant:String = "BON";
+      public static const icyDazzling:String = "BON";
       
-      public static const veilCool1:String = "ROS";
+      public static const gateLanguid:String = NervousOnerous.doubleMark("ROS");
        
       
-      public var ablazeHesitant:String;
+      public var celeryBit:String;
       
-      public var smoothConcentrate:int;
+      public var amuseAbortive:int;
       
-      public var tumbleJoyous:int;
+      public var berryJuice:int;
       
-      public var importantWarlike:Boolean = false;
+      public var stripedClammy:Boolean = false;
       
-      public var summerSnotty:Boolean = false;
+      public var voraciousImportant:Boolean = false;
       
-      public var shockingPurpose:int;
+      public var superGruesome:int;
       
-      public var amuseAbortive1:int;
+      public var cherryViolet:int;
       
-      public var cherryViolet:Array;
+      public var temperAdvice:Array;
       
-      public var icyDazzling:Boolean = false;
+      public var ablazeHesitant:Boolean = false;
       
       public var rotation:Number;
       
-      public var boastGrin:Boolean = false;
+      public var tumbleJoyous:Boolean = false;
       
-      public var sparkleMend:Boolean = false;
+      public var summerSnotty:Boolean = false;
       
-      public var temperAdvice:MovieClip;
+      public var sparkleMend:MovieClip;
       
       public function DrownBird(param1:String, param2:int, param3:int)
       {
-         this.shockingPurpose = GateLetters.frightenWail(ForkBit.stripedClammy);
-         this.rotation = GateLetters.frightenWail(ForkBit.stripedClammy);
+         this.superGruesome = FaithfulBaseball.tumbleDescribe;
+         this.rotation = FaithfulBaseball.tumbleDescribe;
          super();
-         this.ablazeHesitant = param1;
-         this.smoothConcentrate = param2;
-         this.tumbleJoyous = param3;
+         this.celeryBit = param1;
+         this.amuseAbortive = param2;
+         this.berryJuice = param3;
       }
    }
 }

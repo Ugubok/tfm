@@ -1,15 +1,15 @@
 package
 {
-   public class BasinGrotesque extends WordCalculator
+   public class BasinGrotesque extends StorePaint
    {
        
       
       public function BasinGrotesque(param1:int, param2:int, param3:int)
       {
-         super(GateLetters.seedPaint(FranticCrook.rejectCreator),GateLetters.seedPaint(FrightenUnique.spaceHilarious));
-         searchQueue.writeInt(param1);
-         searchQueue.writeInt(param2);
-         searchQueue.writeInt(param3);
+         super(MarkParty.seedPaint,NervousOnerous.spaceHilarious(BalanceSecret.searchQueue));
+         rejectCreator.writeInt(param1);
+         rejectCreator.writeShort(param2);
+         rejectCreator.writeShort(param3);
       }
    }
 }

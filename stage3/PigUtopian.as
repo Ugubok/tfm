@@ -9,48 +9,48 @@ package
          super();
       }
       
-      public function x_executeResultatChangementAvatar(param1:RequestVague) : void
+      public function x_executeSignaleChangementAvatar(param1:OrangePeck) : void
       {
-         if(param1.abjectToys != WarlikeNaive.bumpFill)
-         {
-            ChopPrivate1.injureClammy(param1.chopLackadaisical,param1.abjectToys);
-         }
-      }
-      
-      public function x_executeSignaleInformationsConnexion(param1:SpookyBleach) : void
-      {
-         ChopPrivate1.snakesGamy = AmuseFrighten.pricklyRight;
-         ChopPrivate1.carelessFlash.decayEasy(param1.chickensRetire1);
-         ChopPrivate1.carelessFlash.jaggedPromise(param1.messySleep);
-         ChopPrivate1.painstakingHate.sugarExotic(param1.patKey);
-         ChopPrivate1.painstakingHate.satisfyBoring(param1.tabooDouble);
-         ChopPrivate1.forkToys.limitCompany(param1.fourScale);
-         ChopPrivate1.taxPromise1.cardWet(param1.gruesomeRabbits,param1.aspiringFearful,param1.jellyModern,param1.colorBrass);
-         ChopPrivate1.taxPromise1.jaggedDouble(param1.ownSalt);
-         if(ChopPrivate1.taxPromise1.whisperSki())
-         {
-            ChopPrivate1.taxPromise1.adCold();
-         }
-         ChopPrivate1.splendidSand.confusedOpposite();
-         CeleryRiver.automaticDelightful().screwAfternoon();
+         ChopPrivate1.whisperSki.jellyModern(param1.jaggedPromise);
       }
       
       public function x_executeSignaleChangementGenre(param1:TendencySon) : void
       {
-         ChopPrivate1.carelessFlash.decayEasy(param1.complexQuack);
+         ChopPrivate1.whisperSki.forkToys(param1.ownSalt);
       }
       
-      public function x_executeResultatChangementGenre(param1:ZooNoisy) : void
+      public function x_executeSignaleInformationsConnexion(param1:SpookyBleach) : void
       {
-         if(param1.abjectToys != WarlikeNaive.bumpFill)
+         ChopPrivate1.carelessFlash = NarrowPlants.colorBrass;
+         ChopPrivate1.whisperSki.forkToys(param1.snakesGamy);
+         ChopPrivate1.whisperSki.jellyModern(param1.injureClammy);
+         ChopPrivate1.painstakingHate.limitCompany(param1.tabooDouble);
+         ChopPrivate1.painstakingHate.bumpFill(param1.complexQuack);
+         ChopPrivate1.screwAfternoon.fourScale(param1.aspiringFearful);
+         ChopPrivate1.patKey.abjectToys(param1.changeableBirds,param1.adCold,param1.chopLackadaisical,param1.messySleep);
+         ChopPrivate1.patKey.automaticDelightful(param1.chickensRetire);
+         if(ChopPrivate1.patKey.splendidSand())
          {
-            ChopPrivate1.injureClammy(param1.chopLackadaisical,param1.abjectToys);
+            ChopPrivate1.patKey.cardWet();
+         }
+         ChopPrivate1.jaggedDouble.sugarExotic1();
+         CeleryRiver.confusedOpposite().gruesomeRabbits();
+      }
+      
+      public function x_executeResultatChangementAvatar(param1:ColdUpset) : void
+      {
+         if(param1.pricklyRight != WarlikeNaive.decayEasy)
+         {
+            ChopPrivate1.satisfyBoring(param1.taxPromise,param1.pricklyRight);
          }
       }
       
-      public function x_executeSignaleChangementAvatar(param1:PatCareful) : void
+      public function x_executeResultatChangementGenre(param1:PreciousWait) : void
       {
-         ChopPrivate1.carelessFlash.jaggedPromise(param1.changeableBirds);
+         if(param1.pricklyRight != WarlikeNaive.decayEasy)
+         {
+            ChopPrivate1.satisfyBoring(param1.taxPromise,param1.pricklyRight);
+         }
       }
    }
 }

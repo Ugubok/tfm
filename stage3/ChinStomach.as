@@ -3,74 +3,74 @@ package
    public class ChinStomach
    {
       
-      public static var measlyFree:uint = WetHesitant.earthquakeGovernment;
+      public static var decayFix:uint = StickSisters.probableQuirky;
       
-      public static var workCute:uint = WetHesitant.earthquakeGovernment;
+      public static var betterRightful:uint = StickSisters.probableQuirky;
       
-      public static var betterRightful:int = WetHesitant.tourAspiring;
+      public static var stomachRepeat:int = StickSisters.earthquakeGovernment;
       
-      public static var decayFix:int = 1 + ChinStomach.betterRightful;
+      public static var measlyFree:int = 1 + ChinStomach.stomachRepeat;
       
-      public static var wanderingUnequaled:uint = 1;
+      public static var armyDaily:uint = 1;
       
-      public static var nervousIncompetent:uint = 2;
+      public static var chillyShame:uint = 2;
       
-      public static var shelfScrew:uint = 4;
+      public static var tourAspiring:uint = 4;
        
       
       public var userData = null;
       
-      public var armyDaily:uint;
-      
-      public var probableQuirky:uint;
-      
       public var absurdList:uint;
       
-      public var coalHeartbreaking:uint;
+      public var workCute:uint;
+      
+      public var separateWealthy:uint;
+      
+      public var squareQuack:uint;
       
       public function ChinStomach()
       {
          super();
       }
       
-      public function paintDebt() : void
+      public function nervousIncompetent() : Boolean
       {
-         this.coalHeartbreaking = this.coalHeartbreaking & ~ChinStomach.wanderingUnequaled;
+         return (this.squareQuack & ChinStomach.armyDaily) == ChinStomach.armyDaily;
       }
       
-      public function squareQuack() : void
+      public function cravenKnowledge() : void
       {
-         this.coalHeartbreaking = this.coalHeartbreaking | ChinStomach.nervousIncompetent;
+         this.squareQuack = this.squareQuack | ChinStomach.armyDaily;
       }
       
-      public function stomachRepeat() : void
+      public function wanderingUnequaled() : void
       {
-         this.coalHeartbreaking = this.coalHeartbreaking | ChinStomach.shelfScrew;
-      }
-      
-      public function chillyShame() : Boolean
-      {
-         return (this.coalHeartbreaking & ChinStomach.nervousIncompetent) == ChinStomach.nervousIncompetent;
+         this.squareQuack = this.squareQuack | ChinStomach.chillyShame;
       }
       
       public function spaceVerdant() : void
       {
-         this.coalHeartbreaking = this.coalHeartbreaking & ~ChinStomach.nervousIncompetent;
+         this.squareQuack = this.squareQuack & ~ChinStomach.chillyShame;
       }
       
-      public function separateWealthy() : Boolean
+      public function paintDebt() : void
       {
-         return (this.coalHeartbreaking & ChinStomach.wanderingUnequaled) == ChinStomach.wanderingUnequaled;
+         this.squareQuack = this.squareQuack & ~ChinStomach.armyDaily;
       }
       
-      public function sweaterDistro() : void
+      public function shelfScrew() : void
       {
-         this.coalHeartbreaking = this.coalHeartbreaking | ChinStomach.wanderingUnequaled;
+         this.squareQuack = this.squareQuack | ChinStomach.tourAspiring;
       }
       
-      public function cravenKnowledge() : Boolean
+      public function sweaterDistro() : Boolean
       {
-         return (this.coalHeartbreaking & ChinStomach.shelfScrew) == ChinStomach.shelfScrew;
+         return (this.squareQuack & ChinStomach.chillyShame) == ChinStomach.chillyShame;
+      }
+      
+      public function coalHeartbreaking1() : Boolean
+      {
+         return (this.squareQuack & ChinStomach.tourAspiring) == ChinStomach.tourAspiring;
       }
    }
 }

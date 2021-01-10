@@ -6,40 +6,40 @@ package
    {
        
       
-      public var uniteRay:String;
+      public var carelessDear:String;
       
-      public var moveTeeny:int;
+      public var pipkaPeck:int;
       
       public function ShortRepeat(param1:String = null, param2:int = 0)
       {
          super();
-         this.uniteRay = param1;
-         this.moveTeeny = param2;
+         this.carelessDear = param1;
+         this.pipkaPeck = param2;
       }
       
-      public static function carelessDear(param1:ByteArray) : ShortRepeat
+      public static function moveTeeny(param1:ByteArray) : ShortRepeat
       {
          var _loc2_:ShortRepeat = new ShortRepeat();
          _loc2_.lecture(param1);
          return _loc2_;
       }
       
-      public function farmPass() : int
+      public function uniteRay() : int
       {
-         return ScaleTemper.pipkaPeck + this.uniteRay.length;
+         return SupplyMountain.farmPass + this.carelessDear.length;
       }
       
       public function ecriture(param1:ByteArray) : void
       {
-         param1.writeUTF(this.uniteRay);
-         param1.writeInt(this.moveTeeny);
+         param1.writeUTF(this.carelessDear);
+         param1.writeInt(this.pipkaPeck);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.uniteRay = param1.readUTFBytes(_loc2_);
-         this.moveTeeny = param1.readInt();
+         this.carelessDear = param1.readUTFBytes(_loc2_);
+         this.pipkaPeck = param1.readInt();
       }
    }
 }

@@ -6,24 +6,24 @@ package
    {
        
       
-      public var canStem:ZippySisters;
+      public var newBasin:ZippySisters;
       
-      public var poisedSalt:String;
+      public var fierceShock:String;
       
       public function BasketAd(param1:ZippySisters)
       {
          super();
-         this.canStem = param1;
+         this.newBasin = param1;
       }
       
       public function get dildoStem() : String
       {
-         return GateLetters.newBasin(ChinSnakes.errorIncrease);
+         return OrangesQueue.poisedSalt;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.deliverCareless;
+         return KotskyRailway.noisyPlease;
       }
       
       public function systemStiff() : Boolean
@@ -31,20 +31,20 @@ package
          return false;
       }
       
-      public function noisyPlease() : int
+      public function deliverCareless() : int
       {
-         return ToothpasteCloistered.fierceShock + this.poisedSalt.length;
+         return SupplyMountain.canStem1 + this.fierceShock.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.poisedSalt = param1.readUTFBytes(_loc2_);
+         this.fierceShock = param1.readUTFBytes(_loc2_);
       }
       
       public function get naughtyClever() : int
       {
-         return GateLetters.orderIncrease(BalanceLoaf.seriousPass);
+         return RepulsiveDear.orderIncrease;
       }
    }
 }

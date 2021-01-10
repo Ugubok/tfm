@@ -4,15 +4,15 @@ package
    {
        
       
-      public var attractiveTemper:int;
-      
       public var cakeExpert:int;
+      
+      public var cheatProud:int;
       
       public var mittenZip:int;
       
-      public var bootSpot:int;
+      public var attractiveTemper:int;
       
-      public var cheatProud:int;
+      public var bootSpot:int;
       
       public function InstinctiveWing()
       {

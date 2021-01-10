@@ -4,38 +4,38 @@ package
    {
        
       
-      public var shoeAction:JarTow;
+      public var orderBreathe:CulturedAutomatic;
       
-      public var cardUtopian:JarTow;
+      public var snakesLook:CulturedAutomatic;
       
       public var length:Number;
       
-      public var inventBetter:Number;
+      public var windProse:Number;
       
-      public var snakesLook:Number;
+      public var butterVulgar:Number;
       
       public function ModernVagabond()
       {
-         this.shoeAction = new JarTow();
-         this.cardUtopian = new JarTow();
+         this.orderBreathe = new CulturedAutomatic();
+         this.snakesLook = new CulturedAutomatic();
          super();
-         type = CommonDoctor.rambunctiousAction;
-         this.length = FillLegs.pigDaily;
-         this.inventBetter = HarmonyVeil.calculateSummer;
-         this.snakesLook = HarmonyVeil.calculateSummer;
+         type = CountIncompetent.shoeAction;
+         this.length = NervousOnerous.expansionApathetic(FaithfulBaseball.calculateSummer);
+         this.windProse = NervousOnerous.expansionApathetic(RepulsiveDear.inventBetter);
+         this.butterVulgar = NervousOnerous.expansionApathetic(RepulsiveDear.inventBetter);
       }
       
-      public function threateningCold1(param1:GrateHydrant, param2:GrateHydrant, param3:JarTow, param4:JarTow) : void
+      public function annoyCheck(param1:LimitRare, param2:LimitRare, param3:CulturedAutomatic, param4:CulturedAutomatic) : void
       {
-         windProse = param1;
-         obeisantSwanky = param2;
-         this.shoeAction.expansionApathetic(windProse.butterVulgar(param3));
-         this.cardUtopian.expansionApathetic(obeisantSwanky.butterVulgar(param4));
-         var _loc5_:Number = -param3.annoyCheck + param4.annoyCheck;
-         var _loc6_:Number = -param3.baseballUsed + param4.baseballUsed;
+         obeisantSwanky = param1;
+         cardUtopian = param2;
+         this.orderBreathe.rambunctiousAction(obeisantSwanky.threateningCold(param3));
+         this.snakesLook.rambunctiousAction(cardUtopian.threateningCold(param4));
+         var _loc5_:Number = -param3.baseballUsed + param4.baseballUsed;
+         var _loc6_:Number = -param3.pigDaily + param4.pigDaily;
          this.length = Math.sqrt(_loc5_ * _loc5_ + _loc6_ * _loc6_);
-         this.inventBetter = HarmonyVeil.calculateSummer;
-         this.snakesLook = GateLetters.orderBreathe(HarmonyVeil.calculateSummer);
+         this.windProse = RepulsiveDear.inventBetter;
+         this.butterVulgar = NervousOnerous.expansionApathetic(RepulsiveDear.inventBetter);
       }
    }
 }

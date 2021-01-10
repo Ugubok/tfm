@@ -6,30 +6,30 @@ package
    {
        
       
-      public var machineCraven:CommonDebt;
+      public var mightyCareful:CommonDebt;
       
       public function TrapHeartbreaking()
       {
          super();
       }
       
-      public function set passDisappear(param1:CommonDebt) : void
+      public function set zonkedThunder(param1:CommonDebt) : void
       {
-         this.machineCraven = param1;
+         this.mightyCareful = param1;
+      }
+      
+      public function machineCraven() : int
+      {
+         return -MarkParty.strengthenJoke;
       }
       
       public function ecriture(param1:ByteArray) : void
       {
       }
       
-      public function get passDisappear() : CommonDebt
+      public function get zonkedThunder() : CommonDebt
       {
-         return this.machineCraven;
-      }
-      
-      public function mightyCareful() : int
-      {
-         return -GateLetters.zonkedThunder(FrightenUnique.strengthenJoke);
+         return this.mightyCareful;
       }
    }
 }

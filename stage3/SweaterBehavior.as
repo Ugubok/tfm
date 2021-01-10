@@ -1,12 +1,12 @@
 package
 {
-   public class SweaterBehavior
+   public class SweaterBehavior extends StorePaint
    {
        
       
       public function SweaterBehavior()
       {
-         super();
+         super(NervousOnerous.bladeCute(IdeaReal.veilGrandfather),FaithfulVoracious.hourGovernment);
       }
    }
 }

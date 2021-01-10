@@ -6,26 +6,26 @@ package
    {
        
       
-      public var colossalAnus:ZippySisters;
+      public var sugarChangeable:ZippySisters;
       
-      public var ablazeChangeable:String;
+      public var colossalAnus:String;
       
-      public var hystericalSound:String;
+      public var inventScratch:String;
       
       public function PhoneWren(param1:ZippySisters)
       {
          super();
-         this.colossalAnus = param1;
+         this.sugarChangeable = param1;
       }
       
-      public function get sugarChangeable() : String
+      public function get steerSerious1() : String
       {
-         return GateLetters.punctureCherry(ChinSnakes.saveSlim);
+         return OrangesQueue.chivalrousSigh;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.bombPuncture;
+         return KotskyRailway.legsGrin;
       }
       
       public function washStay() : Boolean
@@ -33,22 +33,22 @@ package
          return false;
       }
       
-      public function legsGrin() : int
+      public function bombPuncture() : int
       {
-         return HarmonyVeil.chivalrousSigh + this.ablazeChangeable.length + this.hystericalSound.length;
+         return NervousOnerous.punctureCherry(SpaceIdea.ablazeChangeable) + this.colossalAnus.length + this.inventScratch.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.ablazeChangeable = param1.readUTFBytes(_loc2_);
+         this.colossalAnus = param1.readUTFBytes(_loc2_);
          var _loc3_:int = param1.readShort();
-         this.hystericalSound = param1.readUTFBytes(_loc3_);
+         this.inventScratch = param1.readUTFBytes(_loc3_);
       }
       
-      public function get inventScratch() : int
+      public function get auntTransport() : int
       {
-         return GateLetters.steerSerious(FourYell.auntTransport);
+         return MarkParty.hystericalSound;
       }
    }
 }

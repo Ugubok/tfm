@@ -1,13 +1,13 @@
 package
 {
-   public class MeasureOptimal extends WordCalculator
+   public class MeasureOptimal extends StorePaint
    {
        
       
       public function MeasureOptimal(param1:int)
       {
-         super(GateLetters.impoliteNeighborly(ScaleTemper.lunasolePrice),OrangeUnequal.promiseWindy);
-         sensePoised.writeShort(param1);
+         super(NervousOnerous.promiseWindy(IdeaReal.lunasolePrice),IdeaReal.sensePoised);
+         impoliteNeighborly.writeShort(param1);
       }
    }
 }

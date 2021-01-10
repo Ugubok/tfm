@@ -10,16 +10,16 @@ package
       
       public var anusDazzling:int;
       
-      public var wateryNest:int;
+      public var secretSlip:int;
       
-      public var lockPear:ProseMeasly;
+      public var gloriousGlow:ProseMeasly;
       
       public function AdviceMany(param1:int, param2:int, param3:int)
       {
          super();
          this.idSequence = param1;
          this.anusDazzling = param2;
-         this.wateryNest = param3;
+         this.secretSlip = param3;
       }
       
       public function getIdSequence() : int
@@ -27,14 +27,14 @@ package
          return this.idSequence;
       }
       
-      public function get secretSlip() : String
+      public function get wateryNest() : String
       {
-         return ChinSnakes.enjoyScared;
+         return OrangesQueue.lockPear1;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.curvedFree;
+         return KotskyRailway.possessSteer;
       }
       
       public function crackerAdmire() : Boolean
@@ -42,16 +42,16 @@ package
          return false;
       }
       
-      override public function possessSteer() : int
+      override public function curvedFree() : int
       {
-         return GateLetters.lipCart(ForkBit.gloriousGlow);
+         return BalanceSecret.lipCart;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
          param1.writeInt(this.anusDazzling);
-         param1.writeInt(this.wateryNest);
+         param1.writeInt(this.secretSlip);
       }
    }
 }

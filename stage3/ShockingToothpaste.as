@@ -6,18 +6,18 @@ package
    {
        
       
-      public var squeamishWarlike:ZippySisters;
+      public var prepareTrousers:ZippySisters;
       
       public var idSequence:int;
       
-      public var treatCrash:int;
+      public var dailyHistorical:int;
       
-      public var aspiringBashful:SqueezeSparkle;
+      public var wingGrain:FragileSerious;
       
       public function ShockingToothpaste(param1:ZippySisters)
       {
          super();
-         this.squeamishWarlike = param1;
+         this.prepareTrousers = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get coalRight() : String
+      public function get squeamishWarlike() : String
       {
-         return GateLetters.spoilShoe(ChinSnakes.prepareTrousers);
+         return OrangesQueue.describeAnus;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.basinFragile1;
+         return KotskyRailway.spoilShoe;
       }
       
       public function adjustmentWander() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function transportLight() : int
+      public function basinFragile() : int
       {
-         return MarkEvasive.wingGrain;
+         return MarkParty.aspiringBashful;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.treatCrash = param1.readByte();
-         var _loc2_:ProseZonked = this.squeamishWarlike.recupereSequence(this.idSequence);
+         this.dailyHistorical = param1.readByte();
+         var _loc2_:ProseZonked = this.prepareTrousers.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is SqueezeSparkle)
+            if(_loc2_ is FragileSerious)
             {
-               this.aspiringBashful = SqueezeSparkle(_loc2_);
-               this.aspiringBashful.dailyHistorical = this;
+               this.wingGrain = FragileSerious(_loc2_);
+               this.wingGrain.transportLight = this;
             }
          }
       }
       
-      public function get describeAnus() : int
+      public function get agonizingYummy() : int
       {
-         return ExpansionTour.agonizingYummy;
+         return NervousOnerous.coalRight(FaithfulBaseball.treatCrash);
       }
    }
 }

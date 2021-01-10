@@ -6,24 +6,24 @@ package
    {
        
       
-      public var ploughCraven:ZippySisters;
+      public var juiceZip:ZippySisters;
       
-      public var summerAddition:String;
+      public var pleasantFlock:String;
       
       public function InviteDoctor(param1:ZippySisters)
       {
          super();
-         this.ploughCraven = param1;
+         this.juiceZip = param1;
       }
       
-      public function get ownSock() : String
+      public function get summerAddition() : String
       {
-         return GateLetters.explainBack(ChinSnakes.doubleRomantic);
+         return OrangesQueue.ownSock;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.groundWork;
+         return KotskyRailway.punchCycle;
       }
       
       public function edgeStem() : Boolean
@@ -31,20 +31,20 @@ package
          return false;
       }
       
-      public function punchCycle() : int
+      public function groundWork() : int
       {
-         return GateLetters.pleasantFlock(ToothpasteCloistered.thickFeeble) + this.summerAddition.length;
+         return NervousOnerous.explainBack(SupplyMountain.thickFeeble) + this.pleasantFlock.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.summerAddition = param1.readUTFBytes(_loc2_);
+         this.pleasantFlock = param1.readUTFBytes(_loc2_);
       }
       
-      public function get cleverEngine() : int
+      public function get ploughCraven() : int
       {
-         return GateLetters.pleasantFlock(OrangeUnequal.juiceZip);
+         return NervousOnerous.explainBack(FaithfulBaseball.cleverEngine);
       }
    }
 }

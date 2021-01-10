@@ -1,13 +1,13 @@
 package
 {
-   public class HobbiesJumbled extends WordCalculator
+   public class HobbiesJumbled extends StorePaint
    {
        
       
-      public function HobbiesJumbled(param1:String)
+      public function HobbiesJumbled(param1:int)
       {
-         super(OrangeUnequal.teenyTrip,GateLetters.volcanoStory(ChinSnakes.squareFrighten));
-         birdAnnoying.writeUTF(param1);
+         super(NervousOnerous.birdAnnoying(DearTemper.volcanoStory),NervousOnerous.birdAnnoying(ActionThrill.teenyTrip));
+         squareFrighten.writeShort(param1);
       }
    }
 }

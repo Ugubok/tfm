@@ -6,24 +6,24 @@ package
    {
        
       
-      public var fantasticList:ZippySisters;
+      public var tastelessSkin:ZippySisters;
       
-      public var unwrittenWant:AnalyzeTemper;
+      public var afterthoughtVulgar:AnalyzeTemper;
       
       public function AdhesiveVerdant(param1:ZippySisters)
       {
          super();
-         this.fantasticList = param1;
+         this.tastelessSkin = param1;
       }
       
-      public function get tastelessSkin() : String
+      public function get nutKaput() : String
       {
-         return GateLetters.mouseVulgar(ChinSnakes.oatmealProbable);
+         return NervousOnerous.bumpJumbled(OrangesQueue.distroTumble);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.brushTrail;
+         return KotskyRailway.mouseVulgar;
       }
       
       public function engineTangy() : Boolean
@@ -31,19 +31,19 @@ package
          return false;
       }
       
-      public function afterthoughtVulgar() : int
+      public function brushTrail() : int
       {
-         return this.unwrittenWant.bumpJumbled();
+         return this.afterthoughtVulgar.cloverWrathful();
       }
       
       public function lecture(param1:ByteArray) : void
       {
-         this.unwrittenWant = AnalyzeTemper.nutKaput(param1);
+         this.afterthoughtVulgar = AnalyzeTemper.unwrittenWant(param1);
       }
       
-      public function get distroTumble() : int
+      public function get fantasticList() : int
       {
-         return FranticCrook.cloverWrathful1;
+         return FaithfulVoracious.oatmealProbable;
       }
    }
 }

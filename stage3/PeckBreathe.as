@@ -6,18 +6,18 @@ package
    {
        
       
-      public var bleachScissors:ZippySisters;
+      public var unarmedComparison:ZippySisters;
       
       public var idSequence:int;
       
-      public var nutScratch:int;
+      public var automaticHobbies:int;
       
-      public var colossalStatement:BeginnerLamentable;
+      public var humorTeaching:HourLearned;
       
       public function PeckBreathe(param1:ZippySisters)
       {
          super();
-         this.bleachScissors = param1;
+         this.unarmedComparison = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get femaleMountain() : String
+      public function get toysAmuse() : String
       {
-         return GateLetters.voiceUnknown(ChinSnakes.annoyManage);
+         return NervousOnerous.bleachScissors(OrangesQueue.femaleMountain);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.jugglePat;
+         return KotskyRailway.nutScratch;
       }
       
-      public function historyWhisper() : Boolean
+      public function colossalStatement() : Boolean
       {
          return false;
       }
       
-      public function automaticHobbies() : int
+      public function jugglePat() : int
       {
-         return MarkEvasive.cartAlanson;
+         return NervousOnerous.voiceUnknown(MarkParty.annoyManage);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.nutScratch = param1.readByte();
-         var _loc2_:ProseZonked = this.bleachScissors.recupereSequence(this.idSequence);
+         this.automaticHobbies = param1.readByte();
+         var _loc2_:ProseZonked = this.unarmedComparison.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is BeginnerLamentable)
+            if(_loc2_ is HourLearned)
             {
-               this.colossalStatement = BeginnerLamentable(_loc2_);
-               this.colossalStatement.toysAmuse = this;
+               this.humorTeaching = HourLearned(_loc2_);
+               this.humorTeaching.historyWhisper = this;
             }
          }
       }
       
-      public function get retireRabbits() : int
+      public function get cartAlanson() : int
       {
-         return ToothpasteCloistered.unarmedComparison;
+         return NervousOnerous.voiceUnknown(IdeaReal.retireRabbits);
       }
    }
 }

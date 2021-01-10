@@ -1,14 +1,14 @@
 package
 {
-   public class ChubbyBlade extends WordCalculator
+   public class ChubbyBlade extends StorePaint
    {
        
       
-      public function ChubbyBlade(param1:int, param2:String)
+      public function ChubbyBlade(param1:int, param2:int)
       {
-         super(ToothpasteCloistered.scratchAbortive,GateLetters.punchSearch1(ExpansionTour.lookCrooked));
-         orangeMark.writeInt(param1);
-         orangeMark.writeUTF(param2);
+         super(SistersRedundant.punchSearch,FaithfulVoracious.scratchAbortive);
+         lookCrooked.writeByte(param1);
+         lookCrooked.writeShort(param2);
       }
    }
 }

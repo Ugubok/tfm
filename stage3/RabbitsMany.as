@@ -1,14 +1,14 @@
 package
 {
-   public class RabbitsMany extends WordCalculator
+   public class RabbitsMany extends StorePaint
    {
        
       
       public function RabbitsMany(param1:String, param2:Boolean)
       {
-         super(ExoticMemorize.instinctiveSpiky,FourYell.auntAddition);
-         rabbitsPrickly.writeUTF(param1);
-         rabbitsPrickly.writeByte(!!param2?int(FrightenUnique.manyHeat):int(ForkBit.mountainPuzzled));
+         super(NervousOnerous.auntAddition(BalanceSecret.rabbitsPrickly),BalanceSecret.rabbitsPrickly);
+         mountainPuzzled.writeUTF(param1);
+         mountainPuzzled.writeByte(!!param2?int(NervousOnerous.auntAddition(MarkParty.manyHeat)):int(NervousOnerous.auntAddition(FaithfulBaseball.instinctiveSpiky)));
       }
    }
 }

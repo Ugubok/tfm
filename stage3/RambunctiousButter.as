@@ -6,26 +6,26 @@ package
    {
        
       
-      public var probableClover:ZippySisters;
+      public var adaptableImpolite:ZippySisters;
       
-      public var chickenDouble:String;
+      public var weightLyrical:String;
       
-      public var smileThought1:Boolean;
+      public var probableClover:Boolean;
       
       public function RambunctiousButter(param1:ZippySisters)
       {
          super();
-         this.probableClover = param1;
+         this.adaptableImpolite = param1;
       }
       
-      public function get adaptableImpolite() : String
+      public function get lookSound() : String
       {
-         return GateLetters.privateSpiky(ChinSnakes.basinUsed);
+         return OrangesQueue.cuteEntertaining;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.porterBag;
+         return KotskyRailway.chickenDouble;
       }
       
       public function absurdLocket() : Boolean
@@ -33,21 +33,21 @@ package
          return false;
       }
       
-      public function obtainableReal() : int
+      public function porterBag() : int
       {
-         return GateLetters.cuteEntertaining(BalanceLoaf.tightfistedPhone) + this.chickenDouble.length;
+         return NervousOnerous.privateSpiky(MarkParty.boundlessCareless) + this.weightLyrical.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.chickenDouble = param1.readUTFBytes(_loc2_);
-         this.smileThought1 = param1.readByte() != ForkBit.weightLyrical;
+         this.weightLyrical = param1.readUTFBytes(_loc2_);
+         this.probableClover = param1.readByte() != NervousOnerous.privateSpiky(FaithfulBaseball.obtainableReal);
       }
       
-      public function get lookSound() : int
+      public function get tightfistedPhone() : int
       {
-         return FillLegs.boundlessCareless;
+         return NervousOnerous.privateSpiky(KneelDaily.smileThought);
       }
    }
 }

@@ -4,48 +4,48 @@ package
    {
        
       
-      public var wrathfulPoison:uint;
+      public var governmentSqueal:uint;
       
-      public var poisedPoised:uint;
+      public var crowdedFree:uint;
       
-      public var fillCrowded:uint;
+      public var discussionBelligerent:uint;
       
       public function AdjustmentOrange(param1:Number, param2:Number, param3:Number)
       {
-         this.wrathfulPoison = ForkBit.succinctFamous;
-         this.poisedPoised = GateLetters.discussionBelligerent(ForkBit.succinctFamous);
-         this.fillCrowded = ForkBit.succinctFamous;
+         this.governmentSqueal = NervousOnerous.lamentableGullible(FaithfulBaseball.burlyBathe);
+         this.crowdedFree = NervousOnerous.lamentableGullible(FaithfulBaseball.burlyBathe);
+         this.discussionBelligerent = FaithfulBaseball.burlyBathe;
          super();
-         this.wrathfulPoison = uint(GateLetters.discussionBelligerent(RequestCactus.governmentSqueal) * NeighborlyAttractive.analyzeHydrant(param1,GateLetters.adScissors(HarmonyVeil.burlyBathe),FillLegs.carelessCrooked));
-         this.poisedPoised = uint(RequestCactus.governmentSqueal * NeighborlyAttractive.analyzeHydrant(param2,HarmonyVeil.burlyBathe,FillLegs.carelessCrooked));
-         this.fillCrowded = uint(GateLetters.discussionBelligerent(RequestCactus.governmentSqueal) * NeighborlyAttractive.analyzeHydrant(param3,GateLetters.adScissors(HarmonyVeil.burlyBathe),GateLetters.adScissors(FillLegs.carelessCrooked)));
-      }
-      
-      public function get color() : uint
-      {
-         return this.wrathfulPoison | this.poisedPoised << GateLetters.discussionBelligerent(ChinSnakes.crowdedFree) | this.fillCrowded << GateLetters.discussionBelligerent(AttractiveSugar.lamentableGullible);
-      }
-      
-      public function set r(param1:Number) : void
-      {
-         this.wrathfulPoison = uint(RequestCactus.governmentSqueal * NeighborlyAttractive.analyzeHydrant(param1,GateLetters.adScissors(HarmonyVeil.burlyBathe),FillLegs.carelessCrooked));
-      }
-      
-      public function naiveCrown(param1:Number, param2:Number, param3:Number) : void
-      {
-         this.wrathfulPoison = uint(GateLetters.discussionBelligerent(RequestCactus.governmentSqueal) * NeighborlyAttractive.analyzeHydrant(param1,HarmonyVeil.burlyBathe,FillLegs.carelessCrooked));
-         this.poisedPoised = uint(RequestCactus.governmentSqueal * NeighborlyAttractive.analyzeHydrant(param2,HarmonyVeil.burlyBathe,FillLegs.carelessCrooked));
-         this.fillCrowded = uint(GateLetters.discussionBelligerent(RequestCactus.governmentSqueal) * NeighborlyAttractive.analyzeHydrant(param3,GateLetters.adScissors(HarmonyVeil.burlyBathe),FillLegs.carelessCrooked));
+         this.governmentSqueal = uint(IdeaReal.wrathfulPoison * NarrowPlants.poisedPoised(param1,RepulsiveDear.fillCrowded,FaithfulBaseball.succinctFamous));
+         this.crowdedFree = uint(NervousOnerous.lamentableGullible(IdeaReal.wrathfulPoison) * NarrowPlants.poisedPoised(param2,RepulsiveDear.fillCrowded,FaithfulBaseball.succinctFamous));
+         this.discussionBelligerent = uint(NervousOnerous.lamentableGullible(IdeaReal.wrathfulPoison) * NarrowPlants.poisedPoised(param3,RepulsiveDear.fillCrowded,NervousOnerous.adScissors(FaithfulBaseball.succinctFamous)));
       }
       
       public function set g(param1:Number) : void
       {
-         this.poisedPoised = uint(RequestCactus.governmentSqueal * NeighborlyAttractive.analyzeHydrant(param1,HarmonyVeil.burlyBathe,GateLetters.adScissors(FillLegs.carelessCrooked)));
+         this.crowdedFree = uint(NervousOnerous.lamentableGullible(IdeaReal.wrathfulPoison) * NarrowPlants.poisedPoised(param1,RepulsiveDear.fillCrowded,FaithfulBaseball.succinctFamous));
+      }
+      
+      public function analyzeHydrant(param1:Number, param2:Number, param3:Number) : void
+      {
+         this.governmentSqueal = uint(NervousOnerous.lamentableGullible(IdeaReal.wrathfulPoison) * NarrowPlants.poisedPoised(param1,NervousOnerous.adScissors(RepulsiveDear.fillCrowded),FaithfulBaseball.succinctFamous));
+         this.crowdedFree = uint(NervousOnerous.lamentableGullible(IdeaReal.wrathfulPoison) * NarrowPlants.poisedPoised(param2,RepulsiveDear.fillCrowded,NervousOnerous.adScissors(FaithfulBaseball.succinctFamous)));
+         this.discussionBelligerent = uint(NervousOnerous.lamentableGullible(IdeaReal.wrathfulPoison) * NarrowPlants.poisedPoised(param3,NervousOnerous.adScissors(RepulsiveDear.fillCrowded),FaithfulBaseball.succinctFamous));
+      }
+      
+      public function get color() : uint
+      {
+         return this.governmentSqueal | this.crowdedFree << NervousOnerous.lamentableGullible(SistersRedundant.naiveCrown) | this.discussionBelligerent << FaithfulBaseball.carelessCrooked;
       }
       
       public function set b(param1:Number) : void
       {
-         this.fillCrowded = uint(RequestCactus.governmentSqueal * NeighborlyAttractive.analyzeHydrant(param1,HarmonyVeil.burlyBathe,FillLegs.carelessCrooked));
+         this.discussionBelligerent = uint(IdeaReal.wrathfulPoison * NarrowPlants.poisedPoised(param1,RepulsiveDear.fillCrowded,NervousOnerous.adScissors(FaithfulBaseball.succinctFamous)));
+      }
+      
+      public function set r(param1:Number) : void
+      {
+         this.governmentSqueal = uint(IdeaReal.wrathfulPoison * NarrowPlants.poisedPoised(param1,NervousOnerous.adScissors(RepulsiveDear.fillCrowded),FaithfulBaseball.succinctFamous));
       }
    }
 }

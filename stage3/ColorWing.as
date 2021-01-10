@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var cakeMighty:String;
+      public var tangyDidactic:String;
       
-      public var accurateLabel:String;
+      public var sonSqueamish:String;
       
-      public var unarmedEnergetic:RambunctiousZoo;
+      public var unarmedEnergetic:SnakesDistro;
       
       public function ColorWing(param1:int, param2:String, param3:String)
       {
          super();
          this.idSequence = param1;
-         this.cakeMighty = param2;
-         this.accurateLabel = param3;
+         this.tangyDidactic = param2;
+         this.sonSqueamish = param3;
       }
       
       public function getIdSequence() : int
@@ -29,29 +29,29 @@ package
       
       public function get hydrantChicken() : String
       {
-         return GateLetters.waitingLong(ChinSnakes.coolEntertaining);
+         return OrangesQueue.authorityThreatening;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.tangyDidactic;
+         return KotskyRailway.accurateLabel;
       }
       
-      public function coolHydrant() : Boolean
+      public function separateFascinated() : Boolean
       {
          return false;
       }
       
-      override public function separateFascinated1() : int
+      override public function coolHydrant() : int
       {
-         return GateLetters.sonSqueamish(ChinSnakes.authorityThreatening) + this.cakeMighty.length + this.accurateLabel.length;
+         return SistersRedundant.waitingLong + this.tangyDidactic.length + this.sonSqueamish.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.cakeMighty);
-         param1.writeUTF(this.accurateLabel);
+         param1.writeUTF(this.tangyDidactic);
+         param1.writeUTF(this.sonSqueamish);
       }
    }
 }

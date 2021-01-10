@@ -2,7 +2,7 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class AdviceUnknown extends CleverWhip
+   public class AdviceUnknown extends KotskyCheck
    {
        
       
@@ -11,7 +11,7 @@ package
       public function AdviceUnknown(param1:ByteArray)
       {
          super(param1);
-         this.ajarRuddy = param1.readInt();
+         this.ajarRuddy = param1.readByte();
       }
    }
 }

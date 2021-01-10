@@ -1,18 +1,18 @@
 package
 {
-   public class JoyousStupid extends WordCalculator
+   public class JoyousStupid extends StorePaint
    {
        
       
-      public function JoyousStupid(param1:Vector.<String>)
+      public function JoyousStupid(param1:String, param2:String, param3:String, param4:String, param5:String)
       {
-         super(ScaleTemper.lunasoleSparkle,GateLetters.trousersUnique(AttractiveSugar.crookMatch));
-         var _loc2_:int = GateLetters.trousersUnique(ForkBit.wetClever);
-         while(_loc2_ < param1.length)
-         {
-            spotlessAdhesive(param1[_loc2_]);
-            _loc2_++;
-         }
+         super(IdeaReal.lunasoleSparkle,FaithfulBaseball.wetClever);
+         spotlessAdhesive.writeUTF(param1);
+         spotlessAdhesive.writeUTF(param2);
+         spotlessAdhesive.writeUTF(param3);
+         spotlessAdhesive.writeUTF(param4);
+         spotlessAdhesive.writeUTF(param5);
+         trousersUnique = NarrowPlants.crookMatch;
       }
    }
 }

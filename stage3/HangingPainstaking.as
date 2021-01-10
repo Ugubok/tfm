@@ -6,7 +6,7 @@ package
       
       public var spuriousLaborer:Vector.<int>;
       
-      public var successfulRepulsive:Vector.<int>;
+      public var culturedBear:Vector.<int>;
       
       public var bleachGround:uint;
       
@@ -16,24 +16,24 @@ package
       
       public function HangingPainstaking()
       {
-         this.spuriousLaborer = new <int>[ForkBit.backHumor,ForkBit.backHumor];
-         this.successfulRepulsive = new <int>[ForkBit.backHumor,GateLetters.culturedBear(ForkBit.backHumor)];
+         this.spuriousLaborer = new <int>[FaithfulBaseball.repulsiveColor,FaithfulBaseball.repulsiveColor];
+         this.culturedBear = new <int>[NervousOnerous.successfulRepulsive(FaithfulBaseball.repulsiveColor),NervousOnerous.successfulRepulsive(FaithfulBaseball.repulsiveColor)];
          super();
+      }
+      
+      public function poisedKotsky() : uint
+      {
+         return this.spuriousLaborer[FaithfulBaseball.repulsiveColor];
       }
       
       public function mendRiver() : Boolean
       {
-         return this.bleachGround != EnjoyEarthquake.poisedKotsky;
+         return this.bleachGround != UtopianPass.slimSerious;
       }
       
-      public function repulsiveColor1(param1:uint) : void
+      public function backHumor(param1:uint) : void
       {
-         this.spuriousLaborer[ForkBit.backHumor] = param1 & 65535;
-      }
-      
-      public function slimSerious() : uint
-      {
-         return this.spuriousLaborer[GateLetters.culturedBear(ForkBit.backHumor)];
+         this.spuriousLaborer[NervousOnerous.successfulRepulsive(FaithfulBaseball.repulsiveColor)] = param1 & 65535;
       }
    }
 }

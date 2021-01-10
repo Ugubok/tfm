@@ -6,18 +6,18 @@ package
    {
        
       
-      public var backJuggle:ZippySisters;
+      public var naughtyTreat:ZippySisters;
       
       public var idSequence:int;
       
-      public var disturbedCareless:int;
+      public var companyBit:int;
       
-      public var naughtyTreat:ApatheticVague;
+      public var backJuggle:SatisfyLanguid;
       
       public function WeightJoyous(param1:ZippySisters)
       {
          super();
-         this.backJuggle = param1;
+         this.naughtyTreat = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get mendImpolite() : String
+      public function get fourSound() : String
       {
-         return GateLetters.icyWeight(ChinSnakes.sootheLearned);
+         return OrangesQueue.mendImpolite;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.spiffyKey;
+         return KotskyRailway.disturbedCareless;
       }
       
       public function flashSymptomatic() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function companyBit() : int
+      public function spiffyKey() : int
       {
-         return GateLetters.burlyBird(MarkEvasive.wanderPromise);
+         return NervousOnerous.icyWeight1(MarkParty.wanderPromise);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.disturbedCareless = param1.readByte();
-         var _loc2_:ProseZonked = this.backJuggle.recupereSequence(this.idSequence);
+         this.companyBit = param1.readByte();
+         var _loc2_:ProseZonked = this.naughtyTreat.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is ApatheticVague)
+            if(_loc2_ is SatisfyLanguid)
             {
-               this.naughtyTreat = ApatheticVague(_loc2_);
-               this.naughtyTreat.fourSound = this;
+               this.backJuggle = SatisfyLanguid(_loc2_);
+               this.backJuggle.windPoison = this;
             }
          }
       }
       
       public function get bruiseSofa() : int
       {
-         return RequestCactus.windPoison;
+         return SpaceIdea.burlyBird;
       }
    }
 }

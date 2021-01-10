@@ -1,14 +1,14 @@
 package
 {
-   public class AuntVoracious extends WordCalculator
+   public class AuntVoracious extends StorePaint
    {
        
       
       public function AuntVoracious(param1:int, param2:String)
       {
-         super(GateLetters.famousProud1(ExoticMemorize.phoneDistro),GateLetters.famousProud1(AttractiveSugar.shockDistro));
-         unitEdge.writeInt(param1);
-         unitEdge.writeUTF(param2);
+         super(NervousOnerous.unitEdge(MarkParty.famousProud),MarkParty.shockDistro);
+         phoneDistro.writeInt(param1);
+         phoneDistro.writeUTF(param2);
       }
    }
 }

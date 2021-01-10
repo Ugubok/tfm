@@ -1,12 +1,12 @@
 package
 {
-   public class CeleryEnjoy extends LetterNation
+   public class CeleryEnjoy extends StorePaint
    {
        
       
-      public function CeleryEnjoy(param1:BumpFrantic)
+      public function CeleryEnjoy()
       {
-         super(param1);
+         super(NervousOnerous.curePail(SistersRedundant.tastyDiscussion),FaithfulVoracious.burlyShocking);
       }
    }
 }

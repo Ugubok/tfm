@@ -8,38 +8,38 @@ package
    public class SkiAmuse implements _IConnexion
    {
       
-      public static var handScale:SkiAmuse;
+      public static var detailAnnoy:SkiAmuse;
        
       
-      public var passCool1:SofaRepulsive;
+      public var spotTrap:SofaRepulsive;
       
-      public var lateFork:Dictionary;
+      public var passCool:Dictionary;
       
-      public var flowerGrin:int;
+      public var heartbreakingComplex:int;
       
       public function SkiAmuse()
       {
-         this.lateFork = new Dictionary();
-         this.flowerGrin = ForkBit.heartbreakingComplex;
+         this.passCool = new Dictionary();
+         this.heartbreakingComplex = FaithfulBaseball.lateFork;
          super();
-         SkiAmuse.handScale = this;
-         this.passCool1 = new SofaRepulsive();
-      }
-      
-      public function get idSequence() : int
-      {
-         return this.flowerGrin;
+         SkiAmuse.detailAnnoy = this;
+         this.spotTrap = new SofaRepulsive();
       }
       
       public function set idSequence(param1:int) : void
       {
-         this.flowerGrin = param1;
+         this.heartbreakingComplex = param1;
+      }
+      
+      public function get idSequence() : int
+      {
+         return this.heartbreakingComplex;
       }
       
       public function recupereSequence(param1:int) : _IPaquetSortant
       {
-         var _loc2_:_IPaquetSortant = this.lateFork[param1];
-         delete this.lateFork[param1];
+         var _loc2_:_IPaquetSortant = this.passCool[param1];
+         delete this.passCool[param1];
          return _loc2_;
       }
       
@@ -49,13 +49,13 @@ package
          var _loc3_:int = 0;
          try
          {
-            _loc2_ = this.passCool1.getIdPaquet(param1);
+            _loc2_ = this.spotTrap.getIdPaquet(param1);
             if(param1 is _IPaquetSequenciel)
             {
                _loc3_ = (param1 as _IPaquetSequenciel).getIdSequence();
-               this.lateFork[_loc3_] = param1;
+               this.passCool[_loc3_] = param1;
             }
-            WantWoman.spotTrap.detailAnnoy(new CompanyBaseball(_loc2_,param1));
+            WantWoman.handScale.flowerGrin(new CompanyBaseball(_loc2_,param1));
             return;
          }
          catch(E:Error)

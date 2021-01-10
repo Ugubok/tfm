@@ -6,24 +6,24 @@ package
    {
        
       
-      public var auntLunasole:ZippySisters;
+      public var farmVolcano:ZippySisters;
       
-      public var farmVolcano:String;
+      public var metalSecret1:String;
       
       public function ConditionLarge(param1:ZippySisters)
       {
          super();
-         this.auntLunasole = param1;
+         this.farmVolcano = param1;
       }
       
-      public function get errorKnowledge1() : String
+      public function get auntLunasole() : String
       {
-         return ChinSnakes.seedManage;
+         return NervousOnerous.purposeHeat(OrangesQueue.thunderSpy);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.bladeWet1;
+         return KotskyRailway.errorKnowledge;
       }
       
       public function shortClover() : Boolean
@@ -31,20 +31,20 @@ package
          return false;
       }
       
-      public function metalSecret() : int
+      public function bladeWet() : int
       {
-         return GateLetters.glowCount(ToothpasteCloistered.purposeHeat) + this.farmVolcano.length;
+         return SupplyMountain.seedManage + this.metalSecret1.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.farmVolcano = param1.readUTFBytes(_loc2_);
+         this.metalSecret1 = param1.readUTFBytes(_loc2_);
       }
       
-      public function get thunderSpy() : int
+      public function get cravenFrantic() : int
       {
-         return GateLetters.glowCount(HarmonyVeil.cravenFrantic);
+         return NervousOnerous.glowCount(MarkParty.porterReal);
       }
    }
 }

@@ -6,24 +6,24 @@ package
    {
        
       
-      public var jarAdmire:ZippySisters;
+      public var tastelessHumor:ZippySisters;
       
-      public var tangySecret:int;
+      public var impoliteHour:int;
       
       public function AirAdjoining(param1:ZippySisters)
       {
          super();
-         this.jarAdmire = param1;
+         this.tastelessHumor = param1;
       }
       
-      public function get tastelessHumor() : String
+      public function get inexpensiveCompetition() : String
       {
-         return GateLetters.impoliteHour(ChinSnakes.bakeBerry);
+         return OrangesQueue.hatePurpose;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.dinnerGeneral;
+         return KotskyRailway.airLabel;
       }
       
       public function ruddyReligion() : Boolean
@@ -31,19 +31,19 @@ package
          return false;
       }
       
-      public function airLabel() : int
+      public function dinnerGeneral() : int
       {
-         return HarmonyVeil.hatePurpose;
+         return SpaceIdea.jarAdmire;
       }
       
       public function lecture(param1:ByteArray) : void
       {
-         this.tangySecret = param1.readInt();
+         this.impoliteHour = param1.readInt();
       }
       
       public function get whiteMarked() : int
       {
-         return ExoticMemorize.inexpensiveCompetition;
+         return ActionThrill.tangySecret;
       }
    }
 }

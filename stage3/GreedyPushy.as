@@ -1,17 +1,17 @@
 package
 {
-   public class GreedyPushy extends WordCalculator
+   public class GreedyPushy extends StorePaint
    {
        
       
-      public function GreedyPushy(param1:int)
+      public function GreedyPushy(param1:int, param2:int, param3:int, param4:int, param5:int)
       {
-         super(GateLetters.aspiringTouch(ScaleTemper.yamAuthority),ExoticMemorize.riverWait);
-         if(param1 < GateLetters.aspiringTouch(ForkBit.wantKnowledgeable))
-         {
-            param1 = ForkBit.wantKnowledgeable;
-         }
-         rareStrengthen.writeInt(param1);
+         super(NervousOnerous.wantKnowledgeable(SpaceIdea.yamAuthority),SpaceIdea.aspiringTouch);
+         rareStrengthen.writeByte(param1);
+         rareStrengthen.writeByte(param2);
+         rareStrengthen.writeByte(param3);
+         rareStrengthen.writeByte(param4);
+         rareStrengthen.writeByte(param5);
       }
    }
 }

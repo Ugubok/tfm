@@ -1,12 +1,12 @@
 package
 {
-   public class SparkleGreedy extends WordCalculator
+   public class SparkleGreedy extends StorePaint
    {
        
       
       public function SparkleGreedy()
       {
-         super(ChinSnakes.coalStale1,GateLetters.stupidFlash(AttractiveSugar.buryAlive));
+         super(NervousOnerous.coalStale1(IdeaReal.buryAlive),NervousOnerous.coalStale1(MarkParty.stupidFlash));
       }
    }
 }

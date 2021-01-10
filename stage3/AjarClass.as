@@ -4,13 +4,13 @@ package
    {
        
       
-      public var narrowPenitent:String;
+      public var crookedInstruct:LimitRare;
       
-      public var couleur:int;
+      public var tastySofa:BrushWoman;
       
-      public var eliteAddition:int;
+      public var narrowPenitent:AjarClass;
       
-      public var crookedInstruct:int;
+      public var eliteAddition:AjarClass;
       
       public function AjarClass()
       {

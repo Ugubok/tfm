@@ -1,14 +1,14 @@
 package
 {
-   public class EasyBump extends WordCalculator
+   public class EasyBump extends StorePaint
    {
        
       
       public function EasyBump(param1:int, param2:int)
       {
-         super(MarkEvasive.quackNarrow,GateLetters.plantsBump(OrangeUnequal.tastelessLock));
-         separateShop.writeInt(ForkBit.reactionBrush + param1);
-         separateShop.writeInt(GateLetters.plantsBump(ForkBit.reactionBrush) + param2);
+         super(MarkParty.separateShop,NervousOnerous.tastelessLock(MarkParty.reactionBrush));
+         plantsBump.writeShort(param1);
+         plantsBump.writeShort(param2);
       }
    }
 }

@@ -4,25 +4,25 @@ package
    {
        
       
-      public var sickLaborer1:ComplexJelly;
+      public var annoyStatement:DeadpanPlease;
       
-      public var pigAnus:ComplexJelly;
+      public var cloisteredLegs:DeadpanPlease;
       
-      public var position:JarTow;
+      public var position:CulturedAutomatic;
       
-      public var normal:JarTow;
+      public var normal:CulturedAutomatic;
       
-      public var annoyStatement:Number;
+      public var pigAnus:Number;
       
-      public var cloisteredLegs:Number;
+      public var bakeDoctor:Number;
       
-      public var bakeDoctor:PossessAlert;
+      public var sickLaborer:LockUpset;
       
       public function OrangeAdaptable()
       {
-         this.position = new JarTow();
-         this.normal = new JarTow();
-         this.bakeDoctor = new PossessAlert();
+         this.position = new CulturedAutomatic();
+         this.normal = new CulturedAutomatic();
+         this.sickLaborer = new LockUpset();
          super();
       }
    }

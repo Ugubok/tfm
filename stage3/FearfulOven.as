@@ -1,12 +1,12 @@
 package
 {
-   public class FearfulOven extends WordCalculator
+   public class FearfulOven extends StorePaint
    {
        
       
       public function FearfulOven()
       {
-         super(GateLetters.yummyBlot(AttractiveSugar.cravenVoyage),GateLetters.yummyBlot(FrightenUnique.waitDistro));
+         super(NervousOnerous.waitDistro(FaithfulBaseball.cravenVoyage),MarkParty.yummyBlot);
       }
    }
 }

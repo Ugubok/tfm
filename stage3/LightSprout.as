@@ -1,13 +1,13 @@
 package
 {
-   public class LightSprout extends WordCalculator
+   public class LightSprout extends StorePaint
    {
        
       
       public function LightSprout(param1:Boolean)
       {
-         super(ToothpasteCloistered.trailPlease,AdditionVague.balvankaNaive);
-         zipWing.writeByte(!!param1?int(FrightenUnique.rightGovernment):int(ForkBit.flowArmy));
+         super(NervousOnerous.zipWing(SistersRedundant.trailPlease),ActionThrill.rightGovernment);
+         discussionBalance.writeByte(!!param1?int(MarkParty.flowArmy):int(FaithfulBaseball.balvankaNaive));
       }
    }
 }

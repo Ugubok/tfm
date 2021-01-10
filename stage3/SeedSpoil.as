@@ -1,12 +1,12 @@
 package
 {
-   public class SeedSpoil extends WordCalculator
+   public class SeedSpoil extends StorePaint
    {
        
       
       public function SeedSpoil()
       {
-         super(GateLetters.eyesCan(ScaleTemper.defectivePossess),AttractiveSugar.fadeCry);
+         super(BalanceSecret.eyesCan,SistersRedundant.defectivePossess);
       }
    }
 }

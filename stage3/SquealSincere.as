@@ -1,13 +1,13 @@
 package
 {
-   public class SquealSincere extends WordCalculator
+   public class SquealSincere extends StorePaint
    {
        
       
       public function SquealSincere(param1:int)
       {
-         super(BalanceLoaf.breatheJuggle,GateLetters.tangyReach(FourYell.deserveZip));
-         mightySand.writeShort(param1);
+         super(OrangesQueue.deserveZip,NervousOnerous.breatheJuggle(MarkParty.mightySand));
+         tangyReach.writeShort(param1);
       }
    }
 }

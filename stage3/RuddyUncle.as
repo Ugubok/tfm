@@ -16,316 +16,140 @@ package
    public class RuddyUncle extends Sprite
    {
       
-      public static var orderLight:Array = new Array( 0, 255);
+      public static var doubleHeat:Array = new Array( 0, 255);
       
-      public static var sootheProbable:Array = new Array( 0, 1);
+      public static var cureSpiky:Array = new Array( 0, 1);
        
       
       public var couleurEnCours:int;
       
-      public var washAbsurd:Function;
+      public var explodeBead:Function;
       
-      public const obtainablePoison:Vector.<int> = new Vector.<int>();
+      public const breatheMountain:Vector.<int> = new Vector.<int>();
       
-      public var unarmedMatch:Sprite;
+      public var shockingManage:Sprite;
       
-      public var eyesGeneral:Sprite;
+      public var bladeCrown:Sprite;
       
-      public var kittensTrap:Sprite;
+      public var mountainEar:Sprite;
       
-      public var explodeBead:BitmapData;
+      public var hesitantTrains:BitmapData;
       
-      public var wallEfficient:Shape;
+      public var shortColossal:Shape;
       
-      public var cureSpiky:Sprite;
+      public var storyRuddy:Sprite;
       
-      public var bladeCrown:int;
+      public var discussionSki:int;
       
-      public var repeatBelief:int;
+      public var squeezeWhip:int;
       
-      public var shortColossal:int;
+      public var squeezeReminiscent:int;
       
-      public var toyLegs:Shape;
+      public var whisperPat:Shape;
       
-      public var messyArm:Shape;
+      public var grainHarbor:Shape;
       
-      public var sleepyUninterested:Vector.<MovieClip>;
+      public var slipLock:Vector.<MovieClip>;
       
       public function RuddyUncle(param1:int = -1)
       {
-         this.bladeCrown = -GateLetters.stomachStiff(FrightenUnique.saltPrickly);
-         this.repeatBelief = -GateLetters.stomachStiff(FrightenUnique.saltPrickly);
-         this.shortColossal = -FrightenUnique.saltPrickly;
-         this.sleepyUninterested = new Vector.<MovieClip>();
+         this.discussionSki = -NervousOnerous.toyLegs(MarkParty.flockSisters);
+         this.squeezeWhip = -NervousOnerous.toyLegs(MarkParty.flockSisters);
+         this.squeezeReminiscent = -MarkParty.flockSisters;
+         this.slipLock = new Vector.<MovieClip>();
          super();
-         this.fourCrooked1();
-         this.discussionSki();
-         this.bladeCrown = param1 != -FrightenUnique.saltPrickly?int(param1):2870697;
-         this.couleur(this.bladeCrown);
+         this.paltrySpiffy();
+         this.edgeLarge();
+         this.discussionSki = param1 != -NervousOnerous.toyLegs(MarkParty.flockSisters)?int(param1):2870697;
+         this.couleur(this.discussionSki);
       }
       
-      public function zipSweater(param1:KeyboardEvent) : void
+      public function unarmedMatch() : void
       {
-         var _loc2_:int = param1.keyCode;
-         if(KnowledgeableError.legFlash == _loc2_)
-         {
-            this.couleur(this.shortColossal == -FrightenUnique.saltPrickly?int(this.bladeCrown):int(this.shortColossal));
-            this.importantUnique();
-            this.whisperPat();
-         }
+         this.grainHarbor.graphics.clear();
+         this.grainHarbor.graphics.beginFill(this.couleurEnCours);
+         this.grainHarbor.graphics.drawRect(NervousOnerous.toyLegs(FaithfulBaseball.harborGirl),NervousOnerous.toyLegs(FaithfulBaseball.harborGirl),NervousOnerous.toyLegs(IdeaReal.kittensBeautiful),NervousOnerous.toyLegs(BalanceSecret.eyesGeneral));
+         this.grainHarbor.graphics.endFill();
       }
       
-      public function blushSpotless() : void
+      public function faintShelf(param1:int, param2:Boolean = true) : void
       {
-         this.toyLegs.graphics.clear();
-         this.toyLegs.graphics.beginFill(this.couleurEnCours);
-         this.toyLegs.graphics.drawRect(GateLetters.stomachStiff(ForkBit.harborGirl),ForkBit.harborGirl,OrangeUnequal.messyPunch,ScaleTemper.companyThrill);
-         this.toyLegs.graphics.endFill();
-      }
-      
-      public function grainHarbor(param1:int = -1, param2:Boolean = true) : void
-      {
-         var _loc3_:* = 0;
-         var _loc4_:* = 0;
-         var _loc5_:* = 0;
-         var _loc6_:int = 0;
-         var _loc7_:int = 0;
-         var _loc8_:Number = NaN;
-         var _loc9_:Number = NaN;
-         if(param1 == -GateLetters.stomachStiff(FrightenUnique.saltPrickly))
-         {
-            _loc3_ = this.repeatBelief >> GateLetters.stomachStiff(AttractiveSugar.birdGamy) & 255;
-            _loc4_ = this.repeatBelief >> ChinSnakes.slipLock & 255;
-            _loc5_ = this.repeatBelief & 255;
-            _loc6_ = Math.round(this.cureSpiky.x);
-            _loc7_ = Math.round(this.cureSpiky.y);
-            _loc8_ = GateLetters.stomachStiff(FrightenUnique.saltPrickly) - _loc6_ / RequestCactus.cartWarlike;
-            _loc9_ = GateLetters.stomachStiff(FrightenUnique.saltPrickly) - _loc7_ / RequestCactus.cartWarlike;
-            _loc3_ = int(_loc3_ + (RequestCactus.cartWarlike - _loc3_) * _loc8_);
-            _loc4_ = int(_loc4_ + (RequestCactus.cartWarlike - _loc4_) * _loc8_);
-            _loc5_ = int(_loc5_ + (GateLetters.stomachStiff(RequestCactus.cartWarlike) - _loc5_) * _loc8_);
-            _loc3_ = int(Math.round(_loc3_ * _loc9_));
-            _loc4_ = int(Math.round(_loc9_ * _loc4_));
-            _loc5_ = int(Math.round(_loc5_ * _loc9_));
-            this.couleurEnCours = (_loc3_ << AttractiveSugar.birdGamy) + (_loc4_ << GateLetters.stomachStiff(ChinSnakes.slipLock)) + _loc5_;
-         }
-         else
-         {
-            this.couleurEnCours = param1;
-         }
-      }
-      
-      public function discussionSki() : void
-      {
-         var _loc3_:int = 0;
-         var _loc1_:int = ForkBit.harborGirl;
-         var _loc2_:int = GateLetters.stomachStiff(ForkBit.harborGirl);
-         while(_loc2_ < GateLetters.stomachStiff(RequestCactus.faintShelf))
-         {
-            _loc3_ = this.obtainablePoison[_loc2_];
-            this.explodeBead.fillRect(new Rectangle(ForkBit.harborGirl,_loc1_,GateLetters.stomachStiff(AttractiveSugar.sandGirl),GateLetters.stomachStiff(FrightenUnique.saltPrickly)),_loc3_);
-            _loc1_++;
-            _loc2_ = _loc2_ + GateLetters.stomachStiff(ScaleTemper.legVoracious);
-         }
-      }
-      
-      public function reactionSigh(param1:int, param2:Boolean = true) : void
-      {
-         if(param1 == this.repeatBelief)
+         if(param1 == this.squeezeWhip)
          {
             return;
          }
-         this.repeatBelief = param1;
+         this.squeezeWhip = param1;
          var _loc3_:Matrix = new Matrix();
-         _loc3_.createGradientBox(GateLetters.stomachStiff(FrightenUnique.flockSisters),FrightenUnique.flockSisters,ForkBit.harborGirl,ForkBit.harborGirl,ForkBit.harborGirl);
-         this.eyesGeneral.graphics.clear();
-         this.eyesGeneral.graphics.beginGradientFill(GradientType.LINEAR,[param1,param1],RuddyUncle.sootheProbable,RuddyUncle.orderLight,_loc3_);
-         this.eyesGeneral.graphics.drawRect(ForkBit.harborGirl,ForkBit.harborGirl,FrightenUnique.flockSisters,FrightenUnique.flockSisters);
-         this.grainHarbor(-FrightenUnique.saltPrickly,param2);
+         _loc3_.createGradientBox(MarkParty.realBasin,MarkParty.realBasin,NervousOnerous.toyLegs(FaithfulBaseball.harborGirl),NervousOnerous.toyLegs(FaithfulBaseball.harborGirl),NervousOnerous.toyLegs(FaithfulBaseball.harborGirl));
+         this.bladeCrown.graphics.clear();
+         this.bladeCrown.graphics.beginGradientFill(GradientType.LINEAR,[param1,param1],RuddyUncle.cureSpiky,RuddyUncle.doubleHeat,_loc3_);
+         this.bladeCrown.graphics.drawRect(FaithfulBaseball.harborGirl,NervousOnerous.toyLegs(FaithfulBaseball.harborGirl),NervousOnerous.toyLegs(MarkParty.realBasin),NervousOnerous.toyLegs(MarkParty.realBasin));
+         this.drownDisturbed(-MarkParty.flockSisters,param2);
       }
       
-      public function mountainEar(param1:MouseEvent) : void
-      {
-         var _loc2_:int = this.unarmedMatch[GateLetters.squeezeWhip(HarmonyVeil.trainsAbject)];
-         var _loc3_:int = this.unarmedMatch[GateLetters.squeezeWhip(FrightenUnique.realBasin)];
-         if(ForkBit.harborGirl > _loc2_)
-         {
-            _loc2_ = GateLetters.stomachStiff(ForkBit.harborGirl);
-         }
-         else if(_loc2_ > RequestCactus.cartWarlike)
-         {
-            _loc2_ = GateLetters.stomachStiff(RequestCactus.cartWarlike);
-         }
-         if(_loc3_ < ForkBit.harborGirl)
-         {
-            _loc3_ = ForkBit.harborGirl;
-         }
-         else if(_loc3_ > GateLetters.stomachStiff(RequestCactus.cartWarlike))
-         {
-            _loc3_ = GateLetters.stomachStiff(RequestCactus.cartWarlike);
-         }
-         this.cureSpiky.x = _loc2_;
-         this.cureSpiky.y = _loc3_;
-         this.grainHarbor();
-         this.noisyWise();
-         this.pearToys();
-      }
-      
-      public function breatheMountain(param1:MouseEvent) : void
+      public function eliteIdea(param1:MouseEvent) : void
       {
          if(stage)
          {
-            stage.addEventListener(MouseEvent.MOUSE_MOVE,this.treatIcy);
-            stage.addEventListener(MouseEvent.MOUSE_UP,this.importantUnique);
-            stage.addEventListener(KeyboardEvent.KEY_DOWN,this.zipSweater);
+            stage.addEventListener(MouseEvent.MOUSE_MOVE,this.washAbsurd);
+            stage.addEventListener(MouseEvent.MOUSE_UP,this.saltPrickly);
+            stage.addEventListener(KeyboardEvent.KEY_DOWN,this.legVoracious);
          }
-         this.treatIcy(null);
+         this.washAbsurd(null);
       }
       
-      public function fourCrooked1() : void
+      public function wateryConfused(param1:MouseEvent = null) : void
       {
-         this.sofaInvent();
-         this.unarmedMatch = new Sprite();
-         this.unarmedMatch.graphics.beginFill(16777215,FrightenUnique.saltPrickly);
-         this.unarmedMatch.graphics.drawRect(GateLetters.stomachStiff(ForkBit.harborGirl),GateLetters.stomachStiff(ForkBit.harborGirl),GateLetters.stomachStiff(FrightenUnique.flockSisters),FrightenUnique.flockSisters);
-         this.unarmedMatch.graphics.endFill();
-         this.eyesGeneral = new Sprite();
-         this.unarmedMatch.addChild(this.eyesGeneral);
-         var _loc1_:Sprite = new Sprite();
-         var _loc2_:Matrix = new Matrix();
-         _loc2_.createGradientBox(GateLetters.stomachStiff(FrightenUnique.flockSisters),FrightenUnique.flockSisters,Math.PI / GateLetters.stomachStiff(ToothpasteCloistered.dazzlingBurn),ForkBit.harborGirl,ForkBit.harborGirl);
-         _loc1_.graphics.beginGradientFill(GradientType.LINEAR,[ForkBit.harborGirl,ForkBit.harborGirl],RuddyUncle.sootheProbable,RuddyUncle.orderLight,_loc2_);
-         _loc1_.graphics.drawRect(GateLetters.stomachStiff(ForkBit.harborGirl),ForkBit.harborGirl,FrightenUnique.flockSisters,GateLetters.stomachStiff(FrightenUnique.flockSisters));
-         this.unarmedMatch.addChild(_loc1_);
-         this.unarmedMatch.addEventListener(MouseEvent.MOUSE_DOWN,this.paltrySpiffy);
-         addChild(this.unarmedMatch);
-         this.kittensTrap = new Sprite();
-         this.explodeBead = new BitmapData(GateLetters.stomachStiff(AttractiveSugar.sandGirl),FrightenUnique.flockSisters,false,40349);
-         this.kittensTrap.addChild(new Bitmap(this.explodeBead));
-         addChild(this.kittensTrap);
-         this.kittensTrap.x = RequestCactus.edgeLarge + GateLetters.stomachStiff(FrightenUnique.flockSisters);
-         this.kittensTrap.addEventListener(MouseEvent.MOUSE_DOWN,this.breatheMountain);
-         this.toyLegs = new Shape();
-         this.toyLegs.x = GateLetters.stomachStiff(FranticCrook.shockingManage) + this.kittensTrap.x;
-         addChild(this.toyLegs);
-         this.messyArm = new Shape();
-         this.messyArm.x = this.toyLegs.x;
-         this.messyArm.y = ScaleTemper.companyThrill;
-         addChild(this.messyArm);
-         this.cureSpiky = new Sprite();
-         var _loc3_:Shape = new Shape();
-         _loc3_.graphics.lineStyle(GateLetters.stomachStiff(ToothpasteCloistered.dazzlingBurn),16777215);
-         _loc3_.graphics.drawCircle(GateLetters.stomachStiff(ForkBit.harborGirl),ForkBit.harborGirl,GateLetters.stomachStiff(MarkEvasive.fragileBlush));
-         _loc3_.graphics.endFill();
-         var _loc4_:Shape = new Shape();
-         _loc4_.filters = new Array(new GlowFilter(GateLetters.stomachStiff(ForkBit.harborGirl),GateLetters.stomachStiff(FrightenUnique.saltPrickly),BalanceLoaf.behaviorIncrease,GateLetters.stomachStiff(BalanceLoaf.behaviorIncrease),ScaleTemper.legVoracious,GateLetters.stomachStiff(BalanceLoaf.behaviorIncrease),false,true));
-         _loc4_.graphics.beginFill(16711680);
-         _loc4_.graphics.drawCircle(ForkBit.harborGirl,GateLetters.stomachStiff(ForkBit.harborGirl),GateLetters.stomachStiff(MarkEvasive.fragileBlush));
-         _loc4_.graphics.endFill();
-         this.cureSpiky.addChild(_loc4_);
-         this.cureSpiky.addChild(_loc3_);
-         this.cureSpiky.x = DivergentDinner.drownDisturbed;
-         this.cureSpiky.y = DivergentDinner.drownDisturbed;
-         this.unarmedMatch.addChild(this.cureSpiky);
-         this.cureSpiky.mouseChildren = AmuseFrighten.summerCultured;
-         this.cureSpiky.mouseEnabled = AmuseFrighten.summerCultured;
-         this.wallEfficient = new Shape();
-         this.wallEfficient.graphics.beginFill(GateLetters.stomachStiff(ForkBit.harborGirl));
-         this.wallEfficient.graphics.moveTo(AttractiveSugar.sandGirl,GateLetters.stomachStiff(ForkBit.harborGirl));
-         this.wallEfficient.graphics.lineTo(ScaleTemper.whipPunch,-HarmonyVeil.steerScale);
-         this.wallEfficient.graphics.lineTo(GateLetters.stomachStiff(ScaleTemper.whipPunch),HarmonyVeil.steerScale);
-         this.wallEfficient.graphics.lineTo(GateLetters.stomachStiff(AttractiveSugar.sandGirl),GateLetters.stomachStiff(ForkBit.harborGirl));
-         this.wallEfficient.graphics.endFill();
-         this.wallEfficient.graphics.beginFill(GateLetters.stomachStiff(ForkBit.harborGirl));
-         this.wallEfficient.graphics.moveTo(ForkBit.harborGirl,GateLetters.stomachStiff(ForkBit.harborGirl));
-         this.wallEfficient.graphics.lineTo(-GateLetters.stomachStiff(ScaleTemper.legVoracious),-GateLetters.stomachStiff(HarmonyVeil.steerScale));
-         this.wallEfficient.graphics.lineTo(-ScaleTemper.legVoracious,GateLetters.stomachStiff(HarmonyVeil.steerScale));
-         this.wallEfficient.graphics.lineTo(GateLetters.stomachStiff(ForkBit.harborGirl),GateLetters.stomachStiff(ForkBit.harborGirl));
-         this.wallEfficient.graphics.endFill();
-         this.wallEfficient.graphics.lineStyle(FrightenUnique.saltPrickly,ForkBit.harborGirl);
-         this.wallEfficient.graphics.moveTo(GateLetters.stomachStiff(ForkBit.harborGirl),ForkBit.harborGirl);
-         this.wallEfficient.graphics.lineTo(GateLetters.stomachStiff(AttractiveSugar.sandGirl),ForkBit.harborGirl);
-         this.wallEfficient.graphics.endFill();
-         this.wallEfficient.graphics.endFill();
-         this.kittensTrap.addChild(this.wallEfficient);
-         this.wallEfficient.cacheAsBitmap = AmuseFrighten.doubleHeat1;
+         stage.removeEventListener(MouseEvent.MOUSE_MOVE,this.blushSpotless);
+         stage.removeEventListener(MouseEvent.MOUSE_UP,this.wateryConfused);
+         stage.removeEventListener(KeyboardEvent.KEY_DOWN,this.legVoracious);
+         this.sootheProbable();
+         this.squeezeReminiscent = this.couleurEnCours;
       }
       
-      public function incompetentWandering(param1:Function = null) : void
-      {
-         this.washAbsurd = param1;
-      }
-      
-      public function paltrySpiffy(param1:MouseEvent) : void
+      public function fillRuddy(param1:MouseEvent) : void
       {
          if(stage)
          {
-            stage.addEventListener(MouseEvent.MOUSE_MOVE,this.mountainEar);
-            stage.addEventListener(MouseEvent.MOUSE_UP,this.whisperPat);
-            stage.addEventListener(KeyboardEvent.KEY_DOWN,this.zipSweater);
+            stage.addEventListener(MouseEvent.MOUSE_MOVE,this.blushSpotless);
+            stage.addEventListener(MouseEvent.MOUSE_UP,this.wateryConfused);
+            stage.addEventListener(KeyboardEvent.KEY_DOWN,this.legVoracious);
          }
-         this.mountainEar(null);
+         this.blushSpotless(null);
       }
       
-      public function importantUnique(param1:MouseEvent = null) : void
+      public function blushSpotless(param1:MouseEvent) : void
       {
-         stage.removeEventListener(MouseEvent.MOUSE_MOVE,this.treatIcy);
-         stage.removeEventListener(MouseEvent.MOUSE_UP,this.importantUnique);
-         stage.removeEventListener(KeyboardEvent.KEY_DOWN,this.zipSweater);
-         this.blushSpotless();
-         this.shortColossal = this.couleurEnCours;
-      }
-      
-      public function noisyWise() : void
-      {
-         this.messyArm.graphics.clear();
-         this.messyArm.graphics.beginFill(this.couleurEnCours);
-         this.messyArm.graphics.drawRect(GateLetters.stomachStiff(ForkBit.harborGirl),ForkBit.harborGirl,OrangeUnequal.messyPunch,ScaleTemper.companyThrill);
-         this.messyArm.graphics.endFill();
-      }
-      
-      public function treatIcy(param1:MouseEvent) : void
-      {
-         var _loc2_:int = this.kittensTrap.mouseY;
-         if(_loc2_ < GateLetters.stomachStiff(ForkBit.harborGirl))
+         var _loc2_:int = this.shockingManage[NervousOnerous.fourCrooked(FaithfulVoracious.sleepyUninterested)];
+         var _loc3_:int = this.shockingManage[PleaseFour.legFlash];
+         if(FaithfulBaseball.harborGirl > _loc2_)
          {
-            _loc2_ = ForkBit.harborGirl;
+            _loc2_ = NervousOnerous.toyLegs(FaithfulBaseball.harborGirl);
          }
-         else if(RequestCactus.cartWarlike < _loc2_)
+         else if(_loc2_ > NervousOnerous.toyLegs(IdeaReal.pearToys))
          {
-            _loc2_ = GateLetters.stomachStiff(RequestCactus.cartWarlike);
+            _loc2_ = IdeaReal.pearToys;
          }
-         var _loc3_:int = this.obtainablePoison[_loc2_ * GateLetters.stomachStiff(ScaleTemper.legVoracious)];
-         this.reactionSigh(_loc3_);
-         this.wallEfficient.y = _loc2_;
-         this.noisyWise();
-         this.pearToys();
-      }
-      
-      public function whisperPat(param1:MouseEvent = null) : void
-      {
-         stage.removeEventListener(MouseEvent.MOUSE_MOVE,this.mountainEar);
-         stage.removeEventListener(MouseEvent.MOUSE_UP,this.whisperPat);
-         stage.removeEventListener(KeyboardEvent.KEY_DOWN,this.zipSweater);
-         this.blushSpotless();
-         this.shortColossal = this.couleurEnCours;
-      }
-      
-      public function labelPurpose(param1:int, param2:Boolean = true) : String
-      {
-         var _loc3_:String = param1.toString(GateLetters.stomachStiff(AttractiveSugar.birdGamy));
-         if(param2)
+         if(FaithfulBaseball.harborGirl > _loc3_)
          {
-            while(ScaleTemper.legVoracious > _loc3_.length)
-            {
-               _loc3_ = AdditionVague.nutVeil + _loc3_;
-            }
+            _loc3_ = FaithfulBaseball.harborGirl;
          }
-         return _loc3_.toUpperCase();
+         else if(_loc3_ > NervousOnerous.toyLegs(IdeaReal.pearToys))
+         {
+            _loc3_ = IdeaReal.pearToys;
+         }
+         this.storyRuddy.x = _loc2_;
+         this.storyRuddy.y = _loc3_;
+         this.drownDisturbed();
+         this.unarmedMatch();
+         this.sandGirl();
       }
       
       public function couleur(param1:int, param2:Boolean = true, param3:Boolean = false) : void
       {
+         var _loc7_:int = 0;
+         var _loc8_:int = 0;
+         var _loc9_:int = 0;
          var _loc16_:int = 0;
          var _loc17_:int = 0;
          var _loc18_:int = 0;
@@ -334,32 +158,32 @@ package
          this.couleurEnCours = param1;
          if(param3)
          {
-            this.bladeCrown = param1;
+            this.discussionSki = param1;
          }
-         var _loc4_:* = param1 >> GateLetters.stomachStiff(AttractiveSugar.birdGamy) & 255;
-         var _loc5_:* = param1 >> GateLetters.stomachStiff(ChinSnakes.slipLock) & 255;
+         var _loc4_:* = param1 >> NervousOnerous.toyLegs(FaithfulBaseball.zipSweater) & 255;
+         var _loc5_:* = param1 >> NervousOnerous.toyLegs(SistersRedundant.noisyWise) & 255;
          var _loc6_:* = param1 & 255;
-         var _loc7_:int = Math.min(_loc4_,_loc5_,_loc6_);
-         var _loc8_:int = Math.max(_loc4_,_loc5_,_loc6_);
-         var _loc9_:int = _loc8_ - _loc7_;
-         this.cureSpiky.y = GateLetters.stomachStiff(RequestCactus.cartWarlike) - _loc8_;
-         this.cureSpiky.x = _loc9_ / _loc8_ * RequestCactus.cartWarlike;
-         var _loc10_:Number = GateLetters.stomachStiff(RequestCactus.cartWarlike) / (-_loc7_ + _loc8_);
+         _loc7_ = Math.min(_loc4_,_loc5_,_loc6_);
+         _loc8_ = Math.max(_loc4_,_loc5_,_loc6_);
+         _loc9_ = _loc8_ - _loc7_;
+         this.storyRuddy.y = -_loc8_ + NervousOnerous.toyLegs(IdeaReal.pearToys);
+         this.storyRuddy.x = _loc9_ / _loc8_ * IdeaReal.pearToys;
+         var _loc10_:Number = NervousOnerous.toyLegs(IdeaReal.pearToys) / (_loc8_ - _loc7_);
          var _loc11_:int = Math.round((_loc4_ - _loc7_) * _loc10_);
-         var _loc12_:int = Math.round(_loc10_ * (_loc5_ - _loc7_));
-         var _loc13_:int = Math.round((_loc6_ - _loc7_) * _loc10_);
-         var _loc14_:int = (_loc11_ << AttractiveSugar.birdGamy) + (_loc12_ << ChinSnakes.slipLock) + _loc13_;
-         this.reactionSigh(_loc14_,param2);
-         var _loc15_:int = this.obtainablePoison.indexOf(_loc14_);
-         if(_loc15_ == -GateLetters.stomachStiff(FrightenUnique.saltPrickly))
+         var _loc12_:int = Math.round((-_loc7_ + _loc5_) * _loc10_);
+         var _loc13_:int = Math.round(_loc10_ * (_loc6_ - _loc7_));
+         var _loc14_:int = (_loc11_ << NervousOnerous.toyLegs(FaithfulBaseball.zipSweater)) + (_loc12_ << NervousOnerous.toyLegs(SistersRedundant.noisyWise)) + _loc13_;
+         this.faintShelf(_loc14_,param2);
+         var _loc15_:int = this.breatheMountain.indexOf(_loc14_);
+         if(_loc15_ == -NervousOnerous.toyLegs(MarkParty.flockSisters))
          {
-            _loc16_ = GateLetters.stomachStiff(FranticCrook.colorCurved);
-            _loc17_ = -FrightenUnique.saltPrickly;
-            _loc18_ = this.obtainablePoison.length;
+            _loc16_ = NervousOnerous.toyLegs(KneelDaily.steerScale);
+            _loc17_ = -MarkParty.flockSisters;
+            _loc18_ = this.breatheMountain.length;
             while(++_loc17_ < _loc18_)
             {
-               _loc19_ = this.obtainablePoison[_loc17_];
-               _loc20_ = Math.abs(_loc19_ - _loc14_);
+               _loc19_ = this.breatheMountain[_loc17_];
+               _loc20_ = Math.abs(-_loc14_ + _loc19_);
                if(_loc20_ < _loc16_)
                {
                   _loc16_ = _loc20_;
@@ -367,85 +191,264 @@ package
                }
             }
          }
-         this.wallEfficient.y = _loc15_ / ScaleTemper.legVoracious;
-         this.blushSpotless();
-         this.noisyWise();
-         this.grainHarbor(param1,param2);
+         this.shortColossal.y = _loc15_ / SupplyMountain.summerCultured;
+         this.sootheProbable();
+         this.unarmedMatch();
+         this.drownDisturbed(param1,param2);
          if(param2)
          {
-            this.pearToys();
+            this.sandGirl();
          }
       }
       
-      public function sofaInvent() : void
+      public function paltrySpiffy() : void
       {
-         var _loc1_:int = GateLetters.stomachStiff(RequestCactus.cartWarlike);
-         var _loc2_:int = GateLetters.stomachStiff(ForkBit.harborGirl);
-         var _loc3_:int = GateLetters.stomachStiff(ForkBit.harborGirl);
-         while(FrightenUnique.flockSisters > _loc3_)
+         this.whipPunch();
+         this.shockingManage = new Sprite();
+         this.shockingManage.graphics.beginFill(16777215,NervousOnerous.toyLegs(MarkParty.flockSisters));
+         this.shockingManage.graphics.drawRect(NervousOnerous.toyLegs(FaithfulBaseball.harborGirl),FaithfulBaseball.harborGirl,NervousOnerous.toyLegs(MarkParty.realBasin),NervousOnerous.toyLegs(MarkParty.realBasin));
+         this.shockingManage.graphics.endFill();
+         this.bladeCrown = new Sprite();
+         this.shockingManage.addChild(this.bladeCrown);
+         var _loc1_:Sprite = new Sprite();
+         var _loc2_:Matrix = new Matrix();
+         _loc2_.createGradientBox(NervousOnerous.toyLegs(MarkParty.realBasin),MarkParty.realBasin,Math.PI / NervousOnerous.toyLegs(SupplyMountain.colorCurved),FaithfulBaseball.harborGirl,FaithfulBaseball.harborGirl);
+         _loc1_.graphics.beginGradientFill(GradientType.LINEAR,[NervousOnerous.toyLegs(FaithfulBaseball.harborGirl),NervousOnerous.toyLegs(FaithfulBaseball.harborGirl)],RuddyUncle.cureSpiky,RuddyUncle.doubleHeat,_loc2_);
+         _loc1_.graphics.drawRect(FaithfulBaseball.harborGirl,NervousOnerous.toyLegs(FaithfulBaseball.harborGirl),MarkParty.realBasin,NervousOnerous.toyLegs(MarkParty.realBasin));
+         this.shockingManage.addChild(_loc1_);
+         this.shockingManage.addEventListener(MouseEvent.MOUSE_DOWN,this.fillRuddy);
+         addChild(this.shockingManage);
+         this.mountainEar = new Sprite();
+         this.hesitantTrains = new BitmapData(NervousOnerous.toyLegs(MarkParty.companyThrill),NervousOnerous.toyLegs(MarkParty.realBasin),false,40349);
+         this.mountainEar.addChild(new Bitmap(this.hesitantTrains));
+         addChild(this.mountainEar);
+         this.mountainEar.x = NervousPromise.importantUnique + NervousOnerous.toyLegs(MarkParty.realBasin);
+         this.mountainEar.addEventListener(MouseEvent.MOUSE_DOWN,this.eliteIdea);
+         this.whisperPat = new Shape();
+         this.whisperPat.x = SpaceIdea.messyArm + this.mountainEar.x;
+         addChild(this.whisperPat);
+         this.grainHarbor = new Shape();
+         this.grainHarbor.x = this.whisperPat.x;
+         this.grainHarbor.y = NervousOnerous.toyLegs(BalanceSecret.eyesGeneral);
+         addChild(this.grainHarbor);
+         this.storyRuddy = new Sprite();
+         var _loc3_:Shape = new Shape();
+         _loc3_.graphics.lineStyle(NervousOnerous.toyLegs(SupplyMountain.colorCurved),16777215);
+         _loc3_.graphics.drawCircle(NervousOnerous.toyLegs(FaithfulBaseball.harborGirl),NervousOnerous.toyLegs(FaithfulBaseball.harborGirl),NervousOnerous.toyLegs(MarkParty.stomachStiff));
+         _loc3_.graphics.endFill();
+         var _loc4_:Shape = new Shape();
+         _loc4_.filters = new Array(new GlowFilter(FaithfulBaseball.harborGirl,NervousOnerous.toyLegs(MarkParty.flockSisters),NervousOnerous.toyLegs(MarkParty.messyPunch),MarkParty.messyPunch,NervousOnerous.toyLegs(SupplyMountain.summerCultured),NervousOnerous.toyLegs(MarkParty.messyPunch),false,true));
+         _loc4_.graphics.beginFill(16711680);
+         _loc4_.graphics.drawCircle(NervousOnerous.toyLegs(FaithfulBaseball.harborGirl),NervousOnerous.toyLegs(FaithfulBaseball.harborGirl),NervousOnerous.toyLegs(MarkParty.stomachStiff));
+         _loc4_.graphics.endFill();
+         this.storyRuddy.addChild(_loc4_);
+         this.storyRuddy.addChild(_loc3_);
+         this.storyRuddy.x = NervousOnerous.toyLegs(SupplyMountain.birdGamy);
+         this.storyRuddy.y = SupplyMountain.birdGamy;
+         this.shockingManage.addChild(this.storyRuddy);
+         this.storyRuddy.mouseChildren = NarrowPlants.treatIcy;
+         this.storyRuddy.mouseEnabled = NarrowPlants.treatIcy;
+         this.shortColossal = new Shape();
+         this.shortColossal.graphics.beginFill(FaithfulBaseball.harborGirl);
+         this.shortColossal.graphics.moveTo(NervousOnerous.toyLegs(MarkParty.companyThrill),FaithfulBaseball.harborGirl);
+         this.shortColossal.graphics.lineTo(IdeaReal.reactionSigh1,-SpaceIdea.trainsAbject);
+         this.shortColossal.graphics.lineTo(IdeaReal.reactionSigh1,SpaceIdea.trainsAbject);
+         this.shortColossal.graphics.lineTo(MarkParty.companyThrill,NervousOnerous.toyLegs(FaithfulBaseball.harborGirl));
+         this.shortColossal.graphics.endFill();
+         this.shortColossal.graphics.beginFill(NervousOnerous.toyLegs(FaithfulBaseball.harborGirl));
+         this.shortColossal.graphics.moveTo(FaithfulBaseball.harborGirl,NervousOnerous.toyLegs(FaithfulBaseball.harborGirl));
+         this.shortColossal.graphics.lineTo(-NervousOnerous.toyLegs(SupplyMountain.summerCultured),-SpaceIdea.trainsAbject);
+         this.shortColossal.graphics.lineTo(-SupplyMountain.summerCultured,SpaceIdea.trainsAbject);
+         this.shortColossal.graphics.lineTo(FaithfulBaseball.harborGirl,FaithfulBaseball.harborGirl);
+         this.shortColossal.graphics.endFill();
+         this.shortColossal.graphics.lineStyle(NervousOnerous.toyLegs(MarkParty.flockSisters),NervousOnerous.toyLegs(FaithfulBaseball.harborGirl));
+         this.shortColossal.graphics.moveTo(FaithfulBaseball.harborGirl,FaithfulBaseball.harborGirl);
+         this.shortColossal.graphics.lineTo(NervousOnerous.toyLegs(MarkParty.companyThrill),FaithfulBaseball.harborGirl);
+         this.shortColossal.graphics.endFill();
+         this.shortColossal.graphics.endFill();
+         this.mountainEar.addChild(this.shortColossal);
+         this.shortColossal.cacheAsBitmap = NarrowPlants.obtainablePoison;
+      }
+      
+      public function sandGirl() : void
+      {
+         var _loc1_:MovieClip = null;
+         for each(_loc1_ in this.slipLock)
          {
-            this.obtainablePoison.push((_loc1_ << GateLetters.stomachStiff(AttractiveSugar.birdGamy)) + (_loc2_ << GateLetters.stomachStiff(ChinSnakes.slipLock)) + _loc3_);
+            _loc1_[KneelDaily.wallEfficient](this.couleurEnCours);
+         }
+         if(this.explodeBead != null)
+         {
+            this.explodeBead(this.couleurEnCours);
+         }
+      }
+      
+      public function whipPunch() : void
+      {
+         var _loc1_:int = IdeaReal.pearToys;
+         var _loc2_:int = FaithfulBaseball.harborGirl;
+         var _loc3_:int = FaithfulBaseball.harborGirl;
+         while(MarkParty.realBasin > _loc3_)
+         {
+            this.breatheMountain.push((_loc1_ << NervousOnerous.toyLegs(FaithfulBaseball.zipSweater)) + (_loc2_ << SistersRedundant.noisyWise) + _loc3_);
             _loc3_++;
          }
-         _loc3_ = GateLetters.stomachStiff(RequestCactus.cartWarlike);
-         while(_loc1_ >= ForkBit.harborGirl)
+         _loc3_ = IdeaReal.pearToys;
+         while(FaithfulBaseball.harborGirl <= _loc1_)
          {
-            this.obtainablePoison.push((_loc1_ << AttractiveSugar.birdGamy) + (_loc2_ << GateLetters.stomachStiff(ChinSnakes.slipLock)) + _loc3_);
+            this.breatheMountain.push((_loc1_ << NervousOnerous.toyLegs(FaithfulBaseball.zipSweater)) + (_loc2_ << NervousOnerous.toyLegs(SistersRedundant.noisyWise)) + _loc3_);
             _loc1_--;
          }
-         _loc1_ = ForkBit.harborGirl;
-         while(GateLetters.stomachStiff(FrightenUnique.flockSisters) > _loc2_)
+         _loc1_ = NervousOnerous.toyLegs(FaithfulBaseball.harborGirl);
+         while(_loc2_ < MarkParty.realBasin)
          {
-            this.obtainablePoison.push((_loc1_ << GateLetters.stomachStiff(AttractiveSugar.birdGamy)) + (_loc2_ << ChinSnakes.slipLock) + _loc3_);
+            this.breatheMountain.push((_loc1_ << NervousOnerous.toyLegs(FaithfulBaseball.zipSweater)) + (_loc2_ << NervousOnerous.toyLegs(SistersRedundant.noisyWise)) + _loc3_);
             _loc2_++;
          }
-         _loc2_ = GateLetters.stomachStiff(RequestCactus.cartWarlike);
-         while(GateLetters.stomachStiff(ForkBit.harborGirl) <= _loc3_)
+         _loc2_ = NervousOnerous.toyLegs(IdeaReal.pearToys);
+         while(_loc3_ >= NervousOnerous.toyLegs(FaithfulBaseball.harborGirl))
          {
-            this.obtainablePoison.push((_loc1_ << AttractiveSugar.birdGamy) + (_loc2_ << ChinSnakes.slipLock) + _loc3_);
+            this.breatheMountain.push((_loc1_ << FaithfulBaseball.zipSweater) + (_loc2_ << NervousOnerous.toyLegs(SistersRedundant.noisyWise)) + _loc3_);
             _loc3_--;
          }
-         _loc3_ = GateLetters.stomachStiff(ForkBit.harborGirl);
-         while(_loc1_ < FrightenUnique.flockSisters)
+         _loc3_ = FaithfulBaseball.harborGirl;
+         while(MarkParty.realBasin > _loc1_)
          {
-            this.obtainablePoison.push((_loc1_ << GateLetters.stomachStiff(AttractiveSugar.birdGamy)) + (_loc2_ << GateLetters.stomachStiff(ChinSnakes.slipLock)) + _loc3_);
+            this.breatheMountain.push((_loc1_ << NervousOnerous.toyLegs(FaithfulBaseball.zipSweater)) + (_loc2_ << SistersRedundant.noisyWise) + _loc3_);
             _loc1_++;
          }
-         _loc1_ = RequestCactus.cartWarlike;
-         while(_loc2_ >= GateLetters.stomachStiff(ForkBit.harborGirl))
+         _loc1_ = IdeaReal.pearToys;
+         while(_loc2_ >= NervousOnerous.toyLegs(FaithfulBaseball.harborGirl))
          {
-            this.obtainablePoison.push((_loc1_ << GateLetters.stomachStiff(AttractiveSugar.birdGamy)) + (_loc2_ << GateLetters.stomachStiff(ChinSnakes.slipLock)) + _loc3_);
+            this.breatheMountain.push((_loc1_ << NervousOnerous.toyLegs(FaithfulBaseball.zipSweater)) + (_loc2_ << NervousOnerous.toyLegs(SistersRedundant.noisyWise)) + _loc3_);
             _loc2_--;
          }
       }
       
-      public function pearToys() : void
+      public function performPail(param1:int, param2:Boolean = true) : String
       {
-         var _loc1_:MovieClip = null;
-         for each(_loc1_ in this.sleepyUninterested)
+         var _loc3_:String = param1.toString(FaithfulBaseball.zipSweater);
+         if(param2)
          {
-            _loc1_[ScaleTemper.eliteIdea](this.couleurEnCours);
+            while(_loc3_.length < NervousOnerous.toyLegs(SupplyMountain.summerCultured))
+            {
+               _loc3_ = SistersRedundant.cartWarlike + _loc3_;
+            }
          }
-         if(this.washAbsurd != null)
+         return _loc3_.toUpperCase();
+      }
+      
+      public function washAbsurd(param1:MouseEvent) : void
+      {
+         var _loc2_:int = this.mountainEar.mouseY;
+         if(_loc2_ < NervousOnerous.toyLegs(FaithfulBaseball.harborGirl))
          {
-            this.washAbsurd(this.couleurEnCours);
+            _loc2_ = NervousOnerous.toyLegs(FaithfulBaseball.harborGirl);
+         }
+         else if(_loc2_ > NervousOnerous.toyLegs(IdeaReal.pearToys))
+         {
+            _loc2_ = IdeaReal.pearToys;
+         }
+         var _loc3_:int = this.breatheMountain[_loc2_ * NervousOnerous.toyLegs(SupplyMountain.summerCultured)];
+         this.faintShelf(_loc3_);
+         this.shortColossal.y = _loc2_;
+         this.unarmedMatch();
+         this.sandGirl();
+      }
+      
+      public function sootheProbable() : void
+      {
+         this.whisperPat.graphics.clear();
+         this.whisperPat.graphics.beginFill(this.couleurEnCours);
+         this.whisperPat.graphics.drawRect(FaithfulBaseball.harborGirl,FaithfulBaseball.harborGirl,NervousOnerous.toyLegs(IdeaReal.kittensBeautiful),NervousOnerous.toyLegs(BalanceSecret.eyesGeneral));
+         this.whisperPat.graphics.endFill();
+      }
+      
+      public function edgeLarge() : void
+      {
+         var _loc3_:int = 0;
+         var _loc1_:int = NervousOnerous.toyLegs(FaithfulBaseball.harborGirl);
+         var _loc2_:int = FaithfulBaseball.harborGirl;
+         while(_loc2_ < SandTedious.behaviorIncrease)
+         {
+            _loc3_ = this.breatheMountain[_loc2_];
+            this.hesitantTrains.fillRect(new Rectangle(FaithfulBaseball.harborGirl,_loc1_,MarkParty.companyThrill,MarkParty.flockSisters),_loc3_);
+            _loc1_++;
+            _loc2_ = _loc2_ + NervousOnerous.toyLegs(SupplyMountain.summerCultured);
          }
       }
       
-      public function wateryConfused(param1:Function = null) : KeyBoundary
+      public function orderLight(param1:Function = null) : void
       {
-         var _loc2_:KeyBoundary = new KeyBoundary(ForkBit.harborGirl,GateLetters.stomachStiff(ForkBit.harborGirl));
-         var _loc3_:MovieClip = DeliverTasty.performPail(ExpansionTour.storyRuddy);
-         (_loc3_[KnowledgeLate.squeezeReminiscent] as TextField).width = GateLetters.stomachStiff(MarkEvasive.fillRuddy);
+         this.explodeBead = param1;
+      }
+      
+      public function legVoracious(param1:KeyboardEvent) : void
+      {
+         var _loc2_:int = param1.keyCode;
+         if(UninterestedRoom.sofaInvent == _loc2_)
+         {
+            this.couleur(this.squeezeReminiscent == -NervousOnerous.toyLegs(MarkParty.flockSisters)?int(this.discussionSki):int(this.squeezeReminiscent));
+            this.saltPrickly();
+            this.wateryConfused();
+         }
+      }
+      
+      public function saltPrickly(param1:MouseEvent = null) : void
+      {
+         stage.removeEventListener(MouseEvent.MOUSE_MOVE,this.washAbsurd);
+         stage.removeEventListener(MouseEvent.MOUSE_UP,this.saltPrickly);
+         stage.removeEventListener(KeyboardEvent.KEY_DOWN,this.legVoracious);
+         this.sootheProbable();
+         this.squeezeReminiscent = this.couleurEnCours;
+      }
+      
+      public function repeatBelief1(param1:Function = null) : FlowerCrown
+      {
+         var _loc2_:FlowerCrown = new FlowerCrown(FaithfulBaseball.harborGirl,FaithfulBaseball.harborGirl);
+         var _loc3_:MovieClip = DeliverTasty.labelPurpose(NervousOnerous.fourCrooked(NervousPromise.kittensTrap));
+         (_loc3_[NervousOnerous.fourCrooked(FaithfulBaseball.incompetentWandering)] as TextField).width = SupplyMountain.nutVeil;
          if(param1)
          {
-            _loc2_.kittensBeautiful(param1);
+            _loc2_.dazzlingBurn(param1);
          }
-         _loc3_[GateLetters.squeezeWhip(ScaleTemper.eliteIdea)](this.couleurEnCours);
+         _loc3_[NervousOnerous.fourCrooked(KneelDaily.wallEfficient)](this.couleurEnCours);
          _loc2_.addChild(_loc3_);
-         _loc2_.hesitantTrains(_loc3_.width,_loc3_.height);
-         this.sleepyUninterested.push(_loc3_);
+         _loc2_.fragileBlush(_loc3_.width,_loc3_.height);
+         this.slipLock.push(_loc3_);
          return _loc2_;
+      }
+      
+      public function drownDisturbed(param1:int = -1, param2:Boolean = true) : void
+      {
+         var _loc3_:* = 0;
+         var _loc4_:* = 0;
+         var _loc5_:* = 0;
+         var _loc6_:int = 0;
+         var _loc7_:int = 0;
+         var _loc8_:Number = NaN;
+         var _loc9_:Number = NaN;
+         if(param1 == -MarkParty.flockSisters)
+         {
+            _loc3_ = this.squeezeWhip >> NervousOnerous.toyLegs(FaithfulBaseball.zipSweater) & 255;
+            _loc4_ = this.squeezeWhip >> SistersRedundant.noisyWise & 255;
+            _loc5_ = this.squeezeWhip & 255;
+            _loc6_ = Math.round(this.storyRuddy.x);
+            _loc7_ = Math.round(this.storyRuddy.y);
+            _loc8_ = MarkParty.flockSisters - _loc6_ / IdeaReal.pearToys;
+            _loc9_ = MarkParty.flockSisters - _loc7_ / IdeaReal.pearToys;
+            _loc3_ = int(_loc3_ + (-_loc3_ + IdeaReal.pearToys) * _loc8_);
+            _loc4_ = int(_loc4_ + (-_loc4_ + IdeaReal.pearToys) * _loc8_);
+            _loc5_ = int(_loc5_ + (-_loc5_ + NervousOnerous.toyLegs(IdeaReal.pearToys)) * _loc8_);
+            _loc3_ = int(Math.round(_loc9_ * _loc3_));
+            _loc4_ = int(Math.round(_loc9_ * _loc4_));
+            _loc5_ = int(Math.round(_loc5_ * _loc9_));
+            this.couleurEnCours = (_loc3_ << NervousOnerous.toyLegs(FaithfulBaseball.zipSweater)) + (_loc4_ << SistersRedundant.noisyWise) + _loc5_;
+         }
+         else
+         {
+            this.couleurEnCours = param1;
+         }
       }
    }
 }

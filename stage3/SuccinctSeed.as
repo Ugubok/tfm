@@ -2,31 +2,31 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class SuccinctSeed extends CleverWhip
+   public class SuccinctSeed extends KotskyCheck
    {
        
       
       public var dinnerSpoil:Number;
       
-      public var bikeSparkle:Number;
+      public var porterBit:Number;
       
-      public var porterBit:Boolean;
+      public var uniteStick:Boolean;
       
       public var swankyToothpaste:Number;
       
-      public var squeamishChubby:Number;
+      public var narrowFive:Number;
       
-      public var culturedUninterested:Boolean;
+      public var squeamishChubby:Boolean;
       
       public function SuccinctSeed(param1:ByteArray)
       {
          super(param1);
-         this.dinnerSpoil = param1.readShort() / GateLetters.bearTiresome(ToothpasteCloistered.narrowFive);
-         this.bikeSparkle = param1.readShort() / GateLetters.bearTiresome(ToothpasteCloistered.narrowFive);
-         this.porterBit = param1.readByte() == GateLetters.bearTiresome(FrightenUnique.uniteStick);
-         this.swankyToothpaste = param1.readShort() / RequestCactus.cactusEngine;
-         this.squeamishChubby = param1.readShort() / GateLetters.bearTiresome(RequestCactus.cactusEngine);
-         this.culturedUninterested = param1.readByte() == FrightenUnique.uniteStick;
+         this.dinnerSpoil = param1.readShort() / KnotModern.bikeSparkle;
+         this.porterBit = param1.readShort() / KnotModern.bikeSparkle;
+         this.uniteStick = param1.readByte() == MarkParty.bearTiresome;
+         this.swankyToothpaste = param1.readShort() / NervousPromise.culturedUninterested;
+         this.narrowFive = param1.readShort() / NervousPromise.culturedUninterested;
+         this.squeamishChubby = param1.readByte() == MarkParty.bearTiresome;
       }
    }
 }

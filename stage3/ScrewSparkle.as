@@ -4,38 +4,38 @@ package
    {
        
       
-      public var position:JarTow;
+      public var position:CulturedAutomatic;
       
-      public var R:CuteAttractive;
+      public var R:IllustriousLanguid;
       
-      public function ScrewSparkle(param1:JarTow = null, param2:CuteAttractive = null)
+      public function ScrewSparkle(param1:CulturedAutomatic = null, param2:IllustriousLanguid = null)
       {
-         this.position = new JarTow();
-         this.R = new CuteAttractive();
+         this.position = new CulturedAutomatic();
+         this.R = new IllustriousLanguid();
          super();
          if(param1)
          {
-            this.position.eliteManage(param1);
-            this.R.noiselessDescribe(param2);
+            this.position.shockVeil(param1);
+            this.R.purposeSugar(param2);
          }
       }
       
-      public function purposeSugar(param1:JarTow, param2:CuteAttractive) : void
+      public function vagueSick(param1:ScrewSparkle) : void
       {
-         this.position.eliteManage(param1);
-         this.R.noiselessDescribe(param2);
+         this.position.shockVeil(param1.position);
+         this.R.purposeSugar(param1.R);
       }
       
-      public function vagueSick() : void
+      public function eliteManage() : void
       {
          this.position.icyGrate();
-         this.R.vagueSick();
+         this.R.eliteManage();
       }
       
-      public function shockVeil(param1:ScrewSparkle) : void
+      public function noiselessDescribe(param1:CulturedAutomatic, param2:IllustriousLanguid) : void
       {
-         this.position.eliteManage(param1.position);
-         this.R.noiselessDescribe(param1.R);
+         this.position.shockVeil(param1);
+         this.R.purposeSugar(param2);
       }
    }
 }

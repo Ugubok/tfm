@@ -6,18 +6,18 @@ package
    {
        
       
-      public var proseCultured:ZippySisters;
+      public var temperShame:ZippySisters;
       
       public var idSequence:int;
       
-      public var fragileHorn:int;
+      public var cribProgram:int;
       
-      public var distroLyrical:RambunctiousComplex;
+      public var paymentAblaze:FeebleJumbled;
       
       public function RequestVague(param1:ZippySisters)
       {
          super();
-         this.proseCultured = param1;
+         this.temperShame = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get cribProgram() : String
+      public function get proseCultured() : String
       {
-         return GateLetters.gloriousBoundless(ChinSnakes.pinusTouch);
+         return OrangesQueue.orangesRomantic;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.pricklyFrail;
+         return KotskyRailway.fragileHorn;
       }
       
       public function attractiveUnarmed() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function paymentAblaze() : int
+      public function pricklyFrail() : int
       {
-         return MarkEvasive.chinSofa;
+         return NervousOnerous.gloriousBoundless(MarkParty.chinSofa);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.fragileHorn = param1.readByte();
-         var _loc2_:ProseZonked = this.proseCultured.recupereSequence(this.idSequence);
+         this.cribProgram = param1.readByte();
+         var _loc2_:ProseZonked = this.temperShame.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is RambunctiousComplex)
+            if(_loc2_ is FeebleJumbled)
             {
-               this.distroLyrical = RambunctiousComplex(_loc2_);
-               this.distroLyrical.collectAnus1 = this;
+               this.paymentAblaze = FeebleJumbled(_loc2_);
+               this.paymentAblaze.toothpasteCan = this;
             }
          }
       }
       
-      public function get orangesRomantic() : int
+      public function get collectAnus() : int
       {
-         return GateLetters.temperShame(FourYell.toothpasteCan);
+         return NervousOnerous.gloriousBoundless(IdeaReal.distroLyrical);
       }
    }
 }

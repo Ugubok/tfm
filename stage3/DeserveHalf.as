@@ -5,22 +5,29 @@ package
    public class DeserveHalf implements ZippySisters
    {
       
-      public static var celeryShade:DeserveHalf;
+      public static var voraciousIgnorant:DeserveHalf;
        
       
-      public var subduedHose:ApatheticProud;
+      public var bladePossess:ApatheticProud;
       
-      public var longPrepare:Dictionary;
+      public var subduedHose:Dictionary;
       
-      public var toeDress:int;
+      public var inquisitiveTiresome:int;
       
       public function DeserveHalf()
       {
-         this.longPrepare = new Dictionary();
-         this.toeDress = ForkBit.inquisitiveTiresome;
+         this.subduedHose = new Dictionary();
+         this.inquisitiveTiresome = FaithfulBaseball.longPrepare;
          super();
-         DeserveHalf.celeryShade = this;
-         this.subduedHose = new ApatheticProud();
+         DeserveHalf.voraciousIgnorant = this;
+         this.bladePossess = new ApatheticProud();
+      }
+      
+      public function recupereSequence(param1:int) : ProseZonked
+      {
+         var _loc2_:ProseZonked = this.subduedHose[param1];
+         delete this.subduedHose[param1];
+         return _loc2_;
       }
       
       public function traitePaquetSortant(param1:ProseZonked) : void
@@ -29,13 +36,13 @@ package
          var _loc3_:int = 0;
          try
          {
-            _loc2_ = this.subduedHose.getIdPaquet(param1);
+            _loc2_ = this.bladePossess.getIdPaquet(param1);
             if(param1 is EnjoyJar)
             {
                _loc3_ = (param1 as EnjoyJar).getIdSequence();
-               this.longPrepare[_loc3_] = param1;
+               this.subduedHose[_loc3_] = param1;
             }
-            WantWoman.bladePossess.voraciousIgnorant(new WingIncompetent(_loc2_,param1));
+            WantWoman.celeryShade.toeDress(new ForkShoe(_loc2_,param1));
             return;
          }
          catch(E:Error)
@@ -46,19 +53,12 @@ package
       
       public function get idSequence() : int
       {
-         return this.toeDress;
-      }
-      
-      public function recupereSequence(param1:int) : ProseZonked
-      {
-         var _loc2_:ProseZonked = this.longPrepare[param1];
-         delete this.longPrepare[param1];
-         return _loc2_;
+         return this.inquisitiveTiresome;
       }
       
       public function set idSequence(param1:int) : void
       {
-         this.toeDress = param1;
+         this.inquisitiveTiresome = param1;
       }
    }
 }

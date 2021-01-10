@@ -11,45 +11,45 @@ package
    public class AgreeStrengthen
    {
       
-      public static const yakBrass:int =  0;
+      public static const burlyJagged:int =  0;
       
-      public static const repulsiveWaiting:int =  1;
+      public static const warlikeChicken:int =  1;
       
-      public static const defectiveRay:int =  2;
+      public static const patheticAnnoying:int =  2;
       
-      public static const cribPleasant:int =  3;
+      public static const defectiveRay:int =  3;
       
-      public static var vivaciousMatch:Boolean = true;
+      public static var keySqueal:Boolean = true;
       
-      public static const flowHarmony:Array = new Array();
+      public static const commonWork:Array = new Array();
       
-      public static const joyousToy:Array = new Array();
+      public static const anusYam:Array = new Array();
       
-      public static var skinAlert:Boolean = false;
+      public static var dailyIdentify:Boolean = false;
       
-      public static var colorClover:Boolean = false;
+      public static var screwAjar:Boolean = false;
       
-      public static var pictureSnotty:Boolean = false;
+      public static var nationSuzuka:Boolean = false;
       
-      public static var privateAlanson:int =  0;
+      public static var additionWarlike:int =  0;
       
-      public static var nestFlock:Boolean = true;
+      public static var steerSpoil:Boolean = true;
       
-      public static var tumbleToys:Dictionary = new Dictionary();
+      public static var disgustingAblaze:Dictionary = new Dictionary();
       
-      public static var hateRay:Dictionary = new Dictionary();
+      public static var knowledgeAbsurd:Dictionary = new Dictionary();
       
-      public static var inventWasteful:Dictionary = new Dictionary();
+      public static var upsetHumor:Dictionary = new Dictionary();
       
-      public static var additionCrook:Dictionary = new Dictionary();
+      public static var modernSuper:Dictionary = new Dictionary();
       
-      public static var burnDetail:Boolean = true;
+      public static var yakBrass:Boolean = true;
       
-      public static var grotesqueInexpensive:Boolean = false;
+      public static var bruiseQuack:Boolean = false;
       
-      public static var recogniseStore:int =  0;
+      public static var wanderingTumble:int =  0;
       
-      public static var clammyVagabond:int;
+      public static var railwayChivalrous:int;
        
       
       public function AgreeStrengthen()
@@ -57,97 +57,372 @@ package
          super();
       }
       
-      public static function Initialisation() : void
-      {
-         if(!AgreeStrengthen.vivaciousMatch)
-         {
-            return;
-         }
-         AgreeStrengthen.vivaciousMatch = AmuseFrighten.clubGrain;
-         ChopEngine.knowledgeAbsurd.groundFemale.addEventListener(KeyboardEvent.KEY_DOWN,AgreeStrengthen.treatLocket,false,int.MAX_VALUE);
-         ChopEngine.knowledgeAbsurd.groundFemale.addEventListener(KeyboardEvent.KEY_UP,AgreeStrengthen.bruiseQuack,false,int.MAX_VALUE);
-         AgreeStrengthen.flowHarmony[AgreeStrengthen.defectiveRay] = function():void
-         {
-            PossessKnife.burlyJagged(true);
-         };
-         AgreeStrengthen.flowHarmony[AgreeStrengthen.yakBrass] = function():void
-         {
-            PossessKnife.burlyJagged(false);
-         };
-         AgreeStrengthen.flowHarmony[AgreeStrengthen.repulsiveWaiting] = PossessKnife.disgustingAblaze;
-         AgreeStrengthen.flowHarmony[AgreeStrengthen.cribPleasant] = PossessKnife.storeTrip;
-         AgreeStrengthen.flowHarmony[KnowledgeableError.patheticAnnoying] = AgreeStrengthen.ablazeHistorical;
-         AgreeStrengthen.burnDetail = Capabilities.language.toLowerCase() != GateLetters.armyPuncture(AttractiveSugar.listDistro);
-      }
-      
-      public static function feebleWhisper(param1:int) : Boolean
-      {
-         return !AgreeStrengthen.burnDetail && param1 == KnowledgeableError.beadClammy || AgreeStrengthen.burnDetail && param1 == KnowledgeableError.didacticJagged || param1 == KnowledgeableError.stupidSpy;
-      }
-      
-      public static function ablazeHistorical() : void
+      public static function mittenLong() : void
       {
          var _loc4_:RetireGrandfather = null;
-         if(GateLetters.fadeSugar(!RetireGrandfather.screwAjar || RetireGrandfather.screwAjar.dislikeAgree))
+         if(!RetireGrandfather.airZoo || RetireGrandfather.airZoo.sandEar)
          {
             return;
          }
-         if(!GateLetters.fadeSugar(GrinOnerous.scaleAgonizing))
+         if(!NervousOnerous.earthquakeKnowledgeable(NervousOnerous.earthquakeKnowledgeable(BombWeight.wallCard)))
          {
             return;
          }
-         var _loc1_:Boolean = ChopEngine.knowledgeAbsurd.pictureBury;
-         ChopEngine.clammyBaseball(GateLetters.sockRub(RequestCactus.whiteGrotesque));
-         var _loc2_:Boolean = GateLetters.fadeSugar(ChopEngine.knowledgeAbsurd.uninterestedDebt);
-         var _loc3_:Boolean = _loc1_ && GateLetters.fadeSugar(_loc2_);
-         if(GateLetters.fadeSugar(_loc3_))
+         var _loc1_:Boolean = NervousOnerous.earthquakeKnowledgeable(NervousOnerous.earthquakeKnowledgeable(ChopEngine.wingFamous.squeamishPerform));
+         ChopEngine.raySoothe(NervousOnerous.scaleAgonizing(FaithfulVoracious.fadeSugar));
+         var _loc2_:Boolean = ChopEngine.wingFamous.resoluteAgree;
+         var _loc3_:Boolean = _loc1_ && NervousOnerous.earthquakeKnowledgeable(_loc2_);
+         if(_loc3_)
          {
-            ChopEngine.knowledgeAbsurd.uninterestedDebt = GateLetters.fadeSugar(false);
-            ChopEngine.knowledgeAbsurd.pictureBury = AmuseFrighten.clubGrain;
-            if(ChopEngine.knowledgeAbsurd.tumbleAdhesive.riverLetter.parent)
+            ChopEngine.wingFamous.resoluteAgree = false;
+            ChopEngine.wingFamous.squeamishPerform = NarrowPlants.wastefulHarbor;
+            if(ChopEngine.wingFamous.inquisitiveBright.competitionAd.parent)
             {
-               ChopEngine.knowledgeAbsurd.tumbleAdhesive.riverLetter.parent.removeChild(ChopEngine.knowledgeAbsurd.tumbleAdhesive.riverLetter);
+               ChopEngine.wingFamous.inquisitiveBright.competitionAd.parent.removeChild(ChopEngine.wingFamous.inquisitiveBright.competitionAd);
             }
-            _loc4_ = RetireGrandfather.screwAjar;
-            WantWoman.warlikeChicken.heatPack(new PersonRambunctious(_loc4_[BashfulUnwritten.annoyNeighborly],_loc4_[GateLetters.armyPuncture(ForkBit.raySoothe)]));
+            _loc4_ = RetireGrandfather.airZoo;
+            WantWoman.ablazeStrengthen.saveImpolite(new AutomaticLeg(_loc4_[NervousOnerous.baseballFascinated(NervousPromise.seedGreedy)],_loc4_[NervousOnerous.baseballFascinated(SistersRedundant.annoyingShort)]));
          }
       }
       
-      public static function tiresomeBoring(param1:int) : void
+      public static function birdsDistro(param1:KeyboardEvent) : void
       {
-         var _loc2_:Function = AgreeStrengthen.flowHarmony[param1];
+         if(RetireGrandfather.airZoo)
+         {
+            NervousOnerous.orderBaseball(NervousOnerous.orderBaseball(AgreeStrengthen.collectTiresome))(param1);
+         }
+         else
+         {
+            NervousOnerous.orderBaseball(NervousOnerous.orderBaseball(AgreeStrengthen.collectTiresome))(param1);
+         }
+      }
+      
+      public static function whisperAdvise(param1:Object) : void
+      {
+         var _loc6_:Boolean = false;
+         var _loc7_:ManyUninterested = null;
+         var _loc8_:Boolean = false;
+         var _loc9_:int = 0;
+         var _loc10_:int = 0;
+         var _loc11_:RetireGrandfather = null;
+         var _loc2_:int = param1.keyCode;
+         AgreeStrengthen.dailyIdentify = param1.ctrlKey;
+         AgreeStrengthen.nationSuzuka = param1.shiftKey;
+         AgreeStrengthen.screwAjar = param1.altKey;
+         var _loc3_:int = ChopEngine.unitKotsky();
+         var _loc4_:ChopEngine = ChopEngine.wingFamous;
+         _loc4_.earthquakeDiscussion = _loc3_;
+         if(ChopEngine.wingFamous.stage.focus is TextField)
+         {
+            if(TextField(ChopEngine.wingFamous.stage.focus).type == TextFieldType.INPUT)
+            {
+               return;
+            }
+         }
+         if(UninterestedRoom.unequalAd == _loc2_)
+         {
+            AgreeStrengthen.additionWarlike = _loc3_;
+            return;
+         }
+         if(ChopEngine.burnDetail)
+         {
+            SpyTiresome.abortiveFlash(OvenSave.comparisonSigh(_loc2_),false);
+            return;
+         }
+         var _loc5_:int = -NervousOnerous.scaleAgonizing(MarkParty.bruiseInexpensive);
+         if(AgreeStrengthen.additionCrook(_loc2_))
+         {
+            _loc5_ = AgreeStrengthen.burlyJagged;
+            if(AgreeStrengthen.taxKittens(_loc2_))
+            {
+               _loc5_ = AgreeStrengthen.warlikeChicken;
+            }
+            else if(AgreeStrengthen.armyPuncture(_loc2_))
+            {
+               _loc5_ = AgreeStrengthen.patheticAnnoying;
+            }
+            else if(AgreeStrengthen.birdsTart(_loc2_))
+            {
+               _loc5_ = AgreeStrengthen.defectiveRay;
+            }
+         }
+         if(AgreeStrengthen.upsetHumor[_loc2_])
+         {
+            delete AgreeStrengthen.upsetHumor[_loc2_];
+         }
+         if(AgreeStrengthen.knowledgeAbsurd[_loc2_])
+         {
+            WantWoman.ablazeStrengthen.saveImpolite(new SootheCommon(_loc2_,false,ChopEngine.wingFamous.inquisitiveBright.x,ChopEngine.wingFamous.inquisitiveBright.y));
+         }
+         if(_loc5_ != -MarkParty.bruiseInexpensive)
+         {
+            if(AgreeStrengthen.upsetHumor[_loc5_])
+            {
+               delete AgreeStrengthen.upsetHumor[_loc5_];
+            }
+            if(AgreeStrengthen.knowledgeAbsurd[_loc5_])
+            {
+               WantWoman.ablazeStrengthen.saveImpolite(new SootheCommon(_loc5_,false,ChopEngine.wingFamous.inquisitiveBright.x,ChopEngine.wingFamous.inquisitiveBright.y));
+            }
+         }
+         if(_loc4_.attractiveGrotesque)
+         {
+            if(UninterestedRoom.entertainingMemorize == _loc2_)
+            {
+               AlertCrash.slipRecognise(false);
+               return;
+            }
+         }
+         if(KaputRecognise.recogniseStore && VoiceIncompetent.whisperAdvise(_loc2_))
+         {
+            return;
+         }
+         if(EggnogDildo.sickThoughtless() && KaputRecognise.recogniseStore)
+         {
+            _loc6_ = NarrowPlants.wastefulHarbor;
+            for each(_loc7_ in EggnogDildo.bombStupid)
+            {
+               if(_loc7_.cloisteredHistory(_loc2_))
+               {
+                  _loc6_ = NarrowPlants.tangyProgram;
+               }
+               if(_loc5_ != -NervousOnerous.scaleAgonizing(MarkParty.bruiseInexpensive) && _loc7_.cloisteredHistory(_loc5_))
+               {
+                  _loc6_ = NarrowPlants.tangyProgram;
+               }
+               if(_loc6_)
+               {
+                  return;
+               }
+            }
+         }
+         if(_loc4_.inquisitiveBright)
+         {
+            if(_loc4_.inquisitiveBright.sandEar)
+            {
+               if(_loc5_ == AgreeStrengthen.patheticAnnoying)
+               {
+                  BombWeight.lockDeserve = NarrowPlants.wastefulHarbor;
+               }
+               else if(_loc5_ == AgreeStrengthen.burlyJagged)
+               {
+                  BombWeight.flowHarmony = NarrowPlants.wastefulHarbor;
+               }
+               else if(_loc5_ == AgreeStrengthen.warlikeChicken)
+               {
+                  BombWeight.debtEntertaining = NarrowPlants.wastefulHarbor;
+               }
+               else if(_loc5_ == AgreeStrengthen.defectiveRay)
+               {
+                  BombWeight.sandEasy = NarrowPlants.wastefulHarbor;
+               }
+            }
+            else
+            {
+               if(_loc2_ == UninterestedRoom.letterBruise)
+               {
+                  AgreeStrengthen.steerSpoil = NarrowPlants.tangyProgram;
+                  return;
+               }
+               if(_loc5_ == AgreeStrengthen.patheticAnnoying)
+               {
+                  if(RetireGrandfather.airZoo.comparisonShelf)
+                  {
+                     if(!GrinMouse.delicateCraven || ArmyPlease.squeezeExplode.skinAlert)
+                     {
+                        _loc4_.inquisitiveBright.comparisonShelf = NarrowPlants.wastefulHarbor;
+                        if(!_loc4_.inquisitiveBright.chivalrousOrdinary)
+                        {
+                           _loc4_.inquisitiveBright.adSweater(true);
+                           _loc4_.hesitantUtopian();
+                           if(EdgeTouch.curvedCold)
+                           {
+                              _loc9_ = EdgeTouch.orangesDeliver.length;
+                              _loc10_ = FaithfulBaseball.tangyHorn;
+                              while(_loc10_ < _loc9_)
+                              {
+                                 _loc11_ = EdgeTouch.orangesDeliver[_loc10_];
+                                 _loc11_.comparisonShelf = NarrowPlants.wastefulHarbor;
+                                 _loc11_.adSweater(true);
+                                 _loc10_++;
+                              }
+                           }
+                        }
+                     }
+                  }
+                  return;
+               }
+               if(AgreeStrengthen.burlyJagged == _loc5_)
+               {
+                  if(ChopEngine.wingFamous.inquisitiveBright.chivalrousOrdinary)
+                  {
+                     if(ArmyPlease.squeezeExplode.skinAlert || !GrinMouse.delicateCraven)
+                     {
+                        _loc4_.inquisitiveBright.chivalrousOrdinary = NarrowPlants.wastefulHarbor;
+                        if(!_loc4_.inquisitiveBright.comparisonShelf)
+                        {
+                           _loc4_.inquisitiveBright.adSweater(false);
+                           _loc4_.hesitantUtopian();
+                           if(EdgeTouch.curvedCold)
+                           {
+                              _loc9_ = EdgeTouch.orangesDeliver.length;
+                              _loc10_ = NervousOnerous.scaleAgonizing(FaithfulBaseball.tangyHorn);
+                              while(_loc10_ < _loc9_)
+                              {
+                                 _loc11_ = EdgeTouch.orangesDeliver[_loc10_];
+                                 _loc11_.chivalrousOrdinary = NarrowPlants.wastefulHarbor;
+                                 _loc11_.adSweater(false);
+                                 _loc10_++;
+                              }
+                           }
+                        }
+                     }
+                  }
+                  return;
+               }
+               if(_loc5_ == AgreeStrengthen.defectiveRay)
+               {
+                  if(_loc4_.hateRay == KneelDaily.grotesqueInexpensive || AgreeStrengthen.dailyIdentify)
+                  {
+                     _loc4_.inquisitiveBright.grateBurn = NarrowPlants.wastefulHarbor;
+                     return;
+                  }
+                  if(_loc4_.inquisitiveBright.grateBurn)
+                  {
+                     _loc4_.inquisitiveBright.grateBurn = NarrowPlants.wastefulHarbor;
+                     if(_loc4_.inquisitiveBright.tastyKnot || _loc4_.inquisitiveBright.groundFemale)
+                     {
+                        _loc4_.inquisitiveBright.adSweater(_loc4_.inquisitiveBright.deliverFade);
+                     }
+                     else
+                     {
+                        _loc4_.inquisitiveBright.draconianMighty(_loc4_.inquisitiveBright.deliverFade);
+                     }
+                     if(ChopEngine.wingFamous.fearfulScratch == IdeaReal.waitKotsky || EggnogDildo.sickThoughtless(FemaleComparison.hangingPushy) && EggnogDildo.feebleWhisper(FemaleComparison.hangingPushy).admireCracker() || EggnogDildo.sickThoughtless(FemaleComparison.tumbleToys) && EggnogDildo.feebleWhisper(FemaleComparison.tumbleToys).pictureSnotty)
+                     {
+                        WantWoman.ablazeStrengthen.saveImpolite(new KaputLaughable(NervousOnerous.scaleAgonizing(MarkParty.abjectPunch)));
+                     }
+                     else
+                     {
+                        WantWoman.ablazeStrengthen.saveImpolite(new KaputLaughable(NervousOnerous.scaleAgonizing(FaithfulBaseball.tangyHorn)));
+                     }
+                  }
+                  return;
+               }
+               _loc8_ = NervousOnerous.earthquakeKnowledgeable(_loc5_ == AgreeStrengthen.warlikeChicken);
+               if(NervousOnerous.earthquakeKnowledgeable(_loc8_))
+               {
+                  ChopEngine.raySoothe(NervousOnerous.advertisementBelief(NervousOnerous.scaleAgonizing(FaithfulBaseball.tangyHorn)));
+                  EdgeTouch.wailButter(false);
+                  return;
+               }
+            }
+         }
+         AgreeStrengthen.clammyVagabond(_loc2_);
+         if(_loc5_ != -MarkParty.bruiseInexpensive)
+         {
+            AgreeStrengthen.clammyVagabond(_loc5_);
+         }
+      }
+      
+      public static function clammyVagabond(param1:int) : void
+      {
+         var _loc2_:Function = AgreeStrengthen.anusYam[param1];
          if(_loc2_ != null)
          {
             _loc2_();
          }
       }
       
-      public static function annoyingShort(param1:MouseEvent) : void
+      public static function armyPuncture(param1:int) : Boolean
       {
-         if(AgreeStrengthen.grotesqueInexpensive)
+         return param1 == UninterestedRoom.voiceBrush || param1 == UninterestedRoom.tripCareless;
+      }
+      
+      public static function taxKittens(param1:int) : Boolean
+      {
+         return !AgreeStrengthen.yakBrass && param1 == UninterestedRoom.branchEngine || AgreeStrengthen.yakBrass && param1 == UninterestedRoom.dressScale || param1 == UninterestedRoom.lamentablePrecious;
+      }
+      
+      public static function thirdHarbor(param1:MouseEvent) : void
+      {
+         if(AgreeStrengthen.bruiseQuack)
          {
-            WantWoman.warlikeChicken.heatPack(new PoisonYummy(ChopEngine.knowledgeAbsurd.wealthyAuthority[HarmonyVeil.obtainableLetter],ChopEngine.knowledgeAbsurd.wealthyAuthority[GateLetters.armyPuncture(FrightenUnique.lyricalAuthority)]));
+            WantWoman.ablazeStrengthen.saveImpolite(new EasyBump(ChopEngine.wingFamous.secretBlot[FaithfulVoracious.locketCommon],ChopEngine.wingFamous.secretBlot[NervousOnerous.baseballFascinated(PleaseFour.wealthyAuthority)]));
          }
       }
       
-      public static function stripedRobin(param1:int) : void
+      public static function celeryPayment(param1:int) : Boolean
       {
-         var _loc2_:Function = AgreeStrengthen.joyousToy[param1];
+         return !AgreeStrengthen.yakBrass && param1 == UninterestedRoom.metalElite || AgreeStrengthen.yakBrass && param1 == UninterestedRoom.imperfectDecay || param1 == UninterestedRoom.roomRoom;
+      }
+      
+      public static function hatefulSmart(param1:Boolean) : void
+      {
+         AgreeStrengthen.bruiseQuack = param1;
+         if(AgreeStrengthen.bruiseQuack)
+         {
+            ChopEngine.wingFamous.secretBlot.addEventListener(MouseEvent.MOUSE_DOWN,AgreeStrengthen.thirdHarbor);
+         }
+         else
+         {
+            ChopEngine.wingFamous.secretBlot.removeEventListener(MouseEvent.MOUSE_DOWN,AgreeStrengthen.thirdHarbor);
+         }
+      }
+      
+      public static function letterYam(param1:int, param2:Boolean, param3:Boolean) : void
+      {
+         if(param2)
+         {
+            if(param3)
+            {
+               AgreeStrengthen.disgustingAblaze[param1] = NarrowPlants.tangyProgram;
+            }
+            else
+            {
+               delete AgreeStrengthen.disgustingAblaze[param1];
+            }
+         }
+         else if(param3)
+         {
+            AgreeStrengthen.knowledgeAbsurd[param1] = NarrowPlants.tangyProgram;
+         }
+         else
+         {
+            delete AgreeStrengthen.knowledgeAbsurd[param1];
+         }
+      }
+      
+      public static function dearAlive(param1:int) : Boolean
+      {
+         return param1 == AgreeStrengthen.burlyJagged || param1 == AgreeStrengthen.warlikeChicken || param1 == AgreeStrengthen.patheticAnnoying || param1 == AgreeStrengthen.defectiveRay;
+      }
+      
+      public static function fillVolcano1() : void
+      {
+         AgreeStrengthen.disgustingAblaze = new Dictionary();
+         AgreeStrengthen.knowledgeAbsurd = new Dictionary();
+         AgreeStrengthen.hatefulSmart(false);
+      }
+      
+      public static function repulsiveWaiting(param1:int) : void
+      {
+         var _loc2_:Function = AgreeStrengthen.commonWork[param1];
          if(_loc2_ != null)
          {
             _loc2_();
          }
       }
       
-      public static function rareShade1(param1:int) : Boolean
+      public static function additionCrook(param1:int) : Boolean
       {
-         return param1 == KnowledgeableError.lyricalCompany1 || param1 == KnowledgeableError.birdsTart;
+         return AgreeStrengthen.taxKittens(param1) || AgreeStrengthen.armyPuncture(param1) || AgreeStrengthen.birdsTart(param1) || AgreeStrengthen.celeryPayment(param1);
       }
       
-      public static function taxComparison1(param1:KeyboardEvent) : void
+      public static function collectTiresome(param1:KeyboardEvent) : void
       {
          var _loc9_:Boolean = false;
-         var _loc10_:LetterNation = null;
+         var _loc10_:ManyUninterested = null;
          var _loc11_:TextField = null;
          var _loc12_:Boolean = false;
          var _loc13_:* = false;
@@ -159,154 +434,154 @@ package
          var _loc19_:InviteCommon = null;
          var _loc20_:RetireGrandfather = null;
          var _loc21_:MovieClip = null;
-         var _loc2_:TextField = ChopEngine.knowledgeAbsurd.stage.focus as TextField;
+         var _loc2_:TextField = ChopEngine.wingFamous.stage.focus as TextField;
          if(_loc2_ && _loc2_.type == TextFieldType.INPUT)
          {
             return;
          }
-         var _loc3_:int = ChopEngine.orderBaseball();
-         var _loc4_:ChopEngine = ChopEngine.knowledgeAbsurd;
+         var _loc3_:int = ChopEngine.unitKotsky();
+         var _loc4_:ChopEngine = ChopEngine.wingFamous;
          var _loc5_:int = param1.keyCode;
-         AgreeStrengthen.skinAlert = param1.ctrlKey;
-         AgreeStrengthen.pictureSnotty = param1.shiftKey;
-         AgreeStrengthen.colorClover = param1.altKey;
-         if(ChopEngine.spoonAnus)
+         AgreeStrengthen.dailyIdentify = param1.ctrlKey;
+         AgreeStrengthen.nationSuzuka = param1.shiftKey;
+         AgreeStrengthen.screwAjar = param1.altKey;
+         if(ChopEngine.burnDetail)
          {
-            TraceWrathful.dailyIdentify(TabooShut.squeamishPerform(_loc5_),true);
+            SpyTiresome.abortiveFlash(OvenSave.comparisonSigh(_loc5_),true);
             return;
          }
-         if(_loc5_ == KnowledgeableError.orangesDeliver && param1.ctrlKey)
+         if(_loc5_ == UninterestedRoom.awakeProse && param1.ctrlKey)
          {
-            _loc4_.dressScale();
+            _loc4_.shortDraconian();
             return;
          }
-         if(_loc5_ == ExoticMemorize.inconclusiveOranges() && AgreeStrengthen.skinAlert && AgreeStrengthen.pictureSnotty)
+         if(_loc5_ == IdeaTeeny.evasiveSleepy() && AgreeStrengthen.dailyIdentify && AgreeStrengthen.nationSuzuka)
          {
-            SeriousLamp.awakeProse();
+            ShockSparkle.yummyUnequal();
             return;
          }
-         if(ChopEngine.tastyKnot.tangyProgram && _loc5_ == KnowledgeableError.lyricalCompany1 && AgreeStrengthen.skinAlert && AgreeStrengthen.pictureSnotty && SincereWhisper.knowledgeAbsurd.parent)
+         if(ChopEngine.verdantBelief.clammyBaseball && _loc5_ == UninterestedRoom.drownAdvertisement && AgreeStrengthen.dailyIdentify && AgreeStrengthen.nationSuzuka && HesitantCactus.wingFamous.parent)
          {
-            if(SincereWhisper.knowledgeAbsurd is GeneralCrime)
+            if(HesitantCactus.wingFamous is SugarCold)
             {
-               (SincereWhisper.knowledgeAbsurd as GeneralCrime).skiAnalyze();
+               (HesitantCactus.wingFamous as SugarCold).thunderZip();
             }
          }
-         if(_loc5_ == KnowledgeableError.draconianMighty1 && AgreeStrengthen.skinAlert && AgreeStrengthen.pictureSnotty && QueueSpiky.lamentablePrecious)
+         if(_loc5_ == UninterestedRoom.limitCrash && AgreeStrengthen.dailyIdentify && AgreeStrengthen.nationSuzuka && AdaptableSand.snakesBird)
          {
-            if(SincereWhisper.knowledgeAbsurd && SincereWhisper.knowledgeAbsurd.parent)
+            if(HesitantCactus.wingFamous && HesitantCactus.wingFamous.parent)
             {
-               SincereWhisper.knowledgeAbsurd.visible = !SincereWhisper.knowledgeAbsurd.visible;
+               HesitantCactus.wingFamous.visible = !HesitantCactus.wingFamous.visible;
                return;
             }
          }
-         if(_loc5_ == KnowledgeableError.imperfectPipka && AgreeStrengthen.skinAlert && AgreeStrengthen.pictureSnotty)
+         if(_loc5_ == UninterestedRoom.queueLook && AgreeStrengthen.dailyIdentify && AgreeStrengthen.nationSuzuka)
          {
-            if(SincereWhisper.knowledgeAbsurd && SincereWhisper.knowledgeAbsurd.parent)
+            if(HesitantCactus.wingFamous && HesitantCactus.wingFamous.parent)
             {
-               WantWoman.cuteAdvice.heatPack(LipAwake.mittenLong(!ChopEngine.birdEntertaining));
+               WantWoman.flowLamentable.saveImpolite(BetterEnergetic.funnyVolcano(!ChopEngine.treatLocket));
                return;
             }
          }
-         var _loc6_:int = -GateLetters.sockRub(FrightenUnique.drownAdvertisement);
-         if(AgreeStrengthen.cloisteredHistory1(_loc5_))
+         var _loc6_:int = -NervousOnerous.scaleAgonizing(MarkParty.bruiseInexpensive);
+         if(AgreeStrengthen.additionCrook(_loc5_))
          {
-            _loc6_ = AgreeStrengthen.yakBrass;
-            if(AgreeStrengthen.afternoonSummer(_loc5_))
+            _loc6_ = AgreeStrengthen.burlyJagged;
+            if(AgreeStrengthen.taxKittens(_loc5_))
             {
-               _loc6_ = AgreeStrengthen.repulsiveWaiting;
+               _loc6_ = AgreeStrengthen.warlikeChicken;
             }
-            else if(AgreeStrengthen.debtEntertaining(_loc5_))
+            else if(AgreeStrengthen.armyPuncture(_loc5_))
+            {
+               _loc6_ = AgreeStrengthen.patheticAnnoying;
+            }
+            else if(AgreeStrengthen.birdsTart(_loc5_))
             {
                _loc6_ = AgreeStrengthen.defectiveRay;
             }
-            else if(AgreeStrengthen.rareShade1(_loc5_))
+         }
+         if(AgreeStrengthen.disgustingAblaze[_loc5_] && !AgreeStrengthen.upsetHumor[_loc5_])
+         {
+            AgreeStrengthen.upsetHumor[_loc5_] = NarrowPlants.tangyProgram;
+            WantWoman.ablazeStrengthen.saveImpolite(new SootheCommon(_loc5_,true,ChopEngine.wingFamous.inquisitiveBright.x,ChopEngine.wingFamous.inquisitiveBright.y));
+         }
+         if(_loc6_ != -MarkParty.bruiseInexpensive)
+         {
+            if(AgreeStrengthen.disgustingAblaze[_loc6_] && !AgreeStrengthen.upsetHumor[_loc6_])
             {
-               _loc6_ = AgreeStrengthen.cribPleasant;
+               AgreeStrengthen.upsetHumor[_loc6_] = NarrowPlants.tangyProgram;
+               WantWoman.ablazeStrengthen.saveImpolite(new SootheCommon(_loc6_,true,ChopEngine.wingFamous.inquisitiveBright.x,ChopEngine.wingFamous.inquisitiveBright.y));
             }
          }
-         if(AgreeStrengthen.tumbleToys[_loc5_] && !AgreeStrengthen.inventWasteful[_loc5_])
+         if(ChopEngine.wingFamous.stage.focus && ChopEngine.wingFamous.stage.focus is TextField && (ChopEngine.wingFamous.stage.focus as TextField).type == TextFieldType.INPUT)
          {
-            AgreeStrengthen.inventWasteful[_loc5_] = AmuseFrighten.secretBlot;
-            WantWoman.warlikeChicken.heatPack(new SootheCommon(_loc5_,true,ChopEngine.knowledgeAbsurd.tumbleAdhesive.x,ChopEngine.knowledgeAbsurd.tumbleAdhesive.y));
-         }
-         if(_loc6_ != -GateLetters.sockRub(FrightenUnique.drownAdvertisement))
-         {
-            if(AgreeStrengthen.tumbleToys[_loc6_] && !AgreeStrengthen.inventWasteful[_loc6_])
+            if(UninterestedRoom.unequalAd == _loc5_)
             {
-               AgreeStrengthen.inventWasteful[_loc6_] = AmuseFrighten.secretBlot;
-               WantWoman.warlikeChicken.heatPack(new SootheCommon(_loc6_,true,ChopEngine.knowledgeAbsurd.tumbleAdhesive.x,ChopEngine.knowledgeAbsurd.tumbleAdhesive.y));
-            }
-         }
-         if(ChopEngine.knowledgeAbsurd.stage.focus && ChopEngine.knowledgeAbsurd.stage.focus is TextField && (ChopEngine.knowledgeAbsurd.stage.focus as TextField).type == TextFieldType.INPUT)
-         {
-            if(_loc5_ == KnowledgeableError.thirdHarbor)
-            {
-               if(ChopEngine.knowledgeAbsurd.verdantBelief._Editeur._OptionValidation._C == ChopEngine.knowledgeAbsurd.stage.focus)
+               if(ChopEngine.wingFamous.stage.focus == ChopEngine.wingFamous.swankyFade._Editeur._OptionValidation._C)
                {
-                  ChopEngine.knowledgeAbsurd.verdantBelief._Editeur._OptionValidation.Clique_Charger();
+                  ChopEngine.wingFamous.swankyFade._Editeur._OptionValidation.Clique_Charger();
                }
             }
             return;
          }
-         if(_loc5_ == KnowledgeableError.supplyWasteful && !AgreeStrengthen.pictureSnotty && !AgreeStrengthen.skinAlert)
+         if(_loc5_ == UninterestedRoom.boundlessFour && !AgreeStrengthen.nationSuzuka && !AgreeStrengthen.dailyIdentify)
          {
-            ShadeElite.awakeProse(!ShadeElite.unitKotsky());
+            CrookedJagged.yummyUnequal(!CrookedJagged.stripedRobin());
             return;
          }
-         if((_loc5_ == KnowledgeableError.grateBurn || _loc5_ == BashfulUnwritten.admireCracker1) && ClassStormy.limitCrash)
+         if((_loc5_ == UninterestedRoom.wastefulGullible || _loc5_ == NervousOnerous.scaleAgonizing(SpaceIdea.treatBlot1)) && TrousersLimit.tumbleAdhesive)
          {
-            DraconianThrill.awakeProse();
+            GreedyFix.yummyUnequal();
             return;
          }
-         if(KnowledgeableError.gullibleDeserve == _loc5_)
+         if(UninterestedRoom.acousticWork == _loc5_)
          {
-            if(RobinCrowded.unitKotsky() && RobinCrowded.anusYam())
+            if(SpotDecay.stripedRobin() && SpotDecay.boundaryMachine())
             {
                return;
             }
-            if(VerdantMeasure.unitKotsky() && VerdantMeasure.anusYam())
+            if(ExplainChicken.stripedRobin() && ExplainChicken.boundaryMachine())
             {
                return;
             }
-            if(ClassStormy.limitCrash && DraconianThrill.unitKotsky() && DraconianThrill.anusYam())
+            if(TrousersLimit.tumbleAdhesive && GreedyFix.stripedRobin() && GreedyFix.boundaryMachine())
             {
                return;
             }
-            if(QuackBranch.unitKotsky())
+            if(PushyDebt.stripedRobin())
             {
-               QuackBranch.anusYam();
+               PushyDebt.boundaryMachine();
                return;
             }
-            if(BabiesSymptomatic.comparisonShelf())
+            if(SugarAuthority.gamyVoracious())
             {
-               BabiesSymptomatic.anusYam();
+               SugarAuthority.boundaryMachine();
                return;
             }
          }
-         if(ChopEngine.knowledgeAbsurd.deliverFade)
+         if(ChopEngine.wingFamous.attractiveGrotesque)
          {
-            if(HarmonyTart.abjectPunch(_loc5_))
+            if(AlertCrash.cribPleasant(_loc5_))
             {
                return;
             }
          }
-         if(ShopPicture.airZoo && ConditionBlot.taxComparison1(_loc5_))
+         if(KaputRecognise.recogniseStore && VoiceIncompetent.collectTiresome(_loc5_))
          {
             return;
          }
-         if(EdgeHeartbreaking.attractiveGrotesque() && ShopPicture.airZoo)
+         if(EggnogDildo.sickThoughtless() && KaputRecognise.recogniseStore)
          {
-            _loc9_ = AmuseFrighten.clubGrain;
-            for each(_loc10_ in EdgeHeartbreaking.roomRoom)
+            _loc9_ = NarrowPlants.wastefulHarbor;
+            for each(_loc10_ in EggnogDildo.bombStupid)
             {
-               if(_loc10_.storyBrush1(_loc5_))
+               if(_loc10_.pictureBury(_loc5_))
                {
-                  _loc9_ = AmuseFrighten.secretBlot;
+                  _loc9_ = NarrowPlants.tangyProgram;
                }
-               if(_loc6_ != -FrightenUnique.drownAdvertisement && _loc10_.storyBrush1(_loc6_))
+               if(_loc6_ != -MarkParty.bruiseInexpensive && _loc10_.pictureBury(_loc6_))
                {
-                  _loc9_ = AmuseFrighten.secretBlot;
+                  _loc9_ = NarrowPlants.tangyProgram;
                }
                if(_loc9_)
                {
@@ -314,525 +589,250 @@ package
                }
             }
          }
-         if(_loc5_ == KnowledgeableError.thirdHarbor)
+         if(_loc5_ == UninterestedRoom.unequalAd)
          {
-            if(ChopEngine.knowledgeAbsurd.stage.focus)
+            if(ChopEngine.wingFamous.stage.focus)
             {
-               _loc11_ = ChopEngine.knowledgeAbsurd.stage.focus as TextField;
-               if(_loc11_ && _loc11_.type == KnowledgeLate.inexpensiveNation)
+               _loc11_ = ChopEngine.wingFamous.stage.focus as TextField;
+               if(_loc11_ && _loc11_.type == NervousOnerous.baseballFascinated(IdeaTeeny.ludicrousDoctor))
                {
                   return;
                }
             }
             return;
          }
-         if(_loc5_ == KnowledgeableError.gullibleDeserve && ChopEngine.shortDraconian)
+         if(_loc5_ == UninterestedRoom.acousticWork && ChopEngine.personInterrupt)
          {
-            HateAnnoy.flowLamentable();
+            GrinMouse.realizeBehavior();
             return;
          }
-         if(RetireGrandfather.screwAjar)
+         if(RetireGrandfather.airZoo)
          {
-            if(_loc5_ == KnowledgeableError.fearfulScratch)
+            if(_loc5_ == UninterestedRoom.imperfectPipka)
             {
-               _loc12_ = !AgreeStrengthen.additionCrook[_loc5_] || GateLetters.fadeSugar(_loc3_ - AgreeStrengthen.additionCrook[_loc5_] > GateLetters.sockRub(DivergentDinner.abortiveFlash));
-               if(GateLetters.fadeSugar(GateLetters.fadeSugar(_loc12_)))
+               _loc12_ = !AgreeStrengthen.modernSuper[_loc5_] || _loc3_ - AgreeStrengthen.modernSuper[_loc5_] > SupplyMountain.whiteGrotesque;
+               if(_loc12_)
                {
-                  AgreeStrengthen.additionCrook[_loc5_] = _loc3_;
-                  _loc13_ = !(KnowledgeHarmony.knowledgeAbsurd && KnowledgeHarmony.knowledgeAbsurd.parent);
-                  GateLetters.baseballFascinated(KnowledgeHarmony.awakeProse)(GateLetters.fadeSugar(_loc13_));
+                  AgreeStrengthen.modernSuper[_loc5_] = _loc3_;
+                  _loc13_ = !(ZincSmile.wingFamous && ZincSmile.wingFamous.parent);
+                  NervousOnerous.orderBaseball(NervousOnerous.orderBaseball(ZincSmile.yummyUnequal))(_loc13_);
                }
                return;
             }
-            if(ChopEngine.knowledgeAbsurd.tumbleAdhesive.dislikeAgree)
+            if(ChopEngine.wingFamous.inquisitiveBright.sandEar)
             {
-               if(_loc6_ == AgreeStrengthen.defectiveRay)
+               if(AgreeStrengthen.patheticAnnoying == _loc6_)
                {
-                  GrinOnerous.steerSpoil = AmuseFrighten.secretBlot;
+                  BombWeight.lockDeserve = NarrowPlants.tangyProgram;
                }
-               else if(_loc6_ == AgreeStrengthen.yakBrass)
+               else if(_loc6_ == AgreeStrengthen.burlyJagged)
                {
-                  GrinOnerous.dearAlive = AmuseFrighten.secretBlot;
+                  BombWeight.flowHarmony = NarrowPlants.tangyProgram;
                }
-               else if(_loc6_ == AgreeStrengthen.repulsiveWaiting)
+               else if(AgreeStrengthen.warlikeChicken == _loc6_)
                {
-                  GrinOnerous.queueLook = AmuseFrighten.secretBlot;
+                  BombWeight.debtEntertaining = NarrowPlants.tangyProgram;
                }
-               else if(_loc6_ == AgreeStrengthen.cribPleasant)
+               else if(_loc6_ == AgreeStrengthen.defectiveRay)
                {
-                  GrinOnerous.weightSki = AmuseFrighten.secretBlot;
+                  BombWeight.sandEasy = NarrowPlants.tangyProgram;
                }
             }
             else
             {
-               if(_loc5_ >= ChinSnakes.wanderingTumble && _loc5_ <= GateLetters.sockRub(AttractiveSugar.fillVolcano))
+               if(_loc5_ >= NervousOnerous.scaleAgonizing(FaithfulVoracious.lateGrandfather) && _loc5_ <= NervousOnerous.scaleAgonizing(SpaceIdea.colorClover))
                {
-                  if(!ChopEngine.knowledgeAbsurd.earUnique1 || ChopEngine.knowledgeAbsurd.earUnique1 && (param1.shiftKey || param1.ctrlKey || param1.altKey))
+                  if(!ChopEngine.wingFamous.skiAnalyze || ChopEngine.wingFamous.skiAnalyze && (param1.shiftKey || param1.ctrlKey || param1.altKey))
                   {
-                     if(_loc3_ - AgreeStrengthen.recogniseStore < GateLetters.sockRub(BashfulUnwritten.whisperAdvise))
+                     if(_loc3_ - AgreeStrengthen.wanderingTumble < NervousOnerous.scaleAgonizing(KneelDaily.obtainableLetter))
                      {
                         return;
                      }
-                     AgreeStrengthen.recogniseStore = _loc3_;
-                     _loc15_ = _loc5_ == ChinSnakes.wanderingTumble?int(GateLetters.sockRub(ScaleTemper.measlyHarbor)):int(_loc5_ - GateLetters.sockRub(AdditionVague.advertisementBelief));
-                     if(!DeliverTasty.unequalGirl[_loc15_])
+                     AgreeStrengthen.wanderingTumble = _loc3_;
+                     _loc15_ = _loc5_ == FaithfulVoracious.lateGrandfather?int(NervousOnerous.scaleAgonizing(RepulsiveDear.ignorantPail)):int(_loc5_ - RoomAddition.riverLetter);
+                     if(!DeliverTasty.abjectProud[_loc15_])
                      {
                         return;
                      }
-                     ChopEngine.knowledgeAbsurd.tumbleAdhesive.wastefulGullible(_loc15_);
-                     WantWoman.warlikeChicken.heatPack(new PartyVoice(_loc15_));
+                     ChopEngine.wingFamous.inquisitiveBright.lyricalAuthority(_loc15_);
+                     WantWoman.ablazeStrengthen.saveImpolite(new PrepareKey(_loc15_));
                      return;
                   }
                }
-               _loc14_ = GateLetters.fadeSugar(KnowledgeableError.orangesDeliver == _loc5_ && GateLetters.fadeSugar(ChopEngine.knowledgeAbsurd.earUnique1) && !AgreeStrengthen.skinAlert);
-               if(GateLetters.fadeSugar(GateLetters.fadeSugar(_loc14_)))
+               _loc14_ = NervousOnerous.earthquakeKnowledgeable(UninterestedRoom.awakeProse == _loc5_) && NervousOnerous.earthquakeKnowledgeable(ChopEngine.wingFamous.skiAnalyze) && NervousOnerous.earthquakeKnowledgeable(!AgreeStrengthen.dailyIdentify);
+               if(NervousOnerous.earthquakeKnowledgeable(_loc14_))
                {
-                  if(GateLetters.fadeSugar(SlowTemper.jokeUndress()))
+                  if(NervousOnerous.earthquakeKnowledgeable(DistroPlease.weightSki()))
                   {
-                     ChopEngine.clammyBaseball(MarkEvasive.wingFamous);
-                     SlowTemper.branchEngine();
+                     ChopEngine.raySoothe(MarkParty.measlyHarbor);
+                     DistroPlease.jokeUndress();
                   }
                   else
                   {
-                     ChopEngine.clammyBaseball(_loc5_);
-                     SlowTemper.comparisonSigh1(ShopPicture.airZoo[HarmonyVeil.obtainableLetter],ShopPicture.airZoo[GateLetters.armyPuncture(FrightenUnique.lyricalAuthority)]);
+                     ChopEngine.raySoothe(_loc5_);
+                     DistroPlease.memorizeJagged1(KaputRecognise.recogniseStore[NervousOnerous.baseballFascinated(FaithfulVoracious.locketCommon)],NervousOnerous.inventHuge(KaputRecognise.recogniseStore)[NervousOnerous.baseballFascinated(PleaseFour.wealthyAuthority)]);
                   }
                }
-               if(GateLetters.fadeSugar(ChopEngine.knowledgeAbsurd.earUnique1) && GateLetters.fadeSugar(_loc5_ == KnowledgeableError.wastefulHarbor))
+               if(NervousOnerous.earthquakeKnowledgeable(ChopEngine.wingFamous.skiAnalyze) && NervousOnerous.earthquakeKnowledgeable(NervousOnerous.earthquakeKnowledgeable(_loc5_ == UninterestedRoom.clubGrain)))
                {
-                  _loc16_ = GateLetters.fadeSugar(GateLetters.fadeSugar(HateAnnoy.wallCard));
-                  if(HateAnnoy.evasiveLanguid && !GateLetters.fadeSugar(_loc16_))
+                  _loc16_ = NervousOnerous.earthquakeKnowledgeable(NervousOnerous.earthquakeKnowledgeable(GrinMouse.delicateCraven));
+                  if(GrinMouse.inconclusiveOranges && !NervousOnerous.earthquakeKnowledgeable(NervousOnerous.earthquakeKnowledgeable(_loc16_)))
                   {
-                     HateAnnoy.evasiveLanguid.seedGreedy(GateLetters.sockRub(GateLetters.sockRub(ChinSnakes.chivalrousOrdinary)),GateLetters.fadeSugar(true));
+                     GrinMouse.inconclusiveOranges.inventWasteful(NervousOnerous.scaleAgonizing(NervousOnerous.scaleAgonizing(ActionThrill.beadClammy)),NervousOnerous.earthquakeKnowledgeable(NervousOnerous.earthquakeKnowledgeable(true)));
                   }
                }
-               else if(ChopEngine.knowledgeAbsurd.earUnique1 && (GateLetters.fadeSugar(GateLetters.fadeSugar(_loc5_ == KnowledgeableError.taxKittens)) && !AgreeStrengthen.burnDetail || _loc5_ == KnowledgeableError.inventHuge && AgreeStrengthen.burnDetail))
+               else if(NervousOnerous.earthquakeKnowledgeable(ChopEngine.wingFamous.skiAnalyze) && (NervousOnerous.earthquakeKnowledgeable(UninterestedRoom.dressScale == _loc5_) && !AgreeStrengthen.yakBrass || _loc5_ == UninterestedRoom.branchEngine && AgreeStrengthen.yakBrass))
                {
-                  if(GateLetters.fadeSugar(HateAnnoy.evasiveLanguid) && !GateLetters.fadeSugar(HateAnnoy.wallCard))
+                  if(GrinMouse.inconclusiveOranges && !GrinMouse.delicateCraven)
                   {
-                     _loc17_ = GateLetters.fadeSugar(GateLetters.fadeSugar(true));
-                     HateAnnoy.evasiveLanguid.seedGreedy(GateLetters.sockRub(-ChinSnakes.chivalrousOrdinary),_loc17_);
+                     _loc17_ = NervousOnerous.earthquakeKnowledgeable(true);
+                     GrinMouse.inconclusiveOranges.inventWasteful(NervousOnerous.scaleAgonizing(NervousOnerous.scaleAgonizing(-ActionThrill.beadClammy)),_loc17_);
                   }
                }
-               else if(ChopEngine.knowledgeAbsurd.earUnique1 && _loc5_ >= AdditionVague.advertisementBelief && _loc5_ <= GateLetters.sockRub(AttractiveSugar.fillVolcano))
+               else if(ChopEngine.wingFamous.skiAnalyze && _loc5_ >= RoomAddition.riverLetter && _loc5_ <= SpaceIdea.colorClover)
                {
-                  HateAnnoy.firstDetail(_loc5_ - AdditionVague.advertisementBelief);
+                  GrinMouse.birdEntertaining1(_loc5_ - NervousOnerous.scaleAgonizing(RoomAddition.riverLetter));
                }
-               if(_loc5_ == KnowledgeableError.patheticAnnoying)
+               if(UninterestedRoom.entertainingMemorize == _loc5_)
                {
-                  LabelCollect.lateGrandfather();
+                  HesitantBasin.afternoonSummer();
                }
-               if(KnowledgeableError.tangyHorn == _loc5_)
+               if(_loc5_ == UninterestedRoom.letterBruise)
                {
-                  if(AgreeStrengthen.nestFlock)
+                  if(AgreeStrengthen.steerSpoil)
                   {
-                     AgreeStrengthen.nestFlock = AmuseFrighten.clubGrain;
-                     HistoryShut.railwayChivalrous(GateLetters.sockRub(ScaleTemper.measlyHarbor));
+                     AgreeStrengthen.steerSpoil = NarrowPlants.wastefulHarbor;
+                     FarmBasin.firstDetail(RepulsiveDear.ignorantPail);
                   }
                   return;
                }
             }
          }
-         var _loc7_:Boolean = GateLetters.fadeSugar(ChopEngine.knowledgeAbsurd.earUnique1);
-         if(GateLetters.fadeSugar(_loc7_))
+         var _loc7_:Boolean = NervousOnerous.earthquakeKnowledgeable(ChopEngine.wingFamous.skiAnalyze);
+         if(NervousOnerous.earthquakeKnowledgeable(_loc7_))
          {
-            _loc18_ = GateLetters.fadeSugar(HateAnnoy.wallCard);
-            ChopEngine.clammyBaseball(!!_loc7_?_loc5_:GateLetters.sockRub(RequestCactus.whiteGrotesque));
-            if(!GateLetters.fadeSugar(_loc18_) && !GateLetters.fadeSugar(ChopEngine.knowledgeAbsurd.letterBruise) && (_loc5_ == GateLetters.sockRub(FourYell.funnyVolcano) || _loc5_ == GateLetters.sockRub(ToothpasteCloistered.personInterrupt) || _loc5_ == GateLetters.sockRub(OrangeUnequal.letterLackadaisical) || _loc5_ == GateLetters.sockRub(ExoticMemorize.spookyPinus1) || _loc5_ == GateLetters.sockRub(ExpansionTour.tripCareless)))
+            _loc18_ = NervousOnerous.earthquakeKnowledgeable(NervousOnerous.earthquakeKnowledgeable(GrinMouse.delicateCraven));
+            ChopEngine.raySoothe(!!_loc7_?_loc5_:NervousOnerous.scaleAgonizing(FaithfulVoracious.fadeSugar));
+            if(!NervousOnerous.earthquakeKnowledgeable(NervousOnerous.earthquakeKnowledgeable(_loc18_)) && !ChopEngine.wingFamous.heatPack && (_loc5_ == NervousOnerous.scaleAgonizing(ActionThrill.rareShade) || _loc5_ == KnotModern.dislikeAgree || _loc5_ == ActionThrill.whistleRobin || _loc5_ == NervousOnerous.scaleAgonizing(KneelDaily.huskyCheat) || _loc5_ == NervousOnerous.scaleAgonizing(FaithfulVoracious.earthquakeStormy)))
             {
-               if(HateAnnoy.evasiveLanguid)
+               if(GrinMouse.inconclusiveOranges)
                {
-                  if(KnowledgeableError.franticSpot == _loc5_)
+                  if(_loc5_ == UninterestedRoom.taxComparison)
                   {
-                     WretchedVague.competitionAd(CuteChangeable.nationSuzuka);
+                     TripInexpensive.countSuccessful(HuskyWash.didacticJagged);
                   }
-                  else if(KnowledgeableError.sandEar == _loc5_)
+                  else if(_loc5_ == UninterestedRoom.admireHobbies)
                   {
-                     WretchedVague.competitionAd(CuteChangeable.swankyFade);
+                     TripInexpensive.countSuccessful(HuskyWash.listDistro);
                   }
-                  else if(_loc5_ == KnowledgeableError.jellyList)
+                  else if(_loc5_ == UninterestedRoom.privateAlanson)
                   {
-                     WretchedVague.competitionAd(CuteChangeable.brightTaboo);
+                     TripInexpensive.countSuccessful(HuskyWash.nestFlock);
                   }
-                  else if(_loc5_ == KnowledgeableError.curvedCold)
+                  else if(_loc5_ == UninterestedRoom.ploughYummy)
                   {
-                     WretchedVague.competitionAd(CuteChangeable.evasiveSleepy1);
+                     TripInexpensive.countSuccessful(HuskyWash.vivaciousMatch);
                   }
-                  else if(KnowledgeableError.letterYam == _loc5_)
+                  else if(_loc5_ == UninterestedRoom.stupidSpy)
                   {
-                     WretchedVague.competitionAd(CuteChangeable.ploughYummy);
+                     TripInexpensive.countSuccessful(HuskyWash.authorityWipe);
                   }
                   return;
                }
             }
-            else if(_loc5_ == KnowledgeableError.patheticAnnoying && !HateAnnoy.wallCard)
+            else if(_loc5_ == UninterestedRoom.entertainingMemorize && !GrinMouse.delicateCraven)
             {
-               HateAnnoy.inquisitiveBright1();
+               GrinMouse.evasiveLanguid();
             }
          }
-         if(ChopEngine.knowledgeAbsurd.verdantBelief && ChopEngine.knowledgeAbsurd.verdantBelief._Editeur.parent)
+         if(ChopEngine.wingFamous.swankyFade && ChopEngine.wingFamous.swankyFade._Editeur.parent)
          {
-            if(KnowledgeableError.gamyVoracious == _loc5_)
+            if(UninterestedRoom.eyesMend == _loc5_)
             {
-               if(ChopEngine.knowledgeAbsurd.verdantBelief._Editeur._OSelection.parent)
+               if(ChopEngine.wingFamous.swankyFade._Editeur._OSelection.parent)
                {
-                  ChopEngine.knowledgeAbsurd.verdantBelief._Editeur._OSelection.Clique_Suppr();
+                  ChopEngine.wingFamous.swankyFade._Editeur._OSelection.Clique_Suppr();
                }
                return;
             }
-            if(_loc5_ == KnowledgeableError.boundaryMachine)
+            if(UninterestedRoom.voiceBrush == _loc5_)
             {
-               if(ChopEngine.knowledgeAbsurd.verdantBelief._Editeur._OSelection.parent)
+               if(ChopEngine.wingFamous.swankyFade._Editeur._OSelection.parent)
                {
-                  ChopEngine.knowledgeAbsurd.verdantBelief._Editeur._OSelection.dupliquer();
+                  ChopEngine.wingFamous.swankyFade._Editeur._OSelection.dupliquer();
                }
                return;
             }
          }
-         var _loc8_:* = !GateLetters.fadeSugar(ClassStormy.shopHeal != true);
-         if(_loc8_)
+         var _loc8_:* = !NervousOnerous.earthquakeKnowledgeable(NervousOnerous.earthquakeKnowledgeable(NervousOnerous.earthquakeKnowledgeable(TrousersLimit.momentousFrantic) != true));
+         if(NervousOnerous.earthquakeKnowledgeable(_loc8_))
          {
-            if(_loc5_ == KnowledgeableError.resoluteAgree)
+            if(_loc5_ == UninterestedRoom.jellyList)
             {
-               ChopEngine.knowledgeAbsurd.delicateCraven();
+               ChopEngine.wingFamous.programAir();
                return;
             }
-            if(KnowledgeableError.passLabel == _loc5_)
+            if(_loc5_ == UninterestedRoom.passLabel)
             {
-               ChopEngine.knowledgeAbsurd.lockDeserve();
+               ChopEngine.wingFamous.spookyPinus();
                return;
             }
          }
-         if(PossessKnife.programAir == PlantsBoast.upsetHumor && (_loc5_ == KnowledgeableError.grateBurn || _loc5_ == KnowledgeableError.squeezeExplode || _loc5_ == KnowledgeableError.draconianMighty1))
+         if(EdgeTouch.analyzeHarbor == PlantsBoast.unequalGirl && (_loc5_ == UninterestedRoom.wastefulGullible || _loc5_ == UninterestedRoom.stemNew || _loc5_ == UninterestedRoom.limitCrash))
          {
-            if(PossessKnife.ignorantPail.length > BashfulUnwritten.whisperAdvise)
+            if(KneelDaily.obtainableLetter < EdgeTouch.orangesDeliver.length)
             {
                return;
             }
             _loc19_ = new InviteCommon();
-            _loc19_.commonWork = !!param1.shiftKey?int(GateLetters.sockRub(FrightenUnique.drownAdvertisement)):int(ForkBit.collectTiresome1);
-            _loc20_ = ChopEngine.knowledgeAbsurd.saveImpolite(_loc19_,false);
-            _loc20_.countSuccessful(true);
-            _loc21_ = ChopEngine.knowledgeAbsurd.wealthyAuthority;
-            _loc20_.bashfulTeeny.acousticWork(new JarTow((_loc21_[GateLetters.armyPuncture(HarmonyVeil.obtainableLetter)] + AttractiveSugar.metalElite()) / FillLegs.admireHobbies(),(_loc21_[GateLetters.armyPuncture(FrightenUnique.lyricalAuthority)] + AttractiveSugar.metalElite()) * FranticCrook.snakesBird() / FillLegs.admireHobbies()),AttractiveSugar.metalElite());
-            ShopPicture.airZoo.bumpReject.addChild(_loc20_);
-            _loc20_.celeryPayment(DailyCold.workKindhearted() < FranticCrook.earthquakeStormy());
-            _loc20_.ablazeStrengthen(null,VulgarHilarious.momentousFrantic);
-            _loc20_.ludicrousDoctor = ScaleTemper.authorityWipe() + KnowledgeLate.windTeaching() * DailyCold.workKindhearted();
-            _loc20_.thunderZip = AmuseFrighten.secretBlot;
-            _loc20_.bashfulTeeny.hatefulSmart(false);
-            PossessKnife.imperfectDecay = AmuseFrighten.secretBlot;
-            PossessKnife.ignorantPail.push(_loc20_);
+            _loc19_.bumpReject = !!param1.shiftKey?int(NervousOnerous.scaleAgonizing(MarkParty.bruiseInexpensive)):int(NervousOnerous.scaleAgonizing(FaithfulBaseball.tangyHorn));
+            _loc20_ = ChopEngine.wingFamous.tiresomeBoring(_loc19_,false);
+            _loc20_.lyricalCompany(true);
+            _loc21_ = ChopEngine.wingFamous.secretBlot;
+            _loc20_.franticSpot.ablazeHistorical(new CulturedAutomatic((_loc21_[NervousOnerous.baseballFascinated(FaithfulVoracious.locketCommon)] + SupplyMountain.joyousToy()) / FaithfulBaseball.annoyNeighborly(),_loc21_[NervousOnerous.baseballFascinated(PleaseFour.wealthyAuthority)] * KnotModern.spoonAnus() / FaithfulBaseball.annoyNeighborly()),SupplyMountain.joyousToy());
+            KaputRecognise.recogniseStore.windTeaching.addChild(_loc20_);
+            _loc20_.storeTrip(OrangeDecay.storyBrush() < OrangesQueue.sockRub());
+            _loc20_.letterLackadaisical(null,VulgarHilarious.bashfulTeeny);
+            _loc20_.uninterestedDebt = SpaceIdea.shopHeal() + NervousPromise.workKindhearted() * OrangeDecay.storyBrush();
+            _loc20_.earUnique = NarrowPlants.tangyProgram;
+            _loc20_.franticSpot.gullibleDeserve(false);
+            EdgeTouch.curvedCold = NarrowPlants.tangyProgram;
+            EdgeTouch.orangesDeliver.push(_loc20_);
             return;
          }
-         AgreeStrengthen.tiresomeBoring(_loc5_);
-         if(_loc6_ != -GateLetters.sockRub(FrightenUnique.drownAdvertisement))
+         AgreeStrengthen.repulsiveWaiting(_loc5_);
+         if(_loc6_ != -MarkParty.bruiseInexpensive)
          {
-            AgreeStrengthen.tiresomeBoring(_loc6_);
+            AgreeStrengthen.repulsiveWaiting(_loc6_);
          }
       }
       
-      public static function yummyUnequal1(param1:int, param2:Boolean, param3:Boolean) : void
+      public static function birdsTart(param1:int) : Boolean
       {
-         if(param2)
-         {
-            if(param3)
-            {
-               AgreeStrengthen.tumbleToys[param1] = AmuseFrighten.secretBlot;
-            }
-            else
-            {
-               delete AgreeStrengthen.tumbleToys[param1];
-            }
-         }
-         else if(param3)
-         {
-            AgreeStrengthen.hateRay[param1] = AmuseFrighten.secretBlot;
-         }
-         else
-         {
-            delete AgreeStrengthen.hateRay[param1];
-         }
+         return param1 == UninterestedRoom.drownAdvertisement || param1 == UninterestedRoom.brightTaboo;
       }
       
-      public static function treatLocket(param1:KeyboardEvent) : void
+      public static function Initialisation() : void
       {
-         if(GateLetters.voiceBrush(GateLetters.voiceBrush(RetireGrandfather.screwAjar)))
-         {
-            AgreeStrengthen.taxComparison1(param1);
-         }
-         else
-         {
-            GateLetters.baseballFascinated(AgreeStrengthen.taxComparison1)(param1);
-         }
-      }
-      
-      public static function cloisteredHistory1(param1:int) : Boolean
-      {
-         return AgreeStrengthen.afternoonSummer(param1) || AgreeStrengthen.debtEntertaining(param1) || AgreeStrengthen.rareShade1(param1) || AgreeStrengthen.feebleWhisper(param1);
-      }
-      
-      public static function hesitantUtopian(param1:int) : Boolean
-      {
-         return param1 == AgreeStrengthen.yakBrass || param1 == AgreeStrengthen.repulsiveWaiting || param1 == AgreeStrengthen.defectiveRay || param1 == AgreeStrengthen.cribPleasant;
-      }
-      
-      public static function bruiseQuack(param1:Object) : void
-      {
-         var _loc6_:Boolean = false;
-         var _loc7_:LetterNation = null;
-         var _loc8_:* = false;
-         var _loc9_:int = 0;
-         var _loc10_:int = 0;
-         var _loc11_:RetireGrandfather = null;
-         var _loc2_:int = param1.keyCode;
-         AgreeStrengthen.skinAlert = param1.ctrlKey;
-         AgreeStrengthen.pictureSnotty = param1.shiftKey;
-         AgreeStrengthen.colorClover = param1.altKey;
-         var _loc3_:int = ChopEngine.orderBaseball();
-         var _loc4_:ChopEngine = ChopEngine.knowledgeAbsurd;
-         _loc4_.birdsDistro = _loc3_;
-         if(ChopEngine.knowledgeAbsurd.stage.focus is TextField)
-         {
-            if(TextField(ChopEngine.knowledgeAbsurd.stage.focus).type == TextFieldType.INPUT)
-            {
-               return;
-            }
-         }
-         if(_loc2_ == KnowledgeableError.thirdHarbor)
-         {
-            AgreeStrengthen.privateAlanson = _loc3_;
-            return;
-         }
-         if(ChopEngine.spoonAnus)
-         {
-            TraceWrathful.dailyIdentify(TabooShut.squeamishPerform(_loc2_),false);
-            return;
-         }
-         var _loc5_:int = -GateLetters.sockRub(FrightenUnique.drownAdvertisement);
-         if(AgreeStrengthen.cloisteredHistory1(_loc2_))
-         {
-            _loc5_ = AgreeStrengthen.yakBrass;
-            if(AgreeStrengthen.afternoonSummer(_loc2_))
-            {
-               _loc5_ = AgreeStrengthen.repulsiveWaiting;
-            }
-            else if(AgreeStrengthen.debtEntertaining(_loc2_))
-            {
-               _loc5_ = AgreeStrengthen.defectiveRay;
-            }
-            else if(AgreeStrengthen.rareShade1(_loc2_))
-            {
-               _loc5_ = AgreeStrengthen.cribPleasant;
-            }
-         }
-         if(AgreeStrengthen.inventWasteful[_loc2_])
-         {
-            delete AgreeStrengthen.inventWasteful[_loc2_];
-         }
-         if(AgreeStrengthen.hateRay[_loc2_])
-         {
-            WantWoman.warlikeChicken.heatPack(new SootheCommon(_loc2_,false,ChopEngine.knowledgeAbsurd.tumbleAdhesive.x,ChopEngine.knowledgeAbsurd.tumbleAdhesive.y));
-         }
-         if(_loc5_ != -GateLetters.sockRub(FrightenUnique.drownAdvertisement))
-         {
-            if(AgreeStrengthen.inventWasteful[_loc5_])
-            {
-               delete AgreeStrengthen.inventWasteful[_loc5_];
-            }
-            if(AgreeStrengthen.hateRay[_loc5_])
-            {
-               WantWoman.warlikeChicken.heatPack(new SootheCommon(_loc5_,false,ChopEngine.knowledgeAbsurd.tumbleAdhesive.x,ChopEngine.knowledgeAbsurd.tumbleAdhesive.y));
-            }
-         }
-         if(_loc4_.deliverFade)
-         {
-            if(_loc2_ == KnowledgeableError.patheticAnnoying)
-            {
-               HarmonyTart.sandEasy(false);
-               return;
-            }
-         }
-         if(ShopPicture.airZoo && ConditionBlot.bruiseQuack(_loc2_))
+         if(!AgreeStrengthen.keySqueal)
          {
             return;
          }
-         if(EdgeHeartbreaking.attractiveGrotesque() && ShopPicture.airZoo)
+         AgreeStrengthen.keySqueal = NarrowPlants.wastefulHarbor;
+         ChopEngine.wingFamous.ownExotic.addEventListener(KeyboardEvent.KEY_DOWN,AgreeStrengthen.birdsDistro,false,int.MAX_VALUE);
+         ChopEngine.wingFamous.ownExotic.addEventListener(KeyboardEvent.KEY_UP,AgreeStrengthen.whisperAdvise,false,int.MAX_VALUE);
+         AgreeStrengthen.commonWork[AgreeStrengthen.patheticAnnoying] = function():void
          {
-            _loc6_ = AmuseFrighten.clubGrain;
-            for each(_loc7_ in EdgeHeartbreaking.roomRoom)
-            {
-               if(_loc7_.locketCommon(_loc2_))
-               {
-                  _loc6_ = AmuseFrighten.secretBlot;
-               }
-               if(_loc5_ != -GateLetters.sockRub(FrightenUnique.drownAdvertisement) && _loc7_.locketCommon(_loc5_))
-               {
-                  _loc6_ = AmuseFrighten.secretBlot;
-               }
-               if(_loc6_)
-               {
-                  return;
-               }
-            }
-         }
-         if(_loc4_.tumbleAdhesive)
+            EdgeTouch.cuteAdvice(true);
+         };
+         AgreeStrengthen.commonWork[AgreeStrengthen.burlyJagged] = function():void
          {
-            if(_loc4_.tumbleAdhesive.dislikeAgree)
-            {
-               if(_loc5_ == AgreeStrengthen.defectiveRay)
-               {
-                  GrinOnerous.steerSpoil = AmuseFrighten.clubGrain;
-               }
-               else if(_loc5_ == AgreeStrengthen.yakBrass)
-               {
-                  GrinOnerous.dearAlive = AmuseFrighten.clubGrain;
-               }
-               else if(_loc5_ == AgreeStrengthen.repulsiveWaiting)
-               {
-                  GrinOnerous.queueLook = AmuseFrighten.clubGrain;
-               }
-               else if(AgreeStrengthen.cribPleasant == _loc5_)
-               {
-                  GrinOnerous.weightSki = AmuseFrighten.clubGrain;
-               }
-            }
-            else
-            {
-               if(_loc2_ == KnowledgeableError.tangyHorn)
-               {
-                  AgreeStrengthen.nestFlock = AmuseFrighten.secretBlot;
-                  return;
-               }
-               if(_loc5_ == AgreeStrengthen.defectiveRay)
-               {
-                  if(RetireGrandfather.screwAjar.realizeBehavior)
-                  {
-                     if(!HateAnnoy.wallCard || ContainBirds.treatBlot.analyzeHarbor)
-                     {
-                        _loc4_.tumbleAdhesive.realizeBehavior = AmuseFrighten.clubGrain;
-                        if(!_loc4_.tumbleAdhesive.wailButter)
-                        {
-                           _loc4_.tumbleAdhesive.additionWarlike(true);
-                           _loc4_.modernSuper();
-                           if(PossessKnife.imperfectDecay)
-                           {
-                              _loc9_ = PossessKnife.ignorantPail.length;
-                              _loc10_ = GateLetters.sockRub(ForkBit.collectTiresome1);
-                              while(_loc10_ < _loc9_)
-                              {
-                                 _loc11_ = PossessKnife.ignorantPail[_loc10_];
-                                 _loc11_.realizeBehavior = AmuseFrighten.clubGrain;
-                                 _loc11_.additionWarlike(true);
-                                 _loc10_++;
-                              }
-                           }
-                        }
-                     }
-                  }
-                  return;
-               }
-               if(_loc5_ == AgreeStrengthen.yakBrass)
-               {
-                  if(ChopEngine.knowledgeAbsurd.tumbleAdhesive.wailButter)
-                  {
-                     if(ContainBirds.treatBlot.analyzeHarbor || !HateAnnoy.wallCard)
-                     {
-                        _loc4_.tumbleAdhesive.wailButter = AmuseFrighten.clubGrain;
-                        if(!_loc4_.tumbleAdhesive.realizeBehavior)
-                        {
-                           _loc4_.tumbleAdhesive.additionWarlike(false);
-                           _loc4_.modernSuper();
-                           if(PossessKnife.imperfectDecay)
-                           {
-                              _loc9_ = PossessKnife.ignorantPail.length;
-                              _loc10_ = GateLetters.sockRub(ForkBit.collectTiresome1);
-                              while(_loc10_ < _loc9_)
-                              {
-                                 _loc11_ = PossessKnife.ignorantPail[_loc10_];
-                                 _loc11_.wailButter = AmuseFrighten.clubGrain;
-                                 _loc11_.additionWarlike(false);
-                                 _loc10_++;
-                              }
-                           }
-                        }
-                     }
-                  }
-                  return;
-               }
-               if(AgreeStrengthen.cribPleasant == _loc5_)
-               {
-                  if(_loc4_.earthquakeDiscussion == AdditionVague.bombStupid || AgreeStrengthen.skinAlert)
-                  {
-                     _loc4_.tumbleAdhesive.bruiseInexpensive = AmuseFrighten.clubGrain;
-                     return;
-                  }
-                  if(_loc4_.tumbleAdhesive.bruiseInexpensive)
-                  {
-                     _loc4_.tumbleAdhesive.bruiseInexpensive = AmuseFrighten.clubGrain;
-                     if(_loc4_.tumbleAdhesive.huskyCheat || _loc4_.tumbleAdhesive.stemNew)
-                     {
-                        _loc4_.tumbleAdhesive.additionWarlike(_loc4_.tumbleAdhesive.sickThoughtless);
-                     }
-                     else
-                     {
-                        _loc4_.tumbleAdhesive.entertainingMemorize(_loc4_.tumbleAdhesive.sickThoughtless);
-                     }
-                     if(ChopEngine.knowledgeAbsurd.hangingPushy == FrightenUnique.waitKotsky1 || EdgeHeartbreaking.attractiveGrotesque(BumpFrantic.whistleRobin) && EdgeHeartbreaking.earthquakeKnowledgeable(BumpFrantic.whistleRobin).keySqueal() || EdgeHeartbreaking.attractiveGrotesque(BumpFrantic.eyesMend) && EdgeHeartbreaking.earthquakeKnowledgeable(BumpFrantic.eyesMend).ownExotic)
-                     {
-                        WantWoman.warlikeChicken.heatPack(new KaputLaughable(GateLetters.sockRub(BalanceLoaf.unequalAd)));
-                     }
-                     else
-                     {
-                        WantWoman.warlikeChicken.heatPack(new KaputLaughable(GateLetters.sockRub(ForkBit.collectTiresome1)));
-                     }
-                  }
-                  return;
-               }
-               _loc8_ = _loc5_ == AgreeStrengthen.repulsiveWaiting;
-               if(_loc8_)
-               {
-                  ChopEngine.clammyBaseball(ForkBit.collectTiresome1);
-                  PossessKnife.abjectProud(false);
-                  return;
-               }
-            }
-         }
-         AgreeStrengthen.stripedRobin(_loc2_);
-         if(_loc5_ != -GateLetters.sockRub(FrightenUnique.drownAdvertisement))
-         {
-            AgreeStrengthen.stripedRobin(_loc5_);
-         }
-      }
-      
-      public static function fearfulGlamorous(param1:Boolean) : void
-      {
-         AgreeStrengthen.grotesqueInexpensive = param1;
-         if(AgreeStrengthen.grotesqueInexpensive)
-         {
-            ChopEngine.knowledgeAbsurd.wealthyAuthority.addEventListener(MouseEvent.MOUSE_DOWN,AgreeStrengthen.annoyingShort);
-         }
-         else
-         {
-            ChopEngine.knowledgeAbsurd.wealthyAuthority.removeEventListener(MouseEvent.MOUSE_DOWN,AgreeStrengthen.annoyingShort);
-         }
-      }
-      
-      public static function debtEntertaining(param1:int) : Boolean
-      {
-         return param1 == KnowledgeableError.boundaryMachine || param1 == KnowledgeableError.adSweater;
-      }
-      
-      public static function slipRecognise() : void
-      {
-         AgreeStrengthen.tumbleToys = new Dictionary();
-         AgreeStrengthen.hateRay = new Dictionary();
-         AgreeStrengthen.fearfulGlamorous(false);
-      }
-      
-      public static function afternoonSummer(param1:int) : Boolean
-      {
-         return !AgreeStrengthen.burnDetail && param1 == KnowledgeableError.inventHuge || AgreeStrengthen.burnDetail && param1 == KnowledgeableError.taxKittens || param1 == KnowledgeableError.memorizeJagged;
+            EdgeTouch.cuteAdvice(false);
+         };
+         AgreeStrengthen.commonWork[AgreeStrengthen.warlikeChicken] = EdgeTouch.fearfulGlamorous;
+         AgreeStrengthen.commonWork[AgreeStrengthen.defectiveRay] = EdgeTouch.inexpensiveNation;
+         AgreeStrengthen.commonWork[UninterestedRoom.entertainingMemorize] = AgreeStrengthen.mittenLong;
+         AgreeStrengthen.yakBrass = Capabilities.language.toLowerCase() != OrangesQueue.supplyWasteful;
       }
    }
 }

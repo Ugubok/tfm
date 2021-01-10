@@ -1,12 +1,12 @@
 package
 {
-   public class ExpansionEvasive extends WordCalculator
+   public class ExpansionEvasive extends StorePaint
    {
        
       
       public function ExpansionEvasive()
       {
-         super(MarkEvasive.spoilDidactic,GateLetters.generalMend(ExpansionTour.squeezeRomantic));
+         super(BalanceSecret.generalMend,IdeaReal.squeezeRomantic);
       }
    }
 }

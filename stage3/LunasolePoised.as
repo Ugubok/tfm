@@ -2,20 +2,20 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class LunasolePoised extends CleverWhip
+   public class LunasolePoised extends KotskyCheck
    {
        
       
-      public var inconclusiveTremble:Array;
+      public var wordReal:Array;
       
       public function LunasolePoised(param1:ByteArray)
       {
-         this.inconclusiveTremble = new Array();
+         this.wordReal = new Array();
          super(param1);
-         var _loc2_:int = ForkBit.ideaDrown;
-         while(_loc2_ < GateLetters.auntMeasly(AttractiveSugar.wordReal))
+         var _loc2_:int = FaithfulBaseball.ideaDrown1;
+         while(_loc2_ < NervousOnerous.inconclusiveTremble(FaithfulBaseball.lettersBright))
          {
-            this.inconclusiveTremble.push(BehaviorLocket.lettersBright(param1.readUTF(),false));
+            this.wordReal.push(StormyHysterical.auntMeasly(param1.readUTF(),false));
             _loc2_++;
          }
       }

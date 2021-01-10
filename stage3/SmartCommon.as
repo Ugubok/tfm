@@ -1,13 +1,13 @@
 package
 {
-   public class SmartCommon extends WordCalculator
+   public class SmartCommon extends StorePaint
    {
        
       
-      public function SmartCommon(param1:String)
+      public function SmartCommon(param1:int)
       {
-         super(GateLetters.wiseSpot(ForkBit.heatBashful),GateLetters.wiseSpot(BalanceLoaf.rightfulApathetic1));
-         prepareIgnorant(param1);
+         super(IdeaReal.heatBashful,NervousPromise.wiseSpot);
+         prepareIgnorant.writeByte(param1);
       }
    }
 }

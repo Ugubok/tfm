@@ -2,19 +2,19 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class PigSign extends CleverWhip
+   public class PigSign extends KotskyCheck
    {
        
       
-      public var abortiveCrook:int;
+      public var abortiveCrook1:int;
       
-      public var celeryWasteful:Boolean;
+      public var celeryWasteful:int;
       
       public function PigSign(param1:ByteArray)
       {
          super(param1);
-         this.abortiveCrook = param1.readInt();
-         this.celeryWasteful = param1.readByte() == FrightenUnique.personMemorize;
+         this.abortiveCrook1 = param1.readInt();
+         this.celeryWasteful = param1.readByte();
       }
    }
 }

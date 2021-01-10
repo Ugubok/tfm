@@ -1,14 +1,14 @@
 package
 {
-   public class KnowledgeableMark extends WordCalculator
+   public class KnowledgeableMark extends StorePaint
    {
        
       
-      public function KnowledgeableMark(param1:String)
+      public function KnowledgeableMark(param1:String, param2:Boolean = false)
       {
-         super(ScaleTemper.spotlessAlluring,ScaleTemper.authorityBalance1);
-         wickedThrill(param1);
-         patheticSugar = AmuseFrighten.bashfulStem;
+         super(OrangesQueue.spotlessAlluring,SupplyMountain.authorityBalance);
+         patheticSugar.writeUTF(param1);
+         patheticSugar.writeBoolean(param2);
       }
    }
 }

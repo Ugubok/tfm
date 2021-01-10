@@ -6,18 +6,18 @@ package
    {
        
       
-      public var troubledPunch:ZippySisters;
+      public var impartialSmooth:ZippySisters;
       
       public var idSequence:int;
       
-      public var boringEasy1:int;
+      public var spoonLunasole:int;
       
-      public var impartialSmooth:DivisionOven;
+      public var snakesImpartial:BleachSave;
       
       public function VivaciousCareless(param1:ZippySisters)
       {
          super();
-         this.troubledPunch = param1;
+         this.impartialSmooth = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get delightfulBreathe() : String
+      public function get utopianFrail() : String
       {
-         return ChinSnakes.proseBreathe;
+         return NervousOnerous.unwrittenDelightful(OrangesQueue.delightfulBreathe);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.memorizeDivergent;
+         return KotskyRailway.boringEasy;
       }
       
       public function trousersConfused() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function tumbleAblaze1() : int
+      public function memorizeDivergent() : int
       {
-         return GateLetters.utopianFrail(MarkEvasive.babiesRetire);
+         return NervousOnerous.tumbleAblaze(MarkParty.proseBreathe);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.boringEasy1 = param1.readByte();
-         var _loc2_:ProseZonked = this.troubledPunch.recupereSequence(this.idSequence);
+         this.spoonLunasole = param1.readByte();
+         var _loc2_:ProseZonked = this.impartialSmooth.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is DivisionOven)
+            if(_loc2_ is BleachSave)
             {
-               this.impartialSmooth = DivisionOven(_loc2_);
-               this.impartialSmooth.unwrittenDelightful = this;
+               this.snakesImpartial = BleachSave(_loc2_);
+               this.snakesImpartial.chivalrousFill = this;
             }
          }
       }
       
-      public function get snakesImpartial() : int
+      public function get babiesRetire() : int
       {
-         return DivergentDinner.spoonLunasole;
+         return NervousOnerous.tumbleAblaze(RoomAddition.troubledPunch);
       }
    }
 }

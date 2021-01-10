@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var hourInjure:String;
+      public var historyIdea:String;
       
-      public var hugeFearful:ColdUpset;
+      public var seriousVagabond:SugarSystem;
       
       public function UnequaledStem(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.hourInjure = param2;
+         this.historyIdea = param2;
       }
       
       public function getIdSequence() : int
@@ -26,12 +26,12 @@ package
       
       public function get hornAlanson() : String
       {
-         return GateLetters.seriousVagabond(ChinSnakes.blushVoice);
+         return OrangesQueue.hourInjure;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.ignorantAuthority;
+         return KotskyRailway.rambunctiousBetter;
       }
       
       public function ignorantWall() : Boolean
@@ -39,15 +39,15 @@ package
          return false;
       }
       
-      override public function rambunctiousBetter() : int
+      override public function ignorantAuthority() : int
       {
-         return GateLetters.markLook(ScaleTemper.historyIdea) + this.hourInjure.length;
+         return SupplyMountain.hugeFearful + this.historyIdea.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.hourInjure);
+         param1.writeUTF(this.historyIdea);
       }
    }
 }

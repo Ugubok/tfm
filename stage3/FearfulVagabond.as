@@ -1,15 +1,15 @@
 package
 {
-   public class FearfulVagabond extends WordCalculator
+   public class FearfulVagabond extends StorePaint
    {
        
       
-      public function FearfulVagabond(param1:int, param2:int, param3:int)
+      public function FearfulVagabond(param1:String, param2:int, param3:String)
       {
-         super(MarkEvasive.interruptAutomatic,GateLetters.tendencyUnite(AttractiveSugar.naughtyCrash1));
-         dressStrengthen.writeShort(param1);
-         dressStrengthen.writeShort(param2);
-         dressStrengthen.writeShort(param3);
+         super(SistersRedundant.dressStrengthen,BalanceSecret.tendencyUnite);
+         interruptAutomatic.writeUTF(param1);
+         interruptAutomatic.writeByte(param2);
+         interruptAutomatic.writeUTF(param3);
       }
    }
 }

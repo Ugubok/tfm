@@ -1,8 +1,8 @@
 package
 {
-   import mx.core.FontAsset;
+   import mx.core.ByteArrayAsset;
    
-   public class PreciousQuirky extends FontAsset
+   public class PreciousQuirky extends ByteArrayAsset
    {
        
       

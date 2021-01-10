@@ -1,13 +1,13 @@
 package
 {
-   public class EntertainingWatery extends WordCalculator
+   public class EntertainingWatery extends StorePaint
    {
        
       
       public function EntertainingWatery(param1:int)
       {
-         super(BashfulUnwritten.sistersEarthquake,BalanceLoaf.loafCracker);
-         gateSqueeze.writeShort(param1);
+         super(NervousOnerous.loafCracker(KnotModern.sistersEarthquake),NervousOnerous.loafCracker(FaithfulBaseball.deadpanReaction));
+         gateSqueeze.writeInt(param1);
       }
    }
 }

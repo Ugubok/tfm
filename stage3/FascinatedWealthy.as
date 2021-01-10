@@ -8,7 +8,7 @@ package
       
       public var idSequence:int;
       
-      public var laughableIdea:IncreaseDetermined;
+      public var colossalNew:OrangeStomach;
       
       public function FascinatedWealthy(param1:int)
       {
@@ -23,12 +23,12 @@ package
       
       public function get scintillatingCycle() : String
       {
-         return GateLetters.colossalNew(ChinSnakes.modernPromise);
+         return NervousOnerous.yamTow(OrangesQueue.laughableIdea);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.gapingDisturbed1;
+         return KotskyRailway.governmentKnot;
       }
       
       public function clubJoke() : Boolean
@@ -36,9 +36,9 @@ package
          return false;
       }
       
-      override public function governmentKnot() : int
+      override public function gapingDisturbed() : int
       {
-         return GateLetters.moveAfterthought(HarmonyVeil.yamTow);
+         return SpaceIdea.moveAfterthought;
       }
       
       override public function ecriture(param1:ByteArray) : void

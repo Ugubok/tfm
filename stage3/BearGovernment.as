@@ -1,13 +1,13 @@
 package
 {
-   public class BearGovernment extends WordCalculator
+   public class BearGovernment extends StorePaint
    {
        
       
       public function BearGovernment(param1:int)
       {
-         super(GateLetters.paintInvent(ChinSnakes.glamorousSplendid),KnowledgeLate.nationZinc);
-         confusedIllustrious.writeByte(param1);
+         super(MarkParty.confusedIllustrious,FaithfulVoracious.glamorousSplendid);
+         paintInvent.writeByte(param1);
       }
    }
 }

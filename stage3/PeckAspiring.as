@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var instinctiveAspiring:String;
+      public var verdantOatmeal:String;
       
-      public var abortiveSound:String;
+      public var proseEntertaining:String;
       
-      public var entertainingCan:SandCrime;
+      public var entertainingCan:RambunctiousZoo;
       
       public function PeckAspiring(param1:int, param2:String, param3:String)
       {
          super();
          this.idSequence = param1;
-         this.instinctiveAspiring = param2;
-         this.abortiveSound = param3;
+         this.verdantOatmeal = param2;
+         this.proseEntertaining = param3;
       }
       
       public function getIdSequence() : int
@@ -27,14 +27,14 @@ package
          return this.idSequence;
       }
       
-      public function get verdantOatmeal() : String
+      public function get shoeHate() : String
       {
-         return ChinSnakes.patFierce1;
+         return OrangesQueue.abortiveSound;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.wallJoke;
+         return KotskyRailway.instinctiveAspiring;
       }
       
       public function shamePoised() : Boolean
@@ -42,16 +42,16 @@ package
          return false;
       }
       
-      override public function scaleHysterical() : int
+      override public function wallJoke() : int
       {
-         return GateLetters.proseEntertaining(ChinSnakes.shoeHate) + this.instinctiveAspiring.length + this.abortiveSound.length;
+         return SistersRedundant.scaleHysterical + this.verdantOatmeal.length + this.proseEntertaining.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.instinctiveAspiring);
-         param1.writeUTF(this.abortiveSound);
+         param1.writeUTF(this.verdantOatmeal);
+         param1.writeUTF(this.proseEntertaining);
       }
    }
 }

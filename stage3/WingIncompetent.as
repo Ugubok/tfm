@@ -1,15 +1,15 @@
 package
 {
-   public class WingIncompetent extends WordCalculator
+   public class WingIncompetent extends StorePaint
    {
        
       
-      public function WingIncompetent(param1:int, param2:ProseZonked)
+      public function WingIncompetent(param1:int, param2:int, param3:int)
       {
-         super(GateLetters.hesitantBlot(FillLegs.handFlock),BalanceLoaf.voyageJumbled);
+         super(MarkParty.handFlock,RepulsiveDear.apatheticHeartbreaking);
          unitKindhearted.writeShort(param1);
-         param2.ecriture(unitKindhearted);
-         apatheticHeartbreaking = AmuseFrighten.spotHistorical;
+         unitKindhearted.writeByte(param2);
+         unitKindhearted.writeShort(param3);
       }
    }
 }

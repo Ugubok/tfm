@@ -7,133 +7,133 @@ package
    public class IcyBashful
    {
       
-      public static var drownInexpensive:int =  0;
+      public static var saltKnife:int =  0;
       
-      public static var noisyFlow:int =  1;
+      public static var changeableBranch:int =  1;
       
-      public static var hocRepulsive:int =  2;
+      public static var separateEnergetic:int =  2;
       
-      public static var cryAction:int =  3;
+      public static var drownInexpensive:int =  3;
        
       
-      public var sonSugar:String;
+      public var shoeAfternoon:String;
       
       public var url:String;
       
-      public var yakBag:int;
+      public var pipkaBashful:int;
       
-      public var rightLamp:int;
+      public var frailSecret:int;
+      
+      public var sonSugar:int;
+      
+      public var discussionFaint:int;
+      
+      public var cartUndress:int;
+      
+      public var ignorantBerry:Boolean;
       
       public var gloriousAdhesive:int;
       
-      public var ownRecognise:int;
+      public var hocRepulsive:Number;
       
-      public var violetToy:int;
+      public var auntPass:Number;
       
-      public var boringAcoustic:Boolean;
+      public var deserveQuirky:Boolean;
       
-      public var hocPlan:int;
+      public var noisyFlow:Boolean = false;
       
-      public var coldCard:Number;
+      public var boringAcoustic:Boolean = false;
       
-      public var shoeFrighten:Number;
+      public var absurdAdjoining:Boolean = false;
       
-      public var eliteReminiscent:Boolean;
+      public var eliteReminiscent:Sprite = null;
       
-      public var crackerMove:Boolean = false;
-      
-      public var saltKnife:Boolean = false;
-      
-      public var naughtyRailway:Boolean = false;
-      
-      public var cartUndress:Sprite = null;
-      
-      public var undressRabbits:Bitmap;
+      public var coldCard:Bitmap;
       
       public function IcyBashful(param1:String, param2:Number = 0, param3:Number = 0, param4:Boolean = false)
       {
-         this.sonSugar = ScaleTemper.deserveQuirky;
+         this.shoeAfternoon = PleaseFour.seaRight;
          super();
          this.url = param1;
-         this.undressRabbits = DeliverTasty.frailSecret(this.url + ScaleTemper.seaRight + ChopEngine.separateEnergetic);
-         this.yakBag = param2;
-         this.rightLamp = param3;
-         this.crackerMove = param4;
-         this.discussionFaint(this.crackerMove);
+         this.coldCard = DeliverTasty.yakBag(this.url + NervousOnerous.additionWet(KnotModern.rightLamp) + ChopEngine.realPipka);
+         this.pipkaBashful = param2;
+         this.frailSecret = param3;
+         this.noisyFlow = param4;
+         this.hocPlan(this.noisyFlow);
       }
       
-      public function pipkaBashful(param1:Number = 0, param2:Number = 0, param3:Boolean = false) : IcyBashful
-      {
-         return new IcyBashful(this.url,this.yakBag,this.rightLamp,this.crackerMove).historyMouse(param1,param2,param3);
-      }
-      
-      public function shoeAfternoon(param1:Boolean) : IcyBashful
-      {
-         this.realPipka().scaleX = !!param1?Number(-GateLetters.absurdAdjoining(FrightenUnique.ignorantBerry)):Number(FrightenUnique.ignorantBerry);
-         return this;
-      }
-      
-      public function realPipka() : DisplayObject
-      {
-         return !!this.crackerMove?this.cartUndress:this.undressRabbits;
-      }
-      
-      public function changeableBranch(param1:String) : IcyBashful
-      {
-         if(param1 == null)
-         {
-            param1 = ScaleTemper.deserveQuirky;
-         }
-         this.sonSugar = param1;
-         return this;
-      }
-      
-      public function discussionFaint(param1:Boolean) : IcyBashful
+      public function hocPlan(param1:Boolean) : IcyBashful
       {
          if(param1)
          {
-            this.undressRabbits.x = GateLetters.absurdAdjoining(ForkBit.additionWet);
-            this.undressRabbits.y = GateLetters.absurdAdjoining(ForkBit.additionWet);
-            this.cartUndress = new Sprite();
-            if(this.undressRabbits && this.undressRabbits.parent)
+            this.coldCard.x = FaithfulBaseball.searchSwanky;
+            this.coldCard.y = NervousOnerous.historyMouse(FaithfulBaseball.searchSwanky);
+            this.eliteReminiscent = new Sprite();
+            if(this.coldCard && this.coldCard.parent)
             {
-               this.undressRabbits.parent.addChildAt(this.cartUndress,this.undressRabbits.parent.getChildIndex(this.undressRabbits));
+               this.coldCard.parent.addChildAt(this.eliteReminiscent,this.coldCard.parent.getChildIndex(this.coldCard));
             }
-            this.cartUndress.addChild(this.undressRabbits);
-            this.cartUndress.x = this.yakBag;
-            this.cartUndress.y = this.rightLamp;
-            this.cartUndress.mouseChildren = AmuseFrighten.searchSwanky;
-            this.cartUndress.mouseEnabled = AmuseFrighten.searchSwanky;
+            this.eliteReminiscent.addChild(this.coldCard);
+            this.eliteReminiscent.x = this.pipkaBashful;
+            this.eliteReminiscent.y = this.frailSecret;
+            this.eliteReminiscent.mouseChildren = NarrowPlants.violetToy;
+            this.eliteReminiscent.mouseEnabled = NarrowPlants.violetToy;
          }
          else
          {
-            if(this.cartUndress)
+            if(this.eliteReminiscent)
             {
-               this.cartUndress.removeChild(this.undressRabbits);
-               if(this.cartUndress.parent)
+               this.eliteReminiscent.removeChild(this.coldCard);
+               if(this.eliteReminiscent.parent)
                {
-                  this.cartUndress.parent.addChildAt(this.undressRabbits,this.cartUndress.parent.getChildIndex(this.cartUndress));
+                  this.eliteReminiscent.parent.addChildAt(this.coldCard,this.eliteReminiscent.parent.getChildIndex(this.eliteReminiscent));
                }
             }
-            this.undressRabbits.x = this.yakBag;
-            this.undressRabbits.y = this.rightLamp;
-            this.cartUndress = null;
+            this.coldCard.x = this.pipkaBashful;
+            this.coldCard.y = this.frailSecret;
+            this.eliteReminiscent = null;
          }
-         this.crackerMove = param1;
+         this.noisyFlow = param1;
          return this;
       }
       
-      public function historyMouse(param1:Number, param2:Number, param3:Boolean = false) : IcyBashful
+      public function belligerentBleach(param1:Number, param2:Number, param3:Boolean = false) : IcyBashful
       {
-         this.yakBag = !!param3?int(this.yakBag + param1):int(param1);
-         this.rightLamp = !!param3?int(this.rightLamp + param2):int(param2);
-         this.realPipka().x = this.yakBag;
-         this.realPipka().y = this.rightLamp;
+         this.pipkaBashful = !!param3?int(this.pipkaBashful + param1):int(param1);
+         this.frailSecret = !!param3?int(this.frailSecret + param2):int(param2);
+         this.ownRecognise().x = this.pipkaBashful;
+         this.ownRecognise().y = this.frailSecret;
          return this;
       }
       
-      public function belligerentBleach() : void
+      public function undressRabbits(param1:String) : IcyBashful
       {
+         if(null == param1)
+         {
+            param1 = NervousOnerous.additionWet(PleaseFour.seaRight);
+         }
+         this.shoeAfternoon = param1;
+         return this;
+      }
+      
+      public function crackerMove(param1:Number = 0, param2:Number = 0, param3:Boolean = false) : IcyBashful
+      {
+         return new IcyBashful(this.url,this.pipkaBashful,this.frailSecret,this.noisyFlow).belligerentBleach(param1,param2,param3);
+      }
+      
+      public function naughtyRailway() : void
+      {
+      }
+      
+      public function ownRecognise() : DisplayObject
+      {
+         return !!this.noisyFlow?this.eliteReminiscent:this.coldCard;
+      }
+      
+      public function shoeFrighten(param1:Boolean) : IcyBashful
+      {
+         this.ownRecognise().scaleX = !!param1?Number(-NervousOnerous.historyMouse(MarkParty.cryAction)):Number(NervousOnerous.historyMouse(MarkParty.cryAction));
+         return this;
       }
    }
 }

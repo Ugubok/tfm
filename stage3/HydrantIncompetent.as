@@ -6,36 +6,36 @@ package
    {
        
       
-      public var didacticAbsurd1:int;
+      public var roomScintillating:int;
       
       public var zincJoyous:int;
       
-      public var succinctCheat:int;
+      public var grainPoison:int;
       
-      public var roomScintillating:String;
+      public var cakePaint:String;
       
-      public var grainPoison:String;
+      public var confusedTrace:String;
       
-      public var lightHobbies:Boolean;
+      public var succinctCheat:Boolean;
       
-      public var cakePaint:int;
+      public var superWord1:int;
       
-      public var superWord:String;
+      public var didacticAbsurd:String;
       
-      public var confusedTrace1:int;
+      public var lightHobbies:int;
       
       public function HydrantIncompetent(param1:ByteArray)
       {
          super();
-         this.didacticAbsurd1 = param1.readInt();
+         this.roomScintillating = param1.readInt();
          this.zincJoyous = param1.readInt();
-         this.succinctCheat = param1.readInt();
-         this.roomScintillating = param1.readUTF();
-         this.grainPoison = param1.readUTF();
-         this.lightHobbies = param1.readBoolean();
-         this.cakePaint = param1.readShort();
-         this.superWord = param1.readUTF();
-         this.confusedTrace1 = param1.readByte();
+         this.grainPoison = param1.readInt();
+         this.cakePaint = param1.readUTF();
+         this.confusedTrace = param1.readUTF();
+         this.succinctCheat = param1.readBoolean();
+         this.superWord1 = param1.readShort();
+         this.didacticAbsurd = param1.readUTF();
+         this.lightHobbies = param1.readByte();
       }
    }
 }

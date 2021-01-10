@@ -4,14 +4,14 @@ package
    {
        
       
-      public var v:JarTow;
+      public var v:CulturedAutomatic;
       
-      public var poisedPinus:PossessAlert;
+      public var poisedPinus:LockUpset;
       
       public function CherryDecay()
       {
-         this.v = new JarTow();
-         this.poisedPinus = new PossessAlert();
+         this.v = new CulturedAutomatic();
+         this.poisedPinus = new LockUpset();
          super();
       }
    }

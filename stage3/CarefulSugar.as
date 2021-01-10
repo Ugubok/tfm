@@ -6,44 +6,44 @@ package
    {
        
       
-      public var veilPushy:int;
+      public var phoneThank:int;
       
-      public var gapingBorrow:Number;
+      public var chopRobin:Number;
       
-      public var toysBeautiful:int;
+      public var snakesWait:int;
       
       public var mightyBoundless:Number;
       
-      public var expertShade:Number;
+      public var toysBeautiful:Number;
       
-      public var tediousLarge:Number;
+      public var brightMark:Number;
       
-      public var snakesWait:Number;
+      public var utopianCan:Number;
       
-      public var tendencyVivacious:Number;
+      public var canInconclusive:Number;
       
-      public var skiComplex:Boolean = false;
-      
-      public var brightMark:Boolean = false;
+      public var mittenShop:Boolean = false;
       
       public var brushToothpaste:Boolean = false;
       
-      public var canInconclusive1:Boolean = false;
+      public var gapingBorrow:Boolean = false;
+      
+      public var tendencyVivacious:Boolean = false;
       
       public var wateryAdhesive:Boolean = false;
       
-      public var mittenShop:Sprite;
+      public var skiComplex:Sprite;
       
-      public var phoneThank:Number;
+      public var veilPushy:Number;
       
-      public var chopRobin:CarefulSugar;
+      public var expertShade:CarefulSugar;
       
-      public var utopianCan:CarefulSugar;
+      public var tediousLarge:CarefulSugar;
       
       public function CarefulSugar(param1:int)
       {
          super();
-         this.veilPushy = param1;
+         this.phoneThank = param1;
       }
    }
 }

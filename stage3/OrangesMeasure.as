@@ -6,15 +6,15 @@ package
       
       public var stripedHarmony:int;
       
-      public var bleachReaction:Number;
+      public var bikeGreedy:Number;
       
       public var machineBlush:int;
       
-      public var colossalRambunctious:int;
+      public var bleachReaction:int;
       
       public var burlyEdge:int;
       
-      public var bikeGreedy:String;
+      public var colossalRambunctious:String;
       
       public function OrangesMeasure()
       {

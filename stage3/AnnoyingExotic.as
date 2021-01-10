@@ -6,45 +6,45 @@ package
    {
        
       
-      public var colossalBashful:ZippySisters;
+      public var fitBlush:ZippySisters;
       
-      public var dislikeInconclusive:String;
+      public var squareFix:String;
       
       public function AnnoyingExotic(param1:ZippySisters)
       {
          super();
-         this.colossalBashful = param1;
+         this.fitBlush = param1;
       }
       
-      public function get aliveCareless() : String
+      public function get comparisonOranges() : String
       {
-         return ChinSnakes.competitionSuccinct;
+         return NervousOnerous.competitionSuccinct(OrangesQueue.colossalBashful);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.squareFix;
+         return KotskyRailway.dislikeInconclusive;
       }
       
-      public function aliveOranges() : Boolean
+      public function determinedBright() : Boolean
       {
          return false;
       }
       
-      public function determinedBright() : int
+      public function aliveOranges() : int
       {
-         return ToothpasteCloistered.queueDebt + this.dislikeInconclusive.length;
+         return NervousOnerous.aliveCareless(SupplyMountain.cuteArm) + this.squareFix.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.dislikeInconclusive = param1.readUTFBytes(_loc2_);
+         this.squareFix = param1.readUTFBytes(_loc2_);
       }
       
-      public function get fitBlush() : int
+      public function get absurdBoast() : int
       {
-         return FranticCrook.comparisonOranges;
+         return NervousOnerous.aliveCareless(KnotModern.queueDebt);
       }
    }
 }

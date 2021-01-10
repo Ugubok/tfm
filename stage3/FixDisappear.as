@@ -1,14 +1,14 @@
 package
 {
-   public class FixDisappear extends WordCalculator
+   public class FixDisappear extends StorePaint
    {
        
       
       public function FixDisappear(param1:int, param2:int)
       {
-         super(AttractiveSugar.groundPenitent,GateLetters.wealthyToy(ExoticMemorize.spyLyrical));
-         didacticSoup1.writeShort(param1);
-         didacticSoup1.writeByte(param2);
+         super(NervousOnerous.didacticSoup(SistersRedundant.wealthyToy),FaithfulVoracious.groundPenitent);
+         spyLyrical.writeByte(param1);
+         spyLyrical.writeShort(param2);
       }
    }
 }

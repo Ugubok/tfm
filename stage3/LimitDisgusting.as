@@ -5,138 +5,138 @@ package
    public class LimitDisgusting
    {
       
-      public static var automaticPear:ProbableKotsky;
+      public static var concentrateFaithful:SofaTroubled;
       
-      public static var interruptKotsky:SweaterWing;
+      public static var partyStick:ThankZippy;
       
-      public static var yakRiver:SweaterWing;
+      public static var imperfectGlorious:ThankZippy;
       
-      public static var frailReminiscent:SweaterWing;
+      public static var brightFrighten:ThankZippy;
        
+      
+      public var neatPack:int;
+      
+      public var yakRiver:int;
       
       public var uniteRiver:int;
       
-      public var markedAdhesive:int;
+      public var plantsChin:String;
       
-      public var divisionTangy:int;
+      public var stayLong:MovieClip;
       
-      public var crashTroubled:String;
+      public var windDeliver1:Boolean = false;
       
-      public var plantsChin:MovieClip;
+      public var smileCry:LimitRare;
       
-      public var pleaseThunder:Boolean = false;
+      public var companyHeartbreaking:int;
       
-      public var kindheartedNoiseless:GrateHydrant;
+      public var glowOnerous:Boolean = false;
       
-      public var lipBurn:int;
-      
-      public var feebleInnate:Boolean = false;
-      
-      public var yamFarm:Boolean = false;
+      public var jarTrap:Boolean = false;
       
       public function LimitDisgusting(param1:int, param2:int, param3:int, param4:String)
       {
-         this.lipBurn = ForkBit.washGrotesque;
+         this.companyHeartbreaking = FaithfulBaseball.yamFarm;
          super();
-         this.uniteRiver = param1;
-         this.markedAdhesive = param2;
-         this.divisionTangy = param3;
-         this.crashTroubled = param4;
-         this.carefulHand1();
+         this.neatPack = param1;
+         this.yakRiver = param2;
+         this.uniteRiver = param3;
+         this.plantsChin = param4;
+         this.hatefulCraven();
       }
       
-      public function toString() : String
+      public function burySuccessful(param1:Boolean) : void
       {
-         return GateLetters.historyOpposite(ForkBit.cardFade) + this.uniteRiver + GateLetters.historyOpposite(ScaleTemper.seriousSpotless);
-      }
-      
-      public function carefulHand1() : void
-      {
-         var _loc1_:CardTrousers = null;
-         var _loc2_:Vector.<int> = null;
-         if(this.crashTroubled == GateLetters.historyOpposite(FourYell.cloisteredCalculator))
-         {
-            if(!LimitDisgusting.automaticPear)
-            {
-               _loc2_ = new Vector.<int>();
-               _loc2_.push(ForkBit.washGrotesque,GateLetters.squeezeCrook(ForkBit.washGrotesque));
-               LimitDisgusting.automaticPear = new ProbableKotsky(FourYell.crimeBorrow,GateLetters.squeezeCrook(RequestCactus.thoughtKindhearted),GateLetters.squeezeCrook(FrightenUnique.glowOnerous),_loc2_);
-               LimitDisgusting.automaticPear.concentrateFaithful();
-            }
-            this.feebleInnate = AmuseFrighten.teachingKotsky;
-            _loc1_ = LimitDisgusting.automaticPear.lockCan1(GateLetters.squeezeCrook(FrightenUnique.glowOnerous),GateLetters.historyOpposite(FourYell.stayLong));
-            this.plantsChin = new MovieClip();
-            this.plantsChin.ovenSand = new SpookyDiscussion(-OrangeUnequal.matchPlough,-AdditionVague.jarTrap,GateLetters.squeezeCrook(BashfulUnwritten.labelSleepy),AdditionVague.unwrittenSupply);
-            this.plantsChin.addChild(this.plantsChin.ovenSand);
-            SpookyDiscussion(this.plantsChin.ovenSand).balvankaWoman.push(_loc1_);
-            this.yamFarm = AmuseFrighten.explodeBead1;
-            SpookyDiscussion(this.plantsChin.ovenSand).scaleX = -FrightenUnique.glowOnerous;
-            SpookyDiscussion(this.plantsChin.ovenSand).x = SpookyDiscussion(this.plantsChin.ovenSand).inconclusiveGrate.width / GateLetters.squeezeCrook(ToothpasteCloistered.companyHeartbreaking);
-         }
-         else if(this.crashTroubled == AttractiveSugar.brightFrighten)
-         {
-            if(!LimitDisgusting.interruptKotsky)
-            {
-               LimitDisgusting.interruptKotsky = new SweaterWing(DeliverTasty.ovenAdjustment(GateLetters.historyOpposite(DivergentDinner.hatefulCraven)),GateLetters.squeezeCrook(ForkBit.washGrotesque));
-            }
-            this.feebleInnate = AmuseFrighten.teachingKotsky;
-            _loc1_ = new CardTrousers(LimitDisgusting.interruptKotsky,true);
-            _loc1_.troubledUsed = AttractiveSugar.washEfficient;
-            _loc1_.letterLaughable = GateLetters.squeezeCrook(ChinSnakes.apatheticWhite);
-            this.plantsChin = new MovieClip();
-            this.plantsChin.ovenSand = new SpookyDiscussion(ForkBit.washGrotesque,-GateLetters.squeezeCrook(FranticCrook.listBack),GateLetters.squeezeCrook(FillLegs.disturbedMend),FillLegs.disturbedMend);
-            this.plantsChin.addChild(this.plantsChin.ovenSand);
-            SpookyDiscussion(this.plantsChin.ovenSand).balvankaWoman.push(_loc1_);
-            this.yamFarm = AmuseFrighten.explodeBead1;
-            SpookyDiscussion(this.plantsChin.ovenSand).scaleX = -FrightenUnique.glowOnerous;
-            SpookyDiscussion(this.plantsChin.ovenSand).x = SpookyDiscussion(this.plantsChin.ovenSand).inconclusiveGrate.width / ToothpasteCloistered.companyHeartbreaking;
-         }
-         else if(this.crashTroubled == BalanceLoaf.catBoundary)
-         {
-            if(!LimitDisgusting.yakRiver)
-            {
-               LimitDisgusting.yakRiver = new SweaterWing(DeliverTasty.ovenAdjustment(GateLetters.historyOpposite(ScaleTemper.partyStick)),GateLetters.squeezeCrook(ForkBit.washGrotesque));
-               LimitDisgusting.frailReminiscent = new SweaterWing(DeliverTasty.ovenAdjustment(GateLetters.historyOpposite(HarmonyVeil.additionThunder)),ForkBit.washGrotesque);
-            }
-            this.feebleInnate = AmuseFrighten.teachingKotsky;
-            _loc1_ = new CardTrousers(LimitDisgusting.yakRiver,true);
-            _loc1_.troubledUsed = BashfulUnwritten.labelSleepy;
-            _loc1_.letterLaughable = FrightenUnique.windDeliver;
-            this.plantsChin = new MovieClip();
-            this.plantsChin.ovenSand = new SpookyDiscussion(-GateLetters.squeezeCrook(BashfulUnwritten.labelSleepy),-GateLetters.squeezeCrook(BashfulUnwritten.labelSleepy),DivergentDinner.neatPack,GateLetters.squeezeCrook(FranticCrook.squeamishCraven));
-            this.plantsChin.addChild(this.plantsChin.ovenSand);
-            SpookyDiscussion(this.plantsChin.ovenSand).balvankaWoman.push(_loc1_);
-            this.yamFarm = AmuseFrighten.explodeBead1;
-         }
-         if(!this.plantsChin)
-         {
-            this.plantsChin = new MovieClip();
-            this.plantsChin.graphics.beginFill(40349);
-            this.plantsChin.graphics.drawRect(-GateLetters.squeezeCrook(OrangeUnequal.matchPlough),-GateLetters.squeezeCrook(OrangeUnequal.matchPlough),BashfulUnwritten.labelSleepy,BashfulUnwritten.labelSleepy);
-            this.plantsChin.graphics.endFill();
-         }
-      }
-      
-      public function imperfectGlorious(param1:Boolean) : void
-      {
-         if(!this.kindheartedNoiseless)
+         if(!this.smileCry)
          {
             return;
          }
-         ChopEngine.burySuccessful.smileCry(LateLimit.catSmart,this.plantsChin.x,this.plantsChin.y,GateLetters.squeezeCrook(RequestCactus.thoughtKindhearted),GateLetters.squeezeCrook(ToothpasteCloistered.companyHeartbreaking),false,-FrightenUnique.glowOnerous);
-         if(this.crashTroubled == GateLetters.historyOpposite(BalanceLoaf.catBoundary))
+         ChopEngine.frailReminiscent.markedAdhesive(LateLimit.cloisteredCalculator,this.stayLong.x,this.stayLong.y,NervousOnerous.balvankaWoman(NervousPromise.disturbedMend),SupplyMountain.washEfficient,false,-NervousOnerous.balvankaWoman(MarkParty.ovenAdjustment));
+         if(this.plantsChin == PleaseFour.feebleInnate)
          {
             return;
          }
          if(param1)
          {
-            this.kindheartedNoiseless.shockingUtopian.troubledUsed = RequestCactus.thoughtKindhearted;
+            this.smileCry.catSmart.teachingKotsky = NervousOnerous.balvankaWoman(NervousPromise.disturbedMend);
          }
          else
          {
-            this.kindheartedNoiseless.shockingUtopian.troubledUsed = -GateLetters.squeezeCrook(RequestCactus.thoughtKindhearted);
+            this.smileCry.catSmart.teachingKotsky = -NervousPromise.disturbedMend;
          }
-         this.kindheartedNoiseless.wantApathetic();
+         this.smileCry.carefulHand1();
+      }
+      
+      public function hatefulCraven() : void
+      {
+         var _loc1_:SuperWander = null;
+         var _loc2_:Vector.<int> = null;
+         if(this.plantsChin == NervousOnerous.shockingUtopian(PleaseFour.lipBurn))
+         {
+            if(!LimitDisgusting.concentrateFaithful)
+            {
+               _loc2_ = new Vector.<int>();
+               _loc2_.push(FaithfulBaseball.yamFarm,FaithfulBaseball.yamFarm);
+               LimitDisgusting.concentrateFaithful = new SofaTroubled(SandTedious.crashTroubled,NervousOnerous.balvankaWoman(NervousPromise.disturbedMend),MarkParty.ovenAdjustment,_loc2_);
+               LimitDisgusting.concentrateFaithful.washGrotesque();
+            }
+            this.glowOnerous = NarrowPlants.ovenSand;
+            _loc1_ = LimitDisgusting.concentrateFaithful.pleaseThunder(NervousOnerous.balvankaWoman(MarkParty.ovenAdjustment),NervousOnerous.shockingUtopian(SandTedious.troubledUsed));
+            this.stayLong = new MovieClip();
+            this.stayLong.divisionTangy = new JogBalvanka(-NervousOnerous.balvankaWoman(IdeaReal.letterLaughable),-FaithfulVoracious.explodeBead1,NervousOnerous.balvankaWoman(KneelDaily.seriousSpotless),NervousOnerous.balvankaWoman(KnotModern.automaticPear));
+            this.stayLong.addChild(this.stayLong.divisionTangy);
+            JogBalvanka(this.stayLong.divisionTangy).wantApathetic.push(_loc1_);
+            this.jarTrap = NarrowPlants.listBack;
+            JogBalvanka(this.stayLong.divisionTangy).scaleX = -MarkParty.ovenAdjustment;
+            JogBalvanka(this.stayLong.divisionTangy).x = JogBalvanka(this.stayLong.divisionTangy).apatheticWhite.width / NervousOnerous.balvankaWoman(SupplyMountain.washEfficient);
+         }
+         else if(this.plantsChin == NervousOnerous.shockingUtopian(SistersRedundant.squeezeCrook))
+         {
+            if(!LimitDisgusting.partyStick)
+            {
+               LimitDisgusting.partyStick = new ThankZippy(DeliverTasty.interruptKotsky(NervousOnerous.shockingUtopian(SupplyMountain.catBoundary)),FaithfulBaseball.yamFarm);
+            }
+            this.glowOnerous = NarrowPlants.ovenSand;
+            _loc1_ = new SuperWander(LimitDisgusting.partyStick,true);
+            _loc1_.teachingKotsky = NervousOnerous.balvankaWoman(MarkParty.squeamishCraven);
+            _loc1_.inconclusiveGrate = FaithfulVoracious.additionThunder;
+            this.stayLong = new MovieClip();
+            this.stayLong.divisionTangy = new JogBalvanka(FaithfulBaseball.yamFarm,-NervousOnerous.balvankaWoman(SpaceIdea.crimeBorrow),NervousOnerous.balvankaWoman(KneelDaily.unwrittenSupply),NervousOnerous.balvankaWoman(KneelDaily.unwrittenSupply));
+            this.stayLong.addChild(this.stayLong.divisionTangy);
+            JogBalvanka(this.stayLong.divisionTangy).wantApathetic.push(_loc1_);
+            this.jarTrap = NarrowPlants.listBack;
+            JogBalvanka(this.stayLong.divisionTangy).scaleX = -NervousOnerous.balvankaWoman(MarkParty.ovenAdjustment);
+            JogBalvanka(this.stayLong.divisionTangy).x = JogBalvanka(this.stayLong.divisionTangy).apatheticWhite.width / SupplyMountain.washEfficient;
+         }
+         else if(this.plantsChin == NervousOnerous.shockingUtopian(PleaseFour.feebleInnate))
+         {
+            if(!LimitDisgusting.imperfectGlorious)
+            {
+               LimitDisgusting.imperfectGlorious = new ThankZippy(DeliverTasty.interruptKotsky(FaithfulBaseball.matchPlough),FaithfulBaseball.yamFarm);
+               LimitDisgusting.brightFrighten = new ThankZippy(DeliverTasty.interruptKotsky(NervousOnerous.shockingUtopian(KneelDaily.cardFade)),NervousOnerous.balvankaWoman(FaithfulBaseball.yamFarm));
+            }
+            this.glowOnerous = NarrowPlants.ovenSand;
+            _loc1_ = new SuperWander(LimitDisgusting.imperfectGlorious,true);
+            _loc1_.teachingKotsky = KneelDaily.seriousSpotless;
+            _loc1_.inconclusiveGrate = NervousOnerous.balvankaWoman(IdeaReal.thoughtKindhearted);
+            this.stayLong = new MovieClip();
+            this.stayLong.divisionTangy = new JogBalvanka(-NervousOnerous.balvankaWoman(KneelDaily.seriousSpotless),-KneelDaily.seriousSpotless,SupplyMountain.lockCan,NervousOnerous.balvankaWoman(FaithfulBaseball.kindheartedNoiseless));
+            this.stayLong.addChild(this.stayLong.divisionTangy);
+            JogBalvanka(this.stayLong.divisionTangy).wantApathetic.push(_loc1_);
+            this.jarTrap = NarrowPlants.listBack;
+         }
+         if(!this.stayLong)
+         {
+            this.stayLong = new MovieClip();
+            this.stayLong.graphics.beginFill(40349);
+            this.stayLong.graphics.drawRect(-NervousOnerous.balvankaWoman(IdeaReal.letterLaughable),-NervousOnerous.balvankaWoman(IdeaReal.letterLaughable),NervousOnerous.balvankaWoman(KneelDaily.seriousSpotless),NervousOnerous.balvankaWoman(KneelDaily.seriousSpotless));
+            this.stayLong.graphics.endFill();
+         }
+      }
+      
+      public function toString() : String
+      {
+         return NervousOnerous.shockingUtopian(JellyCry.historyOpposite) + this.neatPack + NervousOnerous.shockingUtopian(ActionThrill.labelSleepy);
       }
    }
 }

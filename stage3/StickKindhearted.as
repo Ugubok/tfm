@@ -1,14 +1,14 @@
 package
 {
-   public class StickKindhearted extends WordCalculator
+   public class StickKindhearted extends StorePaint
    {
        
       
-      public function StickKindhearted(param1:String)
+      public function StickKindhearted(param1:int, param2:int)
       {
-         super(GateLetters.railwayKnowledge(ScaleTemper.earthquakeNotebook),ScaleTemper.earthquakeNotebook);
-         comparisonMighty.writeUTF(param1);
-         frightenUndress = AmuseFrighten.distroExotic;
+         super(KnotModern.frightenUndress,NervousOnerous.railwayKnowledge(MarkParty.earthquakeNotebook));
+         comparisonMighty.writeInt(param1);
+         comparisonMighty.writeInt(param2);
       }
    }
 }

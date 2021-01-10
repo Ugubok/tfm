@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var uncleSign:String;
+      public var wiseSand:String;
       
-      public var dressExpert:TumbleSea;
+      public var conditionEvasive1:SeriousBoundary;
       
       public function RabbitWord(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.uncleSign = param2;
+         this.wiseSand = param2;
       }
       
       public function getIdSequence() : int
@@ -24,14 +24,14 @@ package
          return this.idSequence;
       }
       
-      public function get wiseSand() : String
+      public function get dressExpert1() : String
       {
-         return ChinSnakes.awakeThunder;
+         return OrangesQueue.awakeThunder;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.franticToothpaste;
+         return KotskyRailway.uncleSign;
       }
       
       public function notebookLarge() : Boolean
@@ -39,15 +39,15 @@ package
          return false;
       }
       
-      override public function verdantVivacious() : int
+      override public function franticToothpaste() : int
       {
-         return ScaleTemper.conditionEvasive + this.uncleSign.length;
+         return NervousOnerous.verdantVivacious(SupplyMountain.superLackadaisical) + this.wiseSand.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.uncleSign);
+         param1.writeUTF(this.wiseSand);
       }
    }
 }

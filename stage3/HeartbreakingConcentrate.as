@@ -1,14 +1,14 @@
 package
 {
-   public class HeartbreakingConcentrate extends WordCalculator
+   public class HeartbreakingConcentrate extends StorePaint
    {
        
       
-      public function HeartbreakingConcentrate(param1:int, param2:int)
+      public function HeartbreakingConcentrate(param1:String, param2:String)
       {
-         super(GateLetters.kindheartedJelly(AttractiveSugar.obtainableSigh),AttractiveSugar.obtainableSigh);
-         noxiousNotebook.writeInt(param1);
-         noxiousNotebook.writeByte(param2);
+         super(KnotModern.obtainableSigh,FaithfulVoracious.kindheartedJelly);
+         noxiousNotebook.writeUTF(param1);
+         noxiousNotebook.writeUTF(param2);
       }
    }
 }

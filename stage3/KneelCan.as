@@ -1,13 +1,13 @@
 package
 {
-   public class KneelCan extends WordCalculator
+   public class KneelCan extends StorePaint
    {
        
       
       public function KneelCan(param1:String)
       {
-         super(GateLetters.boundaryZip(BashfulUnwritten.bikeCollect),MarkEvasive.lettersFaithful);
-         repulsiveSearch.writeUTF(param1);
+         super(NervousOnerous.repulsiveSearch(MarkParty.bikeCollect),MarkParty.bikeCollect);
+         boundaryZip.writeUTF(param1);
       }
    }
 }

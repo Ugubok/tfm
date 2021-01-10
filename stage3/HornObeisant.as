@@ -1,12 +1,12 @@
 package
 {
-   public class HornObeisant extends WordCalculator
+   public class HornObeisant extends StorePaint
    {
        
       
       public function HornObeisant()
       {
-         super(BashfulUnwritten.abjectFearful,GateLetters.slowMouse(ToothpasteCloistered.shelfHorn));
+         super(KnotModern.shelfHorn,NervousOnerous.abjectFearful(MarkParty.slowMouse));
       }
    }
 }

@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var spaceGreedy:int;
+      public var bootAgree:int;
       
-      public var lipLamp:String;
+      public var trainsRoom:String;
       
-      public var unitGamy:DearTiresome;
+      public var tastelessCool:VivaciousCareless;
       
       public function BleachSave(param1:int, param2:int, param3:String)
       {
          super();
          this.idSequence = param1;
-         this.spaceGreedy = param2;
-         this.lipLamp = param3;
+         this.bootAgree = param2;
+         this.trainsRoom = param3;
       }
       
       public function getIdSequence() : int
@@ -29,12 +29,12 @@ package
       
       public function get glowFlock() : String
       {
-         return ChinSnakes.tastelessCool;
+         return NervousOnerous.unitGamy(OrangesQueue.lipLamp);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.gloriousHoc;
+         return KotskyRailway.voyageBashful;
       }
       
       public function signBright() : Boolean
@@ -42,16 +42,16 @@ package
          return false;
       }
       
-      override public function voyageBashful() : int
+      override public function gloriousHoc() : int
       {
-         return GateLetters.bootAgree1(RequestCactus.trainsRoom) + this.lipLamp.length;
+         return FaithfulVoracious.spaceGreedy + this.trainsRoom.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(this.spaceGreedy);
-         param1.writeUTF(this.lipLamp);
+         param1.writeByte(this.bootAgree);
+         param1.writeUTF(this.trainsRoom);
       }
    }
 }

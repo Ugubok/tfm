@@ -1,14 +1,14 @@
 package
 {
-   public class NaughtyLook extends WordCalculator
+   public class NaughtyLook extends StorePaint
    {
        
       
-      public function NaughtyLook(param1:int, param2:String)
+      public function NaughtyLook(param1:int, param2:int)
       {
-         super(AttractiveSugar.statementRoom,BalanceLoaf.symptomaticFascinated);
-         spacePromise.writeShort(param1);
-         spacePromise.writeUTF(param2);
+         super(BalanceSecret.statementRoom,FaithfulBaseball.spacePromise1);
+         symptomaticFascinated.writeByte(param1);
+         symptomaticFascinated.writeByte(param2);
       }
    }
 }

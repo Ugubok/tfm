@@ -8,21 +8,21 @@ package
       
       public var advertisementAngle:Number;
       
-      public var purposeCompetition:Number;
+      public var bruiseSerious:Number;
       
       public var ruddyMean:Number;
       
-      public var spuriousUnequaled1:Number;
+      public var babiesBake:Number;
       
       public function SpiffySystem()
       {
-         this.advertisementAngle = GateLetters.bruiseSerious(ForkBit.babiesBake);
-         this.purposeCompetition = GateLetters.bruiseSerious(ForkBit.babiesBake);
-         this.ruddyMean = GateLetters.bruiseSerious(ForkBit.babiesBake);
-         this.spuriousUnequaled1 = ForkBit.babiesBake;
+         this.advertisementAngle = FaithfulBaseball.purposeCompetition;
+         this.bruiseSerious = NervousOnerous.spuriousUnequaled(FaithfulBaseball.purposeCompetition);
+         this.ruddyMean = NervousOnerous.spuriousUnequaled(FaithfulBaseball.purposeCompetition);
+         this.babiesBake = NervousOnerous.spuriousUnequaled(FaithfulBaseball.purposeCompetition);
          super();
          graphics.beginFill(15255694);
-         graphics.drawCircle(ForkBit.babiesBake,GateLetters.bruiseSerious(ForkBit.babiesBake),GateLetters.bruiseSerious(AttractiveSugar.rareSquare));
+         graphics.drawCircle(NervousOnerous.spuriousUnequaled(FaithfulBaseball.purposeCompetition),NervousOnerous.spuriousUnequaled(FaithfulBaseball.purposeCompetition),MarkParty.rareSquare);
          graphics.endFill();
       }
    }

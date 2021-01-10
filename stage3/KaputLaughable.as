@@ -1,13 +1,13 @@
 package
 {
-   public class KaputLaughable extends WordCalculator
+   public class KaputLaughable extends StorePaint
    {
        
       
       public function KaputLaughable(param1:int)
       {
-         super(GateLetters.uniqueUndress(HarmonyVeil.flashCrash1),ScaleTemper.temperOrdinary);
-         explodeCan.writeByte(param1);
+         super(NervousOnerous.explodeCan(SpaceIdea.temperOrdinary),RepulsiveDear.flashCrash);
+         uniqueUndress.writeByte(param1);
       }
    }
 }

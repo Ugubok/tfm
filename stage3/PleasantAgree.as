@@ -2,55 +2,55 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class PleasantAgree extends CleverWhip
+   public class PleasantAgree extends KotskyCheck
    {
        
       
-      public var admireHand:int;
+      public var mittenSuzuka:int;
       
-      public var beliefReach:Vector.<int>;
+      public var bearLetters:Vector.<int>;
       
-      public var earthquakeBury:Vector.<ActionNest>;
+      public var eliteLackadaisical:Vector.<ActionNest>;
       
       public function PleasantAgree(param1:ByteArray)
       {
          var _loc4_:int = 0;
          var _loc5_:ActionNest = null;
          var _loc6_:int = 0;
-         this.earthquakeBury = new Vector.<ActionNest>();
+         this.eliteLackadaisical = new Vector.<ActionNest>();
          super(param1);
          var _loc2_:int = param1.readByte();
-         this.beliefReach = new Vector.<int>(_loc2_,true);
-         var _loc3_:int = -GateLetters.mittenSuzuka(FrightenUnique.joyousNervous);
+         this.bearLetters = new Vector.<int>(_loc2_,true);
+         var _loc3_:int = -MarkParty.metalRay1;
          while(++_loc3_ < _loc2_)
          {
-            this.beliefReach[_loc3_] = param1.readByte();
+            this.bearLetters[_loc3_] = param1.readByte();
          }
-         this.admireHand = param1.readByte();
+         this.mittenSuzuka = param1.readByte();
          while(param1.bytesAvailable)
          {
             _loc4_ = param1.readByte();
-            if(ForkBit.mountainStiff == _loc4_)
+            if(FaithfulBaseball.joyousNervous == _loc4_)
             {
-               this.earthquakeBury.push(new ActionNest(param1.readUTF(),param1.readUTF(),param1.readUTF(),param1.readUnsignedShort(),param1.readUnsignedByte(),param1.readBoolean()));
+               this.eliteLackadaisical.push(new ActionNest(param1.readUTF(),param1.readUTF(),param1.readUTF(),param1.readUnsignedShort(),param1.readUnsignedByte(),param1.readBoolean()));
             }
-            else if(FrightenUnique.joyousNervous == _loc4_)
+            else if(_loc4_ == NervousOnerous.admireHand(MarkParty.metalRay1))
             {
                _loc5_ = new ActionNest(param1.readUTF(),param1.readUTF(),param1.readUTF());
-               _loc5_.kittensDisgusting = AmuseFrighten.metalRay;
-               _loc5_.womanEfficient = param1.readUTF();
-               _loc5_.bearLetters = param1.readUTF();
-               _loc5_.birdsIdentify = param1.readUTF();
-               _loc6_ = _loc5_.womanEfficient.indexOf(RequestCactus.dinnerCompany);
-               if(GateLetters.mittenSuzuka(ForkBit.mountainStiff) < _loc6_)
+               _loc5_.beliefReach = NarrowPlants.womanEfficient;
+               _loc5_.earthquakeBury = param1.readUTF();
+               _loc5_.dinnerCompany = param1.readUTF();
+               _loc5_.mountainStiff = param1.readUTF();
+               _loc6_ = _loc5_.earthquakeBury.indexOf(NervousOnerous.kittensDisgusting(JellyCry.birdsIdentify));
+               if(FaithfulBaseball.joyousNervous < _loc6_)
                {
-                  _loc5_.fierceAdvice = int(_loc5_.womanEfficient.substr(ForkBit.mountainStiff,_loc6_));
+                  _loc5_.fierceAdvice = int(_loc5_.earthquakeBury.substr(NervousOnerous.admireHand(FaithfulBaseball.joyousNervous),_loc6_));
                }
                else
                {
-                  _loc5_.fierceAdvice = int(_loc5_.womanEfficient);
+                  _loc5_.fierceAdvice = int(_loc5_.earthquakeBury);
                }
-               this.earthquakeBury.push(_loc5_);
+               this.eliteLackadaisical.push(_loc5_);
             }
          }
       }

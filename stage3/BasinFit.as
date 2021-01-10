@@ -7,99 +7,99 @@ package
    {
        
       
-      public var matchOrdinary:Boolean = false;
+      public var oilRequest:Boolean = false;
       
-      public var deadpanPrickly:int = 6976661;
+      public var swankyFaint:int = 6976661;
       
-      public var increasePat:String;
+      public var bakeWatery:String;
       
       public var senseRub:int;
       
-      public var performSplendid:int;
+      public var cuteHarmony:int;
       
-      public var comparisonGrin:int;
+      public var womanShoe:int;
       
-      public var farmSlow:TextFormat;
+      public var scaredUninterested:TextFormat;
       
-      public var rambunctiousSincere:TextFormat;
+      public var peckAwake:TextFormat;
       
-      public var steerShort:int = 1189417;
+      public var boastStale:int = 1189417;
       
-      public var farmUnique:int = 12763866;
+      public var wetRub:int = 12763866;
       
-      public var oilRequest:int = 16244891;
+      public var loafSummer:int = 16244891;
       
-      public var clubOven:int = 10066329;
+      public var sistersSummer:int = 10066329;
       
-      public var cuteHarmony:String;
+      public var farmUnique:String;
       
-      public var momentousSqueeze:Array;
+      public var plantsMany:Array;
       
-      public var annoyFade:int;
+      public var notebookAdmire:int;
       
-      public var planHate:String;
+      public var rambunctiousSincere:String;
       
-      public var spotlessDislike:String;
+      public var increasePat:String;
       
-      public var unitComplex:String;
+      public var creatorUsed:String;
       
-      public var cryCultured:String;
+      public var preciousUnequal:String;
       
-      public var boastStale:int;
+      public var steerShort:int;
       
-      public var adviceUnequal:String;
+      public var separateQueue:String;
       
-      public var funnySuzuka:int = 3500917;
+      public var doubleOnerous:int = 3500917;
       
-      public var moveTrip:int = 858652;
+      public var funnySuzuka:int = 858652;
       
-      public var preciousUnequal:int;
+      public var icyCheck:int;
       
-      public var betterHistorical:int = 1981762;
+      public var adviceUnequal:int = 1981762;
       
-      public var separateQueue:int = 16764812;
+      public var momentousThick:int = 16764812;
       
-      public var peckAwake1:int = 1981762;
+      public var spotlessDislike:int = 1981762;
       
-      public var wetRub:int = 2108723;
+      public var punchAdhesive:int = 2108723;
       
-      public var bakeWatery:int;
+      public var inquisitiveBury:int;
       
-      public var additionLight:int = 8738;
+      public var unitComplex:int = 8738;
       
-      public var punchAdhesive:int = 34952;
+      public var cryChin:int = 34952;
       
-      public var momentousThick:int = 15309835;
+      public var blushDear:int = 15309835;
       
-      public var carelessDisappear:int = 2246221;
+      public var personZonked:int = 2246221;
       
-      public var icyCheck:int = 2243405;
+      public var balvankaHeartbreaking:int = 2243405;
       
-      public var cryChin1:int = 2578772;
+      public var carelessDisappear:int = 2578772;
       
-      public var loafSummer:int = 1189161;
+      public var additionLight:int = 1189161;
       
-      public var balvankaHeartbreaking:int = 3101273;
+      public var newUnknown:int = 3101273;
       
-      public var newUnknown:int = 2510420;
+      public var frightenImportant:int = 2510420;
       
       public function BasinFit()
       {
-         this.senseRub = AttractiveSugar.sparkleComplex;
-         this.performSplendid = GateLetters.notebookAdmire(ForkBit.bakeInstinctive);
-         this.comparisonGrin = this.performSplendid;
-         this.farmSlow = new TextFormat(GateLetters.describePleasant(MarkEvasive.plantsMany),this.comparisonGrin,12763866);
-         this.rambunctiousSincere = new TextFormat(MarkEvasive.plantsMany,this.comparisonGrin,48059);
-         this.cuteHarmony = BashfulUnwritten.doubleOnerous;
-         this.momentousSqueeze = new Array(new BevelFilter(FrightenUnique.frightenImportant,GateLetters.notebookAdmire(AdditionVague.swankyFaint),16777215,GateLetters.ablazeAlive(RequestCactus.scaredUninterested),GateLetters.notebookAdmire(ForkBit.womanShoe),FrightenUnique.frightenImportant,GateLetters.notebookAdmire(FrightenUnique.frightenImportant),FrightenUnique.frightenImportant));
-         this.annoyFade = AttractiveSugar.evasiveBehavior;
-         this.planHate = GateLetters.describePleasant(FourYell.creatorUsed);
-         this.spotlessDislike = AttractiveSugar.trainsExpansion;
-         this.unitComplex = AdditionVague.personZonked;
-         this.cryCultured = FillLegs.sistersSummer;
-         this.boastStale = -GateLetters.notebookAdmire(RequestCactus.blushDear);
-         this.preciousUnequal = GateLetters.notebookAdmire(ForkBit.womanShoe);
-         this.bakeWatery = ToothpasteCloistered.inquisitiveBury;
+         this.senseRub = NervousOnerous.evasiveBehavior(FaithfulBaseball.momentousSqueeze);
+         this.cuteHarmony = NervousOnerous.evasiveBehavior(BalanceSecret.betterHistorical);
+         this.womanShoe = this.cuteHarmony;
+         this.scaredUninterested = new TextFormat(NervousOnerous.farmSlow(KneelDaily.ablazeAlive),this.womanShoe,12763866);
+         this.peckAwake = new TextFormat(KneelDaily.ablazeAlive,this.womanShoe,48059);
+         this.farmUnique = NervousOnerous.farmSlow(SistersRedundant.describePleasant);
+         this.plantsMany = new Array(new BevelFilter(MarkParty.bakeInstinctive,NervousOnerous.evasiveBehavior(FaithfulVoracious.matchOrdinary),16777215,NervousOnerous.comparisonGrin(FaithfulBaseball.deadpanPrickly),FaithfulBaseball.annoyFade,MarkParty.bakeInstinctive,MarkParty.bakeInstinctive,NervousOnerous.evasiveBehavior(MarkParty.bakeInstinctive)));
+         this.notebookAdmire = MarkParty.planHate;
+         this.rambunctiousSincere = NervousOnerous.farmSlow(JellyCry.clubOven);
+         this.increasePat = KneelDaily.cryCultured;
+         this.creatorUsed = SpaceIdea.trainsExpansion;
+         this.preciousUnequal = SistersRedundant.sparkleComplex;
+         this.steerShort = -NervousOnerous.evasiveBehavior(NervousPromise.moveTrip);
+         this.icyCheck = NervousOnerous.evasiveBehavior(FaithfulBaseball.annoyFade);
+         this.inquisitiveBury = SupplyMountain.performSplendid;
          super();
       }
    }

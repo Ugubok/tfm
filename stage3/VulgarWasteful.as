@@ -6,58 +6,58 @@ package
    {
        
       
-      public var scissorsAgonizing:ZippySisters;
+      public var delicateTumble:ZippySisters;
       
       public var squareCactus:String;
       
-      public var hoseNear:int;
+      public var onerousFlash:int;
       
-      public var hateWhisper:String;
+      public var whiteButter:String;
       
-      public var fadeDetermined:int;
+      public var capriciousOnerous:int;
       
-      public var delicateTumble:DebtKindhearted;
+      public var squeezePathetic:DebtKindhearted;
       
       public function VulgarWasteful(param1:ZippySisters)
       {
          super();
-         this.scissorsAgonizing = param1;
+         this.delicateTumble = param1;
       }
       
-      public function get cleverWhip1() : String
+      public function get whiteTedious() : String
       {
-         return GateLetters.seriousFrighten(ChinSnakes.letterKneel);
+         return OrangesQueue.cleverWhip;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.gapingDisgusting;
+         return KotskyRailway.stripedInnate;
       }
       
-      public function stripedInnate() : Boolean
+      public function hateWhisper() : Boolean
       {
          return false;
       }
       
-      public function squeezePathetic() : int
+      public function gapingDisgusting() : int
       {
-         return ForkBit.whiteButter + this.squareCactus.length + this.hateWhisper.length + this.delicateTumble.frailSmooth();
+         return BalanceSecret.frailSmooth + this.squareCactus.length + this.whiteButter.length + this.squeezePathetic.seriousFrighten();
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
          this.squareCactus = param1.readUTFBytes(_loc2_);
-         this.hoseNear = param1.readInt();
+         this.onerousFlash = param1.readInt();
          var _loc3_:int = param1.readShort();
-         this.hateWhisper = param1.readUTFBytes(_loc3_);
-         this.fadeDetermined = param1.readInt();
-         this.delicateTumble = DebtKindhearted.capriciousOnerous(param1);
+         this.whiteButter = param1.readUTFBytes(_loc3_);
+         this.capriciousOnerous = param1.readInt();
+         this.squeezePathetic = DebtKindhearted.puzzledPear(param1);
       }
       
-      public function get whiteTedious() : int
+      public function get fadeDetermined() : int
       {
-         return GateLetters.onerousFlash(ToothpasteCloistered.puzzledPear);
+         return NervousOnerous.hoseNear(FaithfulBaseball.scissorsAgonizing);
       }
    }
 }

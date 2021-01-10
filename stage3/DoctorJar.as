@@ -1,14 +1,14 @@
 package
 {
-   public class DoctorJar extends WordCalculator
+   public class DoctorJar extends StorePaint
    {
        
       
-      public function DoctorJar(param1:int, param2:int)
+      public function DoctorJar(param1:int, param2:Boolean)
       {
-         super(GateLetters.zonkedMeasure(ExoticMemorize.systemClass),GateLetters.zonkedMeasure(ExpansionTour.carefulBoundless));
-         grainJar.writeInt(param1);
-         grainJar.writeInt(param2);
+         super(OrangesQueue.grainJar,SpaceIdea.carefulBoundless);
+         zonkedMeasure.writeShort(param1);
+         zonkedMeasure.writeBoolean(param2);
       }
    }
 }

@@ -4,20 +4,20 @@ package
    {
        
       
-      public var inexpensiveTrap:RetireGrandfather;
+      public var identifyLip:RetireGrandfather;
       
-      public var smartImportant:CommonDoctor;
+      public var authorityObtainable:CountIncompetent;
       
-      public var identifyLip:int;
+      public var cureChop:int;
       
-      public var cureChop:Boolean = false;
+      public var successfulVoracious:Boolean = false;
       
-      public function OptimalPayment(param1:CommonDoctor, param2:int)
+      public function OptimalPayment(param1:CountIncompetent, param2:int)
       {
-         this.identifyLip = GateLetters.authorityObtainable(ForkBit.successfulVoracious1);
+         this.cureChop = FaithfulBaseball.smartImportant;
          super();
-         this.smartImportant = param1;
-         this.identifyLip = param2;
+         this.authorityObtainable = param1;
+         this.cureChop = param2;
       }
    }
 }

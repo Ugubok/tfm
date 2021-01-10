@@ -6,18 +6,18 @@ package
    {
        
       
-      public var nationJog:ZippySisters;
+      public var supplyLook:ZippySisters;
       
       public var idSequence:int;
       
-      public var lockWind:int;
+      public var narrowMountain:int;
       
-      public var armyPoison:PipkaStory;
+      public var squareMany:PartyLackadaisical;
       
       public function ProgramDivision(param1:ZippySisters)
       {
          super();
-         this.nationJog = param1;
+         this.supplyLook = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get narrowMountain() : String
+      public function get lightAlert() : String
       {
-         return ChinSnakes.advertisementSnakes;
+         return OrangesQueue.faintPlough;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.wetLong;
+         return KotskyRailway.thickSpiky;
       }
       
       public function instinctiveDiscussion() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function thickSpiky() : int
+      public function wetLong1() : int
       {
-         return MarkEvasive.squareMany;
+         return MarkParty.advertisementSnakes;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.lockWind = param1.readByte();
-         var _loc2_:ProseZonked = this.nationJog.recupereSequence(this.idSequence);
+         this.narrowMountain = param1.readByte();
+         var _loc2_:ProseZonked = this.supplyLook.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is PipkaStory)
+            if(_loc2_ is PartyLackadaisical)
             {
-               this.armyPoison = PipkaStory(_loc2_);
-               this.armyPoison.supplyLook = this;
+               this.squareMany = PartyLackadaisical(_loc2_);
+               this.squareMany.lockWind = this;
             }
          }
       }
       
-      public function get deliverThought() : int
+      public function get nationJog() : int
       {
-         return GateLetters.faintPlough(ScaleTemper.lightAlert1);
+         return NervousOnerous.armyPoison(PleaseFour.deliverThought);
       }
    }
 }

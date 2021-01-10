@@ -1,13 +1,13 @@
 package
 {
-   public class BombCat extends WordCalculator
+   public class BombCat extends StorePaint
    {
        
       
       public function BombCat(param1:int)
       {
-         super(GateLetters.faintUnwritten(ScaleTemper.purposeReject),ExoticMemorize.kotskyPorter);
-         delightfulCrowded.writeByte(param1);
+         super(BalanceSecret.purposeReject,NervousOnerous.delightfulCrowded(BalanceSecret.purposeReject));
+         faintUnwritten.writeByte(param1);
       }
    }
 }

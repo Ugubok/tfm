@@ -6,40 +6,40 @@ package
    {
        
       
-      public var stripedLie:int;
+      public var abortiveCelery:int;
       
-      public var probableBoot:String;
+      public var sandHarmony:String;
       
       public function GroundPorter(param1:int = 0, param2:String = null)
       {
          super();
-         this.stripedLie = param1;
-         this.probableBoot = param2;
+         this.abortiveCelery = param1;
+         this.sandHarmony = param2;
       }
       
-      public static function feebleHobbies(param1:ByteArray) : GroundPorter
+      public static function forkCake(param1:ByteArray) : GroundPorter
       {
          var _loc2_:GroundPorter = new GroundPorter();
          _loc2_.lecture(param1);
          return _loc2_;
       }
       
-      public function abortiveCelery() : int
+      public function probableBoot() : int
       {
-         return GateLetters.sandHarmony(ScaleTemper.forkCake) + this.probableBoot.length;
+         return NervousOnerous.feebleHobbies(SupplyMountain.stripedLie) + this.sandHarmony.length;
       }
       
       public function ecriture(param1:ByteArray) : void
       {
-         param1.writeInt(this.stripedLie);
-         param1.writeUTF(this.probableBoot);
+         param1.writeInt(this.abortiveCelery);
+         param1.writeUTF(this.sandHarmony);
       }
       
       public function lecture(param1:ByteArray) : void
       {
-         this.stripedLie = param1.readInt();
+         this.abortiveCelery = param1.readInt();
          var _loc2_:int = param1.readShort();
-         this.probableBoot = param1.readUTFBytes(_loc2_);
+         this.sandHarmony = param1.readUTFBytes(_loc2_);
       }
    }
 }

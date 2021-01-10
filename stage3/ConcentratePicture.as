@@ -1,15 +1,15 @@
 package
 {
-   public class ConcentratePicture extends WordCalculator
+   public class ConcentratePicture extends StorePaint
    {
        
       
       public function ConcentratePicture(param1:int, param2:int, param3:int)
       {
-         super(GateLetters.brightDisturbed(MarkEvasive.juiceShop),GateLetters.brightDisturbed(KnowledgeLate.neighborlySlim));
-         pleasantLight.writeInt(param1);
-         pleasantLight.writeShort(param2);
-         pleasantLight.writeShort(param3);
+         super(MarkParty.pleasantLight,NervousOnerous.neighborlySlim(RepulsiveDear.brightDisturbed));
+         juiceShop.writeByte(param1);
+         juiceShop.writeShort(param2);
+         juiceShop.writeShort(param3);
       }
    }
 }

@@ -1,12 +1,12 @@
 package
 {
-   public class DressIncrease extends WordCalculator
+   public class DressIncrease extends StorePaint
    {
        
       
       public function DressIncrease()
       {
-         super(GateLetters.steerTendency(BashfulUnwritten.describeExpert),GateLetters.steerTendency(FrightenUnique.conditionHeat));
+         super(BalanceSecret.describeExpert,NervousOnerous.conditionHeat(SpaceIdea.steerTendency));
       }
    }
 }

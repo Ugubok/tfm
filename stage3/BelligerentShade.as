@@ -2,7 +2,7 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class BelligerentShade extends CleverWhip
+   public class BelligerentShade extends KotskyCheck
    {
        
       
@@ -12,9 +12,9 @@ package
       
       public var lightStay:int;
       
-      public var bombProbable:String;
-      
       public var armStormy:String;
+      
+      public var dinnerWait:String;
       
       public function BelligerentShade(param1:ByteArray)
       {
@@ -22,11 +22,11 @@ package
          this.ovenInvent = param1.readInt();
          this.burnAgonizing = param1.readInt();
          this.lightStay = param1.readInt();
-         this.bombProbable = param1.readUTF();
          this.armStormy = param1.readUTF();
-         if(this.bombProbable == BashfulUnwritten.dinnerWait)
+         this.dinnerWait = param1.readUTF();
+         if(this.armStormy == NervousPromise.bombProbable)
          {
-            this.bombProbable = null;
+            this.armStormy = null;
          }
       }
    }

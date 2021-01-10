@@ -2,28 +2,28 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class WallUsed extends CleverWhip
+   public class WallUsed extends KotskyCheck
    {
        
       
-      public var inquisitiveLanguid:int;
+      public var basinManage:int;
       
-      public var seaFade:int;
+      public var wailBaseball:int;
       
-      public var basinManage:String;
+      public var seaFade:String;
       
-      public var harborReligion:Boolean;
+      public var locketEfficient:Boolean;
       
       public function WallUsed(param1:ByteArray)
       {
          super(param1);
-         this.inquisitiveLanguid = param1.readInt();
-         this.seaFade = param1.readByte();
-         if(GateLetters.wailBaseball(RequestCactus.locketEfficient) == this.seaFade)
+         this.basinManage = param1.readInt();
+         this.wailBaseball = param1.readByte();
+         if(NervousPromise.inquisitiveLanguid == this.wailBaseball)
          {
-            this.basinManage = param1.readUTF();
+            this.seaFade = param1.readUTF();
          }
-         this.harborReligion = param1.readBoolean();
+         this.locketEfficient = param1.readBoolean();
       }
    }
 }

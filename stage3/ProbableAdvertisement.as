@@ -1,13 +1,13 @@
 package
 {
-   public class ProbableAdvertisement extends WordCalculator
+   public class ProbableAdvertisement extends StorePaint
    {
        
       
-      public function ProbableAdvertisement(param1:int)
+      public function ProbableAdvertisement(param1:String)
       {
-         super(GateLetters.batheSki(MarkEvasive.abjectKotsky),GateLetters.batheSki(ExoticMemorize.tediousUnknown));
-         stiffKneel(param1);
+         super(NervousOnerous.stiffKneel(FaithfulBaseball.batheSki),SupplyMountain.tediousUnknown);
+         abjectKotsky.writeUTF(param1);
       }
    }
 }

@@ -2,149 +2,149 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class BumpBoast extends CleverWhip
+   public class BumpBoast extends KotskyCheck
    {
        
       
-      public var snottyUnequal1:int;
+      public var frightenInvite:int;
       
-      public var disappearLaborer:int;
+      public var trailShoe:int;
       
-      public var babiesPail:String;
+      public var superBury:String;
       
-      public var sincereDinner:Array;
+      public var snottyUnequal:Array;
       
-      public var mightyGlorious:Vector.<AirDescribe>;
+      public var mightyGlorious:Vector.<ChinNoiseless>;
       
-      public var creatorPlough:Vector.<WallStiff>;
+      public var skinStay:Vector.<MarkedObtainable>;
       
-      public var probableBear:Vector.<LightGlamorous>;
+      public var recogniseHoc:Vector.<ChickenRabbit>;
       
-      public var shoePhone:Vector.<LightGlamorous>;
+      public var creatorPlough:Vector.<ChickenRabbit>;
       
       public var keyHate:Array;
       
       public function BumpBoast(param1:ByteArray)
       {
-         var identifyMend:LightGlamorous = null;
-         var superBury1:int = 0;
-         var rubPhone1:int = 0;
-         var wealthyFlash:Vector.<int> = null;
-         var humorAction:int = 0;
-         var skinStay:AirDescribe = null;
-         var rightfulSeed:int = 0;
+         var wealthyFlash:ChickenRabbit = null;
+         var sincereDinner:int = 0;
+         var babiesInstinctive:int = 0;
+         var dildoComparison:Vector.<int> = null;
+         var punchBrush:int = 0;
+         var disappearLaborer:ChinNoiseless = null;
+         var fierceClammy:int = 0;
+         var probableBear:int = 0;
          var thirdGate:int = 0;
-         var beautifulAdjoining:int = 0;
-         var dildoComparison:WallStiff = null;
-         var frightenInvite:ByteArray = param1;
-         this.sincereDinner = new Array();
+         var hilariousCultured:MarkedObtainable = null;
+         var rubPhone:ByteArray = param1;
+         this.snottyUnequal = new Array();
          this.keyHate = new Array();
-         super(frightenInvite);
-         this.snottyUnequal1 = frightenInvite.readInt();
-         this.disappearLaborer = frightenInvite.readInt();
-         this.babiesPail = frightenInvite.readUTF();
-         var recogniseHoc1:int = frightenInvite.readInt();
-         var babiesInstinctive:int = GateLetters.fierceClammy(ForkBit.nestWeight);
-         while(babiesInstinctive < recogniseHoc1)
+         super(rubPhone);
+         this.frightenInvite = rubPhone.readInt();
+         this.trailShoe = rubPhone.readInt();
+         this.superBury = rubPhone.readUTF();
+         var nestWeight:int = rubPhone.readInt();
+         var identifyMend:int = FaithfulBaseball.afterthoughtColor;
+         while(identifyMend < nestWeight)
          {
-            superBury1 = frightenInvite.readByte();
-            rubPhone1 = frightenInvite.readInt();
-            if(superBury1 == ForkBit.nestWeight)
+            sincereDinner = rubPhone.readByte();
+            babiesInstinctive = rubPhone.readInt();
+            if(sincereDinner == NervousOnerous.exoticStupid(FaithfulBaseball.afterthoughtColor))
             {
-               this.sincereDinner.push(rubPhone1,null);
+               this.snottyUnequal.push(babiesInstinctive,null);
             }
             else
             {
-               superBury1--;
-               wealthyFlash = new Vector.<int>();
-               humorAction = ForkBit.nestWeight;
-               while(humorAction < superBury1)
+               sincereDinner--;
+               dildoComparison = new Vector.<int>();
+               punchBrush = FaithfulBaseball.afterthoughtColor;
+               while(punchBrush < sincereDinner)
                {
-                  wealthyFlash.push(frightenInvite.readInt());
-                  humorAction++;
+                  dildoComparison.push(rubPhone.readInt());
+                  punchBrush++;
                }
-               this.sincereDinner.push(rubPhone1,wealthyFlash);
+               this.snottyUnequal.push(babiesInstinctive,dildoComparison);
             }
-            babiesInstinctive++;
+            identifyMend++;
          }
-         recogniseHoc1 = frightenInvite.readInt();
-         if(recogniseHoc1)
+         nestWeight = rubPhone.readInt();
+         if(nestWeight)
          {
-            this.mightyGlorious = new Vector.<AirDescribe>();
-            babiesInstinctive = ForkBit.nestWeight;
-            while(babiesInstinctive < recogniseHoc1)
+            this.mightyGlorious = new Vector.<ChinNoiseless>();
+            identifyMend = FaithfulBaseball.afterthoughtColor;
+            while(identifyMend < nestWeight)
             {
                try
                {
-                  skinStay = new AirDescribe(frightenInvite.readUnsignedShort(),frightenInvite.readUnsignedShort(),frightenInvite.readByte(),frightenInvite.readBoolean(),frightenInvite.readByte(),frightenInvite.readInt(),frightenInvite.readInt(),frightenInvite.readUnsignedShort());
-                  this.mightyGlorious.push(skinStay);
+                  disappearLaborer = new ChinNoiseless(rubPhone.readUnsignedShort(),rubPhone.readUnsignedShort(),rubPhone.readByte(),rubPhone.readBoolean(),rubPhone.readByte(),rubPhone.readInt(),rubPhone.readInt(),rubPhone.readUnsignedShort());
+                  this.mightyGlorious.push(disappearLaborer);
                }
-               catch(afterthoughtColor:Error)
+               catch(babiesPail:Error)
                {
                }
-               babiesInstinctive++;
+               identifyMend++;
             }
          }
-         recogniseHoc1 = frightenInvite.readByte();
-         this.shoePhone = new Vector.<LightGlamorous>();
-         babiesInstinctive = GateLetters.fierceClammy(ForkBit.nestWeight);
-         while(babiesInstinctive < recogniseHoc1)
+         nestWeight = rubPhone.readByte();
+         this.creatorPlough = new Vector.<ChickenRabbit>();
+         identifyMend = FaithfulBaseball.afterthoughtColor;
+         while(identifyMend < nestWeight)
          {
-            identifyMend = new LightGlamorous(frightenInvite.readUnsignedShort(),frightenInvite.readUTF());
-            identifyMend.exoticStupid = frightenInvite.readByte();
-            this.shoePhone.push(identifyMend);
-            babiesInstinctive++;
+            wealthyFlash = new ChickenRabbit(rubPhone.readUnsignedShort(),rubPhone.readUTF());
+            wealthyFlash.humorAction = rubPhone.readByte();
+            this.creatorPlough.push(wealthyFlash);
+            identifyMend++;
          }
-         recogniseHoc1 = frightenInvite.readShort();
-         this.probableBear = new Vector.<LightGlamorous>();
-         var punchBrush1:int = ForkBit.nestWeight;
-         while(punchBrush1 < recogniseHoc1)
+         nestWeight = rubPhone.readShort();
+         this.recogniseHoc = new Vector.<ChickenRabbit>();
+         var rightfulSeed:int = FaithfulBaseball.afterthoughtColor;
+         while(rightfulSeed < nestWeight)
          {
-            this.probableBear.push(new LightGlamorous(punchBrush1,frightenInvite.readUTF()));
-            punchBrush1++;
+            this.recogniseHoc.push(new ChickenRabbit(rightfulSeed,rubPhone.readUTF()));
+            rightfulSeed++;
          }
-         recogniseHoc1 = frightenInvite.readShort();
-         babiesInstinctive = GateLetters.fierceClammy(ForkBit.nestWeight);
-         while(babiesInstinctive < recogniseHoc1)
+         nestWeight = rubPhone.readShort();
+         identifyMend = NervousOnerous.exoticStupid(FaithfulBaseball.afterthoughtColor);
+         while(identifyMend < nestWeight)
          {
-            rightfulSeed = frightenInvite.readShort();
-            thirdGate = frightenInvite.readByte();
-            superBury1 = frightenInvite.readByte();
-            if(superBury1 == ForkBit.nestWeight)
+            fierceClammy = rubPhone.readShort();
+            probableBear = rubPhone.readByte();
+            sincereDinner = rubPhone.readByte();
+            if(FaithfulBaseball.afterthoughtColor == sincereDinner)
             {
-               this.keyHate.push(rightfulSeed,thirdGate,null);
+               this.keyHate.push(fierceClammy,probableBear,null);
             }
             else
             {
-               superBury1--;
-               wealthyFlash = new Vector.<int>();
-               humorAction = GateLetters.fierceClammy(ForkBit.nestWeight);
-               while(humorAction < superBury1)
+               sincereDinner--;
+               dildoComparison = new Vector.<int>();
+               punchBrush = NervousOnerous.exoticStupid(FaithfulBaseball.afterthoughtColor);
+               while(punchBrush < sincereDinner)
                {
-                  wealthyFlash.push(frightenInvite.readInt());
-                  humorAction++;
+                  dildoComparison.push(rubPhone.readInt());
+                  punchBrush++;
                }
-               this.keyHate.push(rightfulSeed,thirdGate,wealthyFlash);
+               this.keyHate.push(fierceClammy,probableBear,dildoComparison);
             }
-            babiesInstinctive++;
+            identifyMend++;
          }
-         recogniseHoc1 = frightenInvite.readShort();
-         if(recogniseHoc1)
+         nestWeight = rubPhone.readShort();
+         if(nestWeight)
          {
-            this.creatorPlough = new Vector.<WallStiff>();
-            babiesInstinctive = GateLetters.fierceClammy(ForkBit.nestWeight);
-            while(babiesInstinctive < recogniseHoc1)
+            this.skinStay = new Vector.<MarkedObtainable>();
+            identifyMend = FaithfulBaseball.afterthoughtColor;
+            while(identifyMend < nestWeight)
             {
-               beautifulAdjoining = frightenInvite.readInt();
+               thirdGate = rubPhone.readInt();
                try
                {
-                  dildoComparison = new WallStiff(QuirkyAbortive.hilariousCultured(beautifulAdjoining),QuirkyAbortive.trailShoe(beautifulAdjoining),frightenInvite.readByte(),frightenInvite.readBoolean(),frightenInvite.readByte(),frightenInvite.readInt(),frightenInvite.readShort());
-                  this.creatorPlough.push(dildoComparison);
+                  hilariousCultured = new MarkedObtainable(ShoeDidactic.shoePhone(thirdGate),ShoeDidactic.beautifulAdjoining(thirdGate),rubPhone.readByte(),rubPhone.readBoolean(),rubPhone.readByte(),rubPhone.readInt(),rubPhone.readShort());
+                  this.skinStay.push(hilariousCultured);
                }
-               catch(afterthoughtColor:Error)
+               catch(babiesPail:Error)
                {
                }
-               babiesInstinctive++;
+               identifyMend++;
             }
          }
       }

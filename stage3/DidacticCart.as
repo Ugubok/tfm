@@ -1,14 +1,14 @@
 package
 {
-   public class DidacticCart extends WordCalculator
+   public class DidacticCart extends StorePaint
    {
        
       
-      public function DidacticCart(param1:String, param2:Boolean = false)
+      public function DidacticCart(param1:String)
       {
-         super(GateLetters.fantasticSlow(BashfulUnwritten.toyBleach),ScaleTemper.unequalSea);
-         letterWren.writeUTF(param1);
-         letterWren.writeBoolean(param2);
+         super(SupplyMountain.unequalSea,IdeaReal.succinctSuper);
+         letterWren(param1);
+         fantasticSlow = NarrowPlants.toyBleach;
       }
    }
 }

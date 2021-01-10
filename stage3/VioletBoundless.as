@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var ploughSearch:String;
+      public var squeezeScissors:String;
       
-      public var recogniseBead:Boolean;
+      public var farmBelligerent:Boolean;
       
-      public var adCondition:ZippyPorter;
+      public var halfBelligerent:HesitantHoc;
       
       public function VioletBoundless(param1:int, param2:String, param3:Boolean)
       {
          super();
          this.idSequence = param1;
-         this.ploughSearch = param2;
-         this.recogniseBead = param3;
+         this.squeezeScissors = param2;
+         this.farmBelligerent = param3;
       }
       
       public function getIdSequence() : int
@@ -27,31 +27,31 @@ package
          return this.idSequence;
       }
       
-      public function get farmBelligerent() : String
+      public function get collectMemorize() : String
       {
-         return GateLetters.halfBelligerent(ChinSnakes.instinctiveSmile);
+         return OrangesQueue.shameLamentable1;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.squeezeScissors;
+         return KotskyRailway.recogniseBead;
       }
       
-      public function blotShock() : Boolean
+      public function pleasantOnerous() : Boolean
       {
          return false;
       }
       
-      override public function pleasantOnerous() : int
+      override public function blotShock() : int
       {
-         return RequestCactus.shortExplain + this.ploughSearch.length;
+         return FaithfulVoracious.adCondition + this.squeezeScissors.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.ploughSearch);
-         param1.writeByte(!!this.recogniseBead?int(FrightenUnique.shameLamentable):int(ForkBit.collectMemorize));
+         param1.writeUTF(this.squeezeScissors);
+         param1.writeByte(!!this.farmBelligerent?int(NervousOnerous.ploughSearch(MarkParty.instinctiveSmile)):int(FaithfulBaseball.shortExplain));
       }
    }
 }

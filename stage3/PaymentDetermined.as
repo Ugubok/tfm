@@ -6,18 +6,18 @@ package
    {
        
       
-      public var scintillatingOven:ZippySisters;
+      public var wetUnique:ZippySisters;
       
       public var idSequence:int;
       
-      public var queueZonked:int;
+      public var faithfulSymptomatic:int;
       
-      public var faithfulSymptomatic:GeneralHusky;
+      public var brightInnate:PipkaStory;
       
       public function PaymentDetermined(param1:ZippySisters)
       {
          super();
-         this.scintillatingOven = param1;
+         this.wetUnique = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get purposeDeadpan() : String
+      public function get scintillatingOven() : String
       {
-         return ChinSnakes.chinTransport;
+         return OrangesQueue.fierceUninterested;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.authorityCrowded;
+         return KotskyRailway.queueZonked;
       }
       
       public function faithfulCompetition() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function dildoExpansion() : int
+      public function authorityCrowded() : int
       {
-         return MarkEvasive.bearGrandfather;
+         return NervousOnerous.dildoExpansion(MarkParty.chinTransport);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.queueZonked = param1.readByte();
-         var _loc2_:ProseZonked = this.scintillatingOven.recupereSequence(this.idSequence);
+         this.faithfulSymptomatic = param1.readByte();
+         var _loc2_:ProseZonked = this.wetUnique.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is GeneralHusky)
+            if(_loc2_ is PipkaStory)
             {
-               this.faithfulSymptomatic = GeneralHusky(_loc2_);
-               this.faithfulSymptomatic.hocWail = this;
+               this.brightInnate = PipkaStory(_loc2_);
+               this.brightInnate.purposeDeadpan = this;
             }
          }
       }
       
-      public function get fierceUninterested() : int
+      public function get bearGrandfather() : int
       {
-         return GateLetters.wetUnique(KnowledgeLate.brightInnate);
+         return DearTemper.hocWail;
       }
    }
 }

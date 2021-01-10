@@ -6,34 +6,34 @@ package
       
       public var beautifulOptimal:int;
       
-      public var thirdWall:int;
-      
-      public var peckHand:Boolean;
-      
       public var jumbledPhone:int;
+      
+      public var spoonShut:Boolean;
+      
+      public var spiffyMetal:int;
       
       public function AngleNervous(param1:Number, param2:Number, param3:Boolean)
       {
          super();
-         this.peckHand = param3;
-         if(param1 < ForkBit.spiffyMetal)
+         this.spoonShut = param3;
+         if(FaithfulBaseball.stayBoundless > param1)
          {
-            param1 = GateLetters.cactusMilky(ForkBit.spiffyMetal);
+            param1 = FaithfulBaseball.stayBoundless;
          }
-         else if(param1 > PunctureAblaze.spoonShut)
+         else if(PunctureAblaze.cactusMilky < param1)
          {
-            param1 = PunctureAblaze.spoonShut;
+            param1 = PunctureAblaze.cactusMilky;
          }
-         if(ForkBit.spiffyMetal > param2)
+         if(NervousOnerous.thirdWall(FaithfulBaseball.stayBoundless) > param2)
          {
-            param2 = GateLetters.cactusMilky(ForkBit.spiffyMetal);
+            param2 = NervousOnerous.thirdWall(FaithfulBaseball.stayBoundless);
          }
-         else if(param2 > PunctureAblaze.trainsKey)
+         else if(param2 > PunctureAblaze.peckHand)
          {
-            param2 = PunctureAblaze.trainsKey;
+            param2 = PunctureAblaze.peckHand;
          }
-         this.beautifulOptimal = int(Math.round(param1 / ToothpasteCloistered.stayBoundless) * GateLetters.cactusMilky(ToothpasteCloistered.stayBoundless));
-         this.thirdWall = int(Math.round(param2 / ToothpasteCloistered.stayBoundless) * GateLetters.cactusMilky(ToothpasteCloistered.stayBoundless));
+         this.beautifulOptimal = int(Math.round(param1 / SupplyMountain.trainsKey) * NervousOnerous.thirdWall(SupplyMountain.trainsKey));
+         this.jumbledPhone = int(Math.round(param2 / SupplyMountain.trainsKey) * SupplyMountain.trainsKey);
       }
    }
 }

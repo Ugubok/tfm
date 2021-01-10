@@ -1,13 +1,13 @@
 package
 {
-   public class OrangesLaborer extends WordCalculator
+   public class OrangesLaborer extends StorePaint
    {
        
       
-      public function OrangesLaborer(param1:int)
+      public function OrangesLaborer(param1:String)
       {
-         super(GateLetters.bashfulDivision(AttractiveSugar.colossalNear),GateLetters.bashfulDivision(RequestCactus.identifyExpert));
-         penitentGovernment.writeByte(param1);
+         super(IdeaReal.penitentGovernment,FaithfulBaseball.colossalNear);
+         bashfulDivision.writeUTF(param1);
       }
    }
 }

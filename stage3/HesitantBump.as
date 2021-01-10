@@ -1,13 +1,13 @@
 package
 {
-   public class HesitantBump extends WordCalculator
+   public class HesitantBump extends StorePaint
    {
        
       
-      public function HesitantBump(param1:Boolean)
+      public function HesitantBump(param1:int)
       {
-         super(HarmonyVeil.pictureInconclusive,GateLetters.painstakingOpposite(ScaleTemper.auntReject));
-         additionLetter.writeByte(!!param1?int(GateLetters.painstakingOpposite(FrightenUnique.bladeBalance)):int(ForkBit.hobbiesFive));
+         super(MarkParty.additionLetter,SupplyMountain.bladeBalance);
+         pictureInconclusive.writeByte(param1);
       }
    }
 }

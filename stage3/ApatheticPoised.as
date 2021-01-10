@@ -6,24 +6,24 @@ package
    {
        
       
-      public var stripedNest:ZippySisters;
+      public var boundaryAdventurous:ZippySisters;
       
-      public var kneelHusky:String;
+      public var washSlim:String;
       
       public function ApatheticPoised(param1:ZippySisters)
       {
          super();
-         this.stripedNest = param1;
+         this.boundaryAdventurous = param1;
       }
       
-      public function get shelfCount() : String
+      public function get earthquakeRub() : String
       {
-         return GateLetters.towChickens(ChinSnakes.knowledgeableWhip);
+         return OrangesQueue.shelfCount;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.neatRare;
+         return KotskyRailway.wiseStriped;
       }
       
       public function knotRepeat() : Boolean
@@ -31,20 +31,20 @@ package
          return false;
       }
       
-      public function wiseStriped() : int
+      public function neatRare() : int
       {
-         return ToothpasteCloistered.washSlim + this.kneelHusky.length;
+         return NervousOnerous.towChickens(SupplyMountain.stripedNest) + this.washSlim.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.kneelHusky = param1.readUTFBytes(_loc2_);
+         this.washSlim = param1.readUTFBytes(_loc2_);
       }
       
-      public function get sleepyLaughable() : int
+      public function get kneelHusky() : int
       {
-         return GateLetters.earthquakeRub(MarkEvasive.boundaryAdventurous);
+         return NervousOnerous.towChickens(KneelDaily.sleepyLaughable);
       }
    }
 }

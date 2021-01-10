@@ -1,13 +1,13 @@
 package
 {
-   public class UniteLeg extends WordCalculator
+   public class UniteLeg extends StorePaint
    {
        
       
       public function UniteLeg(param1:int)
       {
-         super(OrangeUnequal.coolFragile,GateLetters.celeryBranch(HarmonyVeil.pearScrawny));
-         peckPeck.writeInt(param1);
+         super(NervousOnerous.peckPeck(MarkParty.coolFragile),MarkParty.celeryBranch);
+         pearScrawny.writeInt(param1);
       }
    }
 }

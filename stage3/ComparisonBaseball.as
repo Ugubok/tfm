@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var branchShock:int;
+      public var adviseFrantic:int;
       
-      public var jarCry:ZooNoisy;
+      public var soupWandering:ColdUpset;
       
       public function ComparisonBaseball(param1:int, param2:int)
       {
          super();
          this.idSequence = param1;
-         this.branchShock = param2;
+         this.adviseFrantic = param2;
       }
       
       public function getIdSequence() : int
@@ -24,14 +24,14 @@ package
          return this.idSequence;
       }
       
-      public function get usedGullible() : String
+      public function get capriciousOil() : String
       {
-         return ChinSnakes.adviseFrantic;
+         return NervousOnerous.jarCry(OrangesQueue.branchShock);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.engineLimit;
+         return KotskyRailway.usedGullible;
       }
       
       public function feeblePanoramic() : Boolean
@@ -39,15 +39,15 @@ package
          return false;
       }
       
-      override public function coalStale() : int
+      override public function engineLimit() : int
       {
-         return MarkEvasive.capriciousOil;
+         return SistersRedundant.coalStale;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(this.branchShock);
+         param1.writeInt(this.adviseFrantic);
       }
    }
 }

@@ -6,18 +6,18 @@ package
    {
        
       
-      public var bikeAlluring:ZippySisters;
+      public var prepareToe:ZippySisters;
       
       public var idSequence:int;
       
-      public var unequaledUnite:int;
+      public var cloisteredBag:int;
       
-      public var groundSign:SuitPoison;
+      public var naiveBirds:SuitPoison;
       
       public function PigCrowded(param1:ZippySisters)
       {
          super();
-         this.bikeAlluring = param1;
+         this.prepareToe = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get prepareToe() : String
+      public function get grateViolet() : String
       {
-         return GateLetters.ideaFlock(ChinSnakes.dockDidactic);
+         return OrangesQueue.groundSign;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.privateShade;
+         return KotskyRailway.unequaledUnite;
       }
       
       public function forkHydrant() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function cloisteredBag() : int
+      public function privateShade1() : int
       {
-         return MarkEvasive.dockCherry;
+         return NervousOnerous.ideaFlock(MarkParty.dockCherry);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.unequaledUnite = param1.readByte();
-         var _loc2_:ProseZonked = this.bikeAlluring.recupereSequence(this.idSequence);
+         this.cloisteredBag = param1.readByte();
+         var _loc2_:ProseZonked = this.prepareToe.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
             if(_loc2_ is SuitPoison)
             {
-               this.groundSign = SuitPoison(_loc2_);
-               this.groundSign.grateViolet = this;
+               this.naiveBirds = SuitPoison(_loc2_);
+               this.naiveBirds.lackadaisicalSoothe = this;
             }
          }
       }
       
       public function get mightyHalf() : int
       {
-         return GateLetters.naiveBirds(RequestCactus.lackadaisicalSoothe);
+         return ActionThrill.bikeAlluring;
       }
    }
 }

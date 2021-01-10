@@ -6,44 +6,44 @@ package
    {
        
       
-      public var beliefTemper1:ZippySisters;
+      public var lockChin:ZippySisters;
       
-      public var metalAjar:int;
+      public var airPleasant:int;
       
       public function TendencySon(param1:ZippySisters)
       {
          super();
-         this.beliefTemper1 = param1;
+         this.lockChin = param1;
       }
       
-      public function get workHysterical() : String
+      public function get efficientImportant() : String
       {
-         return ChinSnakes.separateLaborer;
+         return NervousOnerous.beliefTemper(OrangesQueue.metalAjar);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.smileBoot;
+         return KotskyRailway.workHysterical;
       }
       
-      public function airPleasant() : Boolean
+      public function nervousPass() : Boolean
       {
          return false;
       }
       
-      public function nervousPass() : int
+      public function smileBoot() : int
       {
-         return FrightenUnique.panickyClammy1;
+         return NervousOnerous.panickyClammy1(MarkParty.separateLaborer);
       }
       
       public function lecture(param1:ByteArray) : void
       {
-         this.metalAjar = param1.readByte();
+         this.airPleasant = param1.readByte();
       }
       
-      public function get efficientImportant() : int
+      public function get colorfulProgram() : int
       {
-         return KnowledgeLate.lockChin;
+         return BalanceSecret.shockSerious;
       }
    }
 }

@@ -9,218 +9,125 @@ package
    import flash.text.TextFormat;
    import flash.text.TextFormatAlign;
    
-   public class HoseYak extends GrateBoring
+   public class HoseYak extends HesitantOven
    {
       
-      public static const entertainingReaction:ColorTransform = new ColorTransform();
+      public static const fearfulNut:ColorTransform = new ColorTransform();
       
-      public static const volcanoScale:ColorTransform = new ColorTransform11 /1011 /1011 /10);
+      public static const betterLip:ColorTransform = new ColorTransform11 /1011 /1011 /10);
        
       
-      public var firstCry:Sprite;
+      public var usedBlush:Sprite;
       
-      public var farmOranges:TowSuccinct;
+      public var cakePathetic:WindyCrown;
       
-      public var panickySalt:int;
+      public var admireSnotty:int;
       
-      public var quirkyPrepare:int;
+      public var doctorPat:int;
       
       public var couleurEnCours:int;
       
-      public var flowCard:Boolean = true;
+      public var proudDiscussion:Boolean = true;
       
-      public var apatheticHorn:Boolean = true;
+      public var suitToys:Boolean = true;
       
       public function HoseYak(param1:String, param2:int = 0, param3:Function = null, param4:Object = null, param5:int = 0, param6:Number = 1)
       {
-         super(ForkBit.glowEar,ForkBit.glowEar);
-         mouseChildren = AmuseFrighten.betterLip;
-         cacheAsBitmap = AmuseFrighten.airWren;
-         this.panickySalt = admireSnotty.brightLaughable;
-         this.quirkyPrepare = admireSnotty.advertisementWipe;
-         this.couleurEnCours = this.panickySalt;
-         this.firstCry = DeliverTasty.secretProse(admireSnotty.wanderLong);
-         if(admireSnotty.fragileBeautiful)
+         super(FaithfulBaseball.realizeSoup,NervousOnerous.wickedCan(FaithfulBaseball.realizeSoup));
+         mouseChildren = NarrowPlants.fragileBeautiful;
+         cacheAsBitmap = NarrowPlants.limitAbject;
+         this.admireSnotty = storyWet.stemGovernment;
+         this.doctorPat = storyWet.glowEar;
+         this.couleurEnCours = this.admireSnotty;
+         this.usedBlush = DeliverTasty.laborerError(storyWet.panickySalt);
+         if(storyWet.powerfulBump)
          {
-            this.firstCry.filters = admireSnotty.fragileBeautiful;
+            this.usedBlush.filters = storyWet.powerfulBump;
          }
-         this.firstCry.alpha = param6;
-         this.farmOranges = new TowSuccinct(GateLetters.womanTour(ScaleTemper.upsetTreat),FrightenUnique.scaredAnus,FrightenUnique.scaredAnus);
-         this.farmOranges.y = GateLetters.sockSystem(ToothpasteCloistered.limitAbject);
-         this.farmOranges.x = ToothpasteCloistered.limitAbject;
-         this.farmOranges.defaultTextFormat = admireSnotty.thickSweater;
-         this.farmOranges.textColor = this.panickySalt;
-         this.fearfulNut(TextFormatAlign.CENTER);
-         if(param2 == GateLetters.sockSystem(ForkBit.glowEar))
+         this.usedBlush.alpha = param6;
+         this.cakePathetic = new WindyCrown(NervousOnerous.thickSweater(PleaseFour.firstCry),MarkParty.lyricalAlive,MarkParty.lyricalAlive);
+         this.cakePathetic.y = NervousOnerous.wickedCan(SupplyMountain.advertisementWipe);
+         this.cakePathetic.x = NervousOnerous.wickedCan(SupplyMountain.advertisementWipe);
+         this.cakePathetic.defaultTextFormat = storyWet.entertainingReaction;
+         this.cakePathetic.textColor = this.admireSnotty;
+         this.ovenBranch(TextFormatAlign.CENTER);
+         if(NervousOnerous.wickedCan(FaithfulBaseball.realizeSoup) == param2)
          {
-            this.farmOranges.autoSize = TextFieldAutoSize.LEFT;
+            this.cakePathetic.autoSize = TextFieldAutoSize.LEFT;
          }
          else
          {
-            this.farmOranges.width = param2 - HarmonyVeil.conditionBead;
-            this.firstCry.width = param2;
+            this.cakePathetic.width = param2 - NervousOnerous.wickedCan(SpaceIdea.womanTour);
+            this.usedBlush.width = param2;
          }
-         if(ForkBit.glowEar == param5)
+         if(NervousOnerous.wickedCan(FaithfulBaseball.realizeSoup) == param5)
          {
-            if(ChopEngine.powerfulBump.wickedCan)
+            if(ChopEngine.admireArmy.containAutomatic)
             {
-               this.farmOranges.height = ToothpasteCloistered.containAutomatic;
-               this.firstCry.height = GateLetters.sockSystem(ExpansionTour.voraciousUninterested);
+               this.cakePathetic.height = KnotModern.scaredAnus;
+               this.usedBlush.height = NervousOnerous.wickedCan(OrangesQueue.conditionBead);
             }
             else
             {
-               this.farmOranges.height = GateLetters.sockSystem(AttractiveSugar.realizeSoup);
-               this.firstCry.height = FourYell.laborerError;
+               this.cakePathetic.height = MarkParty.optimalOwn;
+               this.usedBlush.height = NervousOnerous.wickedCan(FaithfulVoracious.brightLaughable);
             }
-            this.farmOranges.height = admireSnotty.phoneEnjoy;
-            this.firstCry.height = admireSnotty.phoneEnjoy + ToothpasteCloistered.limitAbject;
-            this.farmOranges.multiline = AmuseFrighten.betterLip;
-            this.farmOranges.wordWrap = AmuseFrighten.betterLip;
+            this.cakePathetic.height = storyWet.upsetTreat;
+            this.usedBlush.height = storyWet.upsetTreat + NervousOnerous.wickedCan(SupplyMountain.advertisementWipe);
+            this.cakePathetic.multiline = NarrowPlants.fragileBeautiful;
+            this.cakePathetic.wordWrap = NarrowPlants.fragileBeautiful;
          }
          else
          {
-            this.farmOranges.height = param5;
-            this.firstCry.height = param5;
-            this.farmOranges.multiline = AmuseFrighten.airWren;
-            this.farmOranges.wordWrap = AmuseFrighten.airWren;
+            this.cakePathetic.height = param5;
+            this.usedBlush.height = param5;
+            this.cakePathetic.multiline = NarrowPlants.limitAbject;
+            this.cakePathetic.wordWrap = NarrowPlants.limitAbject;
          }
-         this.farmOranges.htmlText = param1;
-         if(GateLetters.sockSystem(ForkBit.glowEar) == param2)
+         this.cakePathetic.htmlText = param1;
+         if(NervousOnerous.wickedCan(FaithfulBaseball.realizeSoup) == param2)
          {
-            this.firstCry.width = AttractiveSugar.realizeSoup + this.farmOranges.width;
-            this.farmOranges.x = RequestCactus.admireArmy;
+            this.usedBlush.width = NervousOnerous.wickedCan(MarkParty.optimalOwn) + this.cakePathetic.width;
+            this.cakePathetic.x = NervousOnerous.wickedCan(NervousPromise.neighborlyAddition1);
          }
-         addChild(this.firstCry);
-         addChild(this.farmOranges);
-         addEventListener(MouseEvent.MOUSE_DOWN,this.generalSpoil);
-         addEventListener(MouseEvent.MOUSE_OVER,this.optimalOwn);
-         addEventListener(MouseEvent.MOUSE_OUT,this.quackToys);
-         useHandCursor = AmuseFrighten.airWren;
-         buttonMode = AmuseFrighten.airWren;
-         cakePathetic = this.firstCry.width;
-         comparisonInquisitive = this.firstCry.height;
+         addChild(this.usedBlush);
+         addChild(this.cakePathetic);
+         addEventListener(MouseEvent.MOUSE_DOWN,this.secretProse1);
+         addEventListener(MouseEvent.MOUSE_OVER,this.volcanoScale);
+         addEventListener(MouseEvent.MOUSE_OUT,this.wanderLong);
+         useHandCursor = NarrowPlants.limitAbject;
+         buttonMode = NarrowPlants.limitAbject;
+         generalSpoil = this.usedBlush.width;
+         successfulRobin = this.usedBlush.height;
          if(param3 != null)
          {
-            decayImpolite(param3,param4,false);
+            phoneEnjoy(param3,param4,false);
          }
       }
       
-      public function fearfulNut(param1:String) : HoseYak
+      public function airWren() : WindyCrown
       {
-         var _loc2_:TextFormat = this.farmOranges.defaultTextFormat;
-         _loc2_.align = param1;
-         this.farmOranges.defaultTextFormat = _loc2_;
-         return this;
+         return this.cakePathetic;
       }
       
-      public function lyricalAlive() : TowSuccinct
-      {
-         return this.farmOranges;
-      }
-      
-      public function storyWet(param1:Function = null, param2:Object = null) : HoseYak
+      public function apatheticHorn(param1:Function = null, param2:Object = null) : HoseYak
       {
          if(param1 != null)
          {
-            decayImpolite(param1,param2,false);
+            phoneEnjoy(param1,param2,false);
          }
          return this;
       }
       
-      public function successfulRobin1(param1:int, param2:int = 0) : HoseYak
-      {
-         if(ForkBit.glowEar == param1)
-         {
-            this.farmOranges.autoSize = TextFieldAutoSize.LEFT;
-         }
-         else
-         {
-            this.farmOranges.width = -GateLetters.sockSystem(HarmonyVeil.conditionBead) + param1;
-            this.firstCry.width = param1;
-         }
-         if(ForkBit.glowEar == param2)
-         {
-            if(ChopEngine.powerfulBump.wickedCan)
-            {
-               this.farmOranges.height = GateLetters.sockSystem(ToothpasteCloistered.containAutomatic);
-               this.firstCry.height = GateLetters.sockSystem(ExpansionTour.voraciousUninterested);
-            }
-            else
-            {
-               this.farmOranges.height = AttractiveSugar.realizeSoup;
-               this.firstCry.height = FourYell.laborerError;
-            }
-            this.farmOranges.height = admireSnotty.phoneEnjoy;
-            this.firstCry.height = ToothpasteCloistered.limitAbject + admireSnotty.phoneEnjoy;
-            this.farmOranges.multiline = AmuseFrighten.betterLip;
-            this.farmOranges.wordWrap = AmuseFrighten.betterLip;
-         }
-         else
-         {
-            this.farmOranges.height = param2;
-            this.firstCry.height = param2;
-            this.farmOranges.multiline = AmuseFrighten.airWren;
-            this.farmOranges.wordWrap = AmuseFrighten.airWren;
-         }
-         if(param1 == GateLetters.sockSystem(ForkBit.glowEar))
-         {
-            this.firstCry.width = this.farmOranges.width + GateLetters.sockSystem(MarkEvasive.doctorPat);
-         }
-         cakePathetic = this.firstCry.width;
-         comparisonInquisitive = this.firstCry.height;
-         return this;
-      }
-      
-      public function patAction(param1:Boolean) : HoseYak
-      {
-         this.apatheticHorn = param1;
-         return this;
-      }
-      
-      public function stemGovernment(param1:Boolean) : HoseYak
-      {
-         this.flowCard = param1;
-         if(param1)
-         {
-            mouseEnabled = AmuseFrighten.airWren;
-            this.farmOranges.textColor = admireSnotty.brightLaughable;
-         }
-         else
-         {
-            mouseEnabled = AmuseFrighten.betterLip;
-            this.farmOranges.textColor = admireSnotty.agreeBoundless;
-         }
-         ovenBranch(!param1,HarmonyVeil.neighborlyAddition,false);
-         return this;
-      }
-      
-      public function usedBlush() : Boolean
-      {
-         return this.flowCard;
-      }
-      
-      public function quackToys(param1:MouseEvent) : void
-      {
-         if(this.couleurEnCours != this.panickySalt && this.flowCard)
-         {
-            this.couleurEnCours = this.panickySalt;
-            transform.colorTransform = HoseYak.entertainingReaction;
-            if(this.apatheticHorn)
-            {
-               this.farmOranges.textColor = this.panickySalt;
-            }
-         }
-      }
-      
-      public function inventCrowded(param1:DisplayObject, param2:Boolean = true) : HoseYak
+      public function patAction(param1:DisplayObject, param2:Boolean = true) : HoseYak
       {
          var _loc3_:int = 0;
          var _loc4_:int = 0;
-         this.farmOranges.width = this.farmOranges.textWidth + GateLetters.sockSystem(HarmonyVeil.conditionBead);
-         if(param1 is GrateBoring)
+         this.cakePathetic.width = this.cakePathetic.textWidth + NervousOnerous.wickedCan(SpaceIdea.womanTour);
+         if(param1 is HesitantOven)
          {
-            _loc3_ = GrateBoring(param1).cakePathetic;
-            _loc4_ = GrateBoring(param1).comparisonInquisitive;
+            _loc3_ = HesitantOven(param1).generalSpoil;
+            _loc4_ = HesitantOven(param1).successfulRobin;
          }
          else
          {
@@ -228,54 +135,147 @@ package
             _loc4_ = param1.height;
          }
          addChild(param1);
-         var _loc5_:int = _loc3_ + this.farmOranges.width + GateLetters.sockSystem(HarmonyVeil.conditionBead);
-         param1.y = int((comparisonInquisitive - _loc4_) / ToothpasteCloistered.limitAbject);
+         var _loc5_:int = _loc3_ + this.cakePathetic.width + NervousOnerous.wickedCan(SpaceIdea.womanTour);
+         param1.y = int((-_loc4_ + successfulRobin) / NervousOnerous.wickedCan(SupplyMountain.advertisementWipe));
          if(param2)
          {
-            param1.x = int((-_loc5_ + cakePathetic) / GateLetters.sockSystem(ToothpasteCloistered.limitAbject));
-            this.farmOranges.x = param1.x + _loc3_ + GateLetters.sockSystem(HarmonyVeil.conditionBead);
+            param1.x = int((generalSpoil - _loc5_) / SupplyMountain.advertisementWipe);
+            this.cakePathetic.x = param1.x + _loc3_ + NervousOnerous.wickedCan(SpaceIdea.womanTour);
          }
          else
          {
-            param1.x = HarmonyVeil.conditionBead;
-            this.farmOranges.x = param1.x + _loc3_ + HarmonyVeil.conditionBead;
+            param1.x = SpaceIdea.womanTour;
+            this.cakePathetic.x = param1.x + _loc3_ + SpaceIdea.womanTour;
          }
          return this;
       }
       
-      public function optimalOwn(param1:MouseEvent) : void
+      public function secretProse1(param1:Event) : void
       {
-         if(this.couleurEnCours != this.quirkyPrepare && this.flowCard)
+         this.agreeBoundless(NervousOnerous.wickedCan(MarkParty.lyricalAlive));
+      }
+      
+      public function agreeBoundless(param1:int) : void
+      {
+      }
+      
+      public function wanderLong(param1:MouseEvent) : void
+      {
+         if(this.couleurEnCours != this.admireSnotty && this.proudDiscussion)
          {
-            this.couleurEnCours = this.quirkyPrepare;
-            transform.colorTransform = HoseYak.volcanoScale;
-            if(this.apatheticHorn)
+            this.couleurEnCours = this.admireSnotty;
+            transform.colorTransform = HoseYak.fearfulNut;
+            if(this.suitToys)
             {
-               this.farmOranges.textColor = this.couleurEnCours;
+               this.cakePathetic.textColor = this.admireSnotty;
             }
          }
       }
       
-      public function proudDiscussion(param1:int) : void
+      public function decayImpolite(param1:int, param2:int = 0) : HoseYak
       {
-      }
-      
-      public function suitToys(param1:String, param2:Boolean = true) : HoseYak
-      {
-         if(param2)
+         if(param1 == NervousOnerous.wickedCan(FaithfulBaseball.realizeSoup))
          {
-            this.farmOranges.htmlText = param1;
+            this.cakePathetic.autoSize = TextFieldAutoSize.LEFT;
          }
          else
          {
-            this.farmOranges.text = param1;
+            this.cakePathetic.width = -NervousOnerous.wickedCan(SpaceIdea.womanTour) + param1;
+            this.usedBlush.width = param1;
+         }
+         if(param2 == NervousOnerous.wickedCan(FaithfulBaseball.realizeSoup))
+         {
+            if(ChopEngine.admireArmy.containAutomatic)
+            {
+               this.cakePathetic.height = NervousOnerous.wickedCan(KnotModern.scaredAnus);
+               this.usedBlush.height = OrangesQueue.conditionBead;
+            }
+            else
+            {
+               this.cakePathetic.height = NervousOnerous.wickedCan(MarkParty.optimalOwn);
+               this.usedBlush.height = NervousOnerous.wickedCan(FaithfulVoracious.brightLaughable);
+            }
+            this.cakePathetic.height = storyWet.upsetTreat;
+            this.usedBlush.height = SupplyMountain.advertisementWipe + storyWet.upsetTreat;
+            this.cakePathetic.multiline = NarrowPlants.fragileBeautiful;
+            this.cakePathetic.wordWrap = NarrowPlants.fragileBeautiful;
+         }
+         else
+         {
+            this.cakePathetic.height = param2;
+            this.usedBlush.height = param2;
+            this.cakePathetic.multiline = NarrowPlants.limitAbject;
+            this.cakePathetic.wordWrap = NarrowPlants.limitAbject;
+         }
+         if(NervousOnerous.wickedCan(FaithfulBaseball.realizeSoup) == param1)
+         {
+            this.usedBlush.width = this.cakePathetic.width + NervousOnerous.wickedCan(MarkParty.voraciousUninterested1);
+         }
+         generalSpoil = this.usedBlush.width;
+         successfulRobin = this.usedBlush.height;
+         return this;
+      }
+      
+      public function transportPunch() : Boolean
+      {
+         return this.proudDiscussion;
+      }
+      
+      public function ovenBranch(param1:String) : HoseYak
+      {
+         var _loc2_:TextFormat = this.cakePathetic.defaultTextFormat;
+         _loc2_.align = param1;
+         this.cakePathetic.defaultTextFormat = _loc2_;
+         return this;
+      }
+      
+      public function volcanoScale(param1:MouseEvent) : void
+      {
+         if(this.couleurEnCours != this.doctorPat && this.proudDiscussion)
+         {
+            this.couleurEnCours = this.doctorPat;
+            transform.colorTransform = HoseYak.betterLip;
+            if(this.suitToys)
+            {
+               this.cakePathetic.textColor = this.couleurEnCours;
+            }
+         }
+      }
+      
+      public function comparisonInquisitive(param1:String, param2:Boolean = true) : HoseYak
+      {
+         if(param2)
+         {
+            this.cakePathetic.htmlText = param1;
+         }
+         else
+         {
+            this.cakePathetic.text = param1;
          }
          return this;
       }
       
-      public function generalSpoil(param1:Event) : void
+      public function quackToys(param1:Boolean) : HoseYak
       {
-         this.proudDiscussion(GateLetters.sockSystem(FrightenUnique.scaredAnus));
+         this.proudDiscussion = param1;
+         if(param1)
+         {
+            mouseEnabled = NarrowPlants.limitAbject;
+            this.cakePathetic.textColor = storyWet.stemGovernment;
+         }
+         else
+         {
+            mouseEnabled = NarrowPlants.fragileBeautiful;
+            this.cakePathetic.textColor = storyWet.quirkyPrepare;
+         }
+         farmOranges(!param1,NervousOnerous.flowCard(IdeaTeeny.sockSystem),false);
+         return this;
+      }
+      
+      public function inventCrowded(param1:Boolean) : HoseYak
+      {
+         this.suitToys = param1;
+         return this;
       }
    }
 }

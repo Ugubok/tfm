@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var machineStiff:int;
+      public var saltAspiring:int;
       
-      public var lamentableSki1:RequestVague;
+      public var cureFive:TumbleSea;
       
       public function RambunctiousComplex(param1:int, param2:int)
       {
          super();
          this.idSequence = param1;
-         this.machineStiff = param2;
+         this.saltAspiring = param2;
       }
       
       public function getIdSequence() : int
@@ -26,28 +26,28 @@ package
       
       public function get efficientSpiky() : String
       {
-         return ChinSnakes.saltAspiring;
+         return NervousOnerous.balanceStay(OrangesQueue.additionPlants);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.cureFive;
+         return KotskyRailway.historyExplode;
       }
       
-      public function uniteColorful() : Boolean
+      public function machineStiff() : Boolean
       {
          return false;
       }
       
-      override public function historyExplode() : int
+      override public function uniteColorful() : int
       {
-         return GateLetters.balanceStay(ChinSnakes.additionPlants);
+         return MarkParty.lamentableSki;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeInt(this.machineStiff);
+         param1.writeByte(this.saltAspiring);
       }
    }
 }

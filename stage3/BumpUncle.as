@@ -7,82 +7,82 @@ package
    public class BumpUncle
    {
       
-      public static var superBump:BumpUncle;
+      public static var prepareGeneral:BumpUncle;
        
       
-      public var jarUnknown:Function;
+      public var tastyEdge:Function;
       
-      public var narrowTrap:Function;
+      public var superBump:Function;
       
-      public var backStale:String;
+      public var thickThrill:String;
       
       public function BumpUncle()
       {
          super();
-         BumpUncle.superBump = this;
-      }
-      
-      public function x_envoyerMessageVersServeur(param1:int, param2:Array) : void
-      {
-         WantWoman.thickThrill.cleverTiresome(new RareSleepy(param1,param2));
-      }
-      
-      public function x_initialisationRetour(param1:Function, param2:Function) : void
-      {
-         this.jarUnknown = param1;
-         this.narrowTrap = param2;
-      }
-      
-      public function x_defImageLogin(param1:Bitmap) : void
-      {
-         PassMountain.saveAlluring(param1);
+         BumpUncle.prepareGeneral = this;
       }
       
       public function x_defAdresseIPServeur(param1:String) : void
       {
-         this.backStale = param1;
+         this.thickThrill = param1;
       }
       
       public function x_rechargerLuaServeur(param1:String) : void
       {
-         WantWoman.thickThrill.cleverTiresome(new RayCrash(param1));
+         WantWoman.fadeOptimal.backStale(new CryAdvertisement(param1));
       }
       
-      public function x_changerTempsDecoAFK(param1:int) : void
+      public function peckRare(param1:String) : void
       {
-         ChopEngine.cactusUnknown.lackadaisicalList = GateLetters.abjectLamp(ToothpasteCloistered.crimeOranges) * param1;
-      }
-      
-      public function x_recupChat(param1:int, param2:int) : Sprite
-      {
-         var _loc3_:CeleryRiver = CeleryRiver.fadeOptimal();
-         _loc3_.realJagged(param1,param2);
-         return _loc3_;
+         this.superBump(param1);
       }
       
       public function x_recupChampsTexteEntree() : TextField
       {
-         return CeleryRiver.fadeOptimal().tastyEdge();
+         return CeleryRiver.tendencyMouse().lackadaisicalList();
       }
       
-      public function x_recupImageDistante(param1:String) : Bitmap
+      public function x_defImageLogin(param1:Bitmap) : void
       {
-         return DeliverTasty.porterHilarious(param1,ScaleTemper.privateShoe);
+         AdhesiveStory.crimeOranges(param1);
       }
       
-      public function tendencyMouse(param1:String) : void
+      public function x_envoyerMessageVersServeur(param1:int, param2:Array) : void
       {
-         this.narrowTrap(param1);
-      }
-      
-      public function evasiveDefective(param1:AfternoonLip) : void
-      {
-         this.jarUnknown(param1.amuseStay,param1.prepareGeneral);
+         WantWoman.fadeOptimal.backStale(new DivergentRight(param1,param2));
       }
       
       public function x_defNomJeuModule801(param1:String) : void
       {
-         UniteAnnoying.peckRare = param1;
+         BreatheSick.porterHilarious = param1;
+      }
+      
+      public function x_changerTempsDecoAFK(param1:int) : void
+      {
+         ChopEngine.evasiveDefective.realJagged = NervousOnerous.cactusUnknown(IdeaReal.narrowTrap) * param1;
+      }
+      
+      public function x_recupChat(param1:int, param2:int) : Sprite
+      {
+         var _loc3_:CeleryRiver = CeleryRiver.tendencyMouse();
+         _loc3_.saveAlluring(param1,param2);
+         return _loc3_;
+      }
+      
+      public function privateShoe(param1:StickBeginner) : void
+      {
+         this.tastyEdge(param1.abjectLamp,param1.cleverTiresome1);
+      }
+      
+      public function x_recupImageDistante(param1:String) : Bitmap
+      {
+         return DeliverTasty.jarUnknown(param1,PleaseFour.amuseStay1);
+      }
+      
+      public function x_initialisationRetour(param1:Function, param2:Function) : void
+      {
+         this.tastyEdge = param1;
+         this.superBump = param2;
       }
    }
 }

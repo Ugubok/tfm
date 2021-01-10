@@ -6,18 +6,18 @@ package
    {
        
       
-      public var ownThick:ZippySisters;
+      public var washLegs:ZippySisters;
       
       public var idSequence:int;
       
-      public var stripedBit:int;
+      public var checkFlower:int;
       
-      public var historyKotsky:FeebleJumbled;
+      public var ownThick:ToothpasteAblaze;
       
       public function SproutProbable(param1:ZippySisters)
       {
          super();
-         this.ownThick = param1;
+         this.washLegs = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get checkFlower() : String
+      public function get punctureYak() : String
       {
-         return ChinSnakes.lateChin;
+         return OrangesQueue.historyKotsky;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.sockSnakes;
+         return KotskyRailway.stripedBit;
       }
       
       public function spoilKnot() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function describeStomach() : int
+      public function sockSnakes() : int
       {
-         return MarkEvasive.grateError;
+         return MarkParty.lateChin;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.stripedBit = param1.readByte();
-         var _loc2_:ProseZonked = this.ownThick.recupereSequence(this.idSequence);
+         this.checkFlower = param1.readByte();
+         var _loc2_:ProseZonked = this.washLegs.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is FeebleJumbled)
+            if(_loc2_ is ToothpasteAblaze)
             {
-               this.historyKotsky = FeebleJumbled(_loc2_);
-               this.historyKotsky.washLegs = this;
+               this.ownThick = ToothpasteAblaze(_loc2_);
+               this.ownThick.describeStomach = this;
             }
          }
       }
       
-      public function get punctureYak() : int
+      public function get grateError() : int
       {
-         return ToothpasteCloistered.hystericalCool;
+         return NervousOnerous.hystericalCool(SpaceIdea.partyBag);
       }
    }
 }

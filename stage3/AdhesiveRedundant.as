@@ -1,14 +1,14 @@
 package
 {
-   public class AdhesiveRedundant extends WordCalculator
+   public class AdhesiveRedundant extends StorePaint
    {
        
       
-      public function AdhesiveRedundant(param1:int, param2:String)
+      public function AdhesiveRedundant(param1:HatePlough, param2:String)
       {
-         super(GateLetters.spotMessy(ToothpasteCloistered.fantasticFearful),GateLetters.spotMessy(ChinSnakes.earthquakePoised));
-         kotskyManage1.writeInt(param1);
-         kotskyManage1.writeUTF(param2);
+         super(NervousOnerous.spotMessy(SupplyMountain.earthquakePoised),NervousPromise.fantasticFearful);
+         windCelery.writeByte(param1.kotskyManage);
+         windCelery.writeUTF(param2);
       }
    }
 }

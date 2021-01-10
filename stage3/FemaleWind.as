@@ -2,7 +2,7 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class FemaleWind extends CleverWhip
+   public class FemaleWind extends KotskyCheck
    {
        
       
@@ -11,7 +11,7 @@ package
       public function FemaleWind(param1:ByteArray)
       {
          super(param1);
-         this.confusedWander = param1.readInt();
+         this.confusedWander = param1.readShort();
       }
    }
 }

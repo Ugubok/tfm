@@ -6,27 +6,27 @@ package
    {
        
       
-      public var poisedBasin:int;
+      public var soundWet:int;
+      
+      public var advertisementCheat:int;
       
       public var searchCount:int;
       
+      public var poisedBasin:int;
+      
       public var vagueUnit:int;
       
-      public var soundWet:int;
-      
-      public var chickensSymptomatic:int;
-      
-      public var advertisementCheat:int;
+      public var chickensSymptomatic1:int;
       
       public function DisturbedComplex(param1:int, param2:int, param3:int, param4:int, param5:int, param6:int)
       {
          super();
-         this.poisedBasin = param1;
-         this.searchCount = param2;
-         this.vagueUnit = param3;
-         this.soundWet = param4;
-         this.chickensSymptomatic = param5 + param3;
-         this.advertisementCheat = param4 + param6;
+         this.soundWet = param1;
+         this.advertisementCheat = param2;
+         this.searchCount = param3;
+         this.poisedBasin = param4;
+         this.vagueUnit = param3 + param5;
+         this.chickensSymptomatic1 = param4 + param6;
       }
    }
 }

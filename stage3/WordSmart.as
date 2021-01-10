@@ -4,30 +4,30 @@ package
    {
        
       
-      public var beginnerBear:ComplexJelly;
+      public var lackadaisicalSprout:DeadpanPlease;
       
-      public var proudSpurious1:ComplexJelly;
+      public var beginnerBear:DeadpanPlease;
       
-      public var position:JarTow;
+      public var position:CulturedAutomatic;
       
-      public var velocity:JarTow;
+      public var velocity:CulturedAutomatic;
       
-      public var normal:JarTow;
+      public var normal:CulturedAutomatic;
       
       public var towNervous:Number;
       
       public var detailSprout:Number;
       
-      public var lackadaisicalSprout:Number;
+      public var proudSpurious1:Number;
       
-      public var historyBelligerent:PossessAlert;
+      public var historyBelligerent:LockUpset;
       
       public function WordSmart()
       {
-         this.position = new JarTow();
-         this.velocity = new JarTow();
-         this.normal = new JarTow();
-         this.historyBelligerent = new PossessAlert();
+         this.position = new CulturedAutomatic();
+         this.velocity = new CulturedAutomatic();
+         this.normal = new CulturedAutomatic();
+         this.historyBelligerent = new LockUpset();
          super();
       }
    }

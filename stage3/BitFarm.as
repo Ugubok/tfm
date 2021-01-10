@@ -8,20 +8,20 @@ package
       
       public var userData;
       
-      public var rabbitTiresome1:GrateHydrant;
+      public var impartialSalt:LimitRare;
       
-      public var impartialSalt:GrateHydrant;
+      public var stupidSmart:LimitRare;
       
-      public var stupidSmart:Boolean;
+      public var warlikeGreedy:Boolean;
       
       public function BitFarm()
       {
          super();
-         this.type = CommonDoctor.expansionNeighborly;
+         this.type = CountIncompetent.rabbitTiresome;
          this.userData = null;
-         this.rabbitTiresome1 = null;
          this.impartialSalt = null;
-         this.stupidSmart = AmuseFrighten.warlikeGreedy;
+         this.stupidSmart = null;
+         this.warlikeGreedy = NarrowPlants.expansionNeighborly;
       }
    }
 }

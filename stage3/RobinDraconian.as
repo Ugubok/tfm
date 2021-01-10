@@ -6,24 +6,24 @@ package
    {
        
       
-      public var bruiseWing:ZippySisters;
+      public var flowTour:ZippySisters;
       
-      public var mouseStriped:String;
+      public var bruiseWing:String;
       
       public function RobinDraconian(param1:ZippySisters)
       {
          super();
-         this.bruiseWing = param1;
+         this.flowTour = param1;
       }
       
-      public function get flowTour() : String
+      public function get manyAccurate1() : String
       {
-         return ChinSnakes.bleachEdge;
+         return NervousOnerous.bleachEdge(OrangesQueue.superContain);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.beginnerTrains;
+         return KotskyRailway.hesitantDazzling;
       }
       
       public function lettersFrail() : Boolean
@@ -31,20 +31,20 @@ package
          return false;
       }
       
-      public function hesitantDazzling() : int
+      public function beginnerTrains() : int
       {
-         return ToothpasteCloistered.manyAccurate + this.mouseStriped.length;
+         return SupplyMountain.laughableGlow + this.bruiseWing.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.mouseStriped = param1.readUTFBytes(_loc2_);
+         this.bruiseWing = param1.readUTFBytes(_loc2_);
       }
       
-      public function get superContain() : int
+      public function get notebookImpartial() : int
       {
-         return AdditionVague.crookedPear;
+         return NervousOnerous.crookedPear(FaithfulVoracious.mouseStriped);
       }
    }
 }

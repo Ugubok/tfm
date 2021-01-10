@@ -6,18 +6,18 @@ package
    {
        
       
-      public var snottyShock:ZippySisters;
+      public var dildoVolcano:ZippySisters;
       
       public var idSequence:int;
       
-      public var chivalrousOpposite:int;
+      public var fearfulPaltry:int;
       
-      public var warlikeBrass:PhoneDiscussion;
+      public var chivalrousOpposite:BeginnerLamentable;
       
       public function FillShake(param1:ZippySisters)
       {
          super();
-         this.snottyShock = param1;
+         this.dildoVolcano = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get sighIgnorant() : String
+      public function get locketChop1() : String
       {
-         return GateLetters.abjectLight(ChinSnakes.gapingLarge);
+         return OrangesQueue.explodeTeeny;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.successfulStay;
+         return KotskyRailway.abjectLight;
       }
       
-      public function toeCollect() : Boolean
+      public function toeCollect1() : Boolean
       {
          return false;
       }
       
-      public function reachSon() : int
+      public function successfulStay() : int
       {
-         return GateLetters.dildoVolcano(MarkEvasive.troubledWind);
+         return NervousOnerous.reachSon(MarkParty.gapingLarge);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.chivalrousOpposite = param1.readByte();
-         var _loc2_:ProseZonked = this.snottyShock.recupereSequence(this.idSequence);
+         this.fearfulPaltry = param1.readByte();
+         var _loc2_:ProseZonked = this.dildoVolcano.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is PhoneDiscussion)
+            if(_loc2_ is BeginnerLamentable)
             {
-               this.warlikeBrass = PhoneDiscussion(_loc2_);
-               this.warlikeBrass.fearfulPaltry = this;
+               this.chivalrousOpposite = BeginnerLamentable(_loc2_);
+               this.chivalrousOpposite.snottyShock = this;
             }
          }
       }
       
-      public function get locketChop() : int
+      public function get troubledWind() : int
       {
-         return GateLetters.dildoVolcano(FillLegs.explodeTeeny);
+         return BalanceSecret.sighIgnorant;
       }
    }
 }

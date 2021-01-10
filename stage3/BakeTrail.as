@@ -1,13 +1,13 @@
 package
 {
-   public class BakeTrail extends WordCalculator
+   public class BakeTrail extends StorePaint
    {
        
       
       public function BakeTrail(param1:int)
       {
-         super(GateLetters.successfulInterrupt(AttractiveSugar.conditionColossal),GateLetters.successfulInterrupt(HarmonyVeil.newSleepy));
-         thankSand.writeInt(param1);
+         super(IdeaReal.newSleepy,NervousOnerous.thankSand(RoomAddition.conditionColossal));
+         successfulInterrupt.writeInt(param1);
       }
    }
 }

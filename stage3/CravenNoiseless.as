@@ -4,48 +4,48 @@ package
    {
        
       
-      public var paltryJar:Array;
+      public var crashNest:Array;
       
-      public var normal:JarTow;
+      public var normal:CulturedAutomatic;
       
-      public var pictureUncle:int;
+      public var feebleCry:int;
       
       public function CravenNoiseless()
       {
-         this.pictureUncle = GateLetters.inquisitiveCold(ForkBit.juiceNear);
+         this.feebleCry = FaithfulBaseball.juiceNear;
          super();
-         this.paltryJar = new Array(WetHesitant.trousersSincere);
-         var _loc1_:int = GateLetters.inquisitiveCold(ForkBit.juiceNear);
-         while(_loc1_ < WetHesitant.trousersSincere)
+         this.crashNest = new Array(StickSisters.paltryJar);
+         var _loc1_:int = NervousOnerous.pictureUncle(FaithfulBaseball.juiceNear);
+         while(_loc1_ < StickSisters.paltryJar)
          {
-            this.paltryJar[_loc1_] = new JuggleArm();
+            this.crashNest[_loc1_] = new DraconianError();
             _loc1_++;
          }
-         this.normal = new JarTow();
+         this.normal = new CulturedAutomatic();
       }
       
-      public function carelessWaiting() : void
+      public function inquisitiveCold() : void
       {
-         var _loc1_:int = ForkBit.juiceNear;
-         while(_loc1_ < WetHesitant.trousersSincere)
+         var _loc1_:int = FaithfulBaseball.juiceNear;
+         while(_loc1_ < StickSisters.paltryJar)
          {
-            (this.paltryJar[_loc1_] as JuggleArm).carelessWaiting();
+            (this.crashNest[_loc1_] as DraconianError).inquisitiveCold();
             _loc1_++;
          }
          this.normal.hugeWasteful();
-         this.pictureUncle = ForkBit.juiceNear;
+         this.feebleCry = FaithfulBaseball.juiceNear;
       }
       
-      public function crashNest(param1:CravenNoiseless) : void
+      public function trousersSincere(param1:CravenNoiseless) : void
       {
-         this.pictureUncle = param1.pictureUncle;
-         var _loc2_:int = ForkBit.juiceNear;
-         while(_loc2_ < WetHesitant.trousersSincere)
+         this.feebleCry = param1.feebleCry;
+         var _loc2_:int = NervousOnerous.pictureUncle(FaithfulBaseball.juiceNear);
+         while(_loc2_ < StickSisters.paltryJar)
          {
-            (this.paltryJar[_loc2_] as JuggleArm).crashNest(param1.paltryJar[_loc2_]);
+            (this.crashNest[_loc2_] as DraconianError).trousersSincere(param1.crashNest[_loc2_]);
             _loc2_++;
          }
-         this.normal.feebleCry(param1.normal);
+         this.normal.carelessWaiting(param1.normal);
       }
    }
 }

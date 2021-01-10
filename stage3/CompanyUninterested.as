@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var gateTightfisted:String;
+      public var advertisementPorter:String;
       
-      public var robinFragile:int;
+      public var spottedCherry:int;
       
-      public var advertisementPorter:AdvertisementStem;
+      public var grateBake:PatheticOrdinary;
       
       public function CompanyUninterested(param1:int, param2:String, param3:int)
       {
          super();
          this.idSequence = param1;
-         this.gateTightfisted = param2;
-         this.robinFragile = param3;
+         this.advertisementPorter = param2;
+         this.spottedCherry = param3;
       }
       
       public function getIdSequence() : int
@@ -27,14 +27,14 @@ package
          return this.idSequence;
       }
       
-      public function get flowUnique() : String
+      public function get robinFragile() : String
       {
-         return GateLetters.instinctiveFlow(ChinSnakes.disappearPerform);
+         return NervousOnerous.gateTightfisted(OrangesQueue.flowUnique);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.wantStrengthen;
+         return KotskyRailway.preciousGruesome;
       }
       
       public function fierceTrip() : Boolean
@@ -42,16 +42,16 @@ package
          return false;
       }
       
-      override public function preciousGruesome() : int
+      override public function wantStrengthen() : int
       {
-         return GateLetters.spottedCherry(RequestCactus.grateBake) + this.gateTightfisted.length;
+         return FaithfulVoracious.instinctiveFlow + this.advertisementPorter.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.gateTightfisted);
-         param1.writeByte(this.robinFragile);
+         param1.writeUTF(this.advertisementPorter);
+         param1.writeByte(this.spottedCherry);
       }
    }
 }

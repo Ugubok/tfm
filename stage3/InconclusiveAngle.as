@@ -1,13 +1,13 @@
 package
 {
-   public class InconclusiveAngle extends WordCalculator
+   public class InconclusiveAngle extends StorePaint
    {
        
       
-      public function InconclusiveAngle(param1:int)
+      public function InconclusiveAngle(param1:Boolean)
       {
-         super(OrangeUnequal.annoyInstinctive,RequestCactus.hystericalZoo);
-         scratchStiff.writeByte(param1);
+         super(OrangesQueue.hystericalZoo,RepulsiveDear.annoyInstinctive);
+         scratchStiff.writeBoolean(param1);
       }
    }
 }

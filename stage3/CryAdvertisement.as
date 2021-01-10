@@ -1,13 +1,13 @@
 package
 {
-   public class CryAdvertisement extends WordCalculator
+   public class CryAdvertisement extends StorePaint
    {
        
       
-      public function CryAdvertisement(param1:int)
+      public function CryAdvertisement(param1:String)
       {
-         super(MarkEvasive.successfulLetter,BalanceLoaf.afterthoughtDescribe);
-         thoughtlessEasy.writeInt(param1);
+         super(SupplyMountain.successfulLetter,NervousOnerous.draconianStay(SpaceIdea.afterthoughtDescribe));
+         thoughtlessEasy.writeUTF(param1);
       }
    }
 }

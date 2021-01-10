@@ -2,19 +2,19 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class HugeDisappear extends CleverWhip
+   public class HugeDisappear extends KotskyCheck
    {
        
       
-      public var ordinaryNut:int;
+      public var ordinaryNut:String;
       
-      public var canSpy:int;
+      public var canSpy:String;
       
       public function HugeDisappear(param1:ByteArray)
       {
          super(param1);
-         this.ordinaryNut = param1.readInt();
-         this.canSpy = param1.readByte();
+         this.ordinaryNut = param1.readUTF();
+         this.canSpy = param1.readUTF();
       }
    }
 }

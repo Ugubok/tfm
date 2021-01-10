@@ -1,13 +1,13 @@
 package
 {
-   public class PunctureGrandfather extends WordCalculator
+   public class PunctureGrandfather extends StorePaint
    {
        
       
       public function PunctureGrandfather(param1:String)
       {
-         super(GateLetters.grandfatherPaltry(ChinSnakes.lightLackadaisical),GateLetters.grandfatherPaltry(FillLegs.wrenCareful));
-         colossalJagged.writeUTF(param1);
+         super(SistersRedundant.colossalJagged,NervousOnerous.lightLackadaisical(KneelDaily.grandfatherPaltry));
+         wrenCareful.writeUTF(param1);
       }
    }
 }

@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var buryCelery:int;
+      public var longUnit:int;
       
-      public var satisfyDefective:BoastSparkle;
+      public var chivalrousEdge:PreciousWait;
       
       public function RedundantSatisfy(param1:int, param2:int)
       {
          super();
          this.idSequence = param1;
-         this.buryCelery = param2;
+         this.longUnit = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get traceMouse() : String
+      public function get seedAdaptable() : String
       {
-         return GateLetters.earthquakeEyes(ChinSnakes.chivalrousEdge);
+         return NervousOnerous.traceMouse(OrangesQueue.buryCelery);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.lamentableTangy;
+         return KotskyRailway.earthquakeEyes;
       }
       
-      public function longUnit() : Boolean
+      public function famousKnife() : Boolean
       {
          return false;
       }
       
-      override public function famousKnife() : int
+      override public function lamentableTangy() : int
       {
-         return GateLetters.succinctTremble(ChinSnakes.seedAdaptable);
+         return MarkParty.succinctTremble;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeInt(this.buryCelery);
+         param1.writeByte(this.longUnit);
       }
    }
 }

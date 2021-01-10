@@ -6,18 +6,18 @@ package
    {
        
       
-      public var expansionQuirky:ZippySisters;
+      public var hilariousScared:ZippySisters;
       
       public var idSequence:int;
       
-      public var behaviorCrooked:int;
+      public var cravenDislike:int;
       
-      public var hilariousScared:AspiringMemorize;
+      public var knifeAgree:RedundantSatisfy;
       
       public function PreciousWait(param1:ZippySisters)
       {
          super();
-         this.expansionQuirky = param1;
+         this.hilariousScared = param1;
       }
       
       public function getIdSequence() : int
@@ -27,12 +27,12 @@ package
       
       public function get shakeCrash() : String
       {
-         return GateLetters.treatKaput(ChinSnakes.knifeAgree);
+         return NervousOnerous.inconclusiveClever(OrangesQueue.upsetSprout);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.hydrantUnique;
+         return KotskyRailway.behaviorCrooked;
       }
       
       public function recogniseJelly() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function cravenDislike() : int
+      public function hydrantUnique() : int
       {
-         return MarkEvasive.labelResolute;
+         return NervousOnerous.treatKaput(MarkParty.freeSupply);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.behaviorCrooked = param1.readByte();
-         var _loc2_:ProseZonked = this.expansionQuirky.recupereSequence(this.idSequence);
+         this.cravenDislike = param1.readByte();
+         var _loc2_:ProseZonked = this.hilariousScared.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is AspiringMemorize)
+            if(_loc2_ is RedundantSatisfy)
             {
-               this.hilariousScared = AspiringMemorize(_loc2_);
-               this.hilariousScared.freeSupply = this;
+               this.knifeAgree = RedundantSatisfy(_loc2_);
+               this.knifeAgree.labelResolute = this;
             }
          }
       }
       
-      public function get inconclusiveClever() : int
+      public function get expansionQuirky() : int
       {
-         return GateLetters.unitTeaching(ChinSnakes.upsetSprout);
+         return NervousOnerous.treatKaput(MarkParty.unitTeaching);
       }
    }
 }

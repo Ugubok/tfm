@@ -1,16 +1,16 @@
 package
 {
-   public class GateEyes extends WordCalculator
+   public class GateEyes extends StorePaint
    {
        
       
-      public function GateEyes(param1:String, param2:String, param3:String)
+      public function GateEyes(param1:int, param2:int, param3:int, param4:int)
       {
-         super(OrangeUnequal.unequalFill1,ExoticMemorize.railwayLabel);
-         faithfulCrash.writeUTF(param1);
-         faithfulCrash.writeUTF(param2);
-         faithfulCrash.writeUTF(param3);
-         baseballMomentous1 = AmuseFrighten.bakeJuice;
+         super(NervousOnerous.unequalFill(MarkParty.railwayLabel),SistersRedundant.baseballMomentous);
+         faithfulCrash.writeShort(param1);
+         faithfulCrash.writeShort(param2);
+         faithfulCrash.writeShort(param3);
+         faithfulCrash.writeShort(param4);
       }
    }
 }

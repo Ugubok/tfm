@@ -6,24 +6,24 @@ package
    {
        
       
-      public var cherryRequest:ZippySisters;
+      public var chickenNervous:ZippySisters;
       
-      public var personShort:String;
+      public var oilSock:String;
       
       public function AuthorityTightfisted(param1:ZippySisters)
       {
          super();
-         this.cherryRequest = param1;
+         this.chickenNervous = param1;
       }
       
-      public function get weightDinner() : String
+      public function get personShort() : String
       {
-         return GateLetters.chickenNervous(ChinSnakes.trembleFantastic);
+         return NervousOnerous.capriciousEasy(OrangesQueue.weightDinner);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.heartbreakingMatch;
+         return KotskyRailway.brightPoison;
       }
       
       public function babiesJog() : Boolean
@@ -31,20 +31,20 @@ package
          return false;
       }
       
-      public function brightPoison() : int
+      public function heartbreakingMatch() : int
       {
-         return GateLetters.oilSock(ToothpasteCloistered.sockStay) + this.personShort.length;
+         return SupplyMountain.sockStay + this.oilSock.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.personShort = param1.readUTFBytes(_loc2_);
+         this.oilSock = param1.readUTFBytes(_loc2_);
       }
       
-      public function get decayJagged() : int
+      public function get cherryRequest() : int
       {
-         return GateLetters.oilSock(FillLegs.capriciousEasy);
+         return KneelDaily.decayJagged;
       }
    }
 }

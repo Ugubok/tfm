@@ -1,13 +1,13 @@
 package
 {
-   public class BurlyRuddy extends WordCalculator
+   public class BurlyRuddy extends StorePaint
    {
        
       
-      public function BurlyRuddy(param1:Boolean)
+      public function BurlyRuddy(param1:String)
       {
-         super(GateLetters.angleLanguid(HarmonyVeil.clammyHour),ChinSnakes.proudSeparate1);
-         markedCart.writeByte(!!param1?int(FrightenUnique.complexBeautiful):int(GateLetters.angleLanguid(ForkBit.historicalObeisant)));
+         super(OrangesQueue.complexBeautiful,NervousOnerous.clammyHour(MarkParty.markedCart));
+         proudSeparate.writeUTF(param1);
       }
    }
 }

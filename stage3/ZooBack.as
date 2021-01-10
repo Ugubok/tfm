@@ -1,13 +1,13 @@
 package
 {
-   public class ZooBack extends WordCalculator
+   public class ZooBack extends StorePaint
    {
        
       
       public function ZooBack(param1:int)
       {
-         super(GateLetters.beginnerChilly(MarkEvasive.jarWhistle),GateLetters.beginnerChilly(RequestCactus.requestNeat));
-         troubledSatisfy.writeShort(param1);
+         super(BalanceSecret.beginnerChilly,NervousOnerous.troubledSatisfy(ActionThrill.jarWhistle));
+         requestNeat.writeByte(param1);
       }
    }
 }

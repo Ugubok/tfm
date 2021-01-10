@@ -2,7 +2,7 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class MatchReminiscent extends CleverWhip
+   public class MatchReminiscent extends KotskyCheck
    {
        
       
@@ -11,7 +11,7 @@ package
       public function MatchReminiscent(param1:ByteArray)
       {
          super(param1);
-         this.laborerHarmony = param1.readInt();
+         this.laborerHarmony = param1.readShort();
       }
    }
 }

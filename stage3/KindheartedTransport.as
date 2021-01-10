@@ -6,30 +6,30 @@ package
    {
        
       
-      public var noxiousBoundary:int;
+      public var slowCraven:int;
       
-      public var wiseDetermined:int;
+      public var violetPicture:int;
       
       public var obeisantBalance:int;
       
-      public var unknownImportant:int;
+      public var celeryStiff:int;
       
-      public var trousersTrains:int;
+      public var thoughtThoughtless:int;
       
-      public var adhesivePanoramic:int;
-      
-      public var colorfulRequest:int;
+      public var performFree:int;
       
       public var adviceLocket:int;
       
       public var afterthoughtProse:int;
       
+      public var trousersTrains:int;
+      
       public function KindheartedTransport(param1:int, param2:int)
       {
          super();
-         this.noxiousBoundary = param1;
-         this.wiseDetermined = param2;
-         addChild(DeliverTasty.performFree(GateLetters.slowCraven(OrangeUnequal.violetPicture) + param2 + GateLetters.slowCraven(ExpansionTour.thoughtThoughtless) + param1 + GateLetters.slowCraven(ToothpasteCloistered.celeryStiff)));
+         this.slowCraven = param1;
+         this.violetPicture = param2;
+         addChild(DeliverTasty.colorfulRequest(KnotModern.wiseDetermined + param2 + SupplyMountain.unknownImportant + param1 + NervousOnerous.noxiousBoundary(SpaceIdea.adhesivePanoramic)));
       }
    }
 }

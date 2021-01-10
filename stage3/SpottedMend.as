@@ -4,29 +4,29 @@ package
    {
        
       
-      public var healBeginner:String;
+      public var screwJuice:String;
       
-      public var lieCrash:String;
+      public var passCommon:String;
       
       public function SpottedMend(param1:int, param2:String, param3:Number, param4:String, param5:int, param6:String)
       {
          super();
-         subduedFirst = param1;
-         this.healBeginner = param2;
-         if(this.healBeginner.toLowerCase() == GateLetters.flowerElite(BashfulUnwritten.measureReaction) || this.healBeginner.toLowerCase() == GateLetters.flowerElite(FrightenUnique.stickSystem))
+         accurateSpotless = param1;
+         this.screwJuice = param2;
+         if(this.screwJuice.toLowerCase() == OrangesQueue.balvankaFour || this.screwJuice.toLowerCase() == NervousOnerous.chubbyPipka(SpaceIdea.measureReaction))
          {
-            this.healBeginner = GateLetters.flowerElite(MarkEvasive.pricklyStormy1);
+            this.screwJuice = BalanceSecret.wretchedBump;
          }
-         passCommon = param3;
-         basinReaction = param4;
-         tourStore = param5;
-         chubbyPipka = tourStore;
-         this.lieCrash = param6;
+         basinReaction = param3;
+         tourStore = param4;
+         flowerElite = param5;
+         stickSystem = flowerElite;
+         this.passCommon = param6;
       }
       
       public function toString() : String
       {
-         return GateLetters.flowerElite(RequestCactus.acousticSpotted) + this.healBeginner + FranticCrook.screwJuice + passCommon + GateLetters.flowerElite(BashfulUnwritten.accurateSpotless1) + basinReaction + GateLetters.flowerElite(ToothpasteCloistered.cleverClass) + tourStore + RequestCactus.wretchedBump + this.lieCrash + GateLetters.flowerElite(FillLegs.balvankaFour);
+         return SistersRedundant.acousticSpotted + this.screwJuice + NervousPromise.pricklyStormy1 + basinReaction + NervousOnerous.chubbyPipka(IdeaTeeny.healBeginner) + tourStore + BalanceSecret.lieCrash + flowerElite + NervousOnerous.chubbyPipka(OrangesQueue.subduedFirst) + this.passCommon + SandTedious.cleverClass;
       }
    }
 }

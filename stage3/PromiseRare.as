@@ -1,14 +1,14 @@
 package
 {
-   public class PromiseRare extends WordCalculator
+   public class PromiseRare extends StorePaint
    {
        
       
-      public function PromiseRare(param1:int, param2:int)
+      public function PromiseRare(param1:String, param2:String)
       {
-         super(GateLetters.feeblePushy(ToothpasteCloistered.thickAnalyze),GateLetters.feeblePushy(BalanceLoaf.icyCondition));
-         treatDazzling.writeInt(param1);
-         treatDazzling.writeInt(param2);
+         super(MarkParty.feeblePushy,NervousOnerous.icyCondition(JellyCry.thickAnalyze));
+         treatDazzling.writeUTF(param1);
+         treatDazzling.writeUTF(param2);
       }
    }
 }

@@ -1,12 +1,12 @@
 package
 {
-   public class ProseMend extends WordCalculator
+   public class ProseMend extends StorePaint
    {
        
       
       public function ProseMend()
       {
-         super(ChinSnakes.separateHesitant,FourYell.scrawnyAddition);
+         super(SistersRedundant.separateHesitant,FaithfulBaseball.scrawnyAddition);
       }
    }
 }

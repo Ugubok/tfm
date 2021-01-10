@@ -13,10 +13,10 @@ package
       public function SofaRepulsive()
       {
          super();
-         efficientTrousers = new VieuxCategorieTribu();
-         cherryOrdinary = new VieuxCategorieChat();
+         cherryOrdinary = new VieuxCategorieTribu();
+         searchBoring = new VieuxCategorieChat();
          systemDazzling = new VieuxCategorieListeNoire();
-         searchBoring = new VieuxCategorieAmis();
+         efficientTrousers = new VieuxCategorieAmis();
          divisionNoiseless = new VieuxCategorieDonneesUtilisateur();
       }
    }

@@ -1,12 +1,12 @@
 package
 {
-   public class FearfulJelly extends WordCalculator
+   public class FearfulJelly extends StorePaint
    {
        
       
       public function FearfulJelly()
       {
-         super(ScaleTemper.zincAdventurous,GateLetters.riverDrown(FourYell.additionCrash));
+         super(NervousOnerous.riverDrown(IdeaReal.additionCrash),ActionThrill.zincAdventurous);
       }
    }
 }

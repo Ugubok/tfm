@@ -2,16 +2,16 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class HocSlip extends CleverWhip
+   public class HocSlip extends KotskyCheck
    {
        
       
-      public var crackerOptimal:int;
+      public var largeShake:Boolean;
       
       public function HocSlip(param1:ByteArray)
       {
          super(param1);
-         this.crackerOptimal = param1.readUnsignedShort();
+         this.largeShake = param1.readByte() == MarkParty.crackerOptimal;
       }
    }
 }

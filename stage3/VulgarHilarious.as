@@ -3,11 +3,11 @@ package
    public class VulgarHilarious
    {
       
-      public static const uninterestedWash:int =  0;
+      public static const armInjure:int =  0;
       
       public static const incompetentKuruma:int =  1;
       
-      public static const armInjure:int =  2;
+      public static const uninterestedWash:int =  2;
       
       public static const automaticSave:int =  3;
       

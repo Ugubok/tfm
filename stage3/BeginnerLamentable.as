@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var sockBurn:String;
+      public var ordinaryStrengthen:String;
       
-      public var concentrateQueue:PeckBreathe;
+      public var concentrateQueue:FillShake;
       
       public function BeginnerLamentable(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.sockBurn = param2;
+         this.ordinaryStrengthen = param2;
       }
       
       public function getIdSequence() : int
@@ -24,14 +24,14 @@ package
          return this.idSequence;
       }
       
-      public function get batheFlash() : String
+      public function get sockBurn() : String
       {
-         return GateLetters.lackadaisicalLunasole(ChinSnakes.ordinaryStrengthen);
+         return NervousOnerous.legsWaiting(OrangesQueue.batheFlash);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.deserveEasy;
+         return KotskyRailway.gateShort;
       }
       
       public function cactusBear() : Boolean
@@ -39,15 +39,15 @@ package
          return false;
       }
       
-      override public function gateShort() : int
+      override public function deserveEasy() : int
       {
-         return ScaleTemper.legsWaiting + this.sockBurn.length;
+         return NervousOnerous.lackadaisicalLunasole(SupplyMountain.happyPanicky) + this.ordinaryStrengthen.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.sockBurn);
+         param1.writeUTF(this.ordinaryStrengthen);
       }
    }
 }

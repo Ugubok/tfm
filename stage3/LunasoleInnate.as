@@ -1,13 +1,13 @@
 package
 {
-   public class LunasoleInnate extends WordCalculator
+   public class LunasoleInnate extends StorePaint
    {
        
       
       public function LunasoleInnate(param1:int)
       {
-         super(ForkBit.mendSerious,GateLetters.jaggedHysterical(FrightenUnique.ignorantDrown));
-         stupidFour.writeInt(param1);
+         super(NervousOnerous.ignorantDrown(SistersRedundant.jaggedHysterical),BalanceSecret.mendSerious);
+         stupidFour.writeByte(param1);
       }
    }
 }

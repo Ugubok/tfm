@@ -414,18 +414,19 @@ class ProgressBar:
 
     def tick(self):
         if not self.mounted:
-            print("[" + " " * self.length + "]", end="", flush=True)
+            print("[" + " " * self.length + "]", end="")
             print("\r[", end="", flush=True)
             self.mounted = True
 
+        if self.progress % self.step == 0:
+            if self.counter < self.length:
+                print("#", end="", flush=True)
+                self.counter += 1
+
         self.progress += 1
 
-        # FIXME: progress bar is goes beyond the [] boundaries or doesn't reach it
-        if self.progress % self.step == 0:
-            self.counter += 1
-            print("#", end="", flush=True)
-
     def done(self):
+        print("#" * (self.length - self.counter), end="")
         print("", flush=True)
 
 
@@ -478,7 +479,7 @@ def count_xrefs(file_map):
 
 
 def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
-    pb = ProgressBar(total=len(file_map), length=80)
+    pb = ProgressBar(total=len(file_map) * 3, length=80)
 
     just_populate = False
 
@@ -506,6 +507,22 @@ def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
                 cls.associate(other)
                 continue
 
+    if just_populate:
+        pb.done()
+        return
+
+    # First find fully equal classes
+    for _, cls in file_map.items():
+        pb.tick()
+        similar, report, k = db.find_similar(cls, threshold=0.999)
+        logging.info(f"{cls.name} is equal to {similar.name} (k={k:.2f}")
+
+        cls.name = similar.name
+        cls.associate(similar)
+
+    # Then associate rest of classes
+    for _, cls in file_map.items():
+        pb.tick()
         similar, report, k = db.find_similar(cls)
 
         if not similar:
@@ -513,7 +530,7 @@ def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
             db.store(cls)
             continue
 
-        logging.info(f"{cls.name} is similar to {similar.name} with k={k}")
+        logging.info(f"{cls.name} is similar to {similar.name} with k={k:.2f}")
 
         cls.name = similar.name
         cls.associate(similar)

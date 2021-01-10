@@ -6,18 +6,18 @@ package
    {
        
       
-      public var locketHarbor:ZippySisters;
+      public var alertAnnoy:ZippySisters;
       
       public var idSequence:int;
       
-      public var defectiveWind:int;
+      public var clubUnite:int;
       
-      public var pearImpartial:ProgramPorter;
+      public var locketHarbor:CrackerMany;
       
       public function HarmonyMemorize(param1:ZippySisters)
       {
          super();
-         this.locketHarbor = param1;
+         this.alertAnnoy = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get wanderFearful() : String
+      public function get icyGruesome1() : String
       {
-         return ChinSnakes.armOil;
+         return OrangesQueue.wanderFearful;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.tightfistedCondition;
+         return KotskyRailway.defectiveWind;
       }
       
       public function phoneJoke() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function clubUnite() : int
+      public function tightfistedCondition() : int
       {
-         return MarkEvasive.saveShut1;
+         return MarkParty.pearImpartial;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.defectiveWind = param1.readByte();
-         var _loc2_:ProseZonked = this.locketHarbor.recupereSequence(this.idSequence);
+         this.clubUnite = param1.readByte();
+         var _loc2_:ProseZonked = this.alertAnnoy.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is ProgramPorter)
+            if(_loc2_ is CrackerMany)
             {
-               this.pearImpartial = ProgramPorter(_loc2_);
-               this.pearImpartial.farmDoor = this;
+               this.locketHarbor = CrackerMany(_loc2_);
+               this.locketHarbor.saveShut1 = this;
             }
          }
       }
       
-      public function get icyGruesome() : int
+      public function get priceCompany() : int
       {
-         return GateLetters.priceCompany(ExpansionTour.alertAnnoy);
+         return ActionThrill.farmDoor;
       }
    }
 }

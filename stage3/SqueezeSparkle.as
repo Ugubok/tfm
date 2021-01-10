@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var saveJog:String;
+      public var tourKittens:String;
       
-      public var zipJoke:ShockingToothpaste;
+      public var railwayFierce:PainstakingPicture;
       
       public function SqueezeSparkle(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.saveJog = param2;
+         this.tourKittens = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get afternoonHeal() : String
+      public function get instinctiveAutomatic() : String
       {
-         return ChinSnakes.famousIncompetent;
+         return NervousOnerous.saveJog1(OrangesQueue.zipJoke);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.inventFlower;
+         return KotskyRailway.afternoonHeal;
       }
       
-      public function tourKittens() : Boolean
+      public function measlyInterrupt() : Boolean
       {
          return false;
       }
       
-      override public function measlyInterrupt() : int
+      override public function inventFlower() : int
       {
-         return GateLetters.instinctiveAutomatic(ScaleTemper.railwayFierce) + this.saveJog.length;
+         return SupplyMountain.famousIncompetent + this.tourKittens.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.saveJog);
+         param1.writeUTF(this.tourKittens);
       }
    }
 }

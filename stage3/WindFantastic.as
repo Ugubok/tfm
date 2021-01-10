@@ -1,12 +1,12 @@
 package
 {
-   public class WindFantastic extends WordCalculator
+   public class WindFantastic extends StorePaint
    {
        
       
       public function WindFantastic()
       {
-         super(AttractiveSugar.matchNew,GateLetters.belligerentSummer(BalanceLoaf.cuteThick));
+         super(NervousOnerous.matchNew(IdeaReal.belligerentSummer),NervousOnerous.matchNew(RepulsiveDear.cuteThick));
       }
    }
 }

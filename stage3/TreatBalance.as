@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var stayAuthority:int;
+      public var innateDress:int;
       
-      public var gapingDelightful:String;
+      public var inviteNut:String;
       
-      public var interruptCareful:PainstakingPicture;
+      public var interruptCareful:RepeatBack;
       
       public function TreatBalance(param1:int, param2:int, param3:String)
       {
          super();
          this.idSequence = param1;
-         this.stayAuthority = param2;
-         this.gapingDelightful = param3;
+         this.innateDress = param2;
+         this.inviteNut = param3;
       }
       
       public function getIdSequence() : int
@@ -27,31 +27,31 @@ package
          return this.idSequence;
       }
       
-      public function get heatHysterical() : String
+      public function get stayAuthority() : String
       {
-         return ChinSnakes.inviteNut;
+         return NervousOnerous.heatHysterical(OrangesQueue.proudUnit);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.pearReach;
+         return KotskyRailway.retireHesitant;
       }
       
-      public function retireHesitant() : Boolean
+      public function pearReach() : Boolean
       {
          return false;
       }
       
-      override public function governmentInvent() : int
+      override public function gapingDelightful() : int
       {
-         return GateLetters.innateDress(RequestCactus.proudUnit) + this.gapingDelightful.length;
+         return FaithfulVoracious.governmentInvent + this.inviteNut.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(this.stayAuthority);
-         param1.writeUTF(this.gapingDelightful);
+         param1.writeByte(this.innateDress);
+         param1.writeUTF(this.inviteNut);
       }
    }
 }

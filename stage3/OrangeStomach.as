@@ -6,18 +6,18 @@ package
    {
        
       
-      public var juiceColossal:ZippySisters;
+      public var spikyDiscussion:ZippySisters;
       
       public var idSequence:int;
       
-      public var threateningSubdued:Vector.<String>;
+      public var crownVoyage:Vector.<String>;
       
-      public var vagueTax:SatisfyLanguid;
+      public var injureLackadaisical:FascinatedWealthy;
       
       public function OrangeStomach(param1:ZippySisters)
       {
          super();
-         this.juiceColossal = param1;
+         this.spikyDiscussion = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get secretResolute() : String
+      public function get lunasoleLegs() : String
       {
-         return GateLetters.modernSuzuka(ChinSnakes.crownVoyage);
+         return NervousOnerous.orderNoiseless(OrangesQueue.threateningSubdued);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.lunasoleLegs;
+         return KotskyRailway.vagueTax;
       }
       
       public function yakButter() : Boolean
@@ -42,14 +42,14 @@ package
       
       public function expansionLegs() : int
       {
-         var _loc1_:int = ForkBit.injureLackadaisical;
-         var _loc2_:int = GateLetters.stupidUninterested(ForkBit.injureLackadaisical);
-         while(_loc2_ < this.threateningSubdued.length)
+         var _loc1_:int = FaithfulBaseball.secretResolute1;
+         var _loc2_:int = FaithfulBaseball.secretResolute1;
+         while(_loc2_ < this.crownVoyage.length)
          {
-            _loc1_ = _loc1_ + (GateLetters.stupidUninterested(ToothpasteCloistered.curvedOatmeal) + this.threateningSubdued[_loc2_].length);
+            _loc1_ = _loc1_ + (SupplyMountain.curvedOatmeal + this.crownVoyage[_loc2_].length);
             _loc2_++;
          }
-         return GateLetters.stupidUninterested(ScaleTemper.orderNoiseless) + _loc1_;
+         return SupplyMountain.juiceColossal + _loc1_;
       }
       
       public function lecture(param1:ByteArray) : void
@@ -57,28 +57,28 @@ package
          var _loc5_:int = 0;
          this.idSequence = param1.readInt();
          var _loc2_:int = param1.readShort();
-         this.threateningSubdued = new Vector.<String>(_loc2_);
-         var _loc3_:int = ForkBit.injureLackadaisical;
+         this.crownVoyage = new Vector.<String>(_loc2_);
+         var _loc3_:int = FaithfulBaseball.secretResolute1;
          while(_loc3_ < _loc2_)
          {
             _loc5_ = param1.readShort();
-            this.threateningSubdued[_loc3_] = param1.readUTFBytes(_loc5_);
+            this.crownVoyage[_loc3_] = param1.readUTFBytes(_loc5_);
             _loc3_++;
          }
-         var _loc4_:ProseZonked = this.juiceColossal.recupereSequence(this.idSequence);
+         var _loc4_:ProseZonked = this.spikyDiscussion.recupereSequence(this.idSequence);
          if(_loc4_ != null)
          {
-            if(_loc4_ is SatisfyLanguid)
+            if(_loc4_ is FascinatedWealthy)
             {
-               this.vagueTax = SatisfyLanguid(_loc4_);
-               this.vagueTax.spikyDiscussion = this;
+               this.injureLackadaisical = FascinatedWealthy(_loc4_);
+               this.injureLackadaisical.modernSuzuka = this;
             }
          }
       }
       
       public function get debtProbable() : int
       {
-         return FrightenUnique.anusReal;
+         return FaithfulVoracious.stupidUninterested;
       }
    }
 }

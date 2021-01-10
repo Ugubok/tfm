@@ -2,7 +2,7 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class AuntHose extends CleverWhip
+   public class AuntHose extends KotskyCheck
    {
        
       
@@ -11,7 +11,7 @@ package
       public function AuntHose(param1:ByteArray)
       {
          super(param1);
-         this.sootheSplendid = param1.readShort();
+         this.sootheSplendid = param1.readInt();
       }
    }
 }

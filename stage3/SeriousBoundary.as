@@ -6,18 +6,18 @@ package
    {
        
       
-      public var neighborlyWhistle:ZippySisters;
+      public var painstakingIdea:ZippySisters;
       
       public var idSequence:int;
       
-      public var reachChivalrous:int;
+      public var trousersRepeat:int;
       
-      public var fadeTow:RightfulTrousers;
+      public var divisionNoxious:RabbitWord;
       
       public function SeriousBoundary(param1:ZippySisters)
       {
          super();
-         this.neighborlyWhistle = param1;
+         this.painstakingIdea = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get painstakingIdea() : String
+      public function get crashFearful() : String
       {
-         return ChinSnakes.handToe;
+         return OrangesQueue.fadeTow;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.importantDelightful;
+         return KotskyRailway.reachChivalrous;
       }
       
       public function bumpHysterical() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function trousersRepeat() : int
+      public function importantDelightful() : int
       {
-         return MarkEvasive.programTour;
+         return MarkParty.neighborlyWhistle;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.reachChivalrous = param1.readByte();
-         var _loc2_:ProseZonked = this.neighborlyWhistle.recupereSequence(this.idSequence);
+         this.trousersRepeat = param1.readByte();
+         var _loc2_:ProseZonked = this.painstakingIdea.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is RightfulTrousers)
+            if(_loc2_ is RabbitWord)
             {
-               this.fadeTow = RightfulTrousers(_loc2_);
-               this.fadeTow.creatorDeliver1 = this;
+               this.divisionNoxious = RabbitWord(_loc2_);
+               this.divisionNoxious.creatorDeliver = this;
             }
          }
       }
       
-      public function get divisionNoxious() : int
+      public function get redundantBlush() : int
       {
-         return GateLetters.crashFearful(AdditionVague.redundantBlush);
+         return BalanceSecret.programTour;
       }
    }
 }

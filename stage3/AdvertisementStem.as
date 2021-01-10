@@ -6,18 +6,18 @@ package
    {
        
       
-      public var thankWing:ZippySisters;
+      public var trainsSuccinct:ZippySisters;
       
       public var idSequence:int;
       
-      public var harborBurly:int;
+      public var moveBruise:int;
       
-      public var moveBruise:CompanyUninterested;
+      public var chubbyKnot:UnarmedBalance;
       
       public function AdvertisementStem(param1:ZippySisters)
       {
          super();
-         this.thankWing = param1;
+         this.trainsSuccinct = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get partyUnequaled() : String
+      public function get dinnerAd() : String
       {
-         return ChinSnakes.promiseWrathful;
+         return NervousOnerous.thankWing(OrangesQueue.probableLate);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.rejectLegs;
+         return KotskyRailway.impartialSofa;
       }
       
       public function flashRambunctious() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function impartialSofa() : int
+      public function rejectLegs() : int
       {
-         return GateLetters.trainsSuccinct(MarkEvasive.chubbyKnot);
+         return MarkParty.promiseWrathful;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.harborBurly = param1.readByte();
-         var _loc2_:ProseZonked = this.thankWing.recupereSequence(this.idSequence);
+         this.moveBruise = param1.readByte();
+         var _loc2_:ProseZonked = this.trainsSuccinct.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is CompanyUninterested)
+            if(_loc2_ is UnarmedBalance)
             {
-               this.moveBruise = CompanyUninterested(_loc2_);
-               this.moveBruise.lieLie = this;
+               this.chubbyKnot = UnarmedBalance(_loc2_);
+               this.chubbyKnot.partyUnequaled = this;
             }
          }
       }
       
-      public function get dinnerAd() : int
+      public function get lieLie() : int
       {
-         return GateLetters.trainsSuccinct(MarkEvasive.probableLate);
+         return FaithfulVoracious.harborBurly;
       }
    }
 }

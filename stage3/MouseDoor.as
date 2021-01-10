@@ -1,14 +1,14 @@
 package
 {
-   public class MouseDoor extends WordCalculator
+   public class MouseDoor extends StorePaint
    {
        
       
-      public function MouseDoor(param1:int, param2:int)
+      public function MouseDoor(param1:String, param2:String)
       {
-         super(ScaleTemper.butterPerform,GateLetters.spikyRomantic(DivergentDinner.crownFrail));
-         keySpurious1.writeInt(param1);
-         keySpurious1.writeByte(param2);
+         super(NervousOnerous.spikyRomantic(BalanceSecret.butterPerform),SupplyMountain.keySpurious);
+         crownFrail.writeUTF(param1);
+         crownFrail.writeUTF(param2);
       }
    }
 }

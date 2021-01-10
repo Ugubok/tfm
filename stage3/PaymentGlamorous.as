@@ -6,45 +6,45 @@ package
    {
        
       
-      public var hesitantCraven:int;
+      public var sistersProgram:int;
       
       public var type:int;
       
-      public var generalPayment:String;
+      public var smileHeal:String;
       
       public function PaymentGlamorous(param1:int = 0, param2:int = 0, param3:String = null)
       {
          super();
-         this.hesitantCraven = param1;
+         this.sistersProgram = param1;
          this.type = param2;
-         this.generalPayment = param3;
+         this.smileHeal = param3;
       }
       
-      public static function huskyDidactic(param1:ByteArray) : PaymentGlamorous
+      public static function hesitantCraven(param1:ByteArray) : PaymentGlamorous
       {
          var _loc2_:PaymentGlamorous = new PaymentGlamorous();
          _loc2_.lecture(param1);
          return _loc2_;
       }
       
-      public function pushyCan() : int
+      public function huskyDidactic() : int
       {
-         return RequestCactus.smileHeal1 + this.generalPayment.length;
+         return NervousOnerous.pushyCan(NervousPromise.generalPayment) + this.smileHeal.length;
       }
       
       public function ecriture(param1:ByteArray) : void
       {
-         param1.writeInt(this.hesitantCraven);
+         param1.writeInt(this.sistersProgram);
          param1.writeInt(this.type);
-         param1.writeUTF(this.generalPayment);
+         param1.writeUTF(this.smileHeal);
       }
       
       public function lecture(param1:ByteArray) : void
       {
-         this.hesitantCraven = param1.readInt();
+         this.sistersProgram = param1.readInt();
          this.type = param1.readInt();
          var _loc2_:int = param1.readShort();
-         this.generalPayment = param1.readUTFBytes(_loc2_);
+         this.smileHeal = param1.readUTFBytes(_loc2_);
       }
    }
 }

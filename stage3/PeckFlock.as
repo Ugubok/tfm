@@ -1,14 +1,14 @@
 package
 {
-   public class PeckFlock extends WordCalculator
+   public class PeckFlock extends StorePaint
    {
        
       
       public function PeckFlock(param1:int, param2:int)
       {
-         super(MarkEvasive.labelRabbit1,GateLetters.stemTrap(ExoticMemorize.branchDistro));
-         classRailway.writeByte(param1);
-         classRailway.writeInt(param2);
+         super(NervousOnerous.classRailway(MarkParty.labelRabbit),ActionThrill.stemTrap);
+         searchImpartial.writeInt(param1 + SandTedious.branchDistro);
+         searchImpartial.writeInt(SandTedious.branchDistro + param2);
       }
    }
 }

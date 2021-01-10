@@ -2,7 +2,7 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class AbaftPack extends CleverWhip
+   public class AbaftPack extends KotskyCheck
    {
        
       
@@ -11,7 +11,7 @@ package
       public function AbaftPack(param1:ByteArray)
       {
          super(param1);
-         this.wastefulCrowded = param1.readShort();
+         this.wastefulCrowded = param1.readInt();
       }
    }
 }

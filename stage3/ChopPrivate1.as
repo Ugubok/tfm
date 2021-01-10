@@ -3,21 +3,21 @@ package
    public class ChopPrivate1
    {
       
-      public static var agreeBorrow:DeserveHalf = null;
+      public static var wrenPear:DeserveHalf = null;
       
-      public static var unequalJuggle:EliteScrawny;
+      public static var taxThick1:VagueDebt;
       
-      public static var firstRiver:StatementToothpaste;
+      public static var clubCat1:DeadpanSweater;
       
-      public static var stripedWicked:HocCrash;
+      public static var traceLarge:RailwayCute;
       
-      public static var zipUpset:AliveChubby;
+      public static var instructEntertaining:PunctureFit;
       
-      public static var creatorSummer:AdjustmentHistorical;
+      public static var squeamishSubdued:SnakesRabbits;
       
-      public static var traceLarge:Boolean = false;
+      public static var glamorousSqueal:Boolean = false;
       
-      public static var didacticTaboo:SquealEnjoy = null;
+      public static var blushFragile:CrowdedAfterthought = null;
        
       
       public function ChopPrivate1()
@@ -25,149 +25,149 @@ package
          super();
       }
       
-      public static function brightLocket(param1:int) : WickedCard
+      public static function betterPass() : Boolean
       {
-         return ChopPrivate1.agreeBorrow.succinctAgreeable.creePaquetEntrant(ChopPrivate1.agreeBorrow,param1);
+         return ChopPrivate1.wrenPear != null;
       }
       
-      public static function queueLaborer(param1:String) : void
+      public static function longThird() : void
       {
-         new BrightScale(param1,true).wrenPear().delicateAfterthought();
-      }
-      
-      public static function grinBelief() : void
-      {
-         ChopPrivate1.agreeBorrow = new DeserveHalf();
-         ChopPrivate1.unequalJuggle = new EliteScrawny();
-         ChopPrivate1.firstRiver = new StatementToothpaste();
-         ChopPrivate1.creatorSummer = new AdjustmentHistorical();
-         ChopPrivate1.stripedWicked = new HocCrash();
-         ChopPrivate1.zipUpset = new AliveChubby();
-         if(ChopEngine.hateInvent)
+         ChopPrivate1.wrenPear = new DeserveHalf();
+         ChopPrivate1.taxThick1 = new VagueDebt();
+         ChopPrivate1.clubCat1 = new DeadpanSweater();
+         ChopPrivate1.squeamishSubdued = new SnakesRabbits();
+         ChopPrivate1.traceLarge = new RailwayCute();
+         ChopPrivate1.instructEntertaining = new PunctureFit();
+         if(ChopEngine.farmAd)
          {
-            ChopPrivate1.didacticTaboo = SquealEnjoy.clubCat;
+            ChopPrivate1.blushFragile = CrowdedAfterthought.adviseFeeble;
          }
-         else if(ChopEngine.tartBoot)
+         else if(ChopEngine.spoonAjar)
          {
-            ChopPrivate1.didacticTaboo = SquealEnjoy.unequaledBear;
+            ChopPrivate1.blushFragile = CrowdedAfterthought.queueLaborer;
          }
-         else if(ChopEngine.glamorousSqueal)
+         else if(ChopEngine.toysUnit)
          {
-            ChopPrivate1.didacticTaboo = SquealEnjoy.longThird;
+            ChopPrivate1.blushFragile = CrowdedAfterthought.agonizingWail;
          }
-         else if(ChopEngine.seaHilarious1)
+         else if(ChopEngine.whistleBabies)
          {
-            ChopPrivate1.didacticTaboo = SquealEnjoy.adviseFeeble;
+            ChopPrivate1.blushFragile = CrowdedAfterthought.fillWindy;
          }
          else
          {
-            ChopPrivate1.didacticTaboo = SquealEnjoy.smileSpace;
+            ChopPrivate1.blushFragile = CrowdedAfterthought.instinctiveSugar;
          }
       }
       
-      public static function toysUnit(param1:GrinCondition) : Boolean
+      public static function soupPainstaking(param1:int, param2:int) : FantasticStale
       {
-         if(!param1.adhesiveBlot())
-         {
-            return false;
-         }
-         if(!(param1 is AgreeCapricious) && !(param1 as AnalyzeTemper).pleasantAngle1)
-         {
-            return false;
-         }
-         var _loc2_:QuackCrooked = param1.waitDecay();
-         if(!_loc2_.fillWindy())
-         {
-            return false;
-         }
-         var _loc3_:String = _loc2_.stormyBead();
-         var _loc4_:Boolean = ClassStormy.crowdedScared || ClassStormy.taxThick || ClassStormy.squeamishSubdued || ClassStormy.subduedOven;
-         return _loc4_ || _loc3_ == AttractiveSugar.whistleBabies || NotebookRightful.sincereDefective == _loc3_;
+         return ChopPrivate1.hateInvent(StayWhip.waitDecay(NervousOnerous.memorizeSlow(PleaseFour.happyHarmony),param1 + NervousOnerous.memorizeSlow(FaithfulVoracious.agreeBorrow) + param2));
       }
       
-      public static function spookyWise() : void
+      public static function hateInvent(param1:String) : FantasticStale
       {
-         var _loc3_:WhisperDoctor = null;
+         var _loc2_:FantasticStale = new FantasticStale(OrangesQueue.spookyWise,param1,true).smileSpace(StayWhip.waitDecay(NervousOnerous.memorizeSlow(DearTemper.stripedWicked)));
+         _loc2_.clubBasket(NervousOnerous.succinctAgreeable(FaithfulBaseball.butterDidactic),MarkParty.flashChop,NervousOnerous.succinctAgreeable(SandTedious.plantsHeat),NervousOnerous.succinctAgreeable(OrangesQueue.glowHorn));
+         _loc2_.subduedOven();
+         SteerEar.crowdedScared1(_loc2_);
+         return _loc2_;
+      }
+      
+      public static function seaHilarious() : void
+      {
+         var _loc3_:ThrillParty = null;
          var _loc4_:String = null;
-         var _loc1_:int = OppositeFive.deadpanPanoramic;
-         var _loc2_:WhisperDoctor = null;
-         if(_loc1_ >= ForkBit.temperPainstaking && _loc1_ != BashfulUnwritten.soupPainstaking)
+         var _loc1_:int = StayWhip.impartialKaput;
+         var _loc2_:ThrillParty = null;
+         if(_loc1_ >= NervousOnerous.succinctAgreeable(FaithfulBaseball.butterDidactic) && _loc1_ != NervousOnerous.succinctAgreeable(KneelDaily.wateryEdge))
          {
-            for each(_loc3_ in WhisperDoctor.dailyJuggle)
+            for each(_loc3_ in ThrillParty.crookedDisappear)
             {
-               if(_loc1_ == _loc3_.plantsHeat)
+               if(_loc1_ == _loc3_.voyageBasin)
                {
                   _loc2_ = _loc3_;
                   break;
                }
             }
-            if(_loc2_ == null || _loc2_.wateryEdge == WhisperDoctor.lookTremble.wateryEdge || _loc2_.wateryEdge == WhisperDoctor.culturedMemorize.wateryEdge || _loc2_.wateryEdge == WhisperDoctor.crookedDisappear.wateryEdge || _loc2_.wateryEdge == WhisperDoctor.swankyKnowledgeable.wateryEdge || _loc2_.wateryEdge == WhisperDoctor.womanThreatening.wateryEdge || _loc2_.wateryEdge == WhisperDoctor.aspiringRightful.wateryEdge)
+            if(_loc2_ == null || _loc2_.competitionGullible == ThrillParty.superPig.competitionGullible || _loc2_.competitionGullible == ThrillParty.firstRiver.competitionGullible || _loc2_.competitionGullible == ThrillParty.womanThreatening.competitionGullible || _loc2_.competitionGullible == ThrillParty.temperPainstaking.competitionGullible || _loc2_.competitionGullible == ThrillParty.innateStale.competitionGullible || _loc2_.competitionGullible == ThrillParty.brightLocket.competitionGullible)
             {
-               _loc2_ = WhisperDoctor.memorizePrepare;
+               _loc2_ = ThrillParty.cuteAwake;
             }
-            else if(WhisperDoctor.farmAd.wateryEdge == _loc2_.wateryEdge)
+            else if(_loc2_.competitionGullible == ThrillParty.adhesiveBlot.competitionGullible)
             {
-               _loc2_ = WhisperDoctor.increaseReligion;
+               _loc2_ = ThrillParty.senseCapricious;
             }
          }
          if(_loc2_ != null)
          {
-            CrackerFlock.superAwake1(AttractiveSugar.superPig1 + ChopPrivate1.didacticTaboo.impartialKaput + GateLetters.butterDidactic(KnowledgeLate.flashChop) + _loc2_.wateryEdge,true);
+            GovernmentCurved.increaseReligion(IdeaTeeny.lookTremble + ChopPrivate1.blushFragile.sincereDefective + NervousOnerous.memorizeSlow(SpaceIdea.tartBoot) + _loc2_.competitionGullible,true);
          }
          else
          {
-            _loc4_ = !!ChopEngine.seaHilarious1?GateLetters.butterDidactic(ForkBit.explainKittens):GateLetters.butterDidactic(AttractiveSugar.rabbitsRealize);
-            CrackerFlock.superAwake1(_loc4_,true);
+            _loc4_ = !!ChopEngine.whistleBabies?NervousOnerous.memorizeSlow(MarkParty.lackadaisicalPlants):NervousOnerous.memorizeSlow(NervousPromise.explainKittens);
+            GovernmentCurved.increaseReligion(_loc4_,true);
          }
-      }
-      
-      public static function adjoiningThank() : Boolean
-      {
-         return ChopPrivate1.agreeBorrow != null;
-      }
-      
-      public static function cuteAwake(param1:int, param2:int) : RambunctiousJoyous
-      {
-         return ChopPrivate1.happyHarmony(OppositeFive.instinctiveSugar(GateLetters.butterDidactic(FranticCrook.agonizingWail),param1 + GateLetters.butterDidactic(ExoticMemorize.behaviorTouch) + param2));
-      }
-      
-      public static function competitionGullible() : int
-      {
-         return ++ChopPrivate1.agreeBorrow.idSequence;
-      }
-      
-      public static function happyHarmony(param1:String) : RambunctiousJoyous
-      {
-         var _loc2_:RambunctiousJoyous = new RambunctiousJoyous(ExoticMemorize.betterPass,param1,true).spoonAjar(OppositeFive.instinctiveSugar(GateLetters.butterDidactic(HarmonyVeil.voyageBasin)));
-         _loc2_.lyricalMemorize(GateLetters.instructEntertaining(ForkBit.temperPainstaking),AttractiveSugar.innateStale,GateLetters.instructEntertaining(DivergentDinner.bikeSearch),GateLetters.instructEntertaining(MarkEvasive.blushFragile));
-         _loc2_.senseCapricious();
-         EasyDoctor.glowHorn(_loc2_);
-         return _loc2_;
       }
       
       public static function traiterPaquetEntrant(param1:int, param2:WickedCard) : void
       {
-         ChopPrivate1.agreeBorrow.succinctAgreeable.traiterPaquetEntrant(param1,param2);
+         ChopPrivate1.wrenPear.swankyKnowledgeable.traiterPaquetEntrant(param1,param2);
       }
       
-      public static function laborerOptimal(param1:Boolean) : void
+      public static function rabbitsSki(param1:ProseZonked) : void
+      {
+         if(!ChopPrivate1.betterPass() || !ChopPrivate1.glamorousSqueal)
+         {
+            return;
+         }
+         ChopPrivate1.wrenPear.traitePaquetSortant(param1);
+      }
+      
+      public static function didacticTaboo(param1:int) : WickedCard
+      {
+         return ChopPrivate1.wrenPear.swankyKnowledgeable.creePaquetEntrant(ChopPrivate1.wrenPear,param1);
+      }
+      
+      public static function zipUpset(param1:GrinCondition) : Boolean
+      {
+         if(!param1.behaviorTouch())
+         {
+            return false;
+         }
+         if(!(param1 is BrushStormy) && !(param1 as AnalyzeTemper).lyricalMemorize)
+         {
+            return false;
+         }
+         var _loc2_:PatheticDebt = param1.dailyJuggle();
+         if(!_loc2_.bikeSearch())
+         {
+            return false;
+         }
+         var _loc3_:String = _loc2_.unequaledBear();
+         var _loc4_:Boolean = TrousersLimit.aspiringRightful || TrousersLimit.unequalJuggle || TrousersLimit.pleasantAngle || TrousersLimit.grinBelief;
+         return _loc4_ || _loc3_ == NervousOnerous.memorizeSlow(RoomAddition.superAwake) || _loc3_ == NotebookMountain.delicateAfterthought;
+      }
+      
+      public static function stormyBead(param1:String) : void
+      {
+         new KittensSecret(param1,true).memorizePrepare().deadpanPanoramic();
+      }
+      
+      public static function creatorSummer(param1:Boolean) : void
       {
          if(param1)
          {
-            if(ClassStormy.lackadaisicalPlants && !NestFix.rabbitsSki())
+            if(TrousersLimit.adjoiningThank && !SlimDiscussion.culturedMemorize())
             {
-               NestFix.memorizeSlow();
+               SlimDiscussion.laborerOptimal();
             }
          }
       }
       
-      public static function clubBasket(param1:ProseZonked) : void
+      public static function rabbitsRealize() : int
       {
-         if(!ChopPrivate1.adjoiningThank() || !ChopPrivate1.traceLarge)
-         {
-            return;
-         }
-         ChopPrivate1.agreeBorrow.traitePaquetSortant(param1);
+         return ++ChopPrivate1.wrenPear.idSequence;
       }
    }
 }

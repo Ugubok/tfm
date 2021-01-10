@@ -1,14 +1,14 @@
 package
 {
-   public class GrotesqueAfternoon extends WordCalculator
+   public class GrotesqueAfternoon extends StorePaint
    {
        
       
-      public function GrotesqueAfternoon(param1:String, param2:String)
+      public function GrotesqueAfternoon(param1:int, param2:int)
       {
-         super(GateLetters.jaggedSign(ToothpasteCloistered.roomWise),FranticCrook.coolKotsky);
-         flockDescribe.writeUTF(param1);
-         flockDescribe.writeUTF(param2);
+         super(NervousOnerous.flockDescribe(MarkParty.jaggedSign),PleaseFour.roomWise);
+         coolKotsky.writeByte(param1);
+         coolKotsky.writeInt(param2);
       }
    }
 }

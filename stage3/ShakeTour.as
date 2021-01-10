@@ -2,41 +2,41 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class ShakeTour extends CleverWhip
+   public class ShakeTour extends KotskyCheck
    {
        
       
-      public var vivaciousSystem:Boolean;
+      public var chillyFunny:Boolean;
+      
+      public var inexpensiveZonked:Boolean;
       
       public var berryVague:Boolean;
       
-      public var shelfDescribe:Boolean;
+      public var vivaciousSystem:int;
       
-      public var inexpensiveZonked1:int;
+      public var spoilNeat:Vector.<HydrantIncompetent>;
       
-      public var smartBranch:Vector.<HydrantIncompetent>;
-      
-      public var laborerUndress:String;
+      public var shelfDescribe:String;
       
       public function ShakeTour(param1:ByteArray)
       {
          var _loc2_:HydrantIncompetent = null;
-         this.smartBranch = new Vector.<HydrantIncompetent>();
-         this.laborerUndress = ScaleTemper.noxiousWait;
+         this.spoilNeat = new Vector.<HydrantIncompetent>();
+         this.shelfDescribe = PleaseFour.naiveMilky;
          super(param1);
-         this.vivaciousSystem = param1.readBoolean();
-         if(this.vivaciousSystem)
+         this.chillyFunny = param1.readBoolean();
+         if(this.chillyFunny)
          {
-            this.inexpensiveZonked1 = param1.readInt();
+            this.vivaciousSystem = param1.readInt();
+            this.inexpensiveZonked = param1.readBoolean();
             this.berryVague = param1.readBoolean();
-            this.shelfDescribe = param1.readBoolean();
             while(param1.bytesAvailable)
             {
                _loc2_ = new HydrantIncompetent(param1);
-               this.smartBranch.push(_loc2_);
-               if(_loc2_.naiveMilky == FrightenUnique.chillyFunny)
+               this.spoilNeat.push(_loc2_);
+               if(_loc2_.adviceFree == NervousOnerous.smartBranch(MarkParty.laborerUndress))
                {
-                  this.laborerUndress = _loc2_.adviceFree;
+                  this.shelfDescribe = _loc2_.noxiousWait;
                }
             }
          }

@@ -1,15 +1,15 @@
 package
 {
-   public class SpotPrepare extends WordCalculator
+   public class SpotPrepare extends StorePaint
    {
        
       
-      public function SpotPrepare(param1:String, param2:int, param3:String)
+      public function SpotPrepare(param1:String, param2:String, param3:Boolean)
       {
-         super(GateLetters.metalCraven(ChinSnakes.trailVeil),GateLetters.metalCraven(ExoticMemorize.drownPunch));
-         boundaryDock.writeUTF(param1);
-         boundaryDock.writeByte(param2);
-         boundaryDock.writeUTF(param3);
+         super(NervousOnerous.metalCraven(MarkParty.absurdNoiseless),NervousOnerous.metalCraven(ActionThrill.trailVeil));
+         bagCapricious.writeUTF(param1);
+         bagCapricious.writeUTF(param2);
+         bagCapricious.writeByte(!!param3?int(NervousOnerous.metalCraven(MarkParty.boundaryDock)):int(NervousOnerous.metalCraven(FaithfulBaseball.drownPunch)));
       }
    }
 }

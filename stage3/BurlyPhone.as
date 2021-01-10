@@ -1,12 +1,12 @@
 package
 {
-   public class BurlyPhone extends WordCalculator
+   public class BurlyPhone extends ManyUninterested
    {
        
       
-      public function BurlyPhone()
+      public function BurlyPhone(param1:FemaleComparison)
       {
-         super(GateLetters.franticChicken(ChinSnakes.earIcy),GateLetters.franticChicken(OrangeUnequal.edgeKnot));
+         super(param1);
       }
    }
 }

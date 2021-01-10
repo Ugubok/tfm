@@ -1,13 +1,13 @@
 package
 {
-   public class KnifeStem extends WordCalculator
+   public class KnifeStem extends StorePaint
    {
        
       
       public function KnifeStem(param1:int)
       {
-         super(ScaleTemper.noiselessAnus,ChinSnakes.wateryBleach);
-         chopCan1.writeByte(param1);
+         super(IdeaReal.chopCan1,NervousOnerous.eliteNarrow(JellyCry.noiselessAnus));
+         wateryBleach.writeByte(param1);
       }
    }
 }

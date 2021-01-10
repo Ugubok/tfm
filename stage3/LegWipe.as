@@ -1,13 +1,13 @@
 package
 {
-   public class LegWipe extends WordCalculator
+   public class LegWipe extends StorePaint
    {
        
       
-      public function LegWipe(param1:int)
+      public function LegWipe(param1:Boolean)
       {
-         super(GateLetters.sockMomentous(OrangeUnequal.freeBashful),ScaleTemper.chubbyLearned);
-         quirkyCalculate.writeByte(param1);
+         super(KnotModern.quirkyCalculate,FaithfulVoracious.performZinc);
+         signWindy.writeByte(!!param1?int(MarkParty.chubbyLearned):int(NervousOnerous.freeBashful1(FaithfulBaseball.sockMomentous)));
       }
    }
 }

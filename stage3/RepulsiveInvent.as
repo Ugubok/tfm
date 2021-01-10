@@ -1,14 +1,14 @@
 package
 {
-   public class RepulsiveInvent extends WordCalculator
+   public class RepulsiveInvent extends StorePaint
    {
        
       
-      public function RepulsiveInvent(param1:int, param2:String)
+      public function RepulsiveInvent(param1:int, param2:int)
       {
-         super(GateLetters.batheRequest(ExoticMemorize.flowExpert),GateLetters.batheRequest(KnowledgeLate.sighIdea));
-         successfulInconclusive.writeInt(param1);
-         successfulInconclusive.writeUTF(param2);
+         super(MarkParty.batheRequest,FaithfulVoracious.successfulInconclusive);
+         sighIdea.writeByte(param1);
+         sighIdea.writeByte(param2);
       }
    }
 }

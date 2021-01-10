@@ -4,31 +4,31 @@ package
    {
        
       
-      public var lamentableTasteless:int;
-      
-      public var suzukaAdmire:int;
+      public var warlikeVeil:int;
       
       public var wretchedPicture:int;
       
-      public var warlikeVeil:Boolean = false;
+      public var lamentableTasteless:int;
+      
+      public var fiveSupply:Boolean = false;
+      
+      public var suzukaAdmire:Number;
       
       public var shutPhone:Number;
       
-      public var fiveSupply:Number;
-      
-      public var afternoonShame:Boolean = true;
+      public var threateningSpiky:Boolean = true;
       
       public var rotation:int;
       
-      public var frightenHeat:Boolean = true;
+      public var detailImportant:Boolean = true;
       
       public function SpoonAlluring(param1:int, param2:int, param3:int)
       {
-         this.rotation = ForkBit.threateningSpiky;
+         this.rotation = NervousOnerous.afternoonShame(FaithfulBaseball.frightenHeat);
          super();
-         this.lamentableTasteless = param1;
-         this.suzukaAdmire = param2;
-         this.wretchedPicture = param3;
+         this.warlikeVeil = param1;
+         this.wretchedPicture = param2;
+         this.lamentableTasteless = param3;
       }
    }
 }

@@ -1,13 +1,13 @@
 package
 {
-   public class RayCrash extends WordCalculator
+   public class RayCrash extends StorePaint
    {
        
       
-      public function RayCrash(param1:String)
+      public function RayCrash(param1:int)
       {
-         super(ExoticMemorize.skinHeal,FourYell.cleverPanicky);
-         naiveOpposite.writeUTF(param1);
+         super(SistersRedundant.skinHeal1,ActionThrill.cleverPanicky);
+         naiveOpposite(param1);
       }
    }
 }

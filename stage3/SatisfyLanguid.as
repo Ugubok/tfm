@@ -8,7 +8,7 @@ package
       
       public var idSequence:int;
       
-      public var glamorousAnnoy:OrangeStomach;
+      public var ovenBake:WeightJoyous;
       
       public function SatisfyLanguid(param1:int)
       {
@@ -21,14 +21,14 @@ package
          return this.idSequence;
       }
       
-      public function get ovenBake1() : String
+      public function get stripedThank() : String
       {
-         return GateLetters.healGlamorous(ChinSnakes.afternoonGlamorous);
+         return OrangesQueue.glamorousAnnoy;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.wailColorful;
+         return KotskyRailway.tediousCultured;
       }
       
       public function memorizeGullible() : Boolean
@@ -36,9 +36,9 @@ package
          return false;
       }
       
-      override public function tediousCultured() : int
+      override public function wailColorful() : int
       {
-         return GateLetters.spotlessFour(HarmonyVeil.stripedThank);
+         return NervousOnerous.healGlamorous(SpaceIdea.spotlessFour);
       }
       
       override public function ecriture(param1:ByteArray) : void

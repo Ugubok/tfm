@@ -6,18 +6,18 @@ package
    {
        
       
-      public var beliefThreatening:ZippySisters;
+      public var smoothCapricious:ZippySisters;
       
       public var idSequence:int;
       
-      public var senseDildo:int;
+      public var divisionPear:int;
       
-      public var messyLanguid:CrackerMany;
+      public var beliefThreatening:ColorWing;
       
       public function SnakesDistro(param1:ZippySisters)
       {
          super();
-         this.beliefThreatening = param1;
+         this.smoothCapricious = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get smoothCapricious() : String
+      public function get messyLanguid() : String
       {
-         return GateLetters.sighCareless(ChinSnakes.injureAdvise);
+         return OrangesQueue.tendencyPlan;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.heatLudicrous;
+         return KotskyRailway.senseDildo;
       }
       
       public function detailFaint() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function incompetentChop() : int
+      public function heatLudicrous() : int
       {
-         return MarkEvasive.smoothDock;
+         return NervousOnerous.sighCareless(MarkParty.injureAdvise);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.senseDildo = param1.readByte();
-         var _loc2_:ProseZonked = this.beliefThreatening.recupereSequence(this.idSequence);
+         this.divisionPear = param1.readByte();
+         var _loc2_:ProseZonked = this.smoothCapricious.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is CrackerMany)
+            if(_loc2_ is ColorWing)
             {
-               this.messyLanguid = CrackerMany(_loc2_);
-               this.messyLanguid.toeSystem = this;
+               this.beliefThreatening = ColorWing(_loc2_);
+               this.beliefThreatening.engineApathetic = this;
             }
          }
       }
       
-      public function get engineApathetic() : int
+      public function get smoothDock() : int
       {
-         return GateLetters.tendencyPlan(OrangeUnequal.divisionPear);
+         return NervousOnerous.sighCareless(FaithfulBaseball.incompetentChop);
       }
    }
 }

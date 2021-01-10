@@ -2,16 +2,16 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class WarlikeBleach extends CleverWhip
+   public class WarlikeBleach extends KotskyCheck
    {
        
       
-      public var cureUnequal:int;
+      public var cureUnequal:Boolean;
       
       public function WarlikeBleach(param1:ByteArray)
       {
          super(param1);
-         this.cureUnequal = param1.readInt();
+         this.cureUnequal = param1.readByte() == NervousOnerous.burlyAnus(MarkParty.windScissors);
       }
    }
 }

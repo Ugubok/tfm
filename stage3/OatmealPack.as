@@ -8,28 +8,28 @@ package
       public static var panickyResolute:OatmealPack;
        
       
-      public var stickNarrow:String;
+      public var measureBump:String;
       
-      public var nearSupply:int;
+      public var naughtyFix:int;
       
-      public var largePromise:Boolean = false;
+      public var stickNarrow:Boolean = false;
       
-      public var increaseVague:int;
+      public var largePromise:int;
       
-      public var measureBump:int;
+      public var cakeSystem:int;
       
-      public var naughtyFix:Vector.<KeyHour>;
+      public var nearSupply:Vector.<CribSqueal>;
       
       public function OatmealPack(param1:String, param2:int, param3:int)
       {
-         this.naughtyFix = new Vector.<KeyHour>();
+         this.nearSupply = new Vector.<CribSqueal>();
          super();
-         this.nearSupply = param2;
-         this.stickNarrow = param1;
-         this.increaseVague = param3;
-         if(this.stickNarrow == ClassStormy.stickNarrow)
+         this.naughtyFix = param2;
+         this.measureBump = param1;
+         this.largePromise = param3;
+         if(TrousersLimit.measureBump == this.measureBump)
          {
-            this.largePromise = AmuseFrighten.cakeSystem;
+            this.stickNarrow = NarrowPlants.increaseVague;
             OatmealPack.panickyResolute = this;
          }
       }

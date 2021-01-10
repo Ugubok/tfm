@@ -1,12 +1,12 @@
 package
 {
-   public class BirdsCreator extends WordCalculator
+   public class BirdsCreator extends StorePaint
    {
        
       
       public function BirdsCreator()
       {
-         super(ScaleTemper.usedWasteful,ScaleTemper.usedWasteful);
+         super(NervousOnerous.puzzledBorrow(KnotModern.usedWasteful),SpaceIdea.newTreat);
       }
    }
 }

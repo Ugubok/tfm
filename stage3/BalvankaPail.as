@@ -4,37 +4,37 @@ package
    {
        
       
-      public var obtainableTow:JarTow;
+      public var franticKnot:CulturedAutomatic;
       
-      public var orangeRepeat:JarTow;
+      public var annoyFunny:CulturedAutomatic;
       
-      public var franticKnot:JarTow;
+      public var lettersCreator:CulturedAutomatic;
       
-      public var panoramicDraconian:JarTow;
-      
-      public var reachLimit:Number;
-      
-      public var lettersCreator:Number;
-      
-      public var crookGrotesque:Number;
-      
-      public var troubledRay:Number;
-      
-      public var skinBirds:Number;
+      public var skinBirds:CulturedAutomatic;
       
       public var sonPrecious:Number;
       
-      public var noiselessAdvice:Number;
+      public var panoramicDraconian:Number;
       
       public var balanceWait:Number;
       
+      public var obtainableTow:Number;
+      
+      public var orangeRepeat1:Number;
+      
+      public var troubledRay:Number;
+      
+      public var crookGrotesque:Number;
+      
+      public var reachLimit:Number;
+      
       public function BalvankaPail()
       {
-         this.obtainableTow = new JarTow();
-         this.orangeRepeat = new JarTow();
-         this.franticKnot = new JarTow();
-         this.panoramicDraconian = new JarTow();
-         this.balanceWait = ForkBit.annoyFunny;
+         this.franticKnot = new CulturedAutomatic();
+         this.annoyFunny = new CulturedAutomatic();
+         this.lettersCreator = new CulturedAutomatic();
+         this.skinBirds = new CulturedAutomatic();
+         this.reachLimit = FaithfulBaseball.noiselessAdvice;
          super();
       }
    }

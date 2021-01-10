@@ -1,13 +1,13 @@
 package
 {
-   public class ReachSqueeze extends WordCalculator
+   public class ReachSqueeze extends StorePaint
    {
        
       
       public function ReachSqueeze(param1:int)
       {
-         super(MarkEvasive.stomachList1,AdditionVague.dazzlingVolcano);
-         thoughtlessHarmony.writeInt(param1);
+         super(BalanceSecret.dazzlingVolcano,NervousOnerous.hydrantWail(MarkParty.thoughtlessHarmony));
+         stomachList2.writeInt(param1);
       }
    }
 }

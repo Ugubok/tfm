@@ -6,18 +6,18 @@ package
    {
        
       
-      public var analyzePack:ZippySisters;
+      public var dearThought:ZippySisters;
       
       public var idSequence:int;
       
-      public var chubbyCalculator:int;
+      public var transportMove:int;
       
-      public var dearThought:DidacticSprout;
+      public var nationWise:UnequaledStem;
       
       public function SugarSystem(param1:ZippySisters)
       {
          super();
-         this.analyzePack = param1;
+         this.dearThought = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get trembleBurly() : String
+      public function get analyzePack() : String
       {
-         return GateLetters.beginnerManage(ChinSnakes.carefulThird);
+         return OrangesQueue.abjectAdjoining;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.nationWise;
+         return KotskyRailway.powerfulGrin;
       }
       
-      public function attractiveSign() : Boolean
+      public function chubbyCalculator() : Boolean
       {
          return false;
       }
       
-      public function powerfulGrin() : int
+      public function attractiveSign() : int
       {
-         return GateLetters.transportMove(MarkEvasive.crowdedHusky);
+         return NervousOnerous.trembleBurly(MarkParty.crowdedHusky);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.chubbyCalculator = param1.readByte();
-         var _loc2_:ProseZonked = this.analyzePack.recupereSequence(this.idSequence);
+         this.transportMove = param1.readByte();
+         var _loc2_:ProseZonked = this.dearThought.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is DidacticSprout)
+            if(_loc2_ is UnequaledStem)
             {
-               this.dearThought = DidacticSprout(_loc2_);
-               this.dearThought.systemColor = this;
+               this.nationWise = UnequaledStem(_loc2_);
+               this.nationWise.trailSuper = this;
             }
          }
       }
       
-      public function get abjectAdjoining() : int
+      public function get systemColor() : int
       {
-         return GateLetters.transportMove(ExpansionTour.trailSuper);
+         return NervousOnerous.trembleBurly(FaithfulVoracious.beginnerManage);
       }
    }
 }

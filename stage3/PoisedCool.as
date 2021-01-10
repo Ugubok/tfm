@@ -6,24 +6,24 @@ package
    {
        
       
-      public var behaviorStore:ZippySisters;
+      public var armyUnarmed:ZippySisters;
       
-      public var quackBurly:String;
+      public var behaviorStore:String;
       
       public function PoisedCool(param1:ZippySisters)
       {
          super();
-         this.behaviorStore = param1;
+         this.armyUnarmed = param1;
       }
       
-      public function get narrowNear() : String
+      public function get wretchedBlot() : String
       {
-         return GateLetters.smartToy(ChinSnakes.pricklyAunt);
+         return OrangesQueue.narrowNear;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.recordGamy1;
+         return KotskyRailway.lightSpiffy;
       }
       
       public function adaptableDaily() : Boolean
@@ -31,20 +31,20 @@ package
          return false;
       }
       
-      public function lightSpiffy() : int
+      public function recordGamy() : int
       {
-         return ToothpasteCloistered.heartbreakingMend + this.quackBurly.length;
+         return NervousOnerous.smartToy(SupplyMountain.heartbreakingMend) + this.behaviorStore.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.quackBurly = param1.readUTFBytes(_loc2_);
+         this.behaviorStore = param1.readUTFBytes(_loc2_);
       }
       
       public function get scrawnyCart() : int
       {
-         return GateLetters.wretchedBlot(FrightenUnique.armyUnarmed);
+         return NervousOnerous.smartToy(RoomAddition.quackBurly);
       }
    }
 }

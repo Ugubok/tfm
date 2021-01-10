@@ -9,202 +9,189 @@ package
    public class FragileStore extends Sprite
    {
       
-      public static var mightyWord:Class;
+      public static var cycleCrooked:Class;
        
       
-      public var moveSea:Function;
+      public var funnySlim:Function;
       
-      public var uncleInjure;
+      public var grinMouse;
       
-      public var evasiveLearned:Boolean = false;
+      public var wanderBelief:Boolean = false;
       
-      public var wisePeck:Boolean = false;
+      public var satisfyAdventurous:Boolean = false;
       
-      public var wingStick:int;
+      public var smartWhite:int;
       
       public var Active:Boolean = true;
       
-      public var crookedSign:uint = 12763866;
+      public var unitSpy:uint = 12763866;
       
-      public var cureCelery:uint = 8772;
+      public var crookedSign:uint = 8772;
       
-      public var grinMouse:uint;
+      public var legsWandering:uint;
       
-      public var companyTremble:Boolean;
+      public var beautifulPlease:Boolean;
       
-      public var wickedZip:MovieClip;
+      public var penitentBoundary:MovieClip;
       
-      public var teenyRight:MovieClip;
+      public var entertainingMetal:MovieClip;
       
       public var Texte:TextField;
       
-      public var drownNoiseless:String;
+      public var wisePeck:String;
       
-      public var beautifulPlease:int;
+      public var butterBag:int;
+      
+      public var faintTangy:int;
       
       public var trailRepulsive:int;
       
-      public var rayNation:int;
-      
-      public var stupidDrown:int;
+      public var programStay:int;
       
       public function FragileStore(param1:int, param2:int, param3:String, param4:Function, param5:* = null, param6:int = 0, param7:Boolean = true)
       {
          var _loc9_:int = 0;
-         this.wingStick = GateLetters.mendHydrant(RequestCactus.penitentBoundary);
-         this.grinMouse = this.crookedSign;
+         this.smartWhite = NervousOnerous.instinctiveIncrease(NervousPromise.evasiveLearned);
+         this.legsWandering = this.unitSpy;
          super();
-         mouseChildren = AmuseFrighten.faintTangy;
-         this.companyTremble = param7;
-         this.moveSea = param4;
+         mouseChildren = NarrowPlants.wickedZip;
+         this.beautifulPlease = param7;
+         this.funnySlim = param4;
          if(param5 != null)
          {
-            this.evasiveLearned = AmuseFrighten.wastefulRambunctious;
-            this.uncleInjure = param5;
+            this.wanderBelief = NarrowPlants.spaceOpposite;
+            this.grinMouse = param5;
          }
-         var _loc8_:MovieClip = new FragileStore.mightyWord();
+         var _loc8_:MovieClip = new FragileStore.cycleCrooked();
          this.Texte = _loc8_.T;
          this.Texte.text = param3;
-         this.wickedZip = _loc8_.getChildByName(GateLetters.legsWandering(BashfulUnwritten.competitionSnotty)) as MovieClip;
-         this.teenyRight = _loc8_.getChildByName(GateLetters.legsWandering(BashfulUnwritten.beliefRare)) as MovieClip;
-         if(param6 == ForkBit.cycleCrooked)
+         this.penitentBoundary = _loc8_.getChildByName(OrangesQueue.uncleInjure) as MovieClip;
+         this.entertainingMetal = _loc8_.getChildByName(KneelDaily.moveSea) as MovieClip;
+         if(param6 == NervousOnerous.instinctiveIncrease(FaithfulBaseball.halfCommon))
          {
-            param6 = MarkEvasive.fourUnit + this.Texte.textWidth;
+            param6 = MarkParty.mendHydrant + this.Texte.textWidth;
          }
-         this.wingStick = (param6 + GateLetters.mendHydrant(AttractiveSugar.unitSpy)) / GateLetters.mendHydrant(ToothpasteCloistered.programStay);
+         this.smartWhite = (NervousOnerous.instinctiveIncrease(MarkParty.mightyWord) + param6) / SupplyMountain.wingStick;
          _loc9_ = param6;
-         this.Texte.width = _loc9_ + GateLetters.mendHydrant(AttractiveSugar.unitSpy);
-         this.wickedZip.M.width = _loc9_;
-         this.wickedZip.D.x = RequestCactus.penitentBoundary + _loc9_;
-         this.teenyRight.M.width = _loc9_;
-         this.teenyRight.D.x = _loc9_ + GateLetters.mendHydrant(RequestCactus.penitentBoundary);
-         if(GateLetters.mendHydrant(ToothpasteCloistered.wanderBelief) < param1)
+         this.Texte.width = NervousOnerous.instinctiveIncrease(MarkParty.mightyWord) + _loc9_;
+         this.penitentBoundary.M.width = _loc9_;
+         this.penitentBoundary.D.x = NervousPromise.evasiveLearned + _loc9_;
+         this.entertainingMetal.M.width = _loc9_;
+         this.entertainingMetal.D.x = NervousOnerous.instinctiveIncrease(NervousPromise.evasiveLearned) + _loc9_;
+         if(IdeaReal.hugePinus < param1)
          {
-            x = int((-GateLetters.mendHydrant(ToothpasteCloistered.wanderBelief) + param1 - (AttractiveSugar.unitSpy + _loc9_)) / ToothpasteCloistered.programStay);
+            x = int((-IdeaReal.hugePinus + param1 - (NervousOnerous.instinctiveIncrease(MarkParty.mightyWord) + _loc9_)) / NervousOnerous.instinctiveIncrease(SupplyMountain.wingStick));
          }
          else
          {
             x = param1;
          }
          y = param2;
-         addChild(this.wickedZip);
+         addChild(this.penitentBoundary);
          addChild(this.Texte);
-         if(!this.companyTremble)
+         if(!this.beautifulPlease)
          {
-            this.Texte.embedFonts = AmuseFrighten.faintTangy;
+            this.Texte.embedFonts = NarrowPlants.wickedZip;
          }
-         addEventListener(MouseEvent.MOUSE_OVER,this.hugePinus);
-         addEventListener(MouseEvent.MOUSE_OUT,this.thirdYummy);
-         addEventListener(MouseEvent.MOUSE_DOWN,this.spookyFemale);
-         useHandCursor = AmuseFrighten.wastefulRambunctious;
-         buttonMode = AmuseFrighten.wastefulRambunctious;
+         addEventListener(MouseEvent.MOUSE_OVER,this.cureCelery);
+         addEventListener(MouseEvent.MOUSE_OUT,this.stupidDrown);
+         addEventListener(MouseEvent.MOUSE_DOWN,this.drownNoiseless);
+         useHandCursor = NarrowPlants.spaceOpposite;
+         buttonMode = NarrowPlants.spaceOpposite;
       }
       
-      public function halfCommon() : Object
+      public function rayNation(param1:uint) : void
       {
-         return this.uncleInjure || null;
-      }
-      
-      public function funnySlim(param1:uint) : void
-      {
-         this.crookedSign = param1;
-         this.grinMouse = param1;
+         this.unitSpy = param1;
+         this.legsWandering = param1;
          this.Texte.textColor = param1;
       }
       
-      public function hugePinus(param1:Event) : void
-      {
-         this.wisePeck = AmuseFrighten.wastefulRambunctious;
-         if(this.Active)
-         {
-            this.Texte.textColor = this.cureCelery;
-         }
-      }
-      
-      public function satisfyAdventurous(param1:Boolean) : void
+      public function fourUnit(param1:Boolean) : void
       {
          if(param1 && !this.Active || this.Active && !param1)
          {
             this.Active = param1;
             if(this.Active)
             {
-               mouseEnabled = AmuseFrighten.wastefulRambunctious;
-               if(this.wisePeck)
+               mouseEnabled = NarrowPlants.spaceOpposite;
+               if(this.satisfyAdventurous)
                {
-                  this.Texte.textColor = this.cureCelery;
+                  this.Texte.textColor = this.crookedSign;
                }
                else
                {
-                  this.Texte.textColor = this.crookedSign;
+                  this.Texte.textColor = this.unitSpy;
                }
             }
             else
             {
-               mouseEnabled = AmuseFrighten.faintTangy;
+               mouseEnabled = NarrowPlants.wickedZip;
                this.Texte.textColor = 8948906;
             }
          }
       }
       
-      public function spookyFemale(param1:Event) : void
+      public function cureCelery(param1:Event) : void
       {
+         this.satisfyAdventurous = NarrowPlants.spaceOpposite;
          if(this.Active)
          {
-            this.instinctiveIncrease();
+            this.Texte.textColor = this.crookedSign;
          }
       }
       
-      public function butterBag(param1:*) : void
+      public function cheatZoo() : Object
+      {
+         return this.grinMouse || null;
+      }
+      
+      public function thirdYummy(param1:*) : void
       {
          if(param1 != null)
          {
-            this.evasiveLearned = AmuseFrighten.wastefulRambunctious;
-            this.uncleInjure = param1;
+            this.wanderBelief = NarrowPlants.spaceOpposite;
+            this.grinMouse = param1;
          }
          else
          {
-            this.evasiveLearned = AmuseFrighten.faintTangy;
+            this.wanderBelief = NarrowPlants.wickedZip;
          }
       }
       
-      public function spaceOpposite() : void
+      public function spookyFemale() : void
       {
-         stage.removeEventListener(MouseEvent.MOUSE_UP,this.cheatZoo);
-         this.Texte.y = GateLetters.mendHydrant(ToothpasteCloistered.programStay);
-         removeChild(this.teenyRight);
-         addChildAt(this.wickedZip,ForkBit.cycleCrooked);
-         if(this.wisePeck)
+         stage.removeEventListener(MouseEvent.MOUSE_UP,this.companyTremble);
+         this.Texte.y = NervousOnerous.instinctiveIncrease(SupplyMountain.wingStick);
+         removeChild(this.entertainingMetal);
+         addChildAt(this.penitentBoundary,NervousOnerous.instinctiveIncrease(FaithfulBaseball.halfCommon));
+         if(this.satisfyAdventurous)
          {
-            if(this.evasiveLearned)
+            if(this.wanderBelief)
             {
-               this.moveSea(this.uncleInjure);
+               this.funnySlim(this.grinMouse);
             }
             else
             {
-               this.moveSea();
+               this.funnySlim();
             }
          }
       }
       
-      public function instinctiveIncrease() : void
+      public function companyTremble(param1:Event) : void
       {
-         this.Texte.y = BalanceLoaf.smartWhite;
-         removeChild(this.wickedZip);
-         addChildAt(this.teenyRight,ForkBit.cycleCrooked);
-         stage.addEventListener(MouseEvent.MOUSE_UP,this.cheatZoo);
-      }
-      
-      public function entertainingMetal(param1:String) : void
-      {
-         this.Texte.text = param1;
-      }
-      
-      public function thirdYummy(param1:Event) : void
-      {
-         this.wisePeck = AmuseFrighten.faintTangy;
          if(this.Active)
          {
-            this.Texte.textColor = this.grinMouse;
+            this.spookyFemale();
+         }
+      }
+      
+      public function stupidDrown(param1:Event) : void
+      {
+         this.satisfyAdventurous = NarrowPlants.wickedZip;
+         if(this.Active)
+         {
+            this.Texte.textColor = this.legsWandering;
          }
       }
       
@@ -212,21 +199,21 @@ package
       {
          if(param1)
          {
-            this.grinMouse = this.cureCelery;
-            this.Texte.textColor = this.cureCelery;
+            this.legsWandering = this.crookedSign;
+            this.Texte.textColor = this.crookedSign;
          }
          else
          {
-            this.grinMouse = this.crookedSign;
+            this.legsWandering = this.unitSpy;
             if(this.Active)
             {
-               if(this.wisePeck)
+               if(this.satisfyAdventurous)
                {
-                  this.Texte.textColor = this.cureCelery;
+                  this.Texte.textColor = this.crookedSign;
                }
                else
                {
-                  this.Texte.textColor = this.crookedSign;
+                  this.Texte.textColor = this.unitSpy;
                }
             }
             else
@@ -236,12 +223,25 @@ package
          }
       }
       
-      public function cheatZoo(param1:Event) : void
+      public function competitionSnotty() : void
+      {
+         this.Texte.y = NervousOnerous.instinctiveIncrease(MarkParty.beliefRare);
+         removeChild(this.penitentBoundary);
+         addChildAt(this.entertainingMetal,FaithfulBaseball.halfCommon);
+         stage.addEventListener(MouseEvent.MOUSE_UP,this.companyTremble);
+      }
+      
+      public function drownNoiseless(param1:Event) : void
       {
          if(this.Active)
          {
-            this.spaceOpposite();
+            this.competitionSnotty();
          }
+      }
+      
+      public function wastefulRambunctious(param1:String) : void
+      {
+         this.Texte.text = param1;
       }
    }
 }

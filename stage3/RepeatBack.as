@@ -6,18 +6,18 @@ package
    {
        
       
-      public var messySpoil:ZippySisters;
+      public var wallPat:ZippySisters;
       
       public var idSequence:int;
       
-      public var behaviorBasket:int;
+      public var scrawnyPuncture1:int;
       
-      public var inexpensiveCrime:ScrawnyNation;
+      public var learnedBike1:TreatBalance;
       
       public function RepeatBack(param1:ZippySisters)
       {
          super();
-         this.messySpoil = param1;
+         this.wallPat = param1;
       }
       
       public function getIdSequence() : int
@@ -27,12 +27,12 @@ package
       
       public function get senseFaithful() : String
       {
-         return ChinSnakes.learnedBike;
+         return NervousOnerous.wipeGlow(OrangesQueue.cryFragile);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.buryPlease;
+         return KotskyRailway.behaviorBasket;
       }
       
       public function harborAdvertisement() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function scrawnyPuncture() : int
+      public function buryPlease() : int
       {
-         return MarkEvasive.cryFragile;
+         return MarkParty.religionFantastic;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.behaviorBasket = param1.readByte();
-         var _loc2_:ProseZonked = this.messySpoil.recupereSequence(this.idSequence);
+         this.scrawnyPuncture1 = param1.readByte();
+         var _loc2_:ProseZonked = this.wallPat.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is ScrawnyNation)
+            if(_loc2_ is TreatBalance)
             {
-               this.inexpensiveCrime = ScrawnyNation(_loc2_);
-               this.inexpensiveCrime.wallPat = this;
+               this.learnedBike1 = TreatBalance(_loc2_);
+               this.learnedBike1.messySpoil = this;
             }
          }
       }
       
-      public function get wipeGlow() : int
+      public function get inexpensiveCrime() : int
       {
-         return GateLetters.storeSpace(AttractiveSugar.religionFantastic);
+         return SpaceIdea.storeSpace;
       }
    }
 }

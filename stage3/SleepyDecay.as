@@ -1,13 +1,13 @@
 package
 {
-   public class SleepyDecay extends WordCalculator
+   public class SleepyDecay extends StorePaint
    {
        
       
-      public function SleepyDecay(param1:int)
+      public function SleepyDecay(param1:String)
       {
-         super(ForkBit.abjectBasin,RequestCactus.patFade);
-         orangesWhite.writeByte(param1);
+         super(IdeaReal.orangesWhite,NervousOnerous.patFade(DearTemper.abjectBasin));
+         shoeMessy.writeUTF(param1);
       }
    }
 }

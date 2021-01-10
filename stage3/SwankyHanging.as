@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var windyGeneral1:String;
+      public var delightfulNew:String;
       
-      public var probableWren:OrangeCapricious;
+      public var orangesOrdinary:BombDoor;
       
       public function SwankyHanging(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.windyGeneral1 = param2;
+         this.delightfulNew = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get divergentAgreeable() : String
+      public function get legsWall() : String
       {
-         return ChinSnakes.legsWall;
+         return OrangesQueue.divergentAgreeable;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.delightfulNew;
+         return KotskyRailway.windyGeneral;
       }
       
-      public function cryAnus() : Boolean
+      public function chivalrousEar() : Boolean
       {
          return false;
       }
       
-      override public function chivalrousEar() : int
+      override public function cryAnus() : int
       {
-         return ScaleTemper.orangesOrdinary + this.windyGeneral1.length;
+         return NervousOnerous.probableWren(SupplyMountain.proudHistory) + this.delightfulNew.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.windyGeneral1);
+         param1.writeUTF(this.delightfulNew);
       }
    }
 }

@@ -6,17 +6,17 @@ package
    {
        
       
-      public var penitentAlive1:GrateHydrant;
+      public var rubGlamorous:LimitRare;
       
-      public var signUncle:int;
+      public var penitentAlive:int;
       
-      public var rubGlamorous:Boolean = false;
+      public var spySerious:Boolean = false;
       
-      public function CloverSquare(param1:GrateHydrant)
+      public function CloverSquare(param1:LimitRare)
       {
          super();
-         this.penitentAlive1 = param1;
-         this.signUncle = getTimer() + KnowledgeLate.spySerious;
+         this.rubGlamorous = param1;
+         this.penitentAlive = getTimer() + PleaseFour.signUncle;
       }
    }
 }

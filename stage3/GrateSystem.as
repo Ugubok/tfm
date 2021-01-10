@@ -2,19 +2,19 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class GrateSystem extends CleverWhip
+   public class GrateSystem extends KotskyCheck
    {
        
       
-      public var x:int;
+      public var tastyOnerous:int;
       
-      public var y:int;
+      public var oatmealFlower:int;
       
       public function GrateSystem(param1:ByteArray)
       {
          super(param1);
-         this.x = param1.readShort();
-         this.y = param1.readShort();
+         this.tastyOnerous = param1.readInt();
+         this.oatmealFlower = param1.readInt();
       }
    }
 }

@@ -1,13 +1,13 @@
 package
 {
-   public class PrepareKey extends WordCalculator
+   public class PrepareKey extends StorePaint
    {
        
       
       public function PrepareKey(param1:int)
       {
-         super(GateLetters.coalIdea(AttractiveSugar.hobbiesInstruct),ScaleTemper.borrowEar);
-         branchParty.writeByte(param1);
+         super(NervousOnerous.branchParty(SistersRedundant.hobbiesInstruct),NervousOnerous.branchParty(MarkParty.borrowEar));
+         coalIdea.writeByte(param1);
       }
    }
 }

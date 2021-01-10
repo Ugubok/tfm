@@ -1,17 +1,17 @@
 package
 {
-   public class ChinPlants extends WordCalculator
+   public class ChinPlants extends StorePaint
    {
        
       
-      public function ChinPlants(param1:int, param2:int, param3:int, param4:int, param5:int)
+      public function ChinPlants(param1:int)
       {
-         super(KnowledgeLate.fascinatedNoiseless,GateLetters.steerManage(HarmonyVeil.instructShake));
-         beautifulChop.writeByte(param1);
-         beautifulChop.writeByte(param2);
-         beautifulChop.writeByte(param3);
-         beautifulChop.writeByte(param4);
-         beautifulChop.writeByte(param5);
+         super(NervousOnerous.instructShake(IdeaReal.fascinatedNoiseless),NervousOnerous.instructShake(MarkParty.beautifulChop));
+         if(param1 < NervousOnerous.instructShake(FaithfulBaseball.steerManage))
+         {
+            param1 = NervousOnerous.instructShake(FaithfulBaseball.steerManage);
+         }
+         lunasoleThreatening.writeInt(param1);
       }
    }
 }

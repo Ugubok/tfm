@@ -2,76 +2,76 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class HeartbreakingSpiky extends CleverWhip
+   public class HeartbreakingSpiky extends KotskyCheck
    {
        
       
-      public var whisperMatch1:int;
+      public var birdEdge:int;
       
-      public var birdEdge:Boolean;
+      public var coolPail:Boolean;
       
-      public var chinClover:int;
-      
-      public var waitingIllustrious:int;
-      
-      public var measureEasy:int;
-      
-      public var huskyJuice:int;
+      public var disappearIncompetent:int;
       
       public var staleMany:int;
       
-      public var spotBalvanka:Boolean;
+      public var dearChubby:int;
       
-      public var learnedBurly:Number;
+      public var spotBalvanka:int;
       
-      public var harmonyDivision:Number;
+      public var huskyJuice:int;
+      
+      public var doctorVivacious:Boolean;
+      
+      public var bleachTrousers:Number;
+      
+      public var patheticTasteless:Number;
       
       public var rotation:int;
       
       public var couleur:Boolean;
       
-      public var patheticTasteless:int;
+      public var waitingIllustrious:int;
       
-      public var evasiveRabbits1:Boolean;
+      public var harmonyDivision:Boolean;
       
-      public var stripedBear:Boolean;
+      public var whipStormy:Boolean;
       
-      public var disappearIncompetent:Boolean;
+      public var whisperMatch:Boolean;
       
-      public var whipStormy:int;
+      public var staleLip:int;
       
-      public var staleLip:Number;
+      public var learnedBurly:Number;
       
-      public var cloverWail:Number;
+      public var stripedBear:Number;
       
-      public var coolPail:Boolean;
+      public var measureEasy1:Boolean;
       
-      public var doctorVivacious:String;
+      public var chinClover:String;
       
       public function HeartbreakingSpiky(param1:ByteArray)
       {
          super(param1);
-         this.whisperMatch1 = param1.readShort();
-         this.birdEdge = param1.readBoolean();
-         this.chinClover = param1.readByte();
-         this.waitingIllustrious = param1.readShort();
-         this.measureEasy = param1.readShort();
-         this.huskyJuice = param1.readShort();
+         this.birdEdge = param1.readShort();
+         this.coolPail = param1.readBoolean();
+         this.disappearIncompetent = param1.readByte();
          this.staleMany = param1.readShort();
-         this.spotBalvanka = param1.readBoolean();
-         this.learnedBurly = param1.readShort() / BashfulUnwritten.bleachTrousers;
-         this.harmonyDivision = param1.readShort() / GateLetters.dearChubby(BashfulUnwritten.bleachTrousers);
+         this.dearChubby = param1.readShort();
+         this.spotBalvanka = param1.readShort();
+         this.huskyJuice = param1.readShort();
+         this.doctorVivacious = param1.readBoolean();
+         this.bleachTrousers = param1.readShort() / KneelDaily.evasiveRabbits1;
+         this.patheticTasteless = param1.readShort() / NervousOnerous.cloverWail(KneelDaily.evasiveRabbits1);
          this.rotation = param1.readShort();
          this.couleur = param1.readBoolean();
-         this.patheticTasteless = param1.readInt();
-         this.evasiveRabbits1 = param1.readBoolean();
-         this.stripedBear = param1.readBoolean();
-         this.disappearIncompetent = param1.readBoolean();
-         this.whipStormy = param1.readShort();
-         this.staleLip = param1.readShort() / GateLetters.dearChubby(BashfulUnwritten.bleachTrousers);
-         this.cloverWail = param1.readShort() / GateLetters.dearChubby(BashfulUnwritten.bleachTrousers);
-         this.coolPail = param1.readBoolean();
-         this.doctorVivacious = param1.readUTF();
+         this.waitingIllustrious = param1.readInt();
+         this.harmonyDivision = param1.readBoolean();
+         this.whipStormy = param1.readBoolean();
+         this.whisperMatch = param1.readBoolean();
+         this.staleLip = param1.readShort();
+         this.learnedBurly = param1.readShort() / NervousOnerous.cloverWail(KneelDaily.evasiveRabbits1);
+         this.stripedBear = param1.readShort() / KneelDaily.evasiveRabbits1;
+         this.measureEasy1 = param1.readBoolean();
+         this.chinClover = param1.readUTF();
       }
    }
 }

@@ -1,14 +1,14 @@
 package
 {
-   public class BakePlants extends WordCalculator
+   public class BakePlants extends StorePaint
    {
        
       
-      public function BakePlants(param1:int, param2:int)
+      public function BakePlants(param1:int, param2:String)
       {
-         super(ForkBit.disgustingMessy,AttractiveSugar.historicalGaping);
-         seaDisturbed.writeByte(param1);
-         seaDisturbed.writeByte(param2);
+         super(KnotModern.seaDisturbed,JellyCry.disgustingMessy);
+         historicalGaping.writeInt(param1);
+         historicalGaping.writeUTF(param2);
       }
    }
 }

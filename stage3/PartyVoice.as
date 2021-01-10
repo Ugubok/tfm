@@ -1,13 +1,13 @@
 package
 {
-   public class PartyVoice extends WordCalculator
+   public class PartyVoice extends StorePaint
    {
        
       
       public function PartyVoice(param1:int)
       {
-         super(ChinSnakes.doubleInstruct,MarkEvasive.soupStriped);
-         learnedCrook.writeByte(param1);
+         super(NervousOnerous.soupStriped(MarkParty.learnedCrook),NervousOnerous.soupStriped(DearTemper.doubleInstruct));
+         zonkedStay.writeShort(param1);
       }
    }
 }

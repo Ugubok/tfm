@@ -1,12 +1,12 @@
 package
 {
-   public class PaymentRoom extends WordCalculator
+   public class PaymentRoom extends StorePaint
    {
        
       
       public function PaymentRoom(param1:String)
       {
-         super(OrangeUnequal.chickensDiscussion1,GateLetters.recogniseReaction(AttractiveSugar.machineSpoil));
+         super(MarkParty.recogniseReaction,SpaceIdea.chickensDiscussion);
          dinnerFlower.writeUTF(param1);
       }
    }

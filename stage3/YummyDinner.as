@@ -4,57 +4,57 @@ package
    {
        
       
+      public var ownSplendid:Number;
+      
+      public var flowerNoxious:Number;
+      
+      public var position:CulturedAutomatic;
+      
       public var milkyUnique:Number;
-      
-      public var flowerNoxious:Boolean;
-      
-      public var possessKnowledge:RayNaive;
-      
-      public var brightRailway:Boolean;
-      
-      public var performScared:Number;
-      
-      public var fiercePenitent:Number;
-      
-      public var bagSuzuka:Boolean;
-      
-      public var thankAdhesive:Boolean;
-      
-      public var position:JarTow;
-      
-      public var vagabondTasteless:Boolean;
       
       public var userData;
       
+      public var soupQuack:Boolean;
+      
+      public var vagabondTasteless:Boolean;
+      
+      public var riverKotsky:Boolean;
+      
+      public var performScared:RayNaive;
+      
+      public var possessKnowledge:Boolean;
+      
+      public var thankAdhesive:Boolean;
+      
       public function YummyDinner(param1:Boolean)
       {
-         this.possessKnowledge = new RayNaive();
-         this.position = new JarTow();
+         this.position = new CulturedAutomatic();
+         this.performScared = new RayNaive();
          super();
-         this.thankAdhesive;
-         this.possessKnowledge;
-         this.bagSuzuka;
-         this.userData;
+         this.riverKotsky;
+         this.position;
          this.milkyUnique;
          this.flowerNoxious;
-         this.performScared;
-         this.fiercePenitent;
-         this.position;
-         this.brightRailway;
          this.vagabondTasteless;
-         this.possessKnowledge.unarmedBasin.saveShut();
-         this.possessKnowledge.requestSparkle = GateLetters.suzukaWandering1(HarmonyVeil.joyousFirst);
-         this.possessKnowledge.gloriousGreedy = HarmonyVeil.joyousFirst;
+         this.thankAdhesive;
+         this.performScared;
+         this.possessKnowledge;
+         this.userData;
+         this.ownSplendid;
+         this.soupQuack;
+         this.performScared.brightRailway.gloriousGreedy();
+         this.performScared.requestSparkle = NervousOnerous.saveShut(RepulsiveDear.bagSuzuka);
+         this.performScared.joyousFirst = RepulsiveDear.bagSuzuka;
          this.userData = null;
-         this.position.ownSplendid(HarmonyVeil.joyousFirst,HarmonyVeil.joyousFirst);
-         this.performScared = GateLetters.suzukaWandering1(HarmonyVeil.joyousFirst);
-         this.milkyUnique = HarmonyVeil.joyousFirst;
-         this.fiercePenitent = GateLetters.suzukaWandering1(HarmonyVeil.joyousFirst);
-         this.thankAdhesive = AmuseFrighten.soupQuack;
-         this.flowerNoxious = AmuseFrighten.riverKotsky;
-         this.vagabondTasteless = AmuseFrighten.riverKotsky;
-         this.bagSuzuka = AmuseFrighten.riverKotsky;
-         this.brightRailway = param1;
+         this.position.fiercePenitent(NervousOnerous.saveShut(RepulsiveDear.bagSuzuka),NervousOnerous.saveShut(RepulsiveDear.bagSuzuka));
+         this.flowerNoxious = RepulsiveDear.bagSuzuka;
+         this.milkyUnique = NervousOnerous.saveShut(RepulsiveDear.bagSuzuka);
+         this.ownSplendid = RepulsiveDear.bagSuzuka;
+         this.vagabondTasteless = NarrowPlants.unarmedBasin;
+         this.riverKotsky = NarrowPlants.suzukaWandering;
+         this.soupQuack = NarrowPlants.suzukaWandering;
+         this.thankAdhesive = NarrowPlants.suzukaWandering;
+         this.possessKnowledge = param1;
       }
    }
 }

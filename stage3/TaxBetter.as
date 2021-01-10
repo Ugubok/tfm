@@ -1,13 +1,13 @@
 package
 {
-   public class TaxBetter extends WordCalculator
+   public class TaxBetter extends StorePaint
    {
        
       
       public function TaxBetter(param1:int)
       {
-         super(AttractiveSugar.automaticYummy,RequestCactus.seedCultured);
-         colossalContain.writeInt(param1);
+         super(KneelDaily.automaticYummy,OrangesQueue.seedCultured);
+         colossalContain(param1);
       }
    }
 }

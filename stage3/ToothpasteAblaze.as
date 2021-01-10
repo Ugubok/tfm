@@ -10,16 +10,16 @@ package
       
       public var buryWander:int;
       
-      public var orangePlease:int;
+      public var listChivalrous:int;
       
-      public var passGrin:HesitantHoc;
+      public var orangePlease:SproutProbable;
       
       public function ToothpasteAblaze(param1:int, param2:int, param3:int)
       {
          super();
          this.idSequence = param1;
          this.buryWander = param2;
-         this.orangePlease = param3;
+         this.listChivalrous = param3;
       }
       
       public function getIdSequence() : int
@@ -27,14 +27,14 @@ package
          return this.idSequence;
       }
       
-      public function get saltUnequaled() : String
+      public function get airOnerous() : String
       {
-         return ChinSnakes.airOnerous;
+         return OrangesQueue.thunderGamy;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.basinCard;
+         return KotskyRailway.passGrin;
       }
       
       public function apatheticImportant() : Boolean
@@ -42,16 +42,16 @@ package
          return false;
       }
       
-      override public function listChivalrous() : int
+      override public function basinCard() : int
       {
-         return ForkBit.thunderGamy;
+         return NervousOnerous.saltUnequaled(BalanceSecret.symptomaticDislike);
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
          param1.writeInt(this.buryWander);
-         param1.writeInt(this.orangePlease);
+         param1.writeInt(this.listChivalrous);
       }
    }
 }

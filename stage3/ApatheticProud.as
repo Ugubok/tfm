@@ -7,11 +7,11 @@ package
       public function ApatheticProud()
       {
          super();
-         sootheLate = new HilariousFix();
-         pailPrecious = new PigUtopian();
-         pictureWipe = new YellSweater();
-         grainContain = new ZipWicked();
-         sugarFit = new AcousticQueue();
+         pictureWipe = new HilariousFix();
+         grainContain = new PigUtopian();
+         sootheLate = new YellSweater();
+         sugarFit = new ZipWicked();
+         pailPrecious = new AcousticQueue();
       }
    }
 }

@@ -1,12 +1,12 @@
 package
 {
-   public class CapriciousSmile extends WordCalculator
+   public class CapriciousSmile extends StorePaint
    {
        
       
       public function CapriciousSmile(param1:int)
       {
-         super(ForkBit.lunasoleRepulsive,ForkBit.lunasoleRepulsive);
+         super(NervousOnerous.ploughWhite(IdeaReal.recordRightful),NervousOnerous.ploughWhite(SupplyMountain.lunasoleRepulsive));
          manageWait.writeByte(param1);
       }
    }

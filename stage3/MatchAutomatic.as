@@ -1,13 +1,13 @@
 package
 {
-   public class MatchAutomatic extends WordCalculator
+   public class MatchAutomatic extends StorePaint
    {
        
       
       public function MatchAutomatic(param1:int)
       {
-         super(GateLetters.edgeColossal(ScaleTemper.ploughWant),AdditionVague.toysToe);
-         tediousShelf.writeShort(param1);
+         super(BalanceSecret.ploughWant,NervousOnerous.toysToe(NervousPromise.edgeColossal));
+         tediousShelf.writeByte(param1);
       }
    }
 }

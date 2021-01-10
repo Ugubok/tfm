@@ -6,18 +6,18 @@ package
    {
        
       
-      public var utopianExpansion:ZippySisters;
+      public var adviceInstinctive:ZippySisters;
       
       public var idSequence:int;
       
-      public var increaseAttractive:int;
+      public var delicateMessy:int;
       
-      public var pleasantNeat:PhoneCapricious;
+      public var balanceBetter:DidacticSprout;
       
       public function EnergeticPear(param1:ZippySisters)
       {
          super();
-         this.utopianExpansion = param1;
+         this.adviceInstinctive = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get delicateMessy() : String
+      public function get utopianExpansion() : String
       {
-         return ChinSnakes.balanceBetter;
+         return NervousOnerous.pleasantNeat(OrangesQueue.awakeDoor);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.jogEnergetic;
+         return KotskyRailway.lunasolePenitent1;
       }
       
-      public function birdsMomentous() : Boolean
+      public function increaseAttractive() : Boolean
       {
          return false;
       }
       
-      public function onerousYummy() : int
+      public function jogEnergetic1() : int
       {
-         return GateLetters.adviceInstinctive(MarkEvasive.defectiveSlim);
+         return MarkParty.wretchedScared;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.increaseAttractive = param1.readByte();
-         var _loc2_:ProseZonked = this.utopianExpansion.recupereSequence(this.idSequence);
+         this.delicateMessy = param1.readByte();
+         var _loc2_:ProseZonked = this.adviceInstinctive.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is PhoneCapricious)
+            if(_loc2_ is DidacticSprout)
             {
-               this.pleasantNeat = PhoneCapricious(_loc2_);
-               this.pleasantNeat.teenyCount = this;
+               this.balanceBetter = DidacticSprout(_loc2_);
+               this.balanceBetter.birdsMomentous = this;
             }
          }
       }
       
-      public function get awakeDoor() : int
+      public function get defectiveSlim() : int
       {
-         return FranticCrook.lunasolePenitent;
+         return NervousOnerous.teenyCount(ActionThrill.onerousYummy);
       }
    }
 }

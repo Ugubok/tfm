@@ -1,13 +1,13 @@
 package
 {
-   public class CollectMessy extends WordCalculator
+   public class CollectMessy extends StorePaint
    {
        
       
-      public function CollectMessy(param1:int)
+      public function CollectMessy(param1:String)
       {
-         super(GateLetters.probableChicken(ChinSnakes.yummyWarlike),GateLetters.probableChicken(OrangeUnequal.batheGlow));
-         storyAir(param1);
+         super(BalanceSecret.probableChicken,DearTemper.storyAir);
+         yummyWarlike.writeUTF(param1);
       }
    }
 }

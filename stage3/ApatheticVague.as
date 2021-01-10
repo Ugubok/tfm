@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var laughableLetters:String;
+      public var mightyBurn:String;
       
-      public var carelessEasy:Boolean;
+      public var jumbledBasin:Boolean;
       
-      public var expansionIgnorant:WeightJoyous;
+      public var branchPrice:PunctureRailway;
       
       public function ApatheticVague(param1:int, param2:String, param3:Boolean)
       {
          super();
          this.idSequence = param1;
-         this.laughableLetters = param2;
-         this.carelessEasy = param3;
+         this.mightyBurn = param2;
+         this.jumbledBasin = param3;
       }
       
       public function getIdSequence() : int
@@ -27,14 +27,14 @@ package
          return this.idSequence;
       }
       
-      public function get scissorsKnot() : String
+      public function get carelessEasy() : String
       {
-         return GateLetters.bitProgram(ChinSnakes.jumbledBasin);
+         return NervousOnerous.pigChubby(OrangesQueue.expansionIgnorant);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.brightAfterthought;
+         return KotskyRailway.bitProgram;
       }
       
       public function yamBasket() : Boolean
@@ -42,16 +42,16 @@ package
          return false;
       }
       
-      override public function mightyBurn() : int
+      override public function brightAfterthought() : int
       {
-         return GateLetters.evasiveRequest(RequestCactus.jumbledSquare) + this.laughableLetters.length;
+         return NervousOnerous.jumbledSquare(FaithfulVoracious.laughableLetters) + this.mightyBurn.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.laughableLetters);
-         param1.writeByte(!!this.carelessEasy?int(GateLetters.evasiveRequest(FrightenUnique.branchPrice)):int(GateLetters.evasiveRequest(ForkBit.pigChubby)));
+         param1.writeUTF(this.mightyBurn);
+         param1.writeByte(!!this.jumbledBasin?int(MarkParty.evasiveRequest):int(NervousOnerous.jumbledSquare(FaithfulBaseball.scissorsKnot)));
       }
    }
 }

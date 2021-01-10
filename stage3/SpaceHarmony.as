@@ -1,12 +1,12 @@
 package
 {
-   public class SpaceHarmony extends WordCalculator
+   public class SpaceHarmony extends ManyUninterested
    {
        
       
-      public function SpaceHarmony()
+      public function SpaceHarmony(param1:FemaleComparison)
       {
-         super(ToothpasteCloistered.yakRepulsive,AttractiveSugar.satisfyBoast);
+         super(param1);
       }
    }
 }

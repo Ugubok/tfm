@@ -6,18 +6,18 @@ package
    {
        
       
-      public var zincMeasure:ZippySisters;
+      public var obeisantBirds:ZippySisters;
       
       public var idSequence:int;
       
-      public var forkFlock:int;
+      public var calculatorTrace:int;
       
-      public var handMomentous:SwankyHanging;
+      public var weightCelery:ProgramPorter;
       
       public function OrangeCapricious(param1:ZippySisters)
       {
          super();
-         this.zincMeasure = param1;
+         this.obeisantBirds = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get partyOnerous1() : String
+      public function get partyOnerous() : String
       {
-         return ChinSnakes.porterJog;
+         return OrangesQueue.handAwake;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.cuteBrass;
+         return KotskyRailway.forkFlock;
       }
       
       public function wrenTrail1() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function calculatorTrace() : int
+      public function cuteBrass() : int
       {
-         return GateLetters.weightCelery(MarkEvasive.unknownVoracious);
+         return MarkParty.zincMeasure1;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.forkFlock = param1.readByte();
-         var _loc2_:ProseZonked = this.zincMeasure.recupereSequence(this.idSequence);
+         this.calculatorTrace = param1.readByte();
+         var _loc2_:ProseZonked = this.obeisantBirds.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is SwankyHanging)
+            if(_loc2_ is ProgramPorter)
             {
-               this.handMomentous = SwankyHanging(_loc2_);
-               this.handMomentous.handAwake = this;
+               this.weightCelery = ProgramPorter(_loc2_);
+               this.weightCelery.unknownVoracious = this;
             }
          }
       }
       
-      public function get hateCondition() : int
+      public function get handMomentous() : int
       {
-         return GateLetters.weightCelery(FillLegs.obeisantBirds);
+         return KneelDaily.hateCondition;
       }
    }
 }

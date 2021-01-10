@@ -1,12 +1,12 @@
 package
 {
-   public class LudicrousSeed extends WordCalculator
+   public class LudicrousSeed extends StorePaint
    {
        
       
       public function LudicrousSeed()
       {
-         super(ScaleTemper.sproutPerson,ExoticMemorize.senseStriped);
+         super(MarkParty.sproutPerson,FaithfulVoracious.senseStriped);
       }
    }
 }

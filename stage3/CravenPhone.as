@@ -1,12 +1,12 @@
 package
 {
-   public class CravenPhone extends WordCalculator
+   public class CravenPhone extends StorePaint
    {
        
       
       public function CravenPhone()
       {
-         super(GateLetters.deliverOven(AttractiveSugar.lockSpoon),ChinSnakes.statementKnot);
+         super(MarkParty.deliverOven,NervousOnerous.statementKnot(KneelDaily.lockSpoon));
       }
    }
 }

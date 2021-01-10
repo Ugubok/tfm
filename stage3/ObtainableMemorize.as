@@ -1,13 +1,13 @@
 package
 {
-   public class ObtainableMemorize extends WordCalculator
+   public class ObtainableMemorize extends StorePaint
    {
        
       
       public function ObtainableMemorize(param1:int)
       {
-         super(GateLetters.sonDisturbed(KnowledgeLate.ownHesitant),GateLetters.sonDisturbed(ScaleTemper.wetHarmony));
-         alansonRight.writeByte(param1);
+         super(NervousOnerous.ownHesitant(BalanceSecret.alansonRight),NervousOnerous.ownHesitant(ActionThrill.sonDisturbed));
+         wetHarmony.writeInt(param1);
       }
    }
 }

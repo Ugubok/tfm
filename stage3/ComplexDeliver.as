@@ -1,12 +1,12 @@
 package
 {
-   public class ComplexDeliver extends WordCalculator
+   public class ComplexDeliver extends StorePaint
    {
        
       
       public function ComplexDeliver()
       {
-         super(OrangeUnequal.thrillGeneral,OrangeUnequal.hocWeight);
+         super(IdeaReal.thrillGeneral,IdeaReal.thrillGeneral);
       }
    }
 }

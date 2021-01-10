@@ -6,18 +6,18 @@ package
    {
        
       
-      public var explodeCrook:ZippySisters;
+      public var staleOpposite:ZippySisters;
       
       public var idSequence:int;
       
-      public var mittenPack:int;
+      public var birdPuncture:int;
       
-      public var staleOpposite:SqueezeInexpensive;
+      public var explodeCrook:ApatheticVague;
       
       public function PunctureRailway(param1:ZippySisters)
       {
          super();
-         this.explodeCrook = param1;
+         this.staleOpposite = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get sofaEyes() : String
+      public function get mountainCount() : String
       {
-         return ChinSnakes.fillPig;
+         return OrangesQueue.sofaEyes;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.sparkleBeautiful;
+         return KotskyRailway.mittenPack;
       }
       
       public function colorChop() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function birdPuncture() : int
+      public function sparkleBeautiful() : int
       {
-         return GateLetters.mountainCount1(MarkEvasive.chickensWhip);
+         return MarkParty.chickensWhip;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.mittenPack = param1.readByte();
-         var _loc2_:ProseZonked = this.explodeCrook.recupereSequence(this.idSequence);
+         this.birdPuncture = param1.readByte();
+         var _loc2_:ProseZonked = this.staleOpposite.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is SqueezeInexpensive)
+            if(_loc2_ is ApatheticVague)
             {
-               this.staleOpposite = SqueezeInexpensive(_loc2_);
-               this.staleOpposite.lyricalBrush = this;
+               this.explodeCrook = ApatheticVague(_loc2_);
+               this.explodeCrook.lyricalBrush = this;
             }
          }
       }
       
       public function get shoeCold() : int
       {
-         return GateLetters.mountainCount1(FranticCrook.planCheat);
+         return KnotModern.planCheat;
       }
    }
 }

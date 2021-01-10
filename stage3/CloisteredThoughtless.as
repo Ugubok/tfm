@@ -1,12 +1,12 @@
 package
 {
-   public class CloisteredThoughtless extends WordCalculator
+   public class CloisteredThoughtless extends StorePaint
    {
        
       
       public function CloisteredThoughtless()
       {
-         super(GateLetters.dockCompany(ForkBit.possessKuruma),GateLetters.dockCompany(AdditionVague.supplyBear));
+         super(MarkParty.dockCompany,NervousOnerous.possessKuruma(ActionThrill.supplyBear));
       }
    }
 }

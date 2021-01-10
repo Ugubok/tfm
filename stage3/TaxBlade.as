@@ -6,24 +6,24 @@ package
    {
        
       
-      public var puzzledFantastic:ZippySisters;
+      public var wealthyAddition:ZippySisters;
       
-      public var bruiseSisters:String;
+      public var smileOranges:String;
       
       public function TaxBlade(param1:ZippySisters)
       {
          super();
-         this.puzzledFantastic = param1;
+         this.wealthyAddition = param1;
       }
       
-      public function get noiselessAnalyze() : String
+      public function get superWet() : String
       {
-         return GateLetters.squeezeIdentify(ChinSnakes.authorityTart);
+         return OrangesQueue.noiselessAnalyze2;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.supplyVerdant;
+         return KotskyRailway.scaleLearned;
       }
       
       public function hilariousFrantic() : Boolean
@@ -31,20 +31,20 @@ package
          return false;
       }
       
-      public function scaleLearned() : int
+      public function supplyVerdant() : int
       {
-         return ToothpasteCloistered.smileOranges + this.bruiseSisters.length;
+         return SupplyMountain.bruiseSisters + this.smileOranges.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.bruiseSisters = param1.readUTFBytes(_loc2_);
+         this.smileOranges = param1.readUTFBytes(_loc2_);
       }
       
-      public function get splendidYak() : int
+      public function get puzzledFantastic() : int
       {
-         return GateLetters.superWet(AdditionVague.wealthyAddition);
+         return NervousOnerous.squeezeIdentify(BalanceSecret.splendidYak);
       }
    }
 }

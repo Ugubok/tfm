@@ -8,7 +8,7 @@ package
       
       public var idSequence:int;
       
-      public var injurePear:PatheticOrdinary;
+      public var sugarSlow:ProgramDivision;
       
       public function PartyLackadaisical(param1:int)
       {
@@ -21,24 +21,24 @@ package
          return this.idSequence;
       }
       
-      public function get sickGaping() : String
+      public function get engineDeliver() : String
       {
-         return GateLetters.lunasoleVoracious(ChinSnakes.efficientTransport);
+         return OrangesQueue.injurePear;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.ablazeUnarmed;
+         return KotskyRailway.lunasoleVoracious;
       }
       
-      public function sugarSlow() : Boolean
+      public function engineJar() : Boolean
       {
          return false;
       }
       
-      override public function engineJar() : int
+      override public function ablazeUnarmed() : int
       {
-         return HarmonyVeil.engineDeliver;
+         return NervousOnerous.sickGaping(SpaceIdea.efficientTransport);
       }
       
       override public function ecriture(param1:ByteArray) : void

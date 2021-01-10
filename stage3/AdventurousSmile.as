@@ -2,16 +2,16 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class AdventurousSmile extends CleverWhip
+   public class AdventurousSmile extends KotskyCheck
    {
        
       
-      public var interruptEfficient:Boolean;
+      public var kurumaCrook:String;
       
       public function AdventurousSmile(param1:ByteArray)
       {
          super(param1);
-         this.interruptEfficient = param1.readByte() == GateLetters.kurumaCrook(FrightenUnique.shameHesitant);
+         this.kurumaCrook = param1.readUTF();
       }
    }
 }

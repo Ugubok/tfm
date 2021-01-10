@@ -1,14 +1,14 @@
 package
 {
-   public class PhoneGruesome extends WordCalculator
+   public class PhoneGruesome extends StorePaint
    {
        
       
-      public function PhoneGruesome(param1:int, param2:int)
+      public function PhoneGruesome(param1:String, param2:String)
       {
-         super(ChinSnakes.cycleTreat,FranticCrook.beadOnerous);
-         flockHydrant.writeByte(param1);
-         flockHydrant.writeShort(param2);
+         super(IdeaReal.beadOnerous,NervousOnerous.heartbreakingAgonizing(BalanceSecret.flockHydrant));
+         cycleTreat.writeUTF(param1);
+         cycleTreat.writeUTF(param2);
       }
    }
 }

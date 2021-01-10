@@ -1,13 +1,13 @@
 package
 {
-   public class FeebleAcoustic extends WordCalculator
+   public class FeebleAcoustic extends StorePaint
    {
        
       
-      public function FeebleAcoustic(param1:String)
+      public function FeebleAcoustic(param1:Number)
       {
-         super(ChinSnakes.whipMemorize,ChinSnakes.lightHeat1);
-         sistersTrace(param1);
+         super(NervousOnerous.lightHeat(SistersRedundant.sistersTrace),KnotModern.wordLamp);
+         seedSpiky.writeByte(int(param1 * NervousOnerous.lightHeat(KneelDaily.whipMemorize)));
       }
    }
 }

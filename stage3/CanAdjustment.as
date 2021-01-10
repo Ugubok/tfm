@@ -11,134 +11,73 @@ package
    {
        
       
-      public var wiseAwake:Loader;
+      public var veilBasket:Loader;
       
-      public var cheatPanoramic:Object;
+      public var groundPear:Object;
       
-      public var thoughtFix:Boolean = false;
+      public var hornAdjustment:Boolean = false;
       
-      public var powerfulOatmeal:String;
+      public var noisyHistorical:String;
       
-      public var automaticSpace:int;
+      public var countThought:int;
       
-      public var porterGovernment:int;
+      public var languidBlot:int;
       
-      public var berrySwanky:Timer;
+      public var lateHistory:Timer;
       
-      public var birdsLamp:Boolean = false;
+      public var agreeDescribe:Boolean = false;
       
-      public var shameTrip:int;
+      public var thunderBoast:int;
       
-      public var noisyHistorical:Function;
+      public var wiseAwake:Function;
       
-      public var languidBlot:Boolean;
+      public var cloverFade:Boolean;
       
-      public var passTendency:Sprite;
+      public var zooSick:Sprite;
       
       public function CanAdjustment(param1:String, param2:Boolean = true, param3:Number = 1, param4:Function = null)
       {
-         this.shameTrip = ForkBit.cryAunt;
+         this.thunderBoast = NervousOnerous.swankyExotic(FaithfulBaseball.exoticScissors);
          super();
-         this.languidBlot = AmuseFrighten.lateHistory;
-         this.automaticSpace = OrangeUnequal.fascinatedOnerous * param3;
-         this.porterGovernment = KnowledgeLate.laborerSnakes * param3;
-         this.noisyHistorical = param4;
-         if(!this.wiseAwake)
+         this.cloverFade = NarrowPlants.passTendency;
+         this.countThought = DearTemper.airCake * param3;
+         this.languidBlot = NervousOnerous.swankyExotic(FaithfulVoracious.crookDeadpan) * param3;
+         this.wiseAwake = param4;
+         if(!this.veilBasket)
          {
-            this.berrySwanky = new Timer(GateLetters.zooSick(ToothpasteCloistered.swankyExotic));
-            this.berrySwanky.addEventListener(TimerEvent.TIMER,this.onerousTrains);
-            this.wiseAwake = new Loader();
-            this.wiseAwake.load(new URLRequest(param1));
-            this.wiseAwake.contentLoaderInfo.addEventListener(Event.INIT,this.hornAdjustment);
+            this.lateHistory = new Timer(IdeaReal.pinusLie);
+            this.lateHistory.addEventListener(TimerEvent.TIMER,this.doorParty);
+            this.veilBasket = new Loader();
+            this.veilBasket.load(new URLRequest(param1));
+            this.veilBasket.contentLoaderInfo.addEventListener(Event.INIT,this.onerousTrains);
          }
-         this.powerfulOatmeal = param1;
-         this.passTendency = DeliverTasty.countThought(ScaleTemper.ablazeShocking);
-         this.passTendency.cacheAsBitmap = AmuseFrighten.lateHistory;
-         this.passTendency.mouseEnabled = AmuseFrighten.pinusLie;
-         this.passTendency.mouseChildren = AmuseFrighten.pinusLie;
-         this.passTendency.width = this.automaticSpace;
-         this.passTendency.height = this.porterGovernment;
-         this.berrySwanky.reset();
-         this.berrySwanky.start();
+         this.noisyHistorical = param1;
+         this.zooSick = DeliverTasty.grinTasty(NervousOnerous.heatStrengthen(SupplyMountain.cheatPanoramic));
+         this.zooSick.cacheAsBitmap = NarrowPlants.passTendency;
+         this.zooSick.mouseEnabled = NarrowPlants.wordStick;
+         this.zooSick.mouseChildren = NarrowPlants.wordStick;
+         this.zooSick.width = this.countThought;
+         this.zooSick.height = this.languidBlot;
+         this.lateHistory.reset();
+         this.lateHistory.start();
       }
       
-      public function thunderBoast(param1:Event) : void
+      public function retireKey(param1:Boolean) : void
       {
-      }
-      
-      public function retireKey(param1:Event) : void
-      {
-         var _loc2_:int = param1[GateLetters.bootAdvise(OrangeUnequal.utopianDinner1)];
-         if(_loc2_ >= FrightenUnique.exoticScissors)
+         if(this.groundPear)
          {
-            addChild(this.wiseAwake);
-            addChild(this.passTendency);
+            this.groundPear.mouseEnabled = param1;
+            this.groundPear.mouseChildren = param1;
          }
       }
       
-      public function grinTasty(param1:Event) : void
+      public function patWise(param1:Event) : void
       {
-         this.thoughtFix = AmuseFrighten.lateHistory;
-         this.cheatPanoramic[ForkBit.veilBasket](this.automaticSpace,this.porterGovernment);
-         if(this.powerfulOatmeal && this.languidBlot)
+         var _loc2_:int = param1[NervousOnerous.heatStrengthen(IdeaReal.birdsLamp)];
+         if(_loc2_ >= NervousOnerous.swankyExotic(MarkParty.shameTrip))
          {
-         }
-         if(this.noisyHistorical != null)
-         {
-            this.noisyHistorical(this.cheatPanoramic);
-         }
-      }
-      
-      public function onerousTrains(param1:Event) : void
-      {
-         if(ClassStormy.separateToy)
-         {
-            this.berrySwanky.stop();
-            this.wiseAwake.unloadAndStop(false);
-            if(this.cheatPanoramic)
-            {
-               this.cheatPanoramic[FillLegs.funnyPail]();
-            }
-         }
-      }
-      
-      public function pauseVideo(param1:Event = null) : void
-      {
-         this.birdsLamp = !this.birdsLamp;
-         if(this.birdsLamp)
-         {
-            this.cheatPanoramic[GateLetters.bootAdvise(AttractiveSugar.cloverFade)]();
-         }
-         else
-         {
-            this.cheatPanoramic[GateLetters.bootAdvise(FrightenUnique.doorParty)]();
-         }
-      }
-      
-      public function aspiringFlower(param1:Boolean) : void
-      {
-         if(this.cheatPanoramic)
-         {
-            this.cheatPanoramic.mouseEnabled = param1;
-            this.cheatPanoramic.mouseChildren = param1;
-         }
-      }
-      
-      public function hornAdjustment(param1:Event) : void
-      {
-         this.cheatPanoramic = this.wiseAwake.content;
-         this.cheatPanoramic[GateLetters.bootAdvise(MarkEvasive.agreeDescribe)](AdditionVague.huskyWash,this.grinTasty);
-         this.cheatPanoramic[GateLetters.bootAdvise(MarkEvasive.agreeDescribe)](AdditionVague.wordStick,this.thunderBoast);
-         this.cheatPanoramic[MarkEvasive.agreeDescribe](KnowledgeLate.saltCrown,this.retireKey);
-         addChild(this.wiseAwake);
-         addChild(this.passTendency);
-      }
-      
-      public function groundPear() : void
-      {
-         if(this.cheatPanoramic)
-         {
-            this.cheatPanoramic[GateLetters.bootAdvise(FillLegs.funnyPail)]();
+            addChild(this.veilBasket);
+            addChild(this.zooSick);
          }
       }
       
@@ -149,11 +88,72 @@ package
          {
             return;
          }
-         this.berrySwanky.reset();
-         this.berrySwanky.start();
-         _loc2_ = param1.substr(param1.indexOf(AttractiveSugar.additionUnit) + GateLetters.zooSick(BalanceLoaf.airCake)).split(OrangeUnequal.gloriousBasket)[ForkBit.cryAunt];
-         _loc3_[GateLetters.bootAdvise(AttractiveSugar.draconianPicture)](_loc2_,this.shameTrip,this.automaticSpace < RequestCactus.patWise?ForkBit.heatStrengthen:GateLetters.bootAdvise(ForkBit.crookDeadpan1));
-         this.birdsLamp = AmuseFrighten.pinusLie;
+         this.lateHistory.reset();
+         this.lateHistory.start();
+         _loc2_ = param1.substr(param1.indexOf(SpaceIdea.gloriousBasket) + NervousOnerous.swankyExotic(MarkParty.aspiringFlower)).split(FaithfulVoracious.powerfulOatmeal)[FaithfulBaseball.exoticScissors];
+         _loc3_[JellyCry.porterGovernment](_loc2_,this.thunderBoast,this.countThought < OrangesQueue.fascinatedOnerous?SpaceIdea.draconianPicture:NervousOnerous.heatStrengthen(IdeaTeeny.berrySwanky));
+         this.agreeDescribe = NarrowPlants.wordStick;
+      }
+      
+      public function pauseVideo(param1:Event = null) : void
+      {
+         this.agreeDescribe = !this.agreeDescribe;
+         if(this.agreeDescribe)
+         {
+            this.groundPear[NervousOnerous.heatStrengthen(SistersRedundant.ablazeShocking)]();
+         }
+         else
+         {
+            this.groundPear[NervousPromise.saltCrown]();
+         }
+      }
+      
+      public function automaticSpace(param1:Event) : void
+      {
+      }
+      
+      public function onerousTrains(param1:Event) : void
+      {
+         this.groundPear = this.veilBasket.content;
+         this.groundPear[FaithfulVoracious.separateToy](KneelDaily.thoughtFix,this.cryAunt);
+         this.groundPear[NervousOnerous.heatStrengthen(FaithfulVoracious.separateToy)](KnotModern.additionUnit,this.automaticSpace);
+         this.groundPear[FaithfulVoracious.separateToy](NervousOnerous.heatStrengthen(MarkParty.funnyPail),this.patWise);
+         addChild(this.veilBasket);
+         addChild(this.zooSick);
+      }
+      
+      public function doorParty(param1:Event) : void
+      {
+         if(TrousersLimit.utopianDinner)
+         {
+            this.lateHistory.stop();
+            this.veilBasket.unloadAndStop(false);
+            if(this.groundPear)
+            {
+               this.groundPear[FaithfulBaseball.laborerSnakes]();
+            }
+         }
+      }
+      
+      public function cryAunt(param1:Event) : void
+      {
+         this.hornAdjustment = NarrowPlants.passTendency;
+         this.groundPear[SpaceIdea.bootAdvise](this.countThought,this.languidBlot);
+         if(this.noisyHistorical && this.cloverFade)
+         {
+         }
+         if(this.wiseAwake != null)
+         {
+            this.wiseAwake(this.groundPear);
+         }
+      }
+      
+      public function huskyWash() : void
+      {
+         if(this.groundPear)
+         {
+            this.groundPear[FaithfulBaseball.laborerSnakes]();
+         }
       }
    }
 }

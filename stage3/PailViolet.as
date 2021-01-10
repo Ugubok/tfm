@@ -6,18 +6,18 @@ package
    {
        
       
-      public var peckTroubled:ZippySisters;
+      public var governmentBeginner:ZippySisters;
       
       public var idSequence:int;
       
-      public var screwRightful:int;
+      public var religionManage:int;
       
-      public var measureStiff:FragileSerious;
+      public var screwRightful:AspiringMemorize;
       
       public function PailViolet(param1:ZippySisters)
       {
          super();
-         this.peckTroubled = param1;
+         this.governmentBeginner = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get religionManage() : String
+      public function get fourKittens() : String
       {
-         return ChinSnakes.fourKittens;
+         return NervousOnerous.peckTroubled(OrangesQueue.yellHysterical);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.glowDisgusting;
+         return KotskyRailway.stupidUnknown;
       }
       
       public function sistersOpposite() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function stupidUnknown() : int
+      public function glowDisgusting() : int
       {
-         return MarkEvasive.porterTangy;
+         return NervousOnerous.chinEarthquake(MarkParty.measureStiff);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.screwRightful = param1.readByte();
-         var _loc2_:ProseZonked = this.peckTroubled.recupereSequence(this.idSequence);
+         this.religionManage = param1.readByte();
+         var _loc2_:ProseZonked = this.governmentBeginner.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is FragileSerious)
+            if(_loc2_ is AspiringMemorize)
             {
-               this.measureStiff = FragileSerious(_loc2_);
-               this.measureStiff.yellHysterical = this;
+               this.screwRightful = AspiringMemorize(_loc2_);
+               this.screwRightful.screwAdmire = this;
             }
          }
       }
       
-      public function get screwAdmire() : int
+      public function get porterTangy() : int
       {
-         return GateLetters.governmentBeginner1(KnowledgeLate.chinEarthquake);
+         return RoomAddition.proudDelicate;
       }
    }
 }

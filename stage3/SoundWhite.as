@@ -1,16 +1,16 @@
 package
 {
-   public class SoundWhite extends WordCalculator
+   public class SoundWhite extends StorePaint
    {
        
       
-      public function SoundWhite(param1:String, param2:String, param3:String)
+      public function SoundWhite(param1:String, param2:int, param3:int, param4:String)
       {
-         super(GateLetters.tourCommon(OrangeUnequal.storeKittens),GateLetters.tourCommon(DivergentDinner.slipSuzuka));
+         super(MarkParty.aliveScintillating,NervousOnerous.storeKittens(IdeaReal.tourCommon));
          injureBlush.writeUTF(param1);
-         injureBlush.writeUTF(param2);
-         injureBlush.writeUTF(param3);
-         injureBlush.writeByte(ForkBit.aliveScintillating);
+         injureBlush.writeByte(param2);
+         injureBlush.writeInt(param3);
+         injureBlush.writeUTF(param4);
       }
    }
 }

@@ -1,8 +1,8 @@
 package
 {
-   import mx.core.ByteArrayAsset;
+   import mx.core.FontAsset;
    
-   public class BlushVivacious extends ByteArrayAsset
+   public class BlushVivacious extends FontAsset
    {
        
       

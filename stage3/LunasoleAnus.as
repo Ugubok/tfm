@@ -6,17 +6,17 @@ package
    {
        
       
-      public var chopDazzling:int;
+      public var joyousSisters:int;
       
       public function LunasoleAnus(param1:int)
       {
-         this.chopDazzling = DailyCold.kittensBirds() * ForkBit.heartbreakingDelicate;
+         this.joyousSisters = OrangeDecay.kittensBirds() * NervousOnerous.paintDouble(SandTedious.pailZonked);
          super();
-         mouseEnabled = AmuseFrighten.joyousSisters;
-         mouseChildren = AmuseFrighten.joyousSisters;
-         cacheAsBitmap = AmuseFrighten.pailZonked;
-         var _loc2_:Sprite = DeliverTasty.enjoyStale(OrangeUnequal.paintDouble);
-         _loc2_.addChildAt(DeliverTasty.squareObtainable(ExpansionTour.cherryClammy + param1 + ToothpasteCloistered.prepareSummer),GateLetters.shoeDelicate(ForkBit.tastyUnknown));
+         mouseEnabled = NarrowPlants.balanceSign;
+         mouseChildren = NarrowPlants.balanceSign;
+         cacheAsBitmap = NarrowPlants.chopDazzling;
+         var _loc2_:Sprite = DeliverTasty.enjoyStale(IdeaReal.cherryClammy);
+         _loc2_.addChildAt(DeliverTasty.shoeDelicate(NervousOnerous.tastyUnknown(RepulsiveDear.heartbreakingDelicate) + param1 + SpaceIdea.squareObtainable),NervousOnerous.paintDouble(FaithfulBaseball.prepareSummer));
          addChild(_loc2_);
       }
    }

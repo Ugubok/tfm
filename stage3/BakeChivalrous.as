@@ -2,19 +2,19 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class BakeChivalrous extends CleverWhip
+   public class BakeChivalrous extends KotskyCheck
    {
        
       
-      public var collectBead:int;
-      
       public var crownNear:int;
+      
+      public var collectBead:String;
       
       public function BakeChivalrous(param1:ByteArray)
       {
          super(param1);
-         this.collectBead = param1.readByte();
          this.crownNear = param1.readInt();
+         this.collectBead = param1.readUTF();
       }
    }
 }

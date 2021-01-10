@@ -4,19 +4,19 @@ package
    {
        
       
-      public var frailColossal:CommonDoctor;
+      public var cheatSquare:CountIncompetent;
       
-      public var priceTow1:CommonDoctor;
+      public var washNaive:CountIncompetent;
       
-      public var cheatSquare:Number;
+      public var priceTow:Number;
       
       public function AbjectPeck()
       {
          super();
-         type = CommonDoctor.vivaciousClover;
-         this.frailColossal = null;
-         this.priceTow1 = null;
-         this.cheatSquare = GateLetters.groundPowerful(FillLegs.washNaive);
+         type = CountIncompetent.vivaciousClover;
+         this.cheatSquare = null;
+         this.washNaive = null;
+         this.priceTow = FaithfulBaseball.frailColossal;
       }
    }
 }

@@ -4,25 +4,25 @@ package
    {
        
       
-      public var target:JarTow;
-      
-      public var neatRambunctious:Number;
-      
-      public var anusScrawny:Number;
+      public var target:CulturedAutomatic;
       
       public var impoliteNotebook:Number;
       
-      public var prosePig:Number;
+      public var laborerAdhesive:Number;
+      
+      public var touchHalf:Number;
+      
+      public var kittensChicken:Number;
       
       public function AdditionBelligerent()
       {
-         this.target = new JarTow();
+         this.target = new CulturedAutomatic();
          super();
-         type = CommonDoctor.laborerAdhesive;
-         this.neatRambunctious = GateLetters.decayAfternoon(HarmonyVeil.thankPaint);
-         this.anusScrawny = GateLetters.decayAfternoon(HarmonyVeil.touchHalf);
-         this.impoliteNotebook = HarmonyVeil.kittensChicken;
-         this.prosePig = GateLetters.decayAfternoon(FillLegs.beliefDeliver) / GateLetters.decayAfternoon(ExoticMemorize.heatCool);
+         type = CountIncompetent.beliefDeliver;
+         this.impoliteNotebook = RepulsiveDear.anusScrawny;
+         this.laborerAdhesive = FaithfulBaseball.decayAfternoon;
+         this.touchHalf = NervousOnerous.heatCool(IdeaTeeny.prosePig);
+         this.kittensChicken = FaithfulBaseball.thankPaint / NervousOnerous.heatCool(FaithfulBaseball.neatRambunctious);
       }
    }
 }

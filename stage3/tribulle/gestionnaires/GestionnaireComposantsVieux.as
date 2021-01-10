@@ -11,7 +11,7 @@ package tribulle.gestionnaires
       
       private var _composants:Dictionary;
       
-      public function GestionnaireComposantsVieux(param1:PrivateClass#121)
+      public function GestionnaireComposantsVieux(param1:PrivateClass#56)
       {
          super();
          this._composants = new Dictionary();
@@ -21,7 +21,7 @@ package tribulle.gestionnaires
       {
          if(_singleton == null)
          {
-            _singleton = new GestionnaireComposantsVieux(new PrivateClass#121());
+            _singleton = new GestionnaireComposantsVieux(new PrivateClass#56());
          }
          return _singleton;
       }
@@ -43,11 +43,11 @@ package tribulle.gestionnaires
    }
 }
 
-class PrivateClass#121
+class PrivateClass#56
 {
     
    
-   function PrivateClass#121()
+   function PrivateClass#56()
    {
       super();
    }

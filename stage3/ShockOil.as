@@ -1,12 +1,12 @@
 package
 {
-   public class ShockOil extends WordCalculator
+   public class ShockOil extends StorePaint
    {
        
       
       public function ShockOil()
       {
-         super(ScaleTemper.possessReach,OrangeUnequal.containCalculator);
+         super(KneelDaily.possessReach,NervousOnerous.draconianBirds(MarkParty.containCalculator));
       }
    }
 }

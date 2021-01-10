@@ -1,15 +1,15 @@
 package
 {
-   public class CrownAnnoying extends WordCalculator
+   public class CrownAnnoying extends StorePaint
    {
        
       
-      public function CrownAnnoying(param1:String, param2:String)
+      public function CrownAnnoying(param1:int, param2:int, param3:int)
       {
-         super(OrangeUnequal.fragileWoman,RequestCactus.stripedShocking);
-         squareAspiring.writeUTF(param1);
-         squareAspiring.writeUTF(param2);
-         lipWren = AmuseFrighten.frailSwanky;
+         super(NervousOnerous.fragileWoman(FaithfulVoracious.lipWren),MarkParty.stripedShocking);
+         squareAspiring.writeInt(param1);
+         squareAspiring.writeInt(param2);
+         squareAspiring.writeInt(param3);
       }
    }
 }

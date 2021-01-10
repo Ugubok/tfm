@@ -2,7 +2,7 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class YamIdentify extends CleverWhip
+   public class YamIdentify extends KotskyCheck
    {
        
       

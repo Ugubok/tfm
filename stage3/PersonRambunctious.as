@@ -1,14 +1,14 @@
 package
 {
-   public class PersonRambunctious extends WordCalculator
+   public class PersonRambunctious extends StorePaint
    {
        
       
-      public function PersonRambunctious(param1:int, param2:int)
+      public function PersonRambunctious(param1:String, param2:int)
       {
-         super(ChinSnakes.spaceInconclusive,ChinSnakes.noiselessAunt1);
-         zonkedMark.writeShort(param1);
-         zonkedMark.writeShort(param2);
+         super(NervousOnerous.spaceInconclusive(IdeaReal.crackerBleach),NervousOnerous.spaceInconclusive(BalanceSecret.zonkedMark));
+         noiselessAunt.writeUTF(param1);
+         noiselessAunt.writeByte(param2);
       }
    }
 }

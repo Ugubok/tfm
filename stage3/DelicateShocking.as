@@ -2,16 +2,16 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class DelicateShocking extends CleverWhip
+   public class DelicateShocking extends KotskyCheck
    {
        
       
-      public var possessFamous:String;
+      public var possessFamous:int;
       
       public function DelicateShocking(param1:ByteArray)
       {
          super(param1);
-         this.possessFamous = param1.readUTF();
+         this.possessFamous = param1.readInt();
       }
    }
 }

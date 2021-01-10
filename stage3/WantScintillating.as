@@ -2,19 +2,19 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class WantScintillating extends CleverWhip
+   public class WantScintillating extends KotskyCheck
    {
        
       
-      public var defectiveUndress:String;
+      public var capriciousAction:int;
       
-      public var capriciousAction:String;
+      public var ovenSmooth:Boolean;
       
       public function WantScintillating(param1:ByteArray)
       {
          super(param1);
-         this.defectiveUndress = param1.readUTF();
-         this.capriciousAction = param1.readUTF();
+         this.capriciousAction = param1.readInt();
+         this.ovenSmooth = param1.readByte() == MarkParty.defectiveUndress;
       }
    }
 }

@@ -1,19 +1,19 @@
 package
 {
-   public class TreatTasty extends WordCalculator
+   public class TreatTasty extends StorePaint
    {
        
       
       public function TreatTasty(param1:Boolean)
       {
-         super(ExoticMemorize.breatheKindhearted,ToothpasteCloistered.chickensShut);
+         super(NervousOnerous.breatheKindhearted(BalanceSecret.shakeSqueal),NervousOnerous.breatheKindhearted(SupplyMountain.afterthoughtArm));
          if(param1)
          {
-            manyAccurate1.writeByte(FrightenUnique.shakeSqueal1);
+            chickensShut.writeByte(NervousOnerous.breatheKindhearted(MarkParty.wipeHeat));
          }
          else
          {
-            manyAccurate1.writeByte(ForkBit.wipeHeat);
+            chickensShut.writeByte(NervousOnerous.breatheKindhearted(FaithfulBaseball.manyAccurate));
          }
       }
    }

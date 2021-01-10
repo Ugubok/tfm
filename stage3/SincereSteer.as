@@ -6,18 +6,18 @@ package
    {
        
       
-      public var curvedCompany:ZippySisters;
+      public var penitentRub:ZippySisters;
       
       public var idSequence:int;
       
-      public var countCrook1:int;
+      public var cravenSofa:int;
       
-      public var penitentRub:UnarmedBalance;
+      public var cravenSuzuka:GeneralHusky;
       
       public function SincereSteer(param1:ZippySisters)
       {
          super();
-         this.curvedCompany = param1;
+         this.penitentRub = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get cravenSofa() : String
+      public function get hobbiesFamous() : String
       {
-         return GateLetters.deliverFrighten(ChinSnakes.cartNut);
+         return NervousOnerous.curvedCompany(OrangesQueue.afternoonAdjoining);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.backKindhearted;
+         return KotskyRailway.countCrook;
       }
       
       public function inexpensivePromise() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function betterBleach() : int
+      public function backKindhearted() : int
       {
-         return MarkEvasive.passPainstaking;
+         return NervousOnerous.betterBleach(MarkParty.cartNut);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.countCrook1 = param1.readByte();
-         var _loc2_:ProseZonked = this.curvedCompany.recupereSequence(this.idSequence);
+         this.cravenSofa = param1.readByte();
+         var _loc2_:ProseZonked = this.penitentRub.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is UnarmedBalance)
+            if(_loc2_ is GeneralHusky)
             {
-               this.penitentRub = UnarmedBalance(_loc2_);
-               this.penitentRub.cravenSuzuka = this;
+               this.cravenSuzuka = GeneralHusky(_loc2_);
+               this.cravenSuzuka.passPainstaking = this;
             }
          }
       }
       
-      public function get hobbiesFamous() : int
+      public function get instinctiveSuper() : int
       {
-         return GateLetters.afternoonAdjoining(FrightenUnique.instinctiveSuper);
+         return RepulsiveDear.deliverFrighten;
       }
    }
 }

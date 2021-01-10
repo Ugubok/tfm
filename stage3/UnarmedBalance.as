@@ -8,7 +8,7 @@ package
       
       public var idSequence:int;
       
-      public var sleepAttractive:SincereSteer;
+      public var baseballTrace:AdvertisementStem;
       
       public function UnarmedBalance(param1:int)
       {
@@ -23,22 +23,22 @@ package
       
       public function get confusedToy() : String
       {
-         return GateLetters.disturbedBabies(ChinSnakes.warlikeTedious);
+         return NervousOnerous.sleepAttractive(OrangesQueue.disturbedBabies);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.apatheticButter;
+         return KotskyRailway.windToys;
       }
       
-      public function letterSea1() : Boolean
+      public function letterSea() : Boolean
       {
          return false;
       }
       
-      override public function windToys() : int
+      override public function apatheticButter() : int
       {
-         return GateLetters.baseballTrace(HarmonyVeil.eggnogMove1);
+         return SpaceIdea.eggnogMove;
       }
       
       override public function ecriture(param1:ByteArray) : void

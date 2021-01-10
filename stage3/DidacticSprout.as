@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var basketSeed:String;
+      public var labelMachine:String;
       
-      public var measurePear:SugarSystem;
+      public var expertNut:EnergeticPear;
       
       public function DidacticSprout(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.basketSeed = param2;
+         this.labelMachine = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get heartbreakingHarbor() : String
+      public function get sparkleThreatening() : String
       {
-         return ChinSnakes.pearVoice;
+         return OrangesQueue.draconianRecognise;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.labelMachine1;
+         return KotskyRailway.basketSeed;
       }
       
-      public function expertNut() : Boolean
+      public function waitingAgreeable() : Boolean
       {
          return false;
       }
       
-      override public function waitingAgreeable() : int
+      override public function heartbreakingHarbor() : int
       {
-         return GateLetters.sparkleThreatening(ScaleTemper.draconianRecognise) + this.basketSeed.length;
+         return SupplyMountain.measurePear + this.labelMachine.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.basketSeed);
+         param1.writeUTF(this.labelMachine);
       }
    }
 }

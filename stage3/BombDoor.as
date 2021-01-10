@@ -6,20 +6,20 @@ package
    {
        
       
-      public var sonRoom:ZippySisters;
+      public var trailZippy:ZippySisters;
       
       public var idSequence:int;
       
-      public var agreeGlow:int;
+      public var lampAddition:int;
       
-      public var authoritySuzuka:Vector.<String>;
+      public var imperfectPeck:Vector.<String>;
       
-      public var yamPhone:SqueezeYak;
+      public var authoritySuzuka:SwankyHanging;
       
       public function BombDoor(param1:ZippySisters)
       {
          super();
-         this.sonRoom = param1;
+         this.trailZippy = param1;
       }
       
       public function getIdSequence() : int
@@ -27,14 +27,14 @@ package
          return this.idSequence;
       }
       
-      public function get lampAddition() : String
+      public function get paintChickens() : String
       {
-         return ChinSnakes.innateWindy;
+         return NervousOnerous.poisedTrace(OrangesQueue.governmentSki);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.trailZippy;
+         return KotskyRailway.innateWindy;
       }
       
       public function largeToys() : Boolean
@@ -44,44 +44,44 @@ package
       
       public function inconclusiveBorrow() : int
       {
-         var _loc1_:int = ForkBit.paintChickens;
-         var _loc2_:int = GateLetters.governmentSki(ForkBit.paintChickens);
-         while(_loc2_ < this.authoritySuzuka.length)
+         var _loc1_:int = NervousOnerous.agreeGlow(FaithfulBaseball.fascinatedBake);
+         var _loc2_:int = NervousOnerous.agreeGlow(FaithfulBaseball.fascinatedBake);
+         while(_loc2_ < this.imperfectPeck.length)
          {
-            _loc1_ = _loc1_ + (GateLetters.governmentSki(ToothpasteCloistered.fourBirds) + this.authoritySuzuka[_loc2_].length);
+            _loc1_ = _loc1_ + (NervousOnerous.agreeGlow(SupplyMountain.vivaciousStory) + this.imperfectPeck[_loc2_].length);
             _loc2_++;
          }
-         return RequestCactus.imperfectPeck + _loc1_;
+         return FaithfulVoracious.resoluteSearch + _loc1_;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc5_:int = 0;
          this.idSequence = param1.readInt();
-         this.agreeGlow = param1.readByte();
+         this.lampAddition = param1.readByte();
          var _loc2_:int = param1.readShort();
-         this.authoritySuzuka = new Vector.<String>(_loc2_);
-         var _loc3_:int = ForkBit.paintChickens;
+         this.imperfectPeck = new Vector.<String>(_loc2_);
+         var _loc3_:int = NervousOnerous.agreeGlow(FaithfulBaseball.fascinatedBake);
          while(_loc3_ < _loc2_)
          {
             _loc5_ = param1.readShort();
-            this.authoritySuzuka[_loc3_] = param1.readUTFBytes(_loc5_);
+            this.imperfectPeck[_loc3_] = param1.readUTFBytes(_loc5_);
             _loc3_++;
          }
-         var _loc4_:ProseZonked = this.sonRoom.recupereSequence(this.idSequence);
+         var _loc4_:ProseZonked = this.trailZippy.recupereSequence(this.idSequence);
          if(_loc4_ != null)
          {
-            if(_loc4_ is SqueezeYak)
+            if(_loc4_ is SwankyHanging)
             {
-               this.yamPhone = SqueezeYak(_loc4_);
-               this.yamPhone.resoluteSearch = this;
+               this.authoritySuzuka = SwankyHanging(_loc4_);
+               this.authoritySuzuka.sonRoom = this;
             }
          }
       }
       
-      public function get poisedTrace() : int
+      public function get fourBirds() : int
       {
-         return OrangeUnequal.fascinatedBake;
+         return OrangesQueue.yamPhone;
       }
    }
 }

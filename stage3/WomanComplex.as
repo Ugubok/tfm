@@ -4,16 +4,16 @@ package
    {
        
       
-      public var powerfulPlease:JarTow;
+      public var knowledgeableFrighten:CulturedAutomatic;
       
-      public var lightIdea:Number;
+      public var powerfulPlease:Number;
       
       public function WomanComplex()
       {
-         this.powerfulPlease = new JarTow(HarmonyVeil.searchStem,GateLetters.knowledgeableFrighten(HarmonyVeil.searchStem));
+         this.knowledgeableFrighten = new CulturedAutomatic(NervousOnerous.searchStem(RepulsiveDear.impoliteRequest),NervousOnerous.searchStem(RepulsiveDear.impoliteRequest));
          super();
-         impoliteRequest = ComplexJelly.washToy;
-         this.lightIdea = GateLetters.knowledgeableFrighten(FillLegs.chillyShake);
+         lightIdea = DeadpanPlease.washToy;
+         this.powerfulPlease = NervousOnerous.searchStem(FaithfulBaseball.chillyShake);
       }
    }
 }

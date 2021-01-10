@@ -4,27 +4,27 @@ package
    {
        
       
-      public var frailReach:int;
+      public var chillyWandering:int;
       
       public var userData = null;
       
-      public var scrawnyBump:Number;
+      public var forkGrain:Number;
+      
+      public var nearCan:Number;
       
       public var baseballKindhearted:Number;
       
-      public var separateDazzling:Number;
+      public var scrawnyBump:Boolean = false;
       
-      public var romanticProse:Boolean = false;
-      
-      public var forkGrain:JarScale;
+      public var sweaterWindy:AlluringBalvanka;
       
       public function ClassBashful()
       {
-         this.frailReach = ComplexJelly.nearCan;
-         this.scrawnyBump = AttractiveSugar.chillyWandering;
-         this.baseballKindhearted = GateLetters.sweaterWindy(HarmonyVeil.cravenNeighborly);
-         this.separateDazzling = HarmonyVeil.cravenNeighborly;
-         this.forkGrain = new JarScale();
+         this.chillyWandering = DeadpanPlease.separateDazzling;
+         this.forkGrain = RepulsiveDear.cravenNeighborly;
+         this.nearCan = NervousOnerous.romanticProse(RepulsiveDear.frailReach);
+         this.baseballKindhearted = RepulsiveDear.frailReach;
+         this.sweaterWindy = new AlluringBalvanka();
          super();
       }
    }

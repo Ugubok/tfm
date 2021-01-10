@@ -1,13 +1,13 @@
 package
 {
-   public class AnusSense extends WordCalculator
+   public class AnusSense extends StorePaint
    {
        
       
-      public function AnusSense(param1:int)
+      public function AnusSense(param1:String)
       {
-         super(ForkBit.zincMetal,ChinSnakes.planFlow);
-         packYell.writeByte(param1);
+         super(SistersRedundant.zincMetal,NervousOnerous.flowNarrow(SpaceIdea.planFlow));
+         packYell(param1);
       }
    }
 }

@@ -1,13 +1,13 @@
 package
 {
-   public class SlimBike extends WordCalculator
+   public class SlimBike extends StorePaint
    {
        
       
-      public function SlimBike(param1:String)
+      public function SlimBike(param1:int)
       {
-         super(GateLetters.farmPat(MarkEvasive.zipHalf),GateLetters.farmPat(ChinSnakes.thirdPanoramic));
-         paltryAfternoon.writeUTF(param1);
+         super(NervousOnerous.thirdPanoramic(MarkParty.farmPat),KnotModern.zipHalf);
+         paltryAfternoon.writeInt(param1);
       }
    }
 }

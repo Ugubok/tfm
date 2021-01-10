@@ -2,42 +2,42 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class BaseballDoctor extends CleverWhip
+   public class BaseballDoctor extends KotskyCheck
    {
        
       
-      public var storyTeaching:int;
+      public var capriciousSea:int;
       
-      public var lookJuice:int;
+      public var frightenAnus:int;
       
-      public var satisfyPass:int;
+      public var adaptableSpy:int;
       
-      public var plantsSleep:String;
+      public var panickySpooky:String;
       
-      public var wingBabies1:String;
+      public var rabbitLocket:String;
       
       public var toeBruise:int;
       
-      public var capriciousSea:Boolean;
+      public var satisfyPass:Boolean;
       
       public function BaseballDoctor(param1:ByteArray)
       {
          super(param1);
-         this.storyTeaching = param1.readInt();
-         this.lookJuice = param1.readShort();
-         this.satisfyPass = param1.readByte();
-         this.plantsSleep = frightenAnus();
-         this.wingBabies1 = param1.readUTF();
+         this.capriciousSea = param1.readInt();
+         this.frightenAnus = param1.readShort();
+         this.adaptableSpy = param1.readByte();
+         this.panickySpooky = lookJuice();
+         this.rabbitLocket = param1.readUTF();
          this.toeBruise = param1.readByte();
-         this.capriciousSea = param1.readBoolean();
-         if(this.plantsSleep == GateLetters.birdPrivate(ScaleTemper.adaptableSpy))
+         this.satisfyPass = param1.readBoolean();
+         if(this.panickySpooky == NervousOnerous.plantsSleep(PleaseFour.storyTeaching))
          {
-            this.plantsSleep = null;
+            this.panickySpooky = null;
          }
          if(param1.bytesAvailable)
          {
-            this.wingBabies1 = GateLetters.birdPrivate(ScaleTemper.adaptableSpy);
-            this.toeBruise = GateLetters.panickySpooky(ForkBit.rabbitLocket1);
+            this.rabbitLocket = NervousOnerous.plantsSleep(PleaseFour.storyTeaching);
+            this.toeBruise = FaithfulBaseball.birdPrivate;
          }
       }
    }

@@ -2,13 +2,13 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class InexpensiveShort extends CleverWhip
+   public class InexpensiveShort extends KotskyCheck
    {
        
       
-      public var earBright:String;
+      public var hugeScissors:String;
       
-      public var squeamishAnus:int;
+      public var preciousPaint1:int;
       
       public function InexpensiveShort(param1:ByteArray)
       {
@@ -17,38 +17,38 @@ package
          var _loc7_:int = 0;
          super(param1);
          var _loc2_:int = param1.readUnsignedShort();
-         this.earBright = _loc2_ + GateLetters.picturePear(BashfulUnwritten.agonizingHistorical1);
-         var _loc3_:int = ForkBit.frailBag;
-         var _loc4_:int = AbaftSign.hugeScissors.length;
+         this.hugeScissors = _loc2_ + NervousOnerous.frailBag(NervousPromise.dressBear);
+         var _loc3_:int = NervousOnerous.kindheartedEntertaining(FaithfulBaseball.sincereTour);
+         var _loc4_:int = AbaftSign.scissorsSofa.length;
          while(_loc3_ < _loc4_)
          {
             _loc5_ = param1.readInt();
-            if(_loc3_ > ForkBit.frailBag)
+            if(FaithfulBaseball.sincereTour < _loc3_)
             {
-               this.earBright = this.earBright + GateLetters.picturePear(HarmonyVeil.preciousPaint);
+               this.hugeScissors = this.hugeScissors + KneelDaily.earBright;
             }
-            this.earBright = this.earBright + _loc5_;
+            this.hugeScissors = this.hugeScissors + _loc5_;
             _loc6_ = param1.readByte();
-            if(_loc6_ > GateLetters.scissorsSofa(ForkBit.frailBag))
+            if(FaithfulBaseball.sincereTour < _loc6_)
             {
-               this.earBright = this.earBright + GateLetters.picturePear(ExpansionTour.sincereTour);
-               _loc7_ = ForkBit.frailBag;
+               this.hugeScissors = this.hugeScissors + SupplyMountain.agonizingHistorical;
+               _loc7_ = NervousOnerous.kindheartedEntertaining(FaithfulBaseball.sincereTour);
                while(_loc7_ < _loc6_)
                {
-                  if(GateLetters.scissorsSofa(ForkBit.frailBag) == _loc7_)
+                  if(_loc7_ == NervousOnerous.kindheartedEntertaining(FaithfulBaseball.sincereTour))
                   {
-                     this.earBright = this.earBright + param1.readInt().toString(GateLetters.scissorsSofa(AttractiveSugar.dressBear));
+                     this.hugeScissors = this.hugeScissors + param1.readInt().toString(NervousOnerous.kindheartedEntertaining(FaithfulBaseball.picturePear));
                   }
                   else
                   {
-                     this.earBright = this.earBright + (ChinSnakes.kindheartedEntertaining + param1.readInt().toString(AttractiveSugar.dressBear));
+                     this.hugeScissors = this.hugeScissors + (PleaseFour.squeamishAnus + param1.readInt().toString(FaithfulBaseball.picturePear));
                   }
                   _loc7_++;
                }
             }
             _loc3_++;
          }
-         this.squeamishAnus = param1.readInt();
+         this.preciousPaint1 = param1.readInt();
       }
    }
 }

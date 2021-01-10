@@ -8,7 +8,7 @@ package
       
       public var idSequence:int;
       
-      public var expansionLoaf:VivaciousCareless;
+      public var delightfulHysterical:IncreaseDetermined;
       
       public function DivisionOven(param1:int)
       {
@@ -21,14 +21,14 @@ package
          return this.idSequence;
       }
       
-      public function get delightfulHysterical() : String
+      public function get expansionLoaf() : String
       {
-         return GateLetters.zincShame(ChinSnakes.upsetDraconian);
+         return OrangesQueue.wrathfulToothpaste;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.capriciousNest;
+         return KotskyRailway.unequaledScissors;
       }
       
       public function supplySkin() : Boolean
@@ -36,9 +36,9 @@ package
          return false;
       }
       
-      override public function unequaledScissors() : int
+      override public function capriciousNest() : int
       {
-         return HarmonyVeil.wrathfulToothpaste;
+         return NervousOnerous.zincShame(SpaceIdea.upsetDraconian);
       }
       
       override public function ecriture(param1:ByteArray) : void

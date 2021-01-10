@@ -6,56 +6,56 @@ package
    {
        
       
-      public var bashfulMean2:ZippySisters;
+      public var rubPlan:ZippySisters;
       
-      public var rubPlan:String;
+      public var bruiseUncle:String;
       
-      public var ludicrousBashful:int;
+      public var swankyVulgar:int;
       
-      public var cuteCollect:String;
+      public var wrenPicture:String;
       
-      public var touchWhite:String;
+      public var bashfulMean:String;
       
       public function SpotPoison(param1:ZippySisters)
       {
          super();
-         this.bashfulMean2 = param1;
+         this.rubPlan = param1;
       }
       
-      public function get noxiousColor() : String
+      public function get ludicrousBashful() : String
       {
-         return ChinSnakes.adaptableDress;
+         return OrangesQueue.noxiousColor;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.adRecord;
+         return KotskyRailway.touchWhite;
       }
       
-      public function kindheartedMomentous() : Boolean
+      public function trembleRealize() : Boolean
       {
          return false;
       }
       
-      public function trembleRealize() : int
+      public function adRecord() : int
       {
-         return RequestCactus.swankyVulgar + this.rubPlan.length + this.cuteCollect.length + this.touchWhite.length;
+         return NervousPromise.kindheartedMomentous + this.bruiseUncle.length + this.wrenPicture.length + this.bashfulMean.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.rubPlan = param1.readUTFBytes(_loc2_);
-         this.ludicrousBashful = param1.readInt();
+         this.bruiseUncle = param1.readUTFBytes(_loc2_);
+         this.swankyVulgar = param1.readInt();
          var _loc3_:int = param1.readShort();
-         this.cuteCollect = param1.readUTFBytes(_loc3_);
+         this.wrenPicture = param1.readUTFBytes(_loc3_);
          var _loc4_:int = param1.readShort();
-         this.touchWhite = param1.readUTFBytes(_loc4_);
+         this.bashfulMean = param1.readUTFBytes(_loc4_);
       }
       
-      public function get passSmart() : int
+      public function get cuteCollect() : int
       {
-         return GateLetters.wrenPicture(ScaleTemper.bruiseUncle);
+         return KneelDaily.passSmart;
       }
    }
 }

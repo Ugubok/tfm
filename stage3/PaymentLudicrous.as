@@ -2,7 +2,7 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class PaymentLudicrous extends CleverWhip
+   public class PaymentLudicrous extends KotskyCheck
    {
        
       
@@ -14,7 +14,7 @@ package
       {
          super(param1);
          this.staleAutomatic = param1.readInt();
-         this.analyzePainstaking = param1.readInt();
+         this.analyzePainstaking = param1.readShort();
       }
    }
 }

@@ -6,34 +6,34 @@ package
    {
        
       
-      public var wiseNut:int;
+      public var colorfulStale:int;
       
       public var usedTow:int;
       
-      public var pleasantHysterical1:FivePat;
+      public var kneelSpiky:ToothpasteCapricious;
       
-      public var reminiscentFrantic:Boolean = false;
+      public var pigWail:Boolean = false;
       
-      public var ajarSave:Boolean = false;
+      public var jogBleach:Boolean = false;
       
-      public var kneelSpiky:Boolean = false;
+      public var splendidSon:Boolean = false;
       
-      public var spotlessTightfisted:Boolean = false;
+      public var systemAwake:Boolean = false;
       
       public var sandChop:CarefulSugar;
       
-      public var colorfulStale:Number;
+      public var ajarSave:Number;
       
-      public var cakeLight1:Number;
+      public var cakeLight:Number;
       
       public function GeneralDazzling(param1:int, param2:int)
       {
-         this.colorfulStale = ForkBit.jogBleach;
-         this.cakeLight1 = ForkBit.jogBleach;
+         this.ajarSave = NervousOnerous.spotlessTightfisted(FaithfulBaseball.reminiscentFrantic);
+         this.cakeLight = FaithfulBaseball.reminiscentFrantic;
          super();
-         this.wiseNut = param1;
+         this.colorfulStale = param1;
          this.usedTow = param2;
-         addChild(DeliverTasty.pigWail(ExpansionTour.splendidSon + param1,true));
+         addChild(DeliverTasty.wiseNut(IdeaTeeny.pleasantHysterical + param1,true));
       }
    }
 }

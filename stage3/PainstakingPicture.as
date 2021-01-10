@@ -6,18 +6,18 @@ package
    {
        
       
-      public var sockLie:ZippySisters;
+      public var pigScrew:ZippySisters;
       
       public var idSequence:int;
       
-      public var interruptSlim:int;
+      public var stickOptimal:int;
       
-      public var joyousAlert:TreatBalance;
+      public var shortTour:SqueezeSparkle;
       
       public function PainstakingPicture(param1:ZippySisters)
       {
          super();
-         this.sockLie = param1;
+         this.pigScrew = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get ownMatch() : String
+      public function get joyousAlert() : String
       {
-         return ChinSnakes.borrowBlot;
+         return OrangesQueue.sockLie;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.coldDinner;
+         return KotskyRailway.interruptSlim;
       }
       
       public function greedyCheat() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function hydrantFix() : int
+      public function coldDinner() : int
       {
-         return MarkEvasive.programSpoon;
+         return NervousOnerous.hydrantFix(MarkParty.phoneCloistered);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.interruptSlim = param1.readByte();
-         var _loc2_:ProseZonked = this.sockLie.recupereSequence(this.idSequence);
+         this.stickOptimal = param1.readByte();
+         var _loc2_:ProseZonked = this.pigScrew.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is TreatBalance)
+            if(_loc2_ is SqueezeSparkle)
             {
-               this.joyousAlert = TreatBalance(_loc2_);
-               this.joyousAlert.stickOptimal = this;
+               this.shortTour = SqueezeSparkle(_loc2_);
+               this.shortTour.programSpoon = this;
             }
          }
       }
       
-      public function get pigScrew() : int
+      public function get borrowBlot() : int
       {
-         return DivergentDinner.shortTour;
+         return NervousOnerous.hydrantFix(BalanceSecret.ownMatch);
       }
    }
 }

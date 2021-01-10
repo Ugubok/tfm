@@ -6,18 +6,18 @@ package
    {
        
       
-      public var ownCrook:ZippySisters;
+      public var illustriousSlim1:ZippySisters;
       
       public var idSequence:int;
       
-      public var slipFeeble:int;
+      public var wealthyLeg:int;
       
-      public var illustriousSlim:ComparisonBaseball;
+      public var commonStick:ScrawnyNation;
       
       public function ZooNoisy(param1:ZippySisters)
       {
          super();
-         this.ownCrook = param1;
+         this.illustriousSlim1 = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get suitWet() : String
+      public function get ownCrook() : String
       {
-         return ChinSnakes.ignorantProgram;
+         return NervousOnerous.gamySave(OrangesQueue.chickenVoyage);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.probableLarge;
+         return KotskyRailway.slipFeeble;
       }
       
       public function adventurousTangy() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function preciousSuper() : int
+      public function probableLarge() : int
       {
-         return GateLetters.wealthyLeg(MarkEvasive.gamySave);
+         return NervousOnerous.preciousSuper(MarkParty.cuteAccurate);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.slipFeeble = param1.readByte();
-         var _loc2_:ProseZonked = this.ownCrook.recupereSequence(this.idSequence);
+         this.wealthyLeg = param1.readByte();
+         var _loc2_:ProseZonked = this.illustriousSlim1.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is ComparisonBaseball)
+            if(_loc2_ is ScrawnyNation)
             {
-               this.illustriousSlim = ComparisonBaseball(_loc2_);
-               this.illustriousSlim.narrowPossess = this;
+               this.commonStick = ScrawnyNation(_loc2_);
+               this.commonStick.suitWet = this;
             }
          }
       }
       
-      public function get chickenVoyage() : int
+      public function get ignorantProgram() : int
       {
-         return GateLetters.wealthyLeg(AttractiveSugar.commonStick);
+         return NervousOnerous.preciousSuper(OrangesQueue.narrowPossess);
       }
    }
 }

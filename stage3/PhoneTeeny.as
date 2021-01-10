@@ -2,21 +2,21 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class PhoneTeeny extends CleverWhip
+   public class PhoneTeeny extends KotskyCheck
    {
        
       
-      public var lieNaive1:String;
+      public var tripDelicate:String;
       
       public var dressFade:Vector.<String>;
       
       public function PhoneTeeny(param1:ByteArray)
       {
          super(param1);
-         this.lieNaive1 = param1.readUTF();
+         this.tripDelicate = param1.readUTF();
          this.dressFade = new Vector.<String>();
          var _loc2_:int = param1.readByte();
-         var _loc3_:int = ForkBit.tripDelicate;
+         var _loc3_:int = FaithfulBaseball.lieNaive;
          while(_loc3_ < _loc2_)
          {
             this.dressFade.push(param1.readUTF());

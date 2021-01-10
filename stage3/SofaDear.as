@@ -1,28 +1,28 @@
 package
 {
-   public class SofaDear extends WordCalculator
+   public class SofaDear extends StorePaint
    {
        
       
       public function SofaDear(param1:Array)
       {
          var _loc4_:LimitDisgusting = null;
-         super(GateLetters.gateDisturbed(ScaleTemper.wingToy),GateLetters.gateDisturbed(RequestCactus.canAfterthought));
+         super(IdeaReal.canAfterthought,NervousOnerous.gateDisturbed(NervousPromise.rareMachine));
          var _loc2_:int = param1.length;
-         drownRoom.writeShort(_loc2_);
-         var _loc3_:int = GateLetters.gateDisturbed(ForkBit.proudFit);
+         rayWarlike.writeShort(_loc2_);
+         var _loc3_:int = NervousOnerous.gateDisturbed(FaithfulBaseball.proudFit);
          while(_loc3_ < _loc2_)
          {
             _loc4_ = param1[_loc3_];
-            drownRoom.writeInt(_loc4_.rayWarlike);
-            drownRoom.writeInt(_loc4_.ordinaryLimit.x);
-            if(!_loc4_.ordinaryLimit || !_loc4_.ordinaryLimit.parent)
+            rayWarlike.writeInt(_loc4_.ordinaryLimit);
+            rayWarlike.writeInt(_loc4_.wingToy.x);
+            if(!_loc4_.wingToy || !_loc4_.wingToy.parent)
             {
-               drownRoom.writeInt(ToothpasteCloistered.rareMachine);
+               rayWarlike.writeInt(NervousOnerous.gateDisturbed(IdeaReal.drownRoom));
             }
             else
             {
-               drownRoom.writeInt(_loc4_.ordinaryLimit.y);
+               rayWarlike.writeInt(_loc4_.wingToy.y);
             }
             _loc3_++;
          }

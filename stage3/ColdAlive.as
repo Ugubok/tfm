@@ -4,63 +4,63 @@ package
    {
        
       
+      public var aspiringEyes:int;
+      
+      public var zonkedSerious:int;
+      
       public var crySave:int;
       
-      public var metalEfficient:int;
+      public var trembleBead:int;
       
-      public var frightenSprout:int;
-      
-      public var armIncompetent:int;
-      
-      public var shockingFamous:PossessAlert;
+      public var shockingFamous:LockUpset;
       
       public function ColdAlive()
       {
          super();
       }
       
-      public function set incidentVertex(param1:int) : void
-      {
-         this.frightenSprout = param1;
-         this.shockingFamous.saveEyes = this.shockingFamous.saveEyes & 4278255615 | this.frightenSprout << AttractiveSugar.snottyLanguid & 16711680;
-      }
-      
       public function get zooDeliver() : int
       {
-         return this.armIncompetent;
+         return this.trembleBead;
       }
       
-      public function get incidentVertex() : int
+      public function get saveEyes() : int
       {
-         return this.frightenSprout;
+         return this.zonkedSerious;
       }
       
       public function set zooDeliver(param1:int) : void
       {
-         this.armIncompetent = param1;
-         this.shockingFamous.saveEyes = this.shockingFamous.saveEyes & 16777215 | this.armIncompetent << GateLetters.trembleBead(RequestCactus.aspiringEyes) & 4278190080;
-      }
-      
-      public function get referenceEdge() : int
-      {
-         return this.crySave;
-      }
-      
-      public function get drownJagged() : int
-      {
-         return this.metalEfficient;
+         this.trembleBead = param1;
+         this.shockingFamous.armIncompetent = this.shockingFamous.armIncompetent & 16777215 | this.trembleBead << BalanceSecret.drownJagged & 4278190080;
       }
       
       public function set referenceEdge(param1:int) : void
       {
-         this.crySave = param1;
-         this.shockingFamous.saveEyes = this.shockingFamous.saveEyes & 4294967040 | this.crySave & 255;
+         this.aspiringEyes = param1;
+         this.shockingFamous.armIncompetent = this.shockingFamous.armIncompetent & 4294967040 | this.aspiringEyes & 255;
       }
       
-      public function set drownJagged(param1:int) : void
+      public function get referenceEdge() : int
       {
-         this.metalEfficient = param1;
-         this.shockingFamous.saveEyes = this.shockingFamous.saveEyes & 4294902015 | this.metalEfficient << ChinSnakes.zonkedSerious & 65280;
+         return this.aspiringEyes;
+      }
+      
+      public function get incidentVertex() : int
+      {
+         return this.crySave;
+      }
+      
+      public function set incidentVertex(param1:int) : void
+      {
+         this.crySave = param1;
+         this.shockingFamous.armIncompetent = this.shockingFamous.armIncompetent & 4278255615 | this.crySave << FaithfulBaseball.frightenSprout & 16711680;
+      }
+      
+      public function set saveEyes(param1:int) : void
+      {
+         this.zonkedSerious = param1;
+         this.shockingFamous.armIncompetent = this.shockingFamous.armIncompetent & 4294902015 | this.zonkedSerious << SistersRedundant.snottyLanguid & 65280;
       }
    }
 }

@@ -2,16 +2,16 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class BeautifulFeeble extends CleverWhip
+   public class BeautifulFeeble extends KotskyCheck
    {
        
       
-      public var teenyCrib:int;
+      public var teenyCrib:String;
       
       public function BeautifulFeeble(param1:ByteArray)
       {
          super(param1);
-         this.teenyCrib = param1.readInt();
+         this.teenyCrib = param1.readUTF();
       }
    }
 }

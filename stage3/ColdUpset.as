@@ -6,18 +6,18 @@ package
    {
        
       
-      public var squeamishPass:ZippySisters;
+      public var cravenStay:ZippySisters;
       
       public var idSequence:int;
       
-      public var ludicrousComplex:int;
+      public var bearLabel:int;
       
-      public var bearLabel:UnequaledStem;
+      public var beliefDrown:ComparisonBaseball;
       
       public function ColdUpset(param1:ZippySisters)
       {
          super();
-         this.squeamishPass = param1;
+         this.cravenStay = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get cravenStay() : String
+      public function get crackerChangeable() : String
       {
-         return GateLetters.promiseBump(ChinSnakes.passLanguid);
+         return OrangesQueue.pipkaMouse;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.passKuruma;
+         return KotskyRailway.promiseBump;
       }
       
-      public function proudOrdinary() : Boolean
+      public function ludicrousComplex() : Boolean
       {
          return false;
       }
       
-      public function automaticFemale() : int
+      public function passKuruma() : int
       {
-         return GateLetters.pipkaMouse(MarkEvasive.beliefDrown);
+         return MarkParty.squeamishPass;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.ludicrousComplex = param1.readByte();
-         var _loc2_:ProseZonked = this.squeamishPass.recupereSequence(this.idSequence);
+         this.bearLabel = param1.readByte();
+         var _loc2_:ProseZonked = this.cravenStay.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is UnequaledStem)
+            if(_loc2_ is ComparisonBaseball)
             {
-               this.bearLabel = UnequaledStem(_loc2_);
-               this.bearLabel.admireManage = this;
+               this.beliefDrown = ComparisonBaseball(_loc2_);
+               this.beliefDrown.admireManage = this;
             }
          }
       }
       
       public function get harmonyVeil() : int
       {
-         return OrangeUnequal.crackerChangeable;
+         return NervousOnerous.automaticFemale(RepulsiveDear.proudOrdinary);
       }
    }
 }

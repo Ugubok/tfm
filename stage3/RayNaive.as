@@ -4,17 +4,17 @@ package
    {
        
       
-      public var weightSeed:Number;
+      public var snakesHeal:Number;
       
-      public var cleverMomentous:JarTow;
+      public var lightMachine:CulturedAutomatic;
       
       public var cureVeil:Number;
       
       public function RayNaive()
       {
-         this.weightSeed = HarmonyVeil.wanderingReaction;
-         this.cleverMomentous = new JarTow(GateLetters.snakesHeal(ForkBit.lightMachine),ForkBit.lightMachine);
-         this.cureVeil = GateLetters.edgeDebt(HarmonyVeil.wanderingReaction);
+         this.snakesHeal = NervousOnerous.wanderingReaction(RepulsiveDear.edgeDebt);
+         this.lightMachine = new CulturedAutomatic(FaithfulBaseball.cleverMomentous,FaithfulBaseball.cleverMomentous);
+         this.cureVeil = RepulsiveDear.edgeDebt;
          super();
       }
    }

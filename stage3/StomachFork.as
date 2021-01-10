@@ -4,17 +4,17 @@ package
    {
        
       
-      public var R:CuteAttractive;
+      public var R:IllustriousLanguid;
       
-      public var uncleAunt:JarTow;
+      public var uncleAunt:CulturedAutomatic;
       
-      public var shopRetire:JarTow;
+      public var shopRetire:CulturedAutomatic;
       
       public function StomachFork()
       {
-         this.R = new CuteAttractive();
-         this.uncleAunt = new JarTow();
-         this.shopRetire = new JarTow();
+         this.R = new IllustriousLanguid();
+         this.uncleAunt = new CulturedAutomatic();
+         this.shopRetire = new CulturedAutomatic();
          super();
       }
    }

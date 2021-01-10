@@ -4,13 +4,13 @@ package
    {
        
       
-      public var drownKnowledgeable:GrateHydrant;
+      public var funnyBleach:String;
       
-      public var branchDivergent:OrderBury;
+      public var couleur:int;
       
-      public var funnyBleach:MatchBomb;
+      public var branchDivergent:int;
       
-      public var ruddyPaltry:MatchBomb;
+      public var drownKnowledgeable:int;
       
       public function MatchBomb()
       {

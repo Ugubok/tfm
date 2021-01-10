@@ -1,13 +1,13 @@
 package
 {
-   public class LargeTrains extends WordCalculator
+   public class LargeTrains extends StorePaint
    {
        
       
-      public function LargeTrains(param1:String)
+      public function LargeTrains(param1:Boolean)
       {
-         super(GateLetters.countTasty(ScaleTemper.sincereHarbor),GateLetters.countTasty(ToothpasteCloistered.exoticTrains));
-         grandfatherAlanson.writeUTF(param1);
+         super(SpaceIdea.birdAbsurd,SistersRedundant.sincereHarbor);
+         huskyCultured.writeByte(!!param1?int(MarkParty.exoticTrains):int(NervousOnerous.countTasty(FaithfulBaseball.grandfatherAlanson)));
       }
    }
 }

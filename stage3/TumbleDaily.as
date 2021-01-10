@@ -1,12 +1,12 @@
 package
 {
-   public class TumbleDaily extends WordCalculator
+   public class TumbleDaily extends StorePaint
    {
        
       
       public function TumbleDaily()
       {
-         super(GateLetters.dockThrill1(OrangeUnequal.gullibleAnalyze),GateLetters.dockThrill1(FourYell.advertisementSqueal));
+         super(OrangesQueue.dockThrill,NervousOnerous.advertisementSqueal(MarkParty.gullibleAnalyze));
       }
    }
 }

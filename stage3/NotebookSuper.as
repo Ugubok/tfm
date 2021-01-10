@@ -1,18 +1,18 @@
 package
 {
-   public class NotebookSuper extends WordCalculator
+   public class NotebookSuper extends StorePaint
    {
        
       
-      public function NotebookSuper(param1:MendAgree, param2:Boolean)
+      public function NotebookSuper(param1:Vector.<String>)
       {
-         super(BashfulUnwritten.acousticSpiffy,ToothpasteCloistered.armWet);
-         knowledgeablePoised.writeShort(param1.cleverTrip);
-         knowledgeablePoised.writeShort(param1.x);
-         knowledgeablePoised.writeShort(param1.y);
-         knowledgeablePoised.writeShort(param1.oppositeLanguid());
-         knowledgeablePoised.writeUTF(param1.hydrantSparkle());
-         knowledgeablePoised.writeBoolean(param2);
+         super(NervousOnerous.knowledgeablePoised(IdeaReal.armWet1),FaithfulBaseball.hydrantSparkle);
+         var _loc2_:int = FaithfulBaseball.oppositeLanguid;
+         while(_loc2_ < param1.length)
+         {
+            cleverTrip(param1[_loc2_]);
+            _loc2_++;
+         }
       }
    }
 }

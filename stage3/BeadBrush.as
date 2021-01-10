@@ -1,14 +1,14 @@
 package
 {
-   public class BeadBrush extends WordCalculator
+   public class BeadBrush extends StorePaint
    {
        
       
-      public function BeadBrush(param1:int, param2:int, param3:int = 0)
+      public function BeadBrush(param1:int, param2:int)
       {
-         super(MarkEvasive.heatDescribe,GateLetters.edgeRealize(OrangeUnequal.afterthoughtKey));
-         didacticSlow.writeShort(param1);
-         didacticSlow.writeShort(param2);
+         super(NervousOnerous.didacticSlow(KnotModern.afterthoughtKey),NervousOnerous.didacticSlow(ActionThrill.heatDescribe));
+         edgeRealize.writeByte(param1);
+         edgeRealize.writeByte(param2);
       }
    }
 }

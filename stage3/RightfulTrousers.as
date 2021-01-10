@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var unwrittenSqueal:String;
+      public var edgeJumbled1:String;
       
-      public var redundantDidactic:Boolean;
+      public var adHuge:Boolean;
       
-      public var adviceBrush:SeriousBoundary;
+      public var chickensEyes:SandCrime;
       
       public function RightfulTrousers(param1:int, param2:String, param3:Boolean)
       {
          super();
          this.idSequence = param1;
-         this.unwrittenSqueal = param2;
-         this.redundantDidactic = param3;
+         this.edgeJumbled1 = param2;
+         this.adHuge = param3;
       }
       
       public function getIdSequence() : int
@@ -27,14 +27,14 @@ package
          return this.idSequence;
       }
       
-      public function get lackadaisicalArmy() : String
+      public function get redundantDidactic() : String
       {
-         return ChinSnakes.faithfulLearned;
+         return OrangesQueue.verdantRambunctious;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.naughtyCart;
+         return KotskyRailway.delicateStale;
       }
       
       public function farmKey() : Boolean
@@ -42,16 +42,16 @@ package
          return false;
       }
       
-      override public function delicateStale() : int
+      override public function naughtyCart() : int
       {
-         return RequestCactus.adHuge + this.unwrittenSqueal.length;
+         return FaithfulVoracious.unwrittenSqueal + this.edgeJumbled1.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.unwrittenSqueal);
-         param1.writeByte(!!this.redundantDidactic?int(GateLetters.edgeJumbled(FrightenUnique.verdantRambunctious)):int(GateLetters.edgeJumbled(ForkBit.chickensEyes)));
+         param1.writeUTF(this.edgeJumbled1);
+         param1.writeByte(!!this.adHuge?int(MarkParty.adviceBrush):int(FaithfulBaseball.lackadaisicalArmy));
       }
    }
 }

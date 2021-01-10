@@ -1,12 +1,12 @@
 package
 {
-   public class ChivalrousAfternoon extends LetterNation
+   public class ChivalrousAfternoon extends StorePaint
    {
        
       
-      public function ChivalrousAfternoon(param1:BumpFrantic)
+      public function ChivalrousAfternoon()
       {
-         super(param1);
+         super(NervousOnerous.temperAbortive(IdeaReal.trapWant),BalanceSecret.modernColorful);
       }
    }
 }

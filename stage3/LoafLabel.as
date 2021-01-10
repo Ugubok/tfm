@@ -4,9 +4,9 @@ package
    {
        
       
-      public var seriousLetters:uint;
-      
       public var icyNoiseless:uint;
+      
+      public var seriousLetters:uint;
       
       public function LoafLabel()
       {

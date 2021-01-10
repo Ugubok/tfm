@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var skiZoo:Boolean;
+      public var manageAbject:Boolean;
       
-      public var unequalQuack:FarmBasin;
+      public var planPathetic:PeckBreathe;
       
       public function HourLearned(param1:int, param2:Boolean)
       {
          super();
          this.idSequence = param1;
-         this.skiZoo = param2;
+         this.manageAbject = param2;
       }
       
       public function getIdSequence() : int
@@ -24,14 +24,14 @@ package
          return this.idSequence;
       }
       
-      public function get cloverTow() : String
+      public function get unequalQuack() : String
       {
-         return GateLetters.planPathetic1(ChinSnakes.collectNut);
+         return NervousOnerous.pictureInstinctive(OrangesQueue.girlSpot);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.dislikeBlush;
+         return KotskyRailway.bruiseCake;
       }
       
       public function boastSign() : Boolean
@@ -39,15 +39,15 @@ package
          return false;
       }
       
-      override public function bruiseCake() : int
+      override public function dislikeBlush() : int
       {
-         return GateLetters.pictureInstinctive(MarkEvasive.preciousCool);
+         return NervousOnerous.preciousCool(MarkParty.collectNut);
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(!!this.skiZoo?int(GateLetters.pictureInstinctive(FrightenUnique.girlSpot)):int(ForkBit.manageAbject));
+         param1.writeByte(!!this.manageAbject?int(MarkParty.skiZoo):int(NervousOnerous.preciousCool(FaithfulBaseball.cloverTow)));
       }
    }
 }

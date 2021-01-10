@@ -1,13 +1,13 @@
 package
 {
-   public class AdjustmentReminiscent extends WordCalculator
+   public class AdjustmentReminiscent extends StorePaint
    {
        
       
-      public function AdjustmentReminiscent(param1:String)
+      public function AdjustmentReminiscent(param1:int)
       {
-         super(FrightenUnique.brushEngine,GateLetters.beginnerApathetic(FrightenUnique.brushEngine));
-         armSign.writeUTF(param1);
+         super(IdeaReal.beginnerApathetic,PleaseFour.armSign);
+         brushEngine.writeByte(param1);
       }
    }
 }

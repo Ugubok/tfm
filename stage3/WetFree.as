@@ -1,12 +1,12 @@
 package
 {
-   public class WetFree extends WordCalculator
+   public class WetFree extends StorePaint
    {
        
       
       public function WetFree()
       {
-         super(GateLetters.tendencyToys(ExoticMemorize.stomachConcentrate),GateLetters.tendencyToys(RequestCactus.reminiscentTreat));
+         super(FaithfulBaseball.tendencyToys,NervousOnerous.stomachConcentrate(MarkParty.reminiscentTreat));
       }
    }
 }

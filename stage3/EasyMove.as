@@ -4,14 +4,14 @@ package
    {
        
       
-      public var vulgarBoundless:Array;
+      public var inventQueue:Array;
       
       public var butterCool:Array;
       
       public function EasyMove()
       {
-         this.vulgarBoundless = [ForkBit.faintMilky,ForkBit.faintMilky];
-         this.butterCool = [ForkBit.faintMilky,GateLetters.inventQueue(ForkBit.faintMilky)];
+         this.inventQueue = [NervousOnerous.faintMilky(FaithfulBaseball.vulgarBoundless),NervousOnerous.faintMilky(FaithfulBaseball.vulgarBoundless)];
+         this.butterCool = [NervousOnerous.faintMilky(FaithfulBaseball.vulgarBoundless),FaithfulBaseball.vulgarBoundless];
          super();
       }
    }

@@ -15,343 +15,320 @@ package
    import flash.utils.ByteArray;
    import flash.utils.Dictionary;
    
-   public class PunctureAblaze extends KeyBoundary
+   public class PunctureAblaze extends FlowerCrown
    {
       
-      public static const jaggedPowerful:int =  510;
+      public static const pearArmy:int =  510;
       
-      public static const grainDislike1:int =  350;
+      public static const pictureFive:int =  350;
       
-      public static const pictureFive:int =  700;
+      public static const jumbledDisgusting:int =  700;
       
-      public static const memorizeAgreeable:int =  1;
+      public static const grainDislike:int =  1;
       
-      public static const babiesDraconian:int =  2;
+      public static const promiseRambunctious:int =  2;
       
-      public static var engineUnite:PunctureAblaze;
+      public static var fragileTow1:PunctureAblaze;
        
       
-      public var acousticWindy:Boolean = false;
+      public var penitentAlanson1:Boolean = false;
       
-      public var rareArmy:int;
+      public var historyNervous:int;
       
-      public var panickyBomb:Boolean = false;
+      public var branchNoisy:Boolean = false;
       
-      public var cureChivalrous:int;
+      public var modernCheck:int;
       
-      public var pearArmy:int;
+      public var obeisantDebt:int;
       
-      public var onerousComplex:Sprite;
+      public var divisionSincere:Sprite;
       
       public var couleurEnCours:int = 0;
       
-      public var cartMilky:Vector.<AngleNervous>;
+      public var balvankaEggnog:Vector.<AngleNervous>;
       
-      public var discussionSpace:int;
+      public var doublePass:int;
       
-      public var beliefAdvice:int;
+      public var disappearDeadpan:int;
       
-      public var weightGrate:KeyBoundary;
+      public var tabooEdge:FlowerCrown;
       
-      public var changeableFade:TowSuccinct;
+      public var faithfulWealthy:WindyCrown;
       
-      public var agreePipka:Sprite;
+      public var oatmealUncle:Sprite;
       
-      public var unitIncompetent:KeyBoundary;
+      public var unwrittenDivision:FlowerCrown;
       
-      public var obeisantDebt:GrateBoring;
+      public var sleepAdventurous:HesitantOven;
       
-      public var impartialPushy:GrateBoring;
+      public var adExpert:HesitantOven;
       
-      public var thoughtMachine:GrateBoring;
+      public var generalWipe:HesitantOven;
       
-      public var jumbledDisgusting:GrateBoring;
+      public var chickensPenitent:HesitantOven;
       
-      public var amuseDefective:GrateBoring;
+      public var happyOrder:HesitantOven;
       
-      public var branchNoisy:BaseballSpurious;
+      public var angleRay:SquareCalculate;
       
-      public var whisperAdvice:HoseYak;
+      public var joyousOwn:HoseYak;
       
-      public var snakesPinus:Boolean = false;
+      public var bakeCompetition:Boolean = false;
       
-      public var anusHateful:int;
+      public var boundlessCommon:int;
       
-      public var patSmile:DecayGate;
+      public var temperShake:DecayGate;
       
-      public var blotFascinated:KeyBoundary;
+      public var cureWash:FlowerCrown;
       
-      public var noxiousRabbit:Vector.<int>;
+      public var agreePipka:Vector.<int>;
       
-      public var cloisteredStormy:Dictionary;
+      public var vagueWindy:Dictionary;
       
-      public var expertUnit:Dictionary;
+      public var healCondition:Dictionary;
       
       public function PunctureAblaze(param1:int = 0, param2:SpoonCreator = null)
       {
-         var _loc3_:Sprite = null;
          var _loc4_:ColorMatrixFilter = null;
          var _loc5_:HesitantPrice = null;
          var _loc6_:int = 0;
          var _loc7_:int = 0;
          var _loc8_:int = 0;
-         var _loc9_:ScaleBalance = null;
-         this.cartMilky = new Vector.<AngleNervous>();
-         this.discussionSpace = -FrightenUnique.tangySleepy;
-         this.beliefAdvice = GateLetters.alluringTrap(ForkBit.ignorantDaily);
-         this.anusHateful = ForkBit.ignorantDaily;
-         super(PunctureAblaze.jaggedPowerful,PunctureAblaze.grainDislike1);
-         this.panickyBomb = null == param2;
-         PunctureAblaze.engineUnite = this;
-         _loc3_ = new Sprite();
+         var _loc9_:SpoilFill = null;
+         this.balvankaEggnog = new Vector.<AngleNervous>();
+         this.doublePass = -MarkParty.bombCheat;
+         this.disappearDeadpan = FaithfulBaseball.anusHateful;
+         this.boundlessCommon = NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful);
+         super(PunctureAblaze.pearArmy,PunctureAblaze.pictureFive);
+         this.branchNoisy = null == param2;
+         PunctureAblaze.fragileTow1 = this;
+         var _loc3_:Sprite = new Sprite();
          _loc3_.graphics.beginFill(15262149);
-         _loc3_.graphics.drawRoundRect(GateLetters.alluringTrap(ForkBit.ignorantDaily),ForkBit.ignorantDaily,PunctureAblaze.jaggedPowerful,PunctureAblaze.grainDislike1,ChinSnakes.subduedPlough);
+         _loc3_.graphics.drawRoundRect(NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful),FaithfulBaseball.anusHateful,PunctureAblaze.pearArmy,PunctureAblaze.pictureFive,NervousOnerous.teachingOptimal(SistersRedundant.weightSpoon));
          _loc3_.graphics.endFill();
          addChild(_loc3_);
-         this.anusHateful = param1;
-         this.patSmile = DecayGate.stiffToe(param1);
-         if(this.patSmile)
+         this.boundlessCommon = param1;
+         this.temperShake = DecayGate.weightParty(param1);
+         if(this.temperShake)
          {
-            addChild(DeliverTasty.wretchedOrder(FourYell.historyNervous + this.patSmile.url));
+            addChild(DeliverTasty.unknownBabies(JellyCry.cureChivalrous + this.temperShake.url));
          }
-         this.onerousComplex = new Sprite();
-         this.onerousComplex.mouseEnabled = AmuseFrighten.disturbedSupply;
-         this.onerousComplex.mouseChildren = AmuseFrighten.disturbedSupply;
-         this.onerousComplex.graphics.lineStyle(ToothpasteCloistered.sockChilly,this.couleurEnCours);
-         addChild(this.onerousComplex);
-         this.unitIncompetent = new KeyBoundary(GateLetters.alluringTrap(FranticCrook.wateryDescribe));
-         this.unitIncompetent.puzzledStiff(new TripBetter(HystericalBetter.saltApathetic,GateLetters.alluringTrap(MarkEvasive.coolFree)));
-         this.obeisantDebt = new RoomBeautiful(GateLetters.teachingOptimal(KnowledgeLate.staleSteer),ToothpasteCloistered.delicateKittens,ToothpasteCloistered.delicateKittens);
-         this.obeisantDebt.prepareLegs(this.nearPoison);
-         this.unitIncompetent.afternoonMark(this.obeisantDebt);
-         if(this.panickyBomb)
+         this.divisionSincere = new Sprite();
+         this.divisionSincere.mouseEnabled = NarrowPlants.personAnnoying;
+         this.divisionSincere.mouseChildren = NarrowPlants.personAnnoying;
+         this.divisionSincere.graphics.lineStyle(SupplyMountain.summerZip,this.couleurEnCours);
+         addChild(this.divisionSincere);
+         this.unwrittenDivision = new FlowerCrown(SpaceIdea.subduedPlough);
+         this.unwrittenDivision.whisperAdvice(new NeighborlyTrap(HystericalBetter.delicateKittens,MarkParty.wastefulDeliver));
+         this.sleepAdventurous = new LegJoke(IdeaTeeny.legsUtopian,KnotModern.patSmile,NervousOnerous.teachingOptimal(KnotModern.patSmile));
+         this.sleepAdventurous.windToothpaste(this.shockingRecord);
+         this.unwrittenDivision.bearDock(this.sleepAdventurous);
+         if(this.branchNoisy)
          {
-            this.thoughtMachine = new RoomBeautiful(GateLetters.teachingOptimal(ExpansionTour.measureDiscussion),ToothpasteCloistered.delicateKittens,GateLetters.alluringTrap(ToothpasteCloistered.delicateKittens));
-            this.thoughtMachine.prepareLegs(this.windyHysterical);
-            this.amuseDefective = new RoomBeautiful(GateLetters.teachingOptimal(OrangeUnequal.promiseRambunctious),ToothpasteCloistered.delicateKittens,GateLetters.alluringTrap(ToothpasteCloistered.delicateKittens));
-            this.amuseDefective.prepareLegs(this.ajarFrantic);
-            this.jumbledDisgusting = new RoomBeautiful(GateLetters.teachingOptimal(HarmonyVeil.spikySave),ToothpasteCloistered.delicateKittens,GateLetters.alluringTrap(ToothpasteCloistered.delicateKittens));
-            this.jumbledDisgusting.prepareLegs(this.jarBabies);
-            if(ClassStormy.gateMountain < MarkEvasive.coolFree)
+            this.generalWipe = new LegJoke(KneelDaily.teachingContain,NervousOnerous.teachingOptimal(KnotModern.patSmile),NervousOnerous.teachingOptimal(KnotModern.patSmile));
+            this.generalWipe.windToothpaste(this.noxiousTeeny);
+            this.happyOrder = new LegJoke(BalanceSecret.noxiousRabbit,KnotModern.patSmile,NervousOnerous.teachingOptimal(KnotModern.patSmile));
+            this.happyOrder.windToothpaste(this.adviceToy);
+            this.chickensPenitent = new LegJoke(IdeaReal.branchPaltry,KnotModern.patSmile,NervousOnerous.teachingOptimal(KnotModern.patSmile));
+            this.chickensPenitent.windToothpaste(this.puzzledStiff);
+            if(MarkParty.wastefulDeliver > TrousersLimit.whisperFaint)
             {
-               this.unitIncompetent.afternoonMark(this.thoughtMachine,this.jumbledDisgusting);
+               this.unwrittenDivision.bearDock(this.generalWipe,this.chickensPenitent);
             }
             else
             {
-               this.unitIncompetent.afternoonMark(this.thoughtMachine,this.amuseDefective,this.jumbledDisgusting);
+               this.unwrittenDivision.bearDock(this.generalWipe,this.happyOrder,this.chickensPenitent);
             }
          }
          else
          {
-            this.impartialPushy = new RoomBeautiful(OrangeUnequal.crookUpset,ToothpasteCloistered.delicateKittens,GateLetters.alluringTrap(ToothpasteCloistered.delicateKittens));
-            this.impartialPushy.prepareLegs(this.shockingRecord,param2);
-            this.unitIncompetent.afternoonMark(this.impartialPushy);
+            this.adExpert = new LegJoke(NervousOnerous.toyTrail(MarkParty.afternoonMark),KnotModern.patSmile,KnotModern.patSmile);
+            this.adExpert.windToothpaste(this.catMachine,param2);
+            this.unwrittenDivision.bearDock(this.adExpert);
          }
-         this.unitIncompetent.x = MarkEvasive.coolFree + PunctureAblaze.jaggedPowerful;
-         addChild(this.unitIncompetent);
+         this.unwrittenDivision.x = PunctureAblaze.pearArmy + MarkParty.wastefulDeliver;
+         addChild(this.unwrittenDivision);
          if(param2 != null)
          {
-            if(param2.vivaciousGlamorous.charAt(ForkBit.ignorantDaily) == KnowledgeLate.kittensThick)
+            if(param2.realizeLunasole.charAt(FaithfulBaseball.anusHateful) == NervousOnerous.toyTrail(IdeaTeeny.butterClover))
             {
-               this.agreePipka = DeliverTasty.authorityCart(param2.vivaciousGlamorous,true);
+               this.oatmealUncle = DeliverTasty.programSnotty(param2.realizeLunasole,true);
             }
             else
             {
-               _loc5_ = HesitantPrice.obtainableZonked(param2.vivaciousGlamorous);
-               this.agreePipka = _loc5_.authorityCart();
-               (this.agreePipka as MovieClip).gotoAndStop(GateLetters.alluringTrap(FrightenUnique.tangySleepy));
+               _loc5_ = HesitantPrice.knowledgeDecay(param2.realizeLunasole);
+               this.oatmealUncle = _loc5_.programSnotty();
+               (this.oatmealUncle as MovieClip).gotoAndStop(MarkParty.bombCheat);
             }
-            this.agreePipka.cacheAsBitmap = AmuseFrighten.modernCheck;
-            this.agreePipka.mouseChildren = AmuseFrighten.disturbedSupply;
-            this.agreePipka.x = GateLetters.alluringTrap(ToothpasteCloistered.delicateKittens);
-            this.agreePipka.y = brassSuzuka - AttractiveSugar.windToothpaste;
-            addChild(this.agreePipka);
+            this.oatmealUncle.cacheAsBitmap = NarrowPlants.uncleWind;
+            this.oatmealUncle.mouseChildren = NarrowPlants.personAnnoying;
+            this.oatmealUncle.x = NervousOnerous.teachingOptimal(KnotModern.patSmile);
+            this.oatmealUncle.y = -MarkParty.onerousComplex + kittensThick;
+            addChild(this.oatmealUncle);
             _loc4_ = new ColorMatrixFilter();
-            _loc4_.matrix = new Array(FrightenUnique.tangySleepy / GateLetters.alluringTrap(ToothpasteCloistered.sockChilly),GateLetters.alluringTrap(FrightenUnique.tangySleepy) / GateLetters.alluringTrap(ToothpasteCloistered.sockChilly),FrightenUnique.tangySleepy / ToothpasteCloistered.sockChilly,GateLetters.alluringTrap(ForkBit.ignorantDaily),ForkBit.ignorantDaily,FrightenUnique.tangySleepy / BalanceLoaf.happyNaughty,GateLetters.alluringTrap(FrightenUnique.tangySleepy) / GateLetters.alluringTrap(BalanceLoaf.happyNaughty),FrightenUnique.tangySleepy / BalanceLoaf.happyNaughty,GateLetters.alluringTrap(ForkBit.ignorantDaily),GateLetters.alluringTrap(ForkBit.ignorantDaily),FrightenUnique.tangySleepy / GateLetters.alluringTrap(HarmonyVeil.pinusFour),FrightenUnique.tangySleepy / HarmonyVeil.pinusFour,FrightenUnique.tangySleepy / HarmonyVeil.pinusFour,GateLetters.alluringTrap(ForkBit.ignorantDaily),ForkBit.ignorantDaily,ForkBit.ignorantDaily,ForkBit.ignorantDaily,ForkBit.ignorantDaily,FrightenUnique.tangySleepy,ForkBit.ignorantDaily);
-            this.agreePipka.filters = new Array(_loc4_);
-            this.agreePipka.transform.colorTransform = new ColorTransform(GateLetters.soundCry1(ExpansionTour.agreeableLamp),ExpansionTour.agreeableLamp,ExpansionTour.agreeableLamp);
-            this.changeableFade = new TowSuccinct(param2.boundlessCommon,GateLetters.alluringTrap(ForkBit.ignorantDaily),GateLetters.alluringTrap(AttractiveSugar.windToothpaste),new TextFormat(GateLetters.teachingOptimal(MarkEvasive.summerZip),GateLetters.alluringTrap(ForkBit.enjoyCompetition),15586961,true));
-            this.changeableFade.cacheAsBitmap = AmuseFrighten.modernCheck;
-            this.changeableFade.x = GateLetters.alluringTrap(OrangeUnequal.noxiousTeeny);
-            this.changeableFade.y = brassSuzuka - GateLetters.alluringTrap(AttractiveSugar.windToothpaste);
-            addChild(this.changeableFade);
-            this.onerousComplex.mouseEnabled = AmuseFrighten.modernCheck;
-            this.onerousComplex.addEventListener(AdditionVague.branchPaltry,this.seriousBlush);
-            _loc3_.addEventListener(AdditionVague.branchPaltry,this.seriousBlush);
-            if(ForkBit.ignorantDaily < param2.distroHarbor.length)
+            _loc4_.matrix = new Array(MarkParty.bombCheat / SupplyMountain.summerZip,MarkParty.bombCheat / NervousOnerous.teachingOptimal(SupplyMountain.summerZip),MarkParty.bombCheat / NervousOnerous.teachingOptimal(SupplyMountain.summerZip),NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful),FaithfulBaseball.anusHateful,MarkParty.bombCheat / NervousOnerous.teachingOptimal(MarkParty.chivalrousGrotesque),NervousOnerous.teachingOptimal(MarkParty.bombCheat) / NervousOnerous.teachingOptimal(MarkParty.chivalrousGrotesque),MarkParty.bombCheat / NervousOnerous.teachingOptimal(MarkParty.chivalrousGrotesque),NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful),NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful),MarkParty.bombCheat / NervousOnerous.teachingOptimal(SpaceIdea.engineUnite),NervousOnerous.teachingOptimal(MarkParty.bombCheat) / NervousOnerous.teachingOptimal(SpaceIdea.engineUnite),MarkParty.bombCheat / SpaceIdea.engineUnite,NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful),FaithfulBaseball.anusHateful,FaithfulBaseball.anusHateful,NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful),NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful),NervousOnerous.teachingOptimal(MarkParty.bombCheat),FaithfulBaseball.anusHateful);
+            this.oatmealUncle.filters = new Array(_loc4_);
+            this.oatmealUncle.transform.colorTransform = new ColorTransform(NervousOnerous.retireSpurious(OrangesQueue.panickyJar),NervousOnerous.retireSpurious(OrangesQueue.panickyJar),NervousOnerous.retireSpurious(OrangesQueue.panickyJar));
+            this.faithfulWealthy = new WindyCrown(param2.amuseDefective,FaithfulBaseball.anusHateful,NervousOnerous.teachingOptimal(MarkParty.onerousComplex),new TextFormat(NervousOnerous.toyTrail(KneelDaily.soundCry),NervousOnerous.teachingOptimal(BalanceSecret.weightGrate),15586961,true));
+            this.faithfulWealthy.cacheAsBitmap = NarrowPlants.uncleWind;
+            this.faithfulWealthy.x = IdeaReal.cloisteredStormy;
+            this.faithfulWealthy.y = kittensThick - NervousOnerous.teachingOptimal(MarkParty.onerousComplex);
+            addChild(this.faithfulWealthy);
+            this.divisionSincere.mouseEnabled = NarrowPlants.uncleWind;
+            this.divisionSincere.addEventListener(RepulsiveDear.authorityKneel,this.brassSuzuka);
+            _loc3_.addEventListener(NervousOnerous.toyTrail(RepulsiveDear.authorityKneel),this.brassSuzuka);
+            if(param2.rareArmy.length > NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful))
             {
-               this.blotFascinated = new KeyBoundary(usedThrill,GateLetters.alluringTrap(FranticCrook.wateryDescribe));
-               this.blotFascinated.wrenInstinctive(HystericalBetter.penitentAlanson,GateLetters.alluringTrap(HarmonyVeil.pinusFour));
-               _loc6_ = ForkBit.ignorantDaily;
-               while(_loc6_ < param2.distroHarbor.length)
+               this.cureWash = new FlowerCrown(enjoyCompetition,SpaceIdea.subduedPlough);
+               this.cureWash.agreeableLamp(HystericalBetter.jarBabies1,NervousOnerous.teachingOptimal(SpaceIdea.engineUnite));
+               _loc6_ = NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful);
+               while(_loc6_ < param2.rareArmy.length)
                {
-                  _loc7_ = param2.distroHarbor[_loc6_][ForkBit.ignorantDaily];
-                  _loc8_ = param2.distroHarbor[_loc6_][GateLetters.alluringTrap(FrightenUnique.tangySleepy)];
-                  _loc9_ = ScaleBalance.authorityCart(_loc7_,_loc8_,false,true);
-                  _loc9_.prepareLegs(this.personAnnoying,_loc9_);
-                  this.blotFascinated.afternoonMark(_loc9_);
+                  _loc7_ = param2.rareArmy[_loc6_][NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful)];
+                  _loc8_ = param2.rareArmy[_loc6_][MarkParty.bombCheat];
+                  _loc9_ = SpoilFill.programSnotty(_loc7_,_loc8_,false,true);
+                  _loc9_.windToothpaste(this.windyHysterical,_loc9_);
+                  this.cureWash.bearDock(_loc9_);
                   _loc6_++;
                }
-               this.blotFascinated.retireSpurious(this.blotFascinated.weightParty(false),this.blotFascinated.brassSuzuka);
-               this.blotFascinated.y = brassSuzuka - GateLetters.alluringTrap(FranticCrook.wateryDescribe) - GateLetters.alluringTrap(HarmonyVeil.pinusFour);
-               this.blotFascinated.x = usedThrill - ScaleTemper.statementTumble1 - this.blotFascinated.usedThrill;
-               addChild(this.blotFascinated);
+               this.cureWash.unequalCrime(this.cureWash.measureDiscussion(false),this.cureWash.kittensThick);
+               this.cureWash.y = kittensThick - NervousOnerous.teachingOptimal(SpaceIdea.subduedPlough) - NervousOnerous.teachingOptimal(SpaceIdea.engineUnite);
+               this.cureWash.x = enjoyCompetition - NervousOnerous.teachingOptimal(SupplyMountain.inexpensiveJagged) - this.cureWash.enjoyCompetition;
+               addChild(this.cureWash);
             }
          }
          else
          {
-            this.noxiousRabbit = new Vector.<int>();
-            this.cloisteredStormy = new Dictionary();
-            this.expertUnit = new Dictionary();
-            this.blotFascinated = new KeyBoundary(GateLetters.alluringTrap(FranticCrook.wateryDescribe));
-            this.blotFascinated.puzzledStiff(new TripBetter(HystericalBetter.penitentAlanson,GateLetters.alluringTrap(MarkEvasive.coolFree)));
-            this.blotFascinated.y = brassSuzuka - FranticCrook.wateryDescribe - HarmonyVeil.pinusFour;
-            this.blotFascinated.x = ScaleTemper.statementTumble1;
-            addChild(this.blotFascinated);
+            this.agreePipka = new Vector.<int>();
+            this.vagueWindy = new Dictionary();
+            this.healCondition = new Dictionary();
+            this.cureWash = new FlowerCrown(SpaceIdea.subduedPlough);
+            this.cureWash.whisperAdvice(new NeighborlyTrap(HystericalBetter.jarBabies1,NervousOnerous.teachingOptimal(MarkParty.wastefulDeliver)));
+            this.cureWash.y = kittensThick - NervousOnerous.teachingOptimal(SpaceIdea.subduedPlough) - NervousOnerous.teachingOptimal(SpaceIdea.engineUnite);
+            this.cureWash.x = SupplyMountain.inexpensiveJagged;
+            addChild(this.cureWash);
          }
-         addEventListener(KnowledgeLate.poisedThunder,this.basketBasin);
-         if(this.panickyBomb)
+         addEventListener(NervousOnerous.toyTrail(NervousPromise.inexpensiveDazzling),this.cartMilky);
+         if(this.branchNoisy)
          {
-            addEventListener(AdditionVague.branchPaltry,this.vagueWindy);
+            addEventListener(NervousOnerous.toyTrail(RepulsiveDear.authorityKneel),this.basketBasin);
          }
-         x = int((DivergentDinner.wastefulDeliver - PunctureAblaze.jaggedPowerful) / GateLetters.alluringTrap(ToothpasteCloistered.sockChilly));
-         y = ExoticMemorize.sleepAdventurous;
-         if(!this.panickyBomb)
+         x = int((SandTedious.memorizeAgreeable - PunctureAblaze.pearArmy) / NervousOnerous.teachingOptimal(SupplyMountain.summerZip));
+         y = PleaseFour.crookUpset;
+         if(!this.branchNoisy)
          {
-            this.authorityInstruct(param2.cartMilky.slice(GateLetters.alluringTrap(ForkBit.ignorantDaily)));
+            this.funnyUninterested(param2.balvankaEggnog.slice(NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful)));
          }
       }
       
-      public static function inexpensiveDazzling() : Boolean
+      public static function coolFree(param1:int) : void
       {
-         return PunctureAblaze.engineUnite.panickyBomb;
-      }
-      
-      public static function whisperFaint() : Boolean
-      {
-         return PunctureAblaze.engineUnite && PunctureAblaze.engineUnite.parent;
-      }
-      
-      public static function wrenGullible(param1:int = 0, param2:SpoonCreator = null) : void
-      {
-         if(PunctureAblaze.engineUnite && PunctureAblaze.engineUnite.parent)
-         {
-            PunctureAblaze.engineUnite.parent.removeChild(PunctureAblaze.engineUnite);
-         }
-         KnowledgeHarmony.wrenGullible(false);
-         EasyDoctor.repeatBlot(new PunctureAblaze(param1,param2));
-      }
-      
-      public static function divisionSincere(param1:int) : void
-      {
-         if(!PunctureAblaze.engineUnite || !PunctureAblaze.engineUnite.panickyBomb)
+         if(!PunctureAblaze.fragileTow1 || !PunctureAblaze.fragileTow1.branchNoisy)
          {
             return;
          }
-         var _loc2_:InventVeil = InventVeil.bearDock(param1);
-         if(!_loc2_.violetDelicate || _loc2_.lampWasteful)
+         var _loc2_:FarmPipka = FarmPipka.wretchedOrder(param1);
+         if(!_loc2_.incompetentUnite || _loc2_.panickyBomb)
          {
             return;
          }
-         if(PunctureAblaze.engineUnite.noxiousRabbit.indexOf(param1) == -FrightenUnique.tangySleepy)
+         if(PunctureAblaze.fragileTow1.agreePipka.indexOf(param1) == -MarkParty.bombCheat)
          {
-            if(PunctureAblaze.engineUnite.noxiousRabbit.length >= GateLetters.alluringTrap(MarkEvasive.coolFree))
+            if(NervousOnerous.teachingOptimal(MarkParty.wastefulDeliver) <= PunctureAblaze.fragileTow1.agreePipka.length)
             {
                return;
             }
-            PunctureAblaze.engineUnite.noxiousRabbit.push(param1);
+            PunctureAblaze.fragileTow1.agreePipka.push(param1);
          }
-         var _loc3_:int = (PunctureAblaze.engineUnite.cloisteredStormy[_loc2_.hocLackadaisical] || GateLetters.alluringTrap(ForkBit.ignorantDaily)) + (!!AgreeStrengthen.knowledgeDecay?GateLetters.alluringTrap(RequestCactus.funnyUninterested):FrightenUnique.tangySleepy);
-         _loc3_ = Math.min(PurposeAbsurd.oatmealUncle(_loc2_.hocLackadaisical),_loc3_);
-         PunctureAblaze.engineUnite.cloisteredStormy[_loc2_.hocLackadaisical] = _loc3_;
-         var _loc4_:ScaleBalance = PunctureAblaze.engineUnite.expertUnit[_loc2_.hocLackadaisical];
+         var _loc3_:int = (PunctureAblaze.fragileTow1.vagueWindy[_loc2_.lampWasteful] || NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful)) + (!!AgreeStrengthen.babiesDraconian?NervousPromise.usedThrill:MarkParty.bombCheat);
+         _loc3_ = Math.min(EasyJar.knowledgePathetic(_loc2_.lampWasteful),_loc3_);
+         PunctureAblaze.fragileTow1.vagueWindy[_loc2_.lampWasteful] = _loc3_;
+         var _loc4_:SpoilFill = PunctureAblaze.fragileTow1.healCondition[_loc2_.lampWasteful];
          if(!_loc4_)
          {
-            _loc4_ = PurposeAbsurd.unwrittenShoe(_loc2_.hocLackadaisical,false,true);
-            _loc4_.prepareLegs(PunctureAblaze.whiteRailway,_loc2_.hocLackadaisical);
-            PunctureAblaze.engineUnite.expertUnit[_loc2_.hocLackadaisical] = _loc4_;
+            _loc4_ = EasyJar.acousticWindy(_loc2_.lampWasteful,false,true);
+            _loc4_.windToothpaste(PunctureAblaze.nearPoison,_loc2_.lampWasteful);
+            PunctureAblaze.fragileTow1.healCondition[_loc2_.lampWasteful] = _loc4_;
          }
-         _loc4_.balvankaEggnog(_loc3_);
+         _loc4_.statementTumble(_loc3_);
          if(!_loc4_.parent)
          {
-            PunctureAblaze.engineUnite.blotFascinated.afternoonMark(_loc4_);
+            PunctureAblaze.fragileTow1.cureWash.bearDock(_loc4_);
          }
-         KnowledgeHarmony.engineUnite.panickyJar();
+         ZincSmile.fragileTow1.roomSpoon();
       }
       
-      public static function checkDescribe(param1:int) : int
+      public static function changeableFade(param1:int = 0, param2:SpoonCreator = null) : void
       {
-         var _loc2_:int = int(PunctureAblaze.engineUnite.cloisteredStormy[param1]) || int(ForkBit.ignorantDaily);
-         if(PunctureAblaze.engineUnite.patSmile && PunctureAblaze.engineUnite.patSmile.chivalrousGrotesque == param1)
+         if(PunctureAblaze.fragileTow1 && PunctureAblaze.fragileTow1.parent)
          {
-            _loc2_ = _loc2_ + FrightenUnique.tangySleepy;
+            PunctureAblaze.fragileTow1.parent.removeChild(PunctureAblaze.fragileTow1);
          }
-         return _loc2_;
+         ZincSmile.changeableFade(false);
+         SteerEar.unitIncompetent(new PunctureAblaze(param1,param2));
       }
       
-      public static function whiteRailway(param1:int) : void
+      public static function basinDislike1() : Boolean
+      {
+         return PunctureAblaze.fragileTow1 && PunctureAblaze.fragileTow1.parent;
+      }
+      
+      public static function nearPoison(param1:int) : void
       {
          var _loc4_:int = 0;
          var _loc5_:int = 0;
          var _loc6_:int = 0;
-         if(!PunctureAblaze.engineUnite || !PunctureAblaze.engineUnite.panickyBomb)
+         if(!PunctureAblaze.fragileTow1 || !PunctureAblaze.fragileTow1.branchNoisy)
          {
             return;
          }
-         if(!PunctureAblaze.engineUnite.cloisteredStormy[param1])
+         if(!PunctureAblaze.fragileTow1.vagueWindy[param1])
          {
             return;
          }
-         var _loc2_:int = PunctureAblaze.engineUnite.cloisteredStormy[param1] - (!!AgreeStrengthen.knowledgeDecay?GateLetters.alluringTrap(RequestCactus.funnyUninterested):FrightenUnique.tangySleepy);
-         PunctureAblaze.engineUnite.cloisteredStormy[param1] = _loc2_;
-         var _loc3_:ScaleBalance = PunctureAblaze.engineUnite.expertUnit[param1];
-         if(GateLetters.alluringTrap(ForkBit.ignorantDaily) >= _loc2_)
+         var _loc2_:int = PunctureAblaze.fragileTow1.vagueWindy[param1] - (!!AgreeStrengthen.babiesDraconian?NervousOnerous.teachingOptimal(NervousPromise.usedThrill):MarkParty.bombCheat);
+         PunctureAblaze.fragileTow1.vagueWindy[param1] = _loc2_;
+         var _loc3_:SpoilFill = PunctureAblaze.fragileTow1.healCondition[param1];
+         if(NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful) >= _loc2_)
          {
-            delete PunctureAblaze.engineUnite.cloisteredStormy[param1];
-            _loc4_ = PunctureAblaze.engineUnite.noxiousRabbit.indexOf(param1);
-            if(_loc4_ != -GateLetters.alluringTrap(FrightenUnique.tangySleepy))
+            delete PunctureAblaze.fragileTow1.vagueWindy[param1];
+            _loc4_ = PunctureAblaze.fragileTow1.agreePipka.indexOf(param1);
+            if(_loc4_ != -NervousOnerous.teachingOptimal(MarkParty.bombCheat))
             {
-               PunctureAblaze.engineUnite.noxiousRabbit.splice(_loc4_,GateLetters.alluringTrap(FrightenUnique.tangySleepy));
+               PunctureAblaze.fragileTow1.agreePipka.splice(_loc4_,MarkParty.bombCheat);
             }
-            PunctureAblaze.engineUnite.blotFascinated.adExpert();
-            _loc5_ = GateLetters.alluringTrap(ForkBit.ignorantDaily);
-            while(_loc5_ < PunctureAblaze.engineUnite.noxiousRabbit.length)
+            PunctureAblaze.fragileTow1.cureWash.alluringTrap();
+            _loc5_ = FaithfulBaseball.anusHateful;
+            while(_loc5_ < PunctureAblaze.fragileTow1.agreePipka.length)
             {
-               _loc6_ = PunctureAblaze.engineUnite.noxiousRabbit[_loc5_];
-               PunctureAblaze.engineUnite.blotFascinated.afternoonMark(PunctureAblaze.engineUnite.expertUnit[_loc6_]);
+               _loc6_ = PunctureAblaze.fragileTow1.agreePipka[_loc5_];
+               PunctureAblaze.fragileTow1.cureWash.bearDock(PunctureAblaze.fragileTow1.healCondition[_loc6_]);
                _loc5_++;
             }
          }
          else
          {
-            _loc3_.balvankaEggnog(_loc2_);
+            _loc3_.statementTumble(_loc2_);
          }
-         KnowledgeHarmony.engineUnite.panickyJar();
+         ZincSmile.fragileTow1.roomSpoon();
       }
       
-      public function orangeGate() : void
+      public static function spikySave(param1:int) : int
       {
-         var _loc1_:String = null;
-         if(this.branchNoisy.gapingWipe())
+         var _loc2_:int = int(PunctureAblaze.fragileTow1.vagueWindy[param1]) || int(FaithfulBaseball.anusHateful);
+         if(PunctureAblaze.fragileTow1.temperShake && PunctureAblaze.fragileTow1.temperShake.authorityCart == param1)
          {
-            this.whisperAdvice.adviceToy(false);
+            _loc2_ = _loc2_ + MarkParty.bombCheat;
          }
-         else
-         {
-            _loc1_ = this.branchNoisy.whipBlush.text;
-            this.whisperAdvice.adviceToy(TeenyRightful.authorityKneel(_loc1_,true));
-         }
+         return _loc2_;
       }
       
-      public function unknownBabies() : void
+      public static function discussionSpace() : Boolean
       {
-         if(this.weightGrate && this.weightGrate.parent)
-         {
-            this.weightGrate.parent.removeChild(this.weightGrate);
-         }
+         return PunctureAblaze.fragileTow1.branchNoisy;
       }
       
-      public function basketBasin(param1:Event) : void
+      public function cartMilky(param1:Event) : void
       {
          var _loc3_:AngleNervous = null;
          var _loc4_:Number = NaN;
@@ -360,51 +337,51 @@ package
          var _loc7_:AngleNervous = null;
          if(!stage)
          {
-            removeEventListener(KnowledgeLate.poisedThunder,this.basketBasin);
-            ChopEngine.engineUnite.cloisteredStory.removeEventListener(MouseEvent.MOUSE_UP,this.generalWipe);
+            removeEventListener(NervousOnerous.toyTrail(NervousPromise.inexpensiveDazzling),this.cartMilky);
+            ChopEngine.fragileTow1.beliefAdvice.removeEventListener(MouseEvent.MOUSE_UP,this.poisedThunder);
             return;
          }
-         var _loc2_:int = ChopEngine.cureWash();
-         if(this.panickyBomb && this.acousticWindy && _loc2_ > this.rareArmy)
+         var _loc2_:int = ChopEngine.squareZippy();
+         if(this.branchNoisy && this.penitentAlanson1 && _loc2_ > this.historyNervous)
          {
-            if(GateLetters.alluringTrap(KnowledgeLate.bakeCompetition) > this.beliefAdvice)
+            if(this.disappearDeadpan < NervousOnerous.teachingOptimal(PleaseFour.expertUnit))
             {
-               if(!this.weightGrate || !this.weightGrate.parent)
+               if(!this.tabooEdge || !this.tabooEdge.parent)
                {
-                  this.rareArmy = PunctureAblaze.memorizeAgreeable + _loc2_;
-                  _loc3_ = new AngleNervous(this.onerousComplex[GateLetters.teachingOptimal(HarmonyVeil.knowledgePathetic)],this.onerousComplex[FrightenUnique.fragileTow],false);
-                  _loc4_ = DailyCold.basinDislike(this.cureChivalrous,this.pearArmy,_loc3_.toyTrail,_loc3_.inexpensiveJagged);
-                  if(_loc4_ > PunctureAblaze.babiesDraconian)
+                  this.historyNervous = _loc2_ + PunctureAblaze.grainDislike;
+                  _loc3_ = new AngleNervous(this.divisionSincere[FaithfulVoracious.trainsWhite],this.divisionSincere[NervousOnerous.toyTrail(PleaseFour.seriousBlush1)],false);
+                  _loc4_ = OrangeDecay.disturbedSupply(this.modernCheck,this.obeisantDebt,_loc3_.tangySleepy,_loc3_.vivaciousGlamorous);
+                  if(PunctureAblaze.promiseRambunctious < _loc4_)
                   {
-                     this.onerousComplex.graphics.lineTo(_loc3_.toyTrail,_loc3_.inexpensiveJagged);
-                     this.cureChivalrous = _loc3_.toyTrail;
-                     this.pearArmy = _loc3_.inexpensiveJagged;
-                     _loc3_.separateGreedy = ChopEngine.cureWash() - this.discussionSpace;
-                     this.cartMilky.push(_loc3_);
-                     this.beliefAdvice = this.beliefAdvice + MarkEvasive.coolFree;
+                     this.divisionSincere.graphics.lineTo(_loc3_.tangySleepy,_loc3_.vivaciousGlamorous);
+                     this.modernCheck = _loc3_.tangySleepy;
+                     this.obeisantDebt = _loc3_.vivaciousGlamorous;
+                     _loc3_.wateryDescribe = ChopEngine.squareZippy() - this.doublePass;
+                     this.balvankaEggnog.push(_loc3_);
+                     this.disappearDeadpan = this.disappearDeadpan + NervousOnerous.teachingOptimal(MarkParty.wastefulDeliver);
                   }
                }
             }
          }
-         if(!this.panickyBomb)
+         if(!this.branchNoisy)
          {
-            _loc5_ = !!this.snakesPinus?int(GateLetters.alluringTrap(HarmonyVeil.pinusFour)):int(FrightenUnique.tangySleepy);
-            _loc6_ = ForkBit.ignorantDaily;
+            _loc5_ = !!this.bakeCompetition?int(SpaceIdea.engineUnite):int(MarkParty.bombCheat);
+            _loc6_ = NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful);
             while(_loc6_ < _loc5_)
             {
-               if(ForkBit.ignorantDaily < this.cartMilky.length)
+               if(this.balvankaEggnog.length > NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful))
                {
-                  _loc7_ = this.cartMilky[ForkBit.ignorantDaily];
-                  if(this.snakesPinus || _loc7_.separateGreedy < ChopEngine.cureWash() - this.discussionSpace)
+                  _loc7_ = this.balvankaEggnog[NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful)];
+                  if(this.bakeCompetition || _loc7_.wateryDescribe < ChopEngine.squareZippy() - this.doublePass)
                   {
-                     this.cartMilky.shift();
-                     if(_loc7_.bombCheat1)
+                     this.balvankaEggnog.shift();
+                     if(_loc7_.secretCrooked)
                      {
-                        this.onerousComplex.graphics.moveTo(_loc7_.toyTrail,_loc7_.inexpensiveJagged);
+                        this.divisionSincere.graphics.moveTo(_loc7_.tangySleepy,_loc7_.vivaciousGlamorous);
                      }
                      else
                      {
-                        this.onerousComplex.graphics.lineTo(_loc7_.toyTrail,_loc7_.inexpensiveJagged);
+                        this.divisionSincere.graphics.lineTo(_loc7_.tangySleepy,_loc7_.vivaciousGlamorous);
                      }
                   }
                }
@@ -413,165 +390,73 @@ package
          }
       }
       
-      public function nearPoison() : void
+      public function colorFork() : void
       {
-         this.personAnnoying(this);
-         if(this.panickyBomb)
-         {
-            KnowledgeHarmony.wrenGullible(false);
-         }
-      }
-      
-      public function angleRay() : ByteArray
-      {
-         var _loc4_:int = 0;
-         var _loc1_:ByteArray = new ByteArray();
-         var _loc2_:int = -FrightenUnique.tangySleepy;
-         var _loc3_:int = this.noxiousRabbit.length;
-         _loc1_.writeByte(_loc3_);
-         while(++_loc2_ < _loc3_)
-         {
-            _loc4_ = this.noxiousRabbit[_loc2_];
-            _loc1_.writeInt(_loc4_);
-            _loc1_.writeByte(int(this.cloisteredStormy[_loc4_]) || int(ForkBit.ignorantDaily));
-         }
-         return _loc1_;
-      }
-      
-      public function seriousBlush(param1:Event) : void
-      {
-         if(!this.panickyBomb)
-         {
-            this.snakesPinus = !this.snakesPinus;
-         }
-      }
-      
-      public function shockingRecord(param1:SpoonCreator) : void
-      {
-         var _loc13_:AngleNervous = null;
-         var _loc2_:KeyBoundary = new KeyBoundary(usedThrill,brassSuzuka);
-         var _loc3_:DecayGate = DecayGate.stiffToe(this.anusHateful);
-         if(_loc3_)
-         {
-            _loc2_.addChild(DeliverTasty.wretchedOrder(FourYell.historyNervous + _loc3_.url));
-         }
-         var _loc4_:Sprite = new Sprite();
-         _loc4_.mouseEnabled = AmuseFrighten.disturbedSupply;
-         _loc4_.mouseChildren = AmuseFrighten.disturbedSupply;
-         _loc4_.graphics.lineStyle(ToothpasteCloistered.sockChilly,this.couleurEnCours);
-         _loc2_.addChild(_loc4_);
-         _loc2_.addChild(this.agreePipka);
-         _loc2_.addChild(this.changeableFade);
-         var _loc5_:int = GateLetters.alluringTrap(ForkBit.ignorantDaily);
-         while(_loc5_ < param1.cartMilky.length)
-         {
-            _loc13_ = param1.cartMilky[_loc5_];
-            if(_loc13_.bombCheat1)
-            {
-               _loc4_.graphics.moveTo(_loc13_.toyTrail,_loc13_.inexpensiveJagged);
-            }
-            else
-            {
-               _loc4_.graphics.lineTo(_loc13_.toyTrail,_loc13_.inexpensiveJagged);
-            }
-            _loc5_++;
-         }
-         var _loc6_:Rectangle = _loc2_.getRect(_loc2_);
-         var _loc7_:BitmapData = new BitmapData(_loc2_.usedThrill,_loc2_.brassSuzuka,true,ForkBit.ignorantDaily);
-         var _loc8_:Matrix = new Matrix();
-         _loc8_.translate(-_loc6_.x,-_loc6_.y);
-         _loc7_.draw(_loc2_,_loc8_);
-         var _loc9_:FileReference = new FileReference();
-         var _loc10_:Date = new Date();
-         var _loc11_:String = _loc10_.getDate() < GateLetters.alluringTrap(RequestCactus.funnyUninterested)?GateLetters.teachingOptimal(AdditionVague.deservePlough) + _loc10_.getDate():String(_loc10_.getDate());
-         var _loc12_:String = _loc10_.getMonth() + GateLetters.alluringTrap(FrightenUnique.tangySleepy) < GateLetters.alluringTrap(RequestCactus.funnyUninterested)?AdditionVague.deservePlough + (_loc10_.getMonth() + FrightenUnique.tangySleepy):String(_loc10_.getMonth() + FrightenUnique.tangySleepy);
-         _loc9_.save(DiscussionArmy.healCondition(_loc7_),GateLetters.teachingOptimal(ChinSnakes.realizeLunasole) + (param1 != null?param1.boundlessCommon + ExpansionTour.catMachine:GateLetters.teachingOptimal(ScaleTemper.chickensPenitent)) + _loc10_.getFullYear() + GateLetters.teachingOptimal(ExoticMemorize.doublePass) + _loc12_ + ExoticMemorize.doublePass + _loc11_ + GateLetters.teachingOptimal(ToothpasteCloistered.unequalCrime));
-         addChild(this.agreePipka);
-         addChild(this.changeableFade);
-      }
-      
-      public function personAnnoying(param1:DisplayObject) : void
-      {
-         if(param1 && param1.parent)
-         {
-            param1.parent.removeChild(param1);
-         }
-      }
-      
-      public function authorityInstruct(param1:Vector.<AngleNervous>) : void
-      {
-         this.panickyBomb = AmuseFrighten.disturbedSupply;
-         this.cartMilky = param1;
-         this.discussionSpace = ChopEngine.cureWash();
-         this.onerousComplex.graphics.clear();
-         this.onerousComplex.graphics.lineStyle(ToothpasteCloistered.sockChilly,this.couleurEnCours);
-      }
-      
-      public function windyHysterical() : void
-      {
-         this.cartMilky = new Vector.<AngleNervous>();
-         this.onerousComplex.graphics.clear();
-         this.onerousComplex.graphics.lineStyle(GateLetters.alluringTrap(ToothpasteCloistered.sockChilly),this.couleurEnCours);
-         this.discussionSpace = -GateLetters.alluringTrap(FrightenUnique.tangySleepy);
-         this.beliefAdvice = ForkBit.ignorantDaily;
-      }
-      
-      public function generalWipe(param1:Event) : void
-      {
-         ChopEngine.engineUnite.cloisteredStory.removeEventListener(RequestCactus.butterClover,this.generalWipe);
-         this.acousticWindy = AmuseFrighten.disturbedSupply;
-      }
-      
-      public function uncleWind() : ByteArray
-      {
-         var _loc4_:AngleNervous = null;
-         var _loc1_:ByteArray = new ByteArray();
-         var _loc2_:int = -GateLetters.alluringTrap(FrightenUnique.tangySleepy);
-         var _loc3_:int = this.cartMilky.length;
-         while(++_loc2_ < _loc3_)
-         {
-            _loc4_ = this.cartMilky[_loc2_];
-            _loc1_.writeByte(_loc4_.toyTrail / ToothpasteCloistered.sockChilly);
-            _loc1_.writeByte(_loc4_.inexpensiveJagged / ToothpasteCloistered.sockChilly);
-            _loc1_.writeBoolean(_loc4_.bombCheat1);
-            _loc1_.writeShort(_loc4_.separateGreedy / RequestCactus.funnyUninterested);
-         }
-         return _loc1_;
-      }
-      
-      public function cuteTiresome(param1:Event) : void
-      {
-         this.authorityInstruct(this.cartMilky.slice());
-      }
-      
-      public function faithfulWealthy(param1:Sprite) : void
-      {
-         this.nearPoison();
-         SleepTasty.gruesomeStale(param1,GateLetters.alluringTrap(FranticCrook.tabooEdge),EasyAbaft.legsUtopian,ForkBit.ignorantDaily,this.wrathfulAction,param1).incompetentUnite(param1.x,DivergentDinner.wastefulDeliver);
-      }
-      
-      public function ajarFrantic() : void
-      {
-         KnowledgeHarmony.wrenGullible(true,KnowledgeHarmony.annoyingInvite);
-      }
-      
-      public function clammyMessy() : void
-      {
-         this.orangeGate();
-         if(!this.whisperAdvice.temperShake())
+         this.staleSteer();
+         if(!this.joyousOwn.blotFascinated())
          {
             return;
          }
-         var _loc1_:String = this.branchNoisy.whipBlush.text;
-         this.branchNoisy.whipBlush.text = GateLetters.teachingOptimal(ScaleTemper.chickensPenitent);
+         var _loc1_:String = this.angleRay.jaggedPowerful.text;
+         this.angleRay.jaggedPowerful.text = NervousOnerous.toyTrail(PleaseFour.annoyingInvite);
          if(_loc1_)
          {
-            WantWoman.weightSpoon1.jarBabies(LipAwake.trainsWhite(_loc1_,this.anusHateful,this.uncleWind(),this.angleRay()));
-            this.roomSpoon();
+            WantWoman.clammyMessy.puzzledStiff(BetterEnergetic.distroHarbor1(_loc1_,this.boundlessCommon,this.cuteTiresome(),this.sockChilly1()));
+            this.wrathfulAction();
          }
       }
       
-      public function wrathfulAction(param1:Sprite) : void
+      public function puzzledStiff() : void
+      {
+         if(this.tabooEdge && this.tabooEdge.parent)
+         {
+            this.tabooEdge.parent.removeChild(this.tabooEdge);
+         }
+         this.tabooEdge = new FlowerCrown(OrangesQueue.separateGreedy);
+         this.tabooEdge.whisperAdvice(new NeighborlyTrap(HystericalBetter.delicateKittens,SpaceIdea.engineUnite));
+         this.angleRay = new SquareCalculate(this.tabooEdge.enjoyCompetition);
+         this.angleRay.jaggedPowerful.restrict = ConditionTreat.cloisteredStory;
+         this.angleRay.jaggedPowerful.maxChars = IdeaReal.cloisteredStormy;
+         this.angleRay.whipBlush(NervousOnerous.toyTrail(IdeaTeeny.snakesPinus));
+         this.angleRay.pinusFour1(StayWhip.lunasoleZoo1(NervousOnerous.toyTrail(ActionThrill.ignorantDaily)),false);
+         this.angleRay.happyNaughty(this.colorFork);
+         this.angleRay.obtainableZonked(this.staleSteer);
+         this.tabooEdge.bearDock(this.angleRay);
+         this.joyousOwn = new HoseYak(StayWhip.lunasoleZoo1(NervousOnerous.toyTrail(OrangesQueue.penitentRight)),this.tabooEdge.enjoyCompetition,this.colorFork);
+         this.tabooEdge.bearDock(this.joyousOwn);
+         this.tabooEdge.bearDock(new HoseYak(StayWhip.lunasoleZoo1(IdeaTeeny.ajarFrantic),this.tabooEdge.enjoyCompetition,this.dinnerViolet));
+         this.tabooEdge.gruesomeStale(true,NervousPromise.usedThrill,true);
+         addChild(this.tabooEdge);
+         this.tabooEdge.x = int((enjoyCompetition - this.tabooEdge.enjoyCompetition) / SupplyMountain.summerZip);
+         this.tabooEdge.y = int((kittensThick - this.tabooEdge.kittensThick) / SupplyMountain.summerZip);
+         ChopEngine.fragileTow1.beliefAdvice.focus = this.angleRay.jaggedPowerful;
+         this.staleSteer();
+      }
+      
+      public function funnyUninterested(param1:Vector.<AngleNervous>) : void
+      {
+         this.branchNoisy = NarrowPlants.personAnnoying;
+         this.balvankaEggnog = param1;
+         this.doublePass = ChopEngine.squareZippy();
+         this.divisionSincere.graphics.clear();
+         this.divisionSincere.graphics.lineStyle(SupplyMountain.summerZip,this.couleurEnCours);
+      }
+      
+      public function staleSteer() : void
+      {
+         var _loc1_:String = null;
+         if(this.angleRay.whiteRailway())
+         {
+            this.joyousOwn.saltApathetic(false);
+         }
+         else
+         {
+            _loc1_ = this.angleRay.jaggedPowerful.text;
+            this.joyousOwn.saltApathetic(SteerPossess.slipLook(_loc1_,true));
+         }
+      }
+      
+      public function deservePlough(param1:Sprite) : void
       {
          if(param1.parent)
          {
@@ -579,64 +464,178 @@ package
          }
       }
       
-      public function vagueWindy(param1:Event) : void
+      public function sockChilly1() : ByteArray
+      {
+         var _loc4_:int = 0;
+         var _loc1_:ByteArray = new ByteArray();
+         var _loc2_:int = -MarkParty.bombCheat;
+         var _loc3_:int = this.agreePipka.length;
+         _loc1_.writeByte(_loc3_);
+         while(++_loc2_ < _loc3_)
+         {
+            _loc4_ = this.agreePipka[_loc2_];
+            _loc1_.writeInt(_loc4_);
+            _loc1_.writeByte(int(this.vagueWindy[_loc4_]) || int(FaithfulBaseball.anusHateful));
+         }
+         return _loc1_;
+      }
+      
+      public function basketBasin(param1:Event) : void
       {
          var _loc2_:AngleNervous = null;
-         if(this.panickyBomb)
+         if(this.branchNoisy)
          {
-            if(this.discussionSpace < ForkBit.ignorantDaily)
+            if(this.doublePass < NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful))
             {
-               this.discussionSpace = ChopEngine.cureWash();
+               this.doublePass = ChopEngine.squareZippy();
             }
-            _loc2_ = new AngleNervous(this.onerousComplex[HarmonyVeil.knowledgePathetic],this.onerousComplex[FrightenUnique.fragileTow],true);
-            this.acousticWindy = AmuseFrighten.modernCheck;
-            this.onerousComplex.graphics.moveTo(_loc2_.toyTrail,_loc2_.inexpensiveJagged);
-            this.cureChivalrous = _loc2_.toyTrail;
-            this.pearArmy = _loc2_.inexpensiveJagged;
-            _loc2_.separateGreedy = ChopEngine.cureWash() - this.discussionSpace;
-            this.cartMilky.push(_loc2_);
-            this.beliefAdvice = this.beliefAdvice + MarkEvasive.coolFree;
-            ChopEngine.engineUnite.cloisteredStory.addEventListener(GateLetters.teachingOptimal(RequestCactus.butterClover),this.generalWipe);
+            _loc2_ = new AngleNervous(this.divisionSincere[NervousOnerous.toyTrail(FaithfulVoracious.trainsWhite)],this.divisionSincere[NervousOnerous.toyTrail(PleaseFour.seriousBlush1)],true);
+            this.penitentAlanson1 = NarrowPlants.uncleWind;
+            this.divisionSincere.graphics.moveTo(_loc2_.tangySleepy,_loc2_.vivaciousGlamorous);
+            this.modernCheck = _loc2_.tangySleepy;
+            this.obeisantDebt = _loc2_.vivaciousGlamorous;
+            _loc2_.wateryDescribe = ChopEngine.squareZippy() - this.doublePass;
+            this.balvankaEggnog.push(_loc2_);
+            this.disappearDeadpan = this.disappearDeadpan + NervousOnerous.teachingOptimal(MarkParty.wastefulDeliver);
+            ChopEngine.fragileTow1.beliefAdvice.addEventListener(NervousOnerous.toyTrail(RoomAddition.gateMountain),this.poisedThunder);
          }
       }
       
-      public function jarBabies() : void
+      public function adviceToy() : void
       {
-         if(this.weightGrate && this.weightGrate.parent)
+         ZincSmile.changeableFade(true,ZincSmile.authorityInstruct);
+      }
+      
+      public function cuteTiresome() : ByteArray
+      {
+         var _loc4_:AngleNervous = null;
+         var _loc1_:ByteArray = new ByteArray();
+         var _loc2_:int = -NervousOnerous.teachingOptimal(MarkParty.bombCheat);
+         var _loc3_:int = this.balvankaEggnog.length;
+         while(++_loc2_ < _loc3_)
          {
-            this.weightGrate.parent.removeChild(this.weightGrate);
+            _loc4_ = this.balvankaEggnog[_loc2_];
+            _loc1_.writeByte(_loc4_.tangySleepy / SupplyMountain.summerZip);
+            _loc1_.writeByte(_loc4_.vivaciousGlamorous / SupplyMountain.summerZip);
+            _loc1_.writeBoolean(_loc4_.secretCrooked);
+            _loc1_.writeShort(_loc4_.wateryDescribe / NervousOnerous.teachingOptimal(NervousPromise.usedThrill));
          }
-         this.weightGrate = new KeyBoundary(ExoticMemorize.borrowLip);
-         this.weightGrate.puzzledStiff(new TripBetter(HystericalBetter.saltApathetic,GateLetters.alluringTrap(HarmonyVeil.pinusFour)));
-         this.branchNoisy = new BaseballSpurious(this.weightGrate.usedThrill);
-         this.branchNoisy.whipBlush.restrict = ConditionTreat.squareZippy;
-         this.branchNoisy.whipBlush.maxChars = OrangeUnequal.noxiousTeeny;
-         this.branchNoisy.purposeLock(GateLetters.teachingOptimal(FrightenUnique.slipLook));
-         this.branchNoisy.eyesUtopian(OppositeFive.penitentRight(AttractiveSugar.disappearDeadpan),false);
-         this.branchNoisy.happyOrder(this.clammyMessy);
-         this.branchNoisy.secretCrooked(this.orangeGate);
-         this.weightGrate.afternoonMark(this.branchNoisy);
-         this.whisperAdvice = new HoseYak(OppositeFive.penitentRight(ChinSnakes.dinnerViolet),this.weightGrate.usedThrill,this.clammyMessy);
-         this.weightGrate.afternoonMark(this.whisperAdvice);
-         this.weightGrate.afternoonMark(new HoseYak(OppositeFive.penitentRight(ExpansionTour.teachingContain),this.weightGrate.usedThrill,this.unknownBabies));
-         this.weightGrate.joyousOwn(true,RequestCactus.funnyUninterested,true);
-         addChild(this.weightGrate);
-         this.weightGrate.x = int((-this.weightGrate.usedThrill + usedThrill) / GateLetters.alluringTrap(ToothpasteCloistered.sockChilly));
-         this.weightGrate.y = int((-this.weightGrate.brassSuzuka + brassSuzuka) / GateLetters.alluringTrap(ToothpasteCloistered.sockChilly));
-         ChopEngine.engineUnite.cloisteredStory.focus = this.branchNoisy.whipBlush;
-         this.orangeGate();
+         return _loc1_;
       }
       
-      public function roomSpoon() : void
+      public function shockingRecord() : void
       {
-         var _loc1_:Sprite = DeliverTasty.authorityCart(GateLetters.teachingOptimal(OrangeUnequal.unwrittenDivision));
-         _loc1_.width = PunctureAblaze.jaggedPowerful;
-         _loc1_.height = PunctureAblaze.grainDislike1;
+         this.windyHysterical(this);
+         if(this.branchNoisy)
+         {
+            ZincSmile.changeableFade(false);
+         }
+      }
+      
+      public function catMachine(param1:SpoonCreator) : void
+      {
+         var _loc13_:AngleNervous = null;
+         var _loc2_:FlowerCrown = new FlowerCrown(enjoyCompetition,kittensThick);
+         var _loc3_:DecayGate = DecayGate.weightParty(this.boundlessCommon);
+         if(_loc3_)
+         {
+            _loc2_.addChild(DeliverTasty.unknownBabies(NervousOnerous.toyTrail(JellyCry.cureChivalrous) + _loc3_.url));
+         }
+         var _loc4_:Sprite = new Sprite();
+         _loc4_.mouseEnabled = NarrowPlants.personAnnoying;
+         _loc4_.mouseChildren = NarrowPlants.personAnnoying;
+         _loc4_.graphics.lineStyle(NervousOnerous.teachingOptimal(SupplyMountain.summerZip),this.couleurEnCours);
+         _loc2_.addChild(_loc4_);
+         _loc2_.addChild(this.oatmealUncle);
+         _loc2_.addChild(this.faithfulWealthy);
+         var _loc5_:int = FaithfulBaseball.anusHateful;
+         while(_loc5_ < param1.balvankaEggnog.length)
+         {
+            _loc13_ = param1.balvankaEggnog[_loc5_];
+            if(_loc13_.secretCrooked)
+            {
+               _loc4_.graphics.moveTo(_loc13_.tangySleepy,_loc13_.vivaciousGlamorous);
+            }
+            else
+            {
+               _loc4_.graphics.lineTo(_loc13_.tangySleepy,_loc13_.vivaciousGlamorous);
+            }
+            _loc5_++;
+         }
+         var _loc6_:Rectangle = _loc2_.getRect(_loc2_);
+         var _loc7_:BitmapData = new BitmapData(_loc2_.enjoyCompetition,_loc2_.kittensThick,true,NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful));
+         var _loc8_:Matrix = new Matrix();
+         _loc8_.translate(-_loc6_.x,-_loc6_.y);
+         _loc7_.draw(_loc2_,_loc8_);
+         var _loc9_:FileReference = new FileReference();
+         var _loc10_:Date = new Date();
+         var _loc11_:String = _loc10_.getDate() < NervousOnerous.teachingOptimal(NervousPromise.usedThrill)?SistersRedundant.wrenGullible + _loc10_.getDate():String(_loc10_.getDate());
+         var _loc12_:String = _loc10_.getMonth() + NervousOnerous.teachingOptimal(MarkParty.bombCheat) < NervousOnerous.teachingOptimal(NervousPromise.usedThrill)?NervousOnerous.toyTrail(SistersRedundant.wrenGullible) + (_loc10_.getMonth() + NervousOnerous.teachingOptimal(MarkParty.bombCheat)):String(_loc10_.getMonth() + NervousOnerous.teachingOptimal(MarkParty.bombCheat));
+         _loc9_.save(MetalCompany.gapingWipe(_loc7_),NervousPromise.eyesUtopian + (param1 != null?param1.amuseDefective + SupplyMountain.violetDelicate:PleaseFour.annoyingInvite) + _loc10_.getFullYear() + NervousOnerous.toyTrail(FaithfulVoracious.unwrittenShoe) + _loc12_ + FaithfulVoracious.unwrittenShoe + _loc11_ + NervousOnerous.toyTrail(SpaceIdea.prepareLegs));
+         addChild(this.oatmealUncle);
+         addChild(this.faithfulWealthy);
+      }
+      
+      public function wrathfulAction() : void
+      {
+         var _loc1_:Sprite = DeliverTasty.programSnotty(SandTedious.wrenInstinctive);
+         _loc1_.width = PunctureAblaze.pearArmy;
+         _loc1_.height = PunctureAblaze.pictureFive;
          _loc1_.x = x;
-         _loc1_.y = AttractiveSugar.soundRobin;
-         _loc1_.alpha = ForkBit.ignorantDaily;
-         EasyDoctor.repeatBlot(_loc1_);
-         SleepTasty.gruesomeStale(_loc1_,GateLetters.alluringTrap(FranticCrook.tabooEdge),EasyAbaft.lunasoleZoo,ForkBit.ignorantDaily,this.faithfulWealthy,_loc1_).colorFork(ForkBit.ignorantDaily,FrightenUnique.tangySleepy).programSnotty(_loc1_.y,y);
+         _loc1_.y = BalanceSecret.purposeLock;
+         _loc1_.alpha = NervousOnerous.teachingOptimal(FaithfulBaseball.anusHateful);
+         SteerEar.unitIncompetent(_loc1_);
+         ConfusedPaltry.repeatBlot(_loc1_,MarkParty.borrowLip,ContainSmart.thoughtMachine,FaithfulBaseball.anusHateful,this.checkDescribe,_loc1_).orangeGate(FaithfulBaseball.anusHateful,MarkParty.bombCheat).soundRobin(_loc1_.y,y);
+      }
+      
+      public function poisedThunder(param1:Event) : void
+      {
+         ChopEngine.fragileTow1.beliefAdvice.removeEventListener(NervousOnerous.toyTrail(RoomAddition.gateMountain),this.poisedThunder);
+         this.penitentAlanson1 = NarrowPlants.personAnnoying;
+      }
+      
+      public function brassSuzuka(param1:Event) : void
+      {
+         if(!this.branchNoisy)
+         {
+            this.bakeCompetition = !this.bakeCompetition;
+         }
+      }
+      
+      public function hocLackadaisical(param1:Event) : void
+      {
+         this.funnyUninterested(this.balvankaEggnog.slice());
+      }
+      
+      public function windyHysterical(param1:DisplayObject) : void
+      {
+         if(param1 && param1.parent)
+         {
+            param1.parent.removeChild(param1);
+         }
+      }
+      
+      public function noxiousTeeny() : void
+      {
+         this.balvankaEggnog = new Vector.<AngleNervous>();
+         this.divisionSincere.graphics.clear();
+         this.divisionSincere.graphics.lineStyle(SupplyMountain.summerZip,this.couleurEnCours);
+         this.doublePass = -NervousOnerous.teachingOptimal(MarkParty.bombCheat);
+         this.disappearDeadpan = FaithfulBaseball.anusHateful;
+      }
+      
+      public function dinnerViolet() : void
+      {
+         if(this.tabooEdge && this.tabooEdge.parent)
+         {
+            this.tabooEdge.parent.removeChild(this.tabooEdge);
+         }
+      }
+      
+      public function checkDescribe(param1:Sprite) : void
+      {
+         this.shockingRecord();
+         ConfusedPaltry.repeatBlot(param1,NervousOnerous.teachingOptimal(MarkParty.borrowLip),ContainSmart.stiffToe,FaithfulBaseball.anusHateful,this.deservePlough,param1).impartialPushy(param1.x,SandTedious.memorizeAgreeable);
       }
    }
 }

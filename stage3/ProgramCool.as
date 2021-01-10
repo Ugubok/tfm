@@ -1,12 +1,12 @@
 package
 {
-   public class ProgramCool extends WordCalculator
+   public class ProgramCool extends StorePaint
    {
        
       
       public function ProgramCool()
       {
-         super(GateLetters.peckZinc(ScaleTemper.cureUpset),ScaleTemper.adviceOwn1);
+         super(NervousOnerous.adviceOwn1(KneelDaily.peckZinc),NervousOnerous.adviceOwn1(KnotModern.cureUpset));
       }
    }
 }

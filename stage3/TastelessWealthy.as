@@ -1,14 +1,14 @@
 package
 {
-   public class TastelessWealthy extends WordCalculator
+   public class TastelessWealthy extends StorePaint
    {
        
       
-      public function TastelessWealthy(param1:LabelSteer, param2:String)
+      public function TastelessWealthy(param1:int, param2:int)
       {
-         super(ScaleTemper.historicalMitten,GateLetters.balanceChin(RequestCactus.satisfyPossess));
-         dazzlingPrice1.writeByte(param1.thrillIcy);
-         dazzlingPrice1.writeUTF(param2);
+         super(NervousOnerous.dazzlingPrice(MarkParty.thrillIcy),NervousOnerous.dazzlingPrice(MarkParty.thrillIcy));
+         historicalMitten.writeInt(param1);
+         historicalMitten.writeByte(param2);
       }
    }
 }

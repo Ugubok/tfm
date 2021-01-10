@@ -6,18 +6,18 @@ package
    {
        
       
-      public var lightThought:ZippySisters;
+      public var wiseRetire:ZippySisters;
       
       public var idSequence:int;
       
-      public var chivalrousCondition:int;
+      public var stiffWhisper:int;
       
-      public var stiffWhisper:PartyLackadaisical;
+      public var wiseVerdant:CompanyUninterested;
       
       public function PatheticOrdinary(param1:ZippySisters)
       {
          super();
-         this.lightThought = param1;
+         this.wiseRetire = param1;
       }
       
       public function getIdSequence() : int
@@ -25,14 +25,14 @@ package
          return this.idSequence;
       }
       
-      public function get wateryBeautiful() : String
+      public function get canRoom1() : String
       {
-         return GateLetters.hatefulPanoramic(ChinSnakes.wiseVerdant);
+         return OrangesQueue.wateryBeautiful;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.babiesHilarious;
+         return KotskyRailway.chivalrousCondition;
       }
       
       public function bitSigh() : Boolean
@@ -40,29 +40,29 @@ package
          return false;
       }
       
-      public function crashWatery() : int
+      public function babiesHilarious1() : int
       {
-         return MarkEvasive.butterIncompetent;
+         return NervousOnerous.hatefulPanoramic(MarkParty.butterIncompetent);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.chivalrousCondition = param1.readByte();
-         var _loc2_:ProseZonked = this.lightThought.recupereSequence(this.idSequence);
+         this.stiffWhisper = param1.readByte();
+         var _loc2_:ProseZonked = this.wiseRetire.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is PartyLackadaisical)
+            if(_loc2_ is CompanyUninterested)
             {
-               this.stiffWhisper = PartyLackadaisical(_loc2_);
-               this.stiffWhisper.canRoom = this;
+               this.wiseVerdant = CompanyUninterested(_loc2_);
+               this.wiseVerdant.agreeableNoisy = this;
             }
          }
       }
       
-      public function get agreeableNoisy() : int
+      public function get lightThought() : int
       {
-         return FrightenUnique.wiseRetire;
+         return NervousOnerous.hatefulPanoramic(RepulsiveDear.crashWatery);
       }
    }
 }

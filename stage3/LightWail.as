@@ -6,26 +6,26 @@ package
    {
        
       
-      public var nestExplode:ZippySisters;
+      public var stemSpiffy:ZippySisters;
       
-      public var afterthoughtMove:String;
+      public var jumbledClever:String;
       
-      public var whitePear:String;
+      public var nestExplode:String;
       
       public function LightWail(param1:ZippySisters)
       {
          super();
-         this.nestExplode = param1;
+         this.stemSpiffy = param1;
       }
       
-      public function get locketSuzuka() : String
+      public function get vulgarSpotted() : String
       {
-         return ChinSnakes.personSleep;
+         return NervousOnerous.shopSeparate(OrangesQueue.afterthoughtMove);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.satisfyStomach;
+         return KotskyRailway.locketSuzuka;
       }
       
       public function tiresomeImpolite() : Boolean
@@ -33,22 +33,22 @@ package
          return false;
       }
       
-      public function squealPhone() : int
+      public function satisfyStomach() : int
       {
-         return GateLetters.flowNear(HarmonyVeil.stemSpiffy) + this.afterthoughtMove.length + this.whitePear.length;
+         return NervousOnerous.flowNear(SpaceIdea.personSleep) + this.jumbledClever.length + this.nestExplode.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.afterthoughtMove = param1.readUTFBytes(_loc2_);
+         this.jumbledClever = param1.readUTFBytes(_loc2_);
          var _loc3_:int = param1.readShort();
-         this.whitePear = param1.readUTFBytes(_loc3_);
+         this.nestExplode = param1.readUTFBytes(_loc3_);
       }
       
-      public function get shopSeparate() : int
+      public function get whitePear() : int
       {
-         return ScaleTemper.vulgarSpotted;
+         return RepulsiveDear.squealPhone;
       }
    }
 }

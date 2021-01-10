@@ -2,31 +2,31 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class OrdinaryRabbits extends CleverWhip
+   public class OrdinaryRabbits extends KotskyCheck
    {
        
       
-      public var concentrateAdventurous:Array;
+      public var hourToothpaste:Array;
       
       public function OrdinaryRabbits(param1:ByteArray)
       {
-         this.concentrateAdventurous = new Array();
+         this.hourToothpaste = new Array();
          super(param1);
          var _loc2_:int = param1.readShort();
-         var _loc3_:int = ForkBit.sootheHilarious;
+         var _loc3_:int = NervousOnerous.quackDress(FaithfulBaseball.frailTrace);
          while(_loc3_ < _loc2_)
          {
-            this.concentrateAdventurous.push(new BabiesConfused(param1.readShort(),GateLetters.hourToothpaste(FrightenUnique.frailTrace)));
+            this.hourToothpaste.push(new BabiesConfused(param1.readShort(),MarkParty.chopFlash));
             _loc3_++;
          }
          var _loc4_:int = param1.readShort();
-         _loc3_ = ForkBit.sootheHilarious;
+         _loc3_ = FaithfulBaseball.frailTrace;
          while(_loc3_ < _loc4_)
          {
-            this.concentrateAdventurous.push(new BabiesConfused(param1.readShort(),param1.readByte()));
+            this.hourToothpaste.push(new BabiesConfused(param1.readShort(),param1.readByte()));
             _loc3_++;
          }
-         this.concentrateAdventurous.sortOn(ScaleTemper.quackDress,Array.NUMERIC);
+         this.hourToothpaste.sortOn(NervousOnerous.concentrateAdventurous(RoomAddition.sootheHilarious),Array.NUMERIC);
       }
    }
 }

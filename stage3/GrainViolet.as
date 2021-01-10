@@ -6,26 +6,26 @@ package
    {
        
       
-      public var auntGlamorous:ZippySisters;
+      public var touchTrap:ZippySisters;
       
-      public var inquisitiveFlock:String;
+      public var tastelessTart:String;
       
-      public var knifeWren:String;
+      public var phoneBoundless1:String;
       
       public function GrainViolet(param1:ZippySisters)
       {
          super();
-         this.auntGlamorous = param1;
+         this.touchTrap = param1;
       }
       
-      public function get touchTrap() : String
+      public function get narrowExplode() : String
       {
-         return ChinSnakes.nestExpansion;
+         return NervousOnerous.knifeWren(OrangesQueue.lockCondition);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.unitSprout;
+         return KotskyRailway.inquisitiveFlock;
       }
       
       public function proudAgreeable() : Boolean
@@ -33,22 +33,22 @@ package
          return false;
       }
       
-      public function punchSpy1() : int
+      public function unitSprout() : int
       {
-         return GateLetters.lockCondition(HarmonyVeil.narrowExplode) + this.inquisitiveFlock.length + this.knifeWren.length;
+         return SpaceIdea.nestExpansion + this.tastelessTart.length + this.phoneBoundless1.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.inquisitiveFlock = param1.readUTFBytes(_loc2_);
+         this.tastelessTart = param1.readUTFBytes(_loc2_);
          var _loc3_:int = param1.readShort();
-         this.knifeWren = param1.readUTFBytes(_loc3_);
+         this.phoneBoundless1 = param1.readUTFBytes(_loc3_);
       }
       
-      public function get tastelessTart() : int
+      public function get auntGlamorous() : int
       {
-         return GateLetters.lockCondition(FrightenUnique.workBabies);
+         return NervousOnerous.workBabies(FaithfulVoracious.punchSpy);
       }
    }
 }

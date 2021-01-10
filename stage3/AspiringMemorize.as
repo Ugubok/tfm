@@ -10,7 +10,7 @@ package
       
       public var onerousJagged:String;
       
-      public var reactionNest:PreciousWait;
+      public var expertRetire:PailViolet;
       
       public function AspiringMemorize(param1:int, param2:String)
       {
@@ -24,24 +24,24 @@ package
          return this.idSequence;
       }
       
-      public function get firstPleasant() : String
+      public function get imperfectStore() : String
       {
-         return GateLetters.scrawnyInterrupt(ChinSnakes.tastelessAgonizing);
+         return NervousOnerous.reactionNest(OrangesQueue.firstPleasant);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.didacticAgree;
+         return KotskyRailway.lamentableFour;
       }
       
-      public function efficientRoom1() : Boolean
+      public function efficientRoom() : Boolean
       {
          return false;
       }
       
-      override public function lamentableFour() : int
+      override public function didacticAgree() : int
       {
-         return GateLetters.expertRetire(ScaleTemper.imperfectStore) + this.onerousJagged.length;
+         return NervousOnerous.scrawnyInterrupt(SupplyMountain.tastelessAgonizing) + this.onerousJagged.length;
       }
       
       override public function ecriture(param1:ByteArray) : void

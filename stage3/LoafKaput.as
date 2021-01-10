@@ -2,30 +2,30 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class LoafKaput extends CleverWhip
+   public class LoafKaput extends KotskyCheck
    {
        
       
-      public var panickyKindhearted:Boolean;
+      public var unequalConcentrate:Boolean;
       
       public var zooPipka:Boolean;
       
-      public var unwrittenNeat1:int;
+      public var unwrittenNeat:int;
       
-      public var ajarThick:Boolean;
+      public var reachAdmire:Boolean;
       
-      public var reachAdmire:Number;
+      public var ajarThick:Number;
       
       public var actionFrighten:int;
       
       public function LoafKaput(param1:ByteArray)
       {
          super(param1);
-         this.panickyKindhearted = param1.readBoolean();
+         this.unequalConcentrate = param1.readBoolean();
          this.zooPipka = param1.readBoolean();
-         this.unwrittenNeat1 = param1.readInt();
-         this.ajarThick = param1.readBoolean();
-         this.reachAdmire = param1.readInt() * ToothpasteCloistered.dressHand;
+         this.unwrittenNeat = param1.readInt();
+         this.reachAdmire = param1.readBoolean();
+         this.ajarThick = param1.readInt() * NervousOnerous.dressHand(IdeaReal.panickyKindhearted);
          this.actionFrighten = param1.readByte();
       }
    }

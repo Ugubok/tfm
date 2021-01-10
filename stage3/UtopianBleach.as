@@ -1,23 +1,23 @@
 package
 {
-   public class UtopianBleach extends HealGrin
+   public class UtopianBleach extends CuteRoom
    {
       
-      public static const disappearGrandfather:HealGrin = new HealGrin(GateLetters.franticStatement("Déplacement")).ordinaryFlock(WastefulEar.baseballHorn).ordinaryFlock(WastefulEar.rightfulMomentous).ordinaryFlock(WastefulEar.shelfFree).ordinaryFlock(WastefulEar.optimalLarge);
+      public static const baseballHorn:CuteRoom = new CuteRoom(NervousOnerous.pinusUnequal("Déplacement")).shelfFree(VoiceDear.ordinaryFlock).shelfFree(VoiceDear.optimalLarge).shelfFree(VoiceDear.splendidSpiffy).shelfFree(VoiceDear.probableChangeable);
       
-      public static const splendidSpiffy:HealGrin = new HealGrin("Interfaces").ordinaryFlock(HangingExpansion.femalePass).ordinaryFlock(WastefulEar.pinusUnequal);
+      public static const disappearGrandfather:CuteRoom = new CuteRoom("Interfaces").shelfFree(RightfulSpot1.franticStatement).shelfFree(VoiceDear.femalePass);
       
-      public static var probableChangeable:Vector.<HealGrin>;
+      public static var rightfulMomentous:Vector.<CuteRoom>;
        
       
       public function UtopianBleach(param1:int, param2:String)
       {
          super(param2);
-         if(!UtopianBleach.probableChangeable)
+         if(!UtopianBleach.rightfulMomentous)
          {
-            UtopianBleach.probableChangeable = new Vector.<HealGrin>();
+            UtopianBleach.rightfulMomentous = new Vector.<CuteRoom>();
          }
-         UtopianBleach.probableChangeable.push(this);
+         UtopianBleach.rightfulMomentous.push(this);
       }
    }
 }

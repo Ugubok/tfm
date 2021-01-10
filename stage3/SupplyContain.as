@@ -1,12 +1,12 @@
 package
 {
-   public class SupplyContain extends WordCalculator
+   public class SupplyContain extends StorePaint
    {
        
       
       public function SupplyContain()
       {
-         super(GateLetters.collectDelicate(ExoticMemorize.alertInvite),OrangeUnequal.soundWandering);
+         super(SistersRedundant.soundWandering,NervousOnerous.alertInvite(MarkParty.collectDelicate));
       }
    }
 }

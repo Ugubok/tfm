@@ -4,9 +4,9 @@ package
    {
        
       
-      public var trainsWatery:Function;
-      
       public var romanticShocking:Function;
+      
+      public var trainsWatery1:Function;
       
       public var interruptCount:Boolean;
       

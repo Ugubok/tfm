@@ -1,12 +1,12 @@
 package
 {
-   public class WailStriped extends WordCalculator
+   public class WailStriped extends StorePaint
    {
        
       
       public function WailStriped()
       {
-         super(GateLetters.uniteAwake(ToothpasteCloistered.wailThoughtless),FranticCrook.stomachTasty);
+         super(NervousOnerous.uniteAwake(IdeaReal.stomachTasty),IdeaReal.wailThoughtless);
       }
    }
 }

@@ -1,14 +1,14 @@
 package
 {
-   public class BrightInexpensive extends WordCalculator
+   public class BrightInexpensive extends StorePaint
    {
        
       
-      public function BrightInexpensive(param1:String, param2:int)
+      public function BrightInexpensive(param1:int, param2:int)
       {
-         super(GateLetters.birdsChilly(OrangeUnequal.yamHateful),ForkBit.adDear);
-         faithfulHateful.writeUTF(param1);
-         faithfulHateful.writeByte(param2);
+         super(NervousOnerous.adDear(IdeaReal.yamHateful),KneelDaily.faithfulHateful);
+         birdsChilly.writeInt(param1);
+         birdsChilly.writeByte(param2);
       }
    }
 }

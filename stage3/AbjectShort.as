@@ -6,45 +6,45 @@ package
    {
        
       
-      public var flowUnarmed:ZippySisters;
+      public var hilariousHeartbreaking:ZippySisters;
       
-      public var obeisantUndress:String;
+      public var summerPromise:String;
       
       public function AbjectShort(param1:ZippySisters)
       {
          super();
-         this.flowUnarmed = param1;
+         this.hilariousHeartbreaking = param1;
       }
       
-      public function get hilariousHeartbreaking() : String
+      public function get obeisantUndress() : String
       {
-         return GateLetters.beautifulCalculator(ChinSnakes.dinnerSqueamish);
+         return OrangesQueue.legsProse;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.summerPromise;
+         return KotskyRailway.beautifulCalculator;
       }
       
-      public function countPanicky() : Boolean
+      public function blushPipka() : Boolean
       {
          return false;
       }
       
-      public function blushPipka() : int
+      public function countPanicky() : int
       {
-         return GateLetters.legsProse(ToothpasteCloistered.afterthoughtInjure) + this.obeisantUndress.length;
+         return SupplyMountain.flowUnarmed + this.summerPromise.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.obeisantUndress = param1.readUTFBytes(_loc2_);
+         this.summerPromise = param1.readUTFBytes(_loc2_);
       }
       
       public function get quirkyAdjustment() : int
       {
-         return GateLetters.legsProse(BashfulUnwritten.burnCondition);
+         return KnotModern.afterthoughtInjure;
       }
    }
 }

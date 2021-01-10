@@ -1,32 +1,32 @@
 package
 {
-   public class AdaptableDress extends WordCalculator
+   public class AdaptableDress extends StorePaint
    {
        
       
       public function AdaptableDress(param1:int, param2:String, param3:int, param4:Object, param5:String, param6:String, param7:String, param8:String, param9:String, param10:int, param11:int, param12:String)
       {
-         super(OrangeUnequal.signLabel,GateLetters.agonizingAfternoon(FrightenUnique.fixRecord));
-         beadExpansion.writeShort(param1);
-         beadExpansion.writeUTF(param2);
-         beadExpansion.writeUTF(String(param4));
-         beadExpansion.writeUTF(param5);
+         super(NervousOnerous.disappearMean(IdeaReal.beadExpansion),MarkParty.signLabel);
+         hateEfficient.writeShort(param1);
+         hateEfficient.writeUTF(param2);
+         hateEfficient.writeUTF(String(param4));
+         hateEfficient.writeUTF(param5);
          if(null == param6)
          {
-            param6 = GateLetters.pricklyAngle(BashfulUnwritten.disappearMean1);
+            param6 = NervousOnerous.fixRecord(NervousPromise.agonizingAfternoon);
          }
-         beadExpansion.writeUTF(param6);
-         beadExpansion.writeInt(param3);
-         beadExpansion.writeUTF(param7);
-         beadExpansion.writeUTF(param8);
-         beadExpansion.writeUTF(param9);
-         beadExpansion.writeInt(param10);
-         beadExpansion.writeInt(param11);
+         hateEfficient.writeUTF(param6);
+         hateEfficient.writeInt(param3);
+         hateEfficient.writeUTF(param7);
+         hateEfficient.writeUTF(param8);
+         hateEfficient.writeUTF(param9);
+         hateEfficient.writeInt(param10);
+         hateEfficient.writeInt(param11);
          if(!param12)
          {
-            param12 = ScaleTemper.hateEfficient;
+            param12 = PleaseFour.pricklyAngle;
          }
-         beadExpansion.writeUTF(param12);
+         hateEfficient.writeUTF(param12);
       }
    }
 }

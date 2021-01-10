@@ -1,13 +1,13 @@
 package
 {
-   public class AdmireLanguid extends WordCalculator
+   public class AdmireLanguid extends StorePaint
    {
        
       
-      public function AdmireLanguid(param1:Boolean)
+      public function AdmireLanguid(param1:String)
       {
-         super(GateLetters.countCrook(ChinSnakes.interruptVagabond),GateLetters.countCrook(ChinSnakes.statementLip));
-         punctureHate.writeByte(!!param1?int(GateLetters.countCrook(FrightenUnique.instinctiveEfficient)):int(GateLetters.countCrook(ForkBit.adjustmentInstruct)));
+         super(NervousOnerous.instinctiveEfficient(IdeaReal.punctureHate),NervousOnerous.instinctiveEfficient(KnotModern.statementLip));
+         interruptVagabond.writeUTF(param1);
       }
    }
 }

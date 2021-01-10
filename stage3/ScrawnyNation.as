@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var actionSpotless:String;
+      public var religionCapricious:String;
       
-      public var pushyWind:RepeatBack;
+      public var sockVoracious:ZooNoisy;
       
       public function ScrawnyNation(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.actionSpotless = param2;
+         this.religionCapricious = param2;
       }
       
       public function getIdSequence() : int
@@ -26,28 +26,28 @@ package
       
       public function get skiDock() : String
       {
-         return GateLetters.sockVoracious(ChinSnakes.requestMean);
+         return NervousOnerous.actionSpotless(OrangesQueue.impoliteDisappear);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.squeamishMountain;
+         return KotskyRailway.oilRabbit;
       }
       
-      public function oilRabbit() : Boolean
+      public function squeamishMountain() : Boolean
       {
          return false;
       }
       
-      override public function impoliteDisappear() : int
+      override public function pushyWind() : int
       {
-         return ScaleTemper.religionCapricious + this.actionSpotless.length;
+         return SupplyMountain.requestMean + this.religionCapricious.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.actionSpotless);
+         param1.writeUTF(this.religionCapricious);
       }
    }
 }

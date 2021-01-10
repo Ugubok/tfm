@@ -6,9 +6,9 @@ package
       
       public var juiceUndress:CapriciousInvite;
       
-      public var shape:ComplexJelly;
+      public var shape:DeadpanPlease;
       
-      public function DistroMessy(param1:CapriciousInvite, param2:ComplexJelly)
+      public function DistroMessy(param1:CapriciousInvite, param2:DeadpanPlease)
       {
          super();
          this.juiceUndress = param1;

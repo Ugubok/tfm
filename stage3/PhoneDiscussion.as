@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var hoseRecord:int;
+      public var scrawnyLoaf:int;
       
-      public var prepareCheat:FillShake;
+      public var toothpasteChilly:CurvedAgreeable;
       
       public function PhoneDiscussion(param1:int, param2:int)
       {
          super();
          this.idSequence = param1;
-         this.hoseRecord = param2;
+         this.scrawnyLoaf = param2;
       }
       
       public function getIdSequence() : int
@@ -26,28 +26,28 @@ package
       
       public function get waitingWren() : String
       {
-         return GateLetters.boringBerry(ChinSnakes.thunderKittens);
+         return OrangesQueue.hoseRecord;
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.poisonSpy;
+         return KotskyRailway.boringBerry;
       }
       
-      public function delicateCloistered() : Boolean
+      public function prepareCheat() : Boolean
       {
          return false;
       }
       
-      override public function scrawnyLoaf() : int
+      override public function poisonSpy() : int
       {
-         return GateLetters.toothpasteChilly(MarkEvasive.ideaYam);
+         return SistersRedundant.delicateCloistered;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(this.hoseRecord);
+         param1.writeInt(this.scrawnyLoaf);
       }
    }
 }

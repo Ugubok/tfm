@@ -6,24 +6,24 @@ package
    {
        
       
-      public var defectiveThrill:ZippySisters;
+      public var wiseHand:ZippySisters;
       
-      public var systemWoman:int;
+      public var systemWoman:AnalyzeTemper;
       
       public function PatCareful(param1:ZippySisters)
       {
          super();
-         this.defectiveThrill = param1;
+         this.wiseHand = param1;
       }
       
-      public function get wiseHand() : String
+      public function get quackError() : String
       {
-         return GateLetters.yummyHumor(ChinSnakes.bleachNaive);
+         return NervousOnerous.glowFlower(OrangesQueue.inconclusiveWise);
       }
       
       public function get typeTaille() : int
       {
-         return KotskyRailway.lamentableDildo;
+         return KotskyRailway.yummyHumor;
       }
       
       public function rareSon() : Boolean
@@ -31,19 +31,19 @@ package
          return false;
       }
       
-      public function divergentBake() : int
+      public function lamentableDildo() : int
       {
-         return GateLetters.inconclusiveWise(HarmonyVeil.quackError);
+         return this.systemWoman.divergentBake();
       }
       
       public function lecture(param1:ByteArray) : void
       {
-         this.systemWoman = param1.readInt();
+         this.systemWoman = AnalyzeTemper.birdNeat(param1);
       }
       
-      public function get glowFlower() : int
+      public function get bleachNaive() : int
       {
-         return RequestCactus.birdNeat;
+         return FaithfulVoracious.defectiveThrill;
       }
    }
 }

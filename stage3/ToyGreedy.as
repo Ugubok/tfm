@@ -1,13 +1,13 @@
 package
 {
-   public class ToyGreedy extends WordCalculator
+   public class ToyGreedy extends StorePaint
    {
        
       
-      public function ToyGreedy(param1:Boolean)
+      public function ToyGreedy(param1:String)
       {
-         super(BashfulUnwritten.chickensQuirky,GateLetters.spoonPunch(ScaleTemper.stickClover));
-         yummyPenitent.writeBoolean(param1);
+         super(NervousOnerous.stickClover(BalanceSecret.spoonPunch),NervousOnerous.stickClover(MarkParty.yummyPenitent));
+         chickensQuirky(param1);
       }
    }
 }
