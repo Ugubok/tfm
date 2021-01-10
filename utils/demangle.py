@@ -437,23 +437,26 @@ def get_words() -> List[str]:
     return list(filter(None, words))
 
 
-used_words = set()
+used_words = {}  # {scope: set()}
 
 
-def get_demangled_name(mangled_name: str, capitalize: bool = True) -> str:
+def get_demangled_name(seed: str, scope: str, capitalize: bool = True) -> str:
     words = get_words()
-    random.seed(mangled_name)
+    random.seed(seed)
+
+    if scope not in used_words:
+        used_words[scope] = set()
 
     w1, w2 = random.choice(words), random.choice(words)
     word = (w1.capitalize() if capitalize else w1) + w2.capitalize()
 
     original_word = word
     i = 0
-    while word in used_words:
+    while word in used_words[scope]:
         i += 1
         word = original_word + str(i)
 
-    used_words.add(word)
+    used_words[scope].add(word)
     return word
 
 
@@ -479,7 +482,8 @@ def count_xrefs(file_map):
 
 
 def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
-    pb = ProgressBar(total=len(file_map) * 3, length=80)
+    mangled_classes = [c for _, c in file_map.items() if c.is_mangled]
+    pb = ProgressBar(total=len(mangled_classes) * 3, length=80)
 
     just_populate = False
 
@@ -487,13 +491,9 @@ def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
         print("  ! DB is empty. Repopulate without associating anything")
         just_populate = True
 
-    for _, cls in file_map.items():
+    for cls in mangled_classes:
         pb.tick()
-
-        if not cls.is_mangled:
-            continue
-
-        cls.name = get_demangled_name(cls.name)
+        cls.name = "Dm_" + get_demangled_name(cls.name, scope="class")
 
         if just_populate:
             db.store(cls)
@@ -505,6 +505,7 @@ def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
 
             if k > 0.999:
                 cls.associate(other)
+                logging.info(f"{cls.name} have found in db by name")
                 continue
 
     if just_populate:
@@ -512,19 +513,29 @@ def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
         return
 
     # First find fully equal classes
-    for _, cls in file_map.items():
+    for cls in mangled_classes:
         pb.tick()
+
+        if cls.assoc:
+            continue
+
         similar, report, k = db.find_similar(cls, threshold=0.999)
+        if not similar:
+            continue
+
         logging.info(f"{cls.name} is equal to {similar.name} (k={k:.2f}")
 
         cls.name = similar.name
         cls.associate(similar)
 
     # Then associate rest of classes
-    for _, cls in file_map.items():
+    for cls in mangled_classes:
         pb.tick()
-        similar, report, k = db.find_similar(cls)
 
+        if cls.assoc:
+            continue
+
+        similar, report, k = db.find_similar(cls)
         if not similar:
             logging.warning(f"Found new class {cls.name}")
             db.store(cls)
@@ -567,7 +578,7 @@ def demangle_contents(file_map: TFileMap):
             #    continue
 
             seed = cls.name + f"_{i}"
-            demangled = get_demangled_name(seed, capitalize=False)
+            demangled = "dm_" + get_demangled_name(seed, scope=cls.name, capitalize=False)
 
             cls.contents = cls.contents.replace(identifier, demangled)
             # replace_everywhere(file_map, identifier, demangled)

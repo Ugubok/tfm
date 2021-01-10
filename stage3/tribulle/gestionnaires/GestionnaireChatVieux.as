@@ -32,7 +32,7 @@ package tribulle.gestionnaires
       
       public var changeCanal:Signal;
       
-      public function GestionnaireChatVieux(param1:PrivateClass#43)
+      public function GestionnaireChatVieux(param1:PrivateClass#72)
       {
          super();
          this.recoisMessagePriveSignal = new Signal(String,String,int,int);
@@ -53,18 +53,18 @@ package tribulle.gestionnaires
       {
          if(_singleton == null)
          {
-            _singleton = new GestionnaireChatVieux(new PrivateClass#43());
+            _singleton = new GestionnaireChatVieux(new PrivateClass#72());
          }
          return _singleton;
       }
    }
 }
 
-class PrivateClass#43
+class PrivateClass#72
 {
     
    
-   function PrivateClass#43()
+   function PrivateClass#72()
    {
       super();
    }
