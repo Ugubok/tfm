@@ -8,6 +8,9 @@ from dataclasses import dataclass, field
 from functools import lru_cache
 from typing import List, Optional, Mapping
 from datetime import datetime
+from uuid import uuid4
+from PIL import Image, ImageDraw
+from PIL.ImageColor import getrgb, colormap
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
 
@@ -69,6 +72,11 @@ class ClassInfo:
 
     demangled_identifiers: List[str] = field(default_factory=list)
     func_arguments: List[str] = field(default_factory=list)
+
+    _hash: uuid4 = uuid4()
+
+    def __hash__(self):
+        return hash(self._hash)
 
     @staticmethod
     def _is_mangled(name):
@@ -167,9 +175,10 @@ class ClassInfo:
             ("func_arguments", self.func_arguments, 5, 3),
         )
 
-    def get_eq_coefficient(self, other) -> (float, List[tuple]):
+    # @lru_cache()  # NOTE: be aware with that cache; drop it if objects are changed
+    def get_eq_coefficient(self, other) -> (float, Optional[List[tuple]]):
         if self.is_mangled != other.is_mangled:
-            return 0.0
+            return 0.0, None
 
         result = 0.0
         result_stat = []
@@ -315,7 +324,12 @@ class ClassInfoDB(object):
             attr, t = annotation
 
             if t is List[str]:
-                setattr(result, attr, el.split(","))
+                value = el.split(",")
+
+                if value == [""]:
+                    value = []
+
+                setattr(result, attr, value)
                 continue
 
             setattr(result, attr, t(el))
@@ -523,7 +537,7 @@ def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
         if not similar:
             continue
 
-        logging.info(f"{cls.name} is equal to {similar.name} (k={k:.2f}")
+        logging.info(f"{cls.name} is equal to {similar.name} (k={k:.2f})")
 
         cls.name = similar.name
         cls.associate(similar)
@@ -568,17 +582,20 @@ def demangle_contents(file_map: TFileMap):
         pb.tick()
         replace_everywhere(file_map, cls.original_name, cls.name)
 
-    demangled_identifiers = set()
-
     # Then replace all other identifiers
     for cls in mangled_classes:
         pb.tick()
-        for i, identifier in enumerate(set(re.findall("§[^§]+§", cls.contents))):
-            # if identifier in demangled_identifiers:
-            #    continue
 
-            seed = cls.name + f"_{i}"
-            demangled = "dm_" + get_demangled_name(seed, scope=cls.name, capitalize=False)
+        demangled_identifiers = set()
+
+        for identifier in re.findall("§[^§]+§", cls.contents):
+            if identifier in demangled_identifiers:
+                continue
+
+            seed = cls.name + f"_{len(demangled_identifiers)}"
+            demangled = "dm_" + get_demangled_name(
+                seed, scope=cls.name, capitalize=False
+            )
 
             cls.contents = cls.contents.replace(identifier, demangled)
             # replace_everywhere(file_map, identifier, demangled)
@@ -644,6 +661,79 @@ def simplify_expressions(file_map: TFileMap):
     pb.done()
 
 
+def get_relations_graph(file_map: TFileMap, db: ClassInfoDB) -> Image:
+    class Cfg:
+        width = 1920
+        circle_r = 40  # radius in pixels
+        padding = 20
+
+    @dataclass
+    class Entity:
+        cls: ClassInfo
+        coord: tuple[int, int]
+        color: str = "#000000"
+
+    mangled_classes = [c for _, c in file_map.items() if c.is_mangled]
+    storage_entities: List[Entity] = []
+    db_entities: List[Entity] = []
+
+    height = len(mangled_classes) * (Cfg.circle_r * 2 + Cfg.padding)
+    im = Image.new("RGB", (Cfg.width, height))
+    draw = ImageDraw.Draw(im)
+
+    color_pool = colormap.copy()
+    del color_pool["black"]
+
+    bad_colors = list(filter(lambda v: v.startswith("dark"), color_pool.keys()))
+    for bad_color in bad_colors:
+        del color_pool[bad_color]
+
+    color_pool = list(color_pool.values())
+
+    def get_random_color():
+        return random.choice(color_pool)
+
+    def connect(e1: Entity, e2: Entity, color: str):
+        xy1 = (e1.coord[0] + Cfg.circle_r, e1.coord[1])
+        xy2 = (e2.coord[0] - Cfg.circle_r, e2.coord[1])
+        draw.line((xy1, xy2), color)
+
+    def draw_entity(e: Entity):
+        xy1 = tuple(map(lambda c: c - Cfg.circle_r, e.coord))
+        xy2 = tuple(map(lambda c: c + Cfg.circle_r, e.coord))
+        draw.ellipse((xy1, xy2), e.color)
+
+    for i, cls in enumerate(mangled_classes):
+        x = Cfg.circle_r + Cfg.padding
+        y = Cfg.circle_r * i * 2 + Cfg.padding * i
+        e = Entity(cls, (x, y))
+        e.color = getrgb("magenta")
+        draw_entity(e)
+        storage_entities.append(e)
+
+    for i, cls in enumerate(db.get_all()):
+        x = Cfg.width - Cfg.circle_r - Cfg.padding
+        y = Cfg.circle_r * i * 2 + Cfg.padding * i
+        e = Entity(cls, (x, y))
+        e.color = getrgb("gray")
+        draw_entity(e)
+        db_entities.append(e)
+
+    pb = ProgressBar(len(storage_entities) * len(db_entities), 80)
+    for e1 in storage_entities:
+        for e2 in db_entities:
+            pb.tick()
+            k, _ = e1.cls.get_eq_coefficient(e2.cls)
+
+            if k > 0.999:
+                connect(e1, e2, get_random_color())
+            # elif k > 0.95:
+            #     connect(e1, e2, getrgb("blue"))
+
+    pb.done()
+    return im
+
+
 def main(in_dir, out_dir, db_path):
     file_map = get_stage2_map(in_dir)
 
@@ -655,6 +745,11 @@ def main(in_dir, out_dir, db_path):
 
     print("1/5 Counting xrefs")
     count_xrefs(file_map)
+
+    # im = get_relations_graph(file_map, db)
+    # im.save("relations.png")
+    # im.close()
+    # return
 
     print("2/5 Associating local classes with known classes from DB")
     associate_known_classes(file_map, db)

@@ -1,32 +1,29 @@
 package
 {
-   import flash.utils.ByteArray;
-   
-   public class Dm_ShadeThunder extends Dm_WhistlePlough
+   public class Dm_ShadeThunder
    {
        
       
-      public var dm_tediousStale:Number;
+      public var dm_orangeShock:Dm_HarborLaughable;
       
-      public var dm_aspiringSatisfy:Number;
+      public var dm_alansonAlert:Dm_LightBeautiful;
       
-      public var dm_powerfulKotsky:Boolean;
+      public var dm_powerfulKotsky:Dm_ThreateningAdmire;
       
-      public var dm_penitentAttractive:Number;
-      
-      public var dm_languidDecay:Number;
-      
-      public var dm_orangeShock:Boolean;
-      
-      public function Dm_ShadeThunder(param1:ByteArray)
+      public function Dm_ShadeThunder(param1:int, param2:Object)
       {
-         super(param1);
-         this.dm_tediousStale = param1.readShort() / Dm_FaithfulCrowded.dm_alansonAlert(Dm_RobinQuack.dm_incompetentHate);
-         this.dm_aspiringSatisfy = param1.readShort() / Dm_RobinQuack.dm_incompetentHate;
-         this.dm_powerfulKotsky = param1.readByte() == Dm_FaithfulCrowded.dm_alansonAlert(Dm_PowerfulSecret.dm_drownPushy);
-         this.dm_penitentAttractive = param1.readShort() / Dm_FaithfulCrowded.dm_alansonAlert(Dm_FrailAuthority.dm_agreeableEggnog);
-         this.dm_languidDecay = param1.readShort() / Dm_FrailAuthority.dm_agreeableEggnog;
-         this.dm_orangeShock = param1.readByte() == Dm_FaithfulCrowded.dm_alansonAlert(Dm_PowerfulSecret.dm_drownPushy);
+         super();
+         this.dm_orangeShock = new Dm_HarborLaughable(param1,param2);
+      }
+      
+      public function dm_tediousStale(param1:Dm_ThreateningAdmire) : void
+      {
+         this.dm_powerfulKotsky = param1;
+      }
+      
+      public function dm_languidDecay() : Dm_LightBeautiful
+      {
+         return null;
       }
    }
 }

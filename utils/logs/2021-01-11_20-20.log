@@ -1,0 +1,2667 @@
+INFO:root:Dm_HumorShelf is equal to Dm_WallAbaft (k=1.00)
+INFO:root:Dm_ImpoliteSnakes is equal to Dm_BladeOwn (k=1.00)
+INFO:root:Dm_GlamorousSpoon is equal to Dm_UnknownBehavior (k=1.00)
+INFO:root:Dm_HocTrace is equal to Dm_SmileTow (k=1.00)
+INFO:root:Dm_RomanticSki is equal to Dm_QuackOven (k=1.00)
+INFO:root:Dm_DebtStay is equal to Dm_TrainsBelligerent (k=1.00)
+INFO:root:Dm_CollectManage is equal to Dm_SpuriousFlow (k=1.00)
+INFO:root:Dm_BeginnerScrawny is equal to Dm_BurlyMomentous (k=1.00)
+INFO:root:Dm_CloverStore is equal to Dm_MountainShade (k=1.00)
+INFO:root:Dm_KnowledgeableSleepy is equal to Dm_InstructShoe (k=1.00)
+INFO:root:Dm_FreeScissors is equal to Dm_RambunctiousVeil (k=1.00)
+INFO:root:Dm_ClammyWise is equal to Dm_ObeisantFix (k=1.00)
+INFO:root:Dm_DailyNeighborly is equal to Dm_BakeExpansion (k=1.00)
+INFO:root:Dm_TreatAdhesive is equal to Dm_RecordChubby (k=1.00)
+INFO:root:Dm_CrashRequest is equal to Dm_SproutAd (k=1.00)
+INFO:root:Dm_GreedyHumor is equal to Dm_FlashRoom (k=1.00)
+INFO:root:Dm_RealizeExpansion is equal to Dm_SatisfyInvent (k=1.00)
+INFO:root:Dm_SockThird is equal to Dm_FourKnowledgeable (k=1.00)
+INFO:root:Dm_ShutSoup is equal to Dm_BakeDiscussion (k=1.00)
+INFO:root:Dm_SkiDivision is equal to Dm_CheckFill (k=1.00)
+INFO:root:Dm_BaseballUtopian is equal to Dm_SmartReligion (k=1.00)
+INFO:root:Dm_AnusFunny is equal to Dm_PaltryInconclusive (k=1.00)
+INFO:root:Dm_ScissorsAdjustment is equal to Dm_BootBoundless (k=1.00)
+INFO:root:Dm_TowGaping is equal to Dm_LegsShelf (k=1.00)
+INFO:root:Dm_DazzlingCraven is equal to Dm_ThickAbject (k=1.00)
+INFO:root:Dm_RabbitsSisters is equal to Dm_BoundlessPuncture (k=1.00)
+INFO:root:Dm_RightEfficient is equal to Dm_DivisionFragile (k=1.00)
+INFO:root:Dm_ReligionScintillating is equal to Dm_WipeYam (k=1.00)
+INFO:root:Dm_DivergentEdge is equal to Dm_PerformMetal (k=1.00)
+INFO:root:Dm_SecretPicture is equal to Dm_PlanSmile (k=1.00)
+INFO:root:Dm_RubVeil is equal to Dm_VoiceHobbies (k=1.00)
+INFO:root:Dm_WaitInstruct is equal to Dm_DisturbedRuddy (k=1.00)
+INFO:root:Dm_FaintTow is equal to Dm_ExoticFlock (k=1.00)
+INFO:root:Dm_PorterHobbies is equal to Dm_CureHilarious (k=1.00)
+INFO:root:Dm_EdgeComparison is equal to Dm_PartySplendid (k=1.00)
+INFO:root:Dm_QuirkyResolute is equal to Dm_ShadeSubdued (k=1.00)
+INFO:root:Dm_JugglePanoramic is equal to Dm_SuitSmart (k=1.00)
+INFO:root:Dm_ShockingHand is equal to Dm_RambunctiousLaborer (k=1.00)
+INFO:root:Dm_RightShame is equal to Dm_PlanMove (k=1.00)
+INFO:root:Dm_DislikeStomach is equal to Dm_DistroWipe (k=1.00)
+INFO:root:Dm_AutomaticSmooth is equal to Dm_ShutLocket (k=1.00)
+INFO:root:Dm_ConditionAgonizing is equal to Dm_SighJuice (k=1.00)
+INFO:root:Dm_SqueamishFlock is equal to Dm_WordSplendid (k=1.00)
+INFO:root:Dm_LimitUninterested is equal to Dm_CherrySpooky (k=1.00)
+INFO:root:Dm_BasinSlim is equal to Dm_CrackerChop (k=1.00)
+INFO:root:Dm_LegsDeadpan is equal to Dm_SwankyNoxious (k=1.00)
+INFO:root:Dm_WordColorful is equal to Dm_TendencyAcoustic (k=1.00)
+INFO:root:Dm_UnequaledAdjoining is equal to Dm_EarthquakeQueue (k=1.00)
+INFO:root:Dm_AdditionWindy is equal to Dm_DidacticGaping (k=1.00)
+INFO:root:Dm_GrainDefective is equal to Dm_SandChickens (k=1.00)
+INFO:root:Dm_StayError is equal to Dm_JuggleNoisy (k=1.00)
+INFO:root:Dm_YakDazzling is equal to Dm_BashfulHarbor (k=1.00)
+INFO:root:Dm_DressContain is equal to Dm_GroundKotsky (k=1.00)
+INFO:root:Dm_PatHeal is equal to Dm_MeanWhistle (k=1.00)
+INFO:root:Dm_EarthquakeExplain is equal to Dm_SeriousHarbor (k=1.00)
+INFO:root:Dm_ReligionSuccinct is equal to Dm_SpotStay (k=1.00)
+INFO:root:Dm_DisgustingCrash is equal to Dm_ShopStatement (k=1.00)
+INFO:root:Dm_ProseGrandfather is equal to Dm_SistersYell (k=1.00)
+INFO:root:Dm_BirdsLocket is equal to Dm_PowerfulAdmire (k=1.00)
+INFO:root:Dm_SighMomentous is equal to Dm_ListLackadaisical (k=1.00)
+INFO:root:Dm_ImpartialCrowded is equal to Dm_SaltCurved (k=1.00)
+INFO:root:Dm_TeenyStupid is equal to Dm_WiseOrange (k=1.00)
+INFO:root:Dm_ThoughtFlash is equal to Dm_GrateEasy (k=1.00)
+INFO:root:Dm_ComparisonLock is equal to Dm_HydrantHorn (k=1.00)
+INFO:root:Dm_GrainStrengthen is equal to Dm_PloughTendency (k=1.00)
+INFO:root:Dm_HugeSystem is equal to Dm_ForkConcentrate (k=1.00)
+INFO:root:Dm_IdentifyLeg is equal to Dm_FaintWeight (k=1.00)
+INFO:root:Dm_ImperfectMany is equal to Dm_KnifeDeadpan (k=1.00)
+INFO:root:Dm_JuggleGrandfather is equal to Dm_CompetitionCareful (k=1.00)
+INFO:root:Dm_JoyousAbortive is equal to Dm_MendSound (k=1.00)
+INFO:root:Dm_DescribeSweater is equal to Dm_TastelessKittens (k=1.00)
+INFO:root:Dm_InstructHistory is equal to Dm_BatheIdentify (k=1.00)
+INFO:root:Dm_ComplexHeal is equal to Dm_ShopPenitent (k=1.00)
+INFO:root:Dm_WastefulExplode is equal to Dm_CherryPowerful (k=1.00)
+INFO:root:Dm_ShortAnnoying is equal to Dm_ShadeReligion (k=1.00)
+INFO:root:Dm_ToothpasteIcy is equal to Dm_BrushMessy (k=1.00)
+INFO:root:Dm_TrainsStiff is equal to Dm_InstructSuit (k=1.00)
+INFO:root:Dm_RabbitsKindhearted is equal to Dm_AdaptableCondition (k=1.00)
+INFO:root:Dm_SmoothDescribe is equal to Dm_ToeBright (k=1.00)
+INFO:root:Dm_CompanyJagged is equal to Dm_BeginnerWash (k=1.00)
+INFO:root:Dm_OrangeSpotless is equal to Dm_ColossalElite (k=1.00)
+INFO:root:Dm_DoorWait is equal to Dm_UnequalAction (k=1.00)
+INFO:root:Dm_SnakesPrecious is equal to Dm_WaitCultured (k=1.00)
+INFO:root:Dm_ZippyNeighborly is equal to Dm_UnarmedVague (k=1.00)
+INFO:root:Dm_ManageUsed is equal to Dm_WindDislike (k=1.00)
+INFO:root:Dm_VivaciousOatmeal is equal to Dm_BitSeparate (k=1.00)
+INFO:root:Dm_GroundOrder is equal to Dm_TartBag (k=1.00)
+INFO:root:Dm_DelicateYell is equal to Dm_StripedHeartbreaking (k=1.00)
+INFO:root:Dm_AdditionHobbies is equal to Dm_BombSpoil (k=1.00)
+INFO:root:Dm_DivergentWhisper is equal to Dm_SeriousMountain (k=1.00)
+INFO:root:Dm_GruesomeIcy is equal to Dm_WailFree (k=1.00)
+INFO:root:Dm_RetireFrantic is equal to Dm_SpuriousAfternoon (k=1.00)
+INFO:root:Dm_ResoluteDefective is equal to Dm_BackLock (k=1.00)
+INFO:root:Dm_WhistleMilky is equal to Dm_ColorfulEar (k=1.00)
+INFO:root:Dm_RequestCrash is equal to Dm_AnalyzeRecognise (k=1.00)
+INFO:root:Dm_LearnedGeneral is equal to Dm_FamousBoast (k=1.00)
+INFO:root:Dm_BranchToe is equal to Dm_ClassOrdinary (k=1.00)
+INFO:root:Dm_AgonizingSearch is equal to Dm_SqueamishVeil (k=1.00)
+INFO:root:Dm_FierceSprout is equal to Dm_DailySpace (k=1.00)
+INFO:root:Dm_BrassNeighborly is equal to Dm_HangingTightfisted (k=1.00)
+INFO:root:Dm_IdentifyShut is equal to Dm_BurlyAlive (k=1.00)
+INFO:root:Dm_OvenMany is equal to Dm_SincereNarrow (k=1.00)
+INFO:root:Dm_FunnyRambunctious is equal to Dm_RightMarked (k=1.00)
+INFO:root:Dm_ResoluteToothpaste is equal to Dm_LongAdvice (k=1.00)
+INFO:root:Dm_OatmealMouse is equal to Dm_SymptomaticStem (k=1.00)
+INFO:root:Dm_WorkOptimal is equal to Dm_SpotlessDetermined (k=1.00)
+INFO:root:Dm_SpoonFork is equal to Dm_SpottedTasty (k=1.00)
+INFO:root:Dm_ZooHoc is equal to Dm_CrashCareful (k=1.00)
+INFO:root:Dm_LocketAdjoining is equal to Dm_PinusUsed (k=1.00)
+INFO:root:Dm_SquareLook is equal to Dm_PoisonAdjoining (k=1.00)
+INFO:root:Dm_ExpansionCelery is equal to Dm_EngineFlower (k=1.00)
+INFO:root:Dm_VagueWait is equal to Dm_RabbitYummy (k=1.00)
+INFO:root:Dm_AbsurdNear is equal to Dm_ConditionInvite (k=1.00)
+INFO:root:Dm_RoomTreat is equal to Dm_InnateIncrease (k=1.00)
+INFO:root:Dm_SeedBrass is equal to Dm_OrangesRambunctious (k=1.00)
+INFO:root:Dm_GruesomeFlash is equal to Dm_SlipEyes (k=1.00)
+INFO:root:Dm_FlowerSymptomatic is equal to Dm_ChivalrousSea (k=1.00)
+INFO:root:Dm_AlertCommon is equal to Dm_WrenBoundary1 (k=1.00)
+INFO:root:Dm_DisappearCalculator is equal to Dm_RetireWasteful (k=1.00)
+INFO:root:Dm_EntertainingBoundary is equal to Dm_CrowdedIncompetent (k=1.00)
+INFO:root:Dm_TediousRealize is equal to Dm_MeasureLock (k=1.00)
+INFO:root:Dm_NutImportant is equal to Dm_FreeSea (k=1.00)
+INFO:root:Dm_AnnoyMean is equal to Dm_SquareTrains (k=1.00)
+INFO:root:Dm_NoiselessCalculate is equal to Dm_HeartbreakingDazzling (k=1.00)
+INFO:root:Dm_HealIllustrious is equal to Dm_BeliefTedious (k=1.00)
+INFO:root:Dm_StrengthenDescribe is equal to Dm_GeneralTremble (k=1.00)
+INFO:root:Dm_ShakeProud is equal to Dm_VagabondAccurate (k=1.00)
+INFO:root:Dm_CrashPanicky is equal to Dm_DrownExotic (k=1.00)
+INFO:root:Dm_PreciousBruise is equal to Dm_InviteStatement (k=1.00)
+INFO:root:Dm_RecogniseMend is equal to Dm_AdaptableHeat (k=1.00)
+INFO:root:Dm_RubHeartbreaking is equal to Dm_UnequaledKnowledge (k=1.00)
+INFO:root:Dm_TiresomeRabbits is equal to Dm_FranticBoundary (k=1.00)
+INFO:root:Dm_AutomaticScintillating is equal to Dm_LettersSpurious (k=1.00)
+INFO:root:Dm_KneelWicked is equal to Dm_YellAdjoining (k=1.00)
+INFO:root:Dm_MeanJar is equal to Dm_SeriousEfficient (k=1.00)
+INFO:root:Dm_UniqueChangeable is equal to Dm_ScaredSummer (k=1.00)
+INFO:root:Dm_LimitContain is equal to Dm_DrownGate (k=1.00)
+INFO:root:Dm_RuddyMatch is equal to Dm_DoubleEvasive (k=1.00)
+INFO:root:Dm_TowDinner is equal to Dm_BeadSugar (k=1.00)
+INFO:root:Dm_SeparateTeaching is equal to Dm_BlushProud (k=1.00)
+INFO:root:Dm_DidacticWoman is equal to Dm_LargeMend (k=1.00)
+INFO:root:Dm_UnknownHeat is equal to Dm_ZippyTasteless (k=1.00)
+INFO:root:Dm_InstructCompetition is equal to Dm_WhistleStormy (k=1.00)
+INFO:root:Dm_JumbledFrantic is equal to Dm_AgonizingWail (k=1.00)
+INFO:root:Dm_ForkRoom is equal to Dm_SuccessfulCommon (k=1.00)
+INFO:root:Dm_TangyRabbits is equal to Dm_EfficientCracker (k=1.00)
+INFO:root:Dm_EngineDock is equal to Dm_ThankRecognise (k=1.00)
+INFO:root:Dm_MarkSick is equal to Dm_WashPayment (k=1.00)
+INFO:root:Dm_CloisteredQuirky is equal to Dm_StomachAfternoon (k=1.00)
+INFO:root:Dm_PorterCrown is equal to Dm_InconclusiveThought (k=1.00)
+INFO:root:Dm_CrookedUnwritten is equal to Dm_WiseJog (k=1.00)
+INFO:root:Dm_GrateMessy is equal to Dm_BombCrook (k=1.00)
+INFO:root:Dm_ZipPoised is equal to Dm_DidacticPig (k=1.00)
+INFO:root:Dm_VoyageDoctor is equal to Dm_AwakeAir (k=1.00)
+INFO:root:Dm_RuddyNest is equal to Dm_SaveJagged (k=1.00)
+INFO:root:Dm_GulliblePlants is equal to Dm_HatefulBack (k=1.00)
+INFO:root:Dm_SignWasteful is equal to Dm_AdventurousZip (k=1.00)
+INFO:root:Dm_MarkMeasly is equal to Dm_EarCelery (k=1.00)
+INFO:root:Dm_DoubleLaughable is equal to Dm_WealthySpurious (k=1.00)
+INFO:root:Dm_WanderingRecord is equal to Dm_AmuseAdjustment (k=1.00)
+INFO:root:Dm_NoisyCreator is equal to Dm_BorrowFive (k=1.00)
+INFO:root:Dm_CureCry is equal to Dm_NaughtyDinner (k=1.00)
+INFO:root:Dm_DebtMatch is equal to Dm_SeriousConcentrate (k=1.00)
+INFO:root:Dm_SnottyPack is equal to Dm_WrathfulSearch (k=1.00)
+INFO:root:Dm_KittensNotebook is equal to Dm_HangingWretched (k=1.00)
+INFO:root:Dm_VagabondStem is equal to Dm_LookAnnoying (k=1.00)
+INFO:root:Dm_DisgustingFlow is equal to Dm_SqueamishKotsky (k=1.00)
+INFO:root:Dm_GamyYummy is equal to Dm_RobinAttractive (k=1.00)
+INFO:root:Dm_ReactionLackadaisical is equal to Dm_JumbledFork (k=1.00)
+INFO:root:Dm_AttractivePlough is equal to Dm_InviteLegs (k=1.00)
+INFO:root:Dm_CheatSpoon is equal to Dm_BombHuge (k=1.00)
+INFO:root:Dm_TrapAbortive is equal to Dm_CrookCultured (k=1.00)
+INFO:root:Dm_CoalBrush is equal to Dm_DoorIncrease (k=1.00)
+INFO:root:Dm_FaintSplendid is equal to Dm_VagabondPig (k=1.00)
+INFO:root:Dm_ComparisonKnowledgeable is equal to Dm_QueueWhisper (k=1.00)
+INFO:root:Dm_UnequaledLanguid is equal to Dm_WrathfulHilarious (k=1.00)
+INFO:root:Dm_UnknownFade is equal to Dm_FirstMeasure (k=1.00)
+INFO:root:Dm_CrackerMouse is equal to Dm_NarrowOranges (k=1.00)
+INFO:root:Dm_EasyImportant is equal to Dm_ShortBathe (k=1.00)
+INFO:root:Dm_KnowledgeBomb is equal to Dm_LearnedHanging (k=1.00)
+INFO:root:Dm_ZipExotic is equal to Dm_EnjoyGrate (k=1.00)
+INFO:root:Dm_SatisfyBelligerent is equal to Dm_FlockShoe (k=1.00)
+INFO:root:Dm_OrderScared is equal to Dm_CarefulEfficient (k=1.00)
+INFO:root:Dm_CrookedShort is equal to Dm_NeighborlyHalf (k=1.00)
+INFO:root:Dm_ClassEasy is equal to Dm_CakeColor (k=1.00)
+INFO:root:Dm_UninterestedPinus is equal to Dm_HobbiesAlive (k=1.00)
+INFO:root:Dm_RoomReal is equal to Dm_DisappearDraconian (k=1.00)
+INFO:root:Dm_LaughableZonked is equal to Dm_HourTemper (k=1.00)
+INFO:root:Dm_SpuriousGovernment is equal to Dm_OilFill (k=1.00)
+INFO:root:Dm_CuteRecognise is equal to Dm_WanderFlock (k=1.00)
+INFO:root:Dm_StatementManage is equal to Dm_ScrawnyRobin (k=1.00)
+INFO:root:Dm_ErrorAdvise is equal to Dm_KnowledgeSplendid (k=1.00)
+INFO:root:Dm_BirdFlash is equal to Dm_DrownImpolite (k=1.00)
+INFO:root:Dm_EnergeticMountain is equal to Dm_VeilScale (k=1.00)
+INFO:root:Dm_UniqueUncle is equal to Dm_HobbiesConfused (k=1.00)
+INFO:root:Dm_SpotProgram is equal to Dm_MountainBeginner (k=1.00)
+INFO:root:Dm_GrinHarmony is equal to Dm_AlertBike (k=1.00)
+INFO:root:Dm_RealAlert is equal to Dm_GrinSpoil (k=1.00)
+INFO:root:Dm_PeckCherry is equal to Dm_LabelAd (k=1.00)
+INFO:root:Dm_BumpHorn is equal to Dm_CherryTrail (k=1.00)
+INFO:root:Dm_HydrantSuccinct is equal to Dm_GlamorousVolcano (k=1.00)
+INFO:root:Dm_CoalGate is equal to Dm_SpotlessNaive (k=1.00)
+INFO:root:Dm_VivaciousTumble is equal to Dm_SkiPromise (k=1.00)
+INFO:root:Dm_GroundSwanky is equal to Dm_ZincChickens (k=1.00)
+INFO:root:Dm_EasySound is equal to Dm_ModernMeasly (k=1.00)
+INFO:root:Dm_EggnogWhisper is equal to Dm_SkiOnerous (k=1.00)
+INFO:root:Dm_AbsurdBoast is equal to Dm_LargeCultured (k=1.00)
+INFO:root:Dm_LimitMend is equal to Dm_MilkyGrandfather (k=1.00)
+INFO:root:Dm_ScintillatingCareless is equal to Dm_LudicrousMitten (k=1.00)
+INFO:root:Dm_BeliefSuper is equal to Dm_CompetitionAdjustment (k=1.00)
+INFO:root:Dm_UnarmedNut is equal to Dm_ConditionPrecious (k=1.00)
+INFO:root:Dm_ArmyGreedy is equal to Dm_SleepyHobbies (k=1.00)
+INFO:root:Dm_PushyCat is equal to Dm_SproutSprout (k=1.00)
+INFO:root:Dm_ZooJar is equal to Dm_WomanNest (k=1.00)
+INFO:root:Dm_LetterHanging is equal to Dm_ToeToothpaste (k=1.00)
+INFO:root:Dm_JoyousSigh is equal to Dm_TrapSleep (k=1.00)
+INFO:root:Dm_AdmireAlluring is equal to Dm_TangyScale (k=1.00)
+INFO:root:Dm_VagueFour is equal to Dm_SlimClub (k=1.00)
+INFO:root:Dm_RealHilarious is equal to Dm_TeachingCrown (k=1.00)
+INFO:root:Dm_EarContain is equal to Dm_BoastRiver (k=1.00)
+INFO:root:Dm_BoundaryCold is equal to Dm_GirlReaction (k=1.00)
+INFO:root:Dm_RoomSpot is equal to Dm_JuiceSea (k=1.00)
+INFO:root:Dm_IdentifyUnarmed is equal to Dm_IncompetentSuccinct (k=1.00)
+INFO:root:Dm_WindyColossal is equal to Dm_WindApathetic (k=1.00)
+INFO:root:Dm_WallCreator is equal to Dm_LudicrousObeisant (k=1.00)
+INFO:root:Dm_PaintRabbit is equal to Dm_SeparateHalf (k=1.00)
+INFO:root:Dm_SoundChickens is equal to Dm_AngleMilky (k=1.00)
+INFO:root:Dm_DivisionExotic is equal to Dm_DinnerNeighborly (k=1.00)
+INFO:root:Dm_SaltShock is equal to Dm_IllustriousEasy (k=1.00)
+INFO:root:Dm_AdventurousDress is equal to Dm_TediousJog (k=1.00)
+INFO:root:Dm_PersonDeadpan is equal to Dm_AgreeBack (k=1.00)
+INFO:root:Dm_CatCake is equal to Dm_AdhesiveWretched (k=1.00)
+INFO:root:Dm_KnotAdvice is equal to Dm_BreatheBump (k=1.00)
+INFO:root:Dm_StickVeil is equal to Dm_RecogniseDetermined (k=1.00)
+INFO:root:Dm_TouchQuirky is equal to Dm_BumpRequest (k=1.00)
+INFO:root:Dm_SofaVoyage is equal to Dm_SleepCondition (k=1.00)
+INFO:root:Dm_NaughtyVulgar is equal to Dm_ColossalLimit (k=1.00)
+INFO:root:Dm_WallCrib is equal to Dm_UnequaledUninterested (k=1.00)
+INFO:root:Dm_PrivateOil is equal to Dm_SootheSave (k=1.00)
+INFO:root:Dm_StickHeal is equal to Dm_PreciousTreat (k=1.00)
+INFO:root:Dm_SuzukaRare is equal to Dm_SignRabbits (k=1.00)
+INFO:root:Dm_LargeMemorize is equal to Dm_WhipNoxious (k=1.00)
+INFO:root:Dm_GrateCherry is equal to Dm_DeliverHusky (k=1.00)
+INFO:root:Dm_PleasantFit is equal to Dm_UncleFade (k=1.00)
+INFO:root:Dm_ClubNut is equal to Dm_CoolScratch (k=1.00)
+INFO:root:Dm_SpaceClub is equal to Dm_ConcentrateDetail (k=1.00)
+INFO:root:Dm_CuteMessy is equal to Dm_AirHoc (k=1.00)
+INFO:root:Dm_SeriousSpoil is equal to Dm_CapriciousShake (k=1.00)
+INFO:root:Dm_SquealEvasive is equal to Dm_VeilTasty (k=1.00)
+INFO:root:Dm_SearchIncompetent is equal to Dm_MessyFrighten (k=1.00)
+INFO:root:Dm_LyricalEggnog is equal to Dm_RarePaint (k=1.00)
+INFO:root:Dm_UnitGeneral is equal to Dm_CompanyStick (k=1.00)
+INFO:root:Dm_ShadeRiver is equal to Dm_PinusShake (k=1.00)
+INFO:root:Dm_CloisteredPlough is equal to Dm_CalculateSpiffy (k=1.00)
+INFO:root:Dm_ConfusedTreat is equal to Dm_FreePass (k=1.00)
+INFO:root:Dm_ColdWander is equal to Dm_AbjectGrate (k=1.00)
+INFO:root:Dm_JarPail is equal to Dm_ApatheticSweater (k=1.00)
+INFO:root:Dm_KurumaSmile is equal to Dm_SubduedFill (k=1.00)
+INFO:root:Dm_DearGlow is equal to Dm_DraconianFascinated (k=1.00)
+INFO:root:Dm_LunasoleSleepy is equal to Dm_GirlClub (k=1.00)
+INFO:root:Dm_FaintAnnoy is equal to Dm_ScaredWet (k=1.00)
+INFO:root:Dm_KnifeCareless is equal to Dm_ShutPrepare (k=1.00)
+INFO:root:Dm_WhipCommon is equal to Dm_BashfulImportant (k=1.00)
+INFO:root:Dm_PriceFive is equal to Dm_HornWatery (k=1.00)
+INFO:root:Dm_NoxiousLate is equal to Dm_BearNeighborly (k=1.00)
+INFO:root:Dm_AuthorityWatery is equal to Dm_OrangesPat (k=1.00)
+INFO:root:Dm_DoubleGrin is equal to Dm_ChickenFill (k=1.00)
+INFO:root:Dm_SqueezeIdentify is equal to Dm_VerdantAdvertisement (k=1.00)
+INFO:root:Dm_BreatheWealthy is equal to Dm_TumbleJar (k=1.00)
+INFO:root:Dm_AdjustmentDisgusting is equal to Dm_GreedyBashful (k=1.00)
+INFO:root:Dm_VagabondPlease is equal to Dm_BirdsCure (k=1.00)
+INFO:root:Dm_EarthquakeCalculator is equal to Dm_ComplexFarm (k=1.00)
+INFO:root:Dm_WhisperWind is equal to Dm_EarHeal (k=1.00)
+INFO:root:Dm_RejectSpiffy is equal to Dm_FamousRealize (k=1.00)
+INFO:root:Dm_BackImpartial is equal to Dm_HateAttractive (k=1.00)
+INFO:root:Dm_LunasoleJar is equal to Dm_PaymentShop (k=1.00)
+INFO:root:Dm_FlowRetire is equal to Dm_SplendidClammy (k=1.00)
+INFO:root:Dm_VeilFrail is equal to Dm_FlockCracker (k=1.00)
+INFO:root:Dm_FeebleSnakes is equal to Dm_BrightThrill (k=1.00)
+INFO:root:Dm_RuddySuit is equal to Dm_CarefulRub (k=1.00)
+INFO:root:Dm_SeaCherry is equal to Dm_WretchedBear (k=1.00)
+INFO:root:Dm_UsedReligion is equal to Dm_ExplainEar (k=1.00)
+INFO:root:Dm_ChubbyClever is equal to Dm_SenseBury (k=1.00)
+INFO:root:Dm_ChickensThreatening is equal to Dm_NutCollect (k=1.00)
+INFO:root:Dm_SoundSqueamish is equal to Dm_VolcanoAngle (k=1.00)
+INFO:root:Dm_CalculateSwanky is equal to Dm_OwnUsed (k=1.00)
+INFO:root:Dm_FadeFaint is equal to Dm_UnwrittenYak (k=1.00)
+INFO:root:Dm_StaySleep is equal to Dm_HeatBabies (k=1.00)
+INFO:root:Dm_ZonkedAlluring is equal to Dm_KnotVeil (k=1.00)
+INFO:root:Dm_WanderingSofa is equal to Dm_ProgramManage (k=1.00)
+INFO:root:Dm_DinnerYummy is equal to Dm_InstructColossal (k=1.00)
+INFO:root:Dm_OnerousBag is equal to Dm_NarrowPayment (k=1.00)
+INFO:root:Dm_BombSupply is equal to Dm_CrowdedBrush (k=1.00)
+INFO:root:Dm_ToothpasteGaping is equal to Dm_SatisfyHesitant (k=1.00)
+INFO:root:Dm_PossessReal is equal to Dm_RequestAutomatic (k=1.00)
+INFO:root:Dm_HornStrengthen is equal to Dm_WantList (k=1.00)
+INFO:root:Dm_VerdantRare is equal to Dm_AfterthoughtAlluring (k=1.00)
+INFO:root:Dm_TaxKnife is equal to Dm_SeedTroubled (k=1.00)
+INFO:root:Dm_TartRoom is equal to Dm_AccurateGround (k=1.00)
+INFO:root:Dm_WaitOrdinary is equal to Dm_ChinDistro (k=1.00)
+INFO:root:Dm_AlansonBird is equal to Dm_PushyFunny (k=1.00)
+INFO:root:Dm_SecretWatery is equal to Dm_PlanAcoustic (k=1.00)
+INFO:root:Dm_DinnerGround is equal to Dm_FarmRightful (k=1.00)
+INFO:root:Dm_MetalShop is equal to Dm_CeleryPoison (k=1.00)
+INFO:root:Dm_CollectFierce is equal to Dm_TiresomeEyes (k=1.00)
+INFO:root:Dm_CheckBit is equal to Dm_EarHusky (k=1.00)
+INFO:root:Dm_BootPass is equal to Dm_ActionBruise (k=1.00)
+INFO:root:Dm_LateYell is equal to Dm_CulturedMemorize (k=1.00)
+INFO:root:Dm_ShakeAccurate is equal to Dm_PassGirl (k=1.00)
+INFO:root:Dm_NervousInexpensive is equal to Dm_WaitingImpartial (k=1.00)
+INFO:root:Dm_ReachGullible is equal to Dm_SupplyOranges (k=1.00)
+INFO:root:Dm_CapriciousPrepare is equal to Dm_TediousChicken (k=1.00)
+INFO:root:Dm_RoomKuruma is equal to Dm_WealthySnakes (k=1.00)
+INFO:root:Dm_IncreasePeck is equal to Dm_StripedNaughty (k=1.00)
+INFO:root:Dm_ZippyEyes is equal to Dm_TrembleToys (k=1.00)
+INFO:root:Dm_WindBoot is equal to Dm_OvenAdjustment (k=1.00)
+INFO:root:Dm_VerdantHeat is equal to Dm_SlowPear (k=1.00)
+INFO:root:Dm_TaxIdentify is equal to Dm_SecretSign (k=1.00)
+INFO:root:Dm_CeleryScissors is equal to Dm_WetAmuse (k=1.00)
+INFO:root:Dm_NeighborlyFour is equal to Dm_PlanFrail (k=1.00)
+INFO:root:Dm_CrimeConcentrate is equal to Dm_DeadpanStrengthen (k=1.00)
+INFO:root:Dm_CardTroubled is equal to Dm_LieWander (k=1.00)
+INFO:root:Dm_FamousBelief is equal to Dm_SpuriousCycle (k=1.00)
+INFO:root:Dm_BeliefSystem is equal to Dm_ReactionAfternoon (k=1.00)
+INFO:root:Dm_RoomEasy is equal to Dm_NewBead (k=1.00)
+INFO:root:Dm_AgreeNaive is equal to Dm_GlowRealize (k=1.00)
+INFO:root:Dm_EfficientDetail is equal to Dm_AlertRight (k=1.00)
+INFO:root:Dm_InstinctiveExpert is equal to Dm_WateryChicken (k=1.00)
+INFO:root:Dm_FaithfulSprout is equal to Dm_GlowStale (k=1.00)
+INFO:root:Dm_InventSlow is equal to Dm_BurnPainstaking (k=1.00)
+INFO:root:Dm_HappySpace is equal to Dm_ColorfulBetter (k=1.00)
+INFO:root:Dm_WrathfulAgreeable is equal to Dm_ImportantFunny (k=1.00)
+INFO:root:Dm_SplendidSpy is equal to Dm_OptimalLudicrous (k=1.00)
+INFO:root:Dm_KindheartedBoundless is equal to Dm_OrdinaryHanging (k=1.00)
+INFO:root:Dm_TeenyScrew is equal to Dm_SleepRub (k=1.00)
+INFO:root:Dm_ObtainableSnakes is equal to Dm_PersonChubby (k=1.00)
+INFO:root:Dm_ApatheticPanoramic is equal to Dm_PatBeginner (k=1.00)
+INFO:root:Dm_RomanticDivergent is equal to Dm_SnottyWork (k=1.00)
+INFO:root:Dm_RuddyNew is equal to Dm_DisgustingAdjoining (k=1.00)
+INFO:root:Dm_CycleDoor is equal to Dm_FrailMeasure (k=1.00)
+INFO:root:Dm_CreatorAnnoying is equal to Dm_ChopSlim (k=1.00)
+INFO:root:Dm_ChinHour is equal to Dm_VolcanoBalvanka (k=1.00)
+INFO:root:Dm_DressMouse is equal to Dm_ImportantShame (k=1.00)
+INFO:root:Dm_NoisyTumble is equal to Dm_HuskyInterrupt (k=1.00)
+INFO:root:Dm_CountCompetition is equal to Dm_BehaviorSuccinct (k=1.00)
+INFO:root:Dm_BaseballMetal is equal to Dm_ZooUnit (k=1.00)
+INFO:root:Dm_MilkyWoman is equal to Dm_EarthquakeLetter (k=1.00)
+INFO:root:Dm_MittenSpooky is equal to Dm_PossessYummy (k=1.00)
+INFO:root:Dm_ExplainFearful is equal to Dm_GlowBaseball (k=1.00)
+INFO:root:Dm_TrembleChubby is equal to Dm_FixCry (k=1.00)
+INFO:root:Dm_FragileSparkle is equal to Dm_TrousersDescribe (k=1.00)
+INFO:root:Dm_BalanceBoring is equal to Dm_NoiselessVerdant (k=1.00)
+INFO:root:Dm_OrdinaryPrivate is equal to Dm_WeightJuice (k=1.00)
+INFO:root:Dm_BatheVolcano is equal to Dm_UnarmedSerious (k=1.00)
+INFO:root:Dm_ComparisonBoot is equal to Dm_RightfulCloistered (k=1.00)
+INFO:root:Dm_StoryGreedy is equal to Dm_TourQuirky (k=1.00)
+INFO:root:Dm_AdmireInexpensive is equal to Dm_VolcanoUnequal (k=1.00)
+INFO:root:Dm_BaseballWant is equal to Dm_AbaftWaiting (k=1.00)
+INFO:root:Dm_KnifeUnite is equal to Dm_KeyRiver (k=1.00)
+INFO:root:Dm_PunchLetters is equal to Dm_ProgramUnequaled (k=1.00)
+INFO:root:Dm_CrookedSlim is equal to Dm_LettersAdvertisement (k=1.00)
+INFO:root:Dm_TowEggnog is equal to Dm_BasinBerry (k=1.00)
+INFO:root:Dm_BerryWandering is equal to Dm_ImperfectVolcano (k=1.00)
+INFO:root:Dm_KnowledgeWhite is equal to Dm_KurumaSpoil (k=1.00)
+INFO:root:Dm_RubMeasly is equal to Dm_TendencyHistory (k=1.00)
+INFO:root:Dm_ArmNest is equal to Dm_InviteWoman (k=1.00)
+INFO:root:Dm_WarlikeBashful is equal to Dm_WorkNotebook (k=1.00)
+INFO:root:Dm_DescribeBleach is equal to Dm_ThrillCart (k=1.00)
+INFO:root:Dm_ProbableSon is equal to Dm_VioletDelicate (k=1.00)
+INFO:root:Dm_SmoothWork is equal to Dm_DescribeCrib (k=1.00)
+INFO:root:Dm_AwakeCrook is equal to Dm_ClammyScintillating (k=1.00)
+INFO:root:Dm_BoastButter is equal to Dm_ImpartialLetters (k=1.00)
+INFO:root:Dm_LocketWander is equal to Dm_AnalyzeGrotesque (k=1.00)
+INFO:root:Dm_RightSqueamish is equal to Dm_SeriousSpy (k=1.00)
+INFO:root:Dm_ShadeHappy is equal to Dm_BrassClass (k=1.00)
+INFO:root:Dm_SpookyAdventurous is equal to Dm_FaithfulCurved (k=1.00)
+INFO:root:Dm_ReminiscentMeasure is equal to Dm_SeriousSmooth (k=1.00)
+INFO:root:Dm_StoreLoaf is equal to Dm_HydrantStriped (k=1.00)
+INFO:root:Dm_CrimeCheck is equal to Dm_AdjoiningTeeny (k=1.00)
+INFO:root:Dm_CribNest is equal to Dm_KnifeSummer (k=1.00)
+INFO:root:Dm_SoundToy is equal to Dm_TightfistedMean (k=1.00)
+INFO:root:Dm_TaxNaughty is equal to Dm_IgnorantSeparate (k=1.00)
+INFO:root:Dm_CuteAdaptable is equal to Dm_RobinSpot (k=1.00)
+INFO:root:Dm_SlimSplendid is equal to Dm_ConcentrateExpansion (k=1.00)
+INFO:root:Dm_EnginePlough is equal to Dm_WindyRecord (k=1.00)
+INFO:root:Dm_ScrawnyHusky is equal to Dm_PigShade (k=1.00)
+INFO:root:Dm_SandHateful is equal to Dm_ThickSick (k=1.00)
+INFO:root:Dm_RecordNervous is equal to Dm_QueueFamous (k=1.00)
+INFO:root:Dm_CeleryWoman is equal to Dm_SeriousEnergetic (k=1.00)
+INFO:root:Dm_SandSand is equal to Dm_DeadpanThank (k=1.00)
+INFO:root:Dm_SpookySincere is equal to Dm_ErrorPoison (k=1.00)
+INFO:root:Dm_PictureReach is equal to Dm_MetalGrate (k=1.00)
+INFO:root:Dm_SmileLyrical is equal to Dm_PleasantSpot (k=1.00)
+INFO:root:Dm_SproutProse is equal to Dm_PlanColor (k=1.00)
+INFO:root:Dm_VagabondScared is equal to Dm_BlotGlamorous (k=1.00)
+INFO:root:Dm_CrookReaction is equal to Dm_MessySprout (k=1.00)
+INFO:root:Dm_DescribeAfternoon is equal to Dm_LaborerPaint (k=1.00)
+INFO:root:Dm_DidacticAdvertisement is equal to Dm_ChillyInquisitive (k=1.00)
+INFO:root:Dm_ChickenPlan is equal to Dm_PinusCan (k=1.00)
+INFO:root:Dm_InstinctiveBruise is equal to Dm_AgonizingStem (k=1.00)
+INFO:root:Dm_HangingTumble is equal to Dm_YummyWoman (k=1.00)
+INFO:root:Dm_RoomModern is equal to Dm_HatefulLoaf (k=1.00)
+INFO:root:Dm_FiveIncompetent is equal to Dm_UnknownHobbies (k=1.00)
+INFO:root:Dm_GrainPrecious is equal to Dm_AjarSqueal (k=1.00)
+INFO:root:Dm_GeneralInterrupt is equal to Dm_SmartGeneral (k=1.00)
+INFO:root:Dm_AnnoyRuddy is equal to Dm_ProgramScrawny (k=1.00)
+INFO:root:Dm_DinnerPipka is equal to Dm_CheckWash (k=1.00)
+INFO:root:Dm_PuzzledCraven is equal to Dm_MendChicken (k=1.00)
+INFO:root:Dm_LieBelief is equal to Dm_CeleryImperfect (k=1.00)
+INFO:root:Dm_AcousticFierce is equal to Dm_MittenTreat (k=1.00)
+INFO:root:Dm_BurlyTightfisted is equal to Dm_LaborerHose (k=1.00)
+INFO:root:Dm_SatisfyCactus is equal to Dm_ObeisantSeed (k=1.00)
+INFO:root:Dm_BeautifulCrash is equal to Dm_EvasiveLight (k=1.00)
+INFO:root:Dm_HarmonyBabies is equal to Dm_ColdScissors (k=1.00)
+INFO:root:Dm_BrassDisappear is equal to Dm_AgreeableMachine (k=1.00)
+INFO:root:Dm_TransportFit is equal to Dm_NotebookHeartbreaking (k=1.00)
+INFO:root:Dm_LookUnequaled is equal to Dm_CactusBead (k=1.00)
+INFO:root:Dm_RealizeLeg is equal to Dm_TemperFree (k=1.00)
+INFO:root:Dm_DelightfulBehavior is equal to Dm_PrepareOrdinary (k=1.00)
+INFO:root:Dm_CleverPurpose is equal to Dm_YellBetter (k=1.00)
+INFO:root:Dm_LanguidOptimal is equal to Dm_EarGrin (k=1.00)
+INFO:root:Dm_BlushUnknown is equal to Dm_YellJumbled (k=1.00)
+INFO:root:Dm_CravenMeasure is equal to Dm_SpacePinus (k=1.00)
+INFO:root:Dm_CactusHesitant is equal to Dm_WashStay (k=1.00)
+INFO:root:Dm_RequestWren is equal to Dm_SlipSprout (k=1.00)
+INFO:root:Dm_MarkKnot is equal to Dm_WailAdjustment (k=1.00)
+INFO:root:Dm_TrainsPorter is equal to Dm_JokeTow (k=1.00)
+INFO:root:Dm_ChangeableWren is equal to Dm_StomachPail (k=1.00)
+INFO:root:Dm_ManagePrepare is equal to Dm_AngleMark (k=1.00)
+INFO:root:Dm_JarColossal is equal to Dm_SeedLie (k=1.00)
+INFO:root:Dm_LimitChubby is equal to Dm_KneelSand (k=1.00)
+INFO:root:Dm_EarthquakeInstinctive is equal to Dm_PloughRightful (k=1.00)
+INFO:root:Dm_DailyLong is equal to Dm_UtopianSqueal (k=1.00)
+INFO:root:Dm_EarAuthority is equal to Dm_RabbitsNation (k=1.00)
+INFO:root:Dm_WomanBurly is equal to Dm_PrepareMountain (k=1.00)
+INFO:root:Dm_AbaftReaction is equal to Dm_NeighborlyMatch (k=1.00)
+INFO:root:Dm_DescribeNaughty is equal to Dm_ObeisantWren (k=1.00)
+INFO:root:Dm_BirdSuper is equal to Dm_AdmireYummy (k=1.00)
+INFO:root:Dm_AuthorityQueue is equal to Dm_ThreateningAdmire (k=1.00)
+INFO:root:Dm_WhipSwanky is equal to Dm_BeginnerExplain (k=1.00)
+INFO:root:Dm_SpotShade is equal to Dm_ColorSearch (k=1.00)
+INFO:root:Dm_LateThrill is equal to Dm_WanderingAdjustment (k=1.00)
+INFO:root:Dm_TaxNation is equal to Dm_WingSplendid (k=1.00)
+INFO:root:Dm_TastelessAgonizing is equal to Dm_TendencyHistorical (k=1.00)
+INFO:root:Dm_SpiffyScale is equal to Dm_HarborNaive (k=1.00)
+INFO:root:Dm_SummerPhone is equal to Dm_PeckInvent (k=1.00)
+INFO:root:Dm_InterruptYummy is equal to Dm_ShadeThunder (k=1.00)
+INFO:root:Dm_WallHate is equal to Dm_StormyReaction (k=1.00)
+INFO:root:Dm_LudicrousMeasly is equal to Dm_SmileCollect (k=1.00)
+INFO:root:Dm_BalvankaPear is equal to Dm_DidacticContain (k=1.00)
+INFO:root:Dm_ThrillComparison is equal to Dm_PleaseHistory (k=1.00)
+INFO:root:Dm_PleaseRomantic is equal to Dm_BoastPeck (k=1.00)
+INFO:root:Dm_RightfulHesitant is equal to Dm_InterruptTasteless (k=1.00)
+INFO:root:Dm_BoastFragile is equal to Dm_HealFrantic (k=1.00)
+INFO:root:Dm_AdventurousJuice is equal to Dm_CartStrengthen (k=1.00)
+INFO:root:Dm_AdditionSleep is equal to Dm_ExoticMilky (k=1.00)
+INFO:root:Dm_BasketGeneral is equal to Dm_PleasantSleep (k=1.00)
+INFO:root:Dm_CrowdedVoyage is equal to Dm_KeyTightfisted (k=1.00)
+INFO:root:Dm_PassSweater is equal to Dm_SpookyDinner (k=1.00)
+INFO:root:Dm_WrenDelightful is equal to Dm_FourSearch (k=1.00)
+INFO:root:Dm_EnjoyPig is equal to Dm_UnwrittenStore (k=1.00)
+INFO:root:Dm_PassHilarious is equal to Dm_LyricalHuge (k=1.00)
+INFO:root:Dm_OrangesChangeable is equal to Dm_BoundaryWhip (k=1.00)
+INFO:root:Dm_DoublePayment is equal to Dm_InviteDislike (k=1.00)
+INFO:root:Dm_MouseEvasive is equal to Dm_SickAgonizing (k=1.00)
+INFO:root:Dm_AgreeEngine is equal to Dm_OnerousBag (k=1.00)
+INFO:root:Dm_ReactionTendency is equal to Dm_DeadpanThoughtless (k=1.00)
+INFO:root:Dm_LegAjar is equal to Dm_TrailPass (k=1.00)
+INFO:root:Dm_OnerousTax is equal to Dm_GlowCry (k=1.00)
+INFO:root:Dm_SaveKnowledge is equal to Dm_AirSerious (k=1.00)
+INFO:root:Dm_InjureDeliver is equal to Dm_BitOnerous (k=1.00)
+INFO:root:Dm_PhoneLong is equal to Dm_SwankyZoo (k=1.00)
+INFO:root:Dm_SweaterRequest is equal to Dm_EnjoyLock (k=1.00)
+INFO:root:Dm_ShelfWasteful is equal to Dm_BurlyStomach (k=1.00)
+INFO:root:Dm_BrushUnwritten is equal to Dm_OilCute (k=1.00)
+INFO:root:Dm_CollectAnalyze is equal to Dm_AuntNervous (k=1.00)
+INFO:root:Dm_OnerousSystem is equal to Dm_DockQuack (k=1.00)
+INFO:root:Dm_WanderingBlush is equal to Dm_TroubledOwn (k=1.00)
+INFO:root:Dm_CulturedReject is equal to Dm_ScintillatingImpartial (k=1.00)
+INFO:root:Dm_SteerFlock is equal to Dm_SincereMitten (k=1.00)
+INFO:root:Dm_ReminiscentExpansion is equal to Dm_HarborLaughable (k=1.00)
+INFO:root:Dm_SleepyRecord is equal to Dm_MittenSteer (k=1.00)
+INFO:root:Dm_TeenyKaput is equal to Dm_DoubleDoctor (k=1.00)
+INFO:root:Dm_ImperfectVeil is equal to Dm_LightBeautiful (k=1.00)
+INFO:root:Dm_RabbitComplex is equal to Dm_SistersProse (k=1.00)
+INFO:root:Dm_CartAblaze is equal to Dm_DeserveVerdant (k=1.00)
+INFO:root:Dm_RabbitsLocket is equal to Dm_MatchSlip (k=1.00)
+INFO:root:Dm_GreedyExpert is equal to Dm_DeterminedTart (k=1.00)
+INFO:root:Dm_NaiveCheck is equal to Dm_PatJelly (k=1.00)
+INFO:root:Dm_ScrewStick is equal to Dm_GovernmentEnergetic (k=1.00)
+INFO:root:Dm_AmuseGrate is equal to Dm_AlivePlease (k=1.00)
+INFO:root:Dm_AbjectCapricious is equal to Dm_CurvedWant (k=1.00)
+INFO:root:Dm_TastelessThunder is equal to Dm_AnalyzeFirst (k=1.00)
+INFO:root:Dm_BlotHuge is equal to Dm_KeyHilarious (k=1.00)
+INFO:root:Dm_VagabondSnakes is equal to Dm_ShameBear (k=1.00)
+INFO:root:Dm_IcyDinner is equal to Dm_WailHysterical (k=1.00)
+INFO:root:Dm_HobbiesBrush is equal to Dm_ArmyNaive (k=1.00)
+INFO:root:Dm_UniteBorrow is equal to Dm_LockMean (k=1.00)
+INFO:root:Dm_MeasureCollect is equal to Dm_DeserveStomach (k=1.00)
+INFO:root:Dm_IncompetentMeasly is equal to Dm_SproutTremble (k=1.00)
+INFO:root:Dm_GlamorousDraconian is equal to Dm_ClassSpurious (k=1.00)
+INFO:root:Dm_BabiesCracker is equal to Dm_CleverLetters (k=1.00)
+INFO:root:Dm_TumbleMouse is equal to Dm_DeadpanBleach (k=1.00)
+INFO:root:Dm_SignSqueamish is equal to Dm_DelicateError (k=1.00)
+INFO:root:Dm_TroubledCrime is equal to Dm_PoisedSea (k=1.00)
+INFO:root:Dm_ShutStomach is equal to Dm_AdhesiveBoundless (k=1.00)
+INFO:root:Dm_JuggleGrain is equal to Dm_ZipWhisper (k=1.00)
+INFO:root:Dm_LaborerColorful is equal to Dm_LaughableBurn (k=1.00)
+INFO:root:Dm_PigLook is equal to Dm_WaitPayment (k=1.00)
+INFO:root:Dm_LimitLong is equal to Dm_BladeCrook (k=1.00)
+INFO:root:Dm_OvenFragile is equal to Dm_KnowledgePear (k=1.00)
+INFO:root:Dm_KnifeWasteful is equal to Dm_PunctureAd (k=1.00)
+INFO:root:Dm_WrenCrooked is equal to Dm_BorrowAutomatic (k=1.00)
+INFO:root:Dm_JaggedDisappear is equal to Dm_ContainKindhearted (k=1.00)
+INFO:root:Dm_SlowNervous is equal to Dm_WetClover (k=1.00)
+INFO:root:Dm_DelicateGate is equal to Dm_SpyAccurate (k=1.00)
+INFO:root:Dm_BrassPrivate is equal to Dm_AgreeableHate (k=1.00)
+INFO:root:Dm_SparkleYam is equal to Dm_DistroOil (k=1.00)
+INFO:root:Dm_WickedWealthy is equal to Dm_EvasiveKnowledge (k=1.00)
+INFO:root:Dm_OrangesRealize is equal to Dm_EyesAfternoon (k=1.00)
+INFO:root:Dm_PaltrySubdued is equal to Dm_DisturbedPear (k=1.00)
+INFO:root:Dm_ProgramInconclusive is equal to Dm_RecogniseRequest (k=1.00)
+INFO:root:Dm_FadeInexpensive is equal to Dm_HoseDress (k=1.00)
+INFO:root:Dm_EdgeFive is equal to Dm_FranticAdventurous (k=1.00)
+INFO:root:Dm_IdeaWander is equal to Dm_RomanticDazzling (k=1.00)
+INFO:root:Dm_DeliverGrate is equal to Dm_WrenBoundary (k=1.00)
+INFO:root:Dm_NeighborlyCactus is equal to Dm_BoundaryAnalyze (k=1.00)
+INFO:root:Dm_ShelfProgram is equal to Dm_LongLook (k=1.00)
+INFO:root:Dm_WingDildo is equal to Dm_SquealWet (k=1.00)
+INFO:root:Dm_DetailSearch is equal to Dm_IdentifyUnit (k=1.00)
+INFO:root:Dm_TemperHanging is equal to Dm_ThirdHistory (k=1.00)
+INFO:root:Dm_CapriciousFour is equal to Dm_MountainVerdant (k=1.00)
+INFO:root:Dm_ShoeDecay is equal to Dm_UnknownSubdued (k=1.00)
+INFO:root:Dm_ColorHour is equal to Dm_CleverSense (k=1.00)
+INFO:root:Dm_TangySofa is equal to Dm_SpyHusky (k=1.00)
+INFO:root:Dm_StickSon is equal to Dm_OrangesEnjoy (k=1.00)
+INFO:root:Dm_PhoneZinc is equal to Dm_BerryDouble (k=1.00)
+INFO:root:Dm_UndressAdventurous is equal to Dm_UtopianDazzling (k=1.00)
+INFO:root:Dm_DiscussionFix is equal to Dm_ScissorsPathetic (k=1.00)
+INFO:root:Dm_SofaRub is equal to Dm_SickBack (k=1.00)
+INFO:root:Dm_TroubledPowerful is equal to Dm_SystemResolute (k=1.00)
+INFO:root:Dm_FierceInvite is equal to Dm_SuzukaBoundary (k=1.00)
+INFO:root:Dm_GroundMessy is equal to Dm_ShoePicture (k=1.00)
+INFO:root:Dm_MeasureScared is equal to Dm_RayShop (k=1.00)
+INFO:root:Dm_BoastTrains is equal to Dm_BirdsWet (k=1.00)
+INFO:root:Dm_CakeCareless is equal to Dm_ColdAir (k=1.00)
+INFO:root:Dm_StoryFantastic is equal to Dm_TraceInquisitive (k=1.00)
+INFO:root:Dm_CloisteredUninterested is equal to Dm_OwnWise (k=1.00)
+INFO:root:Dm_WanderFaithful is equal to Dm_PossessOwn (k=1.00)
+INFO:root:Dm_AbortiveSqueeze is equal to Dm_CurvedStatement (k=1.00)
+INFO:root:Dm_SignSoup is equal to Dm_AdvertisementExotic (k=1.00)
+INFO:root:Dm_NarrowLimit is equal to Dm_SpaceCareless (k=1.00)
+INFO:root:Dm_YamAgonizing is equal to Dm_NervousChickens (k=1.00)
+INFO:root:Dm_PhoneDeadpan is equal to Dm_ChivalrousCollect (k=1.00)
+INFO:root:Dm_InstructBump is equal to Dm_DeterminedWipe (k=1.00)
+INFO:root:Dm_HangingLackadaisical is equal to Dm_SearchSlow (k=1.00)
+INFO:root:Dm_PhoneAbortive is equal to Dm_BrightCompetition (k=1.00)
+INFO:root:Dm_ScratchDelightful is equal to Dm_GroundUndress (k=1.00)
+INFO:root:Dm_CheatCount is equal to Dm_FragileBrush (k=1.00)
+INFO:root:Dm_AdviseDock is equal to Dm_OrderPanicky (k=1.00)
+INFO:root:Dm_FragileLamp is equal to Dm_FamousAgonizing (k=1.00)
+INFO:root:Dm_RecordWealthy is equal to Dm_DailyFour (k=1.00)
+INFO:root:Dm_AfternoonPrice is equal to Dm_PloughDeadpan (k=1.00)
+INFO:root:Dm_ShoeCrooked is equal to Dm_ToeHand (k=1.00)
+INFO:root:Dm_SoundNoxious is equal to Dm_ShadeTightfisted (k=1.00)
+INFO:root:Dm_KindheartedTremble is equal to Dm_TrapPerson (k=1.00)
+INFO:root:Dm_ForkKneel is equal to Dm_SweaterAunt (k=1.00)
+INFO:root:Dm_NaiveSave is equal to Dm_AdhesiveUnit (k=1.00)
+INFO:root:Dm_LyricalThird is equal to Dm_ToySlow (k=1.00)
+INFO:root:Dm_FadeLight is equal to Dm_BreatheWhisper (k=1.00)
+INFO:root:Dm_ArmyMountain is equal to Dm_ChubbyEarthquake (k=1.00)
+INFO:root:Dm_PurposeAddition is equal to Dm_QuirkyPear (k=1.00)
+INFO:root:Dm_BatheFaithful is equal to Dm_WeightAdvertisement (k=1.00)
+INFO:root:Dm_RequestHeartbreaking is equal to Dm_WretchedLegs (k=1.00)
+INFO:root:Dm_WhitePaltry is equal to Dm_MetalWing (k=1.00)
+INFO:root:Dm_GlamorousBerry is equal to Dm_LackadaisicalHobbies (k=1.00)
+INFO:root:Dm_ImperfectDivision is equal to Dm_StrengthenBlade (k=1.00)
+INFO:root:Dm_NotebookApathetic is equal to Dm_ThreateningNut (k=1.00)
+INFO:root:Dm_DescribePack is equal to Dm_BranchAcoustic (k=1.00)
+INFO:root:Dm_OatmealSupply is equal to Dm_CrashBabies (k=1.00)
+INFO:root:Dm_IdentifyCraven is equal to Dm_NaughtyCraven (k=1.00)
+INFO:root:Dm_ChickensHilarious is equal to Dm_AbortiveArmy (k=1.00)
+INFO:root:Dm_GloriousInquisitive is equal to Dm_ReminiscentOrder (k=1.00)
+INFO:root:Dm_WindColossal is equal to Dm_BumpScale (k=1.00)
+INFO:root:Dm_ThoughtlessSon is equal to Dm_CakeLimit (k=1.00)
+INFO:root:Dm_PassNew is equal to Dm_TiresomeAwake (k=1.00)
+INFO:root:Dm_BeautifulWhistle is equal to Dm_VoiceAbject (k=1.00)
+INFO:root:Dm_FascinatedFrail is equal to Dm_SlipFantastic (k=1.00)
+INFO:root:Dm_PearJagged is equal to Dm_MarkedDeserve (k=1.00)
+INFO:root:Dm_LegsSofa is equal to Dm_ShopGamy (k=1.00)
+INFO:root:Dm_MeaslyCrime is equal to Dm_NationInquisitive (k=1.00)
+INFO:root:Dm_PaymentAlanson is equal to Dm_ObtainableFaithful (k=1.00)
+INFO:root:Dm_BombCloistered is equal to Dm_TrapWhite (k=1.00)
+INFO:root:Dm_LearnedWrathful is equal to Dm_LargeSnotty (k=1.00)
+INFO:root:Dm_EliteBag is equal to Dm_ScintillatingSeparate (k=1.00)
+INFO:root:Dm_ListVeil is equal to Dm_ZipGirl (k=1.00)
+INFO:root:Dm_ImportantRambunctious is equal to Dm_AdditionThrill (k=1.00)
+INFO:root:Dm_LetterMatch is equal to Dm_KnowledgeComplex (k=1.00)
+INFO:root:Dm_PunchCrib is equal to Dm_TastyTrace (k=1.00)
+INFO:root:Dm_GeneralGround is equal to Dm_HarborDildo (k=1.00)
+INFO:root:Dm_HoseBlade is equal to Dm_WickedBasin (k=1.00)
+INFO:root:Dm_TeenySigh is equal to Dm_FixAnus (k=1.00)
+INFO:root:Dm_CoalHappy is equal to Dm_LettersRomantic (k=1.00)
+INFO:root:Dm_SleepTrousers is equal to Dm_WeightZinc (k=1.00)
+INFO:root:Dm_WhiteChicken is equal to Dm_OvenTow (k=1.00)
+INFO:root:Dm_PushyAbsurd is equal to Dm_DraconianBoast (k=1.00)
+INFO:root:Dm_BurnShake is equal to Dm_QueueOrder (k=1.00)
+INFO:root:Dm_PictureLimit is equal to Dm_FlashKnowledge (k=1.00)
+INFO:root:Dm_BalanceSalt is equal to Dm_CryPoised (k=1.00)
+INFO:root:Dm_PunctureConcentrate is equal to Dm_FlashCracker (k=1.00)
+INFO:root:Dm_ToothpasteKaput is equal to Dm_DiscussionDrown (k=1.00)
+INFO:root:Dm_TastelessColorful is equal to Dm_PunchTiresome (k=1.00)
+INFO:root:Dm_NoisyVeil is equal to Dm_StrengthenMomentous (k=1.00)
+INFO:root:Dm_WipeFierce is equal to Dm_GlamorousSubdued (k=1.00)
+INFO:root:Dm_SonGlow is equal to Dm_HandOrange (k=1.00)
+INFO:root:Dm_HalfPear is equal to Dm_WickedCrook (k=1.00)
+INFO:root:Dm_SubduedCraven is equal to Dm_FascinatedPoised (k=1.00)
+INFO:root:Dm_HumorCheat is equal to Dm_DelightfulPossess (k=1.00)
+INFO:root:Dm_PipkaDivergent is equal to Dm_TangySmile (k=1.00)
+INFO:root:Dm_DetailOil is equal to Dm_WindBerry (k=1.00)
+INFO:root:Dm_SofaAlert is equal to Dm_SqueezeWander (k=1.00)
+INFO:root:Dm_SenseKnowledge is equal to Dm_SpaceGeneral (k=1.00)
+INFO:root:Dm_InstructAdhesive is equal to Dm_AmuseLegs (k=1.00)
+INFO:root:Dm_InnateStatement is equal to Dm_PinusKneel (k=1.00)
+INFO:root:Dm_AdventurousTouch is equal to Dm_KittensAlert (k=1.00)
+INFO:root:Dm_CrookPear is equal to Dm_ExoticRecord (k=1.00)
+INFO:root:Dm_NaughtyUncle is equal to Dm_MemorizeBump (k=1.00)
+INFO:root:Dm_GlamorousDisgusting is equal to Dm_BladeFlower (k=1.00)
+INFO:root:Dm_BashfulSecret is equal to Dm_ZippyBrass (k=1.00)
+INFO:root:Dm_SplendidFrighten is equal to Dm_BehaviorSqueamish (k=1.00)
+INFO:root:Dm_WipeDaily is equal to Dm_RayIllustrious (k=1.00)
+INFO:root:Dm_JoyousGate is equal to Dm_CrownFlower (k=1.00)
+INFO:root:Dm_RejectOatmeal is equal to Dm_SpotlessFearful (k=1.00)
+INFO:root:Dm_ZippyCherry is equal to Dm_NotebookVulgar (k=1.00)
+INFO:root:Dm_GeneralStore is equal to Dm_AbortiveCheat (k=1.00)
+INFO:root:Dm_BalvankaSand is equal to Dm_LimitHeartbreaking (k=1.00)
+INFO:root:Dm_KurumaWait is equal to Dm_RailwayAlluring (k=1.00)
+INFO:root:Dm_DeadpanHalf is equal to Dm_ScaleTiresome (k=1.00)
+INFO:root:Dm_TabooStupid is equal to Dm_PinusZoo (k=1.00)
+INFO:root:Dm_CompetitionSpoon is equal to Dm_PackSummer (k=1.00)
+INFO:root:Dm_TouchSprout is equal to Dm_TowTightfisted (k=1.00)
+INFO:root:Dm_ThoughtPanoramic is equal to Dm_ScaleTrap (k=1.00)
+INFO:root:Dm_FemaleVeil is equal to Dm_HappyLegs (k=1.00)
+INFO:root:Dm_ObeisantStay is equal to Dm_MeasurePathetic (k=1.00)
+INFO:root:Dm_EdgeRight is equal to Dm_MightyGirl (k=1.00)
+INFO:root:Dm_BleachSign is equal to Dm_AuntStiff (k=1.00)
+INFO:root:Dm_FlockSpiffy is equal to Dm_AgreeAdvice (k=1.00)
+INFO:root:Dm_SeriousAdvise is equal to Dm_CheckPoison (k=1.00)
+INFO:root:Dm_EarthquakeSparkle is equal to Dm_RubBranch (k=1.00)
+INFO:root:Dm_DearFree is equal to Dm_ShockGovernment (k=1.00)
+INFO:root:Dm_LabelDetermined is equal to Dm_FrightenGrandfather (k=1.00)
+INFO:root:Dm_IgnorantBoast is equal to Dm_PaymentPuzzled (k=1.00)
+INFO:root:Dm_WiseSwanky is equal to Dm_TastelessToe (k=1.00)
+INFO:root:Dm_SeparateWhisper is equal to Dm_InstinctiveSubdued (k=1.00)
+INFO:root:Dm_FranticDefective is equal to Dm_FemaleQuack (k=1.00)
+INFO:root:Dm_BalanceAccurate is equal to Dm_HumorRight (k=1.00)
+INFO:root:Dm_SuzukaJumbled is equal to Dm_CompanyBirds (k=1.00)
+INFO:root:Dm_UsedDelicate is equal to Dm_ExpansionResolute (k=1.00)
+INFO:root:Dm_ChangeableHusky is equal to Dm_SistersReject (k=1.00)
+INFO:root:Dm_RoomMomentous is equal to Dm_AutomaticScrawny (k=1.00)
+INFO:root:Dm_LateAspiring is equal to Dm_LateScrew (k=1.00)
+INFO:root:Dm_KeySystem is equal to Dm_PlantsStriped (k=1.00)
+INFO:root:Dm_UncleEntertaining is equal to Dm_BabiesLocket (k=1.00)
+INFO:root:Dm_TastelessJoyous is equal to Dm_LaborerStore (k=1.00)
+INFO:root:Dm_AnnoySoup is equal to Dm_FamousBreathe (k=1.00)
+INFO:root:Dm_MatchNeat is equal to Dm_JokeThrill (k=1.00)
+INFO:root:Dm_StickSoup is equal to Dm_GreedyUnit (k=1.00)
+INFO:root:Dm_ArmySprout is equal to Dm_BalanceChin (k=1.00)
+INFO:root:Dm_ShortHusky is equal to Dm_ObtainableBit (k=1.00)
+INFO:root:Dm_WanderingCapricious is equal to Dm_ConditionVivacious (k=1.00)
+INFO:root:Dm_RetirePanoramic is equal to Dm_AfterthoughtWise (k=1.00)
+INFO:root:Dm_EngineEnjoy is equal to Dm_AdhesiveProse (k=1.00)
+INFO:root:Dm_YamDelightful is equal to Dm_LabelCloistered (k=1.00)
+INFO:root:Dm_ForkInconclusive is equal to Dm_SquareModern (k=1.00)
+INFO:root:Dm_PigKnowledge is equal to Dm_BelligerentFrail (k=1.00)
+INFO:root:Dm_GirlReach is equal to Dm_TemperAwake (k=1.00)
+INFO:root:Dm_NoiselessMark is equal to Dm_InjureList (k=1.00)
+INFO:root:Dm_ColdHappy is equal to Dm_SnottyShock (k=1.00)
+INFO:root:Dm_StaleHistorical is equal to Dm_SpoonLimit (k=1.00)
+INFO:root:Dm_GamyGovernment is equal to Dm_SeedThought (k=1.00)
+INFO:root:Dm_StaleBlade is equal to Dm_SleepyStale (k=1.00)
+INFO:root:Dm_StayAnalyze is equal to Dm_LettersUsed (k=1.00)
+INFO:root:Dm_DisappearSincere is equal to Dm_WashGrandfather (k=1.00)
+INFO:root:Dm_UnequaledSmooth is equal to Dm_WhistleCool (k=1.00)
+INFO:root:Dm_ConditionBird is equal to Dm_CommonJumbled (k=1.00)
+INFO:root:Dm_FitOven is equal to Dm_PictureReach (k=1.00)
+INFO:root:Dm_SignJuggle is equal to Dm_OppositeSpiky (k=1.00)
+INFO:root:Dm_EarthquakeLong is equal to Dm_ColdColorful (k=1.00)
+INFO:root:Dm_RabbitsWasteful is equal to Dm_VoyageUndress (k=1.00)
+INFO:root:Dm_WingAjar is equal to Dm_CapriciousVoice (k=1.00)
+INFO:root:Dm_NervousBruise is equal to Dm_ReminiscentTeaching (k=1.00)
+INFO:root:Dm_NestStriped is equal to Dm_ArmKnot (k=1.00)
+INFO:root:Dm_MouseIncompetent is equal to Dm_GlamorousSerious (k=1.00)
+INFO:root:Dm_DisturbedStormy is equal to Dm_EngineNoiseless (k=1.00)
+INFO:root:Dm_SummerZippy is equal to Dm_FlashUnequaled (k=1.00)
+INFO:root:Dm_WordBump is equal to Dm_LimitSubdued (k=1.00)
+INFO:root:Dm_ComplexEyes is equal to Dm_DelicateLook (k=1.00)
+INFO:root:Dm_LackadaisicalWipe is equal to Dm_LocketTour (k=1.00)
+INFO:root:Dm_ZipPear is equal to Dm_TabooInstinctive (k=1.00)
+INFO:root:Dm_EngineExplode is equal to Dm_ZincSound (k=1.00)
+INFO:root:Dm_CheckToothpaste is equal to Dm_TrapPerson1 (k=1.00)
+INFO:root:Dm_SpotlessInstruct is equal to Dm_BlushHose (k=1.00)
+INFO:root:Dm_ChickensBack is equal to Dm_VoyageTumble (k=1.00)
+INFO:root:Dm_SproutNoiseless is equal to Dm_TrembleRambunctious (k=1.00)
+INFO:root:Dm_EvasiveSnakes is equal to Dm_BombInnate (k=1.00)
+INFO:root:Dm_ShockingSteer is equal to Dm_BranchDoctor (k=1.00)
+INFO:root:Dm_ComplexSteer is equal to Dm_JokeProud (k=1.00)
+INFO:root:Dm_LockAblaze is equal to Dm_BitButter (k=1.00)
+INFO:root:Dm_QuackInvite is equal to Dm_WrathfulDeadpan (k=1.00)
+INFO:root:Dm_ArmyVague is equal to Dm_WealthyIgnorant (k=1.00)
+INFO:root:Dm_BehaviorWrathful is equal to Dm_EfficientUnite (k=1.00)
+INFO:root:Dm_SearchScrawny is equal to Dm_DazzlingNoiseless (k=1.00)
+INFO:root:Dm_GullibleAlanson is equal to Dm_FrailCycle (k=1.00)
+INFO:root:Dm_VoraciousExpert is equal to Dm_SkinVague (k=1.00)
+INFO:root:Dm_DeadpanOrdinary is equal to Dm_CollectClammy (k=1.00)
+INFO:root:Dm_GrateImperfect is equal to Dm_TeenyPanoramic (k=1.00)
+INFO:root:Dm_LaborerWant is equal to Dm_TeachingBasket (k=1.00)
+INFO:root:Dm_PigThunder is equal to Dm_LamentableThoughtless (k=1.00)
+INFO:root:Dm_ThunderWait is equal to Dm_DeserveFaithful (k=1.00)
+INFO:root:Dm_ComparisonJuice is equal to Dm_AttractiveHysterical (k=1.00)
+INFO:root:Dm_TumbleSpotless is equal to Dm_CartRay (k=1.00)
+INFO:root:Dm_SquareSpoon is equal to Dm_EliteFemale (k=1.00)
+INFO:root:Dm_PailSmooth is equal to Dm_DeadpanBlot (k=1.00)
+INFO:root:Dm_MeaslyDrown is equal to Dm_ToeBalvanka (k=1.00)
+INFO:root:Dm_DinnerAlanson is equal to Dm_StickSubdued (k=1.00)
+INFO:root:Dm_BalvankaGlamorous is equal to Dm_LunasoleLong (k=1.00)
+INFO:root:Dm_PloughLearned is equal to Dm_PurposeHilarious (k=1.00)
+INFO:root:Dm_BakePathetic is equal to Dm_UniqueFascinated (k=1.00)
+INFO:root:Dm_SparkleDisappear is equal to Dm_FillPleasant (k=1.00)
+INFO:root:Dm_StaleLetter is equal to Dm_AspiringMouse (k=1.00)
+INFO:root:Dm_ProudChickens is equal to Dm_AfterthoughtPenitent (k=1.00)
+INFO:root:Dm_ClammyEnergetic is equal to Dm_ActionAutomatic (k=1.00)
+INFO:root:Dm_RejectFlock is equal to Dm_UpsetVolcano (k=1.00)
+INFO:root:Dm_CalculateSpot is equal to Dm_RedundantIllustrious (k=1.00)
+INFO:root:Dm_UninterestedLimit is equal to Dm_SymptomaticLocket (k=1.00)
+INFO:root:Dm_ZooCoal is equal to Dm_IdeaComplex (k=1.00)
+INFO:root:Dm_DebtPrivate is equal to Dm_RightHorn (k=1.00)
+INFO:root:Dm_SighMomentous1 is equal to Dm_ThankPhone (k=1.00)
+INFO:root:Dm_BirdOpposite is equal to Dm_RealShop (k=1.00)
+INFO:root:Dm_TediousMighty is equal to Dm_CrownSplendid (k=1.00)
+INFO:root:Dm_NoiselessBetter is equal to Dm_HystericalTrip (k=1.00)
+INFO:root:Dm_ResoluteIgnorant is equal to Dm_HistoricalPrepare (k=1.00)
+INFO:root:Dm_MendBury is equal to Dm_BoastPerform (k=1.00)
+INFO:root:Dm_AlluringPainstaking is equal to Dm_AgreeableFunny (k=1.00)
+INFO:root:Dm_PatChickens is equal to Dm_RightInconclusive (k=1.00)
+INFO:root:Dm_ConcentrateFlock is equal to Dm_BorrowTouch (k=1.00)
+INFO:root:Dm_JuggleChin is equal to Dm_ClammyHysterical (k=1.00)
+INFO:root:Dm_HoseSoup is equal to Dm_JoyousCrime (k=1.00)
+INFO:root:Dm_CalculatorLyrical is equal to Dm_TrainsSpot (k=1.00)
+INFO:root:Dm_PurposeYummy is equal to Dm_HugeRecognise (k=1.00)
+INFO:root:Dm_OrangesVoracious is equal to Dm_KittensHappy (k=1.00)
+INFO:root:Dm_TreatCraven is equal to Dm_AnalyzeCactus (k=1.00)
+INFO:root:Dm_NutKneel is equal to Dm_CrowdedGlorious (k=1.00)
+INFO:root:Dm_BombSpiffy is equal to Dm_CherryWeight (k=1.00)
+INFO:root:Dm_ErrorHeat is equal to Dm_GapingDress (k=1.00)
+INFO:root:Dm_TeenyAbsurd is equal to Dm_HandOrdinary (k=1.00)
+INFO:root:Dm_ClubRequest is equal to Dm_StoryRedundant (k=1.00)
+INFO:root:Dm_MittenWail is equal to Dm_CartCraven (k=1.00)
+INFO:root:Dm_KnowledgeLight is equal to Dm_AwakeBlot (k=1.00)
+INFO:root:Dm_BleachSpoil is equal to Dm_ScissorsScintillating (k=1.00)
+INFO:root:Dm_SootheThunder is equal to Dm_DeadpanSymptomatic (k=1.00)
+INFO:root:Dm_AbjectSuit is equal to Dm_KaputCracker (k=1.00)
+INFO:root:Dm_FitGaping is equal to Dm_BeadYak (k=1.00)
+INFO:root:Dm_PaymentRabbits is equal to Dm_LaborerGruesome (k=1.00)
+INFO:root:Dm_ImperfectCrooked is equal to Dm_IllustriousOrange (k=1.00)
+INFO:root:Dm_TraceChilly is equal to Dm_ColorfulFascinated (k=1.00)
+INFO:root:Dm_ForkCure is equal to Dm_StatementYummy (k=1.00)
+INFO:root:Dm_ExplainHanging is equal to Dm_WordRuddy (k=1.00)
+INFO:root:Dm_CuteTrip is equal to Dm_TightfistedGate (k=1.00)
+INFO:root:Dm_KaputSweater is equal to Dm_BurnWindy (k=1.00)
+INFO:root:Dm_MilkyRoom is equal to Dm_DressAunt (k=1.00)
+INFO:root:Dm_WhipWander is equal to Dm_EvasiveBelief (k=1.00)
+INFO:root:Dm_WhiteTart is equal to Dm_CrownSeed (k=1.00)
+INFO:root:Dm_SeriousHusky is equal to Dm_StomachCrook (k=1.00)
+INFO:root:Dm_SmileBasin is equal to Dm_MatchShock (k=1.00)
+INFO:root:Dm_CompetitionJuice is equal to Dm_GroundWicked (k=1.00)
+INFO:root:Dm_AnusWise is equal to Dm_PainstakingNoxious (k=1.00)
+INFO:root:Dm_PleaseDebt is equal to Dm_WantLunasole (k=1.00)
+INFO:root:Dm_PleasePuzzled is equal to Dm_HarborYak (k=1.00)
+INFO:root:Dm_EvasiveAspiring is equal to Dm_ZonkedThank (k=1.00)
+INFO:root:Dm_MachineDescribe is equal to Dm_ErrorCount (k=1.00)
+INFO:root:Dm_WindyLamentable is equal to Dm_BelligerentInconclusive (k=1.00)
+INFO:root:Dm_ManyCelery is equal to Dm_AdvicePat (k=1.00)
+INFO:root:Dm_DoubleSincere is equal to Dm_LimitTasteless (k=1.00)
+INFO:root:Dm_WretchedSign is equal to Dm_BeginnerSplendid (k=1.00)
+INFO:root:Dm_SoundUnarmed is equal to Dm_ThirdUnequaled (k=1.00)
+INFO:root:Dm_ExplainWretched is equal to Dm_FadeDazzling (k=1.00)
+INFO:root:Dm_AspiringBike is equal to Dm_AdScrawny (k=1.00)
+INFO:root:Dm_NeatGrotesque is equal to Dm_GrotesqueBear (k=1.00)
+INFO:root:Dm_PleasantDistro is equal to Dm_SweaterUncle (k=1.00)
+INFO:root:Dm_ManyBathe is equal to Dm_BerryDaily (k=1.00)
+INFO:root:Dm_KaputStay is equal to Dm_LudicrousFierce (k=1.00)
+INFO:root:Dm_RambunctiousAunt is equal to Dm_BlushEarthquake (k=1.00)
+INFO:root:Dm_AgreeablePinus is equal to Dm_UninterestedHateful (k=1.00)
+INFO:root:Dm_ScissorsSoup is equal to Dm_PunchBerry (k=1.00)
+INFO:root:Dm_PushyCondition is equal to Dm_PurposeSqueeze (k=1.00)
+INFO:root:Dm_YakRobin is equal to Dm_AfterthoughtAlluring1 (k=1.00)
+INFO:root:Dm_AdmireBasin is equal to Dm_MountainMouse (k=1.00)
+INFO:root:Dm_DeserveChicken is equal to Dm_RecordWet (k=1.00)
+INFO:root:Dm_BakePrecious is equal to Dm_ReminiscentFrantic (k=1.00)
+INFO:root:Dm_ShopTrains is equal to Dm_RabbitsIncrease (k=1.00)
+INFO:root:Dm_AdmireDock is equal to Dm_SubduedLarge (k=1.00)
+INFO:root:Dm_RecogniseDildo is equal to Dm_JogLie (k=1.00)
+INFO:root:Dm_SwankyFix is equal to Dm_LetterJelly (k=1.00)
+INFO:root:Dm_FemaleInjure is equal to Dm_WailShame (k=1.00)
+INFO:root:Dm_ContainKnot is equal to Dm_ErrorHuge (k=1.00)
+INFO:root:Dm_SummerChickens is equal to Dm_SeriousBlush (k=1.00)
+INFO:root:Dm_BlushFix is equal to Dm_SeriousTransport (k=1.00)
+INFO:root:Dm_IdentifyFit is equal to Dm_SlipVerdant (k=1.00)
+INFO:root:Dm_AdmireHysterical is equal to Dm_LamentableIgnorant (k=1.00)
+INFO:root:Dm_VolcanoWait is equal to Dm_GeneralJoyous (k=1.00)
+INFO:root:Dm_ReachPushy is equal to Dm_HuskyLaborer (k=1.00)
+INFO:root:Dm_DescribeEntertaining is equal to Dm_CapriciousUnite (k=1.00)
+INFO:root:Dm_AuntKittens is equal to Dm_RomanticSpoil (k=1.00)
+INFO:root:Dm_CrashBeautiful is equal to Dm_UnknownAbsurd (k=1.00)
+INFO:root:Dm_ZipCry is equal to Dm_CoolAdvice (k=1.00)
+INFO:root:Dm_ZooSkin is equal to Dm_CoalOranges (k=1.00)
+INFO:root:Dm_BackAmuse is equal to Dm_BalanceClover (k=1.00)
+INFO:root:Dm_SaveCactus is equal to Dm_AdjoiningBump (k=1.00)
+INFO:root:Dm_PorterSpotted is equal to Dm_RecordCute (k=1.00)
+INFO:root:Dm_PurposeSincere is equal to Dm_RepulsiveChickens (k=1.00)
+INFO:root:Dm_LegsSlow is equal to Dm_AgreeableBurn (k=1.00)
+INFO:root:Dm_ShopNotebook is equal to Dm_VoyageRare (k=1.00)
+INFO:root:Dm_ThreateningBruise is equal to Dm_SeparateQuirky (k=1.00)
+INFO:root:Dm_WickedBike is equal to Dm_AdviceStale (k=1.00)
+INFO:root:Dm_YamCat is equal to Dm_JuiceBashful (k=1.00)
+INFO:root:Dm_AdMitten is equal to Dm_SquealTightfisted (k=1.00)
+INFO:root:Dm_SlowIcy is equal to Dm_PreciousRight (k=1.00)
+INFO:root:Dm_BrushCold is equal to Dm_StiffRabbits (k=1.00)
+INFO:root:Dm_PanickyFaint is equal to Dm_KaputMeasure (k=1.00)
+INFO:root:Dm_AngleKnowledgeable is equal to Dm_NaughtyExplain (k=1.00)
+INFO:root:Dm_PreciousToys is equal to Dm_CycleSofa (k=1.00)
+INFO:root:Dm_AgonizingZoo is equal to Dm_JaggedBleach (k=1.00)
+INFO:root:Dm_GamyHose is equal to Dm_BladeLock (k=1.00)
+INFO:root:Dm_CompanyRomantic is equal to Dm_MarkedBreathe (k=1.00)
+INFO:root:Dm_FourRub is equal to Dm_FranticCactus (k=1.00)
+INFO:root:Dm_CanHalf is equal to Dm_IncompetentYell (k=1.00)
+INFO:root:Dm_SproutInterrupt is equal to Dm_CheckPaltry (k=1.00)
+INFO:root:Dm_LongSecret is equal to Dm_MatchCrash (k=1.00)
+INFO:root:Dm_DressImportant is equal to Dm_HarmonyPlease (k=1.00)
+INFO:root:Dm_KnotZonked is equal to Dm_BasketClever (k=1.00)
+INFO:root:Dm_TrailBag is equal to Dm_OatmealExotic (k=1.00)
+INFO:root:Dm_NearPoised is equal to Dm_ExplainCrooked (k=1.00)
+INFO:root:Dm_HandSuit is equal to Dm_PainstakingAdmire (k=1.00)
+INFO:root:Dm_BoringRay is equal to Dm_BoundlessReaction (k=1.00)
+INFO:root:Dm_SistersWhite is equal to Dm_CarefulAfterthought (k=1.00)
+INFO:root:Dm_DelightfulUncle is equal to Dm_PreciousHanging (k=1.00)
+INFO:root:Dm_ManageSleepy is equal to Dm_BoastWeight (k=1.00)
+INFO:root:Dm_SuccinctDear is equal to Dm_HeartbreakingVolcano (k=1.00)
+INFO:root:Dm_BetterExotic is equal to Dm_TreatAgreeable (k=1.00)
+INFO:root:Dm_PipkaColorful is equal to Dm_FrightenTumble (k=1.00)
+INFO:root:Dm_BurlyCrown is similar to Dm_BeliefInstinctive with k=1.00
+INFO:root:    v_pub                   14	14	0.027777777777777776
+INFO:root:    v_pub_s                 5	5	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 2	2	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   16	16	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 2	2	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             410	411	0.08130081300813008
+INFO:root:    xref_count              5	5	0.08333333333333333
+INFO:root:    imports_clean           7	7	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '!', '!', '!Bool', '!Dict', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Mous=n', 'Vect', 'Vect']	['!', '!', '!', '!', '!', '!Bool', '!Dict', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Mous=n', 'Vect', 'Vect']	0.08333333333333333
+WARNING:root:Found new class Dm_SoundGaping
+WARNING:root:Found new class Dm_ArmVerdant
+INFO:root:Dm_PhoneCactus is similar to Dm_CloverGlamorous with k=1.00
+INFO:root:    v_pub                   15	15	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   2	2	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  7	7	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             254	255	0.07999999999999999
+INFO:root:    xref_count              1	1	0.08333333333333333
+INFO:root:    imports_clean           0	0	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '-', '-', '-', '-', '-', '-']	['!', '!', '!', '-', '-', '-', '-', '-', '-']	0.08333333333333333
+INFO:root:Dm_NotebookChivalrous is similar to Dm_ThoughtlessPicture with k=0.98
+INFO:root:    v_pub                   4	4	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 1	1	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   1	1	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             55	54	0.06666666666666665
+INFO:root:    xref_count              4	4	0.08333333333333333
+INFO:root:    imports_clean           3	3	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['Spriint=0int=0int=0']	['Spriint=0int=0int=0']	0.08333333333333333
+INFO:root:Dm_DrownCycle is similar to Dm_OrderOatmeal with k=1.00
+INFO:root:    v_pub                   9	9	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 7	7	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   5	5	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             249	250	0.0798611111111111
+INFO:root:    xref_count              23	23	0.08333333333333333
+INFO:root:    imports_clean           2	2	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '-', '-', 'intintintNumb=0int=0Bool=t', 'intintintintintBool=tNumb=0']	['!', '-', '-', 'intintintNumb=0int=0Bool=t', 'intintintintintBool=tNumb=0']	0.08333333333333333
+INFO:root:Dm_WallTour is similar to Dm_HydrantAir with k=1.00
+INFO:root:    v_pub                   0	0	0.027777777777777776
+INFO:root:    v_pub_s                 16	16	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 9	9	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   1	1	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 21	21	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             435	434	0.0813953488372093
+INFO:root:    xref_count              451	451	0.08333333333333333
+INFO:root:    imports_clean           16	16	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   ['x_Ressources_Class', 'x_TransformiceFLA', 'x_pouf']	['x_Ressources_Class', 'x_TransformiceFLA', 'x_pouf']	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', '-', '-', '-', 'Appl', 'Even', 'Even', 'Even', 'Even', 'Even', 'IOEr', 'Stri', 'Stri', 'Stri', 'Stri', 'StriBool=f', 'StriFunc=nObje=n', 'StriStri="', 'StriStri="', 'int']	['-', '-', '-', '-', '-', '-', 'Appl', 'Even', 'Even', 'Even', 'Even', 'Even', 'IOEr', 'Stri', 'Stri', 'Stri', 'Stri', 'StriBool=f', 'StriFunc=nObje=n', 'StriStri="', 'StriStri="', 'int']	0.08333333333333333
+WARNING:root:Found new class Dm_ZooOven
+INFO:root:Dm_LabelScrawny is similar to Dm_BeautifulSofa with k=0.99
+INFO:root:    v_pub                   0	0	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 3	3	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   1	1	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 31	31	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             211	213	0.07539682539682539
+INFO:root:    xref_count              99	99	0.08333333333333333
+INFO:root:    imports_clean           0	0	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!!', '!Numb', '-', '-', 'ArraArra', 'Numb', 'Numb', 'Numb!', 'Numb!', 'NumbNumb', 'NumbNumb', 'NumbNumb', 'NumbNumbNumb', 'uint', 'uint']	['!', '!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!', '!!!', '!Numb', '-', '-', 'ArraArra', 'Numb', 'Numb', 'Numb!', 'Numb!', 'NumbNumb', 'NumbNumb', 'NumbNumb', 'NumbNumbNumb', 'uint', 'uint']	0.08333333333333333
+INFO:root:Dm_SeaDraconian is similar to Dm_WorkAddition with k=0.98
+INFO:root:    v_pub                   11	11	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   2	2	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  7	7	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             166	169	0.06770833333333333
+INFO:root:    xref_count              1	1	0.08333333333333333
+INFO:root:    imports_clean           0	0	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   ['K']	['K']	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '!', '-', '-', '-', '-', '-']	['!', '!', '!', '!', '-', '-', '-', '-', '-']	0.08333333333333333
+INFO:root:Dm_CrookedRecord is similar to Dm_AdventurousDecay with k=0.99
+INFO:root:    v_pub                   20	20	0.027777777777777776
+INFO:root:    v_pub_s                 1	1	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   14	14	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  7	7	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             435	439	0.0755813953488372
+INFO:root:    xref_count              13	13	0.08333333333333333
+INFO:root:    imports_clean           0	0	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   ['K']	['K']	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Bool', 'Numb', 'Numb', 'NumbNumb']	['!', '!', '!', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Bool', 'Numb', 'Numb', 'NumbNumb']	0.08333333333333333
+INFO:root:Dm_UtopianBathe is similar to Dm_CreatorSlim with k=0.99
+INFO:root:    v_pub                   0	0	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   1	1	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 2	2	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             106	107	0.075
+INFO:root:    xref_count              2	2	0.08333333333333333
+INFO:root:    imports_clean           3	3	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', 'StriintBoolBoolStri', 'intintintStriStri']	['-', 'StriintBoolBoolStri', 'intintintStriStri']	0.08333333333333333
+INFO:root:Dm_WateryCat is similar to Dm_CheckBack with k=1.00
+INFO:root:    v_pub                   6	6	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   7	7	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             233	232	0.07971014492753623
+INFO:root:    xref_count              4	4	0.08333333333333333
+INFO:root:    imports_clean           6	6	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', 'Bool', 'Bool', 'Bool=f', 'int!Bool=f']	['-', '-', '-', 'Bool', 'Bool', 'Bool=f', 'int!Bool=f']	0.08333333333333333
+INFO:root:Dm_ProseCute is similar to Dm_ManyMachine with k=0.99
+INFO:root:    v_pub                   0	0	0.027777777777777776
+INFO:root:    v_pub_s                 3	3	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 1	1	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   1	1	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 8	8	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             396	399	0.07692307692307693
+INFO:root:    xref_count              5	5	0.08333333333333333
+INFO:root:    imports_clean           7	7	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!SpriStriint', '!int', '!int', '!intBool', '!intint', '-', '-', 'Spri', 'StriBool=f']	['!SpriStriint', '!int', '!int', '!intBool', '!intint', '-', '-', 'Spri', 'StriBool=f']	0.08333333333333333
+INFO:root:Dm_WhisperCompany is similar to Dm_SplendidEntertaining with k=0.99
+INFO:root:    v_pub                   2	2	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   3	3	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  6	6	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             114	113	0.07575757575757575
+INFO:root:    xref_count              20	20	0.08333333333333333
+INFO:root:    imports_clean           0	0	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '!!', '!!', '!!!', '!Arra!!Numb', '-', '-']	['!', '!', '!', '!!', '!!', '!!!', '!Arra!!Numb', '-', '-']	0.08333333333333333
+WARNING:root:Found new class Dm_PloughBoundless
+INFO:root:Dm_KnifeModern is similar to Dm_HilariousTouch with k=1.00
+INFO:root:    v_pub                   10	10	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 2	2	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   7	7	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             294	293	0.08045977011494251
+INFO:root:    xref_count              4	4	0.08333333333333333
+INFO:root:    imports_clean           7	7	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', 'Bool=t', 'Striintintintint=0int=0int=1', 'int', 'int', 'int']	['-', '-', 'Bool=t', 'Striintintintint=0int=0int=1', 'int', 'int', 'int']	0.08333333333333333
+INFO:root:Dm_TrapWind is similar to Dm_ChickensWren with k=1.00
+INFO:root:    v_pub                   2	2	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 7	7	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   3	3	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  3	3	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             192	191	0.07894736842105263
+INFO:root:    xref_count              1	1	0.08333333333333333
+INFO:root:    imports_clean           3	3	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '-', 'int', 'int']	['!', '!', '!', '-', 'int', 'int']	0.08333333333333333
+INFO:root:Dm_CartScintillating is similar to Dm_ToeSleep with k=1.00
+INFO:root:    v_pub                   2	2	0.027777777777777776
+INFO:root:    v_pub_s                 1	1	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   5	5	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 1	1	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             195	196	0.07894736842105263
+INFO:root:    xref_count              9	9	0.08333333333333333
+INFO:root:    imports_clean           2	2	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', 'Bool=t', 'Boolint', 'intBool']	['-', '-', '-', 'Bool=t', 'Boolint', 'intBool']	0.08333333333333333
+INFO:root:Dm_ClassSpoon is similar to Dm_RealizeExotic with k=0.99
+INFO:root:    v_pub                   23	23	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 1	1	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   6	6	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  7	7	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             497	493	0.07653061224489796
+INFO:root:    xref_count              8	8	0.08333333333333333
+INFO:root:    imports_clean           0	0	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']	['!', '!', '!', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-']	0.08333333333333333
+WARNING:root:Found new class Dm_TangyAspiring
+INFO:root:Dm_SlimYell is similar to Dm_FascinatedKnot with k=0.99
+INFO:root:    v_pub                   0	0	0.027777777777777776
+INFO:root:    v_pub_s                 10	10	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   1	1	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 8	8	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             252	254	0.07666666666666667
+INFO:root:    xref_count              1	1	0.08333333333333333
+INFO:root:    imports_clean           2	2	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', '-', 'Even=n', 'Stri', 'Stri', 'Stri', 'Stri']	['-', '-', '-', '-', 'Even=n', 'Stri', 'Stri', 'Stri', 'Stri']	0.08333333333333333
+INFO:root:Dm_EnjoyIdentify is similar to Dm_SugarFantastic with k=0.95
+INFO:root:    v_pub                   9	9	0.027777777777777776
+INFO:root:    v_pub_s                 6	6	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   6	6	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 2	2	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             154	145	0.033333333333333326
+INFO:root:    xref_count              35	35	0.08333333333333333
+INFO:root:    imports_clean           1	1	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', 'Func', 'FuncBoolint', 'int', 'int', 'int', 'intStriFunc=nFunc=n']	['-', '-', 'Func', 'FuncBoolint', 'int', 'int', 'int', 'intStriFunc=nFunc=n']	0.08333333333333333
+WARNING:root:Found new class Dm_GloriousStick
+WARNING:root:Found new class Dm_WhipDetail
+INFO:root:Dm_BlushSlip is similar to Dm_InstinctivePurpose with k=1.00
+INFO:root:    v_pub                   13	13	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 12	12	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   5	5	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  8	8	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             422	421	0.08134920634920634
+INFO:root:    xref_count              1	1	0.08333333333333333
+INFO:root:    imports_clean           3	3	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '!', '-', '-', '-', '-', '-', 'Dict', 'int', 'int', 'int']	['!', '!', '!', '!', '-', '-', '-', '-', '-', 'Dict', 'int', 'int', 'int']	0.08333333333333333
+INFO:root:Dm_MendCry is similar to Dm_ThrillClass with k=0.99
+INFO:root:    v_pub                   15	15	0.027777777777777776
+INFO:root:    v_pub_s                 4	4	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   1	1	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   8	8	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 5	5	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             345	348	0.07598039215686274
+INFO:root:    xref_count              7	7	0.08333333333333333
+INFO:root:    imports_clean           9	9	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Even', 'int']	['-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Even', 'int']	0.08333333333333333
+INFO:root:Dm_ExplainAgree is similar to Dm_FlowerJuggle with k=1.00
+INFO:root:    v_pub                   1	1	0.027777777777777776
+INFO:root:    v_pub_s                 1	1	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   1	1	0.027777777777777776
+INFO:root:    c_pub_s                 8	8	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   6	6	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  2	2	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             392	391	0.08119658119658119
+INFO:root:    xref_count              1	1	0.08333333333333333
+INFO:root:    imports_clean           3	3	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '-', 'Mous', 'int', 'int', 'intintintint']	['!', '!', '!', '-', 'Mous', 'int', 'int', 'intintintint']	0.08333333333333333
+INFO:root:Dm_CycleJog is similar to Dm_UninterestedAuthority with k=0.99
+INFO:root:    v_pub                   9	9	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   3	3	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             123	122	0.07638888888888888
+INFO:root:    xref_count              18	18	0.08333333333333333
+INFO:root:    imports_clean           4	4	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   ['x', 'y']	['x', 'y']	0.05555555555555555
+INFO:root:    func_arguments          ['-', 'Disp', 'intintintintint']	['-', 'Disp', 'intintintintint']	0.08333333333333333
+INFO:root:Dm_HornThunder is similar to Dm_CheckZippy with k=1.00
+INFO:root:    v_pub                   8	8	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 7	7	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   18	18	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             618	616	0.08060109289617487
+INFO:root:    xref_count              11	11	0.08333333333333333
+INFO:root:    imports_clean           11	11	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!Bool', '-', '-', 'Func', 'Func', 'Func', 'Mous', 'Mous', 'Mous', 'Mous', 'Mous', 'Mous', 'Mous', 'Mous', 'Stri', 'Striint=0', 'Striintint!=n', 'int=0']	['!Bool', '-', '-', 'Func', 'Func', 'Func', 'Mous', 'Mous', 'Mous', 'Mous', 'Mous', 'Mous', 'Mous', 'Mous', 'Stri', 'Striint=0', 'Striintint!=n', 'int=0']	0.08333333333333333
+INFO:root:Dm_ShakeInvent is similar to Dm_PearDivergent with k=0.98
+INFO:root:    v_pub                   0	0	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   2	2	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 1	1	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             45	44	0.0625
+INFO:root:    xref_count              3	3	0.08333333333333333
+INFO:root:    imports_clean           2	2	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', 'StriStri', 'StriStri="']	['-', 'StriStri', 'StriStri="']	0.08333333333333333
+WARNING:root:Found new class Dm_BetterHysterical
+WARNING:root:Found new class Dm_RightfulBelligerent
+WARNING:root:Found new class Dm_DistroTangy
+INFO:root:Dm_BlushHour is similar to Dm_AcousticWhite with k=1.00
+INFO:root:    v_pub                   8	8	0.027777777777777776
+INFO:root:    v_pub_s                 1	1	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 5	5	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   3	3	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 4	4	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             184	185	0.07870370370370369
+INFO:root:    xref_count              4	4	0.08333333333333333
+INFO:root:    imports_clean           3	3	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', '-', 'Bool=tStri="', 'StriStriintintint!', 'int']	['-', '-', '-', '-', 'Bool=tStri="', 'StriStriintintint!', 'int']	0.08333333333333333
+INFO:root:Dm_SparkleHand is similar to Dm_FascinatedStore with k=0.99
+INFO:root:    v_pub                   0	0	0.027777777777777776
+INFO:root:    v_pub_s                 8	8	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 1	1	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   1	1	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 5	5	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             133	134	0.07692307692307693
+INFO:root:    xref_count              36	36	0.08333333333333333
+INFO:root:    imports_clean           4	4	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', 'Stri', 'StriBool=t', 'Striint=4', 'StriintStriStriStri=n']	['-', '-', 'Stri', 'StriBool=t', 'Striint=4', 'StriintStriStriStri=n']	0.08333333333333333
+WARNING:root:Found new class Dm_InquisitiveMean
+INFO:root:Dm_NervousNeighborly is similar to Dm_FiveLook with k=0.99
+INFO:root:    v_pub                   3	3	0.027777777777777776
+INFO:root:    v_pub_s                 5	5	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   6	6	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             165	164	0.078125
+INFO:root:    xref_count              11	11	0.08333333333333333
+INFO:root:    imports_clean           8	8	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', 'Bool', 'Even', 'intint', 'intintintStriStri']	['-', '-', 'Bool', 'Even', 'intint', 'intintintStriStri']	0.08333333333333333
+INFO:root:Dm_VulgarInjure is similar to Dm_SubduedAdjustment with k=1.00
+INFO:root:    v_pub                   6	6	0.027777777777777776
+INFO:root:    v_pub_s                 6	6	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   10	10	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 8	8	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             260	259	0.08012820512820512
+INFO:root:    xref_count              19	19	0.08333333333333333
+INFO:root:    imports_clean           2	2	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!int', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Bool', 'int', 'int', 'int', 'int', 'intStriStri']	['!', '!int', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Bool', 'int', 'int', 'int', 'int', 'intStriStri']	0.08333333333333333
+INFO:root:Dm_ImpartialHusky is similar to Dm_UnequalCapricious with k=1.00
+INFO:root:    v_pub                   27	27	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   1	1	0.027777777777777776
+INFO:root:    c_pub_s                 1	1	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   10	10	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  9	9	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             595	594	0.08192090395480225
+INFO:root:    xref_count              1	1	0.08333333333333333
+INFO:root:    imports_clean           6	6	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '!!Numb', '-', '-', 'Bool', 'Bool', 'Bool', 'Even', 'Mous', 'Numbint', 'Stri', 'Vectint', 'Vectint', 'VectintBool=t', 'int', 'int', 'int']	['!', '!', '!', '!!Numb', '-', '-', 'Bool', 'Bool', 'Bool', 'Even', 'Mous', 'Numbint', 'Stri', 'Vectint', 'Vectint', 'VectintBool=t', 'int', 'int', 'int']	0.08333333333333333
+INFO:root:Dm_YamMany is similar to Dm_AccurateThought with k=1.00
+INFO:root:    v_pub                   26	26	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 2	2	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   29	29	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             481	482	0.08159722222222222
+INFO:root:    xref_count              155	155	0.08333333333333333
+INFO:root:    imports_clean           9	9	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', '-', '-', 'Bool=t+', 'BoolNumb=0Bool=f', 'DispBool=fBool=f', 'Even', 'Even', 'Even', 'Even', 'Even', 'Even', 'Even', 'Even=n', 'Func=nObje=nBool=t', 'Func=nObje=nFunc=nObje=n', 'FuncObje', 'FuncObje=nBool=t', 'Mous', 'Mous', 'Mous', 'Mous', 'Numb=0Numb=0Bool=f', 'Stri', 'intNumb=1', 'intint', 'intintBool=f']	['-', '-', '-', '-', '-', 'Bool=t+', 'BoolNumb=0Bool=f', 'DispBool=fBool=f', 'Even', 'Even', 'Even', 'Even', 'Even', 'Even', 'Even', 'Even=n', 'Func=nObje=nBool=t', 'Func=nObje=nFunc=nObje=n', 'FuncObje', 'FuncObje=nBool=t', 'Mous', 'Mous', 'Mous', 'Mous', 'Numb=0Numb=0Bool=f', 'Stri', 'intNumb=1', 'intint', 'intintBool=f']	0.08333333333333333
+WARNING:root:Found new class Dm_GullibleSummer
+INFO:root:Dm_TediousLook is similar to Dm_WanderCherry with k=1.00
+INFO:root:    v_pub                   9	9	0.027777777777777776
+INFO:root:    v_pub_s                 2	2	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 1	1	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   17	17	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 6	6	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             476	475	0.08156028368794326
+INFO:root:    xref_count              8	8	0.08333333333333333
+INFO:root:    imports_clean           14	14	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Arra', 'Arra', 'Bool', 'Bool', 'Boolint', 'Disp', 'Even', 'Focu', 'Mous', 'Stri', 'Striint', 'Text']	['!', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Arra', 'Arra', 'Bool', 'Bool', 'Boolint', 'Disp', 'Even', 'Focu', 'Mous', 'Stri', 'Striint', 'Text']	0.08333333333333333
+INFO:root:Dm_OrdinaryCompany is similar to Dm_HeatZoo with k=1.00
+INFO:root:    v_pub                   11	11	0.027777777777777776
+INFO:root:    v_pub_s                 2	2	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   7	7	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 4	4	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             264	265	0.08012820512820512
+INFO:root:    xref_count              11	11	0.08333333333333333
+INFO:root:    imports_clean           9	9	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', 'Dispint=0int=0int=0', 'Even', 'Stri', 'Stri', 'StriBool', 'Striint=0int=0Bool=t', 'intint', 'intintint=0']	['-', '-', '-', 'Dispint=0int=0int=0', 'Even', 'Stri', 'Stri', 'StriBool', 'Striint=0int=0Bool=t', 'intint', 'intintint=0']	0.08333333333333333
+INFO:root:Dm_VeilSuit is similar to Dm_GreedyBird with k=0.99
+INFO:root:    v_pub                   13	13	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 7	7	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   7	7	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  5	5	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             322	320	0.078125
+INFO:root:    xref_count              1	1	0.08333333333333333
+INFO:root:    imports_clean           5	5	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '!', '!Bool', '!int', '!int', 'Dict', 'StriStri', 'int', 'int', 'int']	['!', '!', '!', '!', '!Bool', '!int', '!int', 'Dict', 'StriStri', 'int', 'int', 'int']	0.08333333333333333
+INFO:root:Dm_SonPerform is similar to Dm_AdjustmentPrepare with k=1.00
+INFO:root:    v_pub                   3	3	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   8	8	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  2	2	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             226	227	0.07954545454545453
+INFO:root:    xref_count              4	4	0.08333333333333333
+INFO:root:    imports_clean           2	2	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!!', '-', '-', '-', '-', '-', '-', '-', 'int!']	['!', '!!', '-', '-', '-', '-', '-', '-', '-', 'int!']	0.08333333333333333
+INFO:root:Dm_SeriousExotic is similar to Dm_PloughClever with k=0.99
+INFO:root:    v_pub                   0	0	0.027777777777777776
+INFO:root:    v_pub_s                 2	2	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   1	1	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 2	2	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             170	168	0.07352941176470587
+INFO:root:    xref_count              11	11	0.08333333333333333
+INFO:root:    imports_clean           0	0	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!intNumb=1Bool=t', '-', '-']	['!intNumb=1Bool=t', '-', '-']	0.08333333333333333
+INFO:root:Dm_DoorEggnog is similar to Dm_WaitingAfternoon with k=0.99
+INFO:root:    v_pub                   6	6	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 1	1	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   3	3	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             64	65	0.06944444444444445
+INFO:root:    xref_count              4	4	0.08333333333333333
+INFO:root:    imports_clean           0	0	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!Numb', '-', 'Numb']	['!Numb', '-', 'Numb']	0.08333333333333333
+WARNING:root:Found new class Dm_IncompetentGaping
+INFO:root:Dm_ThoughtZippy is similar to Dm_PhoneEntertaining with k=0.99
+INFO:root:    v_pub                   3	3	0.027777777777777776
+INFO:root:    v_pub_s                 3	3	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   7	7	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 5	5	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             267	269	0.07692307692307693
+INFO:root:    xref_count              2	2	0.08333333333333333
+INFO:root:    imports_clean           8	8	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', '-', '-', '-', 'Arra', 'Bool', 'Bool', 'Bool', 'Keyb', 'Mous']	['-', '-', '-', '-', '-', '-', 'Arra', 'Bool', 'Bool', 'Bool', 'Keyb', 'Mous']	0.08333333333333333
+INFO:root:Dm_BitTroubled is similar to Dm_PictureToe with k=1.00
+INFO:root:    v_pub                   10	10	0.027777777777777776
+INFO:root:    v_pub_s                 1	1	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   6	6	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 1	1	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             243	242	0.0798611111111111
+INFO:root:    xref_count              7	7	0.08333333333333333
+INFO:root:    imports_clean           2	2	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!intintintintStriBool', '-', '-', '-', '-', 'int', 'intBool=fStri=n']	['!intintintintStriBool', '-', '-', '-', '-', 'int', 'intBool=fStri=n']	0.08333333333333333
+INFO:root:Dm_VivaciousDazzling is similar to Dm_ShakeBrush with k=1.00
+INFO:root:    v_pub                   5	5	0.027777777777777776
+INFO:root:    v_pub_s                 1	1	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   8	8	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             310	309	0.08064516129032258
+INFO:root:    xref_count              12	12	0.08333333333333333
+INFO:root:    imports_clean           6	6	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', '-', '-', '-', 'Even', 'intStri']	['-', '-', '-', '-', '-', '-', 'Even', 'intStri']	0.08333333333333333
+WARNING:root:Found new class Dm_CravenBrush
+INFO:root:Dm_AdjustmentNoiseless is similar to Dm_PleaseOrdinary with k=0.99
+INFO:root:    v_pub                   6	6	0.027777777777777776
+INFO:root:    v_pub_s                 4	4	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 2	2	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   4	4	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 1	1	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             193	191	0.07456140350877193
+INFO:root:    xref_count              35	35	0.08333333333333333
+INFO:root:    imports_clean           5	5	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['Bool', 'Numb', 'intBool=f', 'intint=-Bool=fBool=f', 'intint=0Bool=f']	['Bool', 'Numb', 'intBool=f', 'intint=-Bool=fBool=f', 'intint=0Bool=f']	0.08333333333333333
+INFO:root:Dm_WiseCoal is similar to Dm_SickOnerous with k=0.99
+INFO:root:    v_pub                   2	2	0.027777777777777776
+INFO:root:    v_pub_s                 3	3	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   3	3	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 1	1	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             110	109	0.07575757575757575
+INFO:root:    xref_count              1	1	0.08333333333333333
+INFO:root:    imports_clean           6	6	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', 'Boolint=0int=0', 'int=0int=0']	['-', '-', 'Boolint=0int=0', 'int=0int=0']	0.08333333333333333
+WARNING:root:Found new class Dm_ShadeHumor
+INFO:root:Dm_ScaleChubby is similar to Dm_HourFarm with k=0.99
+INFO:root:    v_pub                   14	14	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 11	11	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   6	6	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  6	6	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             496	492	0.07653061224489796
+INFO:root:    xref_count              1	1	0.08333333333333333
+INFO:root:    imports_clean           4	4	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '!!Bool', '-', 'Bool=f', 'Dict', 'NumbNumb', 'int', 'int', 'int', 'int']	['!', '!', '!', '!!Bool', '-', 'Bool=f', 'Dict', 'NumbNumb', 'int', 'int', 'int', 'int']	0.08333333333333333
+WARNING:root:Found new class Dm_SockNear
+INFO:root:Dm_CalculatorCrib is similar to Dm_AttractiveLanguid with k=0.99
+INFO:root:    v_pub                   2	2	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   12	12	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             129	130	0.07638888888888888
+INFO:root:    xref_count              106	106	0.08333333333333333
+INFO:root:    imports_clean           0	0	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '!!', '!NumbNumb', '-', '-', '-', '-', '-', 'Numb', 'Numb=0!=n!=n']	['!', '!', '!', '!!', '!NumbNumb', '-', '-', '-', '-', '-', 'Numb', 'Numb=0!=n!=n']	0.08333333333333333
+INFO:root:Dm_BeginnerBrush is similar to Dm_UnequalOven with k=1.00
+INFO:root:    v_pub                   9	9	0.027777777777777776
+INFO:root:    v_pub_s                 1	1	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   8	8	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             220	219	0.07954545454545453
+INFO:root:    xref_count              4	4	0.08333333333333333
+INFO:root:    imports_clean           1	1	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', '-', 'Byte=n', 'Vect', 'int', 'int']	['-', '-', '-', '-', 'Byte=n', 'Vect', 'int', 'int']	0.08333333333333333
+WARNING:root:Found new class Dm_LimitCart
+INFO:root:Dm_TemperSuzuka is similar to Dm_DeadpanImpolite with k=1.00
+INFO:root:    v_pub                   18	18	0.027777777777777776
+INFO:root:    v_pub_s                 2	2	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 1	1	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   11	11	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 4	4	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             367	366	0.08101851851851852
+INFO:root:    xref_count              3	3	0.08333333333333333
+INFO:root:    imports_clean           8	8	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '-', '-', '-', 'Bool', 'Bool!=n', 'Even', 'Even=n', 'Mous', 'Stri=n', 'int', 'int', 'int=0', 'intBool']	['!', '!', '-', '-', '-', 'Bool', 'Bool!=n', 'Even', 'Even=n', 'Mous', 'Stri=n', 'int', 'int', 'int=0', 'intBool']	0.08333333333333333
+INFO:root:Dm_ToothpasteBurn is similar to Dm_WanderingThought with k=0.99
+INFO:root:    v_pub                   0	0	0.027777777777777776
+INFO:root:    v_pub_s                 5	5	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   1	1	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 5	5	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             110	109	0.07575757575757575
+INFO:root:    xref_count              2	2	0.08333333333333333
+INFO:root:    imports_clean           4	4	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', 'Even', 'Stri', 'int']	['-', '-', '-', 'Even', 'Stri', 'int']	0.08333333333333333
+INFO:root:Dm_SootheNotebook is similar to Dm_ImperfectChubby with k=0.99
+INFO:root:    v_pub                   7	7	0.027777777777777776
+INFO:root:    v_pub_s                 3	3	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   2	2	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             120	119	0.07638888888888888
+INFO:root:    xref_count              141	141	0.08333333333333333
+INFO:root:    imports_clean           4	4	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', 'intBoolStriintint=5int=0']	['-', 'intBoolStriintint=5int=0']	0.08333333333333333
+WARNING:root:Found new class Dm_ProgramPenitent
+INFO:root:Dm_GlamorousBurly is similar to Dm_ForkCherry with k=0.99
+INFO:root:    v_pub                   8	8	0.027777777777777776
+INFO:root:    v_pub_s                 1	1	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   12	12	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 5	5	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             331	329	0.07828282828282829
+INFO:root:    xref_count              6	6	0.08333333333333333
+INFO:root:    imports_clean           4	4	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!Bool', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Stri', 'Stri', 'int']	['!', '!Bool', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Stri', 'Stri', 'int']	0.08333333333333333
+INFO:root:Dm_CrowdedPathetic is similar to Dm_LudicrousGamy with k=1.00
+INFO:root:    v_pub                   22	22	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   14	14	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  7	7	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             541	540	0.08179012345679011
+INFO:root:    xref_count              14	14	0.08333333333333333
+INFO:root:    imports_clean           0	0	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Bool', 'Numb', 'Numb', 'NumbNumb']	['!', '!', '!', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Bool', 'Numb', 'Numb', 'NumbNumb']	0.08333333333333333
+WARNING:root:Found new class Dm_AwakeQuirky
+WARNING:root:Found new class Dm_EasyEvasive
+INFO:root:Dm_ThankSincere is similar to Dm_BeadLate with k=0.99
+INFO:root:    v_pub                   1	1	0.027777777777777776
+INFO:root:    v_pub_s                 3	3	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   2	2	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 1	1	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             76	77	0.07142857142857142
+INFO:root:    xref_count              1	1	0.08333333333333333
+INFO:root:    imports_clean           6	6	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', 'Boolint=0']	['-', '-', 'Boolint=0']	0.08333333333333333
+WARNING:root:Found new class Dm_CountKnowledgeable
+INFO:root:Dm_SeedWail is similar to Dm_SupplyMany with k=0.98
+INFO:root:    v_pub                   0	0	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 93	93	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   1	1	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 1	1	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             243	238	0.06597222222222222
+INFO:root:    xref_count              427	427	0.08333333333333333
+INFO:root:    imports_clean           1	1	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-']	['-', '-']	0.08333333333333333
+INFO:root:Dm_FlockCrowded is similar to Dm_MarkedBump with k=1.00
+INFO:root:    v_pub                   9	9	0.027777777777777776
+INFO:root:    v_pub_s                 1	1	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 6	6	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   8	8	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  7	7	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             432	431	0.0813953488372093
+INFO:root:    xref_count              1	1	0.08333333333333333
+INFO:root:    imports_clean           11	11	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '!', '!', '-', '-', '-', 'Dict', 'Even', 'int', 'int', 'int', 'int', 'intintintint']	['!', '!', '!', '!', '!', '-', '-', '-', 'Dict', 'Even', 'int', 'int', 'int', 'int', 'intintintint']	0.08333333333333333
+INFO:root:Dm_TransportPunch is similar to Dm_AlertCount with k=1.00
+INFO:root:    v_pub                   13	13	0.027777777777777776
+INFO:root:    v_pub_s                 12	12	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 8	8	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   11	11	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 14	14	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             562	561	0.0818452380952381
+INFO:root:    xref_count              25	25	0.08333333333333333
+INFO:root:    imports_clean           9	9	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '-', '-', '-', '-', '-', '-', 'Bool', 'Bool=t', 'BoolBool', 'Boolintint', 'Boolintint', 'Disp', 'Even', 'Mous', 'Stri', 'Stri', 'Stri', 'Stri', 'Stri', 'Stri', 'Striint', 'Striint', 'int']	['!', '!', '-', '-', '-', '-', '-', '-', 'Bool', 'Bool=t', 'BoolBool', 'Boolintint', 'Boolintint', 'Disp', 'Even', 'Mous', 'Stri', 'Stri', 'Stri', 'Stri', 'Stri', 'Stri', 'Striint', 'Striint', 'int']	0.08333333333333333
+INFO:root:Dm_TastelessShock is similar to Dm_KittensMitten with k=1.00
+INFO:root:    v_pub                   35	35	0.027777777777777776
+INFO:root:    v_pub_s                 9	9	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 7	7	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   35	35	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 12	12	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             1159	1163	0.08043478260869565
+INFO:root:    xref_count              29	29	0.08333333333333333
+INFO:root:    imports_clean           11	11	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '!', '!!', '!!', '!VectDict', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Bool', 'Bool', 'Byte', 'Disp', 'Even', 'Keyb', 'Stri', 'Stri', 'Stri', 'Stri', 'Stri', 'Stri', 'Stri!Bool', 'Stri="int=0int=2', 'StriBool=f', 'StriStri', 'StriStri', 'StriStriBool', 'StriStriintStri', 'StriStriintStri', 'StriVect', 'StriVectDict', 'VectDict', 'int']	['!', '!', '!', '!', '!!', '!!', '!VectDict', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Bool', 'Bool', 'Byte', 'Disp', 'Even', 'Keyb', 'Stri', 'Stri', 'Stri', 'Stri', 'Stri', 'Stri', 'Stri!Bool', 'Stri="int=0int=2', 'StriBool=f', 'StriStri', 'StriStri', 'StriStriBool', 'StriStriintStri', 'StriStriintStri', 'StriVect', 'StriVectDict', 'VectDict', 'int']	0.08333333333333333
+INFO:root:Dm_AfterthoughtAdvice is similar to Dm_ShortLip with k=1.00
+INFO:root:    v_pub                   16	16	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   16	16	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             260	261	0.08012820512820512
+INFO:root:    xref_count              173	173	0.08333333333333333
+INFO:root:    imports_clean           3	3	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', '-', '-', 'BitmNumb=NNumb=N', 'Even', 'Even', 'FuncObje=n', 'NumbNumb=0', 'Stri', 'Stri=nint=0int=0int=0int=0', 'int=0Numb=1', 'int=0int=0', 'intint', 'intint']	['-', '-', '-', '-', '-', 'BitmNumb=NNumb=N', 'Even', 'Even', 'FuncObje=n', 'NumbNumb=0', 'Stri', 'Stri=nint=0int=0int=0int=0', 'int=0Numb=1', 'int=0int=0', 'intint', 'intint']	0.08333333333333333
+INFO:root:Dm_BuryUnwritten is similar to Dm_GeneralSisters with k=0.99
+INFO:root:    v_pub                   1	1	0.027777777777777776
+INFO:root:    v_pub_s                 1	1	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   3	3	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 1	1	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             64	65	0.06944444444444445
+INFO:root:    xref_count              1	1	0.08333333333333333
+INFO:root:    imports_clean           0	0	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', 'Boolint=0', 'int']	['-', '-', 'Boolint=0', 'int']	0.08333333333333333
+WARNING:root:Found new class Dm_AlansonPaltry
+INFO:root:Dm_FlockDislike is similar to Dm_BranchGovernment with k=1.00
+INFO:root:    v_pub                   5	5	0.027777777777777776
+INFO:root:    v_pub_s                 4	4	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   7	7	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 5	5	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             265	264	0.08012820512820512
+INFO:root:    xref_count              11	11	0.08333333333333333
+INFO:root:    imports_clean           7	7	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', '-', '-', '-', 'DispStriFuncObje=n', 'Mous', 'Mous', 'int', 'int', 'int']	['-', '-', '-', '-', '-', '-', 'DispStriFuncObje=n', 'Mous', 'Mous', 'int', 'int', 'int']	0.08333333333333333
+INFO:root:Dm_ForkCracker is similar to Dm_DefectiveYell with k=0.99
+INFO:root:    v_pub                   9	9	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   12	12	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  3	3	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             304	302	0.07777777777777778
+INFO:root:    xref_count              20	20	0.08333333333333333
+INFO:root:    imports_clean           7	7	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['-', '-', '-', '-', 'Bool', 'Bool=f', 'Bool=t+', 'Even', 'Even', 'Even', 'Func=n', 'Mous', 'Striint=0', 'intint', 'intint']	['-', '-', '-', '-', 'Bool', 'Bool=f', 'Bool=t+', 'Even', 'Even', 'Even', 'Func=n', 'Mous', 'Striint=0', 'intint', 'intint']	0.08333333333333333
+INFO:root:Dm_PeckSpotted is similar to Dm_CalculatorYummy with k=0.99
+INFO:root:    v_pub                   0	0	0.027777777777777776
+INFO:root:    v_pub_s                 1	1	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 1	1	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   1	1	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 8	8	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             580	585	0.07614942528735633
+INFO:root:    xref_count              3	3	0.08333333333333333
+INFO:root:    imports_clean           0	0	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!!', '!!!!!', '!!!!!', '!!!!!', '!!int!!', '-', 'Arra!!!!', 'Arra!!int!!', 'ArraArra!Numb']	['!!', '!!!!!', '!!!!!', '!!!!!', '!!int!!', '-', 'Arra!!!!', 'Arra!!int!!', 'ArraArra!Numb']	0.08333333333333333
+INFO:root:Dm_AliveDinner is similar to Dm_LyricalWretched with k=1.00
+INFO:root:    v_pub                   0	0	0.027777777777777776
+INFO:root:    v_pub_s                 7	7	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   1	1	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 14	14	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             402	403	0.08124999999999999
+INFO:root:    xref_count              18	18	0.08333333333333333
+INFO:root:    imports_clean           5	5	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Dispint', 'int', 'int', 'intint', 'intintintintintBool=tNumb=0']	['!', '!', '-', '-', '-', '-', '-', '-', '-', 'Bool', 'Dispint', 'int', 'int', 'intint', 'intintintintintBool=tNumb=0']	0.08333333333333333
+INFO:root:Dm_HesitantAnus is similar to Dm_YellNarrow with k=0.98
+INFO:root:    v_pub                   1	1	0.027777777777777776
+INFO:root:    v_pub_s                 16	16	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 40	40	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   3	3	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             198	194	0.06578947368421052
+INFO:root:    xref_count              183	183	0.08333333333333333
+INFO:root:    imports_clean           3	3	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   ['lecture']	['lecture']	0.05555555555555555
+INFO:root:    func_arguments          ['-', 'Stri', 'StriObje']	['-', 'Stri', 'StriObje']	0.08333333333333333
+INFO:root:Dm_ErrorAdventurous is similar to Dm_MetalLate with k=1.00
+INFO:root:    v_pub                   14	14	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 13	13	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   9	9	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  5	5	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             577	579	0.0804093567251462
+INFO:root:    xref_count              1	1	0.08333333333333333
+INFO:root:    imports_clean           4	4	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '!intBoolint', '-', 'Bool', 'Bool', 'int', 'int', 'int', 'int', 'intBool', 'intBoolint', 'intint']	['!', '!', '!', '!intBoolint', '-', 'Bool', 'Bool', 'int', 'int', 'int', 'int', 'intBool', 'intBoolint', 'intint']	0.08333333333333333
+INFO:root:Dm_ChangeablePrepare is similar to Dm_JarAccurate with k=1.00
+INFO:root:    v_pub                   5	5	0.027777777777777776
+INFO:root:    v_pub_s                 1	1	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   12	12	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  0	0	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 1	1	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             227	228	0.07954545454545453
+INFO:root:    xref_count              20	20	0.08333333333333333
+INFO:root:    imports_clean           9	9	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '-', '-', '-', '-', 'Even', 'Even=n', 'Mous', 'Mous', 'StriFunc=nObje=nBool=fBool=t', 'StriFunc=nObje=nBool=fBool=t', 'int', 'int']	['!', '-', '-', '-', '-', 'Even', 'Even=n', 'Mous', 'Mous', 'StriFunc=nObje=nBool=fBool=t', 'StriFunc=nObje=nBool=fBool=t', 'int', 'int']	0.08333333333333333
+WARNING:root:Found new class Dm_RobinPeck
+WARNING:root:Found new class Dm_WhipRecognise
+INFO:root:Dm_ShoeAjar is similar to Dm_PipkaExpansion with k=1.00
+INFO:root:    v_pub                   10	10	0.027777777777777776
+INFO:root:    v_pub_s                 0	0	0.027777777777777776
+INFO:root:    v_priv                  0	0	0.027777777777777776
+INFO:root:    v_priv_s                0	0	0.027777777777777776
+INFO:root:    c_pub                   0	0	0.027777777777777776
+INFO:root:    c_pub_s                 0	0	0.027777777777777776
+INFO:root:    c_priv                  0	0	0.027777777777777776
+INFO:root:    c_priv_s                0	0	0.027777777777777776
+INFO:root:    f_pub                   1	1	0.027777777777777776
+INFO:root:    f_pubg                  0	0	0.027777777777777776
+INFO:root:    f_pubs                  0	0	0.027777777777777776
+INFO:root:    f_opub                  7	7	0.027777777777777776
+INFO:root:    f_opubg                 0	0	0.027777777777777776
+INFO:root:    f_opubs                 0	0	0.027777777777777776
+INFO:root:    f_pub_s                 0	0	0.027777777777777776
+INFO:root:    f_pubg_s                0	0	0.027777777777777776
+INFO:root:    f_pubs_s                0	0	0.027777777777777776
+INFO:root:    f_priv                  0	0	0.027777777777777776
+INFO:root:    f_privg                 0	0	0.027777777777777776
+INFO:root:    f_privs                 0	0	0.027777777777777776
+INFO:root:    f_priv_s                0	0	0.027777777777777776
+INFO:root:    lines_count             222	223	0.07954545454545453
+INFO:root:    xref_count              15	15	0.08333333333333333
+INFO:root:    imports_clean           0	0	0.05555555555555555
+INFO:root:    imports_mangled         0	0	0.05555555555555555
+INFO:root:    demangled_identifiers   []	[]	0.05555555555555555
+INFO:root:    func_arguments          ['!', '!', '!', '-', '-', '-', '-', '-']	['!', '!', '!', '-', '-', '-', '-', '-']	0.08333333333333333
