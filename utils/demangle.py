@@ -350,7 +350,7 @@ class ClassInfoDB(object):
     def get_all(self) -> tuple[ClassInfo]:
         return tuple(self._store.values())
 
-    def find_similar(self, cls: ClassInfo, threshold: float = 0.90):
+    def find_similar(self, cls: ClassInfo, threshold: float = 0.95):
         k2c = {}  # {coefficient: cls}
 
         for _, c in self._store.items():
@@ -509,7 +509,8 @@ def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
         similar, report, k = db.find_similar(cls)
 
         if not similar:
-            logging.info(f"Found new class {cls.name}")
+            logging.warning(f"Found new class {cls.name}")
+            db.store(cls)
             continue
 
         logging.info(f"{cls.name} is similar to {similar.name} with k={k}")
@@ -517,7 +518,7 @@ def associate_known_classes(file_map: TFileMap, db: ClassInfoDB):
         cls.name = similar.name
         cls.associate(similar)
 
-        db.store(cls)
+        db.store(cls)  # this will update existing class
 
         for entry in report:
             logging.info(f"    {entry[0]:24s}" + "\t".join(map(str, entry[1:])))
