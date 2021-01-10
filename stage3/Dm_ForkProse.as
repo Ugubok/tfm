@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_tripSofa:Dm_InquisitiveIdea;
+      public var dm_unitZoo:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_delicateChivalrous:int;
+      public var dm_mendPaint:int;
       
-      public var dm_planTransport:Dm_DescribeSupply;
+      public var dm_tripSofa:Dm_IgnorantNaive;
       
       public function Dm_ForkProse(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_tripSofa = param1;
+         this.dm_unitZoo = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_wretchedDelicate() : String
+      public function get dm_delicateChivalrous() : String
       {
-         return Dm_ShockDouble.dm_slowTrap(Dm_IgnorantAspiring.dm_didacticImportant);
+         return Dm_FaithfulCrowded.dm_pearSigh(Dm_DeliverAgonizing.dm_creatorNest);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_creatorNest;
+         return Dm_ExplainBranch.dm_rejectWealthy;
       }
       
-      public function dm_pearSigh() : Boolean
+      public function dm_slowTrap() : Boolean
       {
          return false;
       }
       
-      public function dm_rejectWealthy() : int
+      public function dm_planTransport() : int
       {
-         return Dm_ShockDouble.dm_scratchHateful(Dm_ZonkedNew.dm_notebookTeeny);
+         return Dm_FaithfulCrowded.dm_wretchedDelicate(Dm_VerdantWhistle.dm_notebookTeeny);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_delicateChivalrous = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_tripSofa.recupereSequence(this.idSequence);
+         this.dm_mendPaint = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_unitZoo.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_DescribeSupply)
+            if(_loc2_ is Dm_IgnorantNaive)
             {
-               this.dm_planTransport = Dm_DescribeSupply(_loc2_);
-               this.dm_planTransport.dm_unitZoo = this;
+               this.dm_tripSofa = Dm_IgnorantNaive(_loc2_);
+               this.dm_tripSofa.dm_scratchHateful = this;
             }
          }
       }
       
       public function get dm_seaUsed() : int
       {
-         return Dm_ShockDouble.dm_scratchHateful(Dm_LegStrengthen.dm_mendPaint);
+         return Dm_FaithfulCrowded.dm_wretchedDelicate(Dm_BranchAfterthought.dm_didacticImportant);
       }
    }
 }

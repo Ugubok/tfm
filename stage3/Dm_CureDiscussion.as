@@ -8,7 +8,7 @@ package
       
       public var idSequence:int;
       
-      public var dm_gateTaboo:Dm_WetAutomatic;
+      public var dm_heatLook:Dm_LookStormy;
       
       public function Dm_CureDiscussion(param1:int)
       {
@@ -21,24 +21,24 @@ package
          return this.idSequence;
       }
       
-      public function get dm_adventurousToothpaste() : String
+      public function get dm_knifeTremble() : String
       {
-         return Dm_IgnorantAspiring.dm_knifeTremble;
+         return Dm_DeliverAgonizing.dm_adventurousToothpaste;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_naughtyWait;
+         return Dm_ExplainBranch.dm_seaFork;
       }
       
-      public function dm_heatLook() : Boolean
+      public function dm_kurumaSystem() : Boolean
       {
          return false;
       }
       
-      override public function dm_seaFork() : int
+      override public function dm_breatheJoke() : int
       {
-         return Dm_ScissorsUnarmed.dm_breatheJoke;
+         return Dm_FaithfulCrowded.dm_naughtyWait(Dm_VulgarPrepare.dm_gateTaboo);
       }
       
       override public function ecriture(param1:ByteArray) : void

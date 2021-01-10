@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_instructAspiring:Dm_InquisitiveIdea;
+      public var dm_agreeWhistle:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_scintillatingOven:int;
+      public var dm_anusShake:int;
       
-      public var dm_icyRightful:Dm_CountBoundless;
+      public var dm_exoticImpolite:Dm_RightfulCurved;
       
       public function Dm_WanderingSpotted(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_instructAspiring = param1;
+         this.dm_agreeWhistle = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_exoticSqueal() : String
+      public function get dm_temperContain() : String
       {
-         return Dm_ShockDouble.dm_attractiveDetermined(Dm_IgnorantAspiring.dm_shoeSon);
+         return Dm_DeliverAgonizing.dm_exoticSqueal;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_anusShake;
+         return Dm_ExplainBranch.dm_instructAspiring;
       }
       
-      public function dm_cardSuit() : Boolean
+      public function dm_shoeBeginner() : Boolean
       {
          return false;
       }
       
-      public function dm_neighborlyAir() : int
+      public function dm_scintillatingOven() : int
       {
-         return Dm_ZonkedNew.dm_temperContain;
+         return Dm_FaithfulCrowded.dm_cardSuit(Dm_VerdantWhistle.dm_icyRightful);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_scintillatingOven = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_instructAspiring.recupereSequence(this.idSequence);
+         this.dm_anusShake = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_agreeWhistle.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_CountBoundless)
+            if(_loc2_ is Dm_RightfulCurved)
             {
-               this.dm_icyRightful = Dm_CountBoundless(_loc2_);
-               this.dm_icyRightful.dm_exoticImpolite = this;
+               this.dm_exoticImpolite = Dm_RightfulCurved(_loc2_);
+               this.dm_exoticImpolite.dm_neighborlyAir = this;
             }
          }
       }
       
-      public function get dm_agreeWhistle() : int
+      public function get dm_shoeSon() : int
       {
-         return Dm_TeenyBird.dm_shoeBeginner;
+         return Dm_VerdantRay.dm_attractiveDetermined;
       }
    }
 }

@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_symptomaticNervous:Dm_InquisitiveIdea;
+      public var dm_knotBrush:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_beliefJagged:int;
+      public var dm_confusedPlan:int;
       
-      public var dm_limitTrip:Dm_ShoeVagabond;
+      public var dm_beautifulBrush:Dm_CalculatorSecret;
       
       public function Dm_BurlyReligion(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_symptomaticNervous = param1;
+         this.dm_knotBrush = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_cheatSpy() : String
+      public function get dm_beliefJagged() : String
       {
-         return Dm_IgnorantAspiring.dm_slimWarlike;
+         return Dm_FaithfulCrowded.dm_yummyCard(Dm_DeliverAgonizing.dm_limitUnarmed);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_limitDecay;
+         return Dm_ExplainBranch.dm_explodePerson;
       }
       
-      public function dm_yummyCard() : Boolean
+      public function dm_crackerMouse() : Boolean
       {
          return false;
       }
       
-      public function dm_explodePerson() : int
+      public function dm_symptomaticNervous() : int
       {
-         return Dm_ZonkedNew.dm_knotBrush;
+         return Dm_VerdantWhistle.dm_limitTrip;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_beliefJagged = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_symptomaticNervous.recupereSequence(this.idSequence);
+         this.dm_confusedPlan = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_knotBrush.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_ShoeVagabond)
+            if(_loc2_ is Dm_CalculatorSecret)
             {
-               this.dm_limitTrip = Dm_ShoeVagabond(_loc2_);
-               this.dm_limitTrip.dm_confusedPlan = this;
+               this.dm_beautifulBrush = Dm_CalculatorSecret(_loc2_);
+               this.dm_beautifulBrush.dm_cheatSpy = this;
             }
          }
       }
       
       public function get dm_forkTrace() : int
       {
-         return Dm_TendencyPrice.dm_limitUnarmed;
+         return Dm_FaithfulCrowded.dm_limitDecay(Dm_PowerfulSecret.dm_slimWarlike);
       }
    }
 }

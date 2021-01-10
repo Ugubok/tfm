@@ -10,9 +10,9 @@ package
       
       public var idSequence:int;
       
-      public var dm_seriousPig:int;
+      public var dm_lampSummer:int;
       
-      public var dm_historyEggnog:Dm_HalfFaint;
+      public var dm_historyEggnog:Dm_KneelBrass;
       
       public function Dm_AgonizingComparison(param1:Dm_InquisitiveIdea)
       {
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_smileMouse() : String
+      public function get dm_dailyAnnoy() : String
       {
-         return Dm_ShockDouble.dm_blotTrap(Dm_IgnorantAspiring.dm_joyousCheat);
+         return Dm_DeliverAgonizing.dm_smileMouse;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_lampSummer;
+         return Dm_ExplainBranch.dm_carefulWren;
       }
       
-      public function dm_fiveZip() : Boolean
+      public function dm_blotTrap() : Boolean
       {
          return false;
       }
       
-      public function dm_letterBabies() : int
+      public function dm_butterCrown() : int
       {
-         return Dm_ZonkedNew.dm_orangePuzzled;
+         return Dm_FaithfulCrowded.dm_fiveZip(Dm_VerdantWhistle.dm_orangePuzzled);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_seriousPig = param1.readByte();
+         this.dm_lampSummer = param1.readByte();
          var _loc2_:Dm_SuccinctVerdant = this.dm_airTemper.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_HalfFaint)
+            if(_loc2_ is Dm_KneelBrass)
             {
-               this.dm_historyEggnog = Dm_HalfFaint(_loc2_);
-               this.dm_historyEggnog.dm_carefulWren = this;
+               this.dm_historyEggnog = Dm_KneelBrass(_loc2_);
+               this.dm_historyEggnog.dm_joyousCheat = this;
             }
          }
       }
       
-      public function get dm_butterCrown() : int
+      public function get dm_seriousPig() : int
       {
-         return Dm_LookResolute.dm_dailyAnnoy;
+         return Dm_VerdantRay.dm_letterBabies;
       }
    }
 }

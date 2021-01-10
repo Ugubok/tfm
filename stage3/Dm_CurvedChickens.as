@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var dm_keyCareful:int;
+      public var dm_fixTaboo:int;
       
-      public var dm_wiseStrengthen:Dm_PuzzledShocking;
+      public var dm_keyCareful:Dm_SleepyMeasure;
       
       public function Dm_CurvedChickens(param1:int, param2:int)
       {
          super();
          this.idSequence = param1;
-         this.dm_keyCareful = param2;
+         this.dm_fixTaboo = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get dm_trainsInnate() : String
+      public function get dm_shakeOven() : String
       {
-         return Dm_ShockDouble.dm_fixTaboo(Dm_IgnorantAspiring.dm_shakeOven);
+         return Dm_DeliverAgonizing.dm_trainsInnate;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_berryLudicrous;
+         return Dm_ExplainBranch.dm_mendDecay;
       }
       
-      public function dm_planDelightful() : Boolean
+      public function dm_berryLudicrous() : Boolean
       {
          return false;
       }
       
-      override public function dm_mendDecay() : int
+      override public function dm_wiseStrengthen() : int
       {
-         return Dm_ZonkedNew.dm_fitFarm;
+         return Dm_FaithfulCrowded.dm_planDelightful(Dm_SummerPlants.dm_fitFarm);
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(this.dm_keyCareful);
+         param1.writeInt(this.dm_fixTaboo);
       }
    }
 }

@@ -6,30 +6,30 @@ package
    {
        
       
-      public var dm_earPrivate:Dm_JellyClass;
+      public var dm_cravenAutomatic:Dm_JellyClass;
       
       public function Dm_RightfulJumbled()
       {
          super();
       }
       
-      public function get dm_performWant() : Dm_JellyClass
+      public function set dm_earPrivate(param1:Dm_JellyClass) : void
       {
-         return this.dm_earPrivate;
+         this.dm_cravenAutomatic = param1;
       }
       
-      public function set dm_performWant(param1:Dm_JellyClass) : void
+      public function get dm_earPrivate() : Dm_JellyClass
       {
-         this.dm_earPrivate = param1;
-      }
-      
-      public function dm_fadeCheat() : int
-      {
-         return -Dm_CravenCrown.dm_checkLimit;
+         return this.dm_cravenAutomatic;
       }
       
       public function ecriture(param1:ByteArray) : void
       {
+      }
+      
+      public function dm_checkLimit() : int
+      {
+         return -Dm_FaithfulCrowded.dm_performWant(Dm_PowerfulSecret.dm_fadeCheat);
       }
    }
 }

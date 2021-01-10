@@ -1,17 +1,17 @@
 package
 {
-   public class Dm_NeatRub extends Dm_LamentableNeighborly
+   public class Dm_NeatRub extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_NeatRub(param1:int)
       {
-         super(Dm_ShockDouble.dm_handLimit(Dm_SignZip.dm_gapingParty),Dm_ZonkedNew.dm_scissorsZoo);
-         if(param1 < Dm_ShockDouble.dm_handLimit(Dm_CollectFlower.dm_evasiveArmy))
+         super(Dm_FaithfulCrowded.dm_scissorsZoo(Dm_PigCart.dm_gapingParty),Dm_PowerfulSecret.dm_handLimit);
+         if(Dm_AdjustmentAnalyze.dm_earthquakeScrew > param1)
          {
-            param1 = Dm_ShockDouble.dm_handLimit(Dm_CollectFlower.dm_evasiveArmy);
+            param1 = Dm_AdjustmentAnalyze.dm_earthquakeScrew;
          }
-         dm_earthquakeScrew.writeInt(param1);
+         dm_evasiveArmy.writeInt(param1);
       }
    }
 }

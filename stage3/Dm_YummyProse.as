@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_YummyProse extends Dm_LamentableNeighborly
+   public class Dm_YummyProse extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_YummyProse(param1:int)
       {
-         super(Dm_SignZip.dm_inventFaithful,Dm_CollectFlower.dm_ideaDistro);
-         dm_trembleStick.writeShort(param1);
+         super(Dm_EdgeAngle.dm_ideaDistro,Dm_PigCart.dm_trembleStick);
+         dm_inventFaithful(param1);
       }
    }
 }

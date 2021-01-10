@@ -2,7 +2,7 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class Dm_BlushSoup extends Dm_SeaSlow
+   public class Dm_BlushSoup extends Dm_WhistlePlough
    {
        
       

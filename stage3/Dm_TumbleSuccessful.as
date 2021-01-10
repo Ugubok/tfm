@@ -1,18 +1,18 @@
 package
 {
-   public class Dm_TumbleSuccessful extends Dm_LamentableNeighborly
+   public class Dm_TumbleSuccessful extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_TumbleSuccessful(param1:Dm_KaputSnakes, param2:Boolean)
+      public function Dm_TumbleSuccessful(param1:Vector.<String>)
       {
-         super(Dm_ShockDouble.dm_unitFirst(Dm_TendencyPrice.dm_pricePaint),Dm_ShockDouble.dm_unitFirst(Dm_LegStrengthen.dm_famousSleep));
-         dm_increaseFamous.writeShort(param1.dm_wetPrice);
-         dm_increaseFamous.writeShort(param1.x);
-         dm_increaseFamous.writeShort(param1.y);
-         dm_increaseFamous.writeShort(param1.dm_flowWhisper());
-         dm_increaseFamous.writeUTF(param1.dm_momentousQuirky());
-         dm_increaseFamous.writeBoolean(param2);
+         super(Dm_PigCart.dm_unitFirst,Dm_FaithfulCrowded.dm_famousSleep(Dm_FrailAuthority.dm_pricePaint));
+         var _loc2_:int = Dm_AdjustmentAnalyze.dm_increaseFamous;
+         while(_loc2_ < param1.length)
+         {
+            dm_momentousQuirky(param1[_loc2_]);
+            _loc2_++;
+         }
       }
    }
 }

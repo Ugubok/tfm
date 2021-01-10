@@ -4,29 +4,29 @@ package
    {
        
       
-      public var dm_peckMountain:String;
+      public var dm_ablazeInconclusive:String;
       
-      public var dm_shopGlow:String;
+      public var dm_fixRecord:String;
       
       public function Dm_BearSkin(param1:int, param2:String, param3:Number, param4:String, param5:int, param6:String)
       {
          super();
-         dm_toothpasteCloistered = param1;
-         this.dm_peckMountain = param2;
-         if(this.dm_peckMountain.toLowerCase() == Dm_HumorExotic.dm_shockAuthority || this.dm_peckMountain.toLowerCase() == Dm_ZonkedNew.dm_tastyLimit)
+         dm_cloverImportant = param1;
+         this.dm_ablazeInconclusive = param2;
+         if(this.dm_ablazeInconclusive.toLowerCase() == Dm_EdgeAngle.dm_limitOven || this.dm_ablazeInconclusive.toLowerCase() == Dm_CrookedTouch.dm_toothpasteCloistered)
          {
-            this.dm_peckMountain = Dm_ShockDouble.dm_oilCondition(Dm_TendencyPrice.dm_ideaShame);
+            this.dm_ablazeInconclusive = Dm_ComplexNear.dm_naughtyShop;
          }
-         dm_cloverImportant = param3;
-         dm_naughtyShop = param4;
-         dm_borrowMend = param5;
-         dm_burlyBetter = dm_borrowMend;
-         this.dm_shopGlow = param6;
+         dm_ideaShame = param3;
+         dm_oilCondition = param4;
+         dm_shockAuthority = param5;
+         dm_peckMountain = dm_shockAuthority;
+         this.dm_fixRecord = param6;
       }
       
       public function toString() : String
       {
-         return Dm_ShockDouble.dm_oilCondition(Dm_ColorReject.dm_ablazeInconclusive) + this.dm_peckMountain + Dm_ShockDouble.dm_oilCondition(Dm_BirdAdvice.dm_oatmealDecay) + dm_cloverImportant + Dm_ShockDouble.dm_oilCondition(Dm_TeenyBird.dm_coldStiff) + dm_naughtyShop + Dm_ShockDouble.dm_oilCondition(Dm_CravenCrown.dm_fixRecord) + dm_borrowMend + Dm_ShockDouble.dm_oilCondition(Dm_ColorReject.dm_reachTrousers) + this.dm_shopGlow + Dm_ShockDouble.dm_oilCondition(Dm_BeadBirds.dm_limitOven);
+         return Dm_FaithfulCrowded.dm_coldStiff(Dm_AdjustmentAnalyze.dm_shopGlow) + this.dm_ablazeInconclusive + Dm_FaithfulCrowded.dm_coldStiff(Dm_VulgarPrepare.dm_borrowMend) + dm_ideaShame + Dm_FaithfulCrowded.dm_coldStiff(Dm_StomachBlush.dm_reachTrousers) + dm_oilCondition + Dm_StomachBlush.dm_oatmealDecay + dm_shockAuthority + Dm_ComplexNear.dm_burlyBetter + this.dm_fixRecord + Dm_PigCart.dm_tastyLimit;
       }
    }
 }

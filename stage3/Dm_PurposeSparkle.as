@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_PurposeSparkle extends Dm_LamentableNeighborly
+   public class Dm_PurposeSparkle extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_PurposeSparkle(param1:int)
+      public function Dm_PurposeSparkle(param1:String)
       {
-         super(Dm_ShockDouble.dm_ludicrousFamous(Dm_CravenCrown.dm_colossalPromise),Dm_ShockDouble.dm_ludicrousFamous(Dm_TastyDebt.dm_windProgram));
-         dm_reactionBalance.writeByte(param1);
+         super(Dm_FaithfulCrowded.dm_reactionBalance(Dm_ComplexNear.dm_windProgram),Dm_FaithfulCrowded.dm_reactionBalance(Dm_EdgeAngle.dm_colossalPromise));
+         dm_ludicrousFamous.writeUTF(param1);
       }
    }
 }

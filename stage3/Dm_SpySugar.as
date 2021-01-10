@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_vagueSpotless:Dm_InquisitiveIdea;
+      public var dm_healCan:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_harborBeautiful:int;
+      public var dm_eliteSweater:int;
       
-      public var dm_edgePeck:Dm_ButterExotic;
+      public var dm_possessBright:Dm_HalfFaint;
       
       public function Dm_SpySugar(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_vagueSpotless = param1;
+         this.dm_healCan = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_freeStormy() : String
+      public function get dm_harborBeautiful() : String
       {
-         return Dm_IgnorantAspiring.dm_shakeRub;
+         return Dm_FaithfulCrowded.dm_ruddyOrder(Dm_DeliverAgonizing.dm_freeStormy);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_possessBright;
+         return Dm_ExplainBranch.dm_happyRiver;
       }
       
-      public function dm_dearMighty() : Boolean
+      public function dm_edgePeck() : Boolean
       {
          return false;
       }
       
-      public function dm_ruddyOrder() : int
+      public function dm_vagueSpotless() : int
       {
-         return Dm_ShockDouble.dm_threateningCherry(Dm_ZonkedNew.dm_healCan);
+         return Dm_VerdantWhistle.dm_discussionFlower;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_harborBeautiful = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_vagueSpotless.recupereSequence(this.idSequence);
+         this.dm_eliteSweater = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_healCan.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_ButterExotic)
+            if(_loc2_ is Dm_HalfFaint)
             {
-               this.dm_edgePeck = Dm_ButterExotic(_loc2_);
-               this.dm_edgePeck.dm_eliteSweater = this;
+               this.dm_possessBright = Dm_HalfFaint(_loc2_);
+               this.dm_possessBright.dm_shakeRub = this;
             }
          }
       }
       
-      public function get dm_discussionFlower() : int
+      public function get dm_threateningCherry() : int
       {
-         return Dm_CravenCrown.dm_happyRiver;
+         return Dm_EdgeAngle.dm_dearMighty;
       }
    }
 }

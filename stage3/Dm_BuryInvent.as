@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var dm_borrowBreathe:String;
+      public var dm_bikeFork:String;
       
-      public var dm_sproutCareless:Dm_SenseGlamorous;
+      public var dm_sproutCareless:Dm_MarkPlants;
       
       public function Dm_BuryInvent(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.dm_borrowBreathe = param2;
+         this.dm_bikeFork = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get dm_toothpasteFemale() : String
+      public function get dm_borrowBreathe() : String
       {
-         return Dm_ShockDouble.dm_purposeSuccinct(Dm_IgnorantAspiring.dm_passChicken);
+         return Dm_DeliverAgonizing.dm_toothpasteFemale;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_plantsWhistle;
+         return Dm_ExplainBranch.dm_boundlessSalt;
       }
       
-      public function dm_bikeFork() : Boolean
+      public function dm_passChicken() : Boolean
       {
          return false;
       }
       
-      override public function dm_boundlessSalt() : int
+      override public function dm_spottedSqueamish() : int
       {
-         return Dm_ShockDouble.dm_harborExpansion(Dm_TastyDebt.dm_spottedSqueamish) + this.dm_borrowBreathe.length;
+         return Dm_FaithfulCrowded.dm_plantsWhistle(Dm_BranchAfterthought.dm_harborExpansion) + this.dm_bikeFork.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.dm_borrowBreathe);
+         param1.writeUTF(this.dm_bikeFork);
       }
    }
 }

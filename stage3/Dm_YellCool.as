@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_YellCool extends Dm_LamentableNeighborly
+   public class Dm_YellCool extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_YellCool(param1:Boolean)
+      public function Dm_YellCool(param1:int)
       {
-         super(Dm_ShockDouble.dm_burlyCraven(Dm_ColorReject.dm_zippyBoot),Dm_LookResolute.dm_scaredKaput);
-         dm_butterAspiring.writeBoolean(param1);
+         super(Dm_ComplexNear.dm_butterAspiring,Dm_FaithfulCrowded.dm_zippyBoot(Dm_DeliverAgonizing.dm_burlyCraven));
+         dm_scaredKaput.writeShort(param1);
       }
    }
 }

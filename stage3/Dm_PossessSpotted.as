@@ -1,15 +1,15 @@
 package
 {
-   public class Dm_PossessSpotted extends Dm_LamentableNeighborly
+   public class Dm_PossessSpotted extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_PossessSpotted(param1:int, param2:int, param3:int)
+      public function Dm_PossessSpotted(param1:int, param2:Dm_SuccinctVerdant)
       {
-         super(Dm_ShockDouble.dm_divisionIdea(Dm_ZonkedNew.dm_sonSmile),Dm_ShockDouble.dm_divisionIdea(Dm_TastyDebt.dm_succinctBlush));
-         dm_instinctiveHalf.writeInt(param1);
-         dm_instinctiveHalf.writeShort(param2);
-         dm_instinctiveHalf.writeShort(param3);
+         super(Dm_PigCart.dm_divisionIdea,Dm_AgreeableMountain.dm_succinctBlush);
+         dm_pleaseSea.writeShort(param1);
+         param2.ecriture(dm_pleaseSea);
+         dm_instinctiveHalf = Dm_NaughtyAdvise.dm_sonSmile;
       }
    }
 }

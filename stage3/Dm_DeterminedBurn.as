@@ -1,15 +1,15 @@
 package
 {
-   public class Dm_DeterminedBurn extends Dm_LamentableNeighborly
+   public class Dm_DeterminedBurn extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_DeterminedBurn(param1:int, param2:Dm_SuccinctVerdant)
+      public function Dm_DeterminedBurn(param1:int, param2:int, param3:int)
       {
-         super(Dm_ShockDouble.dm_womanTasteless(Dm_LegStrengthen.dm_lackadaisicalRabbits),Dm_ShockDouble.dm_womanTasteless(Dm_NutInquisitive.dm_bathePrecious));
-         dm_brushCheck.writeShort(param1);
-         param2.ecriture(dm_brushCheck);
-         dm_systemUnknown = Dm_HarmonyWoman.dm_yamDildo;
+         super(Dm_AdjustmentAnalyze.dm_brushCheck,Dm_PowerfulSecret.dm_yamDildo);
+         dm_bathePrecious.writeInt(param1);
+         dm_bathePrecious.writeByte(param2);
+         dm_bathePrecious.writeShort(param3);
       }
    }
 }

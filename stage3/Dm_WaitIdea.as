@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_WaitIdea extends Dm_LamentableNeighborly
+   public class Dm_WaitIdea extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_WaitIdea(param1:String)
+      public function Dm_WaitIdea(param1:String, param2:String)
       {
-         super(Dm_TastyDebt.dm_saveNew,Dm_ShockDouble.dm_separateSerious(Dm_TastyDebt.dm_saveNew));
+         super(Dm_RobinQuack.dm_metalShut,Dm_FaithfulCrowded.dm_saveNew(Dm_TabooGround.dm_separateSerious));
          dm_carelessThreatening.writeUTF(param1);
-         dm_spoilPerform = Dm_HarmonyWoman.dm_metalShut;
+         dm_carelessThreatening.writeUTF(param2);
       }
    }
 }

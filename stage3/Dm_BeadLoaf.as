@@ -6,23 +6,23 @@ package
    {
        
       
+      public var dm_absurdPaltry:Number;
+      
+      public var dm_anusRedundant:Number;
+      
       public var dm_lyricalPurpose:Number;
       
-      public var dm_advertisementIncrease:Number;
-      
-      public var dm_tediousVulgar:Number;
-      
-      public var dm_absurdPaltry:Number;
+      public var dm_drownConcentrate:Number;
       
       public function Dm_BeadLoaf()
       {
-         this.dm_lyricalPurpose = Dm_CollectFlower.dm_drownConcentrate;
-         this.dm_advertisementIncrease = Dm_ShockDouble.dm_anusRedundant(Dm_CollectFlower.dm_drownConcentrate);
-         this.dm_tediousVulgar = Dm_ShockDouble.dm_anusRedundant(Dm_CollectFlower.dm_drownConcentrate);
-         this.dm_absurdPaltry = Dm_CollectFlower.dm_drownConcentrate;
+         this.dm_absurdPaltry = Dm_FaithfulCrowded.dm_tediousVulgar(Dm_AdjustmentAnalyze.dm_advertisementIncrease);
+         this.dm_anusRedundant = Dm_FaithfulCrowded.dm_tediousVulgar(Dm_AdjustmentAnalyze.dm_advertisementIncrease);
+         this.dm_lyricalPurpose = Dm_FaithfulCrowded.dm_tediousVulgar(Dm_AdjustmentAnalyze.dm_advertisementIncrease);
+         this.dm_drownConcentrate = Dm_AdjustmentAnalyze.dm_advertisementIncrease;
          super();
          graphics.beginFill(15255694);
-         graphics.drawCircle(Dm_ShockDouble.dm_anusRedundant(Dm_CollectFlower.dm_drownConcentrate),Dm_CollectFlower.dm_drownConcentrate,Dm_ShockDouble.dm_anusRedundant(Dm_ThunderSquare.dm_babiesTedious));
+         graphics.drawCircle(Dm_FaithfulCrowded.dm_tediousVulgar(Dm_AdjustmentAnalyze.dm_advertisementIncrease),Dm_FaithfulCrowded.dm_tediousVulgar(Dm_AdjustmentAnalyze.dm_advertisementIncrease),Dm_AdjustmentAnalyze.dm_babiesTedious);
          graphics.endFill();
       }
    }

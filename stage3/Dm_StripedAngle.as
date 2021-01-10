@@ -1,19 +1,19 @@
 package
 {
-   public class Dm_StripedAngle extends Dm_LamentableNeighborly
+   public class Dm_StripedAngle extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_StripedAngle(param1:Boolean)
       {
-         super(Dm_ShockDouble.dm_wealthyJoyous(Dm_AgreeThank.dm_illustriousRabbits),Dm_ShockDouble.dm_wealthyJoyous(Dm_LegStrengthen.dm_romanticObeisant));
+         super(Dm_CrookedTouch.dm_wealthyJoyous,Dm_FaithfulCrowded.dm_romanticObeisant(Dm_EdgeAngle.dm_heatKnife));
          if(param1)
          {
-            dm_heatKnife.writeByte(Dm_ShockDouble.dm_wealthyJoyous(Dm_CravenCrown.dm_grateScrew));
+            dm_illustriousRabbits.writeByte(Dm_FaithfulCrowded.dm_romanticObeisant(Dm_PowerfulSecret.dm_grateScrew));
          }
          else
          {
-            dm_heatKnife.writeByte(Dm_CollectFlower.dm_spookyCool);
+            dm_illustriousRabbits.writeByte(Dm_FaithfulCrowded.dm_romanticObeisant(Dm_AdjustmentAnalyze.dm_spookyCool));
          }
       }
    }

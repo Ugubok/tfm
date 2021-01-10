@@ -4,57 +4,57 @@ package
    {
        
       
-      public var position:Dm_InconclusiveStem;
+      public var dm_armEngine:Number;
       
-      public var dm_romanticLook:Dm_ProudAdventurous;
-      
-      public var dm_lunasoleAmuse:Number;
-      
-      public var dm_armEngine:Boolean;
-      
-      public var dm_washHistorical:Boolean;
+      public var dm_thoughtlessJuggle:Boolean;
       
       public var userData;
       
-      public var dm_attractiveDidactic:Number;
+      public var position:Dm_JumbledSearch;
       
-      public var dm_dislikeFrighten:Number;
+      public var dm_searchGovernment:Dm_ProudAdventurous;
       
-      public var dm_armGrotesque:Boolean;
+      public var dm_squeamishInconclusive:Boolean;
       
-      public var dm_resoluteBasin:Boolean;
+      public var dm_loafPail:Number;
       
-      public var dm_birdsComparison:Boolean;
+      public var dm_dislikeFrighten:Boolean;
+      
+      public var dm_romanticLook:Boolean;
+      
+      public var dm_kurumaNut:Number;
+      
+      public var dm_washHistorical:Boolean;
       
       public function Dm_LampAutomatic(param1:Boolean)
       {
-         this.position = new Dm_InconclusiveStem();
-         this.dm_romanticLook = new Dm_ProudAdventurous();
+         this.position = new Dm_JumbledSearch();
+         this.dm_searchGovernment = new Dm_ProudAdventurous();
          super();
-         this.dm_romanticLook;
-         this.dm_dislikeFrighten;
-         this.dm_armEngine;
-         this.dm_resoluteBasin;
-         this.dm_birdsComparison;
+         this.dm_squeamishInconclusive;
+         this.dm_loafPail;
          this.position;
-         this.dm_lunasoleAmuse;
-         this.dm_washHistorical;
          this.userData;
-         this.dm_attractiveDidactic;
-         this.dm_armGrotesque;
-         this.dm_romanticLook.dm_oppositeAgonizing.dm_thrillInstinctive();
-         this.dm_romanticLook.dm_kurumaNut = Dm_ShockDouble.dm_thoughtlessJuggle(Dm_CravenCrown.dm_storeToe);
-         this.dm_romanticLook.dm_searchGovernment = Dm_ShockDouble.dm_thoughtlessJuggle(Dm_CravenCrown.dm_storeToe);
+         this.dm_armEngine;
+         this.dm_kurumaNut;
+         this.dm_thoughtlessJuggle;
+         this.dm_washHistorical;
+         this.dm_searchGovernment;
+         this.dm_dislikeFrighten;
+         this.dm_romanticLook;
+         this.dm_searchGovernment.dm_resoluteBasin.dm_attractiveDidactic();
+         this.dm_searchGovernment.dm_oppositeAgonizing = Dm_SummerPlants.dm_storeToe;
+         this.dm_searchGovernment.dm_lunasoleAmuse = Dm_SummerPlants.dm_storeToe;
          this.userData = null;
-         this.position.dm_squeamishInconclusive(Dm_CravenCrown.dm_storeToe,Dm_CravenCrown.dm_storeToe);
-         this.dm_attractiveDidactic = Dm_ShockDouble.dm_thoughtlessJuggle(Dm_CravenCrown.dm_storeToe);
-         this.dm_lunasoleAmuse = Dm_CravenCrown.dm_storeToe;
-         this.dm_dislikeFrighten = Dm_CravenCrown.dm_storeToe;
-         this.dm_resoluteBasin = Dm_HarmonyWoman.dm_armyExpansion;
-         this.dm_armGrotesque = Dm_HarmonyWoman.dm_loafPail;
-         this.dm_armEngine = Dm_HarmonyWoman.dm_loafPail;
-         this.dm_birdsComparison = Dm_HarmonyWoman.dm_loafPail;
-         this.dm_washHistorical = param1;
+         this.position.dm_birdsComparison(Dm_FaithfulCrowded.dm_armyExpansion(Dm_SummerPlants.dm_storeToe),Dm_SummerPlants.dm_storeToe);
+         this.dm_kurumaNut = Dm_SummerPlants.dm_storeToe;
+         this.dm_armEngine = Dm_FaithfulCrowded.dm_armyExpansion(Dm_SummerPlants.dm_storeToe);
+         this.dm_loafPail = Dm_SummerPlants.dm_storeToe;
+         this.dm_washHistorical = Dm_NaughtyAdvise.dm_thrillInstinctive;
+         this.dm_thoughtlessJuggle = Dm_NaughtyAdvise.dm_armGrotesque;
+         this.dm_dislikeFrighten = Dm_NaughtyAdvise.dm_armGrotesque;
+         this.dm_squeamishInconclusive = Dm_NaughtyAdvise.dm_armGrotesque;
+         this.dm_romanticLook = param1;
       }
    }
 }

@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_soundDock:Dm_InquisitiveIdea;
+      public var dm_bikePoison:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_sugarNear:int;
+      public var dm_cakeKey:int;
       
-      public var dm_splendidMatch:Dm_MouseLamentable;
+      public var dm_halfTrains:Dm_BitWealthy;
       
       public function Dm_CollectBalance(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_soundDock = param1;
+         this.dm_bikePoison = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_frightenGround() : String
+      public function get dm_troubledTow() : String
       {
-         return Dm_IgnorantAspiring.dm_burnVolcano;
+         return Dm_DeliverAgonizing.dm_jellyGaping;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_jellyGaping;
+         return Dm_ExplainBranch.dm_soundDock;
       }
       
-      public function dm_detailUninterested() : Boolean
+      public function dm_splendidMatch() : Boolean
       {
          return false;
       }
       
-      public function dm_halfTrains() : int
+      public function dm_sugarNear() : int
       {
-         return Dm_ShockDouble.dm_rabbitsFlow(Dm_ZonkedNew.dm_troubledTow);
+         return Dm_FaithfulCrowded.dm_frightenGround(Dm_VerdantWhistle.dm_burlyPaint);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_sugarNear = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_soundDock.recupereSequence(this.idSequence);
+         this.dm_cakeKey = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_bikePoison.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_MouseLamentable)
+            if(_loc2_ is Dm_BitWealthy)
             {
-               this.dm_splendidMatch = Dm_MouseLamentable(_loc2_);
-               this.dm_splendidMatch.dm_bikePoison = this;
+               this.dm_halfTrains = Dm_BitWealthy(_loc2_);
+               this.dm_halfTrains.dm_detailUninterested = this;
             }
          }
       }
       
-      public function get dm_burlyPaint() : int
+      public function get dm_rabbitsFlow() : int
       {
-         return Dm_TeenyBird.dm_cakeKey;
+         return Dm_VulgarPrepare.dm_burnVolcano;
       }
    }
 }

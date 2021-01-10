@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var dm_crowdedBirds:String;
+      public var dm_inquisitiveCapricious:String;
       
-      public var dm_hydrantLight:Dm_ForkProse;
+      public var dm_energeticCondition:Dm_SenseGlamorous;
       
       public function Dm_DescribeSupply(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.dm_crowdedBirds = param2;
+         this.dm_inquisitiveCapricious = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get dm_inquisitiveCapricious() : String
+      public function get dm_hydrantLight() : String
       {
-         return Dm_ShockDouble.dm_energeticCondition(Dm_IgnorantAspiring.dm_wealthyDidactic);
+         return Dm_FaithfulCrowded.dm_illustriousProud(Dm_DeliverAgonizing.dm_suzukaInnate);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_suzukaInnate;
+         return Dm_ExplainBranch.dm_baseballTroubled;
       }
       
-      public function dm_illustriousProud() : Boolean
+      public function dm_wealthyDidactic() : Boolean
       {
          return false;
       }
       
-      override public function dm_baseballTroubled() : int
+      override public function dm_squealInexpensive() : int
       {
-         return Dm_ShockDouble.dm_oppositeSick(Dm_TastyDebt.dm_squealInexpensive) + this.dm_crowdedBirds.length;
+         return Dm_FaithfulCrowded.dm_crowdedBirds(Dm_BranchAfterthought.dm_oppositeSick) + this.dm_inquisitiveCapricious.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.dm_crowdedBirds);
+         param1.writeUTF(this.dm_inquisitiveCapricious);
       }
    }
 }

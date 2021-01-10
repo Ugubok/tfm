@@ -6,44 +6,44 @@ package
    {
        
       
-      public var dm_noiselessDraconian:Dm_InquisitiveIdea;
+      public var dm_borrowPlan:Dm_InquisitiveIdea;
       
-      public var dm_scratchScared:Dm_SignBoring;
+      public var dm_burlyStory:Dm_SignBoring;
       
       public function Dm_CuteInjure(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_noiselessDraconian = param1;
+         this.dm_borrowPlan = param1;
       }
       
-      public function get dm_privateKnot() : String
+      public function get dm_teachingColor() : String
       {
-         return Dm_ShockDouble.dm_burlyStory(Dm_IgnorantAspiring.dm_identifyLabel);
+         return Dm_FaithfulCrowded.dm_edgeWant(Dm_DeliverAgonizing.dm_privateKnot);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_accurateCrib;
+         return Dm_ExplainBranch.dm_identifyLabel;
       }
       
-      public function dm_probablePrivate() : Boolean
+      public function dm_scratchScared() : Boolean
       {
          return false;
       }
       
-      public function dm_edgeWant() : int
+      public function dm_noiselessDraconian() : int
       {
-         return this.dm_scratchScared.dm_borrowPlan();
+         return this.dm_burlyStory.dm_accurateCrib();
       }
       
       public function lecture(param1:ByteArray) : void
       {
-         this.dm_scratchScared = Dm_SignBoring.dm_teachingColor(param1);
+         this.dm_burlyStory = Dm_SignBoring.dm_probablePrivate(param1);
       }
       
-      public function get dm_grotesquePlan() : int
+      public function get dm_zipSea() : int
       {
-         return Dm_ShockDouble.dm_zipSea(Dm_TastyDebt.dm_illustriousConcentrate);
+         return Dm_DeliverAgonizing.dm_grotesquePlan;
       }
    }
 }

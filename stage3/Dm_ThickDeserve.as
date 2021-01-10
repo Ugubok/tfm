@@ -1,8 +1,8 @@
 package
 {
-   import mx.core.FontAsset;
+   import mx.core.ByteArrayAsset;
    
-   public class Dm_ThickDeserve extends FontAsset
+   public class Dm_ThickDeserve extends ByteArrayAsset
    {
        
       

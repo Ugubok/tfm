@@ -6,45 +6,45 @@ package
    {
        
       
-      public var dm_whipBabies:Dm_InquisitiveIdea;
+      public var dm_thankLamentable:Dm_InquisitiveIdea;
       
-      public var dm_carelessColor:String;
+      public var dm_lamentableProbable:String;
       
       public function Dm_ThickImpolite(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_whipBabies = param1;
+         this.dm_thankLamentable = param1;
       }
       
-      public function get dm_tiresomeBorrow() : String
+      public function get dm_describeProgram() : String
       {
-         return Dm_ShockDouble.dm_hobbiesSkin(Dm_IgnorantAspiring.dm_spoilCelery);
+         return Dm_FaithfulCrowded.dm_sofaBright(Dm_DeliverAgonizing.dm_whisperThought);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_thirdStormy;
+         return Dm_ExplainBranch.dm_whipBabies;
       }
       
-      public function dm_lamentableProbable() : Boolean
+      public function dm_hobbiesSkin() : Boolean
       {
          return false;
       }
       
-      public function dm_sofaBright() : int
+      public function dm_carefulEvasive() : int
       {
-         return Dm_ShockDouble.dm_describeProgram(Dm_LegStrengthen.dm_whisperThought) + this.dm_carelessColor.length;
+         return Dm_EdgeAngle.dm_thirdStormy + this.dm_lamentableProbable.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.dm_carelessColor = param1.readUTFBytes(_loc2_);
+         this.dm_lamentableProbable = param1.readUTFBytes(_loc2_);
       }
       
-      public function get dm_thankLamentable() : int
+      public function get dm_spoilCelery() : int
       {
-         return Dm_AgreeThank.dm_carefulEvasive;
+         return Dm_FaithfulCrowded.dm_carelessColor(Dm_VerdantWhistle.dm_tiresomeBorrow);
       }
    }
 }

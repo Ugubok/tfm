@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_WipeLunasole extends Dm_LamentableNeighborly
+   public class Dm_WipeLunasole extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_WipeLunasole(param1:String)
+      public function Dm_WipeLunasole(param1:int)
       {
-         super(Dm_SqueezeDazzling.dm_phoneMove,Dm_AgreeThank.dm_kindheartedBag);
-         dm_manySpiky.writeUTF(param1);
+         super(Dm_SummerPlants.dm_balvankaSmooth,Dm_FaithfulCrowded.dm_manySpiky(Dm_BranchAfterthought.dm_kindheartedBag));
+         dm_phoneMove.writeByte(param1);
       }
    }
 }

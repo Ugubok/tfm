@@ -8,7 +8,7 @@ package
       
       public var dm_tartSlim:Dm_InquisitiveIdea;
       
-      public var dm_squeezeSmile:String;
+      public var dm_expansionHanging:String;
       
       public function Dm_SeriousLocket(param1:Dm_InquisitiveIdea)
       {
@@ -16,35 +16,35 @@ package
          this.dm_tartSlim = param1;
       }
       
-      public function get dm_whistleTour() : String
+      public function get dm_analyzeHate() : String
       {
-         return Dm_ShockDouble.dm_expansionHanging(Dm_IgnorantAspiring.dm_kaputDivision);
+         return Dm_FaithfulCrowded.dm_whistleTour(Dm_DeliverAgonizing.dm_neatWasteful);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_zooSecret;
+         return Dm_ExplainBranch.dm_locketPerson;
       }
       
-      public function dm_locketPerson() : Boolean
+      public function dm_adjoiningObtainable() : Boolean
       {
          return false;
       }
       
       public function dm_afterthoughtChilly() : int
       {
-         return Dm_LegStrengthen.dm_neatWasteful + this.dm_squeezeSmile.length;
+         return Dm_FaithfulCrowded.dm_squeezeSmile(Dm_EdgeAngle.dm_zooSecret) + this.dm_expansionHanging.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.dm_squeezeSmile = param1.readUTFBytes(_loc2_);
+         this.dm_expansionHanging = param1.readUTFBytes(_loc2_);
       }
       
       public function get dm_tartPowerful() : int
       {
-         return Dm_ThunderSquare.dm_analyzeHate;
+         return Dm_StomachBlush.dm_kaputDivision;
       }
    }
 }

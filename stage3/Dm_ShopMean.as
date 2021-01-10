@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_ShopMean extends Dm_LamentableNeighborly
+   public class Dm_ShopMean extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_ShopMean(param1:int, param2:int, param3:int = 0)
+      public function Dm_ShopMean(param1:int, param2:int)
       {
-         super(Dm_ShockDouble.dm_saltWicked(Dm_ZonkedNew.dm_pricklyRepulsive),Dm_IgnorantAspiring.dm_unitReject);
-         dm_lightEdge.writeShort(param1);
-         dm_lightEdge.writeShort(param2);
+         super(Dm_AdjustmentAnalyze.dm_unitReject,Dm_FaithfulCrowded.dm_lightEdge(Dm_AdjustmentAnalyze.dm_unitReject));
+         dm_pricklyRepulsive.writeInt(param1);
+         dm_pricklyRepulsive.writeByte(param2);
       }
    }
 }

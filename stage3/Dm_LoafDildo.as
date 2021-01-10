@@ -1,12 +1,12 @@
 package
 {
-   public class Dm_LoafDildo extends Dm_LamentableNeighborly
+   public class Dm_LoafDildo extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_LoafDildo()
       {
-         super(Dm_ZonkedNew.dm_crowdedWise,Dm_SqueezeDazzling.dm_pictureWealthy);
+         super(Dm_PigCart.dm_crowdedWise,Dm_CrookedTouch.dm_pictureWealthy);
       }
    }
 }

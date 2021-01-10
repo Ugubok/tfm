@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_FlashCrime extends Dm_LamentableNeighborly
+   public class Dm_FlashCrime extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_FlashCrime(param1:int)
+      public function Dm_FlashCrime(param1:String)
       {
-         super(Dm_ColorReject.dm_hesitantCurved,Dm_ShockDouble.dm_lightTouch(Dm_NutInquisitive.dm_letterHesitant));
-         dm_keyJagged.writeShort(param1);
+         super(Dm_CrookedTouch.dm_lightTouch,Dm_FaithfulCrowded.dm_hesitantCurved(Dm_AgreeableMountain.dm_letterHesitant));
+         dm_keyJagged(param1);
       }
    }
 }

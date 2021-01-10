@@ -14,211 +14,211 @@ package
       
       public static const NORMAL:int =  0;
       
-      public static const dm_undressBehavior:int =  1;
+      public static const dm_wickedIllustrious:int =  1;
       
-      public static const dm_modernBag:int =  2;
+      public static const dm_incompetentDeadpan:int =  2;
       
-      public static var dm_penitentWipe:Dictionary = new Dictionary();
+      public static var dm_uninterestedTightfisted:Dictionary = new Dictionary();
       
-      public static const dm_sistersBalvanka:Array = new Array(new BevelFilter( 1, 45,7974086, 1, 0, 1, 1, 1));
+      public static const dm_shelfNarrow:Array = new Array(new BevelFilter( 1, 45,7974086, 1, 0, 1, 1, 1));
       
-      public static const dm_womanWander:Array = new Array(new BevelFilter( 1, 45, 0, 1,7974086, 1, 1, 1));
+      public static const dm_waitRealize:Array = new Array(new BevelFilter( 1, 45, 0, 1,7974086, 1, 1, 1));
        
       
-      public var dm_heatSign:int;
+      public var dm_spotBird:int;
       
-      public var dm_containBruise:String;
+      public var dm_undressBehavior:String;
       
-      public var dm_farmPaint:int;
+      public var dm_modernBag:int;
       
-      public var dm_buryHarbor:int;
+      public var dm_cureSquare:int;
+      
+      public var dm_matchAwake:Sprite;
       
       public var dm_whiteDock:Sprite;
       
-      public var dm_ajarDrown:Sprite;
+      public var dm_smoothScissors:TextField;
       
-      public var dm_beliefTransport:TextField;
+      public var dm_trembleInterrupt:TextField;
       
-      public var dm_spookyGate:TextField;
+      public var dm_wetBear:Dm_CheckChickens;
       
-      public var dm_pictureHorn:Dm_CheckChickens;
+      public var dm_baseballStory:Dm_CheckChickens;
       
-      public var dm_additionLocket:Dm_CheckChickens;
+      public var dm_suitComparison:Dm_CheckChickens;
       
-      public var dm_optimalSnakes:Dm_CheckChickens;
+      public var dm_pleaseFlow:Dm_CheckChickens;
       
-      public var dm_uninterestedTightfisted:Dm_CheckChickens;
+      public var dm_flowDear:Boolean;
       
-      public var dm_lookFamous:Boolean;
+      public var dm_faithfulRambunctious:int;
       
-      public var dm_wetBear:int;
-      
-      public var dm_detailReminiscent:int;
+      public var dm_sistersBalvanka:int;
       
       public function Dm_RightfulDecay(param1:int, param2:int, param3:String, param4:int, param5:int, param6:int, param7:Boolean)
       {
          super();
-         var _loc8_:Dm_RightfulDecay = Dm_RightfulDecay.dm_penitentWipe[param1] as Dm_RightfulDecay;
+         var _loc8_:Dm_RightfulDecay = Dm_RightfulDecay.dm_uninterestedTightfisted[param1] as Dm_RightfulDecay;
          if(_loc8_ && _loc8_.parent)
          {
             _loc8_.parent.removeChild(_loc8_);
          }
-         Dm_RightfulDecay.dm_penitentWipe[param1] = this;
-         this.dm_heatSign = param1;
-         this.dm_farmPaint = param2;
-         this.dm_buryHarbor = param6;
-         this.dm_lookFamous = param7;
-         this.dm_wetBear = param4;
-         this.dm_detailReminiscent = param5;
-         x = this.dm_wetBear;
-         y = this.dm_detailReminiscent;
-         this.dm_beliefTransport = new TextField();
-         this.dm_beliefTransport.embedFonts = Dm_HarmonyWoman.dm_temperComplex;
-         this.dm_beliefTransport.mouseEnabled = Dm_HarmonyWoman.dm_temperComplex;
-         this.dm_beliefTransport.defaultTextFormat = new TextFormat(Dm_NearSubdued.dm_detailBashful,Dm_AgreeThank.dm_hateBathe,12763866);
-         this.dm_beliefTransport.width = param6;
-         this.dm_beliefTransport.multiline = Dm_HarmonyWoman.dm_suitComparison;
-         this.dm_beliefTransport.wordWrap = Dm_HarmonyWoman.dm_suitComparison;
-         this.dm_beliefTransport.autoSize = TextFieldAutoSize.LEFT;
-         if(this.dm_farmPaint == Dm_RightfulDecay.dm_modernBag)
+         Dm_RightfulDecay.dm_uninterestedTightfisted[param1] = this;
+         this.dm_spotBird = param1;
+         this.dm_modernBag = param2;
+         this.dm_cureSquare = param6;
+         this.dm_flowDear = param7;
+         this.dm_faithfulRambunctious = param4;
+         this.dm_sistersBalvanka = param5;
+         x = this.dm_faithfulRambunctious;
+         y = this.dm_sistersBalvanka;
+         this.dm_smoothScissors = new TextField();
+         this.dm_smoothScissors.embedFonts = Dm_NaughtyAdvise.dm_aliveSquare;
+         this.dm_smoothScissors.mouseEnabled = Dm_NaughtyAdvise.dm_aliveSquare;
+         this.dm_smoothScissors.defaultTextFormat = new TextFormat(Dm_ReminiscentMighty.dm_detailReminiscent,Dm_DeliverAgonizing.dm_vagabondBright,12763866);
+         this.dm_smoothScissors.width = param6;
+         this.dm_smoothScissors.multiline = Dm_NaughtyAdvise.dm_teachingCultured;
+         this.dm_smoothScissors.wordWrap = Dm_NaughtyAdvise.dm_teachingCultured;
+         this.dm_smoothScissors.autoSize = TextFieldAutoSize.LEFT;
+         if(this.dm_modernBag == Dm_RightfulDecay.dm_incompetentDeadpan)
          {
-            this.dm_spookyGate = new TextField();
-            this.dm_spookyGate.defaultTextFormat = new TextFormat(Dm_NearSubdued.dm_detailBashful,Dm_ShockDouble.dm_personNaughty(Dm_AgreeThank.dm_hateBathe),52428);
-            this.dm_spookyGate.multiline = Dm_HarmonyWoman.dm_temperComplex;
-            this.dm_spookyGate.wordWrap = Dm_HarmonyWoman.dm_temperComplex;
-            this.dm_spookyGate.maxChars = Dm_HumorExotic.dm_jarCalculate;
-            this.dm_spookyGate.type = TextFieldType.INPUT;
-            this.dm_spookyGate.width = this.dm_buryHarbor - Dm_ThunderSquare.dm_baseballStory;
-            this.dm_spookyGate.height = Dm_ShockDouble.dm_personNaughty(Dm_ThunderSquare.dm_baseballStory);
-            this.dm_spookyGate.x = Dm_BirdAdvice.dm_kindheartedBlot;
-            this.dm_spookyGate.addEventListener(KeyboardEvent.KEY_UP,this.dm_matchAwake);
-            this.dm_ajarDrown = new Sprite();
-            this.dm_ajarDrown.filters = Dm_RightfulDecay.dm_womanWander;
+            this.dm_trembleInterrupt = new TextField();
+            this.dm_trembleInterrupt.defaultTextFormat = new TextFormat(Dm_ReminiscentMighty.dm_detailReminiscent,Dm_FaithfulCrowded.dm_inventDeliver(Dm_DeliverAgonizing.dm_vagabondBright),52428);
+            this.dm_trembleInterrupt.multiline = Dm_NaughtyAdvise.dm_aliveSquare;
+            this.dm_trembleInterrupt.wordWrap = Dm_NaughtyAdvise.dm_aliveSquare;
+            this.dm_trembleInterrupt.maxChars = Dm_FaithfulCrowded.dm_inventDeliver(Dm_PaintAblaze.dm_additionLocket);
+            this.dm_trembleInterrupt.type = TextFieldType.INPUT;
+            this.dm_trembleInterrupt.width = this.dm_cureSquare - Dm_FaithfulCrowded.dm_inventDeliver(Dm_AdjustmentAnalyze.dm_franticEntertaining);
+            this.dm_trembleInterrupt.height = Dm_FaithfulCrowded.dm_inventDeliver(Dm_AdjustmentAnalyze.dm_franticEntertaining);
+            this.dm_trembleInterrupt.x = Dm_FrailAuthority.dm_priceClever;
+            this.dm_trembleInterrupt.addEventListener(KeyboardEvent.KEY_UP,this.dm_glamorousNear);
+            this.dm_whiteDock = new Sprite();
+            this.dm_whiteDock.filters = Dm_RightfulDecay.dm_waitRealize;
          }
-         this.dm_whiteDock = new Sprite();
-         this.dm_whiteDock.filters = Dm_RightfulDecay.dm_sistersBalvanka;
-         addChild(this.dm_whiteDock);
-         addChild(this.dm_beliefTransport);
-         if(this.dm_spookyGate)
+         this.dm_matchAwake = new Sprite();
+         this.dm_matchAwake.filters = Dm_RightfulDecay.dm_shelfNarrow;
+         addChild(this.dm_matchAwake);
+         addChild(this.dm_smoothScissors);
+         if(this.dm_trembleInterrupt)
          {
-            addChild(this.dm_ajarDrown);
-            addChild(this.dm_spookyGate);
+            addChild(this.dm_whiteDock);
+            addChild(this.dm_trembleInterrupt);
          }
-         this.dm_faithfulRambunctious(param3);
+         this.dm_passStem(param3);
+      }
+      
+      public function dm_heatSign() : void
+      {
+         if(parent)
+         {
+            parent.removeChild(this);
+         }
+         Dm_StupidFrighten.dm_pictureWicked.dm_lockAnalyze(new Dm_DoctorInexpensive(this.dm_spotBird,Dm_FaithfulCrowded.dm_ajarDrown(Dm_ComplexNear.dm_neighborlyWealthy)));
+         Dm_GruesomeProud.dm_personNaughty.stage.focus = Dm_GruesomeProud.dm_personNaughty;
+      }
+      
+      public function dm_sleepSlim() : void
+      {
+         if(parent)
+         {
+            parent.removeChild(this);
+         }
+         Dm_GruesomeProud.dm_personNaughty.stage.focus = Dm_GruesomeProud.dm_personNaughty;
       }
       
       public function dm_trapDaily() : void
       {
-         if(parent)
+         if(!Dm_ColorThank.dm_hateBathe && Dm_NationCrash.dm_rambunctiousWhisper(this.dm_trembleInterrupt.text))
          {
-            parent.removeChild(this);
-         }
-         Dm_StupidFrighten.dm_pleaseFlow.dm_cureSquare(new Dm_DoctorInexpensive(this.dm_heatSign,Dm_ShockDouble.dm_squealLabel(Dm_BeadBirds.dm_franticEntertaining)));
-         Dm_TabooPlease.dm_warlikeSock.stage.focus = Dm_TabooPlease.dm_warlikeSock;
-      }
-      
-      public function dm_lockAnalyze() : void
-      {
-         if(parent)
-         {
-            parent.removeChild(this);
-         }
-         Dm_TabooPlease.dm_warlikeSock.stage.focus = Dm_TabooPlease.dm_warlikeSock;
-      }
-      
-      public function dm_matchAwake(param1:KeyboardEvent) : void
-      {
-         if(Dm_CollectFlower.dm_priceClever == param1.keyCode)
-         {
-            this.dm_wickedIllustrious();
-         }
-      }
-      
-      public function dm_pictureWicked() : void
-      {
-         if(parent)
-         {
-            parent.removeChild(this);
-         }
-         Dm_StupidFrighten.dm_pleaseFlow.dm_cureSquare(new Dm_DoctorInexpensive(this.dm_heatSign,Dm_IgnorantAspiring.dm_glamorousNear));
-         Dm_TabooPlease.dm_warlikeSock.stage.focus = Dm_TabooPlease.dm_warlikeSock;
-      }
-      
-      public function dm_wickedIllustrious() : void
-      {
-         if(!Dm_StoryDoor.dm_spotBird && Dm_CrashRare.dm_automaticBright(this.dm_spookyGate.text))
-         {
-            this.dm_spookyGate.text = Dm_ScissorsUnarmed.dm_chickenHistory;
-            Dm_OnerousBirds.dm_warlikeSock.dm_priceAnus(Dm_ShockDouble.dm_squealLabel(Dm_CravenCrown.dm_vagabondBright) + Dm_NearSubdued.dm_inventDeliver(Dm_BeadBirds.dm_alertConfused) + Dm_ShockDouble.dm_squealLabel(Dm_BirdAdvice.dm_sleepSlim),null,true);
+            this.dm_trembleInterrupt.text = Dm_FaithfulCrowded.dm_ajarDrown(Dm_CloverMitten.dm_interruptLight);
+            Dm_OnerousBirds.dm_personNaughty.dm_performQuirky(Dm_FaithfulCrowded.dm_ajarDrown(Dm_PaintAblaze.dm_warlikeSock) + Dm_ReminiscentMighty.dm_beliefTransport(Dm_BreatheSecret.dm_containBruise) + Dm_FaithfulCrowded.dm_ajarDrown(Dm_VerdantWhistle.dm_pleaseWail),null,true);
             return;
          }
          if(parent)
          {
             parent.removeChild(this);
          }
-         Dm_StupidFrighten.dm_pleaseFlow.dm_cureSquare(new Dm_DoctorInexpensive(this.dm_heatSign,this.dm_spookyGate.text));
-         Dm_TabooPlease.dm_warlikeSock.stage.focus = Dm_TabooPlease.dm_warlikeSock;
+         Dm_StupidFrighten.dm_pictureWicked.dm_lockAnalyze(new Dm_DoctorInexpensive(this.dm_spotBird,this.dm_trembleInterrupt.text));
+         Dm_GruesomeProud.dm_personNaughty.stage.focus = Dm_GruesomeProud.dm_personNaughty;
       }
       
-      public function dm_faithfulRambunctious(param1:String) : void
+      public function dm_glamorousNear(param1:KeyboardEvent) : void
       {
-         if(this.dm_lookFamous)
+         if(Dm_BreatheSecret.dm_priceAnus == param1.keyCode)
          {
-            Dm_CountPicture.dm_angleHarbor.addChild(this);
+            this.dm_trapDaily();
+         }
+      }
+      
+      public function dm_squealLabel() : void
+      {
+         if(parent)
+         {
+            parent.removeChild(this);
+         }
+         Dm_StupidFrighten.dm_pictureWicked.dm_lockAnalyze(new Dm_DoctorInexpensive(this.dm_spotBird,Dm_VerdantRay.dm_buryHarbor));
+         Dm_GruesomeProud.dm_personNaughty.stage.focus = Dm_GruesomeProud.dm_personNaughty;
+      }
+      
+      public function dm_passStem(param1:String) : void
+      {
+         if(this.dm_flowDear)
+         {
+            Dm_KaputWealthy.dm_greedyAspiring.addChild(this);
          }
          else
          {
-            Dm_CountPicture.dm_smoothScissors.addChild(this);
+            Dm_KaputWealthy.dm_angleHarbor.addChild(this);
          }
-         param1 = param1.split(Dm_ShockDouble.dm_squealLabel(Dm_TastyDebt.dm_performQuirky)).join(Dm_HumorExotic.dm_shelfNarrow);
-         this.dm_containBruise = param1;
-         this.dm_beliefTransport.htmlText = param1;
-         var _loc2_:int = this.dm_beliefTransport.height + Dm_ThunderSquare.dm_neighborlyWealthy;
-         if(Dm_RightfulDecay.dm_modernBag == this.dm_farmPaint)
+         param1 = param1.split(Dm_FaithfulCrowded.dm_ajarDrown(Dm_ComplexNear.dm_detailBashful)).join(Dm_FaithfulCrowded.dm_ajarDrown(Dm_CloverMitten.dm_lookFamous));
+         this.dm_undressBehavior = param1;
+         this.dm_smoothScissors.htmlText = param1;
+         var _loc2_:int = Dm_VerdantWhistle.dm_pictureHorn + this.dm_smoothScissors.height;
+         if(this.dm_modernBag == Dm_RightfulDecay.dm_incompetentDeadpan)
          {
-            _loc2_ = _loc2_ + Dm_ThunderSquare.dm_baseballStory;
+            _loc2_ = _loc2_ + Dm_AdjustmentAnalyze.dm_franticEntertaining;
          }
-         this.dm_whiteDock.graphics.clear();
-         this.dm_whiteDock.graphics.beginFill(3294800);
-         this.dm_whiteDock.graphics.drawRoundRect(-Dm_ShockDouble.dm_personNaughty(Dm_ScissorsUnarmed.dm_flowDear),-Dm_ShockDouble.dm_personNaughty(Dm_ScissorsUnarmed.dm_flowDear),this.dm_beliefTransport.width + Dm_CravenCrown.dm_aliveSquare,_loc2_,Dm_BirdAdvice.dm_kindheartedBlot);
-         this.dm_whiteDock.graphics.endFill();
-         if(this.dm_farmPaint == Dm_RightfulDecay.dm_undressBehavior)
+         this.dm_matchAwake.graphics.clear();
+         this.dm_matchAwake.graphics.beginFill(3294800);
+         this.dm_matchAwake.graphics.drawRoundRect(-Dm_FaithfulCrowded.dm_inventDeliver(Dm_VulgarPrepare.dm_kindheartedBlot),-Dm_VulgarPrepare.dm_kindheartedBlot,this.dm_smoothScissors.width + Dm_SummerPlants.dm_womanWander,_loc2_,Dm_FrailAuthority.dm_priceClever);
+         this.dm_matchAwake.graphics.endFill();
+         if(this.dm_modernBag == Dm_RightfulDecay.dm_wickedIllustrious)
          {
-            if(this.dm_optimalSnakes && this.dm_optimalSnakes.parent)
+            if(this.dm_suitComparison && this.dm_suitComparison.parent)
             {
-               this.dm_optimalSnakes.parent.removeChild(this.dm_optimalSnakes);
+               this.dm_suitComparison.parent.removeChild(this.dm_suitComparison);
             }
-            if(this.dm_uninterestedTightfisted && this.dm_uninterestedTightfisted.parent)
+            if(this.dm_pleaseFlow && this.dm_pleaseFlow.parent)
             {
-               this.dm_uninterestedTightfisted.parent.removeChild(this.dm_uninterestedTightfisted);
+               this.dm_pleaseFlow.parent.removeChild(this.dm_pleaseFlow);
             }
-            this.dm_optimalSnakes = new Dm_CheckChickens(Dm_TendencyPrice.dm_greedyAspiring * this.dm_beliefTransport.width - Dm_TendencyPrice.dm_interruptLight,height - Dm_TeenyBird.dm_bakeLaughable,Dm_NearSubdued.dm_inventDeliver(Dm_SqueezeDazzling.dm_pleaseWail),this.dm_trapDaily,null,Dm_NutInquisitive.dm_checkPoised,false);
-            addChild(this.dm_optimalSnakes);
-            this.dm_uninterestedTightfisted = new Dm_CheckChickens(Dm_ShockDouble.dm_waitRealize(Dm_LookResolute.dm_passStem) * this.dm_beliefTransport.width - Dm_TendencyPrice.dm_interruptLight,height - Dm_ShockDouble.dm_personNaughty(Dm_TeenyBird.dm_bakeLaughable),Dm_NearSubdued.dm_inventDeliver(Dm_ShockDouble.dm_squealLabel(Dm_SqueezeDazzling.dm_trembleInterrupt)),this.dm_pictureWicked,null,Dm_NutInquisitive.dm_checkPoised,false);
-            addChild(this.dm_uninterestedTightfisted);
+            this.dm_suitComparison = new Dm_CheckChickens(Dm_FaithfulCrowded.dm_farmPaint(Dm_VerdantWhistle.dm_bakeLaughable) * this.dm_smoothScissors.width - Dm_RobinQuack.dm_jarCalculate,height - Dm_FaithfulCrowded.dm_inventDeliver(Dm_BranchAfterthought.dm_spookyGate),Dm_ReminiscentMighty.dm_beliefTransport(Dm_PowerfulSecret.dm_temperComplex),this.dm_squealLabel,null,Dm_FaithfulCrowded.dm_inventDeliver(Dm_BranchAfterthought.dm_optimalSnakes),false);
+            addChild(this.dm_suitComparison);
+            this.dm_pleaseFlow = new Dm_CheckChickens(Dm_DeliverAgonizing.dm_wateryUncle * this.dm_smoothScissors.width - Dm_FaithfulCrowded.dm_inventDeliver(Dm_RobinQuack.dm_jarCalculate),height - Dm_FaithfulCrowded.dm_inventDeliver(Dm_BranchAfterthought.dm_spookyGate),Dm_ReminiscentMighty.dm_beliefTransport(Dm_PigCart.dm_alertConfused),this.dm_heatSign,null,Dm_FaithfulCrowded.dm_inventDeliver(Dm_BranchAfterthought.dm_optimalSnakes),false);
+            addChild(this.dm_pleaseFlow);
          }
-         else if(Dm_RightfulDecay.dm_modernBag == this.dm_farmPaint)
+         else if(this.dm_modernBag == Dm_RightfulDecay.dm_incompetentDeadpan)
          {
-            this.dm_spookyGate.y = this.dm_beliefTransport.y + this.dm_beliefTransport.height + Dm_BirdAdvice.dm_kindheartedBlot;
-            this.dm_ajarDrown.graphics.clear();
-            this.dm_ajarDrown.graphics.beginFill(2174517);
-            this.dm_ajarDrown.graphics.drawRoundRect(this.dm_spookyGate.x,this.dm_spookyGate.y - Dm_CravenCrown.dm_wateryUncle,this.dm_spookyGate.width,this.dm_spookyGate.height,Dm_ShockDouble.dm_personNaughty(Dm_TastyDebt.dm_incompetentDeadpan));
-            this.dm_ajarDrown.graphics.endFill();
-            if(this.dm_additionLocket && this.dm_additionLocket.parent)
+            this.dm_trembleInterrupt.y = this.dm_smoothScissors.y + this.dm_smoothScissors.height + Dm_FrailAuthority.dm_priceClever;
+            this.dm_whiteDock.graphics.clear();
+            this.dm_whiteDock.graphics.beginFill(2174517);
+            this.dm_whiteDock.graphics.drawRoundRect(this.dm_trembleInterrupt.x,this.dm_trembleInterrupt.y - Dm_PowerfulSecret.dm_automaticBright,this.dm_trembleInterrupt.width,this.dm_trembleInterrupt.height,Dm_FaithfulCrowded.dm_inventDeliver(Dm_BranchAfterthought.dm_chickenHistory));
+            this.dm_whiteDock.graphics.endFill();
+            if(this.dm_baseballStory && this.dm_baseballStory.parent)
             {
-               this.dm_additionLocket.parent.removeChild(this.dm_additionLocket);
+               this.dm_baseballStory.parent.removeChild(this.dm_baseballStory);
             }
-            this.dm_additionLocket = new Dm_CheckChickens(Dm_BirdAdvice.dm_kindheartedBlot,height - Dm_TeenyBird.dm_bakeLaughable,Dm_NearSubdued.dm_inventDeliver(Dm_ShockDouble.dm_squealLabel(Dm_SignZip.dm_teachingCultured)),this.dm_wickedIllustrious,null,this.dm_beliefTransport.width - Dm_ShockDouble.dm_personNaughty(Dm_NutInquisitive.dm_checkPoised),false);
-            addChild(this.dm_additionLocket);
+            this.dm_baseballStory = new Dm_CheckChickens(Dm_FrailAuthority.dm_priceClever,height - Dm_FaithfulCrowded.dm_inventDeliver(Dm_BranchAfterthought.dm_spookyGate),Dm_ReminiscentMighty.dm_beliefTransport(Dm_PigCart.dm_checkPoised),this.dm_trapDaily,null,this.dm_smoothScissors.width - Dm_FaithfulCrowded.dm_inventDeliver(Dm_BranchAfterthought.dm_optimalSnakes),false);
+            addChild(this.dm_baseballStory);
          }
          else
          {
-            if(this.dm_pictureHorn && this.dm_pictureHorn.parent)
+            if(this.dm_wetBear && this.dm_wetBear.parent)
             {
-               this.dm_pictureHorn.parent.removeChild(this.dm_pictureHorn);
+               this.dm_wetBear.parent.removeChild(this.dm_wetBear);
             }
-            this.dm_pictureHorn = new Dm_CheckChickens(Dm_ShockDouble.dm_personNaughty(Dm_BirdAdvice.dm_kindheartedBlot),height - Dm_TeenyBird.dm_bakeLaughable,Dm_NearSubdued.dm_inventDeliver(Dm_ShockDouble.dm_squealLabel(Dm_TastyDebt.dm_rambunctiousWhisper)),this.dm_lockAnalyze,null,this.dm_beliefTransport.width - Dm_ShockDouble.dm_personNaughty(Dm_NutInquisitive.dm_checkPoised),false);
-            addChild(this.dm_pictureHorn);
+            this.dm_wetBear = new Dm_CheckChickens(Dm_FaithfulCrowded.dm_inventDeliver(Dm_FrailAuthority.dm_priceClever),height - Dm_FaithfulCrowded.dm_inventDeliver(Dm_BranchAfterthought.dm_spookyGate),Dm_ReminiscentMighty.dm_beliefTransport(Dm_PigCart.dm_penitentWipe),this.dm_sleepSlim,null,this.dm_smoothScissors.width - Dm_FaithfulCrowded.dm_inventDeliver(Dm_BranchAfterthought.dm_optimalSnakes),false);
+            addChild(this.dm_wetBear);
          }
       }
    }

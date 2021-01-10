@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_RealYummy extends Dm_LamentableNeighborly
+   public class Dm_RealYummy extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_RealYummy(param1:int)
+      public function Dm_RealYummy(param1:String)
       {
-         super(Dm_ZonkedNew.dm_packColorful,Dm_ShockDouble.dm_listButter(Dm_ZonkedNew.dm_chillyVerdant));
-         dm_generalGeneral.writeInt(param1);
+         super(Dm_FaithfulCrowded.dm_generalGeneral(Dm_TabooGround.dm_chillyVerdant),Dm_FaithfulCrowded.dm_generalGeneral(Dm_PigCart.dm_packColorful));
+         dm_listButter.writeUTF(param1);
       }
    }
 }

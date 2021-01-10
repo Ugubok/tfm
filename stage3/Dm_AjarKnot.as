@@ -8,7 +8,7 @@ package
       
       public var idSequence:int;
       
-      public var dm_painstakingHalf:Dm_ToysCommon;
+      public var dm_neighborlyBike:Dm_RobinJumbled;
       
       public function Dm_AjarKnot(param1:int)
       {
@@ -21,24 +21,24 @@ package
          return this.idSequence;
       }
       
-      public function get dm_neighborlyBike() : String
+      public function get dm_jokeTasty() : String
       {
-         return Dm_IgnorantAspiring.dm_jokeTasty;
+         return Dm_DeliverAgonizing.dm_forkInstinctive;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_didacticReaction;
+         return Dm_ExplainBranch.dm_railwayZippy;
       }
       
-      public function dm_forkInstinctive() : Boolean
+      public function dm_satisfySuper() : Boolean
       {
          return false;
       }
       
-      override public function dm_railwayZippy() : int
+      override public function dm_aspiringApathetic() : int
       {
-         return Dm_ScissorsUnarmed.dm_aspiringApathetic;
+         return Dm_FaithfulCrowded.dm_painstakingHalf(Dm_VulgarPrepare.dm_didacticReaction);
       }
       
       override public function ecriture(param1:ByteArray) : void

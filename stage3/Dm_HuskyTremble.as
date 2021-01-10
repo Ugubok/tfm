@@ -8,21 +8,21 @@ package
       
       public var idSequence:int;
       
-      public var dm_spoonUnequal:int;
+      public var dm_uninterestedSpoon:int;
       
-      public var dm_birdAcoustic:int;
+      public var dm_bladeCultured:int;
       
-      public var dm_changeableSymptomatic:Boolean;
+      public var dm_expansionInterrupt:Boolean;
       
-      public var dm_wateryFaithful:Dm_VagabondFlock;
+      public var dm_collectAnnoy:Dm_WailSpotless;
       
       public function Dm_HuskyTremble(param1:int, param2:int, param3:int, param4:Boolean)
       {
          super();
          this.idSequence = param1;
-         this.dm_spoonUnequal = param2;
-         this.dm_birdAcoustic = param3;
-         this.dm_changeableSymptomatic = param4;
+         this.dm_uninterestedSpoon = param2;
+         this.dm_bladeCultured = param3;
+         this.dm_expansionInterrupt = param4;
       }
       
       public function getIdSequence() : int
@@ -30,32 +30,32 @@ package
          return this.idSequence;
       }
       
-      public function get dm_collectAnnoy() : String
+      public function get dm_recogniseBack() : String
       {
-         return Dm_ShockDouble.dm_tripKneel(Dm_IgnorantAspiring.dm_expansionInterrupt);
+         return Dm_DeliverAgonizing.dm_birdAcoustic;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_moveTeaching;
+         return Dm_ExplainBranch.dm_changeableSymptomatic;
       }
       
-      public function dm_bladeCultured() : Boolean
+      public function dm_spoonUnequal() : Boolean
       {
          return false;
       }
       
-      override public function dm_recogniseBack() : int
+      override public function dm_behaviorKnowledgeable() : int
       {
-         return Dm_ShockDouble.dm_tripSock(Dm_BirdAdvice.dm_behaviorKnowledgeable);
+         return Dm_FaithfulCrowded.dm_wateryFaithful(Dm_FrailAuthority.dm_tripSock);
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(this.dm_spoonUnequal);
-         param1.writeInt(this.dm_birdAcoustic);
-         param1.writeByte(!!this.dm_changeableSymptomatic?int(Dm_ShockDouble.dm_tripSock(Dm_CravenCrown.dm_repeatPenitent)):int(Dm_CollectFlower.dm_uninterestedSpoon));
+         param1.writeByte(this.dm_uninterestedSpoon);
+         param1.writeInt(this.dm_bladeCultured);
+         param1.writeByte(!!this.dm_expansionInterrupt?int(Dm_PowerfulSecret.dm_repeatPenitent):int(Dm_AdjustmentAnalyze.dm_moveTeaching));
       }
    }
 }

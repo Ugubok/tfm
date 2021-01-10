@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_RailwayExplode extends Dm_LamentableNeighborly
+   public class Dm_RailwayExplode extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_RailwayExplode(param1:int)
+      public function Dm_RailwayExplode(param1:Boolean)
       {
-         super(Dm_IgnorantAspiring.dm_latePushy,Dm_ShockDouble.dm_annoyWretched(Dm_TastyDebt.dm_bombMighty));
-         dm_dressHuge.writeByte(param1);
+         super(Dm_FaithfulCrowded.dm_bombMighty(Dm_VulgarPrepare.dm_latePushy),Dm_SummerPlants.dm_adjustmentQuack);
+         dm_carefulCondition.writeByte(!!param1?int(Dm_FaithfulCrowded.dm_bombMighty(Dm_PowerfulSecret.dm_annoyWretched)):int(Dm_FaithfulCrowded.dm_bombMighty(Dm_AdjustmentAnalyze.dm_dressHuge)));
       }
    }
 }

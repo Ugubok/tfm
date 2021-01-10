@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_ZincWoman extends Dm_LamentableNeighborly
+   public class Dm_ZincWoman extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_ZincWoman(param1:int)
       {
-         super(Dm_ZonkedNew.dm_adventurousBeautiful,Dm_ThunderSquare.dm_hilariousSuccessful);
-         dm_heartbreakingBird.writeInt(param1);
+         super(Dm_FaithfulCrowded.dm_hilariousSuccessful(Dm_CrookedTouch.dm_soundCloistered),Dm_PowerfulSecret.dm_heartbreakingBird);
+         dm_adventurousBeautiful.writeInt(param1);
       }
    }
 }

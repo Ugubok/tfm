@@ -2,13 +2,13 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class Dm_AutomaticNear extends Dm_SeaSlow
+   public class Dm_AutomaticNear extends Dm_WhistlePlough
    {
        
       
-      public var dm_oppositePass:String;
+      public var dm_spuriousPlough:String;
       
-      public var dm_crowdedKnowledge:int;
+      public var dm_halfNation:int;
       
       public function Dm_AutomaticNear(param1:ByteArray)
       {
@@ -17,38 +17,38 @@ package
          var _loc7_:int = 0;
          super(param1);
          var _loc2_:int = param1.readUnsignedShort();
-         this.dm_oppositePass = _loc2_ + Dm_SignZip.dm_spuriousPlough;
-         var _loc3_:int = Dm_CollectFlower.dm_taxHumor;
-         var _loc4_:int = Dm_HydrantSteer.dm_earSqueal.length;
+         this.dm_spuriousPlough = _loc2_ + Dm_FaithfulCrowded.dm_taxHumor(Dm_RobinQuack.dm_seriousTrousers);
+         var _loc3_:int = Dm_AdjustmentAnalyze.dm_trapEyes;
+         var _loc4_:int = Dm_HydrantSteer.dm_oppositePass.length;
          while(_loc3_ < _loc4_)
          {
             _loc5_ = param1.readInt();
-            if(_loc3_ > Dm_CollectFlower.dm_taxHumor)
+            if(Dm_AdjustmentAnalyze.dm_trapEyes < _loc3_)
             {
-               this.dm_oppositePass = this.dm_oppositePass + Dm_ShockDouble.dm_seriousTrousers(Dm_SignZip.dm_trapEyes);
+               this.dm_spuriousPlough = this.dm_spuriousPlough + Dm_FaithfulCrowded.dm_taxHumor(Dm_RobinQuack.dm_stemStay);
             }
-            this.dm_oppositePass = this.dm_oppositePass + _loc5_;
+            this.dm_spuriousPlough = this.dm_spuriousPlough + _loc5_;
             _loc6_ = param1.readByte();
-            if(_loc6_ > Dm_CollectFlower.dm_taxHumor)
+            if(Dm_FaithfulCrowded.dm_crowdedKnowledge(Dm_AdjustmentAnalyze.dm_trapEyes) < _loc6_)
             {
-               this.dm_oppositePass = this.dm_oppositePass + Dm_ShockDouble.dm_seriousTrousers(Dm_CravenCrown.dm_halfNation);
-               _loc7_ = Dm_CollectFlower.dm_taxHumor;
+               this.dm_spuriousPlough = this.dm_spuriousPlough + Dm_FaithfulCrowded.dm_taxHumor(Dm_RobinQuack.dm_earSqueal);
+               _loc7_ = Dm_AdjustmentAnalyze.dm_trapEyes;
                while(_loc7_ < _loc6_)
                {
-                  if(_loc7_ == Dm_ShockDouble.dm_measlyQuack(Dm_CollectFlower.dm_taxHumor))
+                  if(Dm_FaithfulCrowded.dm_crowdedKnowledge(Dm_AdjustmentAnalyze.dm_trapEyes) == _loc7_)
                   {
-                     this.dm_oppositePass = this.dm_oppositePass + param1.readInt().toString(Dm_LookResolute.dm_stemStay);
+                     this.dm_spuriousPlough = this.dm_spuriousPlough + param1.readInt().toString(Dm_FaithfulCrowded.dm_crowdedKnowledge(Dm_ComplexNear.dm_measlyQuack));
                   }
                   else
                   {
-                     this.dm_oppositePass = this.dm_oppositePass + (Dm_ZonkedNew.dm_unequalPrice + param1.readInt().toString(Dm_ShockDouble.dm_measlyQuack(Dm_LookResolute.dm_stemStay)));
+                     this.dm_spuriousPlough = this.dm_spuriousPlough + (Dm_FaithfulCrowded.dm_taxHumor(Dm_PowerfulSecret.dm_unequalPrice) + param1.readInt().toString(Dm_FaithfulCrowded.dm_crowdedKnowledge(Dm_ComplexNear.dm_measlyQuack)));
                   }
                   _loc7_++;
                }
             }
             _loc3_++;
          }
-         this.dm_crowdedKnowledge = param1.readInt();
+         this.dm_halfNation = param1.readInt();
       }
    }
 }

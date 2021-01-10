@@ -10,9 +10,9 @@ package
       
       public var idSequence:int;
       
-      public var dm_priceHappy:int;
+      public var dm_programImportant:int;
       
-      public var dm_treatKnife:Dm_PleasantLocket;
+      public var dm_priceHappy:Dm_ToysSystem;
       
       public function Dm_TransportArm(param1:Dm_InquisitiveIdea)
       {
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_carelessSnakes() : String
+      public function get dm_treatKnife() : String
       {
-         return Dm_IgnorantAspiring.dm_mouseVoyage;
+         return Dm_DeliverAgonizing.dm_kneelEasy;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_kneelEasy;
+         return Dm_ExplainBranch.dm_feebleSlip;
       }
       
-      public function dm_feebleSlip() : Boolean
+      public function dm_mouseVoyage() : Boolean
       {
          return false;
       }
       
       public function dm_annoyingSleep() : int
       {
-         return Dm_ShockDouble.dm_paltryPack(Dm_ZonkedNew.dm_ruddyThoughtless);
+         return Dm_FaithfulCrowded.dm_carelessSnakes(Dm_VerdantWhistle.dm_ruddyThoughtless);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_priceHappy = param1.readByte();
+         this.dm_programImportant = param1.readByte();
          var _loc2_:Dm_SuccinctVerdant = this.dm_warlikeGruesome.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_PleasantLocket)
+            if(_loc2_ is Dm_ToysSystem)
             {
-               this.dm_treatKnife = Dm_PleasantLocket(_loc2_);
-               this.dm_treatKnife.dm_programImportant = this;
+               this.dm_priceHappy = Dm_ToysSystem(_loc2_);
+               this.dm_priceHappy.dm_searchHand = this;
             }
          }
       }
       
-      public function get dm_pictureAbsurd() : int
+      public function get dm_paltryPack() : int
       {
-         return Dm_ShockDouble.dm_paltryPack(Dm_TastyDebt.dm_searchHand);
+         return Dm_RobinQuack.dm_pictureAbsurd;
       }
    }
 }

@@ -2,7 +2,7 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class Dm_ActionLegs extends Dm_SeaSlow
+   public class Dm_ActionLegs extends Dm_WhistlePlough
    {
        
       
@@ -14,7 +14,7 @@ package
          this.dm_workImpartial = new Vector.<int>();
          super(param1);
          var _loc2_:int = param1.readShort();
-         var _loc3_:int = Dm_ShockDouble.dm_painstakingShelf(Dm_CollectFlower.dm_chickenNaive);
+         var _loc3_:int = Dm_AdjustmentAnalyze.dm_chickenNaive;
          while(_loc3_ < _loc2_)
          {
             _loc4_ = param1.readShort();

@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_bitComplex:Dm_InquisitiveIdea;
+      public var dm_deserveTouch:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_cleverAddition:int;
+      public var dm_ownPrecious:int;
       
-      public var dm_legsTasteless:Dm_ToysSystem;
+      public var dm_spottedWhip:Dm_InconclusiveSearch;
       
       public function Dm_RightRedundant(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_bitComplex = param1;
+         this.dm_deserveTouch = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_skiMitten() : String
+      public function get dm_prepareDescribe() : String
       {
-         return Dm_ShockDouble.dm_paltryWasteful(Dm_IgnorantAspiring.dm_riverPowerful);
+         return Dm_DeliverAgonizing.dm_skiMitten;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_ownPrecious;
+         return Dm_ExplainBranch.dm_bitComplex;
       }
       
-      public function dm_resoluteRecognise() : Boolean
+      public function dm_volcanoWhistle() : Boolean
       {
          return false;
       }
       
-      public function dm_spottedWhip() : int
+      public function dm_cleverAddition() : int
       {
-         return Dm_ZonkedNew.dm_prepareDescribe;
+         return Dm_FaithfulCrowded.dm_resoluteRecognise(Dm_VerdantWhistle.dm_legsTasteless);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_cleverAddition = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_bitComplex.recupereSequence(this.idSequence);
+         this.dm_ownPrecious = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_deserveTouch.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_ToysSystem)
+            if(_loc2_ is Dm_InconclusiveSearch)
             {
-               this.dm_legsTasteless = Dm_ToysSystem(_loc2_);
-               this.dm_legsTasteless.dm_volcanoWhistle = this;
+               this.dm_spottedWhip = Dm_InconclusiveSearch(_loc2_);
+               this.dm_spottedWhip.dm_alansonCheck = this;
             }
          }
       }
       
-      public function get dm_alansonCheck() : int
+      public function get dm_adviceLimit() : int
       {
-         return Dm_ShockDouble.dm_deserveTouch(Dm_ThunderSquare.dm_adviceLimit);
+         return Dm_FaithfulCrowded.dm_resoluteRecognise(Dm_VerdantRay.dm_riverPowerful);
       }
    }
 }

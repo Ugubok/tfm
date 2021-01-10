@@ -1,12 +1,12 @@
 package
 {
-   public class Dm_YakTightfisted extends Dm_LamentableNeighborly
+   public class Dm_YakTightfisted extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_YakTightfisted()
       {
-         super(Dm_ShockDouble.dm_repulsiveWant(Dm_TendencyPrice.dm_vagabondSearch),Dm_ShockDouble.dm_repulsiveWant(Dm_NutInquisitive.dm_weightCrash));
+         super(Dm_SummerPlants.dm_weightCrash,Dm_BranchAfterthought.dm_vagabondSearch);
       }
    }
 }

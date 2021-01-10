@@ -10,98 +10,97 @@ package
    public class Dm_BitWord extends Sprite
    {
       
-      public static var dm_fascinatedTax:Dm_BitWord;
+      public static var dm_pricklyProbable:Dm_BitWord;
        
       
       public var type:int;
       
-      public var dm_mendPipka:int;
+      public var dm_redundantArm:int;
       
       public function Dm_BitWord(param1:int = 0, param2:int = 0, param3:int = 0, param4:int = 0)
       {
          var _loc6_:MovieClip = null;
          var _loc7_:Rectangle = null;
          var _loc8_:Sprite = null;
-         var _loc11_:Number = NaN;
          var _loc14_:TextField = null;
          var _loc15_:Bitmap = null;
          super();
-         Dm_BitWord.dm_fascinatedTax = this;
+         Dm_BitWord.dm_pricklyProbable = this;
          this.type = param1;
-         this.dm_mendPipka = param2;
-         x = Dm_TeenyBird.dm_keyCloistered;
-         y = Dm_ShockDouble.dm_spotlessThrill(Dm_ThunderSquare.dm_heartbreakingShocking);
-         var _loc5_:MovieClip = Dm_FlowSea.dm_handLetter(Dm_GrateSatisfy.dm_crimeRambunctious);
+         this.dm_redundantArm = param2;
+         x = Dm_FaithfulCrowded.dm_balanceCapricious(Dm_RobinQuack.dm_mendPipka);
+         y = Dm_FaithfulCrowded.dm_balanceCapricious(Dm_PowerfulSecret.dm_modernCommon);
+         var _loc5_:MovieClip = Dm_FlowSea.dm_strengthenOnerous(Dm_FaithfulCrowded.dm_sincereCrown(Dm_AgreeableMountain.dm_bruiseSisters));
          addChild(_loc5_);
-         _loc6_ = Dm_ToysPayment.dm_moveAwake(param1,param2);
+         _loc6_ = Dm_ToysPayment.dm_anglePorter(param1,param2);
          _loc7_ = _loc6_.getRect(_loc6_);
          _loc8_ = new Sprite();
-         _loc8_.mouseChildren = Dm_HarmonyWoman.dm_quirkyYummy;
-         _loc8_.mouseEnabled = Dm_HarmonyWoman.dm_quirkyYummy;
-         _loc8_.cacheAsBitmap = Dm_HarmonyWoman.dm_modernCommon;
+         _loc8_.mouseChildren = Dm_NaughtyAdvise.dm_handLetter;
+         _loc8_.mouseEnabled = Dm_NaughtyAdvise.dm_handLetter;
+         _loc8_.cacheAsBitmap = Dm_NaughtyAdvise.dm_verdantDecay;
          _loc8_.addChild(_loc6_);
          addChild(_loc8_);
          _loc6_.x = -_loc7_.x;
          _loc6_.y = -_loc7_.y;
-         var _loc9_:int = Dm_ShockDouble.dm_spotlessThrill(Dm_GrateSatisfy.dm_legZippy);
-         var _loc10_:int = Dm_IgnorantAspiring.dm_verdantDecay;
-         _loc11_ = Math.min(_loc9_ / _loc8_.width,_loc10_ / _loc8_.height);
-         _loc8_.y = Dm_ShockDouble.dm_spotlessThrill(Dm_BirdAdvice.dm_workZip);
+         var _loc9_:int = Dm_FaithfulCrowded.dm_balanceCapricious(Dm_StomachBlush.dm_nutJuice);
+         var _loc10_:int = Dm_FaithfulCrowded.dm_balanceCapricious(Dm_CloverMitten.dm_inventAnus);
+         var _loc11_:Number = Math.min(_loc9_ / _loc8_.width,_loc10_ / _loc8_.height);
+         _loc8_.y = Dm_FrailAuthority.dm_lipClass;
          _loc8_.scaleX = _loc11_;
          _loc8_.scaleY = _loc11_;
-         _loc8_.x = (Dm_ShockDouble.dm_spotlessThrill(Dm_TeenyBird.dm_keyCloistered) - _loc8_.width) / Dm_LegStrengthen.dm_anglePorter;
+         _loc8_.x = (-_loc8_.width + Dm_FaithfulCrowded.dm_balanceCapricious(Dm_RobinQuack.dm_mendPipka)) / Dm_EdgeAngle.dm_threateningWing;
          if(param3)
          {
-            _loc14_ = Dm_RealFragile.dm_rubWant();
-            _loc14_.text = Dm_BeadBirds.dm_adviceHysterical + param3 + Dm_SignZip.dm_countFamous;
-            _loc14_.defaultTextFormat = new TextFormat(Dm_ShockDouble.dm_beginnerPack(Dm_ScissorsUnarmed.dm_inventAnus),Dm_ShockDouble.dm_spotlessThrill(Dm_NutInquisitive.dm_catWren),15890295);
-            _loc14_.mouseEnabled = Dm_HarmonyWoman.dm_quirkyYummy;
-            _loc14_.selectable = Dm_HarmonyWoman.dm_quirkyYummy;
-            _loc14_.width = Dm_AgreeThank.dm_pricklyProbable;
-            _loc14_.x = Dm_ShockDouble.dm_spotlessThrill(Dm_NutInquisitive.dm_balanceCapricious) - _loc14_.width;
-            _loc14_.y = Dm_BirdAdvice.dm_workZip;
+            _loc14_ = Dm_BurlyMountain.dm_keyCloistered();
+            _loc14_.text = Dm_FaithfulCrowded.dm_sincereCrown(Dm_TabooGround.dm_storeToothpaste) + param3 + Dm_AgreeableMountain.dm_rightHand;
+            _loc14_.defaultTextFormat = new TextFormat(Dm_AgreeableMountain.dm_lockFunny,Dm_PaintAblaze.dm_painstakingToothpaste,15890295);
+            _loc14_.mouseEnabled = Dm_NaughtyAdvise.dm_handLetter;
+            _loc14_.selectable = Dm_NaughtyAdvise.dm_handLetter;
+            _loc14_.width = Dm_FaithfulCrowded.dm_balanceCapricious(Dm_PigCart.dm_spotlessThrill);
+            _loc14_.x = Dm_FaithfulCrowded.dm_balanceCapricious(Dm_CrookedTouch.dm_moveAwake) - _loc14_.width;
+            _loc14_.y = Dm_FaithfulCrowded.dm_balanceCapricious(Dm_FrailAuthority.dm_lipClass);
             _loc14_.textColor = 15472407;
             addChild(_loc14_);
          }
          if(param4)
          {
-            _loc15_ = Dm_FlowSea.dm_redundantArm(Dm_ShockDouble.dm_beginnerPack(Dm_TeenyBird.dm_cheatTax) + param4 + Dm_ShockDouble.dm_beginnerPack(Dm_TendencyPrice.dm_lipClass));
-            _loc15_.x = Dm_GrateSatisfy.dm_legZippy;
-            _loc15_.y = Dm_ShockDouble.dm_spotlessThrill(Dm_LegStrengthen.dm_signAd);
+            _loc15_ = Dm_FlowSea.dm_agonizingCrown(Dm_TabooGround.dm_catWren + param4 + Dm_FaithfulCrowded.dm_sincereCrown(Dm_PigCart.dm_fascinatedTax));
+            _loc15_.x = Dm_StomachBlush.dm_nutJuice;
+            _loc15_.y = Dm_VerdantWhistle.dm_moveTremble;
             addChild(_loc15_);
          }
-         var _loc12_:Dm_CheckChickens = new Dm_CheckChickens(Dm_ShockDouble.dm_spotlessThrill(Dm_BirdAdvice.dm_workZip),Dm_ShockDouble.dm_spotlessThrill(Dm_SqueezeDazzling.dm_painstakingToothpaste),Dm_NearSubdued.dm_threateningWing(Dm_ShockDouble.dm_beginnerPack(Dm_TastyDebt.dm_moveTremble)),this.dm_sincereCrown,null,Dm_ShockDouble.dm_spotlessThrill(Dm_TastyDebt.dm_bruiseSisters),!Dm_TabooPlease.dm_fascinatedTax.dm_promiseAdventurous);
+         var _loc12_:Dm_CheckChickens = new Dm_CheckChickens(Dm_FaithfulCrowded.dm_balanceCapricious(Dm_FrailAuthority.dm_lipClass),Dm_FaithfulCrowded.dm_balanceCapricious(Dm_PigCart.dm_cheatTax),Dm_ReminiscentMighty.dm_promiseAdventurous(Dm_FaithfulCrowded.dm_sincereCrown(Dm_PigCart.dm_beginnerPack)),this.dm_crimeRambunctious,null,Dm_EdgeAngle.dm_energeticAdvertisement,!Dm_GruesomeProud.dm_pricklyProbable.dm_countFamous);
          addChild(_loc12_);
-         var _loc13_:Dm_CheckChickens = new Dm_CheckChickens(Dm_BirdAdvice.dm_workZip,Dm_ShockDouble.dm_spotlessThrill(Dm_SignZip.dm_agonizingCrown),Dm_NearSubdued.dm_threateningWing(Dm_ShockDouble.dm_beginnerPack(Dm_ThunderSquare.dm_lockFunny)),this.dm_tabooTremble,null,Dm_TastyDebt.dm_bruiseSisters,!Dm_TabooPlease.dm_fascinatedTax.dm_promiseAdventurous);
+         var _loc13_:Dm_CheckChickens = new Dm_CheckChickens(Dm_FrailAuthority.dm_lipClass,Dm_FaithfulCrowded.dm_balanceCapricious(Dm_FrailAuthority.dm_noisyThank),Dm_ReminiscentMighty.dm_promiseAdventurous(Dm_FaithfulCrowded.dm_sincereCrown(Dm_PowerfulSecret.dm_legZippy)),this.dm_signAd,null,Dm_FaithfulCrowded.dm_balanceCapricious(Dm_EdgeAngle.dm_energeticAdvertisement),!Dm_GruesomeProud.dm_pricklyProbable.dm_countFamous);
          addChild(_loc13_);
       }
       
-      public static function dm_nutJuice(param1:Boolean, param2:int = 0, param3:int = 0, param4:int = 0, param5:int = 0, param6:Boolean = false) : void
+      public static function dm_quirkyYummy(param1:Boolean, param2:int = 0, param3:int = 0, param4:int = 0, param5:int = 0, param6:Boolean = false) : void
       {
          var _loc7_:String = null;
          try
          {
             if(param1)
             {
-               if(Dm_StoryDoor.dm_strengthenOnerous)
+               if(Dm_ColorThank.dm_workZip)
                {
                   return;
                }
                if(param6)
                {
-                  _loc7_ = Dm_TeenyBird.dm_rightHand + param2 + Dm_CravenCrown.dm_noisyThank + param3;
-                  if(Dm_ReminiscentScintillating.dm_fascinatedTax.lecture(Dm_ReminiscentScintillating.dm_storeToothpaste) == _loc7_)
+                  _loc7_ = Dm_BranchAfterthought.dm_adviceHysterical + param2 + Dm_RobinQuack.dm_heartbreakingShocking + param3;
+                  if(Dm_ReminiscentScintillating.dm_pricklyProbable.lecture(Dm_ReminiscentScintillating.dm_tabooTremble) == _loc7_)
                   {
                      return;
                   }
-                  Dm_ReminiscentScintillating.dm_fascinatedTax.dm_energeticAdvertisement(Dm_ReminiscentScintillating.dm_storeToothpaste,_loc7_);
+                  Dm_ReminiscentScintillating.dm_pricklyProbable.dm_rubWant(Dm_ReminiscentScintillating.dm_tabooTremble,_loc7_);
                }
                new Dm_BitWord(param2,param3,param4,param5);
-               Dm_TabooPlease.dm_fascinatedTax.addChild(Dm_BitWord.dm_fascinatedTax);
+               Dm_GruesomeProud.dm_pricklyProbable.addChild(Dm_BitWord.dm_pricklyProbable);
             }
-            else if(Dm_BitWord.dm_fascinatedTax && Dm_BitWord.dm_fascinatedTax.parent)
+            else if(Dm_BitWord.dm_pricklyProbable && Dm_BitWord.dm_pricklyProbable.parent)
             {
-               Dm_BitWord.dm_fascinatedTax.parent.removeChild(Dm_BitWord.dm_fascinatedTax);
+               Dm_BitWord.dm_pricklyProbable.parent.removeChild(Dm_BitWord.dm_pricklyProbable);
             }
             return;
          }
@@ -111,15 +110,15 @@ package
          }
       }
       
-      public function dm_tabooTremble() : void
+      public function dm_signAd() : void
       {
-         Dm_BitWord.dm_nutJuice(false);
-         Dm_ButterWeight.dm_nutJuice();
+         Dm_BitWord.dm_quirkyYummy(false);
+         Dm_DockSlow.dm_quirkyYummy();
       }
       
-      public function dm_sincereCrown() : void
+      public function dm_crimeRambunctious() : void
       {
-         Dm_BitWord.dm_nutJuice(false);
+         Dm_BitWord.dm_quirkyYummy(false);
       }
    }
 }

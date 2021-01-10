@@ -4,14 +4,14 @@ package
    {
        
       
-      public var v:Dm_InconclusiveStem;
+      public var v:Dm_JumbledSearch;
       
-      public var dm_manyDraconian:Dm_ImperfectLyrical;
+      public var dm_manyDraconian:Dm_PurposeAlert;
       
       public function Dm_ConditionWait()
       {
-         this.v = new Dm_InconclusiveStem();
-         this.dm_manyDraconian = new Dm_ImperfectLyrical();
+         this.v = new Dm_JumbledSearch();
+         this.dm_manyDraconian = new Dm_PurposeAlert();
          super();
       }
    }

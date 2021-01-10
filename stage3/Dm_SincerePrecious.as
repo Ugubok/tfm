@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_SincerePrecious extends Dm_LamentableNeighborly
+   public class Dm_SincerePrecious extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_SincerePrecious(param1:int)
       {
-         super(Dm_ShockDouble.dm_wanderingZippy(Dm_GrateSatisfy.dm_farmEdge),Dm_ShockDouble.dm_wanderingZippy(Dm_TeenyBird.dm_redundantBoot));
-         dm_womanReaction.writeByte(param1);
+         super(Dm_FaithfulCrowded.dm_womanReaction(Dm_VulgarPrepare.dm_wanderingZippy),Dm_FaithfulCrowded.dm_womanReaction(Dm_BranchAfterthought.dm_redundantBoot));
+         dm_farmEdge.writeByte(param1);
       }
    }
 }

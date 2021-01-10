@@ -6,45 +6,45 @@ package
    {
        
       
-      public var dm_apatheticAlluring:Dm_InquisitiveIdea;
+      public var dm_chickenRight:Dm_InquisitiveIdea;
       
-      public var dm_aspiringProgram:String;
+      public var dm_newReal:String;
       
       public function Dm_WiseCompetition(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_apatheticAlluring = param1;
+         this.dm_chickenRight = param1;
       }
       
-      public function get dm_pleaseSkin() : String
+      public function get dm_reachTrail() : String
       {
-         return Dm_IgnorantAspiring.dm_newReal;
+         return Dm_FaithfulCrowded.dm_warlikeStiff(Dm_DeliverAgonizing.dm_poisonSuper);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_poisonSuper;
+         return Dm_ExplainBranch.dm_juggleTiresome;
       }
       
-      public function dm_warlikeStiff() : Boolean
+      public function dm_washSave() : Boolean
       {
          return false;
       }
       
-      public function dm_juggleTiresome() : int
+      public function dm_apatheticAlluring() : int
       {
-         return Dm_ShockDouble.dm_chickenRight(Dm_LegStrengthen.dm_shutLarge) + this.dm_aspiringProgram.length;
+         return Dm_EdgeAngle.dm_pleaseSkin + this.dm_newReal.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.dm_aspiringProgram = param1.readUTFBytes(_loc2_);
+         this.dm_newReal = param1.readUTFBytes(_loc2_);
       }
       
       public function get dm_energeticCart() : int
       {
-         return Dm_ShockDouble.dm_chickenRight(Dm_HumorExotic.dm_reachTrail);
+         return Dm_FaithfulCrowded.dm_shutLarge(Dm_DeliverAgonizing.dm_aspiringProgram);
       }
    }
 }

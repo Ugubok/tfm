@@ -8,7 +8,7 @@ package
       
       public var idSequence:int;
       
-      public var dm_sootheZonked:Dm_SupplyBury;
+      public var dm_crowdedPrepare:Dm_RequestWhite;
       
       public function Dm_RailwayPayment(param1:int)
       {
@@ -21,9 +21,9 @@ package
          return this.idSequence;
       }
       
-      public function get dm_limitBasin() : String
+      public function get dm_sootheZonked() : String
       {
-         return Dm_IgnorantAspiring.dm_frightenMeasure;
+         return Dm_DeliverAgonizing.dm_shockAnalyze;
       }
       
       public function get typeTaille() : int
@@ -31,14 +31,14 @@ package
          return Dm_ExplainBranch.dm_touchSign;
       }
       
-      public function dm_shockAnalyze() : Boolean
+      public function dm_frightenMeasure() : Boolean
       {
          return false;
       }
       
       override public function dm_afternoonPerson() : int
       {
-         return Dm_ScissorsUnarmed.dm_crowdedPrepare;
+         return Dm_VulgarPrepare.dm_limitBasin;
       }
       
       override public function ecriture(param1:ByteArray) : void

@@ -1,16 +1,16 @@
 package
 {
-   public class Dm_ImpoliteTremble extends Dm_LamentableNeighborly
+   public class Dm_ImpoliteTremble extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_ImpoliteTremble(param1:Vector.<String>)
       {
-         super(Dm_SignZip.dm_nearThank,Dm_ShockDouble.dm_ordinarySummer(Dm_LookResolute.dm_railwayPrice));
-         var _loc2_:int = Dm_CollectFlower.dm_hourPlough;
+         super(Dm_PigCart.dm_ordinarySummer,Dm_ComplexNear.dm_hourPlough);
+         var _loc2_:int = Dm_AdjustmentAnalyze.dm_hesitantRiver;
          while(_loc2_ < param1.length)
          {
-            dm_hesitantRiver(param1[_loc2_]);
+            dm_railwayPrice(param1[_loc2_]);
             _loc2_++;
          }
       }

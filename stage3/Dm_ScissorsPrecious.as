@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_ScissorsPrecious extends Dm_LamentableNeighborly
+   public class Dm_ScissorsPrecious extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_ScissorsPrecious(param1:int)
       {
-         super(Dm_ShockDouble.dm_ovenBruise(Dm_CravenCrown.dm_sleepAwake),Dm_ShockDouble.dm_ovenBruise(Dm_ZonkedNew.dm_unequalIdentify));
-         dm_oatmealHydrant.writeByte(param1);
+         super(Dm_VerdantWhistle.dm_ovenBruise,Dm_FaithfulCrowded.dm_oatmealHydrant(Dm_CrookedTouch.dm_unequalIdentify));
+         dm_sleepAwake.writeInt(param1);
       }
    }
 }

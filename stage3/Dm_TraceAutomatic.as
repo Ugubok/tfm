@@ -1,16 +1,16 @@
 package
 {
-   public class Dm_TraceAutomatic extends Dm_LamentableNeighborly
+   public class Dm_TraceAutomatic extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_TraceAutomatic(param1:String, param2:int, param3:int, param4:String)
+      public function Dm_TraceAutomatic(param1:int, param2:int, param3:int, param4:int)
       {
-         super(Dm_ShockDouble.dm_measlySpurious(Dm_ThunderSquare.dm_agreeableBalvanka),Dm_ShockDouble.dm_measlySpurious(Dm_IgnorantAspiring.dm_detailCompetition));
-         dm_explodeRobin.writeUTF(param1);
-         dm_explodeRobin.writeByte(param2);
-         dm_explodeRobin.writeInt(param3);
-         dm_explodeRobin.writeUTF(param4);
+         super(Dm_VerdantWhistle.dm_agreeableBalvanka,Dm_FaithfulCrowded.dm_explodeRobin(Dm_SummerPlants.dm_measlySpurious));
+         dm_detailCompetition.writeShort(param1);
+         dm_detailCompetition.writeShort(param2);
+         dm_detailCompetition.writeShort(param3);
+         dm_detailCompetition.writeShort(param4);
       }
    }
 }

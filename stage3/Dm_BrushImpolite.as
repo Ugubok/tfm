@@ -1,16 +1,16 @@
 package
 {
-   public class Dm_BrushImpolite extends Dm_LamentableNeighborly
+   public class Dm_BrushImpolite extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_BrushImpolite(param1:String, param2:Boolean = false, param3:Boolean = true, param4:Boolean = true)
+      public function Dm_BrushImpolite(param1:String, param2:String, param3:String)
       {
-         super(Dm_ShockDouble.dm_riverYak(Dm_AgreeThank.dm_toysFrantic),Dm_ShockDouble.dm_riverYak(Dm_SignZip.dm_satisfyWindy));
-         dm_searchRoom.writeUTF(param1);
-         dm_searchRoom.writeBoolean(param2);
-         dm_searchRoom.writeBoolean(param3);
-         dm_searchRoom.writeBoolean(param4);
+         super(Dm_FaithfulCrowded.dm_searchRoom(Dm_RobinQuack.dm_riverYak),Dm_VulgarPrepare.dm_countLip);
+         dm_toysFrantic.writeUTF(param1);
+         dm_toysFrantic.writeUTF(param2);
+         dm_toysFrantic.writeUTF(param3);
+         dm_toysFrantic.writeByte(Dm_AdjustmentAnalyze.dm_satisfyWindy);
       }
    }
 }

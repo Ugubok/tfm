@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_ChivalrousJoke extends Dm_LamentableNeighborly
+   public class Dm_ChivalrousJoke extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_ChivalrousJoke(param1:int)
+      public function Dm_ChivalrousJoke(param1:String)
       {
-         super(Dm_ThunderSquare.dm_seriousWoman,Dm_ShockDouble.dm_buryLock(Dm_NutInquisitive.dm_tartCalculator));
-         dm_decayCompetition.writeInt(param1);
+         super(Dm_FaithfulCrowded.dm_tartCalculator(Dm_SummerPlants.dm_buryLock),Dm_FaithfulCrowded.dm_tartCalculator(Dm_StomachBlush.dm_decayCompetition));
+         dm_seriousWoman.writeUTF(param1);
       }
    }
 }

@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var dm_crownClub:String;
+      public var dm_cardIncompetent:String;
       
-      public var dm_mendPerson:String;
+      public var dm_recogniseReligion:String;
       
-      public var dm_jogSearch:Dm_PleasePeck;
+      public var dm_pailPossess:Dm_TediousHour;
       
       public function Dm_GreedyRetire(param1:int, param2:String, param3:String)
       {
          super();
          this.idSequence = param1;
-         this.dm_crownClub = param2;
-         this.dm_mendPerson = param3;
+         this.dm_cardIncompetent = param2;
+         this.dm_recogniseReligion = param3;
       }
       
       public function getIdSequence() : int
@@ -27,31 +27,31 @@ package
          return this.idSequence;
       }
       
-      public function get dm_cardIncompetent() : String
+      public function get dm_alansonLip() : String
       {
-         return Dm_IgnorantAspiring.dm_thickSand;
+         return Dm_DeliverAgonizing.dm_jogSearch;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_recogniseReligion;
+         return Dm_ExplainBranch.dm_huskySearch;
       }
       
-      public function dm_huskySearch() : Boolean
+      public function dm_cloisteredContain() : Boolean
       {
          return false;
       }
       
-      override public function dm_alansonLip() : int
+      override public function dm_crownClub() : int
       {
-         return Dm_CravenCrown.dm_pailPossess + this.dm_crownClub.length + this.dm_mendPerson.length;
+         return Dm_FaithfulCrowded.dm_mendPerson(Dm_SummerPlants.dm_thickSand) + this.dm_cardIncompetent.length + this.dm_recogniseReligion.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.dm_crownClub);
-         param1.writeUTF(this.dm_mendPerson);
+         param1.writeUTF(this.dm_cardIncompetent);
+         param1.writeUTF(this.dm_recogniseReligion);
       }
    }
 }

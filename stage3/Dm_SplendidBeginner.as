@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_jarCheck:Dm_InquisitiveIdea;
+      public var dm_unknownThreatening:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_suitThoughtless:int;
+      public var dm_boundaryKneel:int;
       
-      public var dm_boundaryKneel:Dm_IgnorantNaive;
+      public var dm_hydrantVivacious:Dm_BabiesZip;
       
       public function Dm_SplendidBeginner(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_jarCheck = param1;
+         this.dm_unknownThreatening = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_countScratch() : String
+      public function get dm_suitThoughtless() : String
       {
-         return Dm_ShockDouble.dm_chivalrousHalf(Dm_IgnorantAspiring.dm_bruiseYak);
+         return Dm_DeliverAgonizing.dm_concentrateSeparate;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_concentrateSeparate;
+         return Dm_ExplainBranch.dm_halfMemorize;
       }
       
-      public function dm_hydrantVivacious() : Boolean
+      public function dm_bruiseYak() : Boolean
       {
          return false;
       }
       
-      public function dm_halfMemorize() : int
+      public function dm_jarCheck() : int
       {
-         return Dm_ShockDouble.dm_whiteGovernment(Dm_ZonkedNew.dm_robinSpiffy);
+         return Dm_VerdantWhistle.dm_whiteGovernment;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_suitThoughtless = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_jarCheck.recupereSequence(this.idSequence);
+         this.dm_boundaryKneel = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_unknownThreatening.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_IgnorantNaive)
+            if(_loc2_ is Dm_BabiesZip)
             {
-               this.dm_boundaryKneel = Dm_IgnorantNaive(_loc2_);
-               this.dm_boundaryKneel.dm_unknownThreatening = this;
+               this.dm_hydrantVivacious = Dm_BabiesZip(_loc2_);
+               this.dm_hydrantVivacious.dm_robinSpiffy = this;
             }
          }
       }
       
       public function get dm_notebookSpiffy() : int
       {
-         return Dm_ScissorsUnarmed.dm_sofaStupid;
+         return Dm_TabooGround.dm_countScratch;
       }
    }
 }

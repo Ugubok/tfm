@@ -4,11 +4,11 @@ package
    {
        
       
-      public var dm_shortBeginner:Dm_StupidPrivate;
+      public var dm_shortBeginner:Dm_TediousBird;
       
-      public var dm_faintRoom:Dm_ImpoliteJumbled;
+      public var dm_gamyShelf:Dm_StormyEvasive;
       
-      public var dm_gamyShelf:Dm_CoalSystem;
+      public var dm_faintRoom:Dm_CoalSystem;
       
       public var dm_didacticUnique:Dm_CoalSystem;
       

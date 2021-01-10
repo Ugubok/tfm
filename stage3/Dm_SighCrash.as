@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_SighCrash extends Dm_LamentableNeighborly
+   public class Dm_SighCrash extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_SighCrash(param1:String)
+      public function Dm_SighCrash(param1:int)
       {
-         super(Dm_ShockDouble.dm_comparisonUnequaled(Dm_AgreeThank.dm_brassFaithful),Dm_CravenCrown.dm_fadeParty);
-         dm_languidBasket.writeUTF(param1);
+         super(Dm_FaithfulCrowded.dm_languidBasket(Dm_PigCart.dm_fadeParty),Dm_AgreeableMountain.dm_comparisonUnequaled);
+         dm_brassFaithful.writeShort(param1);
       }
    }
 }

@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var dm_shockMeasure:String;
+      public var dm_dressBlush:String;
       
-      public var dm_kittensAlluring:Boolean;
+      public var dm_adviseLie:Boolean;
       
-      public var dm_punctureIdea:Dm_NoiselessHistory;
+      public var dm_punctureIdea:Dm_ToysCommon;
       
       public function Dm_RoomGovernment(param1:int, param2:String, param3:Boolean)
       {
          super();
          this.idSequence = param1;
-         this.dm_shockMeasure = param2;
-         this.dm_kittensAlluring = param3;
+         this.dm_dressBlush = param2;
+         this.dm_adviseLie = param3;
       }
       
       public function getIdSequence() : int
@@ -27,31 +27,31 @@ package
          return this.idSequence;
       }
       
-      public function get dm_bikePicture() : String
+      public function get dm_cakeHalf() : String
       {
-         return Dm_IgnorantAspiring.dm_dressBlush;
+         return Dm_FaithfulCrowded.dm_burlyUtopian(Dm_DeliverAgonizing.dm_bikePicture);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_expertCoal;
+         return Dm_ExplainBranch.dm_kittensAlluring;
       }
       
-      public function dm_delightfulThrill() : Boolean
+      public function dm_expertCoal() : Boolean
       {
          return false;
       }
       
-      override public function dm_plantsBeautiful() : int
+      override public function dm_squareStatement() : int
       {
-         return Dm_ShockDouble.dm_historySlip(Dm_SqueezeDazzling.dm_cakeHalf) + this.dm_shockMeasure.length;
+         return Dm_FaithfulCrowded.dm_delightfulThrill(Dm_StomachBlush.dm_shockMeasure) + this.dm_dressBlush.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.dm_shockMeasure);
-         param1.writeByte(!!this.dm_kittensAlluring?int(Dm_ShockDouble.dm_historySlip(Dm_CravenCrown.dm_squareStatement)):int(Dm_ShockDouble.dm_historySlip(Dm_CollectFlower.dm_burlyUtopian)));
+         param1.writeUTF(this.dm_dressBlush);
+         param1.writeByte(!!this.dm_adviseLie?int(Dm_PowerfulSecret.dm_historySlip):int(Dm_FaithfulCrowded.dm_delightfulThrill(Dm_AdjustmentAnalyze.dm_plantsBeautiful)));
       }
    }
 }

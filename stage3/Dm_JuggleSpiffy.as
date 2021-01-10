@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_JuggleSpiffy extends Dm_LamentableNeighborly
+   public class Dm_JuggleSpiffy extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_JuggleSpiffy(param1:int, param2:String)
+      public function Dm_JuggleSpiffy(param1:String, param2:String)
       {
-         super(Dm_ShockDouble.dm_advertisementComparison(Dm_TendencyPrice.dm_listVoracious),Dm_ShockDouble.dm_advertisementComparison(Dm_ThunderSquare.dm_utopianHobbies));
-         dm_breatheShade.writeInt(param1);
-         dm_breatheShade.writeUTF(param2);
+         super(Dm_VerdantWhistle.dm_listVoracious,Dm_FaithfulCrowded.dm_breatheShade(Dm_CrookedTouch.dm_advertisementComparison));
+         dm_utopianHobbies.writeUTF(param1);
+         dm_utopianHobbies.writeUTF(param2);
       }
    }
 }

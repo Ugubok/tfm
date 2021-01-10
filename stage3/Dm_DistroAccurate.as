@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_voraciousReal:Dm_InquisitiveIdea;
+      public var dm_pearSplendid:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_pearSplendid:int;
+      public var dm_tiresomeAwake:int;
       
-      public var dm_draconianKneel:Dm_ChubbyFork;
+      public var dm_crookedIcy:Dm_NutBeginner;
       
       public function Dm_DistroAccurate(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_voraciousReal = param1;
+         this.dm_pearSplendid = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_noxiousPerform() : String
+      public function get dm_voraciousReal() : String
       {
-         return Dm_ShockDouble.dm_separateHobbies(Dm_IgnorantAspiring.dm_sproutCount);
+         return Dm_FaithfulCrowded.dm_noxiousPerform(Dm_DeliverAgonizing.dm_alluringCrowded);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_glamorousPunch;
+         return Dm_ExplainBranch.dm_mightyScale;
       }
       
-      public function dm_orangesSalt() : Boolean
+      public function dm_illustriousAgonizing() : Boolean
       {
          return false;
       }
       
-      public function dm_mightyScale() : int
+      public function dm_draconianKneel() : int
       {
-         return Dm_ZonkedNew.dm_crookedIcy;
+         return Dm_FaithfulCrowded.dm_glamorousPunch(Dm_VerdantWhistle.dm_cleverAction);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_pearSplendid = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_voraciousReal.recupereSequence(this.idSequence);
+         this.dm_tiresomeAwake = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_pearSplendid.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_ChubbyFork)
+            if(_loc2_ is Dm_NutBeginner)
             {
-               this.dm_draconianKneel = Dm_ChubbyFork(_loc2_);
-               this.dm_draconianKneel.dm_tiresomeAwake = this;
+               this.dm_crookedIcy = Dm_NutBeginner(_loc2_);
+               this.dm_crookedIcy.dm_orangesSalt = this;
             }
          }
       }
       
-      public function get dm_cleverAction() : int
+      public function get dm_sproutCount() : int
       {
-         return Dm_ScissorsUnarmed.dm_alluringCrowded;
+         return Dm_AdjustmentAnalyze.dm_separateHobbies;
       }
    }
 }

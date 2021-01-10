@@ -8,20 +8,20 @@ package
       
       public var userData;
       
-      public var dm_letterCool:Dm_StupidPrivate;
+      public var dm_attractivePrice:Dm_TediousBird;
       
-      public var dm_shutNarrow:Dm_StupidPrivate;
+      public var dm_legWhistle:Dm_TediousBird;
       
-      public var dm_attractivePrice:Boolean;
+      public var dm_firstHumor:Boolean;
       
       public function Dm_HilariousWant()
       {
          super();
-         this.type = Dm_NutSpot.dm_legWhistle;
+         this.type = Dm_FranticChicken.dm_shutNarrow;
          this.userData = null;
-         this.dm_letterCool = null;
-         this.dm_shutNarrow = null;
-         this.dm_attractivePrice = Dm_HarmonyWoman.dm_firstHumor;
+         this.dm_attractivePrice = null;
+         this.dm_legWhistle = null;
+         this.dm_firstHumor = Dm_NaughtyAdvise.dm_letterCool;
       }
    }
 }

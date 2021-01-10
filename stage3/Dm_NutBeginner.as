@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var dm_satisfyInquisitive:String;
+      public var dm_thickJoyous:String;
       
-      public var dm_thickJoyous:Dm_LookStormy;
+      public var dm_divergentError:Dm_DistroAccurate;
       
       public function Dm_NutBeginner(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.dm_satisfyInquisitive = param2;
+         this.dm_thickJoyous = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get dm_divergentError() : String
+      public function get dm_hystericalBurly() : String
       {
-         return Dm_ShockDouble.dm_coalMeasly(Dm_IgnorantAspiring.dm_hourAdmire);
+         return Dm_DeliverAgonizing.dm_scratchJumbled;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_scratchJumbled;
+         return Dm_ExplainBranch.dm_voraciousFamous;
       }
       
-      public function dm_voraciousFamous() : Boolean
+      public function dm_burnSecret() : Boolean
       {
          return false;
       }
       
       override public function dm_humorTeaching() : int
       {
-         return Dm_ShockDouble.dm_burnSecret(Dm_TastyDebt.dm_hystericalBurly) + this.dm_satisfyInquisitive.length;
+         return Dm_BranchAfterthought.dm_satisfyInquisitive + this.dm_thickJoyous.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.dm_satisfyInquisitive);
+         param1.writeUTF(this.dm_thickJoyous);
       }
    }
 }

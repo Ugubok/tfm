@@ -4,31 +4,31 @@ package
    {
        
       
-      public var dm_seaToys:Array;
+      public var dm_pinusJoyous:Array;
       
-      public var normal:Dm_InconclusiveStem;
+      public var normal:Dm_JumbledSearch;
       
-      public var dm_advicePurpose:Dm_BelligerentImpartial;
+      public var dm_armBelief:Dm_BelligerentImpartial;
       
-      public var dm_beautifulNaughty:Dm_StupidPrivate;
+      public var dm_sonNation:Dm_TediousBird;
       
-      public var dm_nestCrib:Dm_StupidPrivate;
+      public var dm_seaToys:Dm_TediousBird;
       
-      public var dm_rabbitEnjoy:Number;
+      public var dm_nestCrib:Number;
       
-      public var dm_kittensOptimal:Number;
+      public var dm_carelessPossess:Number;
       
-      public var dm_sonNation:int;
+      public var dm_advicePurpose:int;
       
       public function Dm_MatchOrdinary()
       {
-         this.normal = new Dm_InconclusiveStem();
+         this.normal = new Dm_JumbledSearch();
          super();
-         this.dm_seaToys = new Array(Dm_AnnoyingShut.dm_carelessPossess);
-         var _loc1_:int = Dm_ShockDouble.dm_pinusJoyous(Dm_CollectFlower.dm_armBelief);
-         while(_loc1_ < Dm_AnnoyingShut.dm_carelessPossess)
+         this.dm_pinusJoyous = new Array(Dm_VoyageHeartbreaking.dm_rabbitEnjoy);
+         var _loc1_:int = Dm_AdjustmentAnalyze.dm_beautifulNaughty;
+         while(_loc1_ < Dm_VoyageHeartbreaking.dm_rabbitEnjoy)
          {
-            this.dm_seaToys[_loc1_] = new Dm_ChivalrousPoised();
+            this.dm_pinusJoyous[_loc1_] = new Dm_ChivalrousPoised();
             _loc1_++;
          }
       }

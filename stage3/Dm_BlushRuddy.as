@@ -1,12 +1,12 @@
 package
 {
-   public class Dm_BlushRuddy extends Dm_LamentableNeighborly
+   public class Dm_BlushRuddy extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_BlushRuddy()
       {
-         super(Dm_ShockDouble.dm_thunderAgonizing(Dm_SignZip.dm_complexCan),Dm_ShockDouble.dm_thunderAgonizing(Dm_AgreeThank.dm_weightToy));
+         super(Dm_FaithfulCrowded.dm_complexCan(Dm_RobinQuack.dm_weightToy),Dm_BranchAfterthought.dm_thunderAgonizing);
       }
    }
 }

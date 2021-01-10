@@ -10,7 +10,7 @@ package
       
       public var dm_pleasantSon:String;
       
-      public var dm_alansonLudicrous:Dm_SlimLudicrous;
+      public var dm_superRabbit:Dm_NoiselessHistory;
       
       public function Dm_WanderEyes(param1:int, param2:String)
       {
@@ -24,24 +24,24 @@ package
          return this.idSequence;
       }
       
-      public function get dm_tediousTrains() : String
+      public function get dm_shutScratch() : String
       {
-         return Dm_ShockDouble.dm_thoughtPorter(Dm_IgnorantAspiring.dm_faintObtainable);
+         return Dm_FaithfulCrowded.dm_tediousTrains(Dm_DeliverAgonizing.dm_panoramicScale);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_panoramicScale;
+         return Dm_ExplainBranch.dm_disturbedAbsurd;
       }
       
-      public function dm_disturbedAbsurd() : Boolean
+      public function dm_thoughtPorter() : Boolean
       {
          return false;
       }
       
       override public function dm_yamShocking() : int
       {
-         return Dm_ShockDouble.dm_superRabbit(Dm_TastyDebt.dm_shutScratch) + this.dm_pleasantSon.length;
+         return Dm_FaithfulCrowded.dm_alansonLudicrous(Dm_BranchAfterthought.dm_faintObtainable) + this.dm_pleasantSon.length;
       }
       
       override public function ecriture(param1:ByteArray) : void

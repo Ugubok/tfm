@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_governmentWicked:Dm_InquisitiveIdea;
+      public var dm_classClub:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_coldScratch:int;
+      public var dm_attractiveTremble:int;
       
-      public var dm_balanceGullible:Dm_GrandfatherSearch;
+      public var dm_programDescribe:Dm_CurvedChickens;
       
       public function Dm_SleepyMeasure(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_governmentWicked = param1;
+         this.dm_classClub = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_cloisteredCalculate() : String
+      public function get dm_knifeObtainable() : String
       {
-         return Dm_ShockDouble.dm_stripedAdaptable(Dm_IgnorantAspiring.dm_sickUnwritten);
+         return Dm_DeliverAgonizing.dm_cloisteredCalculate;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_attractiveTremble;
+         return Dm_ExplainBranch.dm_governmentWicked;
       }
       
-      public function dm_programDescribe() : Boolean
+      public function dm_sickUnwritten() : Boolean
       {
          return false;
       }
       
-      public function dm_swankyCrib() : int
+      public function dm_coldScratch() : int
       {
-         return Dm_ShockDouble.dm_powerfulFarm(Dm_ZonkedNew.dm_reactionAdhesive);
+         return Dm_VerdantWhistle.dm_powerfulFarm;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_coldScratch = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_governmentWicked.recupereSequence(this.idSequence);
+         this.dm_attractiveTremble = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_classClub.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_GrandfatherSearch)
+            if(_loc2_ is Dm_CurvedChickens)
             {
-               this.dm_balanceGullible = Dm_GrandfatherSearch(_loc2_);
-               this.dm_balanceGullible.dm_knifeObtainable = this;
+               this.dm_programDescribe = Dm_CurvedChickens(_loc2_);
+               this.dm_programDescribe.dm_swankyCrib = this;
             }
          }
       }
       
-      public function get dm_lamentableStriped() : int
+      public function get dm_reactionAdhesive() : int
       {
-         return Dm_IgnorantAspiring.dm_classClub;
+         return Dm_FaithfulCrowded.dm_balanceGullible(Dm_DeliverAgonizing.dm_lamentableStriped);
       }
    }
 }

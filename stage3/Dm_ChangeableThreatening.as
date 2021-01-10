@@ -5,62 +5,62 @@ package
    public class Dm_ChangeableThreatening
    {
       
-      public static var dm_tabooSock:Dictionary;
+      public static var dm_basketElite:Dictionary;
        
       
       public var x_codeTitre:int;
       
-      public var dm_retireWing:int;
+      public var dm_chinViolet:int;
       
       public function Dm_ChangeableThreatening(param1:int, param2:int)
       {
          super();
          this.x_codeTitre = param1;
-         this.dm_retireWing = param2;
+         this.dm_chinViolet = param2;
       }
       
-      public static function dm_packVolcano(param1:int, param2:int, param3:int = 0) : String
+      public static function dm_slipBashful(param1:int, param2:int, param3:int = 0) : String
       {
-         if(param2 > Dm_ShockDouble.dm_crashCalculate(Dm_LookResolute.dm_adjoiningAnus))
+         if(Dm_CrookedTouch.dm_sighSpotless < param2)
          {
-            param2 = Dm_LookResolute.dm_adjoiningAnus;
+            param2 = Dm_FaithfulCrowded.dm_adjoiningAnus(Dm_CrookedTouch.dm_sighSpotless);
          }
-         if(Dm_ChangeableThreatening.dm_tabooSock == null)
+         if(null == Dm_ChangeableThreatening.dm_basketElite)
          {
-            Dm_ChangeableThreatening.dm_tabooSock = new Dictionary();
-            if(Dm_BaseballEnjoy.dm_lampSuit())
+            Dm_ChangeableThreatening.dm_basketElite = new Dictionary();
+            if(Dm_MightySofa.dm_jokeAnalyze())
             {
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_ShockDouble.dm_crashCalculate(Dm_CollectFlower.dm_cloverSlow)] = Dm_ShockDouble.dm_deserveDisturbed(Dm_ScissorsUnarmed.dm_drownDrown);
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_ShockDouble.dm_crashCalculate(Dm_CravenCrown.dm_chivalrousGrin)] = Dm_ScissorsUnarmed.dm_drownDrown;
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_ShockDouble.dm_crashCalculate(Dm_LegStrengthen.dm_languidLearned)] = Dm_ShockDouble.dm_deserveDisturbed(Dm_TastyDebt.dm_baseballAfternoon);
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_ShockDouble.dm_crashCalculate(Dm_NutInquisitive.dm_panickyFascinated)] = Dm_ShockDouble.dm_deserveDisturbed(Dm_CollectFlower.dm_harborAdventurous);
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_ShockDouble.dm_crashCalculate(Dm_ScissorsUnarmed.dm_companyFamous)] = Dm_LegStrengthen.dm_manyAdmire;
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_ShockDouble.dm_crashCalculate(Dm_ZonkedNew.dm_partyFemale)] = Dm_GrateSatisfy.dm_sighSpotless;
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_TastyDebt.dm_chinViolet] = Dm_ShockDouble.dm_deserveDisturbed(Dm_NutInquisitive.dm_jokeAnalyze);
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_SqueezeDazzling.dm_performSearch] = Dm_ShockDouble.dm_deserveDisturbed(Dm_ColorReject.dm_ludicrousSalt);
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_CravenCrown.dm_trapPrice] = Dm_ShockDouble.dm_deserveDisturbed(Dm_NutInquisitive.dm_dildoCompetition);
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_LookResolute.dm_adjoiningAnus] = Dm_ShockDouble.dm_deserveDisturbed(Dm_LookResolute.dm_jokeAdaptable);
+               Dm_ChangeableThreatening.dm_basketElite[Dm_AdjustmentAnalyze.dm_tabooSock] = Dm_FaithfulCrowded.dm_instinctiveSplendid(Dm_CloverMitten.dm_learnedKnowledge);
+               Dm_ChangeableThreatening.dm_basketElite[Dm_FaithfulCrowded.dm_adjoiningAnus(Dm_PowerfulSecret.dm_manyAdmire)] = Dm_CloverMitten.dm_learnedKnowledge;
+               Dm_ChangeableThreatening.dm_basketElite[Dm_EdgeAngle.dm_ludicrousSalt] = Dm_FaithfulCrowded.dm_instinctiveSplendid(Dm_FrailAuthority.dm_packVolcano);
+               Dm_ChangeableThreatening.dm_basketElite[Dm_AgreeableMountain.dm_cloverSlow] = Dm_FaithfulCrowded.dm_instinctiveSplendid(Dm_RobinQuack.dm_soupSqueeze);
+               Dm_ChangeableThreatening.dm_basketElite[Dm_FaithfulCrowded.dm_adjoiningAnus(Dm_VulgarPrepare.dm_tripAdvise)] = Dm_TabooGround.dm_zipLip;
+               Dm_ChangeableThreatening.dm_basketElite[Dm_VerdantWhistle.dm_trapPrice] = Dm_VerdantWhistle.dm_deserveDisturbed;
+               Dm_ChangeableThreatening.dm_basketElite[Dm_BranchAfterthought.dm_kindheartedDislike] = Dm_FaithfulCrowded.dm_instinctiveSplendid(Dm_VulgarPrepare.dm_energeticShocking);
+               Dm_ChangeableThreatening.dm_basketElite[Dm_FaithfulCrowded.dm_adjoiningAnus(Dm_StomachBlush.dm_baseballAfternoon)] = Dm_FaithfulCrowded.dm_instinctiveSplendid(Dm_SummerPlants.dm_retireWing);
+               Dm_ChangeableThreatening.dm_basketElite[Dm_FaithfulCrowded.dm_adjoiningAnus(Dm_SummerPlants.dm_lampSuit)] = Dm_EdgeAngle.dm_performSearch;
+               Dm_ChangeableThreatening.dm_basketElite[Dm_CrookedTouch.dm_sighSpotless] = Dm_FaithfulCrowded.dm_instinctiveSplendid(Dm_AdjustmentAnalyze.dm_companyFamous);
             }
             else
             {
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_ShockDouble.dm_crashCalculate(Dm_CollectFlower.dm_cloverSlow)] = Dm_ShockDouble.dm_deserveDisturbed(Dm_ScissorsUnarmed.dm_drownDrown);
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_CravenCrown.dm_chivalrousGrin] = Dm_ScissorsUnarmed.dm_drownDrown;
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_LegStrengthen.dm_languidLearned] = Dm_ZonkedNew.dm_learnedKnowledge;
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_NutInquisitive.dm_panickyFascinated] = Dm_BirdAdvice.dm_stomachUncle;
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_ShockDouble.dm_crashCalculate(Dm_ScissorsUnarmed.dm_companyFamous)] = Dm_GrateSatisfy.dm_zipLip;
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_ShockDouble.dm_crashCalculate(Dm_ZonkedNew.dm_partyFemale)] = Dm_ShockDouble.dm_deserveDisturbed(Dm_IgnorantAspiring.dm_tripAdvise);
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_ShockDouble.dm_crashCalculate(Dm_TastyDebt.dm_chinViolet)] = Dm_ShockDouble.dm_deserveDisturbed(Dm_TendencyPrice.dm_spuriousSugar);
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_ShockDouble.dm_crashCalculate(Dm_SqueezeDazzling.dm_performSearch)] = Dm_CravenCrown.dm_instinctiveSplendid;
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_CravenCrown.dm_trapPrice] = Dm_LegStrengthen.dm_soupSqueeze;
-               Dm_ChangeableThreatening.dm_tabooSock[Dm_LookResolute.dm_adjoiningAnus] = Dm_NutInquisitive.dm_kindheartedDislike;
+               Dm_ChangeableThreatening.dm_basketElite[Dm_AdjustmentAnalyze.dm_tabooSock] = Dm_FaithfulCrowded.dm_instinctiveSplendid(Dm_CloverMitten.dm_learnedKnowledge);
+               Dm_ChangeableThreatening.dm_basketElite[Dm_PowerfulSecret.dm_manyAdmire] = Dm_CloverMitten.dm_learnedKnowledge;
+               Dm_ChangeableThreatening.dm_basketElite[Dm_EdgeAngle.dm_ludicrousSalt] = Dm_FaithfulCrowded.dm_instinctiveSplendid(Dm_DeliverAgonizing.dm_drownDrown);
+               Dm_ChangeableThreatening.dm_basketElite[Dm_FaithfulCrowded.dm_adjoiningAnus(Dm_AgreeableMountain.dm_cloverSlow)] = Dm_PigCart.dm_jokeAdaptable;
+               Dm_ChangeableThreatening.dm_basketElite[Dm_FaithfulCrowded.dm_adjoiningAnus(Dm_VulgarPrepare.dm_tripAdvise)] = Dm_FaithfulCrowded.dm_instinctiveSplendid(Dm_VerdantRay.dm_harborAdventurous);
+               Dm_ChangeableThreatening.dm_basketElite[Dm_VerdantWhistle.dm_trapPrice] = Dm_RobinQuack.dm_crashCalculate;
+               Dm_ChangeableThreatening.dm_basketElite[Dm_BranchAfterthought.dm_kindheartedDislike] = Dm_FaithfulCrowded.dm_instinctiveSplendid(Dm_BreatheSecret.dm_chivalrousGrin);
+               Dm_ChangeableThreatening.dm_basketElite[Dm_FaithfulCrowded.dm_adjoiningAnus(Dm_StomachBlush.dm_baseballAfternoon)] = Dm_VulgarPrepare.dm_partyFemale;
+               Dm_ChangeableThreatening.dm_basketElite[Dm_SummerPlants.dm_lampSuit] = Dm_FaithfulCrowded.dm_instinctiveSplendid(Dm_BreatheSecret.dm_fascinatedRoom);
+               Dm_ChangeableThreatening.dm_basketElite[Dm_FaithfulCrowded.dm_adjoiningAnus(Dm_CrookedTouch.dm_sighSpotless)] = Dm_DeliverAgonizing.dm_spuriousSugar;
             }
          }
-         var _loc4_:Boolean = Dm_WindManage.dm_fascinatedRoom(param3);
-         if(param2 > Dm_CravenCrown.dm_chivalrousGrin)
+         var _loc4_:Boolean = Dm_MendPail.dm_stomachUncle(param3);
+         if(Dm_FaithfulCrowded.dm_adjoiningAnus(Dm_PowerfulSecret.dm_manyAdmire) < param2)
          {
-            return Dm_NearSubdued.dm_basketElite(_loc4_,Dm_ShockDouble.dm_deserveDisturbed(Dm_BeadBirds.dm_slipBashful) + param1) + Dm_ShockDouble.dm_deserveDisturbed(Dm_TeenyBird.dm_energeticShocking) + Dm_ChangeableThreatening.dm_tabooSock[param2];
+            return Dm_ReminiscentMighty.dm_panickyFascinated(_loc4_,Dm_FaithfulCrowded.dm_instinctiveSplendid(Dm_StomachBlush.dm_languidLearned) + param1) + Dm_FaithfulCrowded.dm_instinctiveSplendid(Dm_StomachBlush.dm_dildoCompetition) + Dm_ChangeableThreatening.dm_basketElite[param2];
          }
-         return Dm_NearSubdued.dm_basketElite(_loc4_,Dm_ShockDouble.dm_deserveDisturbed(Dm_BeadBirds.dm_slipBashful) + param1);
+         return Dm_ReminiscentMighty.dm_panickyFascinated(_loc4_,Dm_StomachBlush.dm_languidLearned + param1);
       }
    }
 }

@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_ColdWord extends Dm_LamentableNeighborly
+   public class Dm_ColdWord extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_ColdWord(param1:Boolean)
+      public function Dm_ColdWord(param1:int)
       {
-         super(Dm_TendencyPrice.dm_scissorsUpset,Dm_ShockDouble.dm_rayCat(Dm_ThunderSquare.dm_spottedSystem));
-         dm_poisedFill.writeByte(!!param1?int(Dm_CravenCrown.dm_yummyDecay):int(Dm_ShockDouble.dm_rayCat(Dm_CollectFlower.dm_wingScintillating)));
+         super(Dm_FaithfulCrowded.dm_scissorsUpset(Dm_RobinQuack.dm_yummyDecay),Dm_BranchAfterthought.dm_poisedFill);
+         dm_wingScintillating.writeByte(param1);
       }
    }
 }

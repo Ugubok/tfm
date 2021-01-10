@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_whisperVoracious:Dm_InquisitiveIdea;
+      public var dm_spotlessStomach:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_colorfulTransport:int;
+      public var dm_adhesiveEdge:int;
       
-      public var dm_stickVagabond:Dm_CalculatorSecret;
+      public var dm_yamWarlike:Dm_RailwayPayment;
       
       public function Dm_RequestWhite(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_whisperVoracious = param1;
+         this.dm_spotlessStomach = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_angleYam() : String
+      public function get dm_colorfulTransport() : String
       {
-         return Dm_ShockDouble.dm_squeezeGround(Dm_IgnorantAspiring.dm_yamWarlike);
+         return Dm_DeliverAgonizing.dm_angleYam;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_adhesiveEdge;
+         return Dm_ExplainBranch.dm_stickVagabond;
       }
       
-      public function dm_religionStomach() : Boolean
+      public function dm_adhesiveLyrical() : Boolean
       {
          return false;
       }
       
-      public function dm_shelfKittens() : int
+      public function dm_whisperVoracious() : int
       {
-         return Dm_ZonkedNew.dm_zippyStormy;
+         return Dm_VerdantWhistle.dm_adLyrical;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_colorfulTransport = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_whisperVoracious.recupereSequence(this.idSequence);
+         this.dm_adhesiveEdge = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_spotlessStomach.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_CalculatorSecret)
+            if(_loc2_ is Dm_RailwayPayment)
             {
-               this.dm_stickVagabond = Dm_CalculatorSecret(_loc2_);
-               this.dm_stickVagabond.dm_adhesiveLyrical = this;
+               this.dm_yamWarlike = Dm_RailwayPayment(_loc2_);
+               this.dm_yamWarlike.dm_nestKneel = this;
             }
          }
       }
       
-      public function get dm_nestKneel() : int
+      public function get dm_zippyStormy() : int
       {
-         return Dm_ShockDouble.dm_adLyrical(Dm_TendencyPrice.dm_spotlessStomach);
+         return Dm_FaithfulCrowded.dm_religionStomach(Dm_BreatheSecret.dm_shelfKittens);
       }
    }
 }

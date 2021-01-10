@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_StomachAmuse extends Dm_LamentableNeighborly
+   public class Dm_StomachAmuse extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_StomachAmuse(param1:Number)
+      public function Dm_StomachAmuse(param1:int)
       {
-         super(Dm_ShockDouble.dm_tourBear(Dm_CravenCrown.dm_tastyAunt),Dm_TendencyPrice.dm_firstBabies);
-         dm_reminiscentBike.writeByte(int(Dm_TendencyPrice.dm_scrawnySoothe * param1));
+         super(Dm_FaithfulCrowded.dm_firstBabies(Dm_AdjustmentAnalyze.dm_tastyAunt),Dm_FaithfulCrowded.dm_firstBabies(Dm_FrailAuthority.dm_reminiscentBike));
+         dm_scrawnySoothe.writeInt(param1);
       }
    }
 }

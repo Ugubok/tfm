@@ -8,7 +8,7 @@ package
       
       public var dm_advisePoison:Dm_InquisitiveIdea;
       
-      public var dm_memorizeJoyous:String;
+      public var dm_skiNoisy:String;
       
       public function Dm_WordImperfect(param1:Dm_InquisitiveIdea)
       {
@@ -16,35 +16,35 @@ package
          this.dm_advisePoison = param1;
       }
       
-      public function get dm_borrowBead() : String
+      public function get dm_lunasoleLight() : String
       {
-         return Dm_IgnorantAspiring.dm_instructWretched;
+         return Dm_DeliverAgonizing.dm_slowComplex;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_slowComplex;
+         return Dm_ExplainBranch.dm_pinusWipe;
       }
       
-      public function dm_pinusWipe() : Boolean
+      public function dm_instructWretched() : Boolean
       {
          return false;
       }
       
       public function dm_powerfulAdaptable() : int
       {
-         return Dm_ShockDouble.dm_spookyInexpensive(Dm_LegStrengthen.dm_flockBalance) + this.dm_memorizeJoyous.length;
+         return Dm_EdgeAngle.dm_borrowBead + this.dm_skiNoisy.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.dm_memorizeJoyous = param1.readUTFBytes(_loc2_);
+         this.dm_skiNoisy = param1.readUTFBytes(_loc2_);
       }
       
-      public function get dm_skiNoisy() : int
+      public function get dm_spookyInexpensive() : int
       {
-         return Dm_BeadBirds.dm_lunasoleLight;
+         return Dm_FaithfulCrowded.dm_flockBalance(Dm_EdgeAngle.dm_memorizeJoyous);
       }
    }
 }

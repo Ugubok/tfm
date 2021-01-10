@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_TransportNeat extends Dm_LamentableNeighborly
+   public class Dm_TransportNeat extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_TransportNeat(param1:String)
+      public function Dm_TransportNeat(param1:int)
       {
-         super(Dm_ShockDouble.dm_splendidManage(Dm_LookResolute.dm_jokeThird),Dm_ShockDouble.dm_splendidManage(Dm_LegStrengthen.dm_whisperRare));
-         dm_classBleach.writeUTF(param1);
+         super(Dm_RobinQuack.dm_classBleach,Dm_FaithfulCrowded.dm_jokeThird(Dm_FrailAuthority.dm_splendidManage));
+         dm_whisperRare.writeByte(param1);
       }
    }
 }

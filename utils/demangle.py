@@ -309,7 +309,7 @@ class ClassInfoDB(object):
     def _deserialize_line(self, line: str) -> ClassInfo:
         result = ClassInfo("")
         annotations = self.Model.__annotations__.items()
-        elements = line.strip().split()
+        elements = line.strip().split(" ")
 
         for el, annotation in zip(elements, annotations):
             attr, t = annotation

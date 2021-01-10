@@ -4,15 +4,15 @@ package
    {
        
       
-      public var dm_spyPanoramic:int;
+      public var dm_toyInvent:int;
       
-      public var dm_toyInvent:String;
+      public var dm_spyPanoramic:String;
       
       public function Dm_DefectiveBrass(param1:int, param2:String)
       {
          super();
-         this.dm_spyPanoramic = param1;
-         this.dm_toyInvent = param2;
+         this.dm_toyInvent = param1;
+         this.dm_spyPanoramic = param2;
       }
    }
 }

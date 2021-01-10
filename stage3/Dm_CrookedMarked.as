@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_CrookedMarked extends Dm_LamentableNeighborly
+   public class Dm_CrookedMarked extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_CrookedMarked(param1:int, param2:int)
+      public function Dm_CrookedMarked(param1:String, param2:String)
       {
-         super(Dm_ShockDouble.dm_collectTeaching(Dm_CravenCrown.dm_cartFamous),Dm_ShockDouble.dm_collectTeaching(Dm_TeenyBird.dm_panickyCool));
-         dm_chivalrousRub.writeShort(param1);
-         dm_chivalrousRub.writeShort(param2);
+         super(Dm_CrookedTouch.dm_panickyCool,Dm_EdgeAngle.dm_chivalrousRub);
+         dm_cartFamous.writeUTF(param1);
+         dm_cartFamous.writeUTF(param2);
       }
    }
 }

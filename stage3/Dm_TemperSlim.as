@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_TemperSlim extends Dm_LamentableNeighborly
+   public class Dm_TemperSlim extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_TemperSlim(param1:int, param2:Boolean)
+      public function Dm_TemperSlim(param1:String)
       {
-         super(Dm_ShockDouble.dm_inventHate(Dm_SignZip.dm_discussionExotic),Dm_ShockDouble.dm_inventHate(Dm_ZonkedNew.dm_washPlough));
-         dm_bruiseLip.writeInt(param1);
-         dm_bruiseLip.writeByte(!!param2?int(Dm_CravenCrown.dm_tourLunasole):int(Dm_ShockDouble.dm_inventHate(Dm_CollectFlower.dm_analyzeEfficient)));
+         super(Dm_FaithfulCrowded.dm_bruiseLip(Dm_BranchAfterthought.dm_inventHate),Dm_BranchAfterthought.dm_inventHate);
+         dm_washPlough.writeUTF(param1);
+         dm_analyzeEfficient = Dm_NaughtyAdvise.dm_tourLunasole;
       }
    }
 }

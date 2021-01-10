@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var dm_labelFaint:Boolean;
+      public var dm_unwrittenPinus:Boolean;
       
-      public var dm_canNaughty:Dm_JarVolcano;
+      public var dm_canNaughty:Dm_SlimLudicrous;
       
       public function Dm_PaymentTouch(param1:int, param2:Boolean)
       {
          super();
          this.idSequence = param1;
-         this.dm_labelFaint = param2;
+         this.dm_unwrittenPinus = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get dm_knotTrip() : String
+      public function get dm_searchMountain() : String
       {
-         return Dm_ShockDouble.dm_sproutGround(Dm_IgnorantAspiring.dm_fascinatedWord);
+         return Dm_DeliverAgonizing.dm_knotTrip;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_unwrittenPinus;
+         return Dm_ExplainBranch.dm_possessClover;
       }
       
-      public function dm_statementDildo() : Boolean
+      public function dm_fascinatedWord() : Boolean
       {
          return false;
       }
       
-      override public function dm_privateTeaching() : int
+      override public function dm_labelFaint() : int
       {
-         return Dm_ShockDouble.dm_instinctiveTeeny(Dm_ZonkedNew.dm_knifeOrange);
+         return Dm_FaithfulCrowded.dm_statementDildo(Dm_VerdantWhistle.dm_instinctiveTeeny);
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(!!this.dm_labelFaint?int(Dm_ShockDouble.dm_instinctiveTeeny(Dm_CravenCrown.dm_searchMountain)):int(Dm_ShockDouble.dm_instinctiveTeeny(Dm_CollectFlower.dm_possessClover)));
+         param1.writeByte(!!this.dm_unwrittenPinus?int(Dm_FaithfulCrowded.dm_statementDildo(Dm_PowerfulSecret.dm_knifeOrange)):int(Dm_AdjustmentAnalyze.dm_privateTeaching));
       }
    }
 }

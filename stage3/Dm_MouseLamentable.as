@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var dm_uncleWhisper:String;
+      public var dm_catEasy:String;
       
-      public var dm_catEasy:Dm_CollectBalance;
+      public var dm_windyLimit:Dm_PuzzledShocking;
       
       public function Dm_MouseLamentable(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.dm_uncleWhisper = param2;
+         this.dm_catEasy = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get dm_windyLimit() : String
+      public function get dm_authorityJuggle() : String
       {
-         return Dm_IgnorantAspiring.dm_hilariousGamy;
+         return Dm_DeliverAgonizing.dm_stormyAfternoon;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_stormyAfternoon;
+         return Dm_ExplainBranch.dm_preciousInterrupt;
       }
       
-      public function dm_preciousInterrupt() : Boolean
+      public function dm_uncleWhisper() : Boolean
       {
          return false;
       }
       
       override public function dm_ploughQueue() : int
       {
-         return Dm_TastyDebt.dm_authorityJuggle + this.dm_uncleWhisper.length;
+         return Dm_BranchAfterthought.dm_hilariousGamy + this.dm_catEasy.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.dm_uncleWhisper);
+         param1.writeUTF(this.dm_catEasy);
       }
    }
 }

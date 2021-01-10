@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_KnifePromise extends Dm_LamentableNeighborly
+   public class Dm_KnifePromise extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_KnifePromise(param1:int)
+      public function Dm_KnifePromise(param1:String)
       {
-         super(Dm_ZonkedNew.dm_annoyingRabbit,Dm_ShockDouble.dm_succinctChangeable(Dm_TeenyBird.dm_detailMeasly));
-         dm_automaticMark.writeInt(param1);
+         super(Dm_FaithfulCrowded.dm_automaticMark(Dm_RobinQuack.dm_succinctChangeable),Dm_ComplexNear.dm_annoyingRabbit);
+         dm_detailMeasly.writeUTF(param1);
       }
    }
 }

@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_JumbledRoom extends Dm_LamentableNeighborly
+   public class Dm_JumbledRoom extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_JumbledRoom(param1:int, param2:int)
       {
-         super(Dm_ShockDouble.dm_chinKnowledgeable(Dm_CravenCrown.dm_divergentTour),Dm_ShockDouble.dm_chinKnowledgeable(Dm_ThunderSquare.dm_scissorsSqueeze));
-         dm_listLaborer.writeByte(param1);
-         dm_listLaborer.writeShort(param2);
+         super(Dm_FaithfulCrowded.dm_listLaborer(Dm_SummerPlants.dm_scissorsSqueeze),Dm_FaithfulCrowded.dm_listLaborer(Dm_TabooGround.dm_chinKnowledgeable));
+         dm_divergentTour.writeByte(param1);
+         dm_divergentTour.writeShort(param2);
       }
    }
 }

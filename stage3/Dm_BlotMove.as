@@ -1,8 +1,8 @@
 package
 {
-   import mx.core.ByteArrayAsset;
+   import mx.core.FontAsset;
    
-   public class Dm_BlotMove extends ByteArrayAsset
+   public class Dm_BlotMove extends FontAsset
    {
        
       

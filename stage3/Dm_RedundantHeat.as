@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_RedundantHeat extends Dm_LamentableNeighborly
+   public class Dm_RedundantHeat extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_RedundantHeat(param1:String)
       {
-         super(Dm_CravenCrown.dm_toyPaint,Dm_ShockDouble.dm_faintScrawny(Dm_CravenCrown.dm_conditionTaboo));
-         dm_noxiousGrate(param1);
+         super(Dm_PigCart.dm_noxiousGrate,Dm_ComplexNear.dm_toyPaint);
+         dm_conditionTaboo.writeUTF(param1);
       }
    }
 }

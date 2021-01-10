@@ -8,7 +8,7 @@ package
       
       public var idSequence:int;
       
-      public var dm_yakInvent:Dm_ProgramLunasole;
+      public var dm_yakInvent:Dm_WetAutomatic;
       
       public function Dm_BasketDidactic(param1:int)
       {
@@ -21,24 +21,24 @@ package
          return this.idSequence;
       }
       
-      public function get dm_glamorousCreator() : String
+      public function get dm_metalSlow() : String
       {
-         return Dm_IgnorantAspiring.dm_metalSlow;
+         return Dm_DeliverAgonizing.dm_glamorousCreator;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_fearfulShade;
+         return Dm_ExplainBranch.dm_gapingWail;
       }
       
-      public function dm_crashGamy() : Boolean
+      public function dm_fierceToys() : Boolean
       {
          return false;
       }
       
-      override public function dm_gapingWail() : int
+      override public function dm_divergentCrowded() : int
       {
-         return Dm_ScissorsUnarmed.dm_divergentCrowded;
+         return Dm_FaithfulCrowded.dm_crashGamy(Dm_VulgarPrepare.dm_fearfulShade);
       }
       
       override public function ecriture(param1:ByteArray) : void

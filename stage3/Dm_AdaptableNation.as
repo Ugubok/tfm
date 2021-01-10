@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_programKey:Dm_InquisitiveIdea;
+      public var dm_flowerLackadaisical:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_flowerLackadaisical:int;
+      public var dm_glamorousCycle:int;
       
-      public var dm_glamorousCycle:Dm_KneelBrass;
+      public var dm_obtainableStormy:Dm_PloughPlants;
       
       public function Dm_AdaptableNation(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_programKey = param1;
+         this.dm_flowerLackadaisical = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_faithfulGlorious() : String
+      public function get dm_programKey() : String
       {
-         return Dm_IgnorantAspiring.dm_skiPicture;
+         return Dm_DeliverAgonizing.dm_crowdedLamentable;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_crowdedLamentable;
+         return Dm_ExplainBranch.dm_disgustingMeasly;
       }
       
-      public function dm_bitMilky() : Boolean
+      public function dm_spookyJelly() : Boolean
       {
          return false;
       }
       
-      public function dm_disgustingMeasly() : int
+      public function dm_slowDisgusting() : int
       {
-         return Dm_ZonkedNew.dm_spyRabbit;
+         return Dm_VerdantWhistle.dm_skiPicture;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_flowerLackadaisical = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_programKey.recupereSequence(this.idSequence);
+         this.dm_glamorousCycle = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_flowerLackadaisical.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_KneelBrass)
+            if(_loc2_ is Dm_PloughPlants)
             {
-               this.dm_glamorousCycle = Dm_KneelBrass(_loc2_);
-               this.dm_glamorousCycle.dm_colorDistro = this;
+               this.dm_obtainableStormy = Dm_PloughPlants(_loc2_);
+               this.dm_obtainableStormy.dm_colorDistro = this;
             }
          }
       }
       
-      public function get dm_obtainableStormy() : int
+      public function get dm_spyRabbit() : int
       {
-         return Dm_TeenyBird.dm_slowDisgusting;
+         return Dm_FaithfulCrowded.dm_faithfulGlorious(Dm_CrookedTouch.dm_bitMilky);
       }
    }
 }

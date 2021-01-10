@@ -1,12 +1,12 @@
 package
 {
-   public class Dm_BakeDefective extends Dm_LamentableNeighborly
+   public class Dm_BakeDefective extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_BakeDefective()
       {
-         super(Dm_ShockDouble.dm_lampGrandfather(Dm_TendencyPrice.dm_teachingPaint),Dm_NutInquisitive.dm_shelfTaboo);
+         super(Dm_PigCart.dm_teachingPaint,Dm_FaithfulCrowded.dm_shelfTaboo(Dm_BranchAfterthought.dm_lampGrandfather));
       }
    }
 }

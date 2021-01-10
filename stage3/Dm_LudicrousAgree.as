@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_LudicrousAgree extends Dm_LamentableNeighborly
+   public class Dm_LudicrousAgree extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_LudicrousAgree(param1:String, param2:String)
+      public function Dm_LudicrousAgree(param1:String, param2:int)
       {
-         super(Dm_ZonkedNew.dm_rabbitsMemorize,Dm_ShockDouble.dm_balvankaPaltry(Dm_TeenyBird.dm_queueSlip));
+         super(Dm_RobinQuack.dm_rabbitsMemorize,Dm_CrookedTouch.dm_queueSlip);
          dm_kotskyCommon.writeUTF(param1);
-         dm_kotskyCommon.writeUTF(param2);
+         dm_kotskyCommon.writeByte(param2);
       }
    }
 }

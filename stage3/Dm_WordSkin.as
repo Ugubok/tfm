@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_WordSkin extends Dm_LamentableNeighborly
+   public class Dm_WordSkin extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_WordSkin(param1:int)
+      public function Dm_WordSkin(param1:String)
       {
-         super(Dm_ShockDouble.dm_personSpooky(Dm_SignZip.dm_strengthenBike),Dm_ShockDouble.dm_personSpooky(Dm_TendencyPrice.dm_mountainInjure));
-         dm_chubbyTasty.writeByte(param1);
+         super(Dm_FaithfulCrowded.dm_chubbyTasty(Dm_PigCart.dm_personSpooky),Dm_FaithfulCrowded.dm_chubbyTasty(Dm_VerdantWhistle.dm_mountainInjure));
+         dm_strengthenBike.writeUTF(param1);
       }
    }
 }

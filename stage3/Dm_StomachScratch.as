@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_StomachScratch extends Dm_LamentableNeighborly
+   public class Dm_StomachScratch extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_StomachScratch(param1:String)
+      public function Dm_StomachScratch(param1:int)
       {
-         super(Dm_GrateSatisfy.dm_berryAlert,Dm_NutInquisitive.dm_huskySuit);
-         dm_oppositeOrange(param1);
+         super(Dm_CrookedTouch.dm_tiresomeBalance,Dm_FaithfulCrowded.dm_oppositeOrange(Dm_FrailAuthority.dm_huskySuit));
+         dm_berryAlert.writeByte(param1);
       }
    }
 }

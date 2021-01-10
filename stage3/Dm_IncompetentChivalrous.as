@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_mittenInjure:Dm_InquisitiveIdea;
+      public var dm_lightCan:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_thunderBeginner:int;
+      public var dm_buryBorrow:int;
       
-      public var dm_uncleGlow:Dm_RightfulCurved;
+      public var dm_separateCrook:Dm_WipeSki;
       
       public function Dm_IncompetentChivalrous(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_mittenInjure = param1;
+         this.dm_lightCan = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_newShelf() : String
+      public function get dm_thunderBeginner() : String
       {
-         return Dm_ShockDouble.dm_symptomaticHobbies(Dm_IgnorantAspiring.dm_queueSquare);
+         return Dm_DeliverAgonizing.dm_cloisteredEyes;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_cloisteredEyes;
+         return Dm_ExplainBranch.dm_mittenInjure;
       }
       
-      public function dm_harmonyNoiseless() : Boolean
+      public function dm_symptomaticHobbies() : Boolean
       {
          return false;
       }
       
-      public function dm_separateCrook() : int
+      public function dm_uncleGlow() : int
       {
-         return Dm_ZonkedNew.dm_lightCan;
+         return Dm_FaithfulCrowded.dm_newShelf(Dm_VerdantWhistle.dm_queueSquare);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_thunderBeginner = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_mittenInjure.recupereSequence(this.idSequence);
+         this.dm_buryBorrow = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_lightCan.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_RightfulCurved)
+            if(_loc2_ is Dm_WipeSki)
             {
-               this.dm_uncleGlow = Dm_RightfulCurved(_loc2_);
-               this.dm_uncleGlow.dm_alansonNation = this;
+               this.dm_separateCrook = Dm_WipeSki(_loc2_);
+               this.dm_separateCrook.dm_harmonyNoiseless = this;
             }
          }
       }
       
       public function get dm_spaceCloistered() : int
       {
-         return Dm_SqueezeDazzling.dm_buryBorrow;
+         return Dm_BreatheSecret.dm_alansonNation;
       }
    }
 }

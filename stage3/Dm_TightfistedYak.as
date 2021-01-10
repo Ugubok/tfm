@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_TightfistedYak extends Dm_LamentableNeighborly
+   public class Dm_TightfistedYak extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_TightfistedYak(param1:int, param2:Boolean)
+      public function Dm_TightfistedYak(param1:Dm_GamyHysterical, param2:String)
       {
-         super(Dm_ColorReject.dm_markedLate,Dm_ShockDouble.dm_shockLimit(Dm_ScissorsUnarmed.dm_cureExpert));
-         dm_redundantDetermined.writeShort(param1);
-         dm_redundantDetermined.writeBoolean(param2);
+         super(Dm_BranchAfterthought.dm_markedLate,Dm_FrailAuthority.dm_shockLimit);
+         dm_cureExpert.writeByte(param1.dm_redundantDetermined);
+         dm_cureExpert.writeUTF(param2);
       }
    }
 }

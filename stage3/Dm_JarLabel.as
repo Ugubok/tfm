@@ -2,16 +2,16 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class Dm_JarLabel extends Dm_SeaSlow
+   public class Dm_JarLabel extends Dm_WhistlePlough
    {
        
       
-      public var dm_abaftUnarmed:Boolean;
+      public var dm_orangePicture:int;
       
       public function Dm_JarLabel(param1:ByteArray)
       {
          super(param1);
-         this.dm_abaftUnarmed = param1.readByte() == Dm_CravenCrown.dm_orangePicture;
+         this.dm_orangePicture = param1.readShort();
       }
    }
 }

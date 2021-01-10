@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_CommonFit extends Dm_LamentableNeighborly
+   public class Dm_CommonFit extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_CommonFit(param1:String)
+      public function Dm_CommonFit(param1:int)
       {
-         super(Dm_ColorReject.dm_grainCompany,Dm_ShockDouble.dm_hugeOrdinary(Dm_ZonkedNew.dm_adSmart));
-         dm_paymentUndress.writeUTF(param1);
+         super(Dm_FaithfulCrowded.dm_grainCompany(Dm_PigCart.dm_hugeOrdinary),Dm_FaithfulCrowded.dm_grainCompany(Dm_SummerPlants.dm_paymentUndress));
+         dm_adSmart.writeByte(param1);
       }
    }
 }

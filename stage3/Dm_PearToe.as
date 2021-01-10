@@ -2,7 +2,7 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class Dm_PearToe extends Dm_SeaSlow
+   public class Dm_PearToe extends Dm_WhistlePlough
    {
        
       
@@ -14,7 +14,7 @@ package
       {
          super(param1);
          this.dm_colorSoothe = param1.readInt();
-         this.dm_spotlessAlert = param1.readInt();
+         this.dm_spotlessAlert = param1.readShort();
       }
    }
 }

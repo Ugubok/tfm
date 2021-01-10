@@ -1,17 +1,17 @@
 package
 {
-   public class Dm_ReligionClammy extends Dm_LamentableNeighborly
+   public class Dm_ReligionClammy extends Dm_OrderLie
    {
        
       
-      public function Dm_ReligionClammy(param1:int, param2:int, param3:int, param4:int)
+      public function Dm_ReligionClammy()
       {
-         super(Dm_ShockDouble.dm_successfulAnus(Dm_ZonkedNew.dm_wingGreedy),Dm_ColorReject.dm_interruptGaping);
-         dm_treatMeasure.writeInt(param1);
-         dm_treatMeasure.writeShort(param2);
-         dm_treatMeasure.writeShort(param3);
-         dm_treatMeasure.writeByte(param4);
-         dm_treatMeasure.writeShort(Dm_PigTrail.dm_rejectPrecious());
+         super();
+         dm_wingGreedy = new Dm_BaseballWhite();
+         dm_treatMeasure = new Dm_WickedRecognise();
+         dm_rejectPrecious = new Dm_HangingPuzzled();
+         dm_successfulAnus = new Dm_AbortiveThird();
+         dm_interruptGaping = new Dm_HuskyHateful();
       }
    }
 }

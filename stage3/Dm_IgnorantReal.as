@@ -1,30 +1,30 @@
 package
 {
-   public class Dm_IgnorantReal extends Dm_LamentableNeighborly
+   public class Dm_IgnorantReal extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_IgnorantReal(param1:int, param2:int, param3:int, param4:int, param5:int, param6:int, param7:int, param8:int, param9:Boolean, param10:Boolean, param11:int = 0)
       {
-         super(Dm_ZonkedNew.dm_aliveDildo,Dm_ThunderSquare.dm_panickyHumor);
-         dm_advertisementLackadaisical.writeByte(param1);
-         dm_advertisementLackadaisical.writeInt(param2);
-         dm_advertisementLackadaisical.writeShort(param3);
-         dm_advertisementLackadaisical.writeShort(param4);
-         dm_advertisementLackadaisical.writeShort(param5);
-         if(Dm_CollectFlower.dm_cakeNut > param6)
+         super(Dm_FaithfulCrowded.dm_advertisementLackadaisical(Dm_VerdantWhistle.dm_sleepyKaput),Dm_AdjustmentAnalyze.dm_dockBelief);
+         dm_aliveDildo.writeByte(param1);
+         dm_aliveDildo.writeInt(param2);
+         dm_aliveDildo.writeShort(param3);
+         dm_aliveDildo.writeShort(param4);
+         dm_aliveDildo.writeShort(param5);
+         if(Dm_AdjustmentAnalyze.dm_cakeNut > param6)
          {
-            dm_advertisementLackadaisical.writeShort(param6 % Dm_ShockDouble.dm_sleepyKaput(Dm_TendencyPrice.dm_dockBelief) + Dm_TendencyPrice.dm_dockBelief);
+            dm_aliveDildo.writeShort(param6 % Dm_FaithfulCrowded.dm_advertisementLackadaisical(Dm_SummerPlants.dm_panickyHumor) + Dm_FaithfulCrowded.dm_advertisementLackadaisical(Dm_SummerPlants.dm_panickyHumor));
          }
          else
          {
-            dm_advertisementLackadaisical.writeShort(param6);
+            dm_aliveDildo.writeShort(param6);
          }
-         dm_advertisementLackadaisical.writeByte(param7);
-         dm_advertisementLackadaisical.writeByte(param8);
-         dm_advertisementLackadaisical.writeByte(!!param9?int(Dm_CravenCrown.dm_dockIllustrious):int(Dm_CollectFlower.dm_cakeNut));
-         dm_advertisementLackadaisical.writeByte(!!param10?int(Dm_CravenCrown.dm_dockIllustrious):int(Dm_CollectFlower.dm_cakeNut));
-         dm_advertisementLackadaisical.writeUnsignedInt(param11);
+         dm_aliveDildo.writeByte(param7);
+         dm_aliveDildo.writeByte(param8);
+         dm_aliveDildo.writeByte(!!param9?int(Dm_PowerfulSecret.dm_dockIllustrious):int(Dm_FaithfulCrowded.dm_advertisementLackadaisical(Dm_AdjustmentAnalyze.dm_cakeNut)));
+         dm_aliveDildo.writeByte(!!param10?int(Dm_FaithfulCrowded.dm_advertisementLackadaisical(Dm_PowerfulSecret.dm_dockIllustrious)):int(Dm_AdjustmentAnalyze.dm_cakeNut));
+         dm_aliveDildo.writeUnsignedInt(param11);
       }
    }
 }

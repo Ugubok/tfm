@@ -10,9 +10,9 @@ package
       
       public var idSequence:int;
       
-      public var dm_wiseLaughable:int;
+      public var dm_birdDeadpan:int;
       
-      public var dm_sleepyClammy:Dm_BuryInvent;
+      public var dm_spotlessShop:Dm_DescribeSupply;
       
       public function Dm_SenseGlamorous(param1:Dm_InquisitiveIdea)
       {
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_shelfExplode() : String
+      public function get dm_bumpPinus() : String
       {
-         return Dm_ShockDouble.dm_hesitantInvite(Dm_IgnorantAspiring.dm_realChangeable);
+         return Dm_DeliverAgonizing.dm_shelfExplode;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_birdDeadpan;
+         return Dm_ExplainBranch.dm_harborLanguid;
       }
       
-      public function dm_cribLaborer() : Boolean
+      public function dm_realChangeable() : Boolean
       {
          return false;
       }
       
-      public function dm_harborLanguid() : int
+      public function dm_letterRabbits() : int
       {
-         return Dm_ShockDouble.dm_knotSigh(Dm_ZonkedNew.dm_possessNeighborly);
+         return Dm_FaithfulCrowded.dm_cribLaborer(Dm_VerdantWhistle.dm_possessNeighborly);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_wiseLaughable = param1.readByte();
+         this.dm_birdDeadpan = param1.readByte();
          var _loc2_:Dm_SuccinctVerdant = this.dm_searchMountain.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_BuryInvent)
+            if(_loc2_ is Dm_DescribeSupply)
             {
-               this.dm_sleepyClammy = Dm_BuryInvent(_loc2_);
-               this.dm_sleepyClammy.dm_letterRabbits = this;
+               this.dm_spotlessShop = Dm_DescribeSupply(_loc2_);
+               this.dm_spotlessShop.dm_hesitantInvite = this;
             }
          }
       }
       
-      public function get dm_spotlessShop() : int
+      public function get dm_wiseLaughable() : int
       {
-         return Dm_ShockDouble.dm_knotSigh(Dm_TastyDebt.dm_bumpPinus);
+         return Dm_FaithfulCrowded.dm_cribLaborer(Dm_PigCart.dm_knotSigh);
       }
    }
 }

@@ -4,17 +4,17 @@ package
    {
        
       
-      public var dm_defectiveJuggle:int;
+      public var dm_usedMove:int;
       
       public var dm_notebookSeed:Number;
       
-      public var dm_usedMove:int;
-      
       public var dm_expertSqueal:int;
       
-      public var dm_basinShelf:int;
+      public var dm_rightMeasly:int;
       
-      public var dm_rightMeasly:String;
+      public var dm_defectiveJuggle:int;
+      
+      public var dm_basinShelf:String;
       
       public function Dm_SmoothRub()
       {

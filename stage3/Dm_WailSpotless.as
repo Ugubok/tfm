@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_blotTeeny:Dm_InquisitiveIdea;
+      public var dm_conditionAir:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_trapAnus:int;
+      public var dm_screwDazzling:int;
       
-      public var dm_conditionAir:Dm_PloughPlants;
+      public var dm_exoticBehavior:Dm_HuskyTremble;
       
       public function Dm_WailSpotless(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_blotTeeny = param1;
+         this.dm_conditionAir = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_tendencyFascinated() : String
+      public function get dm_markedNew() : String
       {
-         return Dm_IgnorantAspiring.dm_exoticBehavior;
+         return Dm_FaithfulCrowded.dm_incompetentCloistered(Dm_DeliverAgonizing.dm_tendencyFascinated);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_screwDazzling;
+         return Dm_ExplainBranch.dm_blotTeeny;
       }
       
-      public function dm_nervousReligion() : Boolean
+      public function dm_spoilInexpensive() : Boolean
       {
          return false;
       }
       
-      public function dm_spaceTasteless() : int
+      public function dm_trapAnus() : int
       {
-         return Dm_ShockDouble.dm_cribSuccinct(Dm_ZonkedNew.dm_notebookGullible);
+         return Dm_FaithfulCrowded.dm_nervousReligion(Dm_VerdantWhistle.dm_cribSuccinct);
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_trapAnus = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_blotTeeny.recupereSequence(this.idSequence);
+         this.dm_screwDazzling = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_conditionAir.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_PloughPlants)
+            if(_loc2_ is Dm_HuskyTremble)
             {
-               this.dm_conditionAir = Dm_PloughPlants(_loc2_);
-               this.dm_conditionAir.dm_markedNew = this;
+               this.dm_exoticBehavior = Dm_HuskyTremble(_loc2_);
+               this.dm_exoticBehavior.dm_notebookGullible = this;
             }
          }
       }
       
       public function get dm_hobbiesUtopian() : int
       {
-         return Dm_ZonkedNew.dm_incompetentCloistered;
+         return Dm_BranchAfterthought.dm_spaceTasteless;
       }
    }
 }

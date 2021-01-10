@@ -10,9 +10,9 @@ package
       
       public var idSequence:int;
       
-      public var dm_jokeLudicrous:int;
+      public var dm_mouseBlush:int;
       
-      public var dm_babiesLackadaisical:Dm_WipeSki;
+      public var dm_laughableAunt:Dm_GreedyRetire;
       
       public function Dm_TediousHour(param1:Dm_InquisitiveIdea)
       {
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_heatExotic() : String
+      public function get dm_powerfulTangy() : String
       {
-         return Dm_IgnorantAspiring.dm_laughableAunt;
+         return Dm_FaithfulCrowded.dm_sighWail(Dm_DeliverAgonizing.dm_babiesLackadaisical);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_sighWail;
+         return Dm_ExplainBranch.dm_annoyAdvise;
       }
       
-      public function dm_annoyAdvise() : Boolean
+      public function dm_largeHumor() : Boolean
       {
          return false;
       }
       
       public function dm_cheatWoman() : int
       {
-         return Dm_ShockDouble.dm_efficientAutomatic(Dm_ZonkedNew.dm_beginnerTrip);
+         return Dm_VerdantWhistle.dm_beginnerTrip;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_jokeLudicrous = param1.readByte();
+         this.dm_mouseBlush = param1.readByte();
          var _loc2_:Dm_SuccinctVerdant = this.dm_lockLie.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_WipeSki)
+            if(_loc2_ is Dm_GreedyRetire)
             {
-               this.dm_babiesLackadaisical = Dm_WipeSki(_loc2_);
-               this.dm_babiesLackadaisical.dm_largeHumor = this;
+               this.dm_laughableAunt = Dm_GreedyRetire(_loc2_);
+               this.dm_laughableAunt.dm_jokeLudicrous = this;
             }
          }
       }
       
-      public function get dm_powerfulTangy() : int
+      public function get dm_efficientAutomatic() : int
       {
-         return Dm_HumorExotic.dm_mouseBlush;
+         return Dm_DeliverAgonizing.dm_heatExotic;
       }
    }
 }

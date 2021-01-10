@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_KurumaSqueal extends Dm_LamentableNeighborly
+   public class Dm_KurumaSqueal extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_KurumaSqueal(param1:int, param2:int)
+      public function Dm_KurumaSqueal(param1:int, param2:String)
       {
-         super(Dm_ZonkedNew.dm_noxiousHappy,Dm_TeenyBird.dm_lunasoleShake);
-         dm_realizeNation.writeInt(param1);
-         dm_realizeNation.writeInt(param2);
+         super(Dm_AdjustmentAnalyze.dm_snottyInterrupt,Dm_FaithfulCrowded.dm_realizeNation(Dm_ComplexNear.dm_noxiousHappy));
+         dm_lunasoleShake.writeShort(param1);
+         dm_lunasoleShake.writeUTF(param2);
       }
    }
 }

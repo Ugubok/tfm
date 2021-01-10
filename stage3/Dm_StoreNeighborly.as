@@ -2,19 +2,19 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class Dm_StoreNeighborly extends Dm_SeaSlow
+   public class Dm_StoreNeighborly extends Dm_WhistlePlough
    {
        
       
-      public var dm_cloverSock:int;
+      public var dm_uncleLate:int;
       
-      public var dm_handNest:int;
+      public var dm_utopianGovernment:Boolean;
       
       public function Dm_StoreNeighborly(param1:ByteArray)
       {
          super(param1);
-         this.dm_cloverSock = param1.readInt();
-         this.dm_handNest = param1.readShort();
+         this.dm_uncleLate = param1.readInt();
+         this.dm_utopianGovernment = param1.readByte() == Dm_FaithfulCrowded.dm_cloverSock(Dm_PowerfulSecret.dm_handNest);
       }
    }
 }

@@ -4,30 +4,30 @@ package
    {
        
       
-      public var dm_pipkaMighty:Dm_WeightAnus;
+      public var dm_pipkaMighty:Dm_PuzzledCute;
       
-      public var dm_tightfistedBoot:Dm_WeightAnus;
+      public var dm_smartMouse:Dm_PuzzledCute;
       
-      public var position:Dm_InconclusiveStem;
+      public var position:Dm_JumbledSearch;
       
-      public var velocity:Dm_InconclusiveStem;
+      public var velocity:Dm_JumbledSearch;
       
-      public var normal:Dm_InconclusiveStem;
+      public var normal:Dm_JumbledSearch;
+      
+      public var dm_tightfistedBoot:Number;
       
       public var dm_seaNation:Number;
       
-      public var dm_penitentDeliver:Number;
-      
       public var dm_lockAdjoining:Number;
       
-      public var dm_smartMouse:Dm_ImperfectLyrical;
+      public var dm_penitentDeliver:Dm_PurposeAlert;
       
       public function Dm_ChubbySuper()
       {
-         this.position = new Dm_InconclusiveStem();
-         this.velocity = new Dm_InconclusiveStem();
-         this.normal = new Dm_InconclusiveStem();
-         this.dm_smartMouse = new Dm_ImperfectLyrical();
+         this.position = new Dm_JumbledSearch();
+         this.velocity = new Dm_JumbledSearch();
+         this.normal = new Dm_JumbledSearch();
+         this.dm_penitentDeliver = new Dm_PurposeAlert();
          super();
       }
    }

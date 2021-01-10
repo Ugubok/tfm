@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_ProudPhone extends Dm_LamentableNeighborly
+   public class Dm_ProudPhone extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_ProudPhone(param1:int)
       {
-         super(Dm_IgnorantAspiring.dm_noisyMighty,Dm_ShockDouble.dm_jumbledObtainable(Dm_BirdAdvice.dm_roomGaping));
-         dm_distroBead.writeByte(param1);
+         super(Dm_AdjustmentAnalyze.dm_noisyMighty,Dm_BranchAfterthought.dm_distroBead);
+         dm_roomGaping.writeByte(param1);
       }
    }
 }

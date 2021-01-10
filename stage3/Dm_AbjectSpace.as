@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_AbjectSpace extends Dm_LamentableNeighborly
+   public class Dm_AbjectSpace extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_AbjectSpace(param1:String, param2:String)
+      public function Dm_AbjectSpace(param1:int, param2:int)
       {
-         super(Dm_TendencyPrice.dm_signAnus,Dm_TastyDebt.dm_passAbaft);
-         dm_farmFaint.writeUTF(param1);
-         dm_farmFaint.writeUTF(param2);
+         super(Dm_PowerfulSecret.dm_signAnus,Dm_FaithfulCrowded.dm_farmFaint(Dm_AgreeableMountain.dm_alertSerious));
+         dm_passAbaft.writeShort(param1);
+         dm_passAbaft.writeShort(param2);
       }
    }
 }

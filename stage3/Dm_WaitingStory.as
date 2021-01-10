@@ -4,25 +4,25 @@ package
    {
        
       
-      public var dm_ajarNation:Dm_WeightAnus;
+      public var dm_undressMomentous:Dm_PuzzledCute;
       
-      public var dm_undressMomentous:Dm_WeightAnus;
+      public var dm_ajarNation:Dm_PuzzledCute;
       
-      public var position:Dm_InconclusiveStem;
+      public var position:Dm_JumbledSearch;
       
-      public var normal:Dm_InconclusiveStem;
+      public var normal:Dm_JumbledSearch;
+      
+      public var dm_unarmedLyrical:Number;
       
       public var dm_waitingRub:Number;
       
-      public var dm_easyScissors:Number;
-      
-      public var dm_unarmedLyrical:Dm_ImperfectLyrical;
+      public var dm_easyScissors:Dm_PurposeAlert;
       
       public function Dm_WaitingStory()
       {
-         this.position = new Dm_InconclusiveStem();
-         this.normal = new Dm_InconclusiveStem();
-         this.dm_unarmedLyrical = new Dm_ImperfectLyrical();
+         this.position = new Dm_JumbledSearch();
+         this.normal = new Dm_JumbledSearch();
+         this.dm_easyScissors = new Dm_PurposeAlert();
          super();
       }
    }

@@ -1,17 +1,17 @@
 package
 {
-   public class Dm_BoastProse extends Dm_OrderLie
+   public class Dm_BoastProse extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_BoastProse()
+      public function Dm_BoastProse(param1:int, param2:int, param3:int, param4:int)
       {
-         super();
-         dm_gruesomeFit = new Dm_BaseballWhite();
-         dm_cureCapricious = new Dm_WickedRecognise();
-         dm_grotesqueFive = new Dm_HangingPuzzled();
-         dm_lackadaisicalTasteless = new Dm_AbortiveThird();
-         dm_beliefSpurious = new Dm_HuskyHateful();
+         super(Dm_VerdantWhistle.dm_lackadaisicalTasteless,Dm_PowerfulSecret.dm_beliefSpurious);
+         dm_grotesqueFive.writeInt(param1);
+         dm_grotesqueFive.writeShort(param2);
+         dm_grotesqueFive.writeShort(param3);
+         dm_grotesqueFive.writeByte(param4);
+         dm_grotesqueFive.writeShort(Dm_KittensOil.dm_cureCapricious());
       }
    }
 }

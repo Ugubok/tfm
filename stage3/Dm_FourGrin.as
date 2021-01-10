@@ -1,12 +1,12 @@
 package
 {
-   public class Dm_FourGrin extends Dm_LamentableNeighborly
+   public class Dm_FourGrin extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_FourGrin()
       {
-         super(Dm_ShockDouble.dm_treatPayment(Dm_CravenCrown.dm_burlyHorn),Dm_BeadBirds.dm_chinHateful);
+         super(Dm_EdgeAngle.dm_treatPayment,Dm_FaithfulCrowded.dm_chinHateful(Dm_RobinQuack.dm_burlyHorn));
       }
    }
 }

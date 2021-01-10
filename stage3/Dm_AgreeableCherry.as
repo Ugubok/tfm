@@ -2,7 +2,7 @@ package
 {
    import flash.utils.ByteArray;
    
-   public class Dm_AgreeableCherry extends Dm_SeaSlow
+   public class Dm_AgreeableCherry extends Dm_WhistlePlough
    {
        
       
@@ -11,7 +11,7 @@ package
       public function Dm_AgreeableCherry(param1:ByteArray)
       {
          super(param1);
-         this.dm_wingTrap = param1.readByte();
+         this.dm_wingTrap = param1.readUnsignedShort();
       }
    }
 }

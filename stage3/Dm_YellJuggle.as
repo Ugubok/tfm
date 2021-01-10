@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_YellJuggle extends Dm_LamentableNeighborly
+   public class Dm_YellJuggle extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_YellJuggle(param1:String, param2:int)
+      public function Dm_YellJuggle(param1:int, param2:int)
       {
-         super(Dm_IgnorantAspiring.dm_ploughPorter,Dm_GrateSatisfy.dm_abjectOpposite);
-         dm_mendBreathe.writeUTF(param1);
-         dm_mendBreathe.writeByte(param2);
+         super(Dm_FaithfulCrowded.dm_mendBreathe(Dm_VerdantWhistle.dm_abjectOpposite),Dm_PigCart.dm_analyzeDisappear);
+         dm_ploughPorter.writeInt(param1);
+         dm_ploughPorter.writeInt(param2);
       }
    }
 }

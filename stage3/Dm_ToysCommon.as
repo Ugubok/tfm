@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_nearRight:Dm_InquisitiveIdea;
+      public var dm_shadeShut:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_shadeShut:int;
+      public var dm_sistersUnit:int;
       
-      public var dm_cureHanging:Dm_AjarKnot;
+      public var dm_describeSystem:Dm_RoomGovernment;
       
       public function Dm_ToysCommon(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_nearRight = param1;
+         this.dm_shadeShut = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_describeSystem() : String
+      public function get dm_nearRight() : String
       {
-         return Dm_ShockDouble.dm_narrowAbject(Dm_IgnorantAspiring.dm_breatheBear);
+         return Dm_DeliverAgonizing.dm_cureHanging;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_symptomaticSuccinct;
+         return Dm_ExplainBranch.dm_seriousIllustrious;
       }
       
-      public function dm_seriousIllustrious() : Boolean
+      public function dm_breatheBear() : Boolean
       {
          return false;
       }
       
       public function dm_airMessy() : int
       {
-         return Dm_ZonkedNew.dm_identifyCycle;
+         return Dm_VerdantWhistle.dm_identifyCycle;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_shadeShut = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_nearRight.recupereSequence(this.idSequence);
+         this.dm_sistersUnit = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_shadeShut.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_AjarKnot)
+            if(_loc2_ is Dm_RoomGovernment)
             {
-               this.dm_cureHanging = Dm_AjarKnot(_loc2_);
-               this.dm_cureHanging.dm_sistersUnit = this;
+               this.dm_describeSystem = Dm_RoomGovernment(_loc2_);
+               this.dm_describeSystem.dm_liePoison = this;
             }
          }
       }
       
-      public function get dm_liePoison() : int
+      public function get dm_possessGrain() : int
       {
-         return Dm_AgreeThank.dm_possessGrain;
+         return Dm_PaintAblaze.dm_symptomaticSuccinct;
       }
    }
 }

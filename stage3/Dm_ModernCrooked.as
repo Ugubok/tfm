@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_ModernCrooked extends Dm_LamentableNeighborly
+   public class Dm_ModernCrooked extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_ModernCrooked(param1:int)
       {
-         super(Dm_SignZip.dm_painstakingAdjoining,Dm_ShockDouble.dm_robinObtainable(Dm_TeenyBird.dm_spoilProgram));
-         dm_inviteSigh.writeByte(param1);
+         super(Dm_FaithfulCrowded.dm_inviteSigh(Dm_PigCart.dm_spoilProgram),Dm_CrookedTouch.dm_robinObtainable);
+         dm_painstakingAdjoining.writeByte(param1);
       }
    }
 }

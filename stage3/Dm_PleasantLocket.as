@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var dm_sweaterWren:String;
+      public var dm_shockingLaughable:String;
       
-      public var dm_repulsiveSpoon:Boolean;
+      public var dm_fiveCalculate:Boolean;
       
-      public var dm_hourFantastic:Dm_TransportArm;
+      public var dm_symptomaticTreat:Dm_SpaceSea;
       
       public function Dm_PleasantLocket(param1:int, param2:String, param3:Boolean)
       {
          super();
          this.idSequence = param1;
-         this.dm_sweaterWren = param2;
-         this.dm_repulsiveSpoon = param3;
+         this.dm_shockingLaughable = param2;
+         this.dm_fiveCalculate = param3;
       }
       
       public function getIdSequence() : int
@@ -27,31 +27,31 @@ package
          return this.idSequence;
       }
       
-      public function get dm_bitAgreeable() : String
+      public function get dm_sweaterWren() : String
       {
-         return Dm_IgnorantAspiring.dm_fiveCalculate;
+         return Dm_DeliverAgonizing.dm_yellScintillating;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_yellScintillating;
+         return Dm_ExplainBranch.dm_crookedWatery;
       }
       
-      public function dm_shockingLaughable() : Boolean
+      public function dm_doubleCold() : Boolean
       {
          return false;
       }
       
-      override public function dm_paltryFrail() : int
+      override public function dm_repulsiveSpoon() : int
       {
-         return Dm_ShockDouble.dm_doubleCold(Dm_SqueezeDazzling.dm_symptomaticTreat) + this.dm_sweaterWren.length;
+         return Dm_StomachBlush.dm_paltryFrail + this.dm_shockingLaughable.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.dm_sweaterWren);
-         param1.writeByte(!!this.dm_repulsiveSpoon?int(Dm_ShockDouble.dm_doubleCold(Dm_CravenCrown.dm_firstSound)):int(Dm_ShockDouble.dm_doubleCold(Dm_CollectFlower.dm_crookedWatery)));
+         param1.writeUTF(this.dm_shockingLaughable);
+         param1.writeByte(!!this.dm_fiveCalculate?int(Dm_FaithfulCrowded.dm_hourFantastic(Dm_PowerfulSecret.dm_firstSound)):int(Dm_AdjustmentAnalyze.dm_bitAgreeable));
       }
    }
 }

@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var dm_personGrotesque:String;
+      public var dm_happyChicken:String;
       
-      public var dm_soupLoaf:Dm_DiscussionVolcano;
+      public var dm_nervousMend:Dm_VagabondFlock;
       
       public function Dm_CarelessCute(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.dm_personGrotesque = param2;
+         this.dm_happyChicken = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get dm_orderBrass() : String
+      public function get dm_agreeWipe() : String
       {
-         return Dm_ShockDouble.dm_rayDraconian(Dm_IgnorantAspiring.dm_nervousMend);
+         return Dm_DeliverAgonizing.dm_orderBrass;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_ablazeRiver;
+         return Dm_ExplainBranch.dm_juggleJuice;
       }
       
-      public function dm_happyChicken() : Boolean
+      public function dm_soupLoaf() : Boolean
       {
          return false;
       }
       
-      override public function dm_juggleJuice() : int
+      override public function dm_partyCard() : int
       {
-         return Dm_ShockDouble.dm_agreeWipe(Dm_TastyDebt.dm_partyCard) + this.dm_personGrotesque.length;
+         return Dm_FaithfulCrowded.dm_ablazeRiver(Dm_BranchAfterthought.dm_rayDraconian) + this.dm_happyChicken.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.dm_personGrotesque);
+         param1.writeUTF(this.dm_happyChicken);
       }
    }
 }

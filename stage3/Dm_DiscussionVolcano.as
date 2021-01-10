@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_balanceTasty:Dm_InquisitiveIdea;
+      public var dm_entertainingSoup:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_basinList:int;
+      public var dm_cuteBoundless:int;
       
-      public var dm_rayTaboo:Dm_CarelessCute;
+      public var dm_efficientDoctor:Dm_ListDouble;
       
       public function Dm_DiscussionVolcano(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_balanceTasty = param1;
+         this.dm_entertainingSoup = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_earthquakeWasteful() : String
+      public function get dm_basinList() : String
       {
-         return Dm_IgnorantAspiring.dm_classSofa;
+         return Dm_DeliverAgonizing.dm_earthquakeWasteful;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_cuteBoundless;
+         return Dm_ExplainBranch.dm_programPerform;
       }
       
-      public function dm_rabbitsInstinctive() : Boolean
+      public function dm_classSofa() : Boolean
       {
          return false;
       }
       
-      public function dm_coalLyrical() : int
+      public function dm_balanceTasty() : int
       {
-         return Dm_ShockDouble.dm_detailElite(Dm_ZonkedNew.dm_entertainingSoup);
+         return Dm_VerdantWhistle.dm_detailElite;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_basinList = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_balanceTasty.recupereSequence(this.idSequence);
+         this.dm_cuteBoundless = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_entertainingSoup.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_CarelessCute)
+            if(_loc2_ is Dm_ListDouble)
             {
-               this.dm_rayTaboo = Dm_CarelessCute(_loc2_);
-               this.dm_rayTaboo.dm_efficientDoctor = this;
+               this.dm_efficientDoctor = Dm_ListDouble(_loc2_);
+               this.dm_efficientDoctor.dm_rabbitsInstinctive = this;
             }
          }
       }
       
-      public function get dm_programPerform() : int
+      public function get dm_metalWipe() : int
       {
-         return Dm_IgnorantAspiring.dm_metalWipe;
+         return Dm_FaithfulCrowded.dm_coalLyrical(Dm_VerdantWhistle.dm_rayTaboo);
       }
    }
 }

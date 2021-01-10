@@ -6,18 +6,18 @@ package
    {
        
       
-      public var dm_innateNut:Dm_InquisitiveIdea;
+      public var dm_yamDeadpan:Dm_InquisitiveIdea;
       
       public var idSequence:int;
       
-      public var dm_storyYak:int;
+      public var dm_dildoSleep:int;
       
-      public var dm_painstakingBike:Dm_NutBeginner;
+      public var dm_ajarPlants:Dm_CureDiscussion;
       
       public function Dm_LookStormy(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_innateNut = param1;
+         this.dm_yamDeadpan = param1;
       }
       
       public function getIdSequence() : int
@@ -25,44 +25,44 @@ package
          return this.idSequence;
       }
       
-      public function get dm_ajarPlants() : String
+      public function get dm_storyYak() : String
       {
-         return Dm_IgnorantAspiring.dm_grateShoe;
+         return Dm_DeliverAgonizing.dm_metalWindy;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_dildoSleep;
+         return Dm_ExplainBranch.dm_dearFade;
       }
       
-      public function dm_metalWindy() : Boolean
+      public function dm_bombPaltry() : Boolean
       {
          return false;
       }
       
-      public function dm_joyousUndress() : int
+      public function dm_innateNut() : int
       {
-         return Dm_ShockDouble.dm_blushStale(Dm_ZonkedNew.dm_yamDeadpan);
+         return Dm_VerdantWhistle.dm_blushStale;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          this.idSequence = param1.readInt();
-         this.dm_storyYak = param1.readByte();
-         var _loc2_:Dm_SuccinctVerdant = this.dm_innateNut.recupereSequence(this.idSequence);
+         this.dm_dildoSleep = param1.readByte();
+         var _loc2_:Dm_SuccinctVerdant = this.dm_yamDeadpan.recupereSequence(this.idSequence);
          if(_loc2_ != null)
          {
-            if(_loc2_ is Dm_NutBeginner)
+            if(_loc2_ is Dm_CureDiscussion)
             {
-               this.dm_painstakingBike = Dm_NutBeginner(_loc2_);
-               this.dm_painstakingBike.dm_splendidBlush = this;
+               this.dm_ajarPlants = Dm_CureDiscussion(_loc2_);
+               this.dm_ajarPlants.dm_joyousUndress = this;
             }
          }
       }
       
-      public function get dm_bombPaltry() : int
+      public function get dm_splendidBlush() : int
       {
-         return Dm_ShockDouble.dm_blushStale(Dm_BeadBirds.dm_dearFade);
+         return Dm_BreatheSecret.dm_grateShoe;
       }
    }
 }

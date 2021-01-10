@@ -9,240 +9,168 @@ package
    import flash.text.TextFormat;
    import flash.text.TextFormatAlign;
    
-   public class Dm_ColdBoot extends Dm_PaltryViolet
+   public class Dm_ColdBoot extends Dm_CoalCan
    {
       
-      public static const dm_tastelessEggnog:ColorTransform = new ColorTransform();
+      public static const dm_inviteUnique:ColorTransform = new ColorTransform();
       
-      public static const dm_grandfatherMarked:ColorTransform = new ColorTransform11 /1011 /1011 /10);
+      public static const dm_thickExplain:ColorTransform = new ColorTransform11 /1011 /1011 /10);
        
       
-      public var dm_vivaciousRoom:Sprite;
+      public var dm_knowledgeableMouse:Sprite;
       
-      public var dm_efficientFaint:Dm_QuackReal;
+      public var dm_superHate:Dm_ColossalThought;
       
-      public var dm_thoughtSpoon:int;
+      public var dm_tastelessEggnog:int;
       
-      public var dm_accurateTeeny:int;
+      public var dm_recordPail:int;
       
       public var couleurEnCours:int;
       
-      public var dm_disgustingBack:Boolean = true;
-      
       public var dm_yamWasteful:Boolean = true;
+      
+      public var dm_flowFour:Boolean = true;
       
       public function Dm_ColdBoot(param1:String, param2:int = 0, param3:Function = null, param4:Object = null, param5:int = 0, param6:Number = 1)
       {
-         super(Dm_ShockDouble.dm_inviteUnique(Dm_CollectFlower.dm_discussionBaseball),Dm_CollectFlower.dm_discussionBaseball);
-         mouseChildren = Dm_HarmonyWoman.dm_smileNut;
-         cacheAsBitmap = Dm_HarmonyWoman.dm_advertisementThreatening;
-         this.dm_thoughtSpoon = dm_hourInstruct.dm_colorChubby;
-         this.dm_accurateTeeny = dm_hourInstruct.dm_jugglePuncture;
-         this.couleurEnCours = this.dm_thoughtSpoon;
-         this.dm_vivaciousRoom = Dm_FlowSea.dm_separateBlot(dm_hourInstruct.dm_crookedBlush);
-         if(dm_hourInstruct.dm_ordinaryGrate)
+         super(Dm_FaithfulCrowded.dm_smileNut(Dm_AdjustmentAnalyze.dm_discussionBaseball),Dm_AdjustmentAnalyze.dm_discussionBaseball);
+         mouseChildren = Dm_NaughtyAdvise.dm_redundantBright;
+         cacheAsBitmap = Dm_NaughtyAdvise.dm_boastGamy;
+         this.dm_tastelessEggnog = dm_branchSmart.dm_beautifulSoothe;
+         this.dm_recordPail = dm_branchSmart.dm_jugglePuncture;
+         this.couleurEnCours = this.dm_tastelessEggnog;
+         this.dm_knowledgeableMouse = Dm_FlowSea.dm_repeatHarbor(dm_branchSmart.dm_whiteTremble);
+         if(dm_branchSmart.dm_manyToys)
          {
-            this.dm_vivaciousRoom.filters = dm_hourInstruct.dm_ordinaryGrate;
+            this.dm_knowledgeableMouse.filters = dm_branchSmart.dm_manyToys;
          }
-         this.dm_vivaciousRoom.alpha = param6;
-         this.dm_efficientFaint = new Dm_QuackReal(Dm_ScissorsUnarmed.dm_reactionDislike,Dm_CravenCrown.dm_manyToys,Dm_CravenCrown.dm_manyToys);
-         this.dm_efficientFaint.y = Dm_ShockDouble.dm_inviteUnique(Dm_LegStrengthen.dm_thickExplain);
-         this.dm_efficientFaint.x = Dm_ShockDouble.dm_inviteUnique(Dm_LegStrengthen.dm_thickExplain);
-         this.dm_efficientFaint.defaultTextFormat = dm_hourInstruct.dm_awakeFlock;
-         this.dm_efficientFaint.textColor = this.dm_thoughtSpoon;
-         this.dm_sighRabbits(TextFormatAlign.CENTER);
-         if(param2 == Dm_ShockDouble.dm_inviteUnique(Dm_CollectFlower.dm_discussionBaseball))
+         this.dm_knowledgeableMouse.alpha = param6;
+         this.dm_superHate = new Dm_ColossalThought(Dm_FaithfulCrowded.dm_accurateTeeny(Dm_CloverMitten.dm_vivaciousRoom),Dm_PowerfulSecret.dm_stormyPerson,Dm_FaithfulCrowded.dm_smileNut(Dm_PowerfulSecret.dm_stormyPerson));
+         this.dm_superHate.y = Dm_EdgeAngle.dm_fearfulDeliver;
+         this.dm_superHate.x = Dm_EdgeAngle.dm_fearfulDeliver;
+         this.dm_superHate.defaultTextFormat = dm_branchSmart.dm_sighRabbits;
+         this.dm_superHate.textColor = this.dm_tastelessEggnog;
+         this.dm_lateSpiky(TextFormatAlign.CENTER);
+         if(param2 == Dm_FaithfulCrowded.dm_smileNut(Dm_AdjustmentAnalyze.dm_discussionBaseball))
          {
-            this.dm_efficientFaint.autoSize = TextFieldAutoSize.LEFT;
+            this.dm_superHate.autoSize = TextFieldAutoSize.LEFT;
          }
          else
          {
-            this.dm_efficientFaint.width = -Dm_ShockDouble.dm_inviteUnique(Dm_ScissorsUnarmed.dm_stormyPerson) + param2;
-            this.dm_vivaciousRoom.width = param2;
+            this.dm_superHate.width = -Dm_VulgarPrepare.dm_phoneCrook + param2;
+            this.dm_knowledgeableMouse.width = param2;
          }
-         if(Dm_ShockDouble.dm_inviteUnique(Dm_CollectFlower.dm_discussionBaseball) == param5)
+         if(Dm_AdjustmentAnalyze.dm_discussionBaseball == param5)
          {
-            if(Dm_TabooPlease.dm_superCute.dm_superHate)
+            if(Dm_GruesomeProud.dm_sparkleClever.dm_separateBlot)
             {
-               this.dm_efficientFaint.height = Dm_ShockDouble.dm_inviteUnique(Dm_TendencyPrice.dm_fearfulDeliver);
-               this.dm_vivaciousRoom.height = Dm_ShockDouble.dm_inviteUnique(Dm_TeenyBird.dm_recordPail);
+               this.dm_superHate.height = Dm_FaithfulCrowded.dm_smileNut(Dm_RobinQuack.dm_chickenShame);
+               this.dm_knowledgeableMouse.height = Dm_BranchAfterthought.dm_efficientFaint;
             }
             else
             {
-               this.dm_efficientFaint.height = Dm_ThunderSquare.dm_beautifulSoothe;
-               this.dm_vivaciousRoom.height = Dm_SqueezeDazzling.dm_whiteTremble;
+               this.dm_superHate.height = Dm_AdjustmentAnalyze.dm_adviceHoc;
+               this.dm_knowledgeableMouse.height = Dm_BreatheSecret.dm_disgustingBack;
             }
-            this.dm_efficientFaint.height = dm_hourInstruct.dm_knowledgeableMouse;
-            this.dm_vivaciousRoom.height = Dm_LegStrengthen.dm_thickExplain + dm_hourInstruct.dm_knowledgeableMouse;
-            this.dm_efficientFaint.multiline = Dm_HarmonyWoman.dm_smileNut;
-            this.dm_efficientFaint.wordWrap = Dm_HarmonyWoman.dm_smileNut;
+            this.dm_superHate.height = dm_branchSmart.dm_wateryBalance;
+            this.dm_knowledgeableMouse.height = Dm_FaithfulCrowded.dm_smileNut(Dm_EdgeAngle.dm_fearfulDeliver) + dm_branchSmart.dm_wateryBalance;
+            this.dm_superHate.multiline = Dm_NaughtyAdvise.dm_redundantBright;
+            this.dm_superHate.wordWrap = Dm_NaughtyAdvise.dm_redundantBright;
          }
          else
          {
-            this.dm_efficientFaint.height = param5;
-            this.dm_vivaciousRoom.height = param5;
-            this.dm_efficientFaint.multiline = Dm_HarmonyWoman.dm_advertisementThreatening;
-            this.dm_efficientFaint.wordWrap = Dm_HarmonyWoman.dm_advertisementThreatening;
+            this.dm_superHate.height = param5;
+            this.dm_knowledgeableMouse.height = param5;
+            this.dm_superHate.multiline = Dm_NaughtyAdvise.dm_boastGamy;
+            this.dm_superHate.wordWrap = Dm_NaughtyAdvise.dm_boastGamy;
          }
-         this.dm_efficientFaint.htmlText = param1;
-         if(Dm_ShockDouble.dm_inviteUnique(Dm_CollectFlower.dm_discussionBaseball) == param2)
+         this.dm_superHate.htmlText = param1;
+         if(Dm_AdjustmentAnalyze.dm_discussionBaseball == param2)
          {
-            this.dm_vivaciousRoom.width = Dm_ShockDouble.dm_inviteUnique(Dm_ThunderSquare.dm_beautifulSoothe) + this.dm_efficientFaint.width;
-            this.dm_efficientFaint.x = Dm_BirdAdvice.dm_phoneCrook;
+            this.dm_knowledgeableMouse.width = Dm_FaithfulCrowded.dm_smileNut(Dm_AdjustmentAnalyze.dm_adviceHoc) + this.dm_superHate.width;
+            this.dm_superHate.x = Dm_FaithfulCrowded.dm_smileNut(Dm_FrailAuthority.dm_wealthyAnnoying);
          }
-         addChild(this.dm_vivaciousRoom);
-         addChild(this.dm_efficientFaint);
-         addEventListener(MouseEvent.MOUSE_DOWN,this.dm_flowFour);
-         addEventListener(MouseEvent.MOUSE_OVER,this.dm_usedWall);
-         addEventListener(MouseEvent.MOUSE_OUT,this.dm_adviceHoc);
-         useHandCursor = Dm_HarmonyWoman.dm_advertisementThreatening;
-         buttonMode = Dm_HarmonyWoman.dm_advertisementThreatening;
-         dm_alansonDraconian = this.dm_vivaciousRoom.width;
-         dm_lateSpiky = this.dm_vivaciousRoom.height;
+         addChild(this.dm_knowledgeableMouse);
+         addChild(this.dm_superHate);
+         addEventListener(MouseEvent.MOUSE_DOWN,this.dm_awakeFlock);
+         addEventListener(MouseEvent.MOUSE_OVER,this.dm_reactionDislike);
+         addEventListener(MouseEvent.MOUSE_OUT,this.dm_grandfatherMarked);
+         useHandCursor = Dm_NaughtyAdvise.dm_boastGamy;
+         buttonMode = Dm_NaughtyAdvise.dm_boastGamy;
+         dm_wateryTiresome = this.dm_knowledgeableMouse.width;
+         dm_hourInstruct = this.dm_knowledgeableMouse.height;
          if(param3 != null)
          {
-            dm_inventReject(param3,param4,false);
+            dm_beliefAnnoy(param3,param4,false);
          }
       }
       
-      public function dm_usedWall(param1:MouseEvent) : void
+      public function dm_reactionDislike(param1:MouseEvent) : void
       {
-         if(this.couleurEnCours != this.dm_accurateTeeny && this.dm_disgustingBack)
+         if(this.couleurEnCours != this.dm_recordPail && this.dm_yamWasteful)
          {
-            this.couleurEnCours = this.dm_accurateTeeny;
-            transform.colorTransform = Dm_ColdBoot.dm_grandfatherMarked;
-            if(this.dm_yamWasteful)
+            this.couleurEnCours = this.dm_recordPail;
+            transform.colorTransform = Dm_ColdBoot.dm_thickExplain;
+            if(this.dm_flowFour)
             {
-               this.dm_efficientFaint.textColor = this.couleurEnCours;
+               this.dm_superHate.textColor = this.couleurEnCours;
             }
          }
       }
       
-      public function dm_branchSmart(param1:String, param2:Boolean = true) : Dm_ColdBoot
+      public function dm_usedWall(param1:int, param2:int = 0) : Dm_ColdBoot
       {
-         if(param2)
+         if(Dm_FaithfulCrowded.dm_smileNut(Dm_AdjustmentAnalyze.dm_discussionBaseball) == param1)
          {
-            this.dm_efficientFaint.htmlText = param1;
+            this.dm_superHate.autoSize = TextFieldAutoSize.LEFT;
          }
          else
          {
-            this.dm_efficientFaint.text = param1;
+            this.dm_superHate.width = param1 - Dm_VulgarPrepare.dm_phoneCrook;
+            this.dm_knowledgeableMouse.width = param1;
          }
-         return this;
-      }
-      
-      public function dm_sighRabbits(param1:String) : Dm_ColdBoot
-      {
-         var _loc2_:TextFormat = this.dm_efficientFaint.defaultTextFormat;
-         _loc2_.align = param1;
-         this.dm_efficientFaint.defaultTextFormat = _loc2_;
-         return this;
-      }
-      
-      public function dm_redundantBright(param1:int, param2:int = 0) : Dm_ColdBoot
-      {
-         if(param1 == Dm_ShockDouble.dm_inviteUnique(Dm_CollectFlower.dm_discussionBaseball))
+         if(param2 == Dm_AdjustmentAnalyze.dm_discussionBaseball)
          {
-            this.dm_efficientFaint.autoSize = TextFieldAutoSize.LEFT;
-         }
-         else
-         {
-            this.dm_efficientFaint.width = -Dm_ShockDouble.dm_inviteUnique(Dm_ScissorsUnarmed.dm_stormyPerson) + param1;
-            this.dm_vivaciousRoom.width = param1;
-         }
-         if(Dm_ShockDouble.dm_inviteUnique(Dm_CollectFlower.dm_discussionBaseball) == param2)
-         {
-            if(Dm_TabooPlease.dm_superCute.dm_superHate)
+            if(Dm_GruesomeProud.dm_sparkleClever.dm_separateBlot)
             {
-               this.dm_efficientFaint.height = Dm_ShockDouble.dm_inviteUnique(Dm_TendencyPrice.dm_fearfulDeliver);
-               this.dm_vivaciousRoom.height = Dm_ShockDouble.dm_inviteUnique(Dm_TeenyBird.dm_recordPail);
+               this.dm_superHate.height = Dm_RobinQuack.dm_chickenShame;
+               this.dm_knowledgeableMouse.height = Dm_BranchAfterthought.dm_efficientFaint;
             }
             else
             {
-               this.dm_efficientFaint.height = Dm_ThunderSquare.dm_beautifulSoothe;
-               this.dm_vivaciousRoom.height = Dm_ShockDouble.dm_inviteUnique(Dm_SqueezeDazzling.dm_whiteTremble);
+               this.dm_superHate.height = Dm_FaithfulCrowded.dm_smileNut(Dm_AdjustmentAnalyze.dm_adviceHoc);
+               this.dm_knowledgeableMouse.height = Dm_FaithfulCrowded.dm_smileNut(Dm_BreatheSecret.dm_disgustingBack);
             }
-            this.dm_efficientFaint.height = dm_hourInstruct.dm_knowledgeableMouse;
-            this.dm_vivaciousRoom.height = dm_hourInstruct.dm_knowledgeableMouse + Dm_ShockDouble.dm_inviteUnique(Dm_LegStrengthen.dm_thickExplain);
-            this.dm_efficientFaint.multiline = Dm_HarmonyWoman.dm_smileNut;
-            this.dm_efficientFaint.wordWrap = Dm_HarmonyWoman.dm_smileNut;
+            this.dm_superHate.height = dm_branchSmart.dm_wateryBalance;
+            this.dm_knowledgeableMouse.height = dm_branchSmart.dm_wateryBalance + Dm_EdgeAngle.dm_fearfulDeliver;
+            this.dm_superHate.multiline = Dm_NaughtyAdvise.dm_redundantBright;
+            this.dm_superHate.wordWrap = Dm_NaughtyAdvise.dm_redundantBright;
          }
          else
          {
-            this.dm_efficientFaint.height = param2;
-            this.dm_vivaciousRoom.height = param2;
-            this.dm_efficientFaint.multiline = Dm_HarmonyWoman.dm_advertisementThreatening;
-            this.dm_efficientFaint.wordWrap = Dm_HarmonyWoman.dm_advertisementThreatening;
+            this.dm_superHate.height = param2;
+            this.dm_knowledgeableMouse.height = param2;
+            this.dm_superHate.multiline = Dm_NaughtyAdvise.dm_boastGamy;
+            this.dm_superHate.wordWrap = Dm_NaughtyAdvise.dm_boastGamy;
          }
-         if(param1 == Dm_ShockDouble.dm_inviteUnique(Dm_CollectFlower.dm_discussionBaseball))
+         if(param1 == Dm_FaithfulCrowded.dm_smileNut(Dm_AdjustmentAnalyze.dm_discussionBaseball))
          {
-            this.dm_vivaciousRoom.width = Dm_ZonkedNew.dm_beliefAnnoy + this.dm_efficientFaint.width;
+            this.dm_knowledgeableMouse.width = Dm_VerdantWhistle.dm_crookedBlush + this.dm_superHate.width;
          }
-         dm_alansonDraconian = this.dm_vivaciousRoom.width;
-         dm_lateSpiky = this.dm_vivaciousRoom.height;
+         dm_wateryTiresome = this.dm_knowledgeableMouse.width;
+         dm_hourInstruct = this.dm_knowledgeableMouse.height;
          return this;
       }
       
-      public function dm_flowFour(param1:Event) : void
-      {
-         this.dm_wealthyAnnoying(Dm_CravenCrown.dm_manyToys);
-      }
-      
-      public function dm_wealthyAnnoying(param1:int) : void
-      {
-      }
-      
-      public function dm_repeatHarbor() : Dm_QuackReal
-      {
-         return this.dm_efficientFaint;
-      }
-      
-      public function dm_chickenShame() : Boolean
-      {
-         return this.dm_disgustingBack;
-      }
-      
-      public function dm_sparkleClever(param1:Function = null, param2:Object = null) : Dm_ColdBoot
-      {
-         if(param1 != null)
-         {
-            dm_inventReject(param1,param2,false);
-         }
-         return this;
-      }
-      
-      public function dm_boastGamy(param1:Boolean) : Dm_ColdBoot
-      {
-         this.dm_yamWasteful = param1;
-         return this;
-      }
-      
-      public function dm_cheatAdvice(param1:Boolean) : Dm_ColdBoot
-      {
-         this.dm_disgustingBack = param1;
-         if(param1)
-         {
-            mouseEnabled = Dm_HarmonyWoman.dm_advertisementThreatening;
-            this.dm_efficientFaint.textColor = dm_hourInstruct.dm_colorChubby;
-         }
-         else
-         {
-            mouseEnabled = Dm_HarmonyWoman.dm_smileNut;
-            this.dm_efficientFaint.textColor = dm_hourInstruct.dm_wateryTiresome;
-         }
-         dm_afterthoughtCry(!param1,Dm_ShockDouble.dm_classManage(Dm_GrateSatisfy.dm_crookFive),false);
-         return this;
-      }
-      
-      public function dm_wateryBalance(param1:DisplayObject, param2:Boolean = true) : Dm_ColdBoot
+      public function dm_alansonDraconian(param1:DisplayObject, param2:Boolean = true) : Dm_ColdBoot
       {
          var _loc3_:int = 0;
          var _loc4_:int = 0;
-         this.dm_efficientFaint.width = this.dm_efficientFaint.textWidth + Dm_ShockDouble.dm_inviteUnique(Dm_ScissorsUnarmed.dm_stormyPerson);
-         if(param1 is Dm_PaltryViolet)
+         this.dm_superHate.width = this.dm_superHate.textWidth + Dm_VulgarPrepare.dm_phoneCrook;
+         if(param1 is Dm_CoalCan)
          {
-            _loc3_ = Dm_PaltryViolet(param1).dm_alansonDraconian;
-            _loc4_ = Dm_PaltryViolet(param1).dm_lateSpiky;
+            _loc3_ = Dm_CoalCan(param1).dm_wateryTiresome;
+            _loc4_ = Dm_CoalCan(param1).dm_hourInstruct;
          }
          else
          {
@@ -250,32 +178,104 @@ package
             _loc4_ = param1.height;
          }
          addChild(param1);
-         var _loc5_:int = _loc3_ + this.dm_efficientFaint.width + Dm_ScissorsUnarmed.dm_stormyPerson;
-         param1.y = int((dm_lateSpiky - _loc4_) / Dm_ShockDouble.dm_inviteUnique(Dm_LegStrengthen.dm_thickExplain));
+         var _loc5_:int = _loc3_ + this.dm_superHate.width + Dm_FaithfulCrowded.dm_smileNut(Dm_VulgarPrepare.dm_phoneCrook);
+         param1.y = int((-_loc4_ + dm_hourInstruct) / Dm_EdgeAngle.dm_fearfulDeliver);
          if(param2)
          {
-            param1.x = int((dm_alansonDraconian - _loc5_) / Dm_ShockDouble.dm_inviteUnique(Dm_LegStrengthen.dm_thickExplain));
-            this.dm_efficientFaint.x = param1.x + _loc3_ + Dm_ShockDouble.dm_inviteUnique(Dm_ScissorsUnarmed.dm_stormyPerson);
+            param1.x = int((dm_wateryTiresome - _loc5_) / Dm_EdgeAngle.dm_fearfulDeliver);
+            this.dm_superHate.x = param1.x + _loc3_ + Dm_VulgarPrepare.dm_phoneCrook;
          }
          else
          {
-            param1.x = Dm_ShockDouble.dm_inviteUnique(Dm_ScissorsUnarmed.dm_stormyPerson);
-            this.dm_efficientFaint.x = param1.x + _loc3_ + Dm_ScissorsUnarmed.dm_stormyPerson;
+            param1.x = Dm_FaithfulCrowded.dm_smileNut(Dm_VulgarPrepare.dm_phoneCrook);
+            this.dm_superHate.x = param1.x + _loc3_ + Dm_FaithfulCrowded.dm_smileNut(Dm_VulgarPrepare.dm_phoneCrook);
          }
          return this;
       }
       
-      public function dm_adviceHoc(param1:MouseEvent) : void
+      public function dm_awakeFlock(param1:Event) : void
       {
-         if(this.couleurEnCours != this.dm_thoughtSpoon && this.dm_disgustingBack)
+         this.dm_cheatAdvice(Dm_PowerfulSecret.dm_stormyPerson);
+      }
+      
+      public function dm_classManage(param1:Boolean) : Dm_ColdBoot
+      {
+         this.dm_flowFour = param1;
+         return this;
+      }
+      
+      public function dm_advertisementThreatening() : Boolean
+      {
+         return this.dm_yamWasteful;
+      }
+      
+      public function dm_lateSpiky(param1:String) : Dm_ColdBoot
+      {
+         var _loc2_:TextFormat = this.dm_superHate.defaultTextFormat;
+         _loc2_.align = param1;
+         this.dm_superHate.defaultTextFormat = _loc2_;
+         return this;
+      }
+      
+      public function dm_thoughtSpoon(param1:Boolean) : Dm_ColdBoot
+      {
+         this.dm_yamWasteful = param1;
+         if(param1)
          {
-            this.couleurEnCours = this.dm_thoughtSpoon;
-            transform.colorTransform = Dm_ColdBoot.dm_tastelessEggnog;
-            if(this.dm_yamWasteful)
+            mouseEnabled = Dm_NaughtyAdvise.dm_boastGamy;
+            this.dm_superHate.textColor = dm_branchSmart.dm_beautifulSoothe;
+         }
+         else
+         {
+            mouseEnabled = Dm_NaughtyAdvise.dm_redundantBright;
+            this.dm_superHate.textColor = dm_branchSmart.dm_colorChubby;
+         }
+         dm_inventReject(!param1,Dm_AdjustmentAnalyze.dm_afterthoughtCry,false);
+         return this;
+      }
+      
+      public function dm_crookFive() : Dm_ColossalThought
+      {
+         return this.dm_superHate;
+      }
+      
+      public function dm_superCute(param1:String, param2:Boolean = true) : Dm_ColdBoot
+      {
+         if(param2)
+         {
+            this.dm_superHate.htmlText = param1;
+         }
+         else
+         {
+            this.dm_superHate.text = param1;
+         }
+         return this;
+      }
+      
+      public function dm_grandfatherMarked(param1:MouseEvent) : void
+      {
+         if(this.couleurEnCours != this.dm_tastelessEggnog && this.dm_yamWasteful)
+         {
+            this.couleurEnCours = this.dm_tastelessEggnog;
+            transform.colorTransform = Dm_ColdBoot.dm_inviteUnique;
+            if(this.dm_flowFour)
             {
-               this.dm_efficientFaint.textColor = this.dm_thoughtSpoon;
+               this.dm_superHate.textColor = this.dm_tastelessEggnog;
             }
          }
+      }
+      
+      public function dm_ordinaryGrate(param1:Function = null, param2:Object = null) : Dm_ColdBoot
+      {
+         if(param1 != null)
+         {
+            dm_beliefAnnoy(param1,param2,false);
+         }
+         return this;
+      }
+      
+      public function dm_cheatAdvice(param1:int) : void
+      {
       }
    }
 }

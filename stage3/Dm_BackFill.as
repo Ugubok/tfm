@@ -1,18 +1,18 @@
 package
 {
-   public class Dm_BackFill extends Dm_LamentableNeighborly
+   public class Dm_BackFill extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_BackFill(param1:Vector.<String>)
+      public function Dm_BackFill(param1:String, param2:String, param3:String, param4:String, param5:String)
       {
-         super(Dm_ShockDouble.dm_companyWrathful(Dm_SignZip.dm_programGrandfather),Dm_ShockDouble.dm_companyWrathful(Dm_NutInquisitive.dm_apatheticFaithful));
-         var _loc2_:int = Dm_CollectFlower.dm_catLearned;
-         while(_loc2_ < param1.length)
-         {
-            dm_buryTart(param1[_loc2_]);
-            _loc2_++;
-         }
+         super(Dm_FaithfulCrowded.dm_buryTart(Dm_PigCart.dm_warlikeWant),Dm_FrailAuthority.dm_apatheticFaithful);
+         dm_programGrandfather.writeUTF(param1);
+         dm_programGrandfather.writeUTF(param2);
+         dm_programGrandfather.writeUTF(param3);
+         dm_programGrandfather.writeUTF(param4);
+         dm_programGrandfather.writeUTF(param5);
+         dm_catLearned = Dm_NaughtyAdvise.dm_companyWrathful;
       }
    }
 }

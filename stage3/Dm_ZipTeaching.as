@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_ZipTeaching extends Dm_LamentableNeighborly
+   public class Dm_ZipTeaching extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_ZipTeaching(param1:int)
+      public function Dm_ZipTeaching(param1:String)
       {
-         super(Dm_GrateSatisfy.dm_glowIncrease,Dm_CravenCrown.dm_staleJoyous);
-         dm_promiseCareful.writeInt(param1);
+         super(Dm_FaithfulCrowded.dm_promiseCareful(Dm_CrookedTouch.dm_glowIncrease),Dm_ComplexNear.dm_staleJoyous);
+         dm_largeInstinctive.writeUTF(param1);
       }
    }
 }

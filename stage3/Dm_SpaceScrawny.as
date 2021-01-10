@@ -1,12 +1,12 @@
 package
 {
-   public class Dm_SpaceScrawny extends Dm_LamentableNeighborly
+   public class Dm_SpaceScrawny extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_SpaceScrawny(param1:int)
       {
-         super(Dm_ShockDouble.dm_confusedWash(Dm_TendencyPrice.dm_freeLimit),Dm_BeadBirds.dm_fierceThoughtless);
+         super(Dm_FaithfulCrowded.dm_fierceThoughtless(Dm_VerdantWhistle.dm_freeLimit),Dm_PowerfulSecret.dm_confusedWash);
          dm_shadeAdmire.writeInt(param1);
       }
    }

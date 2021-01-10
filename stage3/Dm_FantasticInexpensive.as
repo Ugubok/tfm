@@ -1,12 +1,12 @@
 package
 {
-   public class Dm_FantasticInexpensive extends Dm_LamentableNeighborly
+   public class Dm_FantasticInexpensive extends Dm_ThreateningRare
    {
        
       
-      public function Dm_FantasticInexpensive()
+      public function Dm_FantasticInexpensive(param1:Dm_StorySeparate)
       {
-         super(Dm_CravenCrown.dm_commonBag,Dm_ThunderSquare.dm_aliveButter);
+         super(param1);
       }
    }
 }

@@ -8,7 +8,7 @@ package
       
       public var dm_momentousVulgar:Dm_InquisitiveIdea;
       
-      public var dm_religionLegs:String;
+      public var dm_lockDeserve:String;
       
       public function Dm_AirPromise(param1:Dm_InquisitiveIdea)
       {
@@ -16,35 +16,35 @@ package
          this.dm_momentousVulgar = param1;
       }
       
-      public function get dm_paymentNoxious() : String
+      public function get dm_religionLegs() : String
       {
-         return Dm_IgnorantAspiring.dm_lockDeserve;
+         return Dm_DeliverAgonizing.dm_butterStiff;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_butterStiff;
+         return Dm_ExplainBranch.dm_hydrantCraven;
       }
       
-      public function dm_coalScintillating() : Boolean
+      public function dm_repeatHydrant() : Boolean
       {
          return false;
       }
       
-      public function dm_hydrantCraven() : int
+      public function dm_knotTangy() : int
       {
-         return Dm_LegStrengthen.dm_soupPowerful + this.dm_religionLegs.length;
+         return Dm_FaithfulCrowded.dm_soupPowerful(Dm_EdgeAngle.dm_paymentNoxious) + this.dm_lockDeserve.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
-         this.dm_religionLegs = param1.readUTFBytes(_loc2_);
+         this.dm_lockDeserve = param1.readUTFBytes(_loc2_);
       }
       
       public function get dm_lamentableStay() : int
       {
-         return Dm_TendencyPrice.dm_knotTangy;
+         return Dm_FrailAuthority.dm_coalScintillating;
       }
    }
 }

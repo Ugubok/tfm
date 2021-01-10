@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_BlushWord extends Dm_LamentableNeighborly
+   public class Dm_BlushWord extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_BlushWord(param1:int, param2:int)
+      public function Dm_BlushWord(param1:int, param2:Boolean)
       {
-         super(Dm_GrateSatisfy.dm_lamentableMessy,Dm_ShockDouble.dm_workCool(Dm_LookResolute.dm_spotlessFascinated));
-         dm_boundlessBasket.writeByte(param1);
-         dm_boundlessBasket.writeByte(param2);
+         super(Dm_PigCart.dm_spotlessFascinated,Dm_VulgarPrepare.dm_lamentableMessy);
+         dm_boundlessBasket.writeShort(param1);
+         dm_boundlessBasket.writeBoolean(param2);
       }
    }
 }

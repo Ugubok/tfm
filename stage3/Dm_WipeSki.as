@@ -8,7 +8,7 @@ package
       
       public var idSequence:int;
       
-      public var dm_saltWoman:Dm_TediousHour;
+      public var dm_pailShocking:Dm_IncompetentChivalrous;
       
       public function Dm_WipeSki(param1:int)
       {
@@ -21,24 +21,24 @@ package
          return this.idSequence;
       }
       
-      public function get dm_pailShocking() : String
+      public function get dm_superInstruct() : String
       {
-         return Dm_IgnorantAspiring.dm_wretchedPoison;
+         return Dm_FaithfulCrowded.dm_newPlants(Dm_DeliverAgonizing.dm_wetCactus);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_newPlants;
+         return Dm_ExplainBranch.dm_tastyNation;
       }
       
-      public function dm_wetCactus() : Boolean
+      public function dm_wretchedPoison() : Boolean
       {
          return false;
       }
       
-      override public function dm_undressUncle() : int
+      override public function dm_saltWoman() : int
       {
-         return Dm_ShockDouble.dm_tastyNation(Dm_ScissorsUnarmed.dm_superInstruct);
+         return Dm_VulgarPrepare.dm_undressUncle;
       }
       
       override public function ecriture(param1:ByteArray) : void

@@ -4,25 +4,25 @@ package
    {
        
       
-      public var target:Dm_InconclusiveStem;
+      public var target:Dm_JumbledSearch;
       
       public var dm_burlySearch:Number;
       
-      public var dm_shoeDiscussion:Number;
+      public var dm_bombPowerful:Number;
       
-      public var dm_alertSpoil:Number;
+      public var dm_narrowPainstaking:Number;
       
-      public var dm_fiveCareless:Number;
+      public var dm_brushRabbits:Number;
       
       public function Dm_BirdsLamp()
       {
-         this.target = new Dm_InconclusiveStem();
+         this.target = new Dm_JumbledSearch();
          super();
-         type = Dm_NutSpot.dm_bombPowerful;
-         this.dm_burlySearch = Dm_CravenCrown.dm_narrowPainstaking;
-         this.dm_shoeDiscussion = Dm_ShockDouble.dm_locketSymptomatic(Dm_CollectFlower.dm_earPuncture);
-         this.dm_alertSpoil = Dm_ShockDouble.dm_locketSymptomatic(Dm_GrateSatisfy.dm_preciousGlow);
-         this.dm_fiveCareless = Dm_TeenyBird.dm_brushRabbits / Dm_ShockDouble.dm_locketSymptomatic(Dm_TeenyBird.dm_evasiveCycle);
+         type = Dm_FranticChicken.dm_alertSpoil;
+         this.dm_burlySearch = Dm_SummerPlants.dm_fiveCareless;
+         this.dm_bombPowerful = Dm_FaithfulCrowded.dm_preciousGlow(Dm_EdgeAngle.dm_shoeDiscussion);
+         this.dm_narrowPainstaking = Dm_FaithfulCrowded.dm_preciousGlow(Dm_AdjustmentAnalyze.dm_evasiveCycle);
+         this.dm_brushRabbits = Dm_VulgarPrepare.dm_locketSymptomatic / Dm_FaithfulCrowded.dm_preciousGlow(Dm_SummerPlants.dm_earPuncture);
       }
    }
 }

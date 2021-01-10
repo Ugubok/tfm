@@ -1,12 +1,12 @@
 package
 {
-   public class Dm_SpoilPowerful extends Dm_LamentableNeighborly
+   public class Dm_SpoilPowerful extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_SpoilPowerful()
       {
-         super(Dm_ShockDouble.dm_hystericalSecret(Dm_IgnorantAspiring.dm_nutWoman),Dm_ShockDouble.dm_hystericalSecret(Dm_HumorExotic.dm_ignorantClever));
+         super(Dm_RobinQuack.dm_ignorantClever,Dm_EdgeAngle.dm_nutWoman);
       }
    }
 }

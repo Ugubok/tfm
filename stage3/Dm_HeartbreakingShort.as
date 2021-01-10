@@ -8,7 +8,7 @@ package
       
       public var idSequence:int;
       
-      public var dm_promiseSlim:Dm_ProbableNoiseless;
+      public var dm_slipRightful:Dm_SupplyBury;
       
       public function Dm_HeartbreakingShort(param1:int)
       {
@@ -21,24 +21,24 @@ package
          return this.idSequence;
       }
       
-      public function get dm_snakesHarmony() : String
+      public function get dm_ownAutomatic() : String
       {
-         return Dm_ShockDouble.dm_ownAutomatic(Dm_IgnorantAspiring.dm_slipRightful);
+         return Dm_FaithfulCrowded.dm_doctorScared(Dm_DeliverAgonizing.dm_snakesHarmony);
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_limitMitten;
+         return Dm_ExplainBranch.dm_promiseSlim;
       }
       
-      public function dm_doctorScared() : Boolean
+      public function dm_jaggedUnarmed() : Boolean
       {
          return false;
       }
       
-      override public function dm_doorSave() : int
+      override public function dm_pipkaBoast() : int
       {
-         return Dm_ScissorsUnarmed.dm_pipkaBoast;
+         return Dm_FaithfulCrowded.dm_limitMitten(Dm_VulgarPrepare.dm_doorSave);
       }
       
       override public function ecriture(param1:ByteArray) : void

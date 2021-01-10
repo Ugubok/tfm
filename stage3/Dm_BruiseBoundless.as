@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_BruiseBoundless extends Dm_LamentableNeighborly
+   public class Dm_BruiseBoundless extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_BruiseBoundless(param1:int)
       {
-         super(Dm_ThunderSquare.dm_coolJelly,Dm_TastyDebt.dm_ignorantStiff);
-         dm_heatWandering.writeByte(param1);
+         super(Dm_SummerPlants.dm_heatWandering,Dm_CrookedTouch.dm_coolJelly);
+         dm_ignorantStiff(param1);
       }
    }
 }

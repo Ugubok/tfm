@@ -7,60 +7,60 @@ package
    {
        
       
-      public var dm_agonizingTrains:int;
+      public var dm_learnedLudicrous:int;
       
-      public var dm_heartbreakingHarmony:MovieClip;
+      public var dm_scaredLetters:MovieClip;
       
-      public var dm_windyBlot:int;
+      public var dm_kurumaHate:int;
       
-      public var dm_slipIncrease:int;
+      public var dm_sproutFix:int;
       
-      public var dm_waitingCrowded:int;
+      public var dm_gateFrail:int;
       
       public function Dm_KotskyIncrease(param1:int, param2:int, param3:int, param4:Number, param5:Number, param6:Number)
       {
-         this.dm_waitingCrowded = -Dm_CravenCrown.dm_stayReligion;
+         this.dm_gateFrail = -Dm_PowerfulSecret.dm_cureSigh;
          super();
-         this.dm_agonizingTrains = param1;
-         this.dm_heartbreakingHarmony = Dm_FlowSea.dm_powerfulMetal(Dm_ScissorsUnarmed.dm_sproutFix + param1);
+         this.dm_learnedLudicrous = param1;
+         this.dm_scaredLetters = Dm_FlowSea.dm_shopRobin(Dm_FrailAuthority.dm_waitingCrowded + param1);
          x = param2;
          y = param3;
-         this.dm_heartbreakingHarmony.scaleX = param4;
-         this.dm_heartbreakingHarmony.scaleY = param5;
-         this.dm_heartbreakingHarmony.rotation = param6;
-         if(param1 == Dm_CollectFlower.dm_riverBashful)
+         this.dm_scaredLetters.scaleX = param4;
+         this.dm_scaredLetters.scaleY = param5;
+         this.dm_scaredLetters.rotation = param6;
+         if(param1 == Dm_AdjustmentAnalyze.dm_powerfulMetal)
          {
-            this.dm_slipIncrease = Dm_CollectFlower.dm_riverBashful;
+            this.dm_sproutFix = Dm_AdjustmentAnalyze.dm_powerfulMetal;
          }
-         if(Dm_ShockDouble.dm_scaredLetters(Dm_CravenCrown.dm_stayReligion) == param1)
+         if(param1 == Dm_PowerfulSecret.dm_cureSigh)
          {
-            this.dm_slipIncrease = Dm_ShockDouble.dm_scaredLetters(Dm_NutInquisitive.dm_learnedLudicrous);
+            this.dm_sproutFix = Dm_FaithfulCrowded.dm_windyBlot(Dm_AgreeableMountain.dm_stayReligion);
          }
-         if(Dm_LegStrengthen.dm_automaticAccurate == param1)
+         if(param1 == Dm_EdgeAngle.dm_automaticAccurate)
          {
-            this.dm_slipIncrease = Dm_NutInquisitive.dm_learnedLudicrous;
+            this.dm_sproutFix = Dm_AgreeableMountain.dm_stayReligion;
          }
-         if(param1 == Dm_NutInquisitive.dm_learnedLudicrous)
+         if(Dm_AgreeableMountain.dm_stayReligion == param1)
          {
-            this.dm_slipIncrease = Dm_ScissorsUnarmed.dm_cureSigh;
+            this.dm_sproutFix = Dm_VulgarPrepare.dm_slipIncrease;
          }
-         if(param1 == Dm_ShockDouble.dm_scaredLetters(Dm_ThunderSquare.dm_kurumaHate))
+         if(param1 == Dm_AdjustmentAnalyze.dm_snottyMighty)
          {
-            this.dm_slipIncrease = Dm_CravenCrown.dm_stayReligion;
+            this.dm_sproutFix = Dm_PowerfulSecret.dm_cureSigh;
          }
-         if(param1 == Dm_TastyDebt.dm_snottyMighty)
+         if(param1 == Dm_FaithfulCrowded.dm_windyBlot(Dm_BranchAfterthought.dm_agonizingTrains))
          {
-            this.dm_slipIncrease = Dm_ShockDouble.dm_scaredLetters(Dm_LegStrengthen.dm_automaticAccurate);
+            this.dm_sproutFix = Dm_FaithfulCrowded.dm_windyBlot(Dm_EdgeAngle.dm_automaticAccurate);
          }
-         if(Dm_SqueezeDazzling.dm_freeObeisant == param1)
+         if(param1 == Dm_BreatheSecret.dm_freeObeisant)
          {
-            this.dm_slipIncrease = Dm_ShockDouble.dm_scaredLetters(Dm_ZonkedNew.dm_shopRobin);
+            this.dm_sproutFix = Dm_VerdantWhistle.dm_colorfulGrin;
          }
-         if(param1 == Dm_NutInquisitive.dm_colorfulGrin)
+         if(Dm_DeliverAgonizing.dm_riverBashful == param1)
          {
-            this.dm_slipIncrease = Dm_ShockDouble.dm_scaredLetters(Dm_TastyDebt.dm_gateFrail);
+            this.dm_sproutFix = Dm_FaithfulCrowded.dm_windyBlot(Dm_BranchAfterthought.dm_heartbreakingHarmony);
          }
-         addChild(this.dm_heartbreakingHarmony);
+         addChild(this.dm_scaredLetters);
       }
    }
 }

@@ -14,10 +14,10 @@ package
       {
          super();
          dm_notebookTendency = new VieuxCategorieTribu();
-         dm_orderWrathful = new VieuxCategorieChat();
+         dm_rayUnarmed = new VieuxCategorieChat();
          dm_phoneTeaching = new VieuxCategorieListeNoire();
-         dm_rayUnarmed = new VieuxCategorieAmis();
-         dm_hystericalYummy = new VieuxCategorieDonneesUtilisateur();
+         dm_hystericalYummy = new VieuxCategorieAmis();
+         dm_orderWrathful = new VieuxCategorieDonneesUtilisateur();
       }
    }
 }

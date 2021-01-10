@@ -1,12 +1,12 @@
 package
 {
-   public class Dm_StoryWoman extends Dm_GrotesqueBoundary
+   public class Dm_StoryWoman extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_StoryWoman(param1:Dm_PunchTangy)
+      public function Dm_StoryWoman()
       {
-         super(param1);
+         super(Dm_FaithfulCrowded.dm_colossalOil(Dm_EdgeAngle.dm_crowdedLetters),Dm_AgreeableMountain.dm_panickyDoor);
       }
    }
 }

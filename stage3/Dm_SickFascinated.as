@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_SickFascinated extends Dm_LamentableNeighborly
+   public class Dm_SickFascinated extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_SickFascinated(param1:String)
       {
-         super(Dm_ShockDouble.dm_wateryPleasant(Dm_TastyDebt.dm_knotWall),Dm_SignZip.dm_ruddyMighty);
-         dm_lunasoleStale(param1);
-         dm_laughableFeeble = Dm_HarmonyWoman.dm_wickedLeg;
+         super(Dm_BranchAfterthought.dm_ruddyMighty,Dm_FaithfulCrowded.dm_lunasoleStale(Dm_PigCart.dm_laughableFeeble));
+         dm_wateryPleasant(param1);
+         dm_knotWall = Dm_NaughtyAdvise.dm_wickedLeg;
       }
    }
 }

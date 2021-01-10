@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_GullibleMitten extends Dm_LamentableNeighborly
+   public class Dm_GullibleMitten extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_GullibleMitten(param1:int)
       {
-         super(Dm_ShockDouble.dm_ablazeOpposite(Dm_ZonkedNew.dm_trainsSqueal),Dm_ShockDouble.dm_ablazeOpposite(Dm_TeenyBird.dm_coalAcoustic));
-         dm_mendEnjoy.writeInt(param1);
+         super(Dm_FaithfulCrowded.dm_mendEnjoy(Dm_RobinQuack.dm_ablazeOpposite),Dm_FaithfulCrowded.dm_mendEnjoy(Dm_FrailAuthority.dm_coalAcoustic));
+         dm_trainsSqueal.writeInt(param1);
       }
    }
 }

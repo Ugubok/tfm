@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_BirdsAdvertisement extends Dm_LamentableNeighborly
+   public class Dm_BirdsAdvertisement extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_BirdsAdvertisement(param1:Boolean)
+      public function Dm_BirdsAdvertisement(param1:int)
       {
-         super(Dm_ScissorsUnarmed.dm_markedCan,Dm_ShockDouble.dm_tastelessDivision(Dm_TastyDebt.dm_pleaseMean));
-         dm_actionResolute.writeByte(!!param1?int(Dm_ShockDouble.dm_tastelessDivision(Dm_CravenCrown.dm_pipkaIgnorant)):int(Dm_CollectFlower.dm_scrawnyBoundless));
+         super(Dm_FaithfulCrowded.dm_pleaseMean(Dm_VerdantWhistle.dm_pipkaIgnorant),Dm_FaithfulCrowded.dm_pleaseMean(Dm_ComplexNear.dm_actionResolute));
+         dm_scrawnyBoundless.writeShort(param1);
       }
    }
 }

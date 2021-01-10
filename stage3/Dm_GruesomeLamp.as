@@ -6,44 +6,44 @@ package
    {
        
       
-      public var dm_groundGrain:Dm_InquisitiveIdea;
+      public var dm_queueDaily:Dm_InquisitiveIdea;
       
-      public var dm_punctureHesitant:int;
+      public var dm_handCheat:int;
       
       public function Dm_GruesomeLamp(param1:Dm_InquisitiveIdea)
       {
          super();
-         this.dm_groundGrain = param1;
+         this.dm_queueDaily = param1;
       }
       
-      public function get dm_inviteWasteful() : String
+      public function get dm_doctorEfficient() : String
       {
-         return Dm_ShockDouble.dm_ajarSecret(Dm_IgnorantAspiring.dm_handCheat);
+         return Dm_DeliverAgonizing.dm_scratchLong;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_scratchLong;
+         return Dm_ExplainBranch.dm_nestScale;
       }
       
-      public function dm_armEar() : Boolean
+      public function dm_labelUnequal() : Boolean
       {
          return false;
       }
       
-      public function dm_nestScale() : int
+      public function dm_groundGrain() : int
       {
-         return Dm_ScissorsUnarmed.dm_labelUnequal;
+         return Dm_FaithfulCrowded.dm_punctureHesitant(Dm_VulgarPrepare.dm_armEar);
       }
       
       public function lecture(param1:ByteArray) : void
       {
-         this.dm_punctureHesitant = param1.readInt();
+         this.dm_handCheat = param1.readInt();
       }
       
       public function get dm_superCactus() : int
       {
-         return Dm_ShockDouble.dm_queueDaily(Dm_NutInquisitive.dm_doctorEfficient);
+         return Dm_PaintAblaze.dm_inviteWasteful;
       }
    }
 }

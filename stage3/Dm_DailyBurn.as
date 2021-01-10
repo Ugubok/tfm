@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_DailyBurn extends Dm_LamentableNeighborly
+   public class Dm_DailyBurn extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_DailyBurn(param1:String)
+      public function Dm_DailyBurn(param1:int)
       {
-         super(Dm_ShockDouble.dm_actionDraconian(Dm_IgnorantAspiring.dm_rabbitSpoil),Dm_LookResolute.dm_traceReligion);
-         dm_pipkaSplendid.writeUTF(param1);
+         super(Dm_FaithfulCrowded.dm_traceReligion(Dm_PigCart.dm_rabbitSpoil),Dm_BreatheSecret.dm_actionDraconian);
+         dm_pipkaSplendid.writeShort(param1);
       }
    }
 }

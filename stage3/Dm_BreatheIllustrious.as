@@ -1,12 +1,12 @@
 package
 {
-   public class Dm_BreatheIllustrious extends Dm_LamentableNeighborly
+   public class Dm_BreatheIllustrious extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_BreatheIllustrious()
       {
-         super(Dm_ShockDouble.dm_glamorousOrder(Dm_ZonkedNew.dm_yummyExplode),Dm_ShockDouble.dm_glamorousOrder(Dm_GrateSatisfy.dm_smartSon));
+         super(Dm_PigCart.dm_glamorousOrder,Dm_FaithfulCrowded.dm_smartSon(Dm_CrookedTouch.dm_yummyExplode));
       }
    }
 }

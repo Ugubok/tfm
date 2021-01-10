@@ -9,159 +9,159 @@ package
    public class Dm_JellyClass implements Dm_InquisitiveIdea
    {
       
-      public static var dm_storeWhisper:int =  0;
+      public static var dm_crownAdvise:int =  0;
        
       
-      public var dm_awakeOwn:OnceSignal;
+      public var dm_tartSeparate:OnceSignal;
       
-      public var dm_spuriousCrowded:Signal;
+      public var dm_wallLunasole:Signal;
       
-      public var dm_squeezeWant:Socket;
+      public var dm_efficientTouch:Socket;
       
-      public var dm_wallLunasole:Dm_BashfulPaint;
+      public var dm_nationModern:Dm_BashfulPaint;
       
-      public var dm_onerousManage:ByteArray;
+      public var dm_knotJumbled:ByteArray;
       
-      public var dm_unitSecret:ByteArray;
+      public var dm_shockingPass:ByteArray;
       
-      public var dm_acousticEvasive:int;
+      public var dm_creatorBalance:int;
       
-      public var dm_shockingPass:Boolean = true;
+      public var dm_pigGrandfather:Boolean = true;
       
-      public var dm_nationModern:Dm_LightReminiscent;
+      public var dm_storeWhisper:Dm_LightReminiscent;
       
-      public var dm_hesitantGlow:int;
+      public var dm_hobbiesThought:int;
       
-      public var dm_cleverNew:int;
+      public var dm_boundaryRoom:int;
       
-      public var dm_trembleJelly:Vector.<Dm_SuccinctVerdant>;
+      public var dm_onerousManage:Vector.<Dm_SuccinctVerdant>;
       
       public function Dm_JellyClass(param1:String = null, param2:uint = 0)
       {
-         this.dm_acousticEvasive = -Dm_CravenCrown.dm_boundaryRoom;
-         this.dm_cleverNew = Dm_CollectFlower.dm_teachingTrip;
+         this.dm_creatorBalance = -Dm_PowerfulSecret.dm_lamentableLate;
+         this.dm_boundaryRoom = Dm_FaithfulCrowded.dm_acousticEvasive(Dm_AdjustmentAnalyze.dm_crookedNest);
          super();
-         this.dm_squeezeWant = new Socket();
-         this.dm_trembleJelly = new Vector.<Dm_SuccinctVerdant>();
-         this.dm_inquisitiveTiresome();
+         this.dm_efficientTouch = new Socket();
+         this.dm_onerousManage = new Vector.<Dm_SuccinctVerdant>();
+         this.dm_inquisitiveKey();
          if(param1 && param2)
          {
-            this.dm_squeezeWant.connect(param1,param2);
+            this.dm_efficientTouch.connect(param1,param2);
          }
       }
       
-      public function dm_inquisitiveTiresome() : void
+      public function set idSequence(param1:int) : void
       {
-         this.dm_squeezeWant.addEventListener(ProgressEvent.SOCKET_DATA,this.dm_efficientTouch);
-         this.dm_awakeOwn = new OnceSignal();
-         this.dm_spuriousCrowded = new Signal(String,Array);
+         this.dm_boundaryRoom = param1;
       }
       
-      public function dm_lamentableLate() : void
+      public function dm_squeezeWant(param1:ProgressEvent) : void
       {
-         this.dm_squeezeWant.removeEventListener(ProgressEvent.SOCKET_DATA,this.dm_efficientTouch);
-         this.dm_squeezeWant.close();
+         while(Dm_FaithfulCrowded.dm_acousticEvasive(Dm_AdjustmentAnalyze.dm_crookedNest) < this.dm_efficientTouch.bytesAvailable)
+         {
+            if(this.dm_pigGrandfather)
+            {
+               this.dm_hobbiesThought = this.dm_efficientTouch.readShort();
+               this.dm_storeWhisper = this.dm_nationModern.creePaquetEntrant(this,this.dm_hobbiesThought);
+               if(this.dm_storeWhisper.typeTaille == Dm_ExplainBranch.dm_trembleJelly)
+               {
+                  this.dm_creatorBalance = this.dm_efficientTouch.readShort();
+               }
+               else if(Dm_ExplainBranch.dm_unitSecret == this.dm_storeWhisper.typeTaille)
+               {
+                  this.dm_creatorBalance = this.dm_efficientTouch.readByte();
+               }
+               else if(Dm_ExplainBranch.dm_inquisitiveTiresome == this.dm_storeWhisper.typeTaille)
+               {
+                  this.dm_creatorBalance = this.dm_efficientTouch.readInt();
+               }
+               else
+               {
+                  this.dm_creatorBalance = this.dm_storeWhisper.dm_awakeOwn();
+               }
+               this.dm_pigGrandfather = Dm_NaughtyAdvise.dm_signMessy;
+            }
+            if(!this.dm_pigGrandfather && this.dm_efficientTouch.bytesAvailable >= this.dm_creatorBalance)
+            {
+               if(this.dm_shockingPass == null)
+               {
+                  this.dm_shockingPass = Dm_BeliefThunder.dm_exoticGround();
+               }
+               else
+               {
+                  this.dm_shockingPass.clear();
+               }
+               this.dm_efficientTouch.readBytes(this.dm_shockingPass,Dm_AdjustmentAnalyze.dm_crookedNest,this.dm_creatorBalance);
+               this.dm_storeWhisper.lecture(this.dm_shockingPass);
+               this.dm_nationModern.traiterPaquetEntrant(this.dm_hobbiesThought,this.dm_storeWhisper);
+               this.dm_pigGrandfather = Dm_NaughtyAdvise.dm_interruptReach;
+               continue;
+            }
+            break;
+         }
       }
       
-      public function dm_crookedNest(param1:int, param2:Dm_SuccinctVerdant) : void
+      public function traitePaquetSortant(param1:Dm_SuccinctVerdant) : void
       {
-         this.dm_trembleJelly.splice(param1,Dm_CollectFlower.dm_teachingTrip,param2);
+         param1.dm_cleverNew = this;
+         var _loc2_:ByteArray = Dm_BeliefThunder.dm_exoticGround();
+         _loc2_.writeShort(this.dm_nationModern.getIdPaquet(param1));
+         _loc2_.writeShort(Dm_JellyClass.dm_crownAdvise++);
+         _loc2_.writeShort(param1.dm_awakeOwn());
+         param1.ecriture(_loc2_);
+         this.dm_efficientTouch.writeBytes(_loc2_);
+         this.dm_efficientTouch.flush();
+         if(param1 is Dm_SeaPlease)
+         {
+            this.dm_hesitantGlow(this.idSequence,param1);
+         }
+         Dm_BeliefThunder.dm_teachingTrip(_loc2_);
+         _loc2_ = null;
       }
       
       public function set protocole(param1:Dm_BashfulPaint) : void
       {
-         if(null == this.dm_wallLunasole)
+         if(this.dm_nationModern == null)
          {
-            this.dm_wallLunasole = param1;
+            this.dm_nationModern = param1;
             return;
          }
          throw new Error("On ne peut avoir qu\'un seul protocole !!");
       }
       
-      public function get idSequence() : int
+      public function dm_hesitantGlow(param1:int, param2:Dm_SuccinctVerdant) : void
       {
-         return this.dm_cleverNew;
+         this.dm_onerousManage.splice(param1,Dm_AdjustmentAnalyze.dm_crookedNest,param2);
+      }
+      
+      public function dm_inquisitiveKey() : void
+      {
+         this.dm_efficientTouch.addEventListener(ProgressEvent.SOCKET_DATA,this.dm_squeezeWant);
+         this.dm_tartSeparate = new OnceSignal();
+         this.dm_wallLunasole = new Signal(String,Array);
       }
       
       public function recupereSequence(param1:int) : Dm_SuccinctVerdant
       {
-         var _loc2_:Dm_SuccinctVerdant = this.dm_trembleJelly[param1];
-         delete this.dm_trembleJelly[param1];
+         var _loc2_:Dm_SuccinctVerdant = this.dm_onerousManage[param1];
+         delete this.dm_onerousManage[param1];
          return _loc2_;
       }
       
-      public function traitePaquetSortant(param1:Dm_SuccinctVerdant) : void
+      public function dm_spuriousCrowded() : void
       {
-         param1.dm_hobbiesThought = this;
-         var _loc2_:ByteArray = Dm_DailyHate.dm_exoticGround();
-         _loc2_.writeShort(this.dm_wallLunasole.getIdPaquet(param1));
-         _loc2_.writeShort(Dm_JellyClass.dm_storeWhisper++);
-         _loc2_.writeShort(param1.dm_creatorBalance());
-         param1.ecriture(_loc2_);
-         this.dm_squeezeWant.writeBytes(_loc2_);
-         this.dm_squeezeWant.flush();
-         if(param1 is Dm_SeaPlease)
-         {
-            this.dm_crookedNest(this.idSequence,param1);
-         }
-         Dm_DailyHate.dm_crownAdvise(_loc2_);
-         _loc2_ = null;
+         this.dm_efficientTouch.removeEventListener(ProgressEvent.SOCKET_DATA,this.dm_squeezeWant);
+         this.dm_efficientTouch.close();
+      }
+      
+      public function get idSequence() : int
+      {
+         return this.dm_boundaryRoom;
       }
       
       public function get protocole() : Dm_BashfulPaint
       {
-         return this.dm_wallLunasole;
-      }
-      
-      public function set idSequence(param1:int) : void
-      {
-         this.dm_cleverNew = param1;
-      }
-      
-      public function dm_efficientTouch(param1:ProgressEvent) : void
-      {
-         while(this.dm_squeezeWant.bytesAvailable > Dm_CollectFlower.dm_teachingTrip)
-         {
-            if(this.dm_shockingPass)
-            {
-               this.dm_hesitantGlow = this.dm_squeezeWant.readShort();
-               this.dm_nationModern = this.dm_wallLunasole.creePaquetEntrant(this,this.dm_hesitantGlow);
-               if(this.dm_nationModern.typeTaille == Dm_ExplainBranch.dm_pigGrandfather)
-               {
-                  this.dm_acousticEvasive = this.dm_squeezeWant.readShort();
-               }
-               else if(Dm_ExplainBranch.dm_knotJumbled == this.dm_nationModern.typeTaille)
-               {
-                  this.dm_acousticEvasive = this.dm_squeezeWant.readByte();
-               }
-               else if(this.dm_nationModern.typeTaille == Dm_ExplainBranch.dm_interruptReach)
-               {
-                  this.dm_acousticEvasive = this.dm_squeezeWant.readInt();
-               }
-               else
-               {
-                  this.dm_acousticEvasive = this.dm_nationModern.dm_creatorBalance();
-               }
-               this.dm_shockingPass = Dm_HarmonyWoman.dm_tartSeparate;
-            }
-            if(!this.dm_shockingPass && this.dm_squeezeWant.bytesAvailable >= this.dm_acousticEvasive)
-            {
-               if(null == this.dm_unitSecret)
-               {
-                  this.dm_unitSecret = Dm_DailyHate.dm_exoticGround();
-               }
-               else
-               {
-                  this.dm_unitSecret.clear();
-               }
-               this.dm_squeezeWant.readBytes(this.dm_unitSecret,Dm_ShockDouble.dm_inquisitiveKey(Dm_CollectFlower.dm_teachingTrip),this.dm_acousticEvasive);
-               this.dm_nationModern.lecture(this.dm_unitSecret);
-               this.dm_wallLunasole.traiterPaquetEntrant(this.dm_hesitantGlow,this.dm_nationModern);
-               this.dm_shockingPass = Dm_HarmonyWoman.dm_signMessy;
-               continue;
-            }
-            break;
-         }
+         return this.dm_nationModern;
       }
    }
 }

@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_KnifeAdvice extends Dm_LamentableNeighborly
+   public class Dm_KnifeAdvice extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_KnifeAdvice(param1:String, param2:Boolean = false)
+      public function Dm_KnifeAdvice(param1:String, param2:Boolean)
       {
-         super(Dm_ShockDouble.dm_usedBruise(Dm_AgreeThank.dm_vagabondFit),Dm_NutInquisitive.dm_vulgarOnerous);
-         dm_shockingImpolite.writeUTF(param1);
-         dm_shockingImpolite.writeBoolean(param2);
+         super(Dm_CrookedTouch.dm_famousExotic,Dm_FaithfulCrowded.dm_shockingImpolite(Dm_CrookedTouch.dm_famousExotic));
+         dm_usedBruise.writeUTF(param1);
+         dm_usedBruise.writeByte(!!param2?int(Dm_FaithfulCrowded.dm_shockingImpolite(Dm_PowerfulSecret.dm_vulgarOnerous)):int(Dm_AdjustmentAnalyze.dm_vagabondFit));
       }
    }
 }

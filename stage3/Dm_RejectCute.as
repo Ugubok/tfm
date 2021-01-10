@@ -1,14 +1,14 @@
 package
 {
-   public class Dm_RejectCute extends Dm_LamentableNeighborly
+   public class Dm_RejectCute extends Dm_DisturbedWealthy
    {
        
       
-      public function Dm_RejectCute(param1:int, param2:String)
+      public function Dm_RejectCute(param1:int, param2:int)
       {
-         super(Dm_ShockDouble.dm_rightStick(Dm_TendencyPrice.dm_paltryLie),Dm_CollectFlower.dm_porterPaint);
-         dm_explodeNest.writeInt(param1);
-         dm_explodeNest.writeUTF(param2);
+         super(Dm_RobinQuack.dm_paltryLie,Dm_VulgarPrepare.dm_porterPaint);
+         dm_explodeNest.writeByte(param1);
+         dm_explodeNest.writeByte(param2);
       }
    }
 }

@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_LanguidRub extends Dm_LamentableNeighborly
+   public class Dm_LanguidRub extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_LanguidRub(param1:int)
       {
-         super(Dm_ShockDouble.dm_heartbreakingPossess(Dm_GrateSatisfy.dm_decayJoyous),Dm_AgreeThank.dm_veilJoyous);
-         dm_pricklyFascinated.writeInt(param1);
+         super(Dm_SummerPlants.dm_heartbreakingPossess,Dm_FaithfulCrowded.dm_pricklyFascinated(Dm_VerdantWhistle.dm_decayJoyous));
+         dm_veilJoyous.writeByte(param1);
       }
    }
 }

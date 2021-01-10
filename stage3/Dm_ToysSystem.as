@@ -8,15 +8,15 @@ package
       
       public var idSequence:int;
       
-      public var dm_storeTax:String;
+      public var dm_shopUndress:String;
       
-      public var dm_expertRecognise:Dm_RightRedundant;
+      public var dm_storeTax:Dm_TransportArm;
       
       public function Dm_ToysSystem(param1:int, param2:String)
       {
          super();
          this.idSequence = param1;
-         this.dm_storeTax = param2;
+         this.dm_shopUndress = param2;
       }
       
       public function getIdSequence() : int
@@ -24,30 +24,30 @@ package
          return this.idSequence;
       }
       
-      public function get dm_paintObeisant() : String
+      public function get dm_fragileSalt() : String
       {
-         return Dm_ShockDouble.dm_spikyBetter(Dm_IgnorantAspiring.dm_fearfulPuncture);
+         return Dm_DeliverAgonizing.dm_paintObeisant;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_reminiscentMessy;
+         return Dm_ExplainBranch.dm_incompetentDivergent;
       }
       
-      public function dm_incompetentDivergent() : Boolean
+      public function dm_fearfulPuncture() : Boolean
       {
          return false;
       }
       
       override public function dm_superBright() : int
       {
-         return Dm_ShockDouble.dm_shopUndress(Dm_TastyDebt.dm_fragileSalt) + this.dm_storeTax.length;
+         return Dm_FaithfulCrowded.dm_reminiscentMessy(Dm_BranchAfterthought.dm_expertRecognise) + this.dm_shopUndress.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeUTF(this.dm_storeTax);
+         param1.writeUTF(this.dm_shopUndress);
       }
    }
 }

@@ -1,12 +1,12 @@
 package
 {
-   public class Dm_NoisyAnnoying extends Dm_LamentableNeighborly
+   public class Dm_NoisyAnnoying extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_NoisyAnnoying()
       {
-         super(Dm_ShockDouble.dm_feeblePail(Dm_IgnorantAspiring.dm_flowerRare),Dm_SqueezeDazzling.dm_programDislike);
+         super(Dm_RobinQuack.dm_flowerRare,Dm_FaithfulCrowded.dm_programDislike(Dm_BreatheSecret.dm_feeblePail));
       }
    }
 }

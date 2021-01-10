@@ -1,13 +1,13 @@
 package
 {
-   public class Dm_WordUndress extends Dm_LamentableNeighborly
+   public class Dm_WordUndress extends Dm_DisturbedWealthy
    {
        
       
       public function Dm_WordUndress(param1:int)
       {
-         super(Dm_ZonkedNew.dm_spoilSearch,Dm_ShockDouble.dm_sandGrandfather(Dm_NutInquisitive.dm_obtainableWretched));
-         dm_naughtyImpartial.writeShort(param1);
+         super(Dm_VerdantWhistle.dm_spoilSearch,Dm_VerdantWhistle.dm_obtainableWretched);
+         dm_naughtyImpartial.writeInt(param1);
       }
    }
 }

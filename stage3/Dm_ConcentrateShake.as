@@ -6,9 +6,9 @@ package
       
       public var dm_passFree:Function;
       
-      public var dm_transportSpoil:Function;
+      public var dm_canHateful:Function;
       
-      public var dm_canHateful:Boolean;
+      public var dm_transportSpoil:Boolean;
       
       public function Dm_ConcentrateShake()
       {

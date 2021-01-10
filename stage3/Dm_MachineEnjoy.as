@@ -1,12 +1,12 @@
 package
 {
-   public class Dm_MachineEnjoy extends Dm_LamentableNeighborly
+   public class Dm_MachineEnjoy extends Dm_ThreateningRare
    {
        
       
-      public function Dm_MachineEnjoy()
+      public function Dm_MachineEnjoy(param1:Dm_StorySeparate)
       {
-         super(Dm_GrateSatisfy.dm_bombRedundant,Dm_NutInquisitive.dm_calculatorConfused);
+         super(param1);
       }
    }
 }

@@ -8,18 +8,18 @@ package
       
       public var idSequence:int;
       
-      public var dm_admireSpiky:int;
+      public var dm_fixCrime:int;
       
-      public var dm_onerousToys:String;
+      public var dm_sleepTart:String;
       
-      public var dm_sleepTart:Dm_SpySugar;
+      public var dm_optimalCloistered:Dm_JarVolcano;
       
       public function Dm_ButterExotic(param1:int, param2:int, param3:String)
       {
          super();
          this.idSequence = param1;
-         this.dm_admireSpiky = param2;
-         this.dm_onerousToys = param3;
+         this.dm_fixCrime = param2;
+         this.dm_sleepTart = param3;
       }
       
       public function getIdSequence() : int
@@ -27,31 +27,31 @@ package
          return this.idSequence;
       }
       
-      public function get dm_fixCrime() : String
+      public function get dm_colorfulNeat() : String
       {
-         return Dm_ShockDouble.dm_wordConcentrate(Dm_IgnorantAspiring.dm_canReligion);
+         return Dm_DeliverAgonizing.dm_onerousToys;
       }
       
       public function get typeTaille() : int
       {
-         return Dm_ExplainBranch.dm_optimalCloistered;
+         return Dm_ExplainBranch.dm_ideaThought;
       }
       
-      public function dm_fixPayment() : Boolean
+      public function dm_canReligion() : Boolean
       {
          return false;
       }
       
-      override public function dm_ideaThought() : int
+      override public function dm_redundantSofa() : int
       {
-         return Dm_ShockDouble.dm_colorfulNeat(Dm_SqueezeDazzling.dm_redundantSofa) + this.dm_onerousToys.length;
+         return Dm_StomachBlush.dm_fixPayment + this.dm_sleepTart.length;
       }
       
       override public function ecriture(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
-         param1.writeByte(this.dm_admireSpiky);
-         param1.writeUTF(this.dm_onerousToys);
+         param1.writeByte(this.dm_fixCrime);
+         param1.writeUTF(this.dm_sleepTart);
       }
    }
 }
