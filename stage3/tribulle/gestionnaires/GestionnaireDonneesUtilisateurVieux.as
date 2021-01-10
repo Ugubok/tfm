@@ -25,7 +25,7 @@ package tribulle.gestionnaires
       
       private var _idGenre:int;
       
-      public function GestionnaireDonneesUtilisateurVieux(param1:PrivateClass#13)
+      public function GestionnaireDonneesUtilisateurVieux(param1:PrivateClass#71)
       {
          super();
          VieuxCategorieDonneesUtilisateur.ResultatChangerDeGenre.add(this.onResultatChangerDeGenre);
@@ -40,7 +40,7 @@ package tribulle.gestionnaires
       {
          if(_singleton == null)
          {
-            _singleton = new GestionnaireDonneesUtilisateurVieux(new PrivateClass#13());
+            _singleton = new GestionnaireDonneesUtilisateurVieux(new PrivateClass#71());
          }
          return _singleton;
       }
@@ -138,11 +138,11 @@ package tribulle.gestionnaires
    }
 }
 
-class PrivateClass#13
+class PrivateClass#71
 {
     
    
-   function PrivateClass#13()
+   function PrivateClass#71()
    {
       super();
    }

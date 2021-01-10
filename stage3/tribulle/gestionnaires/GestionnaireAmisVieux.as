@@ -39,7 +39,7 @@ package tribulle.gestionnaires
       
       private var ignorerDemandesEnMariage:Boolean;
       
-      public function GestionnaireAmisVieux(param1:PrivateClass#102)
+      public function GestionnaireAmisVieux(param1:PrivateClass#83)
       {
          super();
          this._amis = new Vector.<Ami>();
@@ -71,7 +71,7 @@ package tribulle.gestionnaires
       {
          if(_singleton == null)
          {
-            _singleton = new GestionnaireAmisVieux(new PrivateClass#102());
+            _singleton = new GestionnaireAmisVieux(new PrivateClass#83());
          }
          return _singleton;
       }
@@ -556,11 +556,11 @@ package tribulle.gestionnaires
    }
 }
 
-class PrivateClass#102
+class PrivateClass#83
 {
     
    
-   function PrivateClass#102()
+   function PrivateClass#83()
    {
       super();
    }
