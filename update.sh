@@ -6,7 +6,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 for req in ffdec wget
 do
     if ! [ -x "$(command -v $req)" ]; then
-        echo 'Error: ffdec is not installed' >&2
+        echo 'Error: $req is not installed' >&2
         exit 1
     fi
 done
