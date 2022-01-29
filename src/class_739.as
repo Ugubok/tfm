@@ -173,7 +173,7 @@ package
 
       public var userDataCat:V_CT_DonneesUtilisateur;
 
-      public var var_2563:V_CT_Defaut;
+      public var var_2563:V_CT_Defaut; // Unused
 
       public var blacklistCat:V_CT_ListeNoire;
 
@@ -181,7 +181,7 @@ package
 
       public var svcCat:V_CT_Service;
 
-      public var var_2567:V_CT_motsInterdits;
+      public var var_2567:V_CT_motsInterdits; // Unused
 
       public var tribeCategory:V_CT_Tribu;
 
