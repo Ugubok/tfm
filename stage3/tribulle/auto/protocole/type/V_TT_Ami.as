@@ -57,7 +57,7 @@ package tribulle.auto.protocole.type
          param1.writeInt(this.dateDerniereConnexion);
          param1.writeInt(this.typeService);
          param1.writeUTF(this.localisation);
-         param1.writeByte(!!this.online?1:0);
+         param1.writeByte(!!this.online ? 1 : 0);
       }
       
       public function lecture(param1:ByteArray) : void

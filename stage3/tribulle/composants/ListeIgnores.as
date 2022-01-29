@@ -18,7 +18,7 @@ package tribulle.composants
       
       private function tri(param1:String, param2:String) : int
       {
-         return param1 < param2?-1:1;
+         return param1 < param2 ? -1 : 1;
       }
       
       public function onResultatListeNoire(param1:Vector.<String>) : void

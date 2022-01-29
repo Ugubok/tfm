@@ -54,12 +54,12 @@ package com.bit101.components
          {
             if(this._precision > 0)
             {
-               _loc2_ = _loc2_ + ".";
+               _loc2_ += ".";
             }
             _loc4_ = 0;
             while(_loc4_ < this._precision)
             {
-               _loc2_ = _loc2_ + "0";
+               _loc2_ += "0";
                _loc4_++;
             }
          }
@@ -68,7 +68,7 @@ package com.bit101.components
             _loc4_ = 0;
             while(_loc4_ < this._precision - _loc3_[1].length)
             {
-               _loc2_ = _loc2_ + "0";
+               _loc2_ += "0";
                _loc4_++;
             }
          }

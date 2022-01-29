@@ -55,7 +55,7 @@ package tribulle.auto.protocole.sortie
          var _loc2_:int = 0;
          while(_loc2_ < this.localisations.length)
          {
-            _loc1_ = _loc1_ + (2 + this.localisations[_loc2_].length);
+            _loc1_ += 2 + this.localisations[_loc2_].length;
             _loc2_++;
          }
          return 10 + this.idsUtilisateurs.length * 4 + _loc1_ + this.communautes.length * 1;

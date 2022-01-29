@@ -174,7 +174,7 @@ package tribulle
          {
             param2 = "";
          }
-         modeSilenceActif = modeSilenceActif > 0?0:!!param1?2:1;
+         modeSilenceActif = modeSilenceActif > 0 ? 0 : (!!param1 ? 2 : 1);
          if(modeSilenceActif)
          {
             if(param1)

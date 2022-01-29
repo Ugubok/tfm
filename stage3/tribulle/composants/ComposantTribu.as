@@ -836,7 +836,7 @@ package tribulle.composants
          {
             if(_loc2_.ordre >= param1.ordre)
             {
-               _loc2_.ordre++;
+               ++_loc2_.ordre;
             }
          }
          GestionnaireTribuVieux.getInstance().rangs.push(param1);
@@ -867,7 +867,7 @@ package tribulle.composants
             {
                if(_loc5_.ordre > _loc3_.ordre)
                {
-                  _loc5_.ordre--;
+                  --_loc5_.ordre;
                }
             }
             this.activeEditionRangs(true);
@@ -986,8 +986,8 @@ package tribulle.composants
             {
                return;
             }
-            _loc5_.ordre++;
-            _loc4_.ordre--;
+            ++_loc5_.ordre;
+            --_loc4_.ordre;
             this.activeEditionRangs(true);
             this.afficherRangs();
          }
@@ -1044,39 +1044,40 @@ package tribulle.composants
          var _loc2_:* = "";
          for each(_loc3_ in param1)
          {
-            _loc2_ = _loc2_ + "<font color=\'#6C77C1\'>[";
-            _loc2_ = _loc2_ + UtilUI.getDateAffichage(UtilDate.toTimestampEnMillis(_loc3_.date));
-            _loc2_ = _loc2_ + "] </font>";
+            _loc2_ += "<font color=\'#6C77C1\'>[";
+            _loc2_ += UtilUI.getDateAffichage(UtilDate.toTimestampEnMillis(_loc3_.date));
+            _loc2_ += "] </font>";
             _loc5_ = "";
             switch(_loc3_.idType)
             {
                case 1:
-                  _loc5_ = _loc5_ + MoteurLangueTribulle.recupTexte("historique.tribu.creation",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"auteur")),UtilUI.getValeurJSON(_loc3_.metadonneesJson,"tribu"));
+                  _loc5_ += MoteurLangueTribulle.recupTexte("historique.tribu.creation",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"auteur")),UtilUI.getValeurJSON(_loc3_.metadonneesJson,"tribu"));
                   break;
                case 2:
-                  _loc5_ = _loc5_ + MoteurLangueTribulle.recupTexte("historique.tribu.nouveauMembre",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"membreAjoute")));
+                  _loc5_ += MoteurLangueTribulle.recupTexte("historique.tribu.nouveauMembre",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"membreAjoute")));
                   break;
                case 3:
-                  _loc5_ = _loc5_ + MoteurLangueTribulle.recupTexte("historique.tribu.membreExclu",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"auteur")),UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"membreExclu")));
+                  _loc5_ += MoteurLangueTribulle.recupTexte("historique.tribu.membreExclu",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"auteur")),UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"membreExclu")));
                   break;
                case 4:
-                  _loc5_ = _loc5_ + MoteurLangueTribulle.recupTexte("historique.tribu.membreParti",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"membreParti")));
+                  _loc5_ += MoteurLangueTribulle.recupTexte("historique.tribu.membreParti",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"membreParti")));
                   break;
                case 5:
-                  _loc5_ = _loc5_ + MoteurLangueTribulle.recupTexte("historique.tribu.membreChangeDeRang",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"auteur")),UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"cible")),MoteurLangueTribulle.parser(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"rang")));
+                  _loc5_ += MoteurLangueTribulle.recupTexte("historique.tribu.membreChangeDeRang",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"auteur")),UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"cible")),MoteurLangueTribulle.parser(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"rang")));
                   break;
                case 6:
-                  _loc5_ = _loc5_ + MoteurLangueTribulle.recupTexte("historique.tribu.messageDuJourChange2",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"auteur")));
+                  _loc5_ += MoteurLangueTribulle.recupTexte("historique.tribu.messageDuJourChange2",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"auteur")));
                   break;
                case 7:
-                  _loc5_ = _loc5_ + MoteurLangueTribulle.recupTexte("historique.tribu.dissolutionTribu",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"auteur")));
+                  _loc5_ += MoteurLangueTribulle.recupTexte("historique.tribu.dissolutionTribu",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"auteur")));
                   break;
                case 8:
-                  _loc5_ = _loc5_ + MoteurLangueTribulle.recupTexte("historique.tribu.changementCodeMaisonTFM",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"auteur")),"@" + UtilUI.getValeurJSON(_loc3_.metadonneesJson,"code"));
+                  _loc5_ += MoteurLangueTribulle.recupTexte("historique.tribu.changementCodeMaisonTFM",UtilUI.getNomJoueurFormate(UtilUI.getValeurJSON(_loc3_.metadonneesJson,"auteur")),"@" + UtilUI.getValeurJSON(_loc3_.metadonneesJson,"code"));
+                  break;
             }
-            _loc5_ = _loc5_ + "\n";
+            _loc5_ += "\n";
             _loc5_ = _loc5_.replace(/</g,"&lt;");
-            _loc2_ = _loc2_ + _loc5_;
+            _loc2_ += _loc5_;
          }
          _loc4_ = TextArea(UtilUI.getChild(_panel,"etiquette_historique"));
          _loc4_.text = _loc2_;

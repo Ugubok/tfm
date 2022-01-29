@@ -100,15 +100,15 @@ package lapitchnet.crypto
                _loc15_ = _loc29_ + _loc26_;
                _loc23_++;
             }
-            _loc2_ = _loc2_ + _loc15_;
-            _loc3_ = _loc3_ + _loc16_;
-            _loc4_ = _loc4_ + _loc17_;
-            _loc5_ = _loc5_ + _loc18_;
-            _loc6_ = _loc6_ + _loc19_;
-            _loc7_ = _loc7_ + _loc20_;
-            _loc8_ = _loc8_ + _loc21_;
-            _loc9_ = _loc9_ + _loc22_;
-            _loc13_ = _loc13_ + 16;
+            _loc2_ += _loc15_;
+            _loc3_ += _loc16_;
+            _loc4_ += _loc17_;
+            _loc5_ += _loc18_;
+            _loc6_ += _loc19_;
+            _loc7_ += _loc20_;
+            _loc8_ += _loc21_;
+            _loc9_ += _loc22_;
+            _loc13_ += 16;
          }
          var _loc14_:ByteArray = new ByteArray();
          _loc14_.writeInt(_loc2_);
@@ -133,10 +133,10 @@ package lapitchnet.crypto
          var _loc6_:int = 0;
          while(_loc6_ < _loc4_)
          {
-            _loc3_[_loc6_ >> 5] = _loc3_[_loc6_ >> 5] | (param1.readByte() & _loc5_) << 24 - _loc6_ % 32;
-            _loc6_ = _loc6_ + 8;
+            _loc3_[_loc6_ >> 5] |= (param1.readByte() & _loc5_) << 24 - _loc6_ % 32;
+            _loc6_ += 8;
          }
-         _loc3_[_loc4_ >> 5] = _loc3_[_loc4_ >> 5] | 128 << 24 - _loc4_ % 32;
+         _loc3_[_loc4_ >> 5] |= 128 << 24 - _loc4_ % 32;
          _loc3_[(_loc4_ + 64 >> 9 << 4) + 15] = _loc4_;
          param1.position = _loc2_;
          return _loc3_;
@@ -150,10 +150,10 @@ package lapitchnet.crypto
          var _loc5_:int = 0;
          while(_loc5_ < _loc3_)
          {
-            _loc2_[_loc5_ >> 5] = _loc2_[_loc5_ >> 5] | (param1.charCodeAt(_loc5_ / 8) & _loc4_) << 24 - _loc5_ % 32;
-            _loc5_ = _loc5_ + 8;
+            _loc2_[_loc5_ >> 5] |= (param1.charCodeAt(_loc5_ / 8) & _loc4_) << 24 - _loc5_ % 32;
+            _loc5_ += 8;
          }
-         _loc2_[_loc3_ >> 5] = _loc2_[_loc3_ >> 5] | 128 << 24 - _loc3_ % 32;
+         _loc2_[_loc3_ >> 5] |= 128 << 24 - _loc3_ % 32;
          _loc2_[(_loc3_ + 64 >> 9 << 4) + 15] = _loc3_;
          return _loc2_;
       }

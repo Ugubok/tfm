@@ -38,7 +38,7 @@ package com.hurlant.crypto.hash
          while(_loc6_ < param1.length)
          {
             _loc5_.push(param1.readUnsignedInt());
-            _loc6_ = _loc6_ + 4;
+            _loc6_ += 4;
          }
          var _loc7_:Array = this.core(_loc5_,_loc4_);
          var _loc8_:ByteArray = new ByteArray();

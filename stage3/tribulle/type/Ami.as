@@ -73,7 +73,7 @@ package tribulle.type
       
       public function retireBidirectionnalite() : void
       {
-         masqueInfos = masqueInfos & ~V_NT_MasqueInfosAmi.AMITIE_BIDIRECTIONNELLE;
+         masqueInfos &= ~V_NT_MasqueInfosAmi.AMITIE_BIDIRECTIONNELLE;
          this.localisation = "";
       }
       
@@ -81,17 +81,17 @@ package tribulle.type
       {
          if(param1 == UtilTribulle.GENRE_FILLE)
          {
-            masqueInfos = masqueInfos | V_NT_MasqueInfosAmi.FILLE;
-            masqueInfos = masqueInfos & ~V_NT_MasqueInfosAmi.GARCON;
+            masqueInfos |= V_NT_MasqueInfosAmi.FILLE;
+            masqueInfos &= ~V_NT_MasqueInfosAmi.GARCON;
          }
          else if(param1 == UtilTribulle.GENRE_GARCON)
          {
-            masqueInfos = masqueInfos | V_NT_MasqueInfosAmi.GARCON;
-            masqueInfos = masqueInfos & ~V_NT_MasqueInfosAmi.FILLE;
+            masqueInfos |= V_NT_MasqueInfosAmi.GARCON;
+            masqueInfos &= ~V_NT_MasqueInfosAmi.FILLE;
          }
          else
          {
-            masqueInfos = masqueInfos & ~(V_NT_MasqueInfosAmi.GARCON | V_NT_MasqueInfosAmi.FILLE);
+            masqueInfos &= ~(V_NT_MasqueInfosAmi.GARCON | V_NT_MasqueInfosAmi.FILLE);
          }
       }
    }

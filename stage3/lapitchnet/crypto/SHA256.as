@@ -37,7 +37,7 @@ package lapitchnet.crypto
          var _loc23_:uint = 0;
          var _loc24_:uint = 0;
          var _loc25_:uint = 0;
-         param1[param2 >> 5] = param1[param2 >> 5] | 128 << 24 - param2 % 32;
+         param1[param2 >> 5] |= 128 << 24 - param2 % 32;
          param1[(param2 + 64 >> 9 << 4) + 15] = param2;
          var _loc3_:Array = [];
          var _loc4_:uint = this.h[0];
@@ -84,15 +84,15 @@ package lapitchnet.crypto
                _loc4_ = _loc23_ + _loc22_;
                _loc21_++;
             }
-            _loc4_ = _loc4_ + _loc13_;
-            _loc5_ = _loc5_ + _loc14_;
-            _loc6_ = _loc6_ + _loc15_;
-            _loc7_ = _loc7_ + _loc16_;
-            _loc8_ = _loc8_ + _loc17_;
-            _loc9_ = _loc9_ + _loc18_;
-            _loc10_ = _loc10_ + _loc19_;
-            _loc11_ = _loc11_ + _loc20_;
-            _loc12_ = _loc12_ + 16;
+            _loc4_ += _loc13_;
+            _loc5_ += _loc14_;
+            _loc6_ += _loc15_;
+            _loc7_ += _loc16_;
+            _loc8_ += _loc17_;
+            _loc9_ += _loc18_;
+            _loc10_ += _loc19_;
+            _loc11_ += _loc20_;
+            _loc12_ += 16;
          }
          return [_loc4_,_loc5_,_loc6_,_loc7_,_loc8_,_loc9_,_loc10_,_loc11_];
       }

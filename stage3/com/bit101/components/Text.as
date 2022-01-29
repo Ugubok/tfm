@@ -35,7 +35,7 @@ package com.bit101.components
       public function Text(param1:DisplayObjectContainer = null, param2:Number = 0, param3:Number = 0, param4:String = "", param5:int = 0)
       {
          this.text = param4;
-         this._fontSize = param5 <= 0?int(Style.fontSize):int(param5);
+         this._fontSize = param5 <= 0 ? int(Style.fontSize) : int(param5);
          super(param1,param2,param3);
          setSize(200,100);
       }

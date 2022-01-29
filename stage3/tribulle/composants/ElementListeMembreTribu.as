@@ -182,7 +182,7 @@ package tribulle.composants
             }
             this.champsRang.x = this.champsNomJoueur.x + this.champsNomJoueur.width + 5;
             _loc3_ = GestionnaireTribuVieux.getInstance().getRangDepuisId(_loc1_.idRang);
-            this.champsRang.text = _loc3_ != null?"- " + _loc3_.nom:"";
+            this.champsRang.text = _loc3_ != null ? "- " + _loc3_.nom : "";
             this.btnMenu.visible = true;
             this.afficheLocalisationMembre(this,_loc1_,_loc2_);
             if(!_loc2_ && UtilTribu.estEnLigne(_loc1_))

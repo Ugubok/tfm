@@ -15,7 +15,7 @@ package tribulle.signals
       {
          this.slots = SlotList.NIL;
          super();
-         this.valueClasses = rest.length == 1 && rest[0] is Array?rest[0]:rest;
+         this.valueClasses = rest.length == 1 && rest[0] is Array ? rest[0] : rest;
       }
       
       public function get valueClasses() : Array
@@ -25,7 +25,7 @@ package tribulle.signals
       
       public function set valueClasses(param1:Array) : void
       {
-         this._valueClasses = !!param1?param1.slice():[];
+         this._valueClasses = !!param1 ? param1.slice() : [];
          var _loc2_:int = this._valueClasses.length;
          while(_loc2_--)
          {
@@ -73,12 +73,11 @@ package tribulle.signals
          var _loc4_:int = 0;
          while(_loc4_ < _loc2_)
          {
-            if(rest[_loc4_] is this._valueClasses[_loc4_] || rest[_loc4_] === null)
+            if(!(rest[_loc4_] is this._valueClasses[_loc4_] || rest[_loc4_] === null))
             {
-               _loc4_++;
-               continue;
+               throw new ArgumentError("Value object <" + rest[_loc4_] + "> is not an instance of <" + this._valueClasses[_loc4_] + ">.");
             }
-            throw new ArgumentError("Value object <" + rest[_loc4_] + "> is not an instance of <" + this._valueClasses[_loc4_] + ">.");
+            _loc4_++;
          }
          var _loc5_:SlotList = this.slots;
          if(_loc5_.nonEmpty)

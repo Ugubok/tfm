@@ -182,10 +182,10 @@ package tribulle.signals
          var _loc2_:SlotList = this;
          while(_loc2_.nonEmpty)
          {
-            _loc1_ = _loc1_ + (_loc2_.head + " -> ");
+            _loc1_ += _loc2_.head + " -> ";
             _loc2_ = _loc2_.tail;
          }
-         _loc1_ = _loc1_ + "NIL";
+         _loc1_ += "NIL";
          return "[List " + _loc1_ + "]";
       }
    }

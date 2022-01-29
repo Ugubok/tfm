@@ -100,14 +100,14 @@ package com.bit101.components
          {
             _loc3_ = getChildAt(_loc2_);
             _loc3_.x = _loc1_;
-            _loc1_ = _loc1_ + _loc3_.width;
-            _loc1_ = _loc1_ + this._spacing;
-            _width = _width + _loc3_.width;
+            _loc1_ += _loc3_.width;
+            _loc1_ += this._spacing;
+            _width += _loc3_.width;
             _height = Math.max(_height,_loc3_.height);
             _loc2_++;
          }
          this.doAlignment();
-         _width = _width + this._spacing * (numChildren - 1);
+         _width += this._spacing * (numChildren - 1);
          dispatchEvent(new Event(Event.RESIZE));
       }
       

@@ -58,7 +58,7 @@ package tribulle.signals.natives
       
       public function set valueClasses(param1:Array) : void
       {
-         this.eventClass = param1 && param1.length > 0?param1[0]:null;
+         this.eventClass = param1 && param1.length > 0 ? param1[0] : null;
       }
       
       public function get numListeners() : uint

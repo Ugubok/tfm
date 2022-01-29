@@ -136,7 +136,7 @@ package tribulle.composants
             {
                _loc2_ = -this.PuissanceMolette;
             }
-            this.Texte.scrollV = this.Texte.scrollV + _loc2_;
+            this.Texte.scrollV += _loc2_;
             _loc3_ = (this.Texte.scrollV - 1) / (this.Texte.maxScrollV - 1);
             this.ClipBarre.y = int(this.LimiteBarreY * _loc3_);
             if(this.fonctionRetourMaj != null)

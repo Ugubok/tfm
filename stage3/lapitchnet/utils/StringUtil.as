@@ -34,8 +34,7 @@ package lapitchnet.utils
             param1 = param1.split("  ").join(" ");
          }
          param1 = param1.split("\r").join("");
-         param1 = param1.split("\n").join("");
-         return param1;
+         return param1.split("\n").join("");
       }
       
       public static function removeNonAlphaNumericCharsAt(param1:String, param2:int) : String

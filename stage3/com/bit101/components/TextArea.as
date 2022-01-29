@@ -98,7 +98,7 @@ package com.bit101.components
       
       protected function onMouseWheel(param1:MouseEvent) : void
       {
-         this._scrollbar.value = this._scrollbar.value - param1.delta;
+         this._scrollbar.value -= param1.delta;
          _tf.scrollV = Math.round(this._scrollbar.value);
       }
       

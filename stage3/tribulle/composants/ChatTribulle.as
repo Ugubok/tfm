@@ -316,13 +316,13 @@ package tribulle.composants
          if(ProxyTribulle.x_inversionSensLecture)
          {
             this._zoneSaisie.x = 45;
-            this._zoneSaisie.width = (this.modeChatEnCours == CHAT_MINI?MINI_ZONESAISIE_WIDTH:NORMAL_ZONESAISIE_WIDTH + 40) - this._zoneSaisie.x - this._prompt.width;
+            this._zoneSaisie.width = (this.modeChatEnCours == CHAT_MINI ? MINI_ZONESAISIE_WIDTH : NORMAL_ZONESAISIE_WIDTH + 40) - this._zoneSaisie.x - this._prompt.width;
             this._prompt.x = this._zoneSaisie.x + this._zoneSaisie.width;
          }
          else
          {
             this._zoneSaisie.x = this._prompt.x + this._prompt.width;
-            this._zoneSaisie.width = (this.modeChatEnCours == CHAT_MINI?MINI_ZONESAISIE_WIDTH:NORMAL_ZONESAISIE_WIDTH + 40) - this._zoneSaisie.x;
+            this._zoneSaisie.width = (this.modeChatEnCours == CHAT_MINI ? MINI_ZONESAISIE_WIDTH : NORMAL_ZONESAISIE_WIDTH + 40) - this._zoneSaisie.x;
          }
       }
       
@@ -571,7 +571,7 @@ package tribulle.composants
       {
          if(this.getOngletFromId(param1) != null)
          {
-            this.x_nouveauMessageCanal(param1,!!param4?"¤" + param2:param2,param3);
+            this.x_nouveauMessageCanal(param1,!!param4 ? "¤" + param2 : param2,param3);
             return true;
          }
          return false;
@@ -956,11 +956,11 @@ package tribulle.composants
       {
          if(param1.id == ID_CANAL_GENERAL || param2.id == ID_CANAL_GENERAL)
          {
-            return param1.id == ID_CANAL_GENERAL?-1:1;
+            return param1.id == ID_CANAL_GENERAL ? -1 : 1;
          }
          if(param1 == this._ongletTribu || param2 == this._ongletTribu)
          {
-            return param1 == this._ongletTribu?-1:1;
+            return param1 == this._ongletTribu ? -1 : 1;
          }
          if(this._ongletsStaff.indexOf(param1) > -1 || this._ongletsStaff.indexOf(param2) > -1)
          {
@@ -968,21 +968,21 @@ package tribulle.composants
             {
                return this._ongletsStaff.indexOf(param2) - this._ongletsStaff.indexOf(param1);
             }
-            return this._ongletsStaff.indexOf(param1) > -1?-1:1;
+            return this._ongletsStaff.indexOf(param1) > -1 ? -1 : 1;
          }
          if(param1.label.charAt(0) == "$" || param2.label.charAt(0) == "$")
          {
-            return param1.label.charAt(0) == "$"?-1:1;
+            return param1.label.charAt(0) == "$" ? -1 : 1;
          }
          if(param1.label.charAt(0) == "#" || param2.label.charAt(0) == "#")
          {
-            return param1.label.charAt(0) == "#"?-1:1;
+            return param1.label.charAt(0) == "#" ? -1 : 1;
          }
          if(!param1.isPrivate && param2.isPrivate || param1.isPrivate && !param2.isPrivate)
          {
-            return param1.isPrivate && !param2.isPrivate?-1:1;
+            return param1.isPrivate && !param2.isPrivate ? -1 : 1;
          }
-         return param1.label < param2.label?-1:1;
+         return param1.label < param2.label ? -1 : 1;
       }
       
       private function majOrganisationOnglet(param1:Boolean = false) : void
@@ -1224,7 +1224,7 @@ package tribulle.composants
       {
          var _loc2_:* = param1.charAt(0) == "~";
          var _loc3_:* = param1.charAt(0) == "¤";
-         return !!_loc2_?MoteurLangueTribulle.recupTexte("texte.tribu"):param1.substr(!!_loc3_?Number(2):Number(1)).split("<").join("").split("&").join("");
+         return !!_loc2_ ? MoteurLangueTribulle.recupTexte("texte.tribu") : param1.substr(!!_loc3_ ? Number(2) : Number(1)).split("<").join("").split("&").join("");
       }
       
       private function supprimeOnglet(param1:int) : void
@@ -1279,7 +1279,7 @@ package tribulle.composants
             }
             else
             {
-               this._texteChat = this._texteChat + ("\n" + param1);
+               this._texteChat += "\n" + param1;
             }
          }
          this.majAffichageLigneChat();
@@ -1394,11 +1394,11 @@ package tribulle.composants
          {
             if(_loc2_ == Keyboard.UP)
             {
-               this._indexHistorique++;
+               ++this._indexHistorique;
             }
             else if(_loc2_ == Keyboard.DOWN)
             {
-               this._indexHistorique--;
+               --this._indexHistorique;
             }
             _loc5_ = this._historiqueSaisies.length - this._indexHistorique;
             if(_loc5_ >= this._historiqueSaisies.length)
@@ -1408,7 +1408,7 @@ package tribulle.composants
             }
             else if(_loc5_ < 0)
             {
-               this._indexHistorique--;
+               --this._indexHistorique;
             }
             else
             {

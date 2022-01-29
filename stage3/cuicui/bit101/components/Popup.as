@@ -57,7 +57,7 @@ package cuicui.bit101.components
             {
                for each(_loc5_ in this._buttons)
                {
-                  _loc2_ = _loc2_ + _loc5_.width;
+                  _loc2_ += _loc5_.width;
                }
                if(_loc2_ > width)
                {
@@ -83,12 +83,12 @@ package cuicui.bit101.components
                else
                {
                   _loc1_ = true;
-                  height = this._content.height + _titleBar.height + (this._buttons != null && this._buttons.length > 0?40:0);
+                  height = this._content.height + _titleBar.height + (this._buttons != null && this._buttons.length > 0 ? 40 : 0);
                }
             }
             if(this._btnConteneur == null && this._buttons != null && this._buttons.length > 0)
             {
-               this._btnConteneur = new HBox(this,0,!!_loc1_?Number(this._content.height + 20):Number(78));
+               this._btnConteneur = new HBox(this,0,!!_loc1_ ? Number(this._content.height + 20) : Number(78));
                this._btnConteneur.addEventListener(Event.RESIZE,this.onBtnConteneurResize);
                for each(_loc5_ in this._buttons)
                {

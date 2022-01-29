@@ -31,7 +31,7 @@ package com.bit101.components
          this._backgroundColor = param5;
          this._fontColor = param6;
          this.text = param4;
-         this._align = param7 == ""?TextFormatAlign.LEFT:param7;
+         this._align = param7 == "" ? TextFormatAlign.LEFT : param7;
          super(param1,param2,param3);
       }
       
@@ -55,7 +55,7 @@ package com.bit101.components
          this._tf.embedFonts = Style.embedFonts;
          this._tf.selectable = false;
          this._tf.mouseEnabled = false;
-         var _loc1_:TextFormat = new TextFormat(Style.x_policeInterface,Style.fontSize,this._fontColor == -1?Style.COULEUR_TEXTE_DEFAUT:this._fontColor);
+         var _loc1_:TextFormat = new TextFormat(Style.x_policeInterface,Style.fontSize,this._fontColor == -1 ? Style.COULEUR_TEXTE_DEFAUT : this._fontColor);
          _loc1_.align = this._align;
          this._tf.defaultTextFormat = _loc1_;
          if(this._html)

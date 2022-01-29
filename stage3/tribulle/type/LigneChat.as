@@ -45,17 +45,17 @@ package tribulle.type
          super();
          this._auteur = param3;
          this._message = param2;
-         this.dateMessage = param5 != null?param5:new Date();
+         this.dateMessage = param5 != null ? param5 : new Date();
          if(ProxyTribulle.x_afficherHeureMessageChat)
          {
-            _loc6_ = "[" + (this.dateMessage.hours < 10?"0" + this.dateMessage.hours:String(this.dateMessage.hours)) + ":" + (this.dateMessage.minutes < 10?"0" + this.dateMessage.minutes:String(this.dateMessage.minutes)) + "]";
+            _loc6_ = "[" + (this.dateMessage.hours < 10 ? "0" + this.dateMessage.hours : String(this.dateMessage.hours)) + ":" + (this.dateMessage.minutes < 10 ? "0" + this.dateMessage.minutes : String(this.dateMessage.minutes)) + "]";
             if(ProxyTribulle.x_inversionSensLecture)
             {
                _loc6_ = " " + _loc6_;
             }
             else
             {
-               _loc6_ = _loc6_ + " ";
+               _loc6_ += " ";
             }
          }
          else
@@ -108,7 +108,7 @@ package tribulle.type
                      _loc11_ = true;
                      this._auteur = this._auteur.substr(1);
                   }
-                  _loc8_ = "   " + _loc10_ + "[" + UtilUI.getNomJoueurFormate(this._auteur,true,true) + (!!_loc11_?"][All]":"]") + _loc6_ + " •";
+                  _loc8_ = "   " + _loc10_ + "[" + UtilUI.getNomJoueurFormate(this._auteur,true,true) + (!!_loc11_ ? "][All]" : "]") + _loc6_ + " •";
                   _loc9_ = _loc10_ + this._message;
                }
                else
@@ -211,7 +211,7 @@ package tribulle.type
                   _loc11_ = true;
                   this._auteur = this._auteur.substr(1);
                }
-               this.chaine = _loc10_ + "• " + _loc6_ + (!!_loc11_?"[All][":"[") + UtilUI.getNomJoueurFormate(this._auteur,true,true) + "] " + this._message;
+               this.chaine = _loc10_ + "• " + _loc6_ + (!!_loc11_ ? "[All][" : "[") + UtilUI.getNomJoueurFormate(this._auteur,true,true) + "] " + this._message;
             }
             else
             {

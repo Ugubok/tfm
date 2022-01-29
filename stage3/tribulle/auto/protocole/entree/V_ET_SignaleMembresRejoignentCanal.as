@@ -44,7 +44,7 @@ package tribulle.auto.protocole.entree
          var _loc2_:int = 0;
          while(_loc2_ < this.nomsMembres.length)
          {
-            _loc1_ = _loc1_ + (2 + this.nomsMembres[_loc2_].length);
+            _loc1_ += 2 + this.nomsMembres[_loc2_].length;
             _loc2_++;
          }
          return 8 + this.idsMembres.length * 4 + _loc1_;

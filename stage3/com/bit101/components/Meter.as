@@ -114,7 +114,7 @@ package com.bit101.components
          while(_loc5_ < param2)
          {
             this._dial.graphics.lineTo(Math.cos(_loc5_) * _loc3_,Math.sin(_loc5_) * _loc3_);
-            _loc5_ = _loc5_ + 0.1;
+            _loc5_ += 0.1;
          }
          this._dial.graphics.lineTo(Math.cos(param2) * _loc3_,Math.sin(param2) * _loc3_);
          this._dial.graphics.lineTo(Math.cos(param2) * _loc4_,Math.sin(param2) * _loc4_);
@@ -122,7 +122,7 @@ package com.bit101.components
          while(_loc5_ > param1)
          {
             this._dial.graphics.lineTo(Math.cos(_loc5_) * _loc4_,Math.sin(_loc5_) * _loc4_);
-            _loc5_ = _loc5_ - 0.1;
+            _loc5_ -= 0.1;
          }
          this._dial.graphics.lineTo(Math.cos(param1) * _loc4_,Math.sin(param1) * _loc4_);
          this._dial.graphics.lineTo(Math.cos(param1) * _loc3_,Math.sin(param1) * _loc3_);
@@ -175,8 +175,8 @@ package com.bit101.components
       protected function onEnterFrame(param1:Event) : void
       {
          var _loc2_:Number = this._targetRotation - this._needle.rotation;
-         this._velocity = this._velocity + _loc2_ * 0.05;
-         this._velocity = this._velocity * this._damp;
+         this._velocity += _loc2_ * 0.05;
+         this._velocity *= this._damp;
          if(Math.abs(this._velocity) < 0.1 && Math.abs(_loc2_) < 0.1)
          {
             this._needle.rotation = this._targetRotation;
@@ -184,7 +184,7 @@ package com.bit101.components
          }
          else
          {
-            this._needle.rotation = this._needle.rotation + this._velocity;
+            this._needle.rotation += this._velocity;
          }
       }
       

@@ -43,11 +43,11 @@ package tribulle.composants
          {
             if(this._triMembresParNomAsc)
             {
-               _loc3_ = param1.nom < param2.nom?-1:1;
+               _loc3_ = param1.nom < param2.nom ? -1 : 1;
             }
             else
             {
-               _loc3_ = param1.nom > param2.nom?-1:1;
+               _loc3_ = param1.nom > param2.nom ? -1 : 1;
             }
          }
          else
@@ -56,11 +56,11 @@ package tribulle.composants
             {
                if(this._triMembresParNomAsc)
                {
-                  _loc3_ = param1.nom < param2.nom?-1:1;
+                  _loc3_ = param1.nom < param2.nom ? -1 : 1;
                }
                else
                {
-                  _loc3_ = param1.nom > param2.nom?-1:1;
+                  _loc3_ = param1.nom > param2.nom ? -1 : 1;
                }
                return _loc3_;
             }

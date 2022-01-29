@@ -132,24 +132,23 @@ package lapitchnet.reseau
                }
                this._isNewPaquet = false;
             }
-            if(!this._isNewPaquet && this._socket.bytesAvailable >= this._taillePaquetCourant)
+            if(!(!this._isNewPaquet && this._socket.bytesAvailable >= this._taillePaquetCourant))
             {
-               Logger.flashTrace("<-- Reception d\'un paquet (id: " + this._idPaquetCourant + ")",Logger.RESEAU);
-               if(this._ba == null)
-               {
-                  this._ba = _ByteArrayPool.cree();
-               }
-               else
-               {
-                  this._ba.clear();
-               }
-               this._socket.readBytes(this._ba,0,this._taillePaquetCourant);
-               this._paquetCourant.lecture(this._ba);
-               this._protocole.traiterPaquetEntrant(this._idPaquetCourant,this._paquetCourant);
-               this._isNewPaquet = true;
-               continue;
+               break;
             }
-            break;
+            Logger.flashTrace("<-- Reception d\'un paquet (id: " + this._idPaquetCourant + ")",Logger.RESEAU);
+            if(this._ba == null)
+            {
+               this._ba = _ByteArrayPool.cree();
+            }
+            else
+            {
+               this._ba.clear();
+            }
+            this._socket.readBytes(this._ba,0,this._taillePaquetCourant);
+            this._paquetCourant.lecture(this._ba);
+            this._protocole.traiterPaquetEntrant(this._idPaquetCourant,this._paquetCourant);
+            this._isNewPaquet = true;
          }
       }
       

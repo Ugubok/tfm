@@ -103,14 +103,14 @@ package com.bit101.components
             _loc3_ = getChildAt(_loc2_);
             _loc3_.x = this.bordure;
             _loc3_.y = _loc1_ + this.bordure;
-            _loc1_ = _loc1_ + _loc3_.height;
-            _loc1_ = _loc1_ + this._spacing;
-            _height = _height + _loc3_.height;
+            _loc1_ += _loc3_.height;
+            _loc1_ += this._spacing;
+            _height += _loc3_.height;
             _width = Math.max(_width,_loc3_.width);
             _loc2_++;
          }
          this.doAlignment();
-         _height = _height + this._spacing * (numChildren - 1);
+         _height += this._spacing * (numChildren - 1);
       }
       
       public function set spacing(param1:Number) : void

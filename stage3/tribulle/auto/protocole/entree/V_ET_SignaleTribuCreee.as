@@ -51,7 +51,7 @@ package tribulle.auto.protocole.entree
          var _loc2_:int = 0;
          while(_loc2_ < this.rangs.length)
          {
-            _loc1_ = _loc1_ + this.rangs[_loc2_].getTaille();
+            _loc1_ += this.rangs[_loc2_].getTaille();
             _loc2_++;
          }
          return 18 + this.nom.length + this.messageJour.length + _loc1_;

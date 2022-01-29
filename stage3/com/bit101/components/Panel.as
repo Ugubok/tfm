@@ -109,14 +109,14 @@ package com.bit101.components
          {
             this._background.graphics.moveTo(_loc1_,0);
             this._background.graphics.lineTo(_loc1_,_height);
-            _loc1_ = _loc1_ + this._gridSize;
+            _loc1_ += this._gridSize;
          }
          _loc1_ = 0;
          while(_loc1_ < _height)
          {
             this._background.graphics.moveTo(0,_loc1_);
             this._background.graphics.lineTo(_width,_loc1_);
-            _loc1_ = _loc1_ + this._gridSize;
+            _loc1_ += this._gridSize;
          }
       }
       

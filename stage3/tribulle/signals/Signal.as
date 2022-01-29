@@ -6,7 +6,7 @@ package tribulle.signals
       
       public function Signal(... rest)
       {
-         rest = rest.length == 1 && rest[0] is Array?rest[0]:rest;
+         rest = rest.length == 1 && rest[0] is Array ? rest[0] : rest;
          super(rest);
       }
       

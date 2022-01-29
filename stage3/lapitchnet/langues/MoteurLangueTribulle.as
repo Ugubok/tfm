@@ -69,7 +69,7 @@ package lapitchnet.langues
          var j:int = 0;
          while(j < params.length)
          {
-            retour = retour + (", " + params[j]);
+            retour += ", " + params[j];
             j++;
          }
          return retour;

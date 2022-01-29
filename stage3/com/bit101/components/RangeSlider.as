@@ -198,12 +198,12 @@ package com.bit101.components
             _loc3_ = _loc2_.split(".")[1] || "";
             if(_loc3_.length == 0)
             {
-               _loc2_ = _loc2_ + ".";
+               _loc2_ += ".";
             }
             _loc4_ = _loc3_.length;
             while(_loc4_ < this._labelPrecision)
             {
-               _loc2_ = _loc2_ + "0";
+               _loc2_ += "0";
                _loc4_++;
             }
          }

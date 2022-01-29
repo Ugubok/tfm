@@ -103,7 +103,7 @@ package com.bit101.components
          this._panel.color = this._color;
          this._titleBar.width = width;
          this._titleBar.draw();
-         this._titleLabel.x = !!this._hasMinimizeButton?Number(20):Number(5);
+         this._titleLabel.x = !!this._hasMinimizeButton ? Number(20) : Number(5);
          this._closeButton.x = _width - 18;
          this._panel.setSize(_width,_height - 20);
          this._panel.draw();

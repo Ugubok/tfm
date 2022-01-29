@@ -72,13 +72,11 @@ package cuicui.utils
             chargeurImage.contentLoaderInfo.addEventListener(Event.COMPLETE,finChargementImage,false,0,true);
             chargeurImage.contentLoaderInfo.addEventListener(IOErrorEvent.IO_ERROR,erreurChargementImage);
             chargeurImage.load(new URLRequest(imageEnCours + "?d=" + new Date().time));
-            return;
          }
          catch(E:Error)
          {
             chargementEnCours = false;
             lancementChargementImage();
-            return;
          }
       }
       

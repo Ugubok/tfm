@@ -108,7 +108,7 @@ package com.bit101.components
       protected function fillItems() : void
       {
          var _loc4_:ListItem = null;
-         var _loc1_:int = !!this._scroll?int(this._scrollbar.value):0;
+         var _loc1_:int = !!this._scroll ? int(this._scrollbar.value) : 0;
          var _loc2_:int = Math.ceil(_height / this._listItemHeight);
          _loc2_ = Math.min(_loc2_,this._items.length);
          var _loc3_:int = 0;
@@ -129,7 +129,7 @@ package com.bit101.components
             }
             if(this._alternateRows)
             {
-               _loc4_.defaultColor = (_loc1_ + _loc3_) % 2 == 0?uint(this._defaultColor):uint(this._alternateColor);
+               _loc4_.defaultColor = (_loc1_ + _loc3_) % 2 == 0 ? uint(this._defaultColor) : uint(this._alternateColor);
             }
             else
             {
@@ -294,7 +294,7 @@ package com.bit101.components
          {
             return;
          }
-         var _loc2_:int = !!this._scroll?int(this._scrollbar.value):0;
+         var _loc2_:int = !!this._scroll ? int(this._scrollbar.value) : 0;
          var _loc3_:int = 0;
          while(_loc3_ < this._itemHolder.numChildren)
          {
@@ -320,7 +320,7 @@ package com.bit101.components
          {
             return;
          }
-         this._scrollbar.value = this._scrollbar.value - param1.delta;
+         this._scrollbar.value -= param1.delta;
          this.fillItems();
       }
       

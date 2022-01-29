@@ -88,22 +88,22 @@ package tribulle.composants
             _loc1_ = "";
             if(_data.epoux)
             {
-               _loc1_ = _loc1_ + "♥ ";
+               _loc1_ += "♥ ";
             }
             if(_data.fille)
             {
-               _loc1_ = _loc1_ + "<CH2><b>♀</b> ";
+               _loc1_ += "<CH2><b>♀</b> ";
             }
             else if(_data.garcon)
             {
-               _loc1_ = _loc1_ + "<CH><b>♂</b> ";
+               _loc1_ += "<CH><b>♂</b> ";
             }
             if(!_data.online)
             {
-               _loc1_ = _loc1_ + ("<G><font size=\'12\'>" + UtilUI.getNomJoueurFormate(_data.nom,true,_data.online));
+               _loc1_ += "<G><font size=\'12\'>" + UtilUI.getNomJoueurFormate(_data.nom,true,_data.online);
                if(_data.bidirectionnel && _data.dateDerniereConnexion > 0)
                {
-                  _loc1_ = _loc1_ + (", <font size=\'10\'>" + UtilUI.getDateAffichage(UtilDate.toTimestampEnMillis(_data.dateDerniereConnexion)));
+                  _loc1_ += ", <font size=\'10\'>" + UtilUI.getDateAffichage(UtilDate.toTimestampEnMillis(_data.dateDerniereConnexion));
                }
             }
             else
@@ -114,7 +114,7 @@ package tribulle.composants
                }
                if(_data.bidirectionnel)
                {
-                  _loc1_ = _loc1_ + ("<J><font size=\'12\'>" + UtilUI.getNomJoueurFormate(_data.nom,true,_data.online) + "<G> - <V><font size=\'11\'>");
+                  _loc1_ += "<J><font size=\'12\'>" + UtilUI.getNomJoueurFormate(_data.nom,true,_data.online) + "<G> - <V><font size=\'11\'>";
                   _loc2_ = UtilUI.recupImageDrapeauSalon(_data.localisation);
                   _loc2_.x = 20;
                   this._conteneneurLocalisation.addChild(_loc2_);
@@ -126,16 +126,16 @@ package tribulle.composants
                   _loc4_ = _loc3_.indexOf("-");
                   if(_loc4_ == 2)
                   {
-                     _loc1_ = _loc1_ + _loc3_.substring(_loc4_ + 1);
+                     _loc1_ += _loc3_.substring(_loc4_ + 1);
                   }
                   else
                   {
-                     _loc1_ = _loc1_ + _loc3_;
+                     _loc1_ += _loc3_;
                   }
                }
                else
                {
-                  _loc1_ = _loc1_ + ("<BL>" + UtilUI.getNomJoueurFormate(_data.nom,true,_data.online));
+                  _loc1_ += "<BL>" + UtilUI.getNomJoueurFormate(_data.nom,true,_data.online);
                }
             }
             _label.text = _loc1_;

@@ -84,7 +84,7 @@ package divers
                   }
                   else
                   {
-                     _loc8_ = int(_loc8_ >>> 1);
+                     _loc8_ >>>= 1;
                   }
                   _loc10_++;
                }
@@ -113,7 +113,7 @@ package divers
             _loc8_ = crcTable[(_loc8_ ^ param1.readUnsignedByte()) & 255] ^ _loc8_ >>> 8;
             _loc7_++;
          }
-         _loc8_ = _loc8_ ^ 4294967295;
+         _loc8_ ^= 4294967295;
          param1.position = _loc6_;
          param1.writeUnsignedInt(_loc8_);
       }

@@ -130,9 +130,9 @@ package com.bit101.components
          if(this._orientation == Slider.VERTICAL)
          {
             this._scrollSlider.x = 0;
-            this._scrollSlider.y = this._downButton == null?Number(0):Number(Style.SCROLLBAR_SIZE);
+            this._scrollSlider.y = this._downButton == null ? Number(0) : Number(Style.SCROLLBAR_SIZE);
             this._scrollSlider.width = Style.SCROLLBAR_SIZE;
-            this._scrollSlider.height = _height - (this._downButton == null?0:20);
+            this._scrollSlider.height = _height - (this._downButton == null ? 0 : 20);
             if(this._downButton != null)
             {
                this._downButton.x = 0;
@@ -141,9 +141,9 @@ package com.bit101.components
          }
          else
          {
-            this._scrollSlider.x = this._downButton == null == null?Number(0):Number(Style.SCROLLBAR_SIZE);
+            this._scrollSlider.x = this._downButton == null == null ? Number(0) : Number(Style.SCROLLBAR_SIZE);
             this._scrollSlider.y = 0;
-            this._scrollSlider.width = _width - (this._downButton == null?0:20);
+            this._scrollSlider.width = _width - (this._downButton == null ? 0 : 20);
             this._scrollSlider.height = Style.SCROLLBAR_SIZE;
             if(this._downButton != null)
             {
@@ -235,7 +235,7 @@ package com.bit101.components
       
       protected function goUp() : void
       {
-         this._scrollSlider.value = this._scrollSlider.value - this._lineSize;
+         this._scrollSlider.value -= this._lineSize;
          dispatchEvent(new Event(Event.CHANGE));
       }
       
@@ -250,7 +250,7 @@ package com.bit101.components
       
       protected function goDown() : void
       {
-         this._scrollSlider.value = this._scrollSlider.value + this._lineSize;
+         this._scrollSlider.value += this._lineSize;
          dispatchEvent(new Event(Event.CHANGE));
       }
       
@@ -381,11 +381,11 @@ class ScrollSlider extends Slider
          {
             if(_max > _min)
             {
-               _value = _value - this._pageSize;
+               _value -= this._pageSize;
             }
             else
             {
-               _value = _value + this._pageSize;
+               _value += this._pageSize;
             }
             correctValue();
          }
@@ -393,11 +393,11 @@ class ScrollSlider extends Slider
          {
             if(_max > _min)
             {
-               _value = _value + this._pageSize;
+               _value += this._pageSize;
             }
             else
             {
-               _value = _value - this._pageSize;
+               _value -= this._pageSize;
             }
             correctValue();
          }
@@ -409,11 +409,11 @@ class ScrollSlider extends Slider
          {
             if(_max > _min)
             {
-               _value = _value - this._pageSize;
+               _value -= this._pageSize;
             }
             else
             {
-               _value = _value + this._pageSize;
+               _value += this._pageSize;
             }
             correctValue();
          }
@@ -421,11 +421,11 @@ class ScrollSlider extends Slider
          {
             if(_max > _min)
             {
-               _value = _value + this._pageSize;
+               _value += this._pageSize;
             }
             else
             {
-               _value = _value - this._pageSize;
+               _value -= this._pageSize;
             }
             correctValue();
          }

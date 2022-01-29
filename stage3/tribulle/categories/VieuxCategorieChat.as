@@ -82,7 +82,7 @@ package tribulle.categories
       public function x_executeRecoitMessagePrive(param1:V_ET_RecoitMessagePrive) : void
       {
          param1.message = param1.message.replace(/</g,"&lt;");
-         GestionnaireChatVieux.getInstance().recoisMessagePriveSignal.dispatch(param1.nomAuteur,param1.message,!!param1.estAuteur?EnumTypeMessagePrive.MESSAGE_ENVOYE:EnumTypeMessagePrive.MESSAGE_RECU,param1.communaute);
+         GestionnaireChatVieux.getInstance().recoisMessagePriveSignal.dispatch(param1.nomAuteur,param1.message,!!param1.estAuteur ? EnumTypeMessagePrive.MESSAGE_ENVOYE : EnumTypeMessagePrive.MESSAGE_RECU,param1.communaute);
       }
       
       public function x_executeResultatMessagePrive(param1:V_ET_ResultatMessagePrive) : void

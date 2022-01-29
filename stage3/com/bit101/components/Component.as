@@ -135,7 +135,7 @@ package com.bit101.components
          this._enabled = param1;
          mouseEnabled = mouseChildren = this._enabled;
          tabEnabled = param1;
-         alpha = !!this._enabled?Number(1):Number(0.5);
+         alpha = !!this._enabled ? Number(1) : Number(0.5);
       }
       
       public function get enabled() : Boolean

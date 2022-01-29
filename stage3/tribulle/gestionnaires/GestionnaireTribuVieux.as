@@ -63,7 +63,7 @@ package tribulle.gestionnaires
       
       private var ignorerInvitationsTribu:Boolean;
       
-      public function GestionnaireTribuVieux(param1:PrivateClass#9)
+      public function GestionnaireTribuVieux(param1:PrivateClass)
       {
          super();
          VieuxCategorieTribu.ResultatInformationsTribu.add(this.onResultatInformationsTribu);
@@ -96,7 +96,7 @@ package tribulle.gestionnaires
       {
          if(_singleton == null)
          {
-            _singleton = new GestionnaireTribuVieux(new PrivateClass#9());
+            _singleton = new GestionnaireTribuVieux(new PrivateClass());
          }
          return _singleton;
       }
@@ -448,7 +448,7 @@ package tribulle.gestionnaires
       {
          param2 = param2.replace(/</g,"&lt;");
          var _loc3_:String = MoteurLangueTribulle.recupTexte("chat.tribu.signaleChangementMessageJour",UtilUI.getNomJoueurFormate(param1,true,true));
-         _loc3_ = _loc3_ + ("\n" + param2);
+         _loc3_ += "\n" + param2;
          this.messageChat(_loc3_);
       }
       
@@ -673,11 +673,11 @@ package tribulle.gestionnaires
    }
 }
 
-class PrivateClass#9
+class PrivateClass
 {
     
    
-   function PrivateClass#9()
+   function PrivateClass()
    {
       super();
    }

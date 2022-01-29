@@ -64,14 +64,14 @@ package tribulle.auto.protocole.entree
          var _loc2_:int = 0;
          while(_loc2_ < this.rangs.length)
          {
-            _loc1_ = _loc1_ + this.rangs[_loc2_].getTaille();
+            _loc1_ += this.rangs[_loc2_].getTaille();
             _loc2_++;
          }
          var _loc3_:int = 0;
          var _loc4_:int = 0;
          while(_loc4_ < this.membres.length)
          {
-            _loc3_ = _loc3_ + this.membres[_loc4_].getTaille();
+            _loc3_ += this.membres[_loc4_].getTaille();
             _loc4_++;
          }
          return 20 + this.nom.length + this.messageJour.length + _loc1_ + _loc3_;

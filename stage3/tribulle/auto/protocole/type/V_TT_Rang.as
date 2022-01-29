@@ -46,7 +46,7 @@ package tribulle.auto.protocole.type
       {
          param1.writeInt(this.id);
          param1.writeUTF(this.nom);
-         param1.writeByte(!!this.bloque?1:0);
+         param1.writeByte(!!this.bloque ? 1 : 0);
          param1.writeInt(this.couleur);
          param1.writeByte(this.ordre);
          var _loc2_:int = this.activationDroits.length;
@@ -54,7 +54,7 @@ package tribulle.auto.protocole.type
          var _loc3_:int = 0;
          while(_loc3_ < _loc2_)
          {
-            param1.writeByte(!!this.activationDroits[_loc3_]?1:0);
+            param1.writeByte(!!this.activationDroits[_loc3_] ? 1 : 0);
             _loc3_++;
          }
       }

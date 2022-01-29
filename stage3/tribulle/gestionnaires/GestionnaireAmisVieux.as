@@ -39,7 +39,7 @@ package tribulle.gestionnaires
       
       private var ignorerDemandesEnMariage:Boolean;
       
-      public function GestionnaireAmisVieux(param1:PrivateClass#63)
+      public function GestionnaireAmisVieux(param1:PrivateClass)
       {
          super();
          this._amis = new Vector.<Ami>();
@@ -71,7 +71,7 @@ package tribulle.gestionnaires
       {
          if(_singleton == null)
          {
-            _singleton = new GestionnaireAmisVieux(new PrivateClass#63());
+            _singleton = new GestionnaireAmisVieux(new PrivateClass());
          }
          return _singleton;
       }
@@ -225,7 +225,7 @@ package tribulle.gestionnaires
       private function onSignaleAjoutAmiBidirectionnel(param1:Ami) : void
       {
          var _loc2_:Ami = this.getParId(param1.id);
-         _loc2_.masqueInfos = _loc2_.masqueInfos | V_NT_MasqueInfosAmi.AMITIE_BIDIRECTIONNELLE;
+         _loc2_.masqueInfos |= V_NT_MasqueInfosAmi.AMITIE_BIDIRECTIONNELLE;
          _loc2_.dateDerniereConnexion = param1.dateDerniereConnexion;
          _loc2_.online = param1.online;
          _loc2_.majLocalisation(param1.typeService,param1.localisation);
@@ -514,7 +514,7 @@ package tribulle.gestionnaires
             _loc3_ = this.getParNom(param2);
             if(_loc3_ != null)
             {
-               _loc3_.masqueInfos = _loc3_.masqueInfos & ~V_NT_MasqueInfosAmi.EPOUX;
+               _loc3_.masqueInfos &= ~V_NT_MasqueInfosAmi.EPOUX;
             }
             if(Constantes.RAFRAICHISSEMENT_DYNAMIQUE && this._composant.x_affichee)
             {
@@ -527,7 +527,7 @@ package tribulle.gestionnaires
             _loc4_ = this.getParNom(param1);
             if(_loc4_ != null)
             {
-               _loc4_.masqueInfos = _loc4_.masqueInfos & ~V_NT_MasqueInfosAmi.EPOUX;
+               _loc4_.masqueInfos &= ~V_NT_MasqueInfosAmi.EPOUX;
             }
             if(Constantes.RAFRAICHISSEMENT_DYNAMIQUE && this._composant.x_affichee)
             {
@@ -556,11 +556,11 @@ package tribulle.gestionnaires
    }
 }
 
-class PrivateClass#63
+class PrivateClass
 {
     
    
-   function PrivateClass#63()
+   function PrivateClass()
    {
       super();
    }
