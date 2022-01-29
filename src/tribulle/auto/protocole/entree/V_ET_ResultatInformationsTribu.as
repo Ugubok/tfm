@@ -60,7 +60,7 @@ package tribulle.auto.protocole.entree
          return false;
       }
       
-      public function getTailleDonnes() : int
+      public function getSize() : int
       {
          var _loc1_:int = 0;
          var _loc2_:int = 0;

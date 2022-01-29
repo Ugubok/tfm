@@ -273,11 +273,11 @@ package
       
       public static var var_4818:Number = (8976 + -8776) / (5993 + -5983);
       
-      public static var var_4819:int = 5600 + -5481;
+      public static var var_4819:int = 119;
       
       public static var var_4820:int = 76;
       
-      public static var var_4821:int = 1920 + -1874;
+      public static var var_4821:int = 46;
       
       public static var var_4822:int = 42;
       
@@ -313,7 +313,7 @@ package
       
       public static var var_4838:Number = (2979 + -2965) / (348 + -338);
       
-      public static var var_4839:int = 5021 + -4933;
+      public static var var_4839:int = 88;
       
       public static var var_4840:String = "$OC_Concentration";
       

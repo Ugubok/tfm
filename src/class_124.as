@@ -243,17 +243,17 @@ package
       
       public static var var_5616:int = 73;
       
-      public static var var_5617:int = 1678 + -1606;
+      public static var var_5617:int = 72;
       
       public static var var_5618:int = 61;
       
       public static var var_5619:int = 1906 + -1562;
       
-      public static var var_5620:int = 3766 + -3652;
+      public static var var_5620:int = 114;
       
       public static var var_5621:int = 4030 + -3775;
       
-      public static var var_5622:int = 6069 + -5953;
+      public static var var_5622:int = 116;
       
       public static var var_5623:String = "$F_";
       
@@ -267,7 +267,7 @@ package
       
       public static var var_5628:String = "<R>";
       
-      public static var var_5629:int = 8514 + -8349;
+      public static var var_5629:int = 165;
       
       public static var var_5630:int = 69;
       
@@ -289,7 +289,7 @@ package
       
       public static var var_5639:int = 5472 + -4272;
       
-      public static var var_5640:int = 6953 + -6909;
+      public static var var_5640:int = 44;
       
       public static var var_5641:int = 32;
       

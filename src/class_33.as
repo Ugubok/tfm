@@ -235,11 +235,11 @@ package
       
       public static var var_3630:Number = (2960 + -2915) / (507 + -407);
       
-      public static var var_3631:int = 5706 + -5582;
+      public static var var_3631:int = 124;
       
       public static var var_3632:int = 109;
       
-      public static var var_3633:int = 416 + -331;
+      public static var var_3633:int = 85;
       
       public static var var_3634:int = 63;
       
@@ -265,7 +265,7 @@ package
       
       public static var var_3645:String = "Boleto bancário";
       
-      public static var var_3646:int = 4166 + -4072;
+      public static var var_3646:int = 94;
       
       public static var var_3647:int = 68;
       
@@ -323,7 +323,7 @@ package
       
       public static var var_3674:String = "TI";
       
-      public static var var_3675:int = 7159 + -7139;
+      public static var var_3675:int = 20;
       
       public static var var_3676:String = "normal";
       
@@ -331,7 +331,7 @@ package
       
       public static var var_3678:String = "\r";
       
-      public static var var_3679:int = 3263 + -3262;
+      public static var var_3679:int = 1;
        
       
       public function class_33()

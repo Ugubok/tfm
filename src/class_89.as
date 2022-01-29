@@ -281,7 +281,7 @@ package
       
       public static var var_4398:int = 138;
       
-      public static var var_4399:int = 4543 + -4412;
+      public static var var_4399:int = 131;
       
       public static var var_4400:int = 125;
       
@@ -355,7 +355,7 @@ package
       
       public static var var_4435:int = 2435 + -1535;
       
-      public static var var_4436:int = 4926 + -4866;
+      public static var var_4436:int = 60;
       
       public static var var_4437:int = 122;
       

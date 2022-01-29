@@ -275,7 +275,7 @@ package
       
       public static var var_6908:int = 1640 + -1432;
       
-      public static var var_6909:int = 431 + -298;
+      public static var var_6909:int = 133;
       
       public static var var_6910:int = 128;
       
@@ -283,7 +283,7 @@ package
       
       public static var var_6912:int = 115;
       
-      public static var var_6913:int = 421 + -311;
+      public static var var_6913:int = 110;
       
       public static var var_6914:String = "0x";
       
@@ -297,7 +297,7 @@ package
       
       public static var var_6919:String = "Rasterisation";
       
-      public static var var_6920:int = 6444 + -6289;
+      public static var var_6920:int = 155;
       
       public static var var_6921:int = 9474 + -9467;
       

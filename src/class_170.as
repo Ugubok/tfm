@@ -303,7 +303,7 @@ package
       
       public static var var_6696:int = 77;
       
-      public static var var_6697:int = 7988 + -7949;
+      public static var var_6697:int = 39;
       
       public static var var_6698:int = 118;
       

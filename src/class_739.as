@@ -169,7 +169,7 @@ package
    {
 
 
-      public var var_2561:String;
+      public var _version:String;
 
       public var userDataCat:V_CT_DonneesUtilisateur;
 
@@ -191,117 +191,116 @@ package
 
       public function class_739()
       {
-         this.var_2561 = class_92.var_4544;
+         this._version = "6D32D778";
          super();
       }
 
       // CREATE INCOMING PACKET
       public function creePaquetEntrant(param1:_IConnexion, param2:int) : _IPaquetEntrant
       {
-         var _loc3_:_IPaquetEntrant = null;
          switch (param2) {
-         case 2: return new V_ET_ResultatIdentificationService(param1);
-         case 5: return new V_ET_ResultatMiseAJourLocalisation(param1);
-         case 7: return new V_ET_ResultatMiseAJourLocalisations(param1);
-         case 21: return new V_ET_ResultatMessageCanal(param1);
-         case 22: return new V_ET_SignaleMessageCanal(param1);
-         case 24: return new V_ET_ResultatRejoindreCanal(param1);
-         case 26: return new V_ET_ResultatQuitterCanal(param1);
-         case 27: return new V_ET_SignaleRejointCanal(param1);
-         case 28: return new V_ET_SignaleQuitteCanal(param1);
-         case 29: return new V_ET_SignaleMembreRejointCanal(param1);
-         case 30: return new V_ET_SignaleMembresRejoignentCanal(param1);
-         case 31: return new V_ET_SignaleMembreQuitteCanal(param1);
-         case 32: return new V_ET_SignaleMembresQuittentCanal(param1);
-         case 34: return new V_ET_ResultatMessagePrive(param1);
-         case 35: return new V_ET_RecoitMessagePriveSysteme(param1);
-         case 36: return new V_ET_RecoitMessagePrive(param1);
-         case 40: return new V_ET_ResultatDefinitModeSilence(param1);
-         case 42: return new V_ET_ResultatDemandeMembresCanal(param1);
-         case 43: return new V_ET_ErreurDemandeMembresCanal(param1);
-         case 45: return new V_ET_ResultatAjoutAmi(param1);
-         case 47: return new V_ET_ResultatRetireAmi(param1);
-         case 49: return new V_ET_ResultatListeAmis(param1);
-         case 50: return new V_ET_ErreurListeAmis(param1);
-         case 51: return new V_ET_SignaleAjoutAmi(param1);
-         case 52: return new V_ET_SignaleModificationLocalisationAmi(param1);
-         case 53: return new V_ET_SignaleRetraitAmi(param1);
-         case 54: return new V_ET_SignaleConnexionAmi(param1);
-         case 55: return new V_ET_SignaleDeconnexionAmi(param1);
-         case 56: return new V_ET_SignaleConnexionAmis(param1);
-         case 57: return new V_ET_SignaleDeconnexionAmis(param1);
-         case 58: return new V_ET_SignaleAjoutAmiBidirectionnel(param1);
-         case 59: return new V_ET_SignaleRetraitAmiBidirectionnel(param1);
-         case 61: return new V_ET_ResultatDemandeEnMariage(param1);
-         case 62: return new V_ET_ErreurDemandeEnMariage(param1);
-         case 63: return new V_ET_SignaleDemandeEnMariage(param1);
-         case 65: return new V_ET_ResultatRepondDemandeEnMariage(param1);
-         case 66: return new V_ET_SignaleMariage(param1);
-         case 68: return new V_ET_ResultatDemandeDivorce(param1);
-         case 69: return new V_ET_SignaleDivorce(param1);
-         case 71: return new V_ET_ResultatAjoutListeNoire(param1);
-         case 73: return new V_ET_ResultatRetireListeNoire(param1);
-         case 75: return new V_ET_ResultatListeNoire(param1);
-         case 76: return new V_ET_ErreurListeNoire(param1);
-         case 77: return new V_ET_SignaleAjoutListeNoire(param1);
-         case 78: return new V_ET_SignaleRetraitListeNoire(param1);
-         case 79: return new V_ET_CreerTribu(param1);
-         case 80: return new V_ET_ResultatCreerTribu(param1);
-         case 81: return new V_ET_SignaleTribuCreee(param1);
-         case 82: return new V_ET_SignaleInvitationTribu(param1);
-         case 84: return new V_ET_ErreurRepondInvitationTribu(param1);
-         case 86: return new V_ET_ResultatInformationsTribu(param1);
-         case 87: return new V_ET_ErreurInformationsTribu(param1);
-         case 2500: return new V_ET_ResultatInformationsTribuSimple(param1);
-         case 90: return new V_ET_ErreurInformationsTribuSimple(param1);
-         case 92: return new V_ET_ResultatMembresTribu(param1);
-         case 93: return new V_ET_ErreurMembresTribu(param1);
-         case 95: return new V_ET_ResultatQuitterTribu(param1);
-         case 97: return new V_ET_ResultatListeHistoriqueTribu(param1);
-         case 98: return new V_ET_ErreurListeHistoriqueTribu(param1);
-         case 99: return new V_ET_SignaleConnexionMembre(param1);
-         case 100: return new V_ET_SignaleDeconnexionMembre(param1);
-         case 101: return new V_ET_SignaleConnexionMembres(param1);
-         case 102: return new V_ET_SignaleDeconnexionMembres(param1);
-         case 103: return new V_ET_SignaleChangementMessageJour(param1);
-         case 104: return new V_ET_SignaleChangementCodeMaisonTFM(param1);
-         case 105: return new V_ET_SignaleChangementRang(param1);
-         case 106: return new V_ET_SignaleExclusion(param1);
-         case 107: return new V_ET_SignaleNouveauMembre(param1);
-         case 108: return new V_ET_SignaleDepartMembre(param1);
-         case 109: return new V_ET_SignaleModificationLocalisationMembreTribu(param1);
-         case 111: return new V_ET_ResultatChangerMessageJour(param1);
-         case 115: return new V_ET_ResultatExclureMembre(param1);
-         case 117: return new V_ET_ResultatInviterMembre(param1);
-         case 118: return new V_ET_ErreurInviterMembre(param1);
-         case 120: return new V_ET_ResultatChangerCodeMaisonTFM(param1);
-         case 122: return new V_ET_ResultatListeRangs(param1);
-         case 123: return new V_ET_ErreurListeRangs(param1);
-         case 125: return new V_ET_ResultatAffecterRang(param1);
-         case 127: return new V_ET_ResultatAjouterRang(param1);
-         case 128: return new V_ET_ErreurAjouterRang(param1);
-         case 130: return new V_ET_ResultatSupprimerRang(param1);
-         case 132: return new V_ET_ResultatRenommerRang(param1);
-         case 134: return new V_ET_ResultatAjouterDroitRang(param1);
-         case 136: return new V_ET_ResultatSupprimerDroitRang(param1);
-         case 138: return new V_ET_ResultatInverserOrdreRangs(param1);
-         case 142: return new V_ET_ResultatDesignerChefSpirituel(param1);
-         case 144: return new V_ET_ResultatRenommerTribu(param1);
-         case 146: return new V_ET_ResultatDissoudreTribu(param1);
-         case 147: return new V_ET_SignaleDissolutionTribu(param1);
-         case 153: return new V_ET_ResultatDonneesUtilisateur(param1);
-         case 154: return new V_ET_ErreurDonneesUtilisateur(param1);
-         case 156: return new V_ET_ResultatDefinitDonneesUtilisateur(param1);
-         case 158: return new V_ET_ResultatChangerDeGenre(param1);
-         case 159: return new V_ET_SignaleChangementDeGenre(param1);
-         case 160: return new V_ET_SignaleChangementAvatar(param1);
-         case 161: return new V_ET_DemandeNouveauxMessagesPrivesWeb(param1);
-         case 162: return new V_ET_DemandeNouveauxMessagesPrivesWebEnMasse(param1);
-         case 163: return new V_ET_SignalNouveauxMessagesPrivesWeb(param1);
-         case 164: return new V_ET_SignalNouveauMessagePriveWeb(param1);
-         case 166: return new V_ET_ReponseDemandeInfosJeuUtilisateur(param1);
-         case 167: return new V_ET_ErreurDemandeInfosJeuUtilisateur(param1);
-         default: throw new Error(class_73.method_2111(class_165.var_6424) + param2);
+         case 2: return new V_ET_ResultatIdentificationService(param1); // ResultIdentificationService
+         case 5: return new V_ET_ResultatMiseAJourLocalisation(param1); // ResultUpdateLocation
+         case 7: return new V_ET_ResultatMiseAJourLocalisations(param1); // ResultUpdateLocations
+         case 21: return new V_ET_ResultatMessageCanal(param1); // ResultMessageChannel
+         case 22: return new V_ET_SignaleMessageCanal(param1); // SignalMessageChannel
+         case 24: return new V_ET_ResultatRejoindreCanal(param1); // ResultJoinCanal
+         case 26: return new V_ET_ResultatQuitterCanal(param1); // ResultQuitChannel
+         case 27: return new V_ET_SignaleRejointCanal(param1); // ReportJoinChannel
+         case 28: return new V_ET_SignaleQuitteCanal(param1); // SignalLeaveChannel
+         case 29: return new V_ET_SignaleMembreRejointCanal(param1); // ReportMemberJoinChannel
+         case 30: return new V_ET_SignaleMembresRejoignentCanal(param1); // ReportMembersJoinChannel
+         case 31: return new V_ET_SignaleMembreQuitteCanal(param1); // ReportMemberLeaveChannel
+         case 32: return new V_ET_SignaleMembresQuittentCanal(param1); // ReportMembersLeaveChannel
+         case 34: return new V_ET_ResultatMessagePrive(param1); // ResultMessagePrivate
+         case 35: return new V_ET_RecoitMessagePriveSysteme(param1); // ReceivePrivateMessageSysteme
+         case 36: return new V_ET_RecoitMessagePrive(param1); // ReceivePrivateMessage
+         case 40: return new V_ET_ResultatDefinitModeSilence(param1); // ResultDefinitModeSilence
+         case 42: return new V_ET_ResultatDemandeMembresCanal(param1); // ResultRequestMembersChannel
+         case 43: return new V_ET_ErreurDemandeMembresCanal(param1); // ErrorRequestMembersChannel
+         case 45: return new V_ET_ResultatAjoutAmi(param1); // ResultAddFriend
+         case 47: return new V_ET_ResultatRetireAmi(param1); // ResultRetireAmi
+         case 49: return new V_ET_ResultatListeAmis(param1); // ResultListFriends
+         case 50: return new V_ET_ErreurListeAmis(param1); // ErrorListFriends
+         case 51: return new V_ET_SignaleAjoutAmi(param1); // ReportAddFriend
+         case 52: return new V_ET_SignaleModificationLocalisationAmi(param1); // ReportChangeLocationFriend
+         case 53: return new V_ET_SignaleRetraitAmi(param1); // ReportWithdrawalFriend
+         case 54: return new V_ET_SignaleConnexionAmi(param1); // ReportConnectionFriend
+         case 55: return new V_ET_SignaleDeconnexionAmi(param1); // ReportDisconnectFriend
+         case 56: return new V_ET_SignaleConnexionAmis(param1); // ReportConnectionFriends
+         case 57: return new V_ET_SignaleDeconnexionAmis(param1); // ReportLogoutFriends
+         case 58: return new V_ET_SignaleAjoutAmiBidirectionnel(param1); // SignalAddFriendBidirectional
+         case 59: return new V_ET_SignaleRetraitAmiBidirectionnel(param1); // SignalWithdrawFriendBidirectional
+         case 61: return new V_ET_ResultatDemandeEnMariage(param1); // MarriageRequest Result
+         case 62: return new V_ET_ErreurDemandeEnMariage(param1); // Marriage Proposal Error
+         case 63: return new V_ET_SignaleDemandeEnMariage(param1); // ReportMarriageRequest
+         case 65: return new V_ET_ResultatRepondDemandeEnMariage(param1); // ResultRepondRequestInMarriage
+         case 66: return new V_ET_SignaleMariage(param1); // ReportWedding
+         case 68: return new V_ET_ResultatDemandeDivorce(param1); // ResultRequestDivorce
+         case 69: return new V_ET_SignaleDivorce(param1); // ReportDivorce
+         case 71: return new V_ET_ResultatAjoutListeNoire(param1); // ResultAddListBlack
+         case 73: return new V_ET_ResultatRetireListeNoire(param1); // ResultRetireListeNoire
+         case 75: return new V_ET_ResultatListeNoire(param1); // ResultListeNoire
+         case 76: return new V_ET_ErreurListeNoire(param1); // ErrorBlackList
+         case 77: return new V_ET_SignaleAjoutListeNoire(param1); // ReportAddingBlackList
+         case 78: return new V_ET_SignaleRetraitListeNoire(param1); // ReportWithdrawalBlackList
+         case 79: return new V_ET_CreerTribu(param1); // CreateTribe
+         case 80: return new V_ET_ResultatCreerTribu(param1); // ResultCreateTribu
+         case 81: return new V_ET_SignaleTribuCreee(param1); // SignaleTribuCreee
+         case 82: return new V_ET_SignaleInvitationTribu(param1); // SignalInvitationTribe
+         case 84: return new V_ET_ErreurRepondInvitationTribu(param1); // ErrorRepondInvitationTribe
+         case 86: return new V_ET_ResultatInformationsTribu(param1); // ResultInformationTribu
+         case 87: return new V_ET_ErreurInformationsTribu(param1); // ErrorInformationTribe
+         case 2500: return new V_ET_ResultatInformationsTribuSimple(param1); // ResultInformationTribuSimple
+         case 90: return new V_ET_ErreurInformationsTribuSimple(param1); // ErrorInformationTribeSimple
+         case 92: return new V_ET_ResultatMembresTribu(param1); // ResultMembersTribu
+         case 93: return new V_ET_ErreurMembresTribu(param1); // ErrorMembersTribe
+         case 95: return new V_ET_ResultatQuitterTribu(param1); // ResultQuitTribu
+         case 97: return new V_ET_ResultatListeHistoriqueTribu(param1); // ResultListHistoryTribu
+         case 98: return new V_ET_ErreurListeHistoriqueTribu(param1); // ErrorListHistoryTribe
+         case 99: return new V_ET_SignaleConnexionMembre(param1); // ReportLoginMember
+         case 100: return new V_ET_SignaleDeconnexionMembre(param1); // SignalLogoutMember
+         case 101: return new V_ET_SignaleConnexionMembres(param1); // ReportLoginMembers
+         case 102: return new V_ET_SignaleDeconnexionMembres(param1); // ReportLogoutMembers
+         case 103: return new V_ET_SignaleChangementMessageJour(param1); // SignalChangeMessageDay
+         case 104: return new V_ET_SignaleChangementCodeMaisonTFM(param1); // ReportChangeHouseCodeTFM
+         case 105: return new V_ET_SignaleChangementRang(param1); // SignalChangeRank
+         case 106: return new V_ET_SignaleExclusion(param1); // ReportExclusion
+         case 107: return new V_ET_SignaleNouveauMembre(param1); // ReportNewMember
+         case 108: return new V_ET_SignaleDepartMembre(param1); // SignaleDepartMember
+         case 109: return new V_ET_SignaleModificationLocalisationMembreTribu(param1); // ReportModificationLocationMemberTribe
+         case 111: return new V_ET_ResultatChangerMessageJour(param1); // ResultChangeMessageDay
+         case 115: return new V_ET_ResultatExclureMembre(param1); // ResultExcludeMember
+         case 117: return new V_ET_ResultatInviterMembre(param1); // ResultInviteMember
+         case 118: return new V_ET_ErreurInviterMembre(param1); // ErrorInviteMember
+         case 120: return new V_ET_ResultatChangerCodeMaisonTFM(param1); // ResultChangeCodeMaisonTFM
+         case 122: return new V_ET_ResultatListeRangs(param1); // ResultListRanks
+         case 123: return new V_ET_ErreurListeRangs(param1); // ErrorListRanks
+         case 125: return new V_ET_ResultatAffecterRang(param1); // ResultAssignRank
+         case 127: return new V_ET_ResultatAjouterRang(param1); // ResultAddRank
+         case 128: return new V_ET_ErreurAjouterRang(param1); // ErrorAddRank
+         case 130: return new V_ET_ResultatSupprimerRang(param1); // ResultRemoveRank
+         case 132: return new V_ET_ResultatRenommerRang(param1); // ResultRenameRank
+         case 134: return new V_ET_ResultatAjouterDroitRang(param1); // ResultAddRightRank
+         case 136: return new V_ET_ResultatSupprimerDroitRang(param1); // ResultRemoveRightRank
+         case 138: return new V_ET_ResultatInverserOrdreRangs(param1); // ResultInvertOrderRanks
+         case 142: return new V_ET_ResultatDesignerChefSpirituel(param1); // ResultDesignerChefSpiritual
+         case 144: return new V_ET_ResultatRenommerTribu(param1); // ResultRenameTribu
+         case 146: return new V_ET_ResultatDissoudreTribu(param1); // ResultDissolveTribu
+         case 147: return new V_ET_SignaleDissolutionTribu(param1); // ReportDissolutionTribe
+         case 153: return new V_ET_ResultatDonneesUtilisateur(param1); // UserDataResult
+         case 154: return new V_ET_ErreurDonneesUtilisateur(param1); // UserDataError
+         case 156: return new V_ET_ResultatDefinitDonneesUtilisateur(param1); // ResultDefinitDataUser
+         case 158: return new V_ET_ResultatChangerDeGenre(param1); // ResultChangerDeGenre
+         case 159: return new V_ET_SignaleChangementDeGenre(param1); // ReportsGenderChange
+         case 160: return new V_ET_SignaleChangementAvatar(param1); // Avatar change
+         case 161: return new V_ET_DemandeNouveauxMessagesPrivesWeb(param1); // RequestNewsPrivateMessagesWeb 
+         case 162: return new V_ET_DemandeNouveauxMessagesPrivesWebEnMasse(param1); // RequestNewPrivateMessagesMassWeb
+         case 163: return new V_ET_SignalNouveauxMessagesPrivesWeb(param1); // SignalNouveauxMessagesPrivesWeb
+         case 164: return new V_ET_SignalNouveauMessagePriveWeb(param1); // SignalNewMessagePrivateWeb
+         case 166: return new V_ET_ReponseDemandeInfosJeuUtilisateur(param1); // ResponseRequestGameInfoUser 
+         case 167: return new V_ET_ErreurDemandeInfosJeuUtilisateur(param1); // ErreurDemandeInfosJeuUtilisateur
+         default: throw new Error("Id de paquet inexistant : ");
          }
       }
 
@@ -612,7 +611,7 @@ package
          case 167:
             this.userDataCat.x_executeErreurDemandeInfosJeuUtilisateur(param2 as V_ET_ErreurDemandeInfosJeuUtilisateur);
             break;
-         default: throw new Error(class_73.method_2111(class_165.var_6424) + param1);
+         default: throw new Error("Id de paquet inexistant : ");
          }
       }
 
@@ -621,113 +620,113 @@ package
          switch(true)
          {
             case param1 is V_ST_IdentificationService:
-               return class_73.method_2108(class_33.var_3679);
-            case param1 is V_ST_PingUtilisateur:
-               return class_73.method_2108(class_146.var_6118);
-            case param1 is V_ST_MiseAJourLocalisation:
-               return class_73.method_2108(class_121.var_5495);
-            case param1 is V_ST_MiseAJourLocalisations:
-               return class_73.method_2108(class_9.var_3267);
-            case param1 is V_ST_EnvoitMessageCanal:
-               return class_33.var_3675;
-            case param1 is V_ST_RejoindreCanal:
-               return class_9.var_3259;
-            case param1 is V_ST_QuitterCanal:
-               return class_16.var_3473;
-            case param1 is V_ST_EnvoitMessagePrive:
-               return class_73.method_2108(class_162.var_6322);
-            case param1 is V_ST_DefinitModeSilence:
-               return class_170.var_6697;
-            case param1 is V_ST_DemandeMembresCanal:
-               return class_107.var_5039;
-            case param1 is V_ST_AjoutAmi:
-               return class_124.var_5640;
-            case param1 is V_ST_RetireAmi:
-               return class_73.method_2108(class_102.var_4821);
-            case param1 is V_ST_ListeAmis:
-               return class_73.method_2108(class_121.var_5470);
-            case param1 is V_ST_DemandeEnMariage:
-               return class_73.method_2108(class_89.var_4436);
-            case param1 is V_ST_RepondDemandeEnMariage:
-               return class_73.method_2108(class_60.var_3939);
-            case param1 is V_ST_DemandeDivorce:
-               return class_73.method_2108(class_121.var_5461);
-            case param1 is V_ST_AjoutListeNoire:
-               return class_73.method_2108(class_107.var_5068);
-            case param1 is V_ST_RetireListeNoire:
-               return class_124.var_5617;
-            case param1 is V_ST_ListeNoire:
-               return class_16.var_3444;
-            case param1 is V_ST_CreerTribu:
-               return class_73.method_2108(class_16.var_3439);
-            case param1 is V_ST_ResultatCreerTribu:
-               return class_73.method_2108(class_9.var_3243);
-            case param1 is V_ST_RepondInvitationTribu:
-               return class_9.var_3229;
-            case param1 is V_ST_DemandeInformationsTribu:
-               return class_33.var_3633;
-            case param1 is V_ST_DemandeInformationsTribuSimpleParNom:
-               return class_102.var_4839;
-            case param1 is V_ST_DemandeMembresTribu:
-               return class_107.var_5035;
-            case param1 is V_ST_QuitterTribu:
-               return class_73.method_2108(class_33.var_3646);
-            case param1 is V_ST_ListeHistoriqueTribu:
-               return class_9.var_3228;
-            case param1 is V_ST_ChangerMessageJour:
-               return class_181.var_6913;
-            case param1 is V_ST_ExclureMembre:
-               return class_124.var_5620;
-            case param1 is V_ST_InviterMembre:
-               return class_124.var_5622;
-            case param1 is V_ST_ChangerCodeMaisonTFM:
-               return class_102.var_4819;
-            case param1 is V_ST_ListeRangs:
-               return class_73.method_2108(class_165.var_6489);
-            case param1 is V_ST_AffecterRang:
-               return class_73.method_2108(class_33.var_3631);
-            case param1 is V_ST_AjouterRang:
-               return class_146.var_6073;
-            case param1 is V_ST_SupprimerRang:
-               return class_73.method_2108(class_183.var_7094);
-            case param1 is V_ST_RenommerRang:
-               return class_89.var_4399;
-            case param1 is V_ST_AjouterDroitRang:
-               return class_73.method_2108(class_181.var_6909);
-            case param1 is V_ST_SupprimerDroitRang:
-               return class_165.var_6498;
-            case param1 is V_ST_InverserOrdreRangs:
-               return class_127.var_5879;
-            case param1 is V_ST_DesignerChefSpirituel:
-               return class_73.method_2108(class_183.var_7092);
-            case param1 is V_ST_RenommerTribu:
-               return class_73.method_2108(class_117.var_5256);
-            case param1 is V_ST_DissoudreTribu:
-               return class_183.var_7028;
-            case param1 is V_ST_DemandeDonneesUtilisateur:
-               return class_62.var_4048;
-            case param1 is V_ST_DefinitDonneesUtilisateur:
-               return class_73.method_2108(class_181.var_6920);
-            case param1 is V_ST_ChangerDeGenre:
-               return class_73.method_2108(class_146.var_6049);
-            case param1 is V_ST_SignaleChangementDeGenre:
-               return class_73.method_2108(class_181.var_6847);
-            case param1 is V_ST_SignaleChangementAvatar:
-               return class_60.var_3972;
-            case param1 is V_ST_SignalNouveauxMessagesPrivesWeb:
-               return class_73.method_2108(class_181.var_6846);
-            case param1 is V_ST_SignalNouveauMessagePriveWeb:
-               return class_102.var_4742;
-            case param1 is V_ST_RequeteDemandeInfosJeuUtilisateur:
-               return class_73.method_2108(class_124.var_5629);
+               return 1;
+            case param1 is V_ST_PingUtilisateur: // Ping user
+               return 3;
+            case param1 is V_ST_MiseAJourLocalisation: // Update localisation (or location?)
+               return 4;
+            case param1 is V_ST_MiseAJourLocalisations: // Update localisations (or locations?)
+               return 6;
+            case param1 is V_ST_EnvoitMessageCanal: // Send message
+               return 20;
+            case param1 is V_ST_RejoindreCanal: // Join channel
+               return 23;
+            case param1 is V_ST_QuitterCanal: // Leave channel
+               return 25;
+            case param1 is V_ST_EnvoitMessagePrive: // Send private message
+               return 33;
+            case param1 is V_ST_DefinitModeSilence: // Set silent mode (?)
+               return 39;
+            case param1 is V_ST_DemandeMembresCanal: // Channel member request
+               return 41;
+            case param1 is V_ST_AjoutAmi: // Add friend
+               return 44;
+            case param1 is V_ST_RetireAmi: // Remove friend
+               return 46;
+            case param1 is V_ST_ListeAmis: // Friend list
+               return 48;
+            case param1 is V_ST_DemandeEnMariage: // Marriage request
+               return 60;
+            case param1 is V_ST_RepondDemandeEnMariage: // Respond to marriage request
+               return 64;
+            case param1 is V_ST_DemandeDivorce: // Divorce
+               return 67;
+            case param1 is V_ST_AjoutListeNoire: // Add to black list
+               return 70;
+            case param1 is V_ST_RetireListeNoire: // Remove from blacklist
+               return 72;
+            case param1 is V_ST_ListeNoire: // Blacklist
+               return 74;
+            case param1 is V_ST_CreerTribu: // Create tribe
+               return 79;
+            case param1 is V_ST_ResultatCreerTribu: // Create tribe result
+               return 80;
+            case param1 is V_ST_RepondInvitationTribu: // Repond tribe invite
+               return 83;
+            case param1 is V_ST_DemandeInformationsTribu: // Request tribe info
+               return 85;
+            case param1 is V_ST_DemandeInformationsTribuSimpleParNom: // Request tribe info simply by name
+               return 88;
+            case param1 is V_ST_DemandeMembresTribu: // Request tribe members
+               return 91;
+            case param1 is V_ST_QuitterTribu: // Leave tribe
+               return 94;
+            case param1 is V_ST_ListeHistoriqueTribu: // Tribe history
+               return 96;
+            case param1 is V_ST_ChangerMessageJour: // Change Tribe MOTD
+               return 110; 
+            case param1 is V_ST_ExclureMembre: // Exclude tribe member
+               return 114;
+            case param1 is V_ST_InviterMembre: // Invite tribe member
+               return 116;
+            case param1 is V_ST_ChangerCodeMaisonTFM: // ChangeHouseCodeTFM
+               return 119;
+            case param1 is V_ST_ListeRangs: // Tribe Rank List
+               return 121;
+            case param1 is V_ST_AffecterRang: // Tribe Assign Rank
+               return 124;
+            case param1 is V_ST_AjouterRang: // Tribe Add Rank
+               return 126;
+            case param1 is V_ST_SupprimerRang: // Tribe Remove Rank
+               return 129;
+            case param1 is V_ST_RenommerRang: // Tribe Rename Rank
+               return 131;
+            case param1 is V_ST_AjouterDroitRang: // Tribe Add Right Rank (?)
+               return 133;
+            case param1 is V_ST_SupprimerDroitRang: // Tribe Remove Right Rank (?)
+               return 135;
+            case param1 is V_ST_InverserOrdreRangs: // ReverseOrderRanks
+               return 137;
+            case param1 is V_ST_DesignerChefSpirituel: // DesignerChefSpiritual
+               return 141;
+            case param1 is V_ST_RenommerTribu: // RenameTribe
+               return 143;
+            case param1 is V_ST_DissoudreTribu: // DissolveTribe
+               return 145;
+            case param1 is V_ST_DemandeDonneesUtilisateur: // UserDataRequest
+               return 152;
+            case param1 is V_ST_DefinitDonneesUtilisateur: // DefineUserData
+               return 155;
+            case param1 is V_ST_ChangerDeGenre: // ChangeGender
+               return 157;
+            case param1 is V_ST_SignaleChangementDeGenre: // ReportsGenderChange
+               return 159;
+            case param1 is V_ST_SignaleChangementAvatar: // SignalChangeAvatar
+               return 160;
+            case param1 is V_ST_SignalNouveauxMessagesPrivesWeb: // SignalNewsPrivate MessagesWeb
+               return 163;
+            case param1 is V_ST_SignalNouveauMessagePriveWeb: // SignalNewMessagePrivateWeb
+               return 164;
+            case param1 is V_ST_RequeteDemandeInfosJeuUtilisateur: // RequestRequestGameInfoUser
+               return 165;
             default:
-               return -class_73.method_2108(class_33.var_3679);
+               return 1;
          }
       }
 
       public function get version() : String
       {
-         return this.var_2561;
+         return this._version;
       }
    }
 }

@@ -41,7 +41,7 @@ package
          return class_121.var_5495;
       }
       
-      override public function ecriture(param1:ByteArray) : void
+      override public function write(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
       }

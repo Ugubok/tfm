@@ -37,7 +37,7 @@ package tribulle.auto.protocole.entree
          return false;
       }
       
-      public function getTailleDonnes() : int
+      public function getSize() : int
       {
          return this.demandeur.getTaille() + this.cible.getTaille();
       }

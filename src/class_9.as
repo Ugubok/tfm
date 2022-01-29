@@ -371,7 +371,7 @@ package
       
       public static var var_3258:String = "=";
       
-      public static var var_3259:int = 9246 + -9223;
+      public static var var_3259:int = 23;
       
       public static var var_3260:int = 9157 + -8751;
       
@@ -387,7 +387,7 @@ package
       
       public static var var_3266:int = 22;
       
-      public static var var_3267:int = 8716 + -8710;
+      public static var var_3267:int = 6;
       
       public static var var_3268:String = "";
        

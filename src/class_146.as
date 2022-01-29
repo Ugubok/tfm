@@ -207,7 +207,7 @@ package
       
       public static var var_6048:String = "$PseudoExterneDejaPris";
       
-      public static var var_6049:int = 746 + -589;
+      public static var var_6049:int = 157;
       
       public static var var_6050:String = "http://www.fortoresse.com/";
       
@@ -255,7 +255,7 @@ package
       
       public static var var_6072:Number = (3530 + -3523) / (8036 + -8026);
       
-      public static var var_6073:int = 1730 + -1604;
+      public static var var_6073:int = 126;
       
       public static var var_6074:int = 43;
       
@@ -345,7 +345,7 @@ package
       
       public static var var_6117:int = 7718 + -7708;
       
-      public static var var_6118:int = 5809 + -5806;
+      public static var var_6118:int = 3;
        
       
       public function class_146()

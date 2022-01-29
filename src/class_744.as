@@ -32,7 +32,7 @@ package
          return class_73.method_2108(class_146.var_6117) + this.var_2572.length;
       }
       
-      public function ecriture(param1:ByteArray) : void
+      public function write(param1:ByteArray) : void
       {
          param1.writeInt(this.var_2571);
          param1.writeInt(this.type);

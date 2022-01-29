@@ -309,7 +309,7 @@ package
       
       public static var var_5460:String = "mou";
       
-      public static var var_5461:int = 9662 + -9595;
+      public static var var_5461:int = 67;
       
       public static var var_5462:String = "<V>";
       
@@ -327,7 +327,7 @@ package
       
       public static var var_5469:String = "StandAlone";
       
-      public static var var_5470:int = 6209 + -6161;
+      public static var var_5470:int = 48;
       
       public static var var_5471:String = "Grande planche rugueuse";
       
@@ -377,7 +377,7 @@ package
       
       public static var var_5494:int = 8010 + -7993;
       
-      public static var var_5495:int = 2771 + -2767;
+      public static var var_5495:int = 4;
        
       
       public function class_121()

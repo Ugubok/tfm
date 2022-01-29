@@ -38,7 +38,7 @@ package tribulle.auto.protocole.entree
          return false;
       }
       
-      public function getTailleDonnes() : int
+      public function getSize() : int
       {
          return 8 + this.nomAuteur.length + this.nomCible.length;
       }

@@ -31,12 +31,12 @@ package tribulle.auto.protocole.sortie
          return false;
       }
       
-      override public function getTailleDonnes() : int
+      override public function getSize() : int
       {
          return 2 + this.auteur.length;
       }
       
-      override public function ecriture(param1:ByteArray) : void
+      override public function write(param1:ByteArray) : void
       {
          param1.writeUTF(this.auteur);
       }

@@ -14,12 +14,12 @@ package lapitchnet.reseau
          super();
       }
       
-      public function getTailleDonnes() : int
+      public function getSize() : int
       {
          return -1;
       }
       
-      public function ecriture(param1:ByteArray) : void
+      public function write(param1:ByteArray) : void
       {
       }
       

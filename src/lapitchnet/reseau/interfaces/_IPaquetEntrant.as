@@ -12,6 +12,6 @@ package lapitchnet.reseau.interfaces
       
       function get idPaquet() : int;
       
-      function getTailleDonnes() : int;
+      function getSize() : int;
    }
 }

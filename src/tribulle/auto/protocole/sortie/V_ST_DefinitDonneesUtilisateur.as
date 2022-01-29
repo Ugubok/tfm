@@ -43,12 +43,12 @@ package tribulle.auto.protocole.sortie
          return false;
       }
       
-      override public function getTailleDonnes() : int
+      override public function getSize() : int
       {
          return 6 + this.donneesUtilisateur.length;
       }
       
-      override public function ecriture(param1:ByteArray) : void
+      override public function write(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
          param1.writeUTF(this.donneesUtilisateur);

@@ -327,7 +327,7 @@ package
       
       public static var var_5034:int = 92;
       
-      public static var var_5035:int = 2796 + -2705;
+      public static var var_5035:int = 91;
       
       public static var var_5036:int = 82;
       
@@ -335,7 +335,7 @@ package
       
       public static var var_5038:int = 45;
       
-      public static var var_5039:int = 2243 + -2202;
+      public static var var_5039:int = 41;
       
       public static var var_5040:int = 36;
       
@@ -393,7 +393,7 @@ package
       
       public static var var_5067:int = 4147 + 58520006;
       
-      public static var var_5068:int = 7834 + -7764;
+      public static var var_5068:int = 70;
       
       public static var var_5069:String = "_Transformice";
       

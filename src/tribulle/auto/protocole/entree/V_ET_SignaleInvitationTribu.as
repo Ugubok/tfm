@@ -49,7 +49,7 @@ package tribulle.auto.protocole.entree
          return false;
       }
       
-      public function getTailleDonnes() : int
+      public function getSize() : int
       {
          return 12 + this.nomAuteur.length + this.nomTribu.length;
       }

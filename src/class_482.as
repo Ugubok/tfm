@@ -47,7 +47,7 @@ package
          return class_121.var_5494 + this.var_817.length + this.var_1931.method_1375();
       }
       
-      public function ecriture(param1:ByteArray) : void
+      public function write(param1:ByteArray) : void
       {
          param1.writeInt(this.var_1768);
          param1.writeUTF(this.var_817);
@@ -55,7 +55,7 @@ package
          param1.writeInt(this.var_1692);
          param1.writeByte(!!this.var_1938 ? int(class_73.method_2108(class_33.var_3679)) : int(class_183.var_7129));
          param1.writeByte(!!this.var_1939 ? int(class_33.var_3679) : int(class_183.var_7129));
-         this.var_1931.ecriture(param1);
+         this.var_1931.write(param1);
          param1.writeInt(this.var_1929);
       }
       

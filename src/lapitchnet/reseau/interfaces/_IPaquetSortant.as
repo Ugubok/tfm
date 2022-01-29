@@ -11,8 +11,8 @@ package lapitchnet.reseau.interfaces
       
       function set connexion(param1:_Connexion) : void;
       
-      function getTailleDonnes() : int;
+      function getSize() : int;
       
-      function ecriture(param1:ByteArray) : void;
+      function write(param1:ByteArray) : void;
    }
 }

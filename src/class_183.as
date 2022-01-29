@@ -145,7 +145,7 @@ package
       
       public static var var_7027:int = 7804 + 3997;
       
-      public static var var_7028:int = 795 + -650;
+      public static var var_7028:int = 145;
       
       public static var var_7029:String = "{ typeService=";
       
@@ -273,11 +273,11 @@ package
       
       public static var var_7091:int = 321 + -114;
       
-      public static var var_7092:int = 3762 + -3621;
+      public static var var_7092:int = 141;
       
       public static var var_7093:int = 130;
       
-      public static var var_7094:int = 600 + -471;
+      public static var var_7094:int = 129;
       
       public static var var_7095:int = 1361 + -801;
       

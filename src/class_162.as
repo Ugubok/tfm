@@ -313,7 +313,7 @@ package
       
       public static var var_6321:int = 3842 + -3837;
       
-      public static var var_6322:int = 2537 + -2504;
+      public static var var_6322:int = 33;
       
       public static var var_6323:int = 9654 + -9174;
       

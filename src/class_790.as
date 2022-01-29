@@ -135,7 +135,7 @@ package
          _loc2_.writeShort(this.var_2660.getIdPaquet(param1));
          _loc2_.writeShort(class_790.var_7391++);
          _loc2_.writeShort(param1.method_1374());
-         param1.ecriture(_loc2_);
+         param1.write(_loc2_);
          this.var_2659.writeBytes(_loc2_);
          this.var_2659.flush();
          if(param1 is class_733)

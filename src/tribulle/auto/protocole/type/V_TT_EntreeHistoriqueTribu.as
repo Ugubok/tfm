@@ -42,7 +42,7 @@ package tribulle.auto.protocole.type
          return 22 + this.metadonneesJson.length;
       }
       
-      public function ecriture(param1:ByteArray) : void
+      public function write(param1:ByteArray) : void
       {
          param1.writeInt(this.idType);
          param1.writeInt(this.idUtilisateurSource);

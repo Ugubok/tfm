@@ -54,7 +54,7 @@ package tribulle.auto.protocole.entree
          return false;
       }
       
-      public function getTailleDonnes() : int
+      public function getSize() : int
       {
          return 22 + this.nomEpoux.length;
       }

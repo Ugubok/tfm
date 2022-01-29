@@ -42,7 +42,7 @@ package tribulle.auto.protocole.type
          return 14 + this.nom.length + this.activationDroits.length * 1;
       }
       
-      public function ecriture(param1:ByteArray) : void
+      public function write(param1:ByteArray) : void
       {
          param1.writeInt(this.id);
          param1.writeUTF(this.nom);

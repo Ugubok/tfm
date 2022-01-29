@@ -12,6 +12,6 @@ package
       
       function method_1374() : int;
       
-      function ecriture(param1:ByteArray) : void;
+      function write(param1:ByteArray) : void;
    }
 }

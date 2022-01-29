@@ -49,7 +49,7 @@ package tribulle.auto.protocole.sortie
          return false;
       }
       
-      override public function getTailleDonnes() : int
+      override public function getSize() : int
       {
          var _loc1_:int = 0;
          var _loc2_:int = 0;
@@ -61,7 +61,7 @@ package tribulle.auto.protocole.sortie
          return 10 + this.idsUtilisateurs.length * 4 + _loc1_ + this.communautes.length * 1;
       }
       
-      override public function ecriture(param1:ByteArray) : void
+      override public function write(param1:ByteArray) : void
       {
          param1.writeInt(this.idSequence);
          var _loc2_:int = this.idsUtilisateurs.length;

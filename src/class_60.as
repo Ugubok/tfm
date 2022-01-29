@@ -237,7 +237,7 @@ package
       
       public static var var_3938:int = 123;
       
-      public static var var_3939:int = 2926 + -2862;
+      public static var var_3939:int = 64;
       
       public static var var_3940:int = 8498 + -7818;
       

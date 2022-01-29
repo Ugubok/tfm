@@ -128,7 +128,7 @@ package lapitchnet.reseau
                }
                else
                {
-                  this._taillePaquetCourant = this._paquetCourant.getTailleDonnes();
+                  this._taillePaquetCourant = this._paquetCourant.getSize();
                }
                this._isNewPaquet = false;
             }
@@ -158,8 +158,8 @@ package lapitchnet.reseau
          var _loc2_:ByteArray = _ByteArrayPool.cree();
          _loc2_.writeShort(this._protocole.getIdPaquet(param1));
          _loc2_.writeShort(COMPTEUR_VERIFICATION++);
-         _loc2_.writeShort(param1.getTailleDonnes());
-         param1.ecriture(_loc2_);
+         _loc2_.writeShort(param1.getSize());
+         param1.write(_loc2_);
          this._socket.writeBytes(_loc2_);
          this._socket.flush();
          Logger.flashTrace("--> Envoi de données (sequence: " + this.idSequence + ") -> " + getQualifiedClassName(param1),Logger.RESEAU);

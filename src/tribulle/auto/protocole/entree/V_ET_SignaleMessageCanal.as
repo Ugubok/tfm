@@ -40,7 +40,7 @@ package tribulle.auto.protocole.entree
          return false;
       }
       
-      public function getTailleDonnes() : int
+      public function getSize() : int
       {
          return 9 + this.nomAuteur.length + this.message.length;
       }

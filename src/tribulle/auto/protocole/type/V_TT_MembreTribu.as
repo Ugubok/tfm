@@ -51,7 +51,7 @@ package tribulle.auto.protocole.type
          return 29 + this.nom.length + this.localisation.length;
       }
       
-      public function ecriture(param1:ByteArray) : void
+      public function write(param1:ByteArray) : void
       {
          param1.writeInt(this.id);
          param1.writeInt(this.avatar);

@@ -267,15 +267,15 @@ package
       
       public static var var_6488:int = 4497 + -4361;
       
-      public static var var_6489:int = 8498 + -8377;
+      public static var var_6489:int = 121;
       
       public static var var_6490:int = 7836 + -7730;
       
       public static var var_6491:int = 6309 + -6220;
       
-      public static var var_6492:int = 6609 + -6538;
+      public static var var_6492:int = 71;
       
-      public static var var_6493:int = 5982 + -5924;
+      public static var var_6493:int = 58;
       
       public static var var_6494:int = 2218 + -1843;
       
@@ -285,7 +285,7 @@ package
       
       public static var var_6497:String = "$Allopass";
       
-      public static var var_6498:int = 8070 + -7935;
+      public static var var_6498:int = 135;
       
       public static var var_6499:Number = (5623 + -5522) / (4499 + -4399);
       

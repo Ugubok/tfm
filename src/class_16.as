@@ -5,7 +5,7 @@ package
       
       public static var var_3270:String = "ajout objet : 2";
       
-      public static var var_3271:String = "son/ecriture";
+      public static var var_3271:String = "son/write";
       
       public static var var_3272:String = "T_Gui";
       
@@ -351,7 +351,7 @@ package
       
       public static var var_3443:String = "useX";
       
-      public static var var_3444:int = 2717 + -2643;
+      public static var var_3444:int = 74;
       
       public static var var_3445:String = "$LogoPaypal";
       
@@ -409,7 +409,7 @@ package
       
       public static var var_3472:String = "VP";
       
-      public static var var_3473:int = 9009 + -8984;
+      public static var var_3473:int = 25;
        
       
       public function class_16()

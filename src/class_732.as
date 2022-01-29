@@ -18,7 +18,7 @@ package
          this.var_2556 = param1;
       }
       
-      public function ecriture(param1:ByteArray) : void
+      public function write(param1:ByteArray) : void
       {
       }
       
