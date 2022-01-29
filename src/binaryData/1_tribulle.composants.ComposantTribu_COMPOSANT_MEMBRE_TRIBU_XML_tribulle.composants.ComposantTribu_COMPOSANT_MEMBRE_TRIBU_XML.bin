@@ -1,0 +1,11 @@
+<comp>
+	<Panel width="380" height="50" afficherFond="true" couleurFond="0x3E4F60"><!--Pour le cadre-->
+		<HBox id="composant_membreTribu" width="380" height="50" alignment="middle">
+
+			<Panel width="55" height="50">
+				<Image id="avatar" width="50" height="50" x="5" y="8" autoSize="false"
+					   autoScale="true"></Image>
+			</Panel>
+		</HBox>
+	</Panel>
+</comp>
