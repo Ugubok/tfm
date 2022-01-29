@@ -163,7 +163,7 @@ package
       
       public static var var_6626:String = "b";
       
-      public static var var_6627:int = 6325 + -6169;
+      public static var var_6627:int = 156;
       
       public static var var_6628:String = "x_commandes";
       
@@ -297,15 +297,15 @@ package
       
       public static var var_6693:int = 5087 + -4234;
       
-      public static var var_6694:int = 4968 + -4834;
+      public static var var_6694:int = 134;
       
-      public static var var_6695:int = 3136 + -3037;
+      public static var var_6695:int = 99;
       
-      public static var var_6696:int = 5118 + -5041;
+      public static var var_6696:int = 77;
       
       public static var var_6697:int = 7988 + -7949;
       
-      public static var var_6698:int = 5633 + -5515;
+      public static var var_6698:int = 118;
       
       public static var var_6699:String = "defilante_saut.png";
       
@@ -315,7 +315,7 @@ package
       
       public static var var_6702:String = "://";
       
-      public static var var_6703:int = 9689 + -9611;
+      public static var var_6703:int = 78;
       
       public static var var_6704:String = "</R>";
       
@@ -337,13 +337,13 @@ package
       
       public static var var_6713:int = 2733 + 12267;
       
-      public static var var_6714:int = 3376 + -3327;
+      public static var var_6714:int = 49;
       
       public static var var_6715:String = "Stage : ";
       
       public static var var_6716:String = "Debug mode : on";
       
-      public static var var_6717:int = 3545 + -3425;
+      public static var var_6717:int = 120;
       
       public static var var_6718:String = "musique/";
       

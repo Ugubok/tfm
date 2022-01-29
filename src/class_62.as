@@ -207,7 +207,7 @@ package
       
       public static var var_4087:String = "x_transformice/x_interface/kongregate/kong.png";
       
-      public static var var_4088:int = 5740 + -5586;
+      public static var var_4088:int = 154;
       
       public static var var_4089:int = 6373 + -6093;
       
@@ -281,7 +281,7 @@ package
       
       public static var var_4124:int = 6774 + -6364;
       
-      public static var var_4125:int = 60 + 43;
+      public static var var_4125:int = 103;
       
       public static var var_4126:String = "Mort";
       
@@ -303,7 +303,7 @@ package
       
       public static var var_4135:String = "ete";
       
-      public static var var_4136:int = 4711 + -4658;
+      public static var var_4136:int = 53;
       
       public static var var_4137:String = "$OC_MoteurRouge2";
       

@@ -295,9 +295,9 @@ package
       
       public static var var_5453:int = 5525 + -5413;
       
-      public static var var_5454:int = 4770 + -4672;
+      public static var var_5454:int = 98;
       
-      public static var var_5455:int = 9708 + -9624;
+      public static var var_5455:int = 84;
       
       public static var var_5456:int = 1520 + -1482;
       
@@ -313,7 +313,7 @@ package
       
       public static var var_5462:String = "<V>";
       
-      public static var var_5463:int = 5114 + -5067;
+      public static var var_5463:int = 47;
       
       public static var var_5464:String = "FLASH";
       
@@ -373,7 +373,7 @@ package
       
       public static var var_5492:String = "quitter";
       
-      public static var var_5493:int = 5780 + -5680;
+      public static var var_5493:int = 100;
       
       public static var var_5494:int = 8010 + -7993;
       

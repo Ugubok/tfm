@@ -237,11 +237,11 @@ package
       
       public static var var_3631:int = 5706 + -5582;
       
-      public static var var_3632:int = 3122 + -3013;
+      public static var var_3632:int = 109;
       
       public static var var_3633:int = 416 + -331;
       
-      public static var var_3634:int = 6710 + -6647;
+      public static var var_3634:int = 63;
       
       public static var var_3635:int = 7569 + -6869;
       
@@ -267,7 +267,7 @@ package
       
       public static var var_3646:int = 4166 + -4072;
       
-      public static var var_3647:int = 8489 + -8421;
+      public static var var_3647:int = 68;
       
       public static var var_3648:String = "oui";
       
@@ -309,7 +309,7 @@ package
       
       public static var var_3667:String = "uncaughtError";
       
-      public static var var_3668:int = 681 + -650;
+      public static var var_3668:int = 31;
       
       public static var var_3669:String = "*pwet";
       

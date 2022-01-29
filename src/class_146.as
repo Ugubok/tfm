@@ -257,7 +257,7 @@ package
       
       public static var var_6073:int = 1730 + -1604;
       
-      public static var var_6074:int = 4238 + -4195;
+      public static var var_6074:int = 43;
       
       public static var var_6075:int = 6764 + 53236;
       

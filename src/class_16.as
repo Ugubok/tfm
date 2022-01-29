@@ -159,7 +159,7 @@ package
       
       public static var var_3347:String = "), port ";
       
-      public static var var_3348:int = 7242 + -7081;
+      public static var var_3348:int = 161;
       
       public static var var_3349:String = "forums";
       
@@ -341,7 +341,7 @@ package
       
       public static var var_3438:int = 3839 + 2161;
       
-      public static var var_3439:int = 6916 + -6837;
+      public static var var_3439:int = 79;
       
       public static var var_3440:int = 222 + 399778;
       

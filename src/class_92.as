@@ -7,7 +7,7 @@ package
       
       public static var var_4473:String = "$Fenetretag";
       
-      public static var var_4474:int = 8499 + -5995;
+      public static var var_4474:int = 2504;
       
       public static var var_4475:String = "<font size=\'12\'>";
       
@@ -15,11 +15,11 @@ package
       
       public static var var_4477:String = "election";
       
-      public static var var_4478:int = 5015 + -4560;
+      public static var var_4478:int = 455;
       
       public static var var_4479:String = "x_transformice/x_evt/x_evt_03/0or8meuj/mongolfiere.png";
       
-      public static var var_4480:Number = (7150 + 13794) / (1814 + 8186);
+      public static var var_4480:Number = 2.09;
       
       public static var var_4481:String = "x_transformice/x_evt/x_evt_20/azctnlhkqsf/bateau-avant.png";
       
@@ -47,7 +47,7 @@ package
       
       public static var var_4493:String = "$E_Charger";
       
-      public static var var_4494:int = 2322 + -2050;
+      public static var var_4494:int = 272;
       
       public static var var_4495:String = "$S_partieClassee";
       
@@ -67,7 +67,7 @@ package
       
       public static var var_4503:String = "_Museum";
       
-      public static var var_4504:int = 8601 + -8089;
+      public static var var_4504:int = 512;
       
       public static var var_4505:String = "theme";
       
@@ -75,9 +75,9 @@ package
       
       public static var var_4507:String = "SP";
       
-      public static var var_4508:Number = (3613 + -3588) / (3890 + -2890);
+      public static var var_4508:Number = .02;
       
-      public static var var_4509:Number = (4769 + -4768) / (6243 + 93757);
+      public static var var_4509:Number = 0;
       
       public static var var_4510:String = "$Nouveau_Titre";
       
@@ -95,15 +95,15 @@ package
       
       public static var var_4517:String = "$DonItemOk";
       
-      public static var var_4518:int = 1337 + -922;
+      public static var var_4518:int = 415;
       
-      public static var var_4519:int = 3488 + -3265;
+      public static var var_4519:int = 223;
       
-      public static var var_4520:int = 7128 + -6512;
+      public static var var_4520:int = 616;
       
-      public static var var_4521:int = 3296 + 6819;
+      public static var var_4521:int = 10115;
       
-      public static var var_4522:int = 3705 + -3293;
+      public static var var_4522:int = 412;
       
       public static var var_4523:String = "<N><p align=\'center\'>";
       
@@ -111,7 +111,7 @@ package
       
       public static var var_4525:String = "lice";
       
-      public static var var_4526:int = 2484 + -2263;
+      public static var var_4526:int = 221 ;
       
       public static var var_4527:String = "Arme_1";
       
@@ -161,9 +161,9 @@ package
       
       public static var var_4550:String = "$erreur.tribulle.33";
       
-      public static var var_4551:int = 2665 + -653;
+      public static var var_4551:int = 2012;
       
-      public static var var_4552:Number = (2852 + -2352) / (7349 + -7339);
+      public static var var_4552:Number = 50;
       
       public static var var_4553:String = "$TexteSoopa";
       
@@ -191,9 +191,9 @@ package
       
       public static var var_4565:String = "$menu.contextuel.joueur.tribu";
       
-      public static var var_4566:int = 8139 + -7831;
+      public static var var_4566:int = 308;
       
-      public static var var_4567:int = 8548 + -7878;
+      public static var var_4567:int = 670 ;
       
       public static var var_4568:String = "   <G>|   <N>";
       
@@ -255,13 +255,13 @@ package
       
       public static var var_4597:String = "p://";
       
-      public static var var_4598:Number = (7011 + 14680) / (2428 + -2328);
+      public static var var_4598:Number = 216.91;
       
       public static var var_4599:String = "$texte.messageConfirmation";
       
       public static var var_4600:String = "<font size=\'10\'><V>";
       
-      public static var var_4601:Number = (8139 + -5589) / (5627 + -5617);
+      public static var var_4601:Number = 255;
       
       public static var var_4602:String = "<R> introuvable.";
       
@@ -277,25 +277,25 @@ package
       
       public static var var_4608:String = "Ligne du curseur introuvable";
       
-      public static var var_4609:int = 8631 + -8429;
+      public static var var_4609:int = 202;
       
-      public static var var_4610:int = 2289 + -2178;
+      public static var var_4610:int = 111;
       
-      public static var var_4611:int = 4749 + -4647;
+      public static var var_4611:int = 102;
       
-      public static var var_4612:int = 9169 + -9076;
+      public static var var_4612:int = 93;
       
-      public static var var_4613:int = 2299 + -2243;
+      public static var var_4613:int = 56;
       
-      public static var var_4614:int = 2332 + -2237;
+      public static var var_4614:int = 95;
       
-      public static var var_4615:int = 3603 + -3538;
+      public static var var_4615:int = 65;
       
-      public static var var_4616:int = 5632 + -5297;
+      public static var var_4616:int = 335;
       
       public static var var_4617:String = "$Sol_Dur";
       
-      public static var var_4618:int = 7846 + 12954;
+      public static var var_4618:int = 20800;
       
       public static var var_4619:String = "LIMITE_P";
       
@@ -303,19 +303,19 @@ package
       
       public static var var_4621:String = "$ModePaiementPrimeiroPay";
       
-      public static var var_4622:int = 1047 + -1046;
+      public static var var_4622:int = 1;
       
       public static var var_4623:String = "stopAllMovieClips";
       
-      public static var var_4624:int = 6605 + -6147;
+      public static var var_4624:int = 458;
       
-      public static var var_4625:int = 5908 + -2908;
+      public static var var_4625:int = 3000;
       
       public static var var_4626:String = "$TM";
       
       public static var var_4627:String = "Nouveau mobile : (";
       
-      public static var var_4628:int = 3119 + -3101;
+      public static var var_4628:int = 18;
       
       public static var var_4629:String = "$Enclume";
       
@@ -333,13 +333,13 @@ package
       
       public static var var_4636:String = "x_nouveaute/x_kredskongregate.jpg";
       
-      public static var var_4637:int = 7293 + -7231;
+      public static var var_4637:int = 62;
       
       public static var var_4638:String = "KEY_UP";
       
       public static var var_4639:String = "rTZTF";
       
-      public static var var_4640:int = 1202 + 65101631;
+      public static var var_4640:int = 65102833;
       
       public static var var_4641:String = "<T><a href=\'event:";
       
@@ -347,15 +347,15 @@ package
       
       public static var var_4643:String = "length";
       
-      public static var var_4644:int = 4412 + -3760;
+      public static var var_4644:int = 652;
       
-      public static var var_4645:int = 7535 + -7100;
+      public static var var_4645:int = 435;
       
       public static var var_4646:String = "#FF8547";
       
-      public static var var_4647:int = 916 + -909;
+      public static var var_4647:int = 7;
       
-      public static var var_4648:Number = (7271 + -7266) / (3829 + -3819);
+      public static var var_4648:Number = .50;
        
       
       public function class_92()
@@ -365,97 +365,97 @@ package
       
       public static function method_2178() : int
       {
-         return 1720 + -1360;
+         return 360;
       }
       
       public static function method_2179() : Number
       {
-         return (7971 + -6226) / (7357 + 92643);
+         return .01;
       }
       
       public static function method_2180() : int
       {
-         return 4869 + -4669;
+         return 200;
       }
       
       public static function method_2181() : int
       {
-         return 427 + -362;
+         return 65;
       }
       
       public static function method_2182() : int
       {
-         return 4888 + -4765;
+         return 123;
       }
       
       public static function method_2183() : int
       {
-         return 3909 + -3854;
+         return 55;
       }
       
       public static function method_2184() : int
       {
-         return 249 + -157;
+         return 92;
       }
       
       public static function method_2185() : int
       {
-         return 2114 + -1973;
+         return 141;
       }
       
       public static function method_2186() : int
       {
-         return 5832 + -5686;
+         return 146;
       }
       
       public static function method_2187() : int
       {
-         return 4447 + -4302;
+         return 145;
       }
       
       public static function method_2188() : int
       {
-         return 1861 + 8640082;
+         return 8641943;
       }
       
       public static function method_2189() : int
       {
-         return 9142 + -9054;
+         return 88;
       }
       
       public static function method_2190() : int
       {
-         return 12 + 185;
+         return 197;
       }
       
       public static function method_2191() : int
       {
-         return 5964 + -5769;
+         return 195;
       }
       
       public static function method_2192() : int
       {
-         return 5356 + -5327;
+         return 29;
       }
       
       public static function method_2193() : int
       {
-         return 2615 + -2516;
+         return 99;
       }
       
       public static function method_2194() : int
       {
-         return 4054 + -4028;
+         return 26;
       }
       
       public static function method_2195() : int
       {
-         return 6607 + -6585;
+         return 22;
       }
       
       public static function method_2196() : int
       {
-         return 1684 + -1672;
+         return 12;
       }
    }
 }

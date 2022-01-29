@@ -13,7 +13,7 @@ package
       
       public static var var_3079:String = "0.2";
       
-      public static var var_3080:int = 226 + 8528;
+      public static var var_3080:int = 8754;
       
       public static var var_3081:String = "0x7bc242";
       
@@ -21,13 +21,13 @@ package
       
       public static var var_3083:String = "x_fourrures.swf";
       
-      public static var var_3084:int = 9024 + -8702;
+      public static var var_3084:int = 322;
       
       public static var var_3085:String = "x_transformice/x_evt/x_evt_16/JKESOLKA/tardis.png";
       
-      public static var var_3086:int = 545 + 110;
+      public static var var_3086:int = 655;
       
-      public static var var_3087:Number = (3155 + -3139) / (3198 + -3188);
+      public static var var_3087:Number = 1.60;
       
       public static var var_3088:String = "x_transformice/x_evt/x_evt_19/svtrixcv/bateau.png";
       
@@ -49,7 +49,7 @@ package
       
       public static var var_3097:String = "text:\\s*(.*)";
       
-      public static var var_3098:int = 353 + -105;
+      public static var var_3098:int = 248;
       
       public static var var_3099:String = "<font color=\'#DCE620\'>★★★★★★★</font>";
       
@@ -67,7 +67,7 @@ package
       
       public static var var_3106:String = "$B";
       
-      public static var var_3107:int = 6564 + -5803;
+      public static var var_3107:int = 761;
       
       public static var var_3108:String = "cH";
       
@@ -77,9 +77,9 @@ package
       
       public static var var_3111:String = "$Echec_Fou";
       
-      public static var var_3112:Number = (6591 + -6587) / (4786 + -4686);
+      public static var var_3112:Number = .04;
       
-      public static var var_3113:int = 9468 + -7205;
+      public static var var_3113:int = 2263;
       
       public static var var_3114:String = "$CartoucheArbre0";
       
@@ -91,9 +91,9 @@ package
       
       public static var var_3118:String = "pasAA";
       
-      public static var var_3119:int = 3847 + -3238;
+      public static var var_3119:int = 609;
       
-      public static var var_3120:int = 7041 + 14984;
+      public static var var_3120:int = 22025;
       
       public static var var_3121:String = "$Retour";
       
@@ -149,7 +149,7 @@ package
       
       public static var var_3147:String = "$E_CarteValide";
       
-      public static var var_3148:int = 8396 + 36044;
+      public static var var_3148:int = 44440;
       
       public static var var_3149:String = "Tentative de connexion au serveur (";
       
@@ -157,7 +157,7 @@ package
       
       public static var var_3151:String = "st";
       
-      public static var var_3152:int = 3950 + -3783;
+      public static var var_3152:int = 167;
       
       public static var var_3153:String = "section?f=";
       
@@ -215,7 +215,7 @@ package
       
       public static var var_3180:String = "m ";
       
-      public static var var_3181:int = 1547 + -1217;
+      public static var var_3181:int = 330;
       
       public static var var_3182:String = "   <G>|   ";
       
@@ -241,11 +241,11 @@ package
       
       public static var var_3193:String = "$ChoixPseudoMemeEmail";
       
-      public static var var_3194:int = 7739 + -7421;
+      public static var var_3194:int = 318;
       
       public static var var_3195:String = "https://www.youtube.com/watch?v=";
       
-      public static var var_3196:int = 2132 + -1474;
+      public static var var_3196:int = 658;
       
       public static var var_3197:String = "$LoginBouboum";
       
@@ -287,7 +287,7 @@ package
       
       public static var var_3216:String = "bl";
       
-      public static var var_3217:Number = (8010 + -7990) / (5748 + -5738);
+      public static var var_3217:Number = 2;
       
       public static var var_3218:String = "definirPleinEcran";
       
@@ -301,27 +301,27 @@ package
       
       public static var var_3223:String = "$RaccourciNonReassignable";
       
-      public static var var_3224:Number = (9507 + -9494) / (6957 + -6947);
+      public static var var_3224:Number = 1.30;
       
       public static var var_3225:String = "mouseOut";
       
-      public static var var_3226:int = 1629 + -1502;
+      public static var var_3226:int = 127;
       
-      public static var var_3227:int = 7996 + -7888;
+      public static var var_3227:int = 108;
       
-      public static var var_3228:int = 6619 + -6523;
+      public static var var_3228:int = 96;
       
-      public static var var_3229:int = 3967 + -3884;
+      public static var var_3229:int = 83;
       
-      public static var var_3230:int = 8119 + -6619;
+      public static var var_3230:int = 1500;
       
-      public static var var_3231:int = 4274 + -4049;
+      public static var var_3231:int = 225;
       
-      public static var var_3232:int = 7055 + -6880;
+      public static var var_3232:int = 175;
       
-      public static var var_3233:int = 659 + -399;
+      public static var var_3233:int = 260;
       
-      public static var var_3234:int = 8714 + -8680;
+      public static var var_3234:int = 34;
       
       public static var var_3235:String = "F";
       
@@ -333,13 +333,13 @@ package
       
       public static var var_3239:String = "x_commun/x_iconespaiement/x_logo_g2apay.png";
       
-      public static var var_3240:int = 2968 + -2878;
+      public static var var_3240:int = 90;
       
       public static var var_3241:String = "etiquette";
       
       public static var var_3242:int = 794 + 7388;
       
-      public static var var_3243:int = 2704 + -2624;
+      public static var var_3243:int = 80;
       
       public static var var_3244:String = "$Ballon";
       
@@ -347,7 +347,7 @@ package
       
       public static var var_3246:String = "$Flèche";
       
-      public static var var_3247:int = 9237 + -8784;
+      public static var var_3247:int = 453;
       
       public static var var_3248:String = "<font color=\'#FEB1FC\'>Souris Électrique</font>";
       
@@ -385,7 +385,7 @@ package
       
       public static var var_3265:int = 2980 + -2170;
       
-      public static var var_3266:int = 8560 + -8538;
+      public static var var_3266:int = 22;
       
       public static var var_3267:int = 8716 + -8710;
       

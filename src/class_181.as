@@ -149,9 +149,9 @@ package
       
       public static var var_6845:String = "le";
       
-      public static var var_6846:int = 161 + 2;
+      public static var var_6846:int = 163;
       
-      public static var var_6847:int = 9388 + -9229;
+      public static var var_6847:int = 159;
       
       public static var var_6848:String = "] : ";
       
@@ -277,11 +277,11 @@ package
       
       public static var var_6909:int = 431 + -298;
       
-      public static var var_6910:int = 9388 + -9260;
+      public static var var_6910:int = 128;
       
       public static var var_6911:int = 1726 + 9274;
       
-      public static var var_6912:int = 3243 + -3128;
+      public static var var_6912:int = 115;
       
       public static var var_6913:int = 421 + -311;
       
@@ -289,7 +289,7 @@ package
       
       public static var var_6915:String = "AnimStatique";
       
-      public static var var_6916:int = 9535 + -9449;
+      public static var var_6916:int = 86;
       
       public static var var_6917:int = 6766 + -6544;
       

@@ -129,7 +129,7 @@ package
       
       public static var var_5559:String = "tigrou";
       
-      public static var var_5560:int = 7649 + -7503;
+      public static var var_5560:int = 146;
       
       public static var var_5561:String = "$popup.tribu.quitter.message.chef";
       
@@ -237,15 +237,15 @@ package
       
       public static var var_5613:Number = (9096 + 975279) / (1216 + 998784);
       
-      public static var var_5614:int = 3299 + -3198;
+      public static var var_5614:int = 101;
       
-      public static var var_5615:int = 2238 + -2151;
+      public static var var_5615:int = 87;
       
-      public static var var_5616:int = 4960 + -4887;
+      public static var var_5616:int = 73;
       
       public static var var_5617:int = 1678 + -1606;
       
-      public static var var_5618:int = 5543 + -5482;
+      public static var var_5618:int = 61;
       
       public static var var_5619:int = 1906 + -1562;
       
@@ -269,7 +269,7 @@ package
       
       public static var var_5629:int = 8514 + -8349;
       
-      public static var var_5630:int = 6911 + -6842;
+      public static var var_5630:int = 69;
       
       public static var var_5631:String = "$AttenteFraise";
       
@@ -291,7 +291,7 @@ package
       
       public static var var_5640:int = 6953 + -6909;
       
-      public static var var_5641:int = 5685 + -5653;
+      public static var var_5641:int = 32;
       
       public static var var_5642:String = "$OC_MoteurRouge1";
       

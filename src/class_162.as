@@ -371,9 +371,9 @@ package
       
       public static var var_6350:String = "V";
       
-      public static var var_6351:int = 5265 + -5235;
+      public static var var_6351:int = 30;
       
-      public static var var_6352:int = 1377 + -1323;
+      public static var var_6352:int = 54;
        
       
       public function class_162()

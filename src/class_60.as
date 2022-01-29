@@ -233,9 +233,9 @@ package
       
       public static var var_3936:int = 6884 + -6033;
       
-      public static var var_3937:int = 5423 + -5281;
+      public static var var_3937:int = 142;
       
-      public static var var_3938:int = 4015 + -3892;
+      public static var var_3938:int = 123;
       
       public static var var_3939:int = 2926 + -2862;
       
@@ -303,7 +303,7 @@ package
       
       public static var var_3971:String = "inTim";
       
-      public static var var_3972:int = 6983 + -6823;
+      public static var var_3972:int = 160;
       
       public static var var_3973:String = "$ClipVignette";
       

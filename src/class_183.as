@@ -275,7 +275,7 @@ package
       
       public static var var_7092:int = 3762 + -3621;
       
-      public static var var_7093:int = 9121 + -8991;
+      public static var var_7093:int = 130;
       
       public static var var_7094:int = 600 + -471;
       
@@ -337,7 +337,7 @@ package
       
       public static var var_7123:String = "vous_êtes_ici";
       
-      public static var var_7124:int = 6754 + -6592;
+      public static var var_7124:int = 162;
       
       public static var var_7125:String = "inline";
       

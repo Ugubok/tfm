@@ -164,863 +164,458 @@ package
    import tribulle.auto.protocole.sortie.V_ST_SignaleChangementDeGenre;
    import tribulle.auto.protocole.sortie.V_ST_SupprimerDroitRang;
    import tribulle.auto.protocole.sortie.V_ST_SupprimerRang;
-   
+
    public class class_739 implements _IProtocole
    {
-       
-      
+
+
       public var var_2561:String;
-      
-      public var var_2562:V_CT_DonneesUtilisateur;
-      
+
+      public var userDataCat:V_CT_DonneesUtilisateur;
+
       public var var_2563:V_CT_Defaut;
-      
-      public var var_2564:V_CT_ListeNoire;
-      
-      public var var_2565:V_CT_Chat;
-      
-      public var var_2566:V_CT_Service;
-      
+
+      public var blacklistCat:V_CT_ListeNoire;
+
+      public var chatCat:V_CT_Chat;
+
+      public var svcCat:V_CT_Service;
+
       public var var_2567:V_CT_motsInterdits;
-      
-      public var var_2568:V_CT_Tribu;
-      
-      public var var_2569:V_CT_Utilisateur;
-      
-      public var var_2570:V_CT_Ami;
-      
+
+      public var tribeCategory:V_CT_Tribu;
+
+      public var userCat:V_CT_Utilisateur;
+
+      public var friendCat:V_CT_Ami;
+
       public function class_739()
       {
          this.var_2561 = class_92.var_4544;
          super();
       }
-      
+
+      // CREATE INCOMING PACKET
       public function creePaquetEntrant(param1:_IConnexion, param2:int) : _IPaquetEntrant
       {
          var _loc3_:_IPaquetEntrant = null;
-         if(param2 == class_165.var_6534)
-         {
-            _loc3_ = new V_ET_ResultatIdentificationService(param1);
+         switch (param2) {
+         case 2: return new V_ET_ResultatIdentificationService(param1);
+         case 5: return new V_ET_ResultatMiseAJourLocalisation(param1);
+         case 7: return new V_ET_ResultatMiseAJourLocalisations(param1);
+         case 21: return new V_ET_ResultatMessageCanal(param1);
+         case 22: return new V_ET_SignaleMessageCanal(param1);
+         case 24: return new V_ET_ResultatRejoindreCanal(param1);
+         case 26: return new V_ET_ResultatQuitterCanal(param1);
+         case 27: return new V_ET_SignaleRejointCanal(param1);
+         case 28: return new V_ET_SignaleQuitteCanal(param1);
+         case 29: return new V_ET_SignaleMembreRejointCanal(param1);
+         case 30: return new V_ET_SignaleMembresRejoignentCanal(param1);
+         case 31: return new V_ET_SignaleMembreQuitteCanal(param1);
+         case 32: return new V_ET_SignaleMembresQuittentCanal(param1);
+         case 34: return new V_ET_ResultatMessagePrive(param1);
+         case 35: return new V_ET_RecoitMessagePriveSysteme(param1);
+         case 36: return new V_ET_RecoitMessagePrive(param1);
+         case 40: return new V_ET_ResultatDefinitModeSilence(param1);
+         case 42: return new V_ET_ResultatDemandeMembresCanal(param1);
+         case 43: return new V_ET_ErreurDemandeMembresCanal(param1);
+         case 45: return new V_ET_ResultatAjoutAmi(param1);
+         case 47: return new V_ET_ResultatRetireAmi(param1);
+         case 49: return new V_ET_ResultatListeAmis(param1);
+         case 50: return new V_ET_ErreurListeAmis(param1);
+         case 51: return new V_ET_SignaleAjoutAmi(param1);
+         case 52: return new V_ET_SignaleModificationLocalisationAmi(param1);
+         case 53: return new V_ET_SignaleRetraitAmi(param1);
+         case 54: return new V_ET_SignaleConnexionAmi(param1);
+         case 55: return new V_ET_SignaleDeconnexionAmi(param1);
+         case 56: return new V_ET_SignaleConnexionAmis(param1);
+         case 57: return new V_ET_SignaleDeconnexionAmis(param1);
+         case 58: return new V_ET_SignaleAjoutAmiBidirectionnel(param1);
+         case 59: return new V_ET_SignaleRetraitAmiBidirectionnel(param1);
+         case 61: return new V_ET_ResultatDemandeEnMariage(param1);
+         case 62: return new V_ET_ErreurDemandeEnMariage(param1);
+         case 63: return new V_ET_SignaleDemandeEnMariage(param1);
+         case 65: return new V_ET_ResultatRepondDemandeEnMariage(param1);
+         case 66: return new V_ET_SignaleMariage(param1);
+         case 68: return new V_ET_ResultatDemandeDivorce(param1);
+         case 69: return new V_ET_SignaleDivorce(param1);
+         case 71: return new V_ET_ResultatAjoutListeNoire(param1);
+         case 73: return new V_ET_ResultatRetireListeNoire(param1);
+         case 75: return new V_ET_ResultatListeNoire(param1);
+         case 76: return new V_ET_ErreurListeNoire(param1);
+         case 77: return new V_ET_SignaleAjoutListeNoire(param1);
+         case 78: return new V_ET_SignaleRetraitListeNoire(param1);
+         case 79: return new V_ET_CreerTribu(param1);
+         case 80: return new V_ET_ResultatCreerTribu(param1);
+         case 81: return new V_ET_SignaleTribuCreee(param1);
+         case 82: return new V_ET_SignaleInvitationTribu(param1);
+         case 84: return new V_ET_ErreurRepondInvitationTribu(param1);
+         case 86: return new V_ET_ResultatInformationsTribu(param1);
+         case 87: return new V_ET_ErreurInformationsTribu(param1);
+         case 2500: return new V_ET_ResultatInformationsTribuSimple(param1);
+         case 90: return new V_ET_ErreurInformationsTribuSimple(param1);
+         case 92: return new V_ET_ResultatMembresTribu(param1);
+         case 93: return new V_ET_ErreurMembresTribu(param1);
+         case 95: return new V_ET_ResultatQuitterTribu(param1);
+         case 97: return new V_ET_ResultatListeHistoriqueTribu(param1);
+         case 98: return new V_ET_ErreurListeHistoriqueTribu(param1);
+         case 99: return new V_ET_SignaleConnexionMembre(param1);
+         case 100: return new V_ET_SignaleDeconnexionMembre(param1);
+         case 101: return new V_ET_SignaleConnexionMembres(param1);
+         case 102: return new V_ET_SignaleDeconnexionMembres(param1);
+         case 103: return new V_ET_SignaleChangementMessageJour(param1);
+         case 104: return new V_ET_SignaleChangementCodeMaisonTFM(param1);
+         case 105: return new V_ET_SignaleChangementRang(param1);
+         case 106: return new V_ET_SignaleExclusion(param1);
+         case 107: return new V_ET_SignaleNouveauMembre(param1);
+         case 108: return new V_ET_SignaleDepartMembre(param1);
+         case 109: return new V_ET_SignaleModificationLocalisationMembreTribu(param1);
+         case 111: return new V_ET_ResultatChangerMessageJour(param1);
+         case 115: return new V_ET_ResultatExclureMembre(param1);
+         case 117: return new V_ET_ResultatInviterMembre(param1);
+         case 118: return new V_ET_ErreurInviterMembre(param1);
+         case 120: return new V_ET_ResultatChangerCodeMaisonTFM(param1);
+         case 122: return new V_ET_ResultatListeRangs(param1);
+         case 123: return new V_ET_ErreurListeRangs(param1);
+         case 125: return new V_ET_ResultatAffecterRang(param1);
+         case 127: return new V_ET_ResultatAjouterRang(param1);
+         case 128: return new V_ET_ErreurAjouterRang(param1);
+         case 130: return new V_ET_ResultatSupprimerRang(param1);
+         case 132: return new V_ET_ResultatRenommerRang(param1);
+         case 134: return new V_ET_ResultatAjouterDroitRang(param1);
+         case 136: return new V_ET_ResultatSupprimerDroitRang(param1);
+         case 138: return new V_ET_ResultatInverserOrdreRangs(param1);
+         case 142: return new V_ET_ResultatDesignerChefSpirituel(param1);
+         case 144: return new V_ET_ResultatRenommerTribu(param1);
+         case 146: return new V_ET_ResultatDissoudreTribu(param1);
+         case 147: return new V_ET_SignaleDissolutionTribu(param1);
+         case 153: return new V_ET_ResultatDonneesUtilisateur(param1);
+         case 154: return new V_ET_ErreurDonneesUtilisateur(param1);
+         case 156: return new V_ET_ResultatDefinitDonneesUtilisateur(param1);
+         case 158: return new V_ET_ResultatChangerDeGenre(param1);
+         case 159: return new V_ET_SignaleChangementDeGenre(param1);
+         case 160: return new V_ET_SignaleChangementAvatar(param1);
+         case 161: return new V_ET_DemandeNouveauxMessagesPrivesWeb(param1);
+         case 162: return new V_ET_DemandeNouveauxMessagesPrivesWebEnMasse(param1);
+         case 163: return new V_ET_SignalNouveauxMessagesPrivesWeb(param1);
+         case 164: return new V_ET_SignalNouveauMessagePriveWeb(param1);
+         case 166: return new V_ET_ReponseDemandeInfosJeuUtilisateur(param1);
+         case 167: return new V_ET_ErreurDemandeInfosJeuUtilisateur(param1);
+         default: throw new Error(class_73.method_2111(class_165.var_6424) + param2);
          }
-         else if(class_117.var_5287 == param2)
-         {
-            _loc3_ = new V_ET_ResultatMiseAJourLocalisation(param1);
-         }
-         else if(class_92.var_4647 == param2)
-         {
-            _loc3_ = new V_ET_ResultatMiseAJourLocalisations(param1);
-         }
-         else if(param2 == class_73.method_2108(class_127.var_5865))
-         {
-            _loc3_ = new V_ET_ResultatMessageCanal(param1);
-         }
-         else if(class_9.var_3266 == param2)
-         {
-            _loc3_ = new V_ET_SignaleMessageCanal(param1);
-         }
-         else if(class_73.method_2108(class_117.var_5280) == param2)
-         {
-            _loc3_ = new V_ET_ResultatRejoindreCanal(param1);
-         }
-         else if(class_73.method_2108(class_117.var_5265) == param2)
-         {
-            _loc3_ = new V_ET_ResultatQuitterCanal(param1);
-         }
-         else if(class_73.method_2108(class_4.var_3043) == param2)
-         {
-            _loc3_ = new V_ET_SignaleRejointCanal(param1);
-         }
-         else if(param2 == class_4.var_3042)
-         {
-            _loc3_ = new V_ET_SignaleQuitteCanal(param1);
-         }
-         else if(class_102.var_4826 == param2)
-         {
-            _loc3_ = new V_ET_SignaleMembreRejointCanal(param1);
-         }
-         else if(param2 == class_73.method_2108(class_162.var_6351))
-         {
-            _loc3_ = new V_ET_SignaleMembresRejoignentCanal(param1);
-         }
-         else if(class_33.var_3668 == param2)
-         {
-            _loc3_ = new V_ET_SignaleMembreQuitteCanal(param1);
-         }
-         else if(class_124.var_5641 == param2)
-         {
-            _loc3_ = new V_ET_SignaleMembresQuittentCanal(param1);
-         }
-         else if(param2 == class_73.method_2108(class_9.var_3234))
-         {
-            _loc3_ = new V_ET_ResultatMessagePrive(param1);
-         }
-         else if(param2 == class_73.method_2108(class_117.var_5264))
-         {
-            _loc3_ = new V_ET_RecoitMessagePriveSysteme(param1);
-         }
-         else if(class_107.var_5040 == param2)
-         {
-            _loc3_ = new V_ET_RecoitMessagePrive(param1);
-         }
-         else if(param2 == class_102.var_4859)
-         {
-            _loc3_ = new V_ET_ResultatDefinitModeSilence(param1);
-         }
-         else if(param2 == class_102.var_4822)
-         {
-            _loc3_ = new V_ET_ResultatDemandeMembresCanal(param1);
-         }
-         else if(param2 == class_146.var_6074)
-         {
-            _loc3_ = new V_ET_ErreurDemandeMembresCanal(param1);
-         }
-         else if(param2 == class_107.var_5038)
-         {
-            _loc3_ = new V_ET_ResultatAjoutAmi(param1);
-         }
-         else if(param2 == class_121.var_5463)
-         {
-            _loc3_ = new V_ET_ResultatRetireAmi(param1);
-         }
-         else if(class_73.method_2108(class_170.var_6714) == param2)
-         {
-            _loc3_ = new V_ET_ResultatListeAmis(param1);
-         }
-         else if(class_165.var_6506 == param2)
-         {
-            _loc3_ = new V_ET_ErreurListeAmis(param1);
-         }
-         else if(class_107.var_5050 == param2)
-         {
-            _loc3_ = new V_ET_SignaleAjoutAmi(param1);
-         }
-         else if(param2 == class_73.method_2108(class_127.var_5864))
-         {
-            _loc3_ = new V_ET_SignaleModificationLocalisationAmi(param1);
-         }
-         else if(param2 == class_62.var_4136)
-         {
-            _loc3_ = new V_ET_SignaleRetraitAmi(param1);
-         }
-         else if(param2 == class_73.method_2108(class_162.var_6352))
-         {
-            _loc3_ = new V_ET_SignaleConnexionAmi(param1);
-         }
-         else if(class_89.var_4402 == param2)
-         {
-            _loc3_ = new V_ET_SignaleDeconnexionAmi(param1);
-         }
-         else if(class_92.var_4613 == param2)
-         {
-            _loc3_ = new V_ET_SignaleConnexionAmis(param1);
-         }
-         else if(param2 == class_117.var_5250)
-         {
-            _loc3_ = new V_ET_SignaleDeconnexionAmis(param1);
-         }
-         else if(param2 == class_73.method_2108(class_165.var_6493))
-         {
-            _loc3_ = new V_ET_SignaleAjoutAmiBidirectionnel(param1);
-         }
-         else if(param2 == class_89.var_4401)
-         {
-            _loc3_ = new V_ET_SignaleRetraitAmiBidirectionnel(param1);
-         }
-         else if(param2 == class_73.method_2108(class_124.var_5618))
-         {
-            _loc3_ = new V_ET_ResultatDemandeEnMariage(param1);
-         }
-         else if(param2 == class_92.var_4637)
-         {
-            _loc3_ = new V_ET_ErreurDemandeEnMariage(param1);
-         }
-         else if(class_73.method_2108(class_33.var_3634) == param2)
-         {
-            _loc3_ = new V_ET_SignaleDemandeEnMariage(param1);
-         }
-         else if(class_92.var_4615 == param2)
-         {
-            _loc3_ = new V_ET_ResultatRepondDemandeEnMariage(param1);
-         }
-         else if(class_102.var_4837 == param2)
-         {
-            _loc3_ = new V_ET_SignaleMariage(param1);
-         }
-         else if(class_33.var_3647 == param2)
-         {
-            _loc3_ = new V_ET_ResultatDemandeDivorce(param1);
-         }
-         else if(param2 == class_124.var_5630)
-         {
-            _loc3_ = new V_ET_SignaleDivorce(param1);
-         }
-         else if(param2 == class_165.var_6492)
-         {
-            _loc3_ = new V_ET_ResultatAjoutListeNoire(param1);
-         }
-         else if(param2 == class_124.var_5616)
-         {
-            _loc3_ = new V_ET_ResultatRetireListeNoire(param1);
-         }
-         else if(param2 == class_107.var_5037)
-         {
-            _loc3_ = new V_ET_ResultatListeNoire(param1);
-         }
-         else if(param2 == class_73.method_2108(class_102.var_4820))
-         {
-            _loc3_ = new V_ET_ErreurListeNoire(param1);
-         }
-         else if(class_170.var_6696 == param2)
-         {
-            _loc3_ = new V_ET_SignaleAjoutListeNoire(param1);
-         }
-         else if(param2 == class_170.var_6703)
-         {
-            _loc3_ = new V_ET_SignaleRetraitListeNoire(param1);
-         }
-         else if(class_73.method_2108(class_16.var_3439) == param2)
-         {
-            _loc3_ = new V_ET_CreerTribu(param1);
-         }
-         else if(param2 == class_9.var_3243)
-         {
-            _loc3_ = new V_ET_ResultatCreerTribu(param1);
-         }
-         else if(class_73.method_2108(class_102.var_4823) == param2)
-         {
-            _loc3_ = new V_ET_SignaleTribuCreee(param1);
-         }
-         else if(param2 == class_73.method_2108(class_107.var_5036))
-         {
-            _loc3_ = new V_ET_SignaleInvitationTribu(param1);
-         }
-         else if(param2 == class_73.method_2108(class_121.var_5455))
-         {
-            _loc3_ = new V_ET_ErreurRepondInvitationTribu(param1);
-         }
-         else if(class_181.var_6916 == param2)
-         {
-            _loc3_ = new V_ET_ResultatInformationsTribu(param1);
-         }
-         else if(class_124.var_5615 == param2)
-         {
-            _loc3_ = new V_ET_ErreurInformationsTribu(param1);
-         }
-         else if(param2 == class_73.method_2108(class_165.var_6491))
-         {
-            _loc3_ = new V_ET_ResultatInformationsTribuSimple(param1);
-         }
-         else if(param2 == class_73.method_2108(class_9.var_3240))
-         {
-            _loc3_ = new V_ET_ErreurInformationsTribuSimple(param1);
-         }
-         else if(class_73.method_2108(class_107.var_5034) == param2)
-         {
-            _loc3_ = new V_ET_ResultatMembresTribu(param1);
-         }
-         else if(class_92.var_4612 == param2)
-         {
-            _loc3_ = new V_ET_ErreurMembresTribu(param1);
-         }
-         else if(class_92.var_4614 == param2)
-         {
-            _loc3_ = new V_ET_ResultatQuitterTribu(param1);
-         }
-         else if(param2 == class_127.var_5848)
-         {
-            _loc3_ = new V_ET_ResultatListeHistoriqueTribu(param1);
-         }
-         else if(class_121.var_5454 == param2)
-         {
-            _loc3_ = new V_ET_ErreurListeHistoriqueTribu(param1);
-         }
-         else if(param2 == class_73.method_2108(class_170.var_6695))
-         {
-            _loc3_ = new V_ET_SignaleConnexionMembre(param1);
-         }
-         else if(class_73.method_2108(class_121.var_5493) == param2)
-         {
-            _loc3_ = new V_ET_SignaleDeconnexionMembre(param1);
-         }
-         else if(class_73.method_2108(class_124.var_5614) == param2)
-         {
-            _loc3_ = new V_ET_SignaleConnexionMembres(param1);
-         }
-         else if(class_92.var_4611 == param2)
-         {
-            _loc3_ = new V_ET_SignaleDeconnexionMembres(param1);
-         }
-         else if(param2 == class_73.method_2108(class_62.var_4125))
-         {
-            _loc3_ = new V_ET_SignaleChangementMessageJour(param1);
-         }
-         else if(param2 == class_73.method_2108(class_117.var_5244))
-         {
-            _loc3_ = new V_ET_SignaleChangementCodeMaisonTFM(param1);
-         }
-         else if(param2 == class_102.var_4824)
-         {
-            _loc3_ = new V_ET_SignaleChangementRang(param1);
-         }
-         else if(param2 == class_165.var_6490)
-         {
-            _loc3_ = new V_ET_SignaleExclusion(param1);
-         }
-         else if(param2 == class_73.method_2108(class_107.var_5033))
-         {
-            _loc3_ = new V_ET_SignaleNouveauMembre(param1);
-         }
-         else if(param2 == class_73.method_2108(class_9.var_3227))
-         {
-            _loc3_ = new V_ET_SignaleDepartMembre(param1);
-         }
-         else if(param2 == class_73.method_2108(class_33.var_3632))
-         {
-            _loc3_ = new V_ET_SignaleModificationLocalisationMembreTribu(param1);
-         }
-         else if(class_73.method_2108(class_92.var_4610) == param2)
-         {
-            _loc3_ = new V_ET_ResultatChangerMessageJour(param1);
-         }
-         else if(param2 == class_73.method_2108(class_181.var_6912))
-         {
-            _loc3_ = new V_ET_ResultatExclureMembre(param1);
-         }
-         else if(class_102.var_4827 == param2)
-         {
-            _loc3_ = new V_ET_ResultatInviterMembre(param1);
-         }
-         else if(class_170.var_6698 == param2)
-         {
-            _loc3_ = new V_ET_ErreurInviterMembre(param1);
-         }
-         else if(param2 == class_73.method_2108(class_170.var_6717))
-         {
-            _loc3_ = new V_ET_ResultatChangerCodeMaisonTFM(param1);
-         }
-         else if(param2 == class_89.var_4437)
-         {
-            _loc3_ = new V_ET_ResultatListeRangs(param1);
-         }
-         else if(param2 == class_60.var_3938)
-         {
-            _loc3_ = new V_ET_ErreurListeRangs(param1);
-         }
-         else if(param2 == class_89.var_4400)
-         {
-            _loc3_ = new V_ET_ResultatAffecterRang(param1);
-         }
-         else if(param2 == class_73.method_2108(class_9.var_3226))
-         {
-            _loc3_ = new V_ET_ResultatAjouterRang(param1);
-         }
-         else if(param2 == class_73.method_2108(class_181.var_6910))
-         {
-            _loc3_ = new V_ET_ErreurAjouterRang(param1);
-         }
-         else if(class_73.method_2108(class_183.var_7093) == param2)
-         {
-            _loc3_ = new V_ET_ResultatSupprimerRang(param1);
-         }
-         else if(class_4.var_3063 == param2)
-         {
-            _loc3_ = new V_ET_ResultatRenommerRang(param1);
-         }
-         else if(param2 == class_170.var_6694)
-         {
-            _loc3_ = new V_ET_ResultatAjouterDroitRang(param1);
-         }
-         else if(param2 == class_73.method_2108(class_165.var_6488))
-         {
-            _loc3_ = new V_ET_ResultatSupprimerDroitRang(param1);
-         }
-         else if(class_89.var_4398 == param2)
-         {
-            _loc3_ = new V_ET_ResultatInverserOrdreRangs(param1);
-         }
-         else if(class_73.method_2108(class_60.var_3937) == param2)
-         {
-            _loc3_ = new V_ET_ResultatDesignerChefSpirituel(param1);
-         }
-         else if(class_73.method_2108(class_102.var_4749) == param2)
-         {
-            _loc3_ = new V_ET_ResultatRenommerTribu(param1);
-         }
-         else if(class_73.method_2108(class_124.var_5560) == param2)
-         {
-            _loc3_ = new V_ET_ResultatDissoudreTribu(param1);
-         }
-         else if(param2 == class_117.var_5255)
-         {
-            _loc3_ = new V_ET_SignaleDissolutionTribu(param1);
-         }
-         else if(class_89.var_4332 == param2)
-         {
-            _loc3_ = new V_ET_ResultatDonneesUtilisateur(param1);
-         }
-         else if(param2 == class_73.method_2108(class_62.var_4088))
-         {
-            _loc3_ = new V_ET_ErreurDonneesUtilisateur(param1);
-         }
-         else if(class_73.method_2108(class_170.var_6627) == param2)
-         {
-            _loc3_ = new V_ET_ResultatDefinitDonneesUtilisateur(param1);
-         }
-         else if(param2 == class_73.method_2108(class_127.var_5780))
-         {
-            _loc3_ = new V_ET_ResultatChangerDeGenre(param1);
-         }
-         else if(class_73.method_2108(class_181.var_6847) == param2)
-         {
-            _loc3_ = new V_ET_SignaleChangementDeGenre(param1);
-         }
-         else if(param2 == class_73.method_2108(class_60.var_3972))
-         {
-            _loc3_ = new V_ET_SignaleChangementAvatar(param1);
-         }
-         else if(class_73.method_2108(class_16.var_3348) == param2)
-         {
-            _loc3_ = new V_ET_DemandeNouveauxMessagesPrivesWeb(param1);
-         }
-         else if(param2 == class_73.method_2108(class_183.var_7124))
-         {
-            _loc3_ = new V_ET_DemandeNouveauxMessagesPrivesWebEnMasse(param1);
-         }
-         else if(class_181.var_6846 == param2)
-         {
-            _loc3_ = new V_ET_SignalNouveauxMessagesPrivesWeb(param1);
-         }
-         else if(class_73.method_2108(class_102.var_4742) == param2)
-         {
-            _loc3_ = new V_ET_SignalNouveauMessagePriveWeb(param1);
-         }
-         else if(param2 == class_73.method_2108(class_165.var_6423))
-         {
-            _loc3_ = new V_ET_ReponseDemandeInfosJeuUtilisateur(param1);
-         }
-         else
-         {
-            if(param2 != class_73.method_2108(class_9.var_3152))
-            {
-               throw new Error(class_73.method_2111(class_165.var_6424) + param2);
-            }
-            _loc3_ = new V_ET_ErreurDemandeInfosJeuUtilisateur(param1);
-         }
-         return _loc3_;
       }
-      
+
+      // HANDLE INCOMING PACKET
       public function traiterPaquetEntrant(param1:int, param2:_IPaquetEntrant) : void
       {
-         if(class_165.var_6534 == param1)
-         {
-            this.var_2566.x_executeResultatIdentificationService(param2 as V_ET_ResultatIdentificationService);
-         }
-         else if(param1 == class_73.method_2108(class_117.var_5287))
-         {
-            this.var_2569.x_executeResultatMiseAJourLocalisation(param2 as V_ET_ResultatMiseAJourLocalisation);
-         }
-         else if(class_92.var_4647 == param1)
-         {
-            this.var_2569.x_executeResultatMiseAJourLocalisations(param2 as V_ET_ResultatMiseAJourLocalisations);
-         }
-         else if(param1 == class_73.method_2108(class_127.var_5865))
-         {
-            this.var_2565.x_executeResultatMessageCanal(param2 as V_ET_ResultatMessageCanal);
-         }
-         else if(class_9.var_3266 == param1)
-         {
-            this.var_2565.x_executeSignaleMessageCanal(param2 as V_ET_SignaleMessageCanal);
-         }
-         else if(class_73.method_2108(class_117.var_5280) == param1)
-         {
-            this.var_2565.x_executeResultatRejoindreCanal(param2 as V_ET_ResultatRejoindreCanal);
-         }
-         else if(param1 == class_117.var_5265)
-         {
-            this.var_2565.x_executeResultatQuitterCanal(param2 as V_ET_ResultatQuitterCanal);
-         }
-         else if(class_73.method_2108(class_4.var_3043) == param1)
-         {
-            this.var_2565.x_executeSignaleRejointCanal(param2 as V_ET_SignaleRejointCanal);
-         }
-         else if(param1 == class_4.var_3042)
-         {
-            this.var_2565.x_executeSignaleQuitteCanal(param2 as V_ET_SignaleQuitteCanal);
-         }
-         else if(param1 == class_102.var_4826)
-         {
-            this.var_2565.x_executeSignaleMembreRejointCanal(param2 as V_ET_SignaleMembreRejointCanal);
-         }
-         else if(param1 == class_73.method_2108(class_162.var_6351))
-         {
-            this.var_2565.x_executeSignaleMembresRejoignentCanal(param2 as V_ET_SignaleMembresRejoignentCanal);
-         }
-         else if(class_73.method_2108(class_33.var_3668) == param1)
-         {
-            this.var_2565.x_executeSignaleMembreQuitteCanal(param2 as V_ET_SignaleMembreQuitteCanal);
-         }
-         else if(param1 == class_73.method_2108(class_124.var_5641))
-         {
-            this.var_2565.x_executeSignaleMembresQuittentCanal(param2 as V_ET_SignaleMembresQuittentCanal);
-         }
-         else if(class_9.var_3234 == param1)
-         {
-            this.var_2565.x_executeResultatMessagePrive(param2 as V_ET_ResultatMessagePrive);
-         }
-         else if(param1 == class_73.method_2108(class_117.var_5264))
-         {
-            this.var_2565.x_executeRecoitMessagePriveSysteme(param2 as V_ET_RecoitMessagePriveSysteme);
-         }
-         else if(param1 == class_107.var_5040)
-         {
-            this.var_2565.x_executeRecoitMessagePrive(param2 as V_ET_RecoitMessagePrive);
-         }
-         else if(class_73.method_2108(class_102.var_4859) == param1)
-         {
-            this.var_2565.x_executeResultatDefinitModeSilence(param2 as V_ET_ResultatDefinitModeSilence);
-         }
-         else if(param1 == class_73.method_2108(class_102.var_4822))
-         {
-            this.var_2565.x_executeResultatDemandeMembresCanal(param2 as V_ET_ResultatDemandeMembresCanal);
-         }
-         else if(class_146.var_6074 == param1)
-         {
-            this.var_2565.x_executeErreurDemandeMembresCanal(param2 as V_ET_ErreurDemandeMembresCanal);
-         }
-         else if(class_107.var_5038 == param1)
-         {
-            this.var_2570.x_executeResultatAjoutAmi(param2 as V_ET_ResultatAjoutAmi);
-         }
-         else if(class_73.method_2108(class_121.var_5463) == param1)
-         {
-            this.var_2570.x_executeResultatRetireAmi(param2 as V_ET_ResultatRetireAmi);
-         }
-         else if(param1 == class_170.var_6714)
-         {
-            this.var_2570.x_executeResultatListeAmis(param2 as V_ET_ResultatListeAmis);
-         }
-         else if(param1 == class_165.var_6506)
-         {
-            this.var_2570.x_executeErreurListeAmis(param2 as V_ET_ErreurListeAmis);
-         }
-         else if(param1 == class_73.method_2108(class_107.var_5050))
-         {
-            this.var_2570.x_executeSignaleAjoutAmi(param2 as V_ET_SignaleAjoutAmi);
-         }
-         else if(param1 == class_127.var_5864)
-         {
-            this.var_2570.x_executeSignaleModificationLocalisationAmi(param2 as V_ET_SignaleModificationLocalisationAmi);
-         }
-         else if(param1 == class_73.method_2108(class_62.var_4136))
-         {
-            this.var_2570.x_executeSignaleRetraitAmi(param2 as V_ET_SignaleRetraitAmi);
-         }
-         else if(class_73.method_2108(class_162.var_6352) == param1)
-         {
-            this.var_2570.x_executeSignaleConnexionAmi(param2 as V_ET_SignaleConnexionAmi);
-         }
-         else if(class_73.method_2108(class_89.var_4402) == param1)
-         {
-            this.var_2570.x_executeSignaleDeconnexionAmi(param2 as V_ET_SignaleDeconnexionAmi);
-         }
-         else if(param1 == class_92.var_4613)
-         {
-            this.var_2570.x_executeSignaleConnexionAmis(param2 as V_ET_SignaleConnexionAmis);
-         }
-         else if(class_73.method_2108(class_117.var_5250) == param1)
-         {
-            this.var_2570.x_executeSignaleDeconnexionAmis(param2 as V_ET_SignaleDeconnexionAmis);
-         }
-         else if(param1 == class_165.var_6493)
-         {
-            this.var_2570.x_executeSignaleAjoutAmiBidirectionnel(param2 as V_ET_SignaleAjoutAmiBidirectionnel);
-         }
-         else if(param1 == class_89.var_4401)
-         {
-            this.var_2570.x_executeSignaleRetraitAmiBidirectionnel(param2 as V_ET_SignaleRetraitAmiBidirectionnel);
-         }
-         else if(param1 == class_73.method_2108(class_124.var_5618))
-         {
-            this.var_2570.x_executeResultatDemandeEnMariage(param2 as V_ET_ResultatDemandeEnMariage);
-         }
-         else if(class_92.var_4637 == param1)
-         {
-            this.var_2570.x_executeErreurDemandeEnMariage(param2 as V_ET_ErreurDemandeEnMariage);
-         }
-         else if(param1 == class_73.method_2108(class_33.var_3634))
-         {
-            this.var_2570.x_executeSignaleDemandeEnMariage(param2 as V_ET_SignaleDemandeEnMariage);
-         }
-         else if(param1 == class_92.var_4615)
-         {
-            this.var_2570.x_executeResultatRepondDemandeEnMariage(param2 as V_ET_ResultatRepondDemandeEnMariage);
-         }
-         else if(class_102.var_4837 == param1)
-         {
-            this.var_2570.x_executeSignaleMariage(param2 as V_ET_SignaleMariage);
-         }
-         else if(param1 == class_73.method_2108(class_33.var_3647))
-         {
-            this.var_2570.x_executeResultatDemandeDivorce(param2 as V_ET_ResultatDemandeDivorce);
-         }
-         else if(param1 == class_124.var_5630)
-         {
-            this.var_2570.x_executeSignaleDivorce(param2 as V_ET_SignaleDivorce);
-         }
-         else if(class_165.var_6492 == param1)
-         {
-            this.var_2564.x_executeResultatAjoutListeNoire(param2 as V_ET_ResultatAjoutListeNoire);
-         }
-         else if(param1 == class_124.var_5616)
-         {
-            this.var_2564.x_executeResultatRetireListeNoire(param2 as V_ET_ResultatRetireListeNoire);
-         }
-         else if(class_73.method_2108(class_107.var_5037) == param1)
-         {
-            this.var_2564.x_executeResultatListeNoire(param2 as V_ET_ResultatListeNoire);
-         }
-         else if(class_73.method_2108(class_102.var_4820) == param1)
-         {
-            this.var_2564.x_executeErreurListeNoire(param2 as V_ET_ErreurListeNoire);
-         }
-         else if(param1 == class_73.method_2108(class_170.var_6696))
-         {
-            this.var_2564.x_executeSignaleAjoutListeNoire(param2 as V_ET_SignaleAjoutListeNoire);
-         }
-         else if(param1 == class_73.method_2108(class_170.var_6703))
-         {
-            this.var_2564.x_executeSignaleRetraitListeNoire(param2 as V_ET_SignaleRetraitListeNoire);
-         }
-         else if(param1 == class_16.var_3439)
-         {
-            this.var_2568.x_executeCreerTribu(param2 as V_ET_CreerTribu);
-         }
-         else if(param1 == class_9.var_3243)
-         {
-            this.var_2568.x_executeResultatCreerTribu(param2 as V_ET_ResultatCreerTribu);
-         }
-         else if(param1 == class_73.method_2108(class_102.var_4823))
-         {
-            this.var_2568.x_executeSignaleTribuCreee(param2 as V_ET_SignaleTribuCreee);
-         }
-         else if(param1 == class_73.method_2108(class_107.var_5036))
-         {
-            this.var_2568.x_executeSignaleInvitationTribu(param2 as V_ET_SignaleInvitationTribu);
-         }
-         else if(param1 == class_121.var_5455)
-         {
-            this.var_2568.x_executeErreurRepondInvitationTribu(param2 as V_ET_ErreurRepondInvitationTribu);
-         }
-         else if(param1 == class_73.method_2108(class_181.var_6916))
-         {
-            this.var_2568.x_executeResultatInformationsTribu(param2 as V_ET_ResultatInformationsTribu);
-         }
-         else if(param1 == class_124.var_5615)
-         {
-            this.var_2568.x_executeErreurInformationsTribu(param2 as V_ET_ErreurInformationsTribu);
-         }
-         else if(param1 == class_165.var_6491)
-         {
-            this.var_2568.x_executeResultatInformationsTribuSimple(param2 as V_ET_ResultatInformationsTribuSimple);
-         }
-         else if(class_73.method_2108(class_9.var_3240) == param1)
-         {
-            this.var_2568.x_executeErreurInformationsTribuSimple(param2 as V_ET_ErreurInformationsTribuSimple);
-         }
-         else if(class_107.var_5034 == param1)
-         {
-            this.var_2568.x_executeResultatMembresTribu(param2 as V_ET_ResultatMembresTribu);
-         }
-         else if(param1 == class_92.var_4612)
-         {
-            this.var_2568.x_executeErreurMembresTribu(param2 as V_ET_ErreurMembresTribu);
-         }
-         else if(class_73.method_2108(class_92.var_4614) == param1)
-         {
-            this.var_2568.x_executeResultatQuitterTribu(param2 as V_ET_ResultatQuitterTribu);
-         }
-         else if(class_127.var_5848 == param1)
-         {
-            this.var_2568.x_executeResultatListeHistoriqueTribu(param2 as V_ET_ResultatListeHistoriqueTribu);
-         }
-         else if(param1 == class_121.var_5454)
-         {
-            this.var_2568.x_executeErreurListeHistoriqueTribu(param2 as V_ET_ErreurListeHistoriqueTribu);
-         }
-         else if(param1 == class_73.method_2108(class_170.var_6695))
-         {
-            this.var_2568.x_executeSignaleConnexionMembre(param2 as V_ET_SignaleConnexionMembre);
-         }
-         else if(class_121.var_5493 == param1)
-         {
-            this.var_2568.x_executeSignaleDeconnexionMembre(param2 as V_ET_SignaleDeconnexionMembre);
-         }
-         else if(class_124.var_5614 == param1)
-         {
-            this.var_2568.x_executeSignaleConnexionMembres(param2 as V_ET_SignaleConnexionMembres);
-         }
-         else if(param1 == class_92.var_4611)
-         {
-            this.var_2568.x_executeSignaleDeconnexionMembres(param2 as V_ET_SignaleDeconnexionMembres);
-         }
-         else if(param1 == class_62.var_4125)
-         {
-            this.var_2568.x_executeSignaleChangementMessageJour(param2 as V_ET_SignaleChangementMessageJour);
-         }
-         else if(class_117.var_5244 == param1)
-         {
-            this.var_2568.x_executeSignaleChangementCodeMaisonTFM(param2 as V_ET_SignaleChangementCodeMaisonTFM);
-         }
-         else if(param1 == class_73.method_2108(class_102.var_4824))
-         {
-            this.var_2568.x_executeSignaleChangementRang(param2 as V_ET_SignaleChangementRang);
-         }
-         else if(param1 == class_73.method_2108(class_165.var_6490))
-         {
-            this.var_2568.x_executeSignaleExclusion(param2 as V_ET_SignaleExclusion);
-         }
-         else if(class_107.var_5033 == param1)
-         {
-            this.var_2568.x_executeSignaleNouveauMembre(param2 as V_ET_SignaleNouveauMembre);
-         }
-         else if(class_9.var_3227 == param1)
-         {
-            this.var_2568.x_executeSignaleDepartMembre(param2 as V_ET_SignaleDepartMembre);
-         }
-         else if(class_73.method_2108(class_33.var_3632) == param1)
-         {
-            this.var_2568.x_executeSignaleModificationLocalisationMembreTribu(param2 as V_ET_SignaleModificationLocalisationMembreTribu);
-         }
-         else if(param1 == class_92.var_4610)
-         {
-            this.var_2568.x_executeResultatChangerMessageJour(param2 as V_ET_ResultatChangerMessageJour);
-         }
-         else if(class_73.method_2108(class_181.var_6912) == param1)
-         {
-            this.var_2568.x_executeResultatExclureMembre(param2 as V_ET_ResultatExclureMembre);
-         }
-         else if(param1 == class_73.method_2108(class_102.var_4827))
-         {
-            this.var_2568.x_executeResultatInviterMembre(param2 as V_ET_ResultatInviterMembre);
-         }
-         else if(param1 == class_73.method_2108(class_170.var_6698))
-         {
-            this.var_2568.x_executeErreurInviterMembre(param2 as V_ET_ErreurInviterMembre);
-         }
-         else if(class_170.var_6717 == param1)
-         {
-            this.var_2568.x_executeResultatChangerCodeMaisonTFM(param2 as V_ET_ResultatChangerCodeMaisonTFM);
-         }
-         else if(class_73.method_2108(class_89.var_4437) == param1)
-         {
-            this.var_2568.x_executeResultatListeRangs(param2 as V_ET_ResultatListeRangs);
-         }
-         else if(param1 == class_73.method_2108(class_60.var_3938))
-         {
-            this.var_2568.x_executeErreurListeRangs(param2 as V_ET_ErreurListeRangs);
-         }
-         else if(class_73.method_2108(class_89.var_4400) == param1)
-         {
-            this.var_2568.x_executeResultatAffecterRang(param2 as V_ET_ResultatAffecterRang);
-         }
-         else if(class_73.method_2108(class_9.var_3226) == param1)
-         {
-            this.var_2568.x_executeResultatAjouterRang(param2 as V_ET_ResultatAjouterRang);
-         }
-         else if(param1 == class_181.var_6910)
-         {
-            this.var_2568.x_executeErreurAjouterRang(param2 as V_ET_ErreurAjouterRang);
-         }
-         else if(class_73.method_2108(class_183.var_7093) == param1)
-         {
-            this.var_2568.x_executeResultatSupprimerRang(param2 as V_ET_ResultatSupprimerRang);
-         }
-         else if(param1 == class_4.var_3063)
-         {
-            this.var_2568.x_executeResultatRenommerRang(param2 as V_ET_ResultatRenommerRang);
-         }
-         else if(class_170.var_6694 == param1)
-         {
-            this.var_2568.x_executeResultatAjouterDroitRang(param2 as V_ET_ResultatAjouterDroitRang);
-         }
-         else if(class_73.method_2108(class_165.var_6488) == param1)
-         {
-            this.var_2568.x_executeResultatSupprimerDroitRang(param2 as V_ET_ResultatSupprimerDroitRang);
-         }
-         else if(class_73.method_2108(class_89.var_4398) == param1)
-         {
-            this.var_2568.x_executeResultatInverserOrdreRangs(param2 as V_ET_ResultatInverserOrdreRangs);
-         }
-         else if(param1 == class_73.method_2108(class_60.var_3937))
-         {
-            this.var_2568.x_executeResultatDesignerChefSpirituel(param2 as V_ET_ResultatDesignerChefSpirituel);
-         }
-         else if(param1 == class_102.var_4749)
-         {
-            this.var_2568.x_executeResultatRenommerTribu(param2 as V_ET_ResultatRenommerTribu);
-         }
-         else if(class_73.method_2108(class_124.var_5560) == param1)
-         {
-            this.var_2568.x_executeResultatDissoudreTribu(param2 as V_ET_ResultatDissoudreTribu);
-         }
-         else if(param1 == class_117.var_5255)
-         {
-            this.var_2568.x_executeSignaleDissolutionTribu(param2 as V_ET_SignaleDissolutionTribu);
-         }
-         else if(class_73.method_2108(class_89.var_4332) == param1)
-         {
-            this.var_2562.x_executeResultatDonneesUtilisateur(param2 as V_ET_ResultatDonneesUtilisateur);
-         }
-         else if(param1 == class_73.method_2108(class_62.var_4088))
-         {
-            this.var_2562.x_executeErreurDonneesUtilisateur(param2 as V_ET_ErreurDonneesUtilisateur);
-         }
-         else if(class_170.var_6627 == param1)
-         {
-            this.var_2562.x_executeResultatDefinitDonneesUtilisateur(param2 as V_ET_ResultatDefinitDonneesUtilisateur);
-         }
-         else if(class_73.method_2108(class_127.var_5780) == param1)
-         {
-            this.var_2562.x_executeResultatChangerDeGenre(param2 as V_ET_ResultatChangerDeGenre);
-         }
-         else if(class_73.method_2108(class_181.var_6847) == param1)
-         {
-            this.var_2562.x_executeSignaleChangementDeGenre(param2 as V_ET_SignaleChangementDeGenre);
-         }
-         else if(param1 == class_60.var_3972)
-         {
-            this.var_2562.x_executeSignaleChangementAvatar(param2 as V_ET_SignaleChangementAvatar);
-         }
-         else if(param1 == class_73.method_2108(class_16.var_3348))
-         {
-            this.var_2562.x_executeDemandeNouveauxMessagesPrivesWeb(param2 as V_ET_DemandeNouveauxMessagesPrivesWeb);
-         }
-         else if(param1 == class_73.method_2108(class_183.var_7124))
-         {
-            this.var_2562.x_executeDemandeNouveauxMessagesPrivesWebEnMasse(param2 as V_ET_DemandeNouveauxMessagesPrivesWebEnMasse);
-         }
-         else if(param1 == class_73.method_2108(class_181.var_6846))
-         {
-            this.var_2562.x_executeSignalNouveauxMessagesPrivesWeb(param2 as V_ET_SignalNouveauxMessagesPrivesWeb);
-         }
-         else if(param1 == class_102.var_4742)
-         {
-            this.var_2562.x_executeSignalNouveauMessagePriveWeb(param2 as V_ET_SignalNouveauMessagePriveWeb);
-         }
-         else if(class_73.method_2108(class_165.var_6423) == param1)
-         {
-            this.var_2562.x_executeReponseDemandeInfosJeuUtilisateur(param2 as V_ET_ReponseDemandeInfosJeuUtilisateur);
-         }
-         else
-         {
-            if(param1 != class_9.var_3152)
-            {
-               throw new Error(class_73.method_2111(class_165.var_6424) + param1);
-            }
-            this.var_2562.x_executeErreurDemandeInfosJeuUtilisateur(param2 as V_ET_ErreurDemandeInfosJeuUtilisateur);
+         switch(param1) {
+         case 2: 
+            this.svcCat.x_executeResultatIdentificationService(param2 as V_ET_ResultatIdentificationService);
+            break;
+         case 5:
+            this.userCat.x_executeResultatMiseAJourLocalisation(param2 as V_ET_ResultatMiseAJourLocalisation);
+            break;
+         case 7:
+            this.userCat.x_executeResultatMiseAJourLocalisations(param2 as V_ET_ResultatMiseAJourLocalisations);
+            break;
+         case 21:
+            this.chatCat.x_executeResultatMessageCanal(param2 as V_ET_ResultatMessageCanal);
+            break;
+         case 22:
+            this.chatCat.x_executeSignaleMessageCanal(param2 as V_ET_SignaleMessageCanal);
+            break;
+         case 24:
+            this.chatCat.x_executeResultatRejoindreCanal(param2 as V_ET_ResultatRejoindreCanal);
+            break;
+         case 26:
+            this.chatCat.x_executeResultatQuitterCanal(param2 as V_ET_ResultatQuitterCanal);
+            break;
+         case 27:
+            this.chatCat.x_executeSignaleRejointCanal(param2 as V_ET_SignaleRejointCanal);
+            break;
+         case 28:
+            this.chatCat.x_executeSignaleQuitteCanal(param2 as V_ET_SignaleQuitteCanal);
+            break;
+         case 29:
+            this.chatCat.x_executeSignaleMembreRejointCanal(param2 as V_ET_SignaleMembreRejointCanal);
+            break;
+         case 30:
+            this.chatCat.x_executeSignaleMembresRejoignentCanal(param2 as V_ET_SignaleMembresRejoignentCanal);
+            break;
+         case 31:
+            this.chatCat.x_executeSignaleMembreQuitteCanal(param2 as V_ET_SignaleMembreQuitteCanal);
+            break;
+         case 32:
+            this.chatCat.x_executeSignaleMembresQuittentCanal(param2 as V_ET_SignaleMembresQuittentCanal);
+            break;
+         case 34:
+            this.chatCat.x_executeResultatMessagePrive(param2 as V_ET_ResultatMessagePrive);
+            break;
+         case 35:
+            this.chatCat.x_executeRecoitMessagePriveSysteme(param2 as V_ET_RecoitMessagePriveSysteme);
+            break;
+         case 36:
+            this.chatCat.x_executeRecoitMessagePrive(param2 as V_ET_RecoitMessagePrive);
+            break;
+         case 40:
+            this.chatCat.x_executeResultatDefinitModeSilence(param2 as V_ET_ResultatDefinitModeSilence);
+            break;
+         case 42:
+            this.chatCat.x_executeResultatDemandeMembresCanal(param2 as V_ET_ResultatDemandeMembresCanal);
+            break;
+         case 43:
+            this.chatCat.x_executeErreurDemandeMembresCanal(param2 as V_ET_ErreurDemandeMembresCanal);
+            break;
+         case 45:
+            this.friendCat.x_executeResultatAjoutAmi(param2 as V_ET_ResultatAjoutAmi);
+            break;
+         case 47:
+            this.friendCat.x_executeResultatRetireAmi(param2 as V_ET_ResultatRetireAmi);
+            break;
+         case 49:
+            this.friendCat.x_executeResultatListeAmis(param2 as V_ET_ResultatListeAmis);
+            break;
+         case 50:
+            this.friendCat.x_executeErreurListeAmis(param2 as V_ET_ErreurListeAmis);
+            break;
+         case 51:
+            this.friendCat.x_executeSignaleAjoutAmi(param2 as V_ET_SignaleAjoutAmi);
+            break;
+         case 52:
+            this.friendCat.x_executeSignaleModificationLocalisationAmi(param2 as V_ET_SignaleModificationLocalisationAmi);
+            break;
+         case 53:
+            this.friendCat.x_executeSignaleRetraitAmi(param2 as V_ET_SignaleRetraitAmi);
+            break;
+         case 54:
+            this.friendCat.x_executeSignaleConnexionAmi(param2 as V_ET_SignaleConnexionAmi);
+            break;
+         case 55:
+            this.friendCat.x_executeSignaleDeconnexionAmi(param2 as V_ET_SignaleDeconnexionAmi);
+            break;
+         case 56:
+            this.friendCat.x_executeSignaleConnexionAmis(param2 as V_ET_SignaleConnexionAmis);
+            break;
+         case 57:
+            this.friendCat.x_executeSignaleDeconnexionAmis(param2 as V_ET_SignaleDeconnexionAmis);
+            break;
+         case 58:
+            this.friendCat.x_executeSignaleAjoutAmiBidirectionnel(param2 as V_ET_SignaleAjoutAmiBidirectionnel);
+            break;
+         case 59:
+            this.friendCat.x_executeSignaleRetraitAmiBidirectionnel(param2 as V_ET_SignaleRetraitAmiBidirectionnel);
+            break;
+         case 61:
+            this.friendCat.x_executeResultatDemandeEnMariage(param2 as V_ET_ResultatDemandeEnMariage);
+            break;
+         case 62:
+            this.friendCat.x_executeErreurDemandeEnMariage(param2 as V_ET_ErreurDemandeEnMariage);
+            break;
+         case 63:
+            this.friendCat.x_executeSignaleDemandeEnMariage(param2 as V_ET_SignaleDemandeEnMariage);
+            break;
+         case 65:
+            this.friendCat.x_executeResultatRepondDemandeEnMariage(param2 as V_ET_ResultatRepondDemandeEnMariage);
+            break;
+         case 66:
+            this.friendCat.x_executeSignaleMariage(param2 as V_ET_SignaleMariage);
+            break;
+         case 68:
+            this.friendCat.x_executeResultatDemandeDivorce(param2 as V_ET_ResultatDemandeDivorce);
+            break;
+         case 69:
+            this.friendCat.x_executeSignaleDivorce(param2 as V_ET_SignaleDivorce);
+            break;
+         case 71:
+            this.blacklistCat.x_executeResultatAjoutListeNoire(param2 as V_ET_ResultatAjoutListeNoire);
+            break;
+         case 73:
+            this.blacklistCat.x_executeResultatRetireListeNoire(param2 as V_ET_ResultatRetireListeNoire);
+            break;
+         case 75:
+            this.blacklistCat.x_executeResultatListeNoire(param2 as V_ET_ResultatListeNoire);
+            break;
+         case 76:
+            this.blacklistCat.x_executeErreurListeNoire(param2 as V_ET_ErreurListeNoire);
+            break;
+         case 77:
+            this.blacklistCat.x_executeSignaleAjoutListeNoire(param2 as V_ET_SignaleAjoutListeNoire);
+            break;
+         case 78:
+            this.blacklistCat.x_executeSignaleRetraitListeNoire(param2 as V_ET_SignaleRetraitListeNoire);
+            break;
+         case 79:
+            this.tribeCategory.x_executeCreerTribu(param2 as V_ET_CreerTribu);
+            break;
+         case 80:
+            this.tribeCategory.x_executeResultatCreerTribu(param2 as V_ET_ResultatCreerTribu);
+            break;
+         case 81:
+            this.tribeCategory.x_executeSignaleTribuCreee(param2 as V_ET_SignaleTribuCreee);
+            break;
+         case 82:
+            this.tribeCategory.x_executeSignaleInvitationTribu(param2 as V_ET_SignaleInvitationTribu);
+            break;
+         case 84:
+            this.tribeCategory.x_executeErreurRepondInvitationTribu(param2 as V_ET_ErreurRepondInvitationTribu);
+            break;
+         case 86:
+            this.tribeCategory.x_executeResultatInformationsTribu(param2 as V_ET_ResultatInformationsTribu);
+            break;
+         case 87:
+            this.tribeCategory.x_executeErreurInformationsTribu(param2 as V_ET_ErreurInformationsTribu);
+            break;
+         case 2500:
+            this.tribeCategory.x_executeResultatInformationsTribuSimple(param2 as V_ET_ResultatInformationsTribuSimple);
+            break;
+         case 90:
+            this.tribeCategory.x_executeErreurInformationsTribuSimple(param2 as V_ET_ErreurInformationsTribuSimple);
+            break;
+         case 92:
+            this.tribeCategory.x_executeResultatMembresTribu(param2 as V_ET_ResultatMembresTribu);
+            break;
+         case 93:
+            this.tribeCategory.x_executeErreurMembresTribu(param2 as V_ET_ErreurMembresTribu);
+            break;
+         case 95:
+            this.tribeCategory.x_executeResultatQuitterTribu(param2 as V_ET_ResultatQuitterTribu);
+            break;
+         case 97:
+            this.tribeCategory.x_executeResultatListeHistoriqueTribu(param2 as V_ET_ResultatListeHistoriqueTribu);
+            break;
+         case 98:
+            this.tribeCategory.x_executeErreurListeHistoriqueTribu(param2 as V_ET_ErreurListeHistoriqueTribu);
+            break;
+         case 99:
+            this.tribeCategory.x_executeSignaleConnexionMembre(param2 as V_ET_SignaleConnexionMembre);
+            break;
+         case 100:
+            this.tribeCategory.x_executeSignaleDeconnexionMembre(param2 as V_ET_SignaleDeconnexionMembre);
+            break;
+         case 101:
+            this.tribeCategory.x_executeSignaleConnexionMembres(param2 as V_ET_SignaleConnexionMembres);
+            break;
+         case 102:
+            this.tribeCategory.x_executeSignaleDeconnexionMembres(param2 as V_ET_SignaleDeconnexionMembres);
+            break;
+         case 103:
+            this.tribeCategory.x_executeSignaleChangementMessageJour(param2 as V_ET_SignaleChangementMessageJour);
+            break;
+         case 104:
+            this.tribeCategory.x_executeSignaleChangementCodeMaisonTFM(param2 as V_ET_SignaleChangementCodeMaisonTFM);
+            break;
+         case 105:
+            this.tribeCategory.x_executeSignaleChangementRang(param2 as V_ET_SignaleChangementRang);
+            break;
+         case 106:
+            this.tribeCategory.x_executeSignaleExclusion(param2 as V_ET_SignaleExclusion);
+            break;
+         case 107:
+            this.tribeCategory.x_executeSignaleNouveauMembre(param2 as V_ET_SignaleNouveauMembre);
+            break;
+         case 108:
+            this.tribeCategory.x_executeSignaleDepartMembre(param2 as V_ET_SignaleDepartMembre);
+            break;
+         case 109:
+            this.tribeCategory.x_executeSignaleModificationLocalisationMembreTribu(param2 as V_ET_SignaleModificationLocalisationMembreTribu);
+            break;
+         case 111:
+            this.tribeCategory.x_executeResultatChangerMessageJour(param2 as V_ET_ResultatChangerMessageJour);
+            break;
+         case 115:
+            this.tribeCategory.x_executeResultatExclureMembre(param2 as V_ET_ResultatExclureMembre);
+            break;
+         case 117:
+            this.tribeCategory.x_executeResultatInviterMembre(param2 as V_ET_ResultatInviterMembre);
+            break;
+         case 118:
+            this.tribeCategory.x_executeErreurInviterMembre(param2 as V_ET_ErreurInviterMembre);
+            break;
+         case 120:
+            this.tribeCategory.x_executeResultatChangerCodeMaisonTFM(param2 as V_ET_ResultatChangerCodeMaisonTFM);
+            break;
+         case 122:
+            this.tribeCategory.x_executeResultatListeRangs(param2 as V_ET_ResultatListeRangs);
+            break;
+         case 123:
+            this.tribeCategory.x_executeErreurListeRangs(param2 as V_ET_ErreurListeRangs);
+            break;
+         case 125:
+            this.tribeCategory.x_executeResultatAffecterRang(param2 as V_ET_ResultatAffecterRang);
+            break;
+         case 127:
+            this.tribeCategory.x_executeResultatAjouterRang(param2 as V_ET_ResultatAjouterRang);
+            break;
+         case 128:
+            this.tribeCategory.x_executeErreurAjouterRang(param2 as V_ET_ErreurAjouterRang);
+            break;
+         case 130:
+            this.tribeCategory.x_executeResultatSupprimerRang(param2 as V_ET_ResultatSupprimerRang);
+            break;
+         case 132:
+            this.tribeCategory.x_executeResultatRenommerRang(param2 as V_ET_ResultatRenommerRang);
+            break;
+         case 134:
+            this.tribeCategory.x_executeResultatAjouterDroitRang(param2 as V_ET_ResultatAjouterDroitRang);
+            break;
+         case 136:
+            this.tribeCategory.x_executeResultatSupprimerDroitRang(param2 as V_ET_ResultatSupprimerDroitRang);
+            break;
+         case 138:
+            this.tribeCategory.x_executeResultatInverserOrdreRangs(param2 as V_ET_ResultatInverserOrdreRangs);
+            break;
+         case 142:
+            this.tribeCategory.x_executeResultatDesignerChefSpirituel(param2 as V_ET_ResultatDesignerChefSpirituel);
+            break;
+         case 144:
+            this.tribeCategory.x_executeResultatRenommerTribu(param2 as V_ET_ResultatRenommerTribu);
+            break;
+         case 146:
+            this.tribeCategory.x_executeResultatDissoudreTribu(param2 as V_ET_ResultatDissoudreTribu);
+            break;
+         case 147:
+            this.tribeCategory.x_executeSignaleDissolutionTribu(param2 as V_ET_SignaleDissolutionTribu);
+            break;
+         case 153:
+            this.userDataCat.x_executeResultatDonneesUtilisateur(param2 as V_ET_ResultatDonneesUtilisateur);
+            break;
+         case 154:
+            this.userDataCat.x_executeErreurDonneesUtilisateur(param2 as V_ET_ErreurDonneesUtilisateur);
+            break;
+         case 156:
+            this.userDataCat.x_executeResultatDefinitDonneesUtilisateur(param2 as V_ET_ResultatDefinitDonneesUtilisateur);
+            break;
+         case 158:
+            this.userDataCat.x_executeResultatChangerDeGenre(param2 as V_ET_ResultatChangerDeGenre);
+            break;
+         case 159:
+            this.userDataCat.x_executeSignaleChangementDeGenre(param2 as V_ET_SignaleChangementDeGenre);
+            break;
+         case 160:
+            this.userDataCat.x_executeSignaleChangementAvatar(param2 as V_ET_SignaleChangementAvatar);
+            break;
+         case 161:
+            this.userDataCat.x_executeDemandeNouveauxMessagesPrivesWeb(param2 as V_ET_DemandeNouveauxMessagesPrivesWeb);
+            break;
+         case 162:
+            this.userDataCat.x_executeDemandeNouveauxMessagesPrivesWebEnMasse(param2 as V_ET_DemandeNouveauxMessagesPrivesWebEnMasse);
+            break;
+         case 163:
+            this.userDataCat.x_executeSignalNouveauxMessagesPrivesWeb(param2 as V_ET_SignalNouveauxMessagesPrivesWeb);
+            break;
+         case 164:
+            this.userDataCat.x_executeSignalNouveauMessagePriveWeb(param2 as V_ET_SignalNouveauMessagePriveWeb);
+            break;
+         case 166:
+            this.userDataCat.x_executeReponseDemandeInfosJeuUtilisateur(param2 as V_ET_ReponseDemandeInfosJeuUtilisateur);
+            break;
+         case 167:
+            this.userDataCat.x_executeErreurDemandeInfosJeuUtilisateur(param2 as V_ET_ErreurDemandeInfosJeuUtilisateur);
+            break;
+         default: throw new Error(class_73.method_2111(class_165.var_6424) + param1);
          }
       }
-      
+
       public function getIdPaquet(param1:_IPaquetSortant) : int
       {
          switch(true)
@@ -1129,7 +724,7 @@ package
                return -class_73.method_2108(class_33.var_3679);
          }
       }
-      
+
       public function get version() : String
       {
          return this.var_2561;

@@ -119,7 +119,7 @@ package
       
       public static var var_4741:String = "Unable to connect to the game, please retry later. ";
       
-      public static var var_4742:int = 783 + -619;
+      public static var var_4742:int = 164;
       
       public static var var_4743:String = "# Arbitre";
       
@@ -133,7 +133,7 @@ package
       
       public static var var_4748:int = 6558 + -4545;
       
-      public static var var_4749:int = 8554 + -8410;
+      public static var var_4749:int = 144;
       
       public static var var_4750:int = 473 + 1534;
       
@@ -275,21 +275,21 @@ package
       
       public static var var_4819:int = 5600 + -5481;
       
-      public static var var_4820:int = 3201 + -3125;
+      public static var var_4820:int = 76;
       
       public static var var_4821:int = 1920 + -1874;
       
-      public static var var_4822:int = 7279 + -7237;
+      public static var var_4822:int = 42;
       
-      public static var var_4823:int = 6938 + -6857;
+      public static var var_4823:int = 81;
       
-      public static var var_4824:int = 8872 + -8767;
+      public static var var_4824:int = 105;
       
       public static var var_4825:int = 9912 + -9567;
       
-      public static var var_4826:int = 1775 + -1746;
+      public static var var_4826:int = 29;
       
-      public static var var_4827:int = 1428 + -1311;
+      public static var var_4827:int = 117;
       
       public static var var_4828:String = "Y";
       
@@ -309,7 +309,7 @@ package
       
       public static var var_4836:String = "wesh : ";
       
-      public static var var_4837:int = 9959 + -9893;
+      public static var var_4837:int = 66;
       
       public static var var_4838:Number = (2979 + -2965) / (348 + -338);
       
@@ -353,7 +353,7 @@ package
       
       public static var var_4858:String = "<p align=\'right\'>";
       
-      public static var var_4859:int = 9134 + -9094;
+      public static var var_4859:int = 40;
       
       public static var var_4860:String = "1.";
        

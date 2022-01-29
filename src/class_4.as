@@ -291,9 +291,9 @@ package
       
       public static var var_3041:String = "$Glacon";
       
-      public static var var_3042:int = 2508 + -2480;
+      public static var var_3042:int = 28;
       
-      public static var var_3043:int = 9398 + -9371;
+      public static var var_3043:int = 27;
       
       public static var var_3044:String = "$TP_1";
       
@@ -333,7 +333,7 @@ package
       
       public static var var_3062:String = "PositionSouris : ";
       
-      public static var var_3063:int = 1325 + -1193;
+      public static var var_3063:int = 132;
       
       public static var var_3064:String = "$Interface";
       

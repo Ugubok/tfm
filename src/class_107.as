@@ -323,21 +323,21 @@ package
       
       public static var var_5032:int = 6013 + -5900;
       
-      public static var var_5033:int = 2965 + -2858;
+      public static var var_5033:int = 107;
       
-      public static var var_5034:int = 906 + -814;
+      public static var var_5034:int = 92;
       
       public static var var_5035:int = 2796 + -2705;
       
-      public static var var_5036:int = 1308 + -1226;
+      public static var var_5036:int = 82;
       
-      public static var var_5037:int = 4991 + -4916;
+      public static var var_5037:int = 75;
       
-      public static var var_5038:int = 4913 + -4868;
+      public static var var_5038:int = 45;
       
       public static var var_5039:int = 2243 + -2202;
       
-      public static var var_5040:int = 7762 + -7726;
+      public static var var_5040:int = 36;
       
       public static var var_5041:String = "x_commun/x_iconespaiement/x_logo_primeiropay.png";
       
@@ -357,7 +357,7 @@ package
       
       public static var var_5049:String = "Initialisation des raccourcis";
       
-      public static var var_5050:int = 7576 + -7525;
+      public static var var_5050:int = 51;
       
       public static var var_5051:String = "$OC_MoteurVert2";
       
