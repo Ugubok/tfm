@@ -16,9 +16,9 @@ package
       
       public function class_532()
       {
-         this.var_308 = class_73.method_2108(class_183.var_7129);
-         this.var_309 = class_73.method_2108(class_183.var_7129);
-         this.var_310 = class_73.method_2108(class_183.var_7129);
+         this.var_308 = class_183.var_7129;
+         this.var_309 = class_183.var_7129;
+         this.var_310 = class_183.var_7129;
          this.var_311 = class_183.var_7129;
          super();
          graphics.beginFill(15255694);

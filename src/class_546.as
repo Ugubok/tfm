@@ -27,15 +27,15 @@ package
                var_7597 = null;
                if(!var_7596)
                {
-                  var_7596 = !!class_17.var_3486 ? class_111.var_5098 : class_73.method_2111(class_9.var_3268);
+                  var_7596 = !!class_17.var_3486 ? class_111.var_5098 : class_9.var_3268;
                }
                else
                {
-                  var_7597 = !!class_17.var_3486 ? class_111.var_5098 : class_73.method_2111(class_9.var_3268);
+                  var_7597 = !!class_17.var_3486 ? class_111.var_5098 : class_9.var_3268;
                }
                if(var_7596)
                {
-                  ExternalInterface.call(class_73.method_2111(class_127.var_5796),var_7596,var_7597,class_183.var_7044,class_73.method_2111(class_9.var_3268));
+                  ExternalInterface.call(class_127.var_5796,var_7596,var_7597,class_183.var_7044,class_9.var_3268);
                }
             }
          }
@@ -50,7 +50,7 @@ package
          {
             if(ExternalInterface.available)
             {
-               return ExternalInterface.call(class_89.var_4346) == class_73.method_2111(class_162.var_6262);
+               return ExternalInterface.call(class_89.var_4346) == class_162.var_6262;
             }
          }
          catch(name_86:Error)

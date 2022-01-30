@@ -26,7 +26,7 @@ package
          var _loc6_:class_253 = null;
          var _loc7_:class_253 = null;
          this.var_585 = class_1.method_1816();
-         this.var_587 = class_73.method_2108(class_183.var_7129);
+         this.var_587 = class_183.var_7129;
          super();
          if(!param1)
          {
@@ -42,12 +42,12 @@ package
          {
             this.var_586 = param1;
             param1.gotoAndPlay(class_33.var_3679);
-            _loc5_ = class_73.method_2108(class_183.var_7129);
+            _loc5_ = class_183.var_7129;
             while(_loc5_ < this.var_584)
             {
                _loc6_ = new class_253(true);
                _loc6_.var_1269 = param1;
-               _loc6_.var_1270 = class_73.method_2108(class_33.var_3679) + _loc5_;
+               _loc6_.var_1270 = class_33.var_3679 + _loc5_;
                _loc6_.var_1268 = class_99.var_4681;
                this.var_296[_loc5_] = _loc6_;
                _loc5_++;
@@ -89,9 +89,9 @@ package
          var _loc3_:DisplayObject = null;
          try
          {
-            if(param1.hasOwnProperty(class_73.method_2111(class_92.var_4623)))
+            if(param1.hasOwnProperty(class_92.var_4623))
             {
-               param1[class_73.method_2111(class_92.var_4623)]();
+               param1[class_92.var_4623]();
                return;
             }
             param1.stop();
@@ -115,7 +115,7 @@ package
       {
          var _loc4_:class_75 = null;
          var _loc5_:class_253 = null;
-         var _loc2_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc2_:int = -class_33.var_3679;
          var _loc3_:int = class_75.var_4249.length;
          while(++_loc2_ < _loc3_)
          {
@@ -135,7 +135,7 @@ package
          }
          if(!class_75.var_4249.length)
          {
-            class_1.var_2884.removeEventListener(class_73.method_2111(class_124.var_5632),class_75.method_2118);
+            class_1.var_2884.removeEventListener(class_124.var_5632,class_75.method_2118);
          }
       }
    }

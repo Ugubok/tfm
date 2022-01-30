@@ -34,10 +34,10 @@ package
          this.var_682 = param1.readShort();
          this.var_2499 = param1.readByte();
          this.var_2500 = param1.readByte();
-         this.var_1484 = param1.readByte() == class_73.method_2108(class_33.var_3679);
+         this.var_1484 = param1.readByte() == class_33.var_3679;
          var _loc2_:int = param1.readByte();
          this.var_790 = new Array();
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < _loc2_)
          {
             this.var_790.push(param1.readInt());

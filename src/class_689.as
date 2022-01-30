@@ -27,7 +27,7 @@ package
          this.var_2501 = param1.readUnsignedByte();
          this.var_2502 = new Vector.<Array>();
          var _loc2_:int = param1.readUnsignedByte();
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < _loc2_)
          {
             _loc4_ = param1.readInt();
@@ -38,7 +38,7 @@ package
          this.var_1448 = new Vector.<class_711>();
          while(param1.bytesAvailable)
          {
-            _loc6_ = new class_711(param1.readUnsignedByte() * class_73.method_2108(class_165.var_6534),param1.readUnsignedByte() * class_73.method_2108(class_165.var_6534),param1.readBoolean());
+            _loc6_ = new class_711(param1.readUnsignedByte() * class_165.var_6534,param1.readUnsignedByte() * class_165.var_6534,param1.readBoolean());
             _loc6_.var_1996 = param1.readUnsignedShort() * class_146.var_6117;
             this.var_1448.push(_loc6_);
          }

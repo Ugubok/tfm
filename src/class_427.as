@@ -28,7 +28,7 @@ package
       
       public static function method_2992(param1:class_193, param2:class_193) : class_193
       {
-         return new class_193(class_73.method_2108(class_183.var_7129),class_427.method_2994(param1,param2.var_995),class_427.method_2994(param1,param2.var_996));
+         return new class_193(class_183.var_7129,class_427.method_2994(param1,param2.var_995),class_427.method_2994(param1,param2.var_996));
       }
       
       public static function method_2993(param1:class_3, param2:class_167) : class_167
@@ -54,7 +54,7 @@ package
       
       public static function method_2995(param1:uint) : Boolean
       {
-         return Boolean(param1 > class_73.method_2108(class_183.var_7129) && (param1 & param1 - class_73.method_2108(class_33.var_3679)) == class_183.var_7129);
+         return Boolean(param1 > class_183.var_7129 && (param1 & param1 - class_33.var_3679) == class_183.var_7129);
       }
       
       public static function method_2996(param1:class_167, param2:Number) : class_167
@@ -74,7 +74,7 @@ package
       
       public static function method_2999() : Number
       {
-         return Math.random() * class_73.method_2108(class_165.var_6534) - class_73.method_2108(class_33.var_3679);
+         return Math.random() * class_165.var_6534 - class_33.var_3679;
       }
       
       public static function method_3000(param1:class_167, param2:class_167) : Number
@@ -94,7 +94,7 @@ package
       
       public static function method_3002(param1:uint) : uint
       {
-         param1 |= param1 >> class_73.method_2108(class_33.var_3679) & 2147483647;
+         param1 |= param1 >> class_33.var_3679 & 2147483647;
          param1 |= param1 >> class_165.var_6534 & 1073741823;
          param1 |= param1 >> class_121.var_5495 & 268435455;
          param1 |= param1 >> class_170.var_6731 & 16777215;
@@ -119,9 +119,9 @@ package
       
       public static function method_3006(param1:Array, param2:Array) : void
       {
-         var _loc3_:* = param1[class_73.method_2108(class_183.var_7129)];
-         param1[class_73.method_2108(class_183.var_7129)] = param2[class_183.var_7129];
-         param2[class_73.method_2108(class_183.var_7129)] = _loc3_;
+         var _loc3_:* = param1[class_183.var_7129];
+         param1[class_183.var_7129] = param2[class_183.var_7129];
+         param2[class_183.var_7129] = _loc3_;
       }
       
       public static function method_3007(param1:class_167, param2:class_167) : Number
@@ -163,7 +163,7 @@ package
       
       public static function method_3014(param1:Number) : Number
       {
-         return param1 > class_73.method_2116(class_107.var_4953) ? Number(param1) : Number(-param1);
+         return param1 > class_107.var_4953 ? Number(param1) : Number(-param1);
       }
       
       public static function method_3015(param1:class_193, param2:class_193) : class_193
@@ -190,7 +190,7 @@ package
       
       public static function method_3019(param1:class_193) : class_193
       {
-         return new class_193(class_73.method_2108(class_183.var_7129),class_427.method_3017(param1.var_995),class_427.method_3017(param1.var_996));
+         return new class_193(class_183.var_7129,class_427.method_3017(param1.var_995),class_427.method_3017(param1.var_996));
       }
    }
 }

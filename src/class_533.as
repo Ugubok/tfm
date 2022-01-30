@@ -33,7 +33,7 @@ package
          super();
          this.var_2075 = param1;
          this.var_574 = param2;
-         addChild(class_175.method_118(class_73.method_2111(class_60.var_3850) + param1,true));
+         addChild(class_175.method_118(class_60.var_3850 + param1,true));
       }
    }
 }

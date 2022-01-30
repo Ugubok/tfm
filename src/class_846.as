@@ -68,7 +68,7 @@ package
          }
          else if(this.var_2768 == class_846.const_1337)
          {
-            _loc2_ = class_26.method_1668(class_73.method_2111(class_170.var_6681) + this.var_2769);
+            _loc2_ = class_26.method_1668(class_170.var_6681 + this.var_2769);
             class_241.method_208(param1,_loc2_);
             class_202.method_2754(param1,true,false);
          }

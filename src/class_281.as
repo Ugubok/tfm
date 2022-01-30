@@ -37,7 +37,7 @@ package
       
       public function method_176(param1:Event) : void
       {
-         this.var_1355.x = -int(this.var_1355.width / class_73.method_2108(class_165.var_6534));
+         this.var_1355.x = -int(this.var_1355.width / class_165.var_6534);
          this.var_1355.y = -int(this.var_1355.height / class_165.var_6534);
       }
    }

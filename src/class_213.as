@@ -43,7 +43,7 @@ package
          {
             try
             {
-               ExternalInterface.call(class_73.method_2111(class_4.var_2973));
+               ExternalInterface.call(class_4.var_2973);
             }
             catch(name_86:Error)
             {
@@ -73,7 +73,7 @@ package
             {
                ExternalInterface.addCallback(class_181.var_6860,class_213.method_2783);
                ExternalInterface.addCallback(class_107.var_4966,class_213.method_2781);
-               ExternalInterface.call(class_73.method_2111(class_92.var_4557),class_111.var_2367.toString());
+               ExternalInterface.call(class_92.var_4557,class_111.var_2367.toString());
                class_213.var_7155 = param1;
                class_213.var_7156 = param2;
                class_213.var_7153 = class_99.var_4681;

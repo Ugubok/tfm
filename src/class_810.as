@@ -6,7 +6,7 @@ package
       
       public function class_810(param1:int)
       {
-         super(class_73.method_2108(class_117.var_5244),class_73.method_2108(class_9.var_3267));
+         super(class_117.var_5244,class_9.var_3267);
          var_159.writeByte(param1);
       }
    }

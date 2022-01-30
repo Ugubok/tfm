@@ -37,7 +37,7 @@ package
          this.var_1152 = param4;
          this.name_5 = param5;
          this.var_206 = param6;
-         this.var_1289 = param2 == class_73.method_2108(class_183.var_7129);
+         this.var_1289 = param2 == class_183.var_7129;
          if(param9)
          {
             this.var_1288.scaleX = -class_33.var_3679;

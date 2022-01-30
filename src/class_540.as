@@ -82,30 +82,30 @@ package
          this.var_2128 = new Vector.<class_806>();
          super();
          class_540.var_3803 = this;
-         class_540.var_7334[class_73.method_2108(class_183.var_7129)] = class_33.var_3679;
-         class_540.var_7334[class_33.var_3679] = class_73.method_2108(class_117.var_5287);
+         class_540.var_7334[class_183.var_7129] = class_33.var_3679;
+         class_540.var_7334[class_33.var_3679] = class_117.var_5287;
          class_540.var_7334[class_165.var_6534] = class_146.var_6118;
          class_540.var_7334[class_146.var_6118] = class_146.var_6118;
-         class_540.var_7334[class_73.method_2108(class_121.var_5495)] = class_73.method_2108(class_102.var_4852);
-         class_540.var_7334[class_117.var_5287] = class_73.method_2108(class_33.var_3679);
+         class_540.var_7334[class_121.var_5495] = class_102.var_4852;
+         class_540.var_7334[class_117.var_5287] = class_33.var_3679;
          this.var_2119 = new Sprite();
          this.var_2120 = new Sprite();
          this.var_2120.mouseChildren = class_99.var_4682;
          this.var_2120.mouseEnabled = class_99.var_4682;
          this.var_2120.cacheAsBitmap = class_99.var_4681;
-         class_49.var_3756 = class_73.method_2108(class_146.var_6117);
+         class_49.var_3756 = class_146.var_6117;
          class_49.var_3757 = class_540.const_1186;
-         class_49.var_3758 = class_73.method_2108(class_33.var_3679) + class_540.const_1187;
+         class_49.var_3758 = class_33.var_3679 + class_540.const_1187;
          class_49.var_3760 = class_183.var_7129;
-         class_49.var_3761 = class_73.method_2108(class_183.var_7129);
+         class_49.var_3761 = class_183.var_7129;
          class_49.var_3759 = -class_165.var_6534;
-         class_49.var_3765 = new Array(new GlowFilter(class_73.method_2108(class_183.var_7129),class_33.var_3679,class_73.method_2108(class_165.var_6534),class_165.var_6534,class_170.var_6731));
+         class_49.var_3765 = new Array(new GlowFilter(class_183.var_7129,class_33.var_3679,class_165.var_6534,class_165.var_6534,class_170.var_6731));
          this.var_2122 = new Sprite();
-         var _loc1_:int = class_73.method_2108(class_183.var_7129);
+         var _loc1_:int = class_183.var_7129;
          var _loc2_:int = class_183.var_7129;
-         while(_loc2_ < class_73.method_2108(class_170.var_6731))
+         while(_loc2_ < class_170.var_6731)
          {
-            _loc3_ = class_73.method_2108(class_183.var_7129);
+            _loc3_ = class_183.var_7129;
             while(_loc3_ < class_170.var_6731)
             {
                _loc4_ = new class_551(_loc2_,_loc3_);
@@ -120,7 +120,7 @@ package
             }
             _loc2_++;
          }
-         this.var_2132 = new class_116(class_73.method_2108(class_183.var_7129),class_183.var_7129,class_540.const_1186 * class_170.var_6731,class_540.const_1187 * class_170.var_6731,this.method_846);
+         this.var_2132 = new class_116(class_183.var_7129,class_183.var_7129,class_540.const_1186 * class_170.var_6731,class_540.const_1187 * class_170.var_6731,this.method_846);
          this.var_2123 = new Sprite();
          this.var_2121 = new Sprite();
          this.var_2121.mouseChildren = class_99.var_4682;
@@ -140,13 +140,13 @@ package
          this.var_2119.addChild(this.var_2123);
          addChild(this.var_2124);
          this.var_2129 = new TextField();
-         this.var_2129.defaultTextFormat = new TextFormat(class_26.var_3500,class_146.var_6117,class_54.const_279,null,null,null,null,null,null,null,null,null,-class_73.method_2108(class_165.var_6534));
+         this.var_2129.defaultTextFormat = new TextFormat(class_26.var_3500,class_146.var_6117,class_54.const_279,null,null,null,null,null,null,null,null,null,-class_165.var_6534);
          this.var_2129.mouseEnabled = class_99.var_4682;
          this.var_2129.selectable = class_99.var_4682;
          this.var_2129.x = class_183.var_7096;
          this.var_2129.y = class_183.var_7129;
          this.var_2129.width = class_62.var_4130;
-         this.var_2129.height = class_73.method_2108(class_89.var_4404);
+         this.var_2129.height = class_89.var_4404;
          this.var_2129.styleSheet = class_1.var_2884.var_117;
          this.var_2129.cacheAsBitmap = class_99.var_4681;
          this.var_2119.addChild(this.var_2129);
@@ -161,29 +161,29 @@ package
          this.var_2130.styleSheet = class_1.var_2884.var_117;
          this.var_2130.cacheAsBitmap = class_99.var_4681;
          this.var_2119.addChild(this.var_2130);
-         this.var_2119.graphics.beginFill(class_183.var_7129,class_73.method_2116(class_92.var_4648));
-         this.var_2119.graphics.drawRect(this.var_2129.x - class_73.method_2108(class_165.var_6534),this.var_2129.y,this.var_2129.width + class_165.var_6534,this.var_2129.height);
+         this.var_2119.graphics.beginFill(class_183.var_7129,class_92.var_4648);
+         this.var_2119.graphics.drawRect(this.var_2129.x - class_165.var_6534,this.var_2129.y,this.var_2129.width + class_165.var_6534,this.var_2129.height);
          this.var_2119.graphics.endFill();
-         this.var_2119.graphics.beginFill(class_73.method_2108(class_183.var_7129),class_92.var_4648);
-         this.var_2119.graphics.drawRect(this.var_2130.x - class_73.method_2108(class_165.var_6534),this.var_2130.y,this.var_2130.width + class_73.method_2108(class_165.var_6534),this.var_2130.height);
+         this.var_2119.graphics.beginFill(class_183.var_7129,class_92.var_4648);
+         this.var_2119.graphics.drawRect(this.var_2130.x - class_165.var_6534,this.var_2130.y,this.var_2130.width + class_165.var_6534,this.var_2130.height);
          this.var_2119.graphics.endFill();
          this.var_2119.graphics.lineStyle(class_165.var_6534,16777215,class_33.var_3679,true,LineScaleMode.NORMAL,CapsStyle.NONE);
-         this.var_2119.graphics.moveTo(this.var_2129.x - class_73.method_2108(class_165.var_6534),this.var_2129.y);
+         this.var_2119.graphics.moveTo(this.var_2129.x - class_165.var_6534,this.var_2129.y);
          this.var_2119.graphics.lineTo(this.var_2129.x - class_165.var_6534,this.var_2129.y + this.var_2129.height);
          this.var_2119.graphics.endFill();
-         this.var_2119.graphics.lineStyle(class_73.method_2108(class_165.var_6534),class_183.var_7129,class_73.method_2108(class_33.var_3679),true,LineScaleMode.NORMAL,CapsStyle.NONE);
+         this.var_2119.graphics.lineStyle(class_165.var_6534,class_183.var_7129,class_33.var_3679,true,LineScaleMode.NORMAL,CapsStyle.NONE);
          this.var_2119.graphics.moveTo(this.var_2130.x - class_165.var_6534,this.var_2130.y);
          this.var_2119.graphics.lineTo(this.var_2130.x - class_165.var_6534,this.var_2130.y + this.var_2130.height);
          this.var_2119.graphics.endFill();
          this.var_2119.x = class_107.var_5068;
-         this.var_2119.y = class_73.method_2108(class_162.var_6351);
+         this.var_2119.y = class_162.var_6351;
          this.var_2124.x = this.var_2119.x;
          this.var_2124.y = this.var_2119.y;
       }
       
       public function method_846(param1:class_27) : void
       {
-         if(class_73.method_2108(class_162.var_6343) <= param1.var_305)
+         if(class_162.var_6343 <= param1.var_305)
          {
             param1.var_293 = class_99.var_4681;
          }
@@ -195,7 +195,7 @@ package
             {
                param1.var_308 = param1.var_310;
             }
-            else if(param1.var_310 > class_73.method_2108(class_183.var_7129) || -param1.var_314 < param1.var_308)
+            else if(param1.var_310 > class_183.var_7129 || -param1.var_314 < param1.var_308)
             {
                param1.var_308 += param1.var_310;
             }
@@ -203,11 +203,11 @@ package
          else
          {
             param1.var_308 -= param1.var_312;
-            if(class_73.method_2108(class_183.var_7129) > param1.var_308)
+            if(class_183.var_7129 > param1.var_308)
             {
                param1.var_308 = param1.var_310;
             }
-            else if(param1.var_310 < class_73.method_2108(class_183.var_7129) || param1.var_308 < param1.var_314)
+            else if(param1.var_310 < class_183.var_7129 || param1.var_308 < param1.var_314)
             {
                param1.var_308 += param1.var_310;
             }
@@ -215,12 +215,12 @@ package
          param1.var_305 += param1.var_309;
          if(param1.var_315)
          {
-            param1.var_309 += class_73.method_2116(class_89.var_4430);
+            param1.var_309 += class_89.var_4430;
          }
          if(class_183.var_7129 > param1.var_309)
          {
             param1.var_309 += param1.var_313;
-            if(param1.var_309 > class_73.method_2108(class_183.var_7129))
+            if(param1.var_309 > class_183.var_7129)
             {
                param1.var_309 = param1.var_311;
             }
@@ -236,7 +236,7 @@ package
             {
                param1.var_309 = param1.var_311;
             }
-            else if(param1.var_311 < class_73.method_2108(class_183.var_7129))
+            else if(param1.var_311 < class_183.var_7129)
             {
                param1.var_309 += param1.var_311;
             }
@@ -252,26 +252,26 @@ package
          if(!class_540.var_7333)
          {
             class_540.var_7333 = new Vector.<String>(class_9.var_3267,true);
-            class_540.var_7333[class_73.method_2108(class_183.var_7129)] = class_26.method_1668(class_73.method_2111(class_181.var_6820));
-            class_540.var_7333[class_73.method_2108(class_33.var_3679)] = class_26.method_1668(class_73.method_2111(class_33.var_3544));
-            class_540.var_7333[class_165.var_6534] = class_26.method_1668(class_73.method_2111(class_162.var_6199));
-            class_540.var_7333[class_73.method_2108(class_146.var_6118)] = class_26.method_1668(class_73.method_2111(class_9.var_3111));
-            class_540.var_7333[class_73.method_2108(class_121.var_5495)] = class_26.method_1668(class_127.var_5744);
+            class_540.var_7333[class_183.var_7129] = class_26.method_1668(class_181.var_6820);
+            class_540.var_7333[class_33.var_3679] = class_26.method_1668(class_33.var_3544);
+            class_540.var_7333[class_165.var_6534] = class_26.method_1668(class_162.var_6199);
+            class_540.var_7333[class_146.var_6118] = class_26.method_1668(class_9.var_3111);
+            class_540.var_7333[class_121.var_5495] = class_26.method_1668(class_127.var_5744);
             class_540.var_7333[class_117.var_5287] = class_26.method_1668(class_183.var_6995);
          }
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
-         var _loc4_:String = class_73.method_2111(class_9.var_3268);
-         var _loc5_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
+         var _loc4_:String = class_9.var_3268;
+         var _loc5_:int = class_183.var_7129;
          while(_loc5_ < param1.length)
          {
             _loc6_ = param1[_loc5_];
             _loc7_ = class_214.var_1108[_loc6_.var_364];
-            _loc4_ += class_73.method_2111(class_127.var_5832) + (!!_loc7_ ? _loc7_.var_363 : class_165.var_6392);
-            _loc8_ = class_73.method_2108(class_183.var_7129);
+            _loc4_ += class_127.var_5832 + (!!_loc7_ ? _loc7_.var_363 : class_165.var_6392);
+            _loc8_ = class_183.var_7129;
             while(_loc8_ < _loc6_.var_2696.length)
             {
                _loc9_ = _loc6_.var_2696[_loc8_];
-               _loc4_ += class_73.method_2111(class_89.var_4300) + class_540.var_7334[_loc9_] + class_62.var_4013 + class_540.var_7333[_loc9_];
+               _loc4_ += class_89.var_4300 + class_540.var_7334[_loc9_] + class_62.var_4013 + class_540.var_7333[_loc9_];
                _loc3_ += class_540.var_7334[_loc9_];
                _loc8_++;
             }
@@ -279,11 +279,11 @@ package
          }
          if(param2)
          {
-            _loc4_ = class_121.var_5462 + class_26.method_1668(class_73.method_2111(class_127.var_5743)) + class_183.var_7074 + _loc3_ + class_9.var_3110 + _loc4_;
+            _loc4_ = class_121.var_5462 + class_26.method_1668(class_127.var_5743) + class_183.var_7074 + _loc3_ + class_9.var_3110 + _loc4_;
          }
          else
          {
-            _loc4_ = class_73.method_2111(class_121.var_5462) + class_26.method_1668(class_4.var_2935) + class_183.var_7074 + _loc3_ + class_73.method_2111(class_9.var_3110) + _loc4_;
+            _loc4_ = class_121.var_5462 + class_26.method_1668(class_4.var_2935) + class_183.var_7074 + _loc3_ + class_9.var_3110 + _loc4_;
          }
          return _loc4_;
       }
@@ -293,13 +293,13 @@ package
          var _loc2_:class_551 = param1.currentTarget as class_551;
          if(_loc2_.var_2150)
          {
-            class_540.var_7331 = _loc2_.var_1151 * class_73.method_2108(class_146.var_6117) + _loc2_.var_1152;
+            class_540.var_7331 = _loc2_.var_1151 * class_146.var_6117 + _loc2_.var_1152;
             this.method_1550();
             this.method_1552();
          }
          else
          {
-            class_39.var_3745.method_313(new class_807(class_540.var_88,int(class_540.var_7331 / class_73.method_2108(class_146.var_6117)),class_540.var_7331 % class_146.var_6117,_loc2_.var_1151,_loc2_.var_1152));
+            class_39.var_3745.method_313(new class_807(class_540.var_88,int(class_540.var_7331 / class_146.var_6117),class_540.var_7331 % class_146.var_6117,_loc2_.var_1151,_loc2_.var_1152));
          }
       }
       
@@ -317,11 +317,11 @@ package
             this.var_2127[_loc2_].var_2150 = class_99.var_4682;
          }
          var _loc3_:int = class_1.method_1816();
-         _loc2_ = class_73.method_2108(class_183.var_7129);
+         _loc2_ = class_183.var_7129;
          while(_loc2_ < class_540.var_2725.length)
          {
             _loc4_ = class_540.var_2725[_loc2_];
-            _loc5_ = class_540.var_2725[_loc2_ + class_73.method_2108(class_33.var_3679)];
+            _loc5_ = class_540.var_2725[_loc2_ + class_33.var_3679];
             _loc6_ = class_540.var_2725[_loc2_ + class_165.var_6534];
             if(_loc6_ < class_540.var_7327)
             {
@@ -360,7 +360,7 @@ package
          {
             return;
          }
-         var _loc4_:class_551 = this.var_2127[int(class_540.var_7331 / class_146.var_6117) * class_73.method_2108(class_170.var_6731) + class_540.var_7331 % class_73.method_2108(class_146.var_6117)];
+         var _loc4_:class_551 = this.var_2127[int(class_540.var_7331 / class_146.var_6117) * class_170.var_6731 + class_540.var_7331 % class_146.var_6117];
          _loc4_.name_48 = class_99.var_4681;
          if(class_1.method_1816() - _loc4_.var_2153 >= class_540.var_7327)
          {
@@ -368,15 +368,15 @@ package
             while(_loc2_ < _loc3_.length)
             {
                _loc6_ = _loc3_[_loc2_];
-               _loc7_ = _loc3_[_loc2_ + class_73.method_2108(class_33.var_3679)];
-               _loc8_ = this.var_2127[_loc6_ * class_73.method_2108(class_170.var_6731) + _loc7_];
+               _loc7_ = _loc3_[_loc2_ + class_33.var_3679];
+               _loc8_ = this.var_2127[_loc6_ * class_170.var_6731 + _loc7_];
                _loc8_.method_1571(true);
                _loc8_.var_2151 = class_99.var_4681;
                if(this.var_2126[_loc6_ * class_146.var_6117 + _loc7_])
                {
                   _loc8_.var_2152 = class_99.var_4681;
                }
-               _loc2_ += class_73.method_2108(class_165.var_6534);
+               _loc2_ += class_165.var_6534;
             }
          }
       }
@@ -394,16 +394,16 @@ package
          this.var_2120.graphics.clear();
          while(this.var_2120.numChildren)
          {
-            this.var_2120.removeChildAt(class_73.method_2108(class_183.var_7129));
+            this.var_2120.removeChildAt(class_183.var_7129);
          }
          while(this.var_2121.numChildren)
          {
-            this.var_2121.removeChildAt(class_73.method_2108(class_183.var_7129));
+            this.var_2121.removeChildAt(class_183.var_7129);
          }
          class_49.method_1957();
-         class_540.var_7331 = -class_73.method_2108(class_33.var_3679);
+         class_540.var_7331 = -class_33.var_3679;
          this.var_2131 = class_99.var_4681;
-         var _loc2_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc2_:int = -class_33.var_3679;
          var _loc3_:int = class_214.var_1102.length;
          while(++_loc2_ < _loc3_)
          {
@@ -411,13 +411,13 @@ package
             _loc7_.var_1187 = new Vector.<class_551>();
          }
          this.var_2120.graphics.beginFill(class_540.const_1184);
-         this.var_2120.graphics.drawRect(class_183.var_7129,class_183.var_7129,class_540.const_1186 * class_170.var_6731,class_540.const_1187 * class_73.method_2108(class_170.var_6731));
+         this.var_2120.graphics.drawRect(class_183.var_7129,class_183.var_7129,class_540.const_1186 * class_170.var_6731,class_540.const_1187 * class_170.var_6731);
          this.var_2120.graphics.endFill();
-         var _loc4_:int = class_73.method_2108(class_183.var_7129);
-         var _loc5_:int = class_73.method_2108(class_183.var_7129);
-         while(_loc5_ < class_73.method_2108(class_170.var_6731))
+         var _loc4_:int = class_183.var_7129;
+         var _loc5_:int = class_183.var_7129;
+         while(_loc5_ < class_170.var_6731)
          {
-            _loc8_ = class_73.method_2108(class_183.var_7129);
+            _loc8_ = class_183.var_7129;
             while(_loc8_ < class_170.var_6731)
             {
                _loc9_ = this.var_2127[_loc4_++];
@@ -425,23 +425,23 @@ package
                if(class_540.var_7329)
                {
                   _loc9_.x = class_540.const_1186 * (-_loc5_ + class_92.var_4647);
-                  _loc9_.y = (-_loc8_ + class_73.method_2108(class_92.var_4647)) * class_540.const_1187;
+                  _loc9_.y = (-_loc8_ + class_92.var_4647) * class_540.const_1187;
                }
                else
                {
                   _loc9_.x = class_540.const_1186 * _loc5_;
                   _loc9_.y = _loc8_ * class_540.const_1187;
                }
-               if(_loc5_ % class_73.method_2108(class_165.var_6534) == class_73.method_2108(class_183.var_7129))
+               if(_loc5_ % class_165.var_6534 == class_183.var_7129)
                {
-                  if(_loc8_ % class_73.method_2108(class_165.var_6534) != class_73.method_2108(class_183.var_7129))
+                  if(_loc8_ % class_165.var_6534 != class_183.var_7129)
                   {
                      this.var_2120.graphics.beginFill(class_540.const_1185);
                      this.var_2120.graphics.drawRect(_loc5_ * class_540.const_1186,_loc8_ * class_540.const_1187,class_540.const_1186,class_540.const_1187);
                      this.var_2120.graphics.endFill();
                   }
                }
-               else if(_loc8_ % class_73.method_2108(class_165.var_6534) == class_183.var_7129)
+               else if(_loc8_ % class_165.var_6534 == class_183.var_7129)
                {
                   this.var_2120.graphics.beginFill(class_540.const_1185);
                   this.var_2120.graphics.drawRect(_loc5_ * class_540.const_1186,_loc8_ * class_540.const_1187,class_540.const_1186,class_540.const_1187);
@@ -452,8 +452,8 @@ package
             _loc5_++;
          }
          this.var_2123.graphics.clear();
-         this.var_2123.graphics.lineStyle(class_73.method_2108(class_121.var_5495),class_73.method_2108(class_183.var_7129),class_73.method_2108(class_33.var_3679),true,LineScaleMode.NORMAL,CapsStyle.SQUARE,JointStyle.MITER);
-         this.var_2123.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_183.var_7129,class_540.const_1186 * class_73.method_2108(class_170.var_6731),class_540.const_1187 * class_73.method_2108(class_170.var_6731));
+         this.var_2123.graphics.lineStyle(class_121.var_5495,class_183.var_7129,class_33.var_3679,true,LineScaleMode.NORMAL,CapsStyle.SQUARE,JointStyle.MITER);
+         this.var_2123.graphics.drawRect(class_183.var_7129,class_183.var_7129,class_540.const_1186 * class_170.var_6731,class_540.const_1187 * class_170.var_6731);
          this.var_2123.graphics.endFill();
          var _loc6_:int = class_183.var_7129;
          while(_loc6_ < param1.length)
@@ -478,7 +478,7 @@ package
                _loc11_.x = _loc10_.var_304 * class_540.const_1186;
                _loc11_.y = _loc10_.var_305 * class_540.const_1187;
             }
-            this.var_2126[_loc10_.var_304 * class_73.method_2108(class_146.var_6117) + _loc10_.var_305] = _loc11_;
+            this.var_2126[_loc10_.var_304 * class_146.var_6117 + _loc10_.var_305] = _loc11_;
             this.var_2121.addChild(_loc11_);
             _loc6_++;
          }
@@ -493,7 +493,7 @@ package
       public function method_1552() : void
       {
          var _loc1_:int = this.var_2127.length;
-         var _loc2_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc2_:int = -class_33.var_3679;
          while(++_loc2_ < _loc1_)
          {
             this.var_2127[_loc2_].method_1572();
@@ -506,7 +506,7 @@ package
          var _loc7_:int = 0;
          var _loc8_:class_551 = null;
          var _loc3_:class_551 = this.var_2127[param1 * class_170.var_6731 + param2];
-         var _loc4_:int = param1 * class_73.method_2108(class_146.var_6117) + param2;
+         var _loc4_:int = param1 * class_146.var_6117 + param2;
          var _loc5_:class_804 = this.var_2126[_loc4_];
          if(_loc5_)
          {
@@ -518,7 +518,7 @@ package
          delete this.var_2126[_loc4_];
          if(_loc3_.var_2154)
          {
-            _loc6_ = -class_73.method_2108(class_33.var_3679);
+            _loc6_ = -class_33.var_3679;
             _loc7_ = _loc3_.var_2154.var_1187.length;
             while(++_loc6_ < _loc7_)
             {
@@ -539,11 +539,11 @@ package
          var _loc8_:class_804 = new class_804(param5,param6);
          if(class_540.var_7329)
          {
-            _loc8_.x = class_540.const_1186 * (-param1 + class_73.method_2108(class_92.var_4647));
-            _loc8_.y = class_540.const_1187 * (class_73.method_2108(class_92.var_4647) - param2);
-            _loc8_.var_1743 = (-param1 + class_73.method_2108(class_92.var_4647)) * class_540.const_1186;
-            _loc8_.var_1744 = class_540.const_1187 * (-param2 + class_73.method_2108(class_92.var_4647));
-            _loc8_.var_2688 = class_540.const_1186 * (class_73.method_2108(class_92.var_4647) - param3);
+            _loc8_.x = class_540.const_1186 * (-param1 + class_92.var_4647);
+            _loc8_.y = class_540.const_1187 * (class_92.var_4647 - param2);
+            _loc8_.var_1743 = (-param1 + class_92.var_4647) * class_540.const_1186;
+            _loc8_.var_1744 = class_540.const_1187 * (-param2 + class_92.var_4647);
+            _loc8_.var_2688 = class_540.const_1186 * (class_92.var_4647 - param3);
             _loc8_.var_2689 = class_540.const_1187 * (-param4 + class_92.var_4647);
          }
          else
@@ -558,10 +558,10 @@ package
          _loc8_.var_2690 = param3;
          _loc8_.var_2691 = param4;
          _loc8_.var_2692 = class_1.method_1816();
-         this.var_2126[param3 * class_73.method_2108(class_146.var_6117) + param4] = _loc8_;
+         this.var_2126[param3 * class_146.var_6117 + param4] = _loc8_;
          this.var_2121.addChild(_loc8_);
          class_540.var_7332.push(_loc8_);
-         var _loc9_:class_551 = this.var_2127[param3 * class_73.method_2108(class_170.var_6731) + param4];
+         var _loc9_:class_551 = this.var_2127[param3 * class_170.var_6731 + param4];
          var _loc10_:class_228 = class_214.var_1108[param7];
          if(_loc10_)
          {
@@ -577,8 +577,8 @@ package
          var _loc7_:Number = NaN;
          var _loc8_:Number = NaN;
          var _loc4_:class_75 = class_1.var_2884.var_156[class_56.const_193];
-         var _loc5_:int = class_73.method_2108(class_183.var_7129);
-         while(_loc5_ < class_73.method_2108(class_146.var_6117))
+         var _loc5_:int = class_183.var_7129;
+         while(_loc5_ < class_146.var_6117)
          {
             _loc6_ = new class_27(_loc4_,false);
             this.var_2132.var_659.push(_loc6_);
@@ -593,11 +593,11 @@ package
                _loc6_.var_305 = param2;
             }
             _loc6_.var_313 = class_89.var_4430;
-            _loc6_.var_312 = class_73.method_2116(class_89.var_4430);
+            _loc6_.var_312 = class_89.var_4430;
             _loc6_.var_315 = class_99.var_4682;
-            _loc7_ = Math.random() * class_73.method_2116(class_146.var_6110) - class_73.method_2116(class_89.var_4434);
-            _loc8_ = class_33.var_3679 + Math.random() * class_73.method_2108(class_165.var_6534);
-            if(_loc5_ % class_73.method_2108(class_165.var_6534) == class_183.var_7129)
+            _loc7_ = Math.random() * class_146.var_6110 - class_89.var_4434;
+            _loc8_ = class_33.var_3679 + Math.random() * class_165.var_6534;
+            if(_loc5_ % class_165.var_6534 == class_183.var_7129)
             {
                _loc6_.var_308 = -Math.cos(_loc7_) * _loc8_;
             }
@@ -616,13 +616,13 @@ package
          var _loc4_:class_551 = null;
          var _loc5_:class_206 = null;
          var _loc3_:class_228 = class_214.var_7158[param2];
-         if(_loc3_ && _loc3_.var_1187.length > class_73.method_2108(class_183.var_7129))
+         if(_loc3_ && _loc3_.var_1187.length > class_183.var_7129)
          {
-            _loc4_ = _loc3_.var_1187[class_73.method_2108(class_183.var_7129)];
-            _loc5_ = class_49.method_1958(_loc3_.var_363,this.var_2124,class_73.method_2111(class_121.var_5353) + _loc3_.var_363.substr(class_73.method_2108(class_183.var_7129),class_121.var_5495) + class_73.method_2111(class_102.var_4713) + param1,0,class_73.method_2116(class_9.var_3254));
+            _loc4_ = _loc3_.var_1187[class_183.var_7129];
+            _loc5_ = class_49.method_1958(_loc3_.var_363,this.var_2124,class_121.var_5353 + _loc3_.var_363.substr(class_183.var_7129,class_121.var_5495) + class_102.var_4713 + param1,0,class_9.var_3254);
             _loc5_.x = _loc4_.x;
             _loc5_.y = _loc4_.y;
-            _loc5_.alpha = class_73.method_2116(class_146.var_6103);
+            _loc5_.alpha = class_146.var_6103;
          }
       }
    }

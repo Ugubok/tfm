@@ -7,37 +7,37 @@ package
    public class class_17
    {
       
-      public static const const_58:String = class_73.method_2111("POLICE");
+      public static const const_58:String = "POLICE";
       
       public static const const_59:String = "TAILLE_CHAT";
       
       public static const const_60:String = "LNG";
       
-      public static const const_61:String = class_73.method_2111("VLNG");
+      public static const const_61:String = "VLNG";
       
-      public static const const_62:String = class_73.method_2111("SALON2");
+      public static const const_62:String = "SALON2";
       
       public static const const_63:String = "GROS_COSTUME";
       
       public static const const_64:String = "LUA";
       
-      public static const const_65:String = class_73.method_2111("DMScript");
+      public static const const_65:String = "DMScript";
       
       public static const const_66:String = "EXTINCTION";
       
       public static const const_67:String = "DL";
       
-      public static const const_68:String = class_73.method_2111("LOOK");
+      public static const const_68:String = "LOOK";
       
       public static const const_69:String = "CLOU";
       
-      public static const const_70:String = class_73.method_2111("VOL_NK");
+      public static const const_70:String = "VOL_NK";
       
-      public static const const_71:String = class_73.method_2111("MIG_F");
+      public static const const_71:String = "MIG_F";
       
       public static const const_72:String = "TOKEN";
       
-      public static const const_73:String = class_73.method_2111("DATE_TOKEN");
+      public static const const_73:String = "DATE_TOKEN";
       
       public static const const_74:String = "SON_MUSIQUE_2";
       
@@ -45,7 +45,7 @@ package
       
       public static const const_76:String = "SON_NP_2";
       
-      public static const const_77:String = class_73.method_2111("O_1");
+      public static const const_77:String = "O_1";
       
       public static const const_78:String = "O_2";
       
@@ -57,39 +57,39 @@ package
       
       public static const const_82:String = "O_7";
       
-      public static const const_83:String = class_73.method_2111("O_8");
+      public static const const_83:String = "O_8";
       
-      public static const const_84:String = class_73.method_2111("O_12");
+      public static const const_84:String = "O_12";
       
-      public static const const_85:String = class_73.method_2111("O_13");
+      public static const const_85:String = "O_13";
       
       public static const const_86:String = "O_14";
       
       public static const const_87:String = "TAGS";
       
-      public static const const_88:String = class_73.method_2111("DisP");
+      public static const const_88:String = "DisP";
       
       public static const const_89:String = "DisS";
       
-      public static const const_90:String = class_73.method_2111("dm_zoom");
+      public static const const_90:String = "dm_zoom";
       
       public static const const_91:String = "dm_qualite";
       
-      public static const const_92:String = class_73.method_2111("dm_camera");
+      public static const const_92:String = "dm_camera";
       
       public static const name_54:String = "VOL_MUS";
       
       public static const name_55:String = "VOL_SON";
       
-      public static const const_93:String = class_73.method_2111("HK");
+      public static const const_93:String = "HK";
       
       public static const const_94:String = "CTF";
       
-      public static const const_95:String = class_73.method_2111("POPUP_INVIT_TRIBU");
+      public static const const_95:String = "POPUP_INVIT_TRIBU";
       
-      public static const const_96:String = class_73.method_2111("POPUP_ECHANGE_CONSO");
+      public static const const_96:String = "POPUP_ECHANGE_CONSO";
       
-      public static const const_97:String = class_73.method_2111("POPUP_MARRIAGE");
+      public static const const_97:String = "POPUP_MARRIAGE";
       
       public static var var_2884:class_17;
       
@@ -148,7 +148,7 @@ package
          class_1.var_2884.var_86(class_92.method_2196(),-class_89.method_2156(),class_170.method_2610(),class_165.method_2586(),-class_92.method_2192(),class_165.method_2587(),-class_181.method_2691(),class_183.method_2706(),class_33.method_1922(),class_92.method_2194(),-class_183.method_2701(),class_102.method_2269());
          try
          {
-            this.var_205 = SharedObject.getLocal(class_73.method_2111(class_62.var_4147));
+            this.var_205 = SharedObject.getLocal(class_62.var_4147);
             class_17.var_3474 = Boolean(this.lecture(class_17.const_77));
             class_17.var_3475 = !this.lecture(class_17.const_78);
             class_17.var_3476 = !this.lecture(class_17.const_79);

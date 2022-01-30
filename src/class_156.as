@@ -28,19 +28,19 @@ package
          {
             _loc5_ = new Sprite();
             _loc6_ = this.var_373.method_118();
-            _loc6_.gotoAndStop(class_73.method_2108(class_33.var_3679));
-            _loc6_.scaleX = class_73.method_2116(class_127.var_5872);
-            _loc6_.scaleY = class_73.method_2116(class_127.var_5872);
+            _loc6_.gotoAndStop(class_33.var_3679);
+            _loc6_.scaleX = class_127.var_5872;
+            _loc6_.scaleY = class_127.var_5872;
             _loc6_.x = class_92.var_4628;
-            _loc6_.y = class_73.method_2108(class_162.var_6322);
+            _loc6_.y = class_162.var_6322;
             _loc7_ = new Shape();
             _loc7_.graphics.beginFill(16711680);
-            _loc7_.graphics.drawRoundRect(class_33.var_3679,class_33.var_3679,class_73.method_2108(class_121.var_5456),class_121.var_5456,class_73.method_2108(class_146.var_6117));
+            _loc7_.graphics.drawRoundRect(class_33.var_3679,class_33.var_3679,class_121.var_5456,class_121.var_5456,class_146.var_6117);
             _loc7_.graphics.endFill();
             _loc5_.addChild(_loc6_);
             _loc5_.addChild(_loc7_);
             _loc6_.mask = _loc7_;
-            _loc3_ = new BitmapData(class_102.var_4859,class_73.method_2108(class_102.var_4859),true,class_183.var_7129);
+            _loc3_ = new BitmapData(class_102.var_4859,class_102.var_4859,true,class_183.var_7129);
             _loc3_.draw(_loc5_);
             class_156.const_561[_loc2_] = _loc3_;
          }

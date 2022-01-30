@@ -32,12 +32,12 @@ package
                }
             }
          }
-         if(class_73.method_2108(class_183.var_7129) == _loc4_.length)
+         if(class_183.var_7129 == _loc4_.length)
          {
             _loc4_.push(class_56.const_326,class_56.const_327,class_56.const_328,class_56.const_329);
          }
-         var _loc5_:int = class_73.method_2108(class_183.var_7129);
-         while(_loc5_ < class_73.method_2108(class_146.var_6117))
+         var _loc5_:int = class_183.var_7129;
+         while(_loc5_ < class_146.var_6117)
          {
             _loc8_ = class_1.var_2884.var_156[_loc4_[int(Math.random() * _loc4_.length)]];
             _loc9_ = new class_27(_loc8_,false);
@@ -46,17 +46,17 @@ package
             _loc9_.var_304 = param1;
             _loc9_.var_305 = param2;
             _loc10_ = Math.random() * class_146.var_6110 - class_89.var_4434;
-            _loc11_ = Math.random() * class_73.method_2108(class_165.var_6534);
+            _loc11_ = Math.random() * class_165.var_6534;
             if(!param3)
             {
                _loc9_.var_308 = -Math.cos(_loc10_) * _loc11_ * class_165.var_6534 - class_92.var_4648;
             }
             else
             {
-               _loc9_.var_308 = Math.cos(_loc10_) * _loc11_ * class_165.var_6534 + class_73.method_2116(class_92.var_4648);
+               _loc9_.var_308 = Math.cos(_loc10_) * _loc11_ * class_165.var_6534 + class_92.var_4648;
             }
             _loc9_.var_309 = Math.sin(_loc10_) * _loc11_ - class_165.var_6534;
-            _loc9_.var_311 = class_73.method_2116(class_89.var_4430);
+            _loc9_.var_311 = class_89.var_4430;
             _loc5_++;
          }
          class_1.var_2884.var_155.var_660 = class_99.var_4681;
@@ -80,7 +80,7 @@ package
             _loc4_ = _loc3_.var_1408;
             if(_loc4_)
             {
-               if(_loc4_.substr(class_73.method_2108(class_183.var_7129),class_9.var_3267) == class_73.method_2111(class_121.var_5374))
+               if(_loc4_.substr(class_183.var_7129,class_9.var_3267) == class_121.var_5374)
                {
                   for each(_loc5_ in class_1.var_2884.var_85)
                   {
@@ -92,9 +92,9 @@ package
                         {
                            _loc8_ = -_loc6_.x + _loc7_.x;
                            _loc9_ = class_114.method_2315(_loc7_.y - _loc6_.y);
-                           if(_loc8_ > class_73.method_2108(class_146.var_6117) && _loc8_ < class_73.method_2108(class_165.var_6506) && _loc9_ < class_73.method_2108(class_183.var_7127))
+                           if(_loc8_ > class_146.var_6117 && _loc8_ < class_165.var_6506 && _loc9_ < class_183.var_7127)
                            {
-                              class_285.method_2849(class_168.var_6539,_loc3_.var_598 + class_73.method_2108(class_33.var_3679),param2);
+                              class_285.method_2849(class_168.var_6539,_loc3_.var_598 + class_33.var_3679,param2);
                               class_39.var_3745.method_313(new class_602(_loc3_.var_598 + class_33.var_3679,_loc5_.var_876,param2));
                               return;
                            }
@@ -103,7 +103,7 @@ package
                   }
                }
                class_285.method_2849(class_168.var_6539,_loc3_.var_598,param2);
-               class_39.var_3745.method_313(new class_602(_loc3_.var_598,-class_73.method_2108(class_33.var_3679),param2));
+               class_39.var_3745.method_313(new class_602(_loc3_.var_598,-class_33.var_3679,param2));
             }
          }
       }

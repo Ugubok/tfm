@@ -51,7 +51,7 @@ package
       
       public static function method_2851(param1:Event) : void
       {
-         class_233.method_2810(class_286.var_7198,class_60.var_3945,null,class_73.method_2108(class_183.var_7129),class_286.method_2850).method_1266(class_286.var_7198.alpha,class_183.var_7129);
+         class_233.method_2810(class_286.var_7198,class_60.var_3945,null,class_183.var_7129,class_286.method_2850).method_1266(class_286.var_7198.alpha,class_183.var_7129);
          class_286.var_7198.cacheAsBitmap = class_99.var_4682;
          class_286.var_7199.reset();
          class_286.var_7199.stop();
@@ -70,7 +70,7 @@ package
             class_286.var_7198.method_1669(_loc2_,_loc3_,_loc4_,_loc5_,_loc6_,_loc7_);
             class_286.var_7199.reset();
             class_286.var_7199.start();
-            class_286.var_7198.alpha = class_73.method_2108(class_33.var_3679);
+            class_286.var_7198.alpha = class_33.var_3679;
             class_286.var_7198.y = class_16.var_3473;
             class_233.method_2812(class_286.var_7198);
             return;
@@ -81,11 +81,11 @@ package
          }
          class_286.var_7198 = new class_603(_loc2_,_loc3_,_loc4_,_loc5_,_loc6_,_loc7_);
          class_286.var_7198.cacheAsBitmap = class_99.var_4681;
-         class_286.var_7198.x = int((-class_286.var_7198.name_5 + class_107.var_5074) / class_73.method_2108(class_165.var_6534));
+         class_286.var_7198.x = int((-class_286.var_7198.name_5 + class_107.var_5074) / class_165.var_6534);
          class_286.var_7198.alpha = class_33.var_3679;
          class_233.method_2812(class_286.var_7198);
          class_115.method_388(class_286.var_7198,class_165.var_6534);
-         class_233.method_2810(class_286.var_7198,class_73.method_2108(class_60.var_3945),class_398.method_2931).method_1267(class_183.var_7129,class_73.method_2108(class_16.var_3473));
+         class_233.method_2810(class_286.var_7198,class_60.var_3945,class_398.method_2931).method_1267(class_183.var_7129,class_16.var_3473);
          if(!class_286.var_7199)
          {
             class_286.var_7199 = new Timer(class_92.var_4625);
@@ -103,7 +103,7 @@ package
             class_286.var_2884 = new class_286();
          }
          class_286.var_2884.name_9(param1);
-         class_286.var_2884.method_196(class_73.method_2116(class_92.var_4648),class_73.method_2116(class_9.var_3254));
+         class_286.var_2884.method_196(class_92.var_4648,class_9.var_3254);
          class_115.method_388(class_286.var_2884);
       }
       
@@ -138,7 +138,7 @@ package
             _loc3_++;
          }
          var_206 = this.var_1380.height;
-         method_239(class_26.method_1668(class_73.method_2111(class_165.var_6373)),class_286.method_439);
+         method_239(class_26.method_1668(class_165.var_6373),class_286.method_439);
       }
       
       public function method_1045(param1:class_603) : void
@@ -149,9 +149,9 @@ package
       public function method_1046(param1:class_603) : void
       {
          var _loc2_:class_210 = new class_210();
-         _loc2_.method_818(class_26.method_1903(class_111.var_5092,class_73.method_2111(class_146.var_5963)),null,null,true);
+         _loc2_.method_818(class_26.method_1903(class_111.var_5092,class_146.var_5963),null,null,true);
          _loc2_.method_818(class_26.method_1668(class_181.var_6933));
-         _loc2_.method_818(class_26.method_1668(class_73.method_2111(class_107.var_5045)),this.method_1045,param1);
+         _loc2_.method_818(class_26.method_1668(class_107.var_5045),this.method_1045,param1);
          _loc2_.method_427();
       }
    }

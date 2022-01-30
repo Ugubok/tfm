@@ -29,12 +29,12 @@ package
       
       public function x_changerTempsDecoAFK(param1:int) : void
       {
-         class_1.var_2878.var_181 = param1 * class_73.method_2108(class_4.var_3058);
+         class_1.var_2878.var_181 = param1 * class_4.var_3058;
       }
       
       public function x_recupImageDistante(param1:String) : Bitmap
       {
-         return class_175.method_2618(param1,class_73.method_2111(class_9.var_3268));
+         return class_175.method_2618(param1,class_9.var_3268);
       }
       
       public function x_defNomJeuModule801(param1:String) : void

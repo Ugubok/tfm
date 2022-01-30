@@ -52,7 +52,7 @@ package
       public function method_659() : Sprite
       {
          var _loc1_:Sprite = class_175.method_118(class_89.var_4407,true);
-         _loc1_.scaleX = class_73.method_2116(class_146.var_6072);
+         _loc1_.scaleX = class_146.var_6072;
          _loc1_.scaleY = class_146.var_6072;
          return _loc1_;
       }

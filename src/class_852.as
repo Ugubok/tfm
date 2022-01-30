@@ -20,8 +20,8 @@ package
          this.var_2772 = this.var_2771[class_183.var_7129];
          class_327.method_2890(var_2516.var_685 == class_279.const_701);
          class_327.method_2890(class_279.const_702 == var_2517.var_685);
-         this.var_2772.var_2547 = class_73.method_2108(class_183.var_7129);
-         var _loc3_:class_728 = this.var_2772.var_2546[class_73.method_2108(class_183.var_7129)];
+         this.var_2772.var_2547 = class_183.var_7129;
+         var _loc3_:class_728 = this.var_2772.var_2546[class_183.var_7129];
          _loc3_.var_2538 = class_107.var_4953;
          _loc3_.var_2539 = class_107.var_4953;
       }
@@ -66,11 +66,11 @@ package
             while(_loc2_ < this.var_2772.var_2547)
             {
                _loc10_ = this.var_2772.var_2546[_loc2_];
-               _loc10_.var_2538 = class_73.method_2116(class_107.var_4953);
+               _loc10_.var_2538 = class_107.var_4953;
                _loc10_.var_2539 = class_107.var_4953;
                _loc11_ = class_99.var_4682;
                _loc12_ = _loc10_.var_1768.var_2778;
-               _loc13_ = class_73.method_2108(class_183.var_7129);
+               _loc13_ = class_183.var_7129;
                while(_loc13_ < this.var_2773.var_2547)
                {
                   if(_loc8_[_loc13_] != true)
@@ -111,17 +111,17 @@ package
                }
                _loc2_++;
             }
-            var_2518 = class_73.method_2108(class_33.var_3679);
+            var_2518 = class_33.var_3679;
          }
          else
          {
-            var_2518 = class_73.method_2108(class_183.var_7129);
+            var_2518 = class_183.var_7129;
          }
          if(null == param1)
          {
             return;
          }
-         _loc2_ = class_73.method_2108(class_183.var_7129);
+         _loc2_ = class_183.var_7129;
          while(_loc2_ < this.var_2773.var_2547)
          {
             if(!_loc8_[_loc2_])

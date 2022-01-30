@@ -17,19 +17,19 @@ package
       public function method_1090() : int
       {
          var _loc2_:* = 0;
-         var _loc1_:* = int(class_73.method_2108(class_183.var_7129));
+         var _loc1_:* = int(class_183.var_7129);
          var _loc3_:int = class_183.var_7129;
-         var _loc4_:* = int(-class_73.method_2108(class_33.var_3679));
+         var _loc4_:* = int(-class_33.var_3679);
          do
          {
             _loc2_ = this.var_1466.readByte() & 255;
             _loc1_ |= (_loc2_ & 127) << _loc3_ * class_92.var_4647;
-            _loc4_ <<= class_73.method_2108(class_92.var_4647);
+            _loc4_ <<= class_92.var_4647;
             _loc3_++;
          }
-         while((_loc2_ & 128) == 128 && _loc3_ < class_73.method_2108(class_117.var_5287));
+         while((_loc2_ & 128) == 128 && _loc3_ < class_117.var_5287);
          
-         if((_loc4_ >> class_33.var_3679 & _loc1_) != class_73.method_2108(class_183.var_7129))
+         if((_loc4_ >> class_33.var_3679 & _loc1_) != class_183.var_7129)
          {
             _loc1_ |= _loc4_;
          }

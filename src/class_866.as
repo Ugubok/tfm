@@ -45,13 +45,13 @@ package
       public function method_1374() : int
       {
          var _loc1_:int = class_183.var_7129;
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
+         var _loc2_:int = class_183.var_7129;
          while(_loc2_ < this.var_2806.length)
          {
-            _loc1_ += class_73.method_2108(class_165.var_6534) + this.var_2806[_loc2_].length;
+            _loc1_ += class_165.var_6534 + this.var_2806[_loc2_].length;
             _loc2_++;
          }
-         return class_73.method_2108(class_92.var_4647) + _loc1_;
+         return class_92.var_4647 + _loc1_;
       }
       
       public function lecture(param1:ByteArray) : void
@@ -81,7 +81,7 @@ package
       
       public function get method_1793() : int
       {
-         return class_73.method_2108(class_33.var_3647);
+         return class_33.var_3647;
       }
    }
 }

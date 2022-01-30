@@ -37,9 +37,9 @@ package
          super(class_89.var_4444,!!param1 ? int(class_121.var_5470) : int(class_62.var_4130));
          this.var_728 = param1;
          class_135.var_5906 = this;
-         method_251(true,class_73.method_2108(class_146.var_6117));
-         method_216(new class_245(class_243.const_642,class_73.method_2108(class_117.var_5287)));
-         this.var_291 = new class_24(class_73.method_2108(class_162.var_6352),class_102.var_4822);
+         method_251(true,class_146.var_6117);
+         method_216(new class_245(class_243.const_642,class_117.var_5287));
+         this.var_291 = new class_24(class_162.var_6352,class_102.var_4822);
          this.method_516();
          method_196(class_92.var_4648,class_181.var_6904);
          if(var_2238)
@@ -66,9 +66,9 @@ package
       
       override public function method_258(param1:int, param2:String) : void
       {
-         if(class_73.method_2108(class_165.var_6534) == param1)
+         if(class_165.var_6534 == param1)
          {
-            this.method_515(class_26.method_1668(class_73.method_2111(class_183.var_7068)));
+            this.method_515(class_26.method_1668(class_183.var_7068));
          }
          else if(param1 == class_33.var_3679)
          {
@@ -85,8 +85,8 @@ package
       public function method_516() : void
       {
          clear();
-         var _loc1_:int = !!this.var_728 ? int(name_5 - this.var_291.name_5 - class_73.method_2108(class_146.var_6117)) : int(name_5);
-         this.var_723 = new class_244(_loc1_,class_73.method_2108(class_33.var_3675),true);
+         var _loc1_:int = !!this.var_728 ? int(name_5 - this.var_291.name_5 - class_146.var_6117) : int(name_5);
+         this.var_723 = new class_244(_loc1_,class_33.var_3675,true);
          this.var_723.method_856(TextFormatAlign.CENTER);
          this.var_723.method_945(this.method_518);
          if(var_485)
@@ -95,11 +95,11 @@ package
          }
          else
          {
-            this.var_723.method_941(class_26.method_1668(!!class_1.var_2871 ? class_73.method_2111(class_165.var_6455) : class_73.method_2111(class_9.var_3198)));
+            this.var_723.method_941(class_26.method_1668(!!class_1.var_2871 ? class_165.var_6455 : class_9.var_3198));
          }
          this.var_723.method_864(11990348);
-         this.var_723.var_1226.restrict = class_248.const_651 + class_73.method_2111(class_121.var_5428);
-         this.var_723.var_1226.maxChars = class_73.method_2108(class_60.var_3945);
+         this.var_723.var_1226.restrict = class_248.const_651 + class_121.var_5428;
+         this.var_723.var_1226.maxChars = class_60.var_3945;
          this.var_724 = new class_244(_loc1_,class_33.var_3675,true);
          this.var_724.method_856(TextFormatAlign.CENTER);
          this.var_724.method_941(class_26.method_1668(class_117.var_5218));
@@ -110,18 +110,18 @@ package
          if(this.var_729)
          {
             this.var_730 = new TextField();
-            this.var_730.defaultTextFormat = new TextFormat(class_73.method_2111(class_60.var_3917),class_170.var_6720,13743497,null,null,null,null,null,TextFormatAlign.CENTER);
+            this.var_730.defaultTextFormat = new TextFormat(class_60.var_3917,class_170.var_6720,13743497,null,null,null,null,null,TextFormatAlign.CENTER);
             this.var_730.width = class_89.var_4444;
-            this.var_730.height = class_73.method_2108(class_170.var_6730);
+            this.var_730.height = class_170.var_6730;
             this.var_730.multiline = class_99.var_4682;
             this.var_730.wordWrap = class_99.var_4682;
             this.var_730.type = TextFieldType.INPUT;
             this.var_730.text = method_346();
             addChild(this.var_730);
          }
-         this.var_725 = new class_246(class_26.method_1668(class_73.method_2111(class_107.var_5045)),_loc1_,this.method_518);
+         this.var_725 = new class_246(class_26.method_1668(class_107.var_5045),_loc1_,this.method_518);
          this.var_726 = new class_246(class_26.method_1668(class_107.var_4995),_loc1_,this.method_517);
-         this.var_727 = new class_246(class_26.method_1668(class_73.method_2111(class_183.var_7069)),_loc1_,method_357);
+         this.var_727 = new class_246(class_26.method_1668(class_183.var_7069),_loc1_,method_357);
          this.var_723.method_950(this.var_724);
          if(this.var_728)
          {
@@ -140,9 +140,9 @@ package
                method_136(this.var_730);
             }
             method_136(this.var_726,this.var_727);
-            addChildAt(this.var_291,class_73.method_2108(class_183.var_7129));
+            addChildAt(this.var_291,class_183.var_7129);
             this.var_291.x = (-this.var_291.name_5 + name_5) / class_165.var_6534;
-            this.var_291.y = class_73.method_2108(class_117.var_5287) + var_206;
+            this.var_291.y = class_117.var_5287 + var_206;
          }
          this.method_519();
       }
@@ -154,7 +154,7 @@ package
       public function method_517() : void
       {
          this.method_352(true);
-         var _loc1_:String = !!this.var_723.method_940() ? class_73.method_2111(class_9.var_3268) : this.var_723.var_1226.text;
+         var _loc1_:String = !!this.var_723.method_940() ? class_9.var_3268 : this.var_723.var_1226.text;
          class_52.var_2884.method_336(_loc1_,class_9.var_3268,class_157.NORMAL);
       }
       
@@ -162,8 +162,8 @@ package
       {
          this.method_352(true);
          method_360(this.var_724.var_1226.text);
-         var _loc1_:String = !!this.var_723.method_940() ? class_73.method_2111(class_9.var_3268) : this.var_723.var_1226.text;
-         var _loc2_:String = this.var_724.method_940() || this.var_724.var_1226.text == class_9.var_3268 ? class_73.method_2111(class_9.var_3268) : class_13.method_1867(this.var_724.var_1226.text);
+         var _loc1_:String = !!this.var_723.method_940() ? class_9.var_3268 : this.var_723.var_1226.text;
+         var _loc2_:String = this.var_724.method_940() || this.var_724.var_1226.text == class_9.var_3268 ? class_9.var_3268 : class_13.method_1867(this.var_724.var_1226.text);
          if(this.var_730)
          {
             class_52.var_2884.method_342(this.var_730.text);
@@ -176,8 +176,8 @@ package
          this.var_291.clear();
          var _loc2_:class_250 = class_141.method_92(param1,class_60.var_3939);
          this.var_291.method_136(_loc2_);
-         _loc2_.x = (-_loc2_.name_5 + this.var_291.name_5) / class_73.method_2108(class_165.var_6534);
-         _loc2_.y = (this.var_291.var_206 - _loc2_.var_206) / class_73.method_2108(class_165.var_6534);
+         _loc2_.x = (-_loc2_.name_5 + this.var_291.name_5) / class_165.var_6534;
+         _loc2_.y = (this.var_291.var_206 - _loc2_.var_206) / class_165.var_6534;
          this.var_291.method_203(this.method_265);
       }
       

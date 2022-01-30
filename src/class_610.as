@@ -28,10 +28,10 @@ package
          this.var_2359 = param1.readBoolean();
          this.var_2360 = param1.readBoolean();
          var _loc2_:int = param1.readByte();
-         if(class_73.method_2108(class_183.var_7129) < _loc2_)
+         if(class_183.var_7129 < _loc2_)
          {
             this.var_2361 = new Array();
-            _loc3_ = class_73.method_2108(class_183.var_7129);
+            _loc3_ = class_183.var_7129;
             while(_loc3_ < _loc2_)
             {
                this.var_2361.push(param1.readUTF());

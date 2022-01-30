@@ -62,7 +62,7 @@ package
       
       public function get method_1793() : int
       {
-         return class_73.method_2108(class_183.var_7093);
+         return class_183.var_7093;
       }
    }
 }

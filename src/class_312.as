@@ -95,9 +95,9 @@ package
          this.var_1348 = class_183.var_7129;
          this.var_1512 = class_183.var_7129;
          this.var_1513 = class_183.var_7129;
-         this.var_737 = class_73.method_2108(class_183.var_7129);
-         this.var_1514 = class_73.method_2116(class_9.var_3254) + Math.random() * class_62.var_4012;
-         this.rotation = class_73.method_2108(class_183.var_7129);
+         this.var_737 = class_183.var_7129;
+         this.var_1514 = class_9.var_3254 + Math.random() * class_62.var_4012;
+         this.rotation = class_183.var_7129;
          this.var_414 = class_107.var_5060 + Math.random() * class_62.var_4012;
          super();
          if(this.var_414 > class_165.var_6391)
@@ -186,7 +186,7 @@ package
          }
          if(isNaN(this.rotation))
          {
-            this.rotation = class_73.method_2108(class_183.var_7129);
+            this.rotation = class_183.var_7129;
          }
          if(isNaN(this.var_1512))
          {
@@ -194,9 +194,9 @@ package
          }
          if(isNaN(this.var_1513))
          {
-            this.var_1513 = class_73.method_2108(class_183.var_7129);
+            this.var_1513 = class_183.var_7129;
          }
-         if(this.var_1514 < class_73.method_2108(class_183.var_7129))
+         if(this.var_1514 < class_183.var_7129)
          {
             this.var_1514 = class_121.method_2361();
          }

@@ -50,7 +50,7 @@ package
          }
          var _loc4_:int = Math.round(param2 * param1.width);
          var _loc5_:int = Math.round(param3 * param1.height);
-         var _loc6_:BitmapData = new BitmapData(_loc4_,_loc5_,param1.transparent,class_73.method_2108(class_183.var_7129));
+         var _loc6_:BitmapData = new BitmapData(_loc4_,_loc5_,param1.transparent,class_183.var_7129);
          var _loc7_:Matrix = new Matrix();
          _loc7_.scale(param2,param3);
          _loc6_.draw(param1,_loc7_,null,null,null,true);
@@ -63,7 +63,7 @@ package
          var _loc6_:int = 0;
          var _loc7_:Number = NaN;
          var _loc2_:int = class_1.method_1816();
-         var _loc3_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc3_:int = -class_33.var_3679;
          var _loc4_:int = class_233.var_7172.length;
          while(++_loc3_ < _loc4_)
          {
@@ -94,7 +94,7 @@ package
                   {
                      _loc5_.var_1767(_loc5_.var_1361,class_33.var_3679);
                   }
-                  class_233.var_7172.splice(_loc3_,class_73.method_2108(class_33.var_3679));
+                  class_233.var_7172.splice(_loc3_,class_33.var_3679);
                   _loc3_--;
                   _loc4_--;
                   if(_loc5_.var_1757 != null)
@@ -112,7 +112,7 @@ package
                      }
                      else
                      {
-                        _loc5_.var_1361.x = _loc5_.var_300(_loc7_,_loc5_.var_1743,_loc5_.var_1745,class_73.method_2108(class_33.var_3679));
+                        _loc5_.var_1361.x = _loc5_.var_300(_loc7_,_loc5_.var_1743,_loc5_.var_1745,class_33.var_3679);
                      }
                   }
                   if(_loc5_.var_1761)
@@ -123,7 +123,7 @@ package
                      }
                      else
                      {
-                        _loc5_.var_1361.y = _loc5_.var_300(_loc7_,_loc5_.var_1744,_loc5_.var_1746,class_73.method_2108(class_33.var_3679));
+                        _loc5_.var_1361.y = _loc5_.var_300(_loc7_,_loc5_.var_1744,_loc5_.var_1746,class_33.var_3679);
                      }
                   }
                   if(_loc5_.var_1762)
@@ -145,7 +145,7 @@ package
                      }
                      else
                      {
-                        _loc5_.var_1361.transform.colorTransform = new ColorTransform(_loc5_.var_300(_loc7_,_loc5_.var_1747,_loc5_.var_1749,class_33.var_3679),_loc5_.var_300(_loc7_,_loc5_.var_1750,_loc5_.var_1752,class_73.method_2108(class_33.var_3679)),_loc5_.var_300(_loc7_,_loc5_.var_1753,_loc5_.var_1755,class_73.method_2108(class_33.var_3679)));
+                        _loc5_.var_1361.transform.colorTransform = new ColorTransform(_loc5_.var_300(_loc7_,_loc5_.var_1747,_loc5_.var_1749,class_33.var_3679),_loc5_.var_300(_loc7_,_loc5_.var_1750,_loc5_.var_1752,class_33.var_3679),_loc5_.var_300(_loc7_,_loc5_.var_1753,_loc5_.var_1755,class_33.var_3679));
                      }
                   }
                   if(_loc5_.var_1766)
@@ -156,7 +156,7 @@ package
                      }
                      else
                      {
-                        _loc5_.var_1767(_loc5_.var_1361,_loc5_.var_300(_loc7_,class_73.method_2108(class_183.var_7129),class_73.method_2108(class_33.var_3679),class_73.method_2108(class_33.var_3679)));
+                        _loc5_.var_1767(_loc5_.var_1361,_loc5_.var_300(_loc7_,class_183.var_7129,class_33.var_3679,class_33.var_3679));
                      }
                   }
                }
@@ -201,13 +201,13 @@ package
       public static function method_2811(param1:class_23, param2:Function) : void
       {
          var _loc3_:Sprite = null;
-         _loc3_ = class_175.method_118(class_73.method_2111(class_60.var_3934));
+         _loc3_ = class_175.method_118(class_60.var_3934);
          if(class_1.var_2884.var_9)
          {
-            _loc3_.scaleX = _loc3_.scaleY = class_73.method_2108(class_165.var_6534);
+            _loc3_.scaleX = _loc3_.scaleY = class_165.var_6534;
          }
-         _loc3_.x = param1.name_5 - _loc3_.width / class_165.var_6534 - class_73.method_2108(class_117.var_5287);
-         _loc3_.y = -_loc3_.height / class_73.method_2108(class_165.var_6534) + class_117.var_5287;
+         _loc3_.x = param1.name_5 - _loc3_.width / class_165.var_6534 - class_117.var_5287;
+         _loc3_.y = -_loc3_.height / class_165.var_6534 + class_117.var_5287;
          class_202.method_2754(_loc3_,true,true);
          _loc3_.addEventListener(MouseEvent.MOUSE_DOWN,param2);
          _loc3_.cacheAsBitmap = class_99.var_4681;
@@ -237,12 +237,12 @@ package
       
       public static function method_2813(param1:int, param2:int, param3:int, param4:int, param5:DisplayObjectContainer, param6:int = -1, param7:String = "") : void
       {
-         var _loc8_:int = param6 != -class_73.method_2108(class_33.var_3679) ? int(param6) : int(Math.random() * 16777216);
+         var _loc8_:int = param6 != -class_33.var_3679 ? int(param6) : int(Math.random() * 16777216);
          var _loc9_:Sprite = new Sprite();
          _loc9_.name = param7;
          _loc9_.mouseEnabled = class_99.var_4682;
          _loc9_.graphics.lineStyle(class_33.var_3679,_loc8_);
-         _loc9_.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_183.var_7129,param3,param4);
+         _loc9_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param3,param4);
          _loc9_.graphics.endFill();
          _loc9_.x = param1;
          _loc9_.y = param2;
@@ -254,7 +254,7 @@ package
       
       public static function method_436(param1:DisplayObject, param2:int) : void
       {
-         param1.transform.colorTransform = new ColorTransform((param2 >> class_73.method_2108(class_16.var_3467) & 255) / class_181.var_6910,(param2 >> class_73.method_2108(class_170.var_6731) & 255) / class_181.var_6910,(param2 & 255) / class_73.method_2108(class_181.var_6910));
+         param1.transform.colorTransform = new ColorTransform((param2 >> class_16.var_3467 & 255) / class_181.var_6910,(param2 >> class_170.var_6731 & 255) / class_181.var_6910,(param2 & 255) / class_181.var_6910);
       }
       
       public static function method_2814(param1:InteractiveObject) : void

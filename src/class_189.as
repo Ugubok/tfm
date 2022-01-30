@@ -63,19 +63,19 @@ package
       
       public function method_287(param1:int = 0) : void
       {
-         this.var_336 = -class_73.method_2108(class_146.var_6117) + this.Texte.height;
+         this.var_336 = -class_146.var_6117 + this.Texte.height;
          this.var_335 = this.Texte.width;
-         this.var_348.x = this.Texte.x + this.var_335 + class_73.method_2108(class_117.var_5287);
+         this.var_348.x = this.Texte.x + this.var_335 + class_117.var_5287;
          this.var_348.y = class_117.var_5287 + this.Texte.y;
          var _loc2_:Shape = this.var_348.getChildAt(class_183.var_7129) as Shape;
          _loc2_.graphics.clear();
-         _loc2_.graphics.beginFill(class_183.var_7129,class_73.method_2108(class_183.var_7129));
-         _loc2_.graphics.drawRect(-class_73.method_2108(class_117.var_5287),class_73.method_2108(class_183.var_7129),class_73.method_2108(class_117.var_5279),this.var_336);
+         _loc2_.graphics.beginFill(class_183.var_7129,class_183.var_7129);
+         _loc2_.graphics.drawRect(-class_117.var_5287,class_183.var_7129,class_117.var_5279,this.var_336);
          _loc2_.graphics.endFill();
-         var _loc3_:Shape = this.var_348.getChildAt(class_73.method_2108(class_33.var_3679)) as Shape;
+         var _loc3_:Shape = this.var_348.getChildAt(class_33.var_3679) as Shape;
          _loc3_.graphics.clear();
          _loc3_.graphics.beginFill(this.var_351);
-         _loc3_.graphics.drawRoundRect(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),class_73.method_2108(class_146.var_6118),this.var_336,class_121.var_5495);
+         _loc3_.graphics.drawRoundRect(class_183.var_7129,class_183.var_7129,class_146.var_6118,this.var_336,class_121.var_5495);
          _loc3_.graphics.endFill();
          this.Rendu_Ascenseur(param1);
       }
@@ -89,7 +89,7 @@ package
       public function method_283(param1:MouseEvent) : void
       {
          var _loc2_:int = this.var_348.mouseY - this.var_354;
-         if(_loc2_ < class_73.method_2108(class_183.var_7129))
+         if(_loc2_ < class_183.var_7129)
          {
             _loc2_ = class_183.var_7129;
          }
@@ -100,7 +100,7 @@ package
          this.var_349.y = _loc2_;
          var _loc3_:Number = this.var_349.y / this.var_353;
          var _loc4_:int = Math.ceil(_loc3_ * this.Texte.maxScrollV);
-         if(_loc4_ == class_73.method_2108(class_183.var_7129))
+         if(_loc4_ == class_183.var_7129)
          {
             _loc4_ = class_33.var_3679;
          }
@@ -137,7 +137,7 @@ package
                _loc2_ = -this.var_993;
             }
             this.Texte.scrollV += _loc2_;
-            _loc3_ = (-class_73.method_2108(class_33.var_3679) + this.Texte.scrollV) / (this.Texte.maxScrollV - class_73.method_2108(class_33.var_3679));
+            _loc3_ = (-class_33.var_3679 + this.Texte.scrollV) / (this.Texte.maxScrollV - class_33.var_3679);
             this.var_349.y = int(_loc3_ * this.var_353);
             this.var_355 = this.Texte.maxScrollV == this.Texte.scrollV;
             if(this.var_994 != null)
@@ -152,7 +152,7 @@ package
          var _loc2_:int = 0;
          var _loc3_:Number = NaN;
          var _loc4_:int = 0;
-         if(this.Texte.maxScrollV == class_73.method_2108(class_33.var_3679))
+         if(this.Texte.maxScrollV == class_33.var_3679)
          {
             this.Texte.scrollV = class_33.var_3679;
             visible = class_99.var_4682;
@@ -165,13 +165,13 @@ package
             this.var_355 = this.Texte.maxScrollV == this.Texte.scrollV;
             visible = class_99.var_4681;
             _loc4_ = int(this.var_336 * _loc3_);
-            if(class_73.method_2108(class_146.var_6117) > _loc4_)
+            if(class_146.var_6117 > _loc4_)
             {
-               _loc4_ = class_73.method_2108(class_146.var_6117);
+               _loc4_ = class_146.var_6117;
             }
             this.var_349.graphics.clear();
             this.var_349.graphics.beginFill(this.var_352);
-            this.var_349.graphics.drawRoundRect(class_183.var_7129,class_183.var_7129,class_73.method_2108(class_146.var_6118),_loc4_,class_121.var_5495);
+            this.var_349.graphics.drawRoundRect(class_183.var_7129,class_183.var_7129,class_146.var_6118,_loc4_,class_121.var_5495);
             this.var_349.graphics.endFill();
             this.var_353 = this.var_336 - _loc4_;
             if(this.var_349.y > this.var_353)
@@ -180,10 +180,10 @@ package
             }
             if(class_183.var_7129 == param1)
             {
-               this.Texte.scrollV = class_73.method_2108(class_183.var_7129);
+               this.Texte.scrollV = class_183.var_7129;
                this.var_349.y = class_183.var_7129;
             }
-            else if(class_73.method_2108(class_33.var_3679) == param1)
+            else if(class_33.var_3679 == param1)
             {
                if(this.var_355)
                {
@@ -191,7 +191,7 @@ package
                   this.var_349.y = this.var_353;
                }
             }
-            else if(class_73.method_2108(class_165.var_6534) == param1)
+            else if(class_165.var_6534 == param1)
             {
                this.Texte.scrollV = this.Texte.maxScrollV;
                this.var_349.y = this.var_353;

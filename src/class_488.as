@@ -26,7 +26,7 @@ package
       
       public function method_1375() : int
       {
-         return class_73.method_2108(class_9.var_3267) + this.var_1954.length;
+         return class_9.var_3267 + this.var_1954.length;
       }
       
       public function write(param1:ByteArray) : void

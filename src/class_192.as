@@ -21,7 +21,7 @@ package
       {
          if(class_192.var_7141)
          {
-            class_192.var_7142.x = class_1.var_2884[class_73.method_2111(class_107.var_5075)];
+            class_192.var_7142.x = class_1.var_2884[class_107.var_5075];
             class_192.var_7142.y = class_1.var_2884[class_165.var_6533];
          }
       }
@@ -34,14 +34,14 @@ package
          }
          class_192.var_7142 = class_175.method_2618(param1);
          class_192.var_7141 = class_99.var_4681;
-         class_192.var_7142.addEventListener(class_73.method_2111(class_121.var_5449),class_192.method_2747);
+         class_192.var_7142.addEventListener(class_121.var_5449,class_192.method_2747);
          return class_192.var_7142;
       }
       
       public static function method_2746() : void
       {
          class_192.var_7141 = class_99.var_4682;
-         class_1.var_2884.removeEventListener(class_73.method_2111(class_124.var_5632),class_192.name_2);
+         class_1.var_2884.removeEventListener(class_124.var_5632,class_192.name_2);
          Mouse.show();
          if(class_192.var_7142 && class_192.var_7142.parent)
          {
@@ -54,7 +54,7 @@ package
          if(class_192.var_7141 && class_192.var_7142)
          {
             class_1.var_2884.addChild(class_192.var_7142);
-            class_1.var_2884.addEventListener(class_73.method_2111(class_124.var_5632),class_192.name_2);
+            class_1.var_2884.addEventListener(class_124.var_5632,class_192.name_2);
             Mouse.hide();
          }
       }

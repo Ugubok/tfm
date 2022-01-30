@@ -25,8 +25,8 @@ package
       {
          if(param2 == class_47.const_236)
          {
-            param1.var_1467 = class_73.method_2108(class_124.var_5641);
-            param1.var_1468 = class_73.method_2108(class_183.var_7129);
+            param1.var_1467 = class_124.var_5641;
+            param1.var_1468 = class_183.var_7129;
             return;
          }
          if(param2 == class_47.const_237)
@@ -38,25 +38,25 @@ package
          if(param2 == class_47.const_238)
          {
             param1.var_1467 = class_165.var_6534;
-            param1.var_1468 = class_73.method_2108(class_9.var_3259);
+            param1.var_1468 = class_9.var_3259;
             return;
          }
          if(param2 == class_47.name_59)
          {
-            param1.var_1467 = class_73.method_2108(class_121.var_5495);
+            param1.var_1467 = class_121.var_5495;
             param1.var_1468 = class_183.var_7127;
             return;
          }
          if(param2 == class_47.const_239)
          {
-            param1.var_1467 = class_73.method_2108(class_170.var_6731);
+            param1.var_1467 = class_170.var_6731;
             param1.var_1468 = class_170.var_6720;
             return;
          }
          if(param2 == class_47.const_240)
          {
             param1.var_1467 = class_16.var_3467;
-            param1.var_1468 = class_73.method_2108(class_146.var_6118);
+            param1.var_1468 = class_146.var_6118;
             return;
          }
       }

@@ -35,7 +35,7 @@ package
                {
                   _loc5_.var_162 = _loc3_;
                }
-               class_363.var_7260.splice(class_363.var_7260.indexOf(_loc4_),class_73.method_2108(class_33.var_3679),_loc3_);
+               class_363.var_7260.splice(class_363.var_7260.indexOf(_loc4_),class_33.var_3679,_loc3_);
             }
             class_363.var_7261[_loc3_.var_574] = _loc3_;
          }
@@ -52,12 +52,12 @@ package
          var var_7558:Array = null;
          var var_7436:int = 0;
          var var_790:Vector.<int> = new Vector.<int>(var_1029);
-         if(var_1029 > class_73.method_2108(class_183.var_7129))
+         if(var_1029 > class_183.var_7129)
          {
             try
             {
                var_7558 = class_21.method_1885(var_574);
-               var_7436 = class_73.method_2108(class_183.var_7129);
+               var_7436 = class_183.var_7129;
                while(var_7436 < var_1029)
                {
                   var_790[var_7436] = !!var_7558[var_7436] ? int(var_7558[var_7436]) : int(class_183.var_7129);

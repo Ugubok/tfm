@@ -77,7 +77,7 @@ package
             }
             return;
          }
-         if(class_73.method_2108(class_146.var_6118) == param2)
+         if(class_146.var_6118 == param2)
          {
             class_55.method_1971().method_362(param1.readInt());
             return;
@@ -88,7 +88,7 @@ package
             _loc6_ = param1.readShort();
             _loc7_ = param1.readShort();
             _loc8_ = param1.readShort();
-            if(_loc5_ != class_73.method_2108(class_183.var_7129))
+            if(_loc5_ != class_183.var_7129)
             {
                class_184.var_2341.var_972.var_737 = _loc5_;
                class_184.var_2341.var_979 = class_99.var_4681;
@@ -103,7 +103,7 @@ package
                class_184.var_2341.name_32.var_737 = _loc7_;
                class_184.var_2341.var_981 = class_99.var_4681;
             }
-            if(_loc8_ != class_73.method_2108(class_183.var_7129))
+            if(_loc8_ != class_183.var_7129)
             {
                class_184.var_2341.var_976.var_737 = _loc8_;
                class_184.var_2341.var_982 = class_99.var_4681;
@@ -129,7 +129,7 @@ package
             }
             return;
          }
-         if(class_73.method_2108(class_117.var_5287) == param2)
+         if(class_117.var_5287 == param2)
          {
             _loc9_ = param1.readInt();
             _loc10_ = param1.readByte();
@@ -143,26 +143,26 @@ package
                {
                   _loc13_.var_954 = _loc10_;
                   _loc14_.var_954 = _loc12_;
-                  _loc13_.var_940.addFrameScript(_loc13_.var_940.totalFrames - class_73.method_2108(class_33.var_3679),_loc13_.method_715);
+                  _loc13_.var_940.addFrameScript(_loc13_.var_940.totalFrames - class_33.var_3679,_loc13_.method_715);
                   _loc14_.var_940.addFrameScript(_loc14_.var_940.totalFrames - class_33.var_3679,_loc14_.method_715);
                }
             }
             return;
          }
-         if(class_73.method_2108(class_9.var_3267) == param2)
+         if(class_9.var_3267 == param2)
          {
             _loc15_ = new class_836(param1);
             class_1.var_2884.var_140 = _loc15_.var_2752;
             class_1.var_2884.var_26[class_107.var_4914] = class_1.var_2884.var_140;
             return;
          }
-         if(param2 == class_73.method_2108(class_92.var_4647))
+         if(param2 == class_92.var_4647)
          {
             if(class_152.var_6142)
             {
                _loc16_ = param1.readShort();
                _loc17_ = class_58.var_3803.var_506.var_420;
-               class_125.method_2386(class_46.const_195,_loc16_,_loc17_ + class_73.method_2108(class_183.var_7127));
+               class_125.method_2386(class_46.const_195,_loc16_,_loc17_ + class_183.var_7127);
             }
             return;
          }
@@ -171,7 +171,7 @@ package
             class_276.method_1971().method_1008(param1.readUTF());
             return;
          }
-         if(param2 == class_73.method_2108(class_183.var_7127))
+         if(param2 == class_183.var_7127)
          {
             if(class_215.var_3803)
             {
@@ -179,19 +179,19 @@ package
             }
             return;
          }
-         if(class_73.method_2108(class_162.var_6351) == param2)
+         if(class_162.var_6351 == param2)
          {
             _loc18_ = new class_833(param1);
             class_547.method_3051(_loc18_.var_2741,_loc18_.var_2742);
             return;
          }
-         if(class_73.method_2108(class_33.var_3668) == param2)
+         if(class_33.var_3668 == param2)
          {
             _loc19_ = new class_837(param1);
             class_63.method_2037(_loc19_.var_2753,_loc19_.var_2754,_loc19_.var_2755,_loc19_.var_2756,_loc19_.var_2757);
             return;
          }
-         if(param2 == class_73.method_2108(class_124.var_5641))
+         if(param2 == class_124.var_5641)
          {
             class_63.method_2050();
             return;
@@ -214,7 +214,7 @@ package
                _loc3_ = class_1.var_2884.var_85[param1.readInt()];
                if(_loc3_)
                {
-                  class_2.method_1819(_loc3_,param1.readInt(),param1.readInt() / class_146.var_6117,param1.readInt() / class_146.var_6117,param1.readInt() / class_146.var_6117,param1.readInt() / class_73.method_2108(class_146.var_6117));
+                  class_2.method_1819(_loc3_,param1.readInt(),param1.readInt() / class_146.var_6117,param1.readInt() / class_146.var_6117,param1.readInt() / class_146.var_6117,param1.readInt() / class_146.var_6117);
                }
                return;
             }
@@ -224,7 +224,7 @@ package
                class_2.method_1824(_loc20_);
                return;
             }
-            if(class_73.method_2108(class_121.var_5495) == _loc4_)
+            if(class_121.var_5495 == _loc4_)
             {
                _loc3_ = class_1.var_2884.var_85[param1.readInt()];
                if(_loc3_)
@@ -233,7 +233,7 @@ package
                }
                return;
             }
-            if(_loc4_ == class_73.method_2108(class_117.var_5287))
+            if(_loc4_ == class_117.var_5287)
             {
                _loc3_ = class_1.var_2884.var_85[param1.readInt()];
                if(_loc3_)
@@ -243,10 +243,10 @@ package
                return;
             }
          }
-         if(param2 == class_73.method_2108(class_165.var_6506))
+         if(param2 == class_165.var_6506)
          {
             _loc4_ = param1.readByte();
-            if(class_73.method_2108(class_33.var_3679) == _loc4_)
+            if(class_33.var_3679 == _loc4_)
             {
                _loc21_ = param1.readUTF();
                _loc22_ = param1.readUnsignedInt();
@@ -255,13 +255,13 @@ package
                _loc25_ = param1.readUTF();
                class_115.method_388(class_839.method_3088(_loc21_,_loc22_,_loc23_,_loc24_,_loc25_));
             }
-            else if(_loc4_ == class_73.method_2108(class_165.var_6534))
+            else if(_loc4_ == class_165.var_6534)
             {
                class_115.method_388(class_839.method_3087(param1.readUnsignedInt(),param1.readByte(),param1.readUnsignedInt(),param1.readUTF(),param1.readUTF()));
             }
             return;
          }
-         if(class_73.method_2108(class_102.var_4837) == param2)
+         if(class_102.var_4837 == param2)
          {
             class_168.var_6539.var_929 = !param1.readBoolean();
             class_168.var_6539.method_686(class_168.var_6539.var_912);
@@ -276,7 +276,7 @@ package
          if(class_121.var_5461 == param2)
          {
             _loc26_ = param1.readByte();
-            if(class_73.method_2108(class_183.var_7129) == _loc26_)
+            if(class_183.var_7129 == _loc26_)
             {
                class_637.method_3059(new class_648(class_300.method_118(param1.readUnsignedShort(),param1.readUnsignedShort(),false,true)));
             }
@@ -307,7 +307,7 @@ package
             }
             return;
          }
-         if(param2 == class_73.method_2108(class_107.var_5068))
+         if(param2 == class_107.var_5068)
          {
             _loc3_ = class_1.var_2884.var_85[param1.readInt()];
             if(_loc3_)
@@ -316,21 +316,21 @@ package
             }
             return;
          }
-         if(param2 == class_73.method_2108(class_165.var_6492))
+         if(param2 == class_165.var_6492)
          {
             _loc3_ = class_1.var_2884.var_85[param1.readInt()];
             if(_loc3_)
             {
                _loc3_.method_709();
-               class_58.var_3803.method_403(_loc3_.x - class_73.method_2108(class_146.var_6117),_loc3_.y - class_183.var_7127,param1.readUnsignedShort());
+               class_58.var_3803.method_403(_loc3_.x - class_146.var_6117,_loc3_.y - class_183.var_7127,param1.readUnsignedShort());
             }
             return;
          }
-         if(param2 == class_73.method_2108(class_124.var_5617))
+         if(param2 == class_124.var_5617)
          {
             _loc30_ = param1.readUnsignedByte();
             _loc31_ = param1.readUnsignedShort();
-            class_1.var_2884.method_97(class_73.method_2111(class_127.var_5831) + class_26.method_1668(class_92.var_4510,class_26.method_1903(_loc30_ == class_306.var_7229,class_89.var_4303 + _loc31_)));
+            class_1.var_2884.method_97(class_127.var_5831 + class_26.method_1668(class_92.var_4510,class_26.method_1903(_loc30_ == class_306.var_7229,class_89.var_4303 + _loc31_)));
             if(class_621.name_62())
             {
                class_621.method_3057(_loc31_);
@@ -342,7 +342,7 @@ package
             _loc32_ = param1.readBoolean();
             _loc33_ = param1.readByte();
             class_58.var_3803.var_532 = new Vector.<class_337>(_loc33_);
-            _loc45_ = class_73.method_2108(class_183.var_7129);
+            _loc45_ = class_183.var_7129;
             while(_loc45_ < _loc33_)
             {
                _loc34_ = new class_337(param1.readShort(),param1.readShort(),param1.readShort(),param1.readShort(),param1.readShort());
@@ -368,7 +368,7 @@ package
             }
             return;
          }
-         if(param2 == class_73.method_2108(class_170.var_6695))
+         if(param2 == class_170.var_6695)
          {
             if(class_52.var_2884 && class_52.var_2884 is class_229)
             {
@@ -376,7 +376,7 @@ package
             }
             return;
          }
-         if(class_73.method_2108(class_121.var_5493) == param2)
+         if(class_121.var_5493 == param2)
          {
             _loc36_ = param1.readUTF();
             if(null == class_1.var_2878.var_183)
@@ -396,14 +396,14 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_165.var_6534) == _loc4_)
+            if(class_165.var_6534 == _loc4_)
             {
                _loc37_ = param1.readInt();
                _loc39_ = param1.readUTF();
                _loc40_ = param1.readShort();
                _loc41_ = param1.readShort();
                _loc42_ = param1.readBoolean();
-               _loc43_ = param1.readShort() / class_73.method_2116(class_117.var_5286);
+               _loc43_ = param1.readShort() / class_117.var_5286;
                _loc44_ = param1.readShort();
                if(_loc37_ != class_183.var_7129)
                {
@@ -414,7 +414,7 @@ package
                      {
                         _loc3_.var_885 = new Vector.<DisplayObject>();
                      }
-                     if(_loc39_.charAt(class_183.var_7129) == class_73.method_2111(class_9.var_3256))
+                     if(_loc39_.charAt(class_183.var_7129) == class_9.var_3256)
                      {
                         _loc38_ = class_175.method_118(_loc39_,true);
                      }
@@ -439,7 +439,7 @@ package
                      {
                         _loc3_.var_885 = new Vector.<DisplayObject>();
                      }
-                     if(_loc39_.charAt(class_73.method_2108(class_183.var_7129)) == class_9.var_3256)
+                     if(_loc39_.charAt(class_183.var_7129) == class_9.var_3256)
                      {
                         _loc38_ = class_175.method_118(_loc39_,true);
                      }
@@ -461,7 +461,7 @@ package
             if(class_146.var_6118 == _loc4_)
             {
                _loc37_ = param1.readInt();
-               if(_loc37_ != class_73.method_2108(class_183.var_7129))
+               if(_loc37_ != class_183.var_7129)
                {
                   _loc3_ = class_1.var_2884.var_85[_loc37_];
                   if(_loc3_ && _loc3_.var_885)
@@ -510,21 +510,21 @@ package
             _loc49_ = param1.readUnsignedInt();
             _loc50_ = param1.readInt();
             _loc51_ = new ByteArray();
-            param1.readBytes(_loc51_,class_73.method_2108(class_183.var_7129),_loc50_);
+            param1.readBytes(_loc51_,class_183.var_7129,_loc50_);
             _loc51_.uncompress(class_60.var_3885);
-            _loc51_.position = class_73.method_2108(class_183.var_7129);
+            _loc51_.position = class_183.var_7129;
             _loc52_ = _loc51_.readUTFBytes(_loc51_.length);
             _loc53_ = param1.readUnsignedInt();
             _loc50_ = param1.readInt();
             _loc51_ = new ByteArray();
-            param1.readBytes(_loc51_,class_73.method_2108(class_183.var_7129),_loc50_);
+            param1.readBytes(_loc51_,class_183.var_7129,_loc50_);
             _loc51_.uncompress(class_60.var_3885);
-            _loc51_.position = class_73.method_2108(class_183.var_7129);
+            _loc51_.position = class_183.var_7129;
             _loc54_ = _loc51_.readUTFBytes(_loc51_.length);
             class_835.method_427(_loc46_,_loc47_,_loc48_,_loc49_,_loc52_,_loc53_,_loc54_);
             return;
          }
-         throw new Error(class_73.method_2111(class_4.var_2936) + param2);
+         throw new Error(class_4.var_2936 + param2);
       }
    }
 }

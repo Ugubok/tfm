@@ -9,9 +9,9 @@ package
       public static var var_2341:class_184 = new class_184();
        
       
-      public const const_14:int = class_73.method_2108(class_121.var_5493);
+      public const const_14:int = class_121.var_5493;
       
-      public const const_15:int = class_73.method_2108(class_146.var_6117);
+      public const const_15:int = class_146.var_6117;
       
       public const const_16:int = class_33.var_3679;
       
@@ -111,17 +111,17 @@ package
       {
          this.var_957 = new Dictionary();
          this.var_958 = new Vector.<int>();
-         this.var_959 = class_33.var_3679 + Math.random() * class_73.method_2116(class_62.var_4012);
-         this.var_960 = class_73.method_2108(class_89.var_4444);
-         this.var_961 = class_73.method_2108(class_183.var_7129);
+         this.var_959 = class_33.var_3679 + Math.random() * class_62.var_4012;
+         this.var_960 = class_89.var_4444;
+         this.var_961 = class_183.var_7129;
          this.name_26 = class_146.var_6103;
          this.var_962 = class_183.var_7129;
-         this.name_27 = class_73.method_2108(class_33.var_3679);
+         this.name_27 = class_33.var_3679;
          this.name_28 = class_33.var_3679;
          this.var_963 = class_183.var_7129;
-         this.var_964 = class_73.method_2108(class_4.var_3058);
+         this.var_964 = class_4.var_3058;
          this.var_965 = class_4.var_3058;
-         this.var_966 = class_73.method_2108(class_170.var_6717) + Math.random() * class_73.method_2116(class_62.var_4012);
+         this.var_966 = class_170.var_6717 + Math.random() * class_62.var_4012;
          this.var_967 = this.const_17;
          this.var_968 = this.const_17;
          this.var_969 = class_183.var_7129;
@@ -129,7 +129,7 @@ package
          this.name_30 = this.const_17;
          this.var_970 = this.const_17;
          this.name_31 = this.const_17;
-         this.var_971 = class_73.method_2108(class_183.var_7129);
+         this.var_971 = class_183.var_7129;
          this.var_972 = new class_142();
          this.var_973 = new class_142();
          this.var_974 = new class_142();
@@ -139,12 +139,12 @@ package
          this.var_977 = new class_142();
          this.var_978 = new class_142();
          this.name_33 = class_107.var_5060;
-         this.var_983 = class_73.method_2108(class_33.var_3679);
+         this.var_983 = class_33.var_3679;
          this.name_34 = this.const_17;
-         this.var_984 = class_73.method_2108(class_183.var_7129);
-         this.var_985 = class_73.method_2108(class_33.var_3679);
-         this.var_986 = class_73.method_2108(class_33.var_3675);
-         this.var_987 = class_73.method_2116(class_127.var_5872);
+         this.var_984 = class_183.var_7129;
+         this.var_985 = class_33.var_3679;
+         this.var_986 = class_33.var_3675;
+         this.var_987 = class_127.var_5872;
          this.name_35 = this.const_17;
          this.name_24 = this.const_17;
          this.var_988 = class_107.var_4873;
@@ -315,7 +315,7 @@ package
             }
             if(class_58.var_3803)
             {
-               _loc3_ = class_73.method_2108(class_183.var_7129);
+               _loc3_ = class_183.var_7129;
                while(_loc3_ < class_58.var_3803.var_511.length)
                {
                   _loc4_ = class_58.var_3803.var_511[_loc3_];

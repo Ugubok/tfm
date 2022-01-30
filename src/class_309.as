@@ -24,7 +24,7 @@ package
       
       public function class_309(param1:int, param2:int, param3:int)
       {
-         this.rotation = class_73.method_2108(class_183.var_7129);
+         this.rotation = class_183.var_7129;
          super();
          this.var_1480 = param1;
          this.var_304 = param2;

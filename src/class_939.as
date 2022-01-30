@@ -41,11 +41,11 @@ package
          }
          else if(param1.var_210 == class_954.var_7411)
          {
-            class_154.method_2532(class_26.method_1668(class_73.method_2111(class_162.var_6245)));
+            class_154.method_2532(class_26.method_1668(class_162.var_6245));
          }
          else if(class_954.var_7428 == param1.var_210)
          {
-            class_154.method_2532(class_26.method_1668(class_73.method_2111(class_62.var_4053)));
+            class_154.method_2532(class_26.method_1668(class_62.var_4053));
          }
          else
          {

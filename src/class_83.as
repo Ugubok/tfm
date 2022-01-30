@@ -50,11 +50,11 @@ package
       {
          while(class_83.const_459.numChildren)
          {
-            class_83.const_459.removeChildAt(class_73.method_2108(class_183.var_7129));
+            class_83.const_459.removeChildAt(class_183.var_7129);
          }
          while(class_83.const_460.numChildren)
          {
-            class_83.const_460.removeChildAt(class_73.method_2108(class_183.var_7129));
+            class_83.const_460.removeChildAt(class_183.var_7129);
          }
          while(class_83.var_4252.numChildren)
          {
@@ -71,9 +71,9 @@ package
       public static function method_2128() : void
       {
          class_1.var_2884.var_50.addChild(class_83.const_459);
-         class_1.var_2884.var_53.addChildAt(class_83.var_4253,class_73.method_2108(class_183.var_7129));
-         class_1.var_2884.var_53.addChildAt(class_83.const_460,class_73.method_2108(class_33.var_3679));
-         class_1.var_2884.var_53.addChildAt(class_83.var_4252,class_73.method_2108(class_165.var_6534));
+         class_1.var_2884.var_53.addChildAt(class_83.var_4253,class_183.var_7129);
+         class_1.var_2884.var_53.addChildAt(class_83.const_460,class_33.var_3679);
+         class_1.var_2884.var_53.addChildAt(class_83.var_4252,class_165.var_6534);
       }
    }
 }

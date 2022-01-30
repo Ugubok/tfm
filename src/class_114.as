@@ -20,7 +20,7 @@ package
       
       public static function method_2305() : Number
       {
-         class_114.var_5111 = class_73.method_2108(class_127.var_5855) * class_114.var_5111 % class_73.method_2108(class_62.var_4128);
+         class_114.var_5111 = class_127.var_5855 * class_114.var_5111 % class_62.var_4128;
          return class_114.var_5111 % class_181.var_6922 / class_181.var_6922;
       }
       
@@ -39,7 +39,7 @@ package
       
       public static function method_2307(param1:Number) : Number
       {
-         return param1 * class_73.method_2108(class_170.var_6705) / Math.PI;
+         return param1 * class_170.var_6705 / Math.PI;
       }
       
       public static function method_2308() : Number
@@ -57,12 +57,12 @@ package
       public static function method_2310(param1:int, param2:int, param3:int, param4:int) : int
       {
          var _loc5_:int = param1 - param3;
-         if(_loc5_ < class_73.method_2108(class_183.var_7129))
+         if(_loc5_ < class_183.var_7129)
          {
             _loc5_ = -_loc5_;
          }
          var _loc6_:int = param2 - param4;
-         if(_loc6_ < class_73.method_2108(class_183.var_7129))
+         if(_loc6_ < class_183.var_7129)
          {
             _loc6_ = -_loc6_;
          }
@@ -90,7 +90,7 @@ package
       
       public static function method_2314(param1:int, param2:int = 4) : Number
       {
-         if(class_73.method_2108(class_183.var_7129) > param1)
+         if(class_183.var_7129 > param1)
          {
             param1 *= -class_33.var_3679;
          }
@@ -99,7 +99,7 @@ package
          {
             param1 = param1 * class_127.var_5855 % class_62.var_4128;
          }
-         return param1 % class_73.method_2108(class_181.var_6922) / class_181.var_6922;
+         return param1 % class_181.var_6922 / class_181.var_6922;
       }
       
       public static function name_51(param1:String) : Number
@@ -140,7 +140,7 @@ package
       {
          var _loc9_:Number = ((-param6 + param2) * (-param5 + param7) - (param1 - param5) * (-param6 + param8)) / ((param3 - param1) * (param8 - param6) - (param4 - param2) * (-param5 + param7));
          var _loc10_:Number = ((param2 - param6) * (param3 - param1) - (param1 - param5) * (-param2 + param4)) / ((-param1 + param3) * (-param6 + param8) - (-param2 + param4) * (param7 - param5));
-         if(_loc9_ >= class_73.method_2108(class_183.var_7129) - class_73.method_2116(class_4.var_3035) && _loc9_ <= class_33.var_3679 + class_73.method_2116(class_4.var_3035) && _loc10_ >= class_183.var_7129 - class_4.var_3035 && _loc10_ <= class_73.method_2108(class_33.var_3679) + class_73.method_2116(class_4.var_3035))
+         if(_loc9_ >= class_183.var_7129 - class_4.var_3035 && _loc9_ <= class_33.var_3679 + class_4.var_3035 && _loc10_ >= class_183.var_7129 - class_4.var_3035 && _loc10_ <= class_33.var_3679 + class_4.var_3035)
          {
             return new Point(param1 + _loc9_ * (param3 - param1),param2 + _loc9_ * (-param2 + param4));
          }

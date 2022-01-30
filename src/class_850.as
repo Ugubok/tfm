@@ -17,7 +17,7 @@ package
          this.var_2773 = new class_729();
          this.var_2771 = [new class_729()];
          super(param1,param2);
-         this.var_2772 = this.var_2771[class_73.method_2108(class_183.var_7129)];
+         this.var_2772 = this.var_2771[class_183.var_7129];
          this.var_2772.var_2547 = class_183.var_7129;
       }
       
@@ -51,14 +51,14 @@ package
          _loc7_.var_2536 = var_2517;
          _loc7_.var_413 = var_1345;
          _loc7_.var_414 = var_1347;
-         if(class_73.method_2108(class_183.var_7129) < this.var_2772.var_2547)
+         if(class_183.var_7129 < this.var_2772.var_2547)
          {
-            _loc8_ = class_73.method_2108(class_183.var_7129);
+            _loc8_ = class_183.var_7129;
             while(_loc8_ < this.var_2772.var_2547)
             {
                _loc10_ = this.var_2772.var_2546[_loc8_];
                _loc10_.var_2538 = class_107.var_4953;
-               _loc10_.var_2539 = class_73.method_2116(class_107.var_4953);
+               _loc10_.var_2539 = class_107.var_4953;
                _loc11_ = class_99.var_4682;
                _loc12_ = _loc10_.var_1768.var_2778;
                _loc13_ = class_183.var_7129;
@@ -102,7 +102,7 @@ package
                }
                _loc8_++;
             }
-            var_2518 = class_73.method_2108(class_33.var_3679);
+            var_2518 = class_33.var_3679;
          }
          else
          {

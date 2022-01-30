@@ -46,14 +46,14 @@ package
          }
          _loc1_.cacheAsBitmap = class_99.var_4682;
          _loc1_.mouseChildren = class_99.var_4681;
-         if(_loc1_.toString().indexOf(class_73.method_2111(class_89.var_4269)) != -class_73.method_2108(class_33.var_3679))
+         if(_loc1_.toString().indexOf(class_89.var_4269) != -class_33.var_3679)
          {
             name_5 = class_89.var_4444;
-            var_206 = class_73.method_2108(class_181.var_6913);
+            var_206 = class_181.var_6913;
          }
          else
          {
-            name_5 = class_73.method_2108(class_162.var_6323);
+            name_5 = class_162.var_6323;
             var_206 = class_62.var_4090;
          }
          var_992 = _loc1_;

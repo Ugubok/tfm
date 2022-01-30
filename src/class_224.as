@@ -65,11 +65,11 @@ package
          var _loc4_:class_250 = null;
          this.var_1149 = class_183.var_7129;
          this.var_1151 = class_183.var_7129;
-         this.var_1152 = class_73.method_2108(class_183.var_7129);
+         this.var_1152 = class_183.var_7129;
          this.var_1153 = class_146.var_6118;
-         this.var_1154 = class_73.method_2108(class_183.var_7129);
-         this.var_1155 = class_73.method_2116(class_9.var_3254);
-         this.var_1156 = class_73.method_2108(class_183.var_7129);
+         this.var_1154 = class_183.var_7129;
+         this.var_1155 = class_9.var_3254;
+         this.var_1156 = class_183.var_7129;
          this.var_1157 = class_183.var_7129;
          this.var_1159 = class_183.var_7129;
          this.var_1161 = class_183.var_7129;
@@ -82,22 +82,22 @@ package
             class_224.var_6539 = this;
          }
          this.var_773 = param3;
-         _loc4_ = new class_250(class_60.var_3849,class_73.method_2108(class_92.var_4637),class_73.method_2108(class_121.var_5470));
-         _loc4_.x = -class_73.method_2108(class_33.var_3668);
+         _loc4_ = new class_250(class_60.var_3849,class_92.var_4637,class_121.var_5470);
+         _loc4_.x = -class_33.var_3668;
          _loc4_.y = -class_102.var_4859;
          this.var_1148 = new Sprite();
          this.var_1148.addChild(_loc4_);
          addChild(this.var_1148);
-         this.var_1110 = new class_116(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),class_89.var_4444,class_89.var_4444,class_215.var_3803.method_846);
+         this.var_1110 = new class_116(class_183.var_7129,class_183.var_7129,class_89.var_4444,class_89.var_4444,class_215.var_3803.method_846);
          this.var_1110.x = -class_121.var_5493;
          this.var_1110.y = -class_170.var_6705;
          addChild(this.var_1110);
          this.var_1166 = new Sprite();
-         this.var_1166.y = -class_73.method_2108(class_9.var_3243);
+         this.var_1166.y = -class_9.var_3243;
          this.var_1166.x = class_183.var_7129;
          this.var_1166.cacheAsBitmap = class_99.var_4681;
-         this.var_927 = new class_506(param2,class_73.method_2108(class_183.var_7129),class_183.var_7129,class_73.method_2108(class_183.var_7129),!!param3 ? int(class_73.method_2108(class_33.var_3679)) : int(class_73.method_2108(class_121.var_5495)));
-         this.var_927.y = -class_73.method_2108(class_146.var_6117);
+         this.var_927 = new class_506(param2,class_183.var_7129,class_183.var_7129,class_183.var_7129,!!param3 ? int(class_33.var_3679) : int(class_121.var_5495));
+         this.var_927.y = -class_146.var_6117;
          addChild(this.var_927);
       }
       
@@ -124,7 +124,7 @@ package
             return false;
          }
          var _loc2_:int = Math.abs(this.var_1152 - class_224.var_6539.var_1152);
-         if(_loc2_ > class_73.method_2108(class_60.var_3979) / class_165.var_6534)
+         if(_loc2_ > class_60.var_3979 / class_165.var_6534)
          {
             return false;
          }
@@ -139,15 +139,15 @@ package
       
       public function method_881() : void
       {
-         this.var_1161 = class_73.method_2108(class_183.var_7129);
+         this.var_1161 = class_183.var_7129;
          this.var_1156 = class_183.var_7129;
-         this.var_1157 = class_73.method_2108(class_183.var_7129);
+         this.var_1157 = class_183.var_7129;
          this.var_1160 = class_99.var_4682;
          this.var_1150 = class_60.method_2002();
-         this.var_1151 = class_73.method_2108(class_183.var_7129);
+         this.var_1151 = class_183.var_7129;
          this.var_1152 = class_183.var_7129;
          this.var_1159 = class_183.var_7129;
-         this.var_1154 = class_73.method_2108(class_183.var_7129);
+         this.var_1154 = class_183.var_7129;
          this.var_366 = class_99.var_4682;
          this.var_1167 = class_99.var_4682;
          this.method_883();
@@ -177,7 +177,7 @@ package
       {
          if(this.var_773)
          {
-            class_39.var_3745.method_313(class_536.method_3046(class_215.var_3803.var_88,this.var_1158.var_574,this.var_1159 * class_121.var_5493,this.var_1154 * class_73.method_2108(class_181.var_6922),param1));
+            class_39.var_3745.method_313(class_536.method_3046(class_215.var_3803.var_88,this.var_1158.var_574,this.var_1159 * class_121.var_5493,this.var_1154 * class_181.var_6922,param1));
          }
       }
    }

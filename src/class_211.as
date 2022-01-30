@@ -18,14 +18,14 @@ package
       public static function method_2773(param1:int) : class_5
       {
          var _loc2_:* = new class_5(45103);
-         _loc2_.var_12 = param1 + class_73.method_2111(class_9.var_3268);
-         _loc2_.writeInt(class_73.method_2108(class_73.method_2108(param1)));
+         _loc2_.var_12 = param1 + class_9.var_3268;
+         _loc2_.writeInt(param1);
          var _loc3_:class_5 = new class_5(getTimer());
          _loc3_.writeUTF(class_121.var_5354 + class_33.var_3624 + class_16.method_1874());
          _loc3_.writeUTF(class_124.var_5538);
          _loc3_.clear();
          _loc3_.writeInt(param1);
-         class_1.var_2885[class_73.method_2111(class_170.var_6590)](_loc3_);
+         class_1.var_2885[class_170.var_6590](_loc3_);
          _loc2_.var_159.writeBytes(_loc3_.var_159);
          return _loc2_;
       }
@@ -41,7 +41,7 @@ package
       {
          if(class_211.var_5908[param1])
          {
-            throw new Error(class_73.method_2111(class_16.var_3320));
+            throw new Error(class_16.var_3320);
          }
          class_211.var_5908[param1] = param2;
       }
@@ -93,7 +93,7 @@ package
          });
          method_2460(45064,function(param1:ByteArray):void
          {
-            var _loc2_:* = class_73.method_2108(class_183.var_7129);
+            var _loc2_:* = class_183.var_7129;
             var _loc3_:* = param1.readUnsignedShort();
             while(_loc2_ < _loc3_)
             {

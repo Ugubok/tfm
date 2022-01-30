@@ -22,7 +22,7 @@ package
       
       public function method_1061(param1:class_5) : void
       {
-         param1.var_159.position = class_73.method_2108(class_183.var_7129);
+         param1.var_159.position = class_183.var_7129;
       }
       
       public function method_1062() : void

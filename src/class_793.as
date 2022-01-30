@@ -38,7 +38,7 @@ package
       
       override public function method_1374() : int
       {
-         return class_73.method_2108(class_121.var_5495);
+         return class_121.var_5495;
       }
       
       override public function write(param1:ByteArray) : void

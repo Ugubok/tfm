@@ -58,9 +58,9 @@ package
          this.var_2517 = param2;
          this.var_2518 = class_183.var_7129;
          this.var_1345 = class_114.method_2311(this.var_2516.var_1345 * (this.var_2517.var_1345 + class_183.var_7129));
-         if(this.var_2516.var_1347 > class_73.method_2108(class_183.var_7129) + this.var_2517.var_1347)
+         if(this.var_2516.var_1347 > class_183.var_7129 + this.var_2517.var_1347)
          {
-            this.var_1347 = class_183.var_7129 + this.var_2516.var_1347 * class_73.method_2108(class_33.var_3679);
+            this.var_1347 = class_183.var_7129 + this.var_2516.var_1347 * class_33.var_3679;
          }
          else
          {
@@ -99,11 +99,11 @@ package
       {
          var _loc2_:int = 0;
          class_715.var_7381 = new Array(class_279.const_700);
-         var _loc1_:int = class_73.method_2108(class_183.var_7129);
+         var _loc1_:int = class_183.var_7129;
          while(_loc1_ < class_279.const_700)
          {
             class_715.var_7381[_loc1_] = new Array(class_279.const_700);
-            _loc2_ = class_73.method_2108(class_183.var_7129);
+            _loc2_ = class_183.var_7129;
             while(_loc2_ < class_279.const_700)
             {
                class_715.var_7381[_loc1_][_loc2_] = new class_851();
@@ -118,7 +118,7 @@ package
       
       public static function method_1718(param1:class_715, param2:*) : void
       {
-         if(param1.var_2518 > class_73.method_2108(class_183.var_7129))
+         if(param1.var_2518 > class_183.var_7129)
          {
             param1.var_2516.var_1344.method_547();
             param1.var_2517.var_1344.method_547();
@@ -151,7 +151,7 @@ package
                return _loc7_(param1,param2,param3);
             }
             _loc8_ = _loc7_(param2,param1,param3);
-            _loc9_ = class_73.method_2108(class_183.var_7129);
+            _loc9_ = class_183.var_7129;
             while(_loc9_ < _loc8_.var_2518)
             {
                _loc10_ = _loc8_.method_1709()[_loc9_];
@@ -170,7 +170,7 @@ package
          var _loc3_:int = this.var_2518;
          var _loc4_:class_147 = this.var_2516.var_1344;
          var _loc5_:class_147 = this.var_2517.var_1344;
-         if(_loc3_ == class_183.var_7129 && _loc2_ > class_73.method_2108(class_183.var_7129))
+         if(_loc3_ == class_183.var_7129 && _loc2_ > class_183.var_7129)
          {
             _loc4_.method_547();
             _loc5_.method_547();

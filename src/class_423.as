@@ -48,7 +48,7 @@ package
          this.var_870.method_671();
          var _loc5_:Number = var_691.var_767;
          var _loc6_:Number = class_9.var_3217 * class_327.const_802 * param1.var_593;
-         var _loc7_:Number = class_73.method_2116(class_9.var_3217) * _loc5_ * param1.var_594 * _loc6_;
+         var _loc7_:Number = class_9.var_3217 * _loc5_ * param1.var_594 * _loc6_;
          var _loc8_:Number = _loc5_ * param1.var_1889 * (_loc6_ * _loc6_);
          this.var_868 = class_121.var_5450 / (_loc8_ + _loc7_);
          this.var_1880 = _loc8_ / (_loc8_ + _loc7_);
@@ -126,7 +126,7 @@ package
          var _loc7_:Number = _loc2_.var_743;
          var _loc8_:Number = _loc2_.var_746;
          this.var_696.var_995.var_304 = _loc7_;
-         this.var_696.var_996.var_304 = class_73.method_2116(class_107.var_4953);
+         this.var_696.var_996.var_304 = class_107.var_4953;
          this.var_696.var_995.var_305 = class_107.var_4953;
          this.var_696.var_996.var_305 = _loc7_;
          this.var_697.var_995.var_304 = _loc8_ * _loc5_ * _loc5_;

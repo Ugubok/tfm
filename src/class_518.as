@@ -47,9 +47,9 @@ package
          }
          if(_loc3_)
          {
-            return _loc3_ + class_26.method_1668(class_183.var_7078) + class_73.method_2111(class_124.var_5647) + _loc4_ + class_26.method_1668(class_73.method_2111(class_89.var_4378));
+            return _loc3_ + class_26.method_1668(class_183.var_7078) + class_124.var_5647 + _loc4_ + class_26.method_1668(class_89.var_4378);
          }
-         return _loc4_ + class_124.var_5647 + class_26.method_1668(class_73.method_2111(class_89.var_4378));
+         return _loc4_ + class_124.var_5647 + class_26.method_1668(class_89.var_4378);
       }
    }
 }

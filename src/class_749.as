@@ -118,7 +118,7 @@ package
                   _loc6_.var_2427 = param3;
                   _loc6_.var_2797 = param4;
                   _loc7_ = -_loc6_.var_2799 + param5;
-                  if(_loc6_.var_2799 < class_73.method_2108(class_89.var_4436) && _loc7_ >= class_146.var_6118 || _loc7_ >= class_73.method_2108(class_146.var_6117))
+                  if(_loc6_.var_2799 < class_89.var_4436 && _loc7_ >= class_146.var_6118 || _loc7_ >= class_146.var_6117)
                   {
                      this.var_2595 = class_99.var_4681;
                   }
@@ -173,7 +173,7 @@ package
          this.var_2591 = class_99.var_4681;
          this.var_2592 = param1;
          this.var_2593 = param2;
-         this.var_2594 = param3.charAt(class_183.var_7129) == class_73.method_2111(class_9.var_3256) ? class_26.method_1668(param3) : param3;
+         this.var_2594 = param3.charAt(class_183.var_7129) == class_9.var_3256 ? class_26.method_1668(param3) : param3;
          this.var_2595 = class_99.var_4681;
          class_749.method_3081(this.var_2578);
       }

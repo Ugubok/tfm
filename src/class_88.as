@@ -51,7 +51,7 @@ package
       public function class_88(param1:int, param2:int, param3:String, param4:Function, param5:* = null, param6:int = 0, param7:Boolean = true)
       {
          var _loc9_:int = 0;
-         this.var_615 = class_73.method_2108(class_146.var_6117);
+         this.var_615 = class_146.var_6117;
          this.name_15 = this.var_616;
          super();
          mouseChildren = class_99.var_4682;
@@ -65,22 +65,22 @@ package
          var _loc8_:MovieClip = new class_88.var_4259();
          this.Texte = _loc8_.T;
          this.Texte.text = param3;
-         this.var_619 = _loc8_.getChildByName(class_73.method_2111(class_16.var_3423)) as MovieClip;
-         this.var_620 = _loc8_.getChildByName(class_73.method_2111(class_9.var_3219)) as MovieClip;
+         this.var_619 = _loc8_.getChildByName(class_16.var_3423) as MovieClip;
+         this.var_620 = _loc8_.getChildByName(class_9.var_3219) as MovieClip;
          if(class_183.var_7129 == param6)
          {
-            param6 = class_73.method_2108(class_117.var_5287) + this.Texte.textWidth;
+            param6 = class_117.var_5287 + this.Texte.textWidth;
          }
-         this.var_615 = (param6 + class_33.var_3675) / class_73.method_2108(class_165.var_6534);
+         this.var_615 = (param6 + class_33.var_3675) / class_165.var_6534;
          _loc9_ = param6;
          this.Texte.width = class_33.var_3675 + _loc9_;
          this.var_619.M.width = _loc9_;
          this.var_619.D.x = class_146.var_6117 + _loc9_;
          this.var_620.M.width = _loc9_;
-         this.var_620.D.x = class_73.method_2108(class_146.var_6117) + _loc9_;
+         this.var_620.D.x = class_146.var_6117 + _loc9_;
          if(class_4.var_3058 < param1)
          {
-            x = int((-(_loc9_ + class_73.method_2108(class_33.var_3675)) + (param1 - class_4.var_3058)) / class_73.method_2108(class_165.var_6534));
+            x = int((-(_loc9_ + class_33.var_3675) + (param1 - class_4.var_3058)) / class_165.var_6534);
          }
          else
          {
@@ -105,7 +105,7 @@ package
          stage.removeEventListener(MouseEvent.MOUSE_UP,this.method_448);
          this.Texte.y = class_165.var_6534;
          removeChild(this.var_620);
-         addChildAt(this.var_619,class_73.method_2108(class_183.var_7129));
+         addChildAt(this.var_619,class_183.var_7129);
          if(this.var_614)
          {
             if(this.var_613)

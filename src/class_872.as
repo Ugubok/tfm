@@ -20,7 +20,7 @@ package
       
       public function get method_1731() : String
       {
-         return class_73.method_2111(class_117.var_5175);
+         return class_117.var_5175;
       }
       
       public function get typeTaille() : int
@@ -36,7 +36,7 @@ package
       public function method_1374() : int
       {
          var _loc1_:int = class_183.var_7129;
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
+         var _loc2_:int = class_183.var_7129;
          while(_loc2_ < this.var_2812.length)
          {
             _loc1_ += this.var_2812[_loc2_].method_1375();
@@ -60,7 +60,7 @@ package
       
       public function get method_1793() : int
       {
-         return class_73.method_2108(class_146.var_6074);
+         return class_146.var_6074;
       }
    }
 }

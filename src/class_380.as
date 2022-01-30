@@ -101,7 +101,7 @@ package
          {
             class_83.const_460.addChild(this);
          }
-         if(param1.indexOf(class_73.method_2111(class_124.var_5609)))
+         if(param1.indexOf(class_124.var_5609))
          {
             mouseChildren = class_99.var_4681;
             mouseEnabled = class_99.var_4681;
@@ -118,7 +118,7 @@ package
             graphics.clear();
             graphics.lineStyle(class_165.var_6534,this.var_1701,this.var_1702,true);
             graphics.beginFill(this.var_1061,this.var_1702);
-            graphics.drawRoundRect(-class_73.method_2108(class_121.var_5495),-class_121.var_5495,this.var_401.width + class_170.var_6731,this.var_401.height + class_170.var_6731,class_73.method_2108(class_146.var_6117));
+            graphics.drawRoundRect(-class_121.var_5495,-class_121.var_5495,this.var_401.width + class_170.var_6731,this.var_401.height + class_170.var_6731,class_146.var_6117);
             graphics.endFill();
          }
       }
@@ -126,10 +126,10 @@ package
       public function method_1239(param1:TextEvent) : void
       {
          var _loc2_:String = param1.text;
-         if(_loc2_.indexOf(class_73.method_2111(class_62.var_4111)) == class_183.var_7129)
+         if(_loc2_.indexOf(class_62.var_4111) == class_183.var_7129)
          {
-            _loc2_ = _loc2_.substr(class_73.method_2108(class_92.var_4647));
-            this.method_325(class_73.method_2111(class_9.var_3268));
+            _loc2_ = _loc2_.substr(class_92.var_4647);
+            this.method_325(class_9.var_3268);
          }
          class_39.var_3745.method_313(new class_736(this.var_574,_loc2_));
          class_1.var_2884.stage.focus = class_1.var_2884;

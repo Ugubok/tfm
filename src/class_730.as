@@ -25,7 +25,7 @@ package
          this.normal = new class_167();
          super();
          this.var_2546 = new Array(class_327.const_803);
-         var _loc1_:int = class_73.method_2108(class_183.var_7129);
+         var _loc1_:int = class_183.var_7129;
          while(_loc1_ < class_327.const_803)
          {
             this.var_2546[_loc1_] = new class_731();

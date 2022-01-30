@@ -15,7 +15,7 @@ package
          {
             class_68.method_2102(class_121.method_2366() * class_60.method_2002());
          }
-         class_1.var_2884.method_33(class_56.const_193,param1,param2,class_73.method_2108(class_170.var_6731),class_165.var_6534,false,class_73.method_2108(class_183.var_7129));
+         class_1.var_2884.method_33(class_56.const_193,param1,param2,class_170.var_6731,class_165.var_6534,false,class_183.var_7129);
          var _loc5_:class_75 = class_1.var_2884.var_156[class_56.const_340];
          var _loc6_:class_27 = new class_27(_loc5_,false);
          _loc6_.var_304 = class_1.var_2884.var_50.x + param1 + param3 / class_165.var_6534;

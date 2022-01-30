@@ -86,7 +86,7 @@ package
          {
             _loc3_.push(_loc4_);
          }
-         if(class_73.method_2108(class_183.var_7129) == _loc3_.length)
+         if(class_183.var_7129 == _loc3_.length)
          {
             return;
          }
@@ -146,12 +146,12 @@ package
          _loc5_ = _loc3_ - class_1.var_2884.var_100;
          if(this.var_229)
          {
-            x = this.var_227 - _loc4_ / class_73.method_2108(class_165.var_6534);
+            x = this.var_227 - _loc4_ / class_165.var_6534;
             y = this.var_228 - _loc5_ / class_165.var_6534;
          }
          else if(class_1.var_2884.var_19.align == class_9.var_3268)
          {
-            x = int(this.var_227 * _loc2_ - this.name_5 / class_165.var_6534 - _loc4_ / class_73.method_2108(class_165.var_6534));
+            x = int(this.var_227 * _loc2_ - this.name_5 / class_165.var_6534 - _loc4_ / class_165.var_6534);
             y = int(this.var_228 * _loc3_ - this.var_206 / class_165.var_6534 - _loc5_ / class_165.var_6534);
          }
          else
@@ -163,7 +163,7 @@ package
       
       public function method_195(param1:MouseEvent) : void
       {
-         if(param1.target === param1.currentTarget || this.var_230 != null && this.var_230.indexOf(DisplayObject(param1.target)) != -class_73.method_2108(class_33.var_3679))
+         if(param1.target === param1.currentTarget || this.var_230 != null && this.var_230.indexOf(DisplayObject(param1.target)) != -class_33.var_3679)
          {
             if(this.var_231 && parent)
             {
@@ -209,7 +209,7 @@ package
       
       public function method_200(param1:int, param2:int, param3:Boolean = false) : void
       {
-         if(class_1.var_2884.var_19.align == class_73.method_2111(class_9.var_3268))
+         if(class_1.var_2884.var_19.align == class_9.var_3268)
          {
             this.var_229 = class_99.var_4681;
             this.var_227 = param1;
@@ -232,7 +232,7 @@ package
          class_242.method_2822(this.var_218,this.var_219);
          if(this.var_180.var_1062)
          {
-            class_180.method_2675(this.var_180.var_1062,class_73.method_2116(class_146.var_6072));
+            class_180.method_2675(this.var_180.var_1062,class_146.var_6072);
          }
       }
       
@@ -270,7 +270,7 @@ package
          class_242.method_2822(this.var_216,this.var_217);
          if(this.var_180.var_1062)
          {
-            class_180.method_2675(this.var_180.var_1062,class_73.method_2116(class_146.var_6072));
+            class_180.method_2675(this.var_180.var_1062,class_146.var_6072);
          }
       }
       
@@ -335,7 +335,7 @@ package
             this.var_224.graphics.drawRect(class_183.var_7129,class_183.var_7129,this.name_5,this.var_206);
             this.var_224.graphics.endFill();
          }
-         addChildAt(this.var_224,class_73.method_2108(class_183.var_7129));
+         addChildAt(this.var_224,class_183.var_7129);
       }
       
       public function method_210() : Boolean
@@ -387,7 +387,7 @@ package
          if(param2)
          {
             _loc9_ = class_33.var_3679;
-            _loc10_ = class_73.method_2108(class_33.var_3679);
+            _loc10_ = class_33.var_3679;
             if(_loc5_ > this.var_206)
             {
                _loc9_ = this.var_206 / _loc5_;
@@ -407,7 +407,7 @@ package
             _loc11_ = Math.max(Math.ceil(_loc4_) / this.name_5,Math.ceil(_loc5_) / this.var_206);
             if(class_33.var_3679 > _loc11_)
             {
-               _loc6_ = class_73.method_2108(class_33.var_3679) / _loc11_;
+               _loc6_ = class_33.var_3679 / _loc11_;
                param1.width *= _loc6_;
                param1.height *= _loc6_;
                _loc4_ *= _loc6_;
@@ -415,7 +415,7 @@ package
             }
          }
          var _loc7_:Rectangle = param1.getRect(param1);
-         param1.x = int(this.name_5 / class_73.method_2108(class_165.var_6534) - _loc6_ * _loc7_.x - _loc4_ / class_165.var_6534);
+         param1.x = int(this.name_5 / class_165.var_6534 - _loc6_ * _loc7_.x - _loc4_ / class_165.var_6534);
          param1.y = int(this.var_206 / class_165.var_6534 - _loc6_ * _loc7_.y - _loc5_ / class_165.var_6534);
          return this;
       }
@@ -476,7 +476,7 @@ package
             return;
          }
          this.var_234.x = this.var_234.parent.mouseX;
-         this.var_234.y = this.var_234.parent.mouseY + class_73.method_2108(class_117.var_5265);
+         this.var_234.y = this.var_234.parent.mouseY + class_117.var_5265;
       }
    }
 }

@@ -6,7 +6,7 @@ package
       
       public function class_368(param1:String, param2:int, param3:int, param4:String)
       {
-         super(class_73.method_2108(class_33.var_3675),class_73.method_2108(class_4.var_3042));
+         super(class_33.var_3675,class_4.var_3042);
          var_159.writeUTF(param1);
          var_159.writeByte(param2);
          var_159.writeInt(param3);

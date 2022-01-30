@@ -30,7 +30,7 @@ package
          {
             return;
          }
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
+         var _loc2_:int = class_183.var_7129;
          if(class_1.const_43)
          {
             if(class_111.var_1038 || class_1.var_2884.var_30)
@@ -70,7 +70,7 @@ package
          }
          class_163.var_6355 = new Vector.<class_500>();
          class_163.var_1122.text = class_9.var_3268;
-         class_163.var_6356 = class_73.method_2108(class_4.var_3058);
+         class_163.var_6356 = class_4.var_3058;
          if(class_1.var_2884.var_5)
          {
             class_1.var_2884.var_5.method_287();
@@ -94,10 +94,10 @@ package
          var _loc4_:Boolean = false;
          var _loc5_:class_500 = null;
          class_163.var_6356 = Math.min(param1.var_121,class_163.var_6356);
-         if(class_73.method_2108(class_33.var_3679) == param1.var_1994)
+         if(class_33.var_3679 == param1.var_1994)
          {
             _loc2_ = class_163.var_6355.length;
-            _loc3_ = -class_73.method_2108(class_33.var_3679);
+            _loc3_ = -class_33.var_3679;
             _loc4_ = class_99.var_4682;
             while(++_loc3_ < _loc2_)
             {
@@ -131,7 +131,7 @@ package
             class_163.method_325();
             if(class_163.var_644)
             {
-               class_163.var_644.Rendu_Ascenseur(class_73.method_2108(class_33.var_3679));
+               class_163.var_644.Rendu_Ascenseur(class_33.var_3679);
             }
          }
       }
@@ -158,8 +158,8 @@ package
          {
             return;
          }
-         var _loc3_:String = class_73.method_2111(class_9.var_3268);
-         var _loc4_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc3_:String = class_9.var_3268;
+         var _loc4_:int = -class_33.var_3679;
          while(++_loc4_ < _loc2_)
          {
             _loc5_ = class_163.var_6355[_loc4_];
@@ -167,11 +167,11 @@ package
             {
                _loc5_.method_1475();
             }
-            _loc3_ += _loc5_.var_1997 + class_73.method_2111(class_107.var_5071);
+            _loc3_ += _loc5_.var_1997 + class_107.var_5071;
          }
          if(class_26.var_3497)
          {
-            class_163.var_1122.htmlText = class_73.method_2111(class_183.var_7010) + _loc3_;
+            class_163.var_1122.htmlText = class_183.var_7010 + _loc3_;
          }
          else
          {

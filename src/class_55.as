@@ -31,8 +31,8 @@ package
       
       public function class_55()
       {
-         this.var_502 = new ColorTransform(class_73.method_2108(class_33.var_3679),class_33.var_3679,class_73.method_2108(class_165.var_6534),class_9.var_3254,class_183.var_7129,class_73.method_2108(class_183.var_7129),class_165.var_6506);
-         this.var_503 = new ColorTransform(class_73.method_2108(class_165.var_6534),class_73.method_2108(class_33.var_3679),class_73.method_2108(class_165.var_6534),class_181.var_6904,class_165.var_6506,class_183.var_7129,class_165.var_6506);
+         this.var_502 = new ColorTransform(class_33.var_3679,class_33.var_3679,class_165.var_6534,class_9.var_3254,class_183.var_7129,class_183.var_7129,class_165.var_6506);
+         this.var_503 = new ColorTransform(class_165.var_6534,class_33.var_3679,class_165.var_6534,class_181.var_6904,class_165.var_6506,class_183.var_7129,class_165.var_6506);
          super();
          this.var_494 = new Dictionary();
       }
@@ -128,7 +128,7 @@ package
                this.var_499 = class_125.var_5679.var_1480;
                this.var_497 = class_125.var_5679.method_1129();
                class_39.var_3745.method_313(new class_324(class_125.var_5679,class_125.var_500));
-               _loc4_ = _loc1_.var_155.var_659[class_73.method_2108(class_183.var_7129)];
+               _loc4_ = _loc1_.var_155.var_659[class_183.var_7129];
                if(_loc4_ == _loc1_.var_894.var_796 || _loc4_ == _loc1_.var_894.var_802)
                {
                   _loc1_.method_686(_loc1_.x < class_125.var_5679.x);
@@ -199,7 +199,7 @@ package
             _loc8_.var_500 = class_99.var_4682;
             _loc8_.transform.colorTransform = this.var_502;
             param1.method_686(param1.var_912);
-            if(class_73.method_2108(class_170.var_6731) == class_91.var_4450)
+            if(class_170.var_6731 == class_91.var_4450)
             {
                if(_loc8_.parent)
                {
@@ -207,7 +207,7 @@ package
                }
             }
          }
-         if(class_91.var_4450 == class_73.method_2108(class_170.var_6731))
+         if(class_91.var_4450 == class_170.var_6731)
          {
             _loc8_.x = param3;
             _loc8_.y = param4;
@@ -216,7 +216,7 @@ package
          {
             if(param1.var_155.var_659.length)
             {
-               _loc9_ = param1.var_155.var_659[class_73.method_2108(class_183.var_7129)];
+               _loc9_ = param1.var_155.var_659[class_183.var_7129];
                if(_loc9_ == param1.var_894.var_796 || _loc9_ == param1.var_894.var_802)
                {
                   param1.method_686(_loc8_.x > param1.x);

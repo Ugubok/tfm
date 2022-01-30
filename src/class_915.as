@@ -58,11 +58,11 @@ package
             _loc1_ += this.var_2812[_loc2_].method_1375();
             _loc2_++;
          }
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
-         var _loc4_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
+         var _loc4_:int = class_183.var_7129;
          while(_loc4_ < this.var_1862.length)
          {
-            _loc3_ += class_73.method_2108(class_165.var_6534) + this.var_1862[_loc4_].length;
+            _loc3_ += class_165.var_6534 + this.var_1862[_loc4_].length;
             _loc4_++;
          }
          return class_127.var_5865 + this.var_1959.method_1375() + _loc1_ + _loc3_ + this.var_1941.length + this.var_1942.length + this.var_2826.method_1375();
@@ -76,7 +76,7 @@ package
          this.var_1959 = class_483.method_3036(param1);
          var _loc2_:int = param1.readShort();
          this.var_2812 = new Vector.<class_483>(_loc2_);
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < _loc2_)
          {
             this.var_2812[_loc3_] = class_483.method_3036(param1);
@@ -84,7 +84,7 @@ package
          }
          var _loc4_:int = param1.readShort();
          this.var_1862 = new Vector.<String>(_loc4_);
-         var _loc5_:int = class_73.method_2108(class_183.var_7129);
+         var _loc5_:int = class_183.var_7129;
          while(_loc5_ < _loc4_)
          {
             _loc8_ = param1.readShort();
@@ -102,7 +102,7 @@ package
       
       public function get method_1793() : int
       {
-         return class_73.method_2108(class_162.var_6346);
+         return class_162.var_6346;
       }
    }
 }

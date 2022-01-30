@@ -22,7 +22,7 @@ package
          var _loc5_:Bitmap = null;
          switch(param1.var_574)
          {
-            case class_73.method_2108(class_165.var_6534):
+            case class_165.var_6534:
                if(this.var_2165 && this.var_2165.parent)
                {
                   this.var_2165.parent.removeChild(this.var_2165);
@@ -31,16 +31,16 @@ package
                this.var_2165.mouseEnabled = class_99.var_4682;
                this.var_2165.mouseChildren = class_99.var_4682;
                _loc2_ = -class_33.var_3679;
-               _loc3_ = class_73.method_2108(class_127.var_5721);
+               _loc3_ = class_127.var_5721;
                while(_loc3_ < class_183.var_6974)
                {
                   _loc2_++;
                   if(class_98.method_2232(_loc3_) > class_183.var_7129)
                   {
-                     _loc4_ = _loc2_ * (class_146.var_6110 / class_73.method_2108(class_9.var_3267));
+                     _loc4_ = _loc2_ * (class_146.var_6110 / class_9.var_3267);
                      _loc5_ = class_175.method_2618(class_33.var_3522 + _loc3_ + class_89.var_4385);
-                     _loc5_.x = Math.cos(_loc4_) * class_73.method_2108(class_89.var_4402);
-                     _loc5_.y = Math.sin(_loc4_) * class_73.method_2108(class_89.var_4402);
+                     _loc5_.x = Math.cos(_loc4_) * class_89.var_4402;
+                     _loc5_.y = Math.sin(_loc4_) * class_89.var_4402;
                      if(class_170.var_6731 == _loc2_)
                      {
                         _loc5_.y -= class_146.var_6118;
@@ -51,9 +51,9 @@ package
                }
                if(class_58.var_3803.var_531.var_956 == class_117.var_5288)
                {
-                  this.var_2165.x = class_73.method_2108(class_183.var_6973);
-                  this.var_2165.y = class_73.method_2108(class_181.var_6916);
-                  class_58.var_3803.var_545.addChildAt(this.var_2165,class_73.method_2108(class_183.var_7129));
+                  this.var_2165.x = class_183.var_6973;
+                  this.var_2165.y = class_181.var_6916;
+                  class_58.var_3803.var_545.addChildAt(this.var_2165,class_183.var_7129);
                }
          }
       }

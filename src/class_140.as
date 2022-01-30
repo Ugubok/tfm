@@ -85,7 +85,7 @@ package
             }
             class_140.var_2884.name_5 = param2;
             class_140.var_2884.var_732 = param3;
-            class_140.var_2884.addEventListener(class_73.method_2111(class_124.var_5632),class_140.var_2884.name_2);
+            class_140.var_2884.addEventListener(class_124.var_5632,class_140.var_2884.name_2);
             class_140.var_2884.x = param4;
             class_140.var_2884.y = param5;
             class_140.var_2579.addChild(class_140.var_2884);
@@ -99,7 +99,7 @@ package
                {
                   class_140.var_2884.parent.removeChild(class_140.var_2884);
                }
-               class_140.var_2884.removeEventListener(class_73.method_2111(class_124.var_5632),class_140.var_2884.name_2);
+               class_140.var_2884.removeEventListener(class_124.var_5632,class_140.var_2884.name_2);
             }
             class_140.var_4683 = class_99.var_4682;
          }
@@ -122,7 +122,7 @@ package
       public function method_520(param1:String) : void
       {
          var _loc2_:Vector.<int> = new Vector.<int>();
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < this.name_5)
          {
             _loc2_.push(class_183.var_7129);
@@ -133,8 +133,8 @@ package
       
       public function method_521(param1:MouseEvent) : void
       {
-         x = class_140.var_2579[class_73.method_2111(class_107.var_5075)] - this.var_734;
-         y = class_140.var_2579[class_73.method_2111(class_165.var_6533)] - this.var_735;
+         x = class_140.var_2579[class_107.var_5075] - this.var_734;
+         y = class_140.var_2579[class_165.var_6533] - this.var_735;
       }
       
       public function method_522(param1:Event) : void
@@ -145,7 +145,7 @@ package
             class_1.var_2884.var_72(this.var_736,65535);
          }
          this.var_734 = this[class_107.var_5075];
-         this.var_735 = this[class_73.method_2111(class_165.var_6533)];
+         this.var_735 = this[class_165.var_6533];
          stage.addEventListener(MouseEvent.MOUSE_MOVE,this.method_521);
          stage.addEventListener(MouseEvent.MOUSE_UP,this.method_523);
       }
@@ -180,7 +180,7 @@ package
          {
             _loc3_ = this.const_10[_loc5_];
             _loc7_ = this.const_11[_loc5_];
-            graphics.lineStyle(class_33.var_3679,_loc7_,class_73.method_2108(class_33.var_3679),true);
+            graphics.lineStyle(class_33.var_3679,_loc7_,class_33.var_3679,true);
             _loc8_ = _loc3_.length;
             _loc9_ = class_183.var_7129;
             while(_loc9_ < _loc8_)
@@ -188,7 +188,7 @@ package
                _loc10_ = _loc3_[_loc9_];
                if(class_183.var_7129 == _loc9_)
                {
-                  graphics.moveTo(class_73.method_2108(class_183.var_7129),-_loc10_);
+                  graphics.moveTo(class_183.var_7129,-_loc10_);
                }
                else
                {
@@ -198,11 +198,11 @@ package
             }
          }
          graphics.lineStyle(class_33.var_3679,class_183.var_7129,class_33.var_3679,true);
-         graphics.moveTo(class_183.var_7129,class_73.method_2108(class_183.var_7129));
-         graphics.lineTo(this.name_5,class_73.method_2108(class_183.var_7129));
-         graphics.lineStyle(class_183.var_7129,class_183.var_7129,class_73.method_2108(class_183.var_7129));
-         graphics.beginFill(class_73.method_2108(class_183.var_7129),class_183.var_7129);
-         graphics.drawRect(class_73.method_2108(class_183.var_7129),-class_73.method_2108(class_165.var_6506),this.name_5,class_165.var_6506);
+         graphics.moveTo(class_183.var_7129,class_183.var_7129);
+         graphics.lineTo(this.name_5,class_183.var_7129);
+         graphics.lineStyle(class_183.var_7129,class_183.var_7129,class_183.var_7129);
+         graphics.beginFill(class_183.var_7129,class_183.var_7129);
+         graphics.drawRect(class_183.var_7129,-class_165.var_6506,this.name_5,class_165.var_6506);
          graphics.endFill();
       }
       

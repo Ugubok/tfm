@@ -20,7 +20,7 @@ package
          _loc7_.writeUTF(param6);
          true;
          true;
-         method_108(_loc7_,class_73.method_2111(class_146.var_6006));
+         method_108(_loc7_,class_146.var_6006);
       }
    }
 }

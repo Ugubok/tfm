@@ -61,7 +61,7 @@ package
          this.name_5 = param1.readShort();
          this.var_206 = param1.readShort();
          this.var_1336 = param1.readBoolean();
-         this.var_1550 = param1.readShort() / class_73.method_2108(class_121.var_5493);
+         this.var_1550 = param1.readShort() / class_121.var_5493;
          this.var_414 = param1.readShort() / class_121.var_5493;
          this.rotation = param1.readShort();
          this.couleur = param1.readBoolean();
@@ -71,7 +71,7 @@ package
          this.var_1511 = param1.readBoolean();
          this.var_737 = param1.readShort();
          this.var_1552 = param1.readShort() / class_121.var_5493;
-         this.var_1553 = param1.readShort() / class_73.method_2108(class_121.var_5493);
+         this.var_1553 = param1.readShort() / class_121.var_5493;
          this.var_1509 = param1.readBoolean();
          this.var_1421 = param1.readUTF();
          this.var_1343 = param1.readBoolean();

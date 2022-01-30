@@ -13,8 +13,8 @@ package
       public function class_142()
       {
          this.var_737 = class_107.var_4953;
-         this.var_738 = new class_167(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129));
-         this.var_739 = class_73.method_2116(class_107.var_4953);
+         this.var_738 = new class_167(class_183.var_7129,class_183.var_7129);
+         this.var_739 = class_107.var_4953;
          super();
       }
    }

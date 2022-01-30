@@ -43,13 +43,13 @@ package
          this.var_679;
          this.position;
          this.var_674.var_738.method_671();
-         this.var_674.var_737 = class_73.method_2116(class_107.var_4953);
-         this.var_674.var_739 = class_73.method_2116(class_107.var_4953);
+         this.var_674.var_737 = class_107.var_4953;
+         this.var_674.var_739 = class_107.var_4953;
          this.userData = null;
-         this.position.method_105(class_107.var_4953,class_73.method_2116(class_107.var_4953));
+         this.position.method_105(class_107.var_4953,class_107.var_4953);
          this.var_682 = class_107.var_4953;
          this.var_676 = class_107.var_4953;
-         this.var_680 = class_73.method_2116(class_107.var_4953);
+         this.var_680 = class_107.var_4953;
          this.var_679 = class_99.var_4681;
          this.var_678 = class_99.var_4682;
          this.var_675 = class_99.var_4682;

@@ -64,7 +64,7 @@ package
             {
                _loc12_ = _loc9_[_loc11_];
                _loc10_.normal.method_669(_loc12_.normal);
-               _loc13_ = class_73.method_2108(class_183.var_7129);
+               _loc13_ = class_183.var_7129;
                while(_loc13_ < _loc12_.var_2547)
                {
                   _loc14_ = _loc12_.var_2546[_loc13_];

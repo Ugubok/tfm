@@ -36,21 +36,21 @@ package
          }
          if(!class_695.var_7369)
          {
-            class_695.var_7369 = class_175.method_118(class_73.method_2111(class_60.var_3861));
+            class_695.var_7369 = class_175.method_118(class_60.var_3861);
             class_695.var_7370 = class_695.var_7369.x_clip.x_num;
             class_695.var_7370.styleSheet = class_1.var_2884.var_117;
-            class_695.var_7371 = class_175.method_2618(class_73.method_2111(class_102.var_4724));
+            class_695.var_7371 = class_175.method_2618(class_102.var_4724);
             class_695.var_7372 = class_175.method_2618(class_62.var_4029);
             class_695.var_7373 = class_175.method_2618(class_146.var_5995);
             class_695.var_7374 = class_175.method_2618(class_89.var_4314);
-            class_695.var_7375 = class_175.method_2618(class_73.method_2111(class_146.var_5994));
+            class_695.var_7375 = class_175.method_2618(class_146.var_5994);
             class_695.var_7369.x_clip.addChild(class_695.var_7371);
             class_695.var_7369.x_clip.addChild(class_695.var_7372);
             class_695.var_7369.x_clip.addChild(class_695.var_7373);
             class_695.var_7369.x_clip.addChild(class_695.var_7374);
             class_695.var_7369.x_clip.addChild(class_695.var_7375);
             class_695.var_7369.x = class_117.var_5206;
-            class_695.var_7369.y = class_73.method_2108(class_183.var_7096);
+            class_695.var_7369.y = class_183.var_7096;
          }
          if(param2 < class_183.var_7129)
          {
@@ -65,7 +65,7 @@ package
          class_695.var_7373.visible = class_99.var_4682;
          class_695.var_7374.visible = class_99.var_4682;
          class_695.var_7375.visible = class_99.var_4682;
-         class_695.var_7369.gotoAndPlay(class_73.method_2108(class_33.var_3679));
+         class_695.var_7369.gotoAndPlay(class_33.var_3679);
          class_1.var_2884.var_53.addChild(class_695.var_7369);
          if(class_63.const_381 == param1)
          {

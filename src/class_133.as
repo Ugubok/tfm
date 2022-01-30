@@ -12,7 +12,7 @@ package
       
       public function class_133(param1:int, param2:String)
       {
-         this.var_722 = class_73.method_2108(class_183.var_7129);
+         this.var_722 = class_183.var_7129;
          super(param1);
          this.method_514(param2);
       }
@@ -20,7 +20,7 @@ package
       public function method_514(param1:String) : void
       {
          this.var_721 = param1;
-         this.name_4 = param1.length > class_73.method_2108(class_183.var_7129) && param1.charAt(class_73.method_2108(class_183.var_7129)) == class_9.var_3256;
+         this.name_4 = param1.length > class_183.var_7129 && param1.charAt(class_183.var_7129) == class_9.var_3256;
       }
    }
 }

@@ -23,10 +23,10 @@ package
       
       public static function name_9() : void
       {
-         var _loc1_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc1_:int = -class_33.var_3679;
          while(++_loc1_ < class_146.var_6117)
          {
-            class_164.const_571[_loc1_] = class_175.method_2615(class_73.method_2111(class_183.var_7045) + _loc1_);
+            class_164.const_571[_loc1_] = class_175.method_2615(class_183.var_7045 + _loc1_);
          }
       }
       
@@ -35,7 +35,7 @@ package
          var _loc2_:BitmapData = null;
          var _loc6_:int = 0;
          var _loc7_:BitmapData = null;
-         if(param1 <= class_73.method_2108(class_33.var_3675))
+         if(param1 <= class_33.var_3675)
          {
             _loc2_ = class_164.const_573[param1];
             if(_loc2_)
@@ -45,7 +45,7 @@ package
          }
          var _loc3_:String = String(param1);
          var _loc4_:int = _loc3_.length;
-         _loc2_ = new BitmapData(_loc4_ * class_73.method_2108(class_170.var_6731),class_170.var_6731,true,class_73.method_2108(class_183.var_7129));
+         _loc2_ = new BitmapData(_loc4_ * class_170.var_6731,class_170.var_6731,true,class_183.var_7129);
          var _loc5_:int = -class_33.var_3679;
          while(++_loc5_ < _loc4_)
          {

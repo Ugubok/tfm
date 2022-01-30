@@ -19,15 +19,15 @@ package
       public function class_304()
       {
          super();
-         this.var_401 = new class_220(class_73.method_2111(class_9.var_3268),class_33.var_3636,class_33.var_3675,new TextFormat(class_60.var_3917,class_117.var_5279,12763866,true));
+         this.var_401 = new class_220(class_9.var_3268,class_33.var_3636,class_33.var_3675,new TextFormat(class_60.var_3917,class_117.var_5279,12763866,true));
          this.var_401.styleSheet = class_1.var_2884.var_117;
          addChild(this.var_401);
          if(class_26.var_3497)
          {
             this.var_401.defaultTextFormat.align = TextFormatAlign.RIGHT;
          }
-         graphics.lineStyle(class_73.method_2108(class_33.var_3679),class_304.var_7226);
-         graphics.moveTo(class_73.method_2108(class_117.var_5287),class_33.var_3675);
+         graphics.lineStyle(class_33.var_3679,class_304.var_7226);
+         graphics.moveTo(class_117.var_5287,class_33.var_3675);
          graphics.lineTo(class_33.var_3636,class_33.var_3675);
          useHandCursor = class_99.var_4681;
          buttonMode = class_99.var_4681;

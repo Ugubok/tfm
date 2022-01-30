@@ -47,8 +47,8 @@ package
          var_720 = param7;
          this.var_1038 = param5 == class_33.var_3679;
          this.var_1034 = class_146.var_6117 == param5;
-         this.var_1035 = param5 == class_73.method_2108(class_162.var_6346);
-         this.var_1036 = param5 == class_73.method_2108(class_170.var_6720);
+         this.var_1035 = param5 == class_162.var_6346;
+         this.var_1036 = param5 == class_170.var_6720;
          this.var_1033 = this.var_1034 || this.var_1035 || this.var_1036;
          this.var_1037 = class_117.var_5279 == param5;
          this.var_1030 = this.method_803();
@@ -56,7 +56,7 @@ package
       
       public function method_801() : int
       {
-         return class_73.method_2108(class_183.var_7129);
+         return class_183.var_7129;
       }
       
       public function method_802(param1:class_198) : void

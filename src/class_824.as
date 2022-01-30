@@ -27,14 +27,14 @@ package
             _loc2_ = param1.readByte();
             _loc3_ = param1.readByte();
             this.var_2725.push(_loc2_,_loc3_,param1.readUnsignedShort());
-            _loc4_ = _loc2_ * class_73.method_2108(class_146.var_6117) + _loc3_;
+            _loc4_ = _loc2_ * class_146.var_6117 + _loc3_;
             _loc5_ = param1.readByte();
             _loc6_ = new Vector.<int>(_loc5_ * class_165.var_6534,true);
             _loc7_ = class_183.var_7129;
             while(_loc7_ < _loc5_)
             {
                _loc6_[_loc7_ * class_165.var_6534] = param1.readByte();
-               _loc6_[_loc7_ * class_73.method_2108(class_165.var_6534) + class_73.method_2108(class_33.var_3679)] = param1.readByte();
+               _loc6_[_loc7_ * class_165.var_6534 + class_33.var_3679] = param1.readByte();
                _loc7_++;
             }
             this.var_2724[_loc4_] = _loc6_;

@@ -5,21 +5,21 @@ package
       
       public static const const_884:class_364 = new class_364("$OM1");
       
-      public static const const_885:class_364 = new class_364(class_73.method_2111("$OM2"));
+      public static const const_885:class_364 = new class_364("$OM2");
       
-      public static const const_111:class_364 = new class_364(class_73.method_2111("$OM3"),class_34.const_111);
+      public static const const_111:class_364 = new class_364("$OM3",class_34.const_111);
       
-      public static const const_113:class_364 = new class_364(class_73.method_2111("$OM4"),class_34.const_113);
+      public static const const_113:class_364 = new class_364("$OM4",class_34.const_113);
       
-      public static const const_886:class_364 = new class_364(class_73.method_2111("$OM5"),class_34.const_112);
+      public static const const_886:class_364 = new class_364("$OM5",class_34.const_112);
       
       public static const const_114:class_364 = new class_364("$OM6",class_34.const_114);
       
-      public static const const_115:class_364 = new class_364(class_73.method_2111("$OM7"),class_34.const_115);
+      public static const const_115:class_364 = new class_364("$OM7",class_34.const_115);
       
       public static const const_117:class_364 = new class_364("$Queue",class_34.const_117);
       
-      public static const const_116:class_364 = new class_364(class_73.method_2111("$Coiffure"),class_34.const_116);
+      public static const const_116:class_364 = new class_364("$Coiffure",class_34.const_116);
       
       public static const name_57:class_364 = new class_364("$Fourrure",class_34.name_57);
       
@@ -27,7 +27,7 @@ package
       
       public static const const_887:class_364 = new class_364("$Personnaliser");
       
-      public static const const_888:class_364 = new class_364(class_73.method_2111("$Tenues"));
+      public static const const_888:class_364 = new class_364("$Tenues");
       
       public static const const_889:class_364 = new class_364("$Nouveautes");
       

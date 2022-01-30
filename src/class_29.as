@@ -69,12 +69,12 @@ package
          }
          else
          {
-            _loc2_ = class_146.var_6118 - int(_loc1_ / class_73.method_2108(class_4.var_3058));
+            _loc2_ = class_146.var_6118 - int(_loc1_ / class_4.var_3058);
             if(_loc2_ != this.var_334)
             {
                this.var_334 = _loc2_;
                this.var_332.text = String(_loc2_);
-               class_180.method_2675(class_73.method_2111(class_127.var_5762),class_146.var_6072);
+               class_180.method_2675(class_127.var_5762,class_146.var_6072);
             }
          }
       }
@@ -85,7 +85,7 @@ package
          if(this.var_332.parent)
          {
             removeChild(this.var_332);
-            class_180.method_2675(class_146.var_5993,class_73.method_2116(class_146.var_6072));
+            class_180.method_2675(class_146.var_5993,class_146.var_6072);
          }
          if(!this.name_7.parent && parent)
          {
@@ -96,7 +96,7 @@ package
       
       public function method_275(param1:int) : void
       {
-         if(param1 == class_73.method_2108(class_183.var_7129))
+         if(param1 == class_183.var_7129)
          {
             if(this.name_7.parent)
             {
@@ -118,7 +118,7 @@ package
          }
          var _loc2_:int = class_29.var_3513 - param1;
          this.name_7._B.scaleX = _loc2_ / class_29.var_3513;
-         this.name_7._T.text = _loc2_ + class_73.method_2111(class_16.var_3431) + class_29.var_3513;
+         this.name_7._T.text = _loc2_ + class_16.var_3431 + class_29.var_3513;
       }
    }
 }

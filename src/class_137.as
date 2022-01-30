@@ -79,7 +79,7 @@ package
       {
          var _loc4_:* = new class_5(38152).writeByte(param1).writeInt(param2);
          _loc4_.writeShort(param3.length);
-         var _loc5_:int = class_73.method_2108(class_183.var_7129);
+         var _loc5_:int = class_183.var_7129;
          while(_loc5_ < param3.length)
          {
             _loc4_.writeInt(param3[_loc5_]);
@@ -97,7 +97,7 @@ package
             return;
          }
          class_291.method_2853();
-         throw new Error(class_102.var_4714 + param1.toString(class_73.method_2108(class_16.var_3467)));
+         throw new Error(class_102.var_4714 + param1.toString(class_16.var_3467));
       }
       
       public static function method_2447() : class_5
@@ -112,8 +112,8 @@ package
          _loc8_.writeShort(param2);
          _loc8_.writeShort(param3);
          _loc8_.writeShort(class_162.var_6351 * param4);
-         _loc8_.writeShort(param5 * class_73.method_2108(class_162.var_6351));
-         _loc8_.writeShort(param6 * class_73.method_2108(class_121.var_5493));
+         _loc8_.writeShort(param5 * class_162.var_6351);
+         _loc8_.writeShort(param6 * class_121.var_5493);
          _loc8_.writeShort(param7 * class_121.var_5493);
          return _loc8_;
       }
@@ -129,13 +129,13 @@ package
          {
             var _loc2_:Vector.<class_35> = new Vector.<class_35>();
             var _loc3_:int = param1.readShort();
-            while(_loc3_-- > class_73.method_2108(class_183.var_7129))
+            while(_loc3_-- > class_183.var_7129)
             {
                _loc2_.push(new class_35(param1));
             }
             class_1.var_2884.method_66(_loc2_);
             class_42.var_2884.method_333();
-            class_1.var_2884.var_16.method_282(class_73.method_2108(class_183.var_7129));
+            class_1.var_2884.var_16.method_282(class_183.var_7129);
          });
          method_2460(class_137.const_519,function(param1:ByteArray):void
          {
@@ -206,7 +206,7 @@ package
             if(_loc2_)
             {
                class_1.var_2884.method_4(_loc2_,_loc3_);
-               class_1.var_2884.method_33(class_56.const_193,_loc2_.x - class_73.method_2108(class_146.var_6117),_loc2_.y - class_146.var_6117,class_73.method_2108(class_146.var_6117),class_165.var_6534,false);
+               class_1.var_2884.method_33(class_56.const_193,_loc2_.x - class_146.var_6117,_loc2_.y - class_146.var_6117,class_146.var_6117,class_165.var_6534,false);
             }
             if(class_1.var_2884.var_8)
             {
@@ -243,13 +243,13 @@ package
             {
                class_180.method_2675(class_107.var_4911,class_92.var_4648);
             }
-            else if(_loc2_ == class_73.method_2108(class_117.var_5280))
+            else if(_loc2_ == class_117.var_5280)
             {
                class_180.method_2675(class_127.var_5749);
             }
             else
             {
-               class_180.method_2675(class_73.method_2111(class_127.var_5749));
+               class_180.method_2675(class_127.var_5749);
             }
          });
          method_2460(class_137.const_527,function(param1:ByteArray):void
@@ -284,7 +284,7 @@ package
          {
             class_17.var_2884.method_173(class_17.const_71,class_33.var_3648);
             class_17.var_2884.method_173(class_17.const_67,class_111.var_363);
-            class_449.method_2532(class_26.method_1668(class_73.method_2111(class_146.var_5987),class_89.var_4348 + class_111.var_363 + class_117.var_5188));
+            class_449.method_2532(class_26.method_1668(class_146.var_5987,class_89.var_4348 + class_111.var_363 + class_117.var_5188));
          });
          method_2460(36879,function(param1:ByteArray):void
          {
@@ -312,11 +312,11 @@ package
             var name_102:int = var_7501.readUnsignedShort();
             var var_574:String = var_7501.readUTF();
             name_100 = new Dictionary();
-            var var_7436:int = class_73.method_2108(class_183.var_7129);
+            var var_7436:int = class_183.var_7129;
             var var_7502:* = var_7501.readUnsignedShort();
             while(var_7436 < var_7502)
             {
-               name_100[var_7501.readUTF()] = class_73.method_2108(class_183.var_7129);
+               name_100[var_7501.readUTF()] = class_183.var_7129;
                var_7436++;
             }
             name_101 = function(param1:DisplayObject):*
@@ -343,7 +343,7 @@ package
             for(var_2858 in name_100)
             {
                var_7502 = name_100[var_2858];
-               if(var_7502 > class_73.method_2108(class_183.var_7129))
+               if(var_7502 > class_183.var_7129)
                {
                   var_2814.push(var_2858,var_7502);
                }
@@ -355,7 +355,7 @@ package
             var _loc2_:class_168 = class_1.var_2884.var_85[param1.readInt()];
             if(_loc2_)
             {
-               class_1.var_2884.method_8(_loc2_,param1.readInt(),param1.readInt() / class_73.method_2116(class_4.var_3057));
+               class_1.var_2884.method_8(_loc2_,param1.readInt(),param1.readInt() / class_4.var_3057);
             }
          });
          method_2460(36885,function(param1:ByteArray):void
@@ -376,7 +376,7 @@ package
             var _loc2_:String = param1.readUTF();
             var _loc3_:int = param1.readShort();
             var _loc4_:int = param1.readShort();
-            var _loc5_:int = class_73.method_2108(class_183.var_7129);
+            var _loc5_:int = class_183.var_7129;
             while(_loc5_ < class_48.var_3753.length)
             {
                _loc6_ = class_48.var_3753[_loc5_];
@@ -401,9 +401,9 @@ package
             {
                _loc3_ = param1.readInt() / class_4.var_3057;
                _loc4_ = param1.readInt() / class_4.var_3057;
-               _loc2_.var_755 = Math.abs(_loc3_) > class_92.var_4509 || Math.abs(_loc4_) > class_73.method_2116(class_92.var_4509);
+               _loc2_.var_755 = Math.abs(_loc3_) > class_92.var_4509 || Math.abs(_loc4_) > class_92.var_4509;
                _loc2_.var_758 = Math.abs(_loc3_) > class_92.var_4509 ? Number(_loc3_) : Number(NaN);
-               _loc2_.var_759 = Math.abs(_loc4_) > class_73.method_2116(class_92.var_4509) ? Number(_loc4_) : Number(NaN);
+               _loc2_.var_759 = Math.abs(_loc4_) > class_92.var_4509 ? Number(_loc4_) : Number(NaN);
             }
          });
          method_2460(36889,function(param1:ByteArray):void
@@ -503,13 +503,13 @@ package
          var _loc4_:* = new class_5(38153);
          _loc4_.writeShort(param1);
          _loc4_.writeUTF(param2);
-         var _loc5_:int = param3.length / class_73.method_2108(class_165.var_6534);
+         var _loc5_:int = param3.length / class_165.var_6534;
          _loc4_.writeShort(_loc5_);
-         var _loc6_:int = class_73.method_2108(class_183.var_7129);
+         var _loc6_:int = class_183.var_7129;
          while(_loc6_ < _loc5_)
          {
             _loc4_.writeUTF(param3[_loc6_ * class_165.var_6534]);
-            _loc4_.writeShort(param3[_loc6_ * class_73.method_2108(class_165.var_6534) + class_73.method_2108(class_33.var_3679)]);
+            _loc4_.writeShort(param3[_loc6_ * class_165.var_6534 + class_33.var_3679]);
             _loc6_++;
          }
          return _loc4_;
@@ -519,7 +519,7 @@ package
       {
          if(class_137.var_5908[param1])
          {
-            throw new Error(class_73.method_2111(class_16.var_3320));
+            throw new Error(class_16.var_3320);
          }
          class_137.var_5908[param1] = param2;
       }

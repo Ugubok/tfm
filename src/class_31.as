@@ -53,7 +53,7 @@ package
                   }
                   if(_loc7_)
                   {
-                     class_31.var_3514.splice(class_31.var_3514.indexOf(_loc7_),class_73.method_2108(class_33.var_3679));
+                     class_31.var_3514.splice(class_31.var_3514.indexOf(_loc7_),class_33.var_3679);
                      _loc4_ = class_99.var_4681;
                   }
                }
@@ -63,7 +63,7 @@ package
          {
             if(class_111.var_5086 && param2 && param3)
             {
-               class_1.var_2884.method_97(class_102.var_4689 + class_26.method_1668(class_73.method_2111(class_117.var_5122)) + class_73.method_2111(class_162.var_6345));
+               class_1.var_2884.method_97(class_102.var_4689 + class_26.method_1668(class_117.var_5122) + class_162.var_6345);
             }
             if(class_31.method_1914() && class_52.var_2884 && class_52.var_2884 is class_229)
             {
@@ -78,7 +78,7 @@ package
          {
             return class_254(class_31.method_1912(class_255.const_688)).method_980(param1);
          }
-         return class_73.method_2116(class_73.method_2108(class_33.var_3679) - class_73.method_2116(class_33.var_3679));
+         return class_33.var_3679 - class_33.var_3679;
       }
       
       public static function method_1912(param1:class_255) : class_166
@@ -100,7 +100,7 @@ package
          {
             return class_254(class_31.method_1912(class_255.const_688)).method_981(param1);
          }
-         return class_73.method_2116(class_33.var_3679);
+         return class_33.var_3679;
       }
       
       public static function method_1913(param1:class_58) : void

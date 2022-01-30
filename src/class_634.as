@@ -25,7 +25,7 @@ package
             }
             else
             {
-               _loc2_ = new class_636(_loc3_,_loc4_,var_159.readShort(),var_159.readShort(),var_159.readShort(),var_159.readShort(),var_159.readShort(),var_159.readShort(),var_159.readBoolean(),var_159.readBoolean(),var_159.readByte() == class_73.method_2108(class_33.var_3679));
+               _loc2_ = new class_636(_loc3_,_loc4_,var_159.readShort(),var_159.readShort(),var_159.readShort(),var_159.readShort(),var_159.readShort(),var_159.readShort(),var_159.readBoolean(),var_159.readBoolean(),var_159.readByte() == class_33.var_3679);
             }
             this.var_49.push(_loc2_);
          }

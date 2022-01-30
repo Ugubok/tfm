@@ -18,7 +18,7 @@ package
       
       public function get method_1731() : String
       {
-         return class_73.method_2111(class_117.var_5175);
+         return class_117.var_5175;
       }
       
       public function get typeTaille() : int
@@ -44,7 +44,7 @@ package
       
       public function get method_1793() : int
       {
-         return class_73.method_2108(class_170.var_6714);
+         return class_170.var_6714;
       }
    }
 }

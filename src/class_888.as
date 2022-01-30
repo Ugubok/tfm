@@ -33,7 +33,7 @@ package
       
       public function method_1374() : int
       {
-         return class_73.method_2108(class_121.var_5495);
+         return class_121.var_5495;
       }
       
       public function lecture(param1:ByteArray) : void
@@ -43,7 +43,7 @@ package
       
       public function get method_1793() : int
       {
-         return class_73.method_2108(class_102.var_4821);
+         return class_102.var_4821;
       }
    }
 }

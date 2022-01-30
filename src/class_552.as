@@ -19,13 +19,13 @@ package
       
       public function class_552()
       {
-         super(class_73.method_2108(class_124.var_5657));
+         super(class_124.var_5657);
          method_239(class_9.var_3268,this.method_174);
-         this.var_2155 = new class_24(name_5,class_73.method_2108(class_183.var_7129));
+         this.var_2155 = new class_24(name_5,class_183.var_7129);
          this.var_2155.method_227(class_243.const_642);
          this.var_2156 = new class_244(name_5 * class_146.var_6118 / class_121.var_5495).method_856(TextFormatAlign.CENTER);
          this.var_2156.var_1226.addEventListener(KeyboardEvent.KEY_DOWN,this.method_926);
-         this.var_2157 = new class_244(name_5 * class_73.method_2108(class_146.var_6118) / class_121.var_5495).method_856(TextFormatAlign.CENTER);
+         this.var_2157 = new class_244(name_5 * class_146.var_6118 / class_121.var_5495).method_856(TextFormatAlign.CENTER);
          this.var_2157.var_1226.displayAsPassword = class_99.var_4681;
          this.var_2157.var_1226.addEventListener(KeyboardEvent.KEY_DOWN,this.method_926);
          this.var_2156.method_944(this.method_1573);
@@ -42,7 +42,7 @@ package
       
       public function method_1573() : void
       {
-         var_1145.method_961(this.var_2156.var_1226.text.length > class_73.method_2108(class_183.var_7129) && this.var_2157.var_1226.text.length > class_73.method_2108(class_183.var_7129));
+         var_1145.method_961(this.var_2156.var_1226.text.length > class_183.var_7129 && this.var_2157.var_1226.text.length > class_183.var_7129);
       }
       
       public function method_1574(param1:int, param2:String) : void
@@ -59,7 +59,7 @@ package
          }
          else if(class_52.const_265 == param1)
          {
-            _loc3_ = class_26.method_1668(class_73.method_2111(class_62.var_4092));
+            _loc3_ = class_26.method_1668(class_62.var_4092);
          }
          else if(class_52.const_273 == param1)
          {
@@ -69,12 +69,12 @@ package
          {
             if(param2)
             {
-               _loc4_ = param2.split(class_73.method_2111(class_60.var_3905));
+               _loc4_ = param2.split(class_60.var_3905);
                class_52.method_1961(_loc4_,class_52.var_2884.method_352,false,this.method_924);
             }
             else
             {
-               _loc3_ = class_26.method_1668(class_73.method_2111(class_162.var_6294));
+               _loc3_ = class_26.method_1668(class_162.var_6294);
             }
          }
          else
@@ -85,7 +85,7 @@ package
          {
             this.var_2158.text = _loc3_;
          }
-         this.var_2157.var_1226.text = class_73.method_2111(class_9.var_3268);
+         this.var_2157.var_1226.text = class_9.var_3268;
          var_1525.method_961(true);
          this.var_2159 = class_99.var_4682;
          class_111.var_5093 = class_111.var_5094;
@@ -105,18 +105,18 @@ package
       
       public function method_1272() : void
       {
-         var _loc1_:String = class_73.method_2111(class_9.var_3268);
+         var _loc1_:String = class_9.var_3268;
          if(class_157.const_566 == class_111.var_5093)
          {
-            _loc1_ = class_26.method_1668(class_73.method_2111(class_102.var_4785));
+            _loc1_ = class_26.method_1668(class_102.var_4785);
          }
          else if(class_111.var_5093 == class_157.const_567)
          {
-            _loc1_ = class_26.method_1668(class_73.method_2111(class_33.var_3604));
+            _loc1_ = class_26.method_1668(class_33.var_3604);
          }
          var_1226.text = class_26.method_1668(class_181.var_6880,_loc1_);
          this.var_2156.method_941(class_26.method_1668(class_165.var_6455),false);
-         this.var_2157.method_941(class_26.method_1668(class_73.method_2111(class_117.var_5218)),false);
+         this.var_2157.method_941(class_26.method_1668(class_117.var_5218),false);
          var_1145.method_961(false);
          this.var_2159 = class_99.var_4682;
          clear();
@@ -126,7 +126,7 @@ package
       
       public function method_518() : void
       {
-         if(this.var_2156.var_1226.text.length <= class_183.var_7129 && this.var_2157.var_1226.text.length <= class_73.method_2108(class_183.var_7129))
+         if(this.var_2156.var_1226.text.length <= class_183.var_7129 && this.var_2157.var_1226.text.length <= class_183.var_7129)
          {
             return;
          }

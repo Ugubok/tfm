@@ -20,7 +20,7 @@ package
       public function class_403()
       {
          this.var_1773 = new Dictionary();
-         this.var_1774 = class_73.method_2108(class_183.var_7129);
+         this.var_1774 = class_183.var_7129;
          super();
          class_403.var_2884 = this;
          this.var_1772 = new class_740();

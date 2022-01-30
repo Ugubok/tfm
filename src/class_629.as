@@ -12,7 +12,7 @@ package
       {
          this.var_2406 = new Array();
          super(param1);
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
+         var _loc2_:int = class_183.var_7129;
          while(_loc2_ < class_16.var_3467)
          {
             this.var_2406.push(class_68.method_2098(param1.readUTF(),false));

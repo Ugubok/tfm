@@ -38,10 +38,10 @@ package
          this.var_871 = param1.length;
          this.var_866 = param1.var_593;
          this.var_867 = param1.var_594;
-         this.var_870 = class_73.method_2116(class_107.var_4953);
-         this.var_868 = class_73.method_2116(class_107.var_4953);
+         this.var_870 = class_107.var_4953;
+         this.var_868 = class_107.var_4953;
          this.var_869 = class_107.var_4953;
-         var_692 = class_73.method_2116(class_107.var_4953);
+         var_692 = class_107.var_4953;
       }
       
       override public function method_485() : class_167
@@ -109,7 +109,7 @@ package
       
       override public function method_495() : Number
       {
-         return class_73.method_2116(class_107.var_4953);
+         return class_107.var_4953;
       }
       
       override public function method_488() : class_167
@@ -161,7 +161,7 @@ package
          {
             _loc14_ = _loc10_ - this.var_871;
             _loc15_ = class_9.var_3217 * Math.PI * this.var_866;
-            _loc16_ = class_73.method_2116(class_9.var_3217) * this.var_767 * this.var_867 * _loc15_;
+            _loc16_ = class_9.var_3217 * this.var_767 * this.var_867 * _loc15_;
             _loc17_ = this.var_767 * _loc15_ * _loc15_;
             this.var_868 = class_121.var_5450 / (param1.var_1890 * (_loc16_ + param1.var_1890 * _loc17_));
             this.var_869 = _loc14_ * param1.var_1890 * _loc17_ * this.var_868;

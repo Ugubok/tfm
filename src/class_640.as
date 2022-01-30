@@ -90,7 +90,7 @@ package
             class_1.var_2884.var_19.focus = this.var_2419.var_1226;
             if(param1)
             {
-               this.var_2419.var_1226.method_859(-class_73.method_2108(class_33.var_3679));
+               this.var_2419.var_1226.method_859(-class_33.var_3679);
             }
          }
          return this;

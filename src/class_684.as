@@ -38,13 +38,13 @@ package
          _loc10_.size = param7;
          this.var_401.defaultTextFormat = _loc10_;
          this.var_401.textColor = param8;
-         if(class_73.method_2108(class_183.var_7129) > param9)
+         if(class_183.var_7129 > param9)
          {
-            param9 = Math.ceil(param7 / class_73.method_2108(class_170.var_6731));
+            param9 = Math.ceil(param7 / class_170.var_6731);
          }
          if(param9 > class_183.var_7129)
          {
-            this.var_401.filters = [new GlowFilter(0,class_33.var_3679,param9,param9,class_73.method_2108(class_117.var_5287) * param9,BitmapFilterQuality.MEDIUM)];
+            this.var_401.filters = [new GlowFilter(0,class_33.var_3679,param9,param9,class_117.var_5287 * param9,BitmapFilterQuality.MEDIUM)];
          }
          addChild(this.var_401);
          this.var_304 = param1;
@@ -54,8 +54,8 @@ package
          this.var_2496 = param5;
          this.var_1722 = param3;
          this.var_401.text = String(this.var_1722);
-         this.var_401.y += Math.round((this.var_401.height - this.var_401.textHeight) / class_73.method_2108(class_165.var_6534));
-         this.var_401.width = this.var_401.textWidth * class_73.method_2108(class_165.var_6534);
+         this.var_401.y += Math.round((this.var_401.height - this.var_401.textHeight) / class_165.var_6534);
+         this.var_401.width = this.var_401.textWidth * class_165.var_6534;
          this.var_401.height = class_165.var_6534 * this.var_401.textHeight;
          x = this.var_304 - this.var_401.width / class_165.var_6534;
          y = this.var_305 - this.var_401.height / class_165.var_6534;
@@ -77,7 +77,7 @@ package
       
       public function method_1707(param1:TimerEvent) : void
       {
-         if(this.var_2496 > class_73.method_2108(class_183.var_7129) && this.var_1722 < this.var_2495 || this.var_2496 < class_73.method_2108(class_183.var_7129) && this.var_1722 > this.var_2495)
+         if(this.var_2496 > class_183.var_7129 && this.var_1722 < this.var_2495 || this.var_2496 < class_183.var_7129 && this.var_1722 > this.var_2495)
          {
             this.var_1722 += this.var_2496;
          }

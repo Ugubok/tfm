@@ -45,7 +45,7 @@ package
             this.var_2695.push(_loc9_);
             _loc9_.var_364 = param1.readShort();
             _loc10_ = param1.readByte();
-            _loc11_ = class_73.method_2108(class_183.var_7129);
+            _loc11_ = class_183.var_7129;
             while(_loc11_ < _loc10_)
             {
                _loc9_.var_2696.push(param1.readByte());

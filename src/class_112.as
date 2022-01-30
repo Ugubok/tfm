@@ -7,7 +7,7 @@ package
       
       public static const const_490:String = "flash.display.NativeWindow";
       
-      public static const const_491:String = class_73.method_2111("flash.display.NativeWindowInitOptions");
+      public static const const_491:String = "flash.display.NativeWindowInitOptions";
       
       public static const const_492:String = "flash.desktop.NativeApplication";
        

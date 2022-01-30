@@ -25,9 +25,9 @@ package
          this.var_2277 = null;
          if(var_873)
          {
-            this.var_2277 = new class_814(class_33.var_3675,class_73.method_2108(class_121.var_5493));
+            this.var_2277 = new class_814(class_33.var_3675,class_121.var_5493);
             this.var_2277.x = class_33.var_3675;
-            this.var_2277.y = class_73.method_2108(class_62.var_4130);
+            this.var_2277.y = class_62.var_4130;
             class_58.var_3803.method_388(this.var_2277);
          }
       }
@@ -38,16 +38,16 @@ package
          {
             if(!this.var_2278 && class_48.var_3753.length > class_183.var_7129)
             {
-               this.var_2278 = class_48.var_3753[class_73.method_2108(class_183.var_7129)].getChildAt(class_73.method_2108(class_165.var_6534)) as MovieClip;
+               this.var_2278 = class_48.var_3753[class_183.var_7129].getChildAt(class_165.var_6534) as MovieClip;
             }
          }
       }
       
       public function method_1639(param1:Event) : void
       {
-         if(this.var_2278 && this.var_2278.currentFrame == class_73.method_2108(class_121.var_5493))
+         if(this.var_2278 && this.var_2278.currentFrame == class_121.var_5493)
          {
-            this.var_2278.gotoAndPlay(class_73.method_2108(class_33.var_3679));
+            this.var_2278.gotoAndPlay(class_33.var_3679);
          }
       }
       
@@ -60,17 +60,17 @@ package
             case class_33.var_3679:
                if(var_873)
                {
-                  _loc2_ = param1.method_1477(class_73.method_2108(class_183.var_7129));
+                  _loc2_ = param1.method_1477(class_183.var_7129);
                   _loc3_ = param1.method_1477(class_33.var_3679);
                   this.var_2277.method_1768(_loc2_ / _loc3_);
                }
                break;
-            case class_73.method_2108(class_165.var_6534):
+            case class_165.var_6534:
                if(var_873)
                {
                   if(this.var_2278)
                   {
-                     this.var_2278.gotoAndStop(class_73.method_2108(class_124.var_5614));
+                     this.var_2278.gotoAndStop(class_124.var_5614);
                   }
                }
          }

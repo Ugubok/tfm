@@ -23,15 +23,15 @@ package
       
       public static var name_41:int;
       
-      public static var var_6732:String = class_73.method_2111("");
+      public static var var_6732:String = "";
       
-      public static var var_7201:String = class_73.method_2111("");
+      public static var var_7201:String = "";
       
       public static var var_7202:int = 2156 + -2156;
       
       public static var var_7203:int = 8820 + -8820;
       
-      public static var var_7204:String = class_73.method_2111("");
+      public static var var_7204:String = "";
       
       public static var var_7205:Vector.<ByteArray> = new Vector.<ByteArray>();
       
@@ -293,15 +293,15 @@ package
          param1.position = class_183.var_7129;
          class_291.name_40 = param1.readUnsignedByte();
          class_291.name_41 = param1.readUnsignedByte();
-         class_291.var_6732 = class_73.method_2111(class_124.var_5665);
-         if(class_291.name_40 == class_73.method_2108(class_121.var_5493))
+         class_291.var_6732 = class_124.var_5665;
+         if(class_291.name_40 == class_121.var_5493)
          {
             class_650.method_666(param1,class_291.name_41);
             return;
          }
          if(class_291.name_40 == 144 || class_291.name_40 == 149)
          {
-            class_137.method_666(class_291.name_40 << class_73.method_2108(class_170.var_6731) | class_291.name_41 & 255,param1);
+            class_137.method_666(class_291.name_40 << class_170.var_6731 | class_291.name_41 & 255,param1);
             return;
          }
          if(176 == class_291.name_40)
@@ -316,7 +316,7 @@ package
          }
          if(class_121.var_5495 == class_291.name_40)
          {
-            if(class_73.method_2108(class_165.var_6534) == class_291.name_41)
+            if(class_165.var_6534 == class_291.name_41)
             {
                _loc10_ = new class_667(param1);
                class_1.var_2884.method_33(_loc10_.var_2465,_loc10_.var_304,_loc10_.var_305,_loc10_.name_51,_loc10_.var_2466,_loc10_.var_315,_loc10_.var_311);
@@ -346,13 +346,13 @@ package
                      _loc7_ = class_1.var_2884.var_34[_loc14_.var_768];
                      if(!_loc7_ && _loc14_.var_2416)
                      {
-                        class_125.var_5689 = class_73.method_2108(class_9.var_3267);
-                        _loc7_ = class_125.method_2392(_loc14_.var_2410,class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),class_183.var_7129,class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),_loc14_.var_1484,-class_73.method_2108(class_33.var_3679),true,null,null,_loc14_.var_768);
+                        class_125.var_5689 = class_9.var_3267;
+                        _loc7_ = class_125.method_2392(_loc14_.var_2410,class_183.var_7129,class_183.var_7129,class_183.var_7129,class_183.var_7129,class_183.var_7129,_loc14_.var_1484,-class_33.var_3679,true,null,null,_loc14_.var_768);
                         class_125.var_5689 = class_183.var_7129;
                      }
                      if(_loc7_)
                      {
-                        class_73.method_2115(_loc7_.method_556)(new class_167(_loc14_.var_304,_loc14_.var_305 * class_73.method_2108(class_33.var_3679)),_loc14_.var_682);
+                        _loc7_.method_556(new class_167(_loc14_.var_304,_loc14_.var_305 * class_33.var_3679),_loc14_.var_682);
                         _loc7_.var_756.var_305 = _loc14_.var_2413;
                         _loc7_.method_568(_loc14_.var_2414);
                         _loc7_.var_756.var_304 = _loc14_.var_2412;
@@ -370,7 +370,7 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_121.var_5495))
+            if(class_291.name_41 == class_121.var_5495)
             {
                _loc16_ = new class_625(param1);
                _loc4_ = _loc16_.var_364;
@@ -386,7 +386,7 @@ package
                      _loc2_.var_892 = class_99.var_4682;
                   }
                   _loc7_ = _loc2_.var_925;
-                  class_73.method_2115(class_73.method_2115(class_73.method_2115(_loc7_.method_556)))(new class_167(_loc16_.var_304,_loc16_.var_305),_loc2_.var_127 || _loc2_.var_895 ? _loc16_.var_682 : class_73.method_2108(class_183.var_7129));
+                  _loc7_.method_556(new class_167(_loc16_.var_304,_loc16_.var_305),_loc2_.var_127 || _loc2_.var_895 ? _loc16_.var_682 : class_183.var_7129);
                   if(_loc2_.var_127 || _loc2_.var_895)
                   {
                      _loc7_.method_568(_loc16_.var_2405);
@@ -433,7 +433,7 @@ package
                      {
                         _loc7_.method_547();
                      }
-                     else if(_loc8_ < class_170.var_6678 && -class_170.var_6678 < _loc8_ && _loc9_ < class_73.method_2116(class_170.var_6678) && -class_73.method_2116(class_170.var_6678) < _loc9_)
+                     else if(_loc8_ < class_170.var_6678 && -class_170.var_6678 < _loc8_ && _loc9_ < class_170.var_6678 && -class_170.var_6678 < _loc9_)
                      {
                         _loc7_.method_558();
                      }
@@ -443,14 +443,14 @@ package
                      }
                   }
                   _loc20_ = _loc16_.var_2404;
-                  if(class_73.method_2108(class_33.var_3679) == _loc20_)
+                  if(class_33.var_3679 == _loc20_)
                   {
-                     class_1.var_2884.method_33(class_56.const_315,class_1.var_2884.var_139.x + class_33.var_3668,class_1.var_2884.var_139.y + class_33.var_3668,class_73.method_2108(class_33.var_3675),class_165.var_6534,false,-class_73.method_2116(class_89.var_4430));
+                     class_1.var_2884.method_33(class_56.const_315,class_1.var_2884.var_139.x + class_33.var_3668,class_1.var_2884.var_139.y + class_33.var_3668,class_33.var_3675,class_165.var_6534,false,-class_89.var_4430);
                      _loc7_.method_547();
                   }
                   else if(class_165.var_6534 == _loc20_)
                   {
-                     class_1.var_2884.method_33(class_56.const_316,class_1.var_2884.var_57.x + class_33.var_3668,class_1.var_2884.var_57.y + class_73.method_2108(class_33.var_3668),class_33.var_3675,class_165.var_6534,false,-class_73.method_2116(class_89.var_4430));
+                     class_1.var_2884.method_33(class_56.const_316,class_1.var_2884.var_57.x + class_33.var_3668,class_1.var_2884.var_57.y + class_33.var_3668,class_33.var_3675,class_165.var_6534,false,-class_89.var_4430);
                      _loc7_.method_547();
                   }
                }
@@ -466,36 +466,36 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_92.var_4647) == class_291.name_41)
+            if(class_92.var_4647 == class_291.name_41)
             {
                _loc22_ = new class_657(param1);
                _loc15_ = class_1.var_2884.var_34[_loc22_.var_1480];
                if(_loc15_)
                {
-                  _loc23_ = (!!_loc22_.var_2444 ? _loc15_.var_742.R.method_559() : class_73.method_2108(class_183.var_7129)) + class_114.method_2304(_loc22_.var_682);
+                  _loc23_ = (!!_loc22_.var_2444 ? _loc15_.var_742.R.method_559() : class_183.var_7129) + class_114.method_2304(_loc22_.var_682);
                   if(_loc22_.var_2440)
                   {
-                     class_73.method_2115(class_73.method_2115(class_73.method_2115(_loc15_.method_556)))(new class_167(_loc22_.var_304 == class_73.method_2108(class_183.var_7129) ? Number(_loc15_.var_742.position.var_304) : Number(_loc22_.var_304 + _loc15_.var_742.position.var_304),_loc22_.var_305 == class_183.var_7129 ? Number(_loc15_.var_742.position.var_305) : Number(_loc22_.var_305 + _loc15_.var_742.position.var_305)),_loc23_);
+                     _loc15_.method_556(new class_167(_loc22_.var_304 == class_183.var_7129 ? Number(_loc15_.var_742.position.var_304) : Number(_loc22_.var_304 + _loc15_.var_742.position.var_304),_loc22_.var_305 == class_183.var_7129 ? Number(_loc15_.var_742.position.var_305) : Number(_loc22_.var_305 + _loc15_.var_742.position.var_305)),_loc23_);
                   }
                   else
                   {
-                     class_73.method_2115(_loc15_.method_556)(new class_167(_loc22_.var_304 == class_73.method_2108(class_183.var_7129) ? Number(_loc15_.var_742.position.var_304) : Number(_loc22_.var_304),_loc22_.var_305 == class_73.method_2108(class_183.var_7129) ? Number(_loc15_.var_742.position.var_305) : Number(_loc22_.var_305)),_loc23_);
+                     _loc15_.method_556(new class_167(_loc22_.var_304 == class_183.var_7129 ? Number(_loc15_.var_742.position.var_304) : Number(_loc22_.var_304),_loc22_.var_305 == class_183.var_7129 ? Number(_loc15_.var_742.position.var_305) : Number(_loc22_.var_305)),_loc23_);
                   }
                   if(_loc22_.var_2443)
                   {
-                     _loc15_.var_756.var_304 = _loc22_.var_2441 == class_73.method_2108(class_183.var_7129) ? Number(_loc15_.var_756.var_304) : Number(_loc22_.var_2441 + _loc15_.var_756.var_304);
+                     _loc15_.var_756.var_304 = _loc22_.var_2441 == class_183.var_7129 ? Number(_loc15_.var_756.var_304) : Number(_loc22_.var_2441 + _loc15_.var_756.var_304);
                      _loc15_.var_756.var_305 = _loc22_.var_2442 == class_183.var_7129 ? Number(_loc15_.var_756.var_305) : Number(_loc15_.var_756.var_305 + _loc22_.var_2442);
                   }
                   else
                   {
                      _loc15_.var_756.var_304 = _loc22_.var_2441 == class_183.var_7129 ? Number(_loc15_.var_756.var_304) : Number(_loc22_.var_2441);
-                     _loc15_.var_756.var_305 = _loc22_.var_2442 == class_73.method_2108(class_183.var_7129) ? Number(_loc15_.var_756.var_305) : Number(_loc22_.var_2442);
+                     _loc15_.var_756.var_305 = _loc22_.var_2442 == class_183.var_7129 ? Number(_loc15_.var_756.var_305) : Number(_loc22_.var_2442);
                   }
                   _loc15_.method_547();
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_170.var_6731))
+            if(class_291.name_41 == class_170.var_6731)
             {
                _loc24_ = param1.readInt();
                _loc25_ = param1.readBoolean();
@@ -519,11 +519,11 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_102.var_4852) == class_291.name_41)
+            if(class_102.var_4852 == class_291.name_41)
             {
                _loc2_ = class_1.var_2884.var_85[param1.readInt()];
                _loc26_ = param1.readByte();
-               _loc27_ = param1.readByte() == class_73.method_2108(class_33.var_3679);
+               _loc27_ = param1.readByte() == class_33.var_3679;
                if(_loc2_ && (!_loc2_.var_773 || _loc27_))
                {
                   if(_loc26_ == class_165.var_6534)
@@ -534,11 +534,11 @@ package
                   {
                      _loc2_.var_928 = class_99.var_4682;
                      _loc2_.var_939 = class_99.var_4682;
-                     if(class_73.method_2108(class_183.var_7129) == _loc26_)
+                     if(class_183.var_7129 == _loc26_)
                      {
                         _loc2_.method_725(_loc2_.var_912);
                      }
-                     else if(class_73.method_2108(class_33.var_3679) == _loc26_)
+                     else if(class_33.var_3679 == _loc26_)
                      {
                         _loc2_.method_697(_loc2_.var_912);
                      }
@@ -564,12 +564,12 @@ package
                return;
             }
          }
-         if(class_291.name_40 == class_73.method_2108(class_117.var_5287))
+         if(class_291.name_40 == class_117.var_5287)
          {
-            if(class_291.name_41 == class_73.method_2108(class_33.var_3679))
+            if(class_291.name_41 == class_33.var_3679)
             {
                _loc28_ = new class_633(param1);
-               class_130.method_2434(class_33.var_3679 + _loc28_.var_2408 + class_73.method_2111(class_127.var_5773));
+               class_130.method_2434(class_33.var_3679 + _loc28_.var_2408 + class_127.var_5773);
                class_130.var_5892 = class_26.method_1668(class_107.var_4941);
                class_130.var_2884.method_142();
                _loc2_ = class_1.var_2884.var_85[_loc28_.var_2409];
@@ -587,26 +587,26 @@ package
                class_91.var_4471 = _loc29_.var_1004;
                class_91.var_466 = _loc29_.var_466;
                class_184.method_881();
-               class_1.var_2884.var_82 = -class_73.method_2108(class_33.var_3679);
+               class_1.var_2884.var_82 = -class_33.var_3679;
                class_1.var_2884.var_102 = null;
                if(_loc29_.var_2505)
                {
                   class_1.var_2884.var_102 = class_107.var_5053 + _loc29_.var_531;
-                  _loc30_ = _loc29_.var_455.charAt(class_73.method_2108(class_183.var_7129)) == class_73.method_2111(class_121.var_5417);
-                  if(_loc29_.var_455.length == class_183.var_7129 || _loc29_.var_455.charAt(class_73.method_2108(class_183.var_7129)) == class_73.method_2111(class_33.var_3659) || _loc30_)
+                  _loc30_ = _loc29_.var_455.charAt(class_183.var_7129) == class_121.var_5417;
+                  if(_loc29_.var_455.length == class_183.var_7129 || _loc29_.var_455.charAt(class_183.var_7129) == class_33.var_3659 || _loc30_)
                   {
-                     class_130.var_5893 = _loc29_.var_455.length == class_73.method_2108(class_183.var_7129) ? String(_loc29_.var_531) : _loc29_.var_455.substr(class_33.var_3679);
-                     class_130.var_2884.method_511(class_73.method_2111(class_165.var_6446));
+                     class_130.var_5893 = _loc29_.var_455.length == class_183.var_7129 ? String(_loc29_.var_531) : _loc29_.var_455.substr(class_33.var_3679);
+                     class_130.var_2884.method_511(class_165.var_6446);
                      if(_loc30_)
                      {
-                        class_1.var_2884.var_102 = class_73.method_2111(class_9.var_3268);
+                        class_1.var_2884.var_102 = class_9.var_3268;
                      }
                   }
                   else
                   {
                      if(_loc29_.var_2506 == class_74.const_400)
                      {
-                        class_130.var_5893 = _loc29_.var_455 + class_73.method_2111(class_9.var_3142) + _loc29_.var_531;
+                        class_130.var_5893 = _loc29_.var_455 + class_9.var_3142 + _loc29_.var_531;
                      }
                      else
                      {
@@ -617,18 +617,18 @@ package
                      {
                         _loc32_ = class_74.const_413;
                      }
-                     class_130.var_2884.method_511(class_73.method_2111(class_102.var_4736) + _loc32_);
+                     class_130.var_2884.method_511(class_102.var_4736 + _loc32_);
                   }
                   class_1.var_2884.var_82 = _loc29_.var_2506;
                   _loc31_ = new class_172(_loc29_.var_531);
-                  class_1.var_2884.method_74(_loc31_,_loc29_.var_2505,_loc29_.var_455,class_73.method_2108(class_183.var_7129),_loc29_.var_2506,_loc29_.var_480);
+                  class_1.var_2884.method_74(_loc31_,_loc29_.var_2505,_loc29_.var_455,class_183.var_7129,_loc29_.var_2506,_loc29_.var_480);
                }
                else
                {
-                  class_1.var_2884.var_102 = class_73.method_2111(class_9.var_3268);
+                  class_1.var_2884.var_102 = class_9.var_3268;
                   class_130.var_5893 = String(_loc29_.var_531);
                   class_130.var_2884.method_511(class_165.var_6446);
-                  class_1.var_2884.method_74(new class_172(_loc29_.var_531),null,null,_loc29_.var_2506,class_73.method_2108(class_183.var_7129),_loc29_.var_480);
+                  class_1.var_2884.method_74(new class_172(_loc29_.var_531),null,null,_loc29_.var_2506,class_183.var_7129,_loc29_.var_480);
                }
                class_37.var_2884.method_298(_loc29_.var_2506 == class_74.const_428);
                class_130.var_5895 = String(_loc29_.var_11);
@@ -642,7 +642,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_102.var_4852) == class_291.name_41)
+            if(class_102.var_4852 == class_291.name_41)
             {
                class_95.method_2213(param1.readByte(),param1.readShort(),param1.readShort());
                return;
@@ -691,7 +691,7 @@ package
                _loc33_.method_573();
                return;
             }
-            if(class_73.method_2108(class_181.var_6939) == class_291.name_41)
+            if(class_181.var_6939 == class_291.name_41)
             {
                _loc36_ = new class_263(param1.readShort(),param1.readShort(),param1.readByte(),param1.readShort(),param1.readInt(),param1.readBoolean());
                class_58.var_3803.method_373(_loc36_);
@@ -704,25 +704,25 @@ package
                class_1.var_2884.method_101();
                return;
             }
-            if(class_73.method_2108(class_16.var_3467) == class_291.name_41)
+            if(class_16.var_3467 == class_291.name_41)
             {
                class_394.method_2924(param1.readShort(),param1.readShort(),param1.readShort(),false);
                return;
             }
-            if(class_73.method_2108(class_121.var_5494) == class_291.name_41)
+            if(class_121.var_5494 == class_291.name_41)
             {
                class_1.var_2884.method_61(param1.readShort(),param1.readShort(),param1.readByte(),param1.readShort(),param1.readBoolean(),false);
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_33.var_3675))
+            if(class_291.name_41 == class_33.var_3675)
             {
                _loc37_ = new class_687(param1);
-               class_125.var_5689 = class_73.method_2108(class_92.var_4647);
-               class_291.var_7204 = class_73.method_2111(class_62.var_4157);
-               _loc38_ = class_125.method_2392(_loc37_.var_598,_loc37_.var_2497,_loc37_.var_2498,_loc37_.var_682,_loc37_.var_2499,_loc37_.var_2500,_loc37_.var_1484,-class_73.method_2108(class_33.var_3679),true,null,null,_loc37_.var_768,_loc37_.var_790);
-               class_291.var_7204 = class_73.method_2111(class_102.var_4735);
-               class_1.method_835(class_73.method_2108(class_170.var_6731));
-               class_125.var_5689 = class_73.method_2108(class_183.var_7129);
+               class_125.var_5689 = class_92.var_4647;
+               class_291.var_7204 = class_62.var_4157;
+               _loc38_ = class_125.method_2392(_loc37_.var_598,_loc37_.var_2497,_loc37_.var_2498,_loc37_.var_682,_loc37_.var_2499,_loc37_.var_2500,_loc37_.var_1484,-class_33.var_3679,true,null,null,_loc37_.var_768,_loc37_.var_790);
+               class_291.var_7204 = class_102.var_4735;
+               class_1.method_835(class_170.var_6731);
+               class_125.var_5689 = class_183.var_7129;
                if(class_96.const_486 && class_58.var_3803.var_531.var_956 == class_170.var_6619 && _loc37_.var_598 == class_46.const_230)
                {
                   class_96.method_2226(_loc38_);
@@ -742,7 +742,7 @@ package
                   class_130.var_2884.method_512(class_111.var_5099,class_111.var_5098,_loc39_);
                }
                class_1.var_2884.var_42.graphics.clear();
-               class_1.var_2884.var_42.graphics.lineStyle(class_73.method_2108(class_165.var_6534),3225412);
+               class_1.var_2884.var_42.graphics.lineStyle(class_165.var_6534,3225412);
                if(class_96.const_482)
                {
                   class_38.method_1937(false);
@@ -755,21 +755,21 @@ package
                class_8.method_1847(class_111.var_5098);
                class_161.method_2552();
                class_546.method_3050();
-               if(class_1.const_43 && class_111.var_5098.indexOf(class_73.method_2111(class_170.var_6618)) == -class_33.var_3679)
+               if(class_1.const_43 && class_111.var_5098.indexOf(class_170.var_6618) == -class_33.var_3679)
                {
                   class_639.method_3061();
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_9.var_3266))
+            if(class_291.name_41 == class_9.var_3266)
             {
                _loc40_ = new class_665(param1);
-               class_36.var_3715 = class_1.method_1816() + class_73.method_2108(class_4.var_3058) * _loc40_.var_1996;
+               class_36.var_3715 = class_1.method_1816() + class_4.var_3058 * _loc40_.var_1996;
                return;
             }
             if(class_9.var_3259 == class_291.name_41)
             {
-               class_38.method_1937(param1.readByte() == class_73.method_2108(class_33.var_3679),class_73.method_2116(class_92.var_4648),param1.readShort());
+               class_38.method_1937(param1.readByte() == class_33.var_3679,class_92.var_4648,param1.readShort());
                return;
             }
             if(class_117.var_5280 == class_291.name_41)
@@ -786,14 +786,14 @@ package
                }
                _loc41_ = param1.readInt() / class_121.var_5493;
                _loc33_.method_572(!_loc33_.method_562());
-               class_73.method_2115(class_73.method_2115(class_73.method_2115(class_73.method_2115(_loc33_.method_556))))(_loc33_.method_555(),_loc41_);
+               _loc33_.method_556(_loc33_.method_555(),_loc41_);
                if(_loc33_.var_695 as MovieClip)
                {
                   (_loc33_.var_695 as MovieClip).addChild(class_175.method_118(class_16.var_3449 + class_46.const_213));
                }
                return;
             }
-            if(class_73.method_2108(class_4.var_3043) == class_291.name_41)
+            if(class_4.var_3043 == class_291.name_41)
             {
                class_58.var_3803.method_367(param1.readShort());
                return;
@@ -801,22 +801,22 @@ package
             if(class_291.name_41 == class_4.var_3042)
             {
                _loc42_ = param1.readInt();
-               if(_loc42_ > class_73.method_2108(class_183.var_7129) && class_152.var_6142)
+               if(_loc42_ > class_183.var_7129 && class_152.var_6142)
                {
                   class_58.var_3803.var_525 = class_1.method_1816() + _loc42_;
                   class_58.var_3803.var_526 = class_58.var_3803.var_504.var_1573;
                }
-               class_58.var_3803.method_397(param1.readInt() / class_73.method_2116(class_4.var_3057),param1.readInt() / class_73.method_2116(class_4.var_3057));
+               class_58.var_3803.method_397(param1.readInt() / class_4.var_3057,param1.readInt() / class_4.var_3057);
                return;
             }
-            if(class_73.method_2108(class_102.var_4826) == class_291.name_41)
+            if(class_102.var_4826 == class_291.name_41)
             {
                _loc33_ = class_1.var_2884.var_34[param1.readInt()];
                if(!_loc33_)
                {
                   return;
                }
-               _loc33_.method_541(param1.readShort() / class_73.method_2108(class_121.var_5493));
+               _loc33_.method_541(param1.readShort() / class_121.var_5493);
                return;
             }
             if(class_162.var_6351 == class_291.name_41)
@@ -830,7 +830,7 @@ package
                {
                   _loc2_.method_704(true);
                   _loc2_.var_925.method_572(false);
-                  _loc2_.var_925.var_757 = class_73.method_2108(class_117.var_5287);
+                  _loc2_.var_925.var_757 = class_117.var_5287;
                   _loc2_.var_915 = class_99.var_4681;
                }
                else
@@ -846,14 +846,14 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_33.var_3668))
+            if(class_291.name_41 == class_33.var_3668)
             {
                _loc2_ = class_1.var_2884.var_85[param1.readInt()];
                if(!_loc2_)
                {
                   return;
                }
-               _loc43_ = param1.readUnsignedShort() / class_73.method_2116(class_117.var_5286);
+               _loc43_ = param1.readUnsignedShort() / class_117.var_5286;
                _loc44_ = param1.readBoolean();
                if(_loc44_ && !_loc2_.var_30)
                {
@@ -867,7 +867,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_124.var_5641) == class_291.name_41)
+            if(class_124.var_5641 == class_291.name_41)
             {
                class_58.var_3803.method_381();
                return;
@@ -883,10 +883,10 @@ package
                   {
                      return;
                   }
-                  _loc2_.var_925.var_747 += class_73.method_2108(class_117.var_5287);
-                  _loc2_.var_925.var_757 += class_73.method_2108(class_117.var_5287);
+                  _loc2_.var_925.var_747 += class_117.var_5287;
+                  _loc2_.var_925.var_757 += class_117.var_5287;
                   class_1.var_2884.method_33(class_56.const_193,_loc2_.x,_loc2_.y,class_146.var_6117,class_165.var_6534,false);
-                  _loc47_ = class_175.method_118(class_73.method_2111(class_33.var_3572));
+                  _loc47_ = class_175.method_118(class_33.var_3572);
                   _loc47_.cacheAsBitmap = class_99.var_4681;
                   _loc2_.addChild(_loc47_);
                }
@@ -898,18 +898,18 @@ package
                      return;
                   }
                   _loc33_.var_747 += class_146.var_6117;
-                  _loc33_.var_757 += class_73.method_2108(class_146.var_6117);
+                  _loc33_.var_757 += class_146.var_6117;
                   _loc48_ = _loc33_.method_555();
-                  class_1.var_2884.method_33(class_56.const_193,_loc48_.var_304 * class_162.var_6351,_loc48_.var_305 * class_73.method_2108(class_162.var_6351),class_146.var_6117,class_165.var_6534,false);
+                  class_1.var_2884.method_33(class_56.const_193,_loc48_.var_304 * class_162.var_6351,_loc48_.var_305 * class_162.var_6351,class_146.var_6117,class_165.var_6534,false);
                }
                return;
             }
-            if(class_73.method_2108(class_9.var_3234) == class_291.name_41)
+            if(class_9.var_3234 == class_291.name_41)
             {
                _loc2_ = class_1.var_2884.var_85[param1.readInt()];
                if(_loc2_)
                {
-                  class_1.var_2884.method_33(class_56.const_193,_loc2_.x,_loc2_.y,class_146.var_6117,class_73.method_2108(class_165.var_6534),false);
+                  class_1.var_2884.method_33(class_56.const_193,_loc2_.x,_loc2_.y,class_146.var_6117,class_165.var_6534,false);
                   _loc49_ = param1.readBoolean();
                   _loc50_ = param1.readBoolean();
                   if(!_loc49_ || _loc49_ && _loc50_)
@@ -926,7 +926,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_117.var_5264) == class_291.name_41)
+            if(class_117.var_5264 == class_291.name_41)
             {
                _loc51_ = param1.readByte();
                _loc52_ = param1.readInt();
@@ -959,7 +959,7 @@ package
                class_58.var_3803.method_385(_loc55_,null,_loc56_,null);
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_107.var_5040))
+            if(class_291.name_41 == class_107.var_5040)
             {
                _loc57_ = param1.readShort();
                _loc58_ = param1.readShort();
@@ -970,15 +970,15 @@ package
                _loc60_.var_1514 = class_183.var_7129;
                _loc60_.var_414 = class_183.var_7129;
                class_58.var_3803.method_371(_loc60_);
-               class_58.var_3803.var_506.var_422.push(new class_274(_loc60_,_loc57_ - _loc59_ / class_165.var_6534,_loc57_ + _loc59_ / class_73.method_2108(class_165.var_6534),_loc58_ - _loc59_ / class_165.var_6534,_loc58_ + _loc59_ / class_165.var_6534,class_274.const_205));
+               class_58.var_3803.var_506.var_422.push(new class_274(_loc60_,_loc57_ - _loc59_ / class_165.var_6534,_loc57_ + _loc59_ / class_165.var_6534,_loc58_ - _loc59_ / class_165.var_6534,_loc58_ + _loc59_ / class_165.var_6534,class_274.const_205));
                return;
             }
-            if(class_73.method_2108(class_121.var_5457) == class_291.name_41)
+            if(class_121.var_5457 == class_291.name_41)
             {
                _loc2_ = class_1.var_2884.var_85[param1.readInt()];
                if(_loc2_ && !_loc2_.var_366)
                {
-                  class_58.var_3803.method_385(class_58.var_3803.var_505,new class_167(param1.readShort() / class_73.method_2108(class_162.var_6351),param1.readShort() / class_162.var_6351),_loc2_.var_925,null,true,class_1.method_1816() + class_73.method_2108(class_181.var_6922));
+                  class_58.var_3803.method_385(class_58.var_3803.var_505,new class_167(param1.readShort() / class_162.var_6351,param1.readShort() / class_162.var_6351),_loc2_.var_925,null,true,class_1.method_1816() + class_181.var_6922);
                }
                return;
             }
@@ -1000,19 +1000,19 @@ package
                class_641.name_6(true,param1.readUTF());
                return;
             }
-            if(class_73.method_2108(class_102.var_4859) == class_291.name_41)
+            if(class_102.var_4859 == class_291.name_41)
             {
                _loc61_ = param1.readByte();
                _loc62_ = param1.readByte();
-               if(_loc62_ > class_183.var_7129 && class_1.var_2884.var_30 && class_125.var_5685.indexOf(_loc61_) > -class_73.method_2108(class_33.var_3679))
+               if(_loc62_ > class_183.var_7129 && class_1.var_2884.var_30 && class_125.var_5685.indexOf(_loc61_) > -class_33.var_3679)
                {
                   while(_loc62_--)
                   {
                      class_390.method_2923(class_91.method_2166(_loc61_,true).var_1480);
                   }
-                  while(class_125.var_5685.indexOf(_loc61_) > -class_73.method_2108(class_33.var_3679))
+                  while(class_125.var_5685.indexOf(_loc61_) > -class_33.var_3679)
                   {
-                     class_125.var_5685.splice(class_73.method_2108(class_183.var_7129),class_125.var_5685.indexOf(_loc61_) + class_73.method_2108(class_33.var_3679));
+                     class_125.var_5685.splice(class_183.var_7129,class_125.var_5685.indexOf(_loc61_) + class_33.var_3679);
                   }
                }
                return;
@@ -1029,18 +1029,18 @@ package
                   {
                      class_125.var_5689 = class_170.var_6731;
                      _loc67_ = Math.max(_loc66_[_loc64_].var_305,_loc66_[_loc65_].var_305);
-                     _loc68_ = Math.max(_loc66_[_loc64_].var_305 + class_73.method_2108(class_146.var_6118) * _loc66_[_loc64_].var_1478.height / class_121.var_5495,_loc66_[_loc65_].var_305 + class_146.var_6118 * _loc66_[_loc65_].var_1478.height / class_121.var_5495);
-                     class_125.method_2392(class_46.const_143,_loc66_[_loc64_].var_304 + _loc66_[_loc64_].var_1478.width / class_73.method_2108(class_165.var_6534),_loc66_[_loc64_].var_305 + class_146.var_6118 * _loc66_[_loc64_].var_1478.height / class_73.method_2108(class_121.var_5495));
-                     new class_684(_loc66_[_loc64_].var_304 + _loc66_[_loc64_].var_1478.width / class_165.var_6534,_loc67_,class_117.var_5287,class_183.var_7129,-class_73.method_2108(class_33.var_3679),class_146.var_6087,class_107.var_5038,16553492);
-                     class_125.method_2392(class_46.const_143,_loc66_[_loc65_].var_304 + _loc66_[_loc65_].var_1478.width / class_73.method_2108(class_165.var_6534),_loc66_[_loc65_].var_305 + class_73.method_2108(class_146.var_6118) * _loc66_[_loc65_].var_1478.height / class_73.method_2108(class_121.var_5495));
-                     new class_684(_loc66_[_loc65_].var_304 + _loc66_[_loc65_].var_1478.width / class_165.var_6534,_loc67_,class_117.var_5287,class_73.method_2108(class_183.var_7129),-class_33.var_3679,class_73.method_2108(class_146.var_6087),class_107.var_5038,16553492);
-                     class_125.var_5689 = class_73.method_2108(class_183.var_7129);
+                     _loc68_ = Math.max(_loc66_[_loc64_].var_305 + class_146.var_6118 * _loc66_[_loc64_].var_1478.height / class_121.var_5495,_loc66_[_loc65_].var_305 + class_146.var_6118 * _loc66_[_loc65_].var_1478.height / class_121.var_5495);
+                     class_125.method_2392(class_46.const_143,_loc66_[_loc64_].var_304 + _loc66_[_loc64_].var_1478.width / class_165.var_6534,_loc66_[_loc64_].var_305 + class_146.var_6118 * _loc66_[_loc64_].var_1478.height / class_121.var_5495);
+                     new class_684(_loc66_[_loc64_].var_304 + _loc66_[_loc64_].var_1478.width / class_165.var_6534,_loc67_,class_117.var_5287,class_183.var_7129,-class_33.var_3679,class_146.var_6087,class_107.var_5038,16553492);
+                     class_125.method_2392(class_46.const_143,_loc66_[_loc65_].var_304 + _loc66_[_loc65_].var_1478.width / class_165.var_6534,_loc66_[_loc65_].var_305 + class_146.var_6118 * _loc66_[_loc65_].var_1478.height / class_121.var_5495);
+                     new class_684(_loc66_[_loc65_].var_304 + _loc66_[_loc65_].var_1478.width / class_165.var_6534,_loc67_,class_117.var_5287,class_183.var_7129,-class_33.var_3679,class_146.var_6087,class_107.var_5038,16553492);
+                     class_125.var_5689 = class_183.var_7129;
                   }
                   else
                   {
-                     class_1.var_2884.method_33(class_56.const_193,_loc66_[_loc64_].var_304 + _loc66_[_loc64_].var_1478.width / class_165.var_6534,_loc66_[_loc64_].var_305 + _loc66_[_loc64_].var_1478.height / class_73.method_2108(class_165.var_6534),class_73.method_2108(class_146.var_6117),class_165.var_6534,false);
+                     class_1.var_2884.method_33(class_56.const_193,_loc66_[_loc64_].var_304 + _loc66_[_loc64_].var_1478.width / class_165.var_6534,_loc66_[_loc64_].var_305 + _loc66_[_loc64_].var_1478.height / class_165.var_6534,class_146.var_6117,class_165.var_6534,false);
                      class_58.var_3803.method_399(_loc64_,class_146.var_6087);
-                     class_1.var_2884.method_33(class_56.const_193,_loc66_[_loc65_].var_304 + _loc66_[_loc65_].var_1478.width / class_165.var_6534,_loc66_[_loc65_].var_305 + _loc66_[_loc65_].var_1478.height / class_73.method_2108(class_165.var_6534),class_73.method_2108(class_146.var_6117),class_165.var_6534,false);
+                     class_1.var_2884.method_33(class_56.const_193,_loc66_[_loc65_].var_304 + _loc66_[_loc65_].var_1478.width / class_165.var_6534,_loc66_[_loc65_].var_305 + _loc66_[_loc65_].var_1478.height / class_165.var_6534,class_146.var_6117,class_165.var_6534,false);
                      class_58.var_3803.method_399(_loc65_,class_146.var_6087);
                   }
                }
@@ -1060,7 +1060,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_124.var_5640) == class_291.name_41)
+            if(class_124.var_5640 == class_291.name_41)
             {
                _loc69_ = new class_626(param1);
                if(class_1.var_2884.var_51)
@@ -1097,7 +1097,7 @@ package
             if(class_291.name_41 == class_121.var_5463)
             {
                _loc70_ = new class_270(param1.readShort(),param1.readShort(),param1.readShort(),param1.readShort() / class_121.var_5493,param1.readShort() / class_121.var_5493,param1.readShort());
-               _loc70_.var_1324.gotoAndStop(class_73.method_2108(class_33.var_3679));
+               _loc70_.var_1324.gotoAndStop(class_33.var_3679);
                _loc70_.name = String(_loc70_.var_1323);
                _loc70_.var_1325 = getTimer();
                class_58.var_3803.var_543.addChild(_loc70_);
@@ -1121,11 +1121,11 @@ package
                   _loc74_ = param1.readInt();
                   _loc75_ = class_1.var_2884.var_85[_loc74_];
                   _loc5_ = class_1.var_2884.var_107.length;
-                  _loc6_ = class_73.method_2108(class_183.var_7129);
+                  _loc6_ = class_183.var_7129;
                   while(_loc6_ < _loc5_)
                   {
                      _loc76_ = class_1.var_2884.var_107[_loc6_];
-                     if(_loc74_ < class_73.method_2108(class_183.var_7129) || _loc75_ != null && (_loc76_.method_484() == _loc75_.var_925 || _loc76_.method_489() == _loc75_.var_925))
+                     if(_loc74_ < class_183.var_7129 || _loc75_ != null && (_loc76_.method_484() == _loc75_.var_925 || _loc76_.method_489() == _loc75_.var_925))
                      {
                         class_58.var_3803.var_504.method_1148(_loc76_);
                         class_1.var_2884.var_107.splice(_loc6_,class_33.var_3679);
@@ -1147,7 +1147,7 @@ package
                class_1.var_2884.var_155.var_660 = class_99.var_4681;
                return;
             }
-            if(class_73.method_2108(class_107.var_5050) == class_291.name_41)
+            if(class_107.var_5050 == class_291.name_41)
             {
                if(class_58.var_3803)
                {
@@ -1155,17 +1155,17 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_127.var_5864))
+            if(class_291.name_41 == class_127.var_5864)
             {
                class_36.var_3683 = param1.readUnsignedShort();
                return;
             }
-            if(class_73.method_2108(class_62.var_4136) == class_291.name_41)
+            if(class_62.var_4136 == class_291.name_41)
             {
                class_58.var_3803.method_391(param1.readUnsignedByte(),param1.readUnsignedShort());
                return;
             }
-            if(class_73.method_2108(class_162.var_6352) == class_291.name_41)
+            if(class_162.var_6352 == class_291.name_41)
             {
                class_58.var_3803.method_400(param1.readUnsignedByte(),param1.readUnsignedShort(),param1.readShort(),param1.readShort(),param1.readUnsignedShort(),param1.readUnsignedShort());
                return;
@@ -1174,16 +1174,16 @@ package
             {
                _loc77_ = class_1.var_2884;
                _loc78_ = new class_611(param1);
-               _loc77_.method_61(_loc78_.x,_loc78_.y,class_73.method_2108(class_146.var_6117),class_89.var_4444,true,false);
-               _loc79_ = new class_27(_loc77_.var_156[class_73.method_2108(class_56.const_160)],false);
+               _loc77_.method_61(_loc78_.x,_loc78_.y,class_146.var_6117,class_89.var_4444,true,false);
+               _loc79_ = new class_27(_loc77_.var_156[class_56.const_160],false);
                _loc79_.var_304 = _loc78_.x + _loc77_.var_50.x;
                _loc79_.var_305 = _loc78_.y;
                _loc77_.var_155.var_659.push(_loc79_);
                _loc77_.var_155.var_660 = class_99.var_4681;
-               class_180.method_2675(class_73.method_2111(class_127.var_5772),class_1.var_2878.method_168(_loc78_.x,_loc78_.y));
+               class_180.method_2675(class_127.var_5772,class_1.var_2878.method_168(_loc78_.x,_loc78_.y));
                return;
             }
-            if(class_73.method_2108(class_124.var_5617) == class_291.name_41)
+            if(class_124.var_5617 == class_291.name_41)
             {
                _loc80_ = param1.readUTF();
                if(_loc80_ != class_9.var_3268)
@@ -1192,7 +1192,7 @@ package
                   _loc82_ = param1.readShort();
                   _loc83_ = param1.readUTF();
                   class_188.method_1971().method_742(_loc80_,_loc82_);
-                  class_1.var_2884.method_97(class_165.var_6415 + class_26.method_1668(class_73.method_2111(class_170.var_6617),class_124.var_5628 + _loc81_ + class_73.method_2111(class_62.var_4121),class_73.method_2111(class_121.var_5462) + _loc83_ + class_73.method_2111(class_62.var_4121)));
+                  class_1.var_2884.method_97(class_165.var_6415 + class_26.method_1668(class_170.var_6617,class_124.var_5628 + _loc81_ + class_62.var_4121,class_121.var_5462 + _loc83_ + class_62.var_4121));
                }
                else
                {
@@ -1200,7 +1200,7 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_124.var_5616))
+            if(class_291.name_41 == class_124.var_5616)
             {
                _loc84_ = param1.readShort();
                _loc85_ = new Array();
@@ -1244,7 +1244,7 @@ package
                if(class_1.const_44)
                {
                   _loc87_ = int(_loc86_.var_2358.charAt(class_183.var_7129));
-                  _loc86_.var_2358 = _loc86_.var_2358.substr(class_73.method_2108(class_33.var_3679));
+                  _loc86_.var_2358 = _loc86_.var_2358.substr(class_33.var_3679);
                }
                _loc2_ = class_1.var_2884.var_59[_loc86_.var_363];
                _loc88_ = class_53.method_1965(_loc86_.var_2358,_loc86_.var_363);
@@ -1259,9 +1259,9 @@ package
                   _loc89_ = null;
                   if(class_183.var_7129 <= _loc2_.var_947)
                   {
-                     _loc89_ = _loc2_.var_947.toString(class_73.method_2108(class_16.var_3467));
+                     _loc89_ = _loc2_.var_947.toString(class_16.var_3467);
                   }
-                  if(class_111.var_363.length <= class_73.method_2108(class_165.var_6534) || _loc88_.toLowerCase().indexOf(class_111.var_5079) == -class_33.var_3679 && _loc88_.toLowerCase().indexOf(class_111.var_5081) == -class_33.var_3679)
+                  if(class_111.var_363.length <= class_165.var_6534 || _loc88_.toLowerCase().indexOf(class_111.var_5079) == -class_33.var_3679 && _loc88_.toLowerCase().indexOf(class_111.var_5081) == -class_33.var_3679)
                   {
                      if(_loc2_.var_945)
                      {
@@ -1269,11 +1269,11 @@ package
                      }
                      else if(_loc2_.var_943)
                      {
-                        _loc88_ = class_73.method_2111(class_102.var_4734) + _loc88_ + class_73.method_2111(class_107.var_4940);
+                        _loc88_ = class_102.var_4734 + _loc88_ + class_107.var_4940;
                      }
                      else if(class_111.var_5100 && class_106.var_4871 && !class_106.method_163(_loc2_))
                      {
-                        _loc88_ = class_73.method_2111(class_165.var_6414) + _loc88_ + class_73.method_2111(class_162.var_6345);
+                        _loc88_ = class_165.var_6414 + _loc88_ + class_162.var_6345;
                      }
                   }
                   class_1.var_2884.method_97(_loc88_,class_161.method_2554(_loc86_.var_363,false),false,_loc89_,null,_loc86_.var_363);
@@ -1282,11 +1282,11 @@ package
                {
                   if(class_1.const_44)
                   {
-                     if(class_73.method_2108(class_183.var_7129) == _loc87_)
+                     if(class_183.var_7129 == _loc87_)
                      {
-                        class_1.var_2884.method_97(class_73.method_2111(class_60.var_3872) + _loc88_,_loc86_.var_363);
+                        class_1.var_2884.method_97(class_60.var_3872 + _loc88_,_loc86_.var_363);
                      }
-                     else if(_loc87_ == class_73.method_2108(class_33.var_3679))
+                     else if(_loc87_ == class_33.var_3679)
                      {
                         class_1.var_2884.method_97(class_33.var_3571 + _loc88_,_loc86_.var_363);
                      }
@@ -1314,7 +1314,7 @@ package
             {
                return;
             }
-            if(class_73.method_2108(class_170.var_6731) == class_291.name_41)
+            if(class_170.var_6731 == class_291.name_41)
             {
                _loc90_ = param1.readUTF();
                if(_loc90_.indexOf(class_165.var_6519) != -class_33.var_3679)
@@ -1327,7 +1327,7 @@ package
             if(class_291.name_41 == class_102.var_4852)
             {
                _loc90_ = param1.readUTF();
-               if(_loc90_.toLowerCase().indexOf(class_146.var_6062) != -class_33.var_3679 || _loc90_.toLowerCase().indexOf(class_107.var_4939) != -class_73.method_2108(class_33.var_3679))
+               if(_loc90_.toLowerCase().indexOf(class_146.var_6062) != -class_33.var_3679 || _loc90_.toLowerCase().indexOf(class_107.var_4939) != -class_33.var_3679)
                {
                   return;
                }
@@ -1340,13 +1340,13 @@ package
                class_85.method_666(_loc91_.var_2321,_loc91_.var_2358,_loc91_.var_363,_loc91_.var_2359,_loc91_.var_2360,_loc91_.var_2361);
                return;
             }
-            if(class_73.method_2108(class_33.var_3675) == class_291.name_41)
+            if(class_33.var_3675 == class_291.name_41)
             {
                _loc92_ = param1.readBoolean();
                _loc93_ = param1.readUTF();
                _loc94_ = new Array();
                _loc5_ = param1.readByte();
-               _loc6_ = class_73.method_2108(class_183.var_7129);
+               _loc6_ = class_183.var_7129;
                while(_loc6_ < _loc5_)
                {
                   _loc94_.push(param1.readUTF());
@@ -1357,23 +1357,23 @@ package
                _loc93_ = class_26.method_1903.apply(null,_loc94_);
                if(class_382.var_7269.var_1710())
                {
-                  class_85.method_2140(class_62.var_4121 + _loc93_ + class_73.method_2111(class_62.var_4120),_loc92_);
+                  class_85.method_2140(class_62.var_4121 + _loc93_ + class_62.var_4120,_loc92_);
                }
                else
                {
-                  class_1.var_2884.method_97(class_62.var_4121 + _loc93_ + class_73.method_2111(class_62.var_4120),class_73.method_2111(class_4.var_3000),_loc92_);
+                  class_1.var_2884.method_97(class_62.var_4121 + _loc93_ + class_62.var_4120,class_4.var_3000,_loc92_);
                }
                return;
             }
          }
-         if(class_73.method_2108(class_92.var_4647) == class_291.name_40)
+         if(class_92.var_4647 == class_291.name_40)
          {
             if(class_291.name_41 == class_33.var_3679)
             {
                class_218.method_2790(param1.readByte());
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_162.var_6351))
+            if(class_291.name_41 == class_162.var_6351)
             {
                if(class_1.const_43)
                {
@@ -1383,7 +1383,7 @@ package
                return;
             }
          }
-         if(class_291.name_40 == class_73.method_2108(class_170.var_6731))
+         if(class_291.name_40 == class_170.var_6731)
          {
             if(class_291.name_41 == class_33.var_3679)
             {
@@ -1405,11 +1405,11 @@ package
                   _loc7_ = class_1.var_2884.var_13.var_925;
                   if(_loc97_.var_2440)
                   {
-                     class_73.method_2115(class_73.method_2115(class_73.method_2115(_loc7_.method_556)))(new class_167(_loc97_.var_304 == class_183.var_7129 ? Number(_loc7_.var_742.position.var_304) : Number(_loc7_.var_742.position.var_304 + _loc97_.var_304),_loc97_.var_305 == class_73.method_2108(class_183.var_7129) ? Number(_loc7_.var_742.position.var_305) : Number(_loc7_.var_742.position.var_305 + _loc97_.var_305)),class_73.method_2108(class_183.var_7129));
+                     _loc7_.method_556(new class_167(_loc97_.var_304 == class_183.var_7129 ? Number(_loc7_.var_742.position.var_304) : Number(_loc7_.var_742.position.var_304 + _loc97_.var_304),_loc97_.var_305 == class_183.var_7129 ? Number(_loc7_.var_742.position.var_305) : Number(_loc7_.var_742.position.var_305 + _loc97_.var_305)),class_183.var_7129);
                   }
                   else
                   {
-                     class_73.method_2115(class_73.method_2115(_loc7_.method_556))(new class_167(_loc97_.var_304 == class_183.var_7129 ? Number(_loc7_.var_742.position.var_304) : Number(_loc97_.var_304),_loc97_.var_305 == class_73.method_2108(class_183.var_7129) ? Number(_loc7_.var_742.position.var_305) : Number(_loc97_.var_305)),class_183.var_7129);
+                     _loc7_.method_556(new class_167(_loc97_.var_304 == class_183.var_7129 ? Number(_loc7_.var_742.position.var_304) : Number(_loc97_.var_304),_loc97_.var_305 == class_183.var_7129 ? Number(_loc7_.var_742.position.var_305) : Number(_loc97_.var_305)),class_183.var_7129);
                   }
                   if(_loc97_.var_2443)
                   {
@@ -1418,8 +1418,8 @@ package
                   }
                   else
                   {
-                     _loc7_.var_756.var_305 = _loc97_.var_2442 == class_73.method_2108(class_183.var_7129) ? Number(_loc7_.var_756.var_305) : Number(_loc97_.var_2442);
-                     _loc7_.var_756.var_304 = _loc97_.var_2441 == class_73.method_2108(class_183.var_7129) ? Number(_loc7_.var_756.var_304) : Number(_loc97_.var_2441);
+                     _loc7_.var_756.var_305 = _loc97_.var_2442 == class_183.var_7129 ? Number(_loc7_.var_756.var_305) : Number(_loc97_.var_2442);
+                     _loc7_.var_756.var_304 = _loc97_.var_2441 == class_183.var_7129 ? Number(_loc7_.var_756.var_304) : Number(_loc97_.var_2441);
                   }
                   class_68.var_4230 = class_99.var_4682;
                   class_68.var_4232 = class_99.var_4682;
@@ -1440,7 +1440,7 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_9.var_3267))
+            if(class_291.name_41 == class_9.var_3267)
             {
                _loc98_ = new class_500(param1);
                _loc2_ = class_1.var_2884.var_85[_loc98_.var_364];
@@ -1456,7 +1456,7 @@ package
                      {
                         class_1.var_2884.method_43(class_56.const_323,_loc2_.x,_loc2_.y);
                      }
-                     else if(class_73.method_2108(class_146.var_6118) == _loc98_.var_121)
+                     else if(class_146.var_6118 == _loc98_.var_121)
                      {
                         class_1.var_2884.method_43(class_56.const_322,_loc2_.x,_loc2_.y);
                      }
@@ -1471,7 +1471,7 @@ package
                class_42.var_2884.method_333();
                if(_loc2_ && _loc2_.var_773)
                {
-                  class_1.var_2884.method_97(class_26.method_1668(class_73.method_2111(class_124.var_5553),class_121.var_5462 + _loc98_.var_1996 / class_73.method_2108(class_121.var_5493) + class_62.var_4042));
+                  class_1.var_2884.method_97(class_26.method_1668(class_124.var_5553,class_121.var_5462 + _loc98_.var_1996 / class_121.var_5493 + class_62.var_4042));
                   class_179.method_2651();
                }
                return;
@@ -1487,7 +1487,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_170.var_6731) == class_291.name_41)
+            if(class_170.var_6731 == class_291.name_41)
             {
                class_539.var_7324 = param1.readUnsignedShort();
                class_539.var_7326 = param1.readInt();
@@ -1495,12 +1495,12 @@ package
                class_217.method_2786();
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_102.var_4852))
+            if(class_291.name_41 == class_102.var_4852)
             {
                class_539.name_6(true,param1.readInt());
                return;
             }
-            if(class_73.method_2108(class_146.var_6117) == class_291.name_41)
+            if(class_146.var_6117 == class_291.name_41)
             {
                if(class_1.var_2884.var_122 < class_158.NORMAL)
                {
@@ -1509,14 +1509,14 @@ package
                class_184.var_2341.method_734(param1.readUnsignedByte(),param1.readUnsignedByte());
                return;
             }
-            if(class_73.method_2108(class_162.var_6346) == class_291.name_41)
+            if(class_162.var_6346 == class_291.name_41)
             {
                _loc100_ = null;
-               class_1.var_2884.var_30 = class_73.method_2109(false);
-               class_73.method_2115(class_1.method_835)(class_73.method_2116(param1.length));
+               class_1.var_2884.var_30 = false;
+               class_1.method_835(param1.length);
                _loc100_ = new class_674(param1);
-               class_130.method_2434(class_73.method_2111(class_9.var_3268));
-               class_130.var_5892 = class_26.method_1668(class_73.method_2111(class_62.var_4079));
+               class_130.method_2434(class_9.var_3268);
+               class_130.var_5892 = class_26.method_1668(class_62.var_4079);
                if(_loc100_.var_2478 && _loc100_.var_2479)
                {
                   class_58.var_3803.var_506.var_430 = class_99.var_4681;
@@ -1534,7 +1534,7 @@ package
                   _loc102_ = class_1.var_2884.var_85[_loc100_.var_2479];
                   if(_loc102_)
                   {
-                     if(_loc102_.var_773 && _loc100_.var_2481 > class_73.method_2108(class_183.var_7129))
+                     if(_loc102_.var_773 && _loc100_.var_2481 > class_183.var_7129)
                      {
                         class_86.method_2145(_loc100_.var_2481);
                      }
@@ -1554,7 +1554,7 @@ package
                   _loc2_ = class_1.var_2884.var_85[_loc100_.var_2478];
                   if(_loc2_)
                   {
-                     if(_loc2_.var_773 && _loc100_.var_2480 > class_73.method_2108(class_183.var_7129))
+                     if(_loc2_.var_773 && _loc100_.var_2480 > class_183.var_7129)
                      {
                         class_86.method_2145(_loc100_.var_2480);
                      }
@@ -1576,14 +1576,14 @@ package
                _loc2_ = class_1.var_2884.var_85[_loc103_.var_2487];
                if(_loc2_)
                {
-                  if(_loc2_.var_773 && _loc103_.var_122 > class_73.method_2108(class_183.var_7129))
+                  if(_loc2_.var_773 && _loc103_.var_122 > class_183.var_7129)
                   {
                      class_86.method_2145(_loc103_.var_122);
                   }
                   class_1.var_2884.method_65(_loc2_,false,_loc103_.var_2488,_loc103_.var_2452,_loc103_.var_122);
-                  _loc104_ = class_73.method_2109(_loc2_.var_773);
-                  class_73.method_2115(class_1.method_835)(_loc2_);
-                  if(class_73.method_2109(_loc104_))
+                  _loc104_ = _loc2_.var_773;
+                  class_1.method_835(_loc2_);
+                  if(_loc104_)
                   {
                      class_125.var_5670 = _loc103_.var_2489;
                      class_91.method_2173();
@@ -1591,7 +1591,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_117.var_5279) == class_291.name_41)
+            if(class_117.var_5279 == class_291.name_41)
             {
                _loc2_ = class_1.var_2884.var_85[param1.readInt()];
                if(_loc2_)
@@ -1600,33 +1600,33 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_181.var_6939) == class_291.name_41)
+            if(class_181.var_6939 == class_291.name_41)
             {
                _loc105_ = new class_690(param1);
                _loc106_ = class_26.method_1668(class_165.var_6413);
-               _loc107_ = class_26.method_1668(class_73.method_2111(class_4.var_2956));
+               _loc107_ = class_26.method_1668(class_4.var_2956);
                _loc6_ = class_183.var_7129;
                while(_loc6_ < _loc105_.var_2451.length)
                {
                   _loc108_ = _loc105_.var_2451[_loc6_];
-                  if(class_26.var_3496 == class_73.method_2111(class_4.var_2970))
+                  if(class_26.var_3496 == class_4.var_2970)
                   {
-                     _loc106_ += class_73.method_2111(class_107.var_5071);
+                     _loc106_ += class_107.var_5071;
                   }
                   if(class_1.var_2868)
                   {
-                     _loc106_ += class_26.method_1668(class_73.method_2111(class_4.var_2956),_loc108_.x_codeTitre,class_81.method_2123(_loc108_.x_codeTitre,_loc108_.var_595,class_154.var_6146.var_1691));
+                     _loc106_ += class_26.method_1668(class_4.var_2956,_loc108_.x_codeTitre,class_81.method_2123(_loc108_.x_codeTitre,_loc108_.var_595,class_154.var_6146.var_1691));
                   }
                   else
                   {
-                     _loc106_ += class_26.method_1668(class_73.method_2111(class_4.var_2956),_loc108_.x_codeTitre,class_81.method_2123(_loc108_.x_codeTitre,_loc108_.var_595));
+                     _loc106_ += class_26.method_1668(class_4.var_2956,_loc108_.x_codeTitre,class_81.method_2123(_loc108_.x_codeTitre,_loc108_.var_595));
                   }
                   _loc6_++;
                }
                class_1.var_2884.method_97(_loc106_);
                return;
             }
-            if(class_73.method_2108(class_183.var_7127) == class_291.name_41)
+            if(class_183.var_7127 == class_291.name_41)
             {
                _loc2_ = class_1.var_2884.var_85[param1.readInt()];
                if(_loc2_)
@@ -1635,7 +1635,7 @@ package
                   {
                      _loc2_.var_914 = new class_507(_loc2_);
                   }
-                  _loc2_.var_914.method_1493(param1.readByte() == class_73.method_2108(class_33.var_3679));
+                  _loc2_.var_914.method_1493(param1.readByte() == class_33.var_3679);
                }
                return;
             }
@@ -1658,13 +1658,13 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_33.var_3675))
+            if(class_291.name_41 == class_33.var_3675)
             {
                _loc109_ = new class_365(param1);
                class_63.method_2075(_loc109_);
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_127.var_5865))
+            if(class_291.name_41 == class_127.var_5865)
             {
                _loc2_ = class_1.var_2884.var_85[param1.readInt()];
                _loc110_ = param1.readByte();
@@ -1679,10 +1679,10 @@ package
                {
                   class_58.var_3803.var_560 = _loc2_;
                   _loc2_.method_65(true,_loc110_);
-                  class_1.var_2884.method_33(class_56.const_315,_loc2_.var_925.var_742.position.var_304 * class_73.method_2108(class_162.var_6351),_loc2_.var_925.var_742.position.var_305 * class_162.var_6351 + class_73.method_2108(class_146.var_6117),class_73.method_2108(class_33.var_3675),class_165.var_6534,false,-class_33.var_3679);
-                  class_1.var_2884.method_33(class_56.const_307,_loc2_.var_925.var_742.position.var_304 * class_73.method_2108(class_162.var_6351),_loc2_.var_925.var_742.position.var_305 * class_162.var_6351 + class_73.method_2108(class_146.var_6117),class_33.var_3675,class_165.var_6534,false,-class_73.method_2108(class_33.var_3679));
+                  class_1.var_2884.method_33(class_56.const_315,_loc2_.var_925.var_742.position.var_304 * class_162.var_6351,_loc2_.var_925.var_742.position.var_305 * class_162.var_6351 + class_146.var_6117,class_33.var_3675,class_165.var_6534,false,-class_33.var_3679);
+                  class_1.var_2884.method_33(class_56.const_307,_loc2_.var_925.var_742.position.var_304 * class_162.var_6351,_loc2_.var_925.var_742.position.var_305 * class_162.var_6351 + class_146.var_6117,class_33.var_3675,class_165.var_6534,false,-class_33.var_3679);
                   _loc2_.method_702(_loc2_.var_363,class_69.const_397,_loc111_,_loc112_);
-                  _loc2_.var_155.y -= class_73.method_2108(class_33.var_3679);
+                  _loc2_.var_155.y -= class_33.var_3679;
                   _loc2_.var_943 = class_99.var_4681;
                   if(_loc2_.var_773 || class_168.var_6539.var_366)
                   {
@@ -1706,7 +1706,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_162.var_6351) == class_291.name_41)
+            if(class_162.var_6351 == class_291.name_41)
             {
                class_48.method_1954(new class_307(param1));
                return;
@@ -1721,7 +1721,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_121.var_5457) == class_291.name_41)
+            if(class_121.var_5457 == class_291.name_41)
             {
                _loc116_ = new class_694(param1);
                _loc2_ = class_1.var_2884.var_85[_loc116_.var_364];
@@ -1733,7 +1733,7 @@ package
                   class_1.var_2884.var_129 = _loc2_;
                   if(class_58.var_3803.var_506.var_440)
                   {
-                     class_73.method_2115(_loc2_.var_925.method_556)(new class_167(class_58.var_3803.var_506.var_440.x / class_73.method_2116(class_181.var_6937),class_58.var_3803.var_506.var_440.y / class_73.method_2116(class_181.var_6937)),class_183.var_7129);
+                     _loc2_.var_925.method_556(new class_167(class_58.var_3803.var_506.var_440.x / class_181.var_6937,class_58.var_3803.var_506.var_440.y / class_181.var_6937),class_183.var_7129);
                      _loc2_.x = class_58.var_3803.var_506.var_440.x;
                      _loc2_.y = class_58.var_3803.var_506.var_440.y;
                      if(_loc2_.var_773)
@@ -1745,7 +1745,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_121.var_5456) == class_291.name_41)
+            if(class_121.var_5456 == class_291.name_41)
             {
                _loc117_ = new class_696(param1);
                _loc2_ = class_1.var_2884.var_85[_loc117_.var_364];
@@ -1756,12 +1756,12 @@ package
                class_1.var_2884.method_6(_loc117_.x,_loc117_.y,_loc2_,_loc117_.var_2503);
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_170.var_6697))
+            if(class_291.name_41 == class_170.var_6697)
             {
                class_168.var_6539.method_698(param1.readBoolean());
                return;
             }
-            if(class_73.method_2108(class_102.var_4822) == class_291.name_41)
+            if(class_102.var_4822 == class_291.name_41)
             {
                _loc2_ = class_1.var_2884.var_85[param1.readInt()];
                if(_loc2_)
@@ -1769,12 +1769,12 @@ package
                   _loc118_ = param1.readShort();
                   if(_loc2_.var_773)
                   {
-                     class_1.var_2884.method_97(class_73.method_2111(class_165.var_6521) + class_26.method_1903(class_111.var_5092,class_107.var_4938) + class_73.method_2111(class_181.var_6887));
+                     class_1.var_2884.method_97(class_165.var_6521 + class_26.method_1903(class_111.var_5092,class_107.var_4938) + class_181.var_6887);
                      class_613.name_6(true,_loc118_);
                   }
                   else
                   {
-                     class_1.var_2884.method_97(class_26.method_1668(class_92.var_4539,class_73.method_2111(class_165.var_6521) + _loc2_.var_363 + class_181.var_6887));
+                     class_1.var_2884.method_97(class_26.method_1668(class_92.var_4539,class_165.var_6521 + _loc2_.var_363 + class_181.var_6887));
                   }
                }
                return;
@@ -1788,7 +1788,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_124.var_5640) == class_291.name_41)
+            if(class_124.var_5640 == class_291.name_41)
             {
                _loc119_ = new class_358(param1);
                _loc2_ = class_1.var_2884.var_85[_loc119_.var_364];
@@ -1805,7 +1805,7 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_107.var_5038))
+            if(class_291.name_41 == class_107.var_5038)
             {
                _loc120_ = new class_661(param1);
                _loc2_ = class_1.var_2884.var_85[_loc120_.var_364];
@@ -1815,12 +1815,12 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_165.var_6506) == class_291.name_41)
+            if(class_165.var_6506 == class_291.name_41)
             {
                class_669.name_6(true,param1.readByte(),param1.readInt());
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_102.var_4837))
+            if(class_291.name_41 == class_102.var_4837)
             {
                _loc121_ = new class_668(param1);
                _loc2_ = class_1.var_2884.var_85[_loc121_.var_364];
@@ -1853,25 +1853,25 @@ package
                class_144.method_2495(param1.readUTF());
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_117.var_5287))
+            if(class_291.name_41 == class_117.var_5287)
             {
                _loc124_ = new class_697(param1);
                class_144.method_2504(_loc124_.var_2504);
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_170.var_6731))
+            if(class_291.name_41 == class_170.var_6731)
             {
                _loc125_ = new class_675(param1);
                class_18.method_1884(_loc125_.var_1554);
-               class_144.method_2478(class_26.method_1668(class_73.method_2111(class_183.var_7022),_loc125_.var_1554),class_26.method_1668(class_73.method_2111(class_4.var_2955),_loc125_.var_2486),_loc125_.var_1554);
+               class_144.method_2478(class_26.method_1668(class_183.var_7022,_loc125_.var_1554),class_26.method_1668(class_4.var_2955,_loc125_.var_2486),_loc125_.var_1554);
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_102.var_4852))
+            if(class_291.name_41 == class_102.var_4852)
             {
                class_144.method_2490(param1.readUTF());
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_170.var_6720))
+            if(class_291.name_41 == class_170.var_6720)
             {
                class_144.method_2484(class_144.const_536,new class_701(param1).var_2366);
                return;
@@ -1914,17 +1914,17 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_162.var_6351) == class_291.name_41)
+            if(class_162.var_6351 == class_291.name_41)
             {
                class_144.method_2473();
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_102.var_4859))
+            if(class_291.name_41 == class_102.var_4859)
             {
                class_18.method_1884(param1.readUTF());
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_165.var_6506))
+            if(class_291.name_41 == class_165.var_6506)
             {
                class_213.var_7157 = param1.readBoolean();
                class_213.method_2782();
@@ -1938,15 +1938,15 @@ package
                }
                class_1.var_2878.method_165();
                _loc127_ = new class_314(class_89.var_4323,class_26.method_1668(class_4.var_2954));
-               _loc127_.method_239(class_73.method_2111(class_9.var_3268),_loc127_.method_439);
+               _loc127_.method_239(class_9.var_3268,_loc127_.method_439);
                _loc127_.method_1100(class_26.method_1668(class_170.var_6707));
                if(class_1.const_45)
                {
-                  _loc127_.method_196(class_73.method_2116(class_92.var_4648),class_73.method_2116(class_92.var_4648),true);
+                  _loc127_.method_196(class_92.var_4648,class_92.var_4648,true);
                }
                else
                {
-                  _loc127_.method_967(class_73.method_2108(class_183.var_7129),class_33.var_3675,class_73.method_2108(class_107.var_5074),class_89.var_4432);
+                  _loc127_.method_967(class_183.var_7129,class_33.var_3675,class_107.var_5074,class_89.var_4432);
                }
                class_115.method_388(_loc127_,class_165.var_6534);
                return;
@@ -1959,7 +1959,7 @@ package
                class_686.name_6(param1.readBoolean());
                return;
             }
-            if(class_73.method_2108(class_165.var_6534) == class_291.name_41)
+            if(class_165.var_6534 == class_291.name_41)
             {
                class_686.name_6(param1.readBoolean());
                return;
@@ -1967,17 +1967,17 @@ package
          }
          if(class_16.var_3467 == class_291.name_40)
          {
-            if(class_291.name_41 == class_73.method_2108(class_165.var_6534))
+            if(class_291.name_41 == class_165.var_6534)
             {
                if(class_17.var_3489)
                {
                   _loc3_ = param1.readUTF();
-                  _loc128_ = class_73.method_2111(class_165.var_6415) + class_26.method_1903(class_111.var_5092,class_89.var_4322,class_121.var_5462 + _loc3_ + class_62.var_4121,class_121.var_5462 + param1.readUTF() + class_62.var_4121);
-                  _loc128_ += class_9.var_3141 + _loc3_ + class_92.var_4571 + class_26.method_1668(class_73.method_2111(class_124.var_5552)) + class_146.var_6001;
+                  _loc128_ = class_165.var_6415 + class_26.method_1903(class_111.var_5092,class_89.var_4322,class_121.var_5462 + _loc3_ + class_62.var_4121,class_121.var_5462 + param1.readUTF() + class_62.var_4121);
+                  _loc128_ += class_9.var_3141 + _loc3_ + class_92.var_4571 + class_26.method_1668(class_124.var_5552) + class_146.var_6001;
                   _loc128_ += class_146.var_6000 + class_26.method_1668(class_62.var_4041) + class_146.var_6001;
                   class_1.var_2884.method_97(_loc128_);
-                  class_155.method_2539(class_73.method_2111(class_107.var_4937) + _loc3_,class_420.method_2985,_loc3_);
-                  class_155.method_2539(class_73.method_2111(class_33.var_3570),class_420.method_2989);
+                  class_155.method_2539(class_107.var_4937 + _loc3_,class_420.method_2985,_loc3_);
+                  class_155.method_2539(class_33.var_3570,class_420.method_2989);
                }
                return;
             }
@@ -1985,7 +1985,7 @@ package
             {
                _loc129_ = param1.readByte();
                _loc130_ = new Vector.<int>();
-               _loc6_ = class_73.method_2108(class_183.var_7129);
+               _loc6_ = class_183.var_7129;
                while(_loc6_ < _loc129_)
                {
                   _loc130_.push(param1.readByte());
@@ -1994,7 +1994,7 @@ package
                class_31.method_1910(_loc130_,param1.readBoolean(),param1.readBoolean());
                return;
             }
-            if(class_73.method_2108(class_146.var_6117) == class_291.name_41)
+            if(class_146.var_6117 == class_291.name_41)
             {
                _loc131_ = new class_501(param1);
                _loc132_ = class_255.method_2543(_loc131_.var_1280);
@@ -2005,7 +2005,7 @@ package
                return;
             }
          }
-         if(class_73.method_2108(class_121.var_5494) == class_291.name_40)
+         if(class_121.var_5494 == class_291.name_40)
          {
             if(class_33.var_3679 == class_291.name_41)
             {
@@ -2016,9 +2016,9 @@ package
                return;
             }
          }
-         if(class_291.name_40 == class_73.method_2108(class_33.var_3675))
+         if(class_291.name_40 == class_33.var_3675)
          {
-            if(class_291.name_41 == class_73.method_2108(class_165.var_6534))
+            if(class_291.name_41 == class_165.var_6534)
             {
                _loc133_ = new class_672(param1);
                class_63.method_2024(_loc133_.var_2474,_loc133_.var_1734);
@@ -2037,7 +2037,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_121.var_5495) == class_291.name_41)
+            if(class_121.var_5495 == class_291.name_41)
             {
                _loc135_ = new class_235(param1);
                if(class_1.const_43)
@@ -2046,16 +2046,16 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_117.var_5287))
+            if(class_291.name_41 == class_117.var_5287)
             {
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_183.var_7127))
+            if(class_291.name_41 == class_183.var_7127)
             {
                class_63.method_2034(param1.readInt(),param1.readInt());
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_121.var_5494))
+            if(class_291.name_41 == class_121.var_5494)
             {
                if(class_63.name_62())
                {
@@ -2064,13 +2064,13 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_33.var_3675))
+            if(class_291.name_41 == class_33.var_3675)
             {
                class_63.var_4169 = class_99.var_4681;
-               class_1.var_2884.method_97(class_26.method_1668(class_73.method_2111(class_102.var_4733)));
+               class_1.var_2884.method_97(class_26.method_1668(class_102.var_4733));
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_117.var_5280))
+            if(class_291.name_41 == class_117.var_5280)
             {
                _loc137_ = new class_663(param1);
                class_63.method_2049(_loc137_.var_2463);
@@ -2080,18 +2080,18 @@ package
             {
                class_176.method_2642();
                _loc138_ = param1.readShort();
-               _loc6_ = class_73.method_2108(class_183.var_7129);
+               _loc6_ = class_183.var_7129;
                while(_loc6_ < _loc138_)
                {
                   _loc139_ = param1.readShort();
-                  _loc140_ = param1.readByte() == class_73.method_2108(class_33.var_3679);
+                  _loc140_ = param1.readByte() == class_33.var_3679;
                   _loc141_ = param1.readByte();
                   _loc142_ = null;
-                  if(class_73.method_2108(class_183.var_7129) < _loc141_)
+                  if(class_183.var_7129 < _loc141_)
                   {
                      _loc141_--;
                      _loc142_ = new Array();
-                     _loc143_ = class_73.method_2108(class_183.var_7129);
+                     _loc143_ = class_183.var_7129;
                      while(_loc143_ < _loc141_)
                      {
                         _loc142_.push(param1.readInt());
@@ -2107,7 +2107,7 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_102.var_4826))
+            if(class_291.name_41 == class_102.var_4826)
             {
                class_63.method_2063(param1.readByte(),param1.readUTF(),param1.readByte(),param1.readInt());
                return;
@@ -2123,26 +2123,26 @@ package
                return;
             }
          }
-         if(class_291.name_40 == class_73.method_2108(class_117.var_5280))
+         if(class_291.name_40 == class_117.var_5280)
          {
-            if(class_291.name_41 == class_73.method_2108(class_33.var_3679))
+            if(class_291.name_41 == class_33.var_3679)
             {
-               class_1.var_2884.method_97(class_73.method_2111(class_62.var_4121) + class_26.method_1903(class_111.var_5092,class_89.var_4321,class_73.method_2111(class_121.var_5462) + param1.readShort() + class_62.var_4121,class_121.var_5462 + param1.readShort() + class_73.method_2111(class_62.var_4121)));
+               class_1.var_2884.method_97(class_62.var_4121 + class_26.method_1903(class_111.var_5092,class_89.var_4321,class_121.var_5462 + param1.readShort() + class_62.var_4121,class_121.var_5462 + param1.readShort() + class_62.var_4121));
                return;
             }
             if(class_165.var_6534 == class_291.name_41)
             {
-               class_1.var_2884.method_97(class_62.var_4121 + class_26.method_1668(class_73.method_2111(class_33.var_3569),class_121.var_5462 + param1.readUTF() + class_73.method_2111(class_62.var_4121),class_73.method_2111(class_165.var_6521) + (param1.readUnsignedShort() + class_73.method_2108(class_33.var_3679)) + class_73.method_2111(class_62.var_4121)));
+               class_1.var_2884.method_97(class_62.var_4121 + class_26.method_1668(class_33.var_3569,class_121.var_5462 + param1.readUTF() + class_62.var_4121,class_165.var_6521 + (param1.readUnsignedShort() + class_33.var_3679) + class_62.var_4121));
                return;
             }
             if(class_291.name_41 == class_146.var_6118)
             {
-               class_1.var_2884.method_97(class_162.var_6311 + class_26.method_1668(class_73.method_2111(class_162.var_6233)));
+               class_1.var_2884.method_97(class_162.var_6311 + class_26.method_1668(class_162.var_6233));
                return;
             }
             if(class_291.name_41 == class_121.var_5495)
             {
-               class_1.var_2884.method_97(class_73.method_2111(class_162.var_6311) + class_26.method_1668(class_33.var_3568));
+               class_1.var_2884.method_97(class_162.var_6311 + class_26.method_1668(class_33.var_3568));
                return;
             }
             if(class_117.var_5287 == class_291.name_41)
@@ -2150,7 +2150,7 @@ package
                _loc145_ = param1.readByte();
                _loc146_ = param1.readByte();
                _loc147_ = new Vector.<String>();
-               _loc6_ = class_73.method_2108(class_183.var_7129);
+               _loc6_ = class_183.var_7129;
                while(_loc6_ < _loc146_)
                {
                   _loc147_.push(param1.readUTF());
@@ -2166,7 +2166,7 @@ package
                return;
             }
          }
-         if(class_73.method_2108(class_16.var_3473) == class_291.name_40)
+         if(class_16.var_3473 == class_291.name_40)
          {
             if(class_291.name_41 == class_165.var_6534)
             {
@@ -2177,7 +2177,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_146.var_6118) == class_291.name_41)
+            if(class_146.var_6118 == class_291.name_41)
             {
                _loc150_ = new class_706(param1);
                if(class_418.var_2884)
@@ -2210,7 +2210,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_9.var_3267) == class_291.name_41)
+            if(class_9.var_3267 == class_291.name_41)
             {
                _loc152_ = new class_681(param1);
                if(class_418.var_2884)
@@ -2219,7 +2219,7 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_92.var_4647))
+            if(class_291.name_41 == class_92.var_4647)
             {
                _loc153_ = new class_623(param1);
                if(class_418.var_2884)
@@ -2237,7 +2237,7 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_102.var_4852))
+            if(class_291.name_41 == class_102.var_4852)
             {
                class_168.var_6538 = class_99.var_4681;
                return;
@@ -2247,7 +2247,7 @@ package
                _loc3_ = param1.readUTF();
                _loc155_ = new Vector.<String>();
                _loc156_ = param1.readByte();
-               _loc6_ = class_73.method_2108(class_183.var_7129);
+               _loc6_ = class_183.var_7129;
                while(_loc6_ < _loc156_)
                {
                   _loc155_.push(param1.readUTF());
@@ -2257,13 +2257,13 @@ package
                }
                _loc157_ = new Dictionary();
                _loc158_ = param1.readByte();
-               _loc6_ = class_73.method_2108(class_183.var_7129);
+               _loc6_ = class_183.var_7129;
                while(_loc6_ < _loc158_)
                {
                   _loc159_ = param1.readUTF();
                   _loc157_[_loc159_] = new Vector.<String>();
                   _loc156_ = param1.readByte();
-                  _loc6_ = class_73.method_2108(class_183.var_7129);
+                  _loc6_ = class_183.var_7129;
                   while(_loc6_ < _loc156_)
                   {
                      _loc157_[_loc159_].push(param1.readUTF());
@@ -2278,7 +2278,7 @@ package
             if(class_291.name_41 == class_162.var_6346)
             {
                _loc3_ = param1.readUTF();
-               class_1.var_2884.method_77(class_73.method_2111(class_117.var_5167) + _loc3_ + class_33.var_3567);
+               class_1.var_2884.method_77(class_117.var_5167 + _loc3_ + class_33.var_3567);
                if(class_418.name_62())
                {
                   class_418.method_2981(_loc3_);
@@ -2294,9 +2294,9 @@ package
                return;
             }
          }
-         if(class_291.name_40 == class_73.method_2108(class_117.var_5265))
+         if(class_291.name_40 == class_117.var_5265)
          {
-            if(class_73.method_2108(class_33.var_3679) == class_291.name_41)
+            if(class_33.var_3679 == class_291.name_41)
             {
                _loc160_ = new class_680(param1);
                if(_loc160_.var_1671)
@@ -2305,7 +2305,7 @@ package
                }
                if(_loc160_.var_1672)
                {
-                  class_1.var_2884.method_97(class_26.method_1903(class_111.var_5092,class_73.method_2111(class_121.var_5377),_loc160_.var_1672));
+                  class_1.var_2884.method_97(class_26.method_1903(class_111.var_5092,class_121.var_5377,_loc160_.var_1672));
                }
                return;
             }
@@ -2316,7 +2316,7 @@ package
                class_141.var_2373 = _loc161_.var_2373;
                class_111.method_2300(_loc161_.var_363);
                class_111.var_2367 = _loc161_.var_2367;
-               class_111.var_5090 = class_73.method_2108(class_4.var_3058) * _loc161_.var_2368;
+               class_111.var_5090 = class_4.var_3058 * _loc161_.var_2368;
                class_111.var_5084 = Math.floor(_loc161_.var_2368 / class_170.var_6679);
                class_111.var_5091 = class_121.var_5495 > class_111.var_5084;
                class_26.var_3502 = _loc161_.var_2369;
@@ -2326,7 +2326,7 @@ package
                class_111.var_5108 = class_111.var_5103 || class_111.var_5104 || class_111.var_5105 || class_111.var_5106;
                class_111.var_5109 = class_111.var_5103 || class_111.var_5104 || class_111.var_5105 || class_111.var_5106 || class_111.var_5107;
                class_111.var_5110 = _loc161_.var_2371;
-               if(class_111.var_5079 == class_16.var_3456 + class_73.method_2111(class_60.var_3952))
+               if(class_111.var_5079 == class_16.var_3456 + class_60.var_3952)
                {
                   class_1.var_776 = class_99.var_4681;
                   class_68.var_776 = class_99.var_4681;
@@ -2392,7 +2392,7 @@ package
                class_39.var_3744.method_313(class_211.method_2775(!!_loc165_ ? _loc165_ : _loc162_.var_1908));
                if(class_1.method_1816() < class_121.var_5465 && class_1.var_2878.var_182 && !class_1.var_2878.var_190)
                {
-                  class_180.method_2665(class_73.method_2111(class_107.var_5048),class_1.var_2878.var_182,true,false,false,false,class_92.var_4648);
+                  class_180.method_2665(class_107.var_5048,class_1.var_2878.var_182,true,false,false,false,class_92.var_4648);
                }
                class_52.var_2884.method_351();
                if(_loc162_.var_2508)
@@ -2406,7 +2406,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_121.var_5495) == class_291.name_41)
+            if(class_121.var_5495 == class_291.name_41)
             {
                _loc166_ = new class_612(param1);
                class_129.method_2428(true);
@@ -2437,13 +2437,13 @@ package
                class_129.method_2429(_loc170_.var_2428);
                return;
             }
-            if(class_73.method_2108(class_170.var_6731) == class_291.name_41)
+            if(class_170.var_6731 == class_291.name_41)
             {
                _loc171_ = new class_646(param1);
                class_129.method_2431(_loc171_.var_2428,_loc171_.var_1898);
                return;
             }
-            if(class_73.method_2108(class_102.var_4852) == class_291.name_41)
+            if(class_102.var_4852 == class_291.name_41)
             {
                _loc172_ = new class_628(param1);
                _loc2_ = class_1.var_2884.var_85[_loc172_.var_364];
@@ -2468,7 +2468,7 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_170.var_6720))
+            if(class_291.name_41 == class_170.var_6720)
             {
                class_52.var_2884.method_337(param1.readByte(),param1.readUTF(),param1.readUTF());
                return;
@@ -2481,7 +2481,7 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_181.var_6939))
+            if(class_291.name_41 == class_181.var_6939)
             {
                _loc174_ = new class_638(param1);
                class_160.method_2545(_loc174_.var_1100);
@@ -2497,12 +2497,12 @@ package
                class_115.method_388(new class_108(param1));
                return;
             }
-            if(class_73.method_2108(class_121.var_5494) == class_291.name_41)
+            if(class_121.var_5494 == class_291.name_41)
             {
                class_108.var_5077.method_471(param1.readUnsignedByte());
                return;
             }
-            if(class_73.method_2108(class_33.var_3675) == class_291.name_41)
+            if(class_33.var_3675 == class_291.name_41)
             {
                class_52.var_2884.method_334(new class_318(param1));
                return;
@@ -2521,7 +2521,7 @@ package
             if(class_4.var_3042 == class_291.name_41)
             {
                _loc176_ = new class_609(param1);
-               class_17.var_2884.method_173(class_73.method_2111(class_124.var_5655),_loc176_.var_2357);
+               class_17.var_2884.method_173(class_124.var_5655,_loc176_.var_2357);
                return;
             }
             if(class_102.var_4826 == class_291.name_41)
@@ -2529,13 +2529,13 @@ package
                class_160.method_2546(param1.readShort());
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_162.var_6351))
+            if(class_291.name_41 == class_162.var_6351)
             {
                _loc177_ = new class_635(param1);
                class_1.var_2884.method_33(class_56.const_193,_loc177_.x,_loc177_.y - class_146.var_6117,class_146.var_6117,class_165.var_6534,false);
                return;
             }
-            if(class_73.method_2108(class_33.var_3668) == class_291.name_41)
+            if(class_33.var_3668 == class_291.name_41)
             {
                _loc178_ = param1.readUnsignedByte();
                while(_loc178_--)
@@ -2551,7 +2551,7 @@ package
                   {
                      _loc181_.var_2291 = param1.readShort();
                      _loc181_.var_2283 = param1.readInt() / class_121.var_5493;
-                     _loc181_.var_2284 = param1.readInt() / class_73.method_2108(class_121.var_5493);
+                     _loc181_.var_2284 = param1.readInt() / class_121.var_5493;
                   }
                   _loc181_.var_2294 = param1.readBoolean();
                   _loc181_.var_2295 = param1.readBoolean();
@@ -2570,26 +2570,26 @@ package
                _loc182_.var_363 = param1.readUTF();
                _loc182_.var_373 = param1.readUTF();
                _loc183_ = class_1.var_2884.method_30(_loc182_,false);
-               class_73.method_2115(class_73.method_2115(class_73.method_2115(_loc183_.var_925.method_556)))(new class_167(param1.readShort() / class_73.method_2108(class_162.var_6351),param1.readShort() / class_162.var_6351),class_183.var_7129);
+               _loc183_.var_925.method_556(new class_167(param1.readShort() / class_162.var_6351,param1.readShort() / class_162.var_6351),class_183.var_7129);
                class_58.var_3803.var_545.addChild(_loc183_);
                if(class_1.var_2884.var_13 && class_1.var_2884.var_13.parent)
                {
                   class_58.var_3803.var_545.addChild(class_1.var_2884.var_13);
                }
                _loc184_ = param1.readByte();
-               if(class_73.method_2108(class_33.var_3679) == _loc184_)
+               if(class_33.var_3679 == _loc184_)
                {
                   _loc183_.name_25(true);
                   _loc183_.var_939 = class_99.var_4681;
                   _loc183_.method_707(true);
-                  _loc183_.var_155.var_659[class_183.var_7129].var_298 = Math.random() * _loc183_.var_155.var_659[class_73.method_2108(class_183.var_7129)].var_297;
+                  _loc183_.var_155.var_659[class_183.var_7129].var_298 = Math.random() * _loc183_.var_155.var_659[class_183.var_7129].var_297;
                }
-               else if(_loc184_ == class_73.method_2108(class_165.var_6534))
+               else if(_loc184_ == class_165.var_6534)
                {
                   _loc183_.name_25(false);
                   _loc183_.var_928 = class_99.var_4681;
                   _loc183_.method_707(false);
-                  _loc183_.var_155.var_659[class_73.method_2108(class_183.var_7129)].var_298 = Math.random() * _loc183_.var_155.var_659[class_183.var_7129].var_297;
+                  _loc183_.var_155.var_659[class_183.var_7129].var_298 = Math.random() * _loc183_.var_155.var_659[class_183.var_7129].var_297;
                }
                _loc183_.var_932 = class_99.var_4681;
                _loc183_.var_888 = class_60.method_1993() + class_4.method_1841() * Math.random();
@@ -2600,12 +2600,12 @@ package
                class_91.method_2177(param1.readByte(),param1.readUnsignedByte());
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_9.var_3234))
+            if(class_291.name_41 == class_9.var_3234)
             {
                _loc185_ = param1.readByte();
-               if(class_73.method_2108(class_33.var_3679) == _loc185_)
+               if(class_33.var_3679 == _loc185_)
                {
-                  class_693.method_3067(class_162.var_6311 + class_26.method_1668(class_60.var_3871) + class_73.method_2111(class_165.var_6412) + param1.readUTF());
+                  class_693.method_3067(class_162.var_6311 + class_26.method_1668(class_60.var_3871) + class_165.var_6412 + param1.readUTF());
                   return;
                }
                if(_loc185_ == class_165.var_6534)
@@ -2615,7 +2615,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_117.var_5264) == class_291.name_41)
+            if(class_117.var_5264 == class_291.name_41)
             {
                if(class_287.var_2884 && class_287.var_2884.parent)
                {
@@ -2623,7 +2623,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_121.var_5456) == class_291.name_41)
+            if(class_121.var_5456 == class_291.name_41)
             {
                class_93.name_6(new class_396(param1));
                return;
@@ -2636,7 +2636,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_102.var_4859) == class_291.name_41)
+            if(class_102.var_4859 == class_291.name_41)
             {
                if(class_96.const_486)
                {
@@ -2651,18 +2651,18 @@ package
                return;
             }
          }
-         if(class_73.method_2108(class_4.var_3043) == class_291.name_40)
+         if(class_4.var_3043 == class_291.name_40)
          {
             if(class_291.name_41 == class_146.var_6117)
             {
                _loc187_ = class_91.var_4459;
                class_1.var_2884.var_77 = param1.readBoolean();
-               _loc188_ = class_73.method_2115(class_91.method_2173);
+               _loc188_ = class_91.method_2173;
                if(class_1.var_2884.var_77)
                {
                   _loc188_(class_1.var_2884.var_77);
                }
-               else if(_loc187_.method_289() > class_73.method_2108(class_183.var_7129))
+               else if(_loc187_.method_289() > class_183.var_7129)
                {
                   if(class_1.var_2884.var_30)
                   {
@@ -2693,7 +2693,7 @@ package
                return;
             }
          }
-         if(class_291.name_40 == class_73.method_2108(class_4.var_3042))
+         if(class_291.name_40 == class_4.var_3042)
          {
             if(class_291.name_41 == class_33.var_3679)
             {
@@ -2702,12 +2702,12 @@ package
                class_291.name_7.loadBytes(_loc190_,class_1.var_2884.const_2);
                return;
             }
-            if(class_73.method_2108(class_165.var_6534) == class_291.name_41)
+            if(class_165.var_6534 == class_291.name_41)
             {
-               class_518.method_3039(param1.readInt() * class_73.method_2108(class_4.var_3058));
+               class_518.method_3039(param1.readInt() * class_4.var_3058);
                return;
             }
-            if(class_73.method_2108(class_146.var_6118) == class_291.name_41)
+            if(class_146.var_6118 == class_291.name_41)
             {
                class_63.var_4165 = param1.readUnsignedByte();
                class_63.var_4166 = param1.readUnsignedByte();
@@ -2741,7 +2741,7 @@ package
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_146.var_6117))
+            if(class_291.name_41 == class_146.var_6117)
             {
                _loc193_ = param1.readByte();
                class_86.method_2147(_loc193_);
@@ -2749,7 +2749,7 @@ package
                {
                   class_86.method_2145(_loc193_);
                }
-               _loc194_ = param1.readByte() == class_73.method_2108(class_33.var_3679);
+               _loc194_ = param1.readByte() == class_33.var_3679;
                _loc195_ = param1.readInt();
                class_86.method_2142(_loc194_);
                class_86.var_4258 = _loc195_;
@@ -2758,7 +2758,7 @@ package
             if(class_162.var_6346 == class_291.name_41)
             {
                class_125.var_5678 = param1.readShort();
-               TextField(class_58.var_3803.method_372(class_181.var_6952)).text = class_125.var_5678 / class_165.var_6534 + class_73.method_2111(class_9.var_3140);
+               TextField(class_58.var_3803.method_372(class_181.var_6952)).text = class_125.var_5678 / class_165.var_6534 + class_9.var_3140;
                return;
             }
             if(class_291.name_41 == class_170.var_6720)
@@ -2767,7 +2767,7 @@ package
                class_222.method_2791(_loc196_.var_2407);
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_117.var_5279))
+            if(class_291.name_41 == class_117.var_5279)
             {
                _loc197_ = new class_654(param1);
                class_111.var_5087 = _loc197_.var_2436;
@@ -2787,42 +2787,42 @@ package
                {
                   return;
                }
-               class_637.method_3059(new class_648(new class_250(class_124.var_5551,class_102.var_4859,class_73.method_2108(class_102.var_4859)),class_301.name_6,new Array(_loc198_.var_2501,_loc198_)).method_1695());
+               class_637.method_3059(new class_648(new class_250(class_124.var_5551,class_102.var_4859,class_102.var_4859),class_301.name_6,new Array(_loc198_.var_2501,_loc198_)).method_1695());
                return;
             }
-            if(class_73.method_2108(class_16.var_3467) == class_291.name_41)
+            if(class_16.var_3467 == class_291.name_41)
             {
                _loc199_ = param1.readByte();
                _loc200_ = param1.readUTF();
                class_222.name_6(true,_loc199_,_loc200_);
                return;
             }
-            if(class_73.method_2108(class_162.var_6351) == class_291.name_41)
+            if(class_162.var_6351 == class_291.name_41)
             {
                _loc201_ = class_157.method_2543(param1.readByte());
-               _loc202_ = class_73.method_2111(class_9.var_3268);
+               _loc202_ = class_9.var_3268;
                if(_loc201_ == class_157.const_566)
                {
                   _loc202_ = class_26.method_1668(class_102.var_4785);
                }
                else if(class_157.const_567 == _loc201_)
                {
-                  _loc202_ = class_26.method_1668(class_73.method_2111(class_33.var_3604));
+                  _loc202_ = class_26.method_1668(class_33.var_3604);
                }
-               _loc203_ = new class_314(class_73.method_2108(class_124.var_5657),class_26.method_1668(class_170.var_6616,_loc202_));
-               _loc203_.method_1100(class_26.method_1668(class_73.method_2111(class_170.var_6707)));
+               _loc203_ = new class_314(class_124.var_5657,class_26.method_1668(class_170.var_6616,_loc202_));
+               _loc203_.method_1100(class_26.method_1668(class_170.var_6707));
                if(class_1.const_45)
                {
                   _loc203_.method_967(class_183.var_7129,class_183.var_7129,class_1.var_2880,class_1.var_2882);
                }
                else
                {
-                  _loc203_.method_967(class_73.method_2108(class_183.var_7129),class_33.var_3675,class_107.var_5074,class_89.var_4432);
+                  _loc203_.method_967(class_183.var_7129,class_33.var_3675,class_107.var_5074,class_89.var_4432);
                }
                class_115.method_388(_loc203_);
                return;
             }
-            if(class_73.method_2108(class_107.var_5039) == class_291.name_41)
+            if(class_107.var_5039 == class_291.name_41)
             {
                class_656.name_6(true,param1.readShort());
                return;
@@ -2831,7 +2831,7 @@ package
             {
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_102.var_4821))
+            if(class_291.name_41 == class_102.var_4821)
             {
                _loc204_ = param1.readByte();
                _loc205_ = param1.readUTF();
@@ -2839,17 +2839,17 @@ package
                {
                   _loc205_ = null;
                }
-               _loc206_ = (param1.readUnsignedByte() & 255) << class_16.var_3467 | (param1.readUnsignedByte() & 255) << class_73.method_2108(class_170.var_6731) | param1.readUnsignedByte() & 255;
+               _loc206_ = (param1.readUnsignedByte() & 255) << class_16.var_3467 | (param1.readUnsignedByte() & 255) << class_170.var_6731 | param1.readUnsignedByte() & 255;
                _loc207_ = param1.readUTFBytes(_loc206_);
-               if(_loc204_ >= class_73.method_2108(class_146.var_6118))
+               if(_loc204_ >= class_146.var_6118)
                {
-                  _loc204_ -= class_73.method_2108(class_146.var_6118);
+                  _loc204_ -= class_146.var_6118;
                   _loc207_ = class_26.method_1668(_loc207_);
                }
                class_614.name_6(_loc207_,_loc204_,_loc205_);
                return;
             }
-            if(class_73.method_2108(class_121.var_5470) == class_291.name_41)
+            if(class_121.var_5470 == class_291.name_41)
             {
                _loc208_ = new class_630(param1);
                _loc209_ = class_155.var_2884.method_615();
@@ -2857,7 +2857,7 @@ package
                _loc209_.setSelection(_loc209_.text.length,_loc209_.text.length);
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_165.var_6506))
+            if(class_291.name_41 == class_165.var_6506)
             {
                class_68.method_2103(class_68.method_2098(param1.readUTF(),false));
                return;
@@ -2867,9 +2867,9 @@ package
                class_180.method_2669(param1.readUTF(),param1.readUTF());
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_89.var_4436))
+            if(class_291.name_41 == class_89.var_4436)
             {
-               class_115.method_388(new class_449(param1.readUTF(),param1.readUTF()),class_73.method_2108(class_165.var_6534));
+               class_115.method_388(new class_449(param1.readUTF(),param1.readUTF()),class_165.var_6534);
                return;
             }
             if(class_124.var_5618 == class_291.name_41)
@@ -2877,7 +2877,7 @@ package
                class_43.method_427(true,param1.readUnsignedInt());
                return;
             }
-            if(class_73.method_2108(class_92.var_4637) == class_291.name_41)
+            if(class_92.var_4637 == class_291.name_41)
             {
                class_1.var_2871 = param1.readBoolean();
                return;
@@ -2890,31 +2890,31 @@ package
                class_1.var_2878.method_162();
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_60.var_3939))
+            if(class_291.name_41 == class_60.var_3939)
             {
                _loc212_ = param1.readUTF();
                class_660.name_6(_loc212_);
                return;
             }
-            if(class_73.method_2108(class_92.var_4615) == class_291.name_41)
+            if(class_92.var_4615 == class_291.name_41)
             {
                _loc212_ = param1.readUTF();
-               if(class_17.var_2884.lecture(class_17.const_67).indexOf(class_107.var_5053) != -class_73.method_2108(class_33.var_3679))
+               if(class_17.var_2884.lecture(class_17.const_67).indexOf(class_107.var_5053) != -class_33.var_3679)
                {
                   class_17.var_2884.method_173(class_17.const_67,_loc212_);
                }
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_102.var_4839))
+            if(class_291.name_41 == class_102.var_4839)
             {
                _loc213_ = new class_664(param1);
-               if(class_73.method_2108(class_146.var_6075) < _loc213_.var_1996)
+               if(class_146.var_6075 < _loc213_.var_1996)
                {
-                  class_1.var_2884.method_97(class_26.method_1668(class_73.method_2111(class_9.var_3139),int(_loc213_.var_1996 / class_73.method_2116(class_107.var_4936))),null);
+                  class_1.var_2884.method_97(class_26.method_1668(class_9.var_3139,int(_loc213_.var_1996 / class_107.var_4936)),null);
                }
                else
                {
-                  class_1.var_2884.method_97(class_26.method_1668(class_73.method_2111(class_60.var_3870),int(_loc213_.var_1996 / class_4.var_3057)),null);
+                  class_1.var_2884.method_97(class_26.method_1668(class_60.var_3870,int(_loc213_.var_1996 / class_4.var_3057)),null);
                }
                class_17.var_2884.method_173(class_17.const_66,new Date().getTime());
                return;
@@ -2939,17 +2939,17 @@ package
                class_340.method_2896();
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_165.var_6534))
+            if(class_291.name_41 == class_165.var_6534)
             {
                class_119.method_2340(param1.readShort(),param1.readByte() == class_33.var_3679,param1.readByte() == class_33.var_3679);
                return;
             }
             if(class_291.name_41 == class_146.var_6118)
             {
-               class_119.method_2335(param1.readByte() == class_73.method_2108(class_33.var_3679));
+               class_119.method_2335(param1.readByte() == class_33.var_3679);
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_121.var_5495))
+            if(class_291.name_41 == class_121.var_5495)
             {
                _loc2_ = class_1.var_2884.var_85[param1.readInt()];
                if(_loc2_)
@@ -2971,7 +2971,7 @@ package
                class_340.method_2895();
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_9.var_3267))
+            if(class_291.name_41 == class_9.var_3267)
             {
                class_155.var_2884.method_637(class_382.var_7271,class_107.var_4935 + param1.readUTF(),null);
                return;
@@ -2980,7 +2980,7 @@ package
             {
                class_12.var_2884.var_177 = new Array();
                _loc216_ = param1.readShort();
-               _loc6_ = class_73.method_2108(class_183.var_7129);
+               _loc6_ = class_183.var_7129;
                while(_loc6_ < _loc216_)
                {
                   class_12.var_2884.var_177.push(new Array(param1.readUTF(),param1.readShort()));
@@ -2988,7 +2988,7 @@ package
                }
                class_12.var_2884.var_178 = new Array();
                _loc216_ = param1.readByte();
-               _loc6_ = class_73.method_2108(class_183.var_7129);
+               _loc6_ = class_183.var_7129;
                while(_loc6_ < _loc216_)
                {
                   class_12.var_2884.var_178.push(param1.readUTF(),param1.readShort());
@@ -3000,7 +3000,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_92.var_4628) == class_291.name_41)
+            if(class_92.var_4628 == class_291.name_41)
             {
                class_691.method_3065(param1.readInt());
                return;
@@ -3010,27 +3010,27 @@ package
                class_691.method_1005(param1.readInt(),param1.readUTF(),param1.readByte(),param1.readInt(),param1.readShort(),param1.readShort(),param1.readFloat(),param1.readFloat(),param1.readFloat(),param1.readFloat(),param1.readFloat(),param1.readFloat());
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_33.var_3675))
+            if(class_291.name_41 == class_33.var_3675)
             {
-               new class_380(param1.readInt(),param1.readUTF(),param1.readShort(),param1.readShort(),param1.readShort(),param1.readShort(),param1.readInt(),param1.readInt(),param1.readByte() / class_73.method_2108(class_121.var_5493),param1.readByte() == class_73.method_2108(class_33.var_3679));
+               new class_380(param1.readInt(),param1.readUTF(),param1.readShort(),param1.readShort(),param1.readShort(),param1.readShort(),param1.readInt(),param1.readInt(),param1.readByte() / class_121.var_5493,param1.readByte() == class_33.var_3679);
                return;
             }
-            if(class_73.method_2108(class_127.var_5865) == class_291.name_41)
+            if(class_127.var_5865 == class_291.name_41)
             {
                class_83.method_2126(param1.readInt(),param1.readUTF());
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_9.var_3266))
+            if(class_291.name_41 == class_9.var_3266)
             {
                class_83.method_2125(param1.readInt());
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_9.var_3259))
+            if(class_291.name_41 == class_9.var_3259)
             {
                new class_381(param1.readInt(),param1.readByte(),param1.readUTF(),param1.readShort(),param1.readShort(),param1.readShort(),param1.readByte() == class_33.var_3679);
                return;
             }
-            if(class_73.method_2108(class_16.var_3473) == class_291.name_41)
+            if(class_16.var_3473 == class_291.name_41)
             {
                class_130.var_5893 = param1.readUTF();
                class_130.var_2884.method_142();
@@ -3044,24 +3044,24 @@ package
             }
             if(class_291.name_41 == class_4.var_3043)
             {
-               class_134.method_985(param1.readByte(),param1.readShort(),param1.readShort(),param1.readShort() / class_73.method_2108(class_121.var_5493),param1.readShort() / class_121.var_5493,param1.readShort() / class_121.var_5493,param1.readShort() / class_73.method_2108(class_121.var_5493));
+               class_134.method_985(param1.readByte(),param1.readShort(),param1.readShort(),param1.readShort() / class_121.var_5493,param1.readShort() / class_121.var_5493,param1.readShort() / class_121.var_5493,param1.readShort() / class_121.var_5493);
                return;
             }
-            if(class_73.method_2108(class_4.var_3042) == class_291.name_41)
+            if(class_4.var_3042 == class_291.name_41)
             {
                _loc217_ = new class_326(param1);
                class_58.var_3803.method_390(_loc217_);
                return;
             }
-            if(class_291.name_41 == class_73.method_2108(class_102.var_4826))
+            if(class_291.name_41 == class_102.var_4826)
             {
                _loc218_ = param1.readShort();
                class_58.var_3803.method_368(_loc218_);
                return;
             }
-            if(class_73.method_2108(class_162.var_6351) == class_291.name_41)
+            if(class_162.var_6351 == class_291.name_41)
             {
-               _loc219_ = new Array(param1.readShort(),param1.readShort(),param1.readShort(),param1.readByte(),param1.readBoolean(),param1.readShort(),param1.readShort(),param1.readBoolean(),param1.readShort(),param1.readShort(),param1.readBoolean(),param1.readShort(),param1.readShort(),param1.readBoolean(),param1.readShort(),param1.readShort(),param1.readShort() / class_73.method_2108(class_121.var_5493),param1.readShort() / class_73.method_2108(class_121.var_5493),param1.readBoolean(),param1.readShort(),param1.readInt(),param1.readShort() / class_73.method_2108(class_121.var_5493),param1.readBoolean(),param1.readShort(),param1.readShort(),param1.readBoolean(),param1.readShort(),param1.readBoolean(),param1.readShort() / class_73.method_2108(class_121.var_5493),param1.readBoolean(),param1.readShort() / class_121.var_5493,param1.readBoolean(),param1.readShort() / class_73.method_2108(class_121.var_5493),param1.readBoolean(),param1.readShort() / class_73.method_2108(class_121.var_5493),param1.readShort() / class_121.var_5493);
+               _loc219_ = new Array(param1.readShort(),param1.readShort(),param1.readShort(),param1.readByte(),param1.readBoolean(),param1.readShort(),param1.readShort(),param1.readBoolean(),param1.readShort(),param1.readShort(),param1.readBoolean(),param1.readShort(),param1.readShort(),param1.readBoolean(),param1.readShort(),param1.readShort(),param1.readShort() / class_121.var_5493,param1.readShort() / class_121.var_5493,param1.readBoolean(),param1.readShort(),param1.readInt(),param1.readShort() / class_121.var_5493,param1.readBoolean(),param1.readShort(),param1.readShort(),param1.readBoolean(),param1.readShort(),param1.readBoolean(),param1.readShort() / class_121.var_5493,param1.readBoolean(),param1.readShort() / class_121.var_5493,param1.readBoolean(),param1.readShort() / class_121.var_5493,param1.readBoolean(),param1.readShort() / class_121.var_5493,param1.readShort() / class_121.var_5493);
                class_58.var_3803.method_401(_loc219_);
                return;
             }
@@ -3087,15 +3087,15 @@ package
                return;
             }
          }
-         if(class_73.method_2108(class_162.var_6351) == class_291.name_40)
+         if(class_162.var_6351 == class_291.name_40)
          {
-            if(class_73.method_2108(class_121.var_5495) == class_291.name_41)
+            if(class_121.var_5495 == class_291.name_41)
             {
-               class_130.var_5897 = class_26.method_1668(class_107.var_4941) + class_117.var_5253 + param1.readByte() + class_73.method_2111(class_92.var_4538) + param1.readShort() + class_73.method_2111(class_89.var_4320) + param1.readShort() + class_102.var_4732;
+               class_130.var_5897 = class_26.method_1668(class_107.var_4941) + class_117.var_5253 + param1.readByte() + class_92.var_4538 + param1.readShort() + class_89.var_4320 + param1.readShort() + class_102.var_4732;
                class_130.var_2884.method_142();
                return;
             }
-            if(class_73.method_2108(class_117.var_5279) == class_291.name_41)
+            if(class_117.var_5279 == class_291.name_41)
             {
                if(class_673.var_2884 && class_673.var_2884.parent)
                {
@@ -3108,7 +3108,7 @@ package
             }
             if(class_291.name_41 == class_181.var_6939)
             {
-               class_1.var_2884.var_53.addChild(new class_673(param1.readByte() == class_73.method_2108(class_33.var_3679)));
+               class_1.var_2884.var_53.addChild(new class_673(param1.readByte() == class_33.var_3679));
                return;
             }
             if(class_183.var_7127 == class_291.name_41)
@@ -3119,7 +3119,7 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_16.var_3467) == class_291.name_41)
+            if(class_16.var_3467 == class_291.name_41)
             {
                if(class_673.var_2884)
                {
@@ -3127,17 +3127,17 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_127.var_5865) == class_291.name_41)
+            if(class_127.var_5865 == class_291.name_41)
             {
                _loc224_ = param1.readByte();
-               class_1.var_2884.method_97(class_73.method_2111(class_102.var_4731) + param1.readShort() + class_89.var_4320 + param1.readShort() + class_73.method_2111(class_102.var_4732));
-               if(_loc224_ == class_73.method_2108(class_183.var_7129))
+               class_1.var_2884.method_97(class_102.var_4731 + param1.readShort() + class_89.var_4320 + param1.readShort() + class_102.var_4732);
+               if(_loc224_ == class_183.var_7129)
                {
-                  class_1.var_2884.method_97(class_165.var_6521 + class_26.method_1668(class_92.var_4537,class_92.var_4536 + class_26.method_1668(class_73.method_2111(class_9.var_3138)) + class_162.var_6345));
+                  class_1.var_2884.method_97(class_165.var_6521 + class_26.method_1668(class_92.var_4537,class_92.var_4536 + class_26.method_1668(class_9.var_3138) + class_162.var_6345));
                }
                else if(class_33.var_3679 == _loc224_)
                {
-                  class_1.var_2884.method_97(class_73.method_2111(class_165.var_6521) + class_26.method_1668(class_92.var_4537,class_73.method_2111(class_124.var_5550) + class_26.method_1668(class_73.method_2111(class_127.var_5770)) + class_73.method_2111(class_162.var_6345)));
+                  class_1.var_2884.method_97(class_165.var_6521 + class_26.method_1668(class_92.var_4537,class_124.var_5550 + class_26.method_1668(class_127.var_5770) + class_162.var_6345));
                }
                return;
             }
@@ -3157,12 +3157,12 @@ package
                }
                return;
             }
-            if(class_73.method_2108(class_102.var_4822) == class_291.name_41)
+            if(class_102.var_4822 == class_291.name_41)
             {
-               class_284.var_2337 = param1.readByte() == class_73.method_2108(class_33.var_3679);
+               class_284.var_2337 = param1.readByte() == class_33.var_3679;
                return;
             }
-            if(class_73.method_2108(class_124.var_5640) == class_291.name_41)
+            if(class_124.var_5640 == class_291.name_41)
             {
                if(class_284.var_2884 && class_284.var_2884.parent)
                {
@@ -3181,13 +3181,13 @@ package
          }
          if(class_291.name_40 == class_33.var_3668)
          {
-            if(class_291.name_41 == class_73.method_2108(class_33.var_3679))
+            if(class_291.name_41 == class_33.var_3679)
             {
                class_41.method_1943(false);
                class_98.method_1209();
                _loc225_ = param1.readShort();
-               _loc228_ = new Vector.<int>(class_73.method_2108(class_146.var_6118));
-               _loc228_[class_73.method_2108(class_183.var_7129)] = _loc228_[class_73.method_2108(class_33.var_3679)] = _loc228_[class_73.method_2108(class_165.var_6534)] = -class_73.method_2108(class_33.var_3679);
+               _loc228_ = new Vector.<int>(class_146.var_6118);
+               _loc228_[class_183.var_7129] = _loc228_[class_33.var_3679] = _loc228_[class_165.var_6534] = -class_33.var_3679;
                _loc6_ = class_183.var_7129;
                while(_loc6_ < _loc225_)
                {
@@ -3253,7 +3253,7 @@ package
                class_299.method_2870(_loc2_,_loc231_,true);
                return;
             }
-            if(class_73.method_2108(class_117.var_5287) == class_291.name_41)
+            if(class_117.var_5287 == class_291.name_41)
             {
                _loc233_ = param1.readInt();
                _loc234_ = class_1.var_2884.var_85[_loc233_];
@@ -3271,7 +3271,7 @@ package
                class_298.method_2862(_loc3_,_loc235_);
                return;
             }
-            if(class_73.method_2108(class_92.var_4647) == class_291.name_41)
+            if(class_92.var_4647 == class_291.name_41)
             {
                _loc233_ = param1.readInt();
                _loc234_ = class_1.var_2884.var_85[_loc233_];
@@ -3317,7 +3317,7 @@ package
                {
                   return;
                }
-               if(_loc240_ == class_183.var_7129 || _loc240_ == class_73.method_2108(class_33.var_3679))
+               if(_loc240_ == class_183.var_7129 || _loc240_ == class_33.var_3679)
                {
                   class_298.var_2884.method_1071(!!_loc240_,_loc241_);
                }
@@ -3334,18 +3334,18 @@ package
                {
                   return;
                }
-               class_298.method_2863(null,class_73.method_2108(class_121.var_5495));
+               class_298.method_2863(null,class_121.var_5495);
                class_298.name_6(false);
                return;
             }
          }
          if(class_124.var_5640 == class_291.name_40)
          {
-            if(class_73.method_2108(class_33.var_3679) == class_291.name_41)
+            if(class_33.var_3679 == class_291.name_41)
             {
                _loc242_ = new class_643(param1);
                class_293.name_6(true);
-               class_293.method_2855(class_73.method_2111(class_124.var_5549));
+               class_293.method_2855(class_124.var_5549);
                if(_loc242_.var_387)
                {
                   new class_39(_loc242_.var_387 + class_89.var_4412 + _loc242_.var_2425,true,new class_645(_loc242_.var_2422,_loc242_.var_2423,_loc242_.var_2424));
@@ -3353,13 +3353,13 @@ package
                return;
             }
          }
-         if(class_73.method_2108(class_89.var_4436) == class_291.name_40)
+         if(class_89.var_4436 == class_291.name_40)
          {
-            if(class_73.method_2108(class_33.var_3679) == class_291.name_41)
+            if(class_33.var_3679 == class_291.name_41)
             {
                class_291.var_7202 = param1.readShort();
                class_128.name_40 = class_291.var_7202;
-               class_128.name_41 = class_73.method_2108(class_183.var_7129);
+               class_128.name_41 = class_183.var_7129;
                ProxyTribulle.x_infoException = class_89.var_4390;
                _loc243_ = class_403.var_2884.var_1772.creePaquetEntrant(Global.x_connexionTribulle,class_291.var_7202);
                _loc243_.lecture(param1);
@@ -3385,7 +3385,7 @@ package
             if(class_291.name_41 == class_146.var_6118)
             {
                class_291.var_7203 = param1.readShort();
-               class_128.name_40 = class_73.method_2108(class_183.var_7129);
+               class_128.name_40 = class_183.var_7129;
                class_128.name_41 = class_291.var_7203;
                _loc245_ = class_154.method_2529(class_291.var_7203);
                _loc245_.lecture(param1);
@@ -3406,21 +3406,21 @@ package
                return;
             }
          }
-         if(class_291.name_40 == class_73.method_2108(class_33.var_3679) && class_291.name_41 == class_73.method_2108(class_33.var_3679))
+         if(class_291.name_40 == class_33.var_3679 && class_291.name_41 == class_33.var_3679)
          {
             class_128.method_2418(param1.readUTF());
             return;
          }
-         throw new Error(class_73.method_2111(class_9.var_3137) + class_291.name_40 + class_107.var_5062 + class_291.name_41);
+         throw new Error(class_9.var_3137 + class_291.name_40 + class_107.var_5062 + class_291.name_41);
       }
       
       public static function method_2853() : void
       {
          var _loc1_:String = class_170.var_6615 + class_291.var_7205.length + class_183.var_7021;
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
+         var _loc2_:int = class_183.var_7129;
          while(_loc2_ < class_291.var_7205.length)
          {
-            _loc1_ += class_124.var_5548 + (class_291.var_7205.length - _loc2_) + class_73.method_2111(class_102.var_4833) + class_291.method_2854(class_291.var_7205[_loc2_]);
+            _loc1_ += class_124.var_5548 + (class_291.var_7205.length - _loc2_) + class_102.var_4833 + class_291.method_2854(class_291.var_7205[_loc2_]);
             _loc2_++;
          }
          class_39.var_3744.method_313(new class_292(class_291.name_40,class_291.name_41,class_128.name_40,class_128.name_41,_loc1_));
@@ -3430,15 +3430,15 @@ package
       {
          var _loc3_:String = null;
          param1.position = class_183.var_7129;
-         var _loc2_:String = class_73.method_2111(class_9.var_3268);
+         var _loc2_:String = class_9.var_3268;
          while(param1.bytesAvailable)
          {
             _loc3_ = param1.readUnsignedByte().toString(class_16.var_3467);
             if(_loc3_.length < class_165.var_6534)
             {
-               _loc3_ = class_73.method_2111(class_124.var_5665) + _loc3_;
+               _loc3_ = class_124.var_5665 + _loc3_;
             }
-            _loc2_ += _loc3_.toUpperCase() + class_73.method_2111(class_124.var_5647);
+            _loc2_ += _loc3_.toUpperCase() + class_124.var_5647;
          }
          return _loc2_;
       }

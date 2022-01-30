@@ -22,7 +22,7 @@ package
       
       public function class_413(param1:int, param2:Boolean = false, param3:Boolean = false, param4:Boolean = false)
       {
-         this.var_1785 = class_73.method_2108(class_183.var_7129);
+         this.var_1785 = class_183.var_7129;
          super();
          this.var_1768 = getTimer();
          this.var_1781 = param1;
@@ -71,12 +71,12 @@ package
       {
          if(param1 == null || param1.var_1781 == class_183.var_7129)
          {
-            return class_73.method_2111(class_9.var_3268);
+            return class_9.var_3268;
          }
          var _loc2_:String = class_392.method_1377(param1.var_1781);
          if(param1.var_1784)
          {
-            _loc2_ = class_392.method_1377(class_392.const_907) + class_73.method_2111(class_165.var_6479) + _loc2_;
+            _loc2_ = class_392.method_1377(class_392.const_907) + class_165.var_6479 + _loc2_;
          }
          if(param1.var_1783)
          {

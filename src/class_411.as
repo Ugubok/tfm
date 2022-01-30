@@ -6,8 +6,8 @@ package
       
       public function class_411(param1:Vector.<String>)
       {
-         super(class_73.method_2108(class_117.var_5265),class_73.method_2108(class_92.var_4628));
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
+         super(class_117.var_5265,class_92.var_4628);
+         var _loc2_:int = class_183.var_7129;
          while(_loc2_ < param1.length)
          {
             writeUTF(param1[_loc2_]);

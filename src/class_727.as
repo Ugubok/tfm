@@ -30,7 +30,7 @@ package
       public function method_671() : void
       {
          this.var_2540.method_671();
-         this.var_2541 = class_73.method_2116(class_107.var_4953);
+         this.var_2541 = class_107.var_4953;
          this.var_2542.method_671();
          this.var_2543 = class_107.var_4953;
       }

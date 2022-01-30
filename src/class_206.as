@@ -62,7 +62,7 @@ package
          if(class_16.var_3463 < param4)
          {
             graphics.beginFill(param3,param4);
-            graphics.drawRoundRect(class_183.var_7129,class_183.var_7129,_loc6_.width + class_49.var_3760 * class_73.method_2108(class_165.var_6534),_loc6_.height + class_49.var_3760 * class_73.method_2108(class_165.var_6534),class_49.var_3761);
+            graphics.drawRoundRect(class_183.var_7129,class_183.var_7129,_loc6_.width + class_49.var_3760 * class_165.var_6534,_loc6_.height + class_49.var_3760 * class_165.var_6534,class_49.var_3761);
             graphics.endFill();
          }
          cacheAsBitmap = class_99.var_4681;

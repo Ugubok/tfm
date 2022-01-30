@@ -40,7 +40,7 @@ package
       public function class_373()
       {
          this.var_1679 = class_183.var_7129;
-         this.var_1682 = -class_73.method_2108(class_33.var_3679);
+         this.var_1682 = -class_33.var_3679;
          this.var_1684 = class_183.var_7129;
          super();
       }
@@ -48,23 +48,23 @@ package
       public static function method_2901(param1:int) : void
       {
          var _loc3_:class_373 = null;
-         if(param1 < class_73.method_2108(class_183.var_7129) || param1 > 16777215)
+         if(param1 < class_183.var_7129 || param1 > 16777215)
          {
             return;
          }
-         if(class_373.var_7264.indexOf(param1) > -class_73.method_2108(class_33.var_3679))
+         if(class_373.var_7264.indexOf(param1) > -class_33.var_3679)
          {
-            class_373.var_7264.splice(class_373.var_7264.indexOf(param1),class_73.method_2108(class_33.var_3679));
+            class_373.var_7264.splice(class_373.var_7264.indexOf(param1),class_33.var_3679);
          }
          class_373.var_7264.unshift(param1);
          class_373.var_7264.length = Math.min(class_373.var_7264.length,class_373.const_892);
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
+         var _loc2_:int = class_183.var_7129;
          while(_loc2_ < class_373.var_7265.length)
          {
             _loc3_ = class_373.var_7265[_loc2_];
             if(_loc3_.var_1684 == class_183.var_7129 || !_loc3_.var_1686.parent)
             {
-               class_373.var_7265.splice(_loc2_,class_73.method_2108(class_33.var_3679));
+               class_373.var_7265.splice(_loc2_,class_33.var_3679);
                _loc2_--;
             }
             else
@@ -113,24 +113,24 @@ package
       {
          var _loc2_:int = 0;
          var _loc3_:MovieClip = null;
-         this.var_1682 = -class_73.method_2108(class_33.var_3679);
+         this.var_1682 = -class_33.var_3679;
          if(param1 != null)
          {
             this.var_1679 = param1.length;
             this.var_1680 = new Vector.<int>(this.var_1679);
             this.var_1681 = new Vector.<int>(this.var_1679);
             this.var_1685 = new Vector.<MovieClip>(this.var_1679);
-            _loc2_ = class_73.method_2108(class_183.var_7129);
+            _loc2_ = class_183.var_7129;
             while(_loc2_ < this.var_1679)
             {
                this.var_1680[_loc2_] = param1[_loc2_];
                this.var_1681[_loc2_] = param1[_loc2_];
                _loc3_ = class_175.method_118(class_170.var_6609);
-               (_loc3_[class_89.var_4336] as TextField).width = class_73.method_2108(class_92.var_4615);
+               (_loc3_[class_89.var_4336] as TextField).width = class_92.var_4615;
                class_202.method_2754(_loc3_,true,true);
                _loc3_.addEventListener(MouseEvent.MOUSE_DOWN,this.method_1216);
-               _loc3_[class_73.method_2111(class_89.var_4336)].addEventListener(Event.CHANGE,this.method_1220);
-               _loc3_[class_73.method_2111(class_117.var_5162)](this.var_1680[_loc2_]);
+               _loc3_[class_89.var_4336].addEventListener(Event.CHANGE,this.method_1220);
+               _loc3_[class_117.var_5162](this.var_1680[_loc2_]);
                this.var_1685[_loc2_] = _loc3_;
                _loc2_++;
             }
@@ -151,8 +151,8 @@ package
          {
             return;
          }
-         var _loc2_:String = this.var_1685[this.var_1682][class_73.method_2111(class_89.var_4336)].text;
-         if(_loc2_.charAt(class_73.method_2108(class_183.var_7129)) == class_73.method_2111(class_165.var_6522))
+         var _loc2_:String = this.var_1685[this.var_1682][class_89.var_4336].text;
+         if(_loc2_.charAt(class_183.var_7129) == class_165.var_6522)
          {
             _loc2_ = _loc2_.substr(class_33.var_3679);
          }
@@ -165,14 +165,14 @@ package
          var _loc5_:Vector.<DisplayObject> = null;
          var _loc6_:int = 0;
          var _loc7_:MovieClip = null;
-         if(param1 >= class_73.method_2108(class_183.var_7129))
+         if(param1 >= class_183.var_7129)
          {
             this.var_1684 = Math.min(param1,class_373.const_892);
          }
          if(param2 && param2 != this.var_1686)
          {
             this.var_1686 = param2;
-            if(class_373.var_7265.indexOf(this) == -class_73.method_2108(class_33.var_3679))
+            if(class_373.var_7265.indexOf(this) == -class_33.var_3679)
             {
                class_373.var_7265.push(this);
             }
@@ -185,7 +185,7 @@ package
          if(_loc3_ < this.var_1686.var_241)
          {
             _loc5_ = this.var_1686.clear(true);
-            _loc6_ = class_73.method_2108(class_183.var_7129);
+            _loc6_ = class_183.var_7129;
             while(_loc6_ < this.var_1684)
             {
                this.var_1686.method_136(_loc5_[_loc6_]);
@@ -196,15 +196,15 @@ package
          {
             while(_loc3_ > this.var_1686.var_241)
             {
-               _loc7_ = class_175.method_118(class_73.method_2111(class_170.var_6609));
+               _loc7_ = class_175.method_118(class_170.var_6609);
                class_202.method_2754(_loc7_,true,true);
                Sprite(_loc7_[class_9.var_3123]).addEventListener(MouseEvent.MOUSE_DOWN,this.method_1231);
-               _loc7_.removeChild(_loc7_[class_73.method_2111(class_89.var_4336)]);
+               _loc7_.removeChild(_loc7_[class_89.var_4336]);
                this.var_1686.method_136(_loc7_);
                _loc7_.y = -class_33.var_3679;
             }
          }
-         var _loc4_:int = class_73.method_2108(class_183.var_7129);
+         var _loc4_:int = class_183.var_7129;
          while(_loc4_ < _loc3_)
          {
             this.var_1686.method_128(_loc4_)[class_117.var_5162](class_373.var_7264[_loc4_]);
@@ -214,7 +214,7 @@ package
       
       public function method_1222(param1:int) : void
       {
-         if(this.var_1682 != -class_73.method_2108(class_33.var_3679))
+         if(this.var_1682 != -class_33.var_3679)
          {
             this.var_1685[this.var_1682][class_117.var_5162](param1);
             this.method_1223();
@@ -244,7 +244,7 @@ package
       
       public function method_1224() : void
       {
-         var _loc1_:int = class_73.method_2108(class_183.var_7129);
+         var _loc1_:int = class_183.var_7129;
          while(_loc1_ < this.var_1686.var_241)
          {
             this.var_1686.method_128(_loc1_)[class_117.var_5162](class_373.var_7264[_loc1_]);
@@ -256,7 +256,7 @@ package
       {
          if(!param1)
          {
-            param1 = new class_246(class_26.method_1668(class_107.var_5045),class_73.method_2108(class_183.var_7129),this.method_1230,param2);
+            param1 = new class_246(class_26.method_1668(class_107.var_5045),class_183.var_7129,this.method_1230,param2);
          }
          else
          {
@@ -300,14 +300,14 @@ package
       
       public function method_1229(param1:Vector.<int>) : void
       {
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
+         var _loc2_:int = class_183.var_7129;
          while(_loc2_ < this.var_1679)
          {
             this.var_1681[_loc2_] = param1[_loc2_];
             this.var_1685[_loc2_][class_117.var_5162](param1[_loc2_]);
             _loc2_++;
          }
-         this.var_1682 = -class_73.method_2108(class_33.var_3679);
+         this.var_1682 = -class_33.var_3679;
       }
       
       public function method_1230(param1:Function) : void

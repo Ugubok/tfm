@@ -41,21 +41,21 @@ package
          var var_7608:Number = param10;
          var var_7600:Number = param11;
          var var_7601:Number = param12;
-         if(var_7519 == class_73.method_2111(class_146.var_6099))
+         if(var_7519 == class_146.var_6099)
          {
-            var_1421 = class_175.method_2618(class_73.method_2111(class_165.var_6467),class_73.method_2111(class_170.var_6700));
+            var_1421 = class_175.method_2618(class_165.var_6467,class_170.var_6700);
          }
          else if(var_7519.indexOf(class_121.var_5443) == class_183.var_7129)
          {
-            var_1421 = class_175.method_2618(var_7519.substr(class_170.var_6731),class_73.method_2111(class_162.var_6310));
+            var_1421 = class_175.method_2618(var_7519.substr(class_170.var_6731),class_162.var_6310);
          }
          else if(class_170.var_6720 < var_7519.length)
          {
-            var_1421 = class_175.method_2618(var_7519,class_73.method_2111(class_170.var_6700));
+            var_1421 = class_175.method_2618(var_7519,class_170.var_6700);
          }
          else
          {
-            var_1421 = class_175.method_2618(var_7519,class_73.method_2111(class_107.var_5012));
+            var_1421 = class_175.method_2618(var_7519,class_107.var_5012);
          }
          class_691.var_1341[var_7602] = var_1421;
          var_1421.x = name_75;
@@ -69,8 +69,8 @@ package
          {
             var_7610 = new Sprite();
             var_1421.rotation = class_183.var_7129;
-            var_1421.x = class_73.method_2108(class_183.var_7129);
-            var_1421.y = class_73.method_2108(class_183.var_7129);
+            var_1421.x = class_183.var_7129;
+            var_1421.y = class_183.var_7129;
             var_7610.x = name_75;
             var_7610.y = name_76;
             var_7610.rotation = var_7607 * class_170.var_6705 / Math.PI;
@@ -92,7 +92,7 @@ package
             var_7610.addChild(var_1421);
             var_7609 = var_7610;
          }
-         if(class_73.method_2108(class_33.var_3679) == var_7603)
+         if(class_33.var_3679 == var_7603)
          {
             var_7611 = class_1.var_2884.var_34[var_7604];
             if(var_7611)
@@ -118,7 +118,7 @@ package
             }
             return;
          }
-         if(var_7603 == class_73.method_2108(class_146.var_6118))
+         if(var_7603 == class_146.var_6118)
          {
             var_2000 = class_1.var_2884.var_85[var_7604];
             if(var_2000)
@@ -129,7 +129,7 @@ package
             }
             return;
          }
-         if(var_7603 == class_73.method_2108(class_121.var_5495))
+         if(var_7603 == class_121.var_5495)
          {
             if(var_7604 < class_183.var_7129 || var_7604 >= class_58.var_3803.var_539.numChildren)
             {
@@ -155,7 +155,7 @@ package
          }
          if(class_9.var_3267 == var_7603)
          {
-            if(var_7604 < class_73.method_2108(class_183.var_7129) || var_7604 >= class_58.var_3803.var_543.numChildren)
+            if(var_7604 < class_183.var_7129 || var_7604 >= class_58.var_3803.var_543.numChildren)
             {
                class_58.var_3803.var_543.addChild(var_7609);
             }
@@ -165,9 +165,9 @@ package
             }
             return;
          }
-         if(var_7603 == class_73.method_2108(class_92.var_4647))
+         if(var_7603 == class_92.var_4647)
          {
-            if(var_7604 < class_73.method_2108(class_183.var_7129) || var_7604 >= class_83.var_4252.numChildren)
+            if(var_7604 < class_183.var_7129 || var_7604 >= class_83.var_4252.numChildren)
             {
                class_83.var_4252.addChild(var_7609);
             }
@@ -177,7 +177,7 @@ package
             }
             return;
          }
-         if(class_73.method_2108(class_170.var_6731) == var_7603)
+         if(class_170.var_6731 == var_7603)
          {
             if(var_7604 < class_183.var_7129 || var_7604 >= class_83.var_4252.numChildren)
             {
@@ -189,7 +189,7 @@ package
             }
             return;
          }
-         if(var_7603 == class_73.method_2108(class_102.var_4852))
+         if(var_7603 == class_102.var_4852)
          {
             var_7612 = class_58.var_3803.method_380(var_7604);
             if(var_7612 && var_7612.var_1633.var_1344.var_695 is DisplayObjectContainer)
@@ -203,7 +203,7 @@ package
                      {
                         while(var_7612.var_1541.numChildren)
                         {
-                           var_7612.var_1541.removeChildAt(class_73.method_2108(class_183.var_7129));
+                           var_7612.var_1541.removeChildAt(class_183.var_7129);
                         }
                      }
                   }

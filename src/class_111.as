@@ -97,13 +97,13 @@ package
       
       public static function method_2301() : Boolean
       {
-         var _loc1_:int = class_111.var_363.toLowerCase().indexOf(class_73.method_2111(class_16.var_3421));
-         return _loc1_ == class_73.method_2108(class_183.var_7129);
+         var _loc1_:int = class_111.var_363.toLowerCase().indexOf(class_16.var_3421);
+         return _loc1_ == class_183.var_7129;
       }
       
       public static function method_1529(param1:class_412) : Boolean
       {
-         return class_111.var_2048.indexOf(param1) != -class_73.method_2108(class_33.var_3679);
+         return class_111.var_2048.indexOf(param1) != -class_33.var_3679;
       }
    }
 }

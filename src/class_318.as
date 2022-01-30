@@ -19,8 +19,8 @@ package
          super(param1);
          var _loc2_:ByteArray = method_934();
          var _loc3_:int = method_1090(_loc2_);
-         var _loc4_:int = class_73.method_2108(class_33.var_3679);
-         if(_loc3_ == class_73.method_2108(class_33.var_3679))
+         var _loc4_:int = class_33.var_3679;
+         if(_loc3_ == class_33.var_3679)
          {
             _loc4_ = method_1090(_loc2_);
          }

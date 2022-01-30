@@ -45,7 +45,7 @@ package
                   _loc18_ = Math.sqrt(_loc10_ * _loc10_ + _loc11_ * _loc11_);
                   _loc10_ /= _loc18_;
                   _loc11_ /= _loc18_;
-                  param1[class_73.method_2108(class_183.var_7129)] = _loc16_;
+                  param1[class_183.var_7129] = _loc16_;
                   param2.method_105(_loc10_,_loc11_);
                   return true;
                }

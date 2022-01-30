@@ -39,17 +39,17 @@ package
                }
                this.var_1392.push(_loc5_);
             }
-            else if(class_73.method_2108(class_33.var_3679) == _loc4_)
+            else if(class_33.var_3679 == _loc4_)
             {
                _loc5_ = new class_606(param1.readUTF(),param1.readUTF(),param1.readUTF());
                _loc5_.var_2350 = class_99.var_4681;
                _loc5_.var_2348 = param1.readUTF();
                _loc5_.var_2351 = param1.readUTF();
                _loc5_.var_2352 = param1.readUTF();
-               _loc6_ = _loc5_.var_2348.indexOf(class_73.method_2111(class_16.var_3431));
+               _loc6_ = _loc5_.var_2348.indexOf(class_16.var_3431);
                if(_loc6_ > class_183.var_7129)
                {
-                  _loc5_.var_11 = int(_loc5_.var_2348.substr(class_73.method_2108(class_183.var_7129),_loc6_));
+                  _loc5_.var_11 = int(_loc5_.var_2348.substr(class_183.var_7129,_loc6_));
                }
                else
                {

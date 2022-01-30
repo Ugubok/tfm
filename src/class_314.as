@@ -35,13 +35,13 @@ package
          this.var_1524 = new Dictionary();
          super(param1,class_121.var_5493);
          method_239(class_9.var_3268,this.method_439);
-         method_216(new class_245(class_243.const_642,class_73.method_2108(class_117.var_5287)));
-         this.var_1226 = new class_220(param2,name_5,class_73.method_2108(class_183.var_7129)).method_856(TextFormatAlign.CENTER);
+         method_216(new class_245(class_243.const_642,class_117.var_5287));
+         this.var_1226 = new class_220(param2,name_5,class_183.var_7129).method_856(TextFormatAlign.CENTER);
          if(param3)
          {
             this.method_955(param2,param3);
          }
-         this.var_1178 = new class_24(name_5,class_73.method_2108(class_33.var_3675));
+         this.var_1178 = new class_24(name_5,class_33.var_3675);
          this.var_1178.method_216(new class_245(class_243.const_639,class_117.var_5287));
          this.var_1145 = new class_246(class_9.var_3268,this.var_1178.name_5,this.method_1102);
          this.var_1145.addEventListener(KeyboardEvent.KEY_DOWN,this.method_1105);
@@ -81,13 +81,13 @@ package
          if(param3)
          {
             this.var_1524[param1][param2] = param3;
-            this.var_1524[param1][param2 + class_73.method_2111(class_121.var_5435)] = param4;
+            this.var_1524[param1][param2 + class_121.var_5435] = param4;
             param1.addEventListener(param2,this.method_1106);
          }
          else
          {
             delete this.var_1524[param1][param2];
-            delete this.var_1524[param1][param2 + class_73.method_2111(class_121.var_5435)];
+            delete this.var_1524[param1][param2 + class_121.var_5435];
             param1.removeEventListener(param2,this.method_1106);
          }
       }
@@ -110,7 +110,7 @@ package
                }
             }
          }
-         x = (param3 - name_5) / class_73.method_2108(class_165.var_6534) + param1;
+         x = (param3 - name_5) / class_165.var_6534 + param1;
          y = (-var_206 + param4) / class_165.var_6534 + param2;
          return this;
       }
@@ -142,7 +142,7 @@ package
             {
                _loc2_ = class_246(param1.currentTarget);
                _loc3_ = _loc2_.filters;
-               if(_loc3_.length > class_73.method_2108(class_183.var_7129))
+               if(_loc3_.length > class_183.var_7129)
                {
                   _loc3_.shift();
                }

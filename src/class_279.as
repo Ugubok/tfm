@@ -78,7 +78,7 @@ package
          this.var_1347 = param1.var_414;
          this.var_1346 = param1.var_415;
          this.var_1344 = null;
-         this.var_1351 = class_73.method_2116(class_107.var_4953);
+         this.var_1351 = class_107.var_4953;
          this.var_687 = null;
          this.var_1349 = class_591.var_7347;
          this.var_1350 = param1.var_417.method_676();

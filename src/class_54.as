@@ -37,7 +37,7 @@ package
       
       public static const const_292:int = 16225079;
       
-      public static const const_293:String = class_73.method_2111("<font color=\'#CB546B\'>");
+      public static const const_293:String = "<font color=\'#CB546B\'>";
       
       public static const const_294:int = 8912896;
       
@@ -85,31 +85,31 @@ package
          _loc3_ *= param2;
          _loc4_ *= param2;
          _loc5_ *= param2;
-         if(class_73.method_2108(class_183.var_7129) > _loc3_)
+         if(class_183.var_7129 > _loc3_)
          {
             _loc3_ = int(class_183.var_7129);
          }
-         else if(class_73.method_2108(class_124.var_5621) < _loc3_)
+         else if(class_124.var_5621 < _loc3_)
          {
             _loc3_ = int(class_124.var_5621);
          }
          if(class_183.var_7129 > _loc4_)
          {
-            _loc4_ = int(class_73.method_2108(class_183.var_7129));
+            _loc4_ = int(class_183.var_7129);
          }
          else if(_loc4_ > class_124.var_5621)
          {
-            _loc4_ = int(class_73.method_2108(class_124.var_5621));
+            _loc4_ = int(class_124.var_5621);
          }
-         if(_loc5_ < class_73.method_2108(class_183.var_7129))
+         if(_loc5_ < class_183.var_7129)
          {
-            _loc5_ = int(class_73.method_2108(class_183.var_7129));
+            _loc5_ = int(class_183.var_7129);
          }
          else if(_loc5_ > class_124.var_5621)
          {
             _loc5_ = int(class_124.var_5621);
          }
-         return _loc3_ << class_16.var_3467 | _loc4_ << class_73.method_2108(class_170.var_6731) | _loc5_;
+         return _loc3_ << class_16.var_3467 | _loc4_ << class_170.var_6731 | _loc5_;
       }
       
       public static function method_1967(param1:Number, param2:Number, param3:Number) : int
@@ -124,62 +124,62 @@ package
          var _loc6_:Number = class_183.var_7129;
          if(param2 == class_183.var_7129)
          {
-            _loc4_ = _loc5_ = _loc6_ = int(param3 * class_73.method_2116(class_92.var_4601) + class_73.method_2116(class_92.var_4648));
+            _loc4_ = _loc5_ = _loc6_ = int(param3 * class_92.var_4601 + class_92.var_4648);
          }
          else
          {
-            _loc7_ = (param1 - Math.floor(param1)) * class_73.method_2116(class_165.var_6468);
+            _loc7_ = (param1 - Math.floor(param1)) * class_165.var_6468;
             _loc8_ = _loc7_ - Math.floor(_loc7_);
-            _loc9_ = (-param2 + class_73.method_2116(class_121.var_5450)) * param3;
+            _loc9_ = (-param2 + class_121.var_5450) * param3;
             _loc10_ = param3 * (class_121.var_5450 - param2 * _loc8_);
-            _loc11_ = param3 * (class_73.method_2116(class_121.var_5450) - param2 * (class_73.method_2116(class_121.var_5450) - _loc8_));
+            _loc11_ = param3 * (class_121.var_5450 - param2 * (class_121.var_5450 - _loc8_));
             switch(int(_loc7_))
             {
                case class_183.var_7129:
                   _loc4_ = int(param3 * class_92.var_4601 + class_92.var_4648);
-                  _loc5_ = int(_loc11_ * class_73.method_2116(class_92.var_4601) + class_73.method_2116(class_92.var_4648));
-                  _loc6_ = int(_loc9_ * class_92.var_4601 + class_73.method_2116(class_92.var_4648));
+                  _loc5_ = int(_loc11_ * class_92.var_4601 + class_92.var_4648);
+                  _loc6_ = int(_loc9_ * class_92.var_4601 + class_92.var_4648);
                   break;
                case class_33.var_3679:
-                  _loc4_ = int(_loc10_ * class_73.method_2116(class_92.var_4601) + class_92.var_4648);
+                  _loc4_ = int(_loc10_ * class_92.var_4601 + class_92.var_4648);
                   _loc5_ = int(param3 * class_92.var_4601 + class_92.var_4648);
-                  _loc6_ = int(_loc9_ * class_73.method_2116(class_92.var_4601) + class_92.var_4648);
+                  _loc6_ = int(_loc9_ * class_92.var_4601 + class_92.var_4648);
                   break;
-               case class_73.method_2108(class_165.var_6534):
+               case class_165.var_6534:
                   _loc4_ = int(_loc9_ * class_92.var_4601 + class_92.var_4648);
-                  _loc5_ = int(param3 * class_73.method_2116(class_92.var_4601) + class_73.method_2116(class_92.var_4648));
-                  _loc6_ = int(_loc11_ * class_92.var_4601 + class_73.method_2116(class_92.var_4648));
+                  _loc5_ = int(param3 * class_92.var_4601 + class_92.var_4648);
+                  _loc6_ = int(_loc11_ * class_92.var_4601 + class_92.var_4648);
                   break;
-               case class_73.method_2108(class_146.var_6118):
-                  _loc4_ = int(_loc9_ * class_73.method_2116(class_92.var_4601) + class_92.var_4648);
+               case class_146.var_6118:
+                  _loc4_ = int(_loc9_ * class_92.var_4601 + class_92.var_4648);
                   _loc5_ = int(_loc10_ * class_92.var_4601 + class_92.var_4648);
-                  _loc6_ = int(param3 * class_92.var_4601 + class_73.method_2116(class_92.var_4648));
+                  _loc6_ = int(param3 * class_92.var_4601 + class_92.var_4648);
                   break;
                case class_121.var_5495:
-                  _loc4_ = int(_loc11_ * class_73.method_2116(class_92.var_4601) + class_92.var_4648);
-                  _loc5_ = int(_loc9_ * class_92.var_4601 + class_73.method_2116(class_92.var_4648));
-                  _loc6_ = int(param3 * class_73.method_2116(class_92.var_4601) + class_92.var_4648);
+                  _loc4_ = int(_loc11_ * class_92.var_4601 + class_92.var_4648);
+                  _loc5_ = int(_loc9_ * class_92.var_4601 + class_92.var_4648);
+                  _loc6_ = int(param3 * class_92.var_4601 + class_92.var_4648);
                   break;
                case class_117.var_5287:
-                  _loc4_ = int(param3 * class_73.method_2116(class_92.var_4601) + class_92.var_4648);
-                  _loc5_ = int(_loc9_ * class_92.var_4601 + class_73.method_2116(class_92.var_4648));
-                  _loc6_ = int(_loc10_ * class_73.method_2116(class_92.var_4601) + class_92.var_4648);
+                  _loc4_ = int(param3 * class_92.var_4601 + class_92.var_4648);
+                  _loc5_ = int(_loc9_ * class_92.var_4601 + class_92.var_4648);
+                  _loc6_ = int(_loc10_ * class_92.var_4601 + class_92.var_4648);
             }
          }
-         return 0 | _loc4_ << class_73.method_2108(class_16.var_3467) | _loc5_ << class_73.method_2108(class_170.var_6731) | _loc6_ << class_73.method_2108(class_183.var_7129);
+         return 0 | _loc4_ << class_16.var_3467 | _loc5_ << class_170.var_6731 | _loc6_ << class_183.var_7129;
       }
       
       public static function method_1968(param1:Number, param2:Number, param3:Number) : Number
       {
-         if(class_73.method_2108(class_183.var_7129) > param3)
+         if(class_183.var_7129 > param3)
          {
             param3 += class_33.var_3679;
          }
          if(class_33.var_3679 < param3)
          {
-            param3 -= class_73.method_2108(class_33.var_3679);
+            param3 -= class_33.var_3679;
          }
-         if(param3 < class_73.method_2108(class_33.var_3679) / class_9.var_3267)
+         if(param3 < class_33.var_3679 / class_9.var_3267)
          {
             return param1 + (-param1 + param2) * class_9.var_3267 * param3;
          }
@@ -187,9 +187,9 @@ package
          {
             return param2;
          }
-         if(param3 < class_73.method_2108(class_165.var_6534) / class_146.var_6118)
+         if(param3 < class_165.var_6534 / class_146.var_6118)
          {
-            return param1 + (param2 - param1) * (class_165.var_6534 / class_146.var_6118 - param3) * class_73.method_2108(class_9.var_3267);
+            return param1 + (param2 - param1) * (class_165.var_6534 / class_146.var_6118 - param3) * class_9.var_3267;
          }
          return param1;
       }
@@ -197,13 +197,13 @@ package
       public static function method_1969(param1:Number) : ColorMatrixFilter
       {
          var _loc2_:Number = class_4.var_3023;
-         var _loc3_:Number = class_73.method_2116(class_107.var_5016);
+         var _loc3_:Number = class_107.var_5016;
          var _loc4_:Number = class_107.var_5015;
          var _loc5_:Number = class_33.var_3679 - param1;
          var _loc6_:Number = _loc5_ * _loc2_;
          var _loc7_:Number = _loc5_ * _loc3_;
          var _loc8_:Number = _loc5_ * _loc4_;
-         var _loc9_:Array = new Array(_loc6_ + param1,_loc7_,_loc8_,class_183.var_7129,class_183.var_7129,_loc6_,_loc7_ + param1,_loc8_,class_73.method_2108(class_183.var_7129),class_183.var_7129,_loc6_,_loc7_,param1 + _loc8_,class_73.method_2108(class_183.var_7129),class_183.var_7129,class_73.method_2108(class_183.var_7129),class_183.var_7129,class_73.method_2108(class_183.var_7129),class_33.var_3679,class_73.method_2108(class_183.var_7129));
+         var _loc9_:Array = new Array(_loc6_ + param1,_loc7_,_loc8_,class_183.var_7129,class_183.var_7129,_loc6_,_loc7_ + param1,_loc8_,class_183.var_7129,class_183.var_7129,_loc6_,_loc7_,param1 + _loc8_,class_183.var_7129,class_183.var_7129,class_183.var_7129,class_183.var_7129,class_183.var_7129,class_33.var_3679,class_183.var_7129);
          return new ColorMatrixFilter(_loc9_);
       }
       
@@ -216,19 +216,19 @@ package
          var _loc15_:Number = NaN;
          param3 = Math.abs(param3);
          param4 = Math.abs(param4);
-         var _loc5_:Number = param1 >> class_73.method_2108(class_16.var_3467) & 255;
+         var _loc5_:Number = param1 >> class_16.var_3467 & 255;
          var _loc6_:Number = param1 >> class_170.var_6731 & 255;
          var _loc7_:Number = param1 & 255;
          _loc5_ /= class_124.var_5621;
          _loc6_ /= class_124.var_5621;
-         _loc7_ /= class_73.method_2108(class_124.var_5621);
+         _loc7_ /= class_124.var_5621;
          var _loc8_:Number = Math.max(_loc5_,_loc6_,_loc7_);
          var _loc9_:Number = Math.min(_loc5_,_loc6_,_loc7_);
-         var _loc12_:Number = (_loc9_ + _loc8_) / class_73.method_2108(class_165.var_6534);
+         var _loc12_:Number = (_loc9_ + _loc8_) / class_165.var_6534;
          if(_loc9_ == _loc8_)
          {
             _loc10_ = class_183.var_7129;
-            _loc11_ = class_73.method_2108(class_183.var_7129);
+            _loc11_ = class_183.var_7129;
          }
          else
          {
@@ -237,20 +237,20 @@ package
             switch(_loc8_)
             {
                case _loc5_:
-                  _loc10_ = (_loc6_ - _loc7_) / _loc13_ + (_loc6_ < _loc7_ ? class_73.method_2108(class_9.var_3267) : class_183.var_7129);
+                  _loc10_ = (_loc6_ - _loc7_) / _loc13_ + (_loc6_ < _loc7_ ? class_9.var_3267 : class_183.var_7129);
                   break;
                case _loc6_:
                   _loc10_ = (-_loc5_ + _loc7_) / _loc13_ + class_165.var_6534;
                   break;
                case _loc7_:
-                  _loc10_ = (_loc5_ - _loc6_) / _loc13_ + class_73.method_2108(class_121.var_5495);
+                  _loc10_ = (_loc5_ - _loc6_) / _loc13_ + class_121.var_5495;
             }
             _loc10_ /= class_9.var_3267;
          }
-         _loc10_ = Math.round(_loc10_ * class_73.method_2108(class_89.var_4404) + param2) % class_73.method_2108(class_89.var_4404) / class_89.var_4404;
-         _loc11_ = Math.min(_loc11_ * param3,class_73.method_2108(class_33.var_3679));
-         _loc12_ = Math.min(_loc12_ * param4,class_73.method_2108(class_33.var_3679));
-         if(_loc11_ == class_73.method_2108(class_183.var_7129))
+         _loc10_ = Math.round(_loc10_ * class_89.var_4404 + param2) % class_89.var_4404 / class_89.var_4404;
+         _loc11_ = Math.min(_loc11_ * param3,class_33.var_3679);
+         _loc12_ = Math.min(_loc12_ * param4,class_33.var_3679);
+         if(_loc11_ == class_183.var_7129)
          {
             _loc5_ = _loc12_;
             _loc6_ = _loc12_;
@@ -259,12 +259,12 @@ package
          else
          {
             _loc14_ = _loc12_ < class_92.var_4648 ? Number(_loc12_ * (_loc11_ + class_33.var_3679)) : Number(_loc12_ + _loc11_ - _loc12_ * _loc11_);
-            _loc15_ = class_73.method_2108(class_165.var_6534) * _loc12_ - _loc14_;
-            _loc5_ = class_54.method_1968(_loc15_,_loc14_,_loc10_ + class_73.method_2108(class_33.var_3679) / class_73.method_2108(class_146.var_6118));
+            _loc15_ = class_165.var_6534 * _loc12_ - _loc14_;
+            _loc5_ = class_54.method_1968(_loc15_,_loc14_,_loc10_ + class_33.var_3679 / class_146.var_6118);
             _loc6_ = class_54.method_1968(_loc15_,_loc14_,_loc10_);
-            _loc7_ = class_54.method_1968(_loc15_,_loc14_,_loc10_ - class_73.method_2108(class_33.var_3679) / class_146.var_6118);
+            _loc7_ = class_54.method_1968(_loc15_,_loc14_,_loc10_ - class_33.var_3679 / class_146.var_6118);
          }
-         return Math.floor(class_73.method_2108(class_124.var_5621) * _loc5_) << class_16.var_3467 | Math.floor(_loc6_ * class_124.var_5621) << class_170.var_6731 | Math.floor(class_73.method_2108(class_124.var_5621) * _loc7_);
+         return Math.floor(class_124.var_5621 * _loc5_) << class_16.var_3467 | Math.floor(_loc6_ * class_124.var_5621) << class_170.var_6731 | Math.floor(class_124.var_5621 * _loc7_);
       }
    }
 }

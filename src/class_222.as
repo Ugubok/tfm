@@ -40,16 +40,16 @@ package
       
       public function class_222()
       {
-         this.var_1141 = -class_73.method_2108(class_33.var_3679);
-         super(class_124.var_5657,class_73.method_2108(class_181.var_6929));
+         this.var_1141 = -class_33.var_3679;
+         super(class_124.var_5657,class_181.var_6929);
          method_251(true,class_146.var_6117);
          method_188();
-         method_216(new class_245(class_243.const_644,class_73.method_2108(class_117.var_5287)));
-         this.var_1145 = new class_246(class_26.method_1668(class_73.method_2111(class_107.var_5045)),name_5);
+         method_216(new class_245(class_243.const_644,class_117.var_5287));
+         this.var_1145 = new class_246(class_26.method_1668(class_107.var_5045),name_5);
          this.var_1142 = new class_246(class_9.var_3268,name_5);
          this.var_1144 = new class_244(name_5).method_856(TextFormatAlign.CENTER);
          this.var_1144.method_944(this.method_871);
-         this.var_1143 = new class_220(class_73.method_2111(class_9.var_3268),name_5,class_183.var_7129).method_856(TextFormatAlign.JUSTIFY);
+         this.var_1143 = new class_220(class_9.var_3268,name_5,class_183.var_7129).method_856(TextFormatAlign.JUSTIFY);
       }
       
       public static function name_6(param1:Boolean, param2:int = 0.0, param3:String = "") : void
@@ -61,8 +61,8 @@ package
                class_222.var_2884 = new class_222();
             }
             class_222.var_2884.method_870(param2,param3);
-            class_222.var_2884.x = (-class_222.var_2884.name_5 + class_107.var_5074) / class_73.method_2108(class_165.var_6534);
-            class_222.var_2884.y = class_73.method_2108(class_33.var_3675) + (class_183.var_7096 - class_222.var_2884.var_206) / class_73.method_2108(class_165.var_6534);
+            class_222.var_2884.x = (-class_222.var_2884.name_5 + class_107.var_5074) / class_165.var_6534;
+            class_222.var_2884.y = class_33.var_3675 + (class_183.var_7096 - class_222.var_2884.var_206) / class_165.var_6534;
             class_115.method_388(class_222.var_2884);
          }
          else if(class_222.var_2884)
@@ -128,14 +128,14 @@ package
          }
          else
          {
-            _loc3_ = class_26.method_1668(class_73.method_2111(class_121.var_5365));
+            _loc3_ = class_26.method_1668(class_121.var_5365);
          }
          method_239(_loc3_,this.method_439);
-         this.var_1142.method_955(class_26.method_1668(class_73.method_2111(class_60.var_3934)));
+         this.var_1142.method_955(class_26.method_1668(class_60.var_3934));
          this.var_1142.method_959(this.method_439);
          if(class_222.const_629 == param1)
          {
-            this.var_1143.text = class_26.method_1668(class_73.method_2111(class_121.var_5364));
+            this.var_1143.text = class_26.method_1668(class_121.var_5364);
             this.var_1145.method_955(class_26.method_1668(class_62.var_4023));
             this.var_1145.method_959(this.method_872);
             method_136(this.var_1143);
@@ -144,7 +144,7 @@ package
          else if(param1 == class_222.const_630)
          {
             this.var_1143.text = class_26.method_1668(class_162.var_6212,param2);
-            this.var_1145.method_955(class_26.method_1668(class_73.method_2111(class_107.var_5045)));
+            this.var_1145.method_955(class_26.method_1668(class_107.var_5045));
             this.var_1145.method_959(this.method_875);
             this.var_1144.method_941(class_117.var_5161);
             this.var_1142.method_959(this.method_873);
@@ -154,13 +154,13 @@ package
          }
          else if(param1 == class_222.const_631)
          {
-            this.var_1143.text = class_26.method_1668(class_73.method_2111(class_146.var_5991));
+            this.var_1143.text = class_26.method_1668(class_146.var_5991);
             method_136(this.var_1143);
          }
          else if(class_222.const_633 == param1)
          {
-            this.var_1143.text = class_26.method_1668(class_73.method_2111(class_146.var_5990));
-            this.var_1145.method_955(class_26.method_1668(class_73.method_2111(class_102.var_4721)));
+            this.var_1143.text = class_26.method_1668(class_146.var_5990);
+            this.var_1145.method_955(class_26.method_1668(class_102.var_4721));
             this.var_1145.method_959(class_222.method_2792,class_222.var_7169);
             this.var_1142.method_959(this.method_873);
             method_136(this.var_1143);
@@ -168,7 +168,7 @@ package
          }
          else if(class_222.const_632 == param1)
          {
-            this.var_1143.text = class_26.method_1668(class_73.method_2111(class_127.var_5759));
+            this.var_1143.text = class_26.method_1668(class_127.var_5759);
             this.var_1145.method_955(class_26.method_1668(class_102.var_4721));
             this.var_1145.method_959(class_222.method_2792,class_222.var_7169);
             this.var_1142.method_959(this.method_873);
@@ -177,7 +177,7 @@ package
          }
          else if(param1 == class_222.const_634)
          {
-            this.var_1143.text = class_26.method_1668(class_73.method_2111(class_33.var_3555));
+            this.var_1143.text = class_26.method_1668(class_33.var_3555);
             this.var_1145.method_955(class_26.method_1668(class_62.var_4023));
             this.var_1145.method_959(this.method_869);
             method_136(this.var_1143);
@@ -185,10 +185,10 @@ package
          }
          else if(class_222.const_635 == param1)
          {
-            this.var_1143.text = class_26.method_1668(class_73.method_2111(class_121.var_5364));
-            this.var_1145.method_955(class_26.method_1668(class_73.method_2111(class_62.var_4023)));
+            this.var_1143.text = class_26.method_1668(class_121.var_5364);
+            this.var_1145.method_955(class_26.method_1668(class_62.var_4023));
             this.var_1145.method_959(this.method_874);
-            this.var_1142.method_955(class_26.method_1668(class_73.method_2111(class_9.var_3121)));
+            this.var_1142.method_955(class_26.method_1668(class_9.var_3121));
             this.var_1142.method_959(this.method_439,true);
             method_136(this.var_1143);
             method_136(this.var_1145);
@@ -205,7 +205,7 @@ package
       
       public function method_872() : void
       {
-         class_18.method_1883(class_73.method_2111(class_117.var_5160),true,true);
+         class_18.method_1883(class_117.var_5160,true,true);
       }
       
       public function method_873() : void
@@ -228,7 +228,7 @@ package
       
       public function method_874() : void
       {
-         class_18.method_1883(class_73.method_2111(class_107.var_4926));
+         class_18.method_1883(class_107.var_4926);
       }
       
       public function method_875() : void

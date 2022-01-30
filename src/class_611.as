@@ -13,8 +13,8 @@ package
       public function class_611(param1:ByteArray)
       {
          super(param1);
-         this.x = param1.readInt() - class_73.method_2108(class_181.var_6922);
-         this.y = param1.readInt() - class_73.method_2108(class_181.var_6922);
+         this.x = param1.readInt() - class_181.var_6922;
+         this.y = param1.readInt() - class_181.var_6922;
       }
    }
 }

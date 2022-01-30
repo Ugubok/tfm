@@ -42,7 +42,7 @@ package
       {
          var _loc2_:int = param1.readShort();
          this.var_2643 = param1.readUTFBytes(_loc2_);
-         this.var_2814 = param1.readByte() != class_73.method_2108(class_183.var_7129);
+         this.var_2814 = param1.readByte() != class_183.var_7129;
       }
       
       public function get method_1793() : int

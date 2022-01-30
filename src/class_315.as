@@ -25,7 +25,7 @@ package
          this.var_1529 = new Array();
          super(param1,param2,param3);
          var_1145.method_475((var_1178.name_5 - var_1178.method_220()) / class_165.var_6534);
-         this.var_1525 = new class_246(class_73.method_2111(class_9.var_3268),(var_1178.name_5 - var_1178.method_220()) / class_73.method_2108(class_165.var_6534),this.method_1108);
+         this.var_1525 = new class_246(class_9.var_3268,(var_1178.name_5 - var_1178.method_220()) / class_165.var_6534,this.method_1108);
          this.var_1525.addEventListener(KeyboardEvent.KEY_DOWN,this.method_1105);
          var_1178.clear();
          var_1178.method_136(var_1145,this.var_1525);
@@ -79,10 +79,10 @@ package
             {
                if(!this.var_1528)
                {
-                  this.var_1528 = new class_23(class_127.var_5865,class_73.method_2108(class_127.var_5865));
+                  this.var_1528 = new class_23(class_127.var_5865,class_127.var_5865);
                   _loc2_ = class_175.method_118(class_92.var_4591);
-                  _loc2_.width += class_73.method_2108(class_33.var_3679);
-                  _loc2_.height += class_73.method_2108(class_33.var_3679);
+                  _loc2_.width += class_33.var_3679;
+                  _loc2_.height += class_33.var_3679;
                   this.var_1528.addChild(_loc2_);
                   this.var_1528.method_203(this.method_876);
                }
@@ -93,7 +93,7 @@ package
          }
          else if(this.var_1528 && this.var_1528.parent)
          {
-            var_1145.method_475((var_1178.name_5 - var_1178.method_220()) / class_73.method_2108(class_165.var_6534),var_1145.var_206);
+            var_1145.method_475((var_1178.name_5 - var_1178.method_220()) / class_165.var_6534,var_1145.var_206);
             this.var_1525.method_475(var_1145.name_5,this.var_1525.var_206);
             var_1178.clear();
             var_1178.method_136(var_1145,this.var_1525);
@@ -160,10 +160,10 @@ package
       public function method_876() : void
       {
          var _loc1_:class_210 = new class_210();
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
+         var _loc2_:int = class_183.var_7129;
          while(_loc2_ < this.var_1529.length)
          {
-            _loc1_.method_818(this.var_1529[_loc2_],this.var_1529[_loc2_ + class_73.method_2108(class_33.var_3679)],this.var_1529[_loc2_ + class_73.method_2108(class_165.var_6534)]);
+            _loc1_.method_818(this.var_1529[_loc2_],this.var_1529[_loc2_ + class_33.var_3679],this.var_1529[_loc2_ + class_165.var_6534]);
             _loc2_ += class_146.var_6118;
          }
          _loc1_.method_427();

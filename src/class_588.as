@@ -52,10 +52,10 @@ package
       
       public function class_588(param1:String, param2:Number = 0, param3:Number = 0, param4:Boolean = false)
       {
-         this.var_574 = class_73.method_2111(class_9.var_3268);
+         this.var_574 = class_9.var_3268;
          super();
          this.url = param1;
-         this.var_2296 = class_175.method_2618(this.url + class_73.method_2111(class_89.var_4299) + class_1.var_2864);
+         this.var_2296 = class_175.method_2618(this.url + class_89.var_4299 + class_1.var_2864);
          this.var_304 = param2;
          this.var_305 = param3;
          this.var_2293 = param4;
@@ -64,7 +64,7 @@ package
       
       public function method_1641(param1:Boolean) : class_588
       {
-         this.method_1132().scaleX = !!param1 ? Number(-class_73.method_2108(class_33.var_3679)) : Number(class_73.method_2108(class_33.var_3679));
+         this.method_1132().scaleX = !!param1 ? Number(-class_33.var_3679) : Number(class_33.var_3679);
          return this;
       }
       
@@ -73,7 +73,7 @@ package
          if(param1)
          {
             this.var_2296.x = class_183.var_7129;
-            this.var_2296.y = class_73.method_2108(class_183.var_7129);
+            this.var_2296.y = class_183.var_7129;
             this.var_1479 = new Sprite();
             if(this.var_2296 && this.var_2296.parent)
             {

@@ -42,7 +42,7 @@ package
       {
          var _loc4_:class_206 = null;
          var _loc1_:int = class_1.method_1816();
-         var _loc2_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc2_:int = -class_33.var_3679;
          var _loc3_:int = class_49.var_3764.length;
          while(++_loc2_ < _loc3_)
          {
@@ -53,7 +53,7 @@ package
                {
                   _loc4_.parent.removeChild(_loc4_);
                }
-               class_49.var_3764.splice(_loc2_,class_73.method_2108(class_33.var_3679));
+               class_49.var_3764.splice(_loc2_,class_33.var_3679);
                _loc2_--;
                _loc3_--;
                class_1.var_2878.method_157(_loc4_);
@@ -64,7 +64,7 @@ package
       public static function method_1957() : void
       {
          var _loc3_:class_206 = null;
-         var _loc1_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc1_:int = -class_33.var_3679;
          var _loc2_:int = class_49.var_3764.length;
          while(++_loc1_ < _loc2_)
          {
@@ -95,8 +95,8 @@ package
          {
             param2.addChild(_loc7_);
          }
-         var _loc8_:int = class_73.method_2108(class_146.var_6111) + param3.length * class_73.method_2108(class_121.var_5493);
-         if(_loc8_ > class_73.method_2108(class_181.var_6922))
+         var _loc8_:int = class_146.var_6111 + param3.length * class_121.var_5493;
+         if(_loc8_ > class_181.var_6922)
          {
             _loc8_ = class_181.var_6922;
          }

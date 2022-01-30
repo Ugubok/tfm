@@ -38,7 +38,7 @@ package
          this.var_2777.var_2859 = this.var_2778 & 255;
          this.var_2777.var_2860 = (this.var_2778 & 65280) >> class_170.var_6731 & 255;
          this.var_2777.var_2861 = (this.var_2778 & 16711680) >> class_16.var_3467 & 255;
-         this.var_2777.var_2862 = (this.var_2778 & 4278190080) >> class_73.method_2108(class_117.var_5280) & 255;
+         this.var_2777.var_2862 = (this.var_2778 & 4278190080) >> class_117.var_5280 & 255;
       }
    }
 }

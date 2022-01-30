@@ -39,7 +39,7 @@ package
       public function class_790(param1:String = null, param2:uint = 0)
       {
          this.var_2662 = -class_33.var_3679;
-         this.var_1774 = class_73.method_2108(class_183.var_7129);
+         this.var_1774 = class_183.var_7129;
          super();
          this.var_2659 = new Socket();
          this.var_2666 = new Vector.<class_487>();
@@ -99,7 +99,7 @@ package
             {
                this.var_2661.clear();
             }
-            this.var_2659.readBytes(this.var_2661,class_73.method_2108(class_183.var_7129),this.var_2662);
+            this.var_2659.readBytes(this.var_2661,class_183.var_7129,this.var_2662);
             this.var_2664.lecture(this.var_2661);
             this.var_2660.traiterPaquetEntrant(this.var_2665,this.var_2664);
             this.var_2663 = class_99.var_4681;

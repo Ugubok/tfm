@@ -19,7 +19,7 @@ package
          }
          catch(name_86:Error)
          {
-            var_7598 = String(name_86).replace(/.*([@|\$].*?) \S+ .*$/gi,class_73.method_2111(class_102.var_4760));
+            var_7598 = String(name_86).replace(/.*([@|\$].*?) \S+ .*$/gi,class_102.var_4760);
          }
          return var_7598;
       }
@@ -41,12 +41,12 @@ package
             _loc3_.pop();
             _loc4_++;
          }
-         var _loc5_:RegExp = new RegExp(class_73.method_2111(class_170.var_6643));
-         var _loc6_:RegExp = new RegExp(class_73.method_2111(class_102.var_4759));
+         var _loc5_:RegExp = new RegExp(class_170.var_6643);
+         var _loc6_:RegExp = new RegExp(class_102.var_4759);
          var _loc7_:int = class_183.var_7129;
          while(_loc7_ < _loc3_.length)
          {
-            _loc3_[_loc7_] = _loc3_[_loc7_].replace(_loc5_,class_73.method_2111(class_9.var_3268));
+            _loc3_[_loc7_] = _loc3_[_loc7_].replace(_loc5_,class_9.var_3268);
             _loc3_[_loc7_] = _loc3_[_loc7_].replace(_loc6_,class_102.var_4760);
             _loc7_++;
          }

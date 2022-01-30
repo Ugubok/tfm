@@ -39,7 +39,7 @@ package
          {
             if(class_232.method_2804())
             {
-               _loc5_ = (_loc4_.indexOf(class_60.var_3967) != -class_33.var_3679 ? class_73.method_2111(class_170.var_6721) : class_60.var_3967) + class_73.method_2111(class_60.var_3923) + class_231.method_2799() + class_62.var_4110 + class_232.method_2806();
+               _loc5_ = (_loc4_.indexOf(class_60.var_3967) != -class_33.var_3679 ? class_170.var_6721 : class_60.var_3967) + class_60.var_3923 + class_231.method_2799() + class_62.var_4110 + class_232.method_2806();
                _loc6_ = _loc4_.indexOf(class_165.var_6522);
                if(_loc6_ == -class_33.var_3679)
                {
@@ -47,7 +47,7 @@ package
                }
                else
                {
-                  _loc4_ = _loc4_.substr(class_73.method_2108(class_183.var_7129),_loc6_) + _loc5_ + _loc4_.substr(_loc6_);
+                  _loc4_ = _loc4_.substr(class_183.var_7129,_loc6_) + _loc5_ + _loc4_.substr(_loc6_);
                }
             }
             else
@@ -82,7 +82,7 @@ package
          catch(name_85:Error)
          {
          }
-         navigateToURL(new URLRequest(param1),class_33.var_3659 + class_73.method_2111(class_9.var_3216) + class_73.method_2111(class_33.var_3618));
+         navigateToURL(new URLRequest(param1),class_33.var_3659 + class_9.var_3216 + class_33.var_3618);
       }
    }
 }

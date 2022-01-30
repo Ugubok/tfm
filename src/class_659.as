@@ -46,7 +46,7 @@ package
          this.var_2449.push(param1.readInt());
          this.var_2450 = param1.readShort();
          var _loc2_:int = param1.readShort();
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < _loc2_)
          {
             _loc7_ = param1.readShort();
@@ -59,7 +59,7 @@ package
          this.var_609 = param1.readUTF();
          this.var_2452 = param1.readShort();
          var _loc4_:int = param1.readUnsignedShort();
-         _loc3_ = class_73.method_2108(class_183.var_7129);
+         _loc3_ = class_183.var_7129;
          while(_loc3_ < _loc4_)
          {
             this.var_2453.push(param1.readUnsignedShort());
@@ -76,7 +76,7 @@ package
          this.var_2455 = param1.readUnsignedByte();
          var _loc6_:int = param1.readUnsignedByte();
          this.var_2456 = new Vector.<int>();
-         _loc3_ = -class_73.method_2108(class_33.var_3679);
+         _loc3_ = -class_33.var_3679;
          while(++_loc3_ < _loc6_)
          {
             this.var_2456.push(param1.readUnsignedByte());

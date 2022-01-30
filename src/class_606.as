@@ -39,7 +39,7 @@ package
          this.var_11 = param4;
          this.var_2349 = param5;
          this.var_2353 = param6;
-         if(this.var_2346.length > class_73.method_2108(class_183.var_7129) && this.var_2346.charAt(class_183.var_7129) == class_73.method_2111(class_9.var_3256))
+         if(this.var_2346.length > class_183.var_7129 && this.var_2346.charAt(class_183.var_7129) == class_9.var_3256)
          {
             this.var_2346 = class_26.method_1668(this.var_2346);
          }

@@ -44,7 +44,7 @@ package
          }
          try
          {
-            ExternalInterface.call(class_73.method_2111(class_60.var_3890));
+            ExternalInterface.call(class_60.var_3890);
          }
          catch(name_86:Error)
          {
@@ -89,7 +89,7 @@ package
             try
             {
                class_65.var_4208 = class_65.const_389;
-               _loc1_ = ExternalInterface.call(class_73.method_2111(class_121.var_5393));
+               _loc1_ = ExternalInterface.call(class_121.var_5393);
                if(_loc1_)
                {
                   class_65.method_2085();

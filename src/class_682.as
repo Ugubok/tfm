@@ -25,7 +25,7 @@ package
          this.var_2491 = new Vector.<class_749>();
          super(param1);
          var _loc2_:int = param1.readByte();
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < _loc2_)
          {
             _loc4_ = param1.readByte();
@@ -42,7 +42,7 @@ package
                _loc11_++;
             }
             _loc12_ = param1.readInt();
-            _loc13_ = class_749.method_3080(_loc3_ + class_73.method_2108(class_33.var_3679),_loc4_,_loc5_,_loc6_,_loc7_,_loc8_,_loc10_,_loc12_);
+            _loc13_ = class_749.method_3080(_loc3_ + class_33.var_3679,_loc4_,_loc5_,_loc6_,_loc7_,_loc8_,_loc10_,_loc12_);
             this.var_2491.push(_loc13_);
             _loc14_ = param1.readByte();
             _loc15_ = class_183.var_7129;

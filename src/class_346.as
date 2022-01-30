@@ -31,14 +31,14 @@ package
          this.var_1634 = new class_167();
          super();
          type = class_122.const_501;
-         this.var_1634.method_105(class_73.method_2116(class_121.var_5450),class_73.method_2116(class_107.var_4953));
-         this.var_648 = class_73.method_2116(class_107.var_4953);
+         this.var_1634.method_105(class_121.var_5450,class_107.var_4953);
+         this.var_648 = class_107.var_4953;
          this.var_649 = class_99.var_4682;
-         this.var_1635 = class_73.method_2116(class_107.var_4953);
+         this.var_1635 = class_107.var_4953;
          this.var_1636 = class_107.var_4953;
          this.var_652 = class_99.var_4682;
-         this.var_1637 = class_73.method_2116(class_107.var_4953);
-         this.var_653 = class_73.method_2116(class_107.var_4953);
+         this.var_1637 = class_107.var_4953;
+         this.var_653 = class_107.var_4953;
       }
       
       public function method_107(param1:class_147, param2:class_147, param3:class_167, param4:class_167) : void

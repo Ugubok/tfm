@@ -28,18 +28,18 @@ package
          var _loc1_:class_250 = null;
          if(this.var_2853 == class_942.const_1344)
          {
-            _loc1_ = new class_250(class_16.var_3420 + this.var_2854 + class_73.method_2111(class_117.var_5274),class_942.name_38,class_942.name_58);
+            _loc1_ = new class_250(class_16.var_3420 + this.var_2854 + class_117.var_5274,class_942.name_38,class_942.name_58);
          }
          else if(class_942.const_1345 == this.var_2853)
          {
-            _loc1_ = new class_250(class_73.method_2111(class_89.var_4386) + this.var_2854 + class_73.method_2111(class_117.var_5274),class_124.var_5657,class_73.method_2108(class_4.var_3042));
+            _loc1_ = new class_250(class_89.var_4386 + this.var_2854 + class_117.var_5274,class_124.var_5657,class_4.var_3042);
             (_loc1_ as class_250).method_966(class_942.name_38 / (_loc1_ as class_250).name_5,class_942.name_58 / (_loc1_ as class_250).var_206);
          }
          else
          {
             _loc1_ = new class_250();
-            _loc1_.graphics.beginFill(class_54.method_1970(65280,Math.random() * class_73.method_2108(class_89.var_4404)),class_92.var_4648);
-            _loc1_.graphics.drawRect(class_183.var_7129,class_73.method_2108(class_183.var_7129),class_942.name_38,class_942.name_58);
+            _loc1_.graphics.beginFill(class_54.method_1970(65280,Math.random() * class_89.var_4404),class_92.var_4648);
+            _loc1_.graphics.drawRect(class_183.var_7129,class_183.var_7129,class_942.name_38,class_942.name_58);
             _loc1_.graphics.endFill();
          }
          return _loc1_;

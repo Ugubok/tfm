@@ -32,7 +32,7 @@ package
       
       public function class_504(param1:class_168)
       {
-         this.var_1992 = class_73.method_2108(class_183.var_7129);
+         this.var_1992 = class_183.var_7129;
          super();
          this.var_2000 = param1;
       }
@@ -49,7 +49,7 @@ package
          var _loc3_:int = 0;
          var _loc4_:class_27 = null;
          var _loc5_:Vector.<int> = null;
-         this.var_1992 = (this.var_1992 + class_73.method_2108(class_33.var_3679)) % class_73.method_2108(class_181.var_6922);
+         this.var_1992 = (this.var_1992 + class_33.var_3679) % class_181.var_6922;
          this.var_2011 = !this.var_2011;
          if(this.var_2001 && this.var_2011)
          {
@@ -85,15 +85,15 @@ package
             }
             class_1.var_2884.var_155.var_660 = class_99.var_4681;
          }
-         if(this.var_2006 && this.var_1992 % class_73.method_2108(class_9.var_3267) == class_73.method_2108(class_183.var_7129))
+         if(this.var_2006 && this.var_1992 % class_9.var_3267 == class_183.var_7129)
          {
             if(param1 > this.var_2007)
             {
                this.var_2006 = class_99.var_4682;
             }
             _loc5_ = new <int>[class_56.const_346,class_56.const_347];
-            _loc5_.push(Math.random() < class_73.method_2116(class_92.var_4648) ? class_56.const_336 : class_56.const_335);
-            _loc5_.push(Math.random() < class_73.method_2116(class_92.var_4648) ? class_56.const_346 : class_56.const_347);
+            _loc5_.push(Math.random() < class_92.var_4648 ? class_56.const_336 : class_56.const_335);
+            _loc5_.push(Math.random() < class_92.var_4648 ? class_56.const_346 : class_56.const_347);
             _loc2_ = _loc5_.length;
             _loc3_ = -class_33.var_3679;
             while(++_loc3_ < _loc2_)
@@ -102,10 +102,10 @@ package
                _loc4_.var_316 = class_99.var_4681;
                _loc4_.var_317 = class_1.var_2884.var_50.x;
                _loc4_.var_318 = class_1.var_2884.var_50.y;
-               _loc4_.var_304 = this.var_2000.x + _loc4_.var_317 + (!!this.var_2000.var_912 ? -class_73.method_2108(class_33.var_3679) : class_33.var_3679) * (class_73.method_2108(class_9.var_3267) + Math.random() * class_73.method_2108(class_33.var_3675));
+               _loc4_.var_304 = this.var_2000.x + _loc4_.var_317 + (!!this.var_2000.var_912 ? -class_33.var_3679 : class_33.var_3679) * (class_9.var_3267 + Math.random() * class_33.var_3675);
                _loc4_.var_305 = this.var_2000.y + _loc4_.var_318 + (-class_162.var_6351 + Math.random() * class_102.var_4859);
-               _loc4_.var_308 = (!!this.var_2000.var_912 ? -class_73.method_2108(class_33.var_3679) : class_73.method_2108(class_33.var_3679)) * Math.random();
-               _loc4_.var_309 = -(Math.random() + class_73.method_2116(class_181.var_6904));
+               _loc4_.var_308 = (!!this.var_2000.var_912 ? -class_33.var_3679 : class_33.var_3679) * Math.random();
+               _loc4_.var_309 = -(Math.random() + class_181.var_6904);
                _loc4_.var_315 = class_99.var_4681;
                class_1.var_2884.var_155.var_659.push(_loc4_);
             }

@@ -6,7 +6,7 @@ package
       
       public function class_173(param1:int, param2:Boolean, param3:Boolean, param4:int, param5:int, param6:int, param7:int, param8:Boolean, param9:int, param10:int, param11:Number = NaN, param12:int = 0, param13:Boolean = true)
       {
-         super(class_73.method_2108(class_121.var_5495),class_121.var_5495);
+         super(class_121.var_5495,class_121.var_5495);
          var_159.writeInt(param1);
          var_159.writeBoolean(param2);
          var_159.writeBoolean(param3);

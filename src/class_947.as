@@ -54,36 +54,36 @@ package
          var _loc10_:MovieClip = null;
          var _loc11_:Sprite = null;
          var _loc12_:Rectangle = null;
-         var _loc2_:Number = class_73.method_2108(class_33.var_3679);
+         var _loc2_:Number = class_33.var_3679;
          if(this.var_2855 == class_947.const_1344)
          {
-            _loc1_ = new class_250(class_73.method_2111(class_4.var_3024) + this.var_2856 + class_89.var_4385,class_947.const_1165,class_947.const_1165);
+            _loc1_ = new class_250(class_4.var_3024 + this.var_2856 + class_89.var_4385,class_947.const_1165,class_947.const_1165);
          }
          else if(this.var_2855 == class_947.const_879)
          {
-            _loc1_ = new class_250(class_73.method_2111(class_121.var_5444) + this.var_2856 + class_117.var_5274,class_102.var_4859,class_102.var_4859);
+            _loc1_ = new class_250(class_121.var_5444 + this.var_2856 + class_117.var_5274,class_102.var_4859,class_102.var_4859);
             (_loc1_ as class_250).method_966(class_947.const_1165 / (_loc1_ as class_250).name_5);
          }
          else if(class_947.const_878 == this.var_2855)
          {
-            _loc1_ = new class_250(class_73.method_2111(class_33.var_3619) + this.var_2856 + class_73.method_2111(class_89.var_4385),class_102.var_4859,class_102.var_4859);
+            _loc1_ = new class_250(class_33.var_3619 + this.var_2856 + class_89.var_4385,class_102.var_4859,class_102.var_4859);
             (_loc1_ as class_250).method_966(class_947.const_1165 / (_loc1_ as class_250).name_5);
          }
          else if(class_947.const_1346 == this.var_2855)
          {
-            _loc1_ = new class_250(class_62.var_4114 + this.var_2856 + class_89.var_4385,class_33.var_3675,class_73.method_2108(class_33.var_3675));
+            _loc1_ = new class_250(class_62.var_4114 + this.var_2856 + class_89.var_4385,class_33.var_3675,class_33.var_3675);
             (_loc1_ as class_250).method_965(class_947.const_1165,class_947.const_1165);
          }
          else if(this.var_2855 == class_947.const_1347)
          {
-            _loc3_ = (this.var_2856 as String).split(class_73.method_2111(class_89.var_4384));
-            _loc4_ = _loc3_[class_73.method_2108(class_183.var_7129)];
-            _loc5_ = parseInt(_loc3_[class_73.method_2108(class_33.var_3679)],class_183.var_7129);
+            _loc3_ = (this.var_2856 as String).split(class_89.var_4384);
+            _loc4_ = _loc3_[class_183.var_7129];
+            _loc5_ = parseInt(_loc3_[class_33.var_3679],class_183.var_7129);
             if(isNaN(_loc5_))
             {
-               _loc5_ = class_73.method_2108(class_183.var_7129);
+               _loc5_ = class_183.var_7129;
             }
-            _loc1_ = new class_250(class_73.method_2111(class_121.var_5444) + _loc4_ + class_117.var_5274,class_73.method_2108(class_102.var_4859),class_73.method_2108(class_102.var_4859));
+            _loc1_ = new class_250(class_121.var_5444 + _loc4_ + class_117.var_5274,class_102.var_4859,class_102.var_4859);
             _loc1_.method_966(class_947.const_1165 / _loc1_.name_5);
             _loc6_ = class_164.method_2574(_loc5_);
             _loc7_ = new class_250(null,_loc6_.width,_loc6_.height);
@@ -94,14 +94,14 @@ package
          }
          else if(this.var_2855 == class_947.const_1348)
          {
-            _loc3_ = (this.var_2856 as String).split(class_73.method_2111(class_89.var_4384));
-            _loc8_ = _loc3_[class_73.method_2108(class_183.var_7129)];
-            _loc5_ = parseInt(_loc3_[class_73.method_2108(class_33.var_3679)],class_183.var_7129);
+            _loc3_ = (this.var_2856 as String).split(class_89.var_4384);
+            _loc8_ = _loc3_[class_183.var_7129];
+            _loc5_ = parseInt(_loc3_[class_33.var_3679],class_183.var_7129);
             if(isNaN(_loc5_))
             {
-               _loc5_ = class_73.method_2108(class_183.var_7129);
+               _loc5_ = class_183.var_7129;
             }
-            _loc1_ = new class_250(class_4.var_3024 + _loc8_ + class_73.method_2111(class_89.var_4385),class_947.const_1165,class_947.const_1165);
+            _loc1_ = new class_250(class_4.var_3024 + _loc8_ + class_89.var_4385,class_947.const_1165,class_947.const_1165);
             _loc6_ = class_164.method_2574(_loc5_);
             _loc7_ = new class_250(null,_loc6_.width,_loc6_.height);
             _loc7_.method_964(_loc6_);
@@ -126,7 +126,7 @@ package
          else if(class_947.const_1350 == this.var_2855)
          {
             _loc1_ = new class_250(null,class_947.const_1165,class_947.const_1165);
-            _loc11_ = class_175.method_118(class_73.method_2111(class_127.var_5833) + this.var_2856,true);
+            _loc11_ = class_175.method_118(class_127.var_5833 + this.var_2856,true);
             if(_loc11_.width > class_947.const_1165 || _loc11_.height > class_947.const_1165)
             {
                _loc2_ = Math.min(class_947.const_1165 / _loc11_.width,class_947.const_1165 / _loc11_.height);
@@ -142,7 +142,7 @@ package
          else
          {
             _loc1_ = new class_250();
-            _loc1_.graphics.beginFill(class_54.method_1970(65280,Math.random() * class_73.method_2108(class_89.var_4404)),class_73.method_2116(class_92.var_4648));
+            _loc1_.graphics.beginFill(class_54.method_1970(65280,Math.random() * class_89.var_4404),class_92.var_4648);
             _loc1_.graphics.drawRect(class_183.var_7129,class_183.var_7129,class_947.const_1165,class_947.const_1165);
             _loc1_.graphics.endFill();
          }

@@ -68,11 +68,11 @@ package
          this.var_1625 = param1.var_648;
          this.var_1626.method_671();
          this.var_1627 = class_107.var_4953;
-         this.var_753 = class_73.method_2116(class_107.var_4953);
+         this.var_753 = class_107.var_4953;
          this.var_1628 = class_107.var_4953;
          this.var_783 = class_107.var_4953;
          this.var_1629.method_671();
-         this.var_706 = class_73.method_2116(class_107.var_4953);
+         this.var_706 = class_107.var_4953;
          this.var_702 = class_107.var_4953;
          this.var_703 = class_107.var_4953;
          this.var_704 = class_107.var_4953;
@@ -298,13 +298,13 @@ package
             else if(class_122.const_507 == this.var_714)
             {
                _loc8_ = this.var_703;
-               this.var_703 = class_427.method_3005(this.var_703 + _loc19_,class_73.method_2116(class_107.var_4953));
+               this.var_703 = class_427.method_3005(this.var_703 + _loc19_,class_107.var_4953);
                _loc19_ = -_loc8_ + this.var_703;
             }
             else if(class_122.const_508 == this.var_714)
             {
                _loc8_ = this.var_703;
-               this.var_703 = class_427.method_3018(this.var_703 + _loc19_,class_73.method_2116(class_107.var_4953));
+               this.var_703 = class_427.method_3018(this.var_703 + _loc19_,class_107.var_4953);
                _loc19_ = -_loc8_ + this.var_703;
             }
             _loc11_ = _loc19_ * param1.var_1890;
@@ -438,11 +438,11 @@ package
          this.var_1626.var_2541 = -(_loc16_ * _loc15_ - _loc17_ * _loc14_);
          this.var_1626.var_2543 = _loc8_ * _loc15_ - _loc9_ * _loc14_;
          this.var_1627 = _loc10_ + _loc12_ * this.var_1626.var_2541 * this.var_1626.var_2541 + _loc11_ + _loc13_ * this.var_1626.var_2543 * this.var_1626.var_2543;
-         this.var_1627 = class_73.method_2116(class_121.var_5450) / this.var_1627;
+         this.var_1627 = class_121.var_5450 / this.var_1627;
          this.var_1628 = _loc12_ + _loc13_;
          if(Number.MIN_VALUE < this.var_1628)
          {
-            this.var_1628 = class_73.method_2116(class_121.var_5450) / this.var_1628;
+            this.var_1628 = class_121.var_5450 / this.var_1628;
          }
          if(this.var_710 || this.var_707)
          {
@@ -456,7 +456,7 @@ package
             this.var_1629.var_2541 = -(_loc16_ * _loc19_ - _loc17_ * _loc18_);
             this.var_1629.var_2543 = _loc8_ * _loc19_ - _loc9_ * _loc18_;
             this.var_706 = _loc10_ + _loc12_ * this.var_1629.var_2541 * this.var_1629.var_2541 + _loc11_ + _loc13_ * this.var_1629.var_2543 * this.var_1629.var_2543;
-            this.var_706 = class_73.method_2116(class_121.var_5450) / this.var_706;
+            this.var_706 = class_121.var_5450 / this.var_706;
             if(this.var_710)
             {
                _loc20_ = _loc16_ - _loc6_;
@@ -470,7 +470,7 @@ package
                {
                   if(this.var_714 != class_122.const_507)
                   {
-                     this.var_703 = class_73.method_2116(class_107.var_4953);
+                     this.var_703 = class_107.var_4953;
                   }
                   this.var_714 = class_122.const_507;
                }
@@ -478,20 +478,20 @@ package
                {
                   if(this.var_714 != class_122.const_508)
                   {
-                     this.var_703 = class_73.method_2116(class_107.var_4953);
+                     this.var_703 = class_107.var_4953;
                   }
                   this.var_714 = class_122.const_508;
                }
                else
                {
                   this.var_714 = class_122.const_506;
-                  this.var_703 = class_73.method_2116(class_107.var_4953);
+                  this.var_703 = class_107.var_4953;
                }
             }
          }
          if(this.var_707 == false)
          {
-            this.var_702 = class_73.method_2116(class_107.var_4953);
+            this.var_702 = class_107.var_4953;
          }
          if(this.var_710 == false)
          {
@@ -516,10 +516,10 @@ package
          {
             this.var_753 = class_107.var_4953;
             this.var_783 = class_107.var_4953;
-            this.var_703 = class_73.method_2116(class_107.var_4953);
+            this.var_703 = class_107.var_4953;
             this.var_702 = class_107.var_4953;
          }
-         this.var_704 = class_73.method_2116(class_107.var_4953);
+         this.var_704 = class_107.var_4953;
       }
       
       public function method_506() : Boolean

@@ -42,17 +42,17 @@ package
       
       public function class_835()
       {
-         super(class_73.method_2108(class_60.var_3979),class_73.method_2108(class_181.var_6929));
-         method_239(class_73.method_2111(class_170.var_6657));
+         super(class_60.var_3979,class_181.var_6929);
+         method_239(class_170.var_6657);
          method_188();
-         method_227(class_243.const_642,class_73.method_2108(class_121.var_5495));
+         method_227(class_243.const_642,class_121.var_5495);
          this.var_1178 = new class_24(name_5,class_33.var_3675);
-         this.var_1178.method_227(class_243.const_639,class_73.method_2108(class_121.var_5495));
-         this.var_2743 = new class_246(class_73.method_2111(class_60.var_3901),(name_5 - class_165.var_6534 * this.var_1178.method_220()) / class_73.method_2108(class_146.var_6118),this.method_1786,class_835.var_7397);
-         this.var_2744 = new class_246(class_4.var_2995,(name_5 - class_73.method_2108(class_165.var_6534) * this.var_1178.method_220()) / class_73.method_2108(class_146.var_6118),this.method_1786,class_835.var_7398);
-         this.var_2745 = new class_246(class_9.var_3183,(name_5 - class_73.method_2108(class_165.var_6534) * this.var_1178.method_220()) / class_73.method_2108(class_146.var_6118),this.method_1786,class_835.var_7399);
+         this.var_1178.method_227(class_243.const_639,class_121.var_5495);
+         this.var_2743 = new class_246(class_60.var_3901,(name_5 - class_165.var_6534 * this.var_1178.method_220()) / class_146.var_6118,this.method_1786,class_835.var_7397);
+         this.var_2744 = new class_246(class_4.var_2995,(name_5 - class_165.var_6534 * this.var_1178.method_220()) / class_146.var_6118,this.method_1786,class_835.var_7398);
+         this.var_2745 = new class_246(class_9.var_3183,(name_5 - class_165.var_6534 * this.var_1178.method_220()) / class_146.var_6118,this.method_1786,class_835.var_7399);
          this.var_1178.method_136(this.var_2743,this.var_2744,this.var_2745);
-         this.var_1906 = new class_24(name_5,var_206 - class_73.method_2108(class_165.var_6534) * class_73.method_2108(class_9.var_3266) - class_165.var_6534 * this.method_220());
+         this.var_1906 = new class_24(name_5,var_206 - class_165.var_6534 * class_9.var_3266 - class_165.var_6534 * this.method_220());
          this.var_1906.method_244(true);
          this.var_401 = new class_220(class_9.var_3268,this.var_1906.name_5,class_183.var_7129);
          this.var_401.selectable = class_99.var_4681;
@@ -69,8 +69,8 @@ package
          _loc8_ = new class_835();
          _loc8_.method_1785(param1,param2,param3,param4,param5,param6,param7);
          _loc8_.method_1786(class_835.var_7397);
-         _loc8_.x = (class_107.var_5074 - _loc8_.name_5) / class_73.method_2108(class_165.var_6534);
-         _loc8_.y = class_73.method_2108(class_33.var_3675) + (class_73.method_2108(class_183.var_7096) - _loc8_.var_206) / class_73.method_2108(class_165.var_6534);
+         _loc8_.x = (class_107.var_5074 - _loc8_.name_5) / class_165.var_6534;
+         _loc8_.y = class_33.var_3675 + (class_183.var_7096 - _loc8_.var_206) / class_165.var_6534;
          class_115.method_388(_loc8_,class_33.var_3679);
       }
       
@@ -98,8 +98,8 @@ package
          var _loc2_:String = null;
          if(class_835.var_7397 == param1)
          {
-            _loc2_ = class_73.method_2111(class_89.var_4360) + this.var_2746 + class_146.var_6037 + class_124.var_5608;
-            _loc2_ += this.var_2048 + class_73.method_2111(class_124.var_5608);
+            _loc2_ = class_89.var_4360 + this.var_2746 + class_146.var_6037 + class_124.var_5608;
+            _loc2_ += this.var_2048 + class_124.var_5608;
             _loc2_ += class_102.var_4774 + class_107.var_5071;
             _loc2_ += class_60.var_3900 + this.var_2748 + class_107.var_5071;
             _loc2_ += class_127.var_5809 + this.var_2750 + class_62.var_4109;

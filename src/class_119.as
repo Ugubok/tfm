@@ -73,13 +73,13 @@ package
       
       public static function method_2334(param1:KeyboardEvent) : void
       {
-         if(class_73.method_2114(class_73.method_2114(class_168.var_6539)))
+         if(class_168.var_6539)
          {
             class_119.method_848(param1);
          }
          else
          {
-            class_73.method_2115(class_119.method_848)(param1);
+            class_119.method_848(param1);
          }
       }
       
@@ -110,7 +110,7 @@ package
          class_119.var_5290 = param1.ctrlKey;
          class_119.var_5292 = param1.shiftKey;
          class_119.var_5291 = param1.altKey;
-         var _loc7_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc7_:int = -class_33.var_3679;
          if(class_119.method_2337(_loc5_))
          {
             _loc7_ = class_119.const_493;
@@ -187,7 +187,7 @@ package
          if(class_119.var_5295[_loc5_] && !class_119.var_5297[_loc5_])
          {
             class_119.var_5297[_loc5_] = class_99.var_4681;
-            class_39.var_3745.method_313(new class_414(_loc5_,true,class_73.method_2108(class_1.var_2884.var_13.x),class_1.var_2884.var_13.y));
+            class_39.var_3745.method_313(new class_414(_loc5_,true,class_1.var_2884.var_13.x,class_1.var_2884.var_13.y));
          }
          if(_loc7_ != -class_33.var_3679)
          {
@@ -213,7 +213,7 @@ package
             class_284.name_6(!class_284.name_62());
             return;
          }
-         if((_loc5_ == class_392.const_941 || _loc5_ == class_73.method_2108(class_181.var_6917)) && class_111.var_5100)
+         if((_loc5_ == class_392.const_941 || _loc5_ == class_181.var_6917) && class_111.var_5100)
          {
             class_418.name_6();
             return;
@@ -292,14 +292,14 @@ package
          }
          if(class_168.var_6539)
          {
-            if(class_73.method_2109(_loc5_ == class_392.const_937))
+            if(_loc5_ == class_392.const_937)
             {
-               _loc13_ = !class_119.var_5298[_loc5_] || class_73.method_2109(_loc3_ - class_119.var_5298[_loc5_] > class_89.var_4444);
-               if(class_73.method_2109(_loc13_))
+               _loc13_ = !class_119.var_5298[_loc5_] || _loc3_ - class_119.var_5298[_loc5_] > class_89.var_4444;
+               if(_loc13_)
                {
                   class_119.var_5298[_loc5_] = _loc3_;
-                  _loc14_ = class_73.method_2109(!(class_41.var_2884 && class_41.var_2884.parent));
-                  class_73.method_2115(class_73.method_2115(class_41.name_6))(class_73.method_2109(_loc14_));
+                  _loc14_ = !(class_41.var_2884 && class_41.var_2884.parent);
+                  class_41.name_6(_loc14_);
                }
                return;
             }
@@ -328,12 +328,12 @@ package
                {
                   if(!class_1.var_2884.var_30 || class_1.var_2884.var_30 && (param1.shiftKey || param1.ctrlKey || param1.altKey))
                   {
-                     if(_loc3_ - class_119.var_5301 < class_73.method_2108(class_121.var_5493))
+                     if(_loc3_ - class_119.var_5301 < class_121.var_5493)
                      {
                         return;
                      }
                      class_119.var_5301 = _loc3_;
-                     _loc16_ = _loc5_ == class_73.method_2108(class_121.var_5470) ? int(class_73.method_2108(class_102.var_4852)) : int(_loc5_ - class_170.var_6714);
+                     _loc16_ = _loc5_ == class_121.var_5470 ? int(class_102.var_4852) : int(_loc5_ - class_170.var_6714);
                      if(!class_175.const_581[_loc16_])
                      {
                         return;
@@ -343,10 +343,10 @@ package
                      return;
                   }
                }
-               _loc15_ = class_73.method_2109(class_392.const_934 == _loc5_ && class_1.var_2884.var_30 && class_73.method_2109(!class_119.var_5290));
-               if(class_73.method_2109(class_73.method_2109(_loc15_)))
+               _loc15_ = class_392.const_934 == _loc5_ && class_1.var_2884.var_30 && !class_119.var_5290;
+               if(_loc15_)
                {
-                  if(class_73.method_2109(class_95.method_2212()))
+                  if(class_95.method_2212())
                   {
                      class_1.method_835(class_117.var_5287);
                      class_95.method_2216();
@@ -354,28 +354,28 @@ package
                   else
                   {
                      class_1.method_835(_loc5_);
-                     class_95.method_2217(class_73.method_2113(class_58.var_3803)[class_73.method_2111(class_107.var_5075)],class_58.var_3803[class_73.method_2111(class_73.method_2111(class_165.var_6533))]);
+                     class_95.method_2217(class_58.var_3803[class_107.var_5075],class_58.var_3803[class_165.var_6533]);
                   }
                }
-               if(class_73.method_2109(class_1.var_2884.var_30) && _loc5_ == class_392.const_952)
+               if(class_1.var_2884.var_30 && _loc5_ == class_392.const_952)
                {
-                  _loc17_ = class_73.method_2109(class_125.var_500);
-                  if(class_125.var_5679 && !class_73.method_2109(class_73.method_2109(_loc17_)))
+                  _loc17_ = class_125.var_500;
+                  if(class_125.var_5679 && !_loc17_)
                   {
-                     class_125.var_5679.method_1130(class_73.method_2108(class_183.var_7127),true);
+                     class_125.var_5679.method_1130(class_183.var_7127,true);
                   }
                }
-               else if(class_73.method_2109(class_73.method_2109(class_1.var_2884.var_30)) && (class_73.method_2109(class_392.const_951 == _loc5_) && !class_119.var_5299 || _loc5_ == class_392.const_954 && class_119.var_5299))
+               else if(class_1.var_2884.var_30 && (class_392.const_951 == _loc5_ && !class_119.var_5299 || _loc5_ == class_392.const_954 && class_119.var_5299))
                {
-                  if(class_73.method_2109(class_125.var_5679) && !class_73.method_2109(class_73.method_2109(class_125.var_500)))
+                  if(class_125.var_5679 && !class_125.var_500)
                   {
-                     _loc18_ = class_73.method_2109(true);
-                     class_125.var_5679.method_1130(class_73.method_2108(-class_183.var_7127),_loc18_);
+                     _loc18_ = true;
+                     class_125.var_5679.method_1130(-class_183.var_7127,_loc18_);
                   }
                }
-               else if(class_1.var_2884.var_30 && _loc5_ >= class_170.var_6714 && _loc5_ <= class_73.method_2108(class_117.var_5250))
+               else if(class_1.var_2884.var_30 && _loc5_ >= class_170.var_6714 && _loc5_ <= class_117.var_5250)
                {
-                  class_125.method_2401(-class_73.method_2108(class_170.var_6714) + _loc5_);
+                  class_125.method_2401(-class_170.var_6714 + _loc5_);
                }
                if(_loc5_ == class_392.const_911)
                {
@@ -392,12 +392,12 @@ package
                }
             }
          }
-         var _loc8_:Boolean = class_73.method_2109(class_73.method_2109(class_1.var_2884.var_30));
-         if(class_73.method_2109(_loc8_))
+         var _loc8_:Boolean = class_1.var_2884.var_30;
+         if(_loc8_)
          {
-            class_1.method_835(!!_loc8_ ? _loc5_ : class_73.method_2108(class_92.var_4647));
+            class_1.method_835(!!_loc8_ ? _loc5_ : class_92.var_4647);
             _loc19_ = class_125.var_500;
-            if(!_loc19_ && !class_73.method_2109(class_73.method_2109(class_1.var_2884.var_131)) && (_loc5_ == class_73.method_2108(class_121.var_5461) || _loc5_ == class_181.var_6916 || _loc5_ == class_102.var_4837 || _loc5_ == class_170.var_6703 || _loc5_ == class_16.var_3444))
+            if(!_loc19_ && !class_1.var_2884.var_131 && (_loc5_ == class_121.var_5461 || _loc5_ == class_181.var_6916 || _loc5_ == class_102.var_4837 || _loc5_ == class_170.var_6703 || _loc5_ == class_16.var_3444))
             {
                if(class_125.var_5679)
                {
@@ -448,7 +448,7 @@ package
                return;
             }
          }
-         var _loc9_:* = class_73.method_2109(class_111.var_5102) == true;
+         var _loc9_:* = class_111.var_5102 == true;
          if(_loc9_)
          {
             if(_loc5_ == class_392.const_943)
@@ -464,16 +464,16 @@ package
          }
          if(class_91.var_4450 == class_80.const_436 && (_loc5_ == class_392.const_941 || _loc5_ == class_392.const_940 || _loc5_ == class_392.const_939))
          {
-            if(class_91.var_4461.length > class_73.method_2108(class_121.var_5493))
+            if(class_91.var_4461.length > class_121.var_5493)
             {
                return;
             }
             _loc20_ = new class_35();
-            _loc20_.var_368 = !!param1.shiftKey ? int(class_73.method_2108(class_33.var_3679)) : int(class_73.method_2108(class_183.var_7129));
+            _loc20_.var_368 = !!param1.shiftKey ? int(class_33.var_3679) : int(class_183.var_7129);
             _loc21_ = class_1.var_2884.method_30(_loc20_,false);
             _loc21_.method_706(true);
             _loc22_ = class_1.var_2884.var_50;
-            _loc21_.var_925.method_556(new class_167(_loc22_[class_73.method_2111(class_107.var_5075)] / class_165.method_2587(),_loc22_[class_73.method_2111(class_165.var_6533)] / class_165.method_2587()),class_121.method_2361());
+            _loc21_.var_925.method_556(new class_167(_loc22_[class_107.var_5075] / class_165.method_2587(),_loc22_[class_165.var_6533] / class_165.method_2587()),class_121.method_2361());
             class_58.var_3803.var_545.addChild(_loc21_);
             _loc21_.name_25(class_114.method_2308() < class_16.method_1872());
             _loc21_.method_702(null,class_69.const_395);
@@ -486,7 +486,7 @@ package
          }
          if(_loc5_ == class_392.const_935 && class_91.var_4450 == class_80.const_432 && class_168.var_6539 && !class_168.var_6539.var_366 && !class_119.var_5295[_loc5_] && !class_119.var_5296[_loc5_])
          {
-            class_1.var_2884.method_77(class_73.method_2111(class_92.var_4635));
+            class_1.var_2884.method_77(class_92.var_4635);
             return;
          }
          class_119.method_2338(_loc5_);
@@ -513,7 +513,7 @@ package
       {
          if(class_119.var_5300)
          {
-            class_39.var_3745.method_313(new class_415(class_1.var_2884.var_50[class_73.method_2111(class_107.var_5075)],class_1.var_2884.var_50[class_73.method_2111(class_165.var_6533)]));
+            class_39.var_3745.method_313(new class_415(class_1.var_2884.var_50[class_107.var_5075],class_1.var_2884.var_50[class_165.var_6533]));
          }
       }
       
@@ -587,7 +587,7 @@ package
          class_119.const_497[class_392.const_911] = class_119.method_2347;
          class_1.var_2885["lshdjfg"] = function(param1:class_5):*
          {
-            param1.writeUTF(class_73.method_2111(class_9.var_3237));
+            param1.writeUTF(class_9.var_3237);
             param1.writeInt(class_127.method_2411());
             param1.writeShort(class_62.method_2020());
          };
@@ -640,7 +640,7 @@ package
             class_204.method_2755(class_413.method_2964(_loc2_),false);
             return;
          }
-         var _loc5_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc5_:int = -class_33.var_3679;
          if(class_119.method_2337(_loc2_))
          {
             _loc5_ = class_119.const_493;
@@ -663,9 +663,9 @@ package
          }
          if(class_119.var_5296[_loc2_])
          {
-            class_39.var_3745.method_313(new class_414(_loc2_,class_73.method_2109(false),class_1.var_2884.var_13.x,class_1.var_2884.var_13.y));
+            class_39.var_3745.method_313(new class_414(_loc2_,false,class_1.var_2884.var_13.x,class_1.var_2884.var_13.y));
          }
-         if(_loc5_ != -class_73.method_2108(class_33.var_3679))
+         if(_loc5_ != -class_33.var_3679)
          {
             if(class_119.var_5297[_loc5_])
             {
@@ -673,7 +673,7 @@ package
             }
             if(class_119.var_5296[_loc5_])
             {
-               class_39.var_3745.method_313(new class_414(class_73.method_2108(class_73.method_2108(_loc5_)),class_73.method_2109(class_73.method_2109(false)),class_73.method_2108(class_1.var_2884.var_13.x),class_1.var_2884.var_13.y));
+               class_39.var_3745.method_313(new class_414(_loc5_,false,class_1.var_2884.var_13.x,class_1.var_2884.var_13.y));
             }
          }
          if(_loc4_.var_68)
@@ -793,7 +793,7 @@ package
                }
                if(class_119.const_496 == _loc5_)
                {
-                  if(_loc4_.var_132 == class_73.method_2108(class_33.var_3640) || class_119.var_5290)
+                  if(_loc4_.var_132 == class_33.var_3640 || class_119.var_5290)
                   {
                      _loc4_.var_13.var_936 = class_99.var_4682;
                      return;
@@ -820,8 +820,8 @@ package
                   }
                   return;
                }
-               _loc8_ = class_73.method_2109(class_73.method_2109(_loc5_ == class_119.const_494));
-               if(class_73.method_2109(_loc8_))
+               _loc8_ = _loc5_ == class_119.const_494;
+               if(_loc8_)
                {
                   class_1.method_835(class_183.var_7129);
                   class_91.method_2170(false);
@@ -830,7 +830,7 @@ package
             }
          }
          class_119.method_2343(_loc2_);
-         if(_loc5_ != -class_73.method_2108(class_33.var_3679))
+         if(_loc5_ != -class_33.var_3679)
          {
             class_119.method_2343(_loc5_);
          }
@@ -863,9 +863,9 @@ package
          if(class_119.var_5303)
          {
             _loc2_ = class_119.var_5303.indexOf(param1);
-            if(_loc2_ != -class_73.method_2108(class_33.var_3679))
+            if(_loc2_ != -class_33.var_3679)
             {
-               class_119.var_5303.splice(_loc2_,class_73.method_2108(class_33.var_3679));
+               class_119.var_5303.splice(_loc2_,class_33.var_3679);
                if(!class_119.var_5303.length)
                {
                   class_119.var_5303 = null;
@@ -881,15 +881,15 @@ package
          {
             return;
          }
-         if(!class_73.method_2109(class_36.var_3724))
+         if(!class_36.var_3724)
          {
             return;
          }
-         var _loc1_:Boolean = class_73.method_2109(class_1.var_2884.var_23);
-         class_1.method_835(class_73.method_2108(class_92.var_4647));
-         var _loc2_:Boolean = class_73.method_2109(class_1.var_2884.var_138);
-         var _loc3_:Boolean = class_73.method_2109(_loc1_) && class_73.method_2109(_loc2_);
-         if(class_73.method_2109(class_73.method_2109(_loc3_)))
+         var _loc1_:Boolean = class_1.var_2884.var_23;
+         class_1.method_835(class_92.var_4647);
+         var _loc2_:Boolean = class_1.var_2884.var_138;
+         var _loc3_:Boolean = _loc1_ && _loc2_;
+         if(_loc3_)
          {
             class_1.var_2884.var_138 = false;
             class_1.var_2884.var_23 = class_99.var_4682;
@@ -918,7 +918,7 @@ package
                class_119.var_5306[param3] = class_99.var_4681;
             }
          }
-         else if(_loc4_ != -class_73.method_2108(class_33.var_3679))
+         else if(_loc4_ != -class_33.var_3679)
          {
             class_119.var_5303.splice(_loc4_,class_33.var_3679);
             if(!class_119.var_5303.length)

@@ -29,7 +29,7 @@ package
       public function class_210()
       {
          this.var_1097 = new Vector.<class_23>();
-         super(class_73.method_2108(class_183.var_7129),class_183.var_7129);
+         super(class_183.var_7129,class_183.var_7129);
          method_216(new class_245(class_243.const_642,class_183.var_7129));
          this.var_1061 = var_180.var_1084;
          this.var_1099 = var_180.var_1085;
@@ -49,10 +49,10 @@ package
          _loc6_ = new class_23(class_162.var_6351,class_33.var_3675);
          _loc6_.mouseChildren = class_99.var_4682;
          var _loc7_:TextField = new TextField();
-         _loc7_.defaultTextFormat = new TextFormat(class_26.var_3500,class_73.method_2108(class_170.var_6720),!!param4 ? class_54.const_280 : (!!param5 ? class_54.const_279 : class_54.const_289));
+         _loc7_.defaultTextFormat = new TextFormat(class_26.var_3500,class_170.var_6720,!!param4 ? class_54.const_280 : (!!param5 ? class_54.const_279 : class_54.const_289));
          _loc7_.width = class_162.var_6351;
          _loc7_.height = class_33.var_3675;
-         _loc7_.autoSize = class_73.method_2111(class_60.var_3974);
+         _loc7_.autoSize = class_60.var_3974;
          _loc7_.styleSheet = class_1.var_2884.var_117;
          _loc7_.htmlText = param1;
          _loc6_.addChild(_loc7_);
@@ -103,7 +103,7 @@ package
          {
             this.var_596 = class_99.var_4682;
             _loc7_ = this.var_1061;
-            _loc8_ = class_54.method_1970(_loc7_,class_73.method_2108(class_183.var_7129),class_16.var_3435,class_73.method_2116(class_16.var_3435));
+            _loc8_ = class_54.method_1970(_loc7_,class_183.var_7129,class_16.var_3435,class_16.var_3435);
             _loc9_ = -class_33.var_3679;
             _loc10_ = this.var_1097.length;
             while(++_loc9_ < _loc10_)
@@ -118,29 +118,29 @@ package
             _loc12_ = height;
             _loc13_ = new Sprite();
             _loc13_.graphics.beginFill(this.var_1061);
-            _loc13_.graphics.drawRect(-class_121.var_5495,-class_121.var_5495,_loc11_ + class_170.var_6731,_loc12_ + class_73.method_2108(class_170.var_6731));
+            _loc13_.graphics.drawRect(-class_121.var_5495,-class_121.var_5495,_loc11_ + class_170.var_6731,_loc12_ + class_170.var_6731);
             _loc13_.graphics.endFill();
             _loc14_ = new Sprite();
             _loc14_.graphics.beginFill(this.var_1099);
-            _loc14_.graphics.drawRect(-class_121.var_5495,-class_121.var_5495,_loc11_ + class_73.method_2108(class_170.var_6731),_loc12_ + class_170.var_6731);
-            _loc14_.graphics.drawRect(-class_73.method_2108(class_165.var_6534),-class_73.method_2108(class_165.var_6534),_loc11_ + class_73.method_2108(class_121.var_5495),_loc12_ + class_121.var_5495);
+            _loc14_.graphics.drawRect(-class_121.var_5495,-class_121.var_5495,_loc11_ + class_170.var_6731,_loc12_ + class_170.var_6731);
+            _loc14_.graphics.drawRect(-class_165.var_6534,-class_165.var_6534,_loc11_ + class_121.var_5495,_loc12_ + class_121.var_5495);
             _loc14_.graphics.endFill();
             addChild(_loc14_);
-            addChildAt(_loc13_,class_73.method_2108(class_183.var_7129));
-            _loc13_.filters = new Array(new DropShadowFilter(class_73.method_2108(class_146.var_6118),class_107.var_5038,class_183.var_7129,class_146.var_6072,class_73.method_2108(class_117.var_5287),class_73.method_2108(class_117.var_5287),class_73.method_2108(class_33.var_3679),class_73.method_2108(class_146.var_6118)));
-            _loc14_.filters = new Array(new BevelFilter(class_73.method_2108(class_33.var_3679),class_107.var_5038,16777215,class_92.var_4648,class_73.method_2108(class_183.var_7129),class_73.method_2108(class_33.var_3679),class_73.method_2108(class_33.var_3679),class_33.var_3679));
+            addChildAt(_loc13_,class_183.var_7129);
+            _loc13_.filters = new Array(new DropShadowFilter(class_146.var_6118,class_107.var_5038,class_183.var_7129,class_146.var_6072,class_117.var_5287,class_117.var_5287,class_33.var_3679,class_146.var_6118));
+            _loc14_.filters = new Array(new BevelFilter(class_33.var_3679,class_107.var_5038,16777215,class_92.var_4648,class_183.var_7129,class_33.var_3679,class_33.var_3679,class_33.var_3679));
          }
-         class_115.method_388(this,class_73.method_2108(class_165.var_6534));
-         var _loc1_:int = class_115.method_2321(class_73.method_2108(class_165.var_6534))[class_73.method_2111(class_107.var_5075)] - class_73.method_2108(class_33.var_3675);
-         _loc2_ = class_115.method_2321(class_73.method_2108(class_165.var_6534))[class_73.method_2111(class_165.var_6533)] - class_73.method_2108(class_146.var_6117);
+         class_115.method_388(this,class_165.var_6534);
+         var _loc1_:int = class_115.method_2321(class_165.var_6534)[class_107.var_5075] - class_33.var_3675;
+         _loc2_ = class_115.method_2321(class_165.var_6534)[class_165.var_6533] - class_146.var_6117;
          var _loc3_:int = -class_1.var_2865 + class_1.var_2880;
          var _loc4_:int = -class_1.var_2866 + class_1.var_2882;
          var _loc5_:int = class_1.var_2865;
          var _loc6_:int = class_1.var_2866;
-         if(class_1.var_2884.var_19 && class_1.var_2884.var_19.align != class_73.method_2111(class_9.var_3268))
+         if(class_1.var_2884.var_19 && class_1.var_2884.var_19.align != class_9.var_3268)
          {
             _loc16_ = class_1.var_2884.var_19.align;
-            if(_loc16_.indexOf(StageAlign.TOP) != -class_73.method_2108(class_33.var_3679))
+            if(_loc16_.indexOf(StageAlign.TOP) != -class_33.var_3679)
             {
                _loc6_ += _loc4_;
             }
@@ -151,7 +151,7 @@ package
          }
          else
          {
-            _loc5_ += _loc3_ / class_73.method_2108(class_165.var_6534);
+            _loc5_ += _loc3_ / class_165.var_6534;
             _loc6_ += _loc4_ / class_165.var_6534;
          }
          if(_loc1_ + width > _loc5_)
@@ -171,7 +171,7 @@ package
       public function method_834(param1:MouseEvent) : void
       {
          var _loc2_:Sprite = param1.currentTarget as Sprite;
-         _loc2_.transform.colorTransform = new ColorTransform(class_73.method_2116(class_9.var_3224),class_73.method_2116(class_102.var_4838),class_73.method_2116(class_9.var_3224),class_73.method_2108(class_33.var_3679),class_73.method_2108(class_183.var_7129),class_73.method_2108(class_146.var_6117));
+         _loc2_.transform.colorTransform = new ColorTransform(class_9.var_3224,class_102.var_4838,class_9.var_3224,class_33.var_3679,class_183.var_7129,class_146.var_6117);
       }
       
       public function method_835() : void
@@ -187,8 +187,8 @@ package
       public function method_837(param1:Event) : void
       {
          removeEventListener(class_124.var_5632,this.method_837);
-         addEventListener(class_73.method_2111(class_165.var_6483),this.method_840);
-         class_1.var_2884.addEventListener(class_73.method_2111(class_165.var_6483),this.method_840);
+         addEventListener(class_165.var_6483,this.method_840);
+         class_1.var_2884.addEventListener(class_165.var_6483,this.method_840);
       }
       
       public function method_838(param1:MouseEvent) : void

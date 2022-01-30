@@ -39,8 +39,8 @@ package
       
       public function class_525()
       {
-         this.var_2063 = new Timer(class_73.method_2108(class_146.var_6087));
-         this.var_2064 = -class_73.method_2108(class_181.var_6922);
+         this.var_2063 = new Timer(class_146.var_6087);
+         this.var_2064 = -class_181.var_6922;
          super();
          this.method_516();
       }
@@ -64,10 +64,10 @@ package
                class_525.var_2884 = new class_525();
             }
             class_525.var_2884.y = class_102.var_4859;
-            class_525.var_2884.x = (-class_525.name_38 + class_107.var_5074) / class_73.method_2108(class_165.var_6534);
+            class_525.var_2884.x = (-class_525.name_38 + class_107.var_5074) / class_165.var_6534;
             class_525.var_2884.alpha = class_33.var_3679;
             class_115.method_388(class_525.var_2884,class_165.var_6534);
-            class_525.var_2884.var_2064 = -class_73.method_2108(class_181.var_6922);
+            class_525.var_2884.var_2064 = -class_181.var_6922;
             class_525.var_2884.addEventListener(class_124.var_5632,class_525.var_2884.method_1530);
             if(param2)
             {
@@ -107,19 +107,19 @@ package
          this.var_2063.addEventListener(TimerEvent.TIMER,this.name_2);
          this.var_337 = new Sprite();
          this.var_337.graphics.beginFill(2566196);
-         this.var_337.graphics.drawRoundRect(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),class_525.name_38,class_525.name_58,class_73.method_2108(class_146.var_6117));
+         this.var_337.graphics.drawRoundRect(class_183.var_7129,class_183.var_7129,class_525.name_38,class_525.name_58,class_146.var_6117);
          this.var_337.graphics.endFill();
          addChild(this.var_337);
-         _loc1_ = class_73.method_2111(class_60.var_3893);
+         _loc1_ = class_60.var_3893;
          try
          {
             if(class_101.method_2253())
             {
-               _loc1_ = class_73.method_2111(class_117.var_5222);
+               _loc1_ = class_117.var_5222;
             }
             else if(class_101.method_2250())
             {
-               _loc1_ = class_73.method_2111(class_62.var_4099);
+               _loc1_ = class_62.var_4099;
             }
          }
          catch(E:Error)
@@ -129,20 +129,20 @@ package
          this.var_2061.defaultTextFormat = new TextFormat(_loc1_,class_117.var_5279,class_54.const_283,null,null,null,null,null,TextFormatAlign.RIGHT);
          this.var_2061.multiline = class_99.var_4681;
          this.var_2061.wordWrap = class_99.var_4682;
-         this.var_2061.width = class_73.method_2108(class_162.var_6351);
-         this.var_2061.height = -class_73.method_2108(class_107.var_5068) + class_525.name_58;
-         this.var_2061.x = class_73.method_2108(class_183.var_7129);
-         this.var_2061.y = class_73.method_2108(class_117.var_5287);
+         this.var_2061.width = class_162.var_6351;
+         this.var_2061.height = -class_107.var_5068 + class_525.name_58;
+         this.var_2061.x = class_183.var_7129;
+         this.var_2061.y = class_117.var_5287;
          this.var_2061.embedFonts = class_99.var_4682;
          this.var_2061.selectable = class_99.var_4682;
          this.var_2061.mouseEnabled = class_99.var_4682;
          addChild(this.var_2061);
          this.var_401 = new TextField();
-         this.var_401.defaultTextFormat = new TextFormat(_loc1_,class_73.method_2108(class_117.var_5279),12763866);
+         this.var_401.defaultTextFormat = new TextFormat(_loc1_,class_117.var_5279,12763866);
          this.var_401.multiline = class_99.var_4681;
          this.var_401.wordWrap = class_99.var_4682;
-         this.var_401.width = class_525.name_38 - class_73.method_2108(class_117.var_5264);
-         this.var_401.height = -class_73.method_2108(class_107.var_5068) + class_525.name_58;
+         this.var_401.width = class_525.name_38 - class_117.var_5264;
+         this.var_401.height = -class_107.var_5068 + class_525.name_58;
          this.var_401.x = class_162.var_6351;
          this.var_401.y = class_117.var_5287;
          this.var_401.border = class_99.var_4681;
@@ -154,7 +154,7 @@ package
          addChild(this.var_401);
          this.var_2062 = new class_88(class_117.var_5287,class_525.name_58 - class_89.var_4402,class_26.method_1668(class_107.var_5045),this.method_1271,null,class_525.name_38 - class_162.var_6351,!class_1.var_2884.var_94);
          addChild(this.var_2062);
-         var _loc2_:class_88 = new class_88(class_117.var_5287,class_525.name_58 - class_162.var_6351,class_26.method_1668(class_73.method_2111(class_60.var_3934)),this.method_439,null,class_525.name_38 - class_73.method_2108(class_162.var_6351),!class_1.var_2884.var_94);
+         var _loc2_:class_88 = new class_88(class_117.var_5287,class_525.name_58 - class_162.var_6351,class_26.method_1668(class_60.var_3934),this.method_439,null,class_525.name_38 - class_162.var_6351,!class_1.var_2884.var_94);
          addChild(_loc2_);
          var _loc3_:String = class_17.var_2884.lecture(class_17.const_64);
          if(_loc3_)
@@ -163,9 +163,9 @@ package
          }
          var _loc4_:String = class_9.var_3268;
          var _loc5_:int = this.var_401.scrollV;
-         while(_loc5_ < class_73.method_2108(class_4.var_3058))
+         while(_loc5_ < class_4.var_3058)
          {
-            _loc4_ += _loc5_ + class_73.method_2111(class_107.var_5071);
+            _loc4_ += _loc5_ + class_107.var_5071;
             _loc5_++;
          }
          this.var_2061.text = _loc4_;
@@ -186,7 +186,7 @@ package
             this.var_2065(this.var_401.text);
          }
          this.var_2063.start();
-         class_525.var_2884.alpha = class_73.method_2116(class_89.var_4430);
+         class_525.var_2884.alpha = class_89.var_4430;
       }
       
       public function method_439() : void
@@ -207,7 +207,7 @@ package
          {
             _loc3_ = this.var_401.caretIndex;
             _loc4_ = this.var_401.text;
-            _loc4_ = _loc4_.substr(class_73.method_2108(class_183.var_7129),_loc3_) + class_107.var_4927 + _loc4_.substr(_loc3_);
+            _loc4_ = _loc4_.substr(class_183.var_7129,_loc3_) + class_107.var_4927 + _loc4_.substr(_loc3_);
             this.var_401.text = _loc4_;
             this.var_401.setSelection(_loc3_ + class_33.var_3679,_loc3_ + class_33.var_3679);
          }

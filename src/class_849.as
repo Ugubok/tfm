@@ -17,11 +17,11 @@ package
          this.var_2771 = [new class_729()];
          this.var_2773 = new class_729();
          super(param1,param2);
-         this.var_2772 = this.var_2771[class_73.method_2108(class_183.var_7129)];
-         this.var_2772.var_2547 = class_73.method_2108(class_183.var_7129);
-         var _loc3_:class_728 = this.var_2772.var_2546[class_73.method_2108(class_183.var_7129)];
+         this.var_2772 = this.var_2771[class_183.var_7129];
+         this.var_2772.var_2547 = class_183.var_7129;
+         var _loc3_:class_728 = this.var_2772.var_2546[class_183.var_7129];
          _loc3_.var_2538 = class_107.var_4953;
-         _loc3_.var_2539 = class_73.method_2116(class_107.var_4953);
+         _loc3_.var_2539 = class_107.var_4953;
       }
       
       public static function method_2367(param1:class_279, param2:class_279, param3:*) : class_715
@@ -55,11 +55,11 @@ package
          _loc7_.var_414 = var_1347;
          if(this.var_2772.var_2547 > class_183.var_7129)
          {
-            var_2518 = class_73.method_2108(class_33.var_3679);
-            _loc8_ = this.var_2772.var_2546[class_73.method_2108(class_183.var_7129)];
+            var_2518 = class_33.var_3679;
+            _loc8_ = this.var_2772.var_2546[class_183.var_7129];
             if(this.var_2773.var_2547 == class_183.var_7129)
             {
-               _loc8_.var_2538 = class_73.method_2116(class_107.var_4953);
+               _loc8_.var_2538 = class_107.var_4953;
                _loc8_.var_2539 = class_107.var_4953;
                if(param1)
                {
@@ -96,7 +96,7 @@ package
             var_2518 = class_183.var_7129;
             if(this.var_2773.var_2547 > class_183.var_7129 && param1)
             {
-               _loc4_ = this.var_2773.var_2546[class_73.method_2108(class_183.var_7129)];
+               _loc4_ = this.var_2773.var_2546[class_183.var_7129];
                _loc7_.position = _loc5_.method_540(_loc4_.var_2544);
                _loc2_ = _loc5_.method_574(_loc4_.var_2544);
                _loc3_ = _loc6_.method_574(_loc4_.var_2545);

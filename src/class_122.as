@@ -158,7 +158,7 @@ package
       
       public function method_495() : Number
       {
-         return class_73.method_2116(class_107.var_4953);
+         return class_107.var_4953;
       }
       
       public function method_496() : void

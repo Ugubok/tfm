@@ -43,11 +43,11 @@ package
       public function class_35(param1:ByteArray = null)
       {
          this.var_363 = class_9.var_3268;
-         this.var_364 = -class_73.method_2108(class_33.var_3679);
-         this.var_365 = class_73.method_2108(class_183.var_7129);
+         this.var_364 = -class_33.var_3679;
+         this.var_365 = class_183.var_7129;
          this.var_367 = class_183.var_7129;
-         this.var_370 = class_73.method_2108(class_33.var_3679);
-         this.var_373 = class_73.method_2111(class_124.var_5539);
+         this.var_370 = class_33.var_3679;
+         this.var_373 = class_124.var_5539;
          super();
          if(param1 == null)
          {
@@ -57,7 +57,7 @@ package
          this.var_364 = param1.readInt();
          this.var_30 = param1.readBoolean();
          this.var_365 = param1.readByte();
-         this.var_366 = this.var_365 > class_73.method_2108(class_183.var_7129);
+         this.var_366 = this.var_365 > class_183.var_7129;
          this.var_367 = param1.readShort();
          this.var_368 = param1.readByte();
          this.var_369 = param1.readShort();

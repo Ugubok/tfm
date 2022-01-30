@@ -112,7 +112,7 @@ package
       public static function method_2616(param1:String) : Object
       {
          var _loc3_:ApplicationDomain = null;
-         var _loc2_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc2_:int = -class_33.var_3679;
          while(++_loc2_ < class_175.var_6734)
          {
             _loc3_ = class_175.const_580[_loc2_];
@@ -144,7 +144,7 @@ package
             if(var_7522)
             {
                delete class_175.const_583[var_1698];
-               var_7436 = class_73.method_2108(class_183.var_7129);
+               var_7436 = class_183.var_7129;
                while(var_7436 < var_7522.length)
                {
                   var_1477 = var_7522[var_7436];
@@ -179,7 +179,7 @@ package
          var _loc7_:Loader = null;
          if(!class_175.var_6737)
          {
-            _loc5_ = class_73.method_2108(class_146.var_6117);
+            _loc5_ = class_146.var_6117;
             class_175.var_6737 = new Vector.<Loader>();
             _loc6_ = class_183.var_7129;
             while(_loc6_ < _loc5_)
@@ -253,7 +253,7 @@ package
          var _loc3_:String = class_175.const_586[_loc2_];
          if(class_175.var_6739)
          {
-            class_1.var_2884.method_97(class_73.method_2111(class_33.var_3558) + _loc3_ + class_73.method_2111(class_9.var_3127));
+            class_1.var_2884.method_97(class_33.var_3558 + _loc3_ + class_9.var_3127);
          }
          delete class_175.const_583[_loc3_];
          class_175.var_6737.push(_loc2_);
@@ -273,7 +273,7 @@ package
       {
          var var_1698:String = null;
          var var_7521:Loader = null;
-         if(class_175.const_585.length == class_183.var_7129 || class_175.var_6737.length == class_73.method_2108(class_183.var_7129))
+         if(class_175.const_585.length == class_183.var_7129 || class_175.var_6737.length == class_183.var_7129)
          {
             return;
          }
@@ -315,7 +315,7 @@ package
             class_175.var_6741.addEventListener(Event.COMPLETE,class_175.method_169);
             class_175.var_6741.addEventListener(SecurityErrorEvent.SECURITY_ERROR,class_175.method_2627);
             class_175.var_6741.addEventListener(IOErrorEvent.IO_ERROR,class_175.method_2627);
-            class_175.var_6741.load(new URLRequest(class_175.var_6744 + class_73.method_2111(class_92.var_4596) + class_1.var_2884.var_2));
+            class_175.var_6741.load(new URLRequest(class_175.var_6744 + class_92.var_4596 + class_1.var_2884.var_2));
          }
          catch(name_85:Error)
          {
@@ -332,11 +332,11 @@ package
       
       public static function method_2628(param1:String, param2:Function = null, param3:Object = null) : void
       {
-         if(class_1.var_2873 && param1.indexOf(class_73.method_2111(class_162.var_6250)) == class_73.method_2108(class_183.var_7129))
+         if(class_1.var_2873 && param1.indexOf(class_162.var_6250) == class_183.var_7129)
          {
-            param1 = class_33.var_3664 + param1.substr(class_73.method_2108(class_121.var_5495));
+            param1 = class_33.var_3664 + param1.substr(class_121.var_5495);
          }
-         param1 = param1 + class_73.method_2111(class_92.var_4596) + class_1.var_2884.var_2 + class_146.var_6071 + class_1.var_2864;
+         param1 = param1 + class_92.var_4596 + class_1.var_2884.var_2 + class_146.var_6071 + class_1.var_2864;
          class_175.var_6740.push(param1,param2,param3);
          if(!class_175.var_6743)
          {
@@ -385,7 +385,7 @@ package
             class_175.var_6742.contentLoaderInfo.addEventListener(IOErrorEvent.IO_ERROR,class_175.method_2627);
             class_175.var_6742.contentLoaderInfo.addEventListener(SecurityErrorEvent.SECURITY_ERROR,class_175.method_2627);
             var_7523 = new LoaderContext();
-            if(Capabilities.playerType == class_73.method_2111(class_146.var_6116))
+            if(Capabilities.playerType == class_146.var_6116)
             {
                Object(var_7523).allowCodeImport = class_99.var_4681;
             }
@@ -402,7 +402,7 @@ package
       public static function method_118(param1:String, param2:Boolean = false) : MovieClip
       {
          var _loc4_:ApplicationDomain = null;
-         var _loc3_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc3_:int = -class_33.var_3679;
          while(++_loc3_ < class_175.var_6734)
          {
             _loc4_ = class_175.const_580[_loc3_];
@@ -420,7 +420,7 @@ package
       
       public static function method_2629(param1:int) : String
       {
-         return class_162.var_6274 + param1 % class_181.var_6922 + class_73.method_2111(class_16.var_3431) + param1 + class_4.var_2987;
+         return class_162.var_6274 + param1 % class_181.var_6922 + class_16.var_3431 + param1 + class_4.var_2987;
       }
    }
 }

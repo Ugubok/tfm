@@ -34,7 +34,7 @@ package
          this.var_592 = new class_167();
          this.var_2549 = new class_167();
          this.var_2550 = new class_167();
-         this.var_2555 = class_73.method_2108(class_183.var_7129);
+         this.var_2555 = class_183.var_7129;
          super();
       }
    }

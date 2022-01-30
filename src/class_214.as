@@ -68,7 +68,7 @@ package
          delete class_214.var_1108[param1];
          delete class_214.var_7158[_loc2_.var_363];
          var _loc3_:int = class_214.var_1102.length;
-         var _loc4_:int = class_73.method_2108(class_183.var_7129);
+         var _loc4_:int = class_183.var_7129;
          while(_loc4_ < _loc3_)
          {
             if(class_214.var_1102[_loc4_].var_364 == param1)

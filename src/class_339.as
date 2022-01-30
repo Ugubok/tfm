@@ -30,15 +30,15 @@ package
          this.var_592 = new class_167();
          super();
          type = class_122.const_503;
-         this.var_1615.method_105(-class_73.method_2116(class_121.var_5450),class_73.method_2116(class_121.var_5450));
-         this.var_1616.method_105(class_121.var_5450,class_73.method_2116(class_121.var_5450));
-         this.var_591.method_105(-class_121.var_5450,class_73.method_2116(class_107.var_4953));
+         this.var_1615.method_105(-class_121.var_5450,class_121.var_5450);
+         this.var_1616.method_105(class_121.var_5450,class_121.var_5450);
+         this.var_591.method_105(-class_121.var_5450,class_107.var_4953);
          this.var_592.method_105(class_121.var_5450,class_107.var_4953);
-         this.var_1617 = class_73.method_2116(class_107.var_4953);
-         this.var_1618 = class_73.method_2116(class_107.var_4953);
+         this.var_1617 = class_107.var_4953;
+         this.var_1618 = class_107.var_4953;
          this.var_1619 = class_107.var_4953;
-         this.var_1620 = class_73.method_2116(class_107.var_4953);
-         this.var_1503 = class_73.method_2116(class_121.var_5450);
+         this.var_1620 = class_107.var_4953;
+         this.var_1503 = class_121.var_5450;
          var_590 = class_99.var_4681;
       }
       

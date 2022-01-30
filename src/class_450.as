@@ -24,7 +24,7 @@ package
       {
          var var_7519:int = param1;
          var var_7510:Function = param2;
-         var var_7575:MovieClip = class_175.method_118(class_73.method_2111(class_16.var_3449) + var_7519);
+         var var_7575:MovieClip = class_175.method_118(class_16.var_3449 + var_7519);
          if(var_7575)
          {
             if(var_7510)
@@ -53,15 +53,15 @@ package
          {
             var var_2406:Array = class_450.var_7308[var_7519];
             delete class_450.var_7308[var_7519];
-            var var_7436:int = class_73.method_2108(class_183.var_7129);
+            var var_7436:int = class_183.var_7129;
             while(var_7436 < var_2406.length)
             {
-               var_2406[var_7436](class_175.method_118(class_73.method_2111(class_16.var_3449) + var_7519));
+               var_2406[var_7436](class_175.method_118(class_16.var_3449 + var_7519));
                var_7436++;
             }
             if(!class_450.var_7310)
             {
-               class_450.var_7310 = new Timer(class_89.var_4444,class_73.method_2108(class_33.var_3679));
+               class_450.var_7310 = new Timer(class_89.var_4444,class_33.var_3679);
                class_450.var_7310.addEventListener(TimerEvent.TIMER,function():void
                {
                   class_450.var_7310.stop();

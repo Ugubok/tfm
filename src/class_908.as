@@ -35,14 +35,14 @@ package
       
       public function method_1374() : int
       {
-         return class_73.method_2108(class_146.var_6118) + this.var_2832.length;
+         return class_146.var_6118 + this.var_2832.length;
       }
       
       public function lecture(param1:ByteArray) : void
       {
          var _loc2_:int = param1.readShort();
          this.var_2832 = param1.readUTFBytes(_loc2_);
-         this.var_2833 = param1.readByte() != class_73.method_2108(class_183.var_7129);
+         this.var_2833 = param1.readByte() != class_183.var_7129;
       }
       
       public function get method_1793() : int

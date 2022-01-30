@@ -37,8 +37,8 @@ package
          this.var_1607 = param5;
          this.var_1281 = this.name_5 + this.x;
          this.var_1282 = this.y + this.var_206;
-         this.var_1605 = this.x + this.name_5 / class_73.method_2108(class_165.var_6534);
-         this.var_1606 = this.y + this.var_206 / class_73.method_2108(class_165.var_6534);
+         this.var_1605 = this.x + this.name_5 / class_165.var_6534;
+         this.var_1606 = this.y + this.var_206 / class_165.var_6534;
       }
       
       public function method_1180() : Sprite
@@ -47,11 +47,11 @@ package
          var _loc2_:TextField = null;
          _loc1_ = new Sprite();
          _loc2_ = new TextField();
-         _loc2_.text = class_73.method_2111(class_181.var_6818) + this.var_1607;
+         _loc2_.text = class_181.var_6818 + this.var_1607;
          var _loc3_:BitmapData = new BitmapData(_loc2_.width,_loc2_.height,true,255);
          _loc3_.draw(_loc2_);
          _loc1_.graphics.beginFill(255,class_92.var_4648);
-         _loc1_.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),this.name_5,this.var_206);
+         _loc1_.graphics.drawRect(class_183.var_7129,class_183.var_7129,this.name_5,this.var_206);
          _loc1_.graphics.endFill();
          _loc1_.graphics.beginBitmapFill(_loc3_);
          _loc1_.graphics.drawRect((this.name_5 - _loc3_.width) / class_165.var_6534,(this.var_206 - _loc3_.height) / class_165.var_6534,_loc3_.width,_loc3_.height);
@@ -65,17 +65,17 @@ package
       {
          if(!param1)
          {
-            return class_73.method_2108(class_183.var_7129);
+            return class_183.var_7129;
          }
-         var _loc2_:int = param1.x - param1.width / class_73.method_2108(class_165.var_6534);
-         var _loc3_:int = param1.y - param1.height / class_73.method_2108(class_165.var_6534);
+         var _loc2_:int = param1.x - param1.width / class_165.var_6534;
+         var _loc3_:int = param1.y - param1.height / class_165.var_6534;
          var _loc4_:int = param1.x;
          var _loc5_:int = param1.y;
-         var _loc6_:int = param1.x + param1.width / class_73.method_2108(class_165.var_6534);
+         var _loc6_:int = param1.x + param1.width / class_165.var_6534;
          var _loc7_:int = param1.y + param1.height / class_165.var_6534;
          if(_loc4_ > this.x && _loc4_ < this.var_1281 && _loc5_ > this.y && _loc5_ < this.var_1282)
          {
-            return class_73.method_2108(class_117.var_5287);
+            return class_117.var_5287;
          }
          if(_loc4_ > this.x && _loc4_ < this.var_1281)
          {
@@ -92,7 +92,7 @@ package
          {
             if(_loc6_ > this.x && _loc6_ < this.var_1281)
             {
-               return class_73.method_2108(class_121.var_5495);
+               return class_121.var_5495;
             }
             if(_loc2_ < this.var_1281 && _loc2_ > this.x)
             {
@@ -103,7 +103,7 @@ package
          {
             if(_loc6_ > this.x && _loc6_ < this.var_1281 && _loc7_ > this.y && _loc7_ < this.var_1282)
             {
-               return class_73.method_2108(class_92.var_4647);
+               return class_92.var_4647;
             }
             if(_loc2_ < this.var_1281 && _loc2_ > this.x && _loc7_ > this.y && _loc7_ < this.var_1282)
             {
@@ -115,10 +115,10 @@ package
             }
             if(_loc2_ < this.var_1281 && _loc2_ > this.x && _loc3_ < this.var_1282 && _loc3_ > this.y)
             {
-               return class_73.method_2108(class_146.var_6118);
+               return class_146.var_6118;
             }
          }
-         return class_73.method_2108(class_183.var_7129);
+         return class_183.var_7129;
       }
    }
 }

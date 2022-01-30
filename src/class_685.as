@@ -22,10 +22,10 @@ package
       {
          super(param1);
          this.var_304 = param1.readShort() / class_162.var_6351;
-         this.var_305 = param1.readShort() / class_73.method_2108(class_162.var_6351);
-         this.var_2440 = param1.readByte() == class_73.method_2108(class_33.var_3679);
-         this.var_2441 = param1.readShort() / class_73.method_2108(class_146.var_6117);
-         this.var_2442 = param1.readShort() / class_73.method_2108(class_146.var_6117);
+         this.var_305 = param1.readShort() / class_162.var_6351;
+         this.var_2440 = param1.readByte() == class_33.var_3679;
+         this.var_2441 = param1.readShort() / class_146.var_6117;
+         this.var_2442 = param1.readShort() / class_146.var_6117;
          this.var_2443 = param1.readByte() == class_33.var_3679;
       }
    }

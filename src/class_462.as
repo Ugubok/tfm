@@ -15,7 +15,7 @@ package
          this.var_1914 = param2;
          if(this.var_1914.toLowerCase() == class_124.var_5557 || this.var_1914.toLowerCase() == class_16.var_3346)
          {
-            this.var_1914 = class_73.method_2111(class_60.var_3875);
+            this.var_1914 = class_60.var_3875;
          }
          var_1910 = param3;
          var_1913 = param4;
@@ -26,7 +26,7 @@ package
       
       public function toString() : String
       {
-         return class_107.var_4944 + this.var_1914 + class_73.method_2111(class_183.var_7024) + var_1910 + class_73.method_2111(class_124.var_5647) + var_1913 + class_170.var_6624 + var_1672 + class_73.method_2111(class_170.var_6712) + this.var_1915 + class_181.var_6843;
+         return class_107.var_4944 + this.var_1914 + class_183.var_7024 + var_1910 + class_124.var_5647 + var_1913 + class_170.var_6624 + var_1672 + class_170.var_6712 + this.var_1915 + class_181.var_6843;
       }
    }
 }

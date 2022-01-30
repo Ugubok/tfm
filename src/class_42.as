@@ -28,17 +28,17 @@ package
          class_42.var_2884 = this;
          if(class_1.const_43)
          {
-            this.var_407 = new class_24(class_73.method_2108(class_117.var_5256),class_89.var_4437);
-            this.var_407.x = class_73.method_2108(class_170.var_6723);
-            this.var_407.y = class_73.method_2108(class_162.var_6347);
+            this.var_407 = new class_24(class_117.var_5256,class_89.var_4437);
+            this.var_407.x = class_170.var_6723;
+            this.var_407.y = class_162.var_6347;
          }
          else
          {
-            this.var_407 = new class_24(class_73.method_2108(class_62.var_4130),class_73.method_2108(class_183.var_7124));
+            this.var_407 = new class_24(class_62.var_4130,class_183.var_7124);
             this.var_407.x = class_89.var_4438;
             this.var_407.y = class_92.var_4645;
          }
-         this.var_408 = new Timer(class_73.method_2108(class_4.var_3058));
+         this.var_408 = new Timer(class_4.var_3058);
          this.var_408.addEventListener(TimerEvent.TIMER,this.method_328);
          this.var_407.method_216(new class_245(class_243.const_642,-class_33.var_3679));
          this.var_407.method_244(true);
@@ -58,12 +58,12 @@ package
          var _loc5_:class_304 = null;
          this.var_407.method_232();
          this.var_406.concat(this.var_407.clear(true));
-         var _loc2_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc2_:int = -class_33.var_3679;
          var _loc3_:int = param1.length;
          while(++_loc2_ < _loc3_)
          {
             _loc4_ = param1[_loc2_];
-            if(this.var_406.length == class_73.method_2108(class_183.var_7129))
+            if(this.var_406.length == class_183.var_7129)
             {
                _loc5_ = new class_304();
             }
@@ -105,12 +105,12 @@ package
          var _loc10_:class_250 = null;
          var _loc11_:class_250 = null;
          var _loc2_:int = param1.method_1090();
-         if(class_73.method_2108(class_89.var_4437) == this.var_407.var_206)
+         if(class_89.var_4437 == this.var_407.var_206)
          {
-            this.var_407.method_241(class_73.method_2108(class_117.var_5256),class_73.method_2108(class_121.var_5454));
-            this.var_407.y += class_73.method_2108(class_117.var_5280);
+            this.var_407.method_241(class_117.var_5256,class_121.var_5454);
+            this.var_407.y += class_117.var_5280;
          }
-         if(_loc2_ == class_73.method_2108(class_33.var_3679))
+         if(_loc2_ == class_33.var_3679)
          {
             _loc3_ = param1.method_1091();
             _loc4_ = param1.method_1091();
@@ -120,24 +120,24 @@ package
             _loc8_ = param1.method_1090();
             if(!this.var_409)
             {
-               _loc9_ = new class_24(class_73.method_2108(class_117.var_5256),class_162.var_6351);
+               _loc9_ = new class_24(class_117.var_5256,class_162.var_6351);
                _loc9_.x = class_170.var_6723;
-               _loc9_.y = class_73.method_2108(class_162.var_6347);
+               _loc9_.y = class_162.var_6347;
                addChild(_loc9_);
-               _loc10_ = new class_250(class_16.var_3372 + _loc3_,class_73.method_2108(class_117.var_5265),class_117.var_5265);
+               _loc10_ = new class_250(class_16.var_3372 + _loc3_,class_117.var_5265,class_117.var_5265);
                _loc11_ = new class_250(class_16.var_3372 + _loc6_,class_117.var_5265,class_117.var_5265);
                this.var_409 = new class_220().method_864(_loc5_);
                this.var_410 = new class_220().method_864(_loc8_);
                this.var_410.method_856(class_162.var_6349);
                _loc9_.method_136(_loc10_,_loc11_,this.var_409,this.var_410);
                _loc11_.x = _loc9_.name_5 - _loc11_.name_5;
-               this.var_410.y = class_73.method_2108(class_162.var_6346);
-               this.var_409.y = -class_73.method_2108(class_33.var_3679);
+               this.var_410.y = class_162.var_6346;
+               this.var_409.y = -class_33.var_3679;
             }
             this.var_409.text = _loc4_;
             this.var_410.text = _loc7_;
-            this.var_409.x = class_73.method_2108(class_117.var_5265);
-            this.var_410.x = class_73.method_2108(class_117.var_5256) - class_73.method_2108(class_117.var_5265) - this.var_410.width;
+            this.var_409.x = class_117.var_5265;
+            this.var_410.x = class_117.var_5256 - class_117.var_5265 - this.var_410.width;
          }
       }
       

@@ -29,7 +29,7 @@ package
       
       public function method_1375() : int
       {
-         return class_73.method_2108(class_146.var_6117) + this.var_2572.length;
+         return class_146.var_6117 + this.var_2572.length;
       }
       
       public function write(param1:ByteArray) : void

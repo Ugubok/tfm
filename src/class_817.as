@@ -30,12 +30,12 @@ package
       
       public function method_1779() : Boolean
       {
-         return (this.var_2720 & class_73.method_2108(class_33.var_3679)) == class_33.var_3679;
+         return (this.var_2720 & class_33.var_3679) == class_33.var_3679;
       }
       
       public function method_1780() : Boolean
       {
-         return (this.var_2720 & class_73.method_2108(class_33.var_3679)) == class_183.var_7129;
+         return (this.var_2720 & class_33.var_3679) == class_183.var_7129;
       }
    }
 }

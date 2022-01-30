@@ -37,22 +37,22 @@ package
       
       public function class_90(param1:String, param2:Boolean = true, param3:Number = 1, param4:Function = null)
       {
-         this.var_627 = class_73.method_2108(class_183.var_7129);
+         this.var_627 = class_183.var_7129;
          super();
          this.var_629 = class_99.var_4681;
-         this.name_5 = class_73.method_2108(class_162.var_6323) * param3;
+         this.name_5 = class_162.var_6323 * param3;
          this.var_206 = param3 * class_62.var_4090;
          this.var_628 = param4;
          if(!this.var_621)
          {
-            this.var_625 = new Timer(class_73.method_2108(class_4.var_3058));
+            this.var_625 = new Timer(class_4.var_3058);
             this.var_625.addEventListener(TimerEvent.TIMER,this.method_458);
             this.var_621 = new Loader();
             this.var_621.load(new URLRequest(param1));
             this.var_621.contentLoaderInfo.addEventListener(Event.INIT,this.method_456);
          }
          this.var_624 = param1;
-         this.var_630 = class_175.method_118(class_73.method_2111(class_121.var_5425));
+         this.var_630 = class_175.method_118(class_121.var_5425);
          this.var_630.cacheAsBitmap = class_99.var_4681;
          this.var_630.mouseEnabled = class_99.var_4682;
          this.var_630.mouseChildren = class_99.var_4682;
@@ -74,7 +74,7 @@ package
       public function name_16(param1:Event) : void
       {
          this.var_623 = class_99.var_4681;
-         this.var_622[class_73.method_2111(class_162.var_6264)](this.name_5,this.var_206);
+         this.var_622[class_162.var_6264](this.name_5,this.var_206);
          if(this.var_624 && this.var_629)
          {
          }
@@ -87,9 +87,9 @@ package
       public function method_456(param1:Event) : void
       {
          this.var_622 = this.var_621.content;
-         this.var_622[class_73.method_2111(class_170.var_6645)](class_183.var_7046,this.name_16);
-         this.var_622[class_73.method_2111(class_170.var_6645)](class_4.var_2976,this.method_459);
-         this.var_622[class_170.var_6645](class_73.method_2111(class_33.var_3582),this.method_457);
+         this.var_622[class_170.var_6645](class_183.var_7046,this.name_16);
+         this.var_622[class_170.var_6645](class_4.var_2976,this.method_459);
+         this.var_622[class_170.var_6645](class_33.var_3582,this.method_457);
          addChild(this.var_621);
          addChild(this.var_630);
       }
@@ -126,7 +126,7 @@ package
          this.var_626 = !this.var_626;
          if(this.var_626)
          {
-            this.var_622[class_73.method_2111(class_16.var_3371)]();
+            this.var_622[class_16.var_3371]();
          }
          else
          {
@@ -138,7 +138,7 @@ package
       {
          if(this.var_622)
          {
-            this.var_622[class_73.method_2111(class_107.var_4972)]();
+            this.var_622[class_107.var_4972]();
          }
       }
       
@@ -151,8 +151,8 @@ package
          }
          this.var_625.reset();
          this.var_625.start();
-         _loc2_ = param1.substr(param1.indexOf(class_73.method_2111(class_9.var_3170)) + class_73.method_2108(class_146.var_6118)).split(class_73.method_2111(class_170.var_6721))[class_73.method_2108(class_183.var_7129)];
-         this.var_622[class_73.method_2111(class_107.var_4971)](_loc2_,this.var_627,this.name_5 < class_73.method_2108(class_124.var_5657) ? class_73.method_2111(class_9.var_3169) : class_181.var_6866);
+         _loc2_ = param1.substr(param1.indexOf(class_9.var_3170) + class_146.var_6118).split(class_170.var_6721)[class_183.var_7129];
+         this.var_622[class_107.var_4971](_loc2_,this.var_627,this.name_5 < class_124.var_5657 ? class_9.var_3169 : class_181.var_6866);
          this.var_626 = class_99.var_4682;
       }
    }

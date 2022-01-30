@@ -33,13 +33,13 @@ package
             if(_loc4_ - _loc5_ > class_4.var_3058)
             {
                _loc2_.var_937[_loc3_.var_1343] = _loc4_;
-               class_39.var_3745.method_313(class_137.method_2448(_loc3_.var_1343,_loc2_.x,class_73.method_2116(_loc2_.y),param1.position.var_304,param1.position.var_305,_loc2_.var_925.var_756.var_304,_loc2_.var_925.var_756.var_305));
+               class_39.var_3745.method_313(class_137.method_2448(_loc3_.var_1343,_loc2_.x,_loc2_.y,param1.position.var_304,param1.position.var_305,_loc2_.var_925.var_756.var_304,_loc2_.var_925.var_756.var_305));
             }
          }
          if(_loc3_.var_1352)
          {
             _loc2_.var_366 = class_99.var_4681;
-            class_134.method_2439(_loc2_.x,class_73.method_2116(_loc2_.y));
+            class_134.method_2439(_loc2_.x,_loc2_.y);
             class_39.var_3745.method_313(new class_278(class_33.var_3679));
          }
       }

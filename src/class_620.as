@@ -23,19 +23,19 @@ package
          while(_loc3_ < _loc4_)
          {
             _loc5_ = param1.readInt();
-            if(_loc3_ > class_73.method_2108(class_183.var_7129))
+            if(_loc3_ > class_183.var_7129)
             {
-               this.var_373 += class_73.method_2111(class_107.var_5062);
+               this.var_373 += class_107.var_5062;
             }
             this.var_373 += _loc5_;
             _loc6_ = param1.readByte();
-            if(_loc6_ > class_73.method_2108(class_183.var_7129))
+            if(_loc6_ > class_183.var_7129)
             {
                this.var_373 += class_33.var_3659;
                _loc7_ = class_183.var_7129;
                while(_loc7_ < _loc6_)
                {
-                  if(_loc7_ == class_73.method_2108(class_183.var_7129))
+                  if(_loc7_ == class_183.var_7129)
                   {
                      this.var_373 += param1.readInt().toString(class_16.var_3467);
                   }

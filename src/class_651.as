@@ -14,7 +14,7 @@ package
       {
          super(param1);
          this.var_2428 = param1.readInt();
-         this.var_2206 = param1.readByte() == class_73.method_2108(class_33.var_3679);
+         this.var_2206 = param1.readByte() == class_33.var_3679;
       }
    }
 }

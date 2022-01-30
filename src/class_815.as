@@ -32,7 +32,7 @@ package
             _loc1_++;
          }
          this.var_2712 = new Array(class_327.var_7234);
-         _loc1_ = class_73.method_2108(class_183.var_7129);
+         _loc1_ = class_183.var_7129;
          while(_loc1_ < class_327.var_7234)
          {
             this.var_2712[_loc1_] = new class_591();
@@ -45,19 +45,19 @@ package
             this.var_2715[_loc1_] = new class_943();
             _loc1_++;
          }
-         _loc1_ = class_73.method_2108(class_183.var_7129);
+         _loc1_ = class_183.var_7129;
          while(_loc1_ < class_327.var_7234)
          {
             this.var_2712[_loc1_].var_2309 = class_591.var_7347;
             this.var_2712[_loc1_].var_2310 = class_591.var_7347;
             this.var_2712[_loc1_].userData = null;
-            this.var_2712[_loc1_].var_2311 = class_73.method_2108(class_183.var_7129);
-            this.var_2712[_loc1_].var_1641 = class_73.method_2108(class_33.var_3679) + _loc1_;
+            this.var_2712[_loc1_].var_2311 = class_183.var_7129;
+            this.var_2712[_loc1_].var_1641 = class_33.var_3679 + _loc1_;
             _loc1_++;
          }
          this.var_2712[int(-class_33.var_3679 + class_327.var_7234)].var_1641 = class_591.var_7346;
-         this.var_2714 = class_73.method_2108(class_183.var_7129);
-         this.var_2716 = class_73.method_2108(class_183.var_7129);
+         this.var_2714 = class_183.var_7129;
+         this.var_2716 = class_183.var_7129;
       }
       
       public static function method_3084(param1:class_943, param2:class_943) : Boolean
@@ -72,13 +72,13 @@ package
       
       public static function method_3086(param1:uint, param2:uint) : uint
       {
-         var _loc3_:uint = param2 << class_73.method_2108(class_16.var_3467) & 4294901760 | param1;
+         var _loc3_:uint = param2 << class_16.var_3467 & 4294901760 | param1;
          _loc3_ = ~_loc3_ + (_loc3_ << class_183.var_7127 & 4294934528);
          _loc3_ ^= _loc3_ >> class_170.var_6720 & 1048575;
          _loc3_ += _loc3_ << class_165.var_6534 & 4294967292;
-         _loc3_ ^= _loc3_ >> class_73.method_2108(class_121.var_5495) & 268435455;
+         _loc3_ ^= _loc3_ >> class_121.var_5495 & 268435455;
          _loc3_ *= class_183.var_7035;
-         return uint(_loc3_ ^ _loc3_ >> class_73.method_2108(class_16.var_3467) & 65535);
+         return uint(_loc3_ ^ _loc3_ >> class_16.var_3467 & 65535);
       }
       
       public function method_1652() : void
@@ -90,7 +90,7 @@ package
          var _loc7_:class_716 = null;
          var _loc3_:int = class_183.var_7129;
          var _loc4_:Vector.<class_716> = this.var_1567.var_2298;
-         _loc2_ = class_73.method_2108(class_183.var_7129);
+         _loc2_ = class_183.var_7129;
          while(_loc2_ < this.var_2716)
          {
             _loc1_ = this.var_2715[_loc2_];
@@ -123,7 +123,7 @@ package
             this.method_1777(_loc1_.var_2309,_loc1_.var_2310);
             _loc2_++;
          }
-         this.var_2716 = class_73.method_2108(class_183.var_7129);
+         this.var_2716 = class_183.var_7129;
          if(class_589.var_7345)
          {
             this.method_1773();

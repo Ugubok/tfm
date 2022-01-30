@@ -54,11 +54,11 @@ package
       
       public function class_14()
       {
-         this.var_179 = class_73.method_2111(class_62.var_4147);
+         this.var_179 = class_62.var_4147;
          this.var_180 = new class_208();
-         this.var_181 = class_73.method_2108(class_89.var_4433) * class_73.method_2108(class_9.var_3267);
+         this.var_181 = class_89.var_4433 * class_9.var_3267;
          this.var_187 = class_107.var_4965 + class_1.var_2884.var_2;
-         this.var_188 = class_73.method_2108(class_183.var_7129);
+         this.var_188 = class_183.var_7129;
          this.var_189 = class_146.var_6019;
          this.var_192 = new class_209();
          this.var_193 = new class_204();
@@ -84,7 +84,7 @@ package
       
       public function method_147() : void
       {
-         class_1.var_2884.method_77(class_73.method_2111(class_60.var_3957));
+         class_1.var_2884.method_77(class_60.var_3957);
       }
       
       public function method_148(param1:String) : void

@@ -66,7 +66,7 @@ package
             }
             else
             {
-               this.var_1022._T.text = class_26.method_1668(class_73.method_2111(class_92.var_4488));
+               this.var_1022._T.text = class_26.method_1668(class_92.var_4488);
                this.var_1022._T.textColor = 9742782;
             }
          }
@@ -75,7 +75,7 @@ package
       public function method_781(param1:String) : Sprite
       {
          var _loc2_:MovieClip = null;
-         _loc2_ = class_175.method_118(class_73.method_2111(class_124.var_5512));
+         _loc2_ = class_175.method_118(class_124.var_5512);
          if(class_1.var_2884.var_94)
          {
             _loc2_._T.embedFonts = class_99.var_4682;
@@ -146,13 +146,13 @@ package
          var _loc42_:class_250 = null;
          var _loc43_:TextField = null;
          var _loc44_:String = null;
-         while(numChildren > class_73.method_2108(class_183.var_7129))
+         while(numChildren > class_183.var_7129)
          {
-            removeChildAt(class_73.method_2108(class_183.var_7129));
+            removeChildAt(class_183.var_7129);
          }
          _loc2_ = new Sprite();
          addChild(_loc2_);
-         _loc3_ = this.var_1015 is class_11 && !this.var_1015.var_164 && !(this.var_1015 as class_11).method_135() ? int(class_73.method_2108(class_9.var_3228)) : int(class_73.method_2108(class_89.var_4436));
+         _loc3_ = this.var_1015 is class_11 && !this.var_1015.var_164 && !(this.var_1015 as class_11).method_135() ? int(class_9.var_3228) : int(class_89.var_4436);
          _loc4_ = new Sprite();
          _loc4_.graphics.beginFill(class_1.var_2878.var_180.var_1061);
          _loc4_.graphics.drawRect(class_183.var_7129,class_183.var_7129,class_170.var_6717,_loc3_);
@@ -174,19 +174,19 @@ package
          {
             _loc9_ = class_99.var_4681;
          }
-         var _loc12_:int = class_73.method_2108(class_165.var_6506);
+         var _loc12_:int = class_165.var_6506;
          var _loc13_:int = class_181.var_6913;
          if(_loc9_)
          {
             _loc12_ -= class_197.const_609;
          }
-         var _loc14_:int = class_73.method_2108(class_183.var_7129);
+         var _loc14_:int = class_183.var_7129;
          if(this.var_1015 is class_361)
          {
             _loc8_ = this.var_1015 as class_361;
             _loc19_ = _loc8_.method_118();
             _loc19_.x = class_124.var_5641;
-            _loc19_.y = class_73.method_2108(class_165.var_6534);
+            _loc19_.y = class_165.var_6534;
             _loc2_.addChild(_loc19_);
          }
          else if(this.var_1015 is class_11)
@@ -195,15 +195,15 @@ package
             _loc20_ = _loc7_.method_118();
             if(_loc7_.var_164)
             {
-               _loc20_.x = class_73.method_2108(class_89.var_4436);
+               _loc20_.x = class_89.var_4436;
                _loc20_.y = class_102.var_4859;
             }
             else
             {
                _loc4_.addChild(_loc7_.method_132());
                _loc21_ = _loc20_.getBounds(_loc20_);
-               _loc20_.x = (-(_loc21_.right + _loc21_.left) + _loc4_.width) / class_73.method_2108(class_165.var_6534);
-               _loc20_.y = class_73.method_2108(class_89.var_4436);
+               _loc20_.x = (-(_loc21_.right + _loc21_.left) + _loc4_.width) / class_165.var_6534;
+               _loc20_.y = class_89.var_4436;
             }
             _loc20_.gotoAndStop(class_33.var_3679);
             _loc20_.cacheAsBitmap = class_99.var_4681;
@@ -216,14 +216,14 @@ package
             _loc6_ = this.var_1015 as class_349;
             _loc22_ = _loc6_.method_118();
             _loc22_.x = class_89.var_4436;
-            _loc22_.y = class_73.method_2108(class_162.var_6351);
+            _loc22_.y = class_162.var_6351;
             if(_loc9_)
             {
-               _loc22_.y += class_197.const_609 / class_73.method_2108(class_165.var_6534);
+               _loc22_.y += class_197.const_609 / class_165.var_6534;
             }
             if(_loc22_.width > _loc13_ || _loc22_.height > _loc12_)
             {
-               _loc23_ = class_73.method_2108(class_33.var_3679);
+               _loc23_ = class_33.var_3679;
                if(_loc22_.width - _loc13_ > _loc22_.height - _loc12_)
                {
                   _loc23_ = _loc13_ / _loc22_.width;
@@ -246,7 +246,7 @@ package
             _loc24_ = _loc5_.method_118();
             if(null == _loc24_)
             {
-               throw new Error(class_73.method_2111(class_181.var_6788) + _loc5_.var_1024 + class_183.var_7122 + _loc5_.var_1023);
+               throw new Error(class_181.var_6788 + _loc5_.var_1024 + class_183.var_7122 + _loc5_.var_1023);
             }
             if(_loc24_._M && _loc24_._M.parent)
             {
@@ -263,8 +263,8 @@ package
                _loc24_.scaleY = _loc25_;
             }
             _loc26_ = _loc24_.getRect(_loc24_);
-            _loc24_.x = int(class_73.method_2108(class_89.var_4436) - _loc24_.width / class_165.var_6534 - _loc26_.x * _loc25_);
-            _loc24_.y = int(class_162.var_6351 - _loc24_.height / class_73.method_2108(class_165.var_6534) - _loc26_.y * _loc25_);
+            _loc24_.x = int(class_89.var_4436 - _loc24_.width / class_165.var_6534 - _loc26_.x * _loc25_);
+            _loc24_.y = int(class_162.var_6351 - _loc24_.height / class_165.var_6534 - _loc26_.y * _loc25_);
             if(_loc9_)
             {
                _loc24_.y += class_197.const_609 / class_165.var_6534;
@@ -277,11 +277,11 @@ package
             {
                _loc27_ = this.method_781(class_26.method_1668(class_92.var_4488));
                _loc27_.y = _loc3_;
-               _loc3_ += class_73.method_2108(class_9.var_3266);
+               _loc3_ += class_9.var_3266;
                _loc2_.addChild(_loc27_);
                _loc14_ = class_117.var_5244;
                _loc27_.addEventListener(MouseEvent.MOUSE_DOWN,this.method_787);
-               _loc27_ = this.method_781(class_26.method_1668(class_73.method_2111(class_117.var_5128)));
+               _loc27_ = this.method_781(class_26.method_1668(class_117.var_5128));
                _loc27_.y = _loc3_;
                _loc2_.addChild(_loc27_);
                _loc27_.addEventListener(MouseEvent.MOUSE_DOWN,this.method_782);
@@ -289,11 +289,11 @@ package
             else
             {
                _loc7_.var_163 = class_99.var_4681;
-               _loc35_ = class_175.method_118(class_73.method_2111(class_117.var_5127));
-               _loc35_._T1.text = class_26.method_1668(class_73.method_2111(class_107.var_4886));
+               _loc35_ = class_175.method_118(class_117.var_5127);
+               _loc35_._T1.text = class_26.method_1668(class_107.var_4886);
                (_loc35_._T1 as TextField).multiline = class_99.var_4681;
                (_loc35_._T1 as TextField).wordWrap = class_99.var_4681;
-               if((_loc35_._T1 as TextField).textHeight < class_73.method_2108(class_33.var_3675))
+               if((_loc35_._T1 as TextField).textHeight < class_33.var_3675)
                {
                   _loc35_._T1.y = class_92.var_4647;
                }
@@ -322,8 +322,8 @@ package
                _loc29_ = new Sprite();
                _loc29_.mouseChildren = class_99.var_4682;
                _loc29_.mouseEnabled = class_99.var_4682;
-               _loc29_.graphics.beginFill(this.var_1018,class_73.method_2116(class_146.var_6072));
-               _loc29_.graphics.drawRect(class_183.var_7129,class_73.method_2108(class_183.var_7129),class_73.method_2108(class_170.var_6717),class_73.method_2108(class_92.var_4628));
+               _loc29_.graphics.beginFill(this.var_1018,class_146.var_6072);
+               _loc29_.graphics.drawRect(class_183.var_7129,class_183.var_7129,class_170.var_6717,class_92.var_4628);
                _loc30_ = class_84.method_2130();
                _loc30_.mouseEnabled = class_99.var_4682;
                _loc31_ = _loc30_.defaultTextFormat;
@@ -347,24 +347,24 @@ package
             _loc28_.addEventListener(MouseEvent.MOUSE_DOWN,this.method_787);
             if(this.var_1015 is class_198 && (this.var_1015.var_162 as class_200).var_1028)
             {
-               _loc32_ = class_175.method_118(class_73.method_2111(class_124.var_5512));
+               _loc32_ = class_175.method_118(class_124.var_5512);
                if(class_1.var_2884.var_94)
                {
                   _loc32_._T.embedFonts = class_99.var_4682;
                }
                if((this.var_1015 as class_198).var_1025)
                {
-                  _loc32_._T.htmlText = class_73.method_2111(class_124.var_5511) + class_26.method_1668(class_73.method_2111(class_4.var_2905));
+                  _loc32_._T.htmlText = class_124.var_5511 + class_26.method_1668(class_4.var_2905);
                }
                else
                {
-                  _loc32_._T.text = class_26.method_1668(class_73.method_2111(class_4.var_2905));
+                  _loc32_._T.text = class_26.method_1668(class_4.var_2905);
                }
                _loc32_._T.mouseEnabled = class_99.var_4682;
                _loc32_.mouseChildren = class_99.var_4682;
                _loc2_.addChild(_loc32_);
                _loc32_.y = _loc3_;
-               _loc3_ += class_73.method_2108(class_9.var_3266);
+               _loc3_ += class_9.var_3266;
                class_202.method_2754(_loc32_,true,true);
                _loc32_.addEventListener(MouseEvent.MOUSE_DOWN,this.method_788);
             }
@@ -377,10 +377,10 @@ package
             {
                if(_loc33_ && param1 != class_197.const_608 && param1 != class_197.const_604 && !class_63.var_4184)
                {
-                  _loc35_ = this.method_795(class_26.method_1668(class_73.method_2111(class_127.var_5757)),_loc33_,class_183.var_7129);
+                  _loc35_ = this.method_795(class_26.method_1668(class_127.var_5757),_loc33_,class_183.var_7129);
                   _loc2_.addChild(_loc35_);
                   _loc35_.y = _loc3_;
-                  _loc3_ += class_73.method_2108(class_9.var_3234);
+                  _loc3_ += class_9.var_3234;
                   _loc36_ = class_63.var_4170;
                   if(_loc36_ >= _loc33_)
                   {
@@ -390,7 +390,7 @@ package
                   else
                   {
                      _loc35_._P._T.textColor = 8421504;
-                     _loc35_._P.name_104.transform.colorTransform = new ColorTransform(class_146.var_6072,class_146.var_6072,class_73.method_2116(class_146.var_6072));
+                     _loc35_._P.name_104.transform.colorTransform = new ColorTransform(class_146.var_6072,class_146.var_6072,class_146.var_6072);
                   }
                }
                if(_loc34_ && !class_1.var_2879)
@@ -400,13 +400,13 @@ package
                   {
                      if(_loc10_)
                      {
-                        _loc37_ = _loc34_ - int(_loc34_ * (_loc10_.var_1666 / class_73.method_2108(class_121.var_5493)));
+                        _loc37_ = _loc34_ - int(_loc34_ * (_loc10_.var_1666 / class_121.var_5493));
                      }
                      _loc38_ = new Sprite();
                      _loc38_.mouseChildren = class_99.var_4682;
                      _loc38_.mouseEnabled = class_99.var_4682;
                      _loc38_.graphics.beginFill(!!_loc10_ ? uint(14483456) : uint(40055),class_146.var_6072);
-                     _loc38_.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),class_170.var_6717,class_92.var_4628);
+                     _loc38_.graphics.drawRect(class_183.var_7129,class_183.var_7129,class_170.var_6717,class_92.var_4628);
                      _loc39_ = class_84.method_2130();
                      _loc39_.mouseEnabled = class_99.var_4682;
                      _loc40_ = _loc39_.defaultTextFormat;
@@ -417,21 +417,21 @@ package
                      }
                      else
                      {
-                        _loc41_ = class_73.method_2108(class_146.var_6117);
+                        _loc41_ = class_146.var_6117;
                         _loc40_.align = TextFormatAlign.RIGHT;
                         _loc39_.width = _loc38_.width - _loc41_;
                      }
                      _loc39_.defaultTextFormat = _loc40_;
-                     _loc39_.text = (!!_loc10_ ? class_89.var_4390 + _loc10_.var_1666 + class_73.method_2111(class_16.var_3281) : class_9.var_3268) + class_518.method_3040(class_518.method_3038(!!_loc10_ ? Number(_loc10_.var_1665) : Number(_loc11_.var_1665)),false);
+                     _loc39_.text = (!!_loc10_ ? class_89.var_4390 + _loc10_.var_1666 + class_16.var_3281 : class_9.var_3268) + class_518.method_3040(class_518.method_3038(!!_loc10_ ? Number(_loc10_.var_1665) : Number(_loc11_.var_1665)),false);
                      _loc39_.textColor = class_54.const_278;
                      _loc38_.addChild(_loc39_);
                      _loc2_.addChild(_loc38_);
                      if(_loc11_)
                      {
-                        _loc42_ = new class_250(class_162.var_6175,class_73.method_2108(class_60.var_3939),class_146.var_6074);
+                        _loc42_ = new class_250(class_162.var_6175,class_60.var_3939,class_146.var_6074);
                         addChild(_loc42_);
                         _loc42_.x = -class_146.var_6117;
-                        _loc42_.y = -class_73.method_2108(class_146.var_6117);
+                        _loc42_.y = -class_146.var_6117;
                      }
                   }
                   if(class_63.var_4184)
@@ -440,11 +440,11 @@ package
                   }
                   else
                   {
-                     _loc35_ = this.method_795(class_26.method_1668(class_73.method_2111(class_127.var_5757)),_loc34_,class_33.var_3679,_loc10_);
+                     _loc35_ = this.method_795(class_26.method_1668(class_127.var_5757),_loc34_,class_33.var_3679,_loc10_);
                   }
                   _loc2_.addChild(_loc35_);
                   _loc35_.y = _loc3_;
-                  _loc3_ += class_73.method_2108(class_9.var_3234);
+                  _loc3_ += class_9.var_3234;
                   if(_loc37_ <= class_63.var_4171)
                   {
                      class_202.method_2754(_loc35_,true,true);
@@ -460,7 +460,7 @@ package
                   else
                   {
                      _loc35_._P._T.textColor = 8421504;
-                     _loc35_._P.name_104.transform.colorTransform = new ColorTransform(class_73.method_2116(class_146.var_6072),class_73.method_2116(class_146.var_6072),class_146.var_6072);
+                     _loc35_._P.name_104.transform.colorTransform = new ColorTransform(class_146.var_6072,class_146.var_6072,class_146.var_6072);
                   }
                }
             }
@@ -469,18 +469,18 @@ package
          {
             _loc24_.transform.colorTransform = class_197.const_603;
          }
-         var _loc15_:int = Math.min((!!_loc14_ ? _loc14_ : height) - class_73.method_2108(class_33.var_3679),class_127.var_5722);
+         var _loc15_:int = Math.min((!!_loc14_ ? _loc14_ : height) - class_33.var_3679,class_127.var_5722);
          if(_loc11_ && class_63.var_4184)
          {
             _loc15_ -= class_146.var_6117;
          }
          var _loc16_:Shape = new Shape();
-         _loc16_.graphics.lineStyle(class_73.method_2108(class_165.var_6534),11058632,class_33.var_3679,true);
-         _loc16_.graphics.drawRoundRect(class_183.var_7129,class_183.var_7129,class_73.method_2108(class_170.var_6717),_loc15_,class_73.method_2108(class_183.var_7127));
+         _loc16_.graphics.lineStyle(class_165.var_6534,11058632,class_33.var_3679,true);
+         _loc16_.graphics.drawRoundRect(class_183.var_7129,class_183.var_7129,class_170.var_6717,_loc15_,class_183.var_7127);
          _loc2_.addChild(_loc16_);
          var _loc17_:Shape = new Shape();
          _loc17_.graphics.beginFill(16711680);
-         _loc17_.graphics.drawRoundRect(class_183.var_7129,class_73.method_2108(class_183.var_7129),class_170.var_6717,_loc15_,class_183.var_7127);
+         _loc17_.graphics.drawRoundRect(class_183.var_7129,class_183.var_7129,class_170.var_6717,_loc15_,class_183.var_7127);
          _loc2_.addChild(_loc17_);
          _loc2_.mask = _loc17_;
          if(!this.var_1016)
@@ -496,15 +496,15 @@ package
          {
             _loc43_ = class_84.method_2130();
             _loc43_.defaultTextFormat = new TextFormat(class_60.var_3917,class_162.var_6346);
-            _loc43_.text = class_73.method_2111(class_9.var_3268) + this.var_1015.var_162.var_574;
+            _loc43_.text = class_9.var_3268 + this.var_1015.var_162.var_574;
             if(this.var_1015 is class_198)
             {
-               _loc44_ = (this.var_1015 as class_198).var_1024 + class_73.method_2111(class_183.var_7122) + (this.var_1015 as class_198).var_1023;
-               _loc43_.text = !!this.var_1016 ? _loc43_.text + class_73.method_2111(class_107.var_5071) + _loc44_ : _loc44_ + class_73.method_2111(class_107.var_5071) + _loc43_.text;
+               _loc44_ = (this.var_1015 as class_198).var_1024 + class_183.var_7122 + (this.var_1015 as class_198).var_1023;
+               _loc43_.text = !!this.var_1016 ? _loc43_.text + class_107.var_5071 + _loc44_ : _loc44_ + class_107.var_5071 + _loc43_.text;
             }
             if(_loc9_)
             {
-               _loc43_.y = -class_73.method_2108(class_121.var_5495) + class_197.const_609;
+               _loc43_.y = -class_121.var_5495 + class_197.const_609;
             }
             _loc2_.addChild(_loc43_);
          }
@@ -591,18 +591,18 @@ package
          _loc5_._P._T.autoSize = TextFieldAutoSize.LEFT;
          if(param4)
          {
-            _loc5_._P._T.text = param2 - int(param2 * (param4.var_1666 / class_73.method_2108(class_121.var_5493))) + class_73.method_2111(class_121.var_5321) + param4.var_1666 + class_73.method_2111(class_121.var_5320);
+            _loc5_._P._T.text = param2 - int(param2 * (param4.var_1666 / class_121.var_5493)) + class_121.var_5321 + param4.var_1666 + class_121.var_5320;
          }
          else
          {
             _loc5_._P._T.text = String(param2);
          }
          _loc5_.mouseChildren = class_99.var_4682;
-         var _loc6_:Bitmap = class_175.method_2618(class_170.var_6604 + param3 + class_73.method_2111(class_89.var_4385));
+         var _loc6_:Bitmap = class_175.method_2618(class_170.var_6604 + param3 + class_89.var_4385);
          _loc5_._P.name_104 = _loc6_;
          _loc5_._P.addChild(_loc6_);
-         _loc6_.x = _loc5_._P._T.width + class_73.method_2108(class_9.var_3267);
-         _loc6_.y = class_73.method_2108(class_165.var_6534);
+         _loc6_.x = _loc5_._P._T.width + class_9.var_3267;
+         _loc6_.y = class_165.var_6534;
          if(class_63.const_382 == param3)
          {
             _loc5_._P._T.textColor = 13325419;
@@ -611,7 +611,7 @@ package
          {
             _loc5_._P._T.textColor = 12763866;
          }
-         _loc5_._P.x = class_73.method_2108(class_89.var_4436) - _loc5_._P.width / class_165.var_6534;
+         _loc5_._P.x = class_89.var_4436 - _loc5_._P.width / class_165.var_6534;
          return _loc5_;
       }
    }

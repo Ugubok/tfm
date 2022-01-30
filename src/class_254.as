@@ -47,7 +47,7 @@ package
          }
          else if(class_254.const_665 == param2)
          {
-            _loc3_.var_1345 = class_73.method_2108(class_183.var_7129);
+            _loc3_.var_1345 = class_183.var_7129;
             param1.var_925.method_573();
          }
          else if(class_254.const_666 == param2)
@@ -59,7 +59,7 @@ package
             if(param1.var_773)
             {
                this.var_1278 = class_99.var_4681;
-               param1.var_925.var_784 = class_73.method_2108(class_183.var_7129);
+               param1.var_925.var_784 = class_183.var_7129;
                param1.var_466 = class_99.var_4681;
             }
          }
@@ -72,7 +72,7 @@ package
             this.var_1277[param1.var_876] = class_99.var_4681;
             class_47.method_1951(_loc3_.var_1350,class_47.const_238);
          }
-         class_1.var_2884.method_33(class_56.const_193,param1.x,param1.y,class_73.method_2108(class_146.var_6117),class_165.var_6534,false);
+         class_1.var_2884.method_33(class_56.const_193,param1.x,param1.y,class_146.var_6117,class_165.var_6534,false);
       }
       
       public function method_980(param1:class_168) : Number
@@ -81,7 +81,7 @@ package
          {
             return -class_162.var_6172;
          }
-         return class_73.method_2116(class_121.method_2361());
+         return class_121.method_2361();
       }
       
       override public function method_666(param1:class_501) : void
@@ -90,8 +90,8 @@ package
          var _loc3_:class_168 = null;
          switch(param1.var_574)
          {
-            case class_73.method_2108(class_33.var_3679):
-               _loc2_ = param1.method_1477(class_73.method_2108(class_183.var_7129));
+            case class_33.var_3679:
+               _loc2_ = param1.method_1477(class_183.var_7129);
                _loc3_ = class_1.var_2884.var_85[_loc2_];
                if(_loc3_ && !_loc3_.var_366)
                {
@@ -104,9 +104,9 @@ package
       {
          if(this.var_1274[param1.var_876])
          {
-            return class_73.method_2116(class_73.method_2108(class_146.var_6117));
+            return class_146.var_6117;
          }
-         return class_73.method_2116(class_60.method_2002());
+         return class_60.method_2002();
       }
       
       override public function method_664(param1:class_168, param2:class_147, param3:Number) : Boolean
@@ -117,7 +117,7 @@ package
             {
                if(!this.var_1275[param1.var_876] && param2.var_756.var_305 < class_183.var_7129)
                {
-                  param2.var_756.var_305 /= class_73.method_2116(class_73.method_2116(class_73.method_2108(class_165.var_6534)));
+                  param2.var_756.var_305 /= class_165.var_6534;
                   this.var_1275[param1.var_876] = class_99.var_4681;
                }
             }

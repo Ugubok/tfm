@@ -13,7 +13,7 @@ package
       
       public static var var_3776:int;
       
-      public static const const_277:Array = new Array("#",class_73.method_2111("!"),"@","$",class_73.method_2111("%"));
+      public static const const_277:Array = new Array("#","!","@","$","%");
       
       public static var var_3777:int = 2589 + -2589;
        
@@ -32,7 +32,7 @@ package
             class_53.var_3775 = class_26.method_1668(class_165.var_6403).toLowerCase().split(class_107.var_5062);
             class_53.var_3775.concat(class_26.method_1668(class_92.var_4524).toLowerCase().split(class_165.var_6522));
          }
-         var _loc3_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc3_:int = -class_33.var_3679;
          if(_loc2_.length > class_53.var_3775.length)
          {
             _loc4_ = class_53.var_3775.length;
@@ -49,7 +49,7 @@ package
             _loc4_ = _loc2_.length;
             while(++_loc3_ < _loc4_)
             {
-               if(class_53.var_3775.indexOf(_loc2_[_loc3_]) != -class_73.method_2108(class_33.var_3679))
+               if(class_53.var_3775.indexOf(_loc2_[_loc3_]) != -class_33.var_3679)
                {
                   return true;
                }
@@ -89,13 +89,13 @@ package
          if(!class_53.var_3774)
          {
             class_53.var_3774 = new Vector.<String>();
-            _loc9_ = class_26.method_1668(class_73.method_2111(class_92.var_4524)).toLowerCase().split(class_73.method_2111(class_165.var_6522));
+            _loc9_ = class_26.method_1668(class_92.var_4524).toLowerCase().split(class_165.var_6522);
             _loc10_ = _loc9_.length;
             _loc11_ = class_183.var_7129;
             while(_loc11_ < _loc10_)
             {
                _loc8_ = _loc9_[_loc11_];
-               if(class_73.method_2108(class_117.var_5287) < _loc8_.length)
+               if(class_117.var_5287 < _loc8_.length)
                {
                   class_53.var_3774.push(_loc8_);
                }
@@ -104,12 +104,12 @@ package
             class_53.var_3776 = class_53.var_3774.length;
          }
          var _loc3_:String = param1.toLowerCase();
-         var _loc4_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc4_:int = -class_33.var_3679;
          while(++_loc4_ < class_53.var_3776)
          {
             if(_loc3_.indexOf(class_53.var_3774[_loc4_]) != -class_33.var_3679)
             {
-               return class_73.method_2111(class_9.var_3268);
+               return class_9.var_3268;
             }
          }
          if(!class_17.var_3476)
@@ -119,9 +119,9 @@ package
          if(!class_53.var_3773)
          {
             class_53.var_3773 = new Dictionary();
-            _loc9_ = class_26.method_1668(class_73.method_2111(class_165.var_6403)).toLowerCase().split(class_107.var_5062);
+            _loc9_ = class_26.method_1668(class_165.var_6403).toLowerCase().split(class_107.var_5062);
             _loc10_ = _loc9_.length;
-            _loc11_ = class_73.method_2108(class_183.var_7129);
+            _loc11_ = class_183.var_7129;
             while(_loc11_ < _loc10_)
             {
                class_53.var_3773[_loc9_[_loc11_]] = class_99.var_4681;
@@ -129,21 +129,21 @@ package
             }
          }
          var _loc5_:Array = param1.split(class_124.var_5647);
-         var _loc6_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc6_:int = -class_33.var_3679;
          var _loc7_:int = _loc5_.length;
          while(++_loc6_ < _loc7_)
          {
             _loc12_ = _loc5_[_loc6_];
-            if(_loc12_.indexOf(class_73.method_2111(class_146.var_6071)) != -class_33.var_3679)
+            if(_loc12_.indexOf(class_146.var_6071) != -class_33.var_3679)
             {
-               _loc12_ = _loc12_.split(class_73.method_2111(class_146.var_6071)).join(class_73.method_2111(class_9.var_3268));
+               _loc12_ = _loc12_.split(class_146.var_6071).join(class_9.var_3268);
             }
             if(class_53.var_3773[_loc12_.toLowerCase()])
             {
                _loc5_[_loc6_] = class_53.method_1964(_loc12_.length);
             }
          }
-         return _loc5_.join(class_73.method_2111(class_124.var_5647));
+         return _loc5_.join(class_124.var_5647);
       }
    }
 }

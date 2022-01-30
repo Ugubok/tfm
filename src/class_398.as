@@ -88,29 +88,29 @@ package
          {
             return param2;
          }
-         if((param1 = param1 / param4) == class_73.method_2108(class_33.var_3679))
+         if((param1 = param1 / param4) == class_33.var_3679)
          {
             return param2 + param3;
          }
          if(!param6)
          {
-            param6 = class_73.method_2116(class_9.var_3254) * param4;
+            param6 = class_9.var_3254 * param4;
          }
          if(!param5 || param5 < Math.abs(param3))
          {
             param5 = param3;
-            _loc7_ = param6 / class_73.method_2108(class_121.var_5495);
+            _loc7_ = param6 / class_121.var_5495;
          }
          else
          {
             _loc7_ = param6 / class_398.const_1048 * Math.asin(param3 / param5);
          }
-         return -(param5 * Math.pow(class_165.var_6534,class_73.method_2108(class_146.var_6117) * (param1 = param1 - class_33.var_3679)) * Math.sin((param1 * param4 - _loc7_) * class_398.const_1048 / param6)) + param2;
+         return -(param5 * Math.pow(class_165.var_6534,class_146.var_6117 * (param1 = param1 - class_33.var_3679)) * Math.sin((param1 * param4 - _loc7_) * class_398.const_1048 / param6)) + param2;
       }
       
       public static function method_2926(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         return param3 - class_398.method_2956(param4 - param1,class_73.method_2108(class_183.var_7129),param3,param4) + param2;
+         return param3 - class_398.method_2956(param4 - param1,class_183.var_7129,param3,param4) + param2;
       }
       
       public static function method_2927(param1:Number, param2:Number, param3:Number, param4:Number) : Number
@@ -120,11 +120,11 @@ package
       
       public static function method_2928(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         if((param1 = param1 / (param4 / class_73.method_2108(class_165.var_6534))) < class_73.method_2108(class_33.var_3679))
+         if((param1 = param1 / (param4 / class_165.var_6534)) < class_33.var_3679)
          {
             return param3 / class_165.var_6534 * param1 * param1 * param1 * param1 + param2;
          }
-         return -param3 / class_73.method_2108(class_165.var_6534) * ((param1 = param1 - class_165.var_6534) * param1 * param1 * param1 - class_73.method_2108(class_165.var_6534)) + param2;
+         return -param3 / class_165.var_6534 * ((param1 = param1 - class_165.var_6534) * param1 * param1 * param1 - class_165.var_6534) + param2;
       }
       
       public static function method_2929(param1:Number, param2:Number, param3:Number, param4:Number) : Number
@@ -134,7 +134,7 @@ package
       
       public static function method_2930(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = 1.70158) : Number
       {
-         return param3 * ((param1 = param1 / param4 - class_73.method_2108(class_33.var_3679)) * param1 * ((class_33.var_3679 + param5) * param1 + param5) + class_33.var_3679) + param2;
+         return param3 * ((param1 = param1 / param4 - class_33.var_3679) * param1 * ((class_33.var_3679 + param5) * param1 + param5) + class_33.var_3679) + param2;
       }
       
       public static function method_2931(param1:Number, param2:Number, param3:Number, param4:Number) : Number
@@ -159,16 +159,16 @@ package
       
       public static function method_2935(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         if((param1 = param1 / (param4 / class_165.var_6534)) < class_73.method_2108(class_33.var_3679))
+         if((param1 = param1 / (param4 / class_165.var_6534)) < class_33.var_3679)
          {
             return param3 / class_165.var_6534 * param1 * param1 + param2;
          }
-         return -param3 / class_73.method_2108(class_165.var_6534) * (--param1 * (param1 - class_73.method_2108(class_165.var_6534)) - class_33.var_3679) + param2;
+         return -param3 / class_165.var_6534 * (--param1 * (param1 - class_165.var_6534) - class_33.var_3679) + param2;
       }
       
       public static function method_2936(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         return param2 + param3 * (-Math.sin(param1 * Math.PI) + class_121.var_5450) * Math.sin(class_73.method_2116(class_170.var_6691) * param1 * Math.PI);
+         return param2 + param3 * (-Math.sin(param1 * Math.PI) + class_121.var_5450) * Math.sin(class_170.var_6691 * param1 * Math.PI);
       }
       
       public static function method_2937(param1:Number, param2:Number, param3:Number, param4:Number) : Number
@@ -179,11 +179,11 @@ package
       public static function method_2938(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = undefined, param6:Number = undefined) : Number
       {
          var _loc7_:Number = NaN;
-         if(param1 == class_73.method_2108(class_183.var_7129))
+         if(param1 == class_183.var_7129)
          {
             return param2;
          }
-         if((param1 = param1 / param4) == class_73.method_2108(class_33.var_3679))
+         if((param1 = param1 / param4) == class_33.var_3679)
          {
             return param2 + param3;
          }
@@ -200,21 +200,21 @@ package
          {
             _loc7_ = param6 / class_398.const_1048 * Math.asin(param3 / param5);
          }
-         return param5 * Math.pow(class_73.method_2108(class_165.var_6534),-class_146.var_6117 * param1) * Math.sin((param1 * param4 - _loc7_) * class_398.const_1048 / param6) + param3 + param2;
+         return param5 * Math.pow(class_165.var_6534,-class_146.var_6117 * param1) * Math.sin((param1 * param4 - _loc7_) * class_398.const_1048 / param6) + param3 + param2;
       }
       
       public static function method_2939(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         if((param1 = param1 / (param4 / class_73.method_2108(class_165.var_6534))) < class_73.method_2108(class_33.var_3679))
+         if((param1 = param1 / (param4 / class_165.var_6534)) < class_33.var_3679)
          {
             return param3 / class_165.var_6534 * param1 * param1 * param1 * param1 * param1 + param2;
          }
-         return param3 / class_73.method_2108(class_165.var_6534) * ((param1 = param1 - class_165.var_6534) * param1 * param1 * param1 * param1 + class_165.var_6534) + param2;
+         return param3 / class_165.var_6534 * ((param1 = param1 - class_165.var_6534) * param1 * param1 * param1 * param1 + class_165.var_6534) + param2;
       }
       
       public static function method_2940(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         return param3 * Math.sqrt(class_33.var_3679 - (param1 = param1 / param4 - class_73.method_2108(class_33.var_3679)) * param1) + param2;
+         return param3 * Math.sqrt(class_33.var_3679 - (param1 = param1 / param4 - class_33.var_3679) * param1) + param2;
       }
       
       public static function method_2941(param1:Number, param2:Number, param3:Number, param4:Number) : Number
@@ -227,43 +227,43 @@ package
          {
             return param2 + param3;
          }
-         if((param1 = param1 / (param4 / class_165.var_6534)) < class_73.method_2108(class_33.var_3679))
+         if((param1 = param1 / (param4 / class_165.var_6534)) < class_33.var_3679)
          {
-            return param3 / class_73.method_2108(class_165.var_6534) * Math.pow(class_165.var_6534,class_146.var_6117 * (param1 - class_73.method_2108(class_33.var_3679))) + param2;
+            return param3 / class_165.var_6534 * Math.pow(class_165.var_6534,class_146.var_6117 * (param1 - class_33.var_3679)) + param2;
          }
-         return param3 / class_165.var_6534 * (-Math.pow(class_165.var_6534,-class_73.method_2108(class_146.var_6117) * --param1) + class_165.var_6534) + param2;
+         return param3 / class_165.var_6534 * (-Math.pow(class_165.var_6534,-class_146.var_6117 * --param1) + class_165.var_6534) + param2;
       }
       
       public static function method_2942(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         return param3 * ((param1 = param1 / param4 - class_73.method_2108(class_33.var_3679)) * param1 * param1 + class_73.method_2108(class_33.var_3679)) + param2;
+         return param3 * ((param1 = param1 / param4 - class_33.var_3679) * param1 * param1 + class_33.var_3679) + param2;
       }
       
       public static function method_2943(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = 1.70158) : Number
       {
-         if((param1 = param1 / (param4 / class_73.method_2108(class_165.var_6534))) < class_33.var_3679)
+         if((param1 = param1 / (param4 / class_165.var_6534)) < class_33.var_3679)
          {
-            return param3 / class_165.var_6534 * (param1 * param1 * (((param5 = param5 * class_73.method_2116(class_107.var_5028)) + class_33.var_3679) * param1 - param5)) + param2;
+            return param3 / class_165.var_6534 * (param1 * param1 * (((param5 = param5 * class_107.var_5028) + class_33.var_3679) * param1 - param5)) + param2;
          }
-         return param3 / class_73.method_2108(class_165.var_6534) * ((param1 = param1 - class_165.var_6534) * param1 * (((param5 = param5 * class_107.var_5028) + class_33.var_3679) * param1 + param5) + class_73.method_2108(class_165.var_6534)) + param2;
+         return param3 / class_165.var_6534 * ((param1 = param1 - class_165.var_6534) * param1 * (((param5 = param5 * class_107.var_5028) + class_33.var_3679) * param1 + param5) + class_165.var_6534) + param2;
       }
       
       public static function method_2944(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         if((param1 = param1 / (param4 / class_73.method_2108(class_165.var_6534))) < class_73.method_2108(class_33.var_3679))
+         if((param1 = param1 / (param4 / class_165.var_6534)) < class_33.var_3679)
          {
-            return param3 / class_73.method_2108(class_165.var_6534) * param1 * param1 * param1 + param2;
+            return param3 / class_165.var_6534 * param1 * param1 * param1 + param2;
          }
          return param3 / class_165.var_6534 * ((param1 = param1 - class_165.var_6534) * param1 * param1 + class_165.var_6534) + param2;
       }
       
       public static function method_2945(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         if(param1 < param4 / class_73.method_2108(class_165.var_6534))
+         if(param1 < param4 / class_165.var_6534)
          {
-            return class_398.method_2926(param1 * class_165.var_6534,class_73.method_2108(class_183.var_7129),param3,param4) * class_92.var_4648 + param2;
+            return class_398.method_2926(param1 * class_165.var_6534,class_183.var_7129,param3,param4) * class_92.var_4648 + param2;
          }
-         return class_398.method_2956(param1 * class_73.method_2108(class_165.var_6534) - param4,class_73.method_2108(class_183.var_7129),param3,param4) * class_92.var_4648 + param3 * class_92.var_4648 + param2;
+         return class_398.method_2956(param1 * class_165.var_6534 - param4,class_183.var_7129,param3,param4) * class_92.var_4648 + param3 * class_92.var_4648 + param2;
       }
       
       public static function method_2946(param1:Number, param2:Number, param3:Number, param4:Number, param5:Number = 1.70158) : Number
@@ -278,12 +278,12 @@ package
       
       public static function method_2948(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         return class_183.var_7129 == param1 ? Number(param2) : Number(param3 * Math.pow(class_165.var_6534,class_146.var_6117 * (param1 / param4 - class_73.method_2108(class_33.var_3679))) + param2);
+         return class_183.var_7129 == param1 ? Number(param2) : Number(param3 * Math.pow(class_165.var_6534,class_146.var_6117 * (param1 / param4 - class_33.var_3679)) + param2);
       }
       
       public static function method_2949(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         return -param3 / class_73.method_2108(class_165.var_6534) * (Math.cos(Math.PI * param1 / param4) - class_33.var_3679) + param2;
+         return -param3 / class_165.var_6534 * (Math.cos(Math.PI * param1 / param4) - class_33.var_3679) + param2;
       }
       
       public static function method_2950(param1:Number, param2:Number, param3:Number, param4:Number) : Number
@@ -293,7 +293,7 @@ package
       
       public static function method_2951(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         return param2 + param3 * (class_121.var_5450 - Math.sin(class_92.var_4648 * param1 * (Math.PI - class_73.method_2116(class_121.var_5450)))) * Math.sin(class_73.method_2116(class_170.var_6691) * param1 * Math.PI);
+         return param2 + param3 * (class_121.var_5450 - Math.sin(class_92.var_4648 * param1 * (Math.PI - class_121.var_5450))) * Math.sin(class_170.var_6691 * param1 * Math.PI);
       }
       
       public static function method_2952(param1:Number, param2:Number, param3:Number, param4:Number) : Number
@@ -308,18 +308,18 @@ package
          {
             return param2;
          }
-         if((param1 = param1 / (param4 / class_73.method_2108(class_165.var_6534))) == class_73.method_2108(class_165.var_6534))
+         if((param1 = param1 / (param4 / class_165.var_6534)) == class_165.var_6534)
          {
             return param2 + param3;
          }
          if(!param6)
          {
-            param6 = class_124.var_5624 * class_73.method_2116(class_9.var_3254) * param4;
+            param6 = class_124.var_5624 * class_9.var_3254 * param4;
          }
          if(!param5 || param5 < Math.abs(param3))
          {
             param5 = param3;
-            _loc7_ = param6 / class_73.method_2108(class_121.var_5495);
+            _loc7_ = param6 / class_121.var_5495;
          }
          else
          {
@@ -327,9 +327,9 @@ package
          }
          if(param1 < class_33.var_3679)
          {
-            return -class_92.var_4648 * (param5 * Math.pow(class_73.method_2108(class_165.var_6534),class_146.var_6117 * (param1 = param1 - class_33.var_3679)) * Math.sin((param1 * param4 - _loc7_) * class_398.const_1048 / param6)) + param2;
+            return -class_92.var_4648 * (param5 * Math.pow(class_165.var_6534,class_146.var_6117 * (param1 = param1 - class_33.var_3679)) * Math.sin((param1 * param4 - _loc7_) * class_398.const_1048 / param6)) + param2;
          }
-         return param5 * Math.pow(class_73.method_2108(class_165.var_6534),-class_146.var_6117 * (param1 = param1 - class_73.method_2108(class_33.var_3679))) * Math.sin((param1 * param4 - _loc7_) * class_398.const_1048 / param6) * class_73.method_2116(class_92.var_4648) + param3 + param2;
+         return param5 * Math.pow(class_165.var_6534,-class_146.var_6117 * (param1 = param1 - class_33.var_3679)) * Math.sin((param1 * param4 - _loc7_) * class_398.const_1048 / param6) * class_92.var_4648 + param3 + param2;
       }
       
       public static function method_2954(param1:Number, param2:Number, param3:Number, param4:Number) : Number
@@ -339,11 +339,11 @@ package
       
       public static function method_2955(param1:Number, param2:Number, param3:Number, param4:Number) : Number
       {
-         if((param1 = param1 / (param4 / class_73.method_2108(class_165.var_6534))) < class_73.method_2108(class_33.var_3679))
+         if((param1 = param1 / (param4 / class_165.var_6534)) < class_33.var_3679)
          {
-            return -param3 / class_165.var_6534 * (Math.sqrt(class_73.method_2108(class_33.var_3679) - param1 * param1) - class_33.var_3679) + param2;
+            return -param3 / class_165.var_6534 * (Math.sqrt(class_33.var_3679 - param1 * param1) - class_33.var_3679) + param2;
          }
-         return param3 / class_165.var_6534 * (Math.sqrt(class_33.var_3679 - (param1 = param1 - class_165.var_6534) * param1) + class_73.method_2108(class_33.var_3679)) + param2;
+         return param3 / class_165.var_6534 * (Math.sqrt(class_33.var_3679 - (param1 = param1 - class_165.var_6534) * param1) + class_33.var_3679) + param2;
       }
       
       public static function method_2956(param1:Number, param2:Number, param3:Number, param4:Number) : Number
@@ -352,15 +352,15 @@ package
          {
             return param3 * (class_165.var_6485 * param1 * param1) + param2;
          }
-         if(param1 < class_73.method_2108(class_165.var_6534) / class_73.method_2116(class_89.var_4396))
+         if(param1 < class_165.var_6534 / class_89.var_4396)
          {
-            return param3 * (class_73.method_2116(class_165.var_6485) * (param1 = param1 - class_73.method_2116(class_124.var_5624) / class_73.method_2116(class_89.var_4396)) * param1 + class_73.method_2116(class_170.var_6690)) + param2;
+            return param3 * (class_165.var_6485 * (param1 = param1 - class_124.var_5624 / class_89.var_4396) * param1 + class_170.var_6690) + param2;
          }
          if(param1 < class_16.var_3465 / class_89.var_4396)
          {
-            return param3 * (class_165.var_6485 * (param1 = param1 - class_73.method_2116(class_117.var_5243) / class_73.method_2116(class_89.var_4396)) * param1 + class_73.method_2116(class_33.var_3629)) + param2;
+            return param3 * (class_165.var_6485 * (param1 = param1 - class_117.var_5243 / class_89.var_4396) * param1 + class_33.var_3629) + param2;
          }
-         return param3 * (class_73.method_2116(class_165.var_6485) * (param1 = param1 - class_73.method_2116(class_102.var_4817) / class_89.var_4396) * param1 + class_73.method_2116(class_124.var_5613)) + param2;
+         return param3 * (class_165.var_6485 * (param1 = param1 - class_102.var_4817 / class_89.var_4396) * param1 + class_124.var_5613) + param2;
       }
       
       public function method_1266(param1:Number = 1, param2:Number = 0) : class_398

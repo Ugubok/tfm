@@ -27,7 +27,7 @@ package
       public static function name_9() : void
       {
          var _loc1_:DisplayObjectContainer = null;
-         if(Capabilities.playerType == class_73.method_2111(class_146.var_6116))
+         if(Capabilities.playerType == class_146.var_6116)
          {
             class_100.var_4683 = class_99.var_4681;
             new class_100();
@@ -89,14 +89,14 @@ package
       
       public static function method_2246(param1:Array) : void
       {
-         var _loc2_:String = param1[class_73.method_2108(class_183.var_7129)];
+         var _loc2_:String = param1[class_183.var_7129];
          var _loc3_:String = param1[class_33.var_3679];
          if(!_loc3_)
          {
             return;
          }
          _loc3_ = _loc3_.replace(/</g,class_4.var_3032);
-         if(_loc2_ == class_73.method_2111(class_16.var_3413))
+         if(_loc2_ == class_16.var_3413)
          {
             return;
          }

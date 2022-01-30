@@ -37,9 +37,9 @@ package
          var _loc1_:Number = Math.sqrt(this.var_304 * this.var_304 + this.var_305 * this.var_305);
          if(Number.MIN_VALUE > _loc1_)
          {
-            return class_73.method_2116(class_107.var_4953);
+            return class_107.var_4953;
          }
-         var _loc2_:Number = class_73.method_2116(class_121.var_5450) / _loc1_;
+         var _loc2_:Number = class_121.var_5450 / _loc1_;
          this.var_304 *= _loc2_;
          this.var_305 *= _loc2_;
          return _loc1_;
@@ -48,7 +48,7 @@ package
       public function method_671() : void
       {
          this.var_304 = class_107.var_4953;
-         this.var_305 = class_73.method_2116(class_107.var_4953);
+         this.var_305 = class_107.var_4953;
       }
       
       public function method_672(param1:Number) : void
@@ -91,7 +91,7 @@ package
          {
             this.var_304 = -this.var_304;
          }
-         if(this.var_305 < class_73.method_2108(class_183.var_7129))
+         if(this.var_305 < class_183.var_7129)
          {
             this.var_305 = -this.var_305;
          }

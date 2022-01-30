@@ -28,13 +28,13 @@ package
          this.var_592 = new class_167();
          super();
          type = class_122.const_500;
-         this.var_591.method_105(class_73.method_2116(class_107.var_4953),class_73.method_2116(class_107.var_4953));
-         this.var_592.method_105(class_73.method_2116(class_107.var_4953),class_107.var_4953);
+         this.var_591.method_105(class_107.var_4953,class_107.var_4953);
+         this.var_592.method_105(class_107.var_4953,class_107.var_4953);
          this.var_648 = class_107.var_4953;
-         this.var_650 = class_73.method_2116(class_107.var_4953);
-         this.var_651 = class_73.method_2116(class_107.var_4953);
+         this.var_650 = class_107.var_4953;
+         this.var_651 = class_107.var_4953;
          this.var_654 = class_107.var_4953;
-         this.var_653 = class_73.method_2116(class_107.var_4953);
+         this.var_653 = class_107.var_4953;
          this.var_649 = class_99.var_4682;
          this.var_652 = class_99.var_4682;
       }

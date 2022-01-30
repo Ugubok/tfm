@@ -8,8 +8,8 @@ package
       public static const const_1198:Vector.<int> = new Vector.<int>();
       
       {
-         class_558.const_1198.push(class_73.method_2108(class_92.var_4551));
-         class_558.const_1198.push(class_73.method_2108(class_102.var_4748));
+         class_558.const_1198.push(class_92.var_4551);
+         class_558.const_1198.push(class_102.var_4748);
          class_558.const_1198.push(class_162.var_6309);
       }
       

@@ -3,9 +3,9 @@ package
    public class class_710
    {
       
-      public static const const_429:class_710 = new class_710(7688 + -7688,class_296.const_743.var_598,class_73.method_2111("x_fond_dessin_halloween.jpg"));
+      public static const const_429:class_710 = new class_710(7688 + -7688,class_296.const_743.var_598,"x_fond_dessin_halloween.jpg");
       
-      public static const const_692:class_710 = new class_710(1135 + -1134,class_296.const_744.var_598,class_73.method_2111("x_fond_dessin_noel.jpg"));
+      public static const const_692:class_710 = new class_710(1135 + -1134,class_296.const_744.var_598,"x_fond_dessin_noel.jpg");
       
       public static const const_676:class_710 = new class_710(9 + -7,class_296.const_746.var_598,"x_fond_dessin_stvalentin.jpg");
       

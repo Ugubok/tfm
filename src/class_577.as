@@ -16,7 +16,7 @@ package
          var_873 = class_577.const_1199 == param1.var_531.var_956;
          if(var_873)
          {
-            class_184.var_2341.var_985 = class_73.method_2116(class_92.var_4648);
+            class_184.var_2341.var_985 = class_92.var_4648;
             param1.var_506.var_467.push(class_46.const_164);
          }
       }

@@ -63,7 +63,7 @@ package
       
       public function method_1003(param1:int, param2:int) : void
       {
-         if(!this.var_1339 || this.var_1339.length == class_73.method_2108(class_183.var_7129))
+         if(!this.var_1339 || this.var_1339.length == class_183.var_7129)
          {
             return;
          }
@@ -85,7 +85,7 @@ package
          _loc2_.mouseChildren = class_99.var_4682;
          _loc2_.removeEventListener(MouseEvent.MOUSE_DOWN,this.method_1004);
          this.var_1336.addChild(_loc2_);
-         if(this.var_1337.numChildren == class_73.method_2108(class_183.var_7129) && this.var_1337.parent)
+         if(this.var_1337.numChildren == class_183.var_7129 && this.var_1337.parent)
          {
             this.var_1337.parent.removeChild(this.var_1337);
          }
@@ -100,7 +100,7 @@ package
             this.var_1340 = class_99.var_4681;
             _loc2_ = new class_587(class_58.var_3803.var_506.var_426,class_58.var_3803.var_506.var_420,param1);
             this.var_1339.push(_loc2_);
-            _loc3_ = class_73.method_2108(class_183.var_7129);
+            _loc3_ = class_183.var_7129;
             while(_loc3_ < _loc2_.var_2279.length)
             {
                if(_loc2_.var_2279[_loc3_].var_2289 == class_588.var_7342)
@@ -164,8 +164,8 @@ package
       {
          var _loc2_:Sprite = null;
          _loc2_ = Sprite(param1.method_1642(true).method_1132());
-         _loc2_.getChildAt(class_183.var_7129).transform.colorTransform = new ColorTransform(class_183.var_7129,class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129));
-         _loc2_.filters = new Array(new GlowFilter(16763904,class_33.var_3679,class_73.method_2108(class_117.var_5287),class_117.var_5287,class_73.method_2108(class_146.var_6118),class_146.var_6118));
+         _loc2_.getChildAt(class_183.var_7129).transform.colorTransform = new ColorTransform(class_183.var_7129,class_183.var_7129,class_183.var_7129);
+         _loc2_.filters = new Array(new GlowFilter(16763904,class_33.var_3679,class_117.var_5287,class_117.var_5287,class_146.var_6118,class_146.var_6118));
          _loc2_.mouseEnabled = class_99.var_4681;
          _loc2_.useHandCursor = class_99.var_4681;
          _loc2_.buttonMode = class_99.var_4681;

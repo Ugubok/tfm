@@ -29,13 +29,13 @@ package
       public function class_108(param1:ByteArray = null)
       {
          var _loc2_:Vector.<String> = null;
-         super(class_89.var_4432,class_73.method_2108(class_102.var_4850));
+         super(class_89.var_4432,class_102.var_4850);
          if(class_108.var_5077 && class_108.var_5077.parent)
          {
             class_108.var_5077.parent.removeChild(class_108.var_5077);
          }
          class_108.var_5077 = this;
-         method_216(new class_245(class_243.const_642,class_73.method_2108(class_117.var_5287)));
+         method_216(new class_245(class_243.const_642,class_117.var_5287));
          if(param1 == null)
          {
             this.method_466();
@@ -52,8 +52,8 @@ package
             }
             this.method_470(_loc2_);
          }
-         x = int((class_107.var_5074 - width) / class_73.method_2108(class_165.var_6534));
-         y = int((-height + class_89.var_4432) / class_73.method_2108(class_165.var_6534)) + class_33.var_3675;
+         x = int((class_107.var_5074 - width) / class_165.var_6534);
+         y = int((-height + class_89.var_4432) / class_165.var_6534) + class_33.var_3675;
       }
       
       public function method_465() : void
@@ -66,7 +66,7 @@ package
          }
          var _loc1_:Vector.<String> = new Vector.<String>();
          _loc1_.push(this.var_634.var_1226.text);
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
+         var _loc2_:int = class_183.var_7129;
          while(_loc2_ < this.var_635.length)
          {
             _loc3_ = this.var_635[_loc2_];
@@ -94,10 +94,10 @@ package
          method_221(class_117.var_5287);
          var _loc1_:class_244 = this.var_634;
          this.var_635 = new Vector.<class_244>();
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
-         while(_loc2_ < class_73.method_2108(class_9.var_3267))
+         var _loc2_:int = class_183.var_7129;
+         while(_loc2_ < class_9.var_3267)
          {
-            _loc3_ = new class_244(name_5).method_941(class_26.method_1668(class_73.method_2111(class_181.var_6890)) + class_73.method_2111(class_124.var_5647) + (class_33.var_3679 + _loc2_));
+            _loc3_ = new class_244(name_5).method_941(class_26.method_1668(class_181.var_6890) + class_124.var_5647 + (class_33.var_3679 + _loc2_));
             _loc3_.var_1226.maxChars = class_121.var_5493;
             method_136(_loc3_);
             this.var_635.push(_loc3_);
@@ -106,7 +106,7 @@ package
             _loc2_++;
          }
          method_136(new class_246(class_26.method_1668(class_124.var_5603),name_5,this.method_465));
-         method_136(new class_246(class_26.method_1668(class_73.method_2111(class_60.var_3934)),name_5,this.method_469));
+         method_136(new class_246(class_26.method_1668(class_60.var_3934),name_5,this.method_469));
          method_251(true,class_146.var_6117,true);
       }
       
@@ -120,7 +120,7 @@ package
       {
          var _loc1_:Vector.<String> = new Vector.<String>();
          _loc1_.push(this.var_642);
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
+         var _loc2_:int = class_183.var_7129;
          var _loc3_:int = class_183.var_7129;
          while(_loc3_ < this.var_637.length)
          {
@@ -134,7 +134,7 @@ package
          _loc3_ = class_183.var_7129;
          while(_loc3_ < this.var_636.length)
          {
-            _loc1_.push(class_73.method_2111(class_9.var_3209) + this.var_636[_loc3_] + class_73.method_2111(class_107.var_5007) + this.var_637[_loc3_] + class_60.var_3910 + Math.round(this.var_637[_loc3_] / _loc2_ * class_73.method_2108(class_121.var_5493)) + class_124.var_5602);
+            _loc1_.push(class_9.var_3209 + this.var_636[_loc3_] + class_107.var_5007 + this.var_637[_loc3_] + class_60.var_3910 + Math.round(this.var_637[_loc3_] / _loc2_ * class_121.var_5493) + class_124.var_5602);
             _loc3_++;
          }
          class_39.var_3744.method_313(new class_411(_loc1_));
@@ -159,14 +159,14 @@ package
          this.var_636 = param1;
          this.var_637 = new Vector.<int>(param1.length,true);
          this.var_638 = new Vector.<class_246>(param1.length,true);
-         method_221(class_73.method_2108(class_117.var_5287));
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         method_221(class_117.var_5287);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < param1.length)
          {
             _loc4_ = new class_246(param1[_loc3_],name_5,this.method_467,_loc3_);
             method_136(_loc4_);
             this.var_638[_loc3_] = _loc4_;
-            if(this.var_639 == class_111.var_2367 || this.var_639 == class_73.method_2108(class_183.var_7129))
+            if(this.var_639 == class_111.var_2367 || this.var_639 == class_183.var_7129)
             {
                _loc4_.method_961(false);
             }
@@ -178,7 +178,7 @@ package
          }
          else if(class_111.var_2367 == this.var_639)
          {
-            method_136(new class_246(class_26.method_1668(class_73.method_2111(class_162.var_6301)),name_5,this.method_468));
+            method_136(new class_246(class_26.method_1668(class_162.var_6301),name_5,this.method_468));
             method_136(new class_246(class_26.method_1668(class_60.var_3934),name_5,this.method_469));
          }
          method_251(true,class_146.var_6117,true);
@@ -195,9 +195,9 @@ package
          {
             return;
          }
-         this.var_637[param1] += class_73.method_2108(class_33.var_3679);
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         this.var_637[param1] += class_33.var_3679;
+         var _loc2_:int = class_183.var_7129;
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < this.var_637.length)
          {
             _loc2_ += this.var_637[_loc3_];
@@ -205,13 +205,13 @@ package
          }
          if(_loc2_ == class_183.var_7129)
          {
-            _loc2_ = class_73.method_2108(class_33.var_3679);
+            _loc2_ = class_33.var_3679;
          }
          _loc3_ = class_183.var_7129;
          while(_loc3_ < this.var_637.length)
          {
             _loc4_ = this.var_638[_loc3_];
-            _loc4_.method_955(class_73.method_2111(class_9.var_3209) + this.var_636[_loc3_] + class_73.method_2111(class_107.var_5007) + this.var_637[_loc3_] + class_73.method_2111(class_60.var_3910) + Math.round(this.var_637[_loc3_] / _loc2_ * class_73.method_2108(class_121.var_5493)) + class_124.var_5602);
+            _loc4_.method_955(class_9.var_3209 + this.var_636[_loc3_] + class_107.var_5007 + this.var_637[_loc3_] + class_60.var_3910 + Math.round(this.var_637[_loc3_] / _loc2_ * class_121.var_5493) + class_124.var_5602);
             _loc3_++;
          }
       }

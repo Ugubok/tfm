@@ -56,7 +56,7 @@ package
          }
          _loc1_ = int(class_217.var_2109[this.var_2680]);
          class_538.var_7323 += _loc1_;
-         var _loc2_:MovieClip = class_175.method_118(class_73.method_2111(class_89.var_4288));
+         var _loc2_:MovieClip = class_175.method_118(class_89.var_4288);
          _loc2_.mouseChildren = class_99.var_4682;
          _loc2_.mouseEnabled = class_99.var_4682;
          var _loc3_:TextField = _loc2_.x_texte;
@@ -72,12 +72,12 @@ package
                _loc2_.x_fond.x_couleur.transform.colorTransform = class_802.var_7394;
                if(!this.var_2684)
                {
-                  _loc2_.transform.colorTransform = new ColorTransform(class_73.method_2116(class_92.var_4648),class_73.method_2116(class_92.var_4648),class_73.method_2116(class_92.var_4648));
+                  _loc2_.transform.colorTransform = new ColorTransform(class_92.var_4648,class_92.var_4648,class_92.var_4648);
                   _loc3_.visible = class_99.var_4682;
                }
                else
                {
-                  _loc2_.transform.colorTransform = new ColorTransform(class_146.var_6103,class_146.var_6103,class_73.method_2116(class_146.var_6103));
+                  _loc2_.transform.colorTransform = new ColorTransform(class_146.var_6103,class_146.var_6103,class_146.var_6103);
                }
             }
             else if(_loc1_ == this.var_2681)
@@ -86,7 +86,7 @@ package
                _loc3_.textColor = 14650138;
                this.var_2684 = class_99.var_4682;
             }
-            else if(class_73.method_2108(class_183.var_7129) < _loc1_)
+            else if(class_183.var_7129 < _loc1_)
             {
                _loc2_.x_fond.x_couleur.transform.colorTransform = class_802.var_7393;
                _loc3_.textColor = 56644;
@@ -101,7 +101,7 @@ package
             this.var_2684 = class_99.var_4682;
             _loc3_.visible = class_99.var_4682;
             _loc2_.x_fond.x_couleur.transform.colorTransform = class_802.var_7394;
-            _loc2_.transform.colorTransform = new ColorTransform(class_73.method_2116(class_4.var_3040),class_73.method_2116(class_4.var_3040),class_4.var_3040);
+            _loc2_.transform.colorTransform = new ColorTransform(class_4.var_3040,class_4.var_3040,class_4.var_3040);
          }
          if(this.var_2682)
          {
@@ -110,9 +110,9 @@ package
          var _loc4_:int = _loc1_;
          if(class_183.var_7129 == _loc4_)
          {
-            _loc4_ = class_73.method_2108(class_33.var_3679);
+            _loc4_ = class_33.var_3679;
          }
-         class_1.var_2884.method_7(_loc2_,class_73.method_2111(class_121.var_5462) + class_26.method_1668(class_62.var_4007 + this.var_2680 + class_89.var_4336) + class_162.var_6200 + _loc1_ + class_16.var_3431 + this.var_2681 + class_73.method_2111(class_183.var_6988) + class_26.method_1668(class_62.var_4007 + this.var_2680,class_165.var_6521 + (_loc4_ * this.var_595 + this.var_2683) + class_62.var_4121),class_183.var_7129,class_183.var_7129,class_183.var_7129,class_89.var_4444);
+         class_1.var_2884.method_7(_loc2_,class_121.var_5462 + class_26.method_1668(class_62.var_4007 + this.var_2680 + class_89.var_4336) + class_162.var_6200 + _loc1_ + class_16.var_3431 + this.var_2681 + class_183.var_6988 + class_26.method_1668(class_62.var_4007 + this.var_2680,class_165.var_6521 + (_loc4_ * this.var_595 + this.var_2683) + class_62.var_4121),class_183.var_7129,class_183.var_7129,class_183.var_7129,class_89.var_4444);
          addChild(_loc2_);
       }
    }

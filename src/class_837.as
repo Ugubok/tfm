@@ -29,7 +29,7 @@ package
          this.var_721 = param1.readUTF();
          var _loc2_:int = param1.readUnsignedByte();
          this.var_2755 = new Dictionary();
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < _loc2_)
          {
             _loc4_ = param1.readInt();

@@ -19,7 +19,7 @@ package
          this.var_574 = param1.readUnsignedByte();
          var _loc2_:int = param1.readUnsignedByte();
          this.var_1998 = new Vector.<String>(_loc2_);
-         var _loc3_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc3_:int = -class_33.var_3679;
          while(++_loc3_ < _loc2_)
          {
             this.var_1998[_loc3_] = param1.readUTF();

@@ -21,7 +21,7 @@ package
       
       public static function method_2270(param1:int, param2:int) : void
       {
-         class_39.var_3744.method_313(new class_22(class_117.var_5171 + param1 + class_73.method_2111(class_181.var_6848) + param2 + class_4.var_3038));
+         class_39.var_3744.method_313(new class_22(class_117.var_5171 + param1 + class_181.var_6848 + param2 + class_4.var_3038));
       }
       
       public static function name_9() : void
@@ -71,14 +71,14 @@ package
       
       public static function method_2271(param1:String) : void
       {
-         var _loc2_:String = class_73.method_2111(class_89.var_4368) + param1;
+         var _loc2_:String = class_89.var_4368 + param1;
          class_1.var_2884.method_77(_loc2_);
       }
       
       public static function method_2272(param1:String) : void
       {
-         var _loc2_:String = class_73.method_2111(class_102.var_4847);
-         if(param1.indexOf(class_73.method_2111(class_89.var_4425)) == class_183.var_7129)
+         var _loc2_:String = class_102.var_4847;
+         if(param1.indexOf(class_89.var_4425) == class_183.var_7129)
          {
             _loc2_ += param1;
          }

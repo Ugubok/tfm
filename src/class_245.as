@@ -20,9 +20,9 @@ package
       
       public function class_245(param1:class_243, param2:int = 2, param3:int = 0)
       {
-         this.var_1239 = class_73.method_2108(class_183.var_7129);
-         this.var_1240 = class_73.method_2108(class_165.var_6534);
-         this.var_1241 = class_73.method_2108(class_165.var_6534);
+         this.var_1239 = class_183.var_7129;
+         this.var_1240 = class_165.var_6534;
+         this.var_1241 = class_165.var_6534;
          super();
          this.var_1238 = param1;
          this.var_1240 = param2;

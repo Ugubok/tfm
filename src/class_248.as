@@ -3,11 +3,11 @@ package
    public class class_248
    {
       
-      public static const const_650:String = class_73.method_2111("A-Za-z0-9_+#*");
+      public static const const_650:String = "A-Za-z0-9_+#*";
       
-      public static const const_651:String = class_73.method_2111("A-Za-z0-9_+#");
+      public static const const_651:String = "A-Za-z0-9_+#";
       
-      public static const const_652:String = class_73.method_2111("A-Za-z0-9_+@.\\-");
+      public static const const_652:String = "A-Za-z0-9_+@.\\-";
       
       public static const const_653:int = 678 + -675;
       
@@ -19,11 +19,11 @@ package
       
       public static const const_657:String = "A-Za-z0-9_";
       
-      public static const const_658:RegExp = new RegExp("^\\*[a-z][a-z0-9]*(_[a-z0-9]+){0,3}$",class_73.method_2111("i"));
+      public static const const_658:RegExp = new RegExp("^\\*[a-z][a-z0-9]*(_[a-z0-9]+){0,3}$","i");
       
-      public static const const_659:RegExp = new RegExp(class_73.method_2111("^\\+?[a-z][a-z0-9]*(_[a-z0-9]+){0,3}$"),class_73.method_2111("i"));
+      public static const const_659:RegExp = new RegExp("^\\+?[a-z][a-z0-9]*(_[a-z0-9]+){0,3}$","i");
       
-      public static const const_660:RegExp = new RegExp(class_73.method_2111("^\\+?[a-z][a-z0-9]*(_[a-z0-9]+){0,3}#\\d{4}$"),"i");
+      public static const const_660:RegExp = new RegExp("^\\+?[a-z][a-z0-9]*(_[a-z0-9]+){0,3}#\\d{4}$","i");
       
       public static const const_661:int = 8927 + -8877;
       

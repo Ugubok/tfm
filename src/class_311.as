@@ -58,10 +58,10 @@ package
       
       public function class_311(param1:int)
       {
-         this.var_1492 = class_73.method_2108(class_33.var_3679);
+         this.var_1492 = class_33.var_3679;
          this.alpha = class_33.var_3679;
          this.var_1495 = class_183.var_7129;
-         this.var_1496 = class_73.method_2108(class_183.var_7129);
+         this.var_1496 = class_183.var_7129;
          super();
          this.type = param1;
       }
@@ -76,9 +76,9 @@ package
          _loc4_ = param1.split(class_107.var_5062);
          if(param2)
          {
-            return new class_167((param3 - int(_loc4_[class_73.method_2108(class_183.var_7129)])) / class_73.method_2108(class_162.var_6351),int(_loc4_[class_33.var_3679]) / class_73.method_2108(class_162.var_6351));
+            return new class_167((param3 - int(_loc4_[class_183.var_7129])) / class_162.var_6351,int(_loc4_[class_33.var_3679]) / class_162.var_6351);
          }
-         return new class_167(int(_loc4_[class_73.method_2108(class_183.var_7129)]) / class_162.var_6351,int(_loc4_[class_73.method_2108(class_33.var_3679)]) / class_73.method_2108(class_162.var_6351));
+         return new class_167(int(_loc4_[class_183.var_7129]) / class_162.var_6351,int(_loc4_[class_33.var_3679]) / class_162.var_6351);
       }
       
       public static function method_2884(param1:String, param2:Boolean) : class_167
@@ -91,7 +91,7 @@ package
          _loc3_ = param1.split(class_107.var_5062);
          if(param2)
          {
-            return new class_167(-int(_loc3_[class_183.var_7129]),int(_loc3_[class_73.method_2108(class_33.var_3679)]));
+            return new class_167(-int(_loc3_[class_183.var_7129]),int(_loc3_[class_33.var_3679]));
          }
          return new class_167(int(_loc3_[class_183.var_7129]),int(_loc3_[class_33.var_3679]));
       }

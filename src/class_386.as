@@ -26,21 +26,21 @@ package
       
       public function class_386(param1:Object, param2:String = "", param3:int = 0, param4:DisplayObject = null)
       {
-         super(class_73.method_2108(class_170.var_6720),class_170.var_6720);
+         super(class_170.var_6720,class_170.var_6720);
          mouseChildren = class_99.var_4682;
          this.var_1719 = new Sprite();
          this.var_1719.y = class_146.var_6118;
          this.var_1719.graphics.beginFill(2306616);
-         this.var_1719.graphics.drawCircle(class_9.var_3267,class_9.var_3267,class_73.method_2108(class_9.var_3267));
+         this.var_1719.graphics.drawCircle(class_9.var_3267,class_9.var_3267,class_9.var_3267);
          this.var_1719.graphics.endFill();
-         this.var_1719.filters = new Array(new BevelFilter(class_33.var_3679,class_107.var_5038,class_73.method_2108(class_183.var_7129),class_33.var_3679,6325657,class_73.method_2108(class_33.var_3679),class_73.method_2108(class_33.var_3679),class_33.var_3679,class_73.method_2108(class_33.var_3679),class_73.method_2108(class_146.var_6118)));
+         this.var_1719.filters = new Array(new BevelFilter(class_33.var_3679,class_107.var_5038,class_183.var_7129,class_33.var_3679,6325657,class_33.var_3679,class_33.var_3679,class_33.var_3679,class_33.var_3679,class_146.var_6118));
          this.var_1655 = new Sprite();
          this.var_1655.graphics.beginFill(11059144);
-         this.var_1655.graphics.drawCircle(class_73.method_2108(class_9.var_3267),class_9.var_3267,class_146.var_6118);
-         this.var_1655.y = class_73.method_2108(class_146.var_6118);
+         this.var_1655.graphics.drawCircle(class_9.var_3267,class_9.var_3267,class_146.var_6118);
+         this.var_1655.y = class_146.var_6118;
          addChild(this.var_1719);
-         graphics.beginFill(class_73.method_2108(class_183.var_7129),class_183.var_7129);
-         graphics.drawRect(class_183.var_7129,class_183.var_7129,class_73.method_2108(class_102.var_4859),class_73.method_2108(class_92.var_4628));
+         graphics.beginFill(class_183.var_7129,class_183.var_7129);
+         graphics.drawRect(class_183.var_7129,class_183.var_7129,class_102.var_4859,class_92.var_4628);
          graphics.endFill();
          if(param4 != null)
          {
@@ -50,13 +50,13 @@ package
          {
             this.var_1720 = new class_220(param2);
             this.var_1720.x = class_183.var_7127;
-            this.var_1720.y = -class_73.method_2108(class_33.var_3679);
+            this.var_1720.y = -class_33.var_3679;
          }
          addChild(this.var_1720);
          if(param3)
          {
             name_5 = param3;
-            this.var_1720.x = class_73.method_2108(class_183.var_7127);
+            this.var_1720.x = class_183.var_7127;
          }
          else
          {
@@ -107,7 +107,7 @@ package
          }
          this.name_43 = param1;
          method_203(!!this.name_43 ? this.method_1251 : null);
-         transform.colorTransform = new ColorTransform(class_73.method_2116(class_127.var_5844),class_73.method_2116(class_127.var_5844),class_73.method_2116(class_127.var_5844));
+         transform.colorTransform = new ColorTransform(class_127.var_5844,class_127.var_5844,class_127.var_5844);
          return this;
       }
       

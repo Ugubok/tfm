@@ -15,7 +15,7 @@ package
          this.var_2547 = class_183.var_7129;
          super();
          this.var_2546 = new Array(class_327.const_803);
-         var _loc1_:int = class_73.method_2108(class_183.var_7129);
+         var _loc1_:int = class_183.var_7129;
          while(_loc1_ < class_327.const_803)
          {
             this.var_2546[_loc1_] = new class_728();
@@ -45,7 +45,7 @@ package
             _loc1_++;
          }
          this.normal.method_671();
-         this.var_2547 = class_73.method_2108(class_183.var_7129);
+         this.var_2547 = class_183.var_7129;
       }
    }
 }

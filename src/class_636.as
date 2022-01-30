@@ -34,12 +34,12 @@ package
          this.var_768 = param1;
          this.var_2410 = param2;
          this.var_2411 = this.var_2410 == -class_33.var_3679;
-         this.var_304 = param3 / class_73.method_2108(class_121.var_5493);
-         this.var_305 = param4 / class_73.method_2108(class_121.var_5493);
-         this.var_2412 = param5 / class_73.method_2108(class_121.var_5493);
+         this.var_304 = param3 / class_121.var_5493;
+         this.var_305 = param4 / class_121.var_5493;
+         this.var_2412 = param5 / class_121.var_5493;
          this.var_2413 = param6 / class_121.var_5493;
-         this.var_682 = param7 / class_73.method_2108(class_121.var_5493);
-         this.var_2414 = param8 / class_73.method_2108(class_121.var_5493);
+         this.var_682 = param7 / class_121.var_5493;
+         this.var_2414 = param8 / class_121.var_5493;
          this.var_1484 = param9;
          this.var_2415 = param10;
          this.var_2416 = param11;

@@ -42,8 +42,8 @@ package
          var _loc13_:Point = null;
          var _loc14_:Point = null;
          var _loc8_:class_118 = new class_118(false);
-         _loc8_.position.method_105(!!param4 ? Number(param4.x / class_73.method_2116(class_181.var_6937)) : Number(class_73.method_2108(class_183.var_7129)),!!param4 ? Number(param4.y / class_73.method_2116(class_181.var_6937)) : Number(class_73.method_2108(class_183.var_7129)));
-         _loc8_.var_682 = class_73.method_2108(class_183.var_7129);
+         _loc8_.position.method_105(!!param4 ? Number(param4.x / class_181.var_6937) : Number(class_183.var_7129),!!param4 ? Number(param4.y / class_181.var_6937) : Number(class_183.var_7129));
+         _loc8_.var_682 = class_183.var_7129;
          if(param5)
          {
             _loc8_.userData = param5;
@@ -55,11 +55,11 @@ package
             param7 = new class_348();
             param7.var_415 = class_162.var_6351;
             param7.var_413 = class_146.var_6103;
-            param7.var_414 = class_73.method_2116(class_107.var_5060);
+            param7.var_414 = class_107.var_5060;
             class_47.method_1951(param7.var_417,class_47.name_59);
          }
          var _loc10_:Number = param3 / class_181.var_6937;
-         var _loc11_:int = class_73.method_2108(class_183.var_7129);
+         var _loc11_:int = class_183.var_7129;
          var _loc12_:int = param1.length;
          while(_loc11_ < _loc12_)
          {
@@ -74,8 +74,8 @@ package
          while(_loc11_ < _loc12_)
          {
             _loc13_ = param1[_loc11_];
-            _loc14_ = param1[_loc11_ == _loc12_ - class_73.method_2108(class_33.var_3679) ? class_73.method_2108(class_183.var_7129) : _loc11_ + class_33.var_3679];
-            param7.method_1198(class_445.distance(_loc13_,_loc14_) / class_73.method_2108(class_165.var_6534),_loc10_,class_445.method_3024(class_445.method_3021(_loc13_,_loc14_)),class_445.method_3020(_loc13_,_loc14_),class_73.method_2108(class_183.var_7129),class_183.var_7129);
+            _loc14_ = param1[_loc11_ == _loc12_ - class_33.var_3679 ? class_183.var_7129 : _loc11_ + class_33.var_3679];
+            param7.method_1198(class_445.distance(_loc13_,_loc14_) / class_165.var_6534,_loc10_,class_445.method_3024(class_445.method_3021(_loc13_,_loc14_)),class_445.method_3020(_loc13_,_loc14_),class_183.var_7129,class_183.var_7129);
             _loc9_.method_549(param7);
             _loc11_++;
          }

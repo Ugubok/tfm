@@ -7,7 +7,7 @@ package
       public function class_752(param1:Boolean, param2:Vector.<String> = null)
       {
          var _loc3_:String = null;
-         super(class_73.method_2108(class_16.var_3473),class_170.var_6720);
+         super(class_16.var_3473,class_170.var_6720);
          var_159.writeBoolean(param1);
          if(param1 && param2)
          {
@@ -19,7 +19,7 @@ package
          }
          else
          {
-            var_159.writeByte(class_73.method_2108(class_183.var_7129));
+            var_159.writeByte(class_183.var_7129);
          }
       }
    }

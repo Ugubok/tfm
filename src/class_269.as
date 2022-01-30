@@ -49,28 +49,28 @@ package
          this.var_1316 = new Vector.<class_390>();
          this.var_1317 = new Vector.<class_390>();
          super();
-         this.var_1309 = new class_24(class_73.method_2108(class_9.var_3233),class_73.method_2108(class_89.var_4432));
+         this.var_1309 = new class_24(class_9.var_3233,class_89.var_4432);
          this.var_1309.method_216(new class_245(class_243.const_642));
          addChild(this.var_1309);
-         this.var_1178 = new class_24(class_73.method_2108(class_9.var_3233),class_33.var_3636);
+         this.var_1178 = new class_24(class_9.var_3233,class_33.var_3636);
          this.var_1178.method_216(new class_245(class_243.const_639,class_89.var_4402));
          this.var_1180 = class_175.method_118(class_127.var_5816);
          this.var_1180.scaleX = this.var_1180.scaleY = class_117.var_5287;
-         this.var_1180.alpha = class_73.method_2116(class_92.var_4648);
+         this.var_1180.alpha = class_92.var_4648;
          this.var_1180.cacheAsBitmap = class_99.var_4681;
          this.var_1180.addEventListener(MouseEvent.MOUSE_DOWN,this.method_991);
          this.var_1178.method_136(this.var_1180);
-         this.var_1313 = class_175.method_118(class_73.method_2111(class_162.var_6287));
-         this.var_1313.scaleX = this.var_1313.scaleY = class_73.method_2108(class_117.var_5287);
-         this.var_1313.alpha = class_73.method_2116(class_92.var_4648);
+         this.var_1313 = class_175.method_118(class_162.var_6287);
+         this.var_1313.scaleX = this.var_1313.scaleY = class_117.var_5287;
+         this.var_1313.alpha = class_92.var_4648;
          this.var_1313.cacheAsBitmap = class_99.var_4681;
          this.var_1313.addEventListener(MouseEvent.MOUSE_DOWN,this.method_990);
          this.var_1178.method_136(this.var_1313);
-         this.var_1310 = new class_24(class_170.var_6642,class_73.method_2108(class_9.var_3233));
+         this.var_1310 = new class_24(class_170.var_6642,class_9.var_3233);
          this.var_1310.method_216(new class_245(class_243.const_640));
          if(this.var_1314)
          {
-            this.var_1310.method_244(true,class_73.method_2108(class_33.var_3679));
+            this.var_1310.method_244(true,class_33.var_3679);
             this.var_1310.addEventListener(MouseEvent.MOUSE_DOWN,this.method_995);
             this.var_1310.addEventListener(MouseEvent.MOUSE_UP,this.method_998);
             this.var_1310.addEventListener(MouseEvent.MOUSE_MOVE,this.method_1001);
@@ -83,12 +83,12 @@ package
          }
          this.var_1309.method_136(this.var_1310);
          this.var_1309.method_136(this.var_1178);
-         this.var_1309.x = class_73.method_2108(class_33.var_3675);
-         this.method_987(class_390.method_2922(-class_73.method_2108(class_33.var_3679),class_73.method_2108(class_183.var_7129),true),true);
+         this.var_1309.x = class_33.var_3675;
+         this.method_987(class_390.method_2922(-class_33.var_3679,class_183.var_7129,true),true);
          this.method_987(class_390.method_2922(class_46.const_158,class_183.var_7129,true),true);
          this.method_987(class_390.method_2922(class_46.const_151,class_183.var_7129,true),true);
          this.method_987(class_390.method_2922(class_46.const_154,class_183.var_7129,true),true);
-         this.method_987(class_390.method_2922(class_46.const_155,class_73.method_2108(class_183.var_7129),true),true);
+         this.method_987(class_390.method_2922(class_46.const_155,class_183.var_7129,true),true);
          this.method_987(class_390.method_2922(class_46.const_156,class_183.var_7129,true),true);
          addEventListener(Event.ADDED_TO_STAGE,this.method_989);
       }
@@ -112,7 +112,7 @@ package
       
       public function method_987(param1:class_390, param2:Boolean = false) : void
       {
-         param1.scaleX = param1.scaleY = class_73.method_2108(class_165.var_6534);
+         param1.scaleX = param1.scaleY = class_165.var_6534;
          if(param2)
          {
             this.var_1317.push(param1);
@@ -135,13 +135,13 @@ package
       {
          if(!stage)
          {
-            removeEventListener(class_73.method_2111(class_124.var_5632),this.method_988);
+            removeEventListener(class_124.var_5632,this.method_988);
             return;
          }
-         if(this.var_1311 && class_168.var_6539.x > class_73.method_2108(class_162.var_6343))
+         if(this.var_1311 && class_168.var_6539.x > class_162.var_6343)
          {
             this.var_1311 = class_99.var_4682;
-            this.var_1309.x = class_73.method_2108(class_33.var_3675);
+            this.var_1309.x = class_33.var_3675;
             if(this.var_1315)
             {
                this.method_994();
@@ -184,15 +184,15 @@ package
             this.var_1310.method_136(this.var_1316[_loc1_]);
             _loc1_++;
          }
-         this.var_1312 = class_73.method_2108(class_102.var_4852) < this.var_1310.var_241;
+         this.var_1312 = class_102.var_4852 < this.var_1310.var_241;
          this.var_1313.alpha = class_92.var_4648;
-         this.var_1180.alpha = class_73.method_2116(class_92.var_4648);
+         this.var_1180.alpha = class_92.var_4648;
       }
       
       public function method_993(param1:class_390) : void
       {
          this.var_1310.clear();
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
+         var _loc2_:int = class_183.var_7129;
          var _loc3_:int = this.var_1317.length;
          for(; _loc2_ < _loc3_; _loc2_++)
          {
@@ -214,7 +214,7 @@ package
          }
          this.var_1312 = this.var_1310.var_241 > class_102.var_4852;
          this.var_1313.alpha = class_107.var_5029;
-         this.var_1180.alpha = class_73.method_2116(class_107.var_5029);
+         this.var_1180.alpha = class_107.var_5029;
       }
       
       public function method_994() : void
@@ -265,13 +265,13 @@ package
             {
                class_119.method_848(new KeyboardEvent(KeyboardEvent.KEY_DOWN,true,false,class_392.const_938,class_392.const_938));
             }
-            else if(_loc2_.var_1480 == -class_73.method_2108(class_33.var_3679))
+            else if(_loc2_.var_1480 == -class_33.var_3679)
             {
                class_119.method_848(new KeyboardEvent(KeyboardEvent.KEY_DOWN,true,false,class_392.const_911,class_392.const_911));
             }
          }
          this.var_1321 = class_99.var_4682;
-         this.var_1319 = this.var_1320 = class_73.method_2108(class_183.var_7129);
+         this.var_1319 = this.var_1320 = class_183.var_7129;
          this.var_1318 = null;
          this.var_1322 = class_99.var_4682;
       }
@@ -294,7 +294,7 @@ package
       public function method_998(param1:MouseEvent) : void
       {
          this.var_1321 = class_99.var_4682;
-         this.var_1319 = this.var_1320 = class_73.method_2108(class_183.var_7129);
+         this.var_1319 = this.var_1320 = class_183.var_7129;
          this.var_1318 = null;
          this.var_1322 = class_99.var_4682;
       }

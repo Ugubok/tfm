@@ -13,7 +13,7 @@ package
          super(class_89.var_4444,class_62.var_4130);
          method_251(true,class_146.var_6117);
          var _loc1_:class_246 = new class_246(class_26.method_1668(class_60.var_3934),name_5,this.method_174);
-         _loc1_.y = -class_73.method_2108(class_16.var_3473) + var_206;
+         _loc1_.y = -class_16.var_3473 + var_206;
          addChild(_loc1_);
       }
       
@@ -28,9 +28,9 @@ package
                   class_613.var_2884 = new class_613();
                }
                class_613.var_2884.method_1674(param2);
-               class_613.var_2884.x = int((-class_613.var_2884.name_5 + class_107.var_5074) / class_73.method_2108(class_165.var_6534));
-               class_613.var_2884.y = class_73.method_2108(class_121.var_5493);
-               class_115.method_388(class_613.var_2884,class_73.method_2108(class_33.var_3679));
+               class_613.var_2884.x = int((-class_613.var_2884.name_5 + class_107.var_5074) / class_165.var_6534);
+               class_613.var_2884.y = class_121.var_5493;
+               class_115.method_388(class_613.var_2884,class_33.var_3679);
             }
             else if(class_613.var_2884 && class_613.var_2884.parent)
             {
@@ -48,10 +48,10 @@ package
          {
             this.var_2363.parent.removeChild(this.var_2363);
          }
-         this.var_2363 = new class_250(class_73.method_2111(class_33.var_3619) + param1 + class_73.method_2111(class_89.var_4385),class_102.var_4859,class_73.method_2108(class_102.var_4859));
+         this.var_2363 = new class_250(class_33.var_3619 + param1 + class_89.var_4385,class_102.var_4859,class_102.var_4859);
          addChild(this.var_2363);
-         this.var_2363.x = int((-this.var_2363.name_5 + name_5) / class_73.method_2108(class_165.var_6534));
-         this.var_2363.y = class_73.method_2108(class_165.var_6506);
+         this.var_2363.x = int((-this.var_2363.name_5 + name_5) / class_165.var_6534);
+         this.var_2363.y = class_165.var_6506;
       }
       
       public function method_174() : void

@@ -28,24 +28,24 @@ package
       
       public function class_587(param1:int, param2:int, param3:class_588)
       {
-         this.var_2287 = class_73.method_2108(class_107.var_5074);
-         this.var_2288 = -class_73.method_2108(class_33.var_3679);
+         this.var_2287 = class_107.var_5074;
+         this.var_2288 = -class_33.var_3679;
          super();
          this.var_2281 = param3.var_304;
          this.var_2282 = param3.var_305;
          this.var_2283 = param3.var_2283;
          this.var_2284 = param3.var_2284;
          this.var_2285 = param1;
-         this.var_2286 = class_73.method_2108(class_146.var_6118) * param3.name_5;
+         this.var_2286 = class_146.var_6118 * param3.name_5;
          this.var_2280 = new Vector.<Point>();
          this.var_2279 = new Vector.<class_588>();
-         var _loc4_:int = class_73.method_2108(class_183.var_7129);
+         var _loc4_:int = class_183.var_7129;
          do
          {
             this.var_2280.push(new Point(this.var_2281 + _loc4_ * this.var_2283,this.var_2282 + _loc4_ * this.var_2284));
             _loc4_++;
          }
-         while(this.var_2280[this.var_2280.length - class_73.method_2108(class_33.var_3679)].x < this.var_2285 + this.var_2287);
+         while(this.var_2280[this.var_2280.length - class_33.var_3679].x < this.var_2285 + this.var_2287);
          
          _loc4_ = -class_33.var_3679;
          do
@@ -53,7 +53,7 @@ package
             this.var_2280.unshift(new Point(this.var_2281 + _loc4_ * this.var_2283,this.var_2282 + _loc4_ * this.var_2284));
             _loc4_--;
          }
-         while(this.var_2280[class_73.method_2108(class_183.var_7129)].x > -this.var_2287);
+         while(this.var_2280[class_183.var_7129].x > -this.var_2287);
          
          var _loc5_:int = Math.ceil(this.var_2286 / this.var_2283);
          while(_loc5_--)
@@ -90,11 +90,11 @@ package
          {
             _loc7_ = this.var_2279[_loc6_];
             _loc4_ = this.var_2280[class_114.method_2306(_loc3_ + _loc6_ - _loc5_,class_183.var_7129,this.var_2280.length - class_33.var_3679)];
-            if(class_73.method_2109(class_73.method_2109(_loc4_)))
+            if(_loc4_)
             {
-               _loc8_ = class_73.method_2116(_loc4_.y);
-               _loc9_ = class_73.method_2116(_loc4_.x);
-               _loc7_.method_1094(_loc9_,class_73.method_2116(_loc8_));
+               _loc8_ = _loc4_.y;
+               _loc9_ = _loc4_.x;
+               _loc7_.method_1094(_loc9_,_loc8_);
             }
             _loc6_++;
          }

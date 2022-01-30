@@ -21,9 +21,9 @@ package
       public function class_44()
       {
          this.var_412 = class_279.const_703;
-         this.var_413 = class_73.method_2116(class_107.var_5060);
-         this.var_414 = class_73.method_2116(class_107.var_4953);
-         this.var_415 = class_73.method_2116(class_107.var_4953);
+         this.var_413 = class_107.var_5060;
+         this.var_414 = class_107.var_4953;
+         this.var_415 = class_107.var_4953;
          this.var_417 = new class_305();
          super();
       }

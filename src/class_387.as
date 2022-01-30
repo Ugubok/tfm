@@ -32,7 +32,7 @@ package
       
       public function method_1257(param1:class_386, param2:Boolean = true) : class_387
       {
-         if(this.var_1724.indexOf(param1) != -class_73.method_2108(class_33.var_3679))
+         if(this.var_1724.indexOf(param1) != -class_33.var_3679)
          {
             return this;
          }
@@ -52,7 +52,7 @@ package
          {
             return null;
          }
-         if(this.var_1725 < class_73.method_2108(class_183.var_7129) || this.var_1725 >= this.var_1724.length)
+         if(this.var_1725 < class_183.var_7129 || this.var_1725 >= this.var_1724.length)
          {
             return null;
          }
@@ -76,7 +76,7 @@ package
       
       public function method_1261(param1:int, param2:Boolean = true) : void
       {
-         if(param1 >= class_73.method_2108(class_183.var_7129) && param1 < this.var_1724.length)
+         if(param1 >= class_183.var_7129 && param1 < this.var_1724.length)
          {
             this.method_1260(this.var_1724[param1],param2);
          }
@@ -93,7 +93,7 @@ package
             {
                this.var_1725 = -class_33.var_3679;
             }
-            _loc1_ = class_73.method_2108(class_183.var_7129);
+            _loc1_ = class_183.var_7129;
             _loc2_ = this.var_1724.length;
             while(_loc1_ < _loc2_)
             {
@@ -104,7 +104,7 @@ package
          }
          else
          {
-            this.var_1725 = -class_73.method_2108(class_33.var_3679);
+            this.var_1725 = -class_33.var_3679;
          }
       }
    }

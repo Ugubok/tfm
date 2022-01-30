@@ -31,17 +31,17 @@ package
          this.var_2313 = param1.readInt();
          this.var_2314 = param1.readUTF();
          this.var_2316 = param1.readInt();
-         if(this.var_1471.length && this.var_1471.charAt(class_73.method_2108(class_183.var_7129)) == class_9.var_3256)
+         if(this.var_1471.length && this.var_1471.charAt(class_183.var_7129) == class_9.var_3256)
          {
             _loc2_ = class_26.method_1668(this.var_1471);
-            _loc2_ = _loc2_.split(class_73.method_2111(class_107.var_5071))[class_183.var_7129];
+            _loc2_ = _loc2_.split(class_107.var_5071)[class_183.var_7129];
             this.var_1471 = _loc2_;
          }
          else
          {
-            this.var_1471 = this.var_1471.replace(/</g,class_4.var_3032).replace(/&/g,class_73.method_2111(class_183.var_7088));
+            this.var_1471 = this.var_1471.replace(/</g,class_4.var_3032).replace(/&/g,class_183.var_7088);
          }
-         this.var_1471 = class_53.method_1965(this.var_1471,class_73.method_2111(class_9.var_3268));
+         this.var_1471 = class_53.method_1965(this.var_1471,class_9.var_3268);
       }
    }
 }

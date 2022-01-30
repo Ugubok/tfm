@@ -51,13 +51,13 @@ package
       
       public function class_755(param1:int, param2:int, param3:class_478)
       {
-         this.var_2603 = class_73.method_2108(class_33.var_3679);
+         this.var_2603 = class_33.var_3679;
          super(param1,param2);
          this.var_1541 = new class_24(name_5,var_206);
-         this.var_1541.method_216(new class_245(class_243.const_639,class_73.method_2108(class_117.var_5287)));
+         this.var_1541.method_216(new class_245(class_243.const_639,class_117.var_5287));
          addChild(this.var_1541);
          this.var_1541.graphics.beginFill(class_1.var_2878.var_180.var_1096);
-         this.var_1541.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_183.var_7129,name_5,var_206);
+         this.var_1541.graphics.drawRect(class_183.var_7129,class_183.var_7129,name_5,var_206);
          this.var_1541.graphics.endFill();
          this.var_2000 = param3;
          this.method_431();

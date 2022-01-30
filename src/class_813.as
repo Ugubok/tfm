@@ -21,13 +21,13 @@ package
          var _loc1_:class_250 = null;
          super(class_813.name_38,class_813.name_58);
          graphics.clear();
-         graphics.beginFill(class_73.method_2108(class_183.var_7129),class_73.method_2116(class_146.var_6072));
-         graphics.drawRoundRect(class_73.method_2108(class_183.var_7129),class_183.var_7129,class_813.name_38,class_813.name_58,class_73.method_2108(class_165.var_6534),class_73.method_2108(class_165.var_6534));
+         graphics.beginFill(class_183.var_7129,class_146.var_6072);
+         graphics.drawRoundRect(class_183.var_7129,class_183.var_7129,class_813.name_38,class_813.name_58,class_165.var_6534,class_165.var_6534);
          graphics.endFill();
          graphics.beginFill(4220339);
-         graphics.drawRoundRect(class_813.const_1327,class_813.const_1327,class_813.name_38 - class_165.var_6534 * class_813.const_1327,class_813.name_58 - class_165.var_6534 * class_813.const_1327,class_73.method_2108(class_165.var_6534),class_73.method_2108(class_165.var_6534));
+         graphics.drawRoundRect(class_813.const_1327,class_813.const_1327,class_813.name_38 - class_165.var_6534 * class_813.const_1327,class_813.name_58 - class_165.var_6534 * class_813.const_1327,class_165.var_6534,class_165.var_6534);
          graphics.endFill();
-         _loc1_ = new class_250(class_73.method_2111(class_146.var_6046),class_813.const_1330,class_813.const_1330).method_965(class_813.const_1330,class_813.const_1330);
+         _loc1_ = new class_250(class_146.var_6046,class_813.const_1330,class_813.const_1330).method_965(class_813.const_1330,class_813.const_1330);
          addChild(_loc1_);
          _loc1_.x = class_33.var_3679 + class_813.const_1327;
          _loc1_.y = class_813.const_1327 + class_33.var_3679;

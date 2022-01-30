@@ -13,7 +13,7 @@ package
       public function class_378()
       {
          this.var_1691 = class_306.var_7228;
-         this.var_1692 = -class_73.method_2108(class_33.var_3679);
+         this.var_1692 = -class_33.var_3679;
          super();
          class_378.var_2884 = this;
       }

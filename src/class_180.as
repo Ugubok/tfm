@@ -47,7 +47,7 @@ package
       
       public static var var_6769:Boolean = true;
       
-      public static var var_6770:String = class_73.method_2111("musiquetribu");
+      public static var var_6770:String = "musiquetribu";
       
       public static var var_6771:Boolean = true;
       
@@ -67,9 +67,9 @@ package
          }
          if(param1 < class_183.var_7129)
          {
-            return class_73.method_2108(class_183.var_7129);
+            return class_183.var_7129;
          }
-         return param1 * class_73.method_2116(class_16.var_3463);
+         return param1 * class_16.var_3463;
       }
       
       public static function method_2658(param1:Number) : void
@@ -97,21 +97,21 @@ package
          var _loc4_:class_511 = null;
          var _loc5_:SoundTransform = null;
          var _loc6_:Number = NaN;
-         if(class_180.var_6760.length == class_183.var_7129 && class_180.var_6761.length == class_73.method_2108(class_183.var_7129))
+         if(class_180.var_6760.length == class_183.var_7129 && class_180.var_6761.length == class_183.var_7129)
          {
             class_180.var_6762.reset();
             class_180.var_6762.stop();
             return;
          }
          var _loc2_:int = class_180.var_6760.length;
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < _loc2_)
          {
             _loc4_ = class_180.var_6760[_loc3_];
             _loc5_ = _loc4_.var_2021.soundTransform;
             _loc6_ = _loc5_[class_4.var_3015];
-            _loc6_ -= class_73.method_2116(class_170.var_6678);
-            if(class_73.method_2108(class_183.var_7129) >= _loc6_)
+            _loc6_ -= class_170.var_6678;
+            if(class_183.var_7129 >= _loc6_)
             {
                class_180.var_6760.splice(_loc3_,class_33.var_3679);
                _loc4_.var_2021.stop();
@@ -120,7 +120,7 @@ package
             }
             else
             {
-               _loc5_[class_73.method_2111(class_4.var_3015)] = _loc6_;
+               _loc5_[class_4.var_3015] = _loc6_;
                _loc4_.var_2021.soundTransform = _loc5_;
             }
             _loc3_++;
@@ -132,7 +132,7 @@ package
             _loc4_ = class_180.var_6761[_loc3_];
             _loc5_ = _loc4_.var_2021.soundTransform;
             _loc6_ = _loc5_[class_4.var_3015];
-            _loc6_ += class_73.method_2116(class_170.var_6678);
+            _loc6_ += class_170.var_6678;
             if(_loc6_ > _loc4_.var_2023)
             {
                class_180.var_6761.splice(_loc3_,class_33.var_3679);
@@ -143,7 +143,7 @@ package
             }
             else
             {
-               _loc5_[class_73.method_2111(class_4.var_3015)] = _loc6_;
+               _loc5_[class_4.var_3015] = _loc6_;
                _loc4_.var_2021.soundTransform = _loc5_;
             }
             _loc3_++;
@@ -174,7 +174,7 @@ package
          if(class_180.var_6764)
          {
             class_180.var_6764 = class_99.var_4682;
-            class_180.var_6767 = class_17.var_2884.lecture(class_17.const_74) != class_73.method_2111(class_121.var_5489);
+            class_180.var_6767 = class_17.var_2884.lecture(class_17.const_74) != class_121.var_5489;
          }
          return class_180.var_6767;
       }
@@ -224,7 +224,7 @@ package
             }
             if(!class_180.var_6762)
             {
-               class_180.var_6762 = new Timer(class_73.method_2108(class_165.var_6506));
+               class_180.var_6762 = new Timer(class_165.var_6506);
                class_180.var_6762.addEventListener(TimerEvent.TIMER,class_180.name_2);
             }
             if(class_180.var_6763 == -class_33.var_3679)
@@ -245,14 +245,14 @@ package
                var_7530 = class_180.var_6772[name_64];
                if(!var_7530)
                {
-                  var_7530 = new Sound(new URLRequest(!!var_7525 ? name_64 : class_1.var_2878.var_189 + name_64 + class_73.method_2111(class_102.var_4799)));
+                  var_7530 = new Sound(new URLRequest(!!var_7525 ? name_64 : class_1.var_2878.var_189 + name_64 + class_102.var_4799));
                }
             }
             else
             {
-               var_7530 = new Sound(new URLRequest(!!var_7525 ? name_64 : class_1.var_2878.var_189 + name_64 + class_73.method_2111(class_102.var_4799)));
+               var_7530 = new Sound(new URLRequest(!!var_7525 ? name_64 : class_1.var_2878.var_189 + name_64 + class_102.var_4799));
             }
-            var_7531 = var_7530.play(class_73.method_2108(class_183.var_7129),!!var_7485 ? int(class_73.method_2108(class_121.var_5493)) : int(class_73.method_2108(class_183.var_7129)));
+            var_7531 = var_7530.play(class_183.var_7129,!!var_7485 ? int(class_121.var_5493) : int(class_183.var_7129));
             var_7529 = new class_511(var_7531,var_7528);
             if(!var_7529.var_2021)
             {
@@ -261,15 +261,15 @@ package
             class_180.var_6759[var_7524] = var_7529;
             var_7529.name_8 = class_99.var_4681;
             var_2723 = class_180.var_6760.indexOf(var_7529);
-            if(var_2723 != -class_73.method_2108(class_33.var_3679))
+            if(var_2723 != -class_33.var_3679)
             {
-               class_180.var_6760.splice(var_2723,class_73.method_2108(class_33.var_3679));
+               class_180.var_6760.splice(var_2723,class_33.var_3679);
             }
             var_7529.var_2023 = class_180.name_54 * var_7528;
             if(var_7527)
             {
                class_180.var_6761.push(var_7529);
-               var_7529.method_1494(class_73.method_2108(class_183.var_7129));
+               var_7529.method_1494(class_183.var_7129);
                class_180.var_6762.start();
             }
             else
@@ -298,9 +298,9 @@ package
                   class_180.var_6762.start();
                   class_180.var_6760.push(_loc3_);
                   _loc4_ = class_180.var_6761.indexOf(_loc3_);
-                  if(_loc4_ != -class_73.method_2108(class_33.var_3679))
+                  if(_loc4_ != -class_33.var_3679)
                   {
-                     class_180.var_6761.splice(_loc4_,class_73.method_2108(class_33.var_3679));
+                     class_180.var_6761.splice(_loc4_,class_33.var_3679);
                   }
                }
                else
@@ -338,7 +338,7 @@ package
       public static function method_2669(param1:String, param2:String) : void
       {
          var _loc5_:SoundTransform = null;
-         var _loc3_:Sound = new Sound(new URLRequest(class_162.var_6305 + class_92.var_4597 + class_127.method_2414() + class_146.var_6071 + class_146.method_2515() + class_146.var_6071 + class_107.method_2290() + class_146.var_6071 + class_16.method_1875() + class_73.method_2111(class_121.var_5439) + class_73.method_2111(class_183.var_7077) + class_73.method_2111(class_165.var_6464) + class_73.method_2111(class_89.var_4377) + class_73.method_2111(class_183.var_7076) + class_73.method_2111(class_16.var_3415) + param1 + class_73.method_2111(class_121.var_5438) + class_121.var_5437 + param2));
+         var _loc3_:Sound = new Sound(new URLRequest(class_162.var_6305 + class_92.var_4597 + class_127.method_2414() + class_146.var_6071 + class_146.method_2515() + class_146.var_6071 + class_107.method_2290() + class_146.var_6071 + class_16.method_1875() + class_121.var_5439 + class_183.var_7077 + class_165.var_6464 + class_89.var_4377 + class_183.var_7076 + class_16.var_3415 + param1 + class_121.var_5438 + class_121.var_5437 + param2));
          var _loc4_:SoundChannel = _loc3_.play();
          if(_loc4_)
          {
@@ -379,7 +379,7 @@ package
          }
          else
          {
-            class_17.var_2884.method_173(class_17.const_75,class_73.method_2111(class_121.var_5489));
+            class_17.var_2884.method_173(class_17.const_75,class_121.var_5489);
          }
       }
       
@@ -473,11 +473,11 @@ package
                   return;
                }
             }
-            var_2021 = var_7537.play(class_73.method_2108(class_183.var_7129),!!var_7535 ? int(class_60.var_3915) : int(class_183.var_7129));
+            var_2021 = var_7537.play(class_183.var_7129,!!var_7535 ? int(class_60.var_3915) : int(class_183.var_7129));
             if(var_2021)
             {
                var_7540 = var_2021.soundTransform;
-               var_7540[class_73.method_2111(class_4.var_3015)] = class_180.name_55 * var_7528;
+               var_7540[class_4.var_3015] = class_180.name_55 * var_7528;
                var_2021.soundTransform = var_7540;
                class_180.const_590[var_7532] = var_2021;
                var_2021.addEventListener(Event.SOUND_COMPLETE,class_180.method_2664);
@@ -495,7 +495,7 @@ package
          class_180.var_6767 = param1;
          if(param1)
          {
-            class_17.var_2884.method_173(class_17.const_74,class_73.method_2111(class_9.var_3268));
+            class_17.var_2884.method_173(class_17.const_74,class_9.var_3268);
          }
          else
          {
@@ -541,7 +541,7 @@ package
          class_180.var_6769 = param1;
          if(param1)
          {
-            class_17.var_2884.method_173(class_17.const_76,class_73.method_2111(class_9.var_3268));
+            class_17.var_2884.method_173(class_17.const_76,class_9.var_3268);
          }
          else
          {
@@ -554,7 +554,7 @@ package
          if(class_180.var_6766)
          {
             class_180.var_6766 = class_99.var_4682;
-            class_180.var_6769 = class_17.var_2884.lecture(class_17.const_76) != class_73.method_2111(class_121.var_5489);
+            class_180.var_6769 = class_17.var_2884.lecture(class_17.const_76) != class_121.var_5489;
          }
          return class_180.var_6769;
       }

@@ -38,14 +38,14 @@ package
       public function class_597(param1:int, param2:int, param3:class_24)
       {
          var _loc4_:TextFormat = null;
-         this.var_2327 = -class_73.method_2108(class_33.var_3679);
+         this.var_2327 = -class_33.var_3679;
          super(param1);
-         this.var_2330 = param2 == -class_73.method_2108(class_33.var_3679);
+         this.var_2330 = param2 == -class_33.var_3679;
          this.var_2325 = param2;
          this.var_1219 = param3;
          this.var_337 = new Sprite();
          this.var_337.mouseEnabled = class_99.var_4682;
-         this.var_337.filters = new Array(new BevelFilter(class_33.var_3679,class_107.var_5038,class_73.method_2108(class_183.var_7129),class_73.method_2108(class_33.var_3679),16777215,class_92.var_4648,class_73.method_2108(class_33.var_3679),class_73.method_2108(class_33.var_3679)));
+         this.var_337.filters = new Array(new BevelFilter(class_33.var_3679,class_107.var_5038,class_183.var_7129,class_33.var_3679,16777215,class_92.var_4648,class_33.var_3679,class_33.var_3679));
          addChild(this.var_337);
          if(this.var_2330)
          {
@@ -58,17 +58,17 @@ package
             this.var_2326.defaultTextFormat = _loc4_;
             this.var_2326.restrict = class_155.const_560;
             this.var_2326.width = param1;
-            this.var_2326.height = class_73.method_2108(class_33.var_3675);
+            this.var_2326.height = class_33.var_3675;
             this.var_2326.type = TextFieldType.INPUT;
             this.var_2326.maxChars = class_165.var_6506;
-            this.var_2326.x = class_73.method_2108(class_121.var_5495);
+            this.var_2326.x = class_121.var_5495;
             this.var_2326.y = class_33.var_3679;
-            this.var_2326.text = class_26.method_1668(class_73.method_2111(class_4.var_3020));
+            this.var_2326.text = class_26.method_1668(class_4.var_3020);
             this.var_2326.addEventListener(FocusEvent.FOCUS_IN,this.method_1664);
             addChild(this.var_2326);
          }
          this.var_1226 = new TextField();
-         _loc4_ = new TextFormat(class_26.var_3500,class_73.method_2108(class_170.var_6720),class_54.const_283);
+         _loc4_ = new TextFormat(class_26.var_3500,class_170.var_6720,class_54.const_283);
          if(class_26.var_3497)
          {
             _loc4_.align = TextFormatAlign.CENTER;
@@ -88,7 +88,7 @@ package
          }
          else
          {
-            this.var_1226.y = class_73.method_2108(class_33.var_3679);
+            this.var_1226.y = class_33.var_3679;
          }
          this.var_1226.text = class_26.method_1668(class_162.var_6308);
          this.var_1226.addEventListener(FocusEvent.FOCUS_IN,this.method_1662);
@@ -96,7 +96,7 @@ package
          addChild(this.var_1226);
          this.var_1459 = new class_246(class_26.method_1668(class_107.var_5045),name_5,this.method_441);
          addChild(this.var_1459);
-         transform.colorTransform = new ColorTransform(class_73.method_2116(class_102.var_4801),class_102.var_4801,class_73.method_2116(class_102.var_4801));
+         transform.colorTransform = new ColorTransform(class_102.var_4801,class_102.var_4801,class_102.var_4801);
          this.method_1663();
       }
       
@@ -105,7 +105,7 @@ package
          if(this.var_2328)
          {
             this.var_2328 = class_99.var_4682;
-            this.var_1226.text = class_73.method_2111(class_9.var_3268);
+            this.var_1226.text = class_9.var_3268;
             this.var_1226.textColor = class_54.const_279;
          }
       }
@@ -114,19 +114,19 @@ package
       {
          if(this.var_2330)
          {
-            graphics.beginFill(class_73.method_2108(class_183.var_7129),class_73.method_2116(class_9.var_3254));
-            graphics.drawRect(class_183.var_7129,this.var_2326.y,name_5,this.var_2326.height + class_73.method_2108(class_165.var_6534));
+            graphics.beginFill(class_183.var_7129,class_9.var_3254);
+            graphics.drawRect(class_183.var_7129,this.var_2326.y,name_5,this.var_2326.height + class_165.var_6534);
             graphics.endFill();
          }
          this.var_337.graphics.clear();
          this.var_337.graphics.beginFill(1315860);
-         this.var_337.graphics.drawRoundRect(class_73.method_2108(class_183.var_7129),this.var_1226.y,name_5,this.var_1226.height + class_117.var_5287,class_9.var_3267);
+         this.var_337.graphics.drawRoundRect(class_183.var_7129,this.var_1226.y,name_5,this.var_1226.height + class_117.var_5287,class_9.var_3267);
          this.var_337.graphics.endFill();
          this.var_1459.y = this.var_1226.y + this.var_1226.height + class_146.var_6117;
          graphics.clear();
-         graphics.lineStyle(class_73.method_2108(class_33.var_3679),class_183.var_7129,class_183.var_7129);
-         graphics.moveTo(class_73.method_2108(class_183.var_7129),class_183.var_7129);
-         graphics.lineTo(class_73.method_2108(class_183.var_7129),this.var_1459.y + class_73.method_2108(class_16.var_3473));
+         graphics.lineStyle(class_33.var_3679,class_183.var_7129,class_183.var_7129);
+         graphics.moveTo(class_183.var_7129,class_183.var_7129);
+         graphics.lineTo(class_183.var_7129,this.var_1459.y + class_16.var_3473);
       }
       
       public function method_948(param1:Event = null) : void
@@ -163,30 +163,30 @@ package
             return;
          }
          var _loc1_:String = this.var_1226.text;
-         while(_loc1_ && _loc1_.charAt(class_183.var_7129) == class_73.method_2111(class_124.var_5647))
+         while(_loc1_ && _loc1_.charAt(class_183.var_7129) == class_124.var_5647)
          {
             _loc1_ = _loc1_.substr(class_33.var_3679);
          }
-         while(_loc1_ && _loc1_.indexOf(class_62.var_4109) != -class_73.method_2108(class_33.var_3679))
+         while(_loc1_ && _loc1_.indexOf(class_62.var_4109) != -class_33.var_3679)
          {
-            _loc1_ = _loc1_.split(class_62.var_4109).join(class_73.method_2111(class_124.var_5608));
+            _loc1_ = _loc1_.split(class_62.var_4109).join(class_124.var_5608);
          }
-         while(_loc1_ && _loc1_.indexOf(class_73.method_2111(class_181.var_6895)) != -class_33.var_3679)
+         while(_loc1_ && _loc1_.indexOf(class_181.var_6895) != -class_33.var_3679)
          {
-            _loc1_ = _loc1_.split(class_73.method_2111(class_181.var_6895)).join(class_162.var_6307);
+            _loc1_ = _loc1_.split(class_181.var_6895).join(class_162.var_6307);
          }
-         if(class_73.method_2108(class_165.var_6534) > _loc1_.length)
+         if(class_165.var_6534 > _loc1_.length)
          {
             return;
          }
          if(this.var_2330)
          {
             _loc2_ = this.var_2326.text;
-            while(_loc2_ && _loc2_.charAt(class_183.var_7129) == class_73.method_2111(class_124.var_5647))
+            while(_loc2_ && _loc2_.charAt(class_183.var_7129) == class_124.var_5647)
             {
                _loc2_ = _loc2_.substr(class_33.var_3679);
             }
-            if(class_73.method_2108(class_146.var_6118) > _loc2_.length)
+            if(class_146.var_6118 > _loc2_.length)
             {
                this.var_2326.textColor = class_54.const_284;
                return;

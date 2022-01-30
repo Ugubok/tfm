@@ -44,12 +44,12 @@ package
          this.var_1672 = name_107.readInt();
          this.var_373 = name_107.readUTF();
          var var_731:int = name_107.readInt();
-         var var_7436:int = class_73.method_2108(class_183.var_7129);
+         var var_7436:int = class_183.var_7129;
          while(var_7436 < var_731)
          {
             name_110 = name_107.readByte();
             name_111 = name_107.readInt();
-            if(class_73.method_2108(class_183.var_7129) == name_110)
+            if(class_183.var_7129 == name_110)
             {
                this.var_1673.push(name_111,null);
             }
@@ -57,7 +57,7 @@ package
             {
                name_110--;
                const_11 = new Vector.<int>();
-               var_7461 = class_73.method_2108(class_183.var_7129);
+               var_7461 = class_183.var_7129;
                while(var_7461 < name_110)
                {
                   const_11.push(name_107.readInt());
@@ -76,7 +76,7 @@ package
             {
                try
                {
-                  var_7483 = new class_201(name_107.readUnsignedShort(),name_107.readUnsignedShort(),name_107.readByte(),name_107.readBoolean(),name_107.readByte(),name_107.readInt(),name_107.readInt(),!!name_107.readBoolean() ? int(name_107.readInt()) : int(class_73.method_2108(class_183.var_7129)));
+                  var_7483 = new class_201(name_107.readUnsignedShort(),name_107.readUnsignedShort(),name_107.readByte(),name_107.readBoolean(),name_107.readByte(),name_107.readInt(),name_107.readInt(),!!name_107.readBoolean() ? int(name_107.readInt()) : int(class_183.var_7129));
                   this.var_1674.push(var_7483);
                }
                catch(name_85:Error)
@@ -110,7 +110,7 @@ package
             var_2147 = name_107.readShort();
             name_3 = name_107.readByte();
             name_110 = name_107.readByte();
-            if(name_110 == class_73.method_2108(class_183.var_7129))
+            if(name_110 == class_183.var_7129)
             {
                this.var_1678.push(var_2147,name_3,null);
             }
@@ -118,7 +118,7 @@ package
             {
                name_110--;
                const_11 = new Vector.<int>();
-               var_7461 = class_73.method_2108(class_183.var_7129);
+               var_7461 = class_183.var_7129;
                while(var_7461 < name_110)
                {
                   const_11.push(name_107.readInt());
@@ -132,7 +132,7 @@ package
          if(var_731)
          {
             this.var_1675 = new Vector.<class_363>();
-            var_7436 = class_73.method_2108(class_183.var_7129);
+            var_7436 = class_183.var_7129;
             while(var_7436 < var_731)
             {
                name_112 = name_107.readInt();

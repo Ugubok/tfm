@@ -32,12 +32,12 @@ package
          {
             text = param1;
          }
-         if(param2 == class_73.method_2108(class_183.var_7129))
+         if(param2 == class_183.var_7129)
          {
             height = param3;
             autoSize = TextFieldAutoSize.LEFT;
          }
-         else if(class_73.method_2108(class_183.var_7129) == param3)
+         else if(class_183.var_7129 == param3)
          {
             width = param2;
             multiline = class_99.var_4681;
@@ -68,7 +68,7 @@ package
       {
          if(!multiline)
          {
-            y += Math.round((height - (class_73.method_2108(class_121.var_5495) + textHeight)) / class_73.method_2108(class_165.var_6534));
+            y += Math.round((height - (class_121.var_5495 + textHeight)) / class_165.var_6534);
          }
          else if(parent)
          {
@@ -78,7 +78,7 @@ package
             }
             else
             {
-               y = (parent.height - (textHeight + class_73.method_2108(class_121.var_5495))) / 2;
+               y = (parent.height - (textHeight + class_121.var_5495)) / 2;
             }
          }
          return this;

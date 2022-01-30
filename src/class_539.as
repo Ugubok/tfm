@@ -42,18 +42,18 @@ package
       
       public function class_539()
       {
-         this.var_2112 = class_73.method_2108(class_183.var_7129);
+         this.var_2112 = class_183.var_7129;
          this.var_2117 = -class_33.var_3679;
          super();
          mouseChildren = class_99.var_4682;
          mouseEnabled = class_99.var_4682;
-         var _loc1_:Bitmap = class_175.method_2618(class_73.method_2111(class_162.var_6216));
+         var _loc1_:Bitmap = class_175.method_2618(class_162.var_6216);
          addChild(_loc1_);
-         this.var_2113 = class_175.method_118(class_73.method_2111(class_62.var_4025));
+         this.var_2113 = class_175.method_118(class_62.var_4025);
          this.var_2114 = this.var_2113.x_masque;
          this.var_2115 = this.var_2113.x_lumiere;
          addChild(this.var_2113);
-         this.var_2113.x = class_73.method_2108(class_102.var_4827);
+         this.var_2113.x = class_102.var_4827;
          this.var_2113.y = class_183.var_7124;
          this.var_1138 = class_84.method_2130();
          var _loc2_:TextFormat = this.var_1138.defaultTextFormat;
@@ -74,13 +74,13 @@ package
          this.var_2116.defaultTextFormat = _loc2_;
          this.var_2116.text = String(class_539.var_7324);
          this.var_2116.filters = new Array();
-         this.var_2116.width = class_73.method_2108(class_121.var_5493);
-         this.var_2116.x = class_73.method_2108(class_92.var_4609);
-         this.var_2116.y = class_73.method_2108(class_102.var_4824);
-         this.var_2116.height = class_73.method_2108(class_62.var_4130);
+         this.var_2116.width = class_121.var_5493;
+         this.var_2116.x = class_92.var_4609;
+         this.var_2116.y = class_102.var_4824;
+         this.var_2116.height = class_62.var_4130;
          addChild(this.var_2116);
          this.method_1545(class_539.var_7326);
-         filters = new Array(new DropShadowFilter(class_146.var_6118,class_107.var_5038,class_73.method_2108(class_183.var_7129),class_73.method_2108(class_33.var_3679),class_121.var_5495,class_121.var_5495,class_73.method_2108(class_33.var_3679),class_146.var_6118));
+         filters = new Array(new DropShadowFilter(class_146.var_6118,class_107.var_5038,class_183.var_7129,class_33.var_3679,class_121.var_5495,class_121.var_5495,class_33.var_3679,class_146.var_6118));
       }
       
       public static function name_6(param1:Boolean, param2:int = 0) : void
@@ -90,8 +90,8 @@ package
             if(!class_539.var_2884)
             {
                class_539.var_2884 = new class_539();
-               class_539.var_2884.x = class_73.method_2108(class_62.var_4130);
-               class_539.var_2884.y = class_73.method_2108(class_165.var_6506);
+               class_539.var_2884.x = class_62.var_4130;
+               class_539.var_2884.y = class_165.var_6506;
             }
             class_1.var_2884.var_53.addChild(class_539.var_2884);
             class_539.var_2884.method_1544(param2);
@@ -112,13 +112,13 @@ package
          if(this.var_2117 != class_539.var_7324)
          {
             this.var_2117 = class_539.var_7324;
-            this.var_2116.text = String(class_73.method_2108(class_33.var_3679) + class_539.var_7324);
+            this.var_2116.text = String(class_33.var_3679 + class_539.var_7324);
          }
          this.method_1545(class_539.var_7326);
          if(!this.var_2118)
          {
             this.var_2118 = class_99.var_4681;
-            addEventListener(class_73.method_2111(class_124.var_5632),this.method_1546);
+            addEventListener(class_124.var_5632,this.method_1546);
          }
          this.var_2112 = class_539.var_7326;
          class_539.var_7326 = param1 + class_539.var_7326;
@@ -127,7 +127,7 @@ package
       public function method_1545(param1:int) : void
       {
          var _loc2_:Number = param1 / class_539.var_7325;
-         this.var_2114.width = class_73.method_2108(class_4.var_2947) * _loc2_;
+         this.var_2114.width = class_4.var_2947 * _loc2_;
          this.var_2115.x = -class_33.var_3679 + this.var_2114.width;
          this.var_1138.text = param1 + class_165.var_6512 + class_539.var_7325;
       }
@@ -145,7 +145,7 @@ package
          }
          if(getTimer() - this.var_666 > class_92.var_4625)
          {
-            removeEventListener(class_73.method_2111(class_124.var_5632),this.method_1546);
+            removeEventListener(class_124.var_5632,this.method_1546);
             this.var_2118 = class_99.var_4682;
             class_539.name_6(false);
          }

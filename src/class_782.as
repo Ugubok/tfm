@@ -32,7 +32,7 @@ package
       
       public function get method_1731() : String
       {
-         return class_73.method_2111(class_117.var_5175);
+         return class_117.var_5175;
       }
       
       public function get typeTaille() : int
@@ -47,7 +47,7 @@ package
       
       override public function method_1374() : int
       {
-         return class_73.method_2108(class_146.var_6117);
+         return class_146.var_6117;
       }
       
       override public function write(param1:ByteArray) : void

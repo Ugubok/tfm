@@ -39,9 +39,9 @@ package
          {
             delete class_161.var_6166[_loc3_];
             _loc5_ = class_161.var_6165.indexOf(_loc3_);
-            if(_loc5_ != -class_73.method_2108(class_33.var_3679))
+            if(_loc5_ != -class_33.var_3679)
             {
-               class_161.var_6165.splice(_loc5_,class_73.method_2108(class_33.var_3679));
+               class_161.var_6165.splice(_loc5_,class_33.var_3679);
             }
          }
          if(_loc4_ != class_161.var_6166[_loc3_])
@@ -72,7 +72,7 @@ package
          }
          var _loc2_:String = class_231.method_2802(param1);
          var _loc3_:Boolean = class_161.var_6166[_loc2_];
-         class_161.var_6166[_loc2_] = class_161.var_6165.indexOf(_loc2_) != -class_73.method_2108(class_33.var_3679);
+         class_161.var_6166[_loc2_] = class_161.var_6165.indexOf(_loc2_) != -class_33.var_3679;
          class_161.var_6165.push(_loc2_);
          class_161.var_6164.push(param1);
          if(!_loc3_ && class_161.var_6166[_loc2_] || _loc2_ == class_111.var_5081)

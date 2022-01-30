@@ -30,7 +30,7 @@ package
       
       public function method_1381() : Boolean
       {
-         return var_1929 == class_73.method_2108(class_183.var_7129);
+         return var_1929 == class_183.var_7129;
       }
       
       public function method_1382(param1:int) : class_756

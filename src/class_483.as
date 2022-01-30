@@ -30,16 +30,16 @@ package
       
       public function toString() : String
       {
-         var _loc1_:String = var_817 + class_73.method_2111(class_92.var_4547) + String(var_1768) + class_73.method_2111(class_107.var_4950) + String(var_1691) + class_92.var_4546 + String(var_1692) + class_73.method_2111(class_9.var_3154) + String(var_1938) + class_127.var_5782 + String(var_1939) + class_162.var_6240 + String(var_1929) + class_170.var_6629;
+         var _loc1_:String = var_817 + class_92.var_4547 + String(var_1768) + class_107.var_4950 + String(var_1691) + class_92.var_4546 + String(var_1692) + class_9.var_3154 + String(var_1938) + class_127.var_5782 + String(var_1939) + class_162.var_6240 + String(var_1929) + class_170.var_6629;
          if(var_1931)
          {
-            _loc1_ += class_73.method_2111(class_183.var_7029) + var_1931.var_1953 + class_146.var_6011 + var_1931.var_1954 + class_73.method_2111(class_89.var_4333);
+            _loc1_ += class_183.var_7029 + var_1931.var_1953 + class_146.var_6011 + var_1931.var_1954 + class_89.var_4333;
          }
          else
          {
             _loc1_ += String(var_1931);
          }
-         return _loc1_ + class_73.method_2111(class_162.var_6241);
+         return _loc1_ + class_162.var_6241;
       }
       
       public function method_1379() : class_489
@@ -60,7 +60,7 @@ package
       public function method_1383() : void
       {
          this.var_1932 = new Date();
-         this.var_1932.setTime(var_1929 * class_89.var_4436 * class_73.method_2108(class_4.var_3058));
+         this.var_1932.setTime(var_1929 * class_89.var_4436 * class_4.var_3058);
          if(var_817 != null)
          {
             var_817 = class_231.method_2796(var_817);

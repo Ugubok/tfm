@@ -8,11 +8,11 @@ package
       {
          var _loc3_:int = 0;
          var _loc4_:int = 0;
-         super(class_33.var_3675,class_73.method_2108(class_127.var_5865));
+         super(class_33.var_3675,class_127.var_5865);
          var_159.writeInt(param1);
          if(null == param2)
          {
-            var_159.writeByte(class_73.method_2108(class_183.var_7129));
+            var_159.writeByte(class_183.var_7129);
          }
          else
          {

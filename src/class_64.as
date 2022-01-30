@@ -50,14 +50,14 @@ package
                class_64.var_4208 = class_64.const_389;
                if(class_64.const_387)
                {
-                  _loc1_ = ExternalInterface.call(class_73.method_2111(class_162.var_6320));
+                  _loc1_ = ExternalInterface.call(class_162.var_6320);
                   if(_loc1_)
                   {
                      class_64.method_2085();
                   }
                   else
                   {
-                     ExternalInterface.addCallback(class_73.method_2111(class_165.var_6482),class_64.method_2085);
+                     ExternalInterface.addCallback(class_165.var_6482,class_64.method_2085);
                   }
                }
                else
@@ -70,7 +70,7 @@ package
                   else
                   {
                      ExternalInterface.addCallback(class_102.var_4814,class_64.method_2085);
-                     ExternalInterface.addCallback(class_73.method_2111(class_16.var_3433),class_64.method_2084);
+                     ExternalInterface.addCallback(class_16.var_3433,class_64.method_2084);
                   }
                }
             }
@@ -88,7 +88,7 @@ package
       public static function method_2085() : void
       {
          class_64.var_4208 = class_64.const_391;
-         ExternalInterface.addCallback(class_73.method_2111(class_117.var_5242),class_64.method_2089);
+         ExternalInterface.addCallback(class_117.var_5242,class_64.method_2089);
          ExternalInterface.addCallback(class_162.var_6319,class_64.method_2087);
          if(class_64.var_4209)
          {

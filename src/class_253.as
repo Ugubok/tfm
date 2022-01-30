@@ -69,7 +69,7 @@ package
          var _loc2_:Rectangle = this.var_1269.getRect(this.var_1269);
          var _loc3_:Number = this.var_1269.scaleX;
          var _loc4_:Number = this.var_1269.scaleY;
-         if(_loc3_ < class_73.method_2108(class_183.var_7129))
+         if(_loc3_ < class_183.var_7129)
          {
             this.var_1265 = Math.ceil(_loc2_.width * -_loc3_) + class_121.var_5495;
             this.var_1263 = Math.round((_loc2_.x + _loc2_.width) * _loc3_);
@@ -79,24 +79,24 @@ package
             this.var_1265 = Math.ceil(_loc2_.width * _loc3_) + class_121.var_5495;
             this.var_1263 = Math.round(_loc3_ * _loc2_.x);
          }
-         if(_loc4_ < class_73.method_2108(class_183.var_7129))
+         if(_loc4_ < class_183.var_7129)
          {
-            this.var_1266 = Math.ceil(_loc2_.height * -_loc4_) + class_73.method_2108(class_121.var_5495);
+            this.var_1266 = Math.ceil(_loc2_.height * -_loc4_) + class_121.var_5495;
             this.var_1264 = Math.round((_loc2_.height + _loc2_.y) * _loc4_);
          }
          else
          {
-            this.var_1266 = class_73.method_2108(class_121.var_5495) + Math.ceil(_loc4_ * _loc2_.height);
+            this.var_1266 = class_121.var_5495 + Math.ceil(_loc4_ * _loc2_.height);
             this.var_1264 = Math.round(_loc4_ * _loc2_.y);
          }
-         this.var_1269.x = -this.var_1263 + class_73.method_2108(class_165.var_6534);
-         this.var_1269.y = -this.var_1264 + class_73.method_2108(class_165.var_6534);
+         this.var_1269.x = -this.var_1263 + class_165.var_6534;
+         this.var_1269.y = -this.var_1264 + class_165.var_6534;
          ++class_253.var_7178;
          this.var_294 = new BitmapData(this.var_1265,this.var_1266,true,class_183.var_7129);
          this.var_294.draw(this.var_1271);
          this.var_1271 = null;
          this.var_1269 = null;
-         class_140.method_2462(class_73.method_2111(class_181.var_6919));
+         class_140.method_2462(class_181.var_6919);
       }
       
       public function method_978(param1:MovieClip) : void

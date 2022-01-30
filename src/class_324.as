@@ -6,7 +6,7 @@ package
       
       public function class_324(param1:class_323, param2:Boolean)
       {
-         super(class_121.var_5493,class_73.method_2108(class_165.var_6534));
+         super(class_121.var_5493,class_165.var_6534);
          var_159.writeShort(param1.var_1480);
          var_159.writeShort(param1.x);
          var_159.writeShort(param1.y);

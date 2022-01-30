@@ -17,9 +17,9 @@ package
          var _loc4_:class_305 = param2.method_1017();
          if(_loc3_.var_1469 == _loc4_.var_1469 && _loc3_.var_1469 != class_183.var_7129)
          {
-            return _loc3_.var_1469 > class_73.method_2108(class_183.var_7129);
+            return _loc3_.var_1469 > class_183.var_7129;
          }
-         return Boolean((_loc3_.var_1468 & _loc4_.var_1467) != class_183.var_7129 && (_loc3_.var_1467 & _loc4_.var_1468) != class_73.method_2108(class_183.var_7129));
+         return Boolean((_loc3_.var_1468 & _loc4_.var_1467) != class_183.var_7129 && (_loc3_.var_1467 & _loc4_.var_1468) != class_183.var_7129);
       }
    }
 }

@@ -45,8 +45,8 @@ package
          }
          if(param1.bytesAvailable)
          {
-            this.var_455 = class_73.method_2111(class_9.var_3268);
-            this.var_2506 = class_73.method_2108(class_183.var_7129);
+            this.var_455 = class_9.var_3268;
+            this.var_2506 = class_183.var_7129;
          }
       }
    }

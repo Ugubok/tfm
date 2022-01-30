@@ -29,22 +29,22 @@ package
       
       public function class_745(param1:String = "", param2:int = 0)
       {
-         super(class_745.const_348,class_73.method_2108(class_33.var_3675));
+         super(class_745.const_348,class_33.var_3675);
          mouseChildren = class_99.var_4682;
          this.var_2573 = new Sprite();
          this.var_2573.graphics.beginFill(2306616);
-         this.var_2573.graphics.drawRoundRect(class_183.var_7129,class_73.method_2108(class_183.var_7129),class_745.const_348,class_745.const_348,class_73.method_2108(class_146.var_6118),class_146.var_6118);
+         this.var_2573.graphics.drawRoundRect(class_183.var_7129,class_183.var_7129,class_745.const_348,class_745.const_348,class_146.var_6118,class_146.var_6118);
          this.var_2573.graphics.endFill();
-         this.var_2573.filters = new Array(new BevelFilter(class_73.method_2108(class_33.var_3679),class_107.var_5038,class_183.var_7129,class_33.var_3679,6325657,class_33.var_3679,class_73.method_2108(class_33.var_3679),class_33.var_3679,class_73.method_2108(class_33.var_3679),class_73.method_2108(class_146.var_6118)));
-         this.var_2573.y = class_73.method_2108(class_146.var_6118);
+         this.var_2573.filters = new Array(new BevelFilter(class_33.var_3679,class_107.var_5038,class_183.var_7129,class_33.var_3679,6325657,class_33.var_3679,class_33.var_3679,class_33.var_3679,class_33.var_3679,class_146.var_6118));
+         this.var_2573.y = class_146.var_6118;
          addChild(this.var_2573);
          this.var_2574 = new Sprite();
-         this.var_2574.graphics.lineStyle(class_73.method_2108(class_165.var_6534),11059144);
+         this.var_2574.graphics.lineStyle(class_165.var_6534,11059144);
          this.var_2574.graphics.moveTo(class_146.var_6118,class_92.var_4647);
-         this.var_2574.graphics.lineTo(class_9.var_3267,class_73.method_2108(class_162.var_6346));
-         this.var_2574.graphics.lineTo(class_162.var_6346,class_73.method_2108(class_146.var_6118));
+         this.var_2574.graphics.lineTo(class_9.var_3267,class_162.var_6346);
+         this.var_2574.graphics.lineTo(class_162.var_6346,class_146.var_6118);
          this.var_2574.y = this.var_2573.y;
-         this.method_1735(new class_220(param1,!!param2 ? int(param2 - class_745.const_348 - class_73.method_2108(class_146.var_6118)) : int(class_73.method_2108(class_183.var_7129))));
+         this.method_1735(new class_220(param1,!!param2 ? int(param2 - class_745.const_348 - class_146.var_6118) : int(class_183.var_7129)));
          if(param2)
          {
             name_5 = param2;
@@ -86,7 +86,7 @@ package
          }
          this.var_1720 = param1;
          addChild(this.var_1720);
-         this.var_1720.x = class_73.method_2108(class_146.var_6118) + class_745.const_348;
+         this.var_1720.x = class_146.var_6118 + class_745.const_348;
          return this;
       }
       

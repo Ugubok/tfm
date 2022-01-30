@@ -12,12 +12,12 @@ package
       
       public function class_43()
       {
-         super(class_73.method_2108(class_124.var_5657),class_170.var_6717);
+         super(class_124.var_5657,class_170.var_6717);
          method_227(class_243.const_642);
          method_239(class_26.method_1668(class_117.var_5209));
-         this.var_411 = new class_220(class_9.var_3268,name_5,class_73.method_2108(class_183.var_7129)).method_856(TextFormatAlign.CENTER).method_865(class_170.var_6720).method_864(class_54.const_279);
+         this.var_411 = new class_220(class_9.var_3268,name_5,class_183.var_7129).method_856(TextFormatAlign.CENTER).method_865(class_170.var_6720).method_864(class_54.const_279);
          method_136(this.var_411);
-         method_196(class_73.method_2116(class_92.var_4648),class_73.method_2116(class_92.var_4648),true);
+         method_196(class_92.var_4648,class_92.var_4648,true);
       }
       
       public static function method_427(param1:Boolean, param2:int = 0) : void

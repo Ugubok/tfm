@@ -17,7 +17,7 @@ package
       
       public static const const_98:Array = new Array();
       
-      public static const const_99:String = class_73.method_2111("instance");
+      public static const const_99:String = "instance";
       
       public static var var_3493:ApplicationDomain;
       
@@ -52,50 +52,50 @@ package
          this.x_squeletteChat = class_237;
          this.x_IndianaMouse = class_236;
          super();
-         class_143.method_955(class_73.method_2111(class_33.var_3561));
+         class_143.method_955(class_33.var_3561);
          class_21.var_2884 = this;
          this.method_187();
          class_21.var_3493 = ApplicationDomain.currentDomain;
-         class_21.const_102[class_73.method_2108(class_170.var_6731)] = class_99.var_4681;
+         class_21.const_102[class_170.var_6731] = class_99.var_4681;
          class_21.var_1225 = new Array();
          class_21.var_1225.push(class_33.var_3679,new this.x_B_1());
          class_21.var_1225.push(class_165.var_6534,new this.x_squeletteChat());
-         class_21.var_1225.push(class_73.method_2108(class_146.var_6118),new this.x_IndianaMouse());
+         class_21.var_1225.push(class_146.var_6118,new this.x_IndianaMouse());
          if(!class_1.const_43)
          {
             class_21.var_1225 = new Array();
          }
-         var _loc2_:Vector.<int> = new Vector.<int>(class_73.method_2108(class_121.var_5495),true);
-         _loc2_[class_73.method_2108(class_183.var_7129)] = class_34.const_111;
-         _loc2_[class_73.method_2108(class_33.var_3679)] = class_34.const_114;
+         var _loc2_:Vector.<int> = new Vector.<int>(class_121.var_5495,true);
+         _loc2_[class_183.var_7129] = class_34.const_111;
+         _loc2_[class_33.var_3679] = class_34.const_114;
          _loc2_[class_165.var_6534] = class_34.const_116;
          _loc2_[class_146.var_6118] = class_34.const_115;
          class_21.const_100[class_124.var_5545] = _loc2_;
-         var _loc3_:Vector.<int> = new Vector.<int>(class_73.method_2108(class_33.var_3679),true);
+         var _loc3_:Vector.<int> = new Vector.<int>(class_33.var_3679,true);
          _loc3_[class_183.var_7129] = class_34.const_113;
-         class_21.const_100[class_73.method_2111(class_33.var_3560)] = _loc3_;
+         class_21.const_100[class_33.var_3560] = _loc3_;
          var _loc4_:Vector.<int> = new Vector.<int>(class_165.var_6534,true);
-         _loc4_[class_73.method_2108(class_183.var_7129)] = class_34.const_118;
+         _loc4_[class_183.var_7129] = class_34.const_118;
          _loc4_[class_33.var_3679] = class_34.const_112;
          class_21.const_100[class_33.var_3559] = _loc4_;
-         var _loc5_:Vector.<int> = new Vector.<int>(class_73.method_2108(class_33.var_3679),true);
+         var _loc5_:Vector.<int> = new Vector.<int>(class_33.var_3679,true);
          _loc5_[class_183.var_7129] = class_34.const_112;
-         class_21.const_100[class_73.method_2111(class_107.var_4929)] = _loc5_;
+         class_21.const_100[class_107.var_4929] = _loc5_;
          class_21.const_100[class_146.var_5996] = _loc5_;
          class_21.const_100[class_16.var_3336] = _loc5_;
-         class_21.const_100[class_73.method_2111(class_162.var_6223)] = _loc5_;
-         var _loc6_:Vector.<int> = new Vector.<int>(class_73.method_2108(class_33.var_3679),true);
+         class_21.const_100[class_162.var_6223] = _loc5_;
+         var _loc6_:Vector.<int> = new Vector.<int>(class_33.var_3679,true);
          _loc6_[class_183.var_7129] = class_34.const_117;
          class_21.const_100[class_4.var_2951] = _loc6_;
-         var _loc7_:Vector.<int> = new Vector.<int>(class_73.method_2108(class_33.var_3679),true);
-         _loc7_[class_73.method_2108(class_183.var_7129)] = class_34.const_120;
+         var _loc7_:Vector.<int> = new Vector.<int>(class_33.var_3679,true);
+         _loc7_[class_183.var_7129] = class_34.const_120;
          class_21.const_100[class_92.var_4527] = _loc7_;
-         var _loc8_:Vector.<int> = new Vector.<int>(class_73.method_2108(class_33.var_3679),true);
-         _loc8_[class_73.method_2108(class_183.var_7129)] = class_34.const_121;
+         var _loc8_:Vector.<int> = new Vector.<int>(class_33.var_3679,true);
+         _loc8_[class_183.var_7129] = class_34.const_121;
          class_21.const_100[class_181.var_6834] = _loc8_;
          var _loc9_:Vector.<int> = new Vector.<int>(class_33.var_3679,true);
          _loc9_[class_183.var_7129] = class_34.const_119;
-         class_21.const_100[class_73.method_2111(class_181.var_6833)] = _loc9_;
+         class_21.const_100[class_181.var_6833] = _loc9_;
          this.var_210 = param1;
          this.method_185();
       }
@@ -118,10 +118,10 @@ package
          {
             _loc8_ = _loc5_.getChildAt(_loc7_);
             _loc9_ = _loc8_.name;
-            if(_loc9_ && _loc9_.indexOf(class_73.method_2111(class_181.var_6835)) == class_183.var_7129)
+            if(_loc9_ && _loc9_.indexOf(class_181.var_6835) == class_183.var_7129)
             {
-               _loc10_ = int(_loc9_.charAt(class_73.method_2108(class_92.var_4647)));
-               _loc3_[_loc10_] = int(class_181.var_6914 + _loc9_.split(class_73.method_2111(class_33.var_3659))[class_73.method_2108(class_33.var_3679)]);
+               _loc10_ = int(_loc9_.charAt(class_92.var_4647));
+               _loc3_[_loc10_] = int(class_181.var_6914 + _loc9_.split(class_33.var_3659)[class_33.var_3679]);
             }
          }
          return _loc3_;
@@ -129,9 +129,9 @@ package
       
       public static function method_1886(param1:int) : Array
       {
-         if(class_73.method_2108(class_170.var_6613) < param1)
+         if(class_170.var_6613 < param1)
          {
-            return new Array((-class_73.method_2108(class_181.var_6922) + param1) / class_181.var_6922,(-class_181.var_6922 + param1) % class_73.method_2108(class_181.var_6922));
+            return new Array((-class_181.var_6922 + param1) / class_181.var_6922,(-class_181.var_6922 + param1) % class_181.var_6922);
          }
          return new Array(param1 / class_121.var_5493,param1 % class_121.var_5493);
       }
@@ -152,30 +152,30 @@ package
          var _loc10_:String = null;
          var _loc11_:int = 0;
          var _loc2_:Array = new Array();
-         if(class_73.method_2108(class_170.var_6613) < param1)
+         if(class_170.var_6613 < param1)
          {
-            _loc3_ = (-class_181.var_6922 + param1) / class_73.method_2108(class_181.var_6922);
-            _loc4_ = (param1 - class_73.method_2108(class_181.var_6922)) % class_73.method_2108(class_181.var_6922);
+            _loc3_ = (-class_181.var_6922 + param1) / class_181.var_6922;
+            _loc4_ = (param1 - class_181.var_6922) % class_181.var_6922;
          }
          else
          {
             _loc3_ = param1 / class_121.var_5493;
-            _loc4_ = param1 % class_73.method_2108(class_121.var_5493);
+            _loc4_ = param1 % class_121.var_5493;
          }
-         var _loc5_:String = class_170.var_6612 + _loc3_ + class_73.method_2111(class_33.var_3659) + _loc4_;
+         var _loc5_:String = class_170.var_6612 + _loc3_ + class_33.var_3659 + _loc4_;
          if(ApplicationDomain.currentDomain.hasDefinition(_loc5_))
          {
             _loc6_ = new (ApplicationDomain.currentDomain.getDefinition(_loc5_) as Class)();
             _loc7_ = _loc6_.numChildren;
-            _loc8_ = -class_73.method_2108(class_33.var_3679);
+            _loc8_ = -class_33.var_3679;
             while(++_loc8_ < _loc7_)
             {
                _loc9_ = _loc6_.getChildAt(_loc8_);
                _loc10_ = _loc9_.name;
-               if(_loc10_ && _loc10_.indexOf(class_73.method_2111(class_181.var_6835)) == class_183.var_7129)
+               if(_loc10_ && _loc10_.indexOf(class_181.var_6835) == class_183.var_7129)
                {
-                  _loc11_ = int(_loc10_.charAt(class_73.method_2108(class_92.var_4647)));
-                  _loc2_[_loc11_] = int(class_73.method_2111(class_181.var_6914) + _loc10_.split(class_73.method_2111(class_33.var_3659))[class_33.var_3679]);
+                  _loc11_ = int(_loc10_.charAt(class_92.var_4647));
+                  _loc2_[_loc11_] = int(class_181.var_6914 + _loc10_.split(class_33.var_3659)[class_33.var_3679]);
                }
             }
          }
@@ -203,17 +203,17 @@ package
          {
             _loc5_ = param3.length;
          }
-         var _loc6_:String = class_73.method_2111(class_16.var_3449) + param1;
+         var _loc6_:String = class_16.var_3449 + param1;
          if(ApplicationDomain.currentDomain.hasDefinition(_loc6_))
          {
             _loc7_ = new (ApplicationDomain.currentDomain.getDefinition(_loc6_) as Class)();
             _loc8_ = _loc7_.numChildren;
-            _loc9_ = -class_73.method_2108(class_33.var_3679);
+            _loc9_ = -class_33.var_3679;
             while(++_loc9_ < _loc8_)
             {
                _loc10_ = _loc7_.getChildAt(_loc9_);
                _loc11_ = _loc10_.name;
-               if(_loc11_ && _loc11_.indexOf(class_181.var_6835) == class_73.method_2108(class_183.var_7129))
+               if(_loc11_ && _loc11_.indexOf(class_181.var_6835) == class_183.var_7129)
                {
                   _loc12_ = int(_loc11_.charAt(class_92.var_4647));
                   if(_loc5_ > _loc12_)
@@ -229,12 +229,12 @@ package
                   }
                   else
                   {
-                     _loc13_ = int(class_73.method_2111(class_181.var_6914) + _loc11_.split(class_73.method_2111(class_33.var_3659))[class_33.var_3679]);
+                     _loc13_ = int(class_181.var_6914 + _loc11_.split(class_33.var_3659)[class_33.var_3679]);
                   }
                   _loc14_ = _loc13_ >> class_16.var_3467 & 255;
                   _loc15_ = _loc13_ >> class_170.var_6731 & 255;
                   _loc16_ = _loc13_ & 255;
-                  _loc10_.transform.colorTransform = new ColorTransform(_loc14_ / class_73.method_2108(class_181.var_6910),_loc15_ / class_181.var_6910,_loc16_ / class_73.method_2108(class_181.var_6910));
+                  _loc10_.transform.colorTransform = new ColorTransform(_loc14_ / class_181.var_6910,_loc15_ / class_181.var_6910,_loc16_ / class_181.var_6910);
                }
             }
             return _loc7_;
@@ -267,7 +267,7 @@ package
          var _loc34_:int = 0;
          var _loc35_:Array = null;
          var _loc36_:MovieClip = null;
-         if(class_73.method_2108(class_165.var_6534) == param1)
+         if(class_165.var_6534 == param1)
          {
             param2 = class_102.var_4859;
             param3 = class_33.var_3679;
@@ -282,14 +282,14 @@ package
          {
             return new MovieClip();
          }
-         var _loc10_:int = param5.indexOf(class_73.method_2111(class_121.var_5459));
+         var _loc10_:int = param5.indexOf(class_121.var_5459);
          if(_loc10_ != -class_33.var_3679)
          {
             param5 = param5.substr(_loc10_ + class_33.var_3679);
          }
          var _loc11_:Array = !!param5 ? param5.split(class_107.var_5062) : null;
          var _loc12_:int = _loc9_.numChildren;
-         var _loc13_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc13_:int = -class_33.var_3679;
          while(++_loc13_ < _loc12_)
          {
             _loc14_ = _loc9_.getChildAt(_loc13_) as Sprite;
@@ -299,13 +299,13 @@ package
                _loc16_ = _loc14_.name;
                if(_loc16_.indexOf(class_21.const_99) != class_183.var_7129)
                {
-                  if(param3 == class_73.method_2108(class_146.var_6118) && _loc16_ != class_4.var_2951 && _loc16_ != class_124.var_5545)
+                  if(param3 == class_146.var_6118 && _loc16_ != class_4.var_2951 && _loc16_ != class_124.var_5545)
                   {
-                     _loc17_ = class_73.method_2111(class_33.var_3659) + _loc16_ + class_73.method_2111(class_33.var_3659) + param2 + class_124.var_5544;
+                     _loc17_ = class_33.var_3659 + _loc16_ + class_33.var_3659 + param2 + class_124.var_5544;
                   }
                   else
                   {
-                     _loc17_ = class_73.method_2111(class_33.var_3659) + _loc16_ + class_33.var_3659 + param2 + class_33.var_3659 + param3;
+                     _loc17_ = class_33.var_3659 + _loc16_ + class_33.var_3659 + param2 + class_33.var_3659 + param3;
                   }
                   if(class_21.var_3493.hasDefinition(_loc17_))
                   {
@@ -313,20 +313,20 @@ package
                      if(_loc18_)
                      {
                         _loc14_.addChild(_loc18_);
-                        if(param7 && _loc16_ == class_73.method_2111(class_102.var_4727))
+                        if(param7 && _loc16_ == class_102.var_4727)
                         {
                            _loc19_ = class_175.method_118(class_127.var_5765);
-                           _loc19_.x = class_73.method_2108(class_146.var_6117);
-                           _loc19_.y = -class_73.method_2108(class_170.var_6731);
+                           _loc19_.x = class_146.var_6117;
+                           _loc19_.y = -class_170.var_6731;
                            _loc19_.scaleX = class_107.var_5029;
                            _loc19_.scaleY = class_107.var_5029;
-                           _loc19_.rotation = -class_73.method_2108(class_146.var_6117);
+                           _loc19_.rotation = -class_146.var_6117;
                            _loc14_.addChild(_loc19_);
-                           if(class_73.method_2108(class_33.var_3679) < _loc15_)
+                           if(class_33.var_3679 < _loc15_)
                            {
                               _loc24_ = param6[class_33.var_3679];
-                              _loc25_ = _loc24_ >> class_73.method_2108(class_16.var_3467) & 255;
-                              _loc26_ = _loc24_ >> class_73.method_2108(class_170.var_6731) & 255;
+                              _loc25_ = _loc24_ >> class_16.var_3467 & 255;
+                              _loc26_ = _loc24_ >> class_170.var_6731 & 255;
                               _loc27_ = _loc24_ & 255;
                               MovieClip(_loc19_[class_124.var_5543]).transform.colorTransform = new ColorTransform(_loc25_ / class_181.var_6910,_loc26_ / class_181.var_6910,_loc27_ / class_181.var_6910);
                            }
@@ -334,22 +334,22 @@ package
                         if(_loc15_)
                         {
                            _loc20_ = _loc18_.numChildren;
-                           _loc21_ = -class_73.method_2108(class_33.var_3679);
+                           _loc21_ = -class_33.var_3679;
                            while(++_loc21_ < _loc20_)
                            {
                               _loc22_ = _loc18_.getChildAt(_loc21_) as Sprite;
                               if(_loc22_)
                               {
-                                 if(_loc22_.name.charAt(class_73.method_2108(class_183.var_7129)) == class_146.var_6054)
+                                 if(_loc22_.name.charAt(class_183.var_7129) == class_146.var_6054)
                                  {
                                     _loc23_ = int(_loc22_.name.charAt(class_33.var_3679));
                                     if(_loc23_ < _loc15_)
                                     {
                                        _loc24_ = param6[_loc23_];
-                                       _loc25_ = _loc24_ >> class_73.method_2108(class_16.var_3467) & 255;
-                                       _loc26_ = _loc24_ >> class_73.method_2108(class_170.var_6731) & 255;
+                                       _loc25_ = _loc24_ >> class_16.var_3467 & 255;
+                                       _loc26_ = _loc24_ >> class_170.var_6731 & 255;
                                        _loc27_ = _loc24_ & 255;
-                                       _loc22_.transform.colorTransform = new ColorTransform(_loc25_ / class_181.var_6910,_loc26_ / class_181.var_6910,_loc27_ / class_73.method_2108(class_181.var_6910));
+                                       _loc22_.transform.colorTransform = new ColorTransform(_loc25_ / class_181.var_6910,_loc26_ / class_181.var_6910,_loc27_ / class_181.var_6910);
                                     }
                                  }
                               }
@@ -370,11 +370,11 @@ package
                         _loc31_ = _loc28_[_loc30_];
                         _loc32_ = _loc11_[_loc31_];
                         _loc33_ = null;
-                        if(_loc32_ && _loc32_.indexOf(class_33.var_3659) != -class_73.method_2108(class_33.var_3679))
+                        if(_loc32_ && _loc32_.indexOf(class_33.var_3659) != -class_33.var_3679)
                         {
                            _loc35_ = _loc32_.split(class_33.var_3659);
                            _loc34_ = int(_loc35_[class_183.var_7129]);
-                           _loc33_ = _loc35_[class_33.var_3679].split(class_73.method_2111(class_16.var_3394));
+                           _loc33_ = _loc35_[class_33.var_3679].split(class_16.var_3394);
                         }
                         else
                         {
@@ -385,23 +385,23 @@ package
                            _loc36_ = class_21.method_1891(_loc31_,_loc34_,_loc33_,true);
                            if(class_170.var_6695 < _loc34_)
                            {
-                              _loc36_.name = class_73.method_2111(class_4.var_2950) + (_loc31_ * class_73.method_2108(class_181.var_6922) + _loc34_ + class_181.var_6922);
+                              _loc36_.name = class_4.var_2950 + (_loc31_ * class_181.var_6922 + _loc34_ + class_181.var_6922);
                            }
                            else
                            {
-                              _loc36_.name = class_73.method_2111(class_4.var_2950) + (_loc31_ * class_73.method_2108(class_121.var_5493) + _loc34_);
+                              _loc36_.name = class_4.var_2950 + (_loc31_ * class_121.var_5493 + _loc34_);
                            }
                            if(_loc36_)
                            {
                               if(_loc31_ == class_34.const_116 || _loc31_ == class_34.const_115)
                               {
-                                 _loc14_.addChildAt(_loc36_,_loc14_.numChildren > class_183.var_7129 ? int(class_73.method_2108(class_33.var_3679)) : int(class_183.var_7129));
+                                 _loc14_.addChildAt(_loc36_,_loc14_.numChildren > class_183.var_7129 ? int(class_33.var_3679) : int(class_183.var_7129));
                               }
                               else if(_loc31_ == class_34.const_117)
                               {
                                  if(_loc14_.numChildren)
                                  {
-                                    _loc14_.removeChildAt(class_73.method_2108(class_183.var_7129));
+                                    _loc14_.removeChildAt(class_183.var_7129);
                                  }
                                  _loc14_.addChild(_loc36_);
                               }
@@ -437,20 +437,20 @@ package
          {
             _loc7_ = class_1.var_2884.var_13.var_894.var_790.slice();
             _loc7_[class_183.var_7129] = class_11.const_54[param2];
-            _loc8_ = new class_150(class_73.method_2111(class_89.var_4315),class_73.method_2108(class_33.var_3679),class_150.const_550,_loc7_);
-            return _loc8_.method_579(class_73.method_2111(class_181.var_6915),false);
+            _loc8_ = new class_150(class_89.var_4315,class_33.var_3679,class_150.const_550,_loc7_);
+            return _loc8_.method_579(class_181.var_6915,false);
          }
          if(param1 == class_34.name_57)
          {
             if(class_1.var_2884.var_13)
             {
-               _loc8_ = new class_150(param2 + class_73.method_2111(class_162.var_6222),param2,class_150.const_550,class_1.var_2884.var_13.var_894.var_790);
+               _loc8_ = new class_150(param2 + class_162.var_6222,param2,class_150.const_550,class_1.var_2884.var_13.var_894.var_790);
             }
             else
             {
-               _loc8_ = new class_150(param2 + class_73.method_2111(class_162.var_6222),param2,class_150.const_550,new <int>[class_183.var_7129,class_73.method_2108(class_183.var_7129)]);
+               _loc8_ = new class_150(param2 + class_162.var_6222,param2,class_150.const_550,new <int>[class_183.var_7129,class_183.var_7129]);
             }
-            return _loc8_.method_579(class_73.method_2111(class_181.var_6915),false);
+            return _loc8_.method_579(class_181.var_6915,false);
          }
          var _loc5_:int = class_183.var_7129;
          if(param3)
@@ -467,9 +467,9 @@ package
             {
                _loc12_ = _loc9_.getChildAt(_loc11_);
                _loc13_ = _loc12_.name;
-               if(_loc13_ && _loc13_.indexOf(class_181.var_6835) == class_73.method_2108(class_183.var_7129))
+               if(_loc13_ && _loc13_.indexOf(class_181.var_6835) == class_183.var_7129)
                {
-                  _loc14_ = int(_loc13_.charAt(class_73.method_2108(class_92.var_4647)));
+                  _loc14_ = int(_loc13_.charAt(class_92.var_4647));
                   if(_loc14_ < _loc5_)
                   {
                      if(param4)
@@ -488,7 +488,7 @@ package
                   _loc16_ = _loc15_ >> class_16.var_3467 & 255;
                   _loc17_ = _loc15_ >> class_170.var_6731 & 255;
                   _loc18_ = _loc15_ & 255;
-                  _loc12_.transform.colorTransform = new ColorTransform(_loc16_ / class_73.method_2108(class_181.var_6910),_loc17_ / class_181.var_6910,_loc18_ / class_181.var_6910);
+                  _loc12_.transform.colorTransform = new ColorTransform(_loc16_ / class_181.var_6910,_loc17_ / class_181.var_6910,_loc18_ / class_181.var_6910);
                }
             }
             return _loc9_;
@@ -503,12 +503,12 @@ package
          var _loc5_:int = 0;
          var _loc6_:String = null;
          var _loc7_:ByteArray = null;
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
+         var _loc2_:int = class_183.var_7129;
          while(_loc2_ < param1.var_1220)
          {
             _loc3_ = param1.var_1221[_loc2_];
             _loc4_ = new ByteArray();
-            _loc5_ = class_73.method_2108(class_183.var_7129);
+            _loc5_ = class_183.var_7129;
             while(_loc5_ < _loc3_.var_1224)
             {
                _loc6_ = _loc3_.var_1225[_loc5_];
@@ -528,7 +528,7 @@ package
          if(class_21.var_1225.length)
          {
             this.var_211 = class_21.var_1225.shift();
-            class_143.method_955(class_73.method_2111(class_33.var_3562) + this.var_211);
+            class_143.method_955(class_33.var_3562 + this.var_211);
             this.name_7 = new Loader();
             if(class_183.var_7129 == this.var_211)
             {
@@ -539,7 +539,7 @@ package
                _loc1_ = new LoaderContext(false,new ApplicationDomain());
             }
             this.name_7.contentLoaderInfo.addEventListener(Event.COMPLETE,this.method_186);
-            if(Capabilities.playerType == class_73.method_2111(class_146.var_6116))
+            if(Capabilities.playerType == class_146.var_6116)
             {
                _loc1_.allowCodeImport = class_99.var_4681;
             }

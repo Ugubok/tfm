@@ -38,7 +38,7 @@ package
          {
             return;
          }
-         if(param1.length == class_73.method_2108(class_183.var_7129))
+         if(param1.length == class_183.var_7129)
          {
             _loc2_ = class_183.var_7129;
             while(_loc2_ < (var_162 as class_200).var_1029)

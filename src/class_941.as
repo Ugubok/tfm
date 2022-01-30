@@ -15,7 +15,7 @@ package
       
       public static function method_3036() : ByteArray
       {
-         if(class_941.var_7405.length > class_73.method_2108(class_183.var_7129))
+         if(class_941.var_7405.length > class_183.var_7129)
          {
             return class_941.var_7405.pop();
          }

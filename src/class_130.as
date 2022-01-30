@@ -25,11 +25,11 @@ package
       
       public static var var_5892:String;
       
-      public static var var_5893:String = class_73.method_2111("");
+      public static var var_5893:String = "";
       
       public static var var_5894:String = "";
       
-      public static var var_5895:String = class_73.method_2111("");
+      public static var var_5895:String = "";
       
       public static var var_5896:String = "";
       
@@ -64,12 +64,12 @@ package
          {
             _loc1_ = new Shape();
             _loc1_.graphics.beginFill(class_54.const_295);
-            _loc1_.graphics.drawRect(class_183.var_7129,class_183.var_7129,class_73.method_2108(class_107.var_5074),class_9.var_3259);
+            _loc1_.graphics.drawRect(class_183.var_7129,class_183.var_7129,class_107.var_5074,class_9.var_3259);
             _loc1_.graphics.endFill();
             _loc1_.cacheAsBitmap = class_99.var_4681;
             addChild(_loc1_);
          }
-         this.var_401 = new class_220(class_73.method_2111(class_9.var_3268),class_117.var_5206,class_73.method_2108(class_33.var_3675));
+         this.var_401 = new class_220(class_9.var_3268,class_117.var_5206,class_33.var_3675);
          this.var_401.multiline = class_99.var_4682;
          this.var_401.wordWrap = class_99.var_4682;
          this.var_401.y = class_165.var_6534;
@@ -81,7 +81,7 @@ package
          this.var_717.multiline = class_99.var_4682;
          this.var_717.wordWrap = class_99.var_4682;
          this.var_717.y = class_62.var_4077;
-         this.var_717.y = class_73.method_2108(class_165.var_6534);
+         this.var_717.y = class_165.var_6534;
          this.var_717.width = class_33.var_3636;
          this.var_717.height = class_33.var_3675;
          this.var_717.selectable = class_99.var_4682;
@@ -97,8 +97,8 @@ package
          }
          if(class_190.var_7138)
          {
-            this.var_401.y = class_73.method_2108(class_183.var_7129);
-            this.var_717.y = class_73.method_2108(class_183.var_7129);
+            this.var_401.y = class_183.var_7129;
+            this.var_717.y = class_183.var_7129;
          }
       }
       
@@ -109,8 +109,8 @@ package
          if(class_130.var_5900 == class_130.const_517)
          {
             _loc2_ = class_130.var_5901[class_183.var_7129];
-            _loc3_ = class_130.var_5901[class_73.method_2108(class_33.var_3679)];
-            class_130.var_5896 = class_73.method_2111(class_62.var_4121) + class_161.method_2554(class_130.var_5902,true,true,true) + class_146.var_6036 + _loc2_ + class_73.method_2111(class_165.var_6447) + class_161.method_2554(class_130.var_5903,true) + class_89.var_4359 + _loc3_ + class_107.var_4984;
+            _loc3_ = class_130.var_5901[class_33.var_3679];
+            class_130.var_5896 = class_62.var_4121 + class_161.method_2554(class_130.var_5902,true,true,true) + class_146.var_6036 + _loc2_ + class_165.var_6447 + class_161.method_2554(class_130.var_5903,true) + class_89.var_4359 + _loc3_ + class_107.var_4984;
          }
          else if(class_130.var_5900 == class_130.const_515)
          {
@@ -118,7 +118,7 @@ package
          }
          else if(class_130.const_516 == class_130.var_5900)
          {
-            class_130.var_5896 = class_161.method_2554(class_130.var_5902,true,true,true) + class_62.var_4080 + class_161.method_2554(class_130.var_5903,true) + class_73.method_2111(class_162.var_6345);
+            class_130.var_5896 = class_161.method_2554(class_130.var_5902,true,true,true) + class_62.var_4080 + class_161.method_2554(class_130.var_5903,true) + class_162.var_6345;
          }
          if(param1 && class_130.var_2884)
          {
@@ -195,7 +195,7 @@ package
             this.var_718 = class_175.method_118(param1);
             if(!this.var_718)
             {
-               this.var_718 = class_175.method_118(class_73.method_2111(class_165.var_6446),true);
+               this.var_718 = class_175.method_118(class_165.var_6446,true);
             }
             this.var_718.cacheAsBitmap = class_99.var_4681;
             this.var_718.x = class_117.var_5287;
@@ -210,14 +210,14 @@ package
          if(class_130.var_5889)
          {
             class_130.var_5889 = class_99.var_4682;
-            class_130.var_5890 = class_26.method_1668(class_73.method_2111(class_16.var_3389));
+            class_130.var_5890 = class_26.method_1668(class_16.var_3389);
             if(class_1.const_44)
             {
                class_130.var_5891 = class_26.method_1668(class_4.var_2994);
             }
             else if(class_1.const_46)
             {
-               class_130.var_5891 = class_26.method_1668(class_73.method_2111(class_162.var_6282));
+               class_130.var_5891 = class_26.method_1668(class_162.var_6282);
             }
             else if(class_1.const_47)
             {
@@ -238,9 +238,9 @@ package
          {
             if(class_130.var_5893)
             {
-               _loc1_ += class_165.var_6521 + class_130.var_5893 + class_73.method_2111(class_9.var_3182);
+               _loc1_ += class_165.var_6521 + class_130.var_5893 + class_9.var_3182;
             }
-            _loc1_ += class_121.var_5462 + class_130.var_5894 + class_73.method_2111(class_4.var_2993) + class_130.var_5890 + class_73.method_2111(class_92.var_4569) + class_130.var_5895 + class_4.var_2993 + class_130.var_5891;
+            _loc1_ += class_121.var_5462 + class_130.var_5894 + class_4.var_2993 + class_130.var_5890 + class_92.var_4569 + class_130.var_5895 + class_4.var_2993 + class_130.var_5891;
             if(class_130.var_5897)
             {
                _loc1_ += class_92.var_4568 + class_130.var_5897;
@@ -253,7 +253,7 @@ package
                }
                else
                {
-                  _loc1_ += class_73.method_2111(class_117.var_5207) + class_130.var_5896 + class_73.method_2111(class_4.var_2993) + class_130.var_5892;
+                  _loc1_ += class_117.var_5207 + class_130.var_5896 + class_4.var_2993 + class_130.var_5892;
                }
             }
          }
@@ -261,9 +261,9 @@ package
          {
             if(class_130.var_5893)
             {
-               _loc1_ += class_165.var_6521 + class_130.var_5893 + class_73.method_2111(class_9.var_3182);
+               _loc1_ += class_165.var_6521 + class_130.var_5893 + class_9.var_3182;
             }
-            _loc1_ += class_73.method_2111(class_117.var_5225) + class_130.var_5890 + class_117.var_5253 + class_130.var_5894 + class_73.method_2111(class_92.var_4568) + class_130.var_5891 + class_73.method_2111(class_117.var_5253) + class_130.var_5895;
+            _loc1_ += class_117.var_5225 + class_130.var_5890 + class_117.var_5253 + class_130.var_5894 + class_92.var_4568 + class_130.var_5891 + class_117.var_5253 + class_130.var_5895;
             if(class_130.var_5897)
             {
                _loc1_ += class_92.var_4568 + class_130.var_5897;
@@ -276,7 +276,7 @@ package
                }
                else
                {
-                  _loc1_ += class_73.method_2111(class_92.var_4568) + class_130.var_5892 + class_62.var_4078 + class_130.var_5896;
+                  _loc1_ += class_92.var_4568 + class_130.var_5892 + class_62.var_4078 + class_130.var_5896;
                }
             }
          }
@@ -295,7 +295,7 @@ package
          {
             class_130.var_2238.parent.removeChild(class_130.var_2238);
          }
-         class_130.var_2238 = class_141.method_92(param1,class_73.method_2108(class_16.var_3467));
+         class_130.var_2238 = class_141.method_92(param1,class_16.var_3467);
          class_130.var_2238.x = param2;
          class_130.var_2238.y = class_121.var_5495;
          addChild(class_130.var_2238);
@@ -305,20 +305,20 @@ package
       {
          var _loc4_:int = 0;
          this.var_717.text = param2;
-         if(param2.charAt(class_183.var_7129) != class_73.method_2111(class_89.var_4425))
+         if(param2.charAt(class_183.var_7129) != class_89.var_4425)
          {
-            _loc4_ = param2.indexOf(class_73.method_2111(class_89.var_4390));
+            _loc4_ = param2.indexOf(class_89.var_4390);
             if(_loc4_ != -class_33.var_3679)
             {
                this.var_717.text = param2.substr(_loc4_ + class_33.var_3679);
             }
          }
-         class_1.var_2884.method_97(class_26.method_1668(class_73.method_2111(class_16.var_3388),this.var_717.text));
+         class_1.var_2884.method_97(class_26.method_1668(class_16.var_3388,this.var_717.text));
          this.var_717.textColor = !!param1 ? uint(12238127) : uint(5491110);
          this.var_717.width = this.var_717.textWidth + class_146.var_6117;
-         if(this.var_717.width > class_73.method_2108(class_170.var_6717))
+         if(this.var_717.width > class_170.var_6717)
          {
-            this.var_717.width = class_73.method_2108(class_170.var_6717);
+            this.var_717.width = class_170.var_6717;
          }
          this.var_717.x = class_165.var_6445 - this.var_717.width;
          this.method_263(param3,this.var_717.x - class_92.var_4628);

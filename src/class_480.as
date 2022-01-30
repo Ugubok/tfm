@@ -76,7 +76,7 @@ package
          {
             this.method_1387(param1,false);
          }
-         else if(this.var_1937.indexOf(param1) == -class_73.method_2108(class_33.var_3679))
+         else if(this.var_1937.indexOf(param1) == -class_33.var_3679)
          {
             this.var_1937.push(param1);
          }

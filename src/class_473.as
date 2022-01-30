@@ -53,7 +53,7 @@ package
       
       public static function method_3035(param1:int) : Boolean
       {
-         return param1 <= class_73.method_2108(class_62.var_4033) || param1 == class_73.method_2108(class_92.var_4526) || class_473.var_7313[param1];
+         return param1 <= class_62.var_4033 || param1 == class_92.var_4526 || class_473.var_7313[param1];
       }
    }
 }

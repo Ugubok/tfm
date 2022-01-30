@@ -49,7 +49,7 @@ package
          {
             if(param3)
             {
-               class_115.var_2884.var_656.addChildAt(param1,class_73.method_2108(class_183.var_7129));
+               class_115.var_2884.var_656.addChildAt(param1,class_183.var_7129);
             }
             else
             {
@@ -60,7 +60,7 @@ package
          {
             if(param3)
             {
-               class_115.var_2884.var_655.addChildAt(param1,class_73.method_2108(class_183.var_7129));
+               class_115.var_2884.var_655.addChildAt(param1,class_183.var_7129);
             }
             else
             {
@@ -86,7 +86,7 @@ package
          }
          while(class_115.var_2884.var_655.numChildren)
          {
-            class_115.var_2884.var_655.removeChildAt(class_73.method_2108(class_183.var_7129));
+            class_115.var_2884.var_655.removeChildAt(class_183.var_7129);
          }
          while(class_115.var_2884.var_656.numChildren)
          {
@@ -102,18 +102,18 @@ package
       {
          if(!class_115.var_2884)
          {
-            return class_73.method_2108(class_183.var_7129);
+            return class_183.var_7129;
          }
-         return class_115.var_2884.var_655[class_73.method_2111(class_165.var_6533)];
+         return class_115.var_2884.var_655[class_165.var_6533];
       }
       
       public static function name_44() : int
       {
          if(!class_115.var_2884)
          {
-            return class_73.method_2108(class_183.var_7129);
+            return class_183.var_7129;
          }
-         return class_115.var_2884.var_655[class_73.method_2111(class_107.var_5075)];
+         return class_115.var_2884.var_655[class_107.var_5075];
       }
       
       public static function method_2321(param1:int) : Sprite
@@ -122,11 +122,11 @@ package
          {
             class_115.var_2884 = new class_115();
          }
-         if(param1 == class_73.method_2108(class_33.var_3679))
+         if(param1 == class_33.var_3679)
          {
             return class_115.var_2884.var_656;
          }
-         if(class_73.method_2108(class_183.var_7129) == param1)
+         if(class_183.var_7129 == param1)
          {
             return class_115.var_2884.var_655;
          }

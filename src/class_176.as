@@ -15,7 +15,7 @@ package
       
       public static function method_2630(param1:int) : int
       {
-         return class_176.method_2643(param1)[class_73.method_2108(class_183.var_7129)];
+         return class_176.method_2643(param1)[class_183.var_7129];
       }
       
       public static function method_2631(param1:int) : int
@@ -26,7 +26,7 @@ package
          var _loc4_:Array = class_176.var_6748[_loc2_];
          if(!_loc4_)
          {
-            _loc3_ = class_73.method_2108(class_183.var_7129);
+            _loc3_ = class_183.var_7129;
          }
          else
          {
@@ -48,9 +48,9 @@ package
          var _loc5_:int = _loc4_.indexOf(_loc2_[class_33.var_3679]);
          if(_loc5_ == _loc4_.length - class_33.var_3679)
          {
-            return _loc2_[class_73.method_2108(class_183.var_7129)];
+            return _loc2_[class_183.var_7129];
          }
-         _loc5_ = _loc5_ == -class_73.method_2108(class_33.var_3679) ? int(class_73.method_2108(class_183.var_7129)) : int(_loc5_ + class_33.var_3679);
+         _loc5_ = _loc5_ == -class_33.var_3679 ? int(class_183.var_7129) : int(_loc5_ + class_33.var_3679);
          return class_176.method_2647(_loc2_[class_183.var_7129],_loc4_[_loc5_]);
       }
       
@@ -73,7 +73,7 @@ package
          var _loc3_:* = null;
          if(param1[class_183.var_7129] is Vector.<int>)
          {
-            return param1[class_73.method_2108(class_183.var_7129)];
+            return param1[class_183.var_7129];
          }
          var _loc2_:Vector.<int> = new Vector.<int>();
          for(_loc3_ in param1)
@@ -101,7 +101,7 @@ package
             class_176.var_6748[param1][class_183.var_7129] = new Vector.<int>();
          }
          class_176.var_6748[param1][param2] = class_99.var_4681;
-         class_176.var_6748[param1][class_73.method_2108(class_183.var_7129)].push(param2);
+         class_176.var_6748[param1][class_183.var_7129].push(param2);
       }
       
       public static function method_2637(param1:int, param2:int = 0) : Boolean
@@ -119,7 +119,7 @@ package
          if(!param2)
          {
             _loc3_ = class_176.method_2643(param1);
-            return class_176.method_2638(_loc3_[class_73.method_2108(class_183.var_7129)],_loc3_[class_33.var_3679]);
+            return class_176.method_2638(_loc3_[class_183.var_7129],_loc3_[class_33.var_3679]);
          }
          return class_176.var_6748[param1] && class_176.var_6748[param1][param2] !== undefined;
       }
@@ -131,7 +131,7 @@ package
          var _loc4_:Vector.<int> = !!_loc3_ ? class_176.method_2635(_loc3_) : new Vector.<int>();
          var _loc5_:Vector.<int> = new Vector.<int>();
          var _loc6_:int = _loc4_.length;
-         var _loc7_:int = class_73.method_2108(class_183.var_7129);
+         var _loc7_:int = class_183.var_7129;
          while(_loc7_ < _loc6_)
          {
             _loc5_.push(class_176.method_2647(_loc2_,_loc4_[_loc7_]));
@@ -166,18 +166,18 @@ package
          var _loc4_:int = 0;
          if(param1 > class_170.var_6613)
          {
-            _loc3_ = int((param1 - class_181.var_6922) / class_73.method_2108(class_181.var_6922));
-            _loc4_ = (-class_73.method_2108(class_181.var_6922) + param1) % class_181.var_6922;
+            _loc3_ = int((param1 - class_181.var_6922) / class_181.var_6922);
+            _loc4_ = (-class_181.var_6922 + param1) % class_181.var_6922;
          }
-         else if(class_73.method_2108(class_170.var_6695) < param1)
+         else if(class_170.var_6695 < param1)
          {
-            _loc3_ = int(param1 / class_73.method_2108(class_121.var_5493));
+            _loc3_ = int(param1 / class_121.var_5493);
             _loc4_ = param1 % class_121.var_5493;
          }
          else
          {
-            _loc3_ = !!param2 ? int(param1) : int(class_73.method_2108(class_183.var_7129));
-            _loc4_ = !!param2 ? int(class_73.method_2108(class_183.var_7129)) : int(param1);
+            _loc3_ = !!param2 ? int(param1) : int(class_183.var_7129);
+            _loc4_ = !!param2 ? int(class_183.var_7129) : int(param1);
          }
          return new Array(_loc3_,_loc4_);
       }
@@ -196,7 +196,7 @@ package
       public static function method_2646(param1:int) : int
       {
          var _loc2_:int = class_176.method_2630(param1);
-         return int(!!class_176.var_6748[_loc2_] ? int(class_176.method_2635(class_176.var_6748[_loc2_]).length) : int(class_73.method_2108(class_183.var_7129)));
+         return int(!!class_176.var_6748[_loc2_] ? int(class_176.method_2635(class_176.var_6748[_loc2_]).length) : int(class_183.var_7129));
       }
       
       public static function method_2647(param1:int, param2:int, param3:Boolean = true) : int
@@ -204,7 +204,7 @@ package
          var _loc4_:int = 0;
          if(param3)
          {
-            if(param2 == class_73.method_2108(class_183.var_7129))
+            if(param2 == class_183.var_7129)
             {
                return param1;
             }
@@ -215,11 +215,11 @@ package
          }
          if(param2 > class_170.var_6695)
          {
-            _loc4_ = param1 * class_181.var_6922 + param2 + class_73.method_2108(class_181.var_6922);
+            _loc4_ = param1 * class_181.var_6922 + param2 + class_181.var_6922;
          }
          else
          {
-            _loc4_ = param1 * class_73.method_2108(class_121.var_5493) + param2;
+            _loc4_ = param1 * class_121.var_5493 + param2;
          }
          return _loc4_;
       }

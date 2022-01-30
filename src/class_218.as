@@ -114,19 +114,19 @@ package
          else if(class_218.var_7168 == class_218.const_624)
          {
             class_218.var_7164 = class_99.var_4681;
-            class_1.var_2884.var_53.addChildAt(class_175.method_2618(class_60.var_3847),class_73.method_2108(class_33.var_3679));
+            class_1.var_2884.var_53.addChildAt(class_175.method_2618(class_60.var_3847),class_33.var_3679);
             _loc2_ = class_175.method_2618(class_62.var_4014);
-            _loc2_.y = class_73.method_2108(class_117.var_5280);
-            class_1.var_2884.var_53.addChildAt(_loc2_,class_73.method_2108(class_33.var_3679));
+            _loc2_.y = class_117.var_5280;
+            class_1.var_2884.var_53.addChildAt(_loc2_,class_33.var_3679);
             _loc2_ = class_175.method_2618(class_117.var_5150);
-            _loc2_.y = class_73.method_2108(class_127.var_5746);
-            class_1.var_2884.var_53.addChildAt(_loc2_,class_73.method_2108(class_33.var_3679));
+            _loc2_.y = class_127.var_5746;
+            class_1.var_2884.var_53.addChildAt(_loc2_,class_33.var_3679);
          }
          else if(class_218.var_7168 == class_218.const_625)
          {
             class_218.var_7165 = class_99.var_4681;
             class_541.method_3048(true);
-            class_1.var_2884.addChildAt(new class_540(),class_73.method_2108(class_33.var_3679));
+            class_1.var_2884.addChildAt(new class_540(),class_33.var_3679);
          }
          else if(class_218.var_7168 == class_218.const_626)
          {

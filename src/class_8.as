@@ -6,7 +6,7 @@ package
    public class class_8
    {
       
-      public static const const_52:String = class_73.method_2111("strm");
+      public static const const_52:String = "strm";
       
       public static var var_3068:String = null;
       
@@ -49,11 +49,11 @@ package
          {
             return class_9.var_3268;
          }
-         var _loc1_:String = class_73.method_2111(class_60.var_3930);
-         _loc1_ += class_60.var_3967 + class_8.const_52 + class_73.method_2111(class_9.var_3258) + class_8.var_3069;
+         var _loc1_:String = class_60.var_3930;
+         _loc1_ += class_60.var_3967 + class_8.const_52 + class_9.var_3258 + class_8.var_3069;
          if(class_8.var_3068 !== null)
          {
-            _loc1_ += class_73.method_2111(class_121.var_5447) + class_8.var_3068;
+            _loc1_ += class_121.var_5447 + class_8.var_3068;
          }
          return _loc1_;
       }
@@ -73,7 +73,7 @@ package
          class_8.var_3072 = _loc2_;
          if(_loc2_)
          {
-            class_8.var_3069 = param1.substr((class_73.method_2111(class_89.var_4425) + class_8.const_52 + class_33.var_3659).length);
+            class_8.var_3069 = param1.substr((class_89.var_4425 + class_8.const_52 + class_33.var_3659).length);
             class_1.var_2884.var_19.scaleMode = StageScaleMode.SHOW_ALL;
          }
          class_196.name_6(_loc2_);
@@ -82,16 +82,16 @@ package
       public static function method_1848(param1:String) : Boolean
       {
          var _loc2_:Array = null;
-         if(param1.indexOf(class_73.method_2111(class_102.var_4812)) != -class_33.var_3679)
+         if(param1.indexOf(class_102.var_4812) != -class_33.var_3679)
          {
             _loc2_ = param1.match(/im=([\x03\x02\b\x06\x06\x02\b\b\x03\x03\x02-zA-Z0-((\x02\x07\x07\x03\x07\x07\b\x07\x01\x07\x01.\x07\x05\x04\x01\x03\x03\x02\x03\x04\x02\x02\b\x02))]+)$/);
             if(_loc2_)
             {
-               class_8.var_3068 = _loc2_[class_73.method_2108(class_33.var_3679)];
+               class_8.var_3068 = _loc2_[class_33.var_3679];
                return true;
             }
          }
-         else if(param1.indexOf(class_73.method_2111(class_60.var_3929)) != -class_33.var_3679)
+         else if(param1.indexOf(class_60.var_3929) != -class_33.var_3679)
          {
             _loc2_ = param1.match(/\/([\x03\x02\b\x06\x06\x02\b\b\x03\x03\x02-zA-Z0-(\x02\x03\b\x03\x01\b\x04\x07\x06\x04\x01\x04.\x04\x03\x03\x02\x01\x02\b\x05\x07\x06\x06\x01\x03(\x02\x07\x07\x03\x07\x07\b\x07\x01\x07\x01.\x07\x05\x04\x01\x03\x03\x02\x03\x04\x02\x02\b\x02))]+)\.[\x03\x02\b\x06\x06\x02\b\b\x03\x03\x02-zA-Z0-((\x02\x07\x07\x03\x07\x07\b\x07\x01\x07\x01.\x07\x05\x04\x01\x03\x03\x02\x03\x04\x02\x02\b\x02))]+$/);
             if(_loc2_)
@@ -127,13 +127,13 @@ package
          {
             return null;
          }
-         return class_89.var_4425 + class_8.const_52 + class_73.method_2111(class_33.var_3659) + param1;
+         return class_89.var_4425 + class_8.const_52 + class_33.var_3659 + param1;
       }
       
       public static function method_1851(param1:Boolean) : void
       {
          class_8.var_3071 = param1;
-         if(getTimer() - class_8.var_3070 > class_73.method_2108(class_124.var_5662))
+         if(getTimer() - class_8.var_3070 > class_124.var_5662)
          {
             class_39.var_3744.method_313(class_137.method_2449(param1));
             class_8.var_3070 = getTimer();

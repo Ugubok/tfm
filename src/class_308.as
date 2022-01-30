@@ -32,17 +32,17 @@ package
          this.var_1477 = param1;
          if(param1.indexOf(class_170.var_6702) != -class_33.var_3679 && false)
          {
-            this.var_1478 = class_175.method_2618(param1 + class_89.var_4299 + class_1.var_2864,class_73.method_2111(class_9.var_3268));
+            this.var_1478 = class_175.method_2618(param1 + class_89.var_4299 + class_1.var_2864,class_9.var_3268);
          }
          else
          {
-            this.var_1478 = class_175.method_2618(param1 + class_73.method_2111(class_89.var_4299) + class_1.var_2864);
+            this.var_1478 = class_175.method_2618(param1 + class_89.var_4299 + class_1.var_2864);
          }
          this.var_304 = param2;
          this.var_305 = param3;
          if(param4)
          {
-            this.var_1478.scaleX = -class_73.method_2108(class_33.var_3679);
+            this.var_1478.scaleX = -class_33.var_3679;
          }
          this.var_1478.x = this.var_304;
          this.var_1478.y = this.var_305;
@@ -55,7 +55,7 @@ package
       
       public function method_126(param1:Number = 0, param2:Number = 0) : class_308
       {
-         return new class_308(this.var_1477,this.var_304,this.var_305,this.var_1478.scaleX == -class_73.method_2108(class_33.var_3679),!!this.var_1479).method_1094(param1,param2,true);
+         return new class_308(this.var_1477,this.var_304,this.var_305,this.var_1478.scaleX == -class_33.var_3679,!!this.var_1479).method_1094(param1,param2,true);
       }
       
       public function method_1093(param1:int) : class_308

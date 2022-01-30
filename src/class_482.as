@@ -53,7 +53,7 @@ package
          param1.writeUTF(this.var_817);
          param1.writeByte(this.var_1691);
          param1.writeInt(this.var_1692);
-         param1.writeByte(!!this.var_1938 ? int(class_73.method_2108(class_33.var_3679)) : int(class_183.var_7129));
+         param1.writeByte(!!this.var_1938 ? int(class_33.var_3679) : int(class_183.var_7129));
          param1.writeByte(!!this.var_1939 ? int(class_33.var_3679) : int(class_183.var_7129));
          this.var_1931.write(param1);
          param1.writeInt(this.var_1929);
@@ -67,7 +67,7 @@ package
          this.var_1691 = param1.readByte();
          this.var_1692 = param1.readInt();
          this.var_1938 = param1.readByte() != class_183.var_7129;
-         this.var_1939 = param1.readByte() != class_73.method_2108(class_183.var_7129);
+         this.var_1939 = param1.readByte() != class_183.var_7129;
          this.var_1931 = class_489.method_3036(param1);
          this.var_1929 = param1.readInt();
       }

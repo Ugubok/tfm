@@ -27,10 +27,10 @@ package
       public function method_1197(param1:Number, param2:Number) : void
       {
          this.var_1643 = class_121.var_5495;
-         this.var_1642[class_73.method_2108(class_183.var_7129)].method_105(-param1,-param2);
-         this.var_1642[class_73.method_2108(class_33.var_3679)].method_105(param1,-param2);
-         this.var_1642[class_73.method_2108(class_165.var_6534)].method_105(param1,param2);
-         this.var_1642[class_73.method_2108(class_146.var_6118)].method_105(-param1,param2);
+         this.var_1642[class_183.var_7129].method_105(-param1,-param2);
+         this.var_1642[class_33.var_3679].method_105(param1,-param2);
+         this.var_1642[class_165.var_6534].method_105(param1,param2);
+         this.var_1642[class_146.var_6118].method_105(-param1,param2);
       }
       
       public function method_1198(param1:Number, param2:Number, param3:class_167 = null, param4:Number = 0.0, param5:Number = 0, param6:Number = 0) : void
@@ -40,9 +40,9 @@ package
          var _loc9_:int = 0;
          this.var_1643 = class_121.var_5495;
          this.var_1642[class_183.var_7129].method_105(param5 - param1,param6 - param2);
-         this.var_1642[class_73.method_2108(class_33.var_3679)].method_105(param5 + param1,param6 - param2);
+         this.var_1642[class_33.var_3679].method_105(param5 + param1,param6 - param2);
          this.var_1642[class_165.var_6534].method_105(param5 + param1,param6 + param2);
-         this.var_1642[class_73.method_2108(class_146.var_6118)].method_105(param5 - param1,param6 + param2);
+         this.var_1642[class_146.var_6118].method_105(param5 - param1,param6 + param2);
          if(param3)
          {
             _loc7_ = param3;
@@ -62,7 +62,7 @@ package
       
       public function method_1199(param1:Number, param2:Number, param3:Number, param4:Number) : void
       {
-         this.var_1643 = class_73.method_2108(class_121.var_5495);
+         this.var_1643 = class_121.var_5495;
          this.var_1642[class_183.var_7129].method_105(param1 - param3,param2 - param4);
          this.var_1642[class_33.var_3679].method_105(param1 + param3,param2 - param4);
          this.var_1642[class_165.var_6534].method_105(param1 + param3,param2 + param4);
@@ -71,14 +71,14 @@ package
       
       public function method_1200(param1:Vector.<Number>) : void
       {
-         this.var_1643 = param1.length / class_73.method_2108(class_165.var_6534);
+         this.var_1643 = param1.length / class_165.var_6534;
          var _loc2_:int = -class_33.var_3679;
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < param1.length)
          {
             _loc2_++;
             this.var_1642[_loc2_].method_105(param1[_loc3_],param1[_loc3_ + class_33.var_3679]);
-            _loc3_ += class_73.method_2108(class_165.var_6534);
+            _loc3_ += class_165.var_6534;
          }
       }
    }

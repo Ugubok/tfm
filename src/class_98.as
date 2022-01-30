@@ -57,7 +57,7 @@ package
       
       public static function method_2232(param1:int) : int
       {
-         return !!class_98.var_4677[param1] ? int(class_98.var_4677[param1].var_1416) : int(class_73.method_2108(class_183.var_7129));
+         return !!class_98.var_4677[param1] ? int(class_98.var_4677[param1].var_1416) : int(class_183.var_7129);
       }
       
       public static function method_1069(param1:int, param2:int, param3:int, param4:Boolean, param5:Boolean, param6:Boolean, param7:Boolean, param8:int) : void
@@ -65,7 +65,7 @@ package
          var _loc9_:class_297 = class_98.var_4677[param1];
          if(!_loc9_)
          {
-            _loc9_ = new class_297(param1,class_73.method_2108(class_183.var_7129),param3,param4,param5,param6,param7,param8);
+            _loc9_ = new class_297(param1,class_183.var_7129,param3,param4,param5,param6,param7,param8);
             class_98.var_4677[param1] = _loc9_;
             class_98.name_46.push(_loc9_);
             class_98.var_4680 = class_99.var_4681;
@@ -132,9 +132,9 @@ package
       {
          if(!class_98.var_4677[param1] || !class_98.var_4677[param1].var_1419)
          {
-            if(class_98.var_4678.indexOf(param1) != -class_73.method_2108(class_33.var_3679))
+            if(class_98.var_4678.indexOf(param1) != -class_33.var_3679)
             {
-               class_98.var_4678.splice(class_98.var_4678.indexOf(param1),class_73.method_2108(class_33.var_3679));
+               class_98.var_4678.splice(class_98.var_4678.indexOf(param1),class_33.var_3679);
             }
             return false;
          }
@@ -159,7 +159,7 @@ package
          var _loc4_:class_297 = class_297.method_2857(param1);
          if(!_loc4_)
          {
-            return class_300.method_118(param1,class_73.method_2108(class_33.var_3679),param2,param3);
+            return class_300.method_118(param1,class_33.var_3679,param2,param3);
          }
          return _loc4_.method_118(param2,param3);
       }
@@ -177,7 +177,7 @@ package
          class_98.var_4679[class_296.const_759.var_598] = class_99.var_4681;
          class_98.var_4679[class_296.const_760.var_598] = class_99.var_4681;
          class_98.var_4679[class_296.const_761.var_598] = class_99.var_4681;
-         var _loc1_:int = class_73.method_2108(class_92.var_4474);
+         var _loc1_:int = class_92.var_4474;
          while(_loc1_ <= class_60.var_3824)
          {
             class_98.var_4679[_loc1_] = class_99.var_4681;
@@ -202,17 +202,17 @@ package
          {
             _loc4_ = _loc3_.var_1421;
          }
-         else if(param1 > class_73.method_2108(class_4.var_3058) && param1 < class_117.var_5288)
+         else if(param1 > class_4.var_3058 && param1 < class_117.var_5288)
          {
             _loc5_ = new ByteArray();
             _loc5_.writeUTF(param1.toString() + class_62.method_2017());
-            _loc4_ = class_79.method_2120(new SHA256().x_hash(_loc5_)).replace(/[+=\/]/g,class_73.method_2111(class_9.var_3268));
+            _loc4_ = class_79.method_2120(new SHA256().x_hash(_loc5_)).replace(/[+=\/]/g,class_9.var_3268);
          }
          else if(!param2)
          {
             _loc4_ = param1.toString();
          }
-         return new class_250(class_73.method_2111(class_121.var_5444) + _loc4_ + class_117.var_5274,class_73.method_2108(class_102.var_4859),class_73.method_2108(class_102.var_4859));
+         return new class_250(class_121.var_5444 + _loc4_ + class_117.var_5274,class_102.var_4859,class_102.var_4859);
       }
       
       public static function method_2240(param1:class_297, param2:class_297) : Number
@@ -225,19 +225,19 @@ package
          var _loc4_:Boolean = class_98.var_4679[param2.var_574];
          if(_loc3_ && !_loc4_)
          {
-            return -class_73.method_2108(class_33.var_3679);
+            return -class_33.var_3679;
          }
          if(!_loc3_ && _loc4_)
          {
-            return class_73.method_2108(class_33.var_3679);
+            return class_33.var_3679;
          }
          if(param1.var_1417 && !param2.var_1417)
          {
-            return -class_73.method_2108(class_33.var_3679);
+            return -class_33.var_3679;
          }
          if(!param1.var_1417 && param2.var_1417)
          {
-            return class_73.method_2108(class_33.var_3679);
+            return class_33.var_3679;
          }
          if(param1.var_1424 != param2.var_1424)
          {

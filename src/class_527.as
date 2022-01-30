@@ -13,7 +13,7 @@ package
       
       public function class_527()
       {
-         super(class_73.method_2108(class_89.var_4432),class_73.method_2108(class_183.var_7129));
+         super(class_89.var_4432,class_183.var_7129);
          method_216(new class_245(class_243.const_642,class_117.var_5287));
          this.var_2073 = new class_244(name_5,class_102.var_4859);
          this.var_2073.method_945(this.method_1534);
@@ -21,8 +21,8 @@ package
          this.var_2073.method_941(class_102.var_4778);
          method_136(this.var_2073);
          method_136(new class_246(class_26.method_1668(class_107.var_5045),name_5,this.method_1534));
-         method_136(new class_246(class_26.method_1668(class_73.method_2111(class_181.var_6933)),name_5,this.method_439));
-         method_251(true,class_73.method_2108(class_146.var_6117),true);
+         method_136(new class_246(class_26.method_1668(class_181.var_6933),name_5,this.method_439));
+         method_251(true,class_146.var_6117,true);
       }
       
       public static function name_6(param1:String = null) : void
@@ -35,12 +35,12 @@ package
          if(class_1.const_45)
          {
             class_527.var_2884.method_239(class_107.var_4992,class_527.var_2884.method_439);
-            class_527.var_2884.method_196(class_92.var_4648,class_73.method_2116(class_92.var_4648),true);
+            class_527.var_2884.method_196(class_92.var_4648,class_92.var_4648,true);
          }
          else
          {
-            class_527.var_2884.x = int((-class_527.var_2884.width + class_73.method_2108(class_107.var_5074)) / class_73.method_2108(class_165.var_6534));
-            class_527.var_2884.y = class_73.method_2108(class_62.var_4130);
+            class_527.var_2884.x = int((-class_527.var_2884.width + class_107.var_5074) / class_165.var_6534);
+            class_527.var_2884.y = class_62.var_4130;
          }
          if(param1)
          {

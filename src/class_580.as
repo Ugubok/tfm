@@ -34,15 +34,15 @@ package
          while(_loc4_ < _loc5_)
          {
             _loc6_ = class_84.method_2131();
-            _loc6_.defaultTextFormat = new TextFormat(class_73.method_2111(class_89.var_4426),class_117.var_5264,16740480);
+            _loc6_.defaultTextFormat = new TextFormat(class_89.var_4426,class_117.var_5264,16740480);
             _loc6_.text = param1.charAt(_loc4_);
-            _loc6_.width = class_73.method_2108(class_117.var_5287) + _loc6_.textWidth;
-            _loc6_.height = class_73.method_2108(class_117.var_5287) + _loc6_.textHeight;
-            _loc6_.x = _loc4_ == class_73.method_2108(class_183.var_7129) ? Number(class_183.var_7129) : Number(this.var_2271.getChildAt(-class_33.var_3679 + _loc4_).x + this.var_2271.getChildAt(-class_73.method_2108(class_33.var_3679) + _loc4_).width + _loc3_);
+            _loc6_.width = class_117.var_5287 + _loc6_.textWidth;
+            _loc6_.height = class_117.var_5287 + _loc6_.textHeight;
+            _loc6_.x = _loc4_ == class_183.var_7129 ? Number(class_183.var_7129) : Number(this.var_2271.getChildAt(-class_33.var_3679 + _loc4_).x + this.var_2271.getChildAt(-class_33.var_3679 + _loc4_).width + _loc3_);
             if(param2 == _loc4_)
             {
                _loc7_ = _loc6_.filters[class_183.var_7129] as GlowFilter;
-               _loc6_.filters = new Array(_loc7_,new GlowFilter(16763955,class_73.method_2108(class_33.var_3679),class_146.var_6117,class_73.method_2108(class_146.var_6117),class_73.method_2108(class_165.var_6534)));
+               _loc6_.filters = new Array(_loc7_,new GlowFilter(16763955,class_33.var_3679,class_146.var_6117,class_146.var_6117,class_165.var_6534));
             }
             this.var_2271.addChild(_loc6_);
             _loc4_++;
@@ -61,19 +61,19 @@ package
          var _loc6_:class_168 = null;
          switch(param1.var_574)
          {
-            case class_73.method_2108(class_33.var_3679):
+            case class_33.var_3679:
                if(var_873)
                {
-                  this.method_1633(param1.method_1478(class_73.method_2108(class_183.var_7129)),param1.method_1477(class_33.var_3679));
+                  this.method_1633(param1.method_1478(class_183.var_7129),param1.method_1477(class_33.var_3679));
                }
                break;
-            case class_73.method_2108(class_165.var_6534):
+            case class_165.var_6534:
                if(var_873)
                {
-                  _loc2_ = param1.method_1477(class_73.method_2108(class_183.var_7129));
+                  _loc2_ = param1.method_1477(class_183.var_7129);
                   if(class_165.var_6534 == _loc2_)
                   {
-                     _loc3_ = class_1.var_2884.var_85[param1.method_1477(class_73.method_2108(class_33.var_3679))];
+                     _loc3_ = class_1.var_2884.var_85[param1.method_1477(class_33.var_3679)];
                      _loc4_ = class_1.var_2884.var_85[param1.method_1477(class_165.var_6534)];
                      if(_loc3_)
                      {
@@ -91,7 +91,7 @@ package
                   }
                   else
                   {
-                     _loc6_ = class_1.var_2884.var_85[param1.method_1477(class_73.method_2108(class_33.var_3679))];
+                     _loc6_ = class_1.var_2884.var_85[param1.method_1477(class_33.var_3679)];
                      if(_loc6_)
                      {
                         this.method_1634(_loc6_);
@@ -112,9 +112,9 @@ package
       
       public function method_1634(param1:class_168) : void
       {
-         class_1.var_2884.method_33(class_56.const_311,param1.x,param1.y,class_73.method_2108(class_121.var_5495),class_73.method_2108(class_165.var_6534),false,-class_89.var_4430);
+         class_1.var_2884.method_33(class_56.const_311,param1.x,param1.y,class_121.var_5495,class_165.var_6534,false,-class_89.var_4430);
          class_1.var_2884.method_33(class_56.const_336,param1.x,param1.y,class_121.var_5495,class_165.var_6534,false,-class_89.var_4430);
-         class_1.var_2884.method_33(class_56.const_335,param1.x,param1.y,class_121.var_5495,class_165.var_6534,false,-class_73.method_2116(class_89.var_4430));
+         class_1.var_2884.method_33(class_56.const_335,param1.x,param1.y,class_121.var_5495,class_165.var_6534,false,-class_89.var_4430);
       }
    }
 }

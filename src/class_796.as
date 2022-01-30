@@ -29,7 +29,7 @@ package
       
       public function get method_1731() : String
       {
-         return class_73.method_2111(class_117.var_5175);
+         return class_117.var_5175;
       }
       
       public function get typeTaille() : int
@@ -51,7 +51,7 @@ package
       {
          param1.writeInt(this.idSequence);
          param1.writeUTF(this.var_1956);
-         param1.writeByte(!!this.var_2673 ? int(class_33.var_3679) : int(class_73.method_2108(class_183.var_7129)));
+         param1.writeByte(!!this.var_2673 ? int(class_33.var_3679) : int(class_183.var_7129));
       }
    }
 }

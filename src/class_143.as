@@ -11,7 +11,7 @@ package
       
       public static var var_2884:class_143;
       
-      public static var var_5915:String = class_73.method_2111("Lucida Console");
+      public static var var_5915:String = "Lucida Console";
       
       public static var name_38:int = 5488 + -5188;
       
@@ -24,20 +24,20 @@ package
       
       public function class_143()
       {
-         this.name_11 = class_73.method_2111(class_9.var_3268);
+         this.name_11 = class_9.var_3268;
          super();
          var _loc1_:Sprite = new Sprite();
          _loc1_.cacheAsBitmap = class_99.var_4681;
          _loc1_.graphics.beginFill(class_1.var_2878.var_180.var_1061);
-         _loc1_.graphics.drawRoundRect(class_73.method_2108(class_183.var_7129),class_183.var_7129,class_143.name_38,class_143.name_58,class_73.method_2108(class_33.var_3675));
+         _loc1_.graphics.drawRoundRect(class_183.var_7129,class_183.var_7129,class_143.name_38,class_143.name_58,class_33.var_3675);
          _loc1_.graphics.endFill();
-         _loc1_.transform.colorTransform = new ColorTransform(class_73.method_2116(class_146.var_6103),class_73.method_2116(class_146.var_6103),class_146.var_6103);
+         _loc1_.transform.colorTransform = new ColorTransform(class_146.var_6103,class_146.var_6103,class_146.var_6103);
          addChild(_loc1_);
          try
          {
             if(class_101.method_2253())
             {
-               class_143.var_5915 = class_73.method_2111(class_117.var_5222);
+               class_143.var_5915 = class_117.var_5222;
             }
             else if(class_101.method_2250())
             {
@@ -51,11 +51,11 @@ package
          this.var_401.defaultTextFormat = new TextFormat(class_143.var_5915,class_181.var_6939,class_1.var_2878.var_180.var_1061,null,null,null,null,null,TextFormatAlign.CENTER);
          this.var_401.multiline = class_99.var_4681;
          this.var_401.wordWrap = class_99.var_4681;
-         this.var_401.x = class_73.method_2108(class_146.var_6117);
-         this.var_401.y = class_73.method_2108(class_146.var_6117);
+         this.var_401.x = class_146.var_6117;
+         this.var_401.y = class_146.var_6117;
          this.var_401.width = class_143.name_38 - class_33.var_3675;
-         this.var_401.height = -class_73.method_2108(class_33.var_3675) + class_143.name_58;
-         this.var_401.transform.colorTransform = new ColorTransform(class_73.method_2116(class_16.var_3435),class_73.method_2116(class_16.var_3435),class_73.method_2116(class_16.var_3435));
+         this.var_401.height = -class_33.var_3675 + class_143.name_58;
+         this.var_401.transform.colorTransform = new ColorTransform(class_16.var_3435,class_16.var_3435,class_16.var_3435);
          addChild(this.var_401);
       }
       
@@ -67,7 +67,7 @@ package
             {
                class_143.var_2884 = new class_143();
                class_143.var_2884.x = (-class_143.name_38 + class_107.var_5074) / class_165.var_6534;
-               class_143.var_2884.y = (-class_143.name_58 + class_124.var_5662) / class_73.method_2108(class_165.var_6534);
+               class_143.var_2884.y = (-class_143.name_58 + class_124.var_5662) / class_165.var_6534;
             }
             if(!class_1.const_42)
             {

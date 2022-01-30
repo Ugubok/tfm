@@ -17,11 +17,11 @@ package
       
       public static const const_796:String = "P";
       
-      public static const const_546:String = class_73.method_2111("CAD");
+      public static const const_546:String = "CAD";
       
-      public static const const_797:String = class_73.method_2111("BON");
+      public static const const_797:String = "BON";
       
-      public static const const_286:String = class_73.method_2111("ROS");
+      public static const const_286:String = "ROS";
        
       
       public var var_574:String;
@@ -52,8 +52,8 @@ package
       
       public function class_313(param1:String, param2:int, param3:int)
       {
-         this.var_1515 = class_73.method_2108(class_183.var_7129);
-         this.rotation = class_73.method_2108(class_183.var_7129);
+         this.var_1515 = class_183.var_7129;
+         this.rotation = class_183.var_7129;
          super();
          this.var_574 = param1;
          this.var_1151 = param2;

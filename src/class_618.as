@@ -39,7 +39,7 @@ package
          this.var_2370 = param1.readBoolean();
          var _loc2_:int = param1.readByte();
          this.var_2048 = new Vector.<int>();
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < _loc2_)
          {
             this.var_2048.push(param1.readByte());

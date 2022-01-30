@@ -9,9 +9,9 @@ package
       
       public static const const_545:String = "AnimZelda";
       
-      public static const const_546:String = class_73.method_2111("AnimCadeau");
+      public static const const_546:String = "AnimCadeau";
       
-      public static const const_547:String = class_73.method_2111("AnimNeige");
+      public static const const_547:String = "AnimNeige";
       
       public static const const_548:String = "AnimPeche";
       
@@ -111,7 +111,7 @@ package
       public function class_150(param1:String, param2:int, param3:int, param4:Vector.<int>, param5:Boolean = false, param6:Number = 1)
       {
          this.var_790 = new Vector.<int>();
-         this.name_19 = class_73.method_2108(class_33.var_3679);
+         this.name_19 = class_33.var_3679;
          this.var_585 = getTimer();
          super();
          this.var_373 = param1;
@@ -120,11 +120,11 @@ package
          this.var_790 = param4;
          if(param3 == class_150.const_550)
          {
-            this.var_792 = param1 + class_73.method_2111(class_165.var_6522) + param4[class_183.var_7129];
+            this.var_792 = param1 + class_165.var_6522 + param4[class_183.var_7129];
          }
          else
          {
-            this.var_792 = param1 + class_165.var_6522 + param3 + class_165.var_6522 + param4 + class_73.method_2111(class_165.var_6522) + (!!param5 ? class_33.var_3679 : class_73.method_2108(class_183.var_7129));
+            this.var_792 = param1 + class_165.var_6522 + param3 + class_165.var_6522 + param4 + class_165.var_6522 + (!!param5 ? class_33.var_3679 : class_183.var_7129);
          }
          this.var_807 = param5;
          this.name_19 = param6;
@@ -139,16 +139,16 @@ package
          var _loc1_:Vector.<int> = new Vector.<int>();
          _loc1_.push(class_168.const_574);
          _loc1_.push(class_168.const_575);
-         class_150.var_6136 = new class_27(class_150.method_2522(class_146.var_6118,class_73.method_2111(class_181.var_6915),-class_33.var_3679,class_73.method_2108(class_33.var_3679),class_124.var_5665,_loc1_)[class_73.method_2108(class_183.var_7129)]);
+         class_150.var_6136 = new class_27(class_150.method_2522(class_146.var_6118,class_181.var_6915,-class_33.var_3679,class_33.var_3679,class_124.var_5665,_loc1_)[class_183.var_7129]);
          class_150.var_6136.var_304 = class_150.const_553;
          class_150.var_6136.var_305 = class_150.const_554;
-         class_150.var_6137 = new class_27(class_150.method_2522(class_146.var_6118,class_117.var_5165,-class_73.method_2108(class_33.var_3679),class_33.var_3679,class_124.var_5665,_loc1_)[class_73.method_2108(class_183.var_7129)]);
+         class_150.var_6137 = new class_27(class_150.method_2522(class_146.var_6118,class_117.var_5165,-class_33.var_3679,class_33.var_3679,class_124.var_5665,_loc1_)[class_183.var_7129]);
          class_150.var_6137.var_304 = class_150.const_553;
          class_150.var_6137.var_305 = class_150.const_554;
-         class_150.var_6138 = new class_27(class_150.method_2522(class_146.var_6118,class_107.var_4931,-class_33.var_3679,class_73.method_2108(class_33.var_3679),class_124.var_5665,_loc1_)[class_73.method_2108(class_183.var_7129)]);
+         class_150.var_6138 = new class_27(class_150.method_2522(class_146.var_6118,class_107.var_4931,-class_33.var_3679,class_33.var_3679,class_124.var_5665,_loc1_)[class_183.var_7129]);
          class_150.var_6138.var_304 = class_150.const_553;
          class_150.var_6138.var_305 = class_150.const_554;
-         class_150.var_6139 = class_150.method_2521(class_124.var_5665,-class_33.var_3679,class_33.var_3679,_loc1_,false,class_73.method_2108(class_33.var_3679),class_146.var_6118);
+         class_150.var_6139 = class_150.method_2521(class_124.var_5665,-class_33.var_3679,class_33.var_3679,_loc1_,false,class_33.var_3679,class_146.var_6118);
       }
       
       public static function name_72(param1:String, param2:int, param3:int, param4:Vector.<int>) : Boolean
@@ -156,11 +156,11 @@ package
          var _loc5_:String = null;
          if(class_150.const_550 == param3)
          {
-            _loc5_ = param1 + class_165.var_6522 + param2 + class_165.var_6522 + param4[class_73.method_2108(class_183.var_7129)];
+            _loc5_ = param1 + class_165.var_6522 + param2 + class_165.var_6522 + param4[class_183.var_7129];
          }
          else
          {
-            _loc5_ = param1 + class_73.method_2111(class_165.var_6522) + param2 + class_73.method_2111(class_165.var_6522) + param3 + class_73.method_2111(class_165.var_6522) + param4;
+            _loc5_ = param1 + class_165.var_6522 + param2 + class_165.var_6522 + param3 + class_165.var_6522 + param4;
          }
          return class_150.var_6130[_loc5_];
       }
@@ -189,7 +189,7 @@ package
                }
             }
          }
-         _loc4_ = class_73.method_2108(class_183.var_7129);
+         _loc4_ = class_183.var_7129;
          while(_loc4_ < _loc2_.length)
          {
             delete class_150.var_6130[_loc2_[_loc4_]];
@@ -207,7 +207,7 @@ package
                }
             }
          }
-         _loc4_ = class_73.method_2108(class_183.var_7129);
+         _loc4_ = class_183.var_7129;
          while(_loc4_ < _loc2_.length)
          {
             delete class_150.var_6131[_loc2_[_loc4_]];
@@ -219,7 +219,7 @@ package
       {
          var _loc3_:MovieClip = null;
          var _loc1_:int = class_150.const_549.length;
-         var _loc2_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc2_:int = -class_33.var_3679;
          while(++_loc2_ < _loc1_)
          {
             _loc3_ = class_150.const_549[_loc2_];
@@ -244,11 +244,11 @@ package
          var _loc10_:Boolean = false;
          if(param3 == class_150.const_550)
          {
-            _loc8_ = param7 + class_73.method_2111(class_165.var_6522) + param1 + class_73.method_2111(class_165.var_6522) + param2 + class_73.method_2111(class_165.var_6522) + param4[class_73.method_2108(class_183.var_7129)];
+            _loc8_ = param7 + class_165.var_6522 + param1 + class_165.var_6522 + param2 + class_165.var_6522 + param4[class_183.var_7129];
          }
          else
          {
-            _loc8_ = param7 + class_165.var_6522 + param1 + class_73.method_2111(class_165.var_6522) + param2 + class_73.method_2111(class_165.var_6522) + param3 + class_165.var_6522 + class_184.var_2341.var_987 + class_73.method_2111(class_165.var_6522) + param4 + class_73.method_2111(class_165.var_6522) + (!!param5 ? class_33.var_3679 : class_183.var_7129);
+            _loc8_ = param7 + class_165.var_6522 + param1 + class_165.var_6522 + param2 + class_165.var_6522 + param3 + class_165.var_6522 + class_184.var_2341.var_987 + class_165.var_6522 + param4 + class_165.var_6522 + (!!param5 ? class_33.var_3679 : class_183.var_7129);
          }
          var _loc9_:class_150 = class_150.var_6130[_loc8_];
          if(_loc9_)
@@ -260,22 +260,22 @@ package
                return _loc9_.method_126();
             }
             class_150.var_6132[_loc8_] = class_99.var_4681;
-            _loc10_ = class_73.method_2109(class_73.method_2109(false));
+            _loc10_ = false;
             if(_loc9_.var_793)
             {
-               class_73.method_2115(_loc9_.method_580)(_loc10_);
+               _loc9_.method_580(_loc10_);
             }
             if(_loc9_.name_18)
             {
-               class_73.method_2115(class_73.method_2115(_loc9_.method_577))(class_73.method_2109(_loc10_));
+               _loc9_.method_577(_loc10_);
             }
             if(_loc9_.var_795)
             {
-               class_73.method_2115(_loc9_.method_582)(class_73.method_2109(_loc10_));
+               _loc9_.method_582(_loc10_);
             }
             if(_loc9_.var_794)
             {
-               class_73.method_2115(class_73.method_2115(_loc9_.method_581))(class_73.method_2109(_loc10_));
+               _loc9_.method_581(_loc10_);
             }
             return _loc9_;
          }
@@ -304,8 +304,8 @@ package
          if(!class_21.var_3494)
          {
             var_7503 = class_33.var_3679;
-            name_57 = class_73.method_2108(class_33.var_3679);
-            var_7506 = class_73.method_2111(class_62.var_4038);
+            name_57 = class_33.var_3679;
+            var_7506 = class_62.var_4038;
          }
          else if(var_7510 && !class_473.method_3035(name_57))
          {
@@ -318,13 +318,13 @@ package
          var var_1996:int = class_1.method_1816();
          if(var_7505 == class_150.const_550)
          {
-            var_7474 = var_7503 + class_165.var_6522 + var_7504 + class_165.var_6522 + var_7506 + class_73.method_2111(class_165.var_6522) + name_57 + class_73.method_2111(class_165.var_6522) + var_7505 + class_165.var_6522 + var_7507;
+            var_7474 = var_7503 + class_165.var_6522 + var_7504 + class_165.var_6522 + var_7506 + class_165.var_6522 + name_57 + class_165.var_6522 + var_7505 + class_165.var_6522 + var_7507;
          }
          else
          {
-            var_7474 = var_7503 + class_165.var_6522 + var_7504 + class_165.var_6522 + var_7506 + class_165.var_6522 + name_57 + class_73.method_2111(class_165.var_6522) + var_7505 + class_73.method_2111(class_165.var_6522) + class_184.var_2341.var_987 + class_73.method_2111(class_165.var_6522) + var_7507 + class_73.method_2111(class_165.var_6522) + (!!var_7509 ? class_33.var_3679 : class_183.var_7129);
+            var_7474 = var_7503 + class_165.var_6522 + var_7504 + class_165.var_6522 + var_7506 + class_165.var_6522 + name_57 + class_165.var_6522 + var_7505 + class_165.var_6522 + class_184.var_2341.var_987 + class_165.var_6522 + var_7507 + class_165.var_6522 + (!!var_7509 ? class_33.var_3679 : class_183.var_7129);
          }
-         var var_7511:class_75 = class_150.var_6131[var_7474 + class_73.method_2111(class_60.var_3868)];
+         var var_7511:class_75 = class_150.var_6131[var_7474 + class_60.var_3868];
          if(var_7511)
          {
             var_7513 = class_150.var_6131[var_7474 + class_102.var_4730];
@@ -352,14 +352,14 @@ package
             var_7512.scaleX = class_184.var_2341.var_987;
             var_7512.scaleY = class_184.var_2341.var_987;
          }
-         var_2406[class_183.var_7129] = new class_75(var_7512,var_7508,class_73.method_2108(class_165.var_6534));
-         class_150.var_6131[var_7474 + class_60.var_3868] = var_2406[class_73.method_2108(class_183.var_7129)];
-         if(var_7512[class_73.method_2111(class_121.var_5373)])
+         var_2406[class_183.var_7129] = new class_75(var_7512,var_7508,class_165.var_6534);
+         class_150.var_6131[var_7474 + class_60.var_3868] = var_2406[class_183.var_7129];
+         if(var_7512[class_121.var_5373])
          {
             var_7514 = class_21.method_1890(var_7503,name_57,var_7505,var_7504,var_7506,var_7507,var_7509);
-            var_7515 = var_7514[class_73.method_2111(class_121.var_5373)] as MovieClip;
-            var_7515.addChild(class_175.method_118(class_73.method_2111(class_9.var_3134)));
-            var_2406[class_33.var_3679] = new class_75(var_7514,var_7508,class_73.method_2108(class_165.var_6534));
+            var_7515 = var_7514[class_121.var_5373] as MovieClip;
+            var_7515.addChild(class_175.method_118(class_9.var_3134));
+            var_2406[class_33.var_3679] = new class_75(var_7514,var_7508,class_165.var_6534);
             class_150.var_6131[var_7474 + class_102.var_4730] = var_2406[class_33.var_3679];
          }
          if(var_7510)
@@ -383,8 +383,8 @@ package
                this.var_796 = this.method_578(class_165.var_6534,class_181.var_6915);
                this.var_796.method_269(class_92.var_4648);
                this.var_802 = this.var_796;
-               this.var_797 = this.method_578(class_73.method_2108(class_165.var_6534),class_73.method_2111(class_117.var_5165));
-               this.var_797.method_269(class_73.method_2116(class_92.var_4648));
+               this.var_797 = this.method_578(class_165.var_6534,class_117.var_5165);
+               this.var_797.method_269(class_92.var_4648);
                this.var_803 = this.var_797;
             }
          }
@@ -447,7 +447,7 @@ package
       
       public function method_579(param1:String, param2:Boolean, param3:Boolean = false) : MovieClip
       {
-         var _loc4_:int = !!this.var_795 ? int(class_73.method_2108(class_146.var_6118)) : int(class_33.var_3679);
+         var _loc4_:int = !!this.var_795 ? int(class_146.var_6118) : int(class_33.var_3679);
          var _loc5_:MovieClip = class_21.method_1890(_loc4_,this.var_169,this.var_789,param1,this.var_373,this.var_790,param3);
          _loc5_.name = param1;
          _loc5_.y = class_33.var_3679;
@@ -472,7 +472,7 @@ package
             _loc5_.scaleX = this.name_19;
             _loc5_.scaleY = this.name_19;
          }
-         _loc5_.gotoAndStop(class_73.method_2108(class_33.var_3679));
+         _loc5_.gotoAndStop(class_33.var_3679);
          return _loc5_;
       }
       
@@ -493,22 +493,22 @@ package
                });
                return;
             }
-            var_7517 = class_73.method_2108(class_33.var_3679);
+            var_7517 = class_33.var_3679;
             if(this.name_18)
             {
                var_7517 = class_165.var_6534;
             }
             else if(this.var_795)
             {
-               var_7517 = class_73.method_2108(class_146.var_6118);
+               var_7517 = class_146.var_6118;
             }
             var_7516 = class_181.var_6915;
             if(this.var_794)
             {
-               var_7516 = class_73.method_2111(class_16.var_3339);
+               var_7516 = class_16.var_3339;
             }
             var_7518 = class_150.method_2522(var_7517,var_7516,this.var_169,this.var_789,this.var_373,this.var_790,var_7508,this.var_807);
-            this.var_796 = new class_27(var_7518[class_73.method_2108(class_183.var_7129)]);
+            this.var_796 = new class_27(var_7518[class_183.var_7129]);
             this.var_796.var_304 = class_150.const_553;
             this.var_796.var_305 = class_150.const_554;
             this.var_802 = new class_27(var_7518[class_33.var_3679]);
@@ -517,18 +517,18 @@ package
             var_7516 = class_117.var_5165;
             if(this.var_794)
             {
-               var_7516 = class_73.method_2111(class_16.var_3339);
+               var_7516 = class_16.var_3339;
             }
             var_7518 = class_150.method_2522(var_7517,var_7516,this.var_169,this.var_789,this.var_373,this.var_790,var_7508,this.var_807);
             this.var_797 = new class_27(var_7518[class_183.var_7129]);
             this.var_797.var_304 = class_150.const_553;
             this.var_797.var_305 = class_150.const_554;
-            this.var_803 = new class_27(var_7518[class_73.method_2108(class_33.var_3679)]);
+            this.var_803 = new class_27(var_7518[class_33.var_3679]);
             this.var_803.var_304 = class_150.const_553;
             this.var_803.var_305 = class_150.const_554;
             if(this.var_789 != class_150.const_550)
             {
-               var_7516 = class_73.method_2111(class_62.var_4039);
+               var_7516 = class_62.var_4039;
                var_7518 = class_150.method_2522(var_7517,var_7516,this.var_169,this.var_789,this.var_373,this.var_790,var_7508,this.var_807);
                this.var_798 = new class_27(var_7518[class_183.var_7129]);
                this.var_798.var_304 = class_150.const_553;
@@ -536,9 +536,9 @@ package
                this.var_804 = new class_27(var_7518[class_33.var_3679]);
                this.var_804.var_304 = class_150.const_553;
                this.var_804.var_305 = class_150.const_554;
-               var_7516 = class_73.method_2111(class_92.var_4534);
+               var_7516 = class_92.var_4534;
                var_7518 = class_150.method_2522(var_7517,var_7516,this.var_169,this.var_789,this.var_373,this.var_790,var_7508,this.var_807);
-               this.var_799 = new class_27(var_7518[class_73.method_2108(class_183.var_7129)]);
+               this.var_799 = new class_27(var_7518[class_183.var_7129]);
                this.var_799.var_304 = class_150.const_553;
                this.var_799.var_305 = class_150.const_554;
                this.var_800 = new class_27(var_7518[class_33.var_3679]);
@@ -550,7 +550,7 @@ package
             this.var_801 = new class_27(var_7518[class_183.var_7129]);
             this.var_801.var_304 = class_150.const_553;
             this.var_801.var_305 = class_150.const_554;
-            this.var_805 = new class_27(var_7518[class_73.method_2108(class_33.var_3679)]);
+            this.var_805 = new class_27(var_7518[class_33.var_3679]);
             this.var_805.var_304 = class_150.const_553;
             this.var_805.var_305 = class_150.const_554;
             this.var_791 = class_99.var_4681;
@@ -599,7 +599,7 @@ package
                this.var_809 = this.var_797;
                this.var_810 = this.var_802;
                this.var_811 = this.var_803;
-               this.var_797 = this.method_578(class_33.var_3679,class_73.method_2111(class_16.var_3339));
+               this.var_797 = this.method_578(class_33.var_3679,class_16.var_3339);
                this.var_796 = this.var_797;
             }
          }
@@ -624,7 +624,7 @@ package
             if(!this.var_795)
             {
                this.var_795 = class_99.var_4681;
-               this.var_169 = -class_73.method_2108(class_33.var_3679);
+               this.var_169 = -class_33.var_3679;
                this.var_808 = this.var_796;
                this.var_809 = this.var_797;
                this.var_810 = this.var_802;
@@ -644,12 +644,12 @@ package
                   _loc3_ = -class_33.var_3679;
                   while(++_loc3_ < _loc2_)
                   {
-                     _loc4_ = class_73.method_2111(class_92.var_4533) + (class_73.method_2108(class_33.var_3679) + _loc3_);
-                     _loc5_ = new class_27(class_150.method_2522(class_73.method_2108(class_146.var_6118),_loc4_,this.var_169,this.var_789,this.var_373,this.var_790,false,this.var_807)[class_183.var_7129]);
-                     _loc5_.var_304 = class_73.method_2108(class_121.var_5470);
+                     _loc4_ = class_92.var_4533 + (class_33.var_3679 + _loc3_);
+                     _loc5_ = new class_27(class_150.method_2522(class_146.var_6118,_loc4_,this.var_169,this.var_789,this.var_373,this.var_790,false,this.var_807)[class_183.var_7129]);
+                     _loc5_.var_304 = class_121.var_5470;
                      _loc5_.var_305 = class_121.var_5470;
                      class_150.var_6133[_loc3_] = _loc5_;
-                     if(class_73.method_2108(class_33.var_3679) + _loc3_ == class_73.method_2108(class_146.var_6118) || _loc3_ + class_73.method_2108(class_33.var_3679) == class_73.method_2108(class_117.var_5287) || class_73.method_2108(class_33.var_3679) + _loc3_ == class_9.var_3267 || _loc3_ + class_73.method_2108(class_33.var_3679) == class_73.method_2108(class_92.var_4647))
+                     if(class_33.var_3679 + _loc3_ == class_146.var_6118 || _loc3_ + class_33.var_3679 == class_117.var_5287 || class_33.var_3679 + _loc3_ == class_9.var_3267 || _loc3_ + class_33.var_3679 == class_92.var_4647)
                      {
                         _loc5_.var_299 = class_99.var_4682;
                      }

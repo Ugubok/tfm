@@ -74,7 +74,7 @@ package
          this.var_1973 = class_183.var_7129;
          this.var_1978 = new Vector.<class_495>();
          this.var_1982 = class_183.var_7129;
-         this.var_1983 = class_73.method_2108(class_183.var_7129);
+         this.var_1983 = class_183.var_7129;
          this.var_1984 = class_183.var_7129;
          super();
          this.var_1960 = param1;
@@ -90,21 +90,21 @@ package
          }
          if(param1.var_1967 || param2.var_1967)
          {
-            return !!param1.var_1967 ? int(-class_73.method_2108(class_33.var_3679)) : int(class_33.var_3679);
+            return !!param1.var_1967 ? int(-class_33.var_3679) : int(class_33.var_3679);
          }
          if(param1.var_1968 || param2.var_1968)
          {
-            return !!param1.var_1968 ? int(-class_73.method_2108(class_33.var_3679)) : int(class_73.method_2108(class_33.var_3679));
+            return !!param1.var_1968 ? int(-class_33.var_3679) : int(class_33.var_3679);
          }
          if(param1.var_1963 && param2.var_1963)
          {
-            return class_73.method_2108(class_183.var_7129);
+            return class_183.var_7129;
          }
          if(!param1.var_1963 && param2.var_1963 || param1.var_1963 && !param2.var_1963)
          {
-            return param1.var_1963 && !param2.var_1963 ? int(-class_73.method_2108(class_33.var_3679)) : int(class_33.var_3679);
+            return param1.var_1963 && !param2.var_1963 ? int(-class_33.var_3679) : int(class_33.var_3679);
          }
-         return param1.var_1960 < param2.var_1960 ? int(-class_33.var_3679) : int(class_73.method_2108(class_33.var_3679));
+         return param1.var_1960 < param2.var_1960 ? int(-class_33.var_3679) : int(class_33.var_3679);
       }
       
       public function method_1457(param1:class_491) : void
@@ -114,7 +114,7 @@ package
          var _loc4_:class_495 = null;
          if(this.var_1965)
          {
-            _loc2_ = -class_73.method_2108(class_33.var_3679);
+            _loc2_ = -class_33.var_3679;
             _loc3_ = param1.var_1978.length;
             while(++_loc2_ < _loc3_)
             {
@@ -171,7 +171,7 @@ package
          }
          else if(this.var_1973)
          {
-            this.var_1961 = class_73.method_2111(class_89.var_4362) + this.var_1973 + class_162.var_6345 + this.var_1961;
+            this.var_1961 = class_89.var_4362 + this.var_1973 + class_162.var_6345 + this.var_1961;
             if(this.var_1965 && this.var_1971)
             {
                this.var_1971.textColor = class_54.const_286;
@@ -187,7 +187,7 @@ package
       {
          var _loc5_:String = null;
          var _loc6_:String = null;
-         if(class_73.method_2108(class_183.var_7129) == this.var_1978.length)
+         if(class_183.var_7129 == this.var_1978.length)
          {
             return false;
          }
@@ -196,7 +196,7 @@ package
          {
             if(this.var_1981 && !this.var_1980)
             {
-               _loc5_ = this.var_1981.substr(class_73.method_2108(class_183.var_7129),this.var_1981.lastIndexOf(_loc4_.var_1987));
+               _loc5_ = this.var_1981.substr(class_183.var_7129,this.var_1981.lastIndexOf(_loc4_.var_1987));
                _loc6_ = this.var_1981.substr(this.var_1981.lastIndexOf(_loc4_.var_1987) + _loc4_.var_1987.length,this.var_1981.length);
             }
             ++_loc4_.var_1992;
@@ -272,7 +272,7 @@ package
          if(this.var_1980 || param2)
          {
             this.var_1980 = class_99.var_4682;
-            this.var_1981 = class_73.method_2111(class_9.var_3268);
+            this.var_1981 = class_9.var_3268;
             _loc3_ = this.var_1978.length;
             if(param1)
             {
@@ -283,7 +283,7 @@ package
                _loc4_ = _loc3_ - class_491.var_7314;
                this.var_1984 = _loc4_;
             }
-            if(_loc4_ < class_73.method_2108(class_183.var_7129))
+            if(_loc4_ < class_183.var_7129)
             {
                _loc4_ = class_183.var_7129;
             }
@@ -293,7 +293,7 @@ package
             {
                ++this.var_1982;
                _loc6_ = this.var_1978[_loc5_];
-               this.var_1981 += _loc6_.var_1987 + class_73.method_2111(class_107.var_5071);
+               this.var_1981 += _loc6_.var_1987 + class_107.var_5071;
                _loc5_++;
             }
             if(class_155.var_6149)
@@ -302,7 +302,7 @@ package
                _loc5_ = -class_33.var_3679;
                while(++_loc5_ < _loc7_)
                {
-                  this.var_1981 = class_73.method_2111(class_107.var_5071) + this.var_1981;
+                  this.var_1981 = class_107.var_5071 + this.var_1981;
                }
             }
          }

@@ -74,7 +74,7 @@ package
          this.var_1250 = param1;
          this.var_1250.x = this.var_734;
          this.var_1250.y = this.var_735;
-         addChildAt(this.var_1250,class_73.method_2108(class_183.var_7129));
+         addChildAt(this.var_1250,class_183.var_7129);
          return this;
       }
       
@@ -114,7 +114,7 @@ package
          }
          else
          {
-            this.var_1250.addEventListener(class_73.method_2111(class_121.var_5449),this.method_970);
+            this.var_1250.addEventListener(class_121.var_5449,this.method_970);
          }
          return this;
       }
@@ -129,7 +129,7 @@ package
          }
          else
          {
-            this.var_1250.addEventListener(class_73.method_2111(class_121.var_5449),this.method_176);
+            this.var_1250.addEventListener(class_121.var_5449,this.method_176);
             this.var_1255 = class_99.var_4681;
          }
          return this;
@@ -158,8 +158,8 @@ package
       
       public function method_971() : void
       {
-         this.var_1250.x = int(((!!this.var_1257 ? this.var_1257 : name_5) - this.var_1250.width) / class_73.method_2108(class_165.var_6534)) + this.var_734;
-         this.var_1250.y = int(((!!this.var_1258 ? this.var_1258 : this.var_1254) - this.var_1250.height) / class_73.method_2108(class_165.var_6534)) + this.var_735;
+         this.var_1250.x = int(((!!this.var_1257 ? this.var_1257 : name_5) - this.var_1250.width) / class_165.var_6534) + this.var_734;
+         this.var_1250.y = int(((!!this.var_1258 ? this.var_1258 : this.var_1254) - this.var_1250.height) / class_165.var_6534) + this.var_735;
       }
       
       public function method_972() : void
@@ -175,7 +175,7 @@ package
             this.var_1253 = this.var_1250.bitmapData;
          }
          this.var_1250.bitmapData = null;
-         if(this.var_1251 == class_73.method_2108(class_33.var_3679) && this.var_1252 == class_33.var_3679)
+         if(this.var_1251 == class_33.var_3679 && this.var_1252 == class_33.var_3679)
          {
             _loc1_ = this.var_1253;
          }
@@ -223,25 +223,25 @@ package
          {
             this.var_1250.parent.removeChild(this.var_1250);
          }
-         var _loc2_:String = param1.indexOf(class_73.method_2111(class_170.var_6702)) > -class_73.method_2108(class_33.var_3679) ? class_9.var_3268 : class_73.method_2111(class_102.var_4816);
+         var _loc2_:String = param1.indexOf(class_170.var_6702) > -class_33.var_3679 ? class_9.var_3268 : class_102.var_4816;
          this.var_1250 = class_175.method_2618(param1,_loc2_);
          this.var_1250.x = this.var_734;
          this.var_1250.y = this.var_735;
-         addChildAt(this.var_1250,class_73.method_2108(class_183.var_7129));
+         addChildAt(this.var_1250,class_183.var_7129);
          return this;
       }
       
       public function method_176(param1:Event) : void
       {
-         this.var_1250.removeEventListener(class_73.method_2111(class_121.var_5449),this.method_176);
-         if(class_73.method_2109(class_73.method_2109(this.var_1256)))
+         this.var_1250.removeEventListener(class_121.var_5449,this.method_176);
+         if(this.var_1256)
          {
-            this.var_1256 = class_73.method_2109(class_73.method_2109(false));
+            this.var_1256 = false;
             this.method_974();
          }
-         if(class_73.method_2109(this.var_1255))
+         if(this.var_1255)
          {
-            this.var_1255 = class_73.method_2109(class_73.method_2109(false));
+            this.var_1255 = false;
             this.method_971();
          }
          if(this.var_1259 != null)
@@ -253,7 +253,7 @@ package
       public function method_251(param1:int = 0, param2:Number = 1) : class_250
       {
          graphics.beginFill(param1,param2);
-         graphics.drawRect(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),name_5,var_206);
+         graphics.drawRect(class_183.var_7129,class_183.var_7129,name_5,var_206);
          graphics.endFill();
          return this;
       }

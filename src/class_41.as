@@ -41,7 +41,7 @@ package
          this.var_405 = new Dictionary();
          super(class_41.name_38,class_41.name_58);
          method_216(new class_245(class_243.const_642));
-         method_251(true,class_73.method_2108(class_146.var_6117));
+         method_251(true,class_146.var_6117);
          this.var_404 = new class_24(class_41.name_38,class_41.name_58 - class_16.var_3473);
          this.var_404.method_216(new class_245(class_243.const_640,class_121.var_5495));
          this.var_404.method_244(true);
@@ -59,7 +59,7 @@ package
             if(!class_41.var_3750)
             {
                class_41.var_3750 = new Sprite();
-               class_41.var_3750.x = -class_41.const_138 + class_73.method_2108(class_107.var_5074);
+               class_41.var_3750.x = -class_41.const_138 + class_107.var_5074;
                class_41.var_3750.y = class_60.var_3858;
             }
             class_1.var_2884.var_53.addChild(class_41.var_3750);
@@ -113,7 +113,7 @@ package
          }
          else
          {
-            if(class_73.method_2108(class_183.var_7129) == _loc3_)
+            if(class_183.var_7129 == _loc3_)
             {
                class_41.method_1943(false);
             }
@@ -154,7 +154,7 @@ package
          {
             while(class_41.var_3750.numChildren != class_183.var_7129)
             {
-               class_41.var_3750.removeChildAt(class_73.method_2108(class_183.var_7129));
+               class_41.var_3750.removeChildAt(class_183.var_7129);
             }
             _loc1_ = class_98.method_2230();
             _loc2_ = class_183.var_7129;
@@ -187,20 +187,20 @@ package
             if(!class_41.var_2884)
             {
                class_41.var_2884 = new class_41();
-               class_41.var_2884.y = class_73.method_2108(class_9.var_3240);
+               class_41.var_2884.y = class_9.var_3240;
             }
-            class_115.method_388(class_41.var_2884,class_73.method_2108(class_33.var_3679));
+            class_115.method_388(class_41.var_2884,class_33.var_3679);
             if(param2 == class_41.const_140)
             {
-               _loc5_ = class_73.method_2108(class_117.var_5279);
+               _loc5_ = class_117.var_5279;
             }
             else if(class_41.const_142 == param2)
             {
-               _loc5_ = -class_41.name_38 + class_73.method_2108(class_102.var_4695);
+               _loc5_ = -class_41.name_38 + class_102.var_4695;
             }
             else
             {
-               _loc5_ = class_168.var_6539.x > class_73.method_2108(class_89.var_4432) || class_298.var_7208 ? int(class_117.var_5279) : int(class_73.method_2108(class_102.var_4695) - class_41.name_38);
+               _loc5_ = class_168.var_6539.x > class_89.var_4432 || class_298.var_7208 ? int(class_117.var_5279) : int(class_102.var_4695 - class_41.name_38);
             }
             class_41.var_2884.x = _loc5_;
          }
@@ -244,7 +244,7 @@ package
          {
             return;
          }
-         if(!_loc2_.var_1423 && class_36.var_3706 < class_73.method_2108(class_146.var_6117))
+         if(!_loc2_.var_1423 && class_36.var_3706 < class_146.var_6117)
          {
             return;
          }
@@ -259,14 +259,14 @@ package
                return;
             }
          }
-         var _loc3_:int = class_73.method_2108(class_165.var_6505);
+         var _loc3_:int = class_165.var_6505;
          switch(param1)
          {
             case class_107.var_5074:
             case class_181.var_6791:
-            case class_73.method_2108(class_121.var_5323):
-            case class_73.method_2108(class_117.var_5132):
-               _loc3_ = class_73.method_2108(class_165.var_6506);
+            case class_121.var_5323:
+            case class_117.var_5132:
+               _loc3_ = class_165.var_6506;
          }
          if(class_1.method_1816() - class_41.var_585 < _loc3_)
          {
@@ -295,9 +295,9 @@ package
       {
          var _loc3_:Array = null;
          var _loc2_:Boolean = class_98.name_3(param1.var_1438);
-         if(class_98.method_2231(param1.var_1438) || class_41.var_3751 && class_41.var_3751.indexOf(param1.var_1438) != -class_73.method_2108(class_33.var_3679))
+         if(class_98.method_2231(param1.var_1438) || class_41.var_3751 && class_41.var_3751.indexOf(param1.var_1438) != -class_33.var_3679)
          {
-            _loc3_ = new Array(class_26.method_1668(class_73.method_2111(class_92.var_4489)),class_41.method_1950,param1.var_1438);
+            _loc3_ = new Array(class_26.method_1668(class_92.var_4489),class_41.method_1950,param1.var_1438);
             if(class_98.method_2236(param1.var_1438) || _loc2_)
             {
                _loc3_.push(class_26.method_1668(!!_loc2_ ? class_102.var_4696 : class_92.var_4488),class_41.method_1944,param1.var_1438);
@@ -334,8 +334,8 @@ package
                   if(var_7486.categorie != var_4180)
                   {
                      var_4180 = var_7486.categorie;
-                     var_7491 = new class_24(class_41.name_38,class_73.method_2108(class_33.var_3675));
-                     var_411 = new class_220((!!var_7489 ? class_73.method_2111(class_162.var_6182) : class_92.var_4487) + class_26.method_1668(class_73.method_2111(class_162.var_6181) + var_7486.categorie));
+                     var_7491 = new class_24(class_41.name_38,class_33.var_3675);
+                     var_411 = new class_220((!!var_7489 ? class_162.var_6182 : class_92.var_4487) + class_26.method_1668(class_162.var_6181 + var_7486.categorie));
                      var_411.method_864(!!var_7489 ? int(class_54.const_289) : int(class_54.const_291));
                      var_7491.method_136(var_411);
                      var_7491.method_203(function(param1:int):void
@@ -356,7 +356,7 @@ package
                         var_7488 -= class_301.method_2880(var_7487);
                      }
                      var_7490 = class_300.method_118(var_7487,var_7488);
-                     var_1541 = new class_23(class_102.var_4859,class_73.method_2108(class_102.var_4859));
+                     var_1541 = new class_23(class_102.var_4859,class_102.var_4859);
                      var_1541.addChild(var_7490);
                      if(class_298.var_7208)
                      {

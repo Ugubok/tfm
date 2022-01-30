@@ -3,25 +3,25 @@ package
    public class class_382
    {
       
-      public static var var_7269:class_382 = new class_382(class_73.method_2111("Server"),7108545,class_54.const_280).method_1243(class_73.method_2111("srv")).method_1250(class_382.method_2913);
+      public static var var_7269:class_382 = new class_382("Server",7108545,class_54.const_280).method_1243("srv").method_1250(class_382.method_2913);
       
-      public static var name_65:class_382 = new class_382(class_73.method_2111("Modo"),12936702).method_1243(class_73.method_2111("m"),true).method_1249(class_382.method_2912).method_1250(class_382.method_2916).method_1248(true);
+      public static var name_65:class_382 = new class_382("Modo",12936702).method_1243("m",true).method_1249(class_382.method_2912).method_1250(class_382.method_2916).method_1248(true);
       
-      public static var name_78:class_382 = new class_382("Arbitre",12161994).method_1243(class_73.method_2111("a"),true).method_1249(class_382.method_2910).method_1250(class_382.method_2917).method_1248(true);
+      public static var name_78:class_382 = new class_382("Arbitre",12161994).method_1243("a",true).method_1249(class_382.method_2910).method_1250(class_382.method_2917).method_1248(true);
       
       public static var name_66:class_382 = new class_382("MapCrew",5544158).method_1243("mc").method_1249(class_382.method_2904).method_1250(class_382.method_2908).method_1248(true);
       
       public static var name_67:class_382 = new class_382("LuaTeam",8242614).method_1243("lu").method_1249(class_382.method_2919).method_1250(class_382.method_2906,class_382.method_2918).method_1248(true);
       
-      public static var name_68:class_382 = new class_382(class_73.method_2111("FunCorp"),13406352).method_1243("fc").method_1249(class_382.method_2909).method_1250(class_382.method_2905).method_1248(true);
+      public static var name_68:class_382 = new class_382("FunCorp",13406352).method_1243("fc").method_1249(class_382.method_2909).method_1250(class_382.method_2905).method_1248(true);
       
-      public static var name_69:class_382 = new class_382(class_73.method_2111("FashionSquad"),16758465).method_1243("fs").method_1249(class_382.method_2914).method_1250(class_382.method_2915,class_382.method_2907).method_1248(true);
+      public static var name_69:class_382 = new class_382("FashionSquad",16758465).method_1243("fs").method_1249(class_382.method_2914).method_1250(class_382.method_2915,class_382.method_2907).method_1248(true);
       
       public static var var_7270:class_382 = new class_382("ChatLog",12763866).method_1245(false).method_1244(true);
       
-      public static var var_7271:class_382 = new class_382(class_73.method_2111("lua"),8045004).method_1245(false).method_1244(true);
+      public static var var_7271:class_382 = new class_382("lua",8045004).method_1245(false).method_1244(true);
       
-      public static var name_70:class_382 = new class_382("Group",9683967).method_1243(class_73.method_2111("p")).method_1250(class_382.method_2911,class_382.method_2911).method_1244(true).method_1249(class_382.method_2920).method_1248(true).method_1247("$MessageBienvenueGroupe").method_1246();
+      public static var name_70:class_382 = new class_382("Group",9683967).method_1243("p").method_1250(class_382.method_2911,class_382.method_2911).method_1244(true).method_1249(class_382.method_2920).method_1248(true).method_1247("$MessageBienvenueGroupe").method_1246();
       
       public static var var_818:Vector.<class_382> = new Vector.<class_382>();
       
@@ -70,7 +70,7 @@ package
          super();
          this.var_817 = param1;
          this.var_1709 = param2;
-         if(param3 >= class_73.method_2108(class_183.var_7129))
+         if(param3 >= class_183.var_7129)
          {
             this.var_377 = param3;
          }
@@ -85,10 +85,10 @@ package
          var _loc3_:String = param1.name_14;
          if(param1.var_1714 && param2.charAt(class_183.var_7129) == class_89.var_4425)
          {
-            param2 = param2.substr(class_73.method_2108(class_33.var_3679));
+            param2 = param2.substr(class_33.var_3679);
             _loc3_ += class_89.var_4425;
          }
-         param2 = param2.replace(/</g,class_73.method_2111(class_4.var_3032));
+         param2 = param2.replace(/</g,class_4.var_3032);
          var _loc4_:class_85 = class_85.method_2135(_loc3_);
          if(_loc4_)
          {

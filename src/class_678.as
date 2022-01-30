@@ -22,7 +22,7 @@ package
             _loc4_.var_1672 = param1.readShort();
             _loc4_.var_1911 = _loc4_.var_1672;
             _loc4_.var_1910 = param1.readShort();
-            _loc4_.var_1913 = class_73.method_2111(class_181.var_6842);
+            _loc4_.var_1913 = class_181.var_6842;
             this.var_2366.push(_loc4_);
             _loc3_++;
          }

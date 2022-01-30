@@ -59,11 +59,11 @@ package
          }
          if(class_263.const_694 == this.var_1283)
          {
-            if(param1.var_455 == class_73.method_2111(class_62.var_4147) && param1.var_473 != class_74.const_414)
+            if(param1.var_455 == class_62.var_4147 && param1.var_473 != class_74.const_414)
             {
-               return class_175.method_2618(class_73.method_2111(class_33.var_3542));
+               return class_175.method_2618(class_33.var_3542);
             }
-            return class_175.method_2618(class_73.method_2111(class_89.var_4406));
+            return class_175.method_2618(class_89.var_4406);
          }
          if(class_263.const_695 == this.var_1283)
          {
@@ -71,11 +71,11 @@ package
          }
          if(this.var_1283 == class_263.const_696)
          {
-            return class_175.method_2618(class_73.method_2111(class_62.var_4127));
+            return class_175.method_2618(class_62.var_4127);
          }
          if(class_263.const_697 == this.var_1283)
          {
-            return class_175.method_2618(class_73.method_2111(class_170.var_6699));
+            return class_175.method_2618(class_170.var_6699);
          }
          if(this.var_1283 == class_263.const_681)
          {
@@ -196,15 +196,15 @@ package
             _loc10_.var_305 = param3;
             _loc10_.var_316 = class_99.var_4681;
             _loc10_.var_317 = class_1.var_2884.var_50.x;
-            _loc11_ = Math.random() * class_146.var_6110 - class_73.method_2116(class_89.var_4434);
+            _loc11_ = Math.random() * class_146.var_6110 - class_89.var_4434;
             _loc12_ = Math.random() * class_263.const_695;
             if(_loc9_ % class_165.var_6534 == class_183.var_7129)
             {
-               _loc10_.var_308 = -(Math.cos(_loc11_) * _loc12_ * class_73.method_2108(class_165.var_6534));
+               _loc10_.var_308 = -(Math.cos(_loc11_) * _loc12_ * class_165.var_6534);
             }
             else
             {
-               _loc10_.var_308 = Math.cos(_loc11_) * _loc12_ * class_73.method_2108(class_165.var_6534);
+               _loc10_.var_308 = Math.cos(_loc11_) * _loc12_ * class_165.var_6534;
             }
             _loc10_.var_309 = Math.sin(_loc11_) * _loc12_;
             _loc10_.var_311 = param7;
@@ -217,7 +217,7 @@ package
       {
          if(this.var_1283 == class_263.const_695)
          {
-            this.method_984(class_56.const_334,this.var_304,this.var_305,class_146.var_6117,class_73.method_2108(class_165.var_6534),false,-class_73.method_2116(class_89.var_4430));
+            this.method_984(class_56.const_334,this.var_304,this.var_305,class_146.var_6117,class_165.var_6534,false,-class_89.var_4430);
             return;
          }
          if(class_263.const_697 == this.var_1283)
@@ -232,17 +232,17 @@ package
          }
          if(class_263.const_681 == this.var_1283)
          {
-            this.method_984(class_56.const_334,this.var_304,this.var_305,class_73.method_2108(class_146.var_6117),class_165.var_6534,false,-class_73.method_2116(class_89.var_4430));
+            this.method_984(class_56.const_334,this.var_304,this.var_305,class_146.var_6117,class_165.var_6534,false,-class_89.var_4430);
             return;
          }
          if(class_263.const_211 == this.var_1283)
          {
-            this.method_984(class_56.const_334,this.var_304,this.var_305,class_146.var_6117,class_73.method_2108(class_165.var_6534),false,-class_89.var_4430);
+            this.method_984(class_56.const_334,this.var_304,this.var_305,class_146.var_6117,class_165.var_6534,false,-class_89.var_4430);
             return;
          }
          if(this.var_1283 == class_263.const_698)
          {
-            this.method_984(class_56.const_308,this.var_304,this.var_305,class_73.method_2108(class_146.var_6117),class_165.var_6534,false,-class_73.method_2116(class_89.var_4430));
+            this.method_984(class_56.const_308,this.var_304,this.var_305,class_146.var_6117,class_165.var_6534,false,-class_89.var_4430);
             return;
          }
       }

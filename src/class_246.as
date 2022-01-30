@@ -45,31 +45,31 @@ package
             this.var_337.filters = var_180.var_1073;
          }
          this.var_337.alpha = param6;
-         this.var_401 = new class_220(class_73.method_2111(class_9.var_3268),class_33.var_3679,class_33.var_3679);
+         this.var_401 = new class_220(class_9.var_3268,class_33.var_3679,class_33.var_3679);
          this.var_401.y = class_165.var_6534;
-         this.var_401.x = class_73.method_2108(class_165.var_6534);
+         this.var_401.x = class_165.var_6534;
          this.var_401.defaultTextFormat = var_180.var_1066;
          this.var_401.textColor = this.var_1243;
          this.method_856(TextFormatAlign.CENTER);
-         if(class_73.method_2108(class_183.var_7129) == param2)
+         if(class_183.var_7129 == param2)
          {
             this.var_401.autoSize = TextFieldAutoSize.LEFT;
          }
          else
          {
-            this.var_401.width = -class_73.method_2108(class_121.var_5495) + param2;
+            this.var_401.width = -class_121.var_5495 + param2;
             this.var_337.width = param2;
          }
          if(param5 == class_183.var_7129)
          {
             if(class_1.var_2884.var_9)
             {
-               this.var_401.height = class_73.method_2108(class_162.var_6351);
+               this.var_401.height = class_162.var_6351;
                this.var_337.height = class_124.var_5641;
             }
             else
             {
-               this.var_401.height = class_73.method_2108(class_33.var_3675);
+               this.var_401.height = class_33.var_3675;
                this.var_337.height = class_9.var_3266;
             }
             this.var_401.height = var_180.var_1074;
@@ -85,10 +85,10 @@ package
             this.var_401.wordWrap = class_99.var_4681;
          }
          this.var_401.htmlText = param1;
-         if(param2 == class_73.method_2108(class_183.var_7129))
+         if(param2 == class_183.var_7129)
          {
             this.var_337.width = class_33.var_3675 + this.var_401.width;
-            this.var_401.x = class_73.method_2108(class_146.var_6117);
+            this.var_401.x = class_146.var_6117;
          }
          addChild(this.var_337);
          addChild(this.var_401);
@@ -156,7 +156,7 @@ package
       
       public function method_475(param1:int, param2:int = 0) : class_246
       {
-         if(param1 == class_73.method_2108(class_183.var_7129))
+         if(param1 == class_183.var_7129)
          {
             this.var_401.autoSize = TextFieldAutoSize.LEFT;
          }
@@ -169,16 +169,16 @@ package
          {
             if(class_1.var_2884.var_9)
             {
-               this.var_401.height = class_73.method_2108(class_162.var_6351);
+               this.var_401.height = class_162.var_6351;
                this.var_337.height = class_124.var_5641;
             }
             else
             {
-               this.var_401.height = class_73.method_2108(class_33.var_3675);
-               this.var_337.height = class_73.method_2108(class_9.var_3266);
+               this.var_401.height = class_33.var_3675;
+               this.var_337.height = class_9.var_3266;
             }
             this.var_401.height = var_180.var_1074;
-            this.var_337.height = class_73.method_2108(class_165.var_6534) + var_180.var_1074;
+            this.var_337.height = class_165.var_6534 + var_180.var_1074;
             this.var_401.multiline = class_99.var_4682;
             this.var_401.wordWrap = class_99.var_4682;
          }
@@ -189,9 +189,9 @@ package
             this.var_401.multiline = class_99.var_4681;
             this.var_401.wordWrap = class_99.var_4681;
          }
-         if(param1 == class_73.method_2108(class_183.var_7129))
+         if(param1 == class_183.var_7129)
          {
-            this.var_337.width = this.var_401.width + class_73.method_2108(class_117.var_5287);
+            this.var_337.width = this.var_401.width + class_117.var_5287;
          }
          name_5 = this.var_337.width;
          var_206 = this.var_337.height;
@@ -222,7 +222,7 @@ package
       
       public function method_960(param1:Event) : void
       {
-         this.name_42(class_73.method_2108(class_33.var_3679));
+         this.name_42(class_33.var_3679);
       }
       
       public function method_951(param1:DisplayObject, param2:Boolean = true) : class_246
@@ -241,17 +241,17 @@ package
             _loc4_ = param1.height;
          }
          addChild(param1);
-         var _loc5_:int = _loc3_ + this.var_401.width + class_73.method_2108(class_121.var_5495);
+         var _loc5_:int = _loc3_ + this.var_401.width + class_121.var_5495;
          param1.y = int((var_206 - _loc4_) / class_165.var_6534);
          if(param2)
          {
-            param1.x = int((-_loc5_ + name_5) / class_73.method_2108(class_165.var_6534));
-            this.var_401.x = param1.x + _loc3_ + class_73.method_2108(class_121.var_5495);
+            param1.x = int((-_loc5_ + name_5) / class_165.var_6534);
+            this.var_401.x = param1.x + _loc3_ + class_121.var_5495;
          }
          else
          {
-            param1.x = class_73.method_2108(class_121.var_5495);
-            this.var_401.x = param1.x + _loc3_ + class_73.method_2108(class_121.var_5495);
+            param1.x = class_121.var_5495;
+            this.var_401.x = param1.x + _loc3_ + class_121.var_5495;
          }
          return this;
       }
@@ -269,7 +269,7 @@ package
             mouseEnabled = class_99.var_4682;
             this.var_401.textColor = var_180.var_1071;
          }
-         method_205(!param1,class_73.method_2116(class_146.var_6072),false);
+         method_205(!param1,class_146.var_6072,false);
          return this;
       }
       

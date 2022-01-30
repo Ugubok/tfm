@@ -86,20 +86,20 @@ package
       public function class_208()
       {
          this.var_1063 = class_16.var_3467;
-         this.var_1064 = class_73.method_2108(class_170.var_6720);
+         this.var_1064 = class_170.var_6720;
          this.var_1065 = this.var_1064;
          this.var_1066 = new TextFormat(class_60.var_3917,this.var_1065,12763866);
          this.var_1067 = new TextFormat(class_60.var_3917,this.var_1065,48059);
          this.var_1072 = class_117.var_5182;
-         this.var_1073 = new Array(new BevelFilter(class_33.var_3679,class_107.var_5038,16777215,class_73.method_2116(class_92.var_4648),class_73.method_2108(class_183.var_7129),class_73.method_2108(class_33.var_3679),class_33.var_3679,class_33.var_3679));
-         this.var_1074 = class_73.method_2108(class_33.var_3675);
+         this.var_1073 = new Array(new BevelFilter(class_33.var_3679,class_107.var_5038,16777215,class_92.var_4648,class_183.var_7129,class_33.var_3679,class_33.var_3679,class_33.var_3679));
+         this.var_1074 = class_33.var_3675;
          this.var_1075 = class_4.var_2971;
          this.var_1076 = class_183.var_7040;
-         this.var_1077 = class_73.method_2111(class_127.var_5792);
+         this.var_1077 = class_127.var_5792;
          this.var_1078 = class_9.var_3162;
-         this.var_1079 = -class_73.method_2108(class_146.var_6117);
-         this.var_1083 = class_73.method_2108(class_183.var_7129);
-         this.var_1088 = class_73.method_2108(class_165.var_6534);
+         this.var_1079 = -class_146.var_6117;
+         this.var_1083 = class_183.var_7129;
+         this.var_1088 = class_165.var_6534;
          super();
       }
    }

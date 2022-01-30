@@ -27,14 +27,14 @@ package
          while(++_loc3_ < _loc4_)
          {
             _loc5_ = param1[_loc3_];
-            _loc6_ = new class_246(class_89.var_4362 + _loc5_.var_1910 + class_73.method_2111(class_124.var_5520) + _loc5_.var_1913 + class_170.var_6569 + _loc5_.var_1672 + class_60.var_3841,class_834.name_38,this.method_1784,_loc3_);
+            _loc6_ = new class_246(class_89.var_4362 + _loc5_.var_1910 + class_124.var_5520 + _loc5_.var_1913 + class_170.var_6569 + _loc5_.var_1672 + class_60.var_3841,class_834.name_38,this.method_1784,_loc3_);
             _loc6_.method_957(false);
             method_136(_loc6_);
          }
          method_221(class_16.var_3473);
          method_136(new class_246(class_26.method_1668(class_181.var_6933),class_834.name_38,this.method_469));
-         method_251(true,class_73.method_2108(class_33.var_3675),true);
-         method_196(class_73.method_2116(class_92.var_4648),class_127.var_5844);
+         method_251(true,class_33.var_3675,true);
+         method_196(class_92.var_4648,class_127.var_5844);
       }
       
       public function method_1784(param1:int) : void
@@ -45,7 +45,7 @@ package
       
       public function name_17(param1:Event) : void
       {
-         this.var_2740.x = (-this.var_2740.width + class_834.name_38) / class_73.method_2108(class_165.var_6534);
+         this.var_2740.x = (-this.var_2740.width + class_834.name_38) / class_165.var_6534;
       }
       
       public function method_469() : void

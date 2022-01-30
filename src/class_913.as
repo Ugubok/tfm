@@ -29,7 +29,7 @@ package
       
       public function get method_1731() : String
       {
-         return class_73.method_2111(class_117.var_5175);
+         return class_117.var_5175;
       }
       
       public function get typeTaille() : int
@@ -59,7 +59,7 @@ package
          this.idSequence = param1.readInt();
          var _loc2_:int = param1.readShort();
          this.var_1947 = new Vector.<class_744>(_loc2_);
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < _loc2_)
          {
             this.var_1947[_loc3_] = class_744.method_3036(param1);

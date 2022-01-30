@@ -64,7 +64,7 @@ package
          {
             return;
          }
-         if(param1 == null || param1.var_817 == class_73.method_2111(class_9.var_3268))
+         if(param1 == null || param1.var_817 == class_9.var_3268)
          {
             this.var_1959 = null;
          }
@@ -101,7 +101,7 @@ package
          var _loc2_:class_483 = this.var_1958[param1];
          if(_loc2_)
          {
-            this.var_1860.splice(this.var_1860.indexOf(_loc2_),class_73.method_2108(class_33.var_3679));
+            this.var_1860.splice(this.var_1860.indexOf(_loc2_),class_33.var_3679);
             delete this.var_1957[_loc2_.var_817.toLowerCase()];
             delete this.var_1958[_loc2_.var_1768];
             if(class_420.name_62())
@@ -143,7 +143,7 @@ package
          var _loc2_:class_483 = this.var_1958[param1.var_1768];
          if(_loc2_)
          {
-            this.var_1860.splice(this.var_1860.indexOf(_loc2_),class_73.method_2108(class_33.var_3679),param1);
+            this.var_1860.splice(this.var_1860.indexOf(_loc2_),class_33.var_3679,param1);
             delete this.var_1957[_loc2_.var_817.toLowerCase()];
             this.var_1957[param1.var_817.toLowerCase()] = param1;
             this.var_1958[param1.var_1768] = param1;

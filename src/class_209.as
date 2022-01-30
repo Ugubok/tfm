@@ -20,8 +20,8 @@ package
          this.method_824(class_92.var_4594,class_404.name_6);
          this.method_824(class_107.var_5008,this.method_831);
          this.method_824(class_162.var_6304,this.method_826);
-         this.method_824(class_73.method_2111(class_33.var_3611),class_26.method_1905);
-         this.method_824(class_73.method_2111(class_33.var_3610),this.method_832);
+         this.method_824(class_33.var_3611,class_26.method_1905);
+         this.method_824(class_33.var_3610,this.method_832);
          this.method_824(class_33.var_3609,this.method_828);
          this.method_824(class_16.var_3414,this.method_830);
          this.method_824(class_162.var_6303,class_527.name_6);
@@ -34,9 +34,9 @@ package
       
       public function method_822(param1:String, param2:String = "fr") : void
       {
-         if(param1.charAt(class_73.method_2108(class_183.var_7129)) != class_73.method_2111(class_9.var_3256))
+         if(param1.charAt(class_183.var_7129) != class_9.var_3256)
          {
-            param1 = class_73.method_2111(class_9.var_3256) + param1;
+            param1 = class_9.var_3256 + param1;
          }
          class_26.method_1900(class_1.var_2884.method_97,param2,false,param1);
       }
@@ -110,7 +110,7 @@ package
          var _loc3_:String = null;
          var _loc4_:Function = null;
          var _loc2_:Array = param1.split(class_124.var_5647);
-         if(_loc2_.length > class_73.method_2108(class_183.var_7129))
+         if(_loc2_.length > class_183.var_7129)
          {
             _loc3_ = _loc2_.shift() as String;
             if(!_loc3_)

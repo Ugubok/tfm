@@ -28,12 +28,12 @@ package
          addChild(this.var_2161);
          if(this.var_2160)
          {
-            this.var_2161.x = (-class_812.name_38 + name_5) / class_73.method_2108(class_165.var_6534);
+            this.var_2161.x = (-class_812.name_38 + name_5) / class_165.var_6534;
             this.var_2161.y = class_183.var_7129;
          }
          else
          {
-            this.var_2161.x = class_73.method_2108(class_183.var_7129);
+            this.var_2161.x = class_183.var_7129;
             this.var_2161.y = (var_206 - class_812.name_58) / class_165.var_6534;
          }
       }

@@ -25,8 +25,8 @@ package
          {
             class_372.var_7263 = class_99.var_4681;
             class_372.var_7262 = [];
-            _loc9_ = class_73.method_2108(class_183.var_7129);
-            while(_loc9_ < class_73.method_2108(class_170.var_6642))
+            _loc9_ = class_183.var_7129;
+            while(_loc9_ < class_170.var_6642)
             {
                _loc8_ = int(_loc9_);
                _loc10_ = class_183.var_7129;
@@ -64,7 +64,7 @@ package
          var _loc7_:int = class_183.var_7129;
          while(_loc7_ < -_loc5_ + _loc6_)
          {
-            _loc8_ = class_372.var_7262[(_loc8_ ^ param1.readUnsignedByte()) & 255] ^ _loc8_ >>> class_73.method_2108(class_170.var_6731);
+            _loc8_ = class_372.var_7262[(_loc8_ ^ param1.readUnsignedByte()) & 255] ^ _loc8_ >>> class_170.var_6731;
             _loc7_++;
          }
          _loc8_ ^= 4294967295;
@@ -96,17 +96,17 @@ package
                while(_loc7_ < param1.width)
                {
                   _loc6_ = param1.getPixel(_loc7_,_loc5_);
-                  _loc4_.writeUnsignedInt(int((_loc6_ & 16777215) << class_73.method_2108(class_170.var_6731) | 255));
+                  _loc4_.writeUnsignedInt(int((_loc6_ & 16777215) << class_170.var_6731 | 255));
                   _loc7_++;
                }
             }
             else
             {
-               _loc7_ = class_73.method_2108(class_183.var_7129);
+               _loc7_ = class_183.var_7129;
                while(_loc7_ < param1.width)
                {
                   _loc6_ = param1.getPixel32(_loc7_,_loc5_);
-                  _loc4_.writeUnsignedInt(int((_loc6_ & 16777215) << class_73.method_2108(class_170.var_6731) | _loc6_ >>> class_73.method_2108(class_117.var_5280)));
+                  _loc4_.writeUnsignedInt(int((_loc6_ & 16777215) << class_170.var_6731 | _loc6_ >>> class_117.var_5280));
                   _loc7_++;
                }
             }

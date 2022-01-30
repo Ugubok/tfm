@@ -62,7 +62,7 @@ package
       public function class_562(param1:class_255)
       {
          this.var_2167 = new Dictionary();
-         this.var_2169 = class_73.method_2108(class_183.var_7129);
+         this.var_2169 = class_183.var_7129;
          this.var_2170 = class_183.var_7129;
          this.var_2171 = class_183.var_7129;
          this.var_2172 = class_183.var_7129;
@@ -87,13 +87,13 @@ package
          {
             return;
          }
-         this.var_2175 = class_73.method_2108(class_4.var_3058) + _loc2_;
+         this.var_2175 = class_4.var_3058 + _loc2_;
          var _loc3_:class_147 = class_168.var_6539.var_925;
          var _loc4_:Array = this.var_2167[class_168.var_6539.var_876];
-         var _loc5_:MovieClip = _loc4_[class_73.method_2108(class_183.var_7129)] as MovieClip;
-         var _loc6_:int = _loc4_[class_73.method_2108(class_33.var_3679)];
-         var _loc7_:Boolean = _loc4_[class_73.method_2108(class_165.var_6534)];
-         class_39.var_3745.method_313(method_660(class_165.var_6534,class_168.var_6539.var_876,int(_loc3_.method_555().var_304 * class_121.var_5493),int(_loc3_.method_555().var_305 * class_73.method_2108(class_121.var_5493)),int(_loc3_.method_559() * class_73.method_2108(class_121.var_5493)),int(_loc3_.var_751 * class_121.var_5493),int(_loc3_.method_537().var_304 * class_73.method_2108(class_121.var_5493)),int(_loc3_.method_537().var_305 * class_121.var_5493),int(class_73.method_2108(class_121.var_5493) * _loc5_.rotation),_loc6_,_loc7_));
+         var _loc5_:MovieClip = _loc4_[class_183.var_7129] as MovieClip;
+         var _loc6_:int = _loc4_[class_33.var_3679];
+         var _loc7_:Boolean = _loc4_[class_165.var_6534];
+         class_39.var_3745.method_313(method_660(class_165.var_6534,class_168.var_6539.var_876,int(_loc3_.method_555().var_304 * class_121.var_5493),int(_loc3_.method_555().var_305 * class_121.var_5493),int(_loc3_.method_559() * class_121.var_5493),int(_loc3_.var_751 * class_121.var_5493),int(_loc3_.method_537().var_304 * class_121.var_5493),int(_loc3_.method_537().var_305 * class_121.var_5493),int(class_121.var_5493 * _loc5_.rotation),_loc6_,_loc7_));
       }
       
       public function method_1584(param1:int) : void
@@ -125,11 +125,11 @@ package
                   {
                      return true;
                   }
-                  if(class_119.method_2341(param1) && this.var_2169 == -class_73.method_2108(class_33.var_3679))
+                  if(class_119.method_2341(param1) && this.var_2169 == -class_33.var_3679)
                   {
                      return true;
                   }
-                  this.var_2169 = !!class_119.method_2333(param1) ? int(class_73.method_2108(class_33.var_3679)) : int(-class_73.method_2108(class_33.var_3679));
+                  this.var_2169 = !!class_119.method_2333(param1) ? int(class_33.var_3679) : int(-class_33.var_3679);
                   this.var_2168[class_33.var_3679] = this.var_2169;
                   this.method_1583(true);
                }
@@ -141,8 +141,8 @@ package
                {
                   this.var_2176 = !this.var_2176;
                   this.var_2169 = class_183.var_7129;
-                  this.var_2168[class_73.method_2108(class_183.var_7129)].visible = this.var_2176;
-                  this.var_2168[class_73.method_2108(class_33.var_3679)] = this.var_2169;
+                  this.var_2168[class_183.var_7129].visible = this.var_2176;
+                  this.var_2168[class_33.var_3679] = this.var_2169;
                   this.var_2168[class_165.var_6534] = this.var_2176;
                   this.method_1583(true);
                }
@@ -157,69 +157,69 @@ package
          var _loc1_:class_147 = null;
          var _loc2_:class_147 = null;
          var _loc7_:Vector.<Number> = null;
-         class_125.var_5689 = class_73.method_2108(class_117.var_5287);
-         _loc1_ = class_125.method_2392(class_46.const_164,class_562.const_1210.x - class_9.var_3240,class_562.const_1210.y,class_73.method_2108(class_183.var_7129),class_183.var_7129,class_183.var_7129,false,-class_33.var_3679,false,new MovieClip());
-         _loc2_ = class_125.method_2392(class_46.const_164,class_562.const_1210.x + class_9.var_3240,class_562.const_1210.y,class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),class_183.var_7129,false,-class_33.var_3679,false,new MovieClip());
+         class_125.var_5689 = class_117.var_5287;
+         _loc1_ = class_125.method_2392(class_46.const_164,class_562.const_1210.x - class_9.var_3240,class_562.const_1210.y,class_183.var_7129,class_183.var_7129,class_183.var_7129,false,-class_33.var_3679,false,new MovieClip());
+         _loc2_ = class_125.method_2392(class_46.const_164,class_562.const_1210.x + class_9.var_3240,class_562.const_1210.y,class_183.var_7129,class_183.var_7129,class_183.var_7129,false,-class_33.var_3679,false,new MovieClip());
          _loc1_.var_759 = NaN;
          _loc2_.var_759 = NaN;
          var _loc3_:class_348 = new class_348();
          _loc3_.var_415 = class_165.var_6506;
          _loc3_.var_413 = class_4.var_3040;
-         _loc3_.var_414 = class_73.method_2116(class_89.var_4430);
+         _loc3_.var_414 = class_89.var_4430;
          class_47.method_1951(_loc3_.var_417,class_47.const_240);
          var _loc4_:MovieClip = new MovieClip();
-         var _loc5_:Bitmap = class_175.method_2618(class_73.method_2111(class_9.var_3088));
-         _loc5_.x = -class_73.method_2108(class_89.var_4398);
+         var _loc5_:Bitmap = class_175.method_2618(class_9.var_3088);
+         _loc5_.x = -class_89.var_4398;
          _loc5_.y = -class_4.var_2940;
          _loc4_.addChild(_loc5_);
          _loc3_.userData = _loc4_;
          class_58.var_3803.var_540.addChild(_loc4_);
          var _loc6_:class_118 = new class_118(false);
-         _loc6_.position.method_105(class_562.const_1210.x / class_73.method_2116(class_181.var_6937),class_562.const_1210.y / class_181.var_6937);
+         _loc6_.position.method_105(class_562.const_1210.x / class_181.var_6937,class_562.const_1210.y / class_181.var_6937);
          _loc6_.var_682 = class_183.var_7129;
          this.var_716 = class_58.var_3803.var_504.method_1168(_loc6_);
          _loc7_ = new Vector.<Number>();
-         _loc7_.push(class_107.var_4885,-class_73.method_2116(class_170.var_6555));
+         _loc7_.push(class_107.var_4885,-class_170.var_6555);
          _loc7_.push(class_170.var_6554,-class_165.var_6366);
-         _loc7_.push(class_73.method_2116(class_107.var_4884),-class_146.var_5956);
-         _loc7_.push(class_73.method_2116(class_127.var_5717),-class_73.method_2116(class_170.var_6553));
-         _loc7_.push(class_73.method_2116(class_165.var_6365),-class_124.var_5510);
+         _loc7_.push(class_107.var_4884,-class_146.var_5956);
+         _loc7_.push(class_127.var_5717,-class_170.var_6553);
+         _loc7_.push(class_165.var_6365,-class_124.var_5510);
          _loc7_.push(class_127.var_5716,class_4.var_3035);
-         _loc7_.push(class_62.var_4106,class_73.method_2116(class_170.var_6678));
+         _loc7_.push(class_62.var_4106,class_170.var_6678);
          _loc3_.method_1200(_loc7_);
          this.var_716.method_549(_loc3_);
          _loc7_ = new Vector.<Number>();
-         _loc7_.push(class_107.var_4885,-class_73.method_2116(class_170.var_6555));
-         _loc7_.push(class_62.var_4106,class_73.method_2116(class_170.var_6678));
+         _loc7_.push(class_107.var_4885,-class_170.var_6555);
+         _loc7_.push(class_62.var_4106,class_170.var_6678);
          _loc7_.push(class_33.var_3578,class_89.var_4267);
          _loc7_.push(class_4.var_3035,class_124.var_5509);
-         _loc7_.push(-class_73.method_2116(class_107.var_4885),class_165.var_6499);
-         _loc7_.push(-class_73.method_2116(class_165.var_6364),class_33.var_3630);
-         _loc7_.push(-class_73.method_2116(class_62.var_3995),-class_16.var_3279);
-         _loc7_.push(-class_73.method_2116(class_165.var_6363),-class_170.var_6555);
+         _loc7_.push(-class_107.var_4885,class_165.var_6499);
+         _loc7_.push(-class_165.var_6364,class_33.var_3630);
+         _loc7_.push(-class_62.var_3995,-class_16.var_3279);
+         _loc7_.push(-class_165.var_6363,-class_170.var_6555);
          _loc3_.method_1200(_loc7_);
          this.var_716.method_549(_loc3_);
          _loc7_ = new Vector.<Number>();
-         _loc7_.push(-class_73.method_2116(class_165.var_6363),-class_73.method_2116(class_170.var_6555));
-         _loc7_.push(-class_124.var_5508,-class_73.method_2116(class_127.var_5844));
-         _loc7_.push(-class_73.method_2116(class_107.var_4883),-class_183.var_6970);
+         _loc7_.push(-class_165.var_6363,-class_170.var_6555);
+         _loc7_.push(-class_124.var_5508,-class_127.var_5844);
+         _loc7_.push(-class_107.var_4883,-class_183.var_6970);
          _loc3_.method_1200(_loc7_);
          this.var_716.method_549(_loc3_);
          _loc7_ = new Vector.<Number>();
          _loc7_.push(-class_107.var_4883,-class_183.var_6970);
-         _loc7_.push(-class_73.method_2116(class_62.var_3994),-class_73.method_2116(class_127.var_5844));
-         _loc7_.push(-class_73.method_2116(class_89.var_4266),-class_107.var_4882);
-         _loc7_.push(-class_146.var_5955,-class_73.method_2116(class_121.var_5316));
-         _loc7_.push(-class_102.var_4690,-class_73.method_2116(class_124.var_5624));
+         _loc7_.push(-class_62.var_3994,-class_127.var_5844);
+         _loc7_.push(-class_89.var_4266,-class_107.var_4882);
+         _loc7_.push(-class_146.var_5955,-class_121.var_5316);
+         _loc7_.push(-class_102.var_4690,-class_124.var_5624);
          _loc7_.push(-class_124.var_5562,-class_107.var_4881);
-         _loc7_.push(-class_73.method_2116(class_107.var_4880),-class_73.method_2116(class_9.var_3087));
-         _loc7_.push(-class_127.var_5715,-class_73.method_2116(class_170.var_6553));
+         _loc7_.push(-class_107.var_4880,-class_9.var_3087);
+         _loc7_.push(-class_127.var_5715,-class_170.var_6553);
          _loc3_.method_1200(_loc7_);
          this.var_716.method_549(_loc3_);
          _loc7_ = new Vector.<Number>();
-         _loc7_.push(-class_62.var_3994,-class_73.method_2116(class_127.var_5844));
+         _loc7_.push(-class_62.var_3994,-class_127.var_5844);
          _loc7_.push(-class_89.var_4265,class_165.var_6499);
-         _loc7_.push(-class_73.method_2116(class_181.var_6783),-class_73.method_2116(class_107.var_4882));
+         _loc7_.push(-class_181.var_6783,-class_107.var_4882);
          _loc3_.method_1200(_loc7_);
          this.var_716.method_549(_loc3_);
          this.var_716.method_539(false);
@@ -249,17 +249,17 @@ package
             {
                if(this.var_2168 && this.var_2169 != class_183.var_7129)
                {
-                  if(class_119.method_2333(param1) && this.var_2169 == class_73.method_2108(class_33.var_3679))
+                  if(class_119.method_2333(param1) && this.var_2169 == class_33.var_3679)
                   {
                      this.var_2169 = class_183.var_7129;
                      this.var_2168[class_33.var_3679] = this.var_2169;
                      this.method_1583(true);
                      return true;
                   }
-                  if(class_119.method_2341(param1) && this.var_2169 == -class_73.method_2108(class_33.var_3679))
+                  if(class_119.method_2341(param1) && this.var_2169 == -class_33.var_3679)
                   {
                      this.var_2169 = class_183.var_7129;
-                     this.var_2168[class_73.method_2108(class_33.var_3679)] = this.var_2169;
+                     this.var_2168[class_33.var_3679] = this.var_2169;
                      this.method_1583(true);
                      return true;
                   }
@@ -286,11 +286,11 @@ package
             this.var_2168 = null;
             for each(_loc2_ in param1)
             {
-               _loc3_ = new class_250(class_92.var_4481,class_73.method_2108(class_121.var_5461),class_92.var_4613);
+               _loc3_ = new class_250(class_92.var_4481,class_121.var_5461,class_92.var_4613);
                _loc3_.method_969(this.method_1582,new Array(_loc2_,_loc3_,true));
-               _loc4_ = new class_250(class_73.method_2111(class_170.var_6552),class_121.var_5461,class_92.var_4613);
+               _loc4_ = new class_250(class_170.var_6552,class_121.var_5461,class_92.var_4613);
                _loc4_.method_969(this.method_1582,new Array(_loc2_,_loc4_,false));
-               _loc5_ = class_175.method_118(class_73.method_2111(class_181.var_6782),true);
+               _loc5_ = class_175.method_118(class_181.var_6782,true);
                _loc5_.visible = class_99.var_4682;
                _loc2_.method_728(_loc5_,false);
                this.var_2167[_loc2_.var_876] = new Array(_loc5_,class_183.var_7129,false);
@@ -299,11 +299,11 @@ package
                   this.var_2168 = this.var_2167[_loc2_.var_876];
                }
                _loc6_ = new class_45();
-               _loc6_.var_419 = class_73.method_2116(class_181.var_6904);
+               _loc6_.var_419 = class_181.var_6904;
                _loc6_.var_415 = class_165.var_6534;
                _loc6_.var_413 = class_107.var_5060;
                _loc6_.var_414 = class_107.var_5060;
-               _loc6_.var_418 = new class_167(class_146.var_6118 / class_162.var_6351,class_73.method_2108(class_183.var_7129) / class_162.var_6351);
+               _loc6_.var_418 = new class_167(class_146.var_6118 / class_162.var_6351,class_183.var_7129 / class_162.var_6351);
                class_47.method_1951(_loc6_.var_417,class_47.const_238);
                _loc2_.var_925.method_549(_loc6_);
                _loc2_.var_925.method_573();
@@ -320,29 +320,29 @@ package
          var _loc5_:Boolean = false;
          switch(param1.var_574)
          {
-            case class_73.method_2108(class_33.var_3679):
+            case class_33.var_3679:
                if(this.var_2166)
                {
-                  this.var_2172 = param1.method_1477(class_73.method_2108(class_183.var_7129)) / class_73.method_2108(class_121.var_5493);
-                  class_38.method_1938(true,class_4.var_3035 + (this.var_2172 - class_562.const_1202) / ((-class_562.const_1202 + class_562.const_1203) * class_73.method_2108(class_121.var_5495)));
+                  this.var_2172 = param1.method_1477(class_183.var_7129) / class_121.var_5493;
+                  class_38.method_1938(true,class_4.var_3035 + (this.var_2172 - class_562.const_1202) / ((-class_562.const_1202 + class_562.const_1203) * class_121.var_5495));
                }
                break;
-            case class_73.method_2108(class_165.var_6534):
+            case class_165.var_6534:
                if(this.var_2166)
                {
                   _loc2_ = param1.method_1477(class_183.var_7129);
                   _loc3_ = class_1.var_2884.var_85[_loc2_];
                   if(_loc3_ && !_loc3_.var_366)
                   {
-                     _loc3_.var_925.method_556(new class_167(param1.method_1477(class_33.var_3679) / class_117.var_5286,param1.method_1477(class_165.var_6534) / class_117.var_5286),param1.method_1477(class_73.method_2108(class_146.var_6118)) / class_117.var_5286);
-                     _loc3_.var_925.var_751 = param1.method_1477(class_73.method_2108(class_121.var_5495)) / class_73.method_2116(class_117.var_5286);
-                     _loc3_.var_925.var_756 = new class_167(param1.method_1477(class_73.method_2108(class_117.var_5287)) / class_73.method_2116(class_117.var_5286),param1.method_1477(class_9.var_3267) / class_117.var_5286);
+                     _loc3_.var_925.method_556(new class_167(param1.method_1477(class_33.var_3679) / class_117.var_5286,param1.method_1477(class_165.var_6534) / class_117.var_5286),param1.method_1477(class_146.var_6118) / class_117.var_5286);
+                     _loc3_.var_925.var_751 = param1.method_1477(class_121.var_5495) / class_117.var_5286;
+                     _loc3_.var_925.var_756 = new class_167(param1.method_1477(class_117.var_5287) / class_117.var_5286,param1.method_1477(class_9.var_3267) / class_117.var_5286);
                      if(this.var_2167[_loc3_.var_876])
                      {
                         _loc4_ = this.var_2167[_loc3_.var_876][class_183.var_7129];
-                        _loc4_.rotation = param1.method_1477(class_73.method_2108(class_92.var_4647)) / class_73.method_2108(class_121.var_5493);
-                        this.var_2167[_loc3_.var_876][class_73.method_2108(class_33.var_3679)] = param1.method_1477(class_73.method_2108(class_170.var_6731));
-                        _loc5_ = param1.method_1476(class_73.method_2108(class_102.var_4852));
+                        _loc4_.rotation = param1.method_1477(class_92.var_4647) / class_121.var_5493;
+                        this.var_2167[_loc3_.var_876][class_33.var_3679] = param1.method_1477(class_170.var_6731);
+                        _loc5_ = param1.method_1476(class_102.var_4852);
                         this.var_2167[_loc3_.var_876][class_165.var_6534] = _loc5_;
                         _loc4_.visible = _loc5_;
                      }
@@ -358,23 +358,23 @@ package
                break;
             case const_1207:
                class_58.var_3803.var_519 = class_146.var_6103;
-               class_38.method_1935(true,class_73.method_2108(class_183.var_7129));
+               class_38.method_1935(true,class_183.var_7129);
                class_58.var_3803.method_386(class_92.var_4647);
                break;
             case const_1208:
                class_58.var_3803.var_519 = class_16.var_3435;
-               class_38.method_1938(true,class_73.method_2116(class_89.var_4430));
-               class_38.method_1935(true,(class_73.method_2108(class_183.var_7129) - class_73.method_2108(class_146.var_6117)) * class_73.method_2108(class_33.var_3679));
-               class_58.var_3803.method_386(class_73.method_2108(class_170.var_6731));
+               class_38.method_1938(true,class_89.var_4430);
+               class_38.method_1935(true,(class_183.var_7129 - class_146.var_6117) * class_33.var_3679);
+               class_58.var_3803.method_386(class_170.var_6731);
                break;
             case const_1209:
-               if(class_73.method_2116(class_146.var_6103) == class_58.var_3803.var_519)
+               if(class_146.var_6103 == class_58.var_3803.var_519)
                {
                   class_58.var_3803.var_519 = class_16.var_3435;
                }
                else
                {
-                  class_58.var_3803.var_519 = class_73.method_2116(class_146.var_6103);
+                  class_58.var_3803.var_519 = class_146.var_6103;
                }
                this.method_1584(class_4.var_3058);
                class_38.method_1939();
@@ -404,8 +404,8 @@ package
             }
             _loc2_ = param1 - this.var_2170;
             this.var_2170 = param1;
-            _loc3_ = _loc2_ / class_73.method_2116(class_62.var_3993);
-            if(_loc3_ > class_73.method_2108(class_121.var_5495))
+            _loc3_ = _loc2_ / class_62.var_3993;
+            if(_loc3_ > class_121.var_5495)
             {
                _loc3_ = class_121.var_5495;
             }
@@ -414,17 +414,17 @@ package
                if(!(_loc4_.var_366 || !this.var_2167[_loc4_.var_876]))
                {
                   _loc5_ = this.var_2167[_loc4_.var_876];
-                  _loc6_ = _loc5_[class_73.method_2108(class_183.var_7129)];
+                  _loc6_ = _loc5_[class_183.var_7129];
                   _loc7_ = _loc5_[class_33.var_3679];
                   _loc8_ = _loc5_[class_165.var_6534];
                   if(_loc7_ != class_183.var_7129)
                   {
-                     _loc6_.rotation += (_loc7_ == class_33.var_3679 ? class_33.var_3679 : -class_33.var_3679) * class_73.method_2108(class_121.var_5495) * _loc3_;
+                     _loc6_.rotation += (_loc7_ == class_33.var_3679 ? class_33.var_3679 : -class_33.var_3679) * class_121.var_5495 * _loc3_;
                   }
                   _loc9_ = class_114.method_2304(-class_9.var_3240 + _loc6_.rotation);
-                  _loc10_ = !!_loc8_ ? Number(this.var_2172) : Number(class_73.method_2108(class_183.var_7129));
+                  _loc10_ = !!_loc8_ ? Number(this.var_2172) : Number(class_183.var_7129);
                   _loc11_ = Math.cos(_loc9_) * _loc10_ * class_146.var_6117;
-                  _loc12_ = Math.sin(_loc9_) * _loc10_ * class_73.method_2108(class_146.var_6117);
+                  _loc12_ = Math.sin(_loc9_) * _loc10_ * class_146.var_6117;
                   _loc13_ = _loc11_ - _loc4_.var_925.var_756.var_304;
                   _loc14_ = _loc12_ - _loc4_.var_925.var_756.var_305;
                   _loc4_.var_925.var_756.var_304 += _loc13_ * class_16.var_3463 * _loc3_;
@@ -443,12 +443,12 @@ package
             {
                if(this.var_715)
                {
-                  this.var_716.var_756.method_105(class_73.method_2116(class_146.var_6103),this.var_716.var_756.var_305);
+                  this.var_716.var_756.method_105(class_146.var_6103,this.var_716.var_756.var_305);
                }
                else
                {
-                  class_73.method_2115(this.var_716.method_556)(new class_167(class_562.const_1210.x / class_165.method_2587(),this.var_716.var_742.position.var_305),this.var_716.method_559());
-                  this.var_716.var_756.method_105(class_73.method_2116(class_146.var_6103),this.var_716.var_756.var_305);
+                  this.var_716.method_556(new class_167(class_562.const_1210.x / class_165.method_2587(),this.var_716.var_742.position.var_305),this.var_716.method_559());
+                  this.var_716.var_756.method_105(class_146.var_6103,this.var_716.var_756.var_305);
                }
             }
          }
@@ -478,7 +478,7 @@ package
             this.var_2167 = new Dictionary();
             this.var_2168 = null;
             this.var_2169 = class_183.var_7129;
-            this.var_2171 = class_73.method_2108(class_183.var_7129);
+            this.var_2171 = class_183.var_7129;
             this.var_2172 = class_183.var_7129;
             this.var_2176 = class_99.var_4682;
          }

@@ -16,9 +16,9 @@ package
       {
          super();
          this.var_2512 = param3;
-         if(class_73.method_2108(class_183.var_7129) > param1)
+         if(class_183.var_7129 > param1)
          {
-            param1 = class_73.method_2108(class_183.var_7129);
+            param1 = class_183.var_7129;
          }
          else if(param1 > class_301.name_38)
          {
@@ -32,8 +32,8 @@ package
          {
             param2 = class_301.name_58;
          }
-         this.var_304 = int(Math.round(param1 / class_73.method_2108(class_165.var_6534)) * class_73.method_2108(class_165.var_6534));
-         this.var_305 = int(Math.round(param2 / class_73.method_2108(class_165.var_6534)) * class_73.method_2108(class_165.var_6534));
+         this.var_304 = int(Math.round(param1 / class_165.var_6534) * class_165.var_6534);
+         this.var_305 = int(Math.round(param2 / class_165.var_6534) * class_165.var_6534);
       }
    }
 }

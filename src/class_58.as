@@ -260,11 +260,11 @@ package
          this.var_514 = new Vector.<class_270>();
          this.var_515 = new Vector.<class_308>();
          this.var_516 = new Array();
-         this.var_519 = class_73.method_2108(class_121.var_5495);
+         this.var_519 = class_121.var_5495;
          this.var_520 = class_183.var_7129;
-         this.var_521 = class_73.method_2108(class_183.var_7129);
-         this.var_522 = class_73.method_2108(class_183.var_7129);
-         this.var_525 = class_73.method_2108(class_183.var_7129);
+         this.var_521 = class_183.var_7129;
+         this.var_522 = class_183.var_7129;
+         this.var_525 = class_183.var_7129;
          this.var_550 = new Sprite();
          this.var_551 = new Dictionary();
          this.var_444 = new Dictionary();
@@ -302,7 +302,7 @@ package
          {
             this.var_522 = -class_58.var_426 + class_107.var_5074;
          }
-         this.var_519 = class_73.method_2108(class_121.var_5495);
+         this.var_519 = class_121.var_5495;
          this.var_537 = class_99.var_4682;
          this.var_538 = new Array();
          mouseEnabled = class_99.var_4682;
@@ -332,26 +332,26 @@ package
          addChild(this.var_540);
          addChild(this.var_543);
          this.var_548 = new class_276(this);
-         if(this.var_506.var_426 > class_73.method_2108(class_107.var_5074) || this.var_506.var_420 > class_89.var_4432)
+         if(this.var_506.var_426 > class_107.var_5074 || this.var_506.var_420 > class_89.var_4432)
          {
             this.var_539.graphics.beginFill(class_1.var_2878.var_180.var_1061);
-            this.var_539.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),this.var_506.var_426,this.var_506.var_420);
+            this.var_539.graphics.drawRect(class_183.var_7129,class_183.var_7129,this.var_506.var_426,this.var_506.var_420);
             this.var_539.graphics.endFill();
          }
          var _loc5_:class_97 = new class_97();
-         _loc5_.var_632.method_105(-class_73.method_2108(class_102.var_4859),-class_102.var_4859);
-         _loc5_.var_633.method_105(class_58.var_426 / class_181.var_6937 + class_102.var_4859,class_58.var_420 / class_73.method_2116(class_181.var_6937) + class_73.method_2108(class_4.var_3042));
-         if(class_91.var_4457 > class_73.method_2108(class_170.var_6717))
+         _loc5_.var_632.method_105(-class_102.var_4859,-class_102.var_4859);
+         _loc5_.var_633.method_105(class_58.var_426 / class_181.var_6937 + class_102.var_4859,class_58.var_420 / class_181.var_6937 + class_4.var_3042);
+         if(class_91.var_4457 > class_170.var_6717)
          {
-            class_327.var_7233 = class_73.method_2108(class_62.var_4010);
+            class_327.var_7233 = class_62.var_4010;
          }
          else if(class_91.var_4457 > class_9.var_3243)
          {
             class_327.var_7233 = class_124.var_5533;
          }
-         else if(class_73.method_2108(class_102.var_4859) < class_91.var_4457)
+         else if(class_102.var_4859 < class_91.var_4457)
          {
-            class_327.var_7233 = class_73.method_2108(class_89.var_4292);
+            class_327.var_7233 = class_89.var_4292;
          }
          else
          {
@@ -360,21 +360,21 @@ package
          class_327.var_7234 = class_327.var_7233 * class_170.var_6731;
          this.var_504 = new class_333(_loc5_,new class_167(param1.var_475.var_956,param1.var_477.var_956 + Math.random() * class_4.method_1827()),true);
          this.var_504.method_1152(new class_343());
-         class_68.var_4223 = class_73.method_2108(class_4.var_3058) * this.var_504.var_1573.var_305;
+         class_68.var_4223 = class_4.var_3058 * this.var_504.var_1573.var_305;
          class_68.var_4238 = class_99.var_4681;
          var _loc6_:class_118 = new class_118(true);
-         _loc6_.position.method_105(class_73.method_2108(class_183.var_7129),class_183.var_7129);
+         _loc6_.position.method_105(class_183.var_7129,class_183.var_7129);
          _loc6_.userData = this.var_541;
          this.var_505 = this.var_504.method_1168(_loc6_);
          param1.var_475.method_733(this.var_504.var_1573.var_304);
          param1.var_477.method_733(this.var_504.var_1573.var_305);
-         if(param2 == class_74.const_428 && class_1.var_2884.var_53[class_121.var_5344][class_165.var_6387][class_121.var_5343][class_73.method_2111(class_183.var_6989)] || class_58.var_3802)
+         if(param2 == class_74.const_428 && class_1.var_2884.var_53[class_121.var_5344][class_165.var_6387][class_121.var_5343][class_183.var_6989] || class_58.var_3802)
          {
             this.var_547 = new Sprite();
             this.var_547.mouseEnabled = class_99.var_4682;
             this.var_547.mouseChildren = class_99.var_4682;
             addChild(this.var_547);
-            if(!(param2 == class_74.const_428 && class_1.var_2884.var_53[class_73.method_2111(class_121.var_5344)][class_73.method_2111(class_165.var_6387)][class_121.var_5343][class_183.var_6989]))
+            if(!(param2 == class_74.const_428 && class_1.var_2884.var_53[class_121.var_5344][class_165.var_6387][class_121.var_5343][class_183.var_6989]))
             {
                if(class_340.var_7255)
                {
@@ -383,17 +383,17 @@ package
             }
             _loc20_ = new class_332();
             _loc20_.var_1556 = this.var_547;
-            _loc20_.var_1557 = class_73.method_2108(class_162.var_6351);
+            _loc20_.var_1557 = class_162.var_6351;
             _loc20_.var_1559 = class_33.var_3679;
             _loc20_.var_1560 = class_92.var_4648;
             _loc20_.var_1558 = class_33.var_3679;
             _loc20_.var_1555 = class_332.var_7235 | class_332.var_7236 | class_332.var_7237 | class_332.var_7239 | class_332.var_7240 | class_332.var_7241 | class_332.var_7242;
             this.var_504.method_1158(_loc20_);
          }
-         this.var_539.addChild(class_1.var_2884.var_50[class_73.method_2111(class_16.var_3451)]);
+         this.var_539.addChild(class_1.var_2884.var_50[class_16.var_3451]);
          var _loc7_:Vector.<MovieClip> = new Vector.<MovieClip>();
          var _loc9_:int = this.var_506.var_462.length;
-         var _loc10_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc10_:int = -class_33.var_3679;
          while(++_loc10_ < _loc9_)
          {
             _loc21_ = this.var_506.var_462[_loc10_];
@@ -401,7 +401,7 @@ package
             {
                if(this.var_506.var_472)
                {
-                  _loc8_ = class_175.method_118((!!param1.var_449 ? class_73.method_2111(class_62.var_4009) : class_89.var_4407) + this.var_506.var_464,true);
+                  _loc8_ = class_175.method_118((!!param1.var_449 ? class_62.var_4009 : class_89.var_4407) + this.var_506.var_464,true);
                   this.var_511.push(_loc8_);
                }
                else
@@ -425,17 +425,17 @@ package
                }
                if(_loc21_.var_1517)
                {
-                  _loc8_.name_95 = class_73.method_2108(class_33.var_3679);
-                  _loc8_.filters = new Array(new GlowFilter(10019563,class_73.method_2108(class_33.var_3679),class_117.var_5287,class_117.var_5287,class_73.method_2108(class_146.var_6118),class_146.var_6118));
+                  _loc8_.name_95 = class_33.var_3679;
+                  _loc8_.filters = new Array(new GlowFilter(10019563,class_33.var_3679,class_117.var_5287,class_117.var_5287,class_146.var_6118,class_146.var_6118));
                }
                else if(_loc21_.var_1518)
                {
                   _loc8_.name_95 = class_165.var_6534;
-                  _loc8_.filters = new Array(new GlowFilter(16691708,class_33.var_3679,class_73.method_2108(class_117.var_5287),class_117.var_5287,class_73.method_2108(class_146.var_6118),class_73.method_2108(class_146.var_6118)));
+                  _loc8_.filters = new Array(new GlowFilter(16691708,class_33.var_3679,class_117.var_5287,class_117.var_5287,class_146.var_6118,class_146.var_6118));
                }
                else
                {
-                  _loc8_.name_95 = class_73.method_2108(class_183.var_7129);
+                  _loc8_.name_95 = class_183.var_7129;
                }
             }
             else if(class_313.const_161 == _loc21_.var_574)
@@ -446,7 +446,7 @@ package
                }
                else
                {
-                  _loc8_ = class_175.method_118((!!param1.var_449 ? class_73.method_2111(class_62.var_4009) : class_89.var_4407) + this.var_506.var_464,true);
+                  _loc8_ = class_175.method_118((!!param1.var_449 ? class_62.var_4009 : class_89.var_4407) + this.var_506.var_464,true);
                   this.var_511.push(_loc8_);
                }
                _loc8_.cacheAsBitmap = class_99.var_4681;
@@ -472,7 +472,7 @@ package
             }
          }
          var _loc11_:int = this.var_506.var_444.length;
-         var _loc12_:int = class_73.method_2108(class_183.var_7129);
+         var _loc12_:int = class_183.var_7129;
          while(_loc12_ < _loc11_)
          {
             _loc22_ = this.var_506.var_444[_loc12_];
@@ -504,9 +504,9 @@ package
             this.var_551[_loc25_.name] = _loc25_;
             _loc16_++;
          }
-         if(this.var_506.var_478 != -class_73.method_2108(class_33.var_3679))
+         if(this.var_506.var_478 != -class_33.var_3679)
          {
-            if(this.var_506.var_478 == -class_73.method_2108(class_165.var_6534))
+            if(this.var_506.var_478 == -class_165.var_6534)
             {
                this.method_386(class_58.const_349[int(class_114.method_2314(class_1.var_2884.var_2 * class_111.var_5098.length + class_1.var_2884.var_11 * param2) * class_58.const_349.length)]);
             }
@@ -543,31 +543,31 @@ package
             {
                this.method_377(_loc27_,true,_loc26_);
             }
-            this.var_541.addChildAt(_loc26_,class_73.method_2108(class_183.var_7129));
+            this.var_541.addChildAt(_loc26_,class_183.var_7129);
          }
          if(this.var_506.var_481)
          {
             this.var_521 = this.var_506.var_479;
             _loc31_ = this.var_506.var_469.length;
-            _loc32_ = -class_73.method_2108(class_33.var_3679);
+            _loc32_ = -class_33.var_3679;
             while(++_loc32_ < _loc31_)
             {
                _loc33_ = this.var_506.var_469[_loc32_];
                this.method_373(_loc33_,false);
             }
          }
-         var _loc18_:int = class_58.var_426 + class_73.method_2108(class_60.var_3979);
+         var _loc18_:int = class_58.var_426 + class_60.var_3979;
          var _loc19_:class_348 = new class_348();
          _loc19_.var_414 = class_183.var_7129;
-         _loc19_.method_1199(class_73.method_2108(class_89.var_4432) / class_73.method_2108(class_162.var_6351),(class_58.var_420 + class_121.var_5493) / class_73.method_2108(class_162.var_6351),_loc18_ / class_89.var_4436,class_33.var_3675 / class_89.var_4436);
+         _loc19_.method_1199(class_89.var_4432 / class_162.var_6351,(class_58.var_420 + class_121.var_5493) / class_162.var_6351,_loc18_ / class_89.var_4436,class_33.var_3675 / class_89.var_4436);
          class_47.method_1951(_loc19_.var_417,class_47.const_240);
          this.var_505.method_549(_loc19_);
          _loc19_ = new class_348();
-         _loc19_.method_1199((class_73.method_2108(class_89.var_4432) - _loc18_ / class_73.method_2108(class_165.var_6534)) / class_162.var_6351,(class_121.var_5493 + class_58.var_420) / class_73.method_2108(class_162.var_6351),class_33.var_3675 / class_73.method_2108(class_89.var_4436),class_121.var_5493 / class_73.method_2108(class_89.var_4436));
+         _loc19_.method_1199((class_89.var_4432 - _loc18_ / class_165.var_6534) / class_162.var_6351,(class_121.var_5493 + class_58.var_420) / class_162.var_6351,class_33.var_3675 / class_89.var_4436,class_121.var_5493 / class_89.var_4436);
          class_47.method_1951(_loc19_.var_417,class_47.const_240);
          this.var_505.method_549(_loc19_);
          _loc19_ = new class_348();
-         _loc19_.method_1199((class_73.method_2108(class_89.var_4432) + _loc18_ / class_73.method_2108(class_165.var_6534)) / class_162.var_6351,(class_58.var_420 + class_121.var_5493) / class_162.var_6351,class_33.var_3675 / class_73.method_2108(class_89.var_4436),class_73.method_2108(class_121.var_5493) / class_89.var_4436);
+         _loc19_.method_1199((class_89.var_4432 + _loc18_ / class_165.var_6534) / class_162.var_6351,(class_58.var_420 + class_121.var_5493) / class_162.var_6351,class_33.var_3675 / class_89.var_4436,class_121.var_5493 / class_89.var_4436);
          class_47.method_1951(_loc19_.var_417,class_47.const_240);
          this.var_505.method_549(_loc19_);
          this.var_505.method_533();
@@ -588,7 +588,7 @@ package
          if(this.var_506.var_429)
          {
             _loc31_ = this.var_506.var_429.length;
-            _loc32_ = -class_73.method_2108(class_33.var_3679);
+            _loc32_ = -class_33.var_3679;
             while(++_loc32_ < _loc31_)
             {
                _loc34_ = this.var_506.var_429[_loc32_];
@@ -598,17 +598,17 @@ package
          if(this.var_506.var_425)
          {
             _loc31_ = this.var_506.var_425.length;
-            _loc32_ = -class_73.method_2108(class_33.var_3679);
+            _loc32_ = -class_33.var_3679;
             while(++_loc32_ < _loc31_)
             {
-               this.var_543.addChildAt(this.var_506.var_425[_loc32_].var_1478,class_73.method_2108(class_183.var_7129));
+               this.var_543.addChildAt(this.var_506.var_425[_loc32_].var_1478,class_183.var_7129);
             }
          }
          if(class_96.const_483 && this.var_506.var_455 == class_146.var_5977)
          {
             this.method_370();
          }
-         _loc32_ = -class_73.method_2108(class_33.var_3679);
+         _loc32_ = -class_33.var_3679;
          _loc31_ = _loc7_.length;
          while(++_loc32_ < _loc31_)
          {
@@ -661,46 +661,46 @@ package
       public static function name_9() : void
       {
          var _loc2_:Sprite = null;
-         class_58.const_352[class_73.method_2108(class_183.var_7129)] = class_329.const_823;
-         class_58.const_352[class_73.method_2108(class_33.var_3679)] = class_329.const_824;
-         class_58.const_355[class_73.method_2108(class_183.var_7129)] = class_329.const_825;
+         class_58.const_352[class_183.var_7129] = class_329.const_823;
+         class_58.const_352[class_33.var_3679] = class_329.const_824;
+         class_58.const_355[class_183.var_7129] = class_329.const_825;
          class_58.const_355[class_33.var_3679] = class_329.const_826;
          class_58.const_356[class_183.var_7129] = class_329.const_831;
          class_58.const_356[class_33.var_3679] = class_329.const_832;
-         class_58.const_357[class_73.method_2108(class_183.var_7129)] = class_329.const_837;
-         class_58.const_357[class_73.method_2108(class_33.var_3679)] = class_329.const_838;
-         class_58.const_358[class_73.method_2108(class_183.var_7129)] = class_329.const_856;
+         class_58.const_357[class_183.var_7129] = class_329.const_837;
+         class_58.const_357[class_33.var_3679] = class_329.const_838;
+         class_58.const_358[class_183.var_7129] = class_329.const_856;
          class_58.const_358[class_33.var_3679] = class_329.const_857;
          class_58.const_353[class_183.var_7129] = class_329.const_848;
-         class_58.const_353[class_73.method_2108(class_33.var_3679)] = class_329.const_849;
+         class_58.const_353[class_33.var_3679] = class_329.const_849;
          class_58.const_354[class_183.var_7129] = class_329.const_851;
          class_58.const_359[class_183.var_7129] = class_329.const_819;
          class_58.const_359[class_33.var_3679] = class_329.const_843;
-         class_58.const_360[class_73.method_2108(class_183.var_7129)] = class_329.const_820;
+         class_58.const_360[class_183.var_7129] = class_329.const_820;
          class_58.const_360[class_33.var_3679] = class_329.const_821;
-         class_58.const_360[class_73.method_2108(class_165.var_6534)] = class_329.const_822;
+         class_58.const_360[class_165.var_6534] = class_329.const_822;
          class_58.const_361[class_183.var_7129] = class_329.const_844;
          class_58.const_361[class_33.var_3679] = class_329.const_845;
          class_58.const_362[class_183.var_7129] = class_329.const_846;
          class_58.const_362[class_33.var_3679] = class_329.const_847;
-         class_58.const_363[class_73.method_2108(class_183.var_7129)] = class_329.const_859;
-         class_58.const_364[class_73.method_2108(class_183.var_7129)] = class_329.const_862;
-         class_58.const_364[class_73.method_2108(class_33.var_3679)] = class_329.const_863;
-         class_58.const_365[class_73.method_2108(class_183.var_7129)] = class_329.const_860;
+         class_58.const_363[class_183.var_7129] = class_329.const_859;
+         class_58.const_364[class_183.var_7129] = class_329.const_862;
+         class_58.const_364[class_33.var_3679] = class_329.const_863;
+         class_58.const_365[class_183.var_7129] = class_329.const_860;
          class_58.const_365[class_33.var_3679] = class_329.const_860;
-         class_58.const_351[class_73.method_2108(class_16.var_3473)] = class_73.method_2111(class_107.var_4906);
-         class_58.const_351[class_73.method_2108(class_165.var_6491)] = class_107.var_4906;
+         class_58.const_351[class_16.var_3473] = class_107.var_4906;
+         class_58.const_351[class_165.var_6491] = class_107.var_4906;
          class_58.const_351[class_9.var_3240] = class_107.var_4906;
-         class_58.const_351[class_73.method_2108(class_16.var_3467)] = class_162.var_6344;
-         class_58.const_351[class_73.method_2108(class_170.var_6730)] = class_73.method_2111(class_162.var_6344);
-         class_58.const_351[class_183.var_7127] = class_73.method_2111(class_162.var_6344);
-         class_58.const_351[class_73.method_2108(class_121.var_5461)] = class_162.var_6344;
-         class_58.const_351[class_117.var_5244] = class_73.method_2111(class_162.var_6344);
-         class_58.const_351[class_102.var_4824] = class_73.method_2111(class_162.var_6344);
-         var _loc1_:int = class_73.method_2108(class_183.var_7129);
+         class_58.const_351[class_16.var_3467] = class_162.var_6344;
+         class_58.const_351[class_170.var_6730] = class_162.var_6344;
+         class_58.const_351[class_183.var_7127] = class_162.var_6344;
+         class_58.const_351[class_121.var_5461] = class_162.var_6344;
+         class_58.const_351[class_117.var_5244] = class_162.var_6344;
+         class_58.const_351[class_102.var_4824] = class_162.var_6344;
+         var _loc1_:int = class_183.var_7129;
          while(true)
          {
-            _loc2_ = class_175.method_118(class_73.method_2111(class_89.var_4303) + _loc1_);
+            _loc2_ = class_175.method_118(class_89.var_4303 + _loc1_);
             if(_loc2_ == null)
             {
                break;
@@ -708,24 +708,24 @@ package
             class_58.const_366.push(_loc2_);
             _loc1_++;
          }
-         class_58.const_367.push(class_175.method_118(class_73.method_2111(class_92.var_4617)));
+         class_58.const_367.push(class_175.method_118(class_92.var_4617));
          class_58.const_367.push(class_175.method_118(class_4.var_3041));
          class_58.const_367.push(class_175.method_118(class_181.var_6809));
-         class_58.const_367.push(class_175.method_118(class_73.method_2111(class_16.var_3314)));
-         class_58.const_367.push(class_175.method_118(class_73.method_2111(class_62.var_4011)));
-         class_58.var_3805.push(class_73.method_2111(class_181.var_6952),class_58.const_366,class_73.method_2111(class_124.var_5666),class_58.const_367,class_73.method_2111(class_4.var_2927),class_58.const_367.slice());
-         class_1.var_2884.addEventListener(class_73.method_2111(class_124.var_5632),class_58.method_1986);
+         class_58.const_367.push(class_175.method_118(class_16.var_3314));
+         class_58.const_367.push(class_175.method_118(class_62.var_4011));
+         class_58.var_3805.push(class_181.var_6952,class_58.const_366,class_124.var_5666,class_58.const_367,class_4.var_2927,class_58.const_367.slice());
+         class_1.var_2884.addEventListener(class_124.var_5632,class_58.method_1986);
       }
       
       public static function method_1979(param1:BitmapData, param2:Vector.<class_329>, param3:int) : BitmapData
       {
          var _loc6_:BitmapData = null;
          var _loc4_:int = param2.length;
-         var _loc5_:int = class_73.method_2108(class_183.var_7129);
+         var _loc5_:int = class_183.var_7129;
          while(_loc5_ < param3)
          {
             _loc6_ = class_58.const_368[param2[int(Math.random() * _loc4_)].var_574].var_159;
-            param1.copyPixels(_loc6_,class_58.const_348,new Point(_loc5_ * class_73.method_2108(class_102.var_4859),class_73.method_2108(class_183.var_7129)),null,null,true);
+            param1.copyPixels(_loc6_,class_58.const_348,new Point(_loc5_ * class_102.var_4859,class_183.var_7129),null,null,true);
             _loc5_++;
          }
          return param1;
@@ -744,7 +744,7 @@ package
             return;
          }
          var _loc3_:int = param2.numChildren;
-         var _loc4_:int = class_73.method_2108(class_183.var_7129);
+         var _loc4_:int = class_183.var_7129;
          while(_loc4_ < _loc3_)
          {
             _loc5_ = param2.getChildAt(_loc4_);
@@ -752,14 +752,14 @@ package
             {
                class_58.method_1980(param1,_loc5_ as MovieClip);
             }
-            else if(_loc5_.name.indexOf(class_73.method_2111(class_181.var_6835)) == class_183.var_7129 && _loc5_.name.length > class_92.var_4647)
+            else if(_loc5_.name.indexOf(class_181.var_6835) == class_183.var_7129 && _loc5_.name.length > class_92.var_4647)
             {
                _loc6_ = int(_loc5_.name.charAt(class_92.var_4647));
-               _loc7_ = int(class_73.method_2111(class_181.var_6914) + param1[_loc6_]);
-               _loc8_ = _loc7_ >> class_73.method_2108(class_16.var_3467) & 255;
+               _loc7_ = int(class_181.var_6914 + param1[_loc6_]);
+               _loc8_ = _loc7_ >> class_16.var_3467 & 255;
                _loc9_ = _loc7_ >> class_170.var_6731 & 255;
                _loc10_ = _loc7_ & 255;
-               _loc5_.transform.colorTransform = new ColorTransform(_loc8_ / class_73.method_2108(class_181.var_6910),_loc9_ / class_73.method_2108(class_181.var_6910),_loc10_ / class_73.method_2108(class_181.var_6910));
+               _loc5_.transform.colorTransform = new ColorTransform(_loc8_ / class_181.var_6910,_loc9_ / class_181.var_6910,_loc10_ / class_181.var_6910);
             }
             _loc4_++;
          }
@@ -770,24 +770,24 @@ package
          var _loc15_:BitmapData = null;
          var _loc16_:int = 0;
          var _loc9_:int = param2.length;
-         var _loc10_:int = param3 - class_73.method_2108(class_33.var_3679);
+         var _loc10_:int = param3 - class_33.var_3679;
          var _loc11_:int = class_33.var_3679;
          while(_loc11_ < _loc10_)
          {
             _loc15_ = class_58.const_368[param2[int(Math.random() * _loc9_)].var_574].var_159;
-            param1.copyPixels(_loc15_,class_58.const_348,new Point(_loc11_ * class_73.method_2108(class_102.var_4859),class_73.method_2108(class_183.var_7129)),null,null,true);
+            param1.copyPixels(_loc15_,class_58.const_348,new Point(_loc11_ * class_102.var_4859,class_183.var_7129),null,null,true);
             _loc11_++;
          }
-         param1.copyPixels(class_58.const_368[param5.var_574].var_159,class_58.const_348,new Point(class_183.var_7129,class_73.method_2108(class_183.var_7129)),null,null,true);
+         param1.copyPixels(class_58.const_368[param5.var_574].var_159,class_58.const_348,new Point(class_183.var_7129,class_183.var_7129),null,null,true);
          param1.copyPixels(class_58.const_368[param6.var_574].var_159,class_58.const_348,new Point(_loc10_ * class_102.var_4859,class_183.var_7129),null,null,true);
          var _loc12_:class_341 = class_58.const_368[param7.var_574];
          var _loc13_:class_341 = class_58.const_368[param8.var_574];
-         var _loc14_:int = class_73.method_2108(class_33.var_3679);
+         var _loc14_:int = class_33.var_3679;
          while(_loc14_ < param4)
          {
-            _loc16_ = _loc14_ * class_73.method_2108(class_102.var_4859);
-            param1.copyPixels(_loc12_.var_159,class_58.const_348,new Point(class_73.method_2108(class_183.var_7129),_loc16_),null,null,true);
-            param1.copyPixels(_loc13_.var_159,class_58.const_348,new Point(_loc10_ * class_73.method_2108(class_102.var_4859),_loc16_),null,null,true);
+            _loc16_ = _loc14_ * class_102.var_4859;
+            param1.copyPixels(_loc12_.var_159,class_58.const_348,new Point(class_183.var_7129,_loc16_),null,null,true);
+            param1.copyPixels(_loc13_.var_159,class_58.const_348,new Point(_loc10_ * class_102.var_4859,_loc16_),null,null,true);
             _loc14_++;
          }
          return param1;
@@ -801,7 +801,7 @@ package
          var _loc10_:Sprite = null;
          var _loc11_:BitmapData = null;
          var _loc12_:Bitmap = null;
-         if(param2 > class_73.method_2108(class_146.var_5976) || param3 > class_73.method_2108(class_146.var_5976))
+         if(param2 > class_146.var_5976 || param3 > class_146.var_5976)
          {
             param4 = class_99.var_4681;
          }
@@ -815,15 +815,15 @@ package
             if(param6)
             {
                _loc7_.graphics.beginFill(3294800);
-               _loc7_.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),param2,param3);
+               _loc7_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param2,param3);
                _loc7_.graphics.endFill();
                return _loc7_;
             }
-            _loc11_ = new BitmapData(param2,param3,true,class_73.method_2108(class_183.var_7129));
-            _loc8_ = Math.ceil(param2 / class_73.method_2108(class_102.var_4859));
+            _loc11_ = new BitmapData(param2,param3,true,class_183.var_7129);
+            _loc8_ = Math.ceil(param2 / class_102.var_4859);
             _loc9_ = Math.ceil(param3 / class_102.var_4859);
             class_58.method_1985(_loc11_,class_58.const_352,_loc8_,_loc9_);
-            if(param2 % class_73.method_2108(class_102.var_4859) == class_183.var_7129)
+            if(param2 % class_102.var_4859 == class_183.var_7129)
             {
                class_58.method_1981(_loc11_,class_58.const_355,_loc8_,_loc9_,class_329.const_828,class_329.const_827,class_329.const_829,class_329.const_830);
             }
@@ -834,7 +834,7 @@ package
             _loc7_.addChild(new Bitmap(_loc11_));
             if(!param4)
             {
-               _loc10_ = class_175.method_118(class_73.method_2111(class_89.var_4293));
+               _loc10_ = class_175.method_118(class_89.var_4293);
                _loc10_.width = param2;
                _loc10_.height = param3;
                _loc10_.blendMode = BlendMode.OVERLAY;
@@ -848,15 +848,15 @@ package
             if(param6)
             {
                _loc7_.graphics.beginFill(5350167);
-               _loc7_.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_183.var_7129,param2,param3);
+               _loc7_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param2,param3);
                _loc7_.graphics.endFill();
                return _loc7_;
             }
-            _loc11_ = new BitmapData(param2,param3,true,class_73.method_2108(class_183.var_7129));
+            _loc11_ = new BitmapData(param2,param3,true,class_183.var_7129);
             _loc8_ = Math.ceil(param2 / class_102.var_4859);
             _loc9_ = Math.ceil(param3 / class_102.var_4859);
             class_58.method_1985(_loc11_,class_58.const_365,_loc8_,_loc9_);
-            if(param2 % class_73.method_2108(class_102.var_4859) == class_73.method_2108(class_183.var_7129))
+            if(param2 % class_102.var_4859 == class_183.var_7129)
             {
                class_58.method_1981(_loc11_,class_58.const_364,_loc8_,_loc9_,class_329.const_865,class_329.const_864,class_329.const_866,class_329.const_867);
             }
@@ -867,7 +867,7 @@ package
             _loc7_.addChild(new Bitmap(_loc11_));
             if(!param4)
             {
-               _loc10_ = class_175.method_118(class_73.method_2111(class_89.var_4293));
+               _loc10_ = class_175.method_118(class_89.var_4293);
                _loc10_.width = param2;
                _loc10_.height = param3;
                _loc10_.blendMode = BlendMode.OVERLAY;
@@ -881,13 +881,13 @@ package
             if(param6)
             {
                _loc7_.graphics.beginFill(3294800);
-               _loc7_.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_183.var_7129,param2,param3);
+               _loc7_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param2,param3);
                _loc7_.graphics.endFill();
                return _loc7_;
             }
             _loc11_ = new BitmapData(param2,param3,true,class_183.var_7129);
             _loc8_ = Math.ceil(param2 / class_102.var_4859);
-            _loc9_ = Math.ceil(param3 / class_73.method_2108(class_102.var_4859));
+            _loc9_ = Math.ceil(param3 / class_102.var_4859);
             class_58.method_1985(_loc11_,class_58.const_352,_loc8_,_loc9_);
             if(param2 % class_102.var_4859 == class_183.var_7129)
             {
@@ -914,7 +914,7 @@ package
             if(param6)
             {
                _loc7_.graphics.beginFill(3294800);
-               _loc7_.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),param2,param3);
+               _loc7_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param2,param3);
                _loc7_.graphics.endFill();
                return _loc7_;
             }
@@ -947,13 +947,13 @@ package
             if(param6)
             {
                _loc7_.graphics.beginFill(15200498);
-               _loc7_.graphics.drawRect(class_183.var_7129,class_73.method_2108(class_183.var_7129),param2,param3);
+               _loc7_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param2,param3);
                _loc7_.graphics.endFill();
                return _loc7_;
             }
             _loc11_ = new BitmapData(param2,param3,true,class_183.var_7129);
-            _loc8_ = Math.ceil(param2 / class_73.method_2108(class_102.var_4859));
-            _loc9_ = Math.ceil(param3 / class_73.method_2108(class_102.var_4859));
+            _loc8_ = Math.ceil(param2 / class_102.var_4859);
+            _loc9_ = Math.ceil(param3 / class_102.var_4859);
             class_58.method_1985(_loc11_,class_58.const_352,_loc8_,_loc9_);
             if(param2 % class_102.var_4859 == class_183.var_7129)
             {
@@ -966,7 +966,7 @@ package
             _loc7_.addChild(new Bitmap(_loc11_));
             if(!param4)
             {
-               _loc10_ = class_175.method_118(class_73.method_2111(class_89.var_4293));
+               _loc10_ = class_175.method_118(class_89.var_4293);
                _loc10_.width = param2;
                _loc10_.height = param3;
                _loc10_.blendMode = BlendMode.OVERLAY;
@@ -984,11 +984,11 @@ package
                _loc7_.graphics.endFill();
                return _loc7_;
             }
-            _loc11_ = new BitmapData(param2,param3,true,class_73.method_2108(class_183.var_7129));
+            _loc11_ = new BitmapData(param2,param3,true,class_183.var_7129);
             _loc8_ = Math.ceil(param2 / class_102.var_4859);
-            _loc9_ = Math.ceil(param3 / class_73.method_2108(class_102.var_4859));
+            _loc9_ = Math.ceil(param3 / class_102.var_4859);
             class_58.method_1985(_loc11_,class_58.const_353,_loc8_,_loc9_);
-            if(param2 % class_73.method_2108(class_102.var_4859) == class_183.var_7129)
+            if(param2 % class_102.var_4859 == class_183.var_7129)
             {
                class_58.method_1981(_loc11_,class_58.const_354,_loc8_,_loc9_,class_329.const_850,class_329.const_852,class_329.const_853,class_329.const_854);
             }
@@ -1013,13 +1013,13 @@ package
             {
                _loc7_ = new Sprite();
                _loc7_.graphics.beginFill(3294800);
-               _loc7_.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),param2,param3);
+               _loc7_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param2,param3);
                _loc7_.graphics.endFill();
                return _loc7_;
             }
             if(param4)
             {
-               if(param2 < class_73.method_2108(class_33.var_3675) || param3 < class_33.var_3675)
+               if(param2 < class_33.var_3675 || param3 < class_33.var_3675)
                {
                   _loc12_ = new Bitmap(class_58.const_370[class_183.var_7129]);
                }
@@ -1031,7 +1031,7 @@ package
                _loc12_.height = param3;
                return _loc12_;
             }
-            _loc7_ = class_175.method_118(class_73.method_2111(class_92.var_4617));
+            _loc7_ = class_175.method_118(class_92.var_4617);
             _loc7_.width = param2;
             _loc7_.height = param3;
             _loc7_.cacheAsBitmap = class_99.var_4681;
@@ -1043,7 +1043,7 @@ package
             {
                _loc7_ = new Sprite();
                _loc7_.graphics.beginFill(3294800);
-               _loc7_.graphics.drawRect(class_183.var_7129,class_73.method_2108(class_183.var_7129),param2,param3);
+               _loc7_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param2,param3);
                _loc7_.graphics.endFill();
                return _loc7_;
             }
@@ -1069,7 +1069,7 @@ package
             {
                _loc7_ = new Sprite();
                _loc7_.graphics.beginFill(3294800);
-               _loc7_.graphics.drawRect(class_183.var_7129,class_73.method_2108(class_183.var_7129),param2,param3);
+               _loc7_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param2,param3);
                _loc7_.graphics.endFill();
                return _loc7_;
             }
@@ -1099,15 +1099,15 @@ package
                _loc7_.graphics.endFill();
                return _loc7_;
             }
-            _loc11_ = new BitmapData(param2,param3,true,class_73.method_2108(class_183.var_7129));
-            _loc8_ = Math.ceil(param2 / class_73.method_2108(class_102.var_4859));
-            _loc9_ = Math.ceil(param3 / class_73.method_2108(class_102.var_4859));
+            _loc11_ = new BitmapData(param2,param3,true,class_183.var_7129);
+            _loc8_ = Math.ceil(param2 / class_102.var_4859);
+            _loc9_ = Math.ceil(param3 / class_102.var_4859);
             class_58.method_1985(_loc11_,class_58.const_360,_loc8_,_loc9_);
             _loc7_ = new Sprite();
             _loc7_.addChild(new Bitmap(_loc11_));
             if(!param4)
             {
-               _loc10_ = class_175.method_118(class_73.method_2111(class_89.var_4293));
+               _loc10_ = class_175.method_118(class_89.var_4293);
                _loc10_.width = param2;
                _loc10_.height = param3;
                _loc10_.blendMode = BlendMode.OVERLAY;
@@ -1121,13 +1121,13 @@ package
             {
                _loc7_ = new Sprite();
                _loc7_.graphics.beginFill(7186351,class_9.var_3254);
-               _loc7_.graphics.drawRect(class_183.var_7129,class_73.method_2108(class_183.var_7129),param2,param3);
+               _loc7_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param2,param3);
                _loc7_.graphics.endFill();
                return _loc7_;
             }
             _loc11_ = new BitmapData(param2,param3,true,class_183.var_7129);
-            _loc8_ = Math.ceil(param2 / class_73.method_2108(class_102.var_4859));
-            _loc9_ = Math.ceil(param3 / class_73.method_2108(class_102.var_4859));
+            _loc8_ = Math.ceil(param2 / class_102.var_4859);
+            _loc9_ = Math.ceil(param3 / class_102.var_4859);
             class_58.method_1985(_loc11_,class_58.const_362,_loc8_,_loc9_);
             return new Bitmap(_loc11_);
          }
@@ -1142,10 +1142,10 @@ package
                return _loc7_;
             }
             _loc11_ = new BitmapData(param2,param3,true,class_183.var_7129);
-            _loc8_ = Math.ceil(param2 / class_73.method_2108(class_102.var_4859));
-            _loc9_ = Math.ceil(param3 / class_73.method_2108(class_102.var_4859));
+            _loc8_ = Math.ceil(param2 / class_102.var_4859);
+            _loc9_ = Math.ceil(param3 / class_102.var_4859);
             class_58.method_1979(_loc11_,class_58.const_363,_loc8_);
-            class_58.method_1985(_loc11_,class_58.const_363,_loc8_,_loc9_,class_183.var_7129,class_73.method_2108(class_33.var_3679));
+            class_58.method_1985(_loc11_,class_58.const_363,_loc8_,_loc9_,class_183.var_7129,class_33.var_3679);
             return new Bitmap(_loc11_);
          }
          if(param1 == class_312.const_193)
@@ -1154,13 +1154,13 @@ package
             {
                _loc7_ = new Sprite();
                _loc7_.graphics.beginFill(13492706,class_92.var_4648);
-               _loc7_.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_183.var_7129,param2,param3);
+               _loc7_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param2,param3);
                _loc7_.graphics.endFill();
                return _loc7_;
             }
             if(param2 < class_33.var_3675 || param3 < class_33.var_3675)
             {
-               _loc12_ = new Bitmap(class_58.const_370[class_73.method_2108(class_165.var_6534)]);
+               _loc12_ = new Bitmap(class_58.const_370[class_165.var_6534]);
             }
             else
             {
@@ -1176,7 +1176,7 @@ package
             {
                _loc7_ = new Sprite();
                _loc7_.graphics.beginFill(7163540);
-               _loc7_.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),param2,param3);
+               _loc7_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param2,param3);
                _loc7_.graphics.endFill();
                return _loc7_;
             }
@@ -1188,13 +1188,13 @@ package
                }
                else
                {
-                  _loc12_ = new Bitmap(class_58.const_369[class_73.method_2108(class_146.var_6118)]);
+                  _loc12_ = new Bitmap(class_58.const_369[class_146.var_6118]);
                }
                _loc12_.width = param2;
                _loc12_.height = param3;
                return _loc12_;
             }
-            _loc7_ = class_175.method_118(class_73.method_2111(class_16.var_3314));
+            _loc7_ = class_175.method_118(class_16.var_3314);
             _loc7_.width = param2;
             _loc7_.height = param3;
             _loc7_.cacheAsBitmap = class_99.var_4681;
@@ -1212,19 +1212,19 @@ package
             }
             if(param4)
             {
-               if(param2 < class_73.method_2108(class_33.var_3675) || param3 < class_73.method_2108(class_33.var_3675))
+               if(param2 < class_33.var_3675 || param3 < class_33.var_3675)
                {
-                  _loc12_ = new Bitmap(class_58.const_370[class_73.method_2108(class_33.var_3679)]);
+                  _loc12_ = new Bitmap(class_58.const_370[class_33.var_3679]);
                }
                else
                {
-                  _loc12_ = new Bitmap(class_58.const_369[class_73.method_2108(class_33.var_3679)]);
+                  _loc12_ = new Bitmap(class_58.const_369[class_33.var_3679]);
                }
                _loc12_.width = param2;
                _loc12_.height = param3;
                return _loc12_;
             }
-            _loc7_ = class_175.method_118(class_73.method_2111(class_4.var_3041));
+            _loc7_ = class_175.method_118(class_4.var_3041);
             _loc7_.width = param2;
             _loc7_.height = param3;
             _loc7_.cacheAsBitmap = class_99.var_4681;
@@ -1236,15 +1236,15 @@ package
             {
                _loc7_ = new Sprite();
                _loc7_.graphics.beginFill(3021068);
-               _loc7_.graphics.drawRect(class_183.var_7129,class_73.method_2108(class_183.var_7129),param2,param3);
+               _loc7_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param2,param3);
                _loc7_.graphics.endFill();
                return _loc7_;
             }
             if(param4)
             {
-               if(param2 < class_73.method_2108(class_33.var_3675) || param3 < class_73.method_2108(class_33.var_3675))
+               if(param2 < class_33.var_3675 || param3 < class_33.var_3675)
                {
-                  _loc12_ = new Bitmap(class_58.const_370[class_73.method_2108(class_121.var_5495)],PixelSnapping.AUTO,true);
+                  _loc12_ = new Bitmap(class_58.const_370[class_121.var_5495],PixelSnapping.AUTO,true);
                }
                else
                {
@@ -1254,7 +1254,7 @@ package
                _loc12_.height = param3;
                return _loc12_;
             }
-            _loc7_ = class_175.method_118(class_73.method_2111(class_62.var_4011));
+            _loc7_ = class_175.method_118(class_62.var_4011);
             _loc7_.width = param2;
             _loc7_.height = param3;
             _loc7_.cacheAsBitmap = class_99.var_4681;
@@ -1271,7 +1271,7 @@ package
          if(class_312.const_790 == param1)
          {
             _loc7_ = new Sprite();
-            _loc7_.graphics.beginFill(class_183.var_7129,class_73.method_2108(class_183.var_7129));
+            _loc7_.graphics.beginFill(class_183.var_7129,class_183.var_7129);
             _loc7_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param2,param3);
             _loc7_.graphics.endFill();
             return _loc7_;
@@ -1280,7 +1280,7 @@ package
          {
             _loc7_ = new Sprite();
             _loc7_.graphics.beginFill(param5);
-            _loc7_.graphics.drawCircle(class_73.method_2108(class_183.var_7129),class_183.var_7129,param2);
+            _loc7_.graphics.drawCircle(class_183.var_7129,class_183.var_7129,param2);
             _loc7_.graphics.endFill();
             return _loc7_;
          }
@@ -1294,15 +1294,15 @@ package
       {
          var _loc5_:int = 0;
          var _loc6_:int = 0;
-         var _loc1_:Vector.<int> = class_73.method_2113(class_73.method_2113(class_58.var_3803)).var_506.var_458;
+         var _loc1_:Vector.<int> = class_58.var_3803.var_506.var_458;
          var _loc2_:int = class_9.method_1854();
          var _loc3_:int = _loc1_.length;
-         var _loc4_:int = class_73.method_2108(class_183.var_7129);
+         var _loc4_:int = class_183.var_7129;
          while(_loc4_ < _loc3_)
          {
-            _loc5_ = class_73.method_2114(class_168.var_6539).var_925.var_742.position.var_305 * class_165.method_2587() - _loc1_[_loc4_ + class_4.method_1841()];
+            _loc5_ = class_168.var_6539.var_925.var_742.position.var_305 * class_165.method_2587() - _loc1_[_loc4_ + class_4.method_1841()];
             _loc6_ = class_168.var_6539.var_925.var_742.position.var_304 * class_165.method_2587() - _loc1_[_loc4_ + class_60.method_2002()];
-            if(_loc4_ == class_73.method_2108(class_183.var_7129))
+            if(_loc4_ == class_183.var_7129)
             {
                _loc2_ = Math.sqrt(_loc6_ * _loc6_ + _loc5_ * _loc5_);
             }
@@ -1310,7 +1310,7 @@ package
             {
                _loc2_ = Math.sqrt(_loc5_ * _loc5_ + _loc6_ * _loc6_);
             }
-            _loc4_ += class_73.method_2108(class_146.var_6118);
+            _loc4_ += class_146.var_6118;
          }
          return class_114.method_2318((class_121.method_2361() + _loc2_) * class_60.method_2002(),class_68.var_4225 * class_60.method_2002());
       }
@@ -1321,7 +1321,7 @@ package
          var _loc5_:int = 0;
          var _loc1_:int = class_9.method_1854();
          var _loc2_:int = class_58.var_3803.var_506.var_476.length;
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < _loc2_)
          {
             _loc4_ = class_1.var_2884.var_13.var_925.var_742.position.var_304 * class_165.method_2587() - (class_58.var_3803.var_506.var_476[_loc3_] ^ class_4.method_1828() * class_60.method_2002());
@@ -1351,7 +1351,7 @@ package
             while(_loc9_ < param4)
             {
                _loc10_ = class_58.const_368[param2[int(Math.random() * _loc7_)].var_574].var_159;
-               param1.copyPixels(_loc10_,class_58.const_348,new Point(_loc8_ * class_73.method_2108(class_102.var_4859),_loc9_ * class_73.method_2108(class_102.var_4859)),null,null,true);
+               param1.copyPixels(_loc10_,class_58.const_348,new Point(_loc8_ * class_102.var_4859,_loc9_ * class_102.var_4859),null,null,true);
                _loc9_++;
             }
             _loc8_++;
@@ -1367,7 +1367,7 @@ package
          {
             if(class_58.var_3805.length == class_183.var_7129)
             {
-               class_1.var_2884.stage.removeEventListener(class_73.method_2111(class_124.var_5632),class_58.method_1986);
+               class_1.var_2884.stage.removeEventListener(class_124.var_5632,class_58.method_1986);
                return;
             }
             class_58.var_3807 = class_58.var_3805.shift();
@@ -1380,16 +1380,16 @@ package
             return;
          }
          var _loc4_:Sprite = class_58.var_3806.shift();
-         if(class_58.var_3807 == class_73.method_2111(class_181.var_6952))
+         if(class_58.var_3807 == class_181.var_6952)
          {
-            class_58.const_368[class_58.var_3807 + class_58.var_2013] = new class_341(_loc4_,class_73.method_2108(class_102.var_4859),class_73.method_2108(class_102.var_4859));
+            class_58.const_368[class_58.var_3807 + class_58.var_2013] = new class_341(_loc4_,class_102.var_4859,class_102.var_4859);
          }
          else if(class_58.var_3807 == class_124.var_5666)
          {
-            _loc2_ = new BitmapData(class_89.var_4432,class_73.method_2108(class_89.var_4432),true,class_183.var_7129);
-            _loc4_.x = _loc4_.y = class_73.method_2108(class_165.var_6534);
+            _loc2_ = new BitmapData(class_89.var_4432,class_89.var_4432,true,class_183.var_7129);
+            _loc4_.x = _loc4_.y = class_165.var_6534;
             _loc4_.width = class_107.var_4905;
-            _loc4_.height = class_73.method_2108(class_107.var_4905);
+            _loc4_.height = class_107.var_4905;
             _loc3_ = new Sprite();
             _loc3_.addChild(_loc4_);
             _loc2_.draw(_loc3_);
@@ -1397,9 +1397,9 @@ package
          }
          else if(class_58.var_3807 == class_4.var_2927)
          {
-            _loc2_ = new BitmapData(class_121.var_5493,class_73.method_2108(class_121.var_5493),true,class_73.method_2108(class_183.var_7129));
+            _loc2_ = new BitmapData(class_121.var_5493,class_121.var_5493,true,class_183.var_7129);
             _loc4_.width = class_121.var_5493;
-            _loc4_.height = class_73.method_2108(class_121.var_5493);
+            _loc4_.height = class_121.var_5493;
             _loc3_ = new Sprite();
             _loc3_.addChild(_loc4_);
             _loc2_.draw(_loc3_);
@@ -1420,7 +1420,7 @@ package
          _loc2_.mouseEnabled = class_99.var_4682;
          _loc2_.mouseChildren = class_99.var_4682;
          _loc2_.removeEventListener(MouseEvent.CLICK,class_58.method_1987);
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < class_58.var_3803.var_515.length)
          {
             if(class_58.var_3803.var_515[_loc3_].var_1479 == _loc2_)
@@ -1436,7 +1436,7 @@ package
       {
          var _loc2_:class_123 = null;
          var _loc3_:MovieClip = null;
-         if(param1 >= class_73.method_2108(class_183.var_7129) && param1 < class_1.var_2884.var_52.length)
+         if(param1 >= class_183.var_7129 && param1 < class_1.var_2884.var_52.length)
          {
             _loc2_ = class_1.var_2884.var_52[param1];
             if(!_loc2_)
@@ -1449,7 +1449,7 @@ package
             {
                _loc3_.parent.removeChild(_loc3_);
             }
-            class_1.var_2884.var_52.splice(param1,class_73.method_2108(class_33.var_3679));
+            class_1.var_2884.var_52.splice(param1,class_33.var_3679);
          }
       }
       
@@ -1500,12 +1500,12 @@ package
             }
             if(_loc2_.var_1328.var_1505 == class_312.const_699 || _loc2_.var_1328.var_1505 == class_312.const_205)
             {
-               _loc5_ = class_73.method_2108(class_183.var_7129);
+               _loc5_ = class_183.var_7129;
                while(_loc5_ < this.var_506.var_422.length)
                {
                   if(this.var_506.var_422[_loc5_].var_1328 == _loc2_.var_1328)
                   {
-                     this.var_506.var_422.splice(_loc5_,class_73.method_2108(class_33.var_3679));
+                     this.var_506.var_422.splice(_loc5_,class_33.var_3679);
                      break;
                   }
                   _loc5_++;
@@ -1546,7 +1546,7 @@ package
             _loc4_ = _loc3_.var_1480;
             if(class_96.const_483 && _loc4_ == class_9.var_3266 && this.var_506.var_455 == class_146.var_5977)
             {
-               _loc5_ = class_175.method_2618(class_73.method_2111(class_16.var_3315) + (int(Math.random() * class_9.var_3267) + class_73.method_2108(class_33.var_3679)) + class_89.var_4385);
+               _loc5_ = class_175.method_2618(class_16.var_3315 + (int(Math.random() * class_9.var_3267) + class_33.var_3679) + class_89.var_4385);
                _loc5_.x = -class_92.var_4647 + _loc3_.var_304;
                _loc5_.y = -class_92.var_4647 + _loc3_.var_305;
                this.var_541.addChild(_loc5_);
@@ -1576,41 +1576,41 @@ package
          {
             _loc3_ = new Sprite();
             _loc5_ = new Sprite();
-            _loc6_ = param1.var_1506.split(class_73.method_2111(class_107.var_5062));
+            _loc6_ = param1.var_1506.split(class_107.var_5062);
             if(class_146.var_6118 <= _loc6_.length)
             {
                if(this.var_506.var_471)
                {
                   if(_loc6_[class_165.var_6534].match(class_58.const_350))
                   {
-                     _loc7_ = class_175.method_2618(_loc6_[class_73.method_2108(class_165.var_6534)],class_170.var_6700);
+                     _loc7_ = class_175.method_2618(_loc6_[class_165.var_6534],class_170.var_6700);
                   }
                   else
                   {
-                     _loc7_ = class_175.method_2618(_loc6_[class_73.method_2108(class_165.var_6534)]);
+                     _loc7_ = class_175.method_2618(_loc6_[class_165.var_6534]);
                   }
                }
                else if(_loc6_[class_165.var_6534].match(class_58.const_350))
                {
-                  _loc7_ = class_175.method_2618(_loc6_[class_73.method_2108(class_165.var_6534)],class_170.var_6700);
+                  _loc7_ = class_175.method_2618(_loc6_[class_165.var_6534],class_170.var_6700);
                }
-               else if(_loc6_[class_73.method_2108(class_165.var_6534)].indexOf(class_170.var_6702) == -class_73.method_2108(class_33.var_3679))
+               else if(_loc6_[class_165.var_6534].indexOf(class_170.var_6702) == -class_33.var_3679)
                {
                   _loc7_ = class_175.method_2618(_loc6_[class_165.var_6534]);
                }
                else
                {
-                  _loc7_ = class_175.method_2618(_loc6_[class_73.method_2108(class_165.var_6534)],class_73.method_2111(class_9.var_3268));
+                  _loc7_ = class_175.method_2618(_loc6_[class_165.var_6534],class_9.var_3268);
                }
-               _loc7_.x = int(_loc6_[class_73.method_2108(class_183.var_7129)]);
+               _loc7_.x = int(_loc6_[class_183.var_7129]);
                _loc7_.y = int(_loc6_[class_33.var_3679]);
                if(param1.var_1510)
                {
                   if(!this.var_558)
                   {
                      this.var_559 = new Array();
-                     this.var_558 = new Timer(class_73.method_2108(class_146.var_6117),class_33.var_3679);
-                     this.var_558.addEventListener(class_73.method_2111(class_4.var_2926),this.method_404);
+                     this.var_558 = new Timer(class_146.var_6117,class_33.var_3679);
+                     this.var_558.addEventListener(class_4.var_2926,this.method_404);
                      this.var_558.start();
                   }
                   this.var_559.push(_loc5_,_loc7_);
@@ -1620,15 +1620,15 @@ package
                   _loc5_.addChild(_loc7_);
                }
                _loc3_ = _loc5_;
-               _loc5_.graphics.beginFill(0,class_73.method_2108(class_183.var_7129));
+               _loc5_.graphics.beginFill(0,class_183.var_7129);
                if(class_312.const_781 == param1.var_1505)
                {
-                  _loc5_.graphics.drawCircle(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),param1.name_5);
+                  _loc5_.graphics.drawCircle(class_183.var_7129,class_183.var_7129,param1.name_5);
                   _loc5_.graphics.endFill();
                }
                else
                {
-                  _loc5_.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_183.var_7129,param1.name_5,param1.var_206);
+                  _loc5_.graphics.drawRect(class_183.var_7129,class_183.var_7129,param1.name_5,param1.var_206);
                   _loc5_.graphics.endFill();
                }
             }
@@ -1639,7 +1639,7 @@ package
          }
          if(param1.var_1505 != class_312.const_781)
          {
-            _loc3_.x = -(!!this.var_528 ? Math.ceil(param1.name_5 / class_73.method_2108(class_165.var_6534)) : Math.floor(param1.name_5 / class_165.var_6534));
+            _loc3_.x = -(!!this.var_528 ? Math.ceil(param1.name_5 / class_165.var_6534) : Math.floor(param1.name_5 / class_165.var_6534));
             _loc3_.y = -int(param1.var_206 / class_165.var_6534);
          }
          if(param1.var_1509)
@@ -1659,7 +1659,7 @@ package
                _loc8_.var_418.var_304 = param1.x / class_162.var_6351;
                _loc8_.var_418.var_305 = param1.y / class_162.var_6351;
             }
-            _loc8_.var_419 = param1.name_5 / class_73.method_2108(class_162.var_6351);
+            _loc8_.var_419 = param1.name_5 / class_162.var_6351;
             _loc4_ = _loc8_;
          }
          else
@@ -1667,11 +1667,11 @@ package
             _loc9_ = new class_348();
             if(param1.var_1510)
             {
-               _loc9_.method_1197(param1.name_5 / class_73.method_2108(class_89.var_4436),param1.var_206 / class_73.method_2108(class_89.var_4436));
+               _loc9_.method_1197(param1.name_5 / class_89.var_4436,param1.var_206 / class_89.var_4436);
             }
             else
             {
-               _loc9_.method_1198(param1.name_5 / class_89.var_4436,param1.var_206 / class_89.var_4436,new class_167(param1.x / class_73.method_2108(class_162.var_6351),param1.y / class_73.method_2108(class_162.var_6351)),Math.PI * param1.rotation / class_170.var_6705);
+               _loc9_.method_1198(param1.name_5 / class_89.var_4436,param1.var_206 / class_89.var_4436,new class_167(param1.x / class_162.var_6351,param1.y / class_162.var_6351),Math.PI * param1.rotation / class_170.var_6705);
             }
             _loc4_ = _loc9_;
          }
@@ -1681,11 +1681,11 @@ package
             {
                class_47.method_1951(_loc4_.var_417,class_47.name_59);
             }
-            else if(param1.var_1504 == class_73.method_2108(class_165.var_6534))
+            else if(param1.var_1504 == class_165.var_6534)
             {
                class_47.method_1951(_loc4_.var_417,class_47.const_239);
             }
-            else if(param1.var_1504 == class_73.method_2108(class_146.var_6118))
+            else if(param1.var_1504 == class_146.var_6118)
             {
                class_47.method_1951(_loc4_.var_417,class_47.const_240);
             }
@@ -1702,7 +1702,7 @@ package
          _loc4_.var_414 = param1.var_414 + class_183.var_7129;
          if(param1.var_1510)
          {
-            _loc4_.var_415 = class_73.method_2116(class_181.var_6937);
+            _loc4_.var_415 = class_181.var_6937;
             _loc10_ = new class_118(false);
             _loc10_.userData = _loc2_;
             _loc10_.var_676 = param1.var_1512;
@@ -1743,8 +1743,8 @@ package
             {
                _loc13_ = new class_142();
                _loc13_.var_737 = param1.var_737;
-               _loc13_.var_738 = new class_167(class_183.var_7129,class_73.method_2108(class_183.var_7129));
-               _loc13_.var_739 = param1.var_737 / class_73.method_2116(class_124.var_5660);
+               _loc13_.var_738 = new class_167(class_183.var_7129,class_183.var_7129);
+               _loc13_.var_739 = param1.var_737 / class_124.var_5660;
                _loc11_.method_542(_loc13_);
             }
             else
@@ -1754,7 +1754,7 @@ package
          }
          if(param1.var_1510)
          {
-            class_73.method_2115(class_73.method_2115(class_73.method_2115(_loc11_.method_556)))(new class_167(param1.x / class_165.method_2587(),param1.y / class_165.method_2587()),Math.PI * param1.rotation / class_62.method_2015());
+            _loc11_.method_556(new class_167(param1.x / class_165.method_2587(),param1.y / class_165.method_2587()),Math.PI * param1.rotation / class_62.method_2015());
             _loc11_.var_770 = param1.var_1485;
             class_1.var_2884.method_90(_loc11_);
          }
@@ -1793,8 +1793,8 @@ package
          this.var_543.addChild(_loc3_);
          if(_loc3_ is Bitmap)
          {
-            _loc3_.x = param1.var_304 - class_73.method_2108(class_183.var_7127);
-            _loc3_.y = param1.var_305 - class_73.method_2108(class_183.var_7127);
+            _loc3_.x = param1.var_304 - class_183.var_7127;
+            _loc3_.y = param1.var_305 - class_183.var_7127;
          }
          else if(param1.var_1283 == class_263.const_698)
          {
@@ -1825,14 +1825,14 @@ package
          var _loc3_:Matrix = null;
          this.var_539.graphics.clear();
          this.var_539.graphics.beginFill(param1);
-         this.var_539.graphics.drawRect(-class_4.var_3001,-class_73.method_2108(class_4.var_3001),this.var_506.var_426 + class_170.var_6586,this.var_506.var_420 + class_73.method_2108(class_170.var_6586));
+         this.var_539.graphics.drawRect(-class_4.var_3001,-class_4.var_3001,this.var_506.var_426 + class_170.var_6586,this.var_506.var_420 + class_170.var_6586);
          this.var_539.graphics.endFill();
          if(class_58.var_3811)
          {
             _loc3_ = new Matrix();
-            _loc3_.createGradientBox(this.var_506.var_426,this.var_506.var_420,Math.PI / class_73.method_2108(class_165.var_6534));
-            this.var_539.graphics.beginGradientFill(GradientType.LINEAR,new Array(9015465,5660022),new Array(class_73.method_2108(class_33.var_3679),class_33.var_3679),new Array(class_183.var_7129,class_73.method_2108(class_124.var_5621)),_loc3_);
-            this.var_539.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_183.var_7129,this.var_506.var_426,this.var_506.var_420);
+            _loc3_.createGradientBox(this.var_506.var_426,this.var_506.var_420,Math.PI / class_165.var_6534);
+            this.var_539.graphics.beginGradientFill(GradientType.LINEAR,new Array(9015465,5660022),new Array(class_33.var_3679,class_33.var_3679),new Array(class_183.var_7129,class_124.var_5621),_loc3_);
+            this.var_539.graphics.drawRect(class_183.var_7129,class_183.var_7129,this.var_506.var_426,this.var_506.var_420);
             this.var_539.graphics.endFill();
          }
          var _loc2_:Shape = class_1.var_2884.var_4;
@@ -1840,8 +1840,8 @@ package
          {
             _loc2_.graphics.clear();
             _loc2_.graphics.beginFill(param1);
-            _loc2_.graphics.drawRect(-class_73.method_2108(class_117.var_5288),-class_73.method_2108(class_117.var_5288),class_181.var_6932,class_121.var_5478);
-            _loc2_.graphics.drawRect(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),class_73.method_2108(class_107.var_5074),class_60.var_3979);
+            _loc2_.graphics.drawRect(-class_117.var_5288,-class_117.var_5288,class_181.var_6932,class_121.var_5478);
+            _loc2_.graphics.drawRect(class_183.var_7129,class_183.var_7129,class_107.var_5074,class_60.var_3979);
             _loc2_.graphics.endFill();
          }
       }
@@ -1853,13 +1853,13 @@ package
          if(this.var_553[param1])
          {
             this.var_504.method_1148(this.var_553[param1]);
-            _loc2_ = -class_73.method_2108(class_33.var_3679);
+            _loc2_ = -class_33.var_3679;
             _loc3_ = this.var_554.length;
             while(++_loc2_ < _loc3_)
             {
                if(this.var_554[_loc2_].var_1490 == param1)
                {
-                  this.var_554.splice(_loc2_,class_73.method_2108(class_33.var_3679));
+                  this.var_554.splice(_loc2_,class_33.var_3679);
                   break;
                }
             }
@@ -1885,25 +1885,25 @@ package
          var _loc9_:Number = NaN;
          var _loc4_:class_348 = new class_348();
          var _loc5_:int = param1.length;
-         _loc4_.var_1643 = _loc5_ / class_73.method_2108(class_165.var_6534);
+         _loc4_.var_1643 = _loc5_ / class_165.var_6534;
          class_47.method_1951(_loc4_.var_417,class_47.name_59);
-         _loc4_.var_413 = class_73.method_2116(class_9.var_3254);
+         _loc4_.var_413 = class_9.var_3254;
          _loc4_.var_415 = class_183.var_7129;
          if(param3)
          {
             param3.graphics.beginFill(3294800);
          }
-         var _loc6_:int = class_73.method_2108(class_183.var_7129);
-         var _loc7_:int = class_73.method_2108(class_183.var_7129);
+         var _loc6_:int = class_183.var_7129;
+         var _loc7_:int = class_183.var_7129;
          while(_loc7_ < _loc5_)
          {
             _loc8_ = param1[_loc7_];
-            _loc9_ = param1[_loc7_ + class_73.method_2108(class_33.var_3679)];
-            _loc4_.var_1642[_loc6_].method_105(_loc8_ / class_73.method_2108(class_162.var_6351),_loc9_ / class_162.var_6351);
+            _loc9_ = param1[_loc7_ + class_33.var_3679];
+            _loc4_.var_1642[_loc6_].method_105(_loc8_ / class_162.var_6351,_loc9_ / class_162.var_6351);
             _loc6_++;
             if(param3)
             {
-               if(class_73.method_2108(class_183.var_7129) == _loc7_)
+               if(class_183.var_7129 == _loc7_)
                {
                   param3.graphics.moveTo(_loc8_,_loc9_);
                }
@@ -1912,7 +1912,7 @@ package
                   param3.graphics.lineTo(_loc8_,_loc9_);
                }
             }
-            _loc7_ += class_73.method_2108(class_165.var_6534);
+            _loc7_ += class_165.var_6534;
          }
          if(param2)
          {
@@ -1960,7 +1960,7 @@ package
          var _loc1_:class_147 = null;
          var _loc2_:class_122 = null;
          var _loc3_:MovieClip = null;
-         var _loc4_:int = class_73.method_2108(class_183.var_7129);
+         var _loc4_:int = class_183.var_7129;
          var _loc5_:int = class_1.var_2884.var_49.length;
          while(_loc4_ < _loc5_)
          {
@@ -1974,7 +1974,7 @@ package
                }
                this.var_504.method_1171(_loc1_);
                delete class_1.var_2884.var_34[_loc1_.var_768];
-               class_1.var_2884.var_49.splice(_loc4_,class_73.method_2108(class_33.var_3679));
+               class_1.var_2884.var_49.splice(_loc4_,class_33.var_3679);
                _loc4_--;
                _loc5_--;
             }
@@ -2017,10 +2017,10 @@ package
          var _loc17_:Bitmap = null;
          var _loc18_:Sprite = null;
          var _loc2_:int = param1.var_1516;
-         var _loc3_:* = _loc2_ == class_73.method_2108(class_89.var_4399);
+         var _loc3_:* = _loc2_ == class_89.var_4399;
          var _loc4_:String = class_58.const_351[_loc2_];
          var _loc5_:Boolean = Boolean(_loc4_);
-         var _loc6_:Boolean = _loc2_ == class_73.method_2108(class_16.var_3467) || _loc2_ == class_73.method_2108(class_121.var_5494) || _loc2_ == class_33.var_3647 || _loc2_ == class_127.var_5780 || _loc2_ == class_165.var_6423 || _loc2_ == class_9.var_3152;
+         var _loc6_:Boolean = _loc2_ == class_16.var_3467 || _loc2_ == class_121.var_5494 || _loc2_ == class_33.var_3647 || _loc2_ == class_127.var_5780 || _loc2_ == class_165.var_6423 || _loc2_ == class_9.var_3152;
          if(param1.var_790 || _loc5_ || _loc6_ || _loc3_)
          {
             _loc7_ = class_175.method_118(class_170.var_6701 + _loc2_);
@@ -2036,7 +2036,7 @@ package
             _loc7_.var_598 = _loc2_;
             _loc7_.x = param1.var_1151;
             _loc7_.y = param1.var_1152;
-            if(!this.var_557 || _loc2_ == class_165.var_6491 || _loc2_ == class_73.method_2108(class_9.var_3240) || _loc3_)
+            if(!this.var_557 || _loc2_ == class_165.var_6491 || _loc2_ == class_9.var_3240 || _loc3_)
             {
                if(param1.var_1336)
                {
@@ -2062,7 +2062,7 @@ package
                   }
                }
             }
-            if(param1.var_1515 == class_33.var_3679 || param1.var_1515 == class_73.method_2108(class_165.var_6534) && Math.random() < class_92.var_4648)
+            if(param1.var_1515 == class_33.var_3679 || param1.var_1515 == class_165.var_6534 && Math.random() < class_92.var_4648)
             {
                _loc7_.scaleX = -class_33.var_3679;
             }
@@ -2081,16 +2081,16 @@ package
                      _loc7_.var_206 = _loc9_;
                      if(class_74.const_417 == class_58.var_2506)
                      {
-                        _loc11_ = class_175.method_118(class_73.method_2111(class_127.var_5739));
+                        _loc11_ = class_175.method_118(class_127.var_5739);
                         _loc7_.addChild(_loc11_);
-                        _loc11_.x = class_146.var_6117 + -_loc10_ / class_73.method_2108(class_165.var_6534);
-                        _loc11_.y = _loc9_ / class_73.method_2108(class_165.var_6534) + class_165.var_6534;
+                        _loc11_.x = class_146.var_6117 + -_loc10_ / class_165.var_6534;
+                        _loc11_.y = _loc9_ / class_165.var_6534 + class_165.var_6534;
                         class_202.method_2754(_loc11_,true,true);
                         _loc11_.addEventListener(MouseEvent.MOUSE_DOWN,class_188.method_1971().method_751);
-                        _loc12_ = class_175.method_118(class_73.method_2111(class_162.var_6198));
+                        _loc12_ = class_175.method_118(class_162.var_6198);
                         _loc7_.addChild(_loc12_);
-                        _loc12_.x = class_73.method_2108(class_162.var_6351) + -_loc10_ / class_165.var_6534;
-                        _loc12_.y = _loc9_ / class_73.method_2108(class_165.var_6534) + class_73.method_2108(class_165.var_6534);
+                        _loc12_.x = class_162.var_6351 + -_loc10_ / class_165.var_6534;
+                        _loc12_.y = _loc9_ / class_165.var_6534 + class_165.var_6534;
                         class_202.method_2754(_loc12_,true,true);
                         _loc12_.addEventListener(MouseEvent.MOUSE_DOWN,class_188.method_1971().method_753);
                      }
@@ -2105,7 +2105,7 @@ package
                else
                {
                   class_202.method_2754(_loc7_,true,true);
-                  _loc7_.addEventListener(MouseEvent.MOUSE_DOWN,this.method_405,false,class_73.method_2108(class_183.var_7129),true);
+                  _loc7_.addEventListener(MouseEvent.MOUSE_DOWN,this.method_405,false,class_183.var_7129,true);
                   _loc7_.name_94 = _loc4_;
                   _loc7_.useHandCursor = class_99.var_4681;
                   _loc7_.buttonMode = class_99.var_4681;
@@ -2140,7 +2140,7 @@ package
             {
                return;
             }
-            _loc15_ = class_73.method_2111(class_170.var_6701) + _loc2_;
+            _loc15_ = class_170.var_6701 + _loc2_;
             _loc16_ = class_58.const_373[_loc15_];
             if(!_loc16_)
             {
@@ -2159,16 +2159,16 @@ package
             }
             else if(param1.var_1412)
             {
-               this.var_539.addChildAt(_loc17_,class_73.method_2108(class_183.var_7129));
+               this.var_539.addChildAt(_loc17_,class_183.var_7129);
             }
             else
             {
                this.var_539.addChild(_loc17_);
             }
             _loc17_.y = param1.var_1152 + _loc16_.var_735;
-            if(param1.var_1515 == class_73.method_2108(class_33.var_3679) || param1.var_1515 == class_73.method_2108(class_165.var_6534) && Math.random() < class_73.method_2116(class_92.var_4648))
+            if(param1.var_1515 == class_33.var_3679 || param1.var_1515 == class_165.var_6534 && Math.random() < class_92.var_4648)
             {
-               _loc17_.scaleX = -class_73.method_2108(class_33.var_3679);
+               _loc17_.scaleX = -class_33.var_3679;
                _loc17_.x = -_loc16_.var_734 + param1.var_1151;
             }
             else
@@ -2280,11 +2280,11 @@ package
          }
          if(!class_58.var_3809)
          {
-            _loc26_ = class_175.method_118(class_73.method_2111(class_102.var_4708),true);
+            _loc26_ = class_175.method_118(class_102.var_4708,true);
             _loc27_ = _loc26_.getRect(_loc26_);
-            class_58.var_3809 = new BitmapData(_loc26_.width + class_73.method_2108(class_165.var_6534),_loc26_.height + class_73.method_2108(class_165.var_6534),true,class_183.var_7129);
+            class_58.var_3809 = new BitmapData(_loc26_.width + class_165.var_6534,_loc26_.height + class_165.var_6534,true,class_183.var_7129);
             _loc28_ = new Matrix();
-            _loc28_.translate(class_73.method_2108(class_33.var_3679) - _loc27_.x,class_33.var_3679 - _loc27_.y);
+            _loc28_.translate(class_33.var_3679 - _loc27_.x,class_33.var_3679 - _loc27_.y);
             class_58.var_3809.draw(_loc26_,_loc28_);
             class_58.var_3810 = new Point(_loc27_.x,_loc27_.y);
          }
@@ -2295,13 +2295,13 @@ package
          var _loc14_:Number = class_114.method_2312(Math.round(_loc12_.var_304),Math.round(_loc12_.var_305),Math.round(_loc13_.var_304),Math.round(_loc13_.var_305)) * class_162.var_6351;
          if(param5)
          {
-            _loc14_ = class_73.method_2108(class_89.var_4436);
+            _loc14_ = class_89.var_4436;
          }
-         else if(_loc14_ > class_73.method_2108(class_121.var_5493))
+         else if(_loc14_ > class_121.var_5493)
          {
             _loc14_ = class_121.var_5493;
          }
-         var _loc15_:Number = class_73.method_2108(class_170.var_6731);
+         var _loc15_:Number = class_170.var_6731;
          var _loc16_:int = Math.max(Math.round(_loc14_ / _loc15_),class_33.var_3679);
          var _loc17_:Number = Math.atan2(_loc13_.var_305 - _loc12_.var_305,_loc13_.var_304 - _loc12_.var_304);
          var _loc18_:Number = _loc17_ + Math.PI / class_165.var_6534;
@@ -2311,42 +2311,42 @@ package
          {
             _loc19_ = class_175.method_118(class_16.var_3449 + class_46.const_219,true);
             _loc19_.cacheAsBitmap = class_99.var_4681;
-            _loc19_.x = class_73.method_2108(class_162.var_6351) * _loc12_.var_304;
-            _loc19_.y = class_73.method_2108(class_162.var_6351) * _loc12_.var_305;
+            _loc19_.x = class_162.var_6351 * _loc12_.var_304;
+            _loc19_.y = class_162.var_6351 * _loc12_.var_305;
             (param1.var_695 as DisplayObjectContainer).addChild(_loc19_);
          }
          var _loc20_:class_118 = new class_118(false);
          var _loc21_:class_348 = new class_348();
-         _loc21_.var_415 = class_73.method_2108(class_165.var_6506);
-         _loc21_.var_413 = class_73.method_2116(class_92.var_4648);
+         _loc21_.var_415 = class_165.var_6506;
+         _loc21_.var_413 = class_92.var_4648;
          _loc21_.var_414 = class_183.var_7129;
          class_47.method_1951(_loc21_.var_417,class_47.const_236);
          var _loc22_:Number = class_183.var_7129;
-         var _loc23_:Number = class_73.method_2108(class_183.var_7129);
+         var _loc23_:Number = class_183.var_7129;
          if(param5)
          {
-            _loc22_ = class_73.method_2116(class_162.var_6197);
+            _loc22_ = class_162.var_6197;
             _loc23_ = class_4.var_2925;
          }
-         var _loc24_:int = class_73.method_2108(class_183.var_7129);
+         var _loc24_:int = class_183.var_7129;
          while(_loc24_ < _loc16_)
          {
-            _loc29_ = _loc12_.var_304 + _loc22_ + Math.cos(_loc17_) * (_loc15_ * _loc24_) / class_73.method_2108(class_162.var_6351);
+            _loc29_ = _loc12_.var_304 + _loc22_ + Math.cos(_loc17_) * (_loc15_ * _loc24_) / class_162.var_6351;
             _loc30_ = _loc12_.var_305 + _loc23_ + Math.sin(_loc17_) * (_loc24_ * _loc15_) / class_162.var_6351;
             _loc20_.position = new class_167(_loc29_,_loc30_);
             _loc20_.userData = new class_335(class_58.var_3809,class_58.var_3810.x,class_58.var_3810.y);
             _loc20_.var_682 = _loc18_;
             _loc9_ = class_58.var_3803.var_504.method_1168(_loc20_);
             class_58.var_3803.var_541.addChild(_loc20_.userData);
-            _loc21_.method_1197(_loc15_ / class_73.method_2108(class_121.var_5495) / class_162.var_6351,_loc15_ / class_165.var_6534 / class_73.method_2108(class_162.var_6351));
+            _loc21_.method_1197(_loc15_ / class_121.var_5495 / class_162.var_6351,_loc15_ / class_165.var_6534 / class_162.var_6351);
             _loc9_.method_549(_loc21_);
             _loc9_.method_533();
             _loc9_.var_775 *= class_146.var_6117;
-            _loc9_.var_746 /= class_73.method_2108(class_146.var_6117);
+            _loc9_.var_746 /= class_146.var_6117;
             if(_loc8_ != null)
             {
-               _loc7_.method_107(_loc8_,_loc9_,new class_167(_loc20_.position.var_304 - Math.cos(_loc17_) * (_loc15_ / class_165.var_6534) / class_162.var_6351,_loc20_.position.var_305 - Math.sin(_loc17_) * (_loc15_ / class_73.method_2108(class_165.var_6534)) / class_162.var_6351));
-               if(_loc24_ == class_73.method_2108(class_183.var_7129))
+               _loc7_.method_107(_loc8_,_loc9_,new class_167(_loc20_.position.var_304 - Math.cos(_loc17_) * (_loc15_ / class_165.var_6534) / class_162.var_6351,_loc20_.position.var_305 - Math.sin(_loc17_) * (_loc15_ / class_165.var_6534) / class_162.var_6351));
+               if(_loc24_ == class_183.var_7129)
                {
                   _loc10_ = _loc9_;
                   _loc11_ = class_58.var_3803.var_504.method_1145(_loc7_);
@@ -2359,7 +2359,7 @@ package
             _loc8_ = _loc9_;
             _loc24_++;
          }
-         param3.var_742.position.method_105(_loc12_.var_304 + Math.cos(_loc17_) * (_loc14_ / class_73.method_2108(class_162.var_6351)),_loc12_.var_305 + Math.sin(_loc17_) * (_loc14_ / class_73.method_2108(class_162.var_6351)));
+         param3.var_742.position.method_105(_loc12_.var_304 + Math.cos(_loc17_) * (_loc14_ / class_162.var_6351),_loc12_.var_305 + Math.sin(_loc17_) * (_loc14_ / class_162.var_6351));
          if(_loc8_ != null)
          {
             _loc7_.method_107(_loc8_,param3,new class_167(_loc13_.var_304,_loc13_.var_305));
@@ -2395,7 +2395,7 @@ package
          {
             this.var_550.removeChildAt(class_183.var_7129);
          }
-         if(param1 == -class_73.method_2108(class_33.var_3679) || this.var_557)
+         if(param1 == -class_33.var_3679 || this.var_557)
          {
             return;
          }
@@ -2413,22 +2413,22 @@ package
             class_58.const_372[param1] = _loc2_;
          }
          this.var_550.addChild(_loc2_);
-         this.var_539.addChildAt(this.var_550,class_73.method_2108(class_183.var_7129));
-         if(class_73.method_2108(class_107.var_5074) < class_58.var_426)
+         this.var_539.addChildAt(this.var_550,class_183.var_7129);
+         if(class_107.var_5074 < class_58.var_426)
          {
             this.var_550.width = class_58.var_426;
          }
          else
          {
-            this.var_550.width = class_73.method_2108(class_107.var_5074);
+            this.var_550.width = class_107.var_5074;
          }
-         if(class_73.method_2108(class_89.var_4432) < class_58.var_420)
+         if(class_89.var_4432 < class_58.var_420)
          {
             this.var_550.height = class_58.var_420;
          }
          else
          {
-            this.var_550.height = class_73.method_2108(class_89.var_4432);
+            this.var_550.height = class_89.var_4432;
          }
       }
       
@@ -2503,14 +2503,14 @@ package
             _loc2_.var_1513 = param1.var_1553;
          }
          _loc2_.var_1509 = param1.var_1509;
-         if(param1.var_1421 && param1.var_1421.length > class_73.method_2108(class_183.var_7129))
+         if(param1.var_1421 && param1.var_1421.length > class_183.var_7129)
          {
             _loc2_.var_1506 = param1.var_1421;
          }
          this.method_371(_loc2_);
          if((_loc2_.var_1505 == class_312.const_205 || _loc2_.var_1505 == class_312.const_699) && !_loc2_.var_1510)
          {
-            class_58.var_3803.var_506.var_422.push(new class_274(_loc2_,_loc2_.x - _loc2_.name_5 / class_165.var_6534,_loc2_.x + _loc2_.name_5 / class_165.var_6534,_loc2_.y - _loc2_.var_206 / class_165.var_6534,_loc2_.y + _loc2_.var_206 / class_73.method_2108(class_165.var_6534),_loc2_.var_1505 == class_312.const_699 ? int(class_274.const_699) : int(class_274.const_205)));
+            class_58.var_3803.var_506.var_422.push(new class_274(_loc2_,_loc2_.x - _loc2_.name_5 / class_165.var_6534,_loc2_.x + _loc2_.name_5 / class_165.var_6534,_loc2_.y - _loc2_.var_206 / class_165.var_6534,_loc2_.y + _loc2_.var_206 / class_165.var_6534,_loc2_.var_1505 == class_312.const_699 ? int(class_274.const_699) : int(class_274.const_205)));
          }
       }
       
@@ -2529,7 +2529,7 @@ package
                   _loc5_.parent.removeChild(_loc5_);
                }
                this.var_509.splice(_loc3_,class_33.var_3679);
-               class_1.var_2884.method_33(class_56.const_193,_loc5_.var_304,_loc5_.var_305,class_73.method_2108(class_146.var_6117),class_73.method_2108(class_165.var_6534),false);
+               class_1.var_2884.method_33(class_56.const_193,_loc5_.var_304,_loc5_.var_305,class_146.var_6117,class_165.var_6534,false);
                break;
             }
          }
@@ -2547,7 +2547,7 @@ package
             _loc4_.var_591 = class_1.var_2884.const_3;
             _loc4_.var_592 = class_1.var_2884.const_3;
             _loc4_.length = class_33.var_3675 / class_162.var_6351;
-            _loc4_.var_593 = class_73.method_2116(class_146.var_6103);
+            _loc4_.var_593 = class_146.var_6103;
             _loc4_.var_594 = class_107.var_5060;
             class_1.var_2884.var_107.push(class_58.var_3803.var_504.method_1145(_loc4_));
             if(param2.var_773)
@@ -2692,7 +2692,7 @@ package
             var_1494 = var_1554.var_1494;
             if(!var_1494)
             {
-               var_1494 = new class_167(class_183.var_7129,class_73.method_2108(class_183.var_7129));
+               var_1494 = new class_167(class_183.var_7129,class_183.var_7129);
             }
             var_7495.method_107(var_1486,var_1487,var_1488,var_1494);
             if(!isNaN(var_1554.var_682))
@@ -2749,12 +2749,12 @@ package
             var_1488 = var_1554.var_1488;
             if(!var_1488)
             {
-               var_1488 = !!var_1554.var_1490 ? this.method_389((this.var_552[var_1554.var_1486] as class_345).var_1633) : new class_167(this.var_506.var_444[var_1554.var_1486].x / class_73.method_2108(class_162.var_6351),this.var_506.var_444[var_1554.var_1486].y / class_162.var_6351);
+               var_1488 = !!var_1554.var_1490 ? this.method_389((this.var_552[var_1554.var_1486] as class_345).var_1633) : new class_167(this.var_506.var_444[var_1554.var_1486].x / class_162.var_6351,this.var_506.var_444[var_1554.var_1486].y / class_162.var_6351);
             }
             var_1489 = var_1554.var_1489;
             if(!var_1489)
             {
-               var_1489 = !!var_1554.var_1490 ? this.method_389((this.var_552[var_1554.var_1487] as class_345).var_1633) : new class_167(this.var_506.var_444[var_1554.var_1487].x / class_162.var_6351,this.var_506.var_444[var_1554.var_1487].y / class_73.method_2108(class_162.var_6351));
+               var_1489 = !!var_1554.var_1490 ? this.method_389((this.var_552[var_1554.var_1487] as class_345).var_1633) : new class_167(this.var_506.var_444[var_1554.var_1487].x / class_162.var_6351,this.var_506.var_444[var_1554.var_1487].y / class_162.var_6351);
             }
             if(var_1554.var_1501 == null || var_1554.var_1502 == null)
             {
@@ -2795,7 +2795,7 @@ package
             var_1488 = var_1554.var_1488;
             if(!var_1488)
             {
-               var_1488 = !!var_1554.var_1490 ? this.method_389((this.var_552[var_1554.var_1486] as class_345).var_1633) : new class_167(this.var_506.var_444[var_1554.var_1487].x / class_162.var_6351,this.var_506.var_444[var_1554.var_1487].y / class_73.method_2108(class_162.var_6351));
+               var_1488 = !!var_1554.var_1490 ? this.method_389((this.var_552[var_1554.var_1486] as class_345).var_1633) : new class_167(this.var_506.var_444[var_1554.var_1487].x / class_162.var_6351,this.var_506.var_444[var_1554.var_1487].y / class_162.var_6351);
             }
             var_7497.method_107(var_1486,var_1487,var_1488);
             if(!isNaN(var_1554.var_1497))
@@ -2872,25 +2872,25 @@ package
             _loc5_ = class_58.var_3803.var_506.var_463;
             _loc2_.method_481(_loc5_.x + param1.var_876 * class_181.method_2681() % _loc5_.width,_loc5_.y + class_183.method_2694() * param1.var_876 % _loc5_.height);
             _loc4_ = _loc5_.y + class_9.var_3107 * param1.var_876 % _loc5_.height;
-            _loc3_ = _loc5_.x + param1.var_876 * class_73.method_2108(class_62.var_4008) % _loc5_.width;
+            _loc3_ = _loc5_.x + param1.var_876 * class_62.var_4008 % _loc5_.width;
          }
-         else if(class_73.method_2109(class_73.method_2113(class_73.method_2113(class_58.var_3803)).var_506.var_428))
+         else if(class_58.var_3803.var_506.var_428)
          {
-            _loc6_ = class_73.method_2108(class_58.var_3803.var_506.var_427.length);
+            _loc6_ = class_58.var_3803.var_506.var_427.length;
             _loc7_ = Math.abs(param1.var_876) % _loc6_;
             _loc8_ = class_58.var_3803.var_506.var_427[_loc7_];
-            _loc2_.method_481(_loc8_[class_89.var_4424],_loc8_[class_73.method_2111(class_107.var_5063)]);
+            _loc2_.method_481(_loc8_[class_89.var_4424],_loc8_[class_107.var_5063]);
             _loc3_ = _loc8_.x;
             _loc4_ = _loc8_.y;
          }
          else
          {
             _loc9_ = class_58.var_3803.var_506.var_458;
-            if(class_73.method_2108(class_146.var_6118) <= _loc9_.length)
+            if(class_146.var_6118 <= _loc9_.length)
             {
                _loc2_.method_481(_loc9_[class_60.method_2002()] + class_121.method_2361(),_loc9_[class_4.method_1841()] * class_60.method_2002());
                _loc4_ = _loc9_[class_165.var_6534];
-               _loc3_ = _loc9_[class_73.method_2108(class_33.var_3679)];
+               _loc3_ = _loc9_[class_33.var_3679];
             }
             else
             {
@@ -2910,7 +2910,7 @@ package
          if(this.var_506.var_424 && this.var_506.var_424[param1])
          {
             this.var_539.addChild(this.var_506.var_424[param1].var_1478);
-            if(class_73.method_2108(class_183.var_7129) < param2)
+            if(class_183.var_7129 < param2)
             {
                this.var_516.push(getTimer() + param2,this.var_506.var_424[param1]);
             }
@@ -2925,55 +2925,55 @@ package
       
       public function method_401(param1:Array) : void
       {
-         var _loc2_:class_311 = new class_311(param1[class_73.method_2108(class_146.var_6118)]);
-         _loc2_.var_1490 = param1[class_73.method_2108(class_183.var_7129)];
+         var _loc2_:class_311 = new class_311(param1[class_146.var_6118]);
+         _loc2_.var_1490 = param1[class_183.var_7129];
          _loc2_.var_1486 = param1[class_33.var_3679];
-         _loc2_.var_1487 = param1[class_73.method_2108(class_165.var_6534)];
+         _loc2_.var_1487 = param1[class_165.var_6534];
          if(param1[class_121.var_5495])
          {
-            _loc2_.var_1488 = new class_167(param1[class_117.var_5287] / class_162.var_6351,param1[class_9.var_3267] / class_73.method_2108(class_162.var_6351));
+            _loc2_.var_1488 = new class_167(param1[class_117.var_5287] / class_162.var_6351,param1[class_9.var_3267] / class_162.var_6351);
          }
          if(param1[class_92.var_4647])
          {
-            _loc2_.var_1489 = new class_167(param1[class_73.method_2108(class_170.var_6731)] / class_73.method_2108(class_162.var_6351),param1[class_102.var_4852] / class_162.var_6351);
+            _loc2_.var_1489 = new class_167(param1[class_170.var_6731] / class_162.var_6351,param1[class_102.var_4852] / class_162.var_6351);
          }
          if(param1[class_146.var_6117])
          {
-            _loc2_.var_1501 = new class_167(param1[class_73.method_2108(class_162.var_6346)] / class_162.var_6351,param1[class_170.var_6720] / class_73.method_2108(class_162.var_6351));
+            _loc2_.var_1501 = new class_167(param1[class_162.var_6346] / class_162.var_6351,param1[class_170.var_6720] / class_162.var_6351);
          }
-         if(param1[class_73.method_2108(class_117.var_5279)])
+         if(param1[class_117.var_5279])
          {
-            _loc2_.var_1502 = new class_167(param1[class_73.method_2108(class_181.var_6939)] / class_73.method_2108(class_162.var_6351),param1[class_183.var_7127] / class_162.var_6351);
+            _loc2_.var_1502 = new class_167(param1[class_181.var_6939] / class_162.var_6351,param1[class_183.var_7127] / class_162.var_6351);
          }
-         _loc2_.var_1495 = param1[class_73.method_2108(class_16.var_3467)];
-         _loc2_.var_1496 = param1[class_73.method_2108(class_121.var_5494)];
-         _loc2_.var_1491 = param1[class_73.method_2108(class_92.var_4628)];
-         _loc2_.var_1492 = param1[class_73.method_2108(class_170.var_6730)];
+         _loc2_.var_1495 = param1[class_16.var_3467];
+         _loc2_.var_1496 = param1[class_121.var_5494];
+         _loc2_.var_1491 = param1[class_92.var_4628];
+         _loc2_.var_1492 = param1[class_170.var_6730];
          _loc2_.couleur = param1[class_33.var_3675];
-         _loc2_.alpha = param1[class_73.method_2108(class_127.var_5865)];
-         _loc2_.var_1493 = param1[class_73.method_2108(class_9.var_3266)];
-         _loc2_.var_1494 = new class_167(param1[class_73.method_2108(class_9.var_3259)],param1[class_117.var_5280]);
+         _loc2_.alpha = param1[class_127.var_5865];
+         _loc2_.var_1493 = param1[class_9.var_3266];
+         _loc2_.var_1494 = new class_167(param1[class_9.var_3259],param1[class_117.var_5280]);
          if(param1[class_16.var_3473])
          {
-            _loc2_.var_682 = param1[class_73.method_2108(class_117.var_5265)];
+            _loc2_.var_682 = param1[class_117.var_5265];
          }
-         if(param1[class_73.method_2108(class_4.var_3043)])
+         if(param1[class_4.var_3043])
          {
-            _loc2_.var_1497 = param1[class_73.method_2108(class_4.var_3042)];
+            _loc2_.var_1497 = param1[class_4.var_3042];
          }
-         if(param1[class_73.method_2108(class_102.var_4826)])
+         if(param1[class_102.var_4826])
          {
-            _loc2_.var_1498 = param1[class_73.method_2108(class_162.var_6351)];
+            _loc2_.var_1498 = param1[class_162.var_6351];
          }
          if(param1[class_33.var_3668])
          {
-            _loc2_.var_1499 = param1[class_73.method_2108(class_124.var_5641)];
+            _loc2_.var_1499 = param1[class_124.var_5641];
          }
          if(param1[class_162.var_6322])
          {
             _loc2_.var_1500 = param1[class_9.var_3234];
          }
-         _loc2_.var_1503 = param1[class_73.method_2108(class_117.var_5264)];
+         _loc2_.var_1503 = param1[class_117.var_5264];
          this.method_396(_loc2_);
       }
       
@@ -2987,12 +2987,12 @@ package
             if(_loc2_.var_1285)
             {
                _loc3_ = this.var_555.indexOf(_loc2_.var_1285);
-               if(_loc3_ != -class_73.method_2108(class_33.var_3679))
+               if(_loc3_ != -class_33.var_3679)
                {
                   this.var_555.splice(_loc3_,class_33.var_3679);
                }
                _loc3_ = this.var_506.var_469.indexOf(_loc2_);
-               if(_loc3_ != -class_73.method_2108(class_33.var_3679))
+               if(_loc3_ != -class_33.var_3679)
                {
                   this.var_506.var_469.splice(_loc3_,class_33.var_3679);
                }
@@ -3031,22 +3031,22 @@ package
       public function method_405(param1:MouseEvent) : void
       {
          var _loc2_:MovieClip = param1.currentTarget as MovieClip;
-         if(_loc2_.name_94 == class_73.method_2111(class_107.var_4906))
+         if(_loc2_.name_94 == class_107.var_4906)
          {
             if(class_74.const_417 == class_58.var_2506)
             {
-               class_1.var_2884.var_53._Musique[class_73.method_2111(class_127.var_5771)]();
+               class_1.var_2884.var_53._Musique[class_127.var_5771]();
             }
             return;
          }
-         if(_loc2_.name_94 == class_73.method_2111(class_162.var_6344))
+         if(_loc2_.name_94 == class_162.var_6344)
          {
-            class_285.method_2848(class_73.method_2108(class_170.var_6731));
-            if(this.var_506.var_455 == class_73.method_2111(class_127.var_5738))
+            class_285.method_2848(class_170.var_6731);
+            if(this.var_506.var_455 == class_127.var_5738)
             {
                if(!class_1.var_2884.var_13.var_366)
                {
-                  if(class_114.method_2312(_loc2_.x,_loc2_.y,class_1.var_2884.var_13.x,class_1.var_2884.var_13.y) < class_73.method_2108(class_62.var_4130))
+                  if(class_114.method_2312(_loc2_.x,_loc2_.y,class_1.var_2884.var_13.x,class_1.var_2884.var_13.y) < class_62.var_4130)
                   {
                      class_1.var_2884.method_58(class_51.const_258 + class_51.const_257 + class_51.name_40 + _loc2_.parent.getChildIndex(_loc2_));
                   }
@@ -3105,7 +3105,7 @@ package
                      }
                      _loc7_.lineStyle(_loc10_.var_1492,_loc10_.couleur,_loc10_.alpha);
                      _loc7_.moveTo(_loc3_.var_304 * class_162.var_6351,_loc3_.var_305 * class_162.var_6351);
-                     _loc7_.lineTo(_loc4_.var_304 * class_162.var_6351,_loc4_.var_305 * class_73.method_2108(class_162.var_6351));
+                     _loc7_.lineTo(_loc4_.var_304 * class_162.var_6351,_loc4_.var_305 * class_162.var_6351);
                   }
                }
             }
@@ -3129,7 +3129,7 @@ package
                         _loc7_ = _loc5_;
                      }
                      _loc7_.lineStyle(_loc10_.var_1492,_loc10_.couleur,_loc10_.alpha);
-                     _loc7_.moveTo(_loc3_.var_304 * class_73.method_2108(class_162.var_6351),_loc3_.var_305 * class_162.var_6351);
+                     _loc7_.moveTo(_loc3_.var_304 * class_162.var_6351,_loc3_.var_305 * class_162.var_6351);
                      _loc7_.lineTo(_loc4_.var_304 * class_162.var_6351,_loc4_.var_305 * class_162.var_6351);
                   }
                }
@@ -3157,9 +3157,9 @@ package
                      }
                      _loc7_.lineStyle(_loc10_.var_1492,_loc10_.couleur,_loc10_.alpha);
                      _loc7_.moveTo(_loc3_.var_304 * class_162.var_6351,_loc3_.var_305 * class_162.var_6351);
-                     _loc7_.lineTo(_loc15_.var_304 * class_73.method_2108(class_162.var_6351),_loc15_.var_305 * class_162.var_6351);
-                     _loc7_.lineTo(_loc16_.var_304 * class_73.method_2108(class_162.var_6351),_loc16_.var_305 * class_73.method_2108(class_162.var_6351));
-                     _loc7_.lineTo(_loc4_.var_304 * class_73.method_2108(class_162.var_6351),_loc4_.var_305 * class_162.var_6351);
+                     _loc7_.lineTo(_loc15_.var_304 * class_162.var_6351,_loc15_.var_305 * class_162.var_6351);
+                     _loc7_.lineTo(_loc16_.var_304 * class_162.var_6351,_loc16_.var_305 * class_162.var_6351);
+                     _loc7_.lineTo(_loc4_.var_304 * class_162.var_6351,_loc4_.var_305 * class_162.var_6351);
                   }
                }
             }
@@ -3183,8 +3183,8 @@ package
                         _loc7_ = _loc5_;
                      }
                      _loc7_.lineStyle(_loc10_.var_1492,_loc10_.couleur,_loc10_.alpha);
-                     _loc7_.moveTo(_loc3_.var_304 * class_73.method_2108(class_162.var_6351),_loc3_.var_305 * class_162.var_6351);
-                     _loc7_.lineTo(_loc4_.var_304 * class_73.method_2108(class_162.var_6351),_loc4_.var_305 * class_73.method_2108(class_162.var_6351));
+                     _loc7_.moveTo(_loc3_.var_304 * class_162.var_6351,_loc3_.var_305 * class_162.var_6351);
+                     _loc7_.lineTo(_loc4_.var_304 * class_162.var_6351,_loc4_.var_305 * class_162.var_6351);
                   }
                }
             }
@@ -3197,7 +3197,7 @@ package
          var _loc4_:int = 0;
          var _loc5_:class_147 = null;
          var _loc1_:int = this.var_506.var_456.length;
-         var _loc2_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc2_:int = -class_33.var_3679;
          while(++_loc2_ < _loc1_)
          {
             _loc3_ = this.var_506.var_456[_loc2_];
@@ -3226,7 +3226,7 @@ package
             }
             else
             {
-               _loc5_ = class_125.method_2386(_loc4_,class_73.method_2108(_loc3_.var_304),_loc3_.var_305,class_73.method_2108(_loc3_.rotation),class_183.var_7129,class_183.var_7129,_loc3_.var_1484);
+               _loc5_ = class_125.method_2386(_loc4_,_loc3_.var_304,_loc3_.var_305,_loc3_.rotation,class_183.var_7129,class_183.var_7129,_loc3_.var_1484);
                if(_loc5_)
                {
                   _loc5_.var_770 = _loc3_.var_1485;
@@ -3238,7 +3238,7 @@ package
       public function method_408(param1:class_281) : void
       {
          var _loc4_:class_281 = null;
-         var _loc2_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc2_:int = -class_33.var_3679;
          var _loc3_:int = this.var_509.length;
          while(++_loc2_ < _loc3_)
          {
@@ -3253,11 +3253,11 @@ package
          if(param1.var_305 == -class_121.var_5493)
          {
             class_114.method_2317(param1.var_304);
-            _loc2_ = class_73.method_2108(class_183.var_7129);
-            while(_loc2_ < class_73.method_2108(class_146.var_6117))
+            _loc2_ = class_183.var_7129;
+            while(_loc2_ < class_146.var_6117)
             {
-               param1.var_304 = class_73.method_2108(class_165.var_6506) + int(class_114.method_2305() * (this.var_506.var_426 - class_121.var_5493));
-               param1.var_305 = class_73.method_2108(class_165.var_6506) + int(class_114.method_2305() * (this.var_506.var_420 - class_73.method_2108(class_121.var_5493)));
+               param1.var_304 = class_165.var_6506 + int(class_114.method_2305() * (this.var_506.var_426 - class_121.var_5493));
+               param1.var_305 = class_165.var_6506 + int(class_114.method_2305() * (this.var_506.var_420 - class_121.var_5493));
                if(!this.var_541.hitTestPoint(param1.var_304,param1.var_305,true) && !this.var_543.hitTestPoint(param1.var_304,param1.var_305,true))
                {
                   break;

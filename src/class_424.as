@@ -84,7 +84,7 @@ package
          }
          this.var_1589 = param1.var_1503;
          this.var_1588 = _loc4_ + this.var_1589 * _loc5_;
-         this.var_753 = class_73.method_2116(class_107.var_4953);
+         this.var_753 = class_107.var_4953;
       }
       
       override public function method_483() : Boolean
@@ -94,7 +94,7 @@ package
          var _loc4_:Number = NaN;
          var _loc5_:Number = NaN;
          var _loc7_:Number = NaN;
-         var _loc1_:Number = class_73.method_2116(class_107.var_4953);
+         var _loc1_:Number = class_107.var_4953;
          _loc2_ = var_690;
          _loc3_ = var_691;
          if(this.var_1883)
@@ -193,7 +193,7 @@ package
          this.var_1887.method_671();
          if(this.var_1883)
          {
-            this.var_1887.var_2541 = -class_73.method_2116(class_121.var_5450);
+            this.var_1887.var_2541 = -class_121.var_5450;
             _loc14_ += _loc4_.var_746;
          }
          else
@@ -248,7 +248,7 @@ package
          }
          else
          {
-            this.var_753 = class_73.method_2116(class_107.var_4953);
+            this.var_753 = class_107.var_4953;
          }
       }
    }

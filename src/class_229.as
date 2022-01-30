@@ -95,7 +95,7 @@ package
          var _loc4_:Boolean = false;
          var _loc5_:class_250 = null;
          var _loc6_:Sprite = null;
-         super(class_107.var_5074,class_73.method_2108(class_60.var_3979));
+         super(class_107.var_5074,class_60.var_3979);
          if(class_1.const_44)
          {
             this.var_1188 = class_175.method_118(class_121.var_5429);
@@ -106,7 +106,7 @@ package
          }
          else if(class_1.const_47)
          {
-            this.var_1188 = class_175.method_118(class_73.method_2111(class_102.var_4784));
+            this.var_1188 = class_175.method_118(class_102.var_4784);
          }
          else
          {
@@ -117,7 +117,7 @@ package
          {
             this.method_927(class_1.var_2878.var_186);
          }
-         var _loc1_:Number = class_73.method_2108(class_33.var_3679) / class_146.var_6118;
+         var _loc1_:Number = class_33.var_3679 / class_146.var_6118;
          if(class_1.const_44)
          {
             this.var_1196 = new MovieClip();
@@ -125,25 +125,25 @@ package
          else if(class_1.const_46)
          {
             this.var_1196 = class_175.method_118(class_170.var_6666);
-            this.var_1196.scaleX = class_73.method_2116(class_146.var_6072);
-            this.var_1196.scaleY = class_73.method_2116(class_146.var_6072);
-            this.var_1196.x = class_73.method_2108(class_146.var_6049);
+            this.var_1196.scaleX = class_146.var_6072;
+            this.var_1196.scaleY = class_146.var_6072;
+            this.var_1196.x = class_146.var_6049;
             this.var_1196.y = class_92.var_4615;
          }
          else if(class_1.const_47)
          {
             this.var_1196 = class_175.method_118(class_33.var_3602);
-            this.var_1196.scaleX = class_73.method_2116(class_181.var_6904);
-            this.var_1196.scaleY = class_73.method_2116(class_181.var_6904);
+            this.var_1196.scaleX = class_181.var_6904;
+            this.var_1196.scaleY = class_181.var_6904;
             this.var_1196.x = class_62.var_4090;
             this.var_1196.y = class_162.var_6351;
          }
          else
          {
             this.var_1196 = class_175.method_118(class_181.var_6883);
-            this.var_1196.width = class_73.method_2108(class_127.var_5850);
-            this.var_1196.height = class_73.method_2108(class_16.var_3439);
-            this.var_1196.x = class_73.method_2108(class_146.var_6049);
+            this.var_1196.width = class_127.var_5850;
+            this.var_1196.height = class_16.var_3439;
+            this.var_1196.x = class_146.var_6049;
             this.var_1196.y = class_92.var_4615;
          }
          this.var_1196.mouseChildren = class_99.var_4682;
@@ -153,7 +153,7 @@ package
          this.var_1196.addEventListener(MouseEvent.MOUSE_DOWN,this.method_923);
          addChild(this.var_1196);
          this.var_1189 = new TextField();
-         this.var_1189.defaultTextFormat = new TextFormat(class_73.method_2111(class_60.var_3917),class_73.method_2108(class_170.var_6720),11990348,null,null,null,null,null,TextFormatAlign.CENTER);
+         this.var_1189.defaultTextFormat = new TextFormat(class_60.var_3917,class_170.var_6720,11990348,null,null,null,null,null,TextFormatAlign.CENTER);
          var _loc2_:MovieClip = this.var_1188.x_pos_login as MovieClip;
          if(_loc2_)
          {
@@ -164,7 +164,7 @@ package
          else
          {
             this.var_1189.x = class_165.var_6491;
-            this.var_1189.y = class_73.method_2108(class_107.var_5032);
+            this.var_1189.y = class_107.var_5032;
          }
          this.var_1189.width = class_170.var_6694;
          this.var_1189.height = class_170.var_6730;
@@ -176,7 +176,7 @@ package
          this.var_1189.addEventListener(FocusEvent.FOCUS_IN,method_355);
          this.var_1189.addEventListener(FocusEvent.FOCUS_OUT,method_361);
          this.var_1190 = new TextField();
-         this.var_1190.defaultTextFormat = new TextFormat(class_73.method_2111(class_60.var_3917),class_170.var_6720,16087296,null,null,null,null,null,TextFormatAlign.CENTER);
+         this.var_1190.defaultTextFormat = new TextFormat(class_60.var_3917,class_170.var_6720,16087296,null,null,null,null,null,TextFormatAlign.CENTER);
          var _loc3_:MovieClip = this.var_1188.x_pos_mdp as MovieClip;
          if(_loc3_)
          {
@@ -190,13 +190,13 @@ package
             this.var_1190.y = class_60.var_3972;
          }
          this.var_1190.width = class_170.var_6694;
-         this.var_1190.height = class_73.method_2108(class_170.var_6730);
+         this.var_1190.height = class_170.var_6730;
          this.var_1190.multiline = class_99.var_4682;
          this.var_1190.wordWrap = class_99.var_4682;
          this.var_1190.type = TextFieldType.INPUT;
          addChild(this.var_1190);
          this.var_730 = new TextField();
-         this.var_730.defaultTextFormat = new TextFormat(class_73.method_2111(class_60.var_3917),class_170.var_6720,13743497,null,null,null,null,null,TextFormatAlign.CENTER);
+         this.var_730.defaultTextFormat = new TextFormat(class_60.var_3917,class_170.var_6720,13743497,null,null,null,null,null,TextFormatAlign.CENTER);
          this.var_730.x = class_102.var_4822;
          this.var_730.y = class_107.var_5052;
          this.var_730.width = class_62.var_4103;
@@ -208,7 +208,7 @@ package
          addChild(this.var_730);
          this.var_1208 = new class_553();
          addChild(this.var_1208);
-         this.var_1208.x = this.var_1189.x + (this.var_1189.width - this.var_1208.name_5) / class_73.method_2108(class_165.var_6534);
+         this.var_1208.x = this.var_1189.x + (this.var_1189.width - this.var_1208.name_5) / class_165.var_6534;
          this.var_1208.y = class_162.var_6323;
          class_64.method_2090(this.var_1208.method_1575);
          class_65.method_2090(this.var_1208.method_1576);
@@ -234,7 +234,7 @@ package
          this.var_1207 = this.var_1206.x_texte;
          this.var_1201 = this.var_1188.x_fullscreen;
          this.var_1198 = this.var_1188.x_version;
-         this.var_1198.text = class_73.method_2111(class_102.var_4860) + class_1.var_2884.var_1;
+         this.var_1198.text = class_102.var_4860 + class_1.var_2884.var_1;
          this.var_1189.restrict = class_248.const_651 + class_248.const_652 + class_121.var_5428;
          if(this.var_1191)
          {
@@ -290,12 +290,12 @@ package
          this.var_1206.addEventListener(MouseEvent.MOUSE_DOWN,this.method_932);
          this.var_1200 = new Sprite();
          this.var_1200.graphics.beginFill(class_183.var_7129,class_183.var_7129);
-         this.var_1200.graphics.drawRect(class_73.method_2108(class_183.var_7129),-class_73.method_2108(class_170.var_6731),this.var_1199.width,this.var_1199.height + class_73.method_2108(class_170.var_6731));
+         this.var_1200.graphics.drawRect(class_183.var_7129,-class_170.var_6731,this.var_1199.width,this.var_1199.height + class_170.var_6731);
          this.var_1199.addChild(this.var_1200);
          this.var_1199.visible = class_99.var_4682;
          this.var_1189.mouseEnabled = class_99.var_4681;
          this.var_1189.type = TextFieldType.INPUT;
-         class_249.name_6(this.var_1188,class_9.var_3196,class_9.var_3259,class_73.method_2116(class_107.var_4993),false);
+         class_249.name_6(this.var_1188,class_9.var_3196,class_9.var_3259,class_107.var_4993,false);
          if(this.var_1193)
          {
             _loc4_ = class_99.var_4682;
@@ -311,7 +311,7 @@ package
             }
             if(class_1.var_2878.var_200 && !class_1.var_2878.var_186 && !class_1.var_2878.var_190)
             {
-               this.method_921(class_175.method_2618(class_73.method_2111(class_4.var_3004) + class_1.var_2878.var_200 + class_117.var_5274));
+               this.method_921(class_175.method_2618(class_4.var_3004 + class_1.var_2878.var_200 + class_117.var_5274));
             }
             else if(this.var_1193.parent)
             {
@@ -324,12 +324,12 @@ package
          {
             try
             {
-               _loc5_ = new class_250(class_92.var_4579 + class_1.var_2878.var_191,class_73.method_2108(class_4.var_3003),class_73.method_2108(class_170.var_6665));
+               _loc5_ = new class_250(class_92.var_4579 + class_1.var_2878.var_191,class_4.var_3003,class_170.var_6665);
                _loc5_.mouseChildren = class_99.var_4682;
                _loc5_.x = class_162.var_6327;
                _loc5_.y = class_121.var_5493;
                _loc5_.method_203(class_18.method_1884,class_9.var_3195 + class_1.var_2878.var_190);
-               _loc6_ = class_175.method_118(class_73.method_2111(class_121.var_5425));
+               _loc6_ = class_175.method_118(class_121.var_5425);
                _loc6_.width = _loc5_.name_5;
                _loc6_.height = _loc5_.var_206;
                _loc5_.addChild(_loc6_);
@@ -343,12 +343,12 @@ package
          {
             this.var_1209 = new class_516(class_8.method_1851);
             this.var_1209.var_401.defaultTextFormat = new TextFormat(class_26.var_3500,class_102.var_4852,13743497,null,null,null,null,null,TextFormatAlign.CENTER);
-            this.var_1209.var_401.text = class_73.method_2111(class_127.var_5822);
+            this.var_1209.var_401.text = class_127.var_5822;
             this.var_1209.var_401.width = class_121.var_5495 + this.var_1209.var_401.textWidth;
-            this.var_1211 = new class_24(class_73.method_2108(class_121.var_5493),class_33.var_3675);
+            this.var_1211 = new class_24(class_121.var_5493,class_33.var_3675);
             this.var_1211.method_136(this.var_1209);
             this.var_1211.method_241(this.var_1211.method_217(false),this.var_1211.var_206);
-            this.var_1211.x = this.var_730.x + this.var_730.width / class_73.method_2108(class_165.var_6534) - this.var_1211.name_5 / class_165.var_6534;
+            this.var_1211.x = this.var_730.x + this.var_730.width / class_165.var_6534 - this.var_1211.name_5 / class_165.var_6534;
             this.var_1211.y = this.var_730.y + class_162.var_6351;
          }
          if(var_2238)
@@ -366,10 +366,10 @@ package
       public function method_912(param1:int) : void
       {
          var _loc2_:Bitmap = null;
-         _loc2_ = class_175.method_2618(class_73.method_2111(class_89.var_4386) + param1 + class_73.method_2111(class_117.var_5274));
-         _loc2_.x = class_73.method_2108(class_102.var_4786);
+         _loc2_ = class_175.method_2618(class_89.var_4386 + param1 + class_117.var_5274);
+         _loc2_.x = class_102.var_4786;
          _loc2_.y = class_33.var_3675;
-         _loc2_.filters = new Array(new DropShadowFilter(class_165.var_6534,class_73.method_2108(class_107.var_5038),class_183.var_7129,class_73.method_2108(class_33.var_3679),class_146.var_6118,class_73.method_2108(class_146.var_6118),class_73.method_2108(class_33.var_3679),class_146.var_6118));
+         _loc2_.filters = new Array(new DropShadowFilter(class_165.var_6534,class_107.var_5038,class_183.var_7129,class_33.var_3679,class_146.var_6118,class_146.var_6118,class_33.var_3679,class_146.var_6118));
          this.var_1188.addChild(_loc2_);
       }
       
@@ -378,7 +378,7 @@ package
          this.method_352(true);
          class_52.var_2884.method_342(this.var_730.text);
          var _loc2_:String = !!this.var_1212 ? class_9.var_3268 : this.var_1189.text;
-         class_52.var_2884.method_336(_loc2_,class_73.method_2111(class_9.var_3268),class_157.NORMAL);
+         class_52.var_2884.method_336(_loc2_,class_9.var_3268,class_157.NORMAL);
       }
       
       public function method_266(param1:String) : void
@@ -401,7 +401,7 @@ package
          var _loc1_:String = class_183.var_7128 + class_26.var_3500 + class_33.var_3677;
          if(this.var_1212)
          {
-            this.var_1189.htmlText = _loc1_ + class_26.method_1668(!!class_1.var_2871 ? class_73.method_2111(class_165.var_6455) : class_9.var_3198);
+            this.var_1189.htmlText = _loc1_ + class_26.method_1668(!!class_1.var_2871 ? class_165.var_6455 : class_9.var_3198);
          }
          if(this.var_1213)
          {
@@ -409,9 +409,9 @@ package
          }
          this.var_1202.htmlText = _loc1_ + class_170.var_6669 + class_26.method_1668(class_107.var_5045);
          this.var_1203.htmlText = _loc1_ + class_170.var_6669 + class_26.method_1668(class_107.var_4995);
-         this.var_1203.y = class_73.method_2108(class_117.var_5264) < this.var_1203.textHeight ? Number(class_73.method_2108(class_170.var_6731)) : Number(class_73.method_2108(class_92.var_4628));
-         this.var_1205.htmlText = _loc1_ + class_73.method_2111(class_170.var_6669) + class_26.method_1668(class_73.method_2111(class_183.var_7069));
-         this.var_1205.y = class_117.var_5264 < this.var_1205.textHeight ? Number(class_170.var_6731) : Number(class_73.method_2108(class_92.var_4628));
+         this.var_1203.y = class_117.var_5264 < this.var_1203.textHeight ? Number(class_170.var_6731) : Number(class_92.var_4628);
+         this.var_1205.htmlText = _loc1_ + class_170.var_6669 + class_26.method_1668(class_183.var_7069);
+         this.var_1205.y = class_117.var_5264 < this.var_1205.textHeight ? Number(class_170.var_6731) : Number(class_92.var_4628);
          this.var_1207.htmlText = _loc1_ + class_26.method_1668(class_107.var_4994);
          class_241.method_208(this.var_1200,class_26.method_1668(class_4.var_3005));
          if(this.var_1208)
@@ -438,13 +438,13 @@ package
       {
          if(!parent)
          {
-            removeEventListener(class_73.method_2111(class_124.var_5632),this.method_521);
+            removeEventListener(class_124.var_5632,this.method_521);
             return;
          }
          this.var_1215.method_476();
          if(this.var_1217 && this.var_1216 && this.var_1216.alpha < class_33.var_3679 && !class_61.name_62 && class_1.method_1816() - class_61.name_49 > class_117.var_5288)
          {
-            this.var_1216.alpha += class_73.method_2116(class_170.var_6678);
+            this.var_1216.alpha += class_170.var_6678;
          }
       }
       
@@ -466,12 +466,12 @@ package
          else
          {
             _loc2_ = new Sprite();
-            _loc3_ = class_175.method_2618(class_4.var_3004 + class_1.var_2878.var_200 + class_73.method_2111(class_117.var_5274));
+            _loc3_ = class_175.method_2618(class_4.var_3004 + class_1.var_2878.var_200 + class_117.var_5274);
             _loc2_.addChild(_loc3_);
-            _loc2_.x = class_73.method_2108(class_121.var_5493);
+            _loc2_.x = class_121.var_5493;
             _loc2_.y = class_107.var_5037;
             addChild(_loc2_);
-            _loc2_.addEventListener(MouseEvent.MOUSE_DOWN,this.method_914,false,class_73.method_2108(class_183.var_7129),true);
+            _loc2_.addEventListener(MouseEvent.MOUSE_DOWN,this.method_914,false,class_183.var_7129,true);
          }
       }
       
@@ -480,7 +480,7 @@ package
          if(!this.var_1218)
          {
             this.var_1218 = new class_552();
-            this.var_1218.method_967(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),class_107.var_5074,class_60.var_3979);
+            this.var_1218.method_967(class_183.var_7129,class_183.var_7129,class_107.var_5074,class_60.var_3979);
          }
          this.var_1218.method_1272();
          addChild(this.var_1218);
@@ -496,7 +496,7 @@ package
          if(this.var_1212)
          {
             this.var_1212 = class_99.var_4682;
-            this.var_1189.text = class_73.method_2111(class_9.var_3268);
+            this.var_1189.text = class_9.var_3268;
          }
       }
       
@@ -540,7 +540,7 @@ package
          }
          else
          {
-            var_485 = class_26.method_1668(!!class_1.var_2871 ? class_73.method_2111(class_165.var_6455) : class_9.var_3198);
+            var_485 = class_26.method_1668(!!class_1.var_2871 ? class_165.var_6455 : class_9.var_3198);
             this.var_1212 = class_99.var_4681;
          }
       }
@@ -549,7 +549,7 @@ package
       {
          while(this.var_291.numChildren)
          {
-            this.var_291.removeChildAt(class_73.method_2108(class_183.var_7129));
+            this.var_291.removeChildAt(class_183.var_7129);
          }
          var _loc2_:class_250 = class_141.method_92(param1,class_60.var_3939);
          _loc2_.method_966(class_165.var_6534,class_165.var_6534);
@@ -574,7 +574,7 @@ package
          }
          while(this.var_1194.numChildren)
          {
-            this.var_1194.removeChildAt(class_73.method_2108(class_183.var_7129));
+            this.var_1194.removeChildAt(class_183.var_7129);
          }
          this.var_1194.addChild(param1);
          if(class_1.var_2878.var_200)
@@ -590,8 +590,8 @@ package
          this.method_352(true);
          method_360(this.var_1190.text);
          var _loc2_:String = !!this.var_1212 ? class_9.var_3268 : this.var_1189.text;
-         _loc2_ = _loc2_.split(class_73.method_2111(class_107.var_5071)).join(class_9.var_3268).split(class_73.method_2111(class_33.var_3678)).join(class_73.method_2111(class_9.var_3268));
-         var _loc3_:String = this.var_1213 || this.var_1190.text == class_73.method_2111(class_9.var_3268) ? class_9.var_3268 : class_13.method_1867(this.var_1190.text);
+         _loc2_ = _loc2_.split(class_107.var_5071).join(class_9.var_3268).split(class_33.var_3678).join(class_9.var_3268);
+         var _loc3_:String = this.var_1213 || this.var_1190.text == class_9.var_3268 ? class_9.var_3268 : class_13.method_1867(this.var_1190.text);
          class_52.var_2884.method_342(this.var_730.text);
          method_336(_loc2_,_loc3_,!!class_216.var_7159 ? class_157.const_564 : class_157.NORMAL);
       }
@@ -611,10 +611,10 @@ package
          {
             if(class_111.var_5093 == class_157.const_567 || class_111.var_5093 == class_157.const_566)
             {
-               _loc3_ = new class_315(class_102.var_4850,class_26.method_1668(class_165.var_6454,class_26.method_1668(class_111.var_5093 == class_157.const_566 ? class_73.method_2111(class_102.var_4785) : class_33.var_3604)));
-               _loc3_.method_1100(class_26.method_1668(class_73.method_2111(class_165.var_6480)),this.method_916);
+               _loc3_ = new class_315(class_102.var_4850,class_26.method_1668(class_165.var_6454,class_26.method_1668(class_111.var_5093 == class_157.const_566 ? class_102.var_4785 : class_33.var_3604)));
+               _loc3_.method_1100(class_26.method_1668(class_165.var_6480),this.method_916);
                _loc3_.method_1107(class_26.method_1668(class_117.var_5241),this.method_920,param2);
-               _loc3_.method_967(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),class_107.var_5074,class_73.method_2108(class_60.var_3979));
+               _loc3_.method_967(class_183.var_7129,class_183.var_7129,class_107.var_5074,class_60.var_3979);
                addChild(_loc3_);
             }
             else
@@ -627,7 +627,7 @@ package
             this.method_264(param2);
             if(this.var_287 && this.var_287.parent)
             {
-               this.var_287.method_1578(class_26.method_1668(class_73.method_2111(class_107.var_4996)));
+               this.var_287.method_1578(class_26.method_1668(class_107.var_4996));
                class_229.method_1894(this.var_287,true);
             }
          }
@@ -641,7 +641,7 @@ package
          }
          else if(class_52.const_273 == param1)
          {
-            this.method_515(class_26.method_1668(class_73.method_2111(class_162.var_6295)));
+            this.method_515(class_26.method_1668(class_162.var_6295));
          }
          else if(class_52.name_61 == param1)
          {
@@ -683,7 +683,7 @@ package
       {
          if(class_1.const_43)
          {
-            class_18.method_1884(class_73.method_2111(class_60.var_3930));
+            class_18.method_1884(class_60.var_3930);
          }
          else if(class_1.const_44)
          {
@@ -743,7 +743,7 @@ package
          {
             this.var_1216.removeEventListener(Event.COMPLETE,this.method_913);
          }
-         this.var_1216 = class_175.method_2618(class_73.method_2111(class_4.var_3004) + param1);
+         this.var_1216 = class_175.method_2618(class_4.var_3004 + param1);
          this.var_1216.alpha = class_183.var_7129;
          this.var_1216.addEventListener(Event.COMPLETE,this.method_913);
          this.var_1188.addChildAt(this.var_1216,class_165.var_6534);
@@ -781,25 +781,25 @@ package
             var_7544 = class_17.var_2884.lecture(class_17.const_68);
             if(!var_7544)
             {
-               var_7544 = class_73.method_2111(class_170.var_6668);
+               var_7544 = class_170.var_6668;
             }
-            var_7483 = var_7544.split(class_73.method_2111(class_165.var_6522));
+            var_7483 = var_7544.split(class_165.var_6522);
             var_790 = new Vector.<int>();
             var_790.push(int(var_7483[class_146.var_6118]),class_183.var_7129);
-            this.var_1215 = new class_116(class_124.var_5589,class_73.method_2108(class_16.var_3441),class_73.method_2108(class_121.var_5493),class_73.method_2108(class_107.var_5068));
-            this.var_1215.scaleX = -class_73.method_2108(class_33.var_3679);
+            this.var_1215 = new class_116(class_124.var_5589,class_16.var_3441,class_121.var_5493,class_107.var_5068);
+            this.var_1215.scaleX = -class_33.var_3679;
             if(class_1.var_2878.var_186)
             {
                this.var_1215.visible = class_99.var_4682;
             }
             addChild(this.var_1215);
-            addEventListener(class_124.var_5632,this.method_521,false,class_73.method_2108(class_183.var_7129),true);
+            addEventListener(class_124.var_5632,this.method_521,false,class_183.var_7129,true);
             class_150.method_2522(1,"AnimStatique",var_7483[1],var_7483[2],var_7483[0],var_790,false,false,function(param1:Vector.<class_75>):void
             {
                var _loc2_:class_75 = param1[class_183.var_7129];
                var _loc3_:class_27 = new class_27(_loc2_);
-               _loc3_.var_304 = class_73.method_2108(class_165.var_6506);
-               _loc3_.var_305 = class_73.method_2108(class_107.var_5038);
+               _loc3_.var_304 = class_165.var_6506;
+               _loc3_.var_305 = class_107.var_5038;
                var_1215.var_659.push(_loc3_);
                var_1215.var_660 = class_99.var_4681;
             });
@@ -811,9 +811,9 @@ package
       
       override public function method_354() : void
       {
-         var var_1421:class_250 = new class_250(class_73.method_2111(class_62.var_4091),class_181.var_6920,class_73.method_2108(class_117.var_5250));
-         var_1421.x = -(class_146.var_6117 + var_1421.name_5) + class_73.method_2108(class_107.var_5074);
-         var_1421.y = -(var_1421.var_206 + class_73.method_2108(class_146.var_6117)) + class_73.method_2108(class_60.var_3979);
+         var var_1421:class_250 = new class_250(class_62.var_4091,class_181.var_6920,class_117.var_5250);
+         var_1421.x = -(class_146.var_6117 + var_1421.name_5) + class_107.var_5074;
+         var_1421.y = -(var_1421.var_206 + class_146.var_6117) + class_60.var_3979;
          var_1421.method_203(function():void
          {
             class_18.method_1884(class_92.var_4581);
@@ -825,15 +825,15 @@ package
       {
          if(class_101.method_2250())
          {
-            class_18.method_1884(class_73.method_2111(class_170.var_6667));
+            class_18.method_1884(class_170.var_6667);
          }
          else if(class_101.method_2253())
          {
-            class_18.method_1884(class_73.method_2111(class_89.var_4367));
+            class_18.method_1884(class_89.var_4367);
          }
          else
          {
-            class_18.method_1884(class_73.method_2111(class_33.var_3603));
+            class_18.method_1884(class_33.var_3603);
          }
       }
       
@@ -862,7 +862,7 @@ package
          this.var_287.method_1578(null);
          this.var_287.method_1579(param1);
          this.var_287.x = (class_1.var_2880 - this.var_287.name_5) / class_165.var_6534;
-         this.var_287.y = (class_1.var_2882 - this.var_287.var_206) / class_73.method_2108(class_165.var_6534);
+         this.var_287.y = (class_1.var_2882 - this.var_287.var_206) / class_165.var_6534;
          addChild(this.var_287);
          this.var_287.method_936();
       }
@@ -872,7 +872,7 @@ package
          if(this.var_1213)
          {
             this.var_1213 = class_99.var_4682;
-            this.var_1190.text = class_73.method_2111(class_9.var_3268);
+            this.var_1190.text = class_9.var_3268;
             this.var_1190.displayAsPassword = class_99.var_4681;
             this.var_1190.textColor = 16087296;
          }

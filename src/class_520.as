@@ -23,13 +23,13 @@ package
          var _loc2_:int = this.var_2041.indexOf(param1);
          if(_loc2_ != -class_33.var_3679)
          {
-            this.var_2041.splice(_loc2_,class_73.method_2108(class_33.var_3679));
+            this.var_2041.splice(_loc2_,class_33.var_3679);
          }
       }
       
       public function method_1513(param1:class_205) : class_520
       {
-         if(this.var_2041.indexOf(param1) != -class_73.method_2108(class_33.var_3679))
+         if(this.var_2041.indexOf(param1) != -class_33.var_3679)
          {
             this.var_2041.splice(this.var_2041.indexOf(param1),class_33.var_3679);
          }

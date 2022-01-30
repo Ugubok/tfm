@@ -14,7 +14,7 @@ package
       {
          super(param1);
          this.var_1923 = param1.readUnsignedShort();
-         var _loc2_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc2_:int = -class_33.var_3679;
          var _loc3_:int = param1.readUnsignedByte();
          this.var_1924 = new Array();
          while(++_loc2_ < _loc3_)
@@ -29,11 +29,11 @@ package
          var _loc4_:int = 0;
          var _loc5_:int = 0;
          var _loc2_:int = param1.readByte();
-         if(class_73.method_2108(class_183.var_7129) == _loc2_)
+         if(class_183.var_7129 == _loc2_)
          {
             return null;
          }
-         if(_loc2_ == class_73.method_2108(class_33.var_3679))
+         if(_loc2_ == class_33.var_3679)
          {
             return param1.readBoolean();
          }
@@ -49,7 +49,7 @@ package
          {
             return param1.readInt();
          }
-         if(_loc2_ == class_73.method_2108(class_117.var_5287))
+         if(_loc2_ == class_117.var_5287)
          {
             return param1.readDouble();
          }
@@ -61,11 +61,11 @@ package
          {
             return param1.readUTF();
          }
-         if(_loc2_ == class_73.method_2108(class_170.var_6731))
+         if(_loc2_ == class_170.var_6731)
          {
             _loc3_ = new Array();
             _loc4_ = param1.readUnsignedShort();
-            _loc5_ = -class_73.method_2108(class_33.var_3679);
+            _loc5_ = -class_33.var_3679;
             while(++_loc5_ < _loc4_)
             {
                _loc3_.push(this.method_1373(param1));

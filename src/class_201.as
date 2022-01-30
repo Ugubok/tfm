@@ -49,11 +49,11 @@ package
       
       override public function method_801() : int
       {
-         if(var_1023 > class_73.method_2108(class_170.var_6695))
+         if(var_1023 > class_170.var_6695)
          {
-            return var_1024 * class_181.var_6922 + var_1023 + class_73.method_2108(class_181.var_6922);
+            return var_1024 * class_181.var_6922 + var_1023 + class_181.var_6922;
          }
-         return var_1024 * class_73.method_2108(class_121.var_5493) + var_1023;
+         return var_1024 * class_121.var_5493 + var_1023;
       }
       
       override public function method_803() : Vector.<int>
@@ -64,7 +64,7 @@ package
          if(var_1029 > class_183.var_7129)
          {
             _loc2_ = class_21.method_1888(var_574);
-            _loc3_ = class_73.method_2108(class_183.var_7129);
+            _loc3_ = class_183.var_7129;
             while(_loc3_ < var_1029)
             {
                _loc1_[_loc3_] = !!_loc2_[_loc3_] ? int(_loc2_[_loc3_]) : int(class_183.var_7129);

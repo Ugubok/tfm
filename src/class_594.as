@@ -41,7 +41,7 @@ package
          if(this.var_2318.length && this.var_2318.charAt(class_183.var_7129) == class_9.var_3256)
          {
             _loc2_ = class_26.method_1668(this.var_2318);
-            _loc3_ = _loc2_.split(class_73.method_2111(class_107.var_5071));
+            _loc3_ = _loc2_.split(class_107.var_5071);
             _loc3_.shift();
             this.var_2318 = _loc3_.join(class_107.var_5071);
          }

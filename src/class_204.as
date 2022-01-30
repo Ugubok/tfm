@@ -133,7 +133,7 @@ package
       public static function method_2757(param1:class_413) : Boolean
       {
          var _loc3_:class_413 = null;
-         if(class_204.const_616.indexOf(param1.var_1781) != -class_73.method_2108(class_33.var_3679))
+         if(class_204.const_616.indexOf(param1.var_1781) != -class_33.var_3679)
          {
             return false;
          }
@@ -244,9 +244,9 @@ package
       public function method_805(param1:class_520) : void
       {
          var _loc2_:int = this.var_1044.indexOf(param1);
-         if(_loc2_ != -class_73.method_2108(class_33.var_3679))
+         if(_loc2_ != -class_33.var_3679)
          {
-            this.var_1044.splice(_loc2_,class_73.method_2108(class_33.var_3679));
+            this.var_1044.splice(_loc2_,class_33.var_3679);
          }
          this.var_1044.push(param1);
       }
@@ -280,12 +280,12 @@ package
          }
          else if(param5 || param4)
          {
-            _loc7_ = class_73.method_2108(class_183.var_7129);
+            _loc7_ = class_183.var_7129;
             while(_loc7_ < param1.var_1050.length)
             {
                if(!param1.var_1050[_loc7_].method_1274())
                {
-                  if(!(!param5 && param1.var_1051.indexOf(param1.var_1050[_loc7_]) != -class_73.method_2108(class_33.var_3679)))
+                  if(!(!param5 && param1.var_1051.indexOf(param1.var_1050[_loc7_]) != -class_33.var_3679))
                   {
                      break;
                   }
@@ -293,7 +293,7 @@ package
                _loc7_++;
             }
          }
-         if(this.var_1043.indexOf(param1) == -class_73.method_2108(class_33.var_3679))
+         if(this.var_1043.indexOf(param1) == -class_33.var_3679)
          {
             this.var_1043.push(param1);
          }
@@ -321,7 +321,7 @@ package
          }
          while(param1.var_1050.length > class_204.const_615)
          {
-            this.method_810(param1,param1.var_1050[param1.var_1050.length - class_73.method_2108(class_33.var_3679)]);
+            this.method_810(param1,param1.var_1050[param1.var_1050.length - class_33.var_3679]);
          }
          var _loc8_:Vector.<class_413> = this.var_1041[param2.var_1781] as Vector.<class_413>;
          if(!_loc8_)
@@ -352,10 +352,10 @@ package
          var _loc5_:class_413 = null;
          var _loc6_:Vector.<class_413> = null;
          var _loc3_:Vector.<class_413> = new Vector.<class_413>();
-         var _loc4_:int = -class_73.method_2108(class_33.var_3679);
+         var _loc4_:int = -class_33.var_3679;
          if(null == param2)
          {
-            _loc4_ = class_73.method_2108(class_183.var_7129);
+            _loc4_ = class_183.var_7129;
             while(_loc4_ < param1.var_1050.length)
             {
                if(!param1.var_1050[_loc4_].method_1274())
@@ -373,25 +373,25 @@ package
          else
          {
             _loc4_ = param1.var_1050.indexOf(param2);
-            if(_loc4_ == -class_73.method_2108(class_33.var_3679))
+            if(_loc4_ == -class_33.var_3679)
             {
-               return -class_73.method_2108(class_33.var_3679);
+               return -class_33.var_3679;
             }
             if(param2.method_1274())
             {
                return -class_33.var_3679;
             }
             _loc3_.push(param2);
-            param1.var_1050.splice(_loc4_,class_73.method_2108(class_33.var_3679));
+            param1.var_1050.splice(_loc4_,class_33.var_3679);
          }
-         if(class_73.method_2108(class_183.var_7129) == param1.var_1050.length)
+         if(class_183.var_7129 == param1.var_1050.length)
          {
-            this.var_1043.splice(this.var_1043.indexOf(param1),class_73.method_2108(class_33.var_3679));
+            this.var_1043.splice(this.var_1043.indexOf(param1),class_33.var_3679);
          }
          for each(_loc5_ in _loc3_)
          {
             _loc6_ = this.var_1041[_loc5_.var_1781] as Vector.<class_413>;
-            _loc6_.splice(_loc6_.indexOf(_loc5_),class_73.method_2108(class_33.var_3679));
+            _loc6_.splice(_loc6_.indexOf(_loc5_),class_33.var_3679);
             if(class_183.var_7129 == _loc6_.length)
             {
                delete this.var_1041[_loc5_.var_1781];

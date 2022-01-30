@@ -23,7 +23,7 @@ package
          this.var_2727 = param1.readUnsignedShort();
          var _loc2_:int = param1.readByte();
          this.var_2728 = new Vector.<class_805>(_loc2_,true);
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < _loc2_)
          {
             _loc4_ = new class_805();

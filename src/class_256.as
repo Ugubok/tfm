@@ -18,7 +18,7 @@ package
       public static function method_2825(param1:class_168) : void
       {
          var _loc2_:Number = NaN;
-         if(param1.var_931 == class_183.var_7129 + class_73.method_2108(class_183.var_7129))
+         if(param1.var_931 == class_183.var_7129 + class_183.var_7129)
          {
             if(!param1.var_366)
             {
@@ -27,14 +27,14 @@ package
                   if(class_280.method_2838(class_60.method_2002() + class_60.method_2002(),param1.var_898.var_956) && class_280.method_2833(-class_4.method_1834() + class_89.method_2153()) && class_280.method_2833(param1.var_898.var_956))
                   {
                      _loc2_ = param1.var_925.var_756.var_305;
-                     if(class_280.method_2836(param1.var_883.var_956,class_256.const_136) && class_280.method_2833(class_73.method_2108(class_183.var_7129) * class_33.var_3679) && class_280.method_2833(param1.var_883.var_956))
+                     if(class_280.method_2836(param1.var_883.var_956,class_256.const_136) && class_280.method_2833(class_183.var_7129 * class_33.var_3679) && class_280.method_2833(param1.var_883.var_956))
                      {
                         param1.var_883.var_956 = param1.var_925.var_756.var_305 * class_33.var_3679;
                         param1.var_883.method_733(_loc2_);
                      }
                      else if(class_280.method_2836(param1.var_883.var_956,_loc2_) && class_280.method_2833(param1.var_883.var_956) && class_280.method_2833(param1.var_925.var_756.var_305))
                      {
-                        param1.var_883.var_956 = param1.var_925.var_756.var_305 + class_73.method_2108(class_183.var_7129);
+                        param1.var_883.var_956 = param1.var_925.var_756.var_305 + class_183.var_7129;
                         param1.var_883.method_733(_loc2_ + class_183.var_7129);
                      }
                      else

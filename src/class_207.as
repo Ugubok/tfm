@@ -5,11 +5,11 @@ package
    public class class_207
    {
       
-      public static const const_617:String = class_73.method_2111("base");
+      public static const const_617:String = "base";
       
-      public static const const_618:String = class_73.method_2111("forum");
+      public static const const_618:String = "forum";
       
-      public static const const_619:String = class_73.method_2111("tribu");
+      public static const const_619:String = "tribu";
       
       public static const const_620:String = "moderation";
        
@@ -35,24 +35,24 @@ package
             this.method_416(class_207.const_617,class_231.method_2798(class_231.method_2796(param1)));
             this.method_819(class_207.const_618,class_33.var_3605);
             this.method_819(class_207.const_619,class_92.var_4565);
-            this.method_819(class_207.const_620,class_73.method_2111(class_4.var_2990));
+            this.method_819(class_207.const_620,class_4.var_2990);
             if(param2)
             {
                this.method_820(class_207.const_617,class_162.var_6277,class_207.method_2768,param1);
-               this.method_820(class_207.const_617,class_73.method_2111(class_9.var_3176),class_207.method_2769,param1);
-               this.method_820(class_207.const_617,class_73.method_2111(class_127.var_5805),class_207.method_2764,param1);
+               this.method_820(class_207.const_617,class_9.var_3176,class_207.method_2769,param1);
+               this.method_820(class_207.const_617,class_127.var_5805,class_207.method_2764,param1);
                if(!class_154.var_6144.method_1454(param1) && (!class_154.var_6144.method_1444() || class_154.var_6144.method_1448().var_817.toLowerCase() != param1.toLowerCase()))
                {
                   this.method_820(class_207.const_617,class_183.var_7061,class_207.method_1356,param1);
                }
                if(!class_154.var_6144.method_1444())
                {
-                  this.method_820(class_207.const_617,class_73.method_2111(class_4.var_2989),class_207.method_2763,param1);
+                  this.method_820(class_207.const_617,class_4.var_2989,class_207.method_2763,param1);
                }
             }
             if(!class_111.name_71)
             {
-               this.method_820(class_207.const_618,class_73.method_2111(class_92.var_4564),class_207.method_2771,param1);
+               this.method_820(class_207.const_618,class_92.var_4564,class_207.method_2771,param1);
                this.method_820(class_207.const_618,class_16.var_3386,class_207.method_2766,param1);
             }
             if(class_154.var_6147.method_1405())
@@ -66,7 +66,7 @@ package
             }
             if(param2)
             {
-               this.method_820(class_207.const_620,class_73.method_2111(class_117.var_5202),class_207.method_2762,param1);
+               this.method_820(class_207.const_620,class_117.var_5202,class_207.method_2762,param1);
                this.method_820(class_207.const_620,class_162.var_6276,class_207.method_2767,param1);
             }
          }
@@ -80,7 +80,7 @@ package
       
       public static function method_2762(param1:String) : void
       {
-         class_207.method_2772(class_26.method_1668(class_73.method_2111(class_146.var_6035),param1),class_207.method_2761,param1);
+         class_207.method_2772(class_26.method_1668(class_146.var_6035,param1),class_207.method_2761,param1);
       }
       
       public static function method_2763(param1:String) : void
@@ -99,7 +99,7 @@ package
       
       public static function method_2766(param1:String) : void
       {
-         class_18.method_1883(class_73.method_2111(class_102.var_4771) + class_231.method_2799(param1),true);
+         class_18.method_1883(class_102.var_4771 + class_231.method_2799(param1),true);
       }
       
       public static function method_2767(param1:String) : void
@@ -129,16 +129,16 @@ package
       
       public static function method_2771(param1:String) : void
       {
-         class_18.method_1883(class_73.method_2111(class_16.var_3385) + class_231.method_2799(param1),true);
+         class_18.method_1883(class_16.var_3385 + class_231.method_2799(param1),true);
       }
       
       public static function method_2772(param1:String, param2:Function, param3:Object) : void
       {
          var _loc4_:class_315 = new class_315(class_124.var_5657,param1,true);
          _loc4_.method_1100(class_26.method_1668(class_165.var_6480),param2,param3);
-         _loc4_.method_1107(class_26.method_1668(class_73.method_2111(class_117.var_5241)));
+         _loc4_.method_1107(class_26.method_1668(class_117.var_5241));
          class_115.method_388(_loc4_);
-         _loc4_.method_967(class_73.method_2108(class_183.var_7129),class_33.var_3675,class_73.method_2108(class_107.var_5074),class_183.var_7096);
+         _loc4_.method_967(class_183.var_7129,class_33.var_3675,class_107.var_5074,class_183.var_7096);
       }
       
       public function method_431() : class_210
@@ -151,7 +151,7 @@ package
             for each(_loc1_ in this.var_1057)
             {
                _loc2_ = this.var_1056[_loc1_];
-               if(_loc2_.length > class_73.method_2108(class_33.var_3679))
+               if(_loc2_.length > class_33.var_3679)
                {
                   for each(_loc3_ in _loc2_)
                   {
@@ -175,7 +175,7 @@ package
          }
          if(param3)
          {
-            _loc4_.splice(class_73.method_2108(class_33.var_3679),class_183.var_7129,param2);
+            _loc4_.splice(class_33.var_3679,class_183.var_7129,param2);
          }
          else
          {

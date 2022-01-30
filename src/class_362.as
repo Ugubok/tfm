@@ -18,7 +18,7 @@ package
          {
             _loc3_ = param2.length;
             var_159.writeByte(_loc3_);
-            _loc4_ = class_73.method_2108(class_183.var_7129);
+            _loc4_ = class_183.var_7129;
             while(_loc4_ < _loc3_)
             {
                var_159.writeInt(param2[_loc4_]);

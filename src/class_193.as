@@ -47,7 +47,7 @@ package
       
       public function method_676() : class_193
       {
-         return new class_193(class_73.method_2108(class_183.var_7129),this.var_995,this.var_996);
+         return new class_193(class_183.var_7129,this.var_995,this.var_996);
       }
       
       public function method_757(param1:class_167, param2:Number, param3:Number) : class_167
@@ -104,15 +104,15 @@ package
       public function method_106() : void
       {
          this.var_995.var_304 = class_121.var_5450;
-         this.var_996.var_304 = class_73.method_2116(class_107.var_4953);
-         this.var_995.var_305 = class_73.method_2116(class_107.var_4953);
+         this.var_996.var_304 = class_107.var_4953;
+         this.var_995.var_305 = class_107.var_4953;
          this.var_996.var_305 = class_121.var_5450;
       }
       
       public function method_671() : void
       {
-         this.var_995.var_304 = class_73.method_2116(class_107.var_4953);
-         this.var_996.var_304 = class_73.method_2116(class_107.var_4953);
+         this.var_995.var_304 = class_107.var_4953;
+         this.var_996.var_304 = class_107.var_4953;
          this.var_995.var_305 = class_107.var_4953;
          this.var_996.var_305 = class_107.var_4953;
       }

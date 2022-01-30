@@ -39,12 +39,12 @@ package
       public function class_332()
       {
          this.var_1557 = class_121.var_5450;
-         this.var_1558 = class_73.method_2116(class_121.var_5450);
+         this.var_1558 = class_121.var_5450;
          this.var_1559 = class_121.var_5450;
          this.var_1560 = class_121.var_5450;
-         this.var_1561 = class_73.method_2116(class_121.var_5450);
+         this.var_1561 = class_121.var_5450;
          super();
-         this.var_1555 = class_73.method_2108(class_183.var_7129);
+         this.var_1555 = class_183.var_7129;
       }
       
       public function method_1133(param1:Array, param2:int, param3:class_714) : void
@@ -52,7 +52,7 @@ package
          this.var_1556.graphics.lineStyle(this.var_1558,param3.color,this.var_1559);
          this.var_1556.graphics.moveTo(param1[class_183.var_7129].var_304 * this.var_1557,param1[class_183.var_7129].var_305 * this.var_1557);
          this.var_1556.graphics.beginFill(param3.color,this.var_1560);
-         var _loc4_:int = class_73.method_2108(class_33.var_3679);
+         var _loc4_:int = class_33.var_3679;
          while(_loc4_ < param2)
          {
             this.var_1556.graphics.lineTo(param1[_loc4_].var_304 * this.var_1557,param1[_loc4_].var_305 * this.var_1557);
@@ -65,16 +65,16 @@ package
       public function method_1134(param1:class_3) : void
       {
          this.var_1556.graphics.lineStyle(this.var_1558,12303291,this.var_1559);
-         this.var_1556.graphics.moveTo((param1.position.var_304 - param1.R.var_995.var_304 * this.var_1561 / class_121.var_5495) * this.var_1557,(param1.position.var_305 - param1.R.var_995.var_305 * this.var_1561 / class_73.method_2108(class_121.var_5495)) * this.var_1557);
+         this.var_1556.graphics.moveTo((param1.position.var_304 - param1.R.var_995.var_304 * this.var_1561 / class_121.var_5495) * this.var_1557,(param1.position.var_305 - param1.R.var_995.var_305 * this.var_1561 / class_121.var_5495) * this.var_1557);
          this.var_1556.graphics.lineTo((param1.position.var_304 + this.var_1561 * param1.R.var_995.var_304 / class_121.var_5495) * this.var_1557,(param1.position.var_305 + param1.R.var_995.var_305 * this.var_1561 / class_121.var_5495) * this.var_1557);
-         this.var_1556.graphics.moveTo((param1.position.var_304 - this.var_1561 * param1.R.var_996.var_304 / class_73.method_2108(class_121.var_5495)) * this.var_1557,(param1.position.var_305 - this.var_1561 * param1.R.var_996.var_305 / class_121.var_5495) * this.var_1557);
+         this.var_1556.graphics.moveTo((param1.position.var_304 - this.var_1561 * param1.R.var_996.var_304 / class_121.var_5495) * this.var_1557,(param1.position.var_305 - this.var_1561 * param1.R.var_996.var_305 / class_121.var_5495) * this.var_1557);
          this.var_1556.graphics.lineTo((param1.position.var_304 + param1.R.var_996.var_304 * this.var_1561 / class_121.var_5495) * this.var_1557,(param1.position.var_305 + param1.R.var_996.var_305 * this.var_1561 / class_121.var_5495) * this.var_1557);
       }
       
       public function method_1135(param1:class_167, param2:Number, param3:class_167, param4:class_714) : void
       {
          this.var_1556.graphics.lineStyle(this.var_1558,param4.color,this.var_1559);
-         this.var_1556.graphics.moveTo(class_73.method_2108(class_183.var_7129),class_183.var_7129);
+         this.var_1556.graphics.moveTo(class_183.var_7129,class_183.var_7129);
          this.var_1556.graphics.beginFill(param4.color,this.var_1560);
          this.var_1556.graphics.drawCircle(param1.var_304 * this.var_1557,param1.var_305 * this.var_1557,param2 * this.var_1557);
          this.var_1556.graphics.endFill();
@@ -98,7 +98,7 @@ package
             this.var_1556.graphics.lineTo(param1[_loc4_].var_304 * this.var_1557,param1[_loc4_].var_305 * this.var_1557);
             _loc4_++;
          }
-         this.var_1556.graphics.lineTo(param1[class_73.method_2108(class_183.var_7129)].var_304 * this.var_1557,param1[class_183.var_7129].var_305 * this.var_1557);
+         this.var_1556.graphics.lineTo(param1[class_183.var_7129].var_304 * this.var_1557,param1[class_183.var_7129].var_305 * this.var_1557);
       }
       
       public function method_1138(param1:class_167, param2:class_167, param3:class_714) : void

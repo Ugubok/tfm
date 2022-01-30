@@ -46,7 +46,7 @@ package
       {
          this.var_1940 = class_183.var_7129;
          this.var_1942 = class_9.var_3268;
-         this.var_1943 = class_73.method_2108(class_183.var_7129);
+         this.var_1943 = class_183.var_7129;
          this.var_1817 = new Vector.<class_479>();
          this.var_1946 = new Dictionary();
          this.var_1948 = class_183.var_7129;
@@ -61,7 +61,7 @@ package
          var _loc6_:class_479 = null;
          this.var_1817 = param1;
          this.var_1945 = param2;
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          var _loc4_:int = this.var_1945.length;
          while(_loc3_ < _loc4_)
          {
@@ -83,7 +83,7 @@ package
                _loc5_++;
             }
          }
-         this.var_1952 = _loc5_ > class_73.method_2108(class_33.var_3679);
+         this.var_1952 = _loc5_ > class_33.var_3679;
       }
       
       public function method_1402(param1:Boolean) : String
@@ -100,7 +100,7 @@ package
          {
             this.method_1414(param1.var_1933);
          }
-         var _loc2_:int = class_73.method_2108(class_183.var_7129);
+         var _loc2_:int = class_183.var_7129;
          for each(_loc3_ in this.var_1817)
          {
             if(_loc3_.var_1933.var_2051)
@@ -108,11 +108,11 @@ package
                _loc2_++;
             }
          }
-         this.var_1952 = class_73.method_2108(class_33.var_3679) < _loc2_;
+         this.var_1952 = class_33.var_3679 < _loc2_;
          _loc4_ = this.var_1946[param1.var_817.toLowerCase()];
          if(_loc4_)
          {
-            this.var_1817.splice(this.var_1817.indexOf(_loc4_),class_73.method_2108(class_33.var_3679),param1);
+            this.var_1817.splice(this.var_1817.indexOf(_loc4_),class_33.var_3679,param1);
             this.var_1946[param1.var_817.toLowerCase()] = param1;
             if(_loc4_.var_1148)
             {
@@ -220,7 +220,7 @@ package
       
       public function method_1415() : String
       {
-         return class_73.method_2111(class_121.var_5417) + this.var_1941;
+         return class_121.var_5417 + this.var_1941;
       }
       
       public function method_1416(param1:Vector.<class_744>, param2:int, param3:int, param4:int) : void
@@ -243,7 +243,7 @@ package
          var _loc3_:int = 0;
          if(param1.var_2050 == this.var_1945.indexOf(param1))
          {
-            _loc3_ = param1.var_2050 + (!!param2 ? class_73.method_2108(class_33.var_3679) : -class_73.method_2108(class_33.var_3679));
+            _loc3_ = param1.var_2050 + (!!param2 ? class_33.var_3679 : -class_33.var_3679);
             class_154.method_2534(new class_779(class_154.method_2535(),param1.var_2050,_loc3_));
          }
       }
@@ -361,7 +361,7 @@ package
       
       public function method_1436() : void
       {
-         this.method_1419(class_183.var_7129,class_73.method_2111(class_9.var_3268),class_9.var_3268,class_183.var_7129);
+         this.method_1419(class_183.var_7129,class_9.var_3268,class_9.var_3268,class_183.var_7129);
          class_155.method_2540().method_624(this.method_1415());
       }
    }

@@ -20,9 +20,9 @@ package
          this.var_592 = new class_167();
          super();
          type = class_122.const_502;
-         this.length = class_73.method_2116(class_121.var_5450);
-         this.var_593 = class_73.method_2116(class_107.var_4953);
-         this.var_594 = class_73.method_2116(class_107.var_4953);
+         this.length = class_121.var_5450;
+         this.var_593 = class_107.var_4953;
+         this.var_594 = class_107.var_4953;
       }
       
       public function method_107(param1:class_147, param2:class_147, param3:class_167, param4:class_167) : void

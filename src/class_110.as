@@ -32,7 +32,7 @@ package
          }
          while(this.var_647.numChildren > class_183.var_7129)
          {
-            this.var_647.removeChildAt(class_73.method_2108(class_183.var_7129));
+            this.var_647.removeChildAt(class_183.var_7129);
          }
       }
       

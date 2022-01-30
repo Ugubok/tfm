@@ -25,7 +25,7 @@ package
          super(param1);
          this.var_363 = param1.readUTF();
          this.var_2445 = param1.readInt();
-         this.var_2446 = param1.readInt() * class_73.method_2108(class_4.var_3058);
+         this.var_2446 = param1.readInt() * class_4.var_3058;
          this.var_2447 = param1.readByte();
          this.var_1691 = param1.readByte();
          this.var_1941 = param1.readUTF();

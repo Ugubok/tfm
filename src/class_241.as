@@ -57,57 +57,57 @@ package
             }
             class_241.var_401.defaultTextFormat = _loc10_;
             class_241.var_401.multiline = class_99.var_4681;
-            class_241.var_401.width = class_73.method_2108(class_62.var_4130);
-            class_241.var_401.height = class_73.method_2108(class_33.var_3675);
+            class_241.var_401.width = class_62.var_4130;
+            class_241.var_401.height = class_33.var_3675;
             class_241.var_401.autoSize = TextFieldAutoSize.LEFT;
             class_241.var_401.styleSheet = class_1.var_2884.var_117;
             class_241.var_7174.addChild(class_241.var_401);
             if(class_1.var_2878.var_180.var_1080)
             {
                class_241.var_7175 = class_175.method_118(class_1.var_2878.var_180.var_1080);
-               class_241.var_7175.x = -class_73.method_2108(class_117.var_5287);
+               class_241.var_7175.x = -class_117.var_5287;
                class_241.var_7175.y = -class_117.var_5287;
-               class_241.var_7174.addChildAt(class_241.var_7175,class_73.method_2108(class_183.var_7129));
+               class_241.var_7174.addChildAt(class_241.var_7175,class_183.var_7129);
             }
          }
          _loc2_ = param1.currentTarget as DisplayObject;
-         var _loc3_:Array = _loc2_.name.split(class_73.method_2111(class_107.var_5027));
-         var _loc4_:int = _loc3_[class_73.method_2108(class_183.var_7129)];
+         var _loc3_:Array = _loc2_.name.split(class_107.var_5027);
+         var _loc4_:int = _loc3_[class_183.var_7129];
          class_241.var_401.wordWrap = class_99.var_4682;
          class_241.var_401.htmlText = _loc3_[class_33.var_3679];
-         if(class_241.var_401.width > class_73.method_2108(class_60.var_3945))
+         if(class_241.var_401.width > class_60.var_3945)
          {
             class_241.var_401.wordWrap = class_99.var_4681;
-            class_241.var_401.width = class_73.method_2108(class_60.var_3945);
+            class_241.var_401.width = class_60.var_3945;
          }
          if(class_241.var_7175)
          {
-            class_241.var_7175.width = class_241.var_401.width + class_73.method_2108(class_146.var_6117);
-            class_241.var_7175.height = class_73.method_2108(class_146.var_6117) + class_241.var_401.height;
+            class_241.var_7175.width = class_241.var_401.width + class_146.var_6117;
+            class_241.var_7175.height = class_146.var_6117 + class_241.var_401.height;
          }
          else
          {
             class_241.var_7174.graphics.clear();
             class_241.var_7174.graphics.lineStyle(class_165.var_6534);
             class_241.var_7174.graphics.beginFill(2236979);
-            class_241.var_7174.graphics.drawRect(-class_165.var_6534,-class_165.var_6534,class_241.var_401.width + class_73.method_2108(class_146.var_6118),class_241.var_401.height + class_121.var_5495);
+            class_241.var_7174.graphics.drawRect(-class_165.var_6534,-class_165.var_6534,class_241.var_401.width + class_146.var_6118,class_241.var_401.height + class_121.var_5495);
             class_241.var_7174.graphics.endFill();
          }
-         var _loc5_:int = _loc3_[class_73.method_2108(class_165.var_6534)];
+         var _loc5_:int = _loc3_[class_165.var_6534];
          var _loc6_:int = _loc3_[class_146.var_6118];
-         if(_loc4_ == -class_73.method_2108(class_33.var_3679))
+         if(_loc4_ == -class_33.var_3679)
          {
             class_1.var_2884.addEventListener(class_124.var_5632,class_241.method_2820);
          }
          else if(_loc4_ == -class_165.var_6534)
          {
-            class_241.var_7174.x = _loc3_[class_73.method_2108(class_165.var_6534)];
-            class_241.var_7174.y = _loc3_[class_73.method_2108(class_146.var_6118)];
+            class_241.var_7174.x = _loc3_[class_165.var_6534];
+            class_241.var_7174.y = _loc3_[class_146.var_6118];
          }
          else if(_loc4_ == -class_146.var_6118)
          {
-            class_241.var_7174.x = _loc3_[class_73.method_2108(class_165.var_6534)] - class_241.var_7174.width;
-            class_241.var_7174.y = _loc3_[class_73.method_2108(class_146.var_6118)] - class_241.var_7174.height;
+            class_241.var_7174.x = _loc3_[class_165.var_6534] - class_241.var_7174.width;
+            class_241.var_7174.y = _loc3_[class_146.var_6118] - class_241.var_7174.height;
          }
          else if(_loc4_ == class_9.var_3267)
          {
@@ -115,17 +115,17 @@ package
             class_241.var_7174.x = _loc7_.x;
             class_241.var_7174.y = _loc2_.height + _loc7_.y;
          }
-         else if(_loc4_ == class_73.method_2108(class_92.var_4647))
+         else if(_loc4_ == class_92.var_4647)
          {
-            _loc7_ = _loc2_.localToGlobal(new Point(class_183.var_7129,class_73.method_2108(class_183.var_7129)));
+            _loc7_ = _loc2_.localToGlobal(new Point(class_183.var_7129,class_183.var_7129));
             class_241.var_7174.x = _loc7_.x - class_241.var_7174.width;
             class_241.var_7174.y = -class_241.var_7174.height + _loc7_.y;
          }
          else if(class_146.var_6117 == _loc4_)
          {
-            _loc7_ = _loc2_.localToGlobal(new Point(class_183.var_7129,class_73.method_2108(class_183.var_7129)));
+            _loc7_ = _loc2_.localToGlobal(new Point(class_183.var_7129,class_183.var_7129));
             class_241.var_7174.x = _loc7_.x / class_1.var_2874;
-            class_241.var_7174.y = _loc7_.y / class_1.var_2874 - class_241.var_7174.height - class_73.method_2108(class_146.var_6117);
+            class_241.var_7174.y = _loc7_.y / class_1.var_2874 - class_241.var_7174.height - class_146.var_6117;
          }
          var _loc8_:int = class_1.var_2880 - class_241.var_7174.width - class_165.var_6534;
          if(_loc8_ < class_241.var_7174.x)
@@ -144,13 +144,13 @@ package
       {
          param1.addEventListener(MouseEvent.MOUSE_OVER,class_241.method_2818);
          param1.addEventListener(MouseEvent.MOUSE_OUT,class_241.method_2819);
-         var _loc6_:String = param3 + class_107.var_5027 + param2 + class_73.method_2111(class_107.var_5027) + param4 + class_73.method_2111(class_107.var_5027) + param5;
+         var _loc6_:String = param3 + class_107.var_5027 + param2 + class_107.var_5027 + param4 + class_107.var_5027 + param5;
          param1.name = _loc6_;
       }
       
       public static function method_2819(param1:Event) : void
       {
-         class_1.var_2884.removeEventListener(class_73.method_2111(class_124.var_5632),class_241.method_2820);
+         class_1.var_2884.removeEventListener(class_124.var_5632,class_241.method_2820);
          if(class_241.var_7174 && class_241.var_7174.parent)
          {
             class_241.var_7174.parent.removeChild(class_241.var_7174);
@@ -165,8 +165,8 @@ package
          var _loc5_:int = 0;
          if(class_241.var_7174 && class_241.var_7174.stage)
          {
-            _loc2_ = class_1.var_2884[class_73.method_2111(class_107.var_5075)];
-            _loc3_ = class_1.var_2884[class_73.method_2111(class_165.var_6533)] + class_73.method_2108(class_117.var_5265);
+            _loc2_ = class_1.var_2884[class_107.var_5075];
+            _loc3_ = class_1.var_2884[class_165.var_6533] + class_117.var_5265;
             _loc4_ = -class_241.var_7174.width + class_1.var_2880;
             if(_loc2_ > _loc4_)
             {

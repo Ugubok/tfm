@@ -34,19 +34,19 @@ package
          {
             return;
          }
-         if(param2 == class_73.method_2108(class_183.var_7129) || param3 == class_73.method_2108(class_183.var_7129))
+         if(param2 == class_183.var_7129 || param3 == class_183.var_7129)
          {
             param2 = param1.width;
             param3 = param1.height;
          }
-         var _loc5_:BitmapData = new BitmapData(param2,param3,true,class_73.method_2108(class_183.var_7129));
+         var _loc5_:BitmapData = new BitmapData(param2,param3,true,class_183.var_7129);
          var _loc6_:int = Math.ceil(param2 / name_5);
          var _loc7_:int = Math.ceil(param3 / var_206);
          var _loc8_:Rectangle = new Rectangle(class_183.var_7129,class_183.var_7129,name_5,var_206);
          var _loc9_:int = class_183.var_7129;
          while(_loc9_ < _loc6_)
          {
-            _loc10_ = class_73.method_2108(class_183.var_7129);
+            _loc10_ = class_183.var_7129;
             while(_loc10_ < _loc7_)
             {
                _loc5_.copyPixels(var_1250.bitmapData,_loc8_,new Point(_loc9_ * name_5,_loc10_ * var_206),null,null,true);

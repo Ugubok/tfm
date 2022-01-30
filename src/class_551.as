@@ -57,21 +57,21 @@ package
             class_551.var_7338.mouseEnabled = class_99.var_4682;
             class_551.var_7338.cacheAsBitmap = class_99.var_4681;
             class_551.var_7339 = new TextField();
-            class_551.var_7339.defaultTextFormat = new TextFormat(class_26.var_3500,class_73.method_2108(class_170.var_6720),class_54.const_280);
+            class_551.var_7339.defaultTextFormat = new TextFormat(class_26.var_3500,class_170.var_6720,class_54.const_280);
             class_551.var_7339.autoSize = TextFieldAutoSize.LEFT;
             class_551.var_7339.width = class_33.var_3675;
-            class_551.var_7339.height = class_73.method_2108(class_33.var_3675);
+            class_551.var_7339.height = class_33.var_3675;
             class_551.var_7338.addChild(class_551.var_7339);
          }
          class_551.var_7339.htmlText = this.var_2154.var_363;
          class_551.var_7338.graphics.clear();
-         class_551.var_7338.graphics.lineStyle(class_73.method_2108(class_33.var_3679));
-         class_551.var_7338.graphics.beginFill(class_183.var_7129,class_73.method_2116(class_146.var_6072));
-         class_551.var_7338.graphics.drawRect(-class_33.var_3679,-class_33.var_3679,class_551.var_7339.width + class_73.method_2108(class_165.var_6534),class_73.method_2108(class_33.var_3675));
+         class_551.var_7338.graphics.lineStyle(class_33.var_3679);
+         class_551.var_7338.graphics.beginFill(class_183.var_7129,class_146.var_6072);
+         class_551.var_7338.graphics.drawRect(-class_33.var_3679,-class_33.var_3679,class_551.var_7339.width + class_165.var_6534,class_33.var_3675);
          class_551.var_7338.graphics.endFill();
          class_540.var_3803.var_2119.addChild(class_551.var_7338);
          class_551.var_7338.x = x + class_540.const_1186 / class_165.var_6534 - class_551.var_7338.width / class_165.var_6534;
-         class_551.var_7338.y = y - class_73.method_2108(class_33.var_3675);
+         class_551.var_7338.y = y - class_33.var_3675;
          if(class_183.var_7129 > class_551.var_7338.y)
          {
             class_551.var_7338.y = class_183.var_7129;
@@ -112,33 +112,33 @@ package
          {
             if(this.var_2152)
             {
-               graphics.beginFill(13441116,class_73.method_2116(class_146.var_6103));
+               graphics.beginFill(13441116,class_146.var_6103);
             }
             else
             {
-               graphics.beginFill(2148021,class_73.method_2116(class_146.var_6103));
+               graphics.beginFill(2148021,class_146.var_6103);
             }
-            graphics.drawRect(class_121.var_5495,class_121.var_5495,class_540.const_1186 - class_170.var_6731,class_540.const_1187 - class_73.method_2108(class_170.var_6731));
+            graphics.drawRect(class_121.var_5495,class_121.var_5495,class_540.const_1186 - class_170.var_6731,class_540.const_1187 - class_170.var_6731);
             graphics.endFill();
          }
          else if(this.name_48)
          {
-            graphics.beginFill(13223197,class_73.method_2116(class_146.var_6103));
+            graphics.beginFill(13223197,class_146.var_6103);
             graphics.drawRect(class_121.var_5495,class_121.var_5495,class_540.const_1186 - class_170.var_6731,class_540.const_1187 - class_170.var_6731);
             graphics.endFill();
          }
          else
          {
-            graphics.beginFill(class_73.method_2108(class_183.var_7129),class_183.var_7129);
-            graphics.drawRect(class_73.method_2108(class_183.var_7129),class_73.method_2108(class_183.var_7129),class_540.const_1186,class_540.const_1187);
+            graphics.beginFill(class_183.var_7129,class_183.var_7129);
+            graphics.drawRect(class_183.var_7129,class_183.var_7129,class_540.const_1186,class_540.const_1187);
             graphics.endFill();
          }
          if(this.var_2150)
          {
-            graphics.lineStyle(class_73.method_2108(class_33.var_3679),15789107,class_33.var_3679,true);
+            graphics.lineStyle(class_33.var_3679,15789107,class_33.var_3679,true);
             graphics.drawRect(class_33.var_3679,class_33.var_3679,class_540.const_1186 - class_146.var_6118,class_540.const_1187 - class_146.var_6118);
-            graphics.lineStyle(class_73.method_2108(class_33.var_3679),7690240,class_73.method_2108(class_33.var_3679),true);
-            graphics.drawRect(class_146.var_6118,class_146.var_6118,class_540.const_1186 - class_92.var_4647,class_540.const_1187 - class_73.method_2108(class_92.var_4647));
+            graphics.lineStyle(class_33.var_3679,7690240,class_33.var_3679,true);
+            graphics.drawRect(class_146.var_6118,class_146.var_6118,class_540.const_1186 - class_92.var_4647,class_540.const_1187 - class_92.var_4647);
          }
       }
       

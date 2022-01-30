@@ -51,7 +51,7 @@ package
             _loc2_++;
          }
          var _loc3_:int = class_183.var_7129;
-         var _loc4_:int = class_73.method_2108(class_183.var_7129);
+         var _loc4_:int = class_183.var_7129;
          while(_loc4_ < this.var_1945.length)
          {
             _loc3_ += this.var_1945[_loc4_].method_1375();

@@ -30,13 +30,13 @@ package
          _loc1_.width = class_656.name_38;
          _loc1_.height = class_656.name_58;
          addChild(_loc1_);
-         _loc2_ = class_175.method_2618(class_73.method_2111(class_165.var_6374));
-         _loc2_.x = class_73.method_2108(class_89.var_4436);
+         _loc2_ = class_175.method_2618(class_165.var_6374);
+         _loc2_.x = class_89.var_4436;
          _loc2_.y = class_183.var_7127;
          addChild(_loc2_);
          _loc3_ = class_175.method_118(class_89.var_4407);
-         _loc3_.x = class_656.name_38 / class_73.method_2108(class_165.var_6534) + class_162.var_6351;
-         _loc3_.y = class_656.name_58 - class_73.method_2108(class_89.var_4402);
+         _loc3_.x = class_656.name_38 / class_165.var_6534 + class_162.var_6351;
+         _loc3_.y = class_656.name_58 - class_89.var_4402;
          addChild(_loc3_);
          this.var_2439 = class_84.method_2131();
          this.var_2439.width = class_656.name_38 / class_165.var_6534;
@@ -46,7 +46,7 @@ package
          this.var_2439.defaultTextFormat = _loc4_;
          this.var_2439.textColor = 15479827;
          addChild(this.var_2439);
-         var _loc5_:class_88 = new class_88(class_73.method_2108(class_146.var_6117),class_656.name_58 - class_124.var_5641,class_26.method_1668(class_60.var_3934),this.method_174,null,class_656.name_38 - class_73.method_2108(class_102.var_4859),false);
+         var _loc5_:class_88 = new class_88(class_146.var_6117,class_656.name_58 - class_124.var_5641,class_26.method_1668(class_60.var_3934),this.method_174,null,class_656.name_38 - class_102.var_4859,false);
          addChild(_loc5_);
       }
       
@@ -57,11 +57,11 @@ package
             if(!class_656.var_2884)
             {
                class_656.var_2884 = new class_656();
-               class_656.var_2884.x = int((-class_656.name_38 + class_107.var_5074) / class_73.method_2108(class_165.var_6534));
+               class_656.var_2884.x = int((-class_656.name_38 + class_107.var_5074) / class_165.var_6534);
                class_656.var_2884.y = class_89.var_4436;
             }
             class_1.var_2884.var_53.addChild(class_656.var_2884);
-            class_656.var_2884.var_2439.text = class_73.method_2111(class_89.var_4390) + param2;
+            class_656.var_2884.var_2439.text = class_89.var_4390 + param2;
          }
          else if(class_656.var_2884 && class_656.var_2884.parent)
          {

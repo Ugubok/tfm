@@ -35,7 +35,7 @@ package
          var _loc16_:int = 0;
          this.var_2069 = class_183.var_7129;
          this.var_2071 = class_183.var_7129;
-         this.var_2072 = class_73.method_2108(class_183.var_7129);
+         this.var_2072 = class_183.var_7129;
          this.name_52 = new Vector.<class_801>();
          super(param1);
          this.var_2492 = param1.readUTF();
@@ -44,18 +44,18 @@ package
          this.var_2071 = param1.readShort();
          this.var_2072 = param1.readShort();
          var _loc9_:int = param1.readUnsignedShort();
-         var _loc10_:int = class_73.method_2108(class_183.var_7129);
+         var _loc10_:int = class_183.var_7129;
          while(_loc10_ < _loc9_)
          {
             _loc2_ = param1.readUnsignedShort();
             _loc3_ = param1.readUnsignedByte();
             _loc4_ = param1.readUnsignedShort();
-            _loc5_ = new Date(param1.readInt() * class_73.method_2108(class_4.var_3058));
+            _loc5_ = new Date(param1.readInt() * class_4.var_3058);
             _loc6_ = param1.readInt();
             _loc7_ = param1.readBoolean();
             _loc8_ = new class_801(_loc2_,_loc3_,_loc4_,_loc5_,_loc6_,_loc7_);
             _loc11_ = param1.readByte();
-            _loc13_ = class_73.method_2108(class_183.var_7129);
+            _loc13_ = class_183.var_7129;
             while(_loc13_ < _loc11_)
             {
                _loc12_ = new class_847(param1.readByte(),!!param1.readBoolean() ? param1.readUTF() : param1.readShort(),param1.readInt(),param1.readBoolean());
@@ -64,7 +64,7 @@ package
                _loc13_++;
             }
             _loc14_ = param1.readByte();
-            _loc16_ = class_73.method_2108(class_183.var_7129);
+            _loc16_ = class_183.var_7129;
             while(_loc16_ < _loc14_)
             {
                _loc15_ = new class_845(param1.readByte(),!!param1.readBoolean() ? param1.readUTF() : param1.readShort(),param1.readInt());

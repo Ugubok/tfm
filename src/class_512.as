@@ -54,7 +54,7 @@ package
       public function class_512(param1:Object, param2:Sprite, param3:String, param4:String, param5:String, param6:String, param7:String, param8:String, param9:String, param10:String, param11:String, param12:String = "")
       {
          this.name_5 = class_183.var_7129;
-         this.var_206 = class_73.method_2108(class_183.var_7129);
+         this.var_206 = class_183.var_7129;
          super();
          this.var_2025 = param1;
          this.var_2026 = param2;
@@ -201,7 +201,7 @@ package
             else
             {
                var_7592 = this.var_2026.localToGlobal(new Point());
-               ExternalInterface.call(this.var_2032,var_7592.x,var_7592.y,name_38,name_58,(-class_73.method_2108(class_107.var_5074) + class_1.var_2880) / class_165.var_6534,(-class_60.var_3979 + class_1.var_2882) / class_165.var_6534);
+               ExternalInterface.call(this.var_2032,var_7592.x,var_7592.y,name_38,name_58,(-class_107.var_5074 + class_1.var_2880) / class_165.var_6534,(-class_60.var_3979 + class_1.var_2882) / class_165.var_6534);
             }
          }
          catch(name_86:Error)

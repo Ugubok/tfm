@@ -3,7 +3,7 @@ package
    public class class_232
    {
       
-      public static var var_7171:String = class_73.method_2111("");
+      public static var var_7171:String = "";
        
       
       public function class_232()

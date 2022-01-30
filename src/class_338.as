@@ -56,11 +56,11 @@ package
             this.var_1611[_loc3_] = _loc2_.var_1642[_loc3_].method_676();
             _loc3_++;
          }
-         _loc3_ = class_73.method_2108(class_183.var_7129);
+         _loc3_ = class_183.var_7129;
          while(_loc3_ < this.var_1614)
          {
             _loc4_ = _loc3_;
-            _loc5_ = _loc3_ + class_73.method_2108(class_33.var_3679) < this.var_1614 ? int(_loc3_ + class_33.var_3679) : int(class_183.var_7129);
+            _loc5_ = _loc3_ + class_33.var_3679 < this.var_1614 ? int(_loc3_ + class_33.var_3679) : int(class_183.var_7129);
             _loc6_ = this.var_1611[_loc5_].var_304 - this.var_1611[_loc4_].var_304;
             _loc7_ = this.var_1611[_loc5_].var_305 - this.var_1611[_loc4_].var_305;
             _loc8_ = Math.sqrt(_loc6_ * _loc6_ + _loc7_ * _loc7_);
@@ -103,13 +103,13 @@ package
          _loc3_ = new class_167();
          var _loc4_:Number = class_107.var_4953;
          var _loc5_:Number = class_107.var_4953;
-         _loc6_ = class_73.method_2116(class_107.var_4953);
-         var _loc7_:Number = class_73.method_2116(class_121.var_5450) / class_73.method_2116(class_33.var_3577);
+         _loc6_ = class_107.var_4953;
+         var _loc7_:Number = class_121.var_5450 / class_33.var_3577;
          var _loc8_:int = class_183.var_7129;
          while(_loc8_ < param2)
          {
             _loc9_ = param1[_loc8_];
-            _loc10_ = _loc8_ + class_73.method_2108(class_33.var_3679) < param2 ? param1[int(_loc8_ + class_33.var_3679)] : param1[class_183.var_7129];
+            _loc10_ = _loc8_ + class_33.var_3679 < param2 ? param1[int(_loc8_ + class_33.var_3679)] : param1[class_183.var_7129];
             _loc11_ = -_loc5_ + _loc9_.var_304;
             _loc12_ = -_loc6_ + _loc9_.var_305;
             _loc13_ = _loc10_.var_304 - _loc5_;
@@ -151,18 +151,18 @@ package
          var _loc26_:Number = NaN;
          var _loc27_:class_193 = null;
          var _loc5_:Array = new Array(class_327.const_804 + class_33.var_3679);
-         _loc4_ = class_73.method_2108(class_183.var_7129);
+         _loc4_ = class_183.var_7129;
          while(_loc4_ < param3)
          {
             _loc5_[_loc4_] = param2[_loc4_];
             _loc4_++;
          }
-         _loc5_[param3] = _loc5_[class_73.method_2108(class_183.var_7129)];
+         _loc5_[param3] = _loc5_[class_183.var_7129];
          var _loc6_:Number = Number.MAX_VALUE;
-         _loc4_ = class_73.method_2108(class_33.var_3679);
+         _loc4_ = class_33.var_3679;
          while(_loc4_ <= param3)
          {
-            _loc7_ = _loc5_[int(_loc4_ - class_73.method_2108(class_33.var_3679))];
+            _loc7_ = _loc5_[int(_loc4_ - class_33.var_3679)];
             _loc8_ = _loc5_[_loc4_];
             _loc9_ = _loc8_.var_304 - _loc7_.var_304;
             _loc10_ = -_loc7_.var_305 + _loc8_.var_305;
@@ -175,7 +175,7 @@ package
             _loc15_ = Number.MAX_VALUE;
             _loc16_ = -Number.MAX_VALUE;
             _loc17_ = -Number.MAX_VALUE;
-            _loc18_ = class_73.method_2108(class_183.var_7129);
+            _loc18_ = class_183.var_7129;
             while(_loc18_ < param3)
             {
                _loc20_ = _loc5_[_loc18_];
@@ -209,13 +209,13 @@ package
                param1.R.var_995.var_305 = _loc10_;
                param1.R.var_996.var_304 = _loc12_;
                param1.R.var_996.var_305 = _loc13_;
-               _loc25_ = class_73.method_2116(class_92.var_4648) * (_loc14_ + _loc16_);
+               _loc25_ = class_92.var_4648 * (_loc14_ + _loc16_);
                _loc26_ = (_loc15_ + _loc17_) * class_92.var_4648;
                _loc27_ = param1.R;
                param1.var_2524.var_304 = _loc7_.var_304 + (_loc27_.var_995.var_304 * _loc25_ + _loc27_.var_996.var_304 * _loc26_);
                param1.var_2524.var_305 = _loc7_.var_305 + (_loc27_.var_995.var_305 * _loc25_ + _loc27_.var_996.var_305 * _loc26_);
                param1.var_2525.var_304 = class_92.var_4648 * (_loc16_ - _loc14_);
-               param1.var_2525.var_305 = (_loc17_ - _loc15_) * class_73.method_2116(class_92.var_4648);
+               param1.var_2525.var_305 = (_loc17_ - _loc15_) * class_92.var_4648;
             }
             _loc4_++;
          }
@@ -252,7 +252,7 @@ package
          var _loc4_:Number = NaN;
          var _loc5_:Number = NaN;
          var_1351 = class_107.var_4953;
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < this.var_1614)
          {
             _loc2_ = this.var_1613[_loc3_];
@@ -300,24 +300,24 @@ package
          var _loc23_:Number = NaN;
          var _loc24_:Number = NaN;
          var _loc25_:Number = NaN;
-         var _loc2_:Number = class_73.method_2116(class_107.var_4953);
+         var _loc2_:Number = class_107.var_4953;
          var _loc3_:Number = class_107.var_4953;
-         var _loc4_:Number = class_73.method_2116(class_107.var_4953);
-         var _loc5_:Number = class_73.method_2116(class_107.var_4953);
-         var _loc6_:Number = class_73.method_2116(class_107.var_4953);
-         var _loc7_:Number = class_73.method_2116(class_107.var_4953);
-         var _loc8_:Number = class_121.var_5450 / class_73.method_2116(class_33.var_3577);
+         var _loc4_:Number = class_107.var_4953;
+         var _loc5_:Number = class_107.var_4953;
+         var _loc6_:Number = class_107.var_4953;
+         var _loc7_:Number = class_107.var_4953;
+         var _loc8_:Number = class_121.var_5450 / class_33.var_3577;
          var _loc9_:int = class_183.var_7129;
          while(_loc9_ < this.var_1614)
          {
             _loc10_ = this.var_1611[_loc9_];
-            _loc11_ = _loc9_ + class_33.var_3679 < this.var_1614 ? this.var_1611[int(class_33.var_3679 + _loc9_)] : this.var_1611[class_73.method_2108(class_183.var_7129)];
+            _loc11_ = _loc9_ + class_33.var_3679 < this.var_1614 ? this.var_1611[int(class_33.var_3679 + _loc9_)] : this.var_1611[class_183.var_7129];
             _loc12_ = _loc10_.var_304 - _loc6_;
             _loc13_ = -_loc7_ + _loc10_.var_305;
             _loc14_ = -_loc6_ + _loc11_.var_304;
             _loc15_ = -_loc7_ + _loc11_.var_305;
             _loc16_ = _loc12_ * _loc15_ - _loc13_ * _loc14_;
-            _loc17_ = _loc16_ * class_73.method_2116(class_92.var_4648);
+            _loc17_ = _loc16_ * class_92.var_4648;
             _loc4_ += _loc17_;
             _loc2_ += _loc17_ * _loc8_ * (_loc6_ + _loc10_.var_304 + _loc11_.var_304);
             _loc3_ += _loc17_ * _loc8_ * (_loc7_ + _loc10_.var_305 + _loc11_.var_305);
@@ -327,14 +327,14 @@ package
             _loc21_ = _loc13_;
             _loc22_ = _loc14_;
             _loc23_ = _loc15_;
-            _loc24_ = _loc8_ * (class_117.var_5201 * (_loc20_ * _loc20_ + _loc22_ * _loc20_ + _loc22_ * _loc22_) + (_loc18_ * _loc20_ + _loc18_ * _loc22_)) + class_73.method_2116(class_92.var_4648) * _loc18_ * _loc18_;
+            _loc24_ = _loc8_ * (class_117.var_5201 * (_loc20_ * _loc20_ + _loc22_ * _loc20_ + _loc22_ * _loc22_) + (_loc18_ * _loc20_ + _loc18_ * _loc22_)) + class_92.var_4648 * _loc18_ * _loc18_;
             _loc25_ = _loc8_ * (class_117.var_5201 * (_loc21_ * _loc21_ + _loc23_ * _loc21_ + _loc23_ * _loc23_) + (_loc19_ * _loc21_ + _loc19_ * _loc23_)) + class_92.var_4648 * _loc19_ * _loc19_;
             _loc5_ += (_loc25_ + _loc24_) * _loc16_;
             _loc9_++;
          }
          param1.var_737 = _loc4_ * var_1346;
-         _loc2_ *= class_73.method_2116(class_121.var_5450) / _loc4_;
-         _loc3_ *= class_73.method_2116(class_121.var_5450) / _loc4_;
+         _loc2_ *= class_121.var_5450 / _loc4_;
+         _loc3_ *= class_121.var_5450 / _loc4_;
          param1.var_738.method_105(_loc2_,_loc3_);
          param1.var_739 = _loc5_ * var_1346;
       }
@@ -361,8 +361,8 @@ package
          var _loc15_:Number = _loc8_ * _loc10_.var_996.var_304 + _loc9_ * _loc10_.var_996.var_305;
          var _loc16_:Number = -_loc12_ + _loc14_;
          var _loc17_:Number = -_loc13_ + _loc15_;
-         var _loc18_:int = -class_73.method_2108(class_33.var_3679);
-         var _loc19_:int = class_73.method_2108(class_183.var_7129);
+         var _loc18_:int = -class_33.var_3679;
+         var _loc19_:int = class_183.var_7129;
          while(_loc19_ < this.var_1614)
          {
             _loc11_ = this.var_1611[_loc19_];
@@ -371,12 +371,12 @@ package
             _loc11_ = this.var_1612[_loc19_];
             _loc20_ = _loc11_.var_304 * _loc8_ + _loc11_.var_305 * _loc9_;
             _loc21_ = _loc11_.var_304 * _loc16_ + _loc11_.var_305 * _loc17_;
-            if(_loc21_ < class_73.method_2116(class_107.var_4953) && _loc20_ < _loc6_ * _loc21_)
+            if(_loc21_ < class_107.var_4953 && _loc20_ < _loc6_ * _loc21_)
             {
                _loc6_ = _loc20_ / _loc21_;
                _loc18_ = _loc19_;
             }
-            else if(_loc21_ > class_73.method_2116(class_107.var_4953) && _loc20_ < _loc7_ * _loc21_)
+            else if(_loc21_ > class_107.var_4953 && _loc20_ < _loc7_ * _loc21_)
             {
                _loc7_ = _loc20_ / _loc21_;
             }
@@ -386,7 +386,7 @@ package
             }
             _loc19_++;
          }
-         if(_loc18_ >= class_73.method_2108(class_183.var_7129))
+         if(_loc18_ >= class_183.var_7129)
          {
             param2[class_183.var_7129] = _loc6_;
             _loc10_ = param1.R;
@@ -431,10 +431,10 @@ package
          _loc5_ = param1.R;
          var _loc6_:Number = param2 * _loc5_.var_995.var_304 + param3 * _loc5_.var_995.var_305;
          var _loc7_:Number = param2 * _loc5_.var_996.var_304 + param3 * _loc5_.var_996.var_305;
-         var _loc8_:int = class_73.method_2108(class_183.var_7129);
-         _loc4_ = this.var_1613[class_73.method_2108(class_183.var_7129)];
+         var _loc8_:int = class_183.var_7129;
+         _loc4_ = this.var_1613[class_183.var_7129];
          var _loc9_:Number = _loc4_.var_304 * _loc6_ + _loc4_.var_305 * _loc7_;
-         var _loc10_:int = class_73.method_2108(class_33.var_3679);
+         var _loc10_:int = class_33.var_3679;
          while(_loc10_ < this.var_1614)
          {
             _loc4_ = this.var_1613[_loc10_];
@@ -462,7 +462,7 @@ package
          var _loc6_:Number = -param1.position.var_305 + param2.var_305;
          var _loc7_:Number = _loc5_ * _loc4_.var_995.var_304 + _loc6_ * _loc4_.var_995.var_305;
          var _loc8_:Number = _loc5_ * _loc4_.var_996.var_304 + _loc6_ * _loc4_.var_996.var_305;
-         var _loc9_:int = class_73.method_2108(class_183.var_7129);
+         var _loc9_:int = class_183.var_7129;
          while(_loc9_ < this.var_1614)
          {
             _loc3_ = this.var_1611[_loc9_];

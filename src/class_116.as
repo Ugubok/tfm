@@ -39,7 +39,7 @@ package
       
       public var var_669:Boolean = false;
       
-      public const const_9:ColorTransform = new ColorTransform(class_33.var_3679,class_73.method_2108(class_33.var_3679),class_73.method_2108(class_33.var_3679),class_183.var_7129);
+      public const const_9:ColorTransform = new ColorTransform(class_33.var_3679,class_33.var_3679,class_33.var_3679,class_183.var_7129);
       
       public var var_670:Bitmap;
       
@@ -53,8 +53,8 @@ package
       {
          this.var_658 = new ColorTransform();
          this.var_659 = new Vector.<class_27>();
-         this.var_662 = class_73.method_2116(class_127.var_5858);
-         this.var_663 = class_73.method_2108(class_183.var_7129);
+         this.var_662 = class_127.var_5858;
+         this.var_663 = class_183.var_7129;
          this.var_666 = class_1.method_1816();
          super();
          if(null == param5)
@@ -67,11 +67,11 @@ package
             this.var_300 = param5;
          }
          this.var_662 = param6 / class_4.var_3058;
-         this.var_661 = new Rectangle(class_73.method_2108(class_183.var_7129),class_183.var_7129,param3,param4);
-         this.var_658.alphaMultiplier = class_73.method_2108(class_183.var_7129);
-         if(param3 > class_183.var_7129 && param4 > class_73.method_2108(class_183.var_7129))
+         this.var_661 = new Rectangle(class_183.var_7129,class_183.var_7129,param3,param4);
+         this.var_658.alphaMultiplier = class_183.var_7129;
+         if(param3 > class_183.var_7129 && param4 > class_183.var_7129)
          {
-            bitmapData = new BitmapData(param3,param4,true,class_73.method_2108(class_183.var_7129));
+            bitmapData = new BitmapData(param3,param4,true,class_183.var_7129);
          }
          x = param1;
          y = param2;
@@ -81,7 +81,7 @@ package
       
       public function method_474(param1:int, param2:int, param3:int, param4:int) : void
       {
-         this.var_671 = new BitmapData(param3,param4,true,class_73.method_2108(class_183.var_7129));
+         this.var_671 = new BitmapData(param3,param4,true,class_183.var_7129);
          this.var_670 = new Bitmap(this.var_671);
          this.var_670.x = param1;
          this.var_670.y = param2;
@@ -89,7 +89,7 @@ package
       
       public function method_475(param1:int, param2:int) : void
       {
-         this.var_661 = new Rectangle(class_183.var_7129,class_73.method_2108(class_183.var_7129),param1,param2);
+         this.var_661 = new Rectangle(class_183.var_7129,class_183.var_7129,param1,param2);
          bitmapData = new BitmapData(param1,param2,true,class_183.var_7129);
       }
       
@@ -110,11 +110,11 @@ package
             _loc1_ = class_1.method_1816();
             _loc2_ = _loc1_ - this.var_666;
             _loc3_ = this.var_662 * _loc2_;
-            if(this.var_663 != class_73.method_2108(class_183.var_7129) && _loc3_ <= this.var_663)
+            if(this.var_663 != class_183.var_7129 && _loc3_ <= this.var_663)
             {
                return;
             }
-            _loc4_ = !!this.var_663 ? int(_loc3_ - this.var_663) : int(class_73.method_2108(class_33.var_3679));
+            _loc4_ = !!this.var_663 ? int(_loc3_ - this.var_663) : int(class_33.var_3679);
             this.var_663 = _loc3_;
             if(this.var_669)
             {
@@ -141,7 +141,7 @@ package
                _loc7_ = this.var_659[_loc5_];
                if(_loc7_.var_293 || _loc7_.var_303 && _loc1_ > _loc7_.var_303)
                {
-                  this.var_659.splice(_loc5_,class_73.method_2108(class_33.var_3679));
+                  this.var_659.splice(_loc5_,class_33.var_3679);
                   _loc5_--;
                   _loc6_--;
                }
@@ -166,7 +166,7 @@ package
                   {
                      if(_loc7_.var_301 != this)
                      {
-                        this.var_659.splice(_loc5_,class_73.method_2108(class_33.var_3679));
+                        this.var_659.splice(_loc5_,class_33.var_3679);
                         _loc5_--;
                         _loc6_--;
                         _loc7_.var_301.var_659.push(_loc7_);
@@ -184,13 +184,13 @@ package
                      {
                         if(!_loc8_.var_1267)
                         {
-                           _loc7_.var_298 = Math.max(_loc7_.var_298 - class_33.var_3679,class_73.method_2108(class_183.var_7129));
+                           _loc7_.var_298 = Math.max(_loc7_.var_298 - class_33.var_3679,class_183.var_7129);
                            _loc8_ = _loc7_.var_296[_loc7_.var_298];
                         }
                      }
                      else if(!_loc8_.var_1267)
                      {
-                        _loc8_.method_977(class_73.method_2108(class_183.var_7129) == _loc7_.var_298);
+                        _loc8_.method_977(class_183.var_7129 == _loc7_.var_298);
                      }
                      if(_loc8_.var_1267)
                      {
@@ -202,13 +202,13 @@ package
                         _loc7_.var_320 = _loc8_.var_1272;
                         if(_loc7_.var_320)
                         {
-                           _loc7_.dispatchEvent(new TextEvent(class_73.method_2111(class_9.var_3241),false,false,_loc7_.var_320));
+                           _loc7_.dispatchEvent(new TextEvent(class_9.var_3241,false,false,_loc7_.var_320));
                         }
                      }
                      if(_loc7_.var_323)
                      {
                         _loc7_.var_325 += _loc4_ * _loc7_.var_324;
-                        if(_loc7_.var_325 > class_73.method_2108(class_33.var_3679))
+                        if(_loc7_.var_325 > class_33.var_3679)
                         {
                            _loc9_ = _loc7_.var_325;
                            _loc7_.var_325 -= _loc9_;
@@ -273,7 +273,7 @@ package
          else
          {
             this.var_666 = class_1.method_1816();
-            this.var_663 = class_73.method_2108(class_183.var_7129);
+            this.var_663 = class_183.var_7129;
          }
       }
       

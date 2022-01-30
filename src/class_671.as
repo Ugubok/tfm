@@ -18,7 +18,7 @@ package
       {
          super(param1);
          var _loc2_:int = param1.readByte();
-         this.var_2449 = new Vector.<int>(_loc2_ * class_73.method_2108(class_165.var_6534),true);
+         this.var_2449 = new Vector.<int>(_loc2_ * class_165.var_6534,true);
          var _loc3_:int = class_183.var_7129;
          while(_loc3_ < _loc2_)
          {

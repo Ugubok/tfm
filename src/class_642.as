@@ -16,7 +16,7 @@ package
          this.var_363 = param1.readUTF();
          this.var_2421 = new Vector.<String>();
          var _loc2_:int = param1.readByte();
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
          while(_loc3_ < _loc2_)
          {
             this.var_2421.push(param1.readUTF());

@@ -37,7 +37,7 @@ package
       public function class_625(param1:ByteArray)
       {
          this.var_682 = class_183.var_7129;
-         this.var_2405 = class_73.method_2108(class_183.var_7129);
+         this.var_2405 = class_183.var_7129;
          super(param1);
          this.var_364 = param1.readInt();
          this.var_2400 = param1.readInt();
@@ -53,7 +53,7 @@ package
          if(param1.bytesAvailable)
          {
             this.var_682 = param1.readShort() / class_121.var_5493;
-            this.var_2405 = param1.readShort() / class_73.method_2108(class_121.var_5493);
+            this.var_2405 = param1.readShort() / class_121.var_5493;
             this.var_1511 = param1.readBoolean();
          }
       }

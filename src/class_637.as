@@ -52,8 +52,8 @@ package
          class_637.var_305 = param2;
          if(class_637.var_2884)
          {
-            class_637.var_2884[class_73.method_2111(class_89.var_4424)] = param1;
-            class_637.var_2884[class_73.method_2111(class_107.var_5063)] = param2;
+            class_637.var_2884[class_89.var_4424] = param1;
+            class_637.var_2884[class_107.var_5063] = param2;
          }
       }
       
@@ -63,16 +63,16 @@ package
          var _loc6_:int = 0;
          var _loc1_:int = -class_33.var_3679;
          var _loc2_:int = this.var_2417.length;
-         var _loc3_:int = class_73.method_2108(class_183.var_7129);
-         var _loc4_:int = class_73.method_2108(class_183.var_7129);
+         var _loc3_:int = class_183.var_7129;
+         var _loc4_:int = class_183.var_7129;
          while(++_loc1_ < _loc2_)
          {
             _loc5_ = this.var_2417[_loc1_];
-            _loc4_ -= class_73.method_2108(class_165.var_6534) + _loc5_.var_206;
+            _loc4_ -= class_165.var_6534 + _loc5_.var_206;
             if(int(_loc5_.y) != _loc4_)
             {
                _loc6_ = Math.abs(_loc5_.y - _loc4_);
-               class_233.method_2810(_loc5_,_loc6_ * class_73.method_2108(class_117.var_5287),class_398.method_2956,_loc3_ * class_73.method_2108(class_102.var_4859)).method_1267(_loc5_.y,_loc4_);
+               class_233.method_2810(_loc5_,_loc6_ * class_117.var_5287,class_398.method_2956,_loc3_ * class_102.var_4859).method_1267(_loc5_.y,_loc4_);
                _loc3_++;
             }
          }
@@ -133,13 +133,13 @@ package
             this.method_1687();
             return;
          }
-         class_233.method_2810(param1,class_89.var_4444,class_398.method_2931,class_73.method_2108(class_183.var_7129),this.method_1688,param1).method_1270(param1.x,param1.x + class_121.var_5493);
+         class_233.method_2810(param1,class_89.var_4444,class_398.method_2931,class_183.var_7129,this.method_1688,param1).method_1270(param1.x,param1.x + class_121.var_5493);
          var _loc2_:int = this.var_2417.indexOf(param1);
          if(_loc2_ != -class_33.var_3679)
          {
             this.var_2417.splice(_loc2_,class_33.var_3679);
          }
-         if(this.var_2417.length == class_73.method_2108(class_183.var_7129))
+         if(this.var_2417.length == class_183.var_7129)
          {
             this.var_2418.stop();
          }

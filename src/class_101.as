@@ -14,7 +14,7 @@ package
       
       public static function method_2247() : Boolean
       {
-         return Capabilities.playerType == class_73.method_2111(class_16.var_3369);
+         return Capabilities.playerType == class_16.var_3369;
       }
       
       public static function method_2248() : Boolean
@@ -24,12 +24,12 @@ package
       
       public static function method_2249() : Boolean
       {
-         return Capabilities.os.toLowerCase().indexOf(class_73.method_2111(class_121.var_5397)) != -class_33.var_3679;
+         return Capabilities.os.toLowerCase().indexOf(class_121.var_5397) != -class_33.var_3679;
       }
       
       public static function method_2250() : Boolean
       {
-         return Capabilities.os.indexOf(class_127.var_5795) != -class_73.method_2108(class_33.var_3679);
+         return Capabilities.os.indexOf(class_127.var_5795) != -class_33.var_3679;
       }
       
       public static function method_2251() : String
@@ -45,7 +45,7 @@ package
          {
             return class_89.var_4390;
          }
-         return class_73.method_2111(class_89.var_4390);
+         return class_89.var_4390;
       }
       
       public static function method_2252() : Boolean
@@ -89,7 +89,7 @@ package
       
       public static function method_2256() : Boolean
       {
-         return Capabilities.os.toLowerCase().indexOf(class_170.var_6644) != -class_73.method_2108(class_33.var_3679);
+         return Capabilities.os.toLowerCase().indexOf(class_170.var_6644) != -class_33.var_3679;
       }
    }
 }

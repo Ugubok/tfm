@@ -45,9 +45,9 @@ package
       {
          var _loc2_:String = class_231.method_2796(param1);
          var _loc3_:int = this.var_1862.indexOf(_loc2_);
-         if(_loc3_ != -class_73.method_2108(class_33.var_3679))
+         if(_loc3_ != -class_33.var_3679)
          {
-            this.var_1862.splice(_loc3_,class_73.method_2108(class_33.var_3679));
+            this.var_1862.splice(_loc3_,class_33.var_3679);
             this.var_1862.sort(Array.CASEINSENSITIVE);
             class_420.method_2988(true);
          }
@@ -60,7 +60,7 @@ package
       
       public function method_1399(param1:String) : Boolean
       {
-         return this.var_1862.indexOf(class_231.method_2796(param1)) != -class_73.method_2108(class_33.var_3679);
+         return this.var_1862.indexOf(class_231.method_2796(param1)) != -class_33.var_3679;
       }
       
       public function method_1400(param1:Vector.<String>) : void

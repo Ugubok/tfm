@@ -6,7 +6,7 @@ package
       
       public function class_322()
       {
-         super(class_73.method_2108(class_121.var_5493),class_146.var_6118);
+         super(class_121.var_5493,class_146.var_6118);
       }
    }
 }
