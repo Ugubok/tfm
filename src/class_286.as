@@ -117,7 +117,7 @@ package
          var _loc9_:int = 0;
          var _loc10_:Boolean = false;
          var _loc11_:class_603 = null;
-         this.var_1380.method_116();
+         this.var_1380.clear();
          var _loc2_:int = param1.readUnsignedByte();
          var _loc3_:int = class_183.var_7129;
          while(_loc3_ < _loc2_)

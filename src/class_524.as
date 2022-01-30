@@ -12,9 +12,9 @@ package
          var _loc2_:ByteArray = new ByteArray();
          _loc2_.writeUTFBytes(param1);
          var _loc3_:int = _loc2_.length;
-         method_117(_loc3_ >> class_73.method_2108(class_16.var_3467) & 255);
-         method_117(_loc3_ >> class_170.var_6731 & 255);
-         method_117(_loc3_ & 255);
+         writeByte(_loc3_ >> class_73.method_2108(class_16.var_3467) & 255);
+         writeByte(_loc3_ >> class_170.var_6731 & 255);
+         writeByte(_loc3_ & 255);
          var_159.writeBytes(_loc2_);
       }
    }

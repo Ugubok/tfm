@@ -257,7 +257,7 @@ package
       
       public function method_1120(param1:class_318) : void
       {
-         this.var_1542.method_116();
+         this.var_1542.clear();
          this.var_1542.graphics.clear();
          this.var_1531 = new Bitmap(param1.var_1531);
          this.var_1531.y = class_73.method_2108(class_165.var_6534);
@@ -290,7 +290,7 @@ package
          }
          this.var_1540 = param1;
          this.var_1539.htmlText = param1;
-         this.var_1541.method_116();
+         this.var_1541.clear();
          this.var_1541.method_136(this.var_1532,this.var_1533,this.var_1534);
          if(class_1.var_2871)
          {

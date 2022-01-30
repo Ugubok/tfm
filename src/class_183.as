@@ -347,7 +347,7 @@ package
       
       public static var var_7128:String = "<font face=\'";
       
-      public static var var_7129:int = 6674 + -6674;
+      public static var var_7129:int = 0;
        
       
       public function class_183()

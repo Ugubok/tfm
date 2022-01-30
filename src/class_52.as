@@ -167,7 +167,7 @@ package
             _loc6_.method_241(_loc6_.name_5,Math.min(class_73.method_2108(class_62.var_4130),_loc6_.method_217(false)));
             _loc6_.method_244(true,class_73.method_2108(class_162.var_6351));
             _loc6_.method_219();
-            _loc5_.method_116();
+            _loc5_.clear();
             _loc5_.method_136(_loc5_.var_1226);
             _loc5_.method_221(class_73.method_2108(class_117.var_5287));
             _loc5_.method_136(_loc6_);

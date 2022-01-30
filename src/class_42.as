@@ -57,7 +57,7 @@ package
          var _loc4_:class_212 = null;
          var _loc5_:class_304 = null;
          this.var_407.method_232();
-         this.var_406.concat(this.var_407.method_116(true));
+         this.var_406.concat(this.var_407.clear(true));
          var _loc2_:int = -class_73.method_2108(class_33.var_3679);
          var _loc3_:int = param1.length;
          while(++_loc2_ < _loc3_)

@@ -113,7 +113,7 @@ package
          var _loc14_:class_246 = null;
          var _loc15_:class_413 = null;
          var _loc16_:class_244 = null;
-         this.var_2042.method_116();
+         this.var_2042.clear();
          var _loc1_:Vector.<class_520> = class_204.method_2759();
          var _loc2_:int = class_73.method_2108(class_183.var_7129);
          while(_loc2_ < _loc1_.length)
@@ -222,7 +222,7 @@ package
             this.var_2046.addChild(this.var_2047);
             this.var_2047.y = (-this.var_2047.var_206 + this.var_2046.var_206) / class_165.var_6534;
             this.var_2047.x = (this.var_2046.name_5 - this.var_2047.name_5) / class_73.method_2108(class_165.var_6534);
-            this.var_2045.method_116();
+            this.var_2045.clear();
             this.var_2045.method_136(this.var_2045.var_1226,this.var_2046,this.var_2045.var_1178);
             this.var_2045.method_241(this.var_2045.name_5,this.var_2045.method_217(false));
             this.var_2045.method_967(class_183.var_7129,class_183.var_7129,name_5,var_206);

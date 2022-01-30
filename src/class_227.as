@@ -120,7 +120,7 @@ package
                class_227.var_2884.y = class_73.method_2108(class_16.var_3473) + int((-class_227.var_2884.var_206 + class_73.method_2108(class_165.var_6494)) / class_73.method_2108(class_165.var_6534));
             }
             class_227.var_2884.var_1173.visible = class_99.var_4682;
-            class_227.var_2884.var_1174.method_116();
+            class_227.var_2884.var_1174.clear();
             class_227.var_2884.var_1174.method_136(class_227.var_2884.var_1175);
             class_227.var_2884.var_1179.method_961(false);
             class_227.var_2884.var_1142.method_961(false);
@@ -221,7 +221,7 @@ package
       public function method_904(param1:class_550) : void
       {
          this.var_1172 = param1;
-         this.var_1183.method_116();
+         this.var_1183.clear();
          this.var_1169 = new class_168(param1.var_363,param1.var_609);
          this.var_1169.method_686(true);
          this.var_1169.method_702(this.var_1169.var_363,class_69.const_399);
@@ -229,7 +229,7 @@ package
          this.var_1169.mouseChildren = class_99.var_4682;
          this.var_1169.mouseEnabled = class_99.var_4682;
          this.var_1183.method_136(this.var_1169);
-         this.var_1184.method_116();
+         this.var_1184.clear();
          this.var_1170 = this.method_911(param1.var_2147,param1.var_2146 == class_33.var_3679);
          this.var_1170.visible = class_99.var_4682;
          this.var_1184.method_136(this.var_1170);
@@ -261,7 +261,7 @@ package
       
       public function method_906(param1:int) : void
       {
-         this.var_1178.method_116();
+         this.var_1178.clear();
          if(class_33.var_3679 == param1)
          {
             this.var_1178.method_216(new class_245(class_243.const_639,class_73.method_2108(class_183.var_7129)));
@@ -293,7 +293,7 @@ package
       
       public function method_907(param1:MouseEvent) : void
       {
-         this.var_1174.method_116();
+         this.var_1174.clear();
          this.var_1174.method_136(this.var_1176);
          class_227.var_2884.var_1179.method_961(true);
          class_227.var_2884.var_1142.method_961(true);
@@ -323,7 +323,7 @@ package
       
       public function method_909(param1:String = null) : void
       {
-         this.var_1174.method_116();
+         this.var_1174.clear();
          this.method_910(this.var_1177.name_5 + class_165.var_6534 * class_102.var_4852);
          this.var_1174.method_136(this.var_1177);
          if(param1 != null)

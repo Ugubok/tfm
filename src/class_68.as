@@ -106,11 +106,11 @@ package
       public static function method_2095(param1:Event) : void
       {
          var _loc2_:class_375 = new class_375();
-         _loc2_.method_109(class_68.method_2098(class_68.var_4234.data,true));
-         _loc2_.method_109(class_68.method_2098(Capabilities.playerType,true));
-         _loc2_.method_109(class_68.method_2098(class_101.method_2251(),true));
-         _loc2_.method_109(class_68.method_2098(class_1.var_2884.var_66,true));
-         _loc2_.method_109(class_68.method_2098(!!class_1.var_2886 ? class_33.var_3648 : class_117.var_5261,true));
+         _loc2_.writeUTF(class_68.method_2098(class_68.var_4234.data,true));
+         _loc2_.writeUTF(class_68.method_2098(Capabilities.playerType,true));
+         _loc2_.writeUTF(class_68.method_2098(class_101.method_2251(),true));
+         _loc2_.writeUTF(class_68.method_2098(class_1.var_2884.var_66,true));
+         _loc2_.writeUTF(class_68.method_2098(!!class_1.var_2886 ? class_33.var_3648 : class_117.var_5261,true));
          class_39.var_3744.method_313(_loc2_);
       }
       

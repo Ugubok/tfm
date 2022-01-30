@@ -21,7 +21,7 @@ package
          method_1690(this.method_1701);
          method_1100(class_26.method_1668(class_73.method_2111(class_124.var_5579)),this.method_1700);
          method_1107(class_26.method_1668(class_73.method_2111(class_4.var_2991)));
-         method_116();
+         clear();
          method_136(var_1226);
          _loc1_ = new class_24(name_5,class_33.var_3675).method_227(class_243.const_639,class_146.var_6117);
          this.var_2459 = new class_24(name_5,class_89.var_4436);

@@ -242,7 +242,7 @@ package
       
       public function method_263(param1:String) : void
       {
-         this.var_291.method_116();
+         this.var_291.clear();
          this.var_291.method_136(class_141.method_92(param1,class_73.method_2108(class_60.var_3939)));
          this.var_291.method_203(this.method_265);
       }

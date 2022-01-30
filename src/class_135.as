@@ -84,7 +84,7 @@ package
       
       public function method_516() : void
       {
-         method_116();
+         clear();
          var _loc1_:int = !!this.var_728 ? int(name_5 - this.var_291.name_5 - class_73.method_2108(class_146.var_6117)) : int(name_5);
          this.var_723 = new class_244(_loc1_,class_73.method_2108(class_33.var_3675),true);
          this.var_723.method_856(TextFormatAlign.CENTER);
@@ -173,7 +173,7 @@ package
       
       override public function method_263(param1:String) : void
       {
-         this.var_291.method_116();
+         this.var_291.clear();
          var _loc2_:class_250 = class_141.method_92(param1,class_60.var_3939);
          this.var_291.method_136(_loc2_);
          _loc2_.x = (-_loc2_.name_5 + this.var_291.name_5) / class_73.method_2108(class_165.var_6534);

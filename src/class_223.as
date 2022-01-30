@@ -51,7 +51,7 @@ package
       
       public function method_876() : void
       {
-         this.var_1146.method_116();
+         this.var_1146.clear();
          this.var_1147 = class_73.method_2108(class_183.var_7129);
          this.method_877(class_102.var_4852,class_180.method_2662());
          this.method_877(class_73.method_2108(class_146.var_6117),class_180.method_2663());

@@ -397,7 +397,7 @@ package
       
       public static var var_3466:String = "Choix : ";
       
-      public static var var_3467:int = 7513 + -7497;
+      public static var var_3467:int = 16;
       
       public static var var_3468:String = "son/np";
       

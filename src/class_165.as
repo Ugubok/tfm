@@ -357,7 +357,7 @@ package
       
       public static var var_6533:String = "mouseY";
       
-      public static var var_6534:int = 4562 + -4560;
+      public static var var_6534:int = 2;
        
       
       public function class_165()

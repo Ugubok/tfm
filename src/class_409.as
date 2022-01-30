@@ -10,7 +10,7 @@ package
          var _loc2_:int = class_183.var_7129;
          while(_loc2_ < param1.length)
          {
-            method_109(param1[_loc2_]);
+            writeUTF(param1[_loc2_]);
             _loc2_++;
          }
       }

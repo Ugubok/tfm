@@ -226,7 +226,7 @@ package
          var _loc1_:int = 0;
          var _loc2_:int = 0;
          var _loc3_:int = 0;
-         method_116();
+         clear();
          if(!class_17.var_3483)
          {
             _loc1_ = -class_33.var_3679;

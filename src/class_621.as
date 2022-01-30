@@ -259,7 +259,7 @@ package
             }
          }
          this.var_2375.method_216(new class_245(class_243.const_642,class_146.var_6117));
-         this.var_2375.method_116();
+         this.var_2375.clear();
          if(!this.var_2384)
          {
             this.var_2384 = new class_220().method_866().method_861(class_621.var_7362);
@@ -317,7 +317,7 @@ package
             this.var_2388.method_136(_loc12_,this.var_2389);
             this.var_2389.x = class_73.method_2108(class_146.var_6117);
          }
-         this.var_2389.method_116();
+         this.var_2389.clear();
          var _loc3_:int = class_73.method_2108(class_183.var_7129);
          var _loc4_:int = param1.var_2453.length;
          while(_loc3_ < _loc4_)
@@ -351,7 +351,7 @@ package
             this.var_2392.x = class_146.var_6117;
             this.var_2392.method_216(new class_245(class_243.const_642,class_73.method_2108(class_165.var_6534)));
          }
-         this.var_2392.method_116();
+         this.var_2392.clear();
          var _loc5_:int = class_183.var_7129;
          while(_loc5_ < param1.var_2454.length)
          {
@@ -526,7 +526,7 @@ package
             }
             this.var_2376.htmlText = class_9.var_3214 + _loc3_.toString(class_73.method_2108(class_16.var_3467)) + class_73.method_2111(class_33.var_3677) + class_231.method_2798(param1.var_363,true,this.var_2376.method_867()) + class_162.var_6345;
          }
-         this.var_2374.method_116();
+         this.var_2374.clear();
          this.var_2374.addChild(this.var_2381);
          this.method_1681();
          this.var_2374.method_136(this.var_2377);

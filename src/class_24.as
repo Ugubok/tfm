@@ -347,7 +347,7 @@ package
          return null;
       }
       
-      public function method_116(param1:Boolean = false) : Vector.<DisplayObject>
+      public function clear(param1:Boolean = false) : Vector.<DisplayObject>
       {
          var _loc3_:Vector.<DisplayObject> = null;
          this.method_232();
@@ -565,7 +565,7 @@ package
          var _loc5_:DisplayObject = null;
          var _loc6_:int = 0;
          var _loc1_:Vector.<int> = this.var_274;
-         var _loc2_:Vector.<DisplayObject> = this.method_116(true);
+         var _loc2_:Vector.<DisplayObject> = this.clear(true);
          var _loc3_:int = class_183.var_7129;
          var _loc4_:int = _loc2_.length;
          while(_loc3_ < _loc4_)

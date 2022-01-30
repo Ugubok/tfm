@@ -27,7 +27,7 @@ package
          var_1145.method_475((var_1178.name_5 - var_1178.method_220()) / class_165.var_6534);
          this.var_1525 = new class_246(class_73.method_2111(class_9.var_3268),(var_1178.name_5 - var_1178.method_220()) / class_73.method_2108(class_165.var_6534),this.method_1108);
          this.var_1525.addEventListener(KeyboardEvent.KEY_DOWN,this.method_1105);
-         var_1178.method_116();
+         var_1178.clear();
          var_1178.method_136(var_1145,this.var_1525);
       }
       
@@ -87,7 +87,7 @@ package
                   this.var_1528.method_203(this.method_876);
                }
                this.var_1525.method_475(var_1145.name_5 - var_1178.method_220() - this.var_1528.name_5,this.var_1525.var_206);
-               var_1178.method_116();
+               var_1178.clear();
                var_1178.method_136(var_1145,this.var_1525,this.var_1528);
             }
          }
@@ -95,7 +95,7 @@ package
          {
             var_1145.method_475((var_1178.name_5 - var_1178.method_220()) / class_73.method_2108(class_165.var_6534),var_1145.var_206);
             this.var_1525.method_475(var_1145.name_5,this.var_1525.var_206);
-            var_1178.method_116();
+            var_1178.clear();
             var_1178.method_136(var_1145,this.var_1525);
          }
       }

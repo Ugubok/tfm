@@ -38,8 +38,8 @@ package
                this.var_2270 = new class_24();
                this.var_2270.method_216(new class_245(class_243.const_639));
             }
-            this.var_2269.method_116();
-            this.var_2270.method_116();
+            this.var_2269.clear();
+            this.var_2270.clear();
             _loc2_ = param1.method_1478(class_183.var_7129).split(class_73.method_2111(class_107.var_5062));
             _loc3_ = -class_73.method_2108(class_33.var_3679);
             _loc4_ = _loc2_.length;

@@ -114,7 +114,7 @@ package
             _loc2_ = this.var_2751;
          }
          this.var_401.htmlText = _loc2_;
-         this.var_1906.method_116();
+         this.var_1906.clear();
          this.var_1906.method_136(this.var_401);
          this.var_1906.method_250();
       }

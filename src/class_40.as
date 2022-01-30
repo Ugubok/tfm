@@ -51,7 +51,7 @@ package
          }
          class_40.var_2884.method_325(param1);
          class_40.var_2884.var_402.visible = param2;
-         class_115.method_116();
+         class_115.clear();
          while(class_1.var_2884.numChildren)
          {
             class_1.var_2884.removeChildAt(class_73.method_2108(class_183.var_7129));

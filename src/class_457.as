@@ -7,7 +7,7 @@ package
       public function class_457(param1:String)
       {
          super(class_170.var_6720,class_146.var_6118);
-         method_109(param1);
+         writeUTF(param1);
       }
    }
 }

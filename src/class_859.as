@@ -232,10 +232,10 @@ package
          {
             this.method_1799();
          }
-         method_116();
+         clear();
          method_136(this.var_2782);
          method_136(this.var_2783);
-         this.var_2782.method_116();
+         this.var_2782.clear();
          var _loc2_:Boolean = this.var_2781.var_2587 || this.var_2781.var_2591 || this.var_2781.var_2588;
          var _loc3_:String = !_loc2_ && this.var_2781.var_1990 == class_418.var_7288 ? class_73.method_2111(class_16.var_3472) : class_73.method_2111(class_170.var_6729);
          this.var_2784.htmlText = class_73.method_2111(class_165.var_6519) + _loc3_ + class_73.method_2111(class_107.var_5006) + this.var_2781.var_1990 + class_73.method_2111(class_127.var_5826) + _loc3_ + class_73.method_2111(class_4.var_3056);
@@ -267,8 +267,8 @@ package
             this.var_2782.method_136(this.var_1007);
          }
          this.method_1800();
-         this.var_2786.method_116();
-         this.var_2794.method_116();
+         this.var_2786.clear();
+         this.var_2794.clear();
          var _loc4_:int = class_183.var_7129;
          while(_loc4_ < this.var_2781.var_2583.length)
          {
@@ -333,8 +333,8 @@ package
       public function method_1800() : void
       {
          this.var_2781.var_2595 = class_99.var_4682;
-         this.var_2783.method_116();
-         this.var_2787.method_116();
+         this.var_2783.clear();
+         this.var_2787.clear();
          var _loc1_:Boolean = this.var_2781.var_2587 || this.var_2781.var_2591 || this.var_2781.var_2588;
          if(_loc1_)
          {

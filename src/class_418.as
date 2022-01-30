@@ -735,7 +735,7 @@ package
          }
          class_418.var_7291.sort(class_418.method_2979);
          class_418.var_7290.sort(class_418.method_2979);
-         this.var_1831.method_116();
+         this.var_1831.clear();
          for each(_loc5_ in class_418.var_7291)
          {
             _loc4_ = new class_220(_loc5_,this.var_1831.name_5).method_856(TextFormatAlign.CENTER);
@@ -797,7 +797,7 @@ package
          var _loc5_:String = null;
          class_418.var_7287 = class_141.var_3499;
          class_418.var_7288 = class_141.var_3499;
-         this.var_1835.method_116();
+         this.var_1835.clear();
          this.var_1837 = -class_33.var_3679;
          var _loc1_:int = class_183.var_7129;
          var _loc2_:int = this.var_1826.length;

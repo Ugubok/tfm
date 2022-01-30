@@ -78,7 +78,7 @@ package
          class_1.var_2884.addChild(class_115.var_2884);
       }
       
-      public static function method_116() : void
+      public static function clear() : void
       {
          if(!class_115.var_2884)
          {

@@ -180,7 +180,7 @@ package
          var _loc2_:class_604 = param1.currentTarget as class_604;
          class_39.var_3744.method_313(new class_605(_loc2_.var_2345));
          this.var_1384.mouseChildren = class_99.var_4682;
-         this.var_1383.method_116();
+         this.var_1383.clear();
       }
       
       public function method_1049(param1:String, param2:class_24, param3:Function, param4:Boolean = false) : class_244
@@ -226,7 +226,7 @@ package
          var _loc7_:String = null;
          var _loc8_:class_250 = null;
          this.var_1394 = null;
-         this.var_1383.method_116();
+         this.var_1383.clear();
          var _loc1_:int = -class_73.method_2108(class_33.var_3679);
          var _loc2_:int = this.var_1392.length;
          while(++_loc1_ < _loc2_)

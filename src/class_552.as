@@ -90,7 +90,7 @@ package
          this.var_2159 = class_99.var_4682;
          class_111.var_5093 = class_111.var_5094;
          class_111.var_5094 = null;
-         method_116();
+         clear();
          method_136(var_1226,this.var_2158,this.var_2155,var_1178);
          method_241(name_5,method_217(false));
       }
@@ -119,7 +119,7 @@ package
          this.var_2157.method_941(class_26.method_1668(class_73.method_2111(class_117.var_5218)),false);
          var_1145.method_961(false);
          this.var_2159 = class_99.var_4682;
-         method_116();
+         clear();
          method_136(var_1226,this.var_2155,var_1178);
          method_241(name_5,method_217(false));
       }

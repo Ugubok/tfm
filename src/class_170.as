@@ -371,7 +371,7 @@ package
       
       public static var var_6730:int = 9829 + -9810;
       
-      public static var var_6731:int = 7870 + -7862;
+      public static var var_6731:int = 8;
        
       
       public function class_170()

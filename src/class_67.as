@@ -137,7 +137,7 @@ package
       
       public function name_13(param1:String) : void
       {
-         this.var_583.method_116();
+         this.var_583.clear();
          if(param1 != null && param1.length > class_73.method_2108(class_183.var_7129))
          {
             this.var_583.method_241(this.var_583.name_5,class_73.method_2108(class_33.var_3675));

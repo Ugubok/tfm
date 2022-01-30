@@ -33,7 +33,7 @@ package
       
       public var var_389:Array;
       
-      public var var_390:Socket;
+      public var _socket:Socket;
       
       public var var_159:ByteArray;
       
@@ -62,18 +62,18 @@ package
          var name_90:String = param1;
          var name_91:Boolean = param2;
          var name_92:class_5 = param3;
-         this.var_388 = Math.random() * class_9.var_3240;
-         this.var_389 = new Array(class_73.method_2108(class_146.var_6117));
+         this.var_388 = Math.random() * 90;
+         this.var_389 = new Array(3);
          this.var_159 = new ByteArray();
-         this.var_395 = class_73.method_2108(class_183.var_7129);
+         this.var_395 = 0;
          this.var_396 = new class_290();
-         this.var_397 = class_183.var_7129;
-         this.var_398 = class_73.method_2108(class_183.var_7129);
-         this.var_399 = class_73.method_2108(class_183.var_7129);
+         this.var_397 = 0;
+         this.var_398 = 0;
+         this.var_399 = 0;
          super();
          this.var_394 = name_92;
-         var var_7483:Array = name_90.split(class_89.var_4412);
-         this.var_387 = var_7483[class_183.var_7129];
+         var var_7483:Array = name_90.split(":");
+         this.var_387 = var_7483[0];
          var var_2425:String = var_7483.length > class_33.var_3679 ? var_7483[class_73.method_2108(class_33.var_3679)] : class_73.method_2111(class_127.var_5779);
          if(var_2425.length == class_73.method_2108(class_183.var_7129))
          {
@@ -105,7 +105,7 @@ package
                class_39.var_3745.method_311();
                class_39.var_3745.reset();
             }
-            this.var_393 = class_99.var_4681;
+            this.var_393 = true;
             class_39.var_3745 = this;
             this.method_321(var_2425);
          }
@@ -124,14 +124,14 @@ package
       
       public function method_311(param1:String = null, param2:Boolean = false) : void
       {
-         if(this.var_390.connected)
+         if(this._socket.connected)
          {
             if(param2)
             {
-               this.var_390.removeEventListener(Event.CLOSE,this.method_319);
-               this.var_390.removeEventListener(Event.CLOSE,class_1.var_2884.method_19);
+               this._socket.removeEventListener(Event.CLOSE,this.method_319);
+               this._socket.removeEventListener(Event.CLOSE,class_1.var_2884.method_19);
             }
-            this.var_390.close();
+            this._socket.close();
             if(!this.var_393 && !param2)
             {
                class_1.var_2884.method_19(null,param1);
@@ -150,11 +150,11 @@ package
       
       public function method_313(param1:class_5) : void
       {
-         var _loc2_:ByteArray = null;
+         var ba:ByteArray = null;
          var _loc3_:int = 0;
          var _loc4_:int = 0;
          var _loc5_:class_5 = null;
-         if(this.var_390.connected)
+         if(this._socket.connected)
          {
             if(this.var_394)
             {
@@ -174,21 +174,21 @@ package
             {
                param1.method_112(param1.var_12);
             }
-            _loc2_ = new ByteArray();
+            ba = new ByteArray();
             _loc3_ = param1.var_159.length;
             _loc4_ = _loc3_ >>> class_92.var_4647;
             while(_loc4_ != class_183.var_7129)
             {
-               _loc2_.writeByte(_loc3_ & 127 | 128);
+               ba.writeByte(_loc3_ & 127 | 128);
                _loc3_ = _loc4_;
-               _loc4_ >>>= class_73.method_2108(class_92.var_4647);
+               _loc4_ >>>= 7;
             }
-            _loc2_.writeByte(_loc3_ & 127);
-            _loc2_.writeByte(this.var_388);
-            this.var_388 = (this.var_388 + class_73.method_2108(class_33.var_3679)) % class_73.method_2108(class_121.var_5493);
-            this.var_390.writeBytes(_loc2_);
-            this.var_390.writeBytes(param1.var_159);
-            this.var_390.flush();
+            ba.writeByte(_loc3_ & 127);
+            ba.writeByte(this.var_388);
+            this.var_388 = (this.var_388 + 1 % 100);
+            this._socket.writeBytes(ba);
+            this._socket.writeBytes(param1.var_159);
+            this._socket.flush();
          }
       }
       
@@ -203,16 +203,16 @@ package
          var _loc2_:class_5 = null;
          if(this.var_393)
          {
-            class_293.method_2856(class_73.method_2111(class_16.var_3375));
+            class_293.method_2856("OK");
             class_293.name_6(false);
          }
-         if(this.var_394 && this.var_390.connected)
+         if(this.var_394 && this._socket.connected)
          {
             _loc2_ = this.var_394;
             this.var_394 = null;
             if(this.var_393)
             {
-               class_293.method_2855(class_73.method_2111(class_165.var_6421));
+               class_293.method_2855("Identification directe");
             }
             this.method_313(_loc2_);
          }
@@ -225,8 +225,8 @@ package
          {
             try
             {
-               _loc1_ = SharedObject.getLocal(class_146.var_6100);
-               _loc1_.data[class_73.method_2111(class_9.var_3167)] = new Date().time;
+               _loc1_ = SharedObject.getLocal("info");
+               _loc1_.data["date"] = new Date().time;
                _loc1_.flush();
             }
             catch(name_85:Error)
@@ -238,48 +238,48 @@ package
       public function method_317(param1:ByteArray) : void
       {
          var _loc2_:int = 0;
-         if(this.var_390.connected)
+         if(this._socket.connected)
          {
-            param1.position = class_73.method_2108(class_183.var_7129);
+            param1.position = 0;
             _loc2_ = param1.length;
             if(_loc2_ <= 255)
             {
-               this.var_390.writeByte(class_73.method_2108(class_33.var_3679));
-               this.var_390.writeByte(_loc2_);
+               this._socket.writeByte(class_73.method_2108(class_33.var_3679));
+               this._socket.writeByte(_loc2_);
             }
             else if(65535 >= _loc2_)
             {
-               this.var_390.writeByte(class_73.method_2108(class_165.var_6534));
-               this.var_390.writeShort(_loc2_);
+               this._socket.writeByte(class_73.method_2108(class_165.var_6534));
+               this._socket.writeShort(_loc2_);
             }
             else if(_loc2_ <= 16777215)
             {
-               this.var_390.writeByte(class_73.method_2108(class_146.var_6118));
-               this.var_390.writeByte(_loc2_ >> class_16.var_3467 & 255);
-               this.var_390.writeByte(_loc2_ >> class_170.var_6731 & 255);
-               this.var_390.writeByte(_loc2_ & 255);
+               this._socket.writeByte(3);
+               this._socket.writeByte(_loc2_ >> 16 & 255);
+               this._socket.writeByte(_loc2_ >> 8 & 255);
+               this._socket.writeByte(_loc2_ & 255);
             }
-            this.var_390.writeByte(this.var_388);
+            this._socket.writeByte(this.var_388);
             this.var_388 = (this.var_388 + class_73.method_2108(class_33.var_3679)) % class_121.var_5493;
-            this.var_390.writeBytes(param1);
-            this.var_390.flush();
+            this._socket.writeBytes(param1);
+            this._socket.flush();
          }
       }
       
       public function reset() : void
       {
-         if(this.var_390)
+         if(this._socket)
          {
-            if(this.var_390.connected)
+            if(this._socket.connected)
             {
-               this.var_390.close();
+               this._socket.close();
             }
-            this.var_390.removeEventListener(Event.CONNECT,this.method_315);
-            this.var_390.removeEventListener(Event.CONNECT,class_1.var_2884.class_790);
-            this.var_390.removeEventListener(ProgressEvent.SOCKET_DATA,this.method_320);
-            this.var_390.removeEventListener(Event.CLOSE,class_1.var_2884.method_19);
-            this.var_390.removeEventListener(SecurityErrorEvent.SECURITY_ERROR,this.method_318);
-            this.var_390.removeEventListener(IOErrorEvent.IO_ERROR,this.method_312);
+            this._socket.removeEventListener(Event.CONNECT,this.method_315);
+            this._socket.removeEventListener(Event.CONNECT,class_1.var_2884.class_790);
+            this._socket.removeEventListener(ProgressEvent.SOCKET_DATA,this.method_320);
+            this._socket.removeEventListener(Event.CLOSE,class_1.var_2884.method_19);
+            this._socket.removeEventListener(SecurityErrorEvent.SECURITY_ERROR,this.method_318);
+            this._socket.removeEventListener(IOErrorEvent.IO_ERROR,this.method_312);
          }
       }
       
@@ -305,7 +305,7 @@ package
          var var_956:int = 0;
          var var_7484:ProgressEvent = param1;
          var var_7485:Boolean = param2;
-         if(!this.var_390.bytesAvailable)
+         if(!this._socket.bytesAvailable)
          {
             return;
          }
@@ -319,9 +319,9 @@ package
          }
          if(!this.var_400)
          {
-            while(this.var_390.bytesAvailable)
+            while(this._socket.bytesAvailable)
             {
-               var_956 = this.var_390.readByte() & 255;
+               var_956 = this._socket.readByte() & 255;
                this.var_398 |= (var_956 & 127) << this.var_399 * class_73.method_2108(class_92.var_4647);
                ++this.var_399;
                if((var_956 & 128) == 128 && this.var_399 < class_73.method_2108(class_117.var_5287))
@@ -332,12 +332,12 @@ package
             }
             return;
          }
-         if(this.var_400 && this.var_390.bytesAvailable >= this.var_398)
+         if(this.var_400 && this._socket.bytesAvailable >= this.var_398)
          {
             this.var_159.clear();
             try
             {
-               this.var_390.readBytes(this.var_159,class_183.var_7129,this.var_398);
+               this._socket.readBytes(this.var_159,class_183.var_7129,this.var_398);
                class_291.method_666(this.var_159);
             }
             catch(name_85:Error)
@@ -362,7 +362,7 @@ package
             this.var_398 = class_183.var_7129;
             this.var_399 = class_183.var_7129;
             this.var_400 = class_99.var_4682;
-            if(this.var_390.connected && this.var_390.bytesAvailable)
+            if(this._socket.connected && this.var_390.bytesAvailable)
             {
                if(class_73.method_2108(class_89.var_4444) > this.var_397)
                {
@@ -394,21 +394,21 @@ package
             return;
          }
          var _loc3_:int = this.var_392.shift();
-         this.var_390 = new Socket();
-         this.var_390.endian = Endian.BIG_ENDIAN;
+         this._socket = new Socket();
+         this._socket.endian = Endian.BIG_ENDIAN;
          if(this.var_393)
          {
-            this.var_390.addEventListener(Event.CLOSE,this.method_319);
+            this._socket.addEventListener(Event.CLOSE,this.method_319);
          }
          else
          {
-            this.var_390.addEventListener(Event.CONNECT,class_1.var_2884.class_790,false,int.MAX_VALUE);
-            this.var_390.addEventListener(Event.CLOSE,class_1.var_2884.method_19);
+            this._socket.addEventListener(Event.CONNECT,class_1.var_2884.class_790,false,int.MAX_VALUE);
+            this._socket.addEventListener(Event.CLOSE,class_1.var_2884.method_19);
          }
-         this.var_390.addEventListener(Event.CONNECT,this.method_315);
-         this.var_390.addEventListener(ProgressEvent.SOCKET_DATA,this.method_320);
-         this.var_390.addEventListener(SecurityErrorEvent.SECURITY_ERROR,this.method_318);
-         this.var_390.addEventListener(IOErrorEvent.IO_ERROR,this.method_312);
+         this._socket.addEventListener(Event.CONNECT,this.method_315);
+         this._socket.addEventListener(ProgressEvent.SOCKET_DATA,this.method_320);
+         this._socket.addEventListener(SecurityErrorEvent.SECURITY_ERROR,this.method_318);
+         this._socket.addEventListener(IOErrorEvent.IO_ERROR,this.method_312);
          if(this.var_393)
          {
             if(class_111.var_5100)
@@ -424,7 +424,7 @@ package
          {
             class_143.method_955(class_9.var_3149 + _loc3_ + class_73.method_2111(class_60.var_3876));
          }
-         this.var_390.connect(_loc2_,_loc3_);
+         this._socket.connect(_loc2_,_loc3_);
       }
       
       public function method_321(param1:String) : void

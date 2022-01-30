@@ -349,12 +349,12 @@ package
          }
          class_144.var_5939.htmlText = param1;
          class_144.var_5941.htmlText = param2;
-         class_144.var_5938.method_116();
+         class_144.var_5938.clear();
          class_144.var_5938.method_136(class_144.var_5939);
          class_144.var_5938.method_136(class_144.var_5940);
          class_144.var_5938.method_136(class_144.var_5941);
          class_144.var_5940.method_959(class_144.method_2494,param3);
-         class_144.var_5916.method_116();
+         class_144.var_5916.clear();
          class_144.var_5916.method_136(class_144.var_5938);
          class_144.var_5916.method_136(class_144.var_5942.method_475(class_144.var_5938.name_5));
          class_144.var_5916.method_241(class_144.var_5938.name_5,class_144.var_5916.method_217(false));
@@ -433,14 +433,14 @@ package
             class_144.method_2498();
          }
          class_144.method_2485();
-         class_144.var_5926.method_116();
-         class_144.var_5932.method_116();
+         class_144.var_5926.clear();
+         class_144.var_5932.clear();
          if(param1 == class_144.const_537)
          {
             class_144.var_5926.method_136(class_144.var_5928);
             class_144.var_5926.method_241(class_144.var_5926.name_5,class_144.var_5926.method_217(false));
-            class_144.var_5933.method_116();
-            class_144.var_5934.method_116();
+            class_144.var_5933.clear();
+            class_144.var_5934.clear();
             class_144.var_5924 = new Dictionary();
             _loc6_ = new Array();
             _loc7_ = null;
@@ -540,7 +540,7 @@ package
             class_144.var_5932.method_241(class_144.var_5932.name_5,class_144.var_5932.method_217(false));
          }
          var _loc5_:int = param1 == class_144.const_537 ? int(class_73.method_2108(class_124.var_5662)) : int(class_162.var_6327);
-         class_144.var_5916.method_116();
+         class_144.var_5916.clear();
          class_144.var_5916.method_221(class_73.method_2108(class_146.var_6117));
          class_144.var_5916.method_136(class_144.var_5926);
          class_144.var_5926.x = (-class_144.var_5926.name_5 + _loc5_) / class_73.method_2108(class_165.var_6534);
@@ -664,10 +664,10 @@ package
             class_144.var_5937.selectable = class_99.var_4681;
          }
          class_144.var_5937.htmlText = param1;
-         class_144.var_5936.method_116();
+         class_144.var_5936.clear();
          class_144.var_5936.method_136(class_144.var_5937);
          class_144.var_5937.y = (class_144.var_5936.var_206 - class_144.var_5937.height) / class_165.var_6534;
-         class_144.var_5916.method_116();
+         class_144.var_5916.clear();
          class_144.var_5916.method_136(class_144.var_5936);
          class_144.var_5916.method_136(class_144.var_1180.method_959(!!param2 ? class_144.method_2470 : class_144.method_2477).method_475(class_144.var_5936.name_5));
          class_144.var_5916.method_241(class_144.var_5936.name_5,class_144.var_5916.method_217(false));
@@ -830,7 +830,7 @@ package
          class_144.var_5944.htmlText = class_124.var_5628 + class_144.var_5919.var_1672 + class_170.var_6704;
          class_144.var_5945.htmlText = class_73.method_2111(class_121.var_5462) + class_144.var_5919.var_1910 + class_124.var_5647 + class_144.var_5919.var_1913 + class_73.method_2111(class_124.var_5627);
          class_144.var_5946.method_203(class_144.method_2481,new Array(param1,param2));
-         class_144.var_5916.method_116();
+         class_144.var_5916.clear();
          class_144.var_5916.method_136(class_144.var_5943);
          class_144.var_5916.method_136(class_144.var_1180.method_959(class_144.method_2470).method_475(class_144.var_5943.name_5));
          class_144.var_5916.method_241(class_144.var_5943.name_5,class_144.var_5916.method_217(false));
@@ -851,7 +851,7 @@ package
          var _loc5_:class_462 = null;
          var _loc6_:MovieClip = null;
          var _loc7_:class_23 = null;
-         class_144.var_5934.method_116();
+         class_144.var_5934.clear();
          var _loc2_:class_220 = new class_220(class_9.var_3268,class_144.var_5934.name_5,class_162.var_6351);
          _loc2_.method_861(new TextFormat(class_26.var_3500,class_73.method_2108(class_33.var_3675),12763866,true,null,null,null,null,TextFormatAlign.CENTER));
          _loc2_.text = param1.toUpperCase();

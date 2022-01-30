@@ -452,7 +452,7 @@ package
       
       public function method_1039() : void
       {
-         this.var_1379.method_116();
+         this.var_1379.clear();
          this.var_1379.method_136(new class_597(this.var_1379.name_5 - class_117.var_5287,-class_33.var_3679,this.var_1379));
          class_284.var_7194 = -class_73.method_2108(class_33.var_3679);
       }
@@ -465,13 +465,13 @@ package
          var _loc6_:class_592 = null;
          if(this.var_1370 != param1.var_2323 || param1.var_2323)
          {
-            this.var_1379.method_116();
+            this.var_1379.clear();
          }
          class_284.var_2324 = param1.var_2324;
          this.var_1370 = param1.var_2323;
          this.var_1369.visible = class_99.var_4681;
          this.var_1367 = new Dictionary();
-         this.var_1377.method_116();
+         this.var_1377.clear();
          var _loc2_:int = class_73.method_2108(class_183.var_7129);
          while(_loc2_ < param1.var_2322.length)
          {
@@ -535,7 +535,7 @@ package
          {
             this.var_1372.parent.removeChild(this.var_1372);
          }
-         this.var_1379.method_116();
+         this.var_1379.clear();
          this.var_1368 = new Dictionary();
          if(!var_7546.var_2335)
          {

@@ -77,7 +77,7 @@ package
       
       public function method_431() : void
       {
-         this.var_1541.method_116();
+         this.var_1541.clear();
          this.var_2603 = var_206 / class_755.const_1318;
          this.var_2602 = class_175.method_118(class_16.var_3382);
          this.var_2602.scaleX = this.var_2603;

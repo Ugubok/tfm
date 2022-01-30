@@ -111,7 +111,7 @@ package
       public function method_142(param1:String, param2:int = 0.0) : void
       {
          var _loc3_:int = 0;
-         this.var_1906.method_116();
+         this.var_1906.clear();
          this.var_401 = new class_220(class_9.var_3268,class_73.method_2108(class_165.var_6534) * class_614.name_60,class_614.name_58 - class_102.var_4859);
          this.var_401.addEventListener(TextEvent.LINK,this.method_608);
          this.var_401.selectable = class_99.var_4681;

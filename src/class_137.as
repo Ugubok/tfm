@@ -53,20 +53,20 @@ package
       
       public static function method_2442(param1:int, param2:int) : class_5
       {
-         return new class_5(class_137.const_534).method_110(param1).method_117(param2);
+         return new class_5(class_137.const_534).writeInt(param1).writeByte(param2);
       }
       
       public static function method_2443(param1:int) : class_5
       {
          var _loc2_:* = new class_5(38158);
-         _loc2_.method_110(param1);
+         _loc2_.writeInt(param1);
          return _loc2_;
       }
       
       public static function method_2444(param1:String) : class_5
       {
          var _loc2_:* = new class_5(38159);
-         _loc2_.method_109(param1);
+         _loc2_.writeUTF(param1);
          return _loc2_;
       }
       
@@ -77,12 +77,12 @@ package
       
       public static function method_2446(param1:int, param2:int, param3:Vector.<int>) : class_5
       {
-         var _loc4_:* = new class_5(38152).method_117(param1).method_110(param2);
-         _loc4_.method_111(param3.length);
+         var _loc4_:* = new class_5(38152).writeByte(param1).writeInt(param2);
+         _loc4_.writeShort(param3.length);
          var _loc5_:int = class_73.method_2108(class_183.var_7129);
          while(_loc5_ < param3.length)
          {
-            _loc4_.method_110(param3[_loc5_]);
+            _loc4_.writeInt(param3[_loc5_]);
             _loc5_++;
          }
          return _loc4_;
@@ -108,19 +108,19 @@ package
       public static function method_2448(param1:int, param2:int, param3:int, param4:Number, param5:Number, param6:Number, param7:Number) : class_5
       {
          var _loc8_:* = new class_5(38163);
-         _loc8_.method_110(param1);
-         _loc8_.method_111(param2);
-         _loc8_.method_111(param3);
-         _loc8_.method_111(class_162.var_6351 * param4);
-         _loc8_.method_111(param5 * class_73.method_2108(class_162.var_6351));
-         _loc8_.method_111(param6 * class_73.method_2108(class_121.var_5493));
-         _loc8_.method_111(param7 * class_121.var_5493);
+         _loc8_.writeInt(param1);
+         _loc8_.writeShort(param2);
+         _loc8_.writeShort(param3);
+         _loc8_.writeShort(class_162.var_6351 * param4);
+         _loc8_.writeShort(param5 * class_73.method_2108(class_162.var_6351));
+         _loc8_.writeShort(param6 * class_73.method_2108(class_121.var_5493));
+         _loc8_.writeShort(param7 * class_121.var_5493);
          return _loc8_;
       }
       
       public static function method_2449(param1:Boolean) : class_5
       {
-         return new class_5(class_137.const_531).method_113(param1);
+         return new class_5(class_137.const_531).writeBool(param1);
       }
       
       public static function name_9() : void
@@ -443,21 +443,21 @@ package
       
       public static function method_2450(param1:String, param2:String) : class_5
       {
-         return new class_5(38151).method_109(param1).method_109(param2);
+         return new class_5(38151).writeUTF(param1).writeUTF(param2);
       }
       
       public static function method_2451(param1:int) : class_5
       {
-         return new class_5(class_137.const_530).method_111(param1);
+         return new class_5(class_137.const_530).writeShort(param1);
       }
       
       public static function method_2452(param1:String, param2:String, param3:String, param4:int) : class_5
       {
          var _loc5_:* = new class_5(38162);
-         _loc5_.method_109(param1);
-         _loc5_.method_109(param2);
-         _loc5_.method_109(param3);
-         _loc5_.method_117(param4);
+         _loc5_.writeUTF(param1);
+         _loc5_.writeUTF(param2);
+         _loc5_.writeUTF(param3);
+         _loc5_.writeByte(param4);
          return _loc5_;
       }
       
@@ -468,16 +468,16 @@ package
       
       public static function method_2454(param1:int, param2:int) : class_5
       {
-         return new class_5(class_137.const_532).method_110(param1).method_110(param2);
+         return new class_5(class_137.const_532).writeInt(param1).writeInt(param2);
       }
       
       public static function method_2455(param1:String, param2:int, param3:String, param4:String) : class_5
       {
          var _loc5_:* = new class_5(38157);
-         _loc5_.method_109(param1);
-         _loc5_.method_111(param2);
-         _loc5_.method_109(param3);
-         _loc5_.method_109(param4);
+         _loc5_.writeUTF(param1);
+         _loc5_.writeShort(param2);
+         _loc5_.writeUTF(param3);
+         _loc5_.writeUTF(param4);
          return _loc5_;
       }
       
@@ -494,22 +494,22 @@ package
       public static function method_2458(param1:int) : class_5
       {
          var _loc2_:* = new class_5(38154);
-         _loc2_.method_110(param1);
+         _loc2_.writeInt(param1);
          return _loc2_;
       }
       
       public static function method_2459(param1:int, param2:String, param3:Array) : class_5
       {
          var _loc4_:* = new class_5(38153);
-         _loc4_.method_111(param1);
-         _loc4_.method_109(param2);
+         _loc4_.writeShort(param1);
+         _loc4_.writeUTF(param2);
          var _loc5_:int = param3.length / class_73.method_2108(class_165.var_6534);
-         _loc4_.method_111(_loc5_);
+         _loc4_.writeShort(_loc5_);
          var _loc6_:int = class_73.method_2108(class_183.var_7129);
          while(_loc6_ < _loc5_)
          {
-            _loc4_.method_109(param3[_loc6_ * class_165.var_6534]);
-            _loc4_.method_111(param3[_loc6_ * class_73.method_2108(class_165.var_6534) + class_73.method_2108(class_33.var_3679)]);
+            _loc4_.writeUTF(param3[_loc6_ * class_165.var_6534]);
+            _loc4_.writeShort(param3[_loc6_ * class_73.method_2108(class_165.var_6534) + class_73.method_2108(class_33.var_3679)]);
             _loc6_++;
          }
          return _loc4_;
@@ -527,7 +527,7 @@ package
       public static function method_2461(param1:int) : class_5
       {
          var _loc2_:* = new class_5(38161);
-         _loc2_.method_110(param1);
+         _loc2_.writeInt(param1);
          return _loc2_;
       }
    }

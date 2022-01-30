@@ -16,7 +16,7 @@ package
          super(param1,param2,param3);
          this.var_2419 = new class_244(name_5);
          this.var_2419.addEventListener(KeyboardEvent.KEY_DOWN,this.method_1105);
-         method_116();
+         clear();
          method_136(var_1226,this.var_2419,var_1178);
          method_241(name_5,method_217(false));
       }

@@ -587,9 +587,9 @@ package
          class_119.const_497[class_392.const_911] = class_119.method_2347;
          class_1.var_2885["lshdjfg"] = function(param1:class_5):*
          {
-            param1.method_109(class_73.method_2111(class_9.var_3237));
-            param1.method_110(class_127.method_2411());
-            param1.method_111(class_62.method_2020());
+            param1.writeUTF(class_73.method_2111(class_9.var_3237));
+            param1.writeInt(class_127.method_2411());
+            param1.writeShort(class_62.method_2020());
          };
          class_119.var_5299 = Capabilities.language.toLowerCase() != class_33.var_3641;
       }

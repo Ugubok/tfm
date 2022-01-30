@@ -66,7 +66,7 @@ package
          _loc3_.method_241(_loc3_.name_5,Math.min(class_62.var_4130,_loc3_.method_217(false)));
          _loc3_.method_244(true,class_73.method_2108(class_162.var_6351));
          _loc3_.method_219();
-         _loc1_.method_116();
+         _loc1_.clear();
          _loc1_.method_136(_loc1_.var_1226,_loc3_,_loc1_.var_1178);
          _loc1_.method_241(_loc1_.name_5,_loc1_.method_217(false));
          _loc1_.method_1111();

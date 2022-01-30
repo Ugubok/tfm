@@ -317,7 +317,7 @@ package
          var var_7491:class_24 = null;
          var var_411:class_220 = null;
          this.var_404.method_232();
-         this.var_404.method_116();
+         this.var_404.clear();
          var var_4180:int = -class_33.var_3679;
          var name_46:Vector.<class_297> = class_98.method_2229();
          var var_7436:int = class_183.var_7129;

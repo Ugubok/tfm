@@ -184,7 +184,7 @@ package
          var _loc3_:int = Math.min(class_373.var_7264.length,this.var_1684);
          if(_loc3_ < this.var_1686.var_241)
          {
-            _loc5_ = this.var_1686.method_116(true);
+            _loc5_ = this.var_1686.clear(true);
             _loc6_ = class_73.method_2108(class_183.var_7129);
             while(_loc6_ < this.var_1684)
             {

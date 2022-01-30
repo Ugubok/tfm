@@ -587,7 +587,7 @@ package
       
       public function method_1336() : void
       {
-         this.var_1006.method_116();
+         this.var_1006.clear();
          if(!this.var_1859)
          {
             this.var_1006.method_224(class_420.const_1092,this.var_1861.length,this.method_1358);

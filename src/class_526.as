@@ -136,10 +136,10 @@ package
       
       public function method_1336() : void
       {
-         this.var_2067.method_116();
+         this.var_2067.clear();
          this.var_2067.method_224(class_526.const_1182,Math.ceil(this.var_2070.length / class_526.const_1179),this.method_1533);
          this.var_2067.method_250();
-         this.var_2068.method_116();
+         this.var_2068.clear();
          var _loc1_:class_250 = new class_250(class_4.var_3009,class_124.var_5614,class_124.var_5594);
          this.var_2068.addChildAt(_loc1_,class_183.var_7129);
          _loc1_.x = this.var_2068.name_5 - _loc1_.name_5;

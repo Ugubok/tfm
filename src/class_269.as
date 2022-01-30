@@ -127,7 +127,7 @@ package
       
       public function method_881() : void
       {
-         this.var_1310.method_116();
+         this.var_1310.clear();
          this.var_1316.length = class_183.var_7129;
       }
       
@@ -176,7 +176,7 @@ package
       
       public function method_992() : void
       {
-         this.var_1310.method_116();
+         this.var_1310.clear();
          var _loc1_:int = class_183.var_7129;
          var _loc2_:int = this.var_1316.length;
          while(_loc1_ < _loc2_)
@@ -191,7 +191,7 @@ package
       
       public function method_993(param1:class_390) : void
       {
-         this.var_1310.method_116();
+         this.var_1310.clear();
          var _loc2_:int = class_73.method_2108(class_183.var_7129);
          var _loc3_:int = this.var_1317.length;
          for(; _loc2_ < _loc3_; _loc2_++)
@@ -219,7 +219,7 @@ package
       
       public function method_994() : void
       {
-         this.var_1178.method_116();
+         this.var_1178.clear();
          if(this.var_1311)
          {
             this.var_1178.method_136(this.var_1180);

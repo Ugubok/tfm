@@ -408,7 +408,7 @@ package
          var _loc7_:class_24 = null;
          param1.sort();
          this.var_1006.method_232();
-         this.var_1006.method_116();
+         this.var_1006.clear();
          var _loc2_:int = -class_73.method_2108(class_33.var_3679);
          var _loc3_:int = param1.length;
          while(++_loc2_ < _loc3_)

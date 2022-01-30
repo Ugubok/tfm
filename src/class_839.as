@@ -47,7 +47,7 @@ package
          _loc9_.cacheAsBitmap = class_99.var_4681;
          _loc13_ = new class_315(class_73.method_2108(class_124.var_5662),class_9.var_3268);
          _loc13_.method_955(class_26.method_1668(param5,param4),true);
-         _loc13_.method_116();
+         _loc13_.clear();
          _loc13_.method_216(new class_245(class_243.const_642,class_170.var_6731));
          _loc13_.method_136(_loc13_.var_1226,_loc9_,_loc13_.var_1178);
          _loc13_.method_241(_loc13_.name_5,_loc13_.method_217(false));
@@ -91,7 +91,7 @@ package
          _loc8_.cacheAsBitmap = class_99.var_4681;
          var _loc12_:class_315 = new class_315(class_73.method_2108(class_60.var_3945),class_73.method_2111(class_9.var_3268));
          _loc12_.method_955(param5,true);
-         _loc12_.method_116();
+         _loc12_.clear();
          _loc12_.method_216(new class_245(class_243.const_642,class_73.method_2108(class_170.var_6731)));
          _loc12_.method_136(_loc12_.var_1226,_loc8_,_loc12_.var_1178);
          _loc12_.method_241(_loc12_.name_5,_loc12_.method_217(false));

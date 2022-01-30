@@ -71,8 +71,8 @@ package
          var var_7573:class_220 = null;
          var var_7574:class_220 = null;
          var var_7501:ByteArray = param1;
-         this.var_1901.method_116();
-         this.var_1902.method_116();
+         this.var_1901.clear();
+         this.var_1902.clear();
          var var_7502:int = var_7501.readInt();
          var var_7436:int = class_183.var_7129;
          while(var_7436 < var_7502)

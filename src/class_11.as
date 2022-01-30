@@ -287,7 +287,7 @@ package
          return !!var_162 ? class_175.method_2618(class_73.method_2111(class_117.var_5129) + (var_162 as class_133).var_722 + class_73.method_2111(class_117.var_5274)) : null;
       }
       
-      public function method_116() : void
+      public function clear() : void
       {
          while(class_183.var_7129 < this.var_166.length)
          {

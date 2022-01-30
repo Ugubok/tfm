@@ -145,7 +145,7 @@ package
          }
       }
       
-      override public function method_116(param1:Boolean = false) : Vector.<DisplayObject>
+      override public function clear(param1:Boolean = false) : Vector.<DisplayObject>
       {
          var _loc2_:Vector.<DisplayObject> = null;
          method_232();

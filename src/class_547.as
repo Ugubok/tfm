@@ -269,7 +269,7 @@ package
             }
          }
          this.var_2136.method_250();
-         this.var_2136.method_116();
+         this.var_2136.clear();
          var _loc6_:Number = new Date().time;
          _loc4_ = class_183.var_7129;
          _loc5_ = _loc3_.length;
@@ -318,7 +318,7 @@ package
       
       public function method_1562() : void
       {
-         this.var_2133.method_116();
+         this.var_2133.clear();
          this.method_1567();
          this.method_1568();
       }
@@ -332,7 +332,7 @@ package
             this.method_1568();
             this.var_2143.var_1027.method_786();
          }
-         this.var_2137.method_116();
+         this.var_2137.clear();
          this.var_2137.method_136(this.var_2138);
          this.var_2143 = null;
       }
@@ -357,7 +357,7 @@ package
          this.var_2143 = param1;
          this.method_1564(this.var_2143,true);
          var _loc2_:Vector.<MovieClip> = this.var_575.method_1219(this.var_2143.var_790);
-         this.var_2142.method_116();
+         this.var_2142.clear();
          this.var_2142.method_221((this.var_2142.var_206 - (class_9.var_3266 * _loc2_.length + this.var_2142.method_220() * (-class_33.var_3679 + _loc2_.length))) / class_165.var_6534);
          for each(_loc3_ in _loc2_)
          {
@@ -366,7 +366,7 @@ package
          this.var_575.method_1218(class_73.method_2108(class_183.var_7129));
          this.var_575.method_1221(class_547.const_1196,this.var_581);
          this.var_2142.x = (this.var_2144.name_5 - this.var_2142.var_242) / class_73.method_2108(class_165.var_6534);
-         this.var_2137.method_116();
+         this.var_2137.clear();
          this.var_2137.method_136(this.var_2139);
       }
       
@@ -386,7 +386,7 @@ package
       
       public function method_1568() : void
       {
-         this.var_2140.method_116();
+         this.var_2140.clear();
          var _loc1_:MovieClip = this.var_2133.method_118();
          this.var_2140.addChild(_loc1_);
          var _loc2_:Rectangle = _loc1_.getBounds(_loc1_);

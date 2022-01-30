@@ -680,7 +680,7 @@ package
          var _loc4_:class_24 = null;
          var _loc5_:MovieClip = null;
          var _loc6_:MovieClip = null;
-         method_116();
+         clear();
          name_5 = param1;
          var_206 = param2;
          this.var_851 = param1 < class_127.var_5856;
@@ -1862,7 +1862,7 @@ package
                this.var_818.sort(class_491.method_3037);
                this.var_839 = _loc1_;
             }
-            this.var_821.method_116();
+            this.var_821.clear();
             _loc6_ = new Vector.<class_220>();
             _loc7_ = class_73.method_2108(class_183.var_7129);
             _loc2_ = -class_73.method_2108(class_33.var_3679);

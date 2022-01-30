@@ -120,7 +120,7 @@ package
             return;
          }
          this.var_1141 = param1;
-         method_116();
+         clear();
          this.var_1145.method_961(true);
          if(param1 == class_222.const_629 || param1 == class_222.const_635)
          {

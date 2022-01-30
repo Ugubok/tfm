@@ -128,7 +128,7 @@ package
             this.var_2184.x = class_124.var_5657;
             this.var_2184.y = class_73.method_2108(class_102.var_4859);
          }
-         this.var_2184.method_116();
+         this.var_2184.clear();
          var _loc3_:class_250 = new class_250(class_73.method_2111(class_146.var_5954) + param2 + class_73.method_2111(class_89.var_4385),class_73.method_2108(class_62.var_4130),class_73.method_2108(class_102.var_4742));
          _loc3_.filters = new Array(new DropShadowFilter(class_121.var_5495,class_73.method_2108(class_165.var_6498),class_73.method_2108(class_183.var_7129),class_33.var_3679,class_117.var_5287,class_73.method_2108(class_117.var_5287),class_73.method_2108(class_33.var_3679),class_146.var_6118));
          this.var_2184.method_136(_loc3_);

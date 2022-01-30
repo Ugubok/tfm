@@ -265,7 +265,7 @@ package
             {
                class_301.var_2884.name_46.splice(_loc4_,class_33.var_3679);
             }
-            class_301.var_2884.var_1463.method_116();
+            class_301.var_2884.var_1463.clear();
             _loc5_ = class_73.method_2108(class_183.var_7129);
             while(_loc5_ < class_301.var_2884.name_46.length)
             {

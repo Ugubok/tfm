@@ -69,8 +69,8 @@ package
          var var_7587:class_220 = null;
          var var_7588:class_220 = null;
          var var_7501:class_303 = param1;
-         this.var_1903.method_116();
-         this.var_1904.method_116();
+         this.var_1903.clear();
+         this.var_1904.clear();
          var var_7502:int = var_7501.method_1090();
          var var_7436:int = class_73.method_2108(class_183.var_7129);
          while(var_7436 < var_7502)
