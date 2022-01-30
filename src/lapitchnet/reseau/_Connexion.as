@@ -55,15 +55,15 @@ package lapitchnet.reseau
       
       private var _sauvegardeSequences:Vector.<_IPaquetSortant>;
       
-      public function _Connexion(param1:String = null, param2:uint = 0)
+      public function _Connexion(host:String = null, port:uint = 0)
       {
          super();
          this._socket = new Socket();
          this._sauvegardeSequences = new Vector.<_IPaquetSortant>();
          this.initialiseSignals();
-         if(param1 && param2)
+         if(host && port)
          {
-            this._socket.connect(param1,param2);
+            this._socket.connect(host,port);
          }
       }
       
